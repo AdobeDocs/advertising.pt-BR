@@ -3,7 +3,7 @@ title: Listar as disposições e anúncios de um contrato privado
 description: Saiba como abrir uma lista de disposições e anúncios associados a um negócio privado.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

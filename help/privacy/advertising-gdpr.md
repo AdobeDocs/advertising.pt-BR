@@ -3,9 +3,9 @@ title: Suporte de publicidade Adobe para o Regulamento Geral sobre a Proteção 
 description: Saiba mais sobre os tipos de solicitação de dados suportados, a configuração necessária e os valores de campo, e exemplos de solicitações de acesso à API usando IDs de produto herdadas e campos de dados retornados
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Todas essas etapas são necessárias para Adobe Advertising. Para obter mais inf
 
 ## Valores de campo obrigatórios em solicitações JSON de publicidade do Adobe
 
-&quot;contexto da empresa&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*seu valor da ID da organização IMS*>

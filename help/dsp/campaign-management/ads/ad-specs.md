@@ -3,7 +3,7 @@ title: Especificações do anúncio
 description: Consulte as especificações gerais e específicas do editor.
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -177,7 +177,6 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
    * Tipo de arquivo: JPEG, JPG, PNG, GIF, HTML
    * Tamanho máximo do arquivo: 2 MB
    * Dimension: 300x250
- 
 
 ## Anúncios de exibição nativos
 

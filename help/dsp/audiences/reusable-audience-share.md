@@ -3,7 +3,7 @@ title: Compartilhar um público-alvo reutilizável
 description: Saiba como compartilhar um público-alvo reutilizável com outros anunciantes disponíveis na sua conta.
 feature: DSP Audiences
 exl-id: 8a5d432b-42d7-4b3b-845f-32a70dd5d1b7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -16,11 +16,11 @@ Se você ainda não estiver compartilhando um público-alvo com os anunciantes d
 
 Depois de compartilhar um público-alvo, você não pode parar de compartilhá-lo.
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Share]**.
 
-1. Selecione a opção para **[!UICONTROL Share with all advertisers in my account ]**.
+1. Selecione a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Clique em **[!UICONTROL Save]**.
 

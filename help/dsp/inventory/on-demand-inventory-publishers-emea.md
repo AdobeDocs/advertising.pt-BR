@@ -3,7 +3,7 @@ title: "[!DNL On Demand] Publicadores de inventário premium na Europa, Oriente 
 description: "[!DNL On Demand] Publicadores de inventário premium na Europa, Oriente Médio e África"
 feature: DSP On Demand Inventory
 exl-id: e56fd637-fb01-4bc0-9125-aa6844eeccc4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!DNL Future] | Reino Unido |
 | [!DNL Gameloft] | Reino Unido |
 | [!DNL Gentside] | Reino Unido |
-| [!DNL GiveMeSport ] | Reino Unido |
+| [!DNL GiveMeSport] | Reino Unido |
 | [!DNL Hearst] | Reino Unido |
 | [!DNL King] | Reino Unido |
 | [!DNL Ladbible] | Reino Unido |

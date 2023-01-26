@@ -3,7 +3,7 @@ title: Importar segmentos do Adobe Audience Manager para o direcionamento de an�
 description: Saiba como importar seu [!DNL Adobe] públicos-alvo em Advertising DSP e Pesquisar usando Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -109,7 +109,7 @@ A importação inicial demora cerca de 24 horas. Após a importação inicial, o
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ Em [!DNL Creative], os segmentos estão disponíveis nas configurações de expe
 
 ### Em [!DNL Advertising Search]
 
-No [!DNL [!DNL Search]], os segmentos estão disponíveis ao criar um [!DNL Google] público-alvo usando a [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+No [!DNL [!DNL Search]], os segmentos estão disponíveis ao criar um [!DNL Google] público-alvo usando o [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 Para cada [!DNL Google] público-alvo criado, [!DNL Google] O fornece o tamanho do público-alvo.
 

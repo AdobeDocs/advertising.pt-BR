@@ -2,8 +2,8 @@
 title: Métricas de publicidade do Adobe no Analysis Workspace
 description: Métricas de publicidade do Adobe no Analysis Workspace
 feature: Integration with Adobe Analytics
-exl-id: d740bd19-c643-4917-9cfd-f9cf0affd07e
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AMO Views 75% Complete] | O número de visualizações nas quais pelo menos 75% de um vídeo de Adobe Advertising foi assistido. |
 | [!UICONTROL AMO Views 100% Complete] | A quantidade de visualizações para as quais 100% de um vídeo de anúncio de Adobe foi assistido. |
 | [!UICONTROL AMO Viewable Impressions] | O número de impressões que foram medidas para serem visualizadas de acordo com a configuração da disposição. |
-| [!UICONTROL AMO Not Viewable Impressions] | O número de impressões que foram determinadas como não visualizáveis. Esse valor é calculado como ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable]). |
+| [!UICONTROL AMO Not Viewable Impressions] | O número de impressões que foram determinadas como não visualizáveis. Esse valor é calculado como ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable ]). |
 | [!UICONTROL AMO Measurable Impressions] | O número de impressões servidas para as quais a instrumentação de visualização foi inicializada com êxito. Esse valor é calculado como (impressões instrumentadas - o número de impressões não mensuráveis). |
 
 ## Métricas calculadas personalizadas úteis para publicidade no Adobe

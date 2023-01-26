@@ -2,8 +2,8 @@
 title: Colunas em planilhas baixadas/carregadas
 description: Faça referência às colunas em planilhas de controle de qualidade do Excel baixadas e carregadas.
 feature: DSP Placements
-exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | O lance máximo da disposição. | Sim |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | A estratégia de ritmo de voo para a colocação: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]* ou *[!UICONTROL aggressive frontload]*. | Sim |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | A estratégia de ritmo intradiário para o posicionamento: *[!UICONTROL Even]* ou *[!UICONTROL ASAP]*. | Sim |
-| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Qualquer critério de filtro pré-lance a ser aplicado. | — |
+| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | Qualquer critério de filtro pré-lance a ser aplicado. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Se as regras de licitação (obsoleto) são *[!UICONTROL ON]* ou *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | O limite de frequência principal para a colocação durante o período especificado [!UICONTROL Frequency Cap Interval]. | Sim |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervalo para o limite de frequência primária: *[!UICONTROL Day]*, *[!UICONTROL Week]* ou *[!UICONTROL Month]*. | Sim |

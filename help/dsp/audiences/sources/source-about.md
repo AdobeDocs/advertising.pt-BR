@@ -2,8 +2,8 @@
 title: Sobre a ativação de segmentos autenticados de fontes de público-alvo
 description: Saiba mais sobre como assimilar segmentos primários de uma plataforma de dados do cliente.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Para obter mais informações sobre destinos, consulte o Experience Platform [Gu
 
 1. [Criar uma fonte de público-alvo](source-create.md) para importar públicos para sua conta DSP ou para uma conta do anunciante.
 
-1. [Configure um [!DNL Real-Time CDP] conexão de destino no Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+1. [Configure um [!DNL Real-Time CDP] conexão de destino no Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
 
 Para obter suporte adicional, entre em contato com seu [!DNL Adobe] equipe de conta ou `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ Para obter suporte adicional, entre em contato com seu [!DNL Adobe] equipe de co
 >* [Ativar segmentos autenticados de parceiros de ID duráveis](source-durable-id.md)
 >* [Criar uma fonte de público-alvo para ativar públicos-alvo primários](source-create.md)
 >* [Configurações de origem do público-alvo](source-settings.md)
->* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* Adobe Experience Platform [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
 

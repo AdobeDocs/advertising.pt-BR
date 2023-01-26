@@ -2,8 +2,8 @@
 title: Perguntas frequentes sobre o Campaign Management
 description: Saiba mais sobre o gerenciamento de campanhas, incluindo o período de latência para alterações e o que acontece quando você faz alterações no orçamento durante um voo.
 feature: DSP Packages, DSP Placements
-exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

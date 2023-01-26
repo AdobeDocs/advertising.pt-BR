@@ -3,9 +3,9 @@ title: Importar segmentos do Adobe Audience Manager para o direcionamento de an�
 description: Saiba como importar seu [!DNL Adobe] públicos-alvo em Advertising DSP e Pesquisar usando Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ DSP publicitárias e [!DNL Advertising Search] Cada um pode obter metadados, dad
 
 * Segmentos do Adobe Analytics publicados na Adobe Experience Cloud
 
-* Segmentos criados no Adobe Experience Cloud usando o [!DNL People core service]
+* Segmentos criados com o Adobe Experience Cloud [!DNL Audience Library]
 
 * Segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising via Audience Manager
 
@@ -148,7 +148,7 @@ Em [!DNL Creative], os segmentos estão disponíveis nas configurações de expe
 
 ### Em [!DNL Advertising Search]
 
-No [!DNL [!DNL Search]], os segmentos estão disponíveis ao criar um [!DNL Google] público-alvo usando o [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+No [!DNL [!DNL Search]], os segmentos estão disponíveis ao criar um [!DNL Google] público-alvo usando a [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 Para cada [!DNL Google] público-alvo criado, [!DNL Google] O fornece o tamanho do público-alvo.
 

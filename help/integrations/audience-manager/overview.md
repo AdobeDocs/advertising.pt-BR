@@ -3,9 +3,9 @@ title: Integrações de publicidade do Adobe com o Adobe Audience Manager
 description: Saiba mais sobre as diferentes maneiras pelas quais a Adobe Advertising pode trocar dados com o Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Você pode integrar a publicidade Adobe com o Audience Manager das seguintes man
 
 *Anunciantes aceitos com [!DNL Advertising Search] only*
 
-Dentro do [!DNL [!DNL Search]], você pode criar [!DNL Google Ads] O cliente do Google corresponde públicos-alvo de IDs de usuário usando seus segmentos de Audience Manager existentes que têm [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] é um nome anterior para o [!DNL [!DNL Search]].) Isso inclui segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos que são criados na Adobe Experience Cloud usando a variável [!DNL People core service]. Para obter mais informações, consulte a ajuda do produto no [!DNL [!DNL Search]].
+Dentro do [!DNL [!DNL Search]], você pode criar [!DNL Google Ads] O cliente do Google corresponde públicos-alvo de IDs de usuário usando seus segmentos de Audience Manager existentes que têm [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] é um nome anterior para o [!DNL [!DNL Search]].) Isso inclui segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos que são criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte a ajuda do produto no [!DNL [!DNL Search]].
 
 [Correspondência de clientes de IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo baseados em tags de site, mas uma ID que não seja de PII é atribuída a membros exclusivos do público-alvo para benefícios distintos em relação à correspondência de clientes padrão e públicos baseados em tags de site.
 

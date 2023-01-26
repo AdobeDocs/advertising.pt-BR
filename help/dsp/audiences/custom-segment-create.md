@@ -2,8 +2,8 @@
 title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
-exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
 1. Crie o segmento:
 
-   1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
 
@@ -36,7 +36,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
 1. Copie e implemente tags para rastrear o segmento, conforme necessário:
 
-   1. Retornar para **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Retornar para **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    2. Segure o cursor sobre a linha de segmento e clique em **[!UICONTROL Get Pixel]**.
 

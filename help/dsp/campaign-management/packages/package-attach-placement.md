@@ -2,8 +2,8 @@
 title: Anexar uma disposição a um pacote
 description: Saiba como anexar uma disposição a um pacote.
 feature: DSP Packages
-exl-id: 443aa1a3-c8b9-4949-87be-5a37e67f00a8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
 
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]> [!UICONTROL Attach a Placement].**
+1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
 1. Siga um destes procedimentos:
 

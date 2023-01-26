@@ -2,8 +2,8 @@
 title: Editar informações de segmento
 description: Saiba como editar informações sobre um segmento de recusa de venda personalizado ou da CCPA.
 feature: DSP Segments
-exl-id: a121264f-7fa6-454e-b66a-f6bc0db98890
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Você pode editar o nome e a janela de pesquisa de um segmento personalizado ou o nome de um segmento de recusa de venda do CCPA. As tags de segmento não são alteradas ao editar as configurações.
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Segure o cursor sobre a linha de segmento e clique em **[!UICONTROL Edit]**.
 

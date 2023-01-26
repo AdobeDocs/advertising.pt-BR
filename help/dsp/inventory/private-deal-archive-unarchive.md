@@ -2,8 +2,8 @@
 title: Arquivar ou desarquivar um contrato privado
 description: Saiba como arquivar ou desarquivar um negócio privado.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Você pode desarquivar um negócio para restaurar seu status anterior a qualquer
 
 ## Arquivar um acordo privado
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. Na linha de negociação, clique em **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Na linha de negociação, clique em **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ Você pode desarquivar um negócio para restaurar seu status anterior a qualquer
 
 ## Desarquivar um contrato privado
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Acima da lista de negócios, clique em ![Filtro](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** e selecione *[!UICONTROL Archived]*; e, em seguida, clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Na linha de negociação, clique em **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Na linha de negociação, clique em **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 Se o editor ou o SSP tiver desativado anteriormente a venda e quiser usá-la novamente, entre em contato diretamente com o editor ou o SSP.

@@ -2,8 +2,8 @@
 title: Listar as disposições e anúncios de um contrato privado
 description: Saiba como abrir uma lista de disposições e anúncios associados a um negócio privado.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Você pode abrir uma lista de todas as disposições e anúncios associados a um negócio privado. Opcionalmente, é possível abrir as configurações de qualquer disposição ou publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negociação, clique em  **[!UICONTROL ...]>[!UICONTROL Placements and Ads]**.
+1. Na linha de negociação, clique em  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
    O [!UICONTROL Placements] é exibida por padrão. Para exibir as publicidades, clique no botão [!UICONTROL Ads] guia .
 
@@ -24,11 +24,11 @@ Você pode abrir uma lista de todas as disposições e anúncios associados a um
 
    * Para editar as configurações de uma disposição, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL Edit]**. [Editar as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e, em seguida, clique em **[!UICONTROL Update placement]**.
 
-   * Para remover a negociação dos destinos de inventário de uma disposição, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]>[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
+   * Para remover a negociação dos destinos de inventário de uma disposição, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
       Desanexar a disposição não exclui a disposição.
 
-   * Para editar as configurações de uma publicidade, mantenha o cursor sobre a linha da publicidade e clique em **[!UICONTROL More]>[!UICONTROL Edit]**. [Editar as configurações de publicidade](/help/dsp/campaign-management/ads/ad-edit.md)e, em seguida, clique em **[!UICONTROL Save & submit for review]**.
+   * Para editar as configurações de uma publicidade, mantenha o cursor sobre a linha da publicidade e clique em **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Editar as configurações de publicidade](/help/dsp/campaign-management/ads/ad-edit.md)e, em seguida, clique em **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >

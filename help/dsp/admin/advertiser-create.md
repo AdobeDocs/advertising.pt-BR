@@ -1,7 +1,7 @@
 ---
 title: Criar uma conta de anunciante
 description: Saiba como criar uma conta de anunciante.
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Os anunciantes estão disponíveis para todos os usuários na conta da organização.
 
-1. No menu principal, clique em **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Clique em **[!UICONTROL Create]**.
 

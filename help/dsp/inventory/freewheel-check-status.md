@@ -2,8 +2,8 @@
 title: Verifique o status dos anúncios de um [!DNL [!DNL FreeWheel]] Contrato PG
 description: Saiba como encontrar o status dos anúncios para [!DNL Freewheel] acordos programáticos garantidos.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Para dúvidas ou problemas adicionais com a reapresentação, entre em contato c
 
 1. No submenu, clique em **[!UICONTROL Ads]**.
 
-1. Ao lado do nome da publicidade, clique em  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. Ao lado do nome da publicidade, clique em  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Opcional) Para reenviar uma publicidade para aprovação, mantenha o cursor sobre a linha de publicidade e clique em **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Opcional) Para reenviar uma publicidade para aprovação, mantenha o cursor sobre a linha de publicidade e clique em **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Verifique o status no [!UICONTROL Deals] Exibir
 
-1. No menu principal, clique em **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Siga um destes procedimentos:
 
@@ -44,7 +44,7 @@ Para dúvidas ou problemas adicionais com a reapresentação, entre em contato c
 
    Para envios com falha, a variável [!UICONTROL API] A coluna Response indica o erro. Para obter uma lista completa de códigos de erro para envios com falha e as próximas etapas para corrigi-los, consulte &quot;[Códigos de erro para [!DNL FreeWheel] Envio de anúncios](freewheel-error-codes.md).&quot;
 
-1. (Opcional) Para reenviar uma publicidade para aprovação, mantenha o cursor sobre a linha de publicidade e clique em **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Opcional) Para reenviar uma publicidade para aprovação, mantenha o cursor sobre a linha de publicidade e clique em **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

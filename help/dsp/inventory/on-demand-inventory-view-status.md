@@ -2,8 +2,8 @@
 title: Ver o status de seu [!DNL On Demand] Solicitações e assinaturas de contrato
 description: Saiba como visualizar o status de seu [!DNL On Demand] lidar com solicitações e assinaturas.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Depois de solicitar uma venda individual ou assinar todas as ofertas de um editor, veja se o editor aprovou ou rejeitou cada venda para cada anunciante em sua conta.
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. Filtre as ofertas disponíveis para incluir ofertas que você solicitou ou assinou (**[!UICONTROL Currently subscribed to]**)**.
 1. Siga um destes procedimentos:
    * Para visualizar as ofertas na [!UICONTROL Deal] exibir, clique em **[!UICONTROL Deal view]**.

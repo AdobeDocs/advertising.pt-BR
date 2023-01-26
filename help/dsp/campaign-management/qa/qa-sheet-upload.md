@@ -2,8 +2,8 @@
 title: Fazer upload de configurações de disposição para uma campanha
 description: Saiba como fazer upload de alterações nas principais configurações de posicionamento de uma campanha usando planilhas de QA do Excel.
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Para postar alterações em alguns tipos de configurações de posicionamento pa
 
 1. Siga um destes procedimentos:
 
-   * Ao lado do nome da campanha, clique em **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * Clique no nome da campanha para visualizar os detalhes da campanha. No canto superior direito, clique em **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Clique no nome da campanha para visualizar os detalhes da campanha. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. No [!UICONTROL Edit in Excel] caixa de diálogo:
 

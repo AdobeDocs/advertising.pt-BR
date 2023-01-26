@@ -2,8 +2,8 @@
 title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Você pode salvar e gerenciar públicos reutilizáveis, que são grupos de segmentos de público-alvo e até outros públicos salvos, que podem ser usados como alvos ou exclusões para várias disposições.
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ Você pode salvar e gerenciar públicos reutilizáveis, que são grupos de segme
 
       1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todos os públicos , mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Na exibição Todos os públicos , mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações do público-alvo existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nas configurações do público-alvo existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanumérico e [Sintaxe booleana](audience-segment-logic-syntax.md)e copie-o para a área de transferência.
       1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.

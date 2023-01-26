@@ -1,9 +1,9 @@
 ---
-title: "Criar um [!UICONTROL Simple Ad Serving] Acordo"
-description: "Saiba como criar um pixel de rastreamento para um [!UICONTROL Simple Ad Serving] acordo."
+title: Crie um [!UICONTROL Simple Ad Serving] Acordo
+description: Saiba como criar um pixel de rastreamento para um [!UICONTROL Simple Ad Serving] acordo.
 feature: DSP Simple Ad Serving
-exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Crie um [!UICONTROL Simple Ad Serving] Acordo
 
-1. No menu principal, clique em **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Simple Ad Serving]**.
 

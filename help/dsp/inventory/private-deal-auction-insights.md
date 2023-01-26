@@ -2,8 +2,8 @@
 title: Exibir insights de leilão para um contrato privado
 description: Saiba como usar insights de leilão para analisar a composição de negócios de negócios privados.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 O Insights do leilão é uma ferramenta de solução de problemas que permite analisar a composição de negócios de ofertas privadas garantidas e não garantidas. Usando visualizações de dados, essa ferramenta mostra a tendência e as proporções relativas dos valores recebidos para [principais atributos de leilão](#auction-attributes) dentro de um período de tempo específico.
 
-1. No menu principal, clique em **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negociação, clique em  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. Na linha de negociação, clique em  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Os Insights de leilão também estão disponíveis por meio da inserção [!UICONTROL Inspector] ferramenta. Para abri-las, [abrir a disposição [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) para [!UICONTROL Inventory tab]e, em seguida, clique em **[!UICONTROL ...]>[!UICONTROL Auction Insights]** na linha de negócios.
+>Os Insights de leilão também estão disponíveis por meio da inserção [!UICONTROL Inspector] ferramenta. Para abri-las, [abrir a disposição [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) para [!UICONTROL Inventory tab]e, em seguida, clique em **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** na linha de negócios.
 
 ## Atributos de Leilão {#auction-attributes}
 

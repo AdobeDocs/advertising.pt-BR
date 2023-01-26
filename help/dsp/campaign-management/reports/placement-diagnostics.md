@@ -2,8 +2,8 @@
 title: Exibir os relatórios de diagnóstico de posicionamento
 description: Saiba como diagnosticar problemas com a configuração e o ritmo do posicionamento.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ As ferramentas a seguir podem ajudá-lo a diagnosticar problemas com a configura
    1. Abra as configurações de posicionamento:
       1. No menu principal, clique em **[!UICONTROL Campaigns]**.
       1. Clique no nome da campanha e, em seguida, clique em **[!UICONTROL Placements]**.
-      1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. No canto superior direito, clique em ![Diagnóstico de posicionamento](/help/dsp/assets/placement-diagnostics.png) ou **[!UICONTROL Diagnostic]**.
 1. Siga um destes procedimentos:
    * Para exibir o log de alterações:

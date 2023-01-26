@@ -2,8 +2,8 @@
 title: Editar um público-alvo reutilizável
 description: Saiba como editar um público-alvo reutilizável.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Ao editar um público-alvo usado em quaisquer disposições ou outros públicos reutilizáveis, as alterações são aplicadas imediatamente a essas disposições e públicos-alvo.<!-- verify -->
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ Ao editar um público-alvo usado em quaisquer disposições ou outros públicos 
 
       1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todos os públicos , mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Na exibição Todos os públicos , mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações do público-alvo existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nas configurações do público-alvo existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanumérico e [Sintaxe booleana](audience-segment-logic-syntax.md)e copie-o para a área de transferência.
       1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.

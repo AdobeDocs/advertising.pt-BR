@@ -2,8 +2,8 @@
 title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Edite o [configurações de posicionamento](placement-settings.md).
 
@@ -88,5 +88,5 @@ Use esta opção somente quando quiser aplicar as mesmas alterações a todas as
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Sobre a correção das configurações de disposição de uma campanha usando planilhas](/help/dsp/campaign-management/qa/qa-about.md)
->* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

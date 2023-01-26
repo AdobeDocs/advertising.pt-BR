@@ -2,8 +2,8 @@
 title: Arquivar ou desarquivar um pacote
 description: Saiba como arquivar ou desarquivar um pacote.
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Você pode desarquivar um pacote para restaurar seu status anterior a qualquer m
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Você pode desarquivar um pacote para restaurar seu status anterior a qualquer m
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

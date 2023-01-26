@@ -2,8 +2,8 @@
 title: Exibir um Relatório detalhado para um particular, [!UICONTROL On Demand]ou [!UICONTROL Simple Ad Serving] Acordo
 description: Saiba como abrir um relatório de nível de negócios.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 O relatório de nível de negócios inclui o número de leilões, a taxa de licitação, a taxa de ganho, o número de impressões, o total de gastos líquidos, a CMP efetiva (eCPM) e a taxa de conclusão. Você pode visualizar métricas de desempenho adicionais por anunciante, campanha, disposição, tipo de anúncio e site.
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Na linha de negociação, clique em **[!UICONTROL ...]>[!UICONTROL View Report]**.
+1. Na linha de negociação, clique em **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
 1. (Opcional) Personalize o intervalo de datas no qual deseja visualizar os dados.
 

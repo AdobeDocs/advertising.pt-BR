@@ -2,8 +2,8 @@
 title: Exibir um log de alterações de posicionamento
 description: Saiba como visualizar as alterações feitas na disposição.
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Você pode classificar os dados pela coluna Tipo, Modificado por ou Data de modi
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

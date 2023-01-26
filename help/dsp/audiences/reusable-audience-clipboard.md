@@ -2,8 +2,8 @@
 title: Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência
 description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público-alvo reutilizável.
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Você pode copiar a chave de segmento alfanumérica (ID) de um público-alvo para a área de transferência. Você pode usar chaves de segmento para [definir manualmente a lógica do segmento](audience-segment-logic-syntax.md) para outros públicos-alvo reutilizáveis.
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

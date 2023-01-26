@@ -2,8 +2,8 @@
 title: Exibir detalhes sobre um público-alvo reutilizável
 description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público-alvo reutilizável.
 feature: DSP Audiences
-exl-id: 54e25dcf-cbad-4be2-8d72-b1bb666b82b2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exibir detalhes sobre um público-alvo reutilizável
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL View Details]**.
 

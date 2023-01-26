@@ -1,8 +1,8 @@
 ---
 title: Reenviar um Convite de Usuário Pendente
 description: Saiba como reenviar um convite de usuário pendente.
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Você pode reenviar um convite para um usuário com um convite pendente para a c
 
 1. Siga um destes procedimentos:
 
-   * No menu principal, clique em **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * No menu principal, clique em **[!UICONTROL Settings]>[!UICONTROL Account]** e, em seguida, clique em **[!UICONTROL Edit users]**.
+   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Account]** e, em seguida, clique em **[!UICONTROL Edit users]**.
 
 1. No **Convites** seção , clique em ![Reenviar](/help/dsp/assets/resend.png).
 

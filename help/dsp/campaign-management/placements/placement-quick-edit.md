@@ -2,8 +2,8 @@
 title: Editar rapidamente as configurações de posicionamento de chaves
 description: Saiba como alterar rapidamente as configurações de posicionamento das chaves.
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Você pode editar o nome da disposição, o status, o lance máximo e o orçamen
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. Edite qualquer uma das opções disponíveis [configurações de posicionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** e **[!UICONTROL Budget]**.
 1. Clique em **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ Você pode editar o nome da disposição, o status, o lance máximo e o orçamen
 >* [Pausar ou ativar uma disposição](placement-pause-activate.md)
 >* [Exibir o log de alterações para uma disposição](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

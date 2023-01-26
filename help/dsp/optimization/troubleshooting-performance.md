@@ -2,8 +2,8 @@
 title: Solução de problemas de desempenho
 description: Consulte problemas comuns de desempenho e veja como solucioná-los.
 feature: DSP Optimization
-exl-id: adb32257-dede-4623-9840-33221c218443
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 | Problema | Causa Possível | Ações a serem tomadas |
 | --- | --- | --- |
-| Nenhum gasto com posicionamento | A disposição não inclui anúncios e/ou os anúncios não estão ativos. | Verifique se todos os anúncios esperados estão conectados à disposição e são aprovados e ativos.<br><br>Além disso, veja se a disposição inclui um agendamento de anúncio personalizado, o que pode limitar o período de voo de cada anúncio. Para visualizar o agendamento do anúncio para uma disposição na exibição Disposições, clique em  **[!UICONTROL ...]>[!UICONTROL Ad schedule]** ao lado do nome da disposição. |
+| Nenhum gasto com posicionamento | A disposição não inclui anúncios e/ou os anúncios não estão ativos. | Verifique se todos os anúncios esperados estão conectados à disposição e são aprovados e ativos.<br><br>Além disso, veja se a disposição inclui um agendamento de anúncio personalizado, o que pode limitar o período de voo de cada anúncio. Para visualizar o agendamento do anúncio para uma disposição na exibição Disposições, clique em  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** ao lado do nome da disposição. |
 |  | As datas afetadas não estão dentro das datas de envio configuradas. | Verifique se as datas de envio são válidas no nível da campanha, do pacote e da disposição &#x200B; s. |
 |  | A meta de orçamento foi alcançada e/ou não é alta o suficiente. | Verifique as configurações de orçamento nos níveis de campanha, pacote e disposição. |
-|  | A conta não tem financiamento suficiente. | Para ver se sua conta tem financiamento adequado, acesse **[!UICONTROL Settings]>[!UICONTROL Account]** e olhe para a quantidade de [!UICONTROL Usable Funds]. Se precisar adicionar mais fundos, entre em contato com seu [!DNL Adobe] equipe da conta. |
+|  | A conta não tem financiamento suficiente. | Para ver se sua conta tem financiamento adequado, acesse **[!UICONTROL Settings]** > **[!UICONTROL Account]** e olhe para a quantidade de [!UICONTROL Usable Funds]. Se precisar adicionar mais fundos, entre em contato com seu [!DNL Adobe] equipe da conta. |
 |  | Não há estoque disponível. | Verifique se as fontes de inventário especificadas ([!UICONTROL Public], [!UICONTROL Private]ou [!UICONTROL On Demand]) são:<ul><li>Configure corretamente.</li><li>Ativo e envio através de leilões.</li><li>Compatível com o tipo de anúncio e disposição aplicáveis.</li></ul><br>Se todas as fontes de inventário forem válidas e ativas, direcione fontes adicionais ou todas as fontes de inventário sempre que possível. |
 |  | Nenhum usuário está disponível. | Verifique se os públicos-alvo especificados incluem suficientes usuários ativos. Caso contrário, expanda as metas adicionando mais públicos-alvo. |
 | Baixo gasto com posicionamento | O [!UICONTROL Non Bids] A seção do relatório de diagnósticos de posicionamento mostra possíveis motivos para a colocação não ter sido feita uma oferta. | [Revise o [!UICONTROL Non Bids] relatório](/help/dsp/campaign-management/reports/placement-diagnostics.md) para entender por que a disposição não ofereceu.  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

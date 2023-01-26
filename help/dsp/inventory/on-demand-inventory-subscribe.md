@@ -2,8 +2,8 @@
 title: Assinar e solicitar acesso a [!DNL On Demand] Contratos de inventário premium
 description: Saiba como assinar e solicitar acesso a[!DNL On Demand] ofertas.
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
 ## Assinar todos os contratos de um editor
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Opcional) Filtre as ofertas ou editores disponíveis por qualquer um dos seguintes critérios:
 
@@ -36,7 +36,8 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
    * Contratos de **[!UICONTROL TV Broadcasters]**
 
-   * Ofertas de editores que aceitam criativos &quot;sintonizados&quot; (**[!UICONTROL Tune-In]**)
+   * Ofertas de editores que aceitam criativos de &quot;afinação&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Contratos para os quais o editor aplicou mais de 21 metas e aceita anúncios em álcool (**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
 ## Solicitar acesso a contratos individuais
 
-1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Opcional) Filtre as ofertas ou editores disponíveis por qualquer um dos seguintes critérios:
 
@@ -64,7 +65,8 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
    * Contratos de **[!UICONTROL TV Broadcasters]**
 
-   * Ofertas de editores que aceitam criativos &quot;sintonizados&quot; (**[!UICONTROL Tune-In]**)
+   * Ofertas de editores que aceitam criativos de &quot;afinação&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Contratos para os quais o editor aplicou mais de 21 metas e aceita anúncios em álcool (**[!UICONTROL Legal drinking age]**)
 

@@ -2,8 +2,8 @@
 title: Duplicação de disposições
 description: Saiba como duplicar uma ou mais disposições.
 feature: DSP Placements
-exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Consulte &quot;[O que não é duplicado](#placement-not-duplicated)&quot; para o
 
 1. Siga um destes procedimentos:
 
-   * Para duplicar uma disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Duplicate]** ao lado do nome do pacote.
+   * Para duplicar uma disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** ao lado do nome do pacote.
 
    * Para duplicar várias disposições:
 

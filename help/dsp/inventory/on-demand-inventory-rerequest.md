@@ -2,8 +2,8 @@
 title: Resolicitação [!DNL On Demand] Contratos de inventário premium
 description: Saiba como solicitar novamente [!DNL On Demand] negócios que foram negados anteriormente.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
 1. Confirme se a categoria do anunciante da conta do anunciante aplicável está correta:
 
-   1. No menu principal, clique em **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. Mantenha o cursor sobre a linha do anunciante e clique em **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 
 1. Solicite novamente o inventário:
 
-   1. No menu principal, clique em **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. Filtre as ofertas disponíveis para incluir ofertas que você solicitou (**[!UICONTROL Currently subscribed to]**)**.
 

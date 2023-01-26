@@ -2,8 +2,8 @@
 title: Pausar ou ativar uma disposição
 description: Saiba como pausar ou ativar uma disposição.
 feature: DSP Placements
-exl-id: 9b7f1a2b-0ced-4e09-870b-172897e49b27
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -19,14 +19,14 @@ Pause uma disposição em tempo real ou ative uma disposição pausada quando el
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Pause]**.
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Ativar uma disposição pausada
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]>[!UICONTROL Activate]**.
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >

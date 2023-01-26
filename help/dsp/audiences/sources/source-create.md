@@ -2,8 +2,8 @@
 title: Criar uma fonte de público-alvo para ativar públicos-alvo primários
 description: Saiba como criar uma fonte para importar públicos para sua conta ou conta de anunciante.
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Crie uma fonte para importar públicos para sua conta de DSP ou para uma conta d
 >
 >Depois de criar uma fonte para a variável [!DNL Real-Time CDP], será necessário ativar o [!DNL Real-Time CDP] públicos-alvo por meio do destino Adobe Advertising DSP dentro de [!DNL Real-Time CDP] para começar a importá-los. Consulte [as etapas no fluxo de trabalho de ativação](source-about.md#workflow-sources).
 
-1. No menu principal, clique em **[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. Clique em [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ Crie uma fonte para importar públicos para sua conta de DSP ou para uma conta d
 
 1. No Experience Platform, crie uma conexão de destino de DSP de publicidade usando o [!UICONTROL Source Key] que foi gerada nas configurações de origem do DSP.
 
-   Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Configurações de origem do público-alvo](source-settings.md)
 >* [Sobre a ativação de segmentos autenticados de fontes de público-alvo](source-about.md)
 >* [Ativar segmentos autenticados de parceiros de ID duráveis](source-durable-id.md)<!-- title?-->
->* [Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
 

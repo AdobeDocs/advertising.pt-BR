@@ -2,8 +2,8 @@
 title: Enviar um anúncio para um contrato PG [!DNL FreeWheel]
 description: Saiba como solicitar aprovação para um anúncio para um contrato programático garantido com um editor em [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
+exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -26,15 +26,13 @@ Uma vez [aceitar um acordo programático garantido com um editor no FreeWheel](#
 
    1. No submenu, clique em **[!UICONTROL Ads]**.
 
-   1. Clique em  **[!UICONTROL ...]>[!UICONTROL Edit]** ao lado do nome do anúncio.
+   1. Clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]** ao lado do nome do anúncio.
 
    1. Depois que as configurações de publicidade forem abertas, copie a chave de publicidade alfanumérica no URL exibido na barra de endereços do navegador.
 
       Por exemplo, no URL a seguir, a chave da publicidade é `3NtNC5ZbaGZtqbei8jD3`
 
-      ```
-      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
-      ```
+      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
 1. Envie o anúncio para [!DNL Freewheel]:
 

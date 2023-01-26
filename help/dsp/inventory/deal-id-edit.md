@@ -2,8 +2,8 @@
 title: Editar Configurações de Negociação Privada
 description: Saiba como editar detalhes de um negócio privado.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 As alterações em um negócio aceito não são sincronizadas da SSP. Se você aceitou uma oferta, mas o editor enviou alterações, é possível editar alguns elementos das configurações de negócios de [!UICONTROL Inventory] > [!UICONTROL Deals]. Você também pode renomear um negócio a qualquer momento.
 
-1. No menu principal, clique em **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negociação, clique em  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. Na linha de negociação, clique em  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. Edite o [configurações de negócios](deal-id-settings.md).
 

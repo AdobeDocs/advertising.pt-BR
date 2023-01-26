@@ -2,8 +2,8 @@
 title: Excluir um público-alvo reutilizável
 description: Saiba como excluir um público-alvo reutilizável.
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Você pode excluir um público-alvo que não seja usado em nenhuma disposição 
 
 Se um público-alvo for usado no momento, você terá a opção de exportar um [!DNL Microsoft Excel] planilha que mostra todas as disposições e públicos-alvo que usam o público-alvo.
 
-1. No menu principal, clique em **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Delete]**.
 

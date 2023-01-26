@@ -2,10 +2,10 @@
 title: Criar e implementar um segmento de recusa de venda da CCPA
 description: Saiba como criar e implementar um segmento para rastrear as IDs de usuários das solicitações de cancelamento da venda do consumidor.
 feature: CCPA, DSP Segments
-exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Quando a tag pixel do segmento for implementada, a Adobe Advertising começará 
 
 >[!NOTE]
 >
->* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA à Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
+>* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA à Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Para rastrear usuários que visitam páginas da Web para fins não relacionados ao rastreamento de eventos de não participação na venda do CCPA, bem como usuários expostos a anúncios de computadores, dispositivos móveis e dispositivos CTV, crie uma [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -38,7 +38,7 @@ Quando a tag pixel do segmento for implementada, a Adobe Advertising começará 
 
 1. Copie e implemente uma tag de pixel para rastrear o segmento:
 
-   1. Retornar para **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Retornar para **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. Na linha do segmento, mantenha o cursor sobre o novo segmento e clique em **[!UICONTROL Get pixel]**.
 
@@ -61,7 +61,7 @@ Quando a tag pixel do segmento for implementada, a Adobe Advertising começará 
 
 >[!MORELIKETHIS]
 >
->* [Suporte de publicidade Adobe para a Lei de Privacidade do Consumidor da Califórnia: Suporte ao cancelamento da adesão do consumidor](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Suporte de publicidade Adobe para a Lei de Privacidade do Consumidor da Califórnia: Suporte ao cancelamento da adesão do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e relatórios](ccpa-opt-out-about.md)
 >* [Recuperar relatórios de cancelamento da venda do consumidor](ccpa-opt-out-segment-report-retrieve.md)
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)

@@ -2,8 +2,8 @@
 title: Criar uma meta personalizada
 description: Criar uma meta personalizada
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma [!D
 
 1. Faça logon [!DNL Adobe Advertising Search] at (empresas dos EUA) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (empresas de todos os outros países) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Certifique-se de que as métricas que deseja incluir na sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativada para a métrica.
    1. Se a métrica não tiver um valor na variável **[!UICONTROL Display Name]** , clique na célula, insira o nome de exibição e clique em **[!UICONTROL Apply].**
 1. Criar a meta personalizada como uma *objetivo*:
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. Na barra de ferramentas, clique em **[!UICONTROL Create objective].**
    1. Insira as configurações do objetivo:
       1. No **[!UICONTROL Change Objective Name]** , insira o nome do objetivo.

@@ -3,7 +3,7 @@ title: Criar uma meta personalizada
 description: Criar uma meta personalizada
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma [!D
 >
 >Consulte a [práticas recomendadas para a criação de metas personalizadas](custom-goal-best-practices.md) para obter dicas sobre como configurar suas metas personalizadas.
 
-1. Faça logon [!DNL Adobe Advertising Search] at (empresas dos EUA) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (empresas de todos os outros países) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Faça logon [!DNL Adobe Advertising Search] at (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Certifique-se de que as métricas que deseja incluir na sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
    1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativada para a métrica.

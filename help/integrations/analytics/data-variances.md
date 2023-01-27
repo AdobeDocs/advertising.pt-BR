@@ -3,9 +3,9 @@ title: Variações de dados esperadas entre [!DNL Analytics] e publicidade Adobe
 description: Variações de dados esperadas entre [!DNL Analytics] e publicidade Adobe
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3279'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,11 @@ Considere essas diferenças ao comparar conversões view-through entre a publici
 
 Veja uma lista de [!DNL Analytics] modelos de atribuição e suas definições em [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-Se você estiver conectado [!DNL Search], você pode encontrar uma lista de modelos de atribuição em
-[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
+Se você estiver conectado [!DNL Search], você pode encontrar uma lista
+
+* (Usuários na América do Norte) [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+
+* (Todos os outros usuários) [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
 #### Atribuição de data do evento na publicidade Adobe
 

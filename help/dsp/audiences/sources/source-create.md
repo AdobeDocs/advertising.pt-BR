@@ -3,7 +3,7 @@ title: Criar uma fonte de público-alvo para ativar públicos-alvo primários
 description: Saiba como criar uma fonte para importar públicos para sua conta ou conta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Crie uma fonte para importar públicos para sua conta de DSP ou para uma conta d
 
 1. No Experience Platform, crie uma conexão de destino de DSP de publicidade usando o [!UICONTROL Source Key] que foi gerada nas configurações de origem do DSP.
 
-Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
+   Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

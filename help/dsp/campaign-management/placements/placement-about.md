@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de disposição no DSP de publicidade
 description: Saiba mais sobre o gerenciamento de posicionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,6 +49,5 @@ Para cada disposição, você pode abrir uma exibição detalhada ([o [!UICONTRO
 >* [Criar uma disposição](placement-create.md)
 >* [Exibir o log de alterações para uma disposição](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
-
-   >*[Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 

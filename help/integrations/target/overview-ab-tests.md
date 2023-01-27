@@ -2,9 +2,9 @@
 title: Configurar testes A/B para anúncios Adobe no Adobe Target
 description: Saiba como configurar um teste A/B no [!DNL Target] para sua DSP e [!DNL Search] anúncios.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Esse caso de uso requer os seguintes produtos e integrações:
 
 ![Estrutura de click-through](/help/integrations/assets/target-ct-framework.png)
 
-Ao adicionar DSP macros a um URL de click-through (o URL exibido quando um usuário clica em um anúncio e atinge a página de aterrissagem), o DSP captura automaticamente a chave de posicionamento ao incluir ```${TM_PLACEMENT_ID}``` no URL de click-through. Essa macro captura a chave de posicionamento alfanumérico e não a ID de posicionamento numérica.
+Ao adicionar DSP macros a um URL de click-through (o URL exibido quando um usuário clica em um anúncio e atinge a página de aterrissagem), o DSP captura automaticamente a chave de posicionamento ao incluir `${TM_PLACEMENT_ID}` no URL de click-through. Essa macro captura a chave de posicionamento alfanumérico e não a ID de posicionamento numérica.
 
 ![URL de click-through anexado ao URL da página de aterrissagem](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Ao adicionar um pixel de evento de impressão de Audience Manager em suas tags d
 
    1. No **Fonte de dados** , selecione **Ad Cloud**.
 
-   1. No Construtor de expressões, adicione ```d_event``` no campo Chave e ```imp``` no **Valor** , selecione **Adicionar regra** e, em seguida, salve a característica.
+   1. No Construtor de expressões, adicione `d_event` no campo Chave e `imp` no **Valor** , selecione **Adicionar regra** e, em seguida, salve a característica.
 
    ![Captura de tela de uma característica com base em regras](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Ao adicionar um pixel de evento de impressão de Audience Manager em suas tags d
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-As instruções a seguir destacam informações relacionadas ao caso de uso do DSP. Para obter instruções completas, consulte &quot;[Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
+As instruções a seguir destacam informações relacionadas ao caso de uso do DSP. Para obter instruções completas, consulte &quot;[Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
 
 1. [Faça logon no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -208,7 +208,7 @@ No Analysis Workspace, se você observar que os dados de atividade e experiênci
 
 * Na mesma página de aterrissagem, verifique se a) o Nome do host mostrado no Adobe Debugger em Soluções> Target corresponde a b) o Servidor de rastreamento mostrado em [!DNL Target] para a atividade (em Metas e configurações > Configurações da geração de relatórios).
 
-   [!DNL Analytics For Target] exige um [!DNL Analytics] servidor de rastreamento a ser enviado em chamadas de [!DNL Target] para [!DNL Modstats] servidor de coleta de dados do Analytics.&lt;!— apenas &quot;para o Analytics?&quot;>
+   [!DNL Analytics For Target] exige um [!DNL Analytics] servidor de rastreamento a ser enviado em chamadas de [!DNL Target] para [!DNL Modstats] servidor de coleta de dados do Analytics.<!-- just "to Analytics?"-->
 
 [Valor do nome do host no Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

@@ -3,7 +3,7 @@ title: '''[!DNL Adobe] [!DNL Audience Analytics] para clientes de publicidade do
 description: Saiba como usar [!DNL Adobe] [!DNL Audience Analytics] para casos de uso de publicidade
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%

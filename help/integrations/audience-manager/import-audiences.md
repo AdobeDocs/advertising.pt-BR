@@ -3,9 +3,9 @@ title: Importar segmentos do Adobe Audience Manager para o direcionamento de an�
 description: Saiba como importar seu [!DNL Adobe] públicos-alvo em Advertising DSP e Pesquisar usando Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP publicitárias e [!DNL Advertising Search] Cada um pode obter metadados, dad
 
 * Segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising via Audience Manager
 
-Para acessar [!DNL Adobe] públicos-alvo no DSP ou [!DNL Creative], você deve importar os públicos para o DSP. Para acessar [!DNL Adobe] públicos-alvo no [!DNL [!DNL Search]], você deve importar os públicos para o [!DNL [!DNL Search]].
+Para acessar [!DNL Adobe] públicos-alvo no DSP ou [!DNL Creative], você deve importar os públicos para o DSP. Para acessar [!DNL Adobe] públicos-alvo em [!DNL Search], você deve importar os públicos para [!DNL Search].
 
 ## Pré-requisitos
 
@@ -109,7 +109,7 @@ A importação inicial demora cerca de 24 horas. Após a importação inicial, o
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ Em [!DNL Creative], os segmentos estão disponíveis nas configurações de expe
 
 ### Em [!DNL Advertising Search]
 
-No [!DNL [!DNL Search]], os segmentos estão disponíveis ao criar um [!DNL Google] público-alvo usando a [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+Em [!DNL Search], os segmentos ficam disponíveis ao criar um [!DNL Google] público-alvo usando o [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; de [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 Para cada [!DNL Google] público-alvo criado, [!DNL Google] O fornece o tamanho do público-alvo.
 

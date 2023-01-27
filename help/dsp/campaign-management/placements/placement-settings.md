@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Inclua um código postal por linha ou insira vários valores separados por vírg
 
    Você pode pesquisar a lista por palavra-chave, chave, ID da transação ou tag personalizada.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Todos [prêmio, não garantido [!UICONTROL On Demand] inventário](/help/dsp/inventory/on-demand-inventory-about.md) ou [!UICONTROL On Demand] [!DNL] Ofertas do Roku para [!DNL Roku] disposições) nas quais você se inscreveu [!DNL DSP]. É possível incluir e excluir [!UICONTROL On Demand] inventário.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Todos [prêmio, não garantido [!UICONTROL On Demand] inventário](/help/dsp/inventory/on-demand-inventory-about.md) ou [!UICONTROL On Demand] [!DNL Roku] acordos para [!DNL Roku] disposições) nas quais você se inscreveu [!DNL DSP]. É possível incluir e excluir [!UICONTROL On Demand] inventário.
 
    É possível exibir a lista por origem ou por feed. Ao exibir a lista por feed, você pode pesquisar por nome de feed, chave de feed ou uma região do editor, tag de categoria ou tag característica selecionada.
 
@@ -188,14 +188,14 @@ Para especificar o direcionamento de inventário:
    1. Marque a caixa de seleção ao lado do nome do tipo de inventário.
    1. (Opcional) Altere as fontes para incluir:
       1. Clique em ![Editar](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] e [!UICONTROL On Demand] inventário) Clique *[!UICONTROL *View by Source]** ou **[!UICONTROL View by Feed]** para alterar como as fontes são listadas.
+      1. ([!UICONTROL Public] e [!UICONTROL On Demand] inventário) Clique **[!UICONTROL View by Source]** ou **[!UICONTROL View by Feed]** para alterar como as fontes são listadas.
       1. (Quando aplicável) Filtre o inventário conforme necessário.
       1. Especifique as fontes a serem incluídas e excluídas:
          * Para incluir uma [!UICONTROL Public] ou [!UICONTROL On Demand] fonte, clique em **[!UICONTROL Include]** ao lado do nome da fonte.
          * Para incluir [!UICONTROL Private] fontes:
             * Para incluir todo o inventário em uma oferta, clique em **[!UICONTROL Include all]** ao lado do nome do negócio.
             * Para incluir uma fonte de inventário individual, expanda o nome da transação e clique na caixa de seleção ao lado do nome da origem.
-         * Para excluir uma [!UICONTROL Public] ou [!UICONTROL On ] fonte, clique em **[!UICONTROL Exclude]** ao lado do nome da fonte.
+         * Para excluir uma [!UICONTROL Public] ou [!UICONTROL On source], clique em **[!UICONTROL Exclude]** ao lado do nome da fonte.
    1. (Opcional) Para baixar um arquivo CSV com as informações de direcionamento para o local de Downloads do navegador, clique em **[!UICONTROL Save & Export]**.
    1. Clique em **[!UICONTROL Save]**.
 
@@ -311,6 +311,7 @@ Como opção, você pode exportar a lista de sites direcionados e bloqueados com
 **[!UICONTROL Secondary Cap]:** (Opcional; disponível ao incluir um numérico [!UICONTROL Placement Cap]) Uma limitação adicional dentro dos limites da tampa de posicionamento principal. Selecione o número de impressões e o período (como 3 por 12 horas).
 
 **[!UICONTROL Day Parting]:** (Opcional) Dias específicos da semana e hora do dia em que os anúncios podem ser veiculados. Para especificar intervalos de segmentação de dia:
+
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Selecione o fuso horário aplicável.
 1. Especifique os intervalos:

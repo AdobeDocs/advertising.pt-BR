@@ -3,9 +3,9 @@ title: Integrações de publicidade do Adobe com o Adobe Audience Manager
 description: Saiba mais sobre as diferentes maneiras pelas quais a Adobe Advertising pode trocar dados com o Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Você pode integrar a publicidade Adobe com o Audience Manager das seguintes man
 
 *Anunciantes aceitos com [!DNL Advertising Search] only*
 
-Dentro do [!DNL [!DNL Search]], você pode criar [!DNL Google Ads] O cliente do Google corresponde públicos-alvo de IDs de usuário usando seus segmentos de Audience Manager existentes que têm [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] é um nome anterior para o [!DNL [!DNL Search]].) Isso inclui segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos que são criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte a ajuda do produto no [!DNL [!DNL Search]].
+Within [!DNL Search], você pode criar [!DNL Google Ads] O cliente do Google corresponde públicos-alvo de IDs de usuário usando seus segmentos de Audience Manager existentes que têm [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] é um nome antigo para [!DNL Search].) Isso inclui segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos que são criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte a ajuda do produto em [!DNL Search].
 
 [Correspondência de clientes de IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo baseados em tags de site, mas uma ID que não seja de PII é atribuída a membros exclusivos do público-alvo para benefícios distintos em relação à correspondência de clientes padrão e públicos baseados em tags de site.
 
-Para criar as IDs de usuário necessárias, você deve usar uma tag JavaScript Adobe Advertising <!-- with a user ID parameter -->em seus sites. Entre em contato com o [!DNL [!DNL Search]] equipe de conta para obter mais informações.
+Para criar as IDs de usuário necessárias, você deve usar uma tag JavaScript Adobe Advertising <!-- with a user ID parameter -->em seus sites. Entre em contato com seu [!DNL Search] para obter mais informações.
 
 ![processo de criação de segmentos](/help/integrations/assets/ad_search_user_id_pic.png)
 
@@ -34,7 +34,7 @@ Depois de criar os públicos-alvo, você pode usá-los em [!DNL Google Ads] camp
 
 ### Usar Audience Manager e outros [!DNL Adobe] Segmentos para segmentar ou excluir anúncios {#audience-manager-targets}
 
-* (Anunciantes aceitos com o [!DNL [!DNL Search]]) Você pode usar qualquer [!DNL Google Ads] públicos-alvo que foram [criado usando [!DNL Adobe] segmentos](#audience-manager-google-audiences) como metas ou exclusões a nível de campanha ou de grupo de anúncios em seu [!DNL Google Ads] campanhas.
+* (Anunciantes aceitos com [!DNL Search]) Você pode usar qualquer [!DNL Google Ads] públicos-alvo que foram [criado usando [!DNL Adobe] segmentos](#audience-manager-google-audiences) como metas ou exclusões a nível de campanha ou de grupo de anúncios em seu [!DNL Google Ads] campanhas.
 
 * (Anunciantes com DSP) Você pode usar seu [!DNL Adobe] segmentos como alvos de disposições de anúncios. Opcionalmente, é possível incluir os segmentos em públicos-alvo reutilizáveis, que podem ser usados como alvos ou exclusões para várias disposições.
 
@@ -54,6 +54,6 @@ Consulte &quot;[Visão geral do envio DSP dados de exposição de mídia para o 
 
 ## Obtenha insights mais ricos sobre a atividade do site com o Audience Analytics
 
-Clientes de publicidade Adobe com [[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) pode enviar dados Adobe Advertising e segmentos de Audience Manager para [!DNL Analytics] para obter insights enriquecidos sobre a atividade do site.
+Clientes de publicidade Adobe com [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) pode enviar dados Adobe Advertising e segmentos de Audience Manager para [!DNL Analytics] para obter insights enriquecidos sobre a atividade do site.
 
-Para obter mais informações, consulte &quot;[[!DNL Adobe][!DNL Audience Analytics] para clientes de publicidade Adobe](/help/integrations/audience-manager/audience-analytics.md).&quot;
+Para obter mais informações, consulte &quot;[[!DNL Adobe Audience Analytics] para clientes de publicidade Adobe](/help/integrations/audience-manager/audience-analytics.md).&quot;

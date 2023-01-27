@@ -3,7 +3,7 @@ title: Arquivar ou desarquivar um anúncio
 description: Saiba como arquivar ou desarquivar um anúncio.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Você pode desarquivar um anúncio para restaurar seu status anterior a qualquer
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Ads]**.
-1. Ao lado do nome da publicidade, clique em  **... >[!UICONTROL Archive]**.
+1. Ao lado do nome da publicidade, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ Você pode desarquivar um anúncio para restaurar seu status anterior a qualquer
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Ads]**.
-1. Ao lado do nome da publicidade, clique em  **... >[!UICONTROL Unarchive]**.
+1. Ao lado do nome da publicidade, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

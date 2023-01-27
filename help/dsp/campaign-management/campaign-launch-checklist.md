@@ -3,7 +3,7 @@ title: Lista de verificação do lançamento da campanha
 description: Saiba o que é necessário fazer antes de iniciar uma campanha.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: Casos de uso
 description: Saiba mais sobre os casos de uso para compartilhar dados de mídia de DSP de publicidade com o Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,23 @@ Para executar esse exemplo no Audience Manager, siga estas etapas:<!-- The AM pu
 
    Por exemplo, para nomear a característica `Creative Trait 123`, use a seguinte regra de característica:
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. Crie uma característica para capturar usuários que clicam ou convertem.
 
    Por exemplo, para nomear essa característica `Click and Converter`, use a seguinte regra de característica:
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. Crie um segmento chamado `Retarget Users` para preencher com usuários que viram criativos `123` mas não clicaram ou converteram. Use a seguinte regra de característica:
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. Mapear o segmento `Retarget Users` para um destino e direcione usuários no destino com criativos `456`.
 
@@ -52,7 +58,7 @@ Para executar esse exemplo no Audience Manager, siga estas etapas:<!-- The AM pu
 
 Quando a impressão da campanha e os dados de cliques estiverem disponíveis no Audience Manager, você poderá criar características e segmentos de usuários que foram expostos ou interagiram com uma campanha ou tática específica. Com um [[!DNL Audience Analytics] integração](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), seus segmentos do Audience Manager podem ser sincronizados com [!DNL Analytics] para uma análise mais aprofundada. Os casos de uso potenciais incluem:
 
-* **Análise de interação entre DSP e [!DNL Adobe Advertising Search] anúncios:** O padrão [[!DNL Analytics for Advertising] integração](/help/integrations/analytics/overview.md) não fornece insights da interação entre o DSP e o [!DNL [!DNL Search]] porque ambos os canais usam IDs AMO que seguem regras de atribuição da ID do AMO, para as quais um clique de pesquisa substitui uma view-through de exibição. Ao criar um segmento de exposição de DSP no Audience Manager, você pode usar [!DNL Audience Analytics] para analisar a interação entre DSP e [!DNL [!DNL Search]] publicidades em [!DNL Analytics].
+* **Análise de interação entre DSP e [!DNL Adobe Advertising Search] anúncios:** O padrão [[!DNL Analytics for Advertising] integração](/help/integrations/analytics/overview.md) não fornece insights da interação entre DSP e [!DNL Search] como ambos os canais usam IDs AMO que seguem regras de atribuição da ID do AMO, para as quais um clique de pesquisa substitui uma view-through de exibição. Ao criar um segmento de exposição de DSP no Audience Manager, você pode usar [!DNL Audience Analytics] para analisar a interação entre DSP e [!DNL Search] anúncios em [!DNL Analytics].
 
 * **Análise de frequência:** Você pode criar segmentos no Audience Manager com base em quantas vezes um usuário foi exposto a um determinado anúncio ou campanha. Em seguida, você pode analisar os diferentes segmentos de exposição no Analytics para ver como o comportamento do usuário muda dependendo do número de exposições DSP.
 

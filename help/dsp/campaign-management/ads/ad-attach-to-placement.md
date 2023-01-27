@@ -3,7 +3,7 @@ title: Anexar uma publicidade a uma disposição
 description: Saiba como anexar um anúncio a uma disposição.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. No submenu, clique em **[!UICONTROL Ads]**.
 
-1. Ao lado do nome da publicidade, clique em  **... >[!UICONTROL Add to Placements]**.
+1. Ao lado do nome da publicidade, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. Na tela Inserir anúncio, siga um destes procedimentos:
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome da disposição, clique em  **... > [!UICONTROL Attach Ads].**
+1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. No [!UICONTROL Add Ad to Placement] siga um destes procedimentos:
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Clique em **[!UICONTROL Select an Ad].**
 
       1. Especifique os anúncios:
+
          * Para adicionar uma publicidade de cada vez:
 
             1. Ao lado do nome da publicidade, clique em **[!UICONTROL Select].**

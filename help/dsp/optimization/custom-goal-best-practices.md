@@ -3,7 +3,7 @@ title: Práticas recomendadas para criar uma meta personalizada
 description: Conheça as práticas recomendadas para criar metas personalizadas para definir seus eventos de sucesso.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Há dois cenários nos quais você usaria várias propriedades em uma meta perso
 
    ![exemplo de uma meta personalizada com várias propriedades](/help/dsp/assets/custom-goal-multiple-properties.png)
 
-* A única propriedade na meta personalizada não está atingindo o mínimo de 10 conversões por dia necessárias para um desempenho otimizado. Isso pode ocorrer devido ao mínimo gasto diário de pacotes ou a um número limitado de conversões naturais. Adicionar outras propriedades de suporte à meta personalizada pode ajudar você a atingir o limite de 10 conversões por dia. Dez eventos de suporte podem ajudar um pacote a atingir o limite de 10 dias, mesmo quando cada um de seus pesos estiver abaixo de um (1). Mas talvez você não precise adicionar tantos eventos.
+* A única propriedade na meta personalizada não está atingindo o mínimo de 10 conversões por dia necessárias para um desempenho otimizado. Isso pode ocorrer devido ao gasto diário mínimo ou a um número limitado de conversões naturais. Adicionar outras propriedades de suporte à meta personalizada pode ajudar você a atingir o limite de 10 conversões por dia. Dez eventos de suporte podem ajudar um pacote a atingir o limite de 10 dias, mesmo quando cada um de seus pesos estiver abaixo de um (1). Mas talvez você não precise adicionar tantos eventos.
 
    Ao adicionar propriedades de suporte a uma meta personalizada, avalie-as de acordo com sua importância relativa para o evento de sucesso principal e lembre-se da quantidade de pontos de dados. Isso permite que o algoritmo Adobe Sensei equilibre várias propriedades e otimize sua meta.
 

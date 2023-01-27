@@ -3,7 +3,7 @@ title: Editar as contas com acesso a um contrato privado
 description: Saiba como compartilhar e parar de compartilhar um negócio privado com contas diferentes.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Você pode interromper o compartilhamento de uma transação com contas para rem
 
 1. Para cada conta a compartilhar:
 
-1. Insira o **[!UICONTROL Email Address]** para a conta com acesso ao negócio.
+   1. Insira o **[!UICONTROL Email Address]** para a conta com acesso ao negócio.
 
-1. Clique em **[!UICONTROL Share]**.
+   1. Clique em **[!UICONTROL Share]**.
 
 ## Parar de compartilhar uma ID de contrato com contas
 

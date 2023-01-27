@@ -3,7 +3,7 @@ title: Exibir um relatório detalhado de uma campanha
 description: Saiba como abrir um relatório de nível de campanha com seções sobre dados de Geografia, Dispositivo, Visualização e Desempenho do público-alvo.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -16,8 +16,8 @@ O <!--legacy --> o relatório de nível de campanha inclui uma visão geral e se
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Siga um destes procedimentos:
-   * Clique em **... >[!UICONTROL View report]** na barra de ferramentas superior direita.
-   * Ao lado do nome da campanha, clique em  **... >[!UICONTROL View report]**.
+   * Clique em **[!UICONTROL ...]** > **[!UICONTROL View report]** na barra de ferramentas superior direita.
+   * Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

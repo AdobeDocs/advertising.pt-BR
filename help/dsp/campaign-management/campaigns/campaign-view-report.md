@@ -3,9 +3,9 @@ title: Exibir um relatório detalhado de uma campanha
 description: Saiba como abrir um relatório de nível de campanha com seções sobre dados de Geografia, Dispositivo, Visualização e Desempenho do público-alvo.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,5 @@ O <!--legacy --> o relatório de nível de campanha inclui uma visão geral e se
 >* [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Sobre relatórios na plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Exibir o log de alterações de uma campanha](campaign-change-log.md)
 

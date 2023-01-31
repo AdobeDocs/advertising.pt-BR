@@ -8,9 +8,9 @@ user-guide-title: Guia de DSP de publicidade
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 5%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 5%
       + [Duplicação de uma campanha](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
       + [Arquivar ou desarquivar uma campanha](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Configurações da campanha](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [Lista de verificação do lançamento da campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Pacotes {#packages}

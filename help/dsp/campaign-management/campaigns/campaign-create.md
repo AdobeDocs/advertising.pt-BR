@@ -3,10 +3,10 @@ title: Criar uma campanha
 description: Saiba como criar uma campanha.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,6 @@ ht-degree: 1%
 >* [Sobre o Campaign Management](campaign-about.md)
 >* [Duplicação de uma campanha](campaign-duplicate.md)
 >* [Editar uma campanha](campaign-edit.md)
+>* [Exibir o log de alterações de uma campanha](campaign-change-log.md)
 >* [Configurações da campanha](campaign-settings.md)
 

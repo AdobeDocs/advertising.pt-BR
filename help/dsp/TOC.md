@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Guia de DSP de publicidade
+user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Guia de DSP de publicidade {#dsp}
+# Manual da Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -106,8 +106,8 @@ ht-degree: 5%
          + [Filtrar dados da campanha](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Classificar uma coluna](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Gerenciar visualizações de dados](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Configurações de posicionamento corretas para uma campanha usando planilhas {#qa-spreadsheet}
-      + [Sobre a correção das configurações de disposição de uma campanha usando planilhas](/help/dsp/campaign-management/qa/qa-about.md)
+   + Corrigir configurações de disposição usando planilhas {#qa-spreadsheet}
+      + [Sobre Como Corrigir As Configurações De Posicionamento Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
       + [Baixar configurações de posicionamento para uma campanha](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Fazer upload de configurações de disposição para uma campanha](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colunas em planilhas baixadas/carregadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 5%
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 + Públicos-alvo {#audiences}
    + [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
-   + Gerenciar segmentos {#segments}
+   + Segmentos {#segments}
       + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segmentos {#ccpa-opt-out-of-sale-segments}
          + [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 5%
       + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
       + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
-   + Gerenciar públicos-alvo {#reusable-audiences}
+   + Públicos-alvo {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 5%
       + [Excluir um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-delete.md)
       + [Configurações de público-alvo](/help/dsp/audiences/audience-settings.md)
       + [Sintaxe para lógica de segmento do público-alvo](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Gerenciar fontes {#sources}
+   + Fontes {#sources}
       + [Sobre a ativação de segmentos autenticados de fontes de público-alvo](/help/dsp/audiences/sources/source-about.md)
       + [Ativar segmentos autenticados de parceiros de ID duráveis](/help/dsp/audiences/sources/source-durable-id.md)
       + [Criar uma fonte de público-alvo para ativar públicos-alvo primários](/help/dsp/audiences/sources/source-create.md)

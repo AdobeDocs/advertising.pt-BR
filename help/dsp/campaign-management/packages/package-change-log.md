@@ -3,9 +3,9 @@ title: Exibir um log de alterações de pacote
 description: Saiba como visualizar as alterações feitas no pacote.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: aa27e2ddf284ceae4555c986674d3d7a8919ddce
+source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ Os logs de alteração mostram as alterações feitas no pacote durante o interv
 Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Valor antigo.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+
 1. Clique no nome da campanha.
+
 1. No **[!UICONTROL Packages]** , ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
-1. (Recurso Beta; opcional) Para alternar entre a exibição de dados somente em um formulário de tabela e em ambos os formulários de tabela e gráfico, clique em ![Exibição de tabela e gráfico](/help/dsp/assets/table-plus-chart-view.png "Exibição de tabela e gráfico") ou ![Exibição em tabela](/help/dsp/assets/table-view.png "Exibição em tabela") na barra de ferramentas superior direita.
-1. (Recurso Beta; opcional) Para adicionar uma observação a uma entrada, mantenha o cursor sobre [!UICONTROL Notes] para a linha e, em seguida, clique em **[!UICONTROL Add Notes]**. Insira o texto nos campos de entrada e clique em **[!UICONTROL Save]**.
-1. (Recurso Beta; (opcional) Para exibir os detalhes de uma entrada em uma janela pop-up, mantenha o cursor sobre [!UICONTROL Notes] para a linha e, em seguida, clique em **[!UICONTROL More]>[!UICONTROL View Details]**.
+
+1. (Opcional) Siga um destes procedimentos:
+
+   * Para alternar entre a exibição de dados somente em formulário de tabela e em formulários de tabela e gráfico, clique em ![Exibição de tabela e gráfico](/help/dsp/assets/table-plus-chart-view.png "Exibição de tabela e gráfico") ou ![Exibição em tabela](/help/dsp/assets/table-view.png "Exibição em tabela") na barra de ferramentas superior direita.
+
+   * Para adicionar uma observação a uma entrada, mantenha o cursor sobre [!UICONTROL Notes] para a linha e, em seguida, clique em **[!UICONTROL Add Notes]**. Insira o texto nos campos de entrada e clique em **[!UICONTROL Save]**.
+
+   * Para exibir os detalhes de uma entrada em uma janela pop-up, mantenha o cursor sobre [!UICONTROL Notes] para a linha e, em seguida, clique em **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 15 de fevereiro de 2023 | [!UICONTROL Campaigns] | As opções para exibir logs de alteração no formulário do gráfico e adicionar notas a qualquer entrada estão fora do beta. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 de fevereiro de 2023 | [!UICONTROL Campaigns] | (Recursos Beta) Agora é possível visualizar logs de alterações no formulário do gráfico e adicionar observações a qualquer entrada. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 de janeiro de 2023 | [!UICONTROL Deals] | Uma nova coluna de gastos &quot;Pacote de impressão PG&quot; em Inventário > Vendas exibe relatórios em andamento para ofertas garantidas. | Consulte &quot;[Editar uma exibição de coluna personalizada](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4 de janeiro de 2023 | [!UICONTROL Campaigns] | Um log de alterações, que mostra as alterações feitas durante o intervalo de datas selecionado, agora está disponível para cada campanha. Os logs de alteração já estavam disponíveis para pacotes e disposições. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |

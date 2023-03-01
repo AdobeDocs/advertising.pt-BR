@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
 user-guide-title: Políticas e diretrizes da Adobe Advertising
-user-guide-description: Saiba mais sobre as políticas e diretrizes para DSP de publicidade e [!DNL Advertising Search].
+user-guide-description: Saiba mais sobre as políticas e diretrizes da Advertising DSP e [!DNL Advertising Search].
 breadcrumb-title: Políticas e diretrizes
 index: true
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 39%
+ht-degree: 69%
 
 ---
 

@@ -1,32 +1,32 @@
 ---
-title: Lista de verificação do lançamento da campanha
+title: Lista de verificação de lançamento de campanha
 description: Saiba o que é necessário fazer antes de iniciar uma campanha.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Lista de verificação do lançamento da campanha
+# Lista de verificação de lançamento de campanha
 
-## Financiamento da Conta
+## Financiamento da conta
 
-Certifique-se de que sua conta tenha crédito suficiente para executar a campanha inteira. Você pode verificar e recarregar fundos de conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a [!DNL Adobe] equipe da conta.
+Verifique se sua conta tem crédito suficiente para executar toda a campanha. Você pode checar e recarregar fundos da conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a equipe da conta Adobe.
 
 ## Status da campanha
 
 Confirme se as datas da campanha e o orçamento estão definidos com precisão.
 
-## Status da disposição
+## Status do posicionamento
 
-Verifique se o status da disposição é &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled].&quot; Além disso, verifique se os outros parâmetros de disposição (como a lista do site, orçamento, meta, datas de voo e frequência) estão corretos.
+Verifique se o status do posicionamento é &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled].&quot; Além disso, verifique se os outros parâmetros de posicionamento (como lista de sites, orçamento, meta, datas de ativação e frequência) estão corretos.
 
 ## Status do anúncio
 
-Confirme se todos os anúncios estão anexados, aprovados e ativos. Além disso, verifique se todos os pixels de rastreamento estão anexados e funcionando.
+Confirme se todos os anúncios estão anexados, aprovados e ativos. Além disso, verifique se todos os pixels de rastreamento estão conectados e funcionando.
 
 >[!MORELIKETHIS]
 >

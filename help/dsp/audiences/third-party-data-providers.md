@@ -1,22 +1,22 @@
 ---
-title: Fornecedores de dados de terceiros disponíveis em DSP de publicidade
-description: Veja uma lista de todos os provedores de dados de terceiros disponíveis.
+title: Provedores de dados de terceiros disponíveis em Advertising DSP
+description: Consulte uma lista de todos os provedores de dados de terceiros disponíveis.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Fornecedores de dados de terceiros disponíveis em DSP de publicidade
+# Provedores de dados de terceiros disponíveis em Advertising DSP
 
-As categorias de dados e os segmentos para os provedores de dados de terceiros a seguir estão disponíveis como alvos de posicionamento em DSP. Esses segmentos estão disponíveis principalmente para públicos dos EUA.
+As categorias de dados e os segmentos para os seguintes provedores de dados de terceiros estão disponíveis como alvos de posicionamento no DSP. Esses segmentos estão disponíveis principalmente para o público dos EUA.
 
-A taxa de uso de cada segmento é mostrada ao lado do nome do segmento nas configurações de posicionamento e nas configurações de público-alvo salvas.
+A taxa para usar cada segmento é mostrada ao lado do nome do segmento em configurações de posicionamento e configurações de público-alvo salvas.
 
 * [!DNL Acxiom]
 * [!DNL Adsquare]
@@ -51,11 +51,11 @@ A taxa de uso de cada segmento é mostrada ao lado do nome do segmento nas confi
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Para obter mais informações sobre a importação de segmentos personalizados de terceiros para sua conta, entre em contato com seu [!DNL Adobe] equipe da conta.
+Para obter mais informações sobre como importar segmentos personalizados de terceiros para sua conta, entre em contato com a equipe de conta do Adobe.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre o Gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
->* [Configurações de público-alvo](audience-settings.md)
+>* [Configurações de público](audience-settings.md)
 

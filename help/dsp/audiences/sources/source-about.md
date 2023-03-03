@@ -3,7 +3,7 @@ title: Sobre a ativação de segmentos autenticados de fontes de público-alvo
 description: Saiba mais sobre como assimilar segmentos primários de uma plataforma de dados do cliente.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Para obter mais informações sobre destinos, consulte a Experience Platform [Gu
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [Permitir que o DSP traduza segmentos de dados do cliente em [!DNL LiveRamp RampIDs]](source-durable-id.md) que são reconhecíveis em um ambiente licitável.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [Permitir que o DSP traduza segmentos de dados do cliente em [!DNL LiveRamp RampIDs]](source-durable-id.md) que são reconhecíveis em um ambiente licitável.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [Criar uma fonte de público-alvo](source-create.md) para importar públicos para sua conta DSP ou uma conta de anunciante.
 

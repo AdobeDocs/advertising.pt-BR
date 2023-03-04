@@ -1,96 +1,96 @@
 ---
-title: Soluções avançadas de medição
-description: Veja uma lista das soluções disponíveis para medição avançada.
+title: Soluções de medição avançada
+description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# Soluções avançadas de medição
+# Soluções de medição avançada
 
-Os anunciantes geralmente lutam para entender onde o melhor próximo dólar de mídia deve ser gasto, ou para quantificar o impacto de seus anúncios online. Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. O [!DNL Strategic Advertising Consulting] equipe ajuda os parceiros de marca e agência a medir como os elementos de sua [!DNL Adobe] as conexões ganham vida através da publicidade. Com ofertas robustas de medição de atribuição, a equipe ajuda a implantar estratégias de definição de metas preparadas usando uma estrutura de medição sofisticada, facilitando para as marcas conectarem suas decisões de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
+Os anunciantes muitas vezes têm dificuldades para entender onde o melhor dólar da mídia seguinte deve ser gasto, ou para quantificar o impacto de seus anúncios online. Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A variável [!DNL Strategic Advertising Consulting] ajuda os parceiros de marca e agência a medir como os elementos de sua [!DNL Adobe] as conexões ganham vida através da publicidade. Com ofertas robustas de medição de atribuição, a equipe ajuda a implantar estratégias de direcionamento com curadoria usando uma estrutura de medição sofisticada, facilitando para as marcas conectar suas decisões de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
 
 * Ativar estudos de medição em campanhas de mídia digital de funil completo
 
-* Faça o upload de sua narrativa de campanha com soluções de relatórios em pacote
+* Amplie sua narrativa de campanha com soluções de relatórios em pacotes
 
-* Evolua suas práticas de publicidade aprendendo e melhorando a eficácia da campanha ao longo do tempo
+* Evolua sua prática de publicidade aprendendo e melhorando a eficácia da campanha ao longo do tempo
 
 ## Pacotes de soluções
 
 Os seguintes pacotes de solução de medição estão disponíveis para validar o sucesso de suas campanhas de publicidade:
 
-* **Alcance, frequência e conversões com base na casa**
+* **Alcance, frequência e conversões com base na família**
 
-   Entenda o alcance total da campanha em nível doméstico, bem como a contribuição das telas individuais. As opções de relatório incluem:
+   Entenda o alcance total da campanha em um nível doméstico, bem como a contribuição de telas individuais. As opções de relatório incluem:
 
-   * Relatório de TV conectada (CTV)
-   * Incremento do aplicativo CTV
-   * Relatórios em várias telas (Digital &amp; CTV)
-   * Relatório de várias telas e mais (digital, CTV e TV)
-   * Alcance e frequência digitais no segmento
+   * Relatórios da TV Conectada (CTV)
+   * Incrementalidade de aplicativo CTV
+   * Relatórios entre telas (Digital e CTV)
+   * Relatórios do Cross-Screen Plus (Digital, CTV e TV)
+   * Alcance e frequência do segmento interno digital
 
-* **Alcance baseado em pessoas**
+* **Alcance com base em pessoas**
 
-   Entenda como os públicos-alvo e as táticas se sobrepõem a um nível de pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivos móveis, nativos e áudio.
+   Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
-* **[!DNL Dynata]Pesquisas Baseadas em Painel**
+* **[!DNL Dynata]Pesquisas baseadas em painel**
 
-   Realize pesquisas de controle/expostas para determinar o efeito da exposição do anúncio em métricas como consciência, familiaridade e intenção.
+   Fazer pesquisas de controle/exposição para determinar o efeito da exposição dos anúncios em métricas como percepção, familiaridade e intenção.
 
-* **Tráfego do pé**
+* **Tráfego de pé**
 
-   Entenda a incrementalidade impulsionada pela exposição do anúncio e como o investimento em mídia está causando alterações no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
+   Entenda a incrementalidade orientada pela exposição ao anúncio e como o investimento em mídia está causando alteração no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
 
-* **Insights de transação**
+* **Insights da transação**
 
-   Enriqueça sua estratégia de campanha com dados determinísticos de vendas de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
+   Enriqueça sua estratégia de campanha com dados de vendas determinísticos de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
 
-* **Medição de transação**
+* **Medição da transação**
 
-   Determine a influência da exposição de anúncios nas vendas usando dados robustos e determinísticos de vendas de crédito e débito.
+   Determine a influência da exposição do anúncio nas vendas usando dados de vendas de crédito e débito robustos e determinísticos.
 
-* **Experience Designer (Teste A/B)**
+* **Designer de experimentos (teste A/B)**
 
    Compare o comportamento e o sentimento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
 
-## Encontrar o ajuste de medição perfeito: Soluções por Vertical
+## Encontrando o ajuste de medição perfeito: Soluções por vertical
 
-* **Qualquer Vertical:**
+* **Qualquer vertical:**
 
-   * Experience Designer (Placebo e teste A/B)
+   * Designer de experimentos (teste A/B e placebo)
 
-   * Alcance baseado em pessoas
+   * Alcance com base em pessoas
 
-      Qualquer organização que pretenda avaliar várias táticas digitais; organizações que desejam mostrar o valor do áudio
+      Qualquer organização que busque medir em várias táticas digitais; organizações que buscam mostrar o valor do áudio
 
-   * Medição de alcance, frequência e conversão com base em casa
+   * Medição de alcance, frequência e conversão com base na família
 
-      Qualquer cliente que deseje entender o alcance/o alcance incremental e as eficiências baseadas em custos e/ou métricas de conversão em várias táticas digitais
+      Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais
 
    * Medição de alcance, frequência e conversão entre telas
 
-      Qualquer cliente que deseje entender o alcance/o alcance incremental e as eficiências baseadas em custos e/ou métricas de conversão em várias táticas digitais em relação ao investimento na TV linear
+      Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais relativas ao investimento em TV linear
 
-   * Pesquisas Baseadas em Painel Dynata
+   * Pesquisas com base em painel do Dynamic Data
 
-      Qualquer cliente que pretenda medir a percepção e a percepção da marca em várias telas; mais adequado para públicos-alvo de nicho
+      Qualquer cliente que busque medir a percepção e a percepção da marca em várias telas; mais adequado para públicos-alvo de nicho
 
-* **QSR, Varejo (tijolo e alcatrão):**
+* **QSR, Varejo (Tijolo e Argamassa):**
 
-   * Medição de transação
+   * Medição da transação
 
-   * Medição do tráfego de rodapé
+   * Medição de tráfego de pé
 
 * **QSR, Varejo, Viagem:**
 
-   * Insights de transação
+   * Insights da transação
 
-      Qualquer cliente que deseje atingir um tipo específico de comprador para conduzir vendas na loja e online
+      Qualquer cliente que queira alcançar um tipo específico de comprador para impulsionar as vendas on-line e na loja
 
 ## Mais Informações
 
-Para obter informações sobre todas as soluções de medição avançadas, descrevendo informações sobre preços, bem como formatos e regiões disponíveis para cada solução, entre em contato com seu [!DNL Adobe] gerente de sucesso do cliente. Também estão disponíveis, mediante pedido, estudos de caso específicos da solução.
+Para obter informações sobre todas as soluções avançadas de medição, descrevendo informações de preços, bem como formatos e regiões disponíveis para cada solução, entre em contato com a equipe de conta da Adobe. Estudos de caso específicos da solução também estão disponíveis mediante solicitação.

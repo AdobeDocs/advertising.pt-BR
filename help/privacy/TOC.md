@@ -10,8 +10,8 @@ breadcrumb-title: Suporte para a privacidade do consumidor
 index: true
 source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 56%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

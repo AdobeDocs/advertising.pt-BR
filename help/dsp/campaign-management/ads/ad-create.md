@@ -3,9 +3,9 @@ title: Criar um único anúncio
 description: Saiba como criar um único anúncio de terceiros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Para criar vários anúncios de terceiros de cada vez, consulte [Criar vários a
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**. No [!UICONTROL Ad Types] do menu, clique no botão [tipo de anúncio](ad-about.md#ad-types).
 
 1. Especifique as configurações de anúncio para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [anúncios de exibição](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios precedentes](ad-settings-pre-roll.md)ou [anúncios de vídeo universais](ad-settings-universal-video.md):
+
+   >[!NOTE]
+   >
+   >Anúncios de vídeo universais podem ser anexados somente a posicionamentos de vídeo universais.
 
    1. No [!UICONTROL Insert Ad Tag] , insira as informações sobre o anúncio de um parceiro de veiculação de anúncios de terceiros certificado e clique em **[!UICONTROL Go]**.
 
@@ -50,4 +54,5 @@ Para criar vários anúncios de terceiros de cada vez, consulte [Criar vários a
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Editar uma publicidade](ad-edit.md)
 >* [Especificações do anúncio](ad-specs.md)
+>* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 

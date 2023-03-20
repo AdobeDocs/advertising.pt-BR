@@ -3,14 +3,18 @@ title: Anexar uma publicidade a uma disposição
 description: Saiba como anexar um anúncio a uma disposição.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # Anexar uma publicidade a uma disposição
+
+>[!NOTE]
+>
+>Anúncios de vídeo universais podem ser anexados somente a posicionamentos de vídeo universais.
 
 ## Anexe um novo anúncio do [!UICONTROL Ads] Exibir
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [Editar uma publicidade](ad-edit.md)
 >* [Listar as disposições associadas a um anúncio](ad-list-placements.md)
 >* [Editar o agendamento do anúncio para uma disposição](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 

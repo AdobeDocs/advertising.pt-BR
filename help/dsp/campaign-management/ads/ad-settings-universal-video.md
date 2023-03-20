@@ -3,9 +3,9 @@ title: Configurações universais de anúncio de vídeo
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de vídeo universais.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Configurações universais de anúncio de vídeo
 
 *Abra o recurso beta*
+
+>[!NOTE]
+>
+>Anúncios de vídeo universais podem ser anexados somente a posicionamentos de vídeo universais.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** O formato do reprodutor de anúncio para o inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A possibilidade de visualização é sempre medida para [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] O inclui inventário que não permite a avaliação da capacidade de visualização. Considere esta distinção se as métricas de visualização forem importantes para sua campanha.
 
-Use *[!UICONTROL VAST]*, que não permite a avaliação da capacidade de visualização, quando você direciona a TV conectada ou o inventário que exige rigorosamente apenas o formato VAST (geralmente de fontes de fornecimento como Google Ad Manager, Appnexus, SpotX e Freewheel).
+Use [!UICONTROL VAST], que não permite a avaliação da capacidade de visualização, quando você direciona a TV conectada ou o inventário que exige rigorosamente apenas o formato VAST (geralmente de fontes de fornecimento como Google Ad Manager, Appnexus, SpotX e Freewheel). Use também essa opção para inventário que era anteriormente compatível com inserções/anúncios precedentes padrão (VAST) ou Phone + tablet padrão (VAST).
 
 **[!UICONTROL Clock Number]**: (Utilizado apenas no Reino Unido; disponível somente para usuários com permissão) Um identificador exclusivo usado para garantir que o anúncio correto seja transmitido. Se essa configuração não for aplicável, deixe-a em branco.
 
@@ -72,6 +76,7 @@ As configurações a seguir se aplicam a cada pixel criado ou editado.
 
 >[!MORELIKETHIS]
 >
+>* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Sobre o Gerenciamento de anúncios](ad-about.md)
 >* [Criar um único anúncio](ad-create.md)
 >* [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)

@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre vídeo universal
 description: Saiba mais sobre anúncios de vídeo universais.
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Crie-os de forma semelhante à criação de outros tipos de disposições e víd
 
 1. Dentro da campanha desejada, [criar uma inserção de vídeo universal](/help/dsp/campaign-management/placements/placement-create.md), selecionando o [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
-   Você precisará especificar pelo menos um ambiente (desktop, celular, TV conectada) para o público-alvo.
+   Você deve especificar pelo menos um ambiente (Desktop, Mobile, Connected TV) para direcionar.
 
 1. Na mesma campanha da disposição de vídeo universal, [criar um único anúncio de vídeo universal](/help/dsp/campaign-management/ads/ad-create.md) ou [criar vários anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
@@ -47,8 +47,8 @@ Metas incompatíveis com posicionamentos de TV conectados padrão, como Menor cu
 
 Use **[!UICONTROL VAST]** em qualquer um dos seguintes cenários:
 
-* A disposição será direcionada ao inventário da TV conectada.
-* O posicionamento direcionará o inventário de vídeo do Google Ad Manager, Appnexus, SpotX ou Freewheel. Esses SSPs não são compatíveis com o formato de vídeo VPAID e VAST.
+* O posicionamento é direcionado ao inventário de TV conectado.
+* O posicionamento direciona o inventário de vídeo do Google Ad Manager, Appnexus, SpotX ou Freewheel. Esses SSPs não são compatíveis com o formato de vídeo VPAID e VAST.
 
 ## É possível anexar vários anúncios de vídeo universais à mesma disposição de vídeo universal?
 

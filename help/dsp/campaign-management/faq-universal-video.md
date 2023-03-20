@@ -2,14 +2,14 @@
 title: Perguntas frequentes sobre vídeo universal
 description: Saiba mais sobre anúncios de vídeo universais.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# # Perguntas frequentes sobre vídeo universal
+# Perguntas frequentes sobre o Universal Video
 
 ## Como criar disposições e anúncios de vídeo universais?
 
@@ -23,7 +23,11 @@ Crie-os de forma semelhante à criação de outros tipos de disposições e víd
 
 1. Na mesma campanha da disposição de vídeo universal, [criar um único anúncio de vídeo universal](/help/dsp/campaign-management/ads/ad-create.md) ou [criar vários anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Se você criar várias publicidades, especifique &quot;[!UICONTROL Universal Video]&quot; como a [!UICONTROL Ad Type]. Para [!DNL Google] ou [!DNL Flashtalking] publicidades, depois de fazer upload do arquivo, clique no campo Tipo de anúncio no &quot;[!UICONTROL Review ad types]&quot; e edite-o. Para outros tipos de tags de publicidade, especifique o tipo de publicidade no arquivo de planilha que você faz upload.
+   Se você criar várias publicidades, especifique &quot;[!UICONTROL Universal Video]&quot; como a [!UICONTROL Ad Type]:
+
+   * Para [!DNL Google] ou [!DNL Flashtalking] anúncios: No &quot;[!UICONTROL Review ad types]&quot; depois de fazer upload do arquivo, clique no botão **[!UICONTROL Ad Type]** e selecione **[!UICONTROL Universal Video]**.
+
+   * Para outros tipos de tags de anúncio: No arquivo de planilha que você faz upload, especifique o campo Tipo de anúncio para cada anúncio como **[!UICONTROL Universal Video]**.
 
 1. [Abra as configurações de anúncio](/help/dsp/campaign-management/ads/ad-edit.md) para cada novo anúncio e selecione o formato de vídeo aplicável:
 

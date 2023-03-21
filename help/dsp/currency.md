@@ -3,7 +3,7 @@ title: Moedas suportadas
 description: Veja uma lista das moedas suportadas.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 2d4d04204ac9df86f11a6ffee349d0cb0124b0e4
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -47,7 +47,7 @@ A publicidade Adobe é compatível com as seguintes moedas.
 >
 > [!DNL DSP] fornece faturamento somente nas seguintes moedas: CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD e USD.
 
-## [!DNL Adobe Advertising Search]
+## [!DNL Adobe Advertising Search, Social, & Commerce]
 
 Todas as moedas suportadas pelos mecanismos de pesquisa suportados. É o mesmo que [aqueles apoiados por [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

@@ -3,7 +3,7 @@ title: Por que os dados de canal podem variar entre a publicidade Adobe e [!DNL 
 description: Saiba por que os dados de canal rastreados pela ID do AMO podem variar em relação aos dados de canal rastreados por [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Os dois conjuntos de dados têm casos de uso principal diferentes:
 
    O [!DNL Analytics] [!UICONTROL Marketing Channel] , portanto, é configurada para capturar e rastrear todos os canais. [!DNL Marketing Channels] também pode ser configurado para capturar view-throughs e click-throughs do Advertising DSP e isso em relação aos outros canais de marketing.
 
-* Adobe Advertising AMO ID: O principal caso de uso dos dados de ID de AMO de publicidade do Adobe é alimentar o [!DNL Adobe Sensei]algoritmos de lance alimentados por. Os algoritmos tomam automaticamente milhares de decisões de lances de nível micro feitas diariamente para maximizar os gastos com publicidade e alcançar os objetivos da [!DNL DSP] ou a [!DNL Search] carteira. Quanto mais dados de conversão os algoritmos conseguirem conectar campanhas, melhor será o algoritmo poder tomar essas decisões de licitação.
+* Adobe Advertising AMO ID: O principal caso de uso dos dados de ID de AMO de publicidade do Adobe é alimentar o [!DNL Adobe Sensei]algoritmos de lance alimentados por. Os algoritmos tomam automaticamente milhares de decisões de lances de nível micro feitas diariamente para maximizar os gastos com publicidade e alcançar os objetivos da [!DNL DSP] ou a [!DNL Search, Social, & Commerce] carteira. Quanto mais dados de conversão os algoritmos conseguirem conectar campanhas, melhor será o algoritmo poder tomar essas decisões de licitação.
 
    Para coletar esses dados, a variável [!DNL Analytics for Advertising] A integração transmite IDs AMO brutas que podem ser traduzidas como códigos de rastreamento de click-through e view-through na dimensão ID do AMO do Adobe Analytics — que é armazenada como uma variável personalizada (eVar) ou reservada (rVar). Os click-throughs para outros canais não são definidos na dimensão da ID do AMO, portanto, a dimensão da ID do AMO não consegue rastrear a entrada desses outros canais. O resultado é que a ID do AMO persiste [!DNL Marketing Channels] pontos de entrada.
 

@@ -3,7 +3,7 @@ title: Segmentos de integridade aceitáveis de publicidade do Adobe
 description: Consulte as diretrizes para segmentos de público-alvo e táticas aceitáveis relacionadas à integridade para usar como alternativas para direcionar segmentos de público-alvo relacionados à integridade.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Diretrizes de segmento de integridade aceitável da publicidade do Adobe
 
-*Para Adobe Advertising DSP e[!DNL Adobe Advertising Search]*
+*Para Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 As diretrizes a seguir destacam segmentos de público-alvo inaceitáveis e aceitáveis relacionados à saúde. Eles também recomendam táticas para usar como alternativas para direcionar segmentos de público-alvo relacionados à saúde.
 

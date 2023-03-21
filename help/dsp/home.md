@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 20 de março de 2023 | [!UICONTROL Campaigns] | Leia mais sobre inserções e anúncios de vídeo universais, que são um recurso beta aberto. | Consulte &quot;[Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 de fevereiro de 2023 | [!UICONTROL Campaigns] | As opções para exibir logs de alteração no formulário do gráfico e adicionar notas a qualquer entrada estão fora do beta. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 de fevereiro de 2023 | [!UICONTROL Campaigns] | (Recursos Beta) Agora é possível visualizar logs de alterações no formulário do gráfico e adicionar observações a qualquer entrada. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 de janeiro de 2023 | [!UICONTROL Deals] | Uma nova coluna de gastos &quot;Pacote de impressão PG&quot; em Inventário > Vendas exibe relatórios em andamento para ofertas garantidas. | Consulte &quot;[Editar uma exibição de coluna personalizada](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ Os seguintes recursos são novos ou alterados recentemente.
 |  | [!DNL Freewheel] acordos programáticos garantidos | Agora você pode enviar anúncios e verificar o status dos anúncios para [!DNL Freewheel] acordos programáticos garantidos do [!UICONTROL Ads] exibir. Anteriormente, era possível fazer as duas apenas no [!UICONTROL Deals] exibir. | Consulte &quot;[Envie um anúncio para um acordo programático garantido para [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Contratos programáticos garantidos](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7 de outubro de 2021 | Ajuda | Todos [Documentação de DSP e outros anúncios do Adobe](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] O agora é traduzido por máquina em todos os idiomas disponíveis. Para alterar o idioma exibido, use o menu &quot;Alterar idioma&quot; na parte inferior esquerda de qualquer página.<br>![Alterar idioma](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 

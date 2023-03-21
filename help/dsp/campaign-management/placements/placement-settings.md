@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
+source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3433'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 0%
 **[!UICONTROL Ad specs for forecast]:** (Somente formatos de anúncio de vídeo) A duração do anúncio e/ou as especificações do anúncio, que são usadas para calcular a projeção de Previsão à direita. Os campos variam de acordo com o tipo de anúncio.
 
 **[!UICONTROL Environment]:** (Somente no formato de anúncio de vídeo universal) Os ambientes de dispositivo (Desktop, Mobile, Connected TV) a serem incluídos como alvos no posicionamento. Especifique pelo menos um.
+
+Em relatórios personalizados, a dimensão de nível de posicionamento &quot;Ambiente do dispositivo&quot; indica o ambiente direcionado.
 
 **[!UICONTROL Placement tags]:** (Opcional) Palavras-chave ou apelidos para ajudá-lo a localizar essa disposição.
 

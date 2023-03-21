@@ -3,9 +3,9 @@ title: Criar vários anúncios de terceiros
 description: Saiba como criar vários anúncios de terceiros de uma só vez.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Você pode fazer upload de [!DNL DoubleClick] e [!DNL Flashtalking] folhas de ta
 1. Após concluir o upload, clique em **[!UICONTROL Start Building Ads]**.
 
 1. Revise os detalhes e o status de cada anúncio:
+
+   1. (Anúncios de vídeo universais usando [!DNL Google] ou [!DNL Flashtalking] ) Clique no **[!UICONTROL Ad Type]** e selecione **[!UICONTROL Universal Video]**.
+
+   1. (Anúncios de vídeo universais) Para cada novo anúncio, clique em ![editar](/help/dsp/assets/edit.png), selecione o [formato de vídeo aplicável](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)e, em seguida, clique em **Salvar**.
 
    1. Revise o status de cada anúncio, que é baseado em verificações de validação na tag carregada.
 

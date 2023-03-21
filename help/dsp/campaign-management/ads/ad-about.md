@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de anúncios no DSP de publicidade
 description: Saiba mais sobre o gerenciamento de anúncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP suporta a entrega de anúncios por meio de tags de veiculação de anúncios
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Depois que seus anúncios forem configurados, será necessário anexar cada anúncio a uma disposição, que inclui os parâmetros de definição de metas (como geografia, público-alvo, dispositivo e segmentação de inventário) que controlarão o desempenho da sua campanha. Você pode anexar um único anúncio a uma ou várias disposições.
+Depois que seus anúncios forem configurados, anexe cada anúncio a uma disposição, que inclui os parâmetros de definição de metas (como geografia, público-alvo, dispositivo e segmentação de inventário) que controlam a forma como sua campanha oferece. Você pode anexar um único anúncio a uma ou várias disposições.
 
 ## Tipos de anúncio disponíveis {#ad-types}
 
@@ -37,7 +37,11 @@ Todos os tipos de anúncios a seguir estão disponíveis em DSP. Para obter as e
 
 * **Anúncios de TV conectados (somente de terceiros)**: Os anúncios de TV conectados são exibidos antes e durante o conteúdo de vídeo de TV premium. Todo o inventário da TV conectada é executado em dispositivos de TV, o que significa que o vídeo é reproduzido automaticamente em um ambiente de tela cheia e dormente que os visualizadores não podem ignorar. A TV conectada é o formato de vídeo digital mais próximo dos comerciais da TV. Inclusão dos principais indicadores de desempenho para TV conectada [!UICONTROL Completion Rate].
 
-* **Anúncios de vídeo universais (somente de terceiros)**: Anúncios de vídeo universais combinam todos os recursos de TV conectada, anúncios precedentes e anúncios precedentes móveis (VAST e VPAID) em um único e são mostrados antes e durante o conteúdo de vídeo. O anúncio de vídeo universal pode ser usado no direcionamento de inventário de vídeo de ambientes de desktop, móvel e de TV conectada, evitando a necessidade de criar vários anúncios de vídeo. Os principais indicadores de desempenho do vídeo universal incluem [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
+* **Anúncios de vídeo universais (somente de terceiros)**: Anúncios de vídeo universais permitem direcionar o inventário de vídeo de ambientes de desktop, móveis e de TV conectados para o inventário VPAID e VAST usando uma única disposição de vídeo. Eles combinam todos os recursos de TV conectada, anúncios precedentes e anúncios móveis e são mostrados antes e durante o conteúdo de vídeo. Os principais indicadores de desempenho do vídeo universal incluem [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
+
+   Anúncios de vídeo universais podem ser anexados somente a posicionamentos de vídeo universais.
+
+   Consulte &quot;[Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
 
 ## Aprovações de anúncio de DSP
 

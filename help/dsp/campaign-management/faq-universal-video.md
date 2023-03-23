@@ -4,7 +4,7 @@ description: Saiba mais sobre anúncios de vídeo universais.
 feature: DSP Placements, DSP Ads
 source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

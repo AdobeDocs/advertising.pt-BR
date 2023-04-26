@@ -3,7 +3,7 @@ title: Código JavaScript para [!DNL Analytics for Advertising]
 description: Código JavaScript para [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -54,7 +54,7 @@ A biblioteca JavaScript consiste em duas linhas que permitem [!DNL Analytics] e 
 
 ### Onde colocar o código
 
-O [!DNL Analytics for Advertising] A função JavaScript deve vir após o Serviço de ID do Experience Cloud, mas antes do código de medição de aplicativo do Analytics, para que a ID adicional (`SDID`) ou `[!DNL StitchID]` pode ser incluído na sua chamada do Analytics.
+O [!DNL Analytics for Advertising] A função JavaScript deve vir após o Serviço de ID do Experience Cloud, mas antes do código de medição de aplicativo do Analytics. Isso garante que a ID complementar (`SDID`) ou `[!DNL StitchID]` está incluída na sua chamada do Analytics .
 
 ![Inserção de código](/help/integrations/assets/a4adc-code-placement.png)
 

@@ -3,16 +3,14 @@ title: Configurações de origem do público-alvo
 description: Saiba mais sobre as configurações para fontes de público-alvo.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Configurações de origem do público-alvo
-
-*Recurso beta*
 
 **[!UICONTROL Data Visibility Level]:** Se os segmentos estão disponíveis para um único anunciante com acesso à conta (*[!UICONTROL Advertiser]*) ou a todos os anunciantes com acesso à conta *[!UICONTROL Account]*.
 

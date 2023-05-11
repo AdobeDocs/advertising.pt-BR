@@ -8,9 +8,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
+source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '887'
 ht-degree: 6%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 6%
       + [Práticas recomendadas para a criação de metas personalizadas](/help/dsp/optimization/custom-goal-best-practices.md)
    + [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
-+ Audiences {#audiences}
++ Públicos {#audiences}
    + [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
    + Segmentos {#segments}
       + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
       + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
-   + Audiences {#reusable-audiences}
+   + Públicos {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
@@ -208,6 +208,7 @@ ht-degree: 6%
    + [Executar um relatório personalizado](/help/dsp/reports/report-run-now.md)
    + [Configurações personalizadas de relatório](/help/dsp/reports/report-settings.md)
    + [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+   + [Perguntas frequentes sobre o [!UICONTROL Household] Relatório](/help/dsp/reports/faq-household-report.md)
    + Destinos do relatório {#report-destinations}
       + [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Crie um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

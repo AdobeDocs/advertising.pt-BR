@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| Março de 2023 | [!UICONTROL Reports] | Um novo [!UICONTROL Household Report] mostra impressões, alcance e frequência em várias dimensões em um nível de residência com base no endereço IP, em vez de em um nível de dispositivo/cookie. O relatório inclui nove dimensões: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]e criadas pelo usuário [!UICONTROL Tags]. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md),&quot;[Configurações do relatório](/help/dsp/reports/report-settings.md),&quot; e &quot;[Perguntas frequentes sobre o [!UICONTROL Household] Relatório](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 de março de 2023 | [!UICONTROL Campaigns] | Leia mais sobre inserções e anúncios de vídeo universais, que são um recurso beta aberto. | Consulte &quot;[Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 de fevereiro de 2023 | [!UICONTROL Campaigns] | As opções para exibir logs de alteração no formulário do gráfico e adicionar notas a qualquer entrada estão fora do beta. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 de fevereiro de 2023 | [!UICONTROL Campaigns] | (Recursos Beta) Agora é possível visualizar logs de alterações no formulário do gráfico e adicionar observações a qualquer entrada. | Consulte &quot;[Exibir o log de alterações de uma campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot; Consulte &quot;[Exibir o log de alterações de um pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o log de alterações para uma disposição](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

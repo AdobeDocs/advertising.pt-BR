@@ -1,9 +1,9 @@
 ---
 title: Perguntas frequentes sobre o [!UICONTROL Household] Relatório
 description: Saiba mais sobre o [!UICONTROL Household] , incluindo como é diferente de outros relatórios e solução de problemas.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Métricas de conversão e metas personalizadas não são compatíveis.
 
 ## Qual é a diferença entre as métricas de sobreposição e não sobreposição?
 
-A figura a seguir mostra três métricas (Família exclusiva, Família incremental e Família incremental (sobreposição) para três campanhas (A, B e C).
+A figura a seguir mostra três métricas (Alcançado único da casa, Alcançado Incremental da casa e Família Incremental (Sobreposição)) para três campanhas (A, B e C).
 
 ![Ilustração das métricas de sobreposição de residências](/help/dsp/assets/household-overlap-metrics-illustration.png "Ilustração das métricas de sobreposição de residências")
 
-* Alcançado único da casa (Total) fornece a família exclusiva alcançada por cada campanha ou a área total de cada círculo. Na figura, agregado familiar único atingido por A = agregado familiar incremental atingido por A + (A+C) + (A+B) + (A+B+C)
+* Alcançado único da casa (Total) fornece a família exclusiva alcançada por cada campanha ou a área total de cada círculo. Na figura, agregado familiar único atingido por A = agregado familiar incremental atingido por A + (A+B) + (A+C) + (A+B+C)
 
-* O Lado a Lado Incremental Alcançado é o Lar Único que foi alcançado apenas por uma campanha. Na figura, a Família Incremental Alcançada por A, B, C é a Família Incremental alcançada por A, B, C, respectivamente.
+* O Lado a Lado Incremental Alcançado é o Lar Único que foi alcançado apenas por uma campanha. Na figura, a Família Incremental Alcançada por A, B, C é a Família Incremental Alcançada por A, B, C, respectivamente.
 
-* A Família Incremental (Sobreposição) é a Família Única alcançada pela campanha ou combinação de campanhas. Na figura, a Família Incremental alcançada por A, C é A+C.
+* A Família Incremental (Sobreposição) é a Família Única alcançada pela campanha ou combinação de campanhas. Na figura, a Casa Incremental Alcançada por A, C é A+C.
 
 ## Fluxo de trabalho (WRK)
 

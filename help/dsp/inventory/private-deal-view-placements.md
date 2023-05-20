@@ -1,6 +1,6 @@
 ---
-title: Listar as disposições e anúncios de um contrato privado
-description: Saiba como abrir uma lista de disposições e anúncios associados a um negócio privado.
+title: Listar os posicionamentos e anúncios de uma oferta privada
+description: Saiba como abrir uma lista de posicionamentos e anúncios associados a uma negociação privada.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,29 +10,29 @@ ht-degree: 0%
 
 ---
 
-# Listar as disposições e anúncios de um contrato privado
+# Listar os posicionamentos e anúncios de uma oferta privada
 
-Você pode abrir uma lista de todas as disposições e anúncios associados a um negócio privado. Opcionalmente, é possível abrir as configurações de qualquer disposição ou publicidade.
+Você pode abrir uma lista de todos os posicionamentos e anúncios associados a uma negociação privada. Opcionalmente, é possível abrir as configurações de qualquer uma das disposições ou anúncios.
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negociação, clique em  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
+1. Na linha de negócios, clique em  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
-   O [!UICONTROL Placements] é exibida por padrão. Para exibir as publicidades, clique no botão [!UICONTROL Ads] guia .
+   A variável [!UICONTROL Placements] é exibida por padrão. Para exibir os anúncios, clique no link [!UICONTROL Ads] guia.
 
-1. (Opcional) Siga um destes procedimentos:
+1. (Opcional) Siga qualquer um destes procedimentos:
 
-   * Para editar as configurações de uma disposição, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL Edit]**. [Editar as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e, em seguida, clique em **[!UICONTROL Update placement]**.
+   * Para editar as configurações de uma disposição, mantenha o cursor sobre a linha de disposição e clique em **[!UICONTROL Edit]**. [Editar as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Update placement]**.
 
-   * Para remover a negociação dos destinos de inventário de uma disposição, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
+   * Para remover a negociação dos destinos de inventário de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-      Desanexar a disposição não exclui a disposição.
+      Desanexar o posicionamento não exclui o posicionamento.
 
-   * Para editar as configurações de uma publicidade, mantenha o cursor sobre a linha da publicidade e clique em **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Editar as configurações de publicidade](/help/dsp/campaign-management/ads/ad-edit.md)e, em seguida, clique em **[!UICONTROL Save & submit for review]**.
+   * Para editar as configurações de um anúncio, mantenha o cursor sobre a linha do anúncio e clique em **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Editar as configurações do anúncio](/help/dsp/campaign-management/ads/ad-edit.md)e clique em **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre inventário privado](private-inventory-about.md)
->* [Especificar disposições e anúncios para uma ID de contrato](deal-id-attach-placements.md)
->* [Exibir um relatório detalhado de um contrato](deal-view-report.md)
+>* [Sobre Inventário Privado](private-inventory-about.md)
+>* [Especificar disposições e anúncios para uma ID de oferta](deal-id-attach-placements.md)
+>* [Exibir um Relatório Detalhado de uma Transação](deal-view-report.md)
 

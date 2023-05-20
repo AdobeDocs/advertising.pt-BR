@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Editar um destino de relatório
 
-As alterações feitas em um destino de relatório afetam o delivery de todos os relatórios personalizados vinculados. Certifique-se de que as credenciais fornecidas sejam válidas para evitar interrupções para a entrega de relatórios.
+As alterações em um destino de relatório afetam o delivery de todos os relatórios personalizados vinculados. Verifique se as credenciais fornecidas são válidas para evitar interrupções na entrega do relatório.
 
 1. No menu principal, clique em **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
@@ -27,7 +27,7 @@ As alterações feitas em um destino de relatório afetam o delivery de todos os
 >[!MORELIKETHIS]
 >
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crie um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

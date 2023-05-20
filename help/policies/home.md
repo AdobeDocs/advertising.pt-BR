@@ -11,10 +11,10 @@ ht-degree: 23%
 
 ---
 
-# Políticas e diretrizes da Adobe Advertising 
+# Políticas e diretrizes da Adobe Advertising
 
 Saiba mais sobre as políticas e diretrizes para DSP de publicidade e Pesquisa de publicidade:
 
 * [Política de requisitos de anúncios](/help/policies/ad-requirements-policy.md)
-* [Diretrizes aceitáveis do segmento de integridade](/help/policies/health-segment-guidelines.md)
+* [Diretrizes de segmento de integridade aceitável](/help/policies/health-segment-guidelines.md)
 * [Diretrizes de uso de dados do DSP](/help/policies/data-usage-guidelines.md)

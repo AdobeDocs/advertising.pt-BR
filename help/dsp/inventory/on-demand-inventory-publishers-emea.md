@@ -1,20 +1,20 @@
 ---
-title: '''[!DNL On Demand] Publicadores de inventário premium na Europa, Oriente Médio e África"'
-description: '''[!DNL On Demand] Publicadores de inventário premium na Europa, Oriente Médio e África"'
+title: '[!DNL On Demand] Premium Inventário Editores na Europa, Oriente Médio e África'
+description: '[!DNL On Demand] Premium Inventário Editores na Europa, Oriente Médio e África'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Publicadores de inventário premium na Europa, Oriente Médio e África
+# [!DNL On Demand] Premium Inventário Editores na Europa, Oriente Médio e África
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Editor | Geografia |
+| Editor | Geo |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | França |
 | [!DNL BBC] | França |
@@ -90,51 +90,51 @@ ht-degree: 0%
 | [!DNL Targetspot] | Holanda |
 | [!DNL U.S. News] | Holanda |
 | [!DNL USA Today] | Holanda |
-| [!DNL Aller SE] | Nórdicos |
-| [!DNL BBC] | Nórdicos |
-| [!DNL Bloomberg] | Nórdicos |
-| [!DNL DailyMail] | Nórdicos |
-| [!DNL eDreams Odigeo] | Nórdicos |
-| [!DNL Future] | Nórdicos |
-| [!DNL IDG Tech] | Nórdicos |
-| [!DNL IP Belgium] | Nórdicos |
-| [!DNL Key Mobile] | Nórdicos |
-| [!DNL King] | Nórdicos |
-| [!DNL Leeads] | Nórdicos |
-| [!DNL Life of Svea] | Nórdicos |
-| [!DNL NBC Universal] | Nórdicos |
-| [!DNL Publicidad] | Nórdicos |
-| [!DNL Skyscanner] | Nórdicos |
-| [!DNL Tapjoy] | Nórdicos |
-| [!DNL Targetspot] | Nórdicos |
-| [!DNL TV2.DK] | Nórdicos |
-| [!DNL U.S. News] | Nórdicos |
-| [!DNL USA Today] | Nórdicos |
-| [!DNL Vox Media] | Nórdicos |
-| [!DNL Vungle] | Nórdicos |
-| [!DNL BBC] | Outros Estados-Membros |
-| [!DNL Bloomberg] | Outros Estados-Membros |
-| [!DNL DailyMail] | Outros Estados-Membros |
-| [!DNL ESI Media] | Outros Estados-Membros |
-| [!DNL Future] | Outros Estados-Membros |
-| [!DNL Gentside] | Outros Estados-Membros |
-| [!DNL Goldbach] | Outros Estados-Membros |
-| [!DNL IP Belgium] | Outros Estados-Membros |
-| [!DNL KeyMobile] | Outros Estados-Membros |
-| [!DNL King] | Outros Estados-Membros |
-| [!DNL New York Times] | Outros Estados-Membros |
-| [!DNL OhMyMag] | Outros Estados-Membros |
-| [!DNL Publicidad] | Outros Estados-Membros |
-| [!DNL SBS] | Outros Estados-Membros |
-| [!DNL Skyscanner] | Outros Estados-Membros |
-| [!DNL Snack Media] | Outros Estados-Membros |
-| [!DNL Tapjoy] | Outros Estados-Membros |
-| [!DNL Targetspot] | Outros Estados-Membros |
-| [!DNL U.S. News] | Outros Estados-Membros |
-| [!DNL United Internet Media] | Outros Estados-Membros |
-| [!DNL USA Today] | Outros Estados-Membros |
-| [!DNL Vox Media] | Outros Estados-Membros |
-| [!DNL Vungle] | Outros Estados-Membros |
+| [!DNL Aller SE] | Países Nórdicos |
+| [!DNL BBC] | Países Nórdicos |
+| [!DNL Bloomberg] | Países Nórdicos |
+| [!DNL DailyMail] | Países Nórdicos |
+| [!DNL eDreams Odigeo] | Países Nórdicos |
+| [!DNL Future] | Países Nórdicos |
+| [!DNL IDG Tech] | Países Nórdicos |
+| [!DNL IP Belgium] | Países Nórdicos |
+| [!DNL Key Mobile] | Países Nórdicos |
+| [!DNL King] | Países Nórdicos |
+| [!DNL Leeads] | Países Nórdicos |
+| [!DNL Life of Svea] | Países Nórdicos |
+| [!DNL NBC Universal] | Países Nórdicos |
+| [!DNL Publicidad] | Países Nórdicos |
+| [!DNL Skyscanner] | Países Nórdicos |
+| [!DNL Tapjoy] | Países Nórdicos |
+| [!DNL Targetspot] | Países Nórdicos |
+| [!DNL TV2.DK] | Países Nórdicos |
+| [!DNL U.S. News] | Países Nórdicos |
+| [!DNL USA Today] | Países Nórdicos |
+| [!DNL Vox Media] | Países Nórdicos |
+| [!DNL Vungle] | Países Nórdicos |
+| [!DNL BBC] | Outros países da UE |
+| [!DNL Bloomberg] | Outros países da UE |
+| [!DNL DailyMail] | Outros países da UE |
+| [!DNL ESI Media] | Outros países da UE |
+| [!DNL Future] | Outros países da UE |
+| [!DNL Gentside] | Outros países da UE |
+| [!DNL Goldbach] | Outros países da UE |
+| [!DNL IP Belgium] | Outros países da UE |
+| [!DNL KeyMobile] | Outros países da UE |
+| [!DNL King] | Outros países da UE |
+| [!DNL New York Times] | Outros países da UE |
+| [!DNL OhMyMag] | Outros países da UE |
+| [!DNL Publicidad] | Outros países da UE |
+| [!DNL SBS] | Outros países da UE |
+| [!DNL Skyscanner] | Outros países da UE |
+| [!DNL Snack Media] | Outros países da UE |
+| [!DNL Tapjoy] | Outros países da UE |
+| [!DNL Targetspot] | Outros países da UE |
+| [!DNL U.S. News] | Outros países da UE |
+| [!DNL United Internet Media] | Outros países da UE |
+| [!DNL USA Today] | Outros países da UE |
+| [!DNL Vox Media] | Outros países da UE |
+| [!DNL Vungle] | Outros países da UE |
 | [!DNL BBC] | Portugal |
 | [!DNL Bloomberg] | Portugal |
 | [!DNL DailyMail] | Portugal |
@@ -223,13 +223,13 @@ ht-degree: 0%
 | [!DNL Vungle] | Reino Unido |
 | [!DNL Yahoo] | Reino Unido |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Sobre [!DNL On Demand] Inventário Premium](on-demand-inventory-about.md)
->* [Assinar e solicitar acesso a [!DNL On Demand] Inventário Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Publicadores de inventário premium no Pacífico Asiático](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Publicadores Premium de Inventário na Austrália e Nova Zelândia](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Publicadores Premium de inventário na América do Norte](on-demand-inventory-publishers-na.md)
+>* [Inscrever-se e solicitar acesso a [!DNL On Demand] Inventário Premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Premium Inventário Editores no Pacífico Asiático](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Premium Inventário Editores na Austrália e Nova Zelândia](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Premium Inventory Publishers na América do Norte](on-demand-inventory-publishers-na.md)
 

@@ -12,28 +12,28 @@ ht-degree: 0%
 
 # Criar uma meta personalizada
 
-Você pode criar metas personalizadas como *objetivos* within [!DNL Advertising Search, Social, & Commerce].
+Você pode criar metas personalizadas como *objetivos* no prazo de [!DNL Advertising Search, Social, & Commerce].
 
-Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma [!DNL Search, Social, & Commerce] conta com a mesma ID da organização da Adobe Experience Cloud, no [!DNL Search, Social, & Commerce] configurações do cliente. Se a conta DSP não estiver vinculada a um [!DNL Search, Social, & Commerce] entre em contato com a equipe de conta do Adobe.
+Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe Experience Cloud, de dentro do [!DNL Search, Social, & Commerce] configurações do cliente. Se sua conta do DSP não estiver vinculada a um [!DNL Search, Social, & Commerce] , entre em contato com a equipe da sua conta Adobe.
 
 >[!TIP]
 >
->Consulte a [práticas recomendadas para a criação de metas personalizadas](custom-goal-best-practices.md) para obter dicas sobre como configurar suas metas personalizadas.
+>Consulte a [práticas recomendadas para criar metas personalizadas](custom-goal-best-practices.md) para obter dicas sobre como configurar suas metas personalizadas.
 
-1. Faça logon [!DNL Advertising Search, Social, & Commerce] at (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
-1. Certifique-se de que as métricas que deseja incluir na sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
+1. Efetue logon no [!DNL Advertising Search, Social, & Commerce] at (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Verifique se as métricas que você deseja incluir em sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
    1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
-   1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativada para a métrica.
-   1. Se a métrica não tiver um valor na variável **[!UICONTROL Display Name]** , clique na célula, insira o nome de exibição e clique em **[!UICONTROL Apply].**
-1. Criar a meta personalizada como uma *objetivo*:
+   1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativado para a métrica.
+   1. Se a métrica não tiver um valor no campo **[!UICONTROL Display Name]** , clique na célula, digite o nome de exibição e clique em **[!UICONTROL Apply].**
+1. Criar a meta personalizada como um *objetivo*:
    1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. Na barra de ferramentas, clique em **[!UICONTROL Create objective].**
-   1. Insira as configurações do objetivo:
-      1. No **[!UICONTROL Change Objective Name]** , insira o nome do objetivo.
+   1. Insira as configurações de objetivo:
+      1. No **[!UICONTROL Change Objective Name]** insira o nome do objetivo.
 
-         O nome do objetivo será mostrado na variável [!UICONTROL Custom Goals] nas configurações do pacote de DSP.
+         O nome do objetivo será mostrado no campo [!UICONTROL Custom Goals] nas configurações do pacote DSP.
 
-      1. Associe propriedades ao objetivo:
+      1. Associar propriedades ao objetivo:
 
          >[!NOTE]
          >
@@ -41,40 +41,40 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma [!D
 
          * Para importar um arquivo CSV com propriedades e seus pesos, clique em **[!UICONTROL Import]** e localize o arquivo a ser importado.
 
-            As propriedades importadas já devem existir para o anunciante; os nomes não fazem distinção entre maiúsculas e minúsculas.
+            As propriedades importadas já devem existir para o anunciante; os nomes não diferenciam maiúsculas de minúsculas.
 
-            As propriedades importadas substituem as propriedades existentes especificadas.
+            As propriedades importadas substituem todas as propriedades existentes especificadas.
 
          * Para especificar manualmente a primeira propriedade com o peso padrão (1), selecione em uma lista de todas as propriedades de transação rastreadas para o anunciante.
 
-         * Para adicionar manualmente outra propriedade com o peso padrão (1), clique em **[!UICONTROL +]** .
+         * Para adicionar outra propriedade manualmente com o peso padrão (1), clique em **[!UICONTROL +]** .
 
             >[!TIP]
             >
-            > Para procurar uma propriedade na lista, digite uma string de qualquer lugar dentro do nome da propriedade.
+            > Para pesquisar uma propriedade na lista, insira uma string de qualquer lugar dentro do nome da propriedade.
 
-         * Para adicionar manualmente várias propriedades, clique em **[!UICONTROL Add Multiple Properties].** Para cada propriedade que você deseja adicionar, clique no nome da propriedade no [!UICONTROL Available Properties] e arraste-a para a [!UICONTROL Added Properties] coluna. Quando terminar de adicionar propriedades, clique em **[!UICONTROL Add]**.
+         * Para adicionar várias propriedades manualmente, clique em **[!UICONTROL Add Multiple Properties].** Para cada propriedade que deseja adicionar, clique no nome da propriedade na [!UICONTROL Available Properties] e arraste-a para a [!UICONTROL Added Properties] coluna. Quando terminar de adicionar propriedades, clique em **[!UICONTROL Add]**.
 
             >[!TIP]
             >
-            >* Para procurar uma propriedade na lista, insira uma string de qualquer lugar dentro do nome da propriedade no campo de entrada.
-            >* Para filtrar a lista para excluir propriedades excluídas nos relatórios, selecione a opção **[!UICONTROL Hide properties excluded from reports].**
+            >* Para pesquisar uma propriedade na lista, insira uma string de qualquer lugar dentro do nome da propriedade no campo de entrada.
+            >* Para filtrar a lista para excluir propriedades que são excluídas em relatórios, selecione a opção **[!UICONTROL Hide properties excluded from reports].**
 
 
-         * (Quando o objetivo contém várias propriedades) Para alterar o peso de uma propriedade em relação às outras propriedades no objetivo, insira valores no **[!UICONTROL Weight]** campo(s).
+         * (Quando o objetivo contiver várias propriedades) Para alterar o peso de uma propriedade em relação às outras propriedades do objetivo, informe valores na **[!UICONTROL Weight]** campo(s)
       1. Na parte inferior das configurações, clique em **[!UICONTROL Save]**.
 
 
-Depois de criar um objetivo, você pode atribuí-lo a um pacote de DSP como uma meta personalizada quando a meta de otimização for &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; ou &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+Depois de criar um objetivo, você pode atribuí-lo a um pacote DSP como uma meta personalizada quando a meta de otimização for &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; ou &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
 
 >[!TIP]
 >
->Para um desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outros eventos de suporte (propriedades de transação), como páginas de produto ou início de aplicativo, ao objetivo. Consulte [Práticas recomendadas para criar uma meta personalizada](custom-goal-best-practices.md) para obter diretrizes.
+>Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outros eventos de suporte (propriedades de transação), como páginas de produto ou inícios de aplicativo, ao objetivo. Consulte [Práticas recomendadas para a criação de uma meta personalizada](custom-goal-best-practices.md) para obter diretrizes.
 
 >[!MORELIKETHIS]
 >
->* [Sobre as metas personalizadas](custom-goal-about.md)
->* [Práticas recomendadas para criar uma meta personalizada](custom-goal-best-practices.md)
+>* [Sobre metas personalizadas](custom-goal-about.md)
+>* [Práticas recomendadas para a criação de uma meta personalizada](custom-goal-best-practices.md)
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
 > * [Como o DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)

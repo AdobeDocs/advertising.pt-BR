@@ -1,6 +1,6 @@
 ---
-title: Editar as Tags de atributo para uma ID de contrato
-description: Saiba como criar e editar as tags de atributo para uma ID de negócio.
+title: Editar as tags de atributo para uma ID de oferta
+description: Saiba como criar e editar as tags de atributo para uma ID de negócios.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
@@ -9,26 +9,26 @@ ht-degree: 0%
 
 ---
 
-# Editar as Tags de atributo para uma ID de contrato
+# Editar as tags de atributo para uma ID de oferta
 
-Você pode criar e atribuir tags para negociar IDs para agrupar ofertas semelhantes. Ao criar ou editar uma disposição, é possível pesquisar o inventário disponível por nome da tag.
+Você pode criar e atribuir tags às IDs de negócios para agrupar negócios semelhantes. Ao criar ou editar uma disposição, é possível pesquisar o inventário disponível por nome da etiqueta.
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Na linha de negociação, clique em ![Menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
+1. Na linha de negócios, clique em ![Menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 
-1. No [!UICONTROL Ad & Deal Tagging] , siga um destes procedimentos:
+1. No [!UICONTROL Ad & Deal Tagging] faça o seguinte:
 
-   * Para atribuir uma tag existente à negociação, marque a caixa de seleção ao lado da negociação no [!UICONTROL Custom Tags] lista.
+   * Para atribuir uma tag existente ao negócio, marque a caixa de seleção ao lado do negócio na [!UICONTROL Custom Tags] lista.
 
-   * Para criar uma tag e associá-la à negociação, insira o nome da tag no **[!UICONTROL Create new tag(s)]** e clique em **[!UICONTROL Create and Associate Tag]**.
+   * Para criar uma tag e associá-la ao contrato, digite o nome da tag no campo **[!UICONTROL Create new tag(s)]** e clique em **[!UICONTROL Create and Associate Tag]**.
 
-   * Para remover uma tag existente do negócio, desmarque a caixa de seleção ao lado do negócio no [!UICONTROL Custom Tags] lista.
+   * Para remover uma tag existente do contrato, desmarque a caixa de seleção ao lado do contrato na [!UICONTROL Custom Tags] lista.
 
 1. Clique em **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre inventário privado](private-inventory-about.md)
->* [Editar Configurações de Negociação Privada](/help/dsp/inventory/deal-id-edit.md)
+>* [Sobre Inventário Privado](private-inventory-about.md)
+>* [Editar configurações de oferta privada](/help/dsp/inventory/deal-id-edit.md)
 

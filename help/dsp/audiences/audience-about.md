@@ -32,7 +32,7 @@ Outros tipos de público-alvo também estão disponíveis para o direcionamento 
 
 O DSP pode importar seus próprios segmentos de dados primários da sua plataforma de gerenciamento de dados (DMP) e fornecê-los a qualquer conjunto de anunciantes, conforme necessário.
 
-O DSP é um destino integrado para [o [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), permitindo que você compartilhe segmentos primários autenticados com anunciantes e usuários aprovados para ativação de campanha. Para saber mais sobre a integração do Real-Time CDP, consulte a [Seção Origens](/help/dsp/audiences/sources/source-about.md).
+O DSP é um destino integrado para [o [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), permitindo que você compartilhe segmentos primários autenticados com anunciantes e usuários aprovados para ativação de campanha. Para saber mais sobre a integração do Real-Time CDP, consulte a [Seção Origens](/help/dsp/audiences/sources/source-about.md).
 
 O DSP também pode importar segmentos personalizados de terceiros, incluindo combinações complexas de segmentos de terceiros. Você pode fornecer os segmentos a qualquer conjunto de anunciantes, conforme necessário.
 

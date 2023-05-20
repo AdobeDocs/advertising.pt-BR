@@ -1,6 +1,6 @@
 ---
-title: Filtrar dados da campanha
-description: Saiba como aplicar filtros para limitar os dados da campanha exibidos.
+title: Filtrar dados de campanha
+description: Saiba como aplicar filtros para restringir os dados da campanha exibidos.
 feature: DSP Campaign Data Views
 exl-id: b332684d-d6be-4a67-961a-86b9086356b5
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Filtrar dados da campanha
+# Filtrar dados de campanha
 
 1. Na barra de ferramentas principal, clique em ![Botão Filtrar](/help/dsp/assets/filter.png).
 1. Para cada filtro que deseja aplicar, clique no nome do filtro na coluna à esquerda e especifique os valores do filtro.
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 ## Filtros disponíveis
 
-Os seguintes filtros estão disponíveis para seu [!UICONTROL Campaigns], [!UICONTROL Packages]e [!UICONTROL Placements] exibições:
+Os seguintes filtros estão disponíveis para o seu [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] exibições:
 
 * [!UICONTROL Campaigns] exibir filtros:
    * [!UICONTROL Campaign status]
    * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] exibir filtros:
-   * [!UICONTROL Custom flights] (mesmo que existam)
+   * [!UICONTROL Custom flights] (se existem ou não)
    * [!UICONTROL Custom goal] (se aplicável)
    * [!UICONTROL End end date]
    * [!UICONTROL Optimization goal]
@@ -56,7 +56,7 @@ Os seguintes filtros estão disponíveis para seu [!UICONTROL Campaigns], [!UICO
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios na plataforma](campaign-reports-about.md)
->* [Criar uma exibição de coluna personalizada](column-view-create.md)
->* [Alterar a exibição de coluna](column-view-change.md)
+>* [Sobre Relatórios Na Plataforma](campaign-reports-about.md)
+>* [Criar uma Exibição de coluna personalizada](column-view-create.md)
+>* [Alterar a Exibição de Coluna](column-view-change.md)
 

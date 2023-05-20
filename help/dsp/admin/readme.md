@@ -5,8 +5,8 @@ source-wordcount: '21'
 ht-degree: 0%
 
 ---
-# Informações Sobre Este Capítulo
+# Informações sobre este capítulo
 
 Esta é a pasta de trabalho deste capítulo.
 
-**Observação: Esta página não é publicada na documentação voltada para o cliente.**
+**Observação: esta página não está publicada na documentação voltada para o cliente.**

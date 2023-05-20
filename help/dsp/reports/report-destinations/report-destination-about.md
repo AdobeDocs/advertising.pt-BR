@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Sobre [!UICONTROL Report Destinations]
 
-Você pode criar e gerenciar locais de delivery, chamados de *[!DNL report destinations]*, para seus relatórios personalizados. Depois de configurar os destinos do relatório, você pode configurar cada um dos relatórios personalizados para que sejam entregues a um ou mais locais de um único tipo de destino. Depois de salvar um relatório, não é possível alterar o tipo de destino.
+Você pode criar e gerenciar locais de entrega, chamados de *[!DNL report destinations]*, para seus relatórios personalizados. Depois de configurar os destinos do relatório, é possível configurar cada um dos relatórios personalizados para serem entregues a um ou mais locais de um único tipo de destino. Depois de salvar um relatório, não é possível alterar o tipo de destino.
 
 ## Disponível [!UICONTROL Destination Types]
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* SSL FTP (em beta)
+* FTP SSL (na versão beta)
 
 >[!NOTE]
 >
-> Você também pode enviar seus relatórios personalizados para destinatários de email, que não exigem um destino de relatório salvo. Você pode especificar destinatários de email, em vez de destinos salvos, nas configurações do relatório.
+> Você também pode enviar seus relatórios personalizados para destinatários de email, que não exigem um destino de relatório salvo. Você pode especificar destinatários de email nas configurações do relatório, em vez de destinos salvos.
 
-## O [!UICONTROL Report Destinations] Exibir
+## A variável [!UICONTROL Report Destinations] Exibir
 
-O [!UICONTROL Report Destinations] mostra todos os destinos existentes e o número de relatórios vinculados a cada um. Você pode filtrar a lista por tipo de destino.
+A variável [!UICONTROL Report Destinations] A visualização mostra todos os destinos existentes e o número de relatórios vinculados a cada um. Você pode filtrar a lista por tipo de destino.
 
-É possível criar novos destinos e editar e excluir destinos existentes nessa visualização.
+É possível criar novos destinos, além de editar e excluir destinos existentes nessa visualização.
 
 >[!NOTE]
 >
->A atualização das credenciais para os destinos de relatório existentes não interrompe a entrega do relatório, desde que as credenciais sejam válidas.
+>Atualizar as credenciais para seus destinos de relatório existentes não interromperá a entrega do relatório, desde que as credenciais sejam válidas.
 
 ![Destinos do relatório](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >
->* [Crie um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Edite um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

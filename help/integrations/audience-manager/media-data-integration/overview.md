@@ -1,6 +1,6 @@
 ---
-title: Visão geral do envio DSP dados de exposição de mídia para o Adobe Audience Manager
-description: Saiba como usar pixels de Audience Manager event para capturar dados de nível de impressão e de cliques de campanhas de Advertising DSP
+title: Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager
+description: Saiba como usar pixels de evento Audience Manager para capturar dados de nível de impressão e nível de clique de campanhas de Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,48 +10,48 @@ ht-degree: 0%
 
 ---
 
-# Visão geral do envio DSP dados de exposição de mídia para o Adobe Audience Manager
+# Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager
 
-*Somente anunciantes com DSP publicitária*
+*Anunciantes com somente DSP publicitário*
 
-*Anunciantes apenas com uma integração Adobe Advertising-Adobe Audience Manager*
+*Anunciantes com uma integração Adobe Advertising-Adobe Audience Manager somente*
 
-A publicidade DSP os clientes com o Adobe Audience Manager podem usar pixels de evento de Audience Manager para capturar dados de nível de impressão e dados de nível de clique DSP campanhas. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso de DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
+Os clientes de publicidade de DSP com Adobe Audience Manager podem usar pixels de evento de Audience Manager para capturar dados de nível de impressão e dados de nível de clique de campanhas de DSP. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso do DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
 
-DSP não cobra que você envie esses sinais para o Audience Manager. No entanto, você paga os custos padrão de ingestão de Audience Manager com base nas chamadas do servidor, de acordo com seu contrato de Audience Manager. O Audience Manager remove eventos duplicados que são rastreados de duas maneiras diferentes, de modo que cada evento é cobrado apenas uma vez.
+A DSP não cobra para enviar esses sinais para o Audience Manager. No entanto, você paga custos de assimilação de Audience Manager padrão com base em chamadas de servidor, de acordo com o contrato de Audience Manager. O Audience Manager remove eventos duplicados que são rastreados de duas maneiras diferentes, para que cada evento seja cobrado apenas uma vez.
 
 >[!NOTE]
 >
-> O Audience Manager também oferece suporte à captura de dados de arquivos de log do servidor de publicidade, o que oferece menos flexibilidade. Esse processo não é abordado nesta documentação.
+> O Audience Manager também é compatível com a captura de dados de arquivos de log do servidor de anúncios, o que fornece menos flexibilidade. Esse processo não é abordado nesta documentação.
 
-## Benefícios principais
+## Principais benefícios
 
-* DSP os dados da campanha fluem para o Audience Manager em tempo real e você pode usá-los para criar características baseadas em regras que você usa para definir segmentos.
+* Os dados de campanha do DSP fluem para o Audience Manager em tempo real, e você pode usá-los para criar características baseadas em regras que você usa para definir segmentos.
 
-* Os segmentos estão disponíveis para direcionamento imediatamente após a qualificação de característica do usuário e segmento, reforçando os esforços de direcionamento em tempo real.
+* Os segmentos estão disponíveis para direcionamento imediatamente após a característica do usuário e a qualificação de segmento, reforçando os esforços de direcionamento em tempo real.
 
-* Você pode aproveitar os dados da campanha para casos de uso como limite de frequência entre anúncios, redirecionamento de usuários que foram expostos a campanhas anteriores e análise do comportamento downstream do site e pontos de entrada.
+* Você pode aproveitar os dados da campanha para casos de uso, como limite de frequência em criações, redirecionamento de usuários que foram expostos a campanhas anteriores e análise do comportamento downstream do site e dos pontos de entrada.
 
-* Os dados agregados fornecem uma visão unificada do desempenho da campanha, ajudam a identificar caminhos de conversão personalizados e podem ser usados para melhorar a sequência de eventos que levam a conversões por meio do Audience Manager [!DNL Audience Optimization Reports] ou através de uma [[!DNL Audience Analytics] integração com o Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* Os dados agregados fornecem uma visualização unificada do desempenho da campanha, ajuda a identificar caminhos de conversão personalizados e podem ser usados para melhorar a sequência de eventos que levam a conversões por meio do Audience Manager [!DNL Audience Optimization Reports] ou por meio de um [[!DNL Audience Analytics] integração com o Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Como os dados são rastreados
 
-A impressão de Audience Manager e os pixels do evento de clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).
+Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).
 
 ### Pixels de rastreamento de impressão
 
-O Audience Manager acompanha os dados de impressão de um anúncio quando você anexa um pixel de rastreamento de evento transparente de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é veiculado a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado para o Audience Manager, e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados do Audience Manager.
+o Audience Manager rastreia dados de impressão de um anúncio quando você anexa um pixel transparente de rastreamento de eventos de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é exibido a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados do Audience Manager.
 
 ### Pixels de rastreamento de cliques
 
-O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel do evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de clique são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados do Audience Manager. Em seguida, o servidor redireciona o usuário para a página de aterrissagem desejada. O URL contém parâmetros como pares de valores chave.
+O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel de evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de cliques são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente do [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados do Audience Manager. O servidor então redireciona o usuário para a página inicial desejada. O URL contém parâmetros como pares de valor chave.
 
 >[!NOTE]
 >
->Se sua organização usar [!DNL Analytics] , talvez você não precise do rastreamento por Audience Manager click. O Adobe Analytics captura sinais de clique e pode enviá-los para o Audience Manager [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se sua organização usar [!DNL Analytics] , talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio de [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Coletar dados de cliques e impressões de campanhas de publicidade DSP](collect.md)
+>* [Coletar dados de cliques e impressões de campanhas de DSP](collect.md)
 >* [Casos de uso](use-cases.md)
 

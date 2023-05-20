@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 |  | Um número baixo de usuários está disponível. | Verifique se os públicos-alvo especificados incluem um número suficiente de usuários ativos. Caso contrário, expanda os públicos-alvo adicionando mais públicos-alvo.<br><br>Lembre-se de que o uso de vários públicos-alvo de posicionamento, como filtros pré-oferta, geografia, inventário e públicos-alvo, pode limitar cumulativamente os lances e os gastos. |
 |  | O pacote inclui um grande número de disposições ativas. | Reduza o número de posicionamentos ativos no pacote ou aumente o orçamento geral do pacote.<br><br>Se o pacote tiver muitas disposições, mas não tiver orçamento suficiente, o DSP talvez não consiga alocar orçamento suficiente para cada disposição. Cada posicionamento deve ter a oportunidade de gastar pelo menos 2 dólares por dia. Por exemplo, se o pacote tiver um orçamento de US$ 10 por dia, será melhor incluir cinco ou menos disposições. &#x200B; |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

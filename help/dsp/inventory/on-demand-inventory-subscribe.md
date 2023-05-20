@@ -1,6 +1,6 @@
 ---
-title: Assinar e solicitar acesso a [!DNL On Demand] Contratos de inventário premium
-description: Saiba como assinar e solicitar acesso a[!DNL On Demand] ofertas.
+title: Inscrever-se e solicitar acesso a [!DNL On Demand] Ofertas de inventário Premium
+description: Saiba como assinar e solicitar acesso ao[!DNL On Demand] negócios.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,71 +10,71 @@ ht-degree: 0%
 
 ---
 
-# Assinar e solicitar acesso a [!DNL On Demand] Contratos de inventário premium
+# Inscrever-se e solicitar acesso a [!DNL On Demand] Ofertas de inventário Premium
 
-*Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]; e revendedores*
+*Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension], e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]e revendedores*
 
-Você pode solicitar ofertas individuais ou assinar um editor para solicitar todas as ofertas do editor. Quando você se inscreve em um editor, o DSP automaticamente solicita todas as novas ofertas que o editor oferecer.
+Você pode solicitar ofertas individuais ou assinar um editor para solicitar todas as ofertas do editor. Quando você se inscreve em um editor, o DSP solicita automaticamente quaisquer novas ofertas que o editor oferece em seu nome.
 
-Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view-status.md), é incluído por padrão como um target para novas disposições que direcionam tudo [!DNL On Demand] inventário. A nova negociação também está disponível como um destino para disposições existentes, mas você deve editar manualmente as configurações de posicionamento para adicionar a negociação como um destino.
+Quando um contrato é [aprovado](/help/dsp/inventory/on-demand-inventory-view-status.md), é incluído por padrão como um direcionamento para novos posicionamentos que direcionam todos [!DNL On Demand] inventário. A nova oferta também está disponível como uma meta para disposições existentes, mas você deve editar manualmente as configurações de inserção para adicionar a oferta como meta.
 
-## Assinar todos os contratos de um editor
-
-1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
-
-1. (Opcional) Filtre as ofertas ou editores disponíveis por qualquer um dos seguintes critérios:
-
-   * Pesquisa de palavra-chave
-
-   * **[!UICONTROL Publisher Region]**
-
-   * **[!UICONTROL Media Type]**
-
-   * Contratos ou subscrições solicitados, incluindo ofertas aprovadas e negadas (**[!UICONTROL Currently subscribed to]**)
-
-   * Contratos para os quais você foi aprovado (**[!UICONTROL Currently have access to]**)
-
-   * Contratos de **[!UICONTROL TV Broadcasters]**
-
-   * Ofertas de editores que aceitam criativos &quot;sintonizados&quot; (**[!UICONTROL Tune-In]**)
-
-   * Contratos para os quais o editor aplicou mais de 21 metas e aceita anúncios em álcool (**[!UICONTROL Legal drinking age]**)
-
-1. Faça o seguinte ou o seguinte:
-
-   * (Para se inscrever em editores adicionados recentemente) No carrossel superior dos editores, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL Subscribe]**.
-
-   * (Para assinar qualquer editor) Clique em **[!UICONTROL Subscription view]**, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL Subscribe]**.
-
-## Solicitar acesso a contratos individuais
+## Assinar todas as ofertas de um editor
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Opcional) Filtre as ofertas ou editores disponíveis por qualquer um dos seguintes critérios:
 
-   * Pesquisa de palavra-chave
+   * Pesquisa por palavra-chave
 
    * **[!UICONTROL Publisher Region]**
 
    * **[!UICONTROL Media Type]**
 
-   * Contratos ou subscrições solicitados, incluindo ofertas aprovadas e negadas (**[!UICONTROL Currently subscribed to]**)
+   * Ofertas ou assinaturas solicitadas, incluindo ofertas aprovadas e negadas (**[!UICONTROL Currently subscribed to]**)
 
-   * Contratos para os quais você foi aprovado (**[!UICONTROL Currently have access to]**)
+   * Transações para as quais você foi aprovado (**[!UICONTROL Currently have access to]**)
 
-   * Contratos de **[!UICONTROL TV Broadcasters]**
+   * Transações de **[!UICONTROL TV Broadcasters]**
 
-   * Ofertas de editores que aceitam criativos &quot;sintonizados&quot; (**[!UICONTROL Tune-In]**)
+   * Ofertas de editores que aceitam criações de &quot;ajuste&quot; (**[!UICONTROL Tune-In]**)
 
-   * Contratos para os quais o editor aplicou mais de 21 metas e aceita anúncios em álcool (**[!UICONTROL Legal drinking age]**)
+   * Transações para as quais o editor aplicou mais de 21 direcionamentos e aceitou anúncios de álcool (**[!UICONTROL Legal drinking age]**)
 
-1. Faça o seguinte ou o seguinte:
+1. Execute um dos seguintes procedimentos ou:
 
-   * Para solicitar ofertas recém-adicionadas:
+   * (Para assinar editores adicionados recentemente) No carrossel superior de editores, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL Subscribe]**.
 
-      1. No carrossel superior dos editores, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL See Deals]**.
+   * (Para se inscrever em qualquer editor) Clique **[!UICONTROL Subscription view]**, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL Subscribe]**.
 
-      1. Para assinar uma venda individual, clique em **[!UICONTROL Request]** no [!UICONTROL Action] para a linha relevante.
+## Solicitar Acesso a Contratos Individuais
+
+1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
+
+1. (Opcional) Filtre as ofertas ou editores disponíveis por qualquer um dos seguintes critérios:
+
+   * Pesquisa por palavra-chave
+
+   * **[!UICONTROL Publisher Region]**
+
+   * **[!UICONTROL Media Type]**
+
+   * Ofertas ou assinaturas solicitadas, incluindo ofertas aprovadas e negadas (**[!UICONTROL Currently subscribed to]**)
+
+   * Transações para as quais você foi aprovado (**[!UICONTROL Currently have access to]**)
+
+   * Transações de **[!UICONTROL TV Broadcasters]**
+
+   * Ofertas de editores que aceitam criações de &quot;ajuste&quot; (**[!UICONTROL Tune-In]**)
+
+   * Transações para as quais o editor aplicou mais de 21 direcionamentos e aceitou anúncios de álcool (**[!UICONTROL Legal drinking age]**)
+
+1. Execute um dos seguintes procedimentos ou:
+
+   * Para solicitar ofertas adicionadas recentemente:
+
+      1. No carrossel superior de editores, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL See Deals]**.
+
+      1. Para assinar uma oferta individual, clique em **[!UICONTROL Request]** no [!UICONTROL Action] para a linha relevante.
    * Para solicitar ofertas da [!UICONTROL Deal] exibir:
 
       1. Clique em **[!UICONTROL Deal view]**.
@@ -85,10 +85,10 @@ Uma vez que um acordo é [aprovado](/help/dsp/inventory/on-demand-inventory-view
 >[!MORELIKETHIS]
 >
 >* [Sobre [!DNL On Demand] Inventário Premium](on-demand-inventory-about.md)
->* [Ver o status de seu [!DNL On Demand] Solicitações e assinaturas de contrato](on-demand-inventory-view-status.md)
->* [Solicitar Novas Solicitações Por Demanda dos Contratos de Inventário Premium](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Publicadores de inventário premium no Pacífico Asiático](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Publicadores Premium de Inventário na Austrália e Nova Zelândia](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Publicadores de inventário premium na Europa, Oriente Médio e África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Publicadores Premium de inventário na América do Norte](on-demand-inventory-publishers-na.md)
+>* [Visualizar o status do seu [!DNL On Demand] Solicitações de negócios e assinaturas](on-demand-inventory-view-status.md)
+>* [Solicitar Novamente Contratos De Estoque De Prêmio Por Demanda](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Premium Inventário Editores no Pacífico Asiático](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Premium Inventário Editores na Austrália e Nova Zelândia](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Premium Inventário Editores na Europa, Oriente Médio e África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Premium Inventory Publishers na América do Norte](on-demand-inventory-publishers-na.md)
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Arquivar ou desarquivar uma campanha
 
-Oculte uma campanha que não está sendo usada pelo arquivamento. A única ação que você pode realizar em uma campanha arquivada é desarquivá-la. Campanhas arquivadas não são exibidas por padrão, mas ainda estão disponíveis para relatórios.
+Ocultar uma campanha que não está sendo usada ao arquivá-la. A única ação que você pode realizar em uma campanha arquivada é desarquivá-la. As campanhas arquivadas não são exibidas por padrão, mas ainda estão disponíveis para relatórios.
 
 Você pode desarquivar uma campanha para restaurar seu status anterior a qualquer momento.
 
@@ -24,7 +24,7 @@ Você pode desarquivar uma campanha para restaurar seu status anterior a qualque
 
 >[!NOTE]
 >
->Para visualizar campanhas arquivadas, filtre as [!UICONTROL Campaigns] exibir: click ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Campaign status]** e selecione **[!UICONTROL Archived]** e, em seguida, clique em **[!UICONTROL Apply].**
+>Para visualizar campanhas arquivadas, filtre a variável [!UICONTROL Campaigns] exibir: clique ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Campaign status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
 
 ## Desarquivar uma campanha
 
@@ -35,4 +35,4 @@ Você pode desarquivar uma campanha para restaurar seu status anterior a qualque
 >[!MORELIKETHIS]
 >
 >* [Editar uma campanha](campaign-edit.md)
->* [Exibir o log de alterações de uma campanha](campaign-change-log.md)
+>* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)

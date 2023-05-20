@@ -1,5 +1,5 @@
 ---
-title: Configurações universais de anúncio de vídeo
+title: Configurações de Anúncio de Vídeo Universal
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de vídeo universais.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Configurações universais de anúncio de vídeo
+# Configurações de Anúncio de Vídeo Universal
 
-*Abra o recurso beta*
+*Abrir recurso beta*
 
 >[!NOTE]
 >
->Anúncios de vídeo universais podem ser anexados somente a posicionamentos de vídeo universais.
+>Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 **[!UICONTROL URL]:** O URL da tag VAST.
 
-**[!UICONTROL Title]:** Um título para o arquivo, que está no [!UICONTROL Ads] exibir e relatórios.
+**[!UICONTROL Title]:** Um título para o arquivo, que está no campo [!UICONTROL Ads] e relatórios.
 
 >[!TIP]
 >
-> Para verificar a validade de uma tag VAST, cole-a em um navegador e pressione a **[!UICONTROL Enter]** chave. Se a tag for válida, você verá um arquivo XML que inclui `<VAST>` perto do topo.
+> Para verificar a validade de uma tag VAST, cole-a em um navegador e clique em **[!UICONTROL Enter]** chave. Se a tag for válida, você verá um arquivo XML que inclui `<VAST>` perto do topo.
 
 ## [!UICONTROL Ad Options]
 
@@ -40,46 +40,46 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Use um nome que será fácil de localizar quando você anexar o anúncio a uma disposição, no [!UICONTROL Ads] e nos relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos-chave (como Visualização de produto de feriado: Vídeo universal de 30 seg&quot;).
+> Use um nome fácil de encontrar ao anexar o anúncio a uma disposição, no campo [!UICONTROL Ads] e nos relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos principais (como Visualização de produto de feriado: vídeo universal de 30 segundos).
 
-**[!UICONTROL Show Controls]:** Onde incluir controles de vídeo para o anúncio: *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* ou *[!UICONTROL None]* (padrão).
+**[!UICONTROL Show Controls]:** Onde incluir controles de vídeo para o anúncio: *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* ou *[!UICONTROL None]* (o padrão).
 
-**[!UICONTROL Preserve Aspect Ratio]:** Manter as proporções de largura e altura do vídeo (*[!UICONTROL Yes]*) ou para estender o vídeo para preencher o espaço disponível (*[!UICONTROL No]*).
+**[!UICONTROL Preserve Aspect Ratio]:** Se as proporções de largura e altura do vídeo devem ser mantidas (*[!UICONTROL Yes]*) ou para alongar o vídeo para preencher o espaço disponível (*[!UICONTROL No]*).
 
-**[!UICONTROL VAST Tag]:** (Anúncios que usam somente tags VAST; somente leitura) A tag VAST de terceiros inserida como fonte de anúncio.
+**[!UICONTROL VAST Tag]:** (Anúncios usando somente tags VAST; somente leitura) A tag VAST de terceiros inserida como fonte do anúncio.
 
-**[!UICONTROL Final VAST Tag]:** (Anúncios que usam somente tags VAST; somente leitura) A tag VAST de terceiros inserida como fonte de anúncio com o necessário [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) , se aplicável.
+**[!UICONTROL Final VAST Tag]:** (Anúncios que usam somente tags VAST; somente leitura) A tag VAST de terceiros inserida como fonte do anúncio com as tags necessárias [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
 
-**[!UICONTROL Wmode]:** O modo da janela: *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*. Se essa configuração não for aplicável, deixe-a em branco.
+**[!UICONTROL Wmode]:** O modo de janela: *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*. Se esta configuração não for aplicável, deixe-a em branco.
 
-**[!UICONTROL Video Format]:** O formato do reprodutor de anúncio para o inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A possibilidade de visualização é sempre medida para [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] O inclui inventário que não permite a avaliação da capacidade de visualização. Considere esta distinção se as métricas de visualização forem importantes para sua campanha.
+**[!UICONTROL Video Format]:** O formato do player de anúncio para inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A visibilidade é sempre medida por [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] inclui inventário que não permite a medição da visibilidade. Considere essa distinção se as métricas de visibilidade forem importantes para a campanha.
 
-Use [!UICONTROL VAST], que não permite a avaliação da capacidade de visualização, quando você direciona a TV conectada ou o inventário que exige rigorosamente apenas o formato VAST (geralmente de fontes de fornecimento como Google Ad Manager, Appnexus, SpotX e Freewheel). Use também essa opção para inventário que era anteriormente compatível com inserções/anúncios precedentes padrão (VAST) ou Phone + tablet padrão (VAST).
+Uso [!UICONTROL VAST], que não permite a medição da visibilidade, ao direcionar TV conectada ou inventário que exige estritamente apenas o formato VAST (geralmente de fontes de suprimento como Google Ad Manager, Appnexus, SpotX e Freewheel). Use essa opção também para inventário anteriormente compatível com inserções/anúncios VAST (Standard Pre-roll) ou VAST (Phone + Tablet Standard Pre-roll).
 
-**[!UICONTROL Clock Number]**: (Utilizado apenas no Reino Unido; disponível somente para usuários com permissão) Um identificador exclusivo usado para garantir que o anúncio correto seja transmitido. Se essa configuração não for aplicável, deixe-a em branco.
+**[!UICONTROL Clock Number]**: (Usado somente no Reino Unido; disponível somente para usuários com permissão) Um identificador exclusivo usado para garantir que o anúncio correto seja transmitido. Se esta configuração não for aplicável, deixe-a em branco.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para a disposição são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels, conforme necessário, com base nas suas necessidades de rastreamento para o anúncio individual.
+Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual.
 
 As configurações a seguir se aplicam a cada pixel criado ou editado.
 
-**[!UICONTROL Integration Event]:** O evento que aciona o pixel para ser disparado. Para este tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** O evento que aciona o pixel para ser acionado. Para esse tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem de pixel 1x1), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem com 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** A URL da imagem de pixel, no formato apropriado para a [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** A URL da imagem do pixel, no formato apropriado para a imagem especificada [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que o ajude a identificar o pixel com facilidade.
+**[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
 
-**[!UICONTROL Pixel Provider]:** O provedor de pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* ou *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* ou *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
->* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
->* [Sobre o Gerenciamento de anúncios](ad-about.md)
->* [Criar um único anúncio](ad-create.md)
+>* [Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Sobre o gerenciamento de anúncios](ad-about.md)
+>* [Crie um único anúncio](ad-create.md)
 >* [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [Especificações do anúncio](ad-specs.md)
->* [Macros DSP](/help/dsp/campaign-management/macros.md)
+>* [Especificações de publicidade](ad-specs.md)
+>* [Macros do DSP](/help/dsp/campaign-management/macros.md)
 

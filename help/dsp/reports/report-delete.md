@@ -22,6 +22,6 @@ ht-degree: 0%
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Duplicar um relatório personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Configurações personalizadas de relatório](/help/dsp/reports/report-settings.md)
+>* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 

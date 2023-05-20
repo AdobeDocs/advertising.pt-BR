@@ -16,15 +16,15 @@ Você pode criar um público-alvo duplicando um público-alvo existente.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Duplicate]**.
+1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL Duplicate]**.
 
-1. (Opcional) Altere o nome padrão do público-alvo para outro nome exclusivo.
+1. (Opcional) Altere o nome do público-alvo padrão para outro nome exclusivo.
 
-   Por padrão, o novo público-alvo é chamado de &quot;[público] copiar.&quot;
+   Por padrão, o novo público-alvo é chamado de &quot;[público] cópia.&quot;
 
 1. Clique em **[!UICONTROL Duplicate]**.
 
-1. (Opcional) [Refine o novo público](reusable-audience-edit.md).
+1. (Opcional) [Refinar o novo público](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
@@ -34,9 +34,9 @@ Você pode criar um público-alvo duplicando um público-alvo existente.
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
->* [Configurações de público-alvo](audience-settings.md)
->* [Sintaxe para lógica de segmento do público-alvo](audience-segment-logic-syntax.md)
->* [Fornecedores de dados de terceiros disponíveis](third-party-data-providers.md)
+>* [Configurações de público](audience-settings.md)
+>* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 

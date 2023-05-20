@@ -1,6 +1,6 @@
 ---
 title: Baixar configurações de posicionamento para uma campanha
-description: Saiba como baixar as configurações de posicionamento de uma campanha usando planilhas de QA do Excel.
+description: Saiba como baixar as configurações de posicionamento para uma campanha usando planilhas de controle de qualidade do Excel.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Baixar configurações de posicionamento para uma campanha
 
-Você pode baixar as configurações de posicionamento de uma campanha no formato XLSX (Excel planilha).
+É possível baixar as configurações de posicionamento de uma campanha no formato XLSX (planilha do Excel).
 
-Se necessário, é possível editar posteriormente [selecionar campos](qa-sheet-columns.md) no arquivo baixado e [fazer upload das alterações](qa-sheet-upload.md) para DSP.
+Se necessário, é possível editar posteriormente [selecionar campos](qa-sheet-columns.md) no arquivo baixado e [fazer upload das alterações](qa-sheet-upload.md) ao DSP.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -22,7 +22,7 @@ Se necessário, é possível editar posteriormente [selecionar campos](qa-sheet-
 
    * Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * Clique no nome da campanha para visualizar os detalhes da campanha. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
+   * Clique no nome da campanha para exibir seus detalhes. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    Uma mensagem de notificação indica quando o arquivo está disponível para download.
 
@@ -35,8 +35,8 @@ Se necessário, é possível editar posteriormente [selecionar campos](qa-sheet-
 
 >[!MORELIKETHIS]
 >
->* [Sobre a correção das configurações de disposição de uma campanha usando planilhas](qa-about.md)
->* [Fazer upload de configurações de disposição para uma campanha](qa-sheet-upload.md)
+>* [Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas](qa-about.md)
+>* [Fazer upload das configurações de posicionamento de uma campanha](qa-sheet-upload.md)
 >* [Colunas em planilhas baixadas/carregadas](qa-sheet-columns.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 

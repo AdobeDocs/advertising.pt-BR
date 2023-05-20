@@ -1,5 +1,5 @@
 ---
-title: Especificações de anúncios específicas do editor
+title: Especificações do anúncio específicas do editor
 description: Consulte as especificações de anúncios para editores compatíveis.
 feature: DSP Ads
 source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
@@ -9,13 +9,13 @@ ht-degree: 0%
 
 ---
 
-# Especificações de anúncios específicas do editor
+# Especificações do anúncio específicas do editor
 
-Alguns editores têm especificações de anúncios mais rigorosas do que a Adobe Advertising [especificações gerais](/help/dsp/campaign-management/ads/ad-specs.md). Quando as especificações do editor forem mais rigorosas que as especificações de Adobe Advertising, siga as especificações do editor.
+Alguns editores têm especificações de anúncios mais rigorosas do que o Adobe Advertising [especificações gerais de anúncios](/help/dsp/campaign-management/ads/ad-specs.md). Quando as especificações do editor forem mais rigorosas do que as especificações da Adobe Advertising, certifique-se de seguir as especificações do editor.
 
-Os links a seguir o direcionam para as especificações de anúncios de alguns editores com requisitos mais rigorosos.
+Os links a seguir levam às especificações de anúncios de alguns dos editores com requisitos mais rigorosos.
 
-* [!DNL Channel 10] ([!DNL Viacom]; Unicamente AU): https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
+* [!DNL Channel 10] ([!DNL Viacom]; AU apenas): https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
 * 
    [!DNL CBS Interactive Advanced Media]: https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media
 * 
@@ -26,7 +26,7 @@ Os links a seguir o direcionam para as especificações de anúncios de alguns e
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de anúncios](ad-about.md)
+>* [Sobre o gerenciamento de anúncios](ad-about.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
->* [Especificações do anúncio](/help/dsp/campaign-management/ads/ad-specs.md)
+>* [Especificações de publicidade](/help/dsp/campaign-management/ads/ad-specs.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Sobre [!UICONTROL Simple Ad Serving]
-description: Saiba mais sobre [!UICONTROL Simple Ad Serving] ofertas usando pixels de rastreamento de evento.
+description: Saiba mais sobre [!UICONTROL Simple Ad Serving] O lida com o uso de pixels de rastreamento de eventos.
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,28 +12,28 @@ ht-degree: 0%
 
 # Sobre [!UICONTROL Simple Ad Serving]
 
-[!UICONTROL Simple Ad Serving] O oferece entrega de anúncios e relatórios garantidos e não decididos para um editor especificado e um único tipo de anúncio usando uma única disposição dedicada. Use [!DNL Simple Ad Serving] quando o editor não consegue executar o contrato por meio das IDs de negócios. Todo o direcionamento, o posicionamento e o limite de orçamento e o limite de frequência são tratados pelo editor. Execute essas transações por meio de pixels de rastreamento de eventos.
+[!UICONTROL Simple Ad Serving] O fornece entrega e relatórios de anúncios garantidos e não decididos para um editor especificado e um único tipo de anúncio usando um único posicionamento dedicado. Uso [!DNL Simple Ad Serving] quando o editor não pode executar sua negociação por meio de IDs de negócios. Todo o direcionamento, o ritmo e o limite de orçamento e o limite de frequência são manipulados pelo editor. Execute essas ofertas por meio de pixels de rastreamento de eventos.
 
-Com [!UICONTROL Simple Ad Serving], cada anúncio é veiculado diretamente pelo editor (servidor do site) e DSP fornece um pixel de rastreamento de eventos para enviar ao editor, que deve implementar o pixel e o tráfego dos anúncios DSP. Dependendo do tipo de inventário, os pixels do evento medem impressões, click-through e eventos de reprodução de vídeo.
+Com [!UICONTROL Simple Ad Serving], cada anúncio é distribuído diretamente pelo editor (servidor do site) e o DSP fornece um pixel de rastreamento de eventos para enviar ao editor, que deve implementar o pixel e o tráfego dos anúncios DSP. Dependendo do tipo de inventário, os pixels do evento medem os eventos de impressão, click-through e vídeo reproduzidos.
 
 Os seguintes tipos de anúncios estão disponíveis:
 
-* desktop standard pre-roll
-* tablet e móvel padrão
-* pré-lançamento padrão de TV conectada
-* display
+* pré-implantação padrão de desktop
+* tablet e dispositivo móvel padrão antes da exibição
+* pré-exibição padrão de TV conectada
+* exibição
 * áudio
 
-Você pode criar um [!UICONTROL Simple Ad Serving] no [!UICONTROL Inventory] > [!UICONTROL Deals] exibir. DSP gera automaticamente uma disposição com o subtipo &quot;[!DNL Simple ad serving]&quot; para o anúncio. A disposição direciona a negociação, mas não permite definição de metas, orçamento ou limite de frequência adicionais. Você pode editar apenas algumas das configurações da negociação, como o nome da negociação, CPM, impressões e datas de voo.<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+Você pode criar um [!UICONTROL Simple Ad Serving] negociar no [!UICONTROL Inventory] > [!UICONTROL Deals] exibição. O DSP gera automaticamente uma inserção com o subtipo &quot;[!DNL Simple ad serving]&quot; para o anúncio. A disposição é direcionada ao negócio, mas não permite direcionamento, orçamento ou limite de frequência adicionais. Você pode editar apenas algumas das configurações do negócio, como nome do negócio, CPM, impressões e datas de voo.<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
-[!UICONTROL Simple Ad Serving] as disposições não estão em conformidade com os fundos utilizáveis da conta ou com os orçamentos de campanha e pacote. No entanto, o gasto é rastreado e contado em relação a esses orçamentos. Mesmo quando o CPM é de $0, os dados do evento são sempre rastreados.
+[!UICONTROL Simple Ad Serving] os posicionamentos não estão em conformidade com os fundos utilizáveis da conta ou com os orçamentos de campanha e pacote. No entanto, os gastos são rastreados e contados para esses orçamentos. Mesmo quando o CPM é de US$ 0, os dados do evento são sempre rastreados.
 
 >[!MORELIKETHIS]
 >
->* [Crie um [!UICONTROL Simple Ad Serving] Acordo](simple-deal-create.md)
->* [Editar [!UICONTROL Simple Ad Serving] Configurações do acordo](simple-deal-edit.md)
+>* [Criar um [!UICONTROL Simple Ad Serving] Negociação](simple-deal-create.md)
+>* [Editar [!UICONTROL Simple Ad Serving] Configurações de oferta](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] Configurações](simple-deal-settings.md)
->* [Exibir um relatório detalhado de um contrato](/help/dsp/inventory/deal-view-report.md)
+>* [Exibir um Relatório Detalhado de uma Transação](/help/dsp/inventory/deal-view-report.md)
 
 
 <!-- add back when reimplemented:

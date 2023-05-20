@@ -1,6 +1,6 @@
 ---
-title: Segmentos de integridade aceitáveis de publicidade do Adobe
-description: Consulte as diretrizes para segmentos de público-alvo e táticas aceitáveis relacionadas à integridade para usar como alternativas para direcionar segmentos de público-alvo relacionados à integridade.
+title: Segmentos de saúde aceitáveis para publicidade em Adobe
+description: Consulte as diretrizes sobre segmentos de público-alvo e táticas aceitáveis relacionadas à saúde a serem usadas como alternativas para segmentar segmentos de público-alvo relacionados à saúde.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,43 +10,43 @@ ht-degree: 0%
 
 ---
 
-# Diretrizes de segmento de integridade aceitável da publicidade do Adobe
+# Diretrizes do segmento de integridade aceitável da publicidade do Adobe
 
-*Para Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
+*Para a Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
-As diretrizes a seguir destacam segmentos de público-alvo inaceitáveis e aceitáveis relacionados à saúde. Eles também recomendam táticas para usar como alternativas para direcionar segmentos de público-alvo relacionados à saúde.
+As diretrizes a seguir descrevem segmentos de público-alvo aceitáveis e relacionados à saúde. Eles também recomendam táticas para usar como alternativas para direcionar segmentos de público-alvo relacionados à saúde.
 
-Estas orientações são resumidas da [!DNL Network Advertising Alliance (NAI)].
+As presentes orientações são resumidas da [!DNL Network Advertising Alliance (NAI)].
 
-Consulte também [Política de requisitos de anúncios Adobe](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado ao estado de funcionamento pode ser usado de acordo com a política de direcionamento de Adobe Advertising.
+Consulte também [Política de requisitos para anúncios de anúncio de Adobe](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado à integridade pode ser usado de acordo com a política de direcionamento de publicidade do Adobe.
 
-## Segmentos De Integridade Que Não Devem Ser Usados
+## Segmentos de integridade que não devem ser usados
 
-* Segmentos que dependem de informações de saúde protegidas (PHI)\*, registros médicos a nível do usuário, prescrições farmacêuticas ou fontes médicas ou similares que fornecem conhecimento real da condição ou do tratamento desse usuário.
+* Segmentos que dependem de informações médicas protegidas (PHI)\*, registros médicos no nível do usuário, receitas farmacêuticas ou fontes médicas ou de saúde semelhantes que fornecem conhecimento real sobre a condição ou o tratamento desse usuário.
 
-   \* A publicidade Adobe não é uma [!DNL HIPAA]solução pronta para uso.
+   \* O anúncio de Adobe não é um [!DNL HIPAA]solução pronta para uso.
 
-* Segmentos que visam as condições de saúde (ou tratamentos conexos), tais como qualquer forma de câncer, saúde mental, toxicodependência, doenças sexualmente transmissíveis, doenças que afetam predominantemente crianças ou outras condições de saúde sensíveis que não podem ser tratadas com medicamentos de contador (por exemplo, diabetes, psoríase, artrite reumatoide ou fibromialgia de doenças).
+* Segmentos direcionados a condições de saúde (ou tratamentos relacionados), como qualquer forma de câncer, saúde mental, dependência de drogas, doenças sexualmente transmissíveis, condições que afetam predominantemente crianças ou outras condições de saúde sensíveis que não podem ser tratadas com medicamentos de venda livre (por exemplo, diabetes, psoríase, artrite reumatoide ou doenças fibromialgia).
 
-* Segmentos que dependem da atividade anterior da Web de um usuário ou dispositivo, do uso do aplicativo ou da atividade de conteúdo exibida, expressando interesse em uma integridade sensível, condição médica ou tratamento (conforme descrito no bloco acima).
+* Segmentos que dependem de uma atividade anterior da Web, do uso do aplicativo ou da atividade de conteúdo visualizada de um usuário ou dispositivo que expressem interesse em uma condição ou tratamento médico ou de saúde sensível (conforme descrito no bloco acima).
 
 ## Segmentos De Integridade Que Podem Ser Usados
 
 Todos os itens a seguir devem ser verdadeiros:
 
-* O segmento de público-alvo deve incluir pelo menos 10% da população direcionável.
+* O segmento de público deve incluir pelo menos 10% da população direcionável.
 
 * O segmento de público-alvo depende apenas de informações demográficas, como idade, gênero, nível de educação e/ou ambiente residencial.
 
-* O nome do segmento do público-alvo é rotulado de forma que se baseie na composição demográfica do público e não seja rotulado com uma condição de saúde (por exemplo, &quot;mulheres com mais de 50 anos&quot;, mas não &quot;câncer de mama&quot;, ou &quot;cuidados de pele&quot;, mas não &quot;doente de acne&quot;).
+* O nome do segmento de público é rotulado de forma que se baseia na composição demográfica do público e não é rotulado com uma condição de saúde (por exemplo, &quot;mulheres acima de 50 anos&quot;, mas não &quot;câncer de mama&quot; ou &quot;cuidados com a pele&quot;, mas não &quot;portadoras de acne&quot;).
 
-## Outras Táticas Recomendadas
+## Táticas adicionais recomendadas
 
-* Direcione geografias onde há uma alta propensão do público-alvo e/ou se há profissões/perfis que indexam alto.
+* Geografias direcionadas onde há uma alta propensão do público-alvo e/ou se há profissões/perfis com alta indexação.
 
-* Use o direcionamento contextual para palavras-chave que indexam alto com, mas não estão explicitamente relacionadas à dependência de drogas ou vinculadas a qualquer público-alvo.
+* Use direcionamento contextual para palavras-chave com alto índice de, mas que não estejam explicitamente relacionadas ao vício em drogas ou vinculadas a qualquer público.
 
-* Segmente segmentos demográficos que apresentam alto índice para o seu público-alvo.
+* Segmentos demográficos de público-alvo que são altamente indexados em relação ao seu público-alvo.
 
 >[!MORELIKETHIS]
 >

@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Sobre o Adobe Advertising DSP
 
-A Adobe Advertising é a única plataforma de anúncios independente que unifica e automatiza todas as mídias, dados, públicos-alvo e anúncios criativos em escala. Forneça experiências conectadas em todos os canais de publicidade, incluindo pesquisa paga, exibição, vídeo, TV conectada (CTV), áudio e nativo.
+A Adobe Advertising é a única plataforma de anúncios independente que unifica e automatiza todas as mídias, dados, públicos-alvo e anúncios criativos em escala. Ofereça experiências conectadas em todos os canais de publicidade, incluindo pesquisa paga, exibição, vídeo, TV conectada (CTV), áudio e nativa.
 
-O Adobe Advertising DSP (DSP) eleva as estratégias de mídia dos anunciantes por meio de recursos avançados de segmentação e ativação de dados primários, inventário premium e diferenciado e uma experiência intuitiva de gerenciamento entre canais. Alguns dos principais recursos incluem:
+O Adobe DSP Advertising (DSP) eleva as estratégias de mídia dos anunciantes por meio de recursos avançados de segmentação e ativação de dados primários, inventário premium e diferenciado e uma experiência intuitiva de gerenciamento entre canais. Alguns dos principais recursos incluem:
 
-* [**Otimização**](features/optimization.md): Nosso novo destino para o gerenciamento de campanhas, [!DNL Campaign Home]O , fornece as ferramentas avançadas, a classificação e os insights para otimizar suas campanhas mais rápido do que nunca. Além disso, as recomendações de previsão e gasto preveem as estratégias que devem ter um bom desempenho, não necessariamente o que tem melhor desempenho agora, para que você possa otimizar com os dados.
+* [**Otimização**](features/optimization.md): nosso novo destino para o gerenciamento de campanhas, [!DNL Campaign Home]O, oferece as ferramentas avançadas, a classificação e os insights para otimizar suas campanhas mais rápido do que nunca. Além disso, as recomendações de previsão e gastos preveem as estratégias que devem ter bom desempenho, não necessariamente o que está tendo melhor desempenho no momento, para que você possa otimizar com os dados.
 
-* [**Soluções entre dispositivos**](features/cross-device-solutions.md): A integração do DSP com o [!DNL LiveRamp] O permite estender seu público-alvo para todos os dispositivos conhecidos do consumidor e aplicar limites de frequência e medir a atribuição nesses dispositivos.
+* [**Soluções entre dispositivos**](features/cross-device-solutions.md): a integração do DSP com o [!DNL LiveRamp] O permite estender o público-alvo para todos os dispositivos conhecidos de um consumidor, além de aplicar limites de frequência e medir a atribuição nesses dispositivos.
 
-* [**Conjunto de Qualidade de Mídia**](features/brand-safety-media-quality.md): DSP uma abordagem proativa para problemas que podem afetar os investimentos em sua marca e publicidade. O conjunto de qualidade de mídia de DSP é 100% transparente e adota uma abordagem multifacetada para garantir que os investimentos do anunciante sejam protegidos. Isso inclui segurança da marca, visibilidade, proteção contra fraudes e [!DNL Ads.Txt].
+* [**Media Quality Suite**](features/brand-safety-media-quality.md): o DSP adota uma abordagem proativa para questões que podem afetar seus investimentos em marca e publicidade. O conjunto de qualidade de mídia DSP é 100% transparente e adota uma abordagem multifacetada para garantir que os investimentos do anunciante sejam protegidos. Isso inclui segurança da marca, visibilidade, proteção contra fraudes e [!DNL Ads.Txt].
 
-* **Integrações com [Adobe Analytics](/help/integrations/analytics/overview.md), Adobe Audience Manager e Adobe Experience Platform**: As integrações com seus produtos Adobe existentes permitem maximizar seus dados primários e colocar anúncios no mesmo nível que o resto dos insights comerciais.
+* **Integração com o [Adobe Analytics](/help/integrations/analytics/overview.md), ADOBE AUDIENCE MANAGER e ADOBE EXPERIENCE PLATFORM**: as integrações com seus produtos Adobe existentes permitem maximizar seus dados primários e colocar a publicidade no mesmo nível que o restante dos insights comerciais.
 
-* [**Experiência de TV com conexão Premiere com [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] e DSP ter uma parceria exclusiva que permite ativar seus dados primários e de terceiros em toda a [!DNL Roku] inventário para atingir públicos-alvo com eficiência em toda a tela grande, em escala. Ao aproveitar a única plataforma com a capacidade de sincronização [!DNL Roku] IDs, os profissionais de marketing podem aproveitar o direcionamento determinístico 1:1 com precisão e precisão, bem como acesso [!DNL Roku] inventário e insights de medição exclusivos.
+* [**Premiere experiência de TV conectada com [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] e o DSP têm uma parceria exclusiva que o capacita a ativar seus dados primários e de terceiros na [!DNL Roku] para alcançar públicos com eficiência em toda a tela, em escala. Ao aproveitar a única plataforma com a capacidade de sincronizar com o [!DNL Roku] IDs, os profissionais de marketing podem aproveitar o direcionamento determinístico de 1:1 com precisão e precisão, bem como acesso [!DNL Roku] insights de inventário e medição exclusivos.
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introdução à publicidade DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [Vídeo: Estrutura da conta DSP e interface do usuário](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: Introdução ao DSP publicitário](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [Vídeo: Estrutura de conta e interface do usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

@@ -1,6 +1,6 @@
 ---
 title: Suporte da Adobe Advertising para privacidade do consumidor
-description: A Adobe Advertising fornece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir as leis de privacidade do consumidor.
+description: A Adobe Advertising oferece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir as leis de privacidade do consumidor.
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -14,8 +14,8 @@ ht-degree: 20%
 
 # Suporte da Adobe Advertising para privacidade do consumidor
 
-A Adobe Advertising fornece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir as seguintes leis de privacidade do consumidor:
+A Adobe Advertising oferece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir com as seguintes leis de privacidade do consumidor:
 
 * O Regulamento Geral sobre a Proteção de Dados (GDPR)
 
-* A Lei de Privacidade do Consumidor da Califórnia (CCPA)
+* A lei California Consumer Privacy Act (CCPA)

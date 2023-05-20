@@ -1,6 +1,6 @@
 ---
-title: Sobre a correção das configurações de disposição de uma campanha usando planilhas
-description: Saiba como revisar e editar as principais configurações de posicionamento de uma campanha usando planilhas de QA do Excel.
+title: Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas
+description: Saiba como revisar e editar as configurações de posicionamento de chaves para uma campanha usando planilhas de controle de qualidade do Excel.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Sobre a correção das configurações de disposição de uma campanha usando planilhas
+# Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas
 
-O recurso de planilha de controle de qualidade permite baixar as configurações de posicionamento de uma campanha no formato XLSX (planilha do Excel) para análise. Use esse recurso para revisar rapidamente detalhes como:
+O recurso de planilha de controle de qualidade permite baixar as configurações de posicionamento de uma campanha no formato XLSX (planilha do Excel) para revisão. Use esse recurso para analisar rapidamente detalhes como:
 
-* Qual públicos-alvo a campanha é direcionada.
-* Quando as disposições começarem a ser entregues e quando pararem.
-* Quais anúncios são anexados às disposições.
+* O público alvo da campanha.
+* Quando os posicionamentos começam a ser entregues e quando vão parar.
+* Quais anúncios são anexados aos posicionamentos.
 
-Em seguida, é possível fazer alterações para selecionar campos e publicá-los de volta para DSP tudo de uma vez. Os campos editáveis incluem nomes de posicionamento, status, ofertas, orçamentos, estratégias de posicionamento e limites de frequência.
+Em seguida, é possível fazer alterações em campos selecionados e publicá-los de volta no DSP de uma só vez. Os campos editáveis incluem nomes de posicionamento, status, lances, orçamentos, estratégias de ritmo e limites de frequência.
 
 >[!TIP]
 >
@@ -27,6 +27,6 @@ Em seguida, é possível fazer alterações para selecionar campos e publicá-lo
 >[!MORELIKETHIS]
 >
 >* [Baixar configurações de posicionamento para uma campanha](qa-sheet-download.md)
->* [Fazer upload de configurações de disposição para uma campanha](qa-sheet-upload.md)
+>* [Fazer upload das configurações de posicionamento de uma campanha](qa-sheet-upload.md)
 >* [Colunas em planilhas baixadas/carregadas](qa-sheet-columns.md)
 

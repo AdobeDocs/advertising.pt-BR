@@ -14,13 +14,13 @@ ht-degree: 2%
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-1. Edite o [configurações do campaign](campaign-settings.md).
+1. Edite o [configurações da campanha](campaign-settings.md).
 1. Clique em **[!UICONTROL Save Campaign]**.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre o Campaign Management](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
->* [Exibir o log de alterações de uma campanha](campaign-change-log.md)
+>* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
 >* [Configurações da campanha](campaign-settings.md)
 

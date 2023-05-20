@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Também é possível executar um relatório personalizado ao [criar](report-create.md) ou [editar](report-edit.md) sim.
+>Você também pode executar um relatório personalizado quando [criar](report-create.md) ou [editar](report-edit.md) o mesmo.
 
 1. No menu principal, clique em **[!UICONTROL Reports]**.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL OK]**.
 
-   Quando o relatório é concluído, ele é enviado para todos os endereços de email especificados nas configurações do relatório.
+   Quando o relatório for concluído, ele será enviado para todos os endereços de email especificados nas configurações do relatório.
 
 >[!MORELIKETHIS]
 >
@@ -30,6 +30,6 @@ ht-degree: 0%
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Duplicar um relatório personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Configurações personalizadas de relatório](/help/dsp/reports/report-settings.md)
+>* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 

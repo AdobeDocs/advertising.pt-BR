@@ -1,5 +1,5 @@
 ---
-title: Especificações do anúncio
+title: Especificações de publicidade
 description: Consulte as especificações gerais e específicas do editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 ---
 
-# Especificações para tipos de anúncios suportados
+# Especificações para os tipos de anúncios suportados
 
-## Anúncios de vídeo (antes da exibição, CTV e vídeo universal)
+## Anúncios de vídeo (pré-lançamento, CTV e vídeo universal)
 
 ### Telas suportadas
 
-Os anúncios são fornecidos por padrão em dispositivos de desktop, móveis e TV conectados. O direcionamento de dispositivo está disponível para ajustar o delivery.
+Por padrão, os anúncios são entregues em dispositivos de desktop, móveis e TV conectada. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
-### Servidores de anúncios de terceiros suportados
+### Servidores de anúncios de terceiros compatíveis
 
-Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]e [!DNL Sizmek]. Para obter uma lista completa dos fornecedores suportados, consulte &quot;[Parceiros de veiculação de anúncios certificados](certified-ad-servers.md).&quot;
+Você pode usar folhas de tags em [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], e [!DNL Sizmek]. Para obter uma lista completa de fornecedores compatíveis, consulte &quot;[Parceiros certificados de veiculação de anúncios](certified-ad-servers.md).&quot;
 
 ### Requisitos para ativos de vídeo de alta definição (obrigatório)
 
-**Tipo de tag de vídeo:** JavaScript VPAID 2.0 ou VAST (CTV). Todas as unidades de anúncio VPAID devem seguir o [Especificação VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) conforme definido pelo Interative Advertising Bureau (IAB).
+**Tipo da tag de vídeo:** JavaScript ou VAST (CTV) VPAID 2.0. Todas as unidades de anúncios VPAID devem aderir ao [Especificação VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) conforme definido pelo Interative Advertising Bureau (IAB).
 
 **Codec de vídeo:** MP4/H.264
 
@@ -34,35 +34,35 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
 
 **Perfil/nível H.264:** Alto perfil, nível 3.1 para 720p; Alto perfil, nível 4.0 para 1080p
 
-**Taxa de quadros do vídeo:** 29,970 fps (comumente chamados de 30 fps) para países NTSC, 25 fps para países PAL, 23,976 fps (comumente chamados de 24 fps) para conteúdo de exibição de filme
+**Taxa de quadros do vídeo:** 29,970 fps (comumente referido como 30 fps) para países NTSC, 25 fps para países PAL, 23,976 fps (comumente referido como 24 fps) para conteúdo de aparência de filme
 
-**Espaço de cor do vídeo:** 4:2:0 YUV Chroma subsampling
+**Espaço da Cor do Vídeo:** 4:2:0 YUV Chroma subamostragem
 
-**Vídeo entrelaçado:** Varredura progressiva, ou seja, não entrelaçada. Nenhum movimento de campo interno (quadros de mesclagem) ou entrelaçamento.
+**Entrelaçamento de vídeo:** Verificação progressiva, isto é, não entrelaçada. Sem movimento intracampo (quadros de mistura) ou entrelaçamento.
 
-**Líderes (Tabuleiro):** Não permitido
+**Líderes (Tablet):** Não permitido
 
 **Codec de áudio:** AAC-LC ou HE-AACv1
 
-**Taxa de bits de áudio:** 128-192 kbps para AAC-LC, 64-128 kbps para HE-AACv1
+**Taxa de áudio:** 128-192 kbps para AAC-LC, 64-128 kbps para HE-AACv1
 
-**Canal de áudio:** Mistura estéreo de 2 canais
+**Canal de áudio:** Mixagem estéreo de 2 canais
 
-**Taxa de amostra de áudio:** 44,1 kHz ou 48 kHz, por material de origem
+**Taxa de amostragem de áudio:** 44,1 kHz ou 48 kHz, de acordo com o material de origem
 
-**Níveis de áudio:** 24 LKFS (+/- 2.0 dB) nos EUA de acordo com o ATSC A/85; 23 LUFS (+/- 1.0) na UE de acordo com o EBU R128
+**Níveis de áudio:** 24 LKFS (+/- 2,0 dB) nos EUA, conforme ATSC A/85; 23 LUFS (+/- 1,0) na UE, conforme EBU R128
 
-#### Requisitos adicionais do editor para anúncios de TV conectados
+#### Requisitos adicionais do editor para anúncios de TV conectada
 
-* **Rede A+E:** Consulte Rede A+E [especificações de anúncios](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **Rede A+E:** Consulte Rede A+E [especificações de publicidade](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Descoberta:** Consulte o relatório da Discovery [especificações de anúncios](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Descoberta:** Consulte Descoberta [especificações de publicidade](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (incl. Hulu):** Consulte Disney&#39;s [especificações de anúncios](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (incluindo Hulu):** Ver Disney&#39;s [especificações de publicidade](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **HBO máx.:** Consulte HBO Max&#39;s [especificações de anúncios](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **Máx. HBO:** Consulte HBO Max&#39;s [especificações de publicidade](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
-* **NBCUniversal:**
+* **NBC Universal:**
 
    * [Vídeo digital](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
@@ -70,43 +70,43 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
 
    * [Pavão](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Valor:** Consulte Paramount&#39;s [especificações de anúncios](https://www.paramount.com/digital-ads).
+* **Paramount:** Consulte o da Paramount [especificações de publicidade](https://www.paramount.com/digital-ads).
 
 ## Exibir anúncios
 
 ### Telas suportadas
 
-Os anúncios são fornecidos por padrão em dispositivos móveis e de desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
+Os anúncios são entregues por padrão em dispositivos móveis e desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
 ### Tipos de arquivo suportados
 
 **Imagem:** GIF, JPG/JPEG, PNG
 
-**HTML5:** Tipos de arquivo de imagem: GIF, JPG/JPEG, PNG, SVG
+**HTML 5:** Tipos de arquivo de imagem: GIF, JPG/JPEG, PNG, SVG
 
 ### Requisitos para ativos de imagem (obrigatório)
 
 O Universal Display é compatível.
 
-**Tamanhos de anúncio recomendados:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x60 0, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
+**Tamanhos de anúncios recomendados:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 60 0x480, 88x31, 728x90, 970x250, 970x90
 
-**Servidores de anúncios de terceiros suportados:** Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]e [!DNL Sizmek]. Para obter uma lista completa dos fornecedores suportados, consulte &quot;[Parceiros de veiculação de anúncios certificados](certified-ad-servers.md).&quot;
+**Servidores de anúncios de terceiros compatíveis:** Você pode usar folhas de tags em [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], e [!DNL Sizmek]. Para obter uma lista completa de fornecedores compatíveis, consulte &quot;[Parceiros certificados de veiculação de anúncios](certified-ad-servers.md).&quot;
 
 ## Anúncios de áudio
 
 ### Telas suportadas
 
-Desktop, celular, tablet, alto-falantes inteligentes e TV conectada
+Desktop, Mobile, Tablet, Alto-falantes inteligentes e TV conectada
 
-### Servidores de anúncios de terceiros suportados
+### Servidores de anúncios de terceiros compatíveis
 
-Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]e [!DNL Sizmek]. Para obter uma lista completa dos fornecedores suportados, consulte &quot;[Parceiros de veiculação de anúncios certificados](certified-ad-servers.md).&quot;
+Você pode usar folhas de tags em [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], e [!DNL Sizmek]. Para obter uma lista completa de fornecedores compatíveis, consulte &quot;[Parceiros certificados de veiculação de anúncios](certified-ad-servers.md).&quot;
 
-### Requisitos para ativos de áudio (obrigatório)
+### Requisitos para recursos de áudio (obrigatório)
 
 **Tipo de arquivo:** MP3, OGG, AAC
 
-**Líderes (tabuleiro):**  Não permitido
+**Líderes (ardósia):**  Não permitido
 
 **Tamanho máximo do arquivo:** 2 MB
 
@@ -117,39 +117,39 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
 #### Requisitos adicionais do editor
 
 * **[!DNL iHeartRadio]**
-   * Comprimento: 5, 15, 30 ou 60 segundos
+   * Duração: 5, 15, 30 ou 60 segundos
    * Tipo de arquivo: MP3
    * Tamanho máximo do arquivo: 320 kbps
    * Volume: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Comprimento: 15 ou 30 segundos
+   * Duração: 15 ou 30 segundos
    * Tipo de arquivo: MP4 (no aplicativo), MP3 (desktop)
    * Tamanho máximo do arquivo: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Comprimento: 6, 15 ou 30 segundos
+   * Duração: 6, 15 ou 30 segundos
    * Tipo de arquivo: MP3
    * Tamanho máximo do arquivo: 5 MB
 
 * **[!DNL Spotify]**
-   * Comprimento: Até 30 segundos
+   * Duração: até 30 segundos
    * Tipo de arquivo: OGG
    * Tamanho máximo do arquivo: 500 MB
-   * Volume: RMS normalizado para -14; Pico dBFS normalizado para -0,2 dBFS
+   * Volume: RMS normalizado para -14; pico de dBFS normalizado para -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Comprimento: 15, 30 ou 60 segundos
+   * Duração: 15, 30 ou 60 segundos
    * Tipo de arquivo: MP3
 
 * **[!DNL TuneIn]**
-   * Comprimento: 10, 15 ou 30 segundos
+   * Duração: 10, 15 ou 30 segundos
    * Tipo de arquivo: MP3, OGG
    * Volume: 44,1 kHz
 
-### Requisitos para anúncios de banner complementares (opcional)
+### Requisitos para os anúncios de banner de companhia (opcional)
 
-**Tamanhos compatíveis:** 300x250, 500x500, 640x640, 1024x1024
+**Tamanhos suportados:** 300x250, 500x500, 640x640, 1024x1024
 
 #### Requisitos adicionais do editor
 
@@ -165,7 +165,7 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
 
 * **[!DNL SoundCloud]:**
    * Tipo de arquivo: JPG estático, PNG
-   * Tamanho máximo do arquivo: Menos de 400 KB
+   * Tamanho máximo do arquivo: menos de 400 KB
    * Dimension: 1024x1024
 
 * **[!DNL Spotify]:**
@@ -180,66 +180,66 @@ Você pode usar folhas de tags de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid
 
 ## Anúncios de exibição nativos
 
-Cada anúncio pode incluir uma imagem estática ou um GIF em movimento (cinemparágrafo).
+Cada anúncio pode incluir uma imagem estática ou um GIF móvel (cinemgraph).
 
 ### Telas suportadas
 
-Os anúncios são fornecidos por padrão em dispositivos móveis e de desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
+Os anúncios são entregues por padrão em dispositivos móveis e desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
 ### Ativos necessários para todos os formatos nativos no feed
 
 #### Ativo de imagem
 
-**Resolução:** Mínimo de 600x600px; Mínimo recomendado de 1200x627px
+**Resolução:** Mínimo de 600x600px; mínimo recomendado de 1200x627px
 
-**Tipo de arquivo:** JPEG (imagem de anúncio de vídeo ou imagem de capa de anúncio de vídeo), GIF (cinemógrafo)
+**Tipo de arquivo:** JPEG (anúncio de imagem ou imagem de capa de anúncio de vídeo), GIF (cinemógrafo)
 
-**Tamanho do arquivo:** Menos de 1 MB (a imagem deve ficar sem texto.)
+**Tamanho do arquivo:** Menos de 1 MB (a imagem deve estar sem texto.)
 
 #### Logotipo do anunciante
 
-**Resolução:** Mínimo de 80x80px; Mínimo recomendado de 300x300px
+**Resolução:** 80x80px no mínimo; 300x300px no mínimo recomendado
 
 **Tipo de arquivo:** JPEG ou PNG.
 
-**Proporção:**  Proporção de 1x1
+**Taxa de proporção:**  Taxa 1x1
 
 >[!NOTE]
 >
->Dependendo da imagem sobre a qual será sobreposta, escolha entre os ativos de logotipo claro ou escuro.
+>Dependendo da imagem sobre a qual ela será sobreposta, escolha entre os recursos de logotipo claro ou escuro.
 
-#### Texto/Cópia
+#### Texto/cópia
 
-**Título:** Máximo de 200 caracteres; 25 caracteres recomendados
+**Título:** Máximo de 200 caracteres; recomenda-se 25 caracteres
 
-**Legenda:** Máximo de 200 caracteres; 100 caracteres recomendados
+**Legenda:** Máximo de 200 caracteres; recomenda-se 100 caracteres
 
-**Patrocinado por:** Máximo de 200 caracteres; 30 caracteres recomendados
+**Patrocinado por:** Máximo de 200 caracteres; recomenda-se 30 caracteres
 
 **Chamada para ação (somente MoPub):** Máximo de 15 caracteres
 
 >[!NOTE]
 >
->O layout final é definido pelo editor no tempo de execução. Se um anúncio exceder a contagem de caracteres recomendada, alguns provedores de inventário podem não fornecer o anúncio, ou o editor ou SSP pode truncar o texto.
+>O layout final é definido pelo editor no tempo de execução. Se um anúncio exceder a contagem de caracteres recomendada, alguns provedores de inventário poderão não entregar o anúncio, ou o editor ou o SSP poderá truncar o texto.
 
-#### URL da página de aterrissagem
+#### URL da landing page
 
 O URL de click-through com rastreadores de cliques opcionais.
 
 Requisitos para rastreadores de cliques:
 
-* Pixels de rastreamento de impressão de terceiros: Formato de URL de imagem 1x1 somente
+* Pixels de rastreamento de impressão de terceiros: somente formato de URL de imagem 1x1
 
-* Rastreadores de JavaScript de visualização: Suportado apenas para IAS; Imagens 1x1 somente no formato JS.append
+* Rastreadores JavaScript de visibilidade: compatível somente com IAS; imagens 1x1 somente no formato JS.append
 
-* Pixels de rastreamento de cliques de terceiros: Deve redirecionar para a landing page incorporada no URL (redirecionamento HTTP 302)
+* Pixels de rastreamento de cliques de terceiros: deve redirecionar para a landing page incorporada ao URL (redirecionamento HTTP 302)
 
-* Rastreadores de cliques da plataforma de gerenciamento de dados (DMP) com 200 ou mais respostas não são compatíveis.
+* Os rastreadores de cliques da plataforma de gerenciamento de dados (DMP) com 200 ou mais respostas não são compatíveis.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de anúncios](ad-about.md)
->* [Criar um único anúncio](ad-create.md)
+>* [Sobre o gerenciamento de anúncios](ad-about.md)
+>* [Crie um único anúncio](ad-create.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
->* [Editar uma publicidade](ad-edit.md)
+>* [Editar um anúncio](ad-edit.md)
 

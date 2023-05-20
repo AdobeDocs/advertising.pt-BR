@@ -1,5 +1,5 @@
 ---
-title: Anexar uma disposição a um pacote
+title: Anexar um posicionamento a um pacote
 description: Saiba como anexar uma disposição a um pacote.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
@@ -10,25 +10,25 @@ ht-degree: 1%
 
 ---
 
-# Anexar uma disposição a um pacote
+# Anexar um posicionamento a um pacote
 
-## Anexar uma nova disposição no [!UICONTROL Placements] Exibir
+## Anexar uma nova disposição do [!UICONTROL Placements] Exibir
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
 1. Clique no nome da campanha em que deseja criar o pacote e clique no nome do pacote.
 
-1. No canto superior direito, clique em **[!UICONTROL Create]** e selecione o tipo de disposição.
+1. No canto superior direito, clique em **[!UICONTROL Create]** e selecione o tipo de posicionamento.
 
    O pacote selecionado é selecionado automaticamente nas configurações de posicionamento.
 
-1. Insira o restante [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e, em seguida, clique em **[!UICONTROL Create Placement]**.
+1. Insira o restante [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Create Placement]**.
 
-## Anexar uma disposição nova ou existente no [!UICONTROL Packages] Exibir
+## Anexar um posicionamento novo ou existente do [!UICONTROL Packages] Exibir
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
+1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
 
 1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
@@ -38,29 +38,29 @@ ht-degree: 1%
 
       1. Clique em **[!UICONTROL Create New Placement]**.
 
-      1. Selecione o tipo de anúncio para a disposição e clique em **[!UICONTROL Build this placement]**.
+      1. Selecione o tipo de anúncio para o posicionamento e clique em **[!UICONTROL Build this placement]**.
 
-      1. Insira o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e, em seguida, clique em **[!UICONTROL Create Placement]**.
-   * Para anexar uma disposição existente na campanha:
+      1. Insira o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Create Placement]**.
+   * Para anexar uma inserção existente na campanha:
 
       >[!NOTE]
       >
-      >Cada disposição pode estar em apenas um pacote. Somente as disposições que ainda não estão em um pacote são listadas.
+      >Cada posicionamento só pode estar em um pacote. Somente os posicionamentos que ainda não estão em um pacote são listados.
 
       1. Clique em **[!UICONTROL Select a Placement].**
 
-      1. Ao lado do nome da disposição, clique em **[!UICONTROL Select].**
+      1. Ao lado do nome do posicionamento, clique em **[!UICONTROL Select].**
 
-      1. (Opcional) Para cada disposição adicional que deseja anexar, clique em **[!UICONTROL Attach Another Placement]** e repita as Etapas 1-2.
+      1. (Opcional) Para cada posicionamento adicional que você deseja anexar, clique em **[!UICONTROL Attach Another Placement]** e, em seguida, repita as Etapas 1-2.
 
       1. Clique em **[!UICONTROL I'm done for now]**.
 
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de pacotes](package-about.md)
+>* [Sobre o gerenciamento de pacotes](package-about.md)
 >* [Criar um pacote](package-create.md)
->* [Exibir o log de alterações de um pacote](package-change-log.md)
+>* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Configurações do pacote](package-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 

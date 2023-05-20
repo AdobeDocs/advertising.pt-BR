@@ -1,6 +1,6 @@
 ---
-title: Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência
-description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público-alvo reutilizável.
+title: Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência
+description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público reutilizável.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência
+# Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência
 
-Você pode copiar a chave de segmento alfanumérica (ID) de um público-alvo para a área de transferência. Você pode usar chaves de segmento para [definir manualmente a lógica do segmento](audience-segment-logic-syntax.md) para outros públicos-alvo reutilizáveis.
+Você pode copiar a chave de segmento alfanumérico (ID) de um público para a área de transferência. Você pode usar chaves de segmento para [definir manualmente a lógica de segmento](audience-segment-logic-syntax.md) para outros públicos-alvo reutilizáveis.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-1. Cole a chave do segmento em qualquer software de edição.
+1. Cole a chave de segmento em qualquer software de edição.
 
 >[!MORELIKETHIS]
 >
@@ -32,7 +32,7 @@ Você pode copiar a chave de segmento alfanumérica (ID) de um público-alvo par
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
->* [Configurações de público-alvo](audience-settings.md)
->* [Sintaxe para lógica de segmento do público-alvo](audience-segment-logic-syntax.md)
->* [Fornecedores de dados de terceiros disponíveis](third-party-data-providers.md)
+>* [Configurações de público](audience-settings.md)
+>* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 

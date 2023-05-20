@@ -5,8 +5,8 @@ feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ As mensagens de erro para envios de anúncios com falha podem vir do DSP publici
 | [!DNL Ad with identifier] \&lt;*nome do anúncio*\> [!DNL was not found.] | A chave do anúncio enviado não existe ou não está ativa no Adobe. | Encontre a chave do anúncio correta e envie o anúncio novamente. |
 | [!DNL Pending Submission] | O envio ainda está pendente. | Atualize a página. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] Erros de API
 
@@ -41,7 +41,7 @@ As mensagens de erro para envios de anúncios com falha podem vir do DSP publici
 | 422 | Entidade Não Processável | Recurso inválido. Esse erro ocorre quando o corpo da solicitação é inválido ou o recurso criado/atualizado é inválido (por exemplo, se a ID do contrato não foi encontrada). Consulte [Erros 422 da API FreeWheel](#freewheel-422-errors) para obter mais informações. | Entre em contato com a equipe de conta do Adobe. |
 | 500 | Erro interno do servidor | Erro de sistema de API. | Entre em contato com a equipe de conta do Adobe. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] Erros de API 422 {#freewheel-422-errors}
 
@@ -60,7 +60,7 @@ As mensagens de erro para envios de anúncios com falha podem vir do DSP publici
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | O URL não foi detectado. |
 | DATA_ENTITY_NOT_FOUND | 422 | O criativo não existe. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

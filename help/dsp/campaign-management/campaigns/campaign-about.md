@@ -1,6 +1,6 @@
 ---
-title: Sobre o Campaign Management em DSP de publicidade
-description: Saiba mais sobre gestão de campanha.
+title: Sobre o Campaign Management no DSP publicitário
+description: Saiba mais sobre o gerenciamento de campanhas.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# Sobre o Campaign Management em DSP de publicidade
+# Sobre o Campaign Management no DSP publicitário
 
-As campanhas são a estrutura abrangente das configurações de voo. Todas as configurações de nível de campanha se aplicam automaticamente a cada pacote e disposição dentro da campanha. Cada campanha está associada a um anunciante específico.
+As campanhas são a estrutura abrangente das configurações de voo. Todas as configurações de nível de campanha se aplicam automaticamente a cada pacote e posicionamento na campanha. Cada campanha está associada a um anunciante específico.
 
-Você pode criar campanhas manualmente ou duplicando campanhas existentes. Também é possível editar campanhas existentes.
+Você pode criar campanhas manualmente ou duplicando campanhas existentes. Você também pode editar campanhas existentes.
 
-## O [!UICONTROL Campaigns] Painel
+## A variável [!UICONTROL Campaigns] Painel
 
 <!-- standardize on "dashboard" or "view" -->
-O [!UICONTROL Campaigns] O painel centraliza o desempenho e os relatórios econômicos em todas as campanhas, fornecendo um instantâneo rápido de como as campanhas foram executadas durante um intervalo de datas especificado.
+A variável [!UICONTROL Campaigns] O painel de controle centraliza os relatórios de desempenho e economia em todas as campanhas, fornecendo um rápido instantâneo do desempenho de suas campanhas durante um intervalo de datas especificado.
 
 ![Painel de campanhas](/help/dsp/assets/campaign-dashboard.png)
 
-Por padrão, o painel mostra as métricas de ritmo e delivery por campanha. Opcionalmente, é possível exibir métricas de desempenho para as campanhas e criar conjuntos de colunas personalizados. Você pode exportar a tabela de dados inteira ou baixar dados de todas as disposições em uma única campanha para a pasta de download padrão do navegador como um relatório no formato XLSM (planilha do Excel habilitada para macro).
+Por padrão, o painel mostra as métricas de ritmo e delivery por campanha. Opcionalmente, é possível exibir métricas de desempenho para as campanhas e criar conjuntos de colunas personalizados. É possível exportar toda a tabela de dados ou baixar dados de todos os posicionamentos em uma única campanha para a pasta de download padrão do navegador como um relatório no formato XLSM (planilha do Excel habilitada para macro).
 
 >[!NOTE]
 >
->Você pode personalizar ainda mais o conteúdo e a entrega de relatórios de campanha por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
+>Você pode personalizar ainda mais o conteúdo e o delivery dos relatórios de campanha por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
 
-Para visualizar todos os pacotes, disposições e anúncios em uma campanha, clique no nome da campanha.
+Para ver todos os pacotes, posicionamentos e anúncios em uma campanha, clique no nome da campanha.
 
 >[!MORELIKETHIS]
 >
 >* [Criar uma campanha](campaign-create.md)
 >* [Configurações da campanha](campaign-settings.md)
->* [Vídeo: Estrutura da conta DSP e interface do usuário](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: Estrutura de conta e interface do usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

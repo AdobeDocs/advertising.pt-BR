@@ -19,5 +19,5 @@ ht-degree: 69%
 # Políticas e diretrizes da Adobe Advertising {#policies}
 
 + [Política de requisitos de anúncios](/help/policies/ad-requirements-policy.md)
-+ [Diretrizes aceitáveis do segmento de integridade](/help/policies/health-segment-guidelines.md)
++ [Diretrizes de segmento de integridade aceitável](/help/policies/health-segment-guidelines.md)
 + [[!DNL DSP] Diretrizes de uso de dados](/help/policies/data-usage-guidelines.md)

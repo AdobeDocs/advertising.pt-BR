@@ -1,6 +1,6 @@
 ---
 title: Sobre Relatórios Personalizados
-description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usando modelos de relatório pré-configurados.
+description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
@@ -12,85 +12,85 @@ ht-degree: 0%
 
 # Sobre Relatórios Personalizados
 
-Os relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados do relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou regiões) e as métricas mais importantes para você. Você pode:
+Relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados de relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou geografia) e as métricas mais importantes para você. Você pode:
 
-* Configure completamente os relatórios de desempenho da campanha em um nível granular.
-* Escolha entre templates de relatório pré-configurados e, opcionalmente, personalize-os ainda mais.
+* Configure completamente relatórios de desempenho de campanha em nível detalhado.
+* Escolha entre modelos de relatório pré-configurados e, como opção, personalize-os ainda mais.
 
-Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamente, semanalmente ou mensalmente às 03:00 no fuso horário especificado. Depois que um relatório é gerado, ele é entregue a cada recipient de email especificado ou vinculado [destinos de relatório](/help/dsp/reports/report-destinations/report-destination-about.md) dos seguintes tipos:
+Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamente, semanalmente ou mensalmente, às 03:00 no fuso horário especificado. Depois que um relatório é gerado, ele é entregue a cada recipient de email especificado ou vinculado [destinos de relatório](/help/dsp/reports/report-destinations/report-destination-about.md) dos seguintes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* SSL FTP (em beta)
+* FTP SSL (na versão beta)
 
 >[!NOTE]
 >
->Você também pode visualizar dados sob demanda em todos os níveis de uma campanha (campanha, pacote, disposição ou anúncio) [na visualização de gestão de campanha relevante](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>Você também pode visualizar dados sob demanda em todos os níveis de uma campanha (campanha, pacote, posicionamento ou anúncio) [na visualização relevante do gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
-## Tipos de relatórios disponíveis
+## Tipos de Relatório Disponíveis
 
-* **[!UICONTROL Custom]:** Este relatório é um modelo em branco que pode ser usado para criar seu próprio relatório personalizado usando a maioria das dimensões e métricas. [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]e [!UICONTROL Site] os relatórios são variações desse modelo com colunas e dimensões pré-selecionadas para os respectivos casos de uso.
+* **[!UICONTROL Custom]:** Este relatório é um modelo em branco que você pode usar para criar seu próprio relatório personalizado usando a maioria das dimensões e métricas. [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], e [!UICONTROL Site] os relatórios são variações desse modelo com colunas e dimensões pré-selecionadas para seus respectivos casos de uso.
 
 * Modelos de relatório pré-configurados
 
-   * **[!UICONTROL Billing]:** Use este relatório para entender as métricas principais de faturamento, como métricas de gasto para faturamento de mídia por campanha.
+   * **[!UICONTROL Billing]:** Use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha.
 
       >[!NOTE]
       >
-      >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertence a vários segmentos, somente um segmento faturável será creditado com a impressão.
+      >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertença a vários segmentos, somente um segmento faturável será creditado com a impressão.
 
-   * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base nas métricas de conversão capturadas por meio do rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição de multitoque.
+   * **[!UICONTROL Conversion]:** Use este relatório para entender como está o desempenho de suas campanhas com base em métricas de conversão capturadas usando o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
 
-   * **[!UICONTROL Device]:** Use esse modelo preenchido previamente para ver as métricas principais por dimensões relacionadas ao dispositivo.
+   * **[!UICONTROL Device]:** Use esse modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 
-   * **[!UICONTROL Frequency (by Impression)]:** Use esse relatório para entender a distribuição de impressões mostradas para visualizadores únicos (por exemplo, quantos visualizadores únicos viram uma impressão, duas impressões, três impressões e assim por diante). Os dados estão disponíveis por posicionamento ou campanha.
-
-      >[!NOTE]
-      >
-      >* Os dados estão disponíveis após 1 de março de 2019.
-      >* A frequência é estimada com base numa amostragem de dados.
-      >* Para alguns inventários, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência. Este relatório inclui apenas impressões para as quais um identificador de dispositivo estava disponível.
-
-
-   * **[!UICONTROL Frequency (by App/Site)]:** Use esse relatório para entender quantos usuários únicos foram acessados por aplicativo ou por site. Você também pode ver quantos usuários únicos foram acessados somente por um aplicativo ou site específico (&quot;usuários únicos distintos&quot;).
+   * **[!UICONTROL Frequency (by Impression)]:** Use este relatório para entender a distribuição de impressões mostradas para visualizadores únicos (por exemplo, quantos visualizadores únicos visualizaram uma impressão, duas impressões, três impressões e assim por diante). Os dados estão disponíveis por disposição ou campanha.
 
       >[!NOTE]
       >
-      >* Os dados estão disponíveis após 15 de novembro de 2018.
-      >* Para um inventário privado, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência.
+      >* Os dados estarão disponíveis após 1º de março de 2019.
+      >* A frequência é estimada com base em uma amostra de dados.
+      >* Para alguns inventários, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência. Este relatório inclui somente impressões para as quais um identificador de dispositivo estava disponível.
 
 
-   * **[!UICONTROL Geo]**: Use esse modelo preenchido previamente para ver as métricas principais por dimensões geográficas.
-
-   * **[!UICONTROL Margin]:** Use este relatório para ver métricas principais como margem, lucro e outras métricas de gasto por campanha ou disposição.
-
-   * **[!UICONTROL Segment]:** Use esse modelo preenchido previamente para ver as métricas principais por segmento.
+   * **[!UICONTROL Frequency (by App/Site)]:** Use este relatório para entender quantos usuários únicos foram alcançados por aplicativo ou por site. Você também pode ver quantos usuários únicos foram atingidos por meio de apenas um aplicativo ou site específico (&quot;usuários únicos distintos&quot;).
 
       >[!NOTE]
       >
-      >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é enviada para uma pessoa ou dispositivo que pertence a dois ou mais segmentos direcionados, esse relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder ao delivery real.
-      >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estão disponíveis a partir de 1 de junho de 2018.
+      >* Os dados estarão disponíveis após 15 de novembro de 2018.
+      >* Para alguns inventários privados, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência.
 
 
-   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, total de gasto líquido de mídia e total de gasto líquido faturável por site.
+   * **[!UICONTROL Geo]**: use esse modelo pré-preenchido para ver as métricas principais por dimensões geográficas.
 
-   * **[!UICONTROL Household]:** Use esse relatório para ver impressões, alcance e frequência de uma única dimensão em todos os formatos de anúncio em um nível de residência, com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios de uso doméstico](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
+   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento.
 
-## Relatórios entre contas {#cross-account-reporting}
+   * **[!UICONTROL Segment]:** Use esse modelo pré-preenchido para ver as métricas principais por segmento.
 
-Qualquer organização com várias contas DSP pode, opcionalmente, habilitar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder à Conta A acesso aos dados da Conta B e conceder à Conta B acesso aos dados da Conta C (mas não à Conta A). Para habilitar e configurar esse recurso, entre em contato com a equipe de conta do Adobe.
+      >[!NOTE]
+      >
+      >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos direcionados, este relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
+      >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis após 1º de junho de 2018.
 
-Depois que o recurso estiver ativado para a sua organização, você poderá [filter](report-settings.md) qualquer um dos seguintes tipos de relatório por conta:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]e [!UICONTROL Conversion].
 
-Suas configurações de conta em [!UICONTROL Settings] > [!UICONTROL Account] indicar a) as outras contas cujos dados estão disponíveis para sua conta e b) as outras contas que podem acessar os dados de sua conta.
+   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
+
+   * **[!UICONTROL Household]:** Use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
+
+## Relatório entre contas {#cross-account-reporting}
+
+Qualquer organização com várias contas DSP pode, opcionalmente, ativar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder acesso à Conta A aos dados da Conta B e conceder acesso à Conta B aos dados da Conta C (mas não da Conta A). Para ativar e configurar esse recurso, entre em contato com a equipe de conta do Adobe.
+
+Depois que o recurso for ativado para sua organização, você poderá [filtro](report-settings.md) qualquer um dos seguintes tipos de relatório por conta:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], e [!UICONTROL Conversion].
+
+Suas configurações de conta em [!UICONTROL Settings] > [!UICONTROL Account] indique a) as outras contas cujos dados estão disponíveis para sua conta e b) as outras contas que podem acessar os dados de sua conta.
 
 >[!MORELIKETHIS]
 >
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
->* [Configurações personalizadas de relatório](/help/dsp/reports/report-settings.md)
+>* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Perguntas frequentes sobre o [!UICONTROL Household] Relatório](/help/dsp/reports/faq-household-report.md)
->* [Sobre relatórios na plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Sobre Relatórios Na Plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 

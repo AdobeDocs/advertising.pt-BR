@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentação diversa para publicidade Adobe
+# Documentação diversa para Anúncios de Adobe
 
-Essa pasta é somente para arquivos de imagem e outros arquivos de ativos para arquivos na pasta /privacy/ .
+Esta pasta é para arquivos de imagem e outros arquivos de ativos somente para arquivos na pasta /privacy/.
 
-**Observação: Esta página não é publicada na documentação voltada para o cliente.**
+**Observação: esta página não está publicada na documentação voltada para o cliente.**

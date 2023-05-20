@@ -1,6 +1,6 @@
 ---
-title: Fazer upload de configurações de disposição para uma campanha
-description: Saiba como fazer upload de alterações nas principais configurações de posicionamento de uma campanha usando planilhas de QA do Excel.
+title: Fazer upload das configurações de posicionamento de uma campanha
+description: Saiba como fazer upload de alterações nas configurações de posicionamento de chaves para uma campanha usando planilhas de controle de qualidade do Excel.
 feature: DSP Placements
 exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Fazer upload de configurações de disposição para uma campanha
+# Fazer upload das configurações de posicionamento de uma campanha
 
-Para postar alterações em alguns tipos de configurações de posicionamento para uma campanha, você pode fazer upload de uma planilha que [baixado](qa-sheet-download.md) e foram editados. As alterações são permitidas somente na variável [colunas editáveis](qa-sheet-columns.md).
+Para publicar alterações em alguns tipos de configurações de posicionamento para uma campanha, você pode fazer upload de uma planilha que [baixado](qa-sheet-download.md) e editaram. As alterações são permitidas somente no [colunas editáveis](qa-sheet-columns.md).
 
 >[!TIP]
 >
@@ -24,11 +24,11 @@ Para postar alterações em alguns tipos de configurações de posicionamento pa
 
    * Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * Clique no nome da campanha para visualizar os detalhes da campanha. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
+   * Clique no nome da campanha para exibir seus detalhes. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-1. No [!UICONTROL Edit in Excel] caixa de diálogo:
+1. No [!UICONTROL Edit in Excel] diálogo:
 
-   1. Arraste e solte um arquivo na caixa ou clique dentro da caixa para selecionar um arquivo de seu dispositivo ou rede.
+   1. Arraste e solte um arquivo na caixa ou clique dentro dela para selecionar um arquivo do seu dispositivo ou rede.
 
    1. Clique em **[!UICONTROL Upload]**.
 
@@ -36,7 +36,7 @@ Para postar alterações em alguns tipos de configurações de posicionamento pa
 
 >[!MORELIKETHIS]
 >
->* [Sobre a correção das configurações de disposição de uma campanha usando planilhas](qa-about.md)
+>* [Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas](qa-about.md)
 >* [Baixar configurações de posicionamento para uma campanha](qa-sheet-download.md)
 >* [Colunas em planilhas baixadas/carregadas](qa-sheet-columns.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Editar uma disposição
 
-É possível editar as configurações de uma única disposição ou de várias disposições ao mesmo tempo.
+É possível editar as configurações de uma única disposição ou de várias disposições de uma só vez.
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-## Editar uma única disposição
+## Editar um único posicionamento
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome da disposição, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Edite o [configurações de posicionamento](placement-settings.md).
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## Editar várias disposições {#edit-multiple-placements}
 
-Use esta opção somente quando quiser aplicar as mesmas alterações a todas as disposições selecionadas.
+Use essa opção somente quando quiser aplicar as mesmas alterações a todas as disposições selecionadas.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -44,7 +44,7 @@ Use esta opção somente quando quiser aplicar as mesmas alterações a todas as
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Marque a caixa de seleção ao lado de cada disposição que deseja editar.
+1. Marque a caixa de seleção ao lado de cada disposição que você deseja editar.
 
 1. Na barra de menus, clique em **[!UICONTROL Edit]**.
 
@@ -54,7 +54,7 @@ Use esta opção somente quando quiser aplicar as mesmas alterações a todas as
 
    1. Selecione o **[!UICONTROL Edit Mode]**.
 
-      As opções variam por configuração, mas podem incluir:
+      As opções variam de acordo com a configuração, mas podem incluir:
 
       * **Adicionar** (para anexar anúncios)
 
@@ -62,9 +62,9 @@ Use esta opção somente quando quiser aplicar as mesmas alterações a todas as
 
       * **Limpar** (para remover todos os valores existentes)
 
-      * **Diminuição** (para diminuir um valor existente por um valor especificado)
+      * **Diminuir** (para diminuir um valor existente por um valor especificado)
 
-      * **Aumento** (para aumentar um valor existente por um valor especificado)
+      * **Aumentar** (para aumentar um valor existente por uma quantia especificada)
 
       * **Substituir** (para alterar o valor existente para um novo valor)
 
@@ -78,15 +78,15 @@ Use esta opção somente quando quiser aplicar as mesmas alterações a todas as
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de disposição](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento](placement-about.md)
 >* [Editar rapidamente as configurações de posicionamento de chaves](placement-quick-edit.md)
 >* [Criar uma disposição](placement-create.md)
->* [Duplicar uma disposição](placement-duplicate.md)
->* [Editar o agendamento do anúncio para uma disposição](placement-edit-ad-schedule.md)
->* [Pausar ou ativar uma disposição](placement-pause-activate.md)
->* [Exibir o log de alterações para uma disposição](placement-change-log.md)
+>* [Duplicar um posicionamento](placement-duplicate.md)
+>* [Editar a programação de anúncios para uma disposição](placement-edit-ad-schedule.md)
+>* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Sobre a correção das configurações de disposição de uma campanha usando planilhas](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

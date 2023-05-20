@@ -1,6 +1,6 @@
 ---
 title: Compartilhar um público-alvo reutilizável
-description: Saiba como compartilhar um público-alvo reutilizável com outros anunciantes disponíveis na sua conta.
+description: Saiba como compartilhar um público-alvo reutilizável com outros anunciantes disponíveis em sua conta.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Compartilhar um público-alvo reutilizável
 
-Se você ainda não estiver compartilhando um público-alvo com os anunciantes disponíveis para sua conta, você pode começar a compartilhar a qualquer momento.
+Se você ainda não estiver compartilhando um público-alvo com os anunciantes disponíveis em sua conta, poderá começar a compartilhar a qualquer momento.
 
-Depois de compartilhar um público-alvo, você não pode parar de compartilhá-lo.
+Depois de compartilhar um público, você não pode parar de compartilhá-lo.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Share]**.
+1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL Share]**.
 
 1. Selecione a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
@@ -32,9 +32,9 @@ Depois de compartilhar um público-alvo, você não pode parar de compartilhá-l
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
->* [Configurações de público-alvo](audience-settings.md)
->* [Sintaxe para lógica de segmento do público-alvo](audience-segment-logic-syntax.md)
->* [Fornecedores de dados de terceiros disponíveis](third-party-data-providers.md)
+>* [Configurações de público](audience-settings.md)
+>* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 

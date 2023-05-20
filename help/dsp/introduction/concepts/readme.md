@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Esta é a pasta de trabalho deste capítulo.
 
-**Observação: Esta página não é publicada na documentação voltada para o cliente.**
+**Observação: esta página não está publicada na documentação voltada para o cliente.**

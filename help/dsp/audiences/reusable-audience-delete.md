@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Excluir um público-alvo reutilizável
 
-Você pode excluir um público-alvo que não seja usado em nenhuma disposição ou em outros públicos-alvo reutilizáveis.
+Você pode excluir um público-alvo que não seja usado em nenhum posicionamento ou outro público-alvo reutilizável.
 
-Se um público-alvo for usado no momento, você terá a opção de exportar um [!DNL Microsoft Excel] planilha que mostra todas as disposições e públicos-alvo que usam o público-alvo.
+Se um público-alvo estiver em uso no momento, você terá a opção de exportar um [!DNL Microsoft Excel] planilha que mostra todas as disposições e públicos-alvo que usam o público-alvo.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Segure o cursor sobre a linha de público-alvo e clique em **[!UICONTROL Delete]**.
+1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL Delete]**.
 
-1. (Se o público-alvo for usado em quaisquer disposições ou outros públicos reutilizáveis; opcional) Clique em **[!UICONTROL Export XLS]** para baixar um arquivo de planilha (no formato XLSX) de acordo com o procedimento normal do navegador.
+1. (Se o público for usado em qualquer posicionamento ou outro público reutilizável; opcional) Clique em **[!UICONTROL Export XLS]** para baixar um arquivo de planilha (no formato XLSX) de acordo com o procedimento normal do navegador.
 
    O nome do arquivo inclui o nome e a data do público-alvo.
 
@@ -35,8 +35,8 @@ Se um público-alvo for usado no momento, você terá a opção de exportar um [
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
->* [Configurações de público-alvo](audience-settings.md)
->* [Sintaxe para lógica de segmento do público-alvo](audience-segment-logic-syntax.md)
->* [Fornecedores de dados de terceiros disponíveis](third-party-data-providers.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
+>* [Configurações de público](audience-settings.md)
+>* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 

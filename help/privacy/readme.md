@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Documentação de suporte de privacidade do consumidor para publicidade no Adobe Advertising
+# Documentação de suporte de Privacidade do consumidor para publicidade em Adobe
 
-Esta pasta é destinada ao suporte à Adobe Advertising para a privacidade do consumidor.
+Esta pasta é para o suporte da Adobe Advertising para privacidade do consumidor.
 
-**Observação: Esta página não é publicada na documentação voltada para o cliente.**
+**Observação: esta página não está publicada na documentação voltada para o cliente.**

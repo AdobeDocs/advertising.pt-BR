@@ -23,7 +23,7 @@ Configuração de ofertas programáticas garantidas com editores no [!DNL Freewh
 >* (Se você trabalhar com editores do Reino Unido que exigem uma [!DNL Clearcast] clock number com cada anúncio) Permissão para incluir clock numbers em seus anúncios.
 
 
-## Fluxo de trabalho
+## Fluxo de trabalho (WRK)
 
 1. Crie um anúncio com o tipo de mídia especificado no contrato.
 

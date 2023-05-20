@@ -18,7 +18,7 @@ Duplique um relatório personalizado para criar um novo relatório com configura
 
 1. Na coluna Opções da linha do relatório, clique em **[!UICONTROL options]** > **[!UICONTROL Copy]**.
 
-1. (Opcional) Edite o [configurações do relatório](/help/dsp/reports/report-settings.md) conforme necessário.
+1. (Opcional) Edite o [configurações de relatório](/help/dsp/reports/report-settings.md) conforme necessário.
 
    O nome do relatório, por padrão, é &quot;\&lt;*nome do relatório existente*\> \#2&quot; (ou o próximo número na sequência).
 
@@ -29,6 +29,6 @@ Duplique um relatório personalizado para criar um novo relatório com configura
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Configurações personalizadas de relatório](/help/dsp/reports/report-settings.md)
+>* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 

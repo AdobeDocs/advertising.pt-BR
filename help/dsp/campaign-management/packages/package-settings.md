@@ -22,104 +22,104 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->As comissões faturáveis refletem-se na [!UICONTROL Net CPM] métrica.
+>As taxas faturáveis são refletidas na [!UICONTROL Net CPM] métrica.
 * **[!UICONTROL CPM]:** O custo por 1000 impressões (CPM).
 
-* **[!UICONTROL CPM Description]:** Uma descrição da taxa CPM.
+* **[!UICONTROL CPM Description]:** Uma descrição da taxa de CPM.
 
-Você pode substituir a configuração no nível do pacote na [nível de inserção](/help/dsp/campaign-management/placements/placement-settings.md).
+É possível substituir a configuração no nível do pacote na [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
-**[!UICONTROL Pacing & Capping]:** (Só de leitura para as embalagens existentes) Em que nível colocar e fixar disposições na embalagem:
+**[!UICONTROL Pacing & Capping]:** (Somente leitura para pacotes existentes) Em que nível colocar e limitar as disposições no pacote:
 
-* **[!UICONTROL Package level pacing]:** Esta estratégia de ritmo funciona colocando e limitando todas as disposições incluídas como uma *grupo*. Essa estratégia garante que todas as disposições de um determinado pacote sejam otimizadas de forma holística, distribuindo os gastos com base no desempenho e dimensionando para KPIs (indicadores-chave de desempenho) selecionados.
+* **[!UICONTROL Package level pacing]:** Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos como um *grupo*. Essa estratégia garante que todos os posicionamentos em um determinado pacote sejam otimizados de forma holística, distribuindo gastos com base no desempenho e dimensionando para indicadores principais de desempenho (KPIs) selecionados.
 
-* **[!UICONTROL Placement level pacing]:**  Esta estratégia de ritmo funciona colocando e limitando todas as disposições incluídas *individualmente*. A melhor prática consiste em utilizar esta estratégia apenas para executar transações garantidas do mercado privado.
+* **[!UICONTROL Placement level pacing]:**  Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos *individualmente*. A prática recomendada é usar essa estratégia apenas para executar negócios garantidos de mercados privados.
 
-**[!UICONTROL Flight Dates]:** A data de início e de término do pacote.
+**[!UICONTROL Flight Dates]:** A data inicial e a data final do pacote.
 
-Para criar voos de ritmo não par para o pacote, selecione *[!UICONTROL *Activate Custom Flighting]** e configurar os voos personalizados no [!UICONTROL Flighting] abaixo. Depois de ativar o voo personalizado e salvar o pacote, você não pode desativar o voo personalizado.
+Como opção, para criar voos não uniformes para o pacote, selecione *[!UICONTROL *Activate Custom Flighting]** e configurar os voos personalizados no [!UICONTROL Flighting] abaixo. Depois de habilitar a sinalização personalizada e salvar o pacote, não é possível desativar a sinalização personalizada.
 
 >[!NOTE]
 >
->* As datas de voo devem ser incluídas nas datas de voo da campanha. Além disso, as datas de voo para todas as disposições atribuídas a este pacote devem ser incluídas nessas datas.
-> * Não é possível editar a data de início do pacote quando o voo personalizado é ativado.
+>* As datas de voo devem ser incluídas nas datas de voo da campanha. Além disso, as datas de voo de todas as colocações atribuídas a este pacote devem ser incluídas nessas datas.
+> * Não é possível editar a data de início do pacote quando a iluminação personalizada está ativada.
 
 
 **[!UICONTROL Budget]:** (Pacotes com ritmo no nível do pacote somente) O limite de orçamento bruto e o intervalo de orçamento.
 
-Para pacotes com voo personalizado, o intervalo de orçamento é sempre *[!UICONTROL All time]*. Para pacotes sem iluminação personalizada, especifique o intervalo de orçamento: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+Para pacotes com configuração personalizada, o intervalo do orçamento é sempre *[!UICONTROL All time]*. Para pacotes sem configuração personalizada, especifique o intervalo do orçamento: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Gross Budget]:** (Pacotes com ritmo no nível do pacote e gerenciamento dinâmico de margem apenas) O limite de orçamento bruto para a duração do pacote.
+**[!UICONTROL Gross Budget]:** (Pacotes com ritmo no nível do pacote e gerenciamento dinâmico de margem somente) O limite de orçamento bruto para a duração do pacote.
 
-**[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível do pacote somente) A meta de otimização do pacote. Veja descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível do pacote somente) A meta de otimização do pacote. Consulte descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goals]:** (Pacotes com metas de otimização personalizadas somente) A variável [meta personalizada](/help/dsp/optimization/custom-goal-about.md) para o pacote. Para obter mais informações sobre as práticas recomendadas para metas e campanhas personalizadas que as utilizam, consulte  [Práticas recomendadas para criar uma meta personalizada](/help/dsp/optimization/custom-goal-best-practices.md) e [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goals]:** (Pacotes com metas de otimização personalizadas apenas) A [meta personalizada](/help/dsp/optimization/custom-goal-about.md) para o pacote. Para obter mais informações sobre as práticas recomendadas para metas personalizadas e campanhas que as usam, consulte  [Práticas recomendadas para a criação de uma meta personalizada](/help/dsp/optimization/custom-goal-best-practices.md) e [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).
 
-**[!UICONTROL Package Goal Type]:** (Pacotes com metas de otimização personalizadas somente) A finalidade do pacote. Essa configuração ajuda a determinar como otimizar o pacote:
+**[!UICONTROL Package Goal Type]:** (Pacotes somente com metas de otimização personalizadas) A finalidade do pacote. Esta configuração ajuda a determinar como otimizar o pacote:
 
 * *[!UICONTROL Prospecting]:* Os pacotes de prospecção se concentram na aquisição de novos clientes.
 
-* *[!UICONTROL Retargeting]:* Os pacotes de redirecionamento se concentram em reexpor visitantes ou clientes anteriores.
+* *[!UICONTROL Retargeting]:* Os pacotes de redirecionamento se concentram na reexposição de visitantes ou clientes anteriores.
 
 * *[!UICONTROL Other]:* Todos os outros fins.
 
-**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Pacotes com metas de otimização personalizadas somente) Outro pacote cujos dados históricos são usados como entrada para otimizar o pacote.
+**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Pacotes somente com metas de otimização personalizadas) Outro pacote cujos dados históricos são usados como entrada para otimização do pacote.
 
-**[!UICONTROL Target]:** (Pacotes com ritmo no nível do pacote somente) A meta do target, que é usada para rastrear o desempenho.
-
->[!NOTE]
->
->Este campo é apenas um referencial e não é usado para a tomada de decisão.
-
-**[!UICONTROL Frequency Cap]:** (Pacotes com ritmo no nível do pacote somente) O número de vezes que um dispositivo ou pessoa exclusiva (dependendo do [!UICONTROL Cross Device Level] para a campanha) pode ser veiculada como anúncio do pacote. As opções incluem *[!UICONTROL Unlimited]* ou um valor específico por dia, semana ou mês.
+**[!UICONTROL Target]:** (Pacotes com ritmo no nível do pacote somente) A meta do, que é usada para rastrear o desempenho.
 
 >[!NOTE]
 >
->* Você pode definir limites de frequência nos níveis de campanha, pacote e disposição. DSP respeita o limite de frequência mais rigoroso na hierarquia da campanha.
+>Este campo é apenas um referencial e não é usado para decisões.
+
+**[!UICONTROL Frequency Cap]:** (Pacotes com ritmo no nível do pacote somente) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level] para a campanha) podem ser anúncios do pacote. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
+
+>[!NOTE]
+>
+>* Você pode definir limites de frequência nos níveis de campanha, pacote e posicionamento. O DSP respeita o limite de frequência mais rigoroso na hierarquia de campanha.
 >* A prática recomendada é definir limites de frequência para prospecção e redirecionamento no nível do pacote.
-> * Limites de frequência mais altos resultam em gastos e impressões mais altos, mas em menor alcance. Os limites de frequência mais baixos resultam em menos gasto e impressões, mas maior alcance.
+> * Limites de frequência mais altos resultam em gastos e impressões mais altos, mas com menor alcance. Limites de frequência mais baixos resultam em gastos e impressões mais baixos, mas em maior alcance.
 
 
-**[!UICONTROL Pace on]:** (Pacotes com ritmo de nível de pacote somente) O que é baseado em:
+**[!UICONTROL Pace on]:** (Pacotes com ritmo no nível do pacote somente) Em que ritmo se baseia:
 
 * *[!UICONTROL Budget]:* (Padrão) Essa opção fornece o máximo de impressões possível dentro do orçamento do pacote alocado.
 
-* *[!UICONTROL Impressions]:* Essa opção fornece impressões até que uma quantidade especificada seja alcançada em um intervalo especificado. Ao selecionar essa opção, especifique o número de impressões e o intervalo: *O tempo todo,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+* *[!UICONTROL Impressions]:* Essa opção fornece impressões até que uma quantidade especificada seja atingida em um intervalo especificado. Ao selecionar essa opção, especifique o número de impressões e o intervalo: *O tempo todo,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Flight pacing]:** (Pacotes com pacing no nível do pacote somente) Como acompanhar e entregar em todo o voo:
+**[!UICONTROL Flight pacing]:** (Pacotes com ritmo no nível do pacote somente) Como acompanhar e entregar durante todo o voo:
 
-* *[!UICONTROL Even]:* Os pacotes são fornecidos uniformemente ao longo de cada voo, com um objetivo de 50% da entrega na primeira metade do voo.
+* *[!UICONTROL Even]:* Acompanha o delivery de forma uniforme em cada voo, com uma meta de 50% do delivery na primeira metade do voo.
 
-* *[!UICONTROL Slightly Ahead]:* (O padrão) Acelera a entrega para que esteja 55 a 65% completo na metade da duração do voo.
+* *[!UICONTROL Slightly Ahead]:* (O padrão) Acelera a entrega para que esteja 55 a 65% concluído na metade da duração do voo.
 
-* *[!UICONTROL Frontload]:* Acelera a entrega para que esteja 65 a 75% completo na metade do voo.
+* *[!UICONTROL Frontload]:* Acelera a entrega para que esteja 65 a 75% concluído na metade do voo.
 
-* *[!UICONTROL Aggressive Frontload]:* Acelera a entrega para que esteja 75 a 85% completo na metade do voo.
+* *[!UICONTROL Aggressive Frontload]:* Acelera a entrega para que esteja 75 a 85% concluído na metade do voo.
 
-**[!UICONTROL Intraday pacing]:** (Pacotes com pacing no nível do pacote somente) Como acompanhar e entregar em cada dia no voo:
+**[!UICONTROL Intraday pacing]:** (Pacotes com ritmo no nível do pacote somente) Como acompanhar e entregar em cada dia dentro do voo:
 
-* *[!UICONTROL Even]:* (O padrão) Dimensiona o delivery com base na disponibilidade do inventário. Geralmente, mais anúncios são entregues por hora no dia, quando o volume do leilão é maior e menos anúncios são entregues de manhã e à noite.
+* *[!UICONTROL Even]:* (O padrão) Dimensiona a entrega com base na disponibilidade do inventário. Geralmente, mais anúncios são entregues por hora durante o dia, quando o volume do leilão é maior, e menos anúncios são entregues de manhã e à noite.
 
-* *[!UICONTROL ASAP]:* Acelera a entrega para o dobro da velocidade de *Mesmo*.
+* *[!UICONTROL ASAP]:* Acelera a entrega para o dobro da velocidade de *Par*.
 
    >[!CAUTION]
    >
-   >Essa opção pode afetar negativamente o desempenho. Use-o somente quando estiver priorizando totalmente o delivery e gastando em relação à otimização de desempenho.
+   >Essa opção pode afetar negativamente o desempenho. Use-a somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho.
 
 ## [!UICONTROL Flighting]
 
-(Pacotes com ritmo no nível do pacote e com &quot;[!UICONTROL Activate Custom Flighting]&quot; ativado) Períodos de voo personalizados dentro do total [!UICONTROL Flight Dates] especificados na [!UICONTROL Goals & Budget] seção.
+(Pacotes com ritmo no nível do pacote e com &quot;[!UICONTROL Activate Custom Flighting]&quot; ativado) Períodos de voo personalizados dentro do intervalo [!UICONTROL Flight Dates] especificado na [!UICONTROL Goals & Budget] seção.
 
 Para cada voo, insira a data de início, a data de término e o número alvo de impressões. Para adicionar outro voo, clique em **[!UICONTROL Add Flight]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de pacotes](package-about.md)
+>* [Sobre o gerenciamento de pacotes](package-about.md)
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar uma disposição a um pacote](package-attach-placement.md)
->* [Exibir o log de alterações de um pacote](package-change-log.md)
+>* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

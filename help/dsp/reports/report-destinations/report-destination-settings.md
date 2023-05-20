@@ -1,6 +1,6 @@
 ---
 title: Configurações de destino do relatório
-description: Consulte os detalhes necessários para os destinos do seu relatório, por tipo de destino.
+description: Veja os detalhes necessários para os destinos do seu relatório, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Configurações de destino do relatório
 
-Os detalhes necessários para destinos de relatórios que não são de email variam de acordo com o tipo de destino.
+Os detalhes necessários para destinos que não são de relatório de email variam de acordo com o tipo de destino.
 
 >[!NOTE]
 >
-> Você também pode enviar seus relatórios personalizados para destinatários de email, que não exigem um destino de relatório salvo. Você pode especificar destinatários de email, em vez de destinos salvos, nas configurações do relatório.
+> Você também pode enviar seus relatórios personalizados para destinatários de email, que não exigem um destino de relatório salvo. Você pode especificar destinatários de email nas configurações do relatório, em vez de destinos salvos.
 
 ## [!UICONTROL S3]
 
 **[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
 
-**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no [!DNL Amazon Simple Storage Service] (S3) para o qual o relatório será carregado. Exemplo: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no [!DNL Amazon Simple Storage Service] (S3) bucket para o qual o relatório será carregado. Exemplo: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** A ID da chave de acesso para o ([!DNL Amazon S3]) bucket (fornecido por [!DNL Amazon]).
 
@@ -34,7 +34,7 @@ Os detalhes necessários para destinos de relatórios que não são de email var
 
 **[!UICONTROL Server]:** O nome do host do servidor.
 
-**[!UICONTROL Port]:** O número da porta a ser usado no servidor. O padrão é *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
 
@@ -48,7 +48,7 @@ Os detalhes necessários para destinos de relatórios que não são de email var
 
 **[!UICONTROL Server]:** O nome do host do servidor.
 
-**[!UICONTROL Port]:** O número da porta a ser usado no servidor. O padrão é *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
 
@@ -62,7 +62,7 @@ Os detalhes necessários para destinos de relatórios que não são de email var
 
 **[!UICONTROL Server]:** O nome do host do servidor.
 
-**[!UICONTROL Port]:** O número da porta a ser usado no servidor. O padrão é *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
 
@@ -73,7 +73,7 @@ Os detalhes necessários para destinos de relatórios que não são de email var
 >[!MORELIKETHIS]
 >
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crie um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [Edite um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

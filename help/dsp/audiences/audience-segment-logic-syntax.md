@@ -1,6 +1,6 @@
 ---
-title: Sintaxe para lógica de segmento do público-alvo
-description: Referencie a sintaxe que pode ser usada para definir a lógica dos segmentos de público-alvo.
+title: Sintaxe da lógica do segmento de público-alvo
+description: Faça referência à sintaxe que pode ser usada para definir a lógica dos segmentos de público-alvo.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Sintaxe para lógica de segmento do público-alvo
+# Sintaxe da lógica do segmento de público-alvo
 
-Ao criar públicos reutilizáveis, é possível definir manualmente a lógica do segmento usando IDs de segmento alfanumérico (chaves) e a seguinte sintaxe:
+Ao criar públicos-alvo reutilizáveis, você pode definir manualmente a lógica do segmento usando IDs de segmento alfanuméricos (chaves) e a seguinte sintaxe:
 
-* (b) para indicar um grupo
+* () para indicar um grupo
 * `||` para [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * &amp;&amp; para [!DNL AND]
 * ! para [!DNL NOT] (excluir)
@@ -22,7 +22,7 @@ Ao criar públicos reutilizáveis, é possível definir manualmente a lógica do
 >[!NOTE]
 >
 >* Todos os grupos de segmentos especificados são incluídos, a menos que sejam precedidos por ! (o que os exclui).
->* Você pode [encontrar a ID de segmento para um público-alvo](reusable-audience-clipboard.md) from [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Você pode [encontrar a ID de segmento para um público-alvo](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 
 Por exemplo, a seguinte lógica:
@@ -39,13 +39,13 @@ significa (em inglês simples)
 
 >[!NOTE]
 >
->Nas configurações de posicionamento, você pode usar públicos salvos como públicos-alvo para direcionar explicitamente ou como públicos-alvo separados para excluir do direcionamento. Certifique-se de que a lógica do segmento reflete a finalidade para a qual você usará o público-alvo.
+>Nas configurações de posicionamento, é possível usar os públicos salvos como públicos-alvo para direcionar explicitamente ou como públicos-alvo separados para excluir do direcionamento. Verifique se a lógica do segmento reflete a finalidade para a qual você usará o público-alvo.
 
 >[!MORELIKETHIS]
 >
->* [Copiar a chave do segmento para um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
 >* [Sobre o Gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
->* [Configurações de público-alvo](audience-settings.md)
->* [Fornecedores de dados de terceiros disponíveis](third-party-data-providers.md)
+>* [Configurações de público](audience-settings.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 

@@ -12,30 +12,30 @@ ht-degree: 0%
 
 # Arquivar ou desarquivar um pacote
 
-Oculte um pacote que não está sendo usado pelo arquivamento. A única ação que você pode realizar em um pacote arquivado é desarquivá-lo. Os pacotes arquivados não são mostrados por padrão, mas ainda estão disponíveis para relatórios.
+Ocultar um pacote que não está sendo usado ao arquivá-lo. A única ação que você pode realizar em um pacote arquivado é desarquivá-lo. Os pacotes arquivados não são exibidos por padrão, mas ainda estão disponíveis para relatórios.
 
-Você pode desarquivar um pacote para restaurar seu status anterior a qualquer momento.
+É possível desarquivar um pacote para restaurar seu status anterior a qualquer momento.
 
 ## Arquivar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
+1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
 1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para exibir pacotes arquivados, filtre o [!UICONTROL Packages] exibir: click ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Package status]** e selecione **[!UICONTROL Archived]** e, em seguida, clique em **[!UICONTROL Apply].**
+>Para visualizar pacotes arquivados, filtre o [!UICONTROL Packages] exibir: clique ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Package status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
 
 ## Desarquivar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir o [!UICONTROL Packages] exibir.
+1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
 1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Editar um pacote](package-edit.md)
->* [Exibir o log de alterações de um pacote](package-change-log.md)
+>* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 

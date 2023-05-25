@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
+source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 24 de maio de 2023 | [!UICONTROL Campaigns] | Posicionamentos e anúncios de vídeo universais agora estão disponíveis para o público em geral. | Consulte &quot;[Perguntas frequentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; e &quot;[Crie um anúncio](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Março de 2023 | [!UICONTROL Reports] | Um novo [!UICONTROL Household Report] A mostra impressões, alcance e frequência em várias dimensões em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. O relatório inclui nove dimensões: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]e criado pelo usuário [!UICONTROL Tags]. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md),&quot; &quot;[Configurações do relatório](/help/dsp/reports/report-settings.md),&quot; e &quot;[Perguntas frequentes sobre o [!UICONTROL Household] Relatório](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 de março de 2023 | [!UICONTROL Campaigns] | Leia mais sobre inserções e anúncios de vídeo universais, que são um recurso beta aberto. | Consulte &quot;[Perguntas frequentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 de fevereiro de 2023 | [!UICONTROL Campaigns] | As opções para exibir logs de alteração no formulário de gráfico e adicionar notas a qualquer entrada estão fora da versão beta. | Consulte &quot;[Exibir o Log de Alterações de uma Campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Consulte &quot;[Exibir o Log de Alterações de um Pacote](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Consulte &quot;[Exibir o Log de Alterações para um Posicionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

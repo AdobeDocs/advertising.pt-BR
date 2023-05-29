@@ -3,9 +3,9 @@ title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 
 1. Marque a caixa de seleção ao lado de cada disposição que você deseja editar.
 
-1. Na barra de menus, clique em **[!UICONTROL Edit]**.
+1. Na barra de menus de operações em massa, clique em **[!UICONTROL Edit]**.
 
 1. Para cada configuração que você deseja alterar:
 

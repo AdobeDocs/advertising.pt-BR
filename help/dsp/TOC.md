@@ -8,9 +8,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '902'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 6%
       + [Editar uma campanha](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicar uma campanha](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Pausar ou ativar uma campanha](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [Arquivar ou desarquivar uma campanha](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Exibir o Log de Alterações de uma Campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Configurações da campanha](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 6%
       + [Editar um pacote](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicar um pacote](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Anexar um posicionamento a um pacote](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Pausar ou ativar um pacote](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [Arquivar ou desarquivar um pacote](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Exibir o Log de Alterações de um Pacote](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 6%
       + [Anexar um anúncio a um posicionamento](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Arquivar ou desarquivar um anúncio](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + Configurações do anúncio {#ad-settings}
          + [Configurações do anúncio de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)

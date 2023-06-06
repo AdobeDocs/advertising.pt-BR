@@ -9,7 +9,7 @@ user-guide-description: Este guia explica os principais recursos, tarefas, confi
 breadcrumb-title: Guia de pesquisa, social e comércio de publicidade
 index: false
 hide: true
-source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -274,7 +274,7 @@ ht-degree: 0%
       + Gerenciamento de relatórios {#report-management}
          + Relatórios básicos e avançados {#basic-advanced-reports}
             + [Sobre relatórios básicos e avançados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
-            + [Formatos básicos de relatório] {#basic-report-formats}
+            + Formatos básicos de relatório {#basic-report-formats}
                + [A variável [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
                + [A variável [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
                + [A variável [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
@@ -288,7 +288,7 @@ ht-degree: 0%
                + [A variável [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
                + [A variável [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
                + [A variável [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
-            + [Formatos de relatório avançados] {#advanced-report-formats}
+            + Formatos de relatório avançados {#advanced-report-formats}
                + [A variável [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
                + [A variável [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
                + [A variável [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)

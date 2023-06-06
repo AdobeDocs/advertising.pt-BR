@@ -1,7 +1,7 @@
 ---
 title: Editar configurações diretamente em uma linha
 description: Saiba como editar dados em exibições de gerenciamento na linha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Valores de formato livre) Insira um novo valor e clique em ![Salvar](/help/search-social-commerce/assets/select.png "Salvar") ou pressione a &lt;barra de espaço> **Enter** chave.
    >[!MORELIKETHIS]
    >
-   >*[Criar e editar dados de campanha em massa usando Copiar e Colar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Criar e editar dados de campanha em massa usando Copiar e Colar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+

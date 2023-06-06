@@ -3,7 +3,7 @@ title: Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign
 description: Saiba por que e como adicionar [!DNL Analytics for Advertising] macros para o seu [!DNL Google Campaign Manager 360] tags de publicidade
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* Se o URL da página de aterrissagem incluir um símbolo de hash (#), o que não é comum, insira o `amo` antes do símbolo de hash.
->* Se nenhum outro parâmetro for incluído após a variável `amo` e adicione um parâmetro (por exemplo, &amp;a=b) depois dele. Exemplo:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >Se nenhum outro parâmetro for incluído após a variável `amo` e adicione um parâmetro (por exemplo, &amp;a=b) depois dele. Exemplo:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### Configurar o sufixo do URL da página inicial no nível do anunciante
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 Quando um usuário clica no anúncio, [!DNL Google Campaign Manager 360] visualiza `%pamo` no sufixo do URL e insere dinamicamente o valor de `amo` no URL.
 
 >[!MORELIKETHIS]
->
->* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
->* [IDs de publicidade do Adobe usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](macros-flashtalking.md)
+* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
+* [IDs de publicidade do Adobe usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](macros-flashtalking.md)
 

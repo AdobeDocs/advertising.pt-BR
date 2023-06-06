@@ -1,0 +1,31 @@
+---
+title: Excluir um modelo de relatório
+description: Saiba como excluir modelos de relatório.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 0%
+
+---
+
+# Excluir modelos de relatório
+
+É possível excluir qualquer modelo de relatório disponível. Quando você exclui um modelo que inclui um agendamento, esse relatório não é gerado no futuro.
+
+1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+
+1. Clique em **[!UICONTROL Templates]** guia.
+
+1. Marque a caixa de seleção ao lado de cada modelo que deseja excluir.
+
+1. Acima da tabela de dados, clique em **[!UICONTROL Delete]**.
+
+1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre modelos de relatório](template-about.md)
+>* [Criar um modelo de relatório](template-create.md)
+>* [Editar um modelo de relatório](template-edit.md)
+>* [Exibir um modelo de relatório](template-view.md)
+

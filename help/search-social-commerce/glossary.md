@@ -1,7 +1,7 @@
 ---
 title: Glossário
 description: Consulte as definições de termos principais.
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **URL de rastreamento de cliques:** Um modelo de rastreamento ou um URL de destino com código incorporado para rastrear cliques em uma palavra-chave, variação de anúncio ou posicionamento.
 
-**restrição:** (Anunciantes com portfólios; aplicável somente para unidades de oferta em portfólios padrão) Uma regra para licitação em uma palavra-chave ou anúncio específico. Ele substitui todos os limites no nível do portfólio e a estratégia de lances recomendada.
+**restrição:** (Anunciantes com portfólios; aplicável somente para unidades de oferta em portfólios padrão) Uma regra para licitação em uma palavra-chave ou anúncio específico. Ele substitui todos os limites no nível do portfólio e a estratégia de lance recomendada.
 
 **conversão:** A conclusão de uma ação depois que um usuário final clica em um anúncio, geralmente capturado como uma métrica; os exemplos incluem registros ou compras. Uma conversão pode consistir em um ou mais eventos de transação, mas os termos &quot;conversão&quot; e &quot;transação&quot; são frequentemente usados alternadamente.
 

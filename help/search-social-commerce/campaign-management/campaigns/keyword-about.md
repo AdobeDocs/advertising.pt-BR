@@ -1,0 +1,30 @@
+---
+title: Sobre palavras-chave
+description: Saiba mais sobre as opções para palavras-chave licitáveis e negativas.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
+
+---
+
+# Sobre palavras-chave
+
+*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+
+Uma palavra-chave é uma palavra ou frase associada a um anúncio. As configurações de palavra-chave incluem o tipo de correspondência de palavra-chave, os lances máximos a serem usados quando seu anúncio é acionado pela palavra-chave e (algumas redes de anúncios) parâmetros de rastreamento opcionais. As configurações de nível de palavra-chave substituem as configurações de campanha ou do grupo de anúncios.
+
+Você pode criar palavras-chave para qualquer grupo de publicidade em uma campanha direcionada à rede de pesquisa.
+
+## A variável [!UICONTROL Keywords] visualizações
+
+A variável [!UICONTROL Keywords] > [!UICONTROL Keywords] lista todas as palavras-chave licitáveis e a variável [!UICONTROL Keywords] > [!UICONTROL Negatives] A exibição lista todas as palavras-chave negativas para as quais os anúncios não são exibidos.
+
+Você pode criar palavras-chave para um grupo de pesquisa de anúncios a partir da [!UICONTROL Keywords] > [!UICONTROL Keywords] exibição. Você pode criar palavras-chave negativas para um grupo de publicidade ou campanha a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir ou nas configurações de campanha e grupo de anúncios. Também é possível editar e alterar o status de palavras-chave ativas e pausadas, além de excluir palavras-chave negativas.
+
+>[!MORELIKETHIS]
+>
+>* [Gerenciar palavras-chave licitáveis](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Criar palavras-chave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+>* [Alterar o status de palavras-chave e palavras-chave negativas](keyword-status-edit.md)
+

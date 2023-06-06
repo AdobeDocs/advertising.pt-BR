@@ -1,7 +1,7 @@
 ---
 title: Sobre este guia
 description: Saiba o que é abordado em cada capítulo deste guia.
-source-git-commit: df22abea76dd89ccd034f4e64904b9e6abdf0995
+source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 As informações sobre grupos específicos de tarefas e outras informações estão disponíveis nos seguintes capítulos de ajuda:
 
-* &quot;Introdução&quot; apresenta conceitos e recursos básicos de gerenciamento e otimização de publicidade.
+* &quot;Introdução&quot; apresenta os principais recursos da Advertising Search, Social e Comércio.
 
 * &quot;Introdução&quot; explica as principais tarefas envolvidas em uma implementação de anunciante, desde a configuração do lançamento inicial até a execução de tarefas de gerenciamento contínuas; e como a interface do usuário é organizada.
 
@@ -20,14 +20,13 @@ As informações sobre grupos específicos de tarefas e outras informações est
 
 * &quot;Rastreamento&quot; explica como configurar o rastreamento de cliques e conversões para seus anúncios e palavras-chave.
 
-* &quot;Campaign Management&quot; explica como configurar e gerenciar componentes do Campaign para suas contas de rede de anúncios.
+* &quot;Gerenciamento de campanhas&quot; explica como configurar e gerenciar componentes do Campaign para suas contas de rede de anúncios.
 
 * &quot;Insights e relatórios&quot; explica como gerar insights de publicidade, gerar relatórios detalhados e automatizar a produção de relatórios, criar e monitorar alertas, exibir um log de alterações feitas na conta do anunciante e exibir e aplicar [!DNL Google Ads]recomendações geradas pelo para suas contas do.
 
-* &quot;Ferramentas&quot; explica como alterar sua senha, usar ferramentas para gerar tags de rastreamento de cliques e de conversão, carregar suas métricas de conversão para o [!DNL Google Ads] e seus objetivos de portfólio nas redes de anúncios para otimização híbrida, métricas de upload para campanhas de rastreamento e replicação [!DNL Google Ads] campanhas em seu [!DNL Microsoft Advertising]
-contas.
+* &quot;Ferramentas&quot; explica como alterar sua senha, usar ferramentas para gerar tags de rastreamento de cliques e de conversão, carregar suas métricas de conversão para o [!DNL Google Ads] e seus objetivos de portfólio nas redes de anúncios para otimização híbrida, métricas de upload para campanhas de rastreamento e replicação [!DNL Google Ads] campanhas em seu [!DNL Microsoft Advertising] contas.
 
-* &quot;Admin&quot; explica como gerenciar os dados do anunciante, incluindo as propriedades de transação coletadas e as datas a serem excluídas das previsões de portfólio; sincronize suas métricas de conversão a partir de um [!DNL Google Analytics] conta; definir várias configurações no nível do anunciante; e (algumas funções) administrar contas de usuário, agência e anunciante.
+* &quot;Administração&quot; explica como gerenciar os dados do anunciante, incluindo as propriedades de transação coletadas e as datas a serem excluídas das previsões de portfólio; sincronizar as métricas de conversão a partir de um [!DNL Google Analytics] conta; definir várias configurações no nível do anunciante; e (algumas funções) administrar contas de usuário, agência e anunciante.
 
 >[!NOTE]
 >

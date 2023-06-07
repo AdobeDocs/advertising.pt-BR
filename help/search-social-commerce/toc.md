@@ -9,9 +9,9 @@ user-guide-description: Este guia explica os principais recursos, tarefas, confi
 breadcrumb-title: Guia de pesquisa, social e comércio de publicidade
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + Ferramentas {#tools}
    + [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)
-   + Ferramentas de rastreamento de tags {#tracking}
-      + [Ferramentas para criar e decodificar rastreamento baseado em pixel]{#pixel}
-         + [Sobre as ferramentas para criar e decodificar tags de rastreamento](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Gerar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Decodificar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Gerar uma tag de conversão Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Ferramentas para criar e decodificar tags de rastreamento{#tracking}
+      + [Sobre as ferramentas para criar e decodificar tags de rastreamento](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Gerar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Decodificar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Gerar uma tag de conversão Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Fazer upload de dados de conversão para redes de anúncios {#upload-ad-networks}
       + [Fazer upload de métricas de conversão para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Habilitar carregamento de objetivos para redes de anúncios](/help/search-social-commerce/tools/objective-upload-to-networks.md)

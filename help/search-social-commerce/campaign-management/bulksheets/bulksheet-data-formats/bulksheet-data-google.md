@@ -1,7 +1,7 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | Campo | Descrição |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Platform | (Incluído nos bulksheets gerados para fins de informação) A plataforma de anúncios. Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
 | Nome da conta | O nome exclusivo que identifica uma conta de rede de anúncios. Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
 | Nome da campanha | O nome exclusivo que identifica uma campanha para uma conta. |

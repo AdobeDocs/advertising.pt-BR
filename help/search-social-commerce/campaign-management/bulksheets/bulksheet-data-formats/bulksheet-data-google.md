@@ -1,9 +1,9 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: 29d11545d9c3cb3e90efca4a51a39118dbf9cc1a
+source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
 workflow-type: tm+mt
-source-wordcount: '6276'
+source-wordcount: '6628'
 ht-degree: 0%
 
 ---
@@ -114,56 +114,33 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 <table style="table-layout:auto">
 
-<!-- 
+## Campos necessários para criar, editar ou excluir cada componente da conta
 
-## Fields required to create, edit, or delete each account component
+### Campos de campanha
 
-### Campaign fields
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. | | Nome da campanha | Obrigatório | O nome exclusivo que identifica uma campanha para uma conta. | | Orçamento da campanha | Obrigatório: Criar<br><br>>Opcional: Editar ou excluir | Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. | | Método de entrega | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Tipo de canal | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Redes | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Nome de domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Idioma do domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Prioridade de campanha | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | ID do comerciante | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | País de Vendas | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | Filtro de escopo de produto | Opcional | | Idiomas | Opcional | | Destinos de dispositivos | Opcional | | Destinos do sistema operacional do dispositivo (Google Adwords) | Opcional | | Operadoras De Celular (Google Adwords) | Opcional | | Método de direcionamento de público-alvo | n/d | | Sufixo da página inicial | <p>Opcional | | Modelo de rastreamento | Opcional | | Status da campanha | Opcional: criar ou editar<br><br>Obrigatório: Excluir | | \[Classificação de rótulo específica do anunciante\] | Opcional | | Restrições | Opcional | | ID da campanha | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. | | ID AMO | n/d: criar<br><br>Obrigatório/Opcional: Editar ou excluir |
 
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required | The unique name that identifies a campaign for an account. |
-| Campaign Budget | Required: Create<br><br>>Optional: Edit or delete | A daily spending limit for the campaign, with or without monetary symbols and punctuation. This value overrides but can't exceed the account budget. |
-| Delivery Method | Required: Create<br><br>Optional: Edit or delete |
-| Channel Type | Required: Create<br><br>Optional: Edit or delete |
-| Networks | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Name | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Language | Required: Create<br><br>Optional: Edit or delete |
-| Campaign Priority | Required/Optional: Create<br><br>Optional / n/a: Edit or delete  |
-| Merchant ID | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Sales Country | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Product Scope Filter | Optional |
-| Languages | Optional |
-| Device Targets | Optional |
-| Device OS Targets (Google Adwords) | Optional |
-| Mobile Carriers (Google Adwords) | Optional |
-| Audience Target Method | n/a |
-| Landing Page Suffix | <p>Optional |
-| Tracking Template | Optional |
-| Campaign Status | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Campaign ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the campaign. |
-| AMO ID | n/a: Create<br><br>Required/Optional: Edit or delete |
+### Campos de grupo de anúncios
 
-### Ad group fields
-
-| Field | Required? |
+| Campo | Obrigatório? |
 | ---- | ---- |
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Networks | n/a |
-| GDN Custom Bid Level | Optional |
-| Ad Group Name | Required  |
-| Ad Group Type | Required |
-| Max CPC | Optional |
-| Max Content CPC | Optional |
-| Audience Target Method | Required |
-| Tracking Template | Optional |
-| Ad Group Status  | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Ad Group ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the ad group. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Redes | n/d |
+| Nível de Oferta Personalizada GDN | Opcional |
+| Nome do grupo de anúncios | Obrigatório |
+| Tipo de grupo de anúncios | Obrigatório |
+| CPC máximo | Opcional |
+| CPC de conteúdo máximo | Opcional |
+| Método de direcionamento de público | Obrigatório |
+| Modelo de rastreamento | Opcional |
+| Status do grupo de anúncios | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID do grupo de anúncios | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para o grupo de publicidade. |
+| ID AMO | A ID do AMO é necessária para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+<!-- 
 
 ### Keyword fields
 

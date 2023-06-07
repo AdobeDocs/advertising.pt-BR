@@ -1,9 +1,9 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 ### Campos de campanha
 
-| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. | | Nome da campanha | Obrigatório | O nome exclusivo que identifica uma campanha para uma conta. | | Orçamento da campanha | Obrigatório: Criar<br><br>>Opcional: Editar ou excluir | Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. | | Método de entrega | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Tipo de canal | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Redes | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Nome de domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Idioma do domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir | | Prioridade de campanha | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | ID do comerciante | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | País de Vendas | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir | | Filtro de escopo de produto | Opcional | | Idiomas | Opcional | | Destinos de dispositivos | Opcional | | Destinos do sistema operacional do dispositivo (Google Adwords) | Opcional | | Operadoras De Celular (Google Adwords) | Opcional | | Método de direcionamento de público-alvo | n/d | | Sufixo da página inicial | <p>Opcional | | Modelo de rastreamento | Opcional | | Status da campanha | Opcional: criar ou editar<br><br>Obrigatório: Excluir | | \[Classificação de rótulo específica do anunciante\] | Opcional | | Restrições | Opcional | | ID da campanha | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. | | ID AMO | n/d: criar<br><br>Obrigatório/Opcional: Editar ou excluir |
+| Campo | Obrigatório? |
+| ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório | O nome exclusivo que identifica uma campanha para uma conta. |
+| Orçamento da campanha | Obrigatório: Criar<br><br>>Opcional: Editar ou excluir | Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. |
+| Método de entrega | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
+| Tipo de canal | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
+| Redes | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
+| Nome de domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
+| Idioma do domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
+| Prioridade de campanha | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
+| ID do comerciante | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
+| País de Vendas | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
+| Filtro de escopo do produto | Opcional |
+| Idiomas | Opcional |
+| Destinos de dispositivo | Opcional |
+| Destinos do sistema operacional do dispositivo (Google Adwords) | Opcional |
+| Operadoras De Celular (Google Adwords) | Opcional |
+| Método de direcionamento de público | n/d |
+| Sufixo da landing page | <p>Opcional |
+| Modelo de rastreamento | Opcional |
+| Status da campanha | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID da campanha | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. |
+| ID AMO | n/d: Criar<br><br>Obrigatório/Opcional: Editar ou excluir |
 
 ### Campos de grupo de anúncios
 
@@ -144,10 +169,10 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |

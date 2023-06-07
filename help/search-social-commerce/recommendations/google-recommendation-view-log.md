@@ -1,9 +1,9 @@
 ---
 title: Exibir o log de recomendações para um [!DNL Google Ads] account
 description: Saiba como visualizar um log de cada recomendação que foi aplicada para um [!DNL Google Ads] conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ Você pode exibir um log de cada recomendação que foi aplicada para um [!DNL G
 
 Recomendações descartadas não estão disponíveis na rede de anúncios.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. No canto superior direito, selecione a conta.
+1. No canto superior direito, selecione a rede de anúncios e a conta.
 
 1. No canto superior direito, clique em ![Logs de recomendação](/help/search-social-commerce/assets/recommendations-log-view.png "Logs de recomendação").
 
 >[!MORELIKETHIS]
 >
+>* [Sobre o suporte a recomendações e insights do editor](recommendation-support.md)
 >* [Aplicar ou descartar um [!DNL Google Ads] recomendação](google-recommendation-apply-dismiss.md)
->* [Práticas recomendadas para usar o [!DNL Google Ads] recomendações com portfólios de Pesquisa, Social e Comércio](google-recommendation-best-practices.md)
->* [Sobre [!DNL Google Ads] suporte ao recommendations](google-recommendation-support.md)
+>* [Práticas recomendadas para usar recomendações e insights do editor com portfólios](recommendation-best-practices.md)
 

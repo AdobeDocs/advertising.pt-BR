@@ -1,7 +1,7 @@
 ---
 title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúncios compatíveis, além da funcionalidade disponível para cada um.
 
 | Origem | Rede | Tipo de campanha | Tipo de anúncio | Sincronizar e exibir | Criar/Editar | Rastrear[^1] | Otimizar | Relatório[^2] | Suporte ao Adobe Analytics[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Pesquisar rede | Manual | Texto | Automático via API | Usar [exibições de gerenciamento de campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) e [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sim | Campanhas somente com estratégia de oferta CPC manual | Dados no nível do anúncio | Dados do Analytics para pesquisa, redes sociais e comércio<br><br>Dados no nível do anúncio, de Pesquisa, Social e Comércio para o Analytics |
 | [!DNL Google Ads] | Todos [!DNL Google] Feeds | Descoberta (recurso beta) | Detecção (anúncios de imagem única)<br><br>Carrossel de descobertas (anúncios do carrossel de várias imagens) | Automático via API | — | Sim | Somente em portfólios híbridos<br><br>As metas de ofertas e estratégia de ofertas são definidas no nível da campanha, juntamente com os orçamentos, conforme aplicável ao tipo de otimização. | Dados no nível do anúncio | Dados no nível do anúncio para Pesquisa, Redes sociais e Comércio (usando o [código de rastreamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Dados no nível do anúncio, de Pesquisa, Social e Comércio para o Analytics |
 |  | Todos | Desempenho máximo padrão (recurso beta) | Todos os tipos | Automático via API | Criar/editar campanha e fazer upload de ativos de publicidade nas configurações da campanha na visualização Campanhas<br><br>Somente as configurações necessárias estão disponíveis. Para configurações opcionais e grupos de listagem, faça logon no [!DNL [!DNL Google Ads] Ads]. | Sim | Somente em portfólios híbridos<br><br>As metas da estratégia de oferta são definidas no nível da campanha, juntamente com os orçamentos dela. | Dados no nível da campanha<br><br>Os dados para listar grupos não estão disponíveis e a rede de anúncios não fornece dados no nível do anúncio. | Dados do Analytics para pesquisa, redes sociais e comércio<br><br>Dados de nível de campanha, desde Pesquisa, Social e Comércio até o Analytics. Requer o atualizado [código de rastreamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |

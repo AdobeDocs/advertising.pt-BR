@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] configurações de palavra-chave"
 description: Referenciar as configurações de [!DNL Yahoo! Japan Ads] palavras-chave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
 >* Yahoo! As palavras-chave do Japão e os tipos de correspondência são mutáveis, o que significa que você pode editá-los sem excluir a palavra-chave existente.
 
-
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 ## Espaços reservados
 
-**[!UICONTROL Param1]:** A string a ser usada como o valor de substituição se o URL base ou o modelo de rastreamento contiver o `{param1}` [parâmetro personalizado](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** A string a ser usada como o valor de substituição se o URL base ou o modelo de rastreamento contiver o `{param1}` [parâmetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** A string a ser usada como o valor de substituição se o URL base ou o modelo de rastreamento contiver o `{param2}` [parâmetro personalizado](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** A string a ser usada como o valor de substituição se o URL base ou o modelo de rastreamento contiver o `{param2}` [parâmetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## Opções de URL
 
@@ -49,4 +48,3 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >[!MORELIKETHIS]
 >
 >* [Gerenciar palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

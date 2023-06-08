@@ -1,9 +1,9 @@
 ---
 title: Gerenciar [!DNL Google Ads] disposições
 description: Saiba como criar e gerenciar posicionamentos licitáveis para [!DNL Google Ads] grupos de publicidade.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Você pode criar e editar disposições para grupos de anúncios em [tipos de ca
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Sites da rede de conteúdo nos quais seu anúncio pode aparecer. Insira um URL válido, como www.example.com, example.com ou www.example.com/shoes/kids. Para especificar várias cadeias de caracteres, separe-as com vírgulas ou insira-as em linhas separadas.O URL não pode incluir um ponto de interrogação (`?`). **Nota:** Você pode [excluir posicionamentos de sites](placement-negative-create.md) do [!UICONTROL Placements] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
+**[!UICONTROL Placements]:** Sites da rede de conteúdo nos quais seu anúncio pode aparecer. Insira um URL válido, como www.example.com, example.com ou www.example.com/shoes/kids. Para especificar várias cadeias de caracteres, separe-as com vírgulas ou insira-as em linhas separadas. O URL não pode incluir um ponto de interrogação (`?`). **Nota:** Você pode [excluir posicionamentos de sites](placement-negative-create.md) do [!UICONTROL Placements] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
 
 **[!UICONTROL Status]:** O status de exibição do posicionamento: *Ativo* (para permitir lances; o padrão), *Pausado* (para desativar licitação) ou *Excluído* (para excluir a disposição; somente disposições existentes).
 
@@ -88,4 +88,3 @@ Você pode criar e editar disposições para grupos de anúncios em [tipos de ca
 >* [Sobre posicionamentos](placement-about.md)
 >* [Criar posicionamentos negativos](placement-negative-create.md)
 >* [Alterar o status de disposições e disposições negativas](placement-status-edit.md)
-

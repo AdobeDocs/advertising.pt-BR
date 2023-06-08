@@ -1,9 +1,9 @@
 ---
 title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
 
    1. No **[!UICONTROL Account Details]** insira os detalhes da conta.
 
-      Para redes de anúncios que usam o tipo de autorização de logon &quot;[!UICONTROL oAuth],&quot; permitir que o Search, Social e Commerce acessem a conta usando o [Protocolo de autorização OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      Para redes de anúncios que usam o tipo de autorização de logon &quot;[!UICONTROL oAuth],&quot; permitir que o Search, Social e Commerce acessem a conta usando o [Protocolo de autorização OAuth](https://oauth.net/2/):
 
       1. Insira o **[!UICONTROL Login]** para a conta, opcionalmente informe a senha e, em seguida, clique em **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
       1. Copie a string de autenticação na janela pop-up que é aberta e cole a string na **[!UICONTROL oAuth Token]** campo.
 
       1. Especifique os detalhes restantes da conta.
-   1. Clique em **[!UICONTROL Set Account Tracking]** e insira as configurações de rastreamento.
 
+   1. Clique em **[!UICONTROL Set Account Tracking]** e insira as configurações de rastreamento.
 
 1. Clique em **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Se as credenciais da conta forem alteradas, você desejará alterar os parâmetr
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-Se as opções Pesquisar, Social e Comércio acessarem a conta usando o [Protocolo de autorização OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) e as credenciais da conta forem alteradas, ou se for necessário acesso adicional para oferecer suporte a novos recursos no Search, Social e Commerce, você deverá obter um novo token de acesso para a conta.
+Se as opções Pesquisar, Social e Comércio acessarem a conta usando o [Protocolo de autorização OAuth](https://oauth.net/2/) e as credenciais da conta forem alteradas, ou se for necessário acesso adicional para oferecer suporte a novos recursos no Search, Social e Commerce, você deverá obter um novo token de acesso para a conta.
 
 Sua equipe de conta do Adobe informará se novos recursos exigirem um novo token.
 
@@ -146,7 +146,7 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
 **[!UICONTROL Login Details]: \[Tipo de logon\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] somente) Se autorizar logons na conta usando:
 
-* *[!UICONTROL oAuth]* (o padrão): Para usar a variável [[!DNL OAuth] protocolo de autorização](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (o padrão): Para usar a variável [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Para usar a senha do cliente.
 
@@ -154,7 +154,7 @@ Para [!DNL Microsoft Advertising] contas, somente [!DNL oAuth]logons autorizados
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Todas as redes de publicidade, exceto [!DNL Naver]) O nome de logon ou a ID para habilitar o acesso da API à conta.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-habilitado e todas as outras redes, exceto para [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) O token da conta para autorizar logons usando o [[!DNL OAuth] protocolo de autorização](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-habilitado e todas as outras redes, exceto para [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) O token da conta para autorizar logons usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas as redes de publicidade, exceto [!DNL Naver]) A senha da conta. Para contas habilitadas com senha em [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], esse campo é obrigatório. Para [!DNL oAuth]Contas habilitadas para, esse campo é opcional; use-o quando desejar criptografar e salvar a senha para que o gerente de conta possa atualizar tokens conforme necessário.
 
@@ -172,7 +172,6 @@ As contas que usam o rastreamento de cliques de publicidade do Adobe devem inclu
 >
 >* Este campo não é atualizado pelo [!UICONTROL Auto Upload] configuração de rastreamento.
 >* Os sufixos de URL finais nos níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor da rede de anúncios.
-
 
 **Fuso Horário:** (Todas as redes de anúncios, exceto [!DNL Baidu] e [!DNL Yahoo! Display Network]) O fuso horário do anunciante. Este campo é editável e opcional para novos [!DNL Naver] contas. Para todas as outras redes de pesquisa, o valor é preenchido automaticamente com o fuso horário configurado para a conta de Pesquisa, Social e Comércio do anunciante depois de salvar o registro.
 
@@ -200,7 +199,6 @@ As contas que usam o rastreamento de cliques de publicidade do Adobe devem inclu
 >* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que permitem o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 >* O modelo de rastreamento no nível mais granular substitui os valores em todos os níveis superiores. Por exemplo, se as configurações da conta e as configurações de palavra-chave incluírem um valor, o valor da palavra-chave será aplicado.
 >* Se você atualizar um modelo de rastreamento no nível de anúncio, link do site ou palavra-chave, os anúncios relevantes serão reenviados para revisão. É possível atualizar os modelos de rastreamento nos níveis de conta, campanha ou grupo de anúncios sem reenviar os anúncios para aprovação.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] contas somente) A ID de uma conta de agência/gerenciamento associada à conta.
 
@@ -259,4 +257,3 @@ Para que os dados sejam exibidos nos conjuntos de relatórios, (a) o s\_kwcid do
 >* [Sobre contas de rede de publicidade](ad-network-account-about.md)
 >* [Gerenciar contas do centro de comércio](merchant-account-manage.md)
 >* [Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account](update-skwcid-google.md)
-

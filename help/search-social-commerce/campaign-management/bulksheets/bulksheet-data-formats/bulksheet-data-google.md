@@ -1,10 +1,10 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
+source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
 workflow-type: tm+mt
-source-wordcount: '6630'
-ht-degree: 0%
+source-wordcount: '8631'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,14 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Método de entrega | <p>A rapidez com que os anúncios da campanha são mostrados todos os dias:</p><ul><li><p><i>Padrão (distribuído)</i> (o padrão para novas campanhas): para espalhar suas impressões de anúncio ao longo do dia.</p></li><li><p><i>Acelerado:</i> (Obsoleto em outubro de 2019) Exibir seus anúncios com a maior frequência possível até que seu orçamento seja atingido. Como resultado, seus anúncios podem não aparecer no final do dia.</p></li></ul> |
 | Tipo de canal | <p>Os canais nos quais colocar anúncios. Especifique uma ou mais opções:</p><ul><li class="p"><p><span style="font-style: italic;"><i>Pesquisar</i></span> (o padrão para novas campanhas): colocar anúncios na rede de pesquisa do Google (incluindo os sites de parceiros de pesquisa do Google e do Google) e, opcionalmente, também na rede de exibição do Google. <b>Nota:</b> Campanhas direcionadas à rede de pesquisa e à rede de exibição não podem ser adicionadas a um portfólio para otimização de oferta.</p></li><li class="p"><p><span style="font-style: italic;"><i>Exibir</i></span>: para colocar anúncios somente na rede de exibição do Google.</p></li><li class="p"><p><span style="font-style: italic;"><i>Compras</i></span>: para colocar anúncios de compras no Google Shopping (em países selecionados) e na rede de pesquisa da Google (incluindo a pesquisa da Google e os sites de parceiros de pesquisa da Google). Para criar anúncios de compras, você deve ter produtos em uma conta do Google Merchant Center e [permitir que o Search, Social e Commerce baixem dados da conta](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; para obter mais informações sobre o processo de criação de anúncios de compras.</p></li></ul> |
 | Redes | <p>Onde colocar os anúncios. Especifique uma ou mais opções:</p><ul><li class="p"><p><span style="font-style: italic;"><i>Pesquisa no Google</i></span>: listas de pesquisa patrocinadas somente na Google Search Network.</p></li><li class="p"><p><span style="font-style: italic;"><i>Procurar Parceiros</i></span>: listagens de pesquisa patrocinadas em parceiros de pesquisa da Google.</p></li><li class="p"><p><span style="font-style: italic;"><i>Conteúdo</i></span>: Para colocar ofertas para exibir listagens de rede.</p></li><li class="p"><p><span style="font-style: italic;"><i>Todos</i></span> (o padrão para novas campanhas): Segmenta a pesquisa do Google, Pesquisar parceiros e Conteúdo.</p></li></ul> |
-| Nome de domínio DSA | <p>(Somente Rede de pesquisa; aplicável somente a anúncios de pesquisa dinâmica expandidos) O domínio raiz (como example.com) ou subdomínio (como shoes.example.com) do site cujo conteúdo a rede de publicidade usará para direcionar seus anúncios de pesquisa dinâmica.<br><br><b>Notas:</b></p><ul><li><p>A Pesquisa dinâmica expandida anuncia o conteúdo do site de destino em vez de palavras-chave.</p></li><li><p>Seu domínio deve ser indexado pelo índice de pesquisa orgânica da rede de publicidade para ser direcionado.</p></li><li><p>Se você não especificar um domínio, precisará criar destinos de pesquisa dinâmica, que direcionem todas as páginas do seu site ou um subconjunto delas, para cada grupo de anúncios.</p></li></ul> |
+| Nome de domínio DSA | <p>(Somente Rede de pesquisa; aplicável somente a anúncios de pesquisa dinâmica expandidos) O domínio raiz (como example.com) ou subdomínio (como shoes.example.com) do site cujo conteúdo a rede de publicidade usa para direcionar seus anúncios de pesquisa dinâmica.<br><br><b>Notas:</b></p><ul><li><p>A Pesquisa dinâmica expandida anuncia o conteúdo do site de destino em vez de palavras-chave.</p></li><li><p>Seu domínio deve ser indexado pelo índice de pesquisa orgânica da rede de publicidade para ser direcionado.</p></li><li><p>Se você não especificar um domínio, deverá criar destinos de pesquisa dinâmica, que direcionem todas as páginas do seu site ou um subconjunto delas, para cada grupo de anúncios.</p></li></ul> |
 | Idioma do domínio DSA | (Somente rede de pesquisa; aplicável somente a anúncios de pesquisa dinâmica expandidos) O idioma para o domínio do site especificado. <b>Nota:</b> Se o domínio contiver páginas em vários idiomas e você quiser direcionar todas elas, crie uma campanha separada para cada idioma. |
 | Nível de Oferta Personalizada GDN | (Campanhas direcionadas somente à rede de exibição) Como oferecer: por <span style="font-style: italic;"><i>Grupo de publicidade</i></span> (o padrão), <span style="font-style: italic;"><i>Palavra-chave</i></span>, <span style="font-style: italic;"><i>Posicionamento</i></span> (site), ou <span style="font-style: italic;"><i>Nenhum</i></span> (para redefinir o valor existente). Outras dimensões (<span style="font-style: italic;"><i>Idade</i></span>, <span style="font-style: italic;"><i>Sexo</i></span>, <span style="font-style: italic;"><i>Interesse e lista</i></span>, <span style="font-style: italic;"><i>Tópico</i></span>, e <span style="font-style: italic;"><i>Vertical</i></span>) estão disponíveis na interface do Google Ads. Se você tiver usado a interface do Google Ads para configurar ofertas por outra dimensão, esse valor será exibido, mas não será possível selecionar ou inserir essas dimensões aqui.</p><p><b>Nota:</b></p><ul><li><p>Ao fazer uma oferta por palavra-chave, crie modelos de rastreamento no nível da palavra-chave. Da mesma forma, ao fazer uma oferta por posicionamento, crie modelos de rastreamento no nível de posicionamento. Para todas as outras dimensões, crie modelos de rastreamento no nível do anúncio.</p></li><li><p>Quando você faz uma oferta por uma dimensão não compatível (Idade, Gênero, Interesse e Lista ou Tópico), o Search, Social e Commerce não otimiza ofertas para a dimensão e todas as atribuições são aplicadas ao grupo de anúncios.</p></li><li><p>Anúncios na rede de pesquisa sempre usam ofertas de palavra-chave.</p></li></ul> |
 | Prioridade de campanha | <p>(Somente campanhas de compras) A prioridade com a qual a campanha é usada quando várias campanhas anunciam o mesmo produto:  <span style="font-style: italic;"><i>Baixa</i></span> (o padrão para novas campanhas), <span style="font-style: italic;"><i>Medium</i></span>ou <span style="font-style: italic;"><i>Alta</i></span>.</p><p>Quando o mesmo produto é incluído em mais de uma campanha, a rede de publicidade usa a prioridade de campanha primeiro para determinar qual campanha (e ofertas associadas) está qualificada para o leilão de anúncios. Quando todas as campanhas têm a mesma prioridade, a campanha com a maior oferta é qualificada. |
 | ID do comerciante | (Campanhas de compras e campanhas de público vinculadas somente a um feed de comerciante) A ID do cliente da conta do comerciante cujos produtos são usados para a campanha. |  |
 | País de Vendas | (Somente campanhas de compras; somente leitura para campanhas existentes) O país no qual os produtos da campanha são vendidos. Como os produtos são associados aos países de destino, essa configuração determina quais produtos são anunciados na campanha. |
 | Filtro de escopo do produto | (Campanhas que usam somente a rede de compras da Google) Os produtos em sua conta do Google Merchant Center para os quais anúncios de compras podem ser criados para a campanha. É possível inserir até sete dimensões de produto e combinações de atributo nas quais filtrar seus produtos, usando o formato dimension=attribute. Separe vários filtros com um delimitador &quot;>&quot;. Para obter uma lista de dimensões de produto disponíveis, consulte &quot;[Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;</p><p>Exemplo: &quot;CategoriaL1=animais>>CategoriaL2=suprimentos para animais de estimação>>Marca=Suprimentos para animais de estimação da Acme&quot;</p><p>Para excluir os valores existentes, use o valor <span class="Code">[excluir]</span> (incluindo os colchetes).</p> |
-| Idiomas | <p>(Somente redes Search e Display) Os idiomas de destino dos anúncios na campanha.</p><p>Se você não inserir um valor para esse campo ou para o campo Direcionamento geográfico para uma nova campanha, a moeda especificada para a conta determinará os idiomas padrão, exceto que campanhas com moedas que não estão mapeadas para idiomas específicos (por exemplo, EUR) serão direcionadas para todos os idiomas. Se você não inserir um valor para esse campo, mas inserir um valor no campo Direcionamento geográfico para uma nova campanha, o padrão será <span style="font-style: italic;"><i>Todos</i></span>. Se você deixar esse campo em branco para uma campanha existente, o valor existente será retido.</p><p>Para direcionar todos os idiomas, informe <span style="font-style: italic;"><i>Todos</i></span>. Para direcionar idiomas específicos, insira valores separados por ponto e vírgula usando <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">Nomes de idiomas da Google</a> (como <span style="font-style: italic;"><i>Inglês;Japonês</i></span>, que serão substituídos pelos códigos numéricos corretos) ou códigos numéricos (como <span style="font-style: italic;"><i>1000;1005</i></span>). Os valores não diferenciam maiúsculas de minúsculas.</p> |
+| Idiomas | <p>(Somente redes Search e Display) Os idiomas de destino dos anúncios na campanha.</p><p>Se você não inserir um valor para esse campo ou para o campo Direcionamento geográfico para uma nova campanha, a moeda especificada para a conta determinará os idiomas padrão, exceto que campanhas com moedas que não são mapeadas para idiomas específicos (por exemplo, EUR) são direcionadas para todos os idiomas. Se você não inserir um valor para esse campo, mas inserir um valor no campo Direcionamento geográfico para uma nova campanha, o padrão será <span style="font-style: italic;"><i>Todos</i></span>. Se você deixar esse campo em branco para uma campanha existente, o valor existente será retido.</p><p>Para direcionar todos os idiomas, informe <span style="font-style: italic;"><i>Todos</i></span>. Para direcionar idiomas específicos, insira valores separados por ponto e vírgula usando <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">Nomes de idiomas da Google</a> (como <span style="font-style: italic;"><i>Inglês;Japonês</i></span>, que serão substituídos pelos códigos numéricos corretos) ou códigos numéricos (como <span style="font-style: italic;"><i>1000;1005</i></span>). Os valores não diferenciam maiúsculas de minúsculas.</p> |
 | Localização | Uma localização geográfica na qual colocar anúncios, ou para a qual excluir anúncios, para a campanha. Se você não inserir valores para esse campo ou para o campo Languages para uma nova campanha, a moeda especificada para a conta determinará os locais padrão, exceto que campanhas com moedas que não estão mapeadas para locais específicos (por exemplo, EUR) serão direcionadas para todos os locais. Se você não inserir um valor para este campo, mas inserir um valor na variável [!UICONTROL Languages] para uma nova campanha, em seguida, o padrão é <i>Todos</i>. Se você deixar esse campo em branco para uma campanha existente, o valor existente será retido.</p><p>Para selecionar um local específico, use um dos [Nomes de localização da Google](https://developers.google.com/adwords/api/docs/appendix/geotargeting) (que são substituídos pelo código numérico correto) ou códigos de localização:</p><ul><li><p>Países/territórios: Informe os nomes do país/território (como <span style="font-style: italic;"><i>Estados Unidos;Japão</i></span>) ou os códigos numéricos (como <span style="font-style: italic;"><i>2840;2392</i></span>).</p></li><li><p>Estados/províncias/regiões: insira os nomes de estado/província/região com as abreviações de país/território relacionadas (como <span style="font-style: italic;"><i>Tóquio, JP;Nova York, EUA</i></span>) ou os códigos numéricos (como <span style="font-style: italic;"><i>20636;21167</i></span>).</p></li><li><p>Cidades fora dos EUA: insira o nome da cidade, o nome do estado/província/região e as abreviações de país/território (como <span style="font-style: italic;"><i>Adachi, Tóquio, JP;Kita, Tóquio, JP</i></span>) ou os códigos numéricos (como <span style="font-style: italic;"><i>1028850;1009293</i></span>)</p></li><li><p>Áreas metropolitanas dos EUA: insira nomes de cidades, nomes de estados e abreviações de países (como <span style="font-style: italic;"><i>Buffalo de Nova York, EUA;New York de Nova York, EUA</i></span>) ou os códigos numéricos (como <span style="font-style: italic;"><i>514;501</i></span>).</p></li></ul><p>Para excluir um local, coloque um sinal de menos (-) antes do nome ou código do local, como <span style="font-style: italic;"><i>-Japão</i></span>.</p><p><b>Nota:</b> Os valores não diferenciam maiúsculas de minúsculas.</p> |
 | Tipo de localização | (Quando você inclui um Local) A variável [tipo de localização](https://developers.google.com/google-ads/api/data/geotargets). |
 | Dispositivo | Um tipo de dispositivo para o qual são feitos ajustes de oferta no nível da campanha ou do grupo de anúncios: <i>smartphone</i>, <i>tablet</i>ou <i>desktop</i>. |
@@ -45,7 +45,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Operadoras De Celular (Google Adwords) | <p>(Somente tipos de campanha herdados; aplicável quando os destinos de dispositivo incluem &quot;Todos&quot; ou &quot;Smartphones&quot;) Operadoras de celular às quais os smartphones podem estar conectados: <span style="font-style: italic;"><i>Todos</i></span>ou um ou mais transportadores indicados por &lt;c span=&quot;&quot; id=&quot;2&quot; translate=&quot;no&quot; />código da transportadora</i></span>>,&lt;<span style="font-style: italic;"><i>código do país</i></span>> (como T-Mobile, EUA) usando a lista de <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">operadoras e códigos disponíveis para o Google Ads</a>. <span style="font-style: italic;"><i> Separe várias operadoras com ponto e vírgula (como T-Mobile, EUA;T-Mobile, GB). Para novas campanhas, o padrão é <span style="font-style: italic;"><i>Todos</i></span>.</p> |
 | Nome do grupo de anúncios | <p>O nome exclusivo que identifica um grupo de anúncios. O comprimento máximo é de 255 caracteres; caracteres em branco à direita não são salvos (por exemplo, &quot;Grupo de anúncios 1 &quot; é salvo como &quot;Grupo de anúncios 1&quot;). Este campo não se aplica a sitelinks no nível da campanha ou destinos de dispositivo no nível da campanha.</p> |
 | Tipo de grupo de anúncios | <p>O tipo de grupo de publicidade: <span class="Option">Descoberta</span> (somente para campanhas de descoberta), <span class="Option">Exibir</span> (para campanhas de exibição), <span class="Option">Dinâmica de pesquisa</span> (para anúncios de pesquisa dinâmica expandidos), <span class="Option">Search Standard</span> (para pesquisar anúncios), <span class="Option">Produto de Compras</span> (para anúncios de produtos de compras), <span class="Option">Exibição de Compras</span> (criação e edição não suportadas) ou <span class="Option">Desconhecido</span>.</p> |
-| CPC máximo | <p>(Somente campanhas CPC) O custo máximo por clique (CPC), que é a quantidade mais alta que você pagará por um clique de anúncio na rede de anúncios, com ou sem símbolos e pontuação monetários. Você pode definir valores para grupos de anúncios e palavras-chave, grupos de produtos e alvos de pesquisa dinâmica. O padrão para uma nova palavra-chave é herdada do nível do grupo de anúncios. Para grupos de produtos, é possível definir valores para a camada mais baixa do grupo de produtos; o padrão para uma nova camada é herdado da camada principal.</p><p>Para grupos de produtos existentes e alvos de pesquisa dinâmica em portfólios otimizados, as atualizações são eficazes por apenas um dia e são substituídas durante o próximo ciclo de otimização.</p><p><b>Nota:</b> Para inserções, use o campo Inserção máxima CPC.</p> |
+| CPC máximo | <p>(Somente campanhas CPC) O custo máximo por clique (CPC), que é a quantidade mais alta a ser paga por um clique de anúncio na rede de anúncios, com ou sem símbolos monetários e pontuação. Você pode definir valores para grupos de anúncios e palavras-chave, grupos de produtos e alvos de pesquisa dinâmica. O padrão para uma nova palavra-chave é herdada do nível do grupo de anúncios. Para grupos de produtos, é possível definir valores para a camada mais baixa do grupo de produtos; o padrão para uma nova camada é herdado da camada principal.</p><p>Para grupos de produtos existentes e alvos de pesquisa dinâmica em portfólios otimizados, as atualizações são eficazes por apenas um dia e são substituídas durante o próximo ciclo de otimização.</p><p><b>Nota:</b> Para inserções, use o campo Inserção máxima CPC.</p> |
 | CPC de conteúdo máximo | <p>(Somente campanhas CPC) O custo máximo de conteúdo por clique (CPC), que é a quantidade mais alta a ser paga por um clique de anúncio em um site da rede de exibição, com ou sem símbolos e pontuação monetários. Você pode definir e editar valores no nível do grupo de anúncios em campanhas que não são direcionadas para posicionamento.</p> |
 | Método de direcionamento de público | <p>(Campanhas somente na rede de pesquisa e campanhas do Gmail existentes somente leitura na rede de exibição) Se:</p><ul><li><p><span style="font-style: italic;"><i>Target e lance</i></span>: para mostrar anúncios somente a usuários associados a públicos-alvo que também satisfaçam a quaisquer outros alvos para o grupo de anúncios.</p></li><li><p><span style="font-style: italic;"><i>Lance apenas</i></span>: para mostrar anúncios até mesmo a pessoas que não estão associadas a públicos-alvo, desde que satisfaçam a outros alvos de nível de grupo de anúncios.</p><p>No entanto, você pode aumentar as chances de os anúncios serem exibidos para públicos-alvo específicos, definindo ofertas mais altas para esses públicos-alvo.</p></li></ul> |
 | Palavra-chave | A sequência de palavras-chave. O comprimento máximo é de 80 caracteres e não mais de 10 palavras, e pode incluir apenas letras, dígitos e os seguintes caracteres especiais: espaço `# $ & _ - " [ ] ' + . / :`</p><p><b>Nota:</b></p><ul><li><p>Para excluir uma palavra-chave no nível do grupo de anúncios ou da campanha, defina o Tipo de correspondência como <span style="font-style: italic;"><i>Negativo</i></span>. Se a linha incluir o nome do grupo de anúncios, a palavra-chave será excluída do grupo de anúncios. Se a linha não incluir o nome do grupo de anúncios, a palavra-chave será excluída para toda a campanha.</p></li><li><p>Alterar uma palavra-chave do Google Ads ou um tipo de correspondência exclui a palavra-chave existente e cria uma nova.</p></li></ul> |
@@ -58,16 +58,16 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Lance da primeira página | (Incluído em bulksheets gerados para fins de informação) A oferta necessária para colocar um anúncio na primeira página dos resultados da pesquisa. Este valor não é postado na rede de publicidade. |
 | Pontuação de qualidade | (Incluída em bulksheets gerados para fins de informação) A pontuação de qualidade atual que o mecanismo de pesquisa atribuiu à palavra-chave. Este valor não é publicado na rede de publicidade.) |
 | Creative Preferred Devices | (Anúncios de texto, anúncios de pesquisa dinâmicos expandidos e sitelinks aprimorados; opcional) Os tipos de dispositivo nos quais você prefere exibir o anúncio: <span style="font-style: italic;"><i>Todos</i></span> (o padrão) ou <i>Dispositivo móvel</i>. Quando <i>Dispositivo móvel</i> for especificada, a rede tentará exibir o anúncio para usuários de dispositivos móveis, em vez de usuários de desktop ou tablet. Caso contrário, a rede exibirá o anúncio em qualquer tipo de dispositivo.</p><p><b>Nota:</b></p><ul><li><p>Somente administrador e [!DNL Adobe] os usuários do gerente de conta podem editar essa configuração.</p></li><li><p>A rede não garante que exibirá o anúncio no tipo de dispositivo preferido.</p></li><li><p>Os novos sitelinks aprimorados podem ser criados apenas em campanhas com sitelinks aprimorados existentes ou sem sitelinks.</p></li></ul> |
-| Título do anúncio, Título do anúncio 2-15 | (Somente anúncios de texto expandidos e anúncios de pesquisa responsivos) Os títulos de um anúncio, cada um separado por uma barra vertical ( | ). O comprimento máximo para cada campo de título de anúncio é de 30 caracteres ou 15 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, são obrigatórios Título do anúncio, Título do anúncio 2 e Título do anúncio 3, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor [excluir]</code> (incluindo os colchetes).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando os seguintes formatos:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising: `{CUSTOMIZER.Attribute name:default text}`, como `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022. |
-| Posição do título de anúncio 1-15 | <p>(Somente anúncios de pesquisa responsivos; opcional) uma posição na qual fixar o título do anúncio correspondente: `[null]` (sem valor, o que torna o título do anúncio qualificado para todas as posições), <i>1</i>, <i>2</i>ou <i>3</i>. Por exemplo, se a Posição do título do anúncio tiver um valor de 1, o Título do anúncio aparecerá somente na Posição 1. Por padrão, todos os títulos de anúncios são nulos (sem valores).</p><p>Para excluir o valor existente, use o valor [excluir]</code> (incluindo os colchetes).</p><p><b>Nota:</b> Você pode fixar vários títulos de anúncios na mesma posição. A rede de anúncios usará um dos títulos de anúncios fixados na posição. Os títulos fixados na posição 3 podem não ser mostrados com o anúncio.</p> |
-| Descrição - Linhas 1-4 | <p>(Anúncios de pesquisa dinâmicos expandidos, anúncios de texto expandidos e anúncios de pesquisa responsivos apenas) O corpo de um anúncio. O comprimento máximo para cada campo de descrição é de 90 caracteres ou 45 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando os seguintes formatos:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising: `{CUSTOMIZER.Attribute name:default text}`, como `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Para anúncios de pesquisa dinâmica expandidos, use apenas a Linha de Descrição 1 e a Linha de Descrição 2. <b>Nota:</b> Para esse tipo de anúncio, alterar a cópia do anúncio exclui o anúncio existente e cria um novo.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p><p>Para anúncios de pesquisa responsivos, a Linha de Descrição 1 e a Linha de Descrição 2 são obrigatórias, e a Linha de Descrição 3 e a Linha de Descrição 4 são opcionais. Para excluir o valor existente, use o valor [excluir]</code> (incluindo os colchetes).</p> |
-| Posição da linha de descrição 1-4 | (Somente anúncios de pesquisa responsivos; opcional) Uma posição na qual você deve fixar a descrição correspondente: `[null]` (sem valor, o que torna a descrição elegível para todas as posições), <i>1</i>, <i>2</i>ou <i>3</i>. Por exemplo, se a Descrição 1 Posição tiver um valor de 1, a Descrição 1 será exibida somente na Posição 1. Por padrão, nenhuma descrição é fixada a uma posição.</p><p>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes).</p><p><b>Nota:</b> É possível fixar várias descrições na mesma posição. A rede de publicidade usará uma das descrições fixadas na posição. As descrições fixadas na posição 2 podem não ser mostradas com o anúncio. |
+| Título do anúncio, Título do anúncio 2-15 | (Somente anúncios de texto expandidos e anúncios de pesquisa responsivos) Os títulos de um anúncio, cada um separado por uma barra vertical ( | ). O comprimento máximo para cada campo de título de anúncio é de 30 caracteres ou 15 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, são obrigatórios Título do anúncio, Título do anúncio 2 e Título do anúncio 3, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor <code>[excluir]</code> (incluindo os colchetes).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando os seguintes formatos:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Publicidade Microsoft®: `{CUSTOMIZER.Attribute name:default text}`, como `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022. |
+| Posição do título de anúncio 1-15 | <p>(Somente anúncios de pesquisa responsivos; opcional) uma posição na qual fixar o título do anúncio correspondente: `[null]` (sem valor, o que torna o título do anúncio qualificado para todas as posições), <i>1</i>, <i>2</i>ou <i>3</i>. Por exemplo, se a Posição do título do anúncio tiver um valor de 1, o Título do anúncio aparecerá somente na Posição 1. Por padrão, todos os títulos de anúncios são nulos (sem valores).</p><p>Para excluir o valor existente, use o valor <code>[excluir]</code> (incluindo os colchetes).</p><p><b>Nota:</b> Você pode fixar vários títulos de anúncios na mesma posição. A rede de anúncios usa um dos títulos de anúncios fixados na posição. Os títulos fixados na posição 3 podem não ser mostrados com o anúncio.</p> |
+| Descrição - Linhas 1-4 | <p>(Anúncios de pesquisa dinâmicos expandidos, anúncios de texto expandidos e anúncios de pesquisa responsivos apenas) O corpo de um anúncio. O comprimento máximo para cada campo de descrição é de 90 caracteres ou 45 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando os seguintes formatos:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Publicidade Microsoft®: `{CUSTOMIZER.Attribute name:default text}`, como `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Para anúncios de pesquisa dinâmica expandidos, use apenas a Linha de Descrição 1 e a Linha de Descrição 2. <b>Nota:</b> Para esse tipo de anúncio, alterar a cópia do anúncio exclui o anúncio existente e cria um novo.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p><p>Para anúncios de pesquisa responsivos, a Linha de Descrição 1 e a Linha de Descrição 2 são obrigatórias, e a Linha de Descrição 3 e a Linha de Descrição 4 são opcionais. Para excluir o valor existente, use o valor <code>[excluir]</code> (incluindo os colchetes).</p> |
+| Posição da linha de descrição 1-4 | (Somente anúncios de pesquisa responsivos; opcional) Uma posição na qual você deve fixar a descrição correspondente: `[null]` (sem valor, o que torna a descrição elegível para todas as posições), <i>1</i>, <i>2</i>ou <i>3</i>. Por exemplo, se a Descrição 1 Posição tiver um valor igual a 1, a Descrição 1 será exibida somente na Posição 1. Por padrão, nenhuma descrição é fixada a uma posição.</p><p>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes).</p><p><b>Nota:</b> É possível fixar várias descrições na mesma posição. A rede de anúncios usa uma das descrições fixadas na posição. As descrições fixadas na posição 2 podem não ser mostradas com o anúncio. |
 | Exibir URL | O URL incluído no anúncio.<br><br>Para anúncios de pesquisa dinâmica expandidos, o Google Ads gera esse valor dinamicamente a partir do domínio do site e você não precisa inserir um valor.<br><br>Para anúncios de pesquisa responsivos, não é necessário inserir um valor. O URL de exibição é extraído automaticamente do domínio no URL final. Opcionalmente, é possível personalizar o URL usando os campos Caminho 1 e Caminho 2.<br><br>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.<br><br><b>Nota:</b> (Contas com URLs finais) Os nomes de domínio no URL de exibição e no URL final devem corresponder.</p> |
-| Caminho de exibição 1 | <p>(Anúncios de texto expandidos<span> e anúncios de pesquisa responsivos</span> somente)</p><p>(Opcional) Texto adicionado ao URL de exibição que é extraído automaticamente do URL final. Ele é precedido no URL por uma barra (/). Um caminho não pode conter caracteres de barra (/) ou de nova linha (\n). O comprimento máximo é de 15 caracteres ou 7 caracteres de byte duplo.</p><p>Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não inclui um valor válido:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Microsoft Advertising: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>Por exemplo, se o Caminho de exibição 1 for &quot;ofertas&quot;, o URL de exibição será &lt;<i>exibir URL</i>>/offers, como www.example.com/deals.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p> |
-| Caminho de exibição 2 | Um caminho de exibição adicional; consulte a entrada para Caminho de Exibição 1.<br><br>Exemplo: se o Caminho de exibição 1 for &quot;ofertas&quot; e o Caminho de exibição 2 for &quot;local&quot;, o URL de exibição será &lt;<i>exibir URL</i>>/offers/local, como www.example.com/deals/local.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p> |
+| Caminho de exibição 1 | <p>(Anúncios de texto expandidos<span> e anúncios de pesquisa responsivos</span> somente)</p><p>(Opcional) Texto adicionado ao URL de exibição que é extraído automaticamente do URL final. Ele é precedido no URL por uma barra (/). Um caminho não pode conter caracteres de barra (/) ou de nova linha (\n). O comprimento máximo é de 15 caracteres ou 7 caracteres de byte duplo.</p><p>Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não inclui um valor válido:</p><ul><li><p>Anúncios do Google: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Publicidade Microsoft®: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>Por exemplo, se o Caminho de exibição 1 for &quot;ofertas&quot;, o URL de exibição será &lt;<i>exibir URL</i>>/offers, como www.example.com/deals.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p> |
+| Caminho de exibição 2 | Um segundo caminho de exibição; consulte a entrada para Caminho de Exibição 1.<br><br>Exemplo: se o Caminho de exibição 1 for &quot;ofertas&quot; e o Caminho de exibição 2 for &quot;local&quot;, o URL de exibição será &lt;<i>exibir URL</i>>/offers/local, como www.example.com/deals/local.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que o Google Ads descontinuou em junho de 2022.</p> |
 | Linha de promoção | (Somente anúncios de listagem de produtos do Google) Uma linha de promoção opcional a ser incluída na lista de produtos nos resultados da pesquisa. O comprimento máximo é de 45 caracteres.</p><p>A linha de promoção pode aparecer em locais diferentes relacionados ao anúncio (como abaixo do anúncio), dependendo de onde o anúncio aparece na página. |
 | Nome do link | <p>O texto do sitelink. Pode incluir até 25 caracteres.</p><p>Para novos sitelinks, você deve incluir o nome da campanha na linha do sitelink. Para sitelinks de nível de grupo de anúncios, você também deve incluir o nome do grupo de anúncios.</p><p><b>Nota:</b> O texto existente de 35 caracteres ainda é exibido em anúncios em desktops e tablets, mas não em dispositivos móveis.</p> |
-| Plataforma de aplicativo móvel (Google Adwords) | (Somente anúncios de instalação de aplicativo existentes) O sistema operacional no qual o aplicativo móvel é executado: <i>android</i> ou <i>ios</i>. |
+| Plataforma de aplicativo móvel (Google Adwords) | (Somente anúncios de instalação de aplicativo existentes) O sistema operacional no qual o aplicativo móvel é executado: <i>Android™</i> ou <i>ios</i>. |
 | ID do aplicativo móvel (Google Adwords) | (Somente anúncios de instalação de aplicativo existentes) <p>A ID do aplicativo ou o nome do pacote. |
 | Nome do aplicativo móvel (Google Adwords) | (Somente anúncios de instalação de aplicativo existentes) O nome do aplicativo. |
 | Data de início | <p>(Somente sitelinks aprimorados) A primeira data em que podem ser feitas ofertas para o sitelink, no fuso horário do anunciante e em um dos seguintes formatos: <span style="font-style: italic;"><i>d/m/aaaa</i></span>, <span style="font-style: italic;"><i>d/m/aa</i></span>, <span style="font-style: italic;"><i>d-m-aaaa</i></span>ou <span style="font-style: italic;"><i>d-m-aa</i></span>. O padrão para novos sitelinks aprimorados é o dia atual.</p><p><b>Nota:</b> Os novos sitelinks aprimorados podem ser criados apenas em campanhas com sitelinks aprimorados existentes ou sem sitelinks.</p> |
@@ -81,7 +81,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Tipo de criação | O formato do anúncio: <i>Anúncio de texto</i>, <i>Anúncio de texto expandido</i>, <i>Anúncio de pesquisa dinâmica</i> (tipo de anúncio obsoleto), <i>Anúncio expandido do Dynamic Search</i>, <i>Anúncio de exibição</i>, <i>Anúncio de instalação do aplicativo</i> (obsoleto), <i>Imagem</i> <i>Anúncio de produto</i> (anúncios de compras) ou <i>Anúncio de pesquisa responsivo</i>. O padrão para novos anúncios é <i>Anúncio de texto</i>.<br><br>Obrigatório para criar ou editar o status de um anúncio de produto. |
 | Param1 | <p>O valor numérico de `{param1}` parâmetro de publicidade, que pode ser incluído no texto da publicidade ou no URL de exibição de qualquer publicidade no arquivo de bulksheet. O comprimento máximo é de 25 caracteres e você pode incluir os seguintes caracteres não numéricos:</p><ul><li><p>O valor pode ser precedido ou anexado com um símbolo ou código de moeda. Por exemplo, `£2.000,00` e `2000GBP` são válidos.</p></li><li><p>O valor pode incluir uma vírgula (`,`) ou ponto (`.`) como separador, com um ponto opcional (`.`) ou vírgula (`,`) para valores fracionais. Por exemplo, `1,000.00` e `2.000,10` são válidos.</p></li><li><p>O valor pode receber um prefixo ou um sinal de porcentagem (`%`), sinal de mais (`+`) ou sinal de menos (`- `). Por exemplo, `20%`, `208+`, e `-42.32` são válidos.</p></li><li><p>Dois números podem ser incorporados com uma barra. Por exemplo, `4/1` e `0.95/0.45` são válidos.</p></li></ul><p>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes).</p> |
 | Param2 | O valor numérico de `{param2}` parâmetro de publicidade, que pode ser incluído no texto da publicidade ou no URL de exibição de qualquer publicidade no arquivo de bulksheet. Consulte a entrada para Param1 para obter mais informações. |
-| Público | A lista de remarketing para o público-alvo ou público-alvo excluído da campanha ou do grupo de publicidade. Você especificará se é um target ou uma exclusão no campo &quot;Target Type&quot;. |
+| Público | A lista de remarketing para o público-alvo ou público-alvo excluído da campanha ou do grupo de publicidade. Especifique se é um target ou uma exclusão no campo &quot;Target Type&quot;. |
 | Tipo de destino | (Quando um Público-alvo é especificado) Se o público-alvo especificado é um <i>Inclusão</i> (target) ou <i>Exclusão</i>. |
 | Status da campanha | O status de exibição da campanha: <i>Ativo</i>, <i>Pausado</i>, <i>Terminado</i> (não editável) ou <i>Excluído</i> (somente campanhas existentes). O padrão para novas campanhas é <i>Ativo</i>. Para excluir uma campanha ativa ou pausada, insira o valor <i>Excluído</i>. |
 | Status do grupo de anúncios | O status de exibição do grupo de anúncios: <i>Ativo</i>, <i>Pausado</i>ou <i>Excluído</i> (somente grupos de anúncios existentes). O padrão para novos grupos de anúncios é Ativo. Para excluir um grupo de anúncios ativo ou pausado, digite o valor `Deleted`. |
@@ -99,7 +99,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | ID da campanha | A ID exclusiva que identifica uma campanha existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. |
 | ID do grupo de anúncios | O identificador exclusivo que identifica um grupo de anúncios existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para o grupo de publicidade. |
 | ID de palavra-chave | A ID exclusiva que identifica uma palavra-chave existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Obrigatório somente ao alterar a palavra-chave, a menos que a linha inclua a) colunas de propriedade suficientes para identificar a palavra-chave ou b) uma &quot;ID AMO&quot;. |
-| ID do anúncio | <p>A ID exclusiva que identifica um anúncio existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Para anúncios de pesquisa responsivos, a ID do anúncio ou a ID do AMO é necessária para editar ou excluir dados de anúncios. Para todos os outros tipos de entidade, a ID do AMO é necessária somente quando você altera o status do anúncio, a menos que a linha inclua a) colunas de propriedade de anúncio suficientes para identificar o anúncio ou b) uma &quot;ID do AMO&quot;. No entanto, se você não incluir a ID do anúncio nem a ID AMO e as colunas de propriedade do anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado.</p><p><b>Nota:</b> Se você editar a) as colunas de propriedade do anúncio, exceto o Status de um anúncio existente, ou b) os dados de um anúncio de pesquisa responsivo e não incluir a ID do anúncio nem a ID AMO, um novo anúncio será criado e o anúncio existente não será alterado.</p> |
+| ID do anúncio | <p>A ID exclusiva que identifica um anúncio existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Para anúncios de pesquisa responsivos, a ID do anúncio ou a ID do AMO é necessária para editar ou excluir dados de anúncios. Para todos os outros tipos de entidade, a ID do anúncio é necessária somente quando você altera o status do anúncio, a menos que a linha inclua a) colunas de propriedade do anúncio suficientes para identificar o anúncio ou b) uma &quot;ID do AMO&quot;. No entanto, se você não incluir a ID do anúncio nem a ID AMO e as colunas de propriedade do anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado.</p><p><b>Nota:</b> Se você editar a) as colunas de propriedade do anúncio, exceto o Status de um anúncio existente, ou b) os dados de um anúncio de pesquisa responsivo e não incluir a ID do anúncio nem a ID AMO, um novo anúncio será criado e o anúncio existente não será alterado.</p> |
 | ID de posicionamento | A ID exclusiva que identifica o posicionamento de um site. Obrigatório somente ao alterar ou excluir o posicionamento, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o posicionamento ou b) uma &quot;ID AMO&quot;. |
 | ID de destino | A ID exclusiva que identifica um direcionamento automático existente. Obrigatório somente quando você altera ou exclui o direcionamento automático, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
 | ID do grupo de produtos | A ID exclusiva que identifica um grupo de produtos existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Obrigatório somente quando você altera ou exclui o grupo de produtos, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o grupo de produtos ou b) uma &quot;ID AMO&quot;. |
@@ -143,7 +143,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | Restrições | Opcional |
 | ID da campanha | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. |
-| ID AMO | n/d: Criar<br><br>Obrigatório/Opcional: Editar ou excluir |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
 ### Campos de grupo de anúncios
 
@@ -162,82 +162,257 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Status do grupo de anúncios | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | Restrições | Opcional |
-| ID do grupo de anúncios | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para o grupo de publicidade. |
-| ID AMO | A ID do AMO é necessária para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+| ID do grupo de anúncios | Obrigatório somente ao alterar o nome do grupo de anúncios, a menos que a linha inclua uma &quot;ID do AMO&quot; para o grupo de anúncios. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
-<!-- 
+### Campos de palavra-chave
 
-### Keyword fields
-
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Ad Group Name | Required  |
-| Max CPC | Optional |
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
-Keyword Status
-
-| Field | Required? | Description |
+| Campo | Obrigatório? | Descrição |
 | ---- | ---- | ---- |
-| Base URL/Final URL |  |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| CPC máximo | Opcional |
+| Palavra-chave | Obrigatório |
+| Tipo de correspondência | Opcional: Criar<br><br>Obrigatório/Opcional: Editar ou excluir |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Opcional |
+| Parâmetro de URL personalizado | Opcional |
+| Param1 | Opcional |
+| Param2 | Opcional |
+| Status da palavra-chave | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID de palavra-chave | Obrigatório somente ao editar ou excluir a palavra-chave, a menos que a linha inclua a) colunas de propriedade suficientes para identificar a palavra-chave ou b) uma &quot;ID AMO&quot;. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
-### Placement fields
+### Campos de posicionamento
 
-
-### Text/Product listing fields
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Expanded dynamic search ad
-
-This ad type is now called "dynamic search ad" in [!DNL Google Ads].
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Responsive search ad fields 
-
-This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Dynamic search target (auto target) fields
-
-
-### Shopping product group fields
-
-
-### Campaign-level and ad group-level sitelink fields
-
-
-### Location target fields
-
-| Field | Required? ]
-| ---- | ---- |
-| Location | Required: Create or edit<br><br>Optional: Delete |
-| Location Type | Optional  |
-
-## Campaign-level and ad group-level device target fields
-
-| Field | Required? | Description |
+| Campo | Obrigatório? | Descrição |
 | ---- | ---- | ---- |
-| Device Target Status | Optional |
-| Device Target ID | Required only when you change or delete the target, unless the row includes an &quot;AMO ID&quot; for the target. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| CPC de posicionamento máximo (Google Adwords) | Opcional |
+| CPM de posicionamento máximo (Google Adwords) | Opcional |
+| Posicionamento | Obrigatório |
+| Tipo de correspondência | Obrigatório |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Opcional |
+| Parâmetro de URL personalizado | Opcional |
+| Status do posicionamento | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID de posicionamento | Obrigatório somente ao editar ou excluir o posicionamento, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o posicionamento ou b) uma &quot;ID AMO&quot;. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
+### Anúncio de pesquisa dinâmica expandido
 
-## Campaign-level and ad group-level RLSA target/exclusion fields
+Esse tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; no [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
 
--->
+Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| Creative Preferred Devices | Opcional |
+| Linha de descrição 1-2 | Obrigatório para criar um anúncio ou editar a descrição. <b>Nota:</b> Para esse tipo de anúncio, alterar a cópia do anúncio exclui o anúncio existente e cria um novo. |
+| Exibir URL | Obrigatório |
+| Modelo de rastreamento | Opcional |
+| Tipo de criação | Obrigatório para criar ou editar o status de um anúncio de produto. |
+| Status do anúncio | Obrigatório para excluir um anúncio. |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do anúncio | Obrigatório apenas quando você altera o status do anúncio, a menos que a linha inclua a) colunas de propriedade do anúncio suficientes para identificar o anúncio ou b) uma &quot;ID AMO&quot;. No entanto, se você não incluir a ID do anúncio nem a ID AMO e as colunas de propriedade do anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Lista de produtos/campos de anúncios de compras
+
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar campanhas de compras do Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+
+Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| Linha de promoção | Opcional |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Opcional |
+| Parâmetro de URL personalizado | Opcional |
+| Tipo de criação | Obrigatório para criar ou editar o status de um anúncio de produto. |
+| Status do anúncio | Obrigatório para excluir um anúncio. |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do anúncio | Obrigatório apenas quando você altera o status do anúncio, a menos que a linha inclua a) colunas de propriedade do anúncio suficientes para identificar o anúncio ou b) uma &quot;ID AMO&quot;. No entanto, se você não incluir a ID do anúncio nem a ID AMO e as colunas de propriedade do anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Campos de anúncio de pesquisa responsivos
+
+Para esse tipo de anúncio, use o &quot;[!UICONTROL Responsive Search Ad]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório | |
+| Título do anúncio, Título do anúncio 2-15 | Para anúncios de pesquisa responsivos, são obrigatórios Título do anúncio, Título do anúncio 2 e Título do anúncio 3, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor `[delete]` (incluindo os colchetes). |
+| Posição do título de anúncio 1-15 | Opcional |
+| Descrição - Linhas 1-4 | Para anúncios de pesquisa responsivos, a Linha de Descrição 1 e a Linha de Descrição 2 são obrigatórias, e a Linha de Descrição 3 e a Linha de Descrição 4 são opcionais. Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
+| Posição da linha de descrição 1-4 | Opcional |
+| Caminho de exibição 1 | Opcional |
+| Caminho de exibição 2 | Opcional |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Obrigatório para criar um anúncio. |
+| Parâmetro de URL personalizado | Opcional |
+| Tipo de criação | Opcional |
+| Status do anúncio | Obrigatório para excluir um anúncio. |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do anúncio | Obrigatório para editar ou excluir anúncios, a menos que a linha inclua uma &quot;ID do AMO&quot;. |
+| ID AMO | Obrigatório para editar ou excluir anúncios, a menos que você inclua a ID do anúncio. |
+
+### Campos de anúncio de texto
+
+Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
+
+>[!NOTE]
+>
+>Anúncios de texto expandidos foram descontinuados em junho de 2022. Só é possível excluir anúncios de texto existentes.
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| Creative Preferred Devices | Somente leitura |
+| Título do anúncio, Título do anúncio 2-3 | Somente leitura |
+| Linha de descrição 1-2 | Somente leitura |
+| Exibir URL | Somente leitura |
+| Caminho de exibição 1 | Somente leitura |
+| Caminho de exibição 2 | Somente leitura |
+| Modelo de rastreamento | Somente leitura |
+| URL base/URL final | Somente leitura |
+| Parâmetro de URL personalizado | Somente leitura |
+| Tipo de criação | Opcional |
+| Status do anúncio | Obrigatório |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do anúncio | Obrigatório apenas quando você altera o status do anúncio, a menos que a linha inclua a) colunas de propriedade do anúncio suficientes para identificar o anúncio ou b) uma &quot;ID AMO&quot;. No entanto, se você não incluir a ID do anúncio nem a ID AMO e as colunas de propriedade do anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Campos de destino da pesquisa dinâmica (direcionamento automático)
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| CPC máximo | Opcional |
+| Expressão automática de direcionamento | Obrigatório quando a configuração da campanha &quot;Usar o conteúdo do meu site para direcionar meus anúncios&quot; não está ativada; opcional em caso contrário. |
+| Tipo de correspondência | Opcional |
+| Status do Target | Obrigatório para excluir um público alvo |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID de destino | Obrigatório somente quando você altera ou exclui o direcionamento automático, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Campos de grupo de produtos de compras
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório |
+| CPC máximo | Obrigatório para criar um grupo de produtos. |
+| Agrupamentos de produto principal | Obrigatório |
+| Agrupamento de produto | Obrigatório |
+| Tipo de Partição | Obrigatório para criar um grupo de produtos. |
+| Tipo de correspondência | Opcional |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Obrigatório |
+| Status do grupo de produtos | Necessário apenas para excluir um grupo de produtos. |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do grupo de produtos | Obrigatório somente quando você altera ou exclui o grupo de produtos, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o grupo de produtos ou b) uma &quot;ID AMO&quot;. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Campos de sitelink no nível da campanha e do grupo de anúncios
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Nome do grupo de anúncios | Obrigatório para sitelinks de nível de grupo de anúncios. Não aplicável para sitelinks no nível da campanha. |
+| Creative Preferred Devices | Opcional |
+| Nome do link | Obrigatório |
+| Data de início | Opcional |
+| Data final | Opcional |
+| Modelo de rastreamento | Opcional |
+| URL base/URL final | Obrigatório |
+| Status do Sitelink | Necessário somente para excluir um sitelink. |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional |
+| ID do Sitelink | Obrigatório somente ao alterar ou excluir o sitelink, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o sitelink ou b) uma &quot;ID AMO&quot;. No entanto, se você não incluir a ID do anúncio do Sitelink nem a ID do AMO e as colunas de propriedade não corresponderem a vários sitelinks, o status de apenas um dos sitelinks será alterado.<br><br><b>Nota:</b> Se você editar as colunas de propriedade do sitelink, exceto o Status de um sitelink existente, e não incluir a ID do Sitelink nem a ID do AMO, um novo sitelink será criado e o sitelink existente não será alterado. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+### Campos de destino da localização
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Localização | Necessário para criar ou editar um destino de local. |
+| Tipo de localização | Opcional |
+| Ajuste do lance | Opcional |
+| Status do local | Necessário apenas para excluir um destino de local. |
+| ID da campanha | Opcional |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da campanha.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+## Campos de destino do dispositivo no nível da campanha e do grupo de anúncios
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Dispositivo | Necessário para criar ou editar um destino de dispositivo. |
+| Ajuste do lance | Opcional |
+| Nome do grupo de anúncios | Obrigatório para destinos de dispositivo de nível de grupo de anúncios. Não aplicável para alvos de dispositivo no nível da campanha. |
+| Status de destino do dispositivo | Necessário apenas para excluir um destino de dispositivo. |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional; aplicável somente para alvos de dispositivo de nível de grupo de anúncios. |
+| ID de destino do dispositivo | Obrigatório somente quando você altera ou exclui o destino, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID de destino do dispositivo.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
+
+## Campos de destino/exclusão RLSA no nível da campanha e do grupo de anúncios
+
+| Campo | Obrigatório? | Descrição |
+| ---- | ---- | ---- |
+| Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
+| Nome da campanha | Obrigatório |
+| Ajuste do lance | Opcional |
+| Nome do grupo de anúncios | Obrigatório para públicos-alvo e exclusões em nível de grupo de anúncios. Não aplicável para metas e exclusões no nível da campanha. |
+| Público | Necessário para criar um novo público-alvo ou exclusão. |
+| Tipo de destino | Necessário para criar um novo público-alvo ou exclusão. |
+| Status do RLSA Target | Necessário apenas para excluir um target ou exclusão. |
+| ID da campanha | Opcional |
+| ID do grupo de anúncios | Opcional; aplicável somente para exclusões e públicos-alvo no nível do grupo de anúncios. |
+| ID de Destino RLSA | Obrigatório somente quando você altera ou exclui o destino, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
+| ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID de Destino RLSA.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
 [^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 
@@ -249,4 +424,3 @@ This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Downloa
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
 >* [Formatos de rastreamento de cliques para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Fazer upload de um arquivo de bulksheet ou arquivo de erro corrigido](../bulksheet-upload.md)
-

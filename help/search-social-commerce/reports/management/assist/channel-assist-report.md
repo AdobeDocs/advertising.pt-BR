@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: Saiba mais sobre o [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Você pode exibir dados dos 18 meses anteriores.
 A seguir estão as colunas que estão disponíveis para cada relatório. As colunas padrão são incluídas automaticamente por padrão. Você pode adicionar as colunas personalizadas disponíveis na seção Colunas das configurações do relatório.
 
 | Coluna | Padrão? | Descrição |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] para [!UICONTROL 5th Event] | Padrão | Os cinco primeiros tipos de evento no caminho de conversão que ocorreram dentro do [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Padrão | O número de tipos de evento no caminho de conversão que ocorreram dentro do [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Padrão | O tipo do primeiro evento (mais antigo) no caminho de conversão. |
@@ -47,4 +47,3 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 >* [A variável [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Ajudar configurações do relatório](assist-report-settings.md)
 >* [Gerar um relatório de assistência](assist-report-generate.md)
-

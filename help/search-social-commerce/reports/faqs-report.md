@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre relatórios
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Você pode ver quais conversões resultaram de um clique em uma [!DNL Google Ads
 
 * Os links do site são listados como `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
-   Você também pode identificar um link de site se incluir a variável [!UICONTROL Tracking URL] no relatório. A variável [!UICONTROL Tracking URL] para um sitelink inclui o atributo `&ev_ltx=sl:<link-name>`.
+  Você também pode identificar um link de site se incluir a variável [!UICONTROL Tracking URL] no relatório. A variável [!UICONTROL Tracking URL] para um sitelink inclui o atributo `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Se você gerar um relatório várias vezes usando os mesmos parâmetros de relat
 
 * Os dados baseados em data de clique podem estar fora do intervalo de datas especificado.
 
-   Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
+  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
 
 * A seleção de filtro de portfólio exclui alguns dos eventos que levam à conversão.
 
-   Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar o &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
+  Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar o &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 +++A receita está ausente dos relatórios.
 
-### Anunciantes que usam tags de conversão do Adobe Advertising
+**Anunciantes que usam tags de conversão do Adobe Advertising**
 
-#### Possíveis causas
+*Possíveis causas:*
 
 * Palavras-chave ou anúncios foram adicionados sem prefixar o prefixo de rastreamento de cliques em Pesquisa, Social e Comércio aos modelos de rastreamento ou URLs de destino, ou o prefixo de rastreamento está incorreto.
 
@@ -164,7 +164,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 * O analisador de receita do cliente não foi implementado.
 
-#### Possível solução ou solução alternativa
+*Possível solução ou solução alternativa:*
 
 1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as propriedades da transação para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
    Se o cliente não tiver sido iniciado ou se for iniciado recentemente, o Atendimento ao cliente verificará se um analisador de receita foi configurado. Se o analisador estiver configurado, ele verificará se o Search, Social e Commerce está recebendo conversões de pixels e solucionará o problema.
 
-### Anunciantes que enviam feeds de dados de conversão
+**Anunciantes que enviam feeds de dados de conversão**
 
-#### Possíveis causas
+*Possíveis causas:*
 
 * O arquivo de feed não foi entregue, não foi completamente analisado ou o feed continha transações órfãs.
 
@@ -192,7 +192,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 >
 >Os dados geralmente não aparecem na interface até 2 a 4 horas após o recebimento do feed.
 
-#### Possível solução ou solução alternativa
+*Possível solução ou solução alternativa:*
 
 1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as propriedades da transação para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 +++
 
 +++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante.
-A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] use dados capturados por meio do serviço de rastreamento de conversão do Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão de Publicidade de Adobe.
+A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] use dados capturados por meio do serviço de rastreamento de conversão do Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão de Adobe Advertising.
 +++
 
 +++Os dados de receita são diferentes dos dados de receita do próprio anunciante.
 
-### Anunciantes que usam tags de conversão do Adobe Advertising
+**Anunciantes que usam tags de conversão do Adobe Advertising**
 
-#### Possíveis causas
+*Possíveis causas:*
 
 * Search, Social, &amp; Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
 
@@ -223,7 +223,7 @@ A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral R
 
 * A tag de rastreamento de conversão não está implementada corretamente em todas as páginas da Web aplicáveis ou foi editada.
 
-#### Possível solução ou solução alternativa
+*Possível solução ou solução alternativa:*
 
 1. Ir para **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e gerar uma [!UICONTROL Transaction Report]. Compare as transações que o Search, Social e Commerce recebeu com os dados do anunciante.
 
@@ -235,13 +235,13 @@ A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral R
 
    O Atendimento ao cliente tentará identificar as transações ausentes e, em seguida, verificar se há transações órfãs e transações que não vieram de um anúncio (&quot;conversões não correlacionadas&quot;).
 
-### Anunciantes com feeds de dados de conversão usando `ef_id` valores
+**Anunciantes com feeds de dados de conversão usando `ef_id` valores**
 
 Veja as possíveis causas e soluções para implementações de pixel acima.
 
-### Anunciantes com feeds de dados de conversão usando IDs de transação
+**Anunciantes com feeds de dados de conversão usando IDs de transação**
 
-#### Possíveis causas
+*Possíveis causas:*
 
 * Search, Social e Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la válida.
 
@@ -249,7 +249,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
 * Uma conversão offline foi relatada antes de uma transação online ocorrer com a mesma ID de transação. A transação online deve ocorrer primeiro.
 
-#### Possível solução ou solução alternativa
+*Possível solução ou solução alternativa:*
 
 1. Ir para **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e gerar uma [!UICONTROL Transaction Report]. Compare as transações que o Search, Social e Commerce recebeu com os dados de feed do anunciante.
 
@@ -259,9 +259,9 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
    O Atendimento ao cliente verificará se há erros de análise de dados e [transações órfãs](/help/search-social-commerce/glossary.md#o-p).
 
-### Anunciantes com outros tipos de feeds de dados de conversão
+**Anunciantes com outros tipos de feeds de dados de conversão**
 
-#### Possíveis causas
+*Possíveis causas:*
 
 * Search, Social, &amp; Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
 
@@ -279,7 +279,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
 * A lógica de desduplicação do anunciante é diferente da lógica de Pesquisa, Social e Comércio.
 
-#### Possível solução ou solução alternativa
+*Possível solução ou solução alternativa:*
 
 1. Ir para **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** e gerar uma [!UICONTROL Transaction Report]. Compare as transações que o Search, Social e Commerce recebeu com os dados do anunciante.
 
@@ -311,8 +311,8 @@ A variável [!UICONTROL Portfolio Report] mostra dados somente para as campanhas
 As redes de anúncios não fornecem o identificador necessário para atribuir receita a um anúncio individual dessas campanhas. Consequentemente, os dados de desempenho no nível do anúncio não estão disponíveis para esses tipos de campanha no [!UICONTROL Ads] exibir ou na caixa [!UICONTROL Ad Variation Report]. Espere discrepâncias entre o total de dados de nível de anúncio de uma campanha e o total de dados da campanha.
 +++
 
-+++No [!UICONTROL Transaction Report], como saber qual propriedade de transação é de um feed de dados ou é rastreada pelo pixel de rastreamento de publicidade do Adobe?
-Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de publicidade do Adobe, caso inclua a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de publicidade do Adobe começam com &quot;`http://pixel.everesttech.net`.&quot;
++++No [!UICONTROL Transaction Report], como saber qual propriedade de transação é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
+Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento Adobe Advertising se a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de publicidade do Adobe começam com &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Os dados no meu [!UICONTROL Transaction Report] não corresponde aos dados em meu [!UICONTROL Keyword Report].

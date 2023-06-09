@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: Saiba mais sobre o [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Você pode exibir dados dos 18 meses anteriores.
 A seguir estão as colunas que estão disponíveis para cada relatório. As colunas padrão são incluídas automaticamente por padrão. Você pode adicionar as colunas personalizadas disponíveis na seção Colunas das configurações do relatório.
 
 | Coluna | Padrão? | Descrição |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] para [!UICONTROL 5th Campaign] | Padrão | As cinco primeiras campanhas no caminho de conversão que ocorreram no do anunciante [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j).<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Padrão | O número de campanhas no caminho de conversão que ocorreram no caminho do anunciante [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Padrão | A primeira campanha no caminho de conversão. |
@@ -57,4 +57,3 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 >* [A variável [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Ajudar configurações do relatório](assist-report-settings.md)
 >* [Gerar um relatório de assistência](assist-report-generate.md)
-

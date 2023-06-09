@@ -1,9 +1,9 @@
 ---
 title: Escrever texto efetivo e copiar
 description: Saiba mais sobre as práticas recomendadas para escrever uma cópia de anúncio eficiente.
-source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
+source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Escreva manchetes poderosas para atrair clientes em potencial.
 
-* Inclua palavras-chave em seu título, pois é isso que a maioria das pessoas está procurando. [*]
+* Inclua palavras-chave em seu título, pois é isso que a maioria das pessoas está procurando. [1]
 
 * Crie uma cópia de anúncio projetada para o público-alvo desejado.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Se você estiver oferecendo um desconto, inclua a quantia ou porcentagem específica do desconto (como &quot;20% de desconto&quot; ou &quot;Economize US$ 20 na primeira compra&quot;).
 
-* Se possível, use a palavra-chave no título/título e em ambas as linhas da descrição/corpo. [*]
+* Se possível, use a palavra-chave no título/título e em ambas as linhas da descrição/corpo. [1]
 
 * Sempre inclua uma chamada para ação no texto, como &quot;Exibir&quot;, &quot;Fazer check-out&quot;, &quot;Solicitar&quot; ou &quot;Inscrever-se&quot;, para aumentar a taxa de cliques. Para anúncios de imagem, inclua o chamado para ação em um botão vinculado ao seu site; para anúncios de mídia avançada, inclua o chamado para ação em uma estrutura inicial.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Pesquise o que seus concorrentes estão fazendo. Examine os anúncios principais em busca de um espaço (em sites como www.spyfu.com) e tente entender quais anúncios estão funcionando.
 
-[*]: Se você usar inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
+[1]: Se você usar inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
 
 `{keyword:default}` = máquinas de cortar relva
 

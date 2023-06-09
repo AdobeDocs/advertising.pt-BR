@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: Saiba mais sobre o [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Você pode exibir dados dos 18 meses anteriores.
 A seguir estão as colunas que estão disponíveis para cada relatório. As colunas padrão são incluídas automaticamente por padrão. Você pode adicionar as colunas personalizadas disponíveis na seção Colunas das configurações do relatório.
 
 | Coluna | Padrão? | Descrição |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] para [!UICONTROL 5th Keyword] | Padrão | Os cinco primeiros cliques de inserção ou palavra-chave de pesquisa paga no caminho de conversão que ocorreram no anúncio [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Se o relatório incluir disposições de campanhas de pesquisa ativadas por conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupo de anúncios aplicáveis, como &quot;Seu nome de grupo de anúncios&quot;. |
 | [!UICONTROL Path Size] | Padrão | O número de palavras-chave e/ou posicionamentos no caminho de conversão que ocorreram dentro do anúncio [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Padrão | A primeira palavra-chave ou posicionamento no caminho de conversão. |
@@ -51,4 +51,3 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 >* [A variável [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Ajudar configurações do relatório](assist-report-settings.md)
 >* [Gerar um relatório de assistência](assist-report-generate.md)
-

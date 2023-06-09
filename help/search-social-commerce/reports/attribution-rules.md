@@ -1,14 +1,14 @@
 ---
 title: Como as regras de atribuição são calculadas
 description: Saiba como a Adobe Advertising calcula cada tipo de regra de atribuição.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
 
-# Como as regras de atribuição são calculadas para a Adobe Advertising
+# Como as regras de atribuição são calculadas para o Adobe Advertising
 
 *Anunciantes com rastreamento de conversão de anúncio Adobe somente*
 
@@ -22,9 +22,8 @@ Em relatórios, exibições padrão e personalizadas para Pesquisa de publicidad
 >
 >* As regras de atribuição se aplicam a cliques em anúncios pagos em qualquer canal e a impressões em exibições e anúncios sociais. Elas não se aplicam a impressões para anúncios de pesquisa paga, que não podem ser rastreados no nível do evento.
 >* A Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-
 * No Advertising DSP e no Advertising Creative, as definições entre dispositivos consideram somente o caminho do evento da regra de atribuição selecionada.<!-- cross-device attribution via LiveRamp only -->
-* Em exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas a Adobe Advertising armazena valores mais precisos.
+* Nas exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas o Adobe Advertising armazena valores mais precisos.
 
 ## Último evento (o padrão)
 
@@ -186,9 +185,6 @@ Quando o caminho de conversão inclui cliques pagos e impressões, as impressõe
 
 ![Porcentagens de atribuição uniformes](/help/search-social-commerce/assets/attribution-percent-even.png "Porcentagens de atribuição uniformes")
 
-<!-- Add in
-Examples of event calculations
-
 <!-- start examples as collapsible content -->
 
 +++Exemplos de cálculos de evento
@@ -305,7 +301,7 @@ Quando o caminho de conversão inclui cliques pagos e impressões, as impressõe
 
 * No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não leva os pesos de substituição de impressão em consideração para atribuição.
 
-![Porcentagens de atribuição em forma de U](/help/search-social-commerce/assets/attribution-percent-u-shaped-event.png "Porcentagens de atribuição de evento em forma de U")
+<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
 
 <!-- start examples as collapsible content -->
 

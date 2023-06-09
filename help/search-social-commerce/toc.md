@@ -7,9 +7,8 @@ archetype: end-user
 user-guide-title: Guia de pesquisa, social e comércio de publicidade
 user-guide-description: Este guia explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar em suas campanhas de anúncios de pesquisa, sociais e comerciais.
 breadcrumb-title: Guia de pesquisa, social e comércio de publicidade
-index: false
-hide: true
-source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%

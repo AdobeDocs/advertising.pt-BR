@@ -9,9 +9,9 @@ user-guide-description: Este guia explica os principais recursos, tarefas, confi
 breadcrumb-title: Guia de pesquisa, social e comércio de publicidade
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [Dados de bulksheet necessários para [!DNL Yandex] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatização de dados de campanha usando feeds de inventário {#inventory-feeds}
          + [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [Quando os componentes da conta são criados ou excluídos pelos feeds de inventário?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Definir configurações de dados de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [Gerenciar arquivos de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)

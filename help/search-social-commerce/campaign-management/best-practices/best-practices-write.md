@@ -1,9 +1,9 @@
 ---
 title: Escrever texto efetivo e copiar
 description: Saiba mais sobre as práticas recomendadas para escrever uma cópia de anúncio eficiente.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Escreva manchetes poderosas para atrair clientes em potencial.
 
-* Inclua palavras-chave em seu título, pois é isso que a maioria das pessoas está procurando. [^1]
+* Inclua palavras-chave em seu título, pois é isso que a maioria das pessoas está procurando. [*]
 
 * Crie uma cópia de anúncio projetada para o público-alvo desejado.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Se você estiver oferecendo um desconto, inclua a quantia ou porcentagem específica do desconto (como &quot;20% de desconto&quot; ou &quot;Economize US$ 20 na primeira compra&quot;).
 
-* Se possível, use a palavra-chave no título/título e em ambas as linhas da descrição/corpo. [^1]
+* Se possível, use a palavra-chave no título/título e em ambas as linhas da descrição/corpo. [*]
 
 * Sempre inclua uma chamada para ação no texto, como &quot;Exibir&quot;, &quot;Fazer check-out&quot;, &quot;Solicitar&quot; ou &quot;Inscrever-se&quot;, para aumentar a taxa de cliques. Para anúncios de imagem, inclua o chamado para ação em um botão vinculado ao seu site; para anúncios de mídia avançada, inclua o chamado para ação em uma estrutura inicial.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Pesquise o que seus concorrentes estão fazendo. Examine os anúncios principais em busca de um espaço (em sites como www.spyfu.com) e tente entender quais anúncios estão funcionando.
 
-[^1]: Se você usar inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
+[*]: Se você usar inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
 
 `{keyword:default}` = máquinas de cortar relva
 
@@ -84,4 +84,3 @@ ht-degree: 0%
 >
 >* [Analise relatórios para refinar suas palavras-chave e configurações de campanha](best-practices-analyze.md)
 >* [Otimizar as páginas de aterrissagem do site](best-practices-optimize.md)
-

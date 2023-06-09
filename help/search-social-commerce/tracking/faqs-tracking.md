@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre rastreamento
 description: Saiba mais sobre respostas a perguntas comuns sobre rastreamento, incluindo a solução de problemas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ## Recursos de rastreamento
 
-+++É possível rastrear campanhas que a Adobe Advertising não gerencia?
++++É possível rastrear campanhas que o Adobe Advertising não gerencia?
 
 Sim. Se o Search, Social e Commerce estiver sincronizando uma de suas contas de rede de anúncios, ele rastreará os dados de cliques da rede de anúncios para todos [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) nessa conta. Ele também rastreia dados de conversão se você tiver adicionado o redirecionamento de Pesquisa, Social e Comércio aos URLs de destino do seu anúncio e/ou palavra-chave ou modelos de rastreamento e implementado o rastreamento de conversão em suas páginas de conversão. Esclareça com sua equipe de conta do Adobe quais campanhas você deseja que o Search, Social e Commerce simplesmente rastreiem e quais você deseja que eles gerenciem.
 +++
@@ -29,19 +29,19 @@ Os anunciantes que fornecem todos os dados de conversão em um arquivo de feed d
 
 +++
 
-+++Como a publicidade do Adobe identifica transações duplicadas?
++++Como o Adobe Advertising identifica transações duplicadas?
 
-Transações duplicadas podem ocorrer quando um usuário atualiza a página de confirmação após concluir uma transação. A Adobe Advertising usa o `ev_transid` para eliminar transações duplicadas com a mesma ID de transação e valor de propriedade.
+Transações duplicadas podem ocorrer quando um usuário atualiza a página de confirmação após concluir uma transação. O Adobe Advertising usa o `ev_transid` para eliminar transações duplicadas com a mesma ID de transação e valor de propriedade.
 
-Veja a seguir a lógica de eliminação de duplicação da Adobe Advertising:
+O seguinte é uma lógica de desduplicação de Adobe Advertising:
 
 * **Quando um cliente envia um valor para o `ev_transid` atributo:** As solicitações de pixel subsequentes são consideradas duplicatas da anterior se as seguintes forem todas iguais: o `ev_transid`; a ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento; e o valor de uma propriedade de transação específica.
 
-   Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de aplicativo e valor de empréstimo para a mesma palavra-chave em uma rede de anúncios específica, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
+  Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de aplicativo e valor de empréstimo para a mesma palavra-chave em uma rede de anúncios específica, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
 
 * **Quando um cliente não envia um valor para o `ev_transid` atributo:** As transações subsequentes são consideradas duplicatas da anterior se compartilharem uma ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento e o mesmo valor para uma propriedade de transação específica.
 
-   Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de palavra-chave e valor de empréstimo, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
+  Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de palavra-chave e valor de empréstimo, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
 +++
 
 ## Tipos de implementação de rastreamento
@@ -55,20 +55,20 @@ Na conta ou campanha, altere o método de rastreamento para &quot;[!UICONTROL No
 
 ## Perguntas sobre dados
 
-+++Como faço para saber qual propriedade de transação é de um feed de dados ou é rastreada pela tag de rastreamento de conversão Adobe Advertising?
++++Como sei qual propriedade de transação é de um feed de dados ou é rastreada pela tag de rastreamento de conversão de Adobe Advertising?
 
-Em um [!UICONTROL Transaction Report], você pode saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de conversão de Adobe Advertising, se incluir a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de publicidade do Adobe começam com `http://pixel.everesttech.net`.
+Em um [!UICONTROL Transaction Report], você pode saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de conversão do Adobe Advertising se incluir a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com `http://pixel.everesttech.net`.
 +++
 
 +++O que são transações órfãs?
 
-As transações órfãs são eventos de transação que não podem ser associados a uma palavra-chave ou anúncio específico. Adobe A Advertising atribui transação/receita a uma palavra-chave ou anúncio ao corresponder as IDs de rastreamento recebidas com o evento de receita à ID de rastreamento exclusiva no URL de rastreamento da palavra-chave ou do anúncio.
+As transações órfãs são eventos de transação que não podem ser associados a uma palavra-chave ou anúncio específico. O Adobe Advertising atribui transação/receita a uma palavra-chave ou anúncio ao corresponder as IDs de rastreamento recebidas com o evento de receita à ID de rastreamento exclusiva no URL de rastreamento da palavra-chave ou do anúncio.
 
 Quando uma equipe de conta do Adobe suspeita que as transações órfãs são responsáveis por uma queda na receita, a equipe de Atendimento ao cliente verifica os órfãos e, se encontrar algum, investiga o problema.
 
 Órfãos ocorrem nas seguintes situações.
 
-## Implementações do Pixel
+**Implementações do Pixel**
 
 As transações órfãs quase nunca ocorrem para implementações de pixel. No entanto, os órfãos de pixels ocorreram quando:
 
@@ -76,7 +76,7 @@ As transações órfãs quase nunca ocorrem para implementações de pixel. No e
 
 * Os logs de clique não são processados antes dos logs de conversão.
 
-## Implementações do feed
+**Implementações do feed**
 
 * A ID de rastreamento enviada no feed é de uma conta que o Search, Social e &amp; Commerce não conhecem.
 
@@ -88,11 +88,11 @@ As transações órfãs quase nunca ocorrem para implementações de pixel. No e
 
 * No arquivo de configuração, a expressão regular usada para extrair a ID de rastreamento dos URLs está incorreta ou desatualizada. Às vezes, o anunciante altera a ID de rastreamento no URL ou adota um sistema de rastreamento totalmente novo, o que requer que a equipe de implementação de Pesquisa, Social e Comércio atualize a expressão regular. Nesses casos, uma grande parte da receita é órfã.
 
-## Implementações de feed usando uma ID de transação
+**Implementações de feed usando uma ID de transação**
 
 Nenhuma transação online está disponível antes das datas para as quais os dados estão disponíveis no feed offline.
 
-## Implementações de feed usando um token (ef_id)
+**Implementações de feed usando um token (ef_id)**
 
 O Search, Social e Commerce não encontrou um clique correspondente em seu servidor ou na rede de anúncios. Isso pode ocorrer porque os dados de clique não estão disponíveis para a data de clique da conversão ou (raramente) porque os logs de clique não foram processados antes dos logs de conversão. Quando Search, Social e Commerce recebe os dados de clique da rede de anúncios ou os logs de clique são processados, os dados são mapeados para a conversão.
 +++

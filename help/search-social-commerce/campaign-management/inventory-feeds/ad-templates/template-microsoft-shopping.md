@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] configurações de modelos de anúncios de compras para feeds de inventário"
 description: Referenciar as configurações de [!DNL Microsoft® Ads] modelos de anúncios de compras para feeds de inventário.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 >[!NOTE]
 >
 >* Os seguintes caracteres são reservados para designar nomes de colunas e nomes de modificadores no modelo e, portanto, são proibidos como texto em todos os campos de atributo:  `[ ] < > `
-
 
 
 ## \[Acima de todas as guias\]
@@ -118,7 +117,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Opcional) Um modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro. Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares substituem esse valor.
 
-Para o rastreamento de conversão do Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
+Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
@@ -171,9 +170,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 >[!MORELIKETHIS]
 >
 >* [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](../inventory-feeds-about.md)
->* [Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário](../inventory-feeds-workflow.md)
 >* [Gerenciar modificadores](../modifiers-manage.md)
 >* [Gerenciamento de arquivos de feed de dados de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propagar dados do feed por meio de modelos](../feed-data-propagate.md)
 >* [Publicar dados de campanha de feeds de inventário em redes de anúncios](../propagated-data-post.md)
-

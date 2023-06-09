@@ -1,9 +1,9 @@
 ---
 title: Gerenciar modelos de anúncio para feeds de inventário
 description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos quais os dados de inventário podem ser processados para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
       1. Marque a caixa de seleção ao lado do modelo que você deseja copiar.
 
       1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create/Clone]** e selecione a rede de anúncios aplicável.
-   * (Para editar um modelo existente) Ao lado do nome do modelo, clique em ![Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Exibir/editar configurações").
 
+   * (Para editar um modelo existente) Ao lado do nome do modelo, clique em ![Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Exibir/editar configurações").
 
 1. Especifique as configurações para o [modelo de anúncio de texto](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modelo de anúncio de compras](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)ou [[!DNL Microsoft® Advertising] modelo de anúncio de compras](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
       >* Cada grupo de publicidade pode incluir até três anúncios de pesquisa responsivos ativados.
       >* Não é possível editar variações de anúncios de texto padrão existentes, e os modelos existentes não geram mais anúncios de texto padrão.
       >* Se você alterar um modelo de variação de anúncios, os anúncios existentes poderão ser excluídos e novos poderão ser criados quando você propagar dados por meio do modelo, [dependendo do tipo de anúncio e da rede de anúncios](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Para adicionar uma variação de anúncio, faça o seguinte:
 
@@ -107,6 +106,7 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
                >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 
          * Para remover uma variação de anúncio, clique em **[!UICONTROL Remove ETA Variation]** (para anúncios de texto expandidos/estendidos) ou **[!UICONTROL Remove RSA Variation]** (para anúncios de pesquisa responsivos) ao lado dele, conforme aplicável.
+
    1. (Somente modelos de compras) Clique no link **[!UICONTROL Product Groups]** e especifique as informações sobre os grupos de produtos que deseja direcionar.
 
    1. (Opcional) Clique no link **[!UICONTROL Feed Filters]** e especifique quais linhas serão propagadas no arquivo de feed.
@@ -120,10 +120,6 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
          1. Clique em **[!UICONTROL Add Label Classification]**.
 
          1. Selecione a classificação de etiqueta e selecione um valor existente ou insira um novo valor.
-
-
-
-
 
 1. Salve o template:
 
@@ -158,9 +154,7 @@ Você pode ativar qualquer modelo de feed de dados pausado ou pausar qualquer mo
 >[!MORELIKETHIS]
 >
 >* [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](../inventory-feeds-about.md)
->* [Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário](../inventory-feeds-workflow.md)
 >* [Anúncio de texto e configurações responsivas de modelo de pesquisa de anúncio](template-text-rsa.md)
 >* [[!DNL Google Ads] configurações de modelo de anúncio de compras](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] configurações de modelo de anúncio de compras](template-microsoft-shopping.md)
 >* [Propagar dados do feed por meio de modelos](../feed-data-propagate.md)
-

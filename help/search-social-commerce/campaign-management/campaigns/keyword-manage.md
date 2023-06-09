@@ -1,7 +1,7 @@
 ---
 title: Gerenciar palavras-chave licitáveis
 description: Saiba como criar e gerenciar palavras-chave licitáveis para grupos de anúncios de pesquisa.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ Você pode criar e editar palavras-chave para grupos de anúncios de pesquisa no
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
 1. Selecione a rede de publicidade, a conta, a campanha e o grupo de publicidade e clique em **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ A palavra-chave existente é excluída e outra é criada quando:
 >* [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md)
 >* [Criar palavras-chave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Alterar o status de palavras-chave e palavras-chave negativas](keyword-status-edit.md)
-

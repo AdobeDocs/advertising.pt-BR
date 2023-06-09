@@ -1,9 +1,9 @@
 ---
 title: Sobre este guia
 description: Saiba o que é abordado em cada capítulo deste guia.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ As informações sobre grupos específicos de tarefas e outras informações est
 
 * &quot;Gerenciamento de campanhas&quot; explica como configurar e gerenciar componentes do Campaign para suas contas de rede de anúncios.
 
-* &quot;Insights e relatórios&quot; explica como gerar insights de publicidade, gerar relatórios detalhados e automatizar a produção de relatórios, criar e monitorar alertas, exibir um log de alterações feitas na conta do anunciante e exibir e aplicar [!DNL Google Ads]recomendações geradas pelo para suas contas do.
+* &quot;Insights e relatórios&quot; explica como gerar insights de publicidade, gerar relatórios detalhados e automatizar a produção de relatórios, criar e monitorar alertas, exibir um log de alterações feitas na conta do anunciante e exibir e aplicar recomendações geradas pela rede de anúncios para suas contas.
 
 * &quot;Ferramentas&quot; explica como alterar sua senha, usar ferramentas para gerar tags de rastreamento de cliques e de conversão, carregar suas métricas de conversão para o [!DNL Google Ads] e seus objetivos de portfólio nas redes de anúncios para otimização híbrida, métricas de upload para campanhas de rastreamento e replicação [!DNL Google Ads] campanhas em seu [!DNL Microsoft Advertising] contas.
 

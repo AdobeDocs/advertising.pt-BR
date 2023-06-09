@@ -1,9 +1,9 @@
 ---
 title: Anúncio de texto e configurações responsivas de modelo de anúncio de pesquisa para feeds de inventário
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* Os seguintes caracteres são reservados para designar nomes de colunas e nomes de modificadores no modelo e, portanto, são proibidos como texto em todos os campos de atributo:  `[ ] < > `
 >* Entrada [!DNL Yandex templates], é possível usar os parâmetros dinâmicos `{param1}` e `{param2}` somente em URLs, e não é possível usar a inserção dinâmica de preço em descrições de anúncios.
-
 
 ## \[Acima de todas as guias\]
 
@@ -107,7 +106,7 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 * *[!UICONTROL Search]:* Para fazer lances de anúncios de pesquisa patrocinados.
 
-   ([!DNL Google Ads] campanhas) Para incluir lances em listagens para [!DNL Google Ads] pesquisar parceiros, marque a caixa de seleção ao lado de **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] campanhas) Para incluir lances em listagens para [!DNL Google Ads] pesquisar parceiros, marque a caixa de seleção ao lado de **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]:* Para fazer ofertas de disposições em listagens de rede de conteúdo (exibição). **Nota:** Não é possível criar inserções usando o modelo. Ao selecionar essa opção, crie disposições para cada grupo de anúncios e especifique quais páginas da rede de exibição devem ser direcionadas para cada grupo de anúncios usando <!-- insert link --> bulksheets ou o <!-- insert links --> grupo de publicidade e configurações de posicionamento no [!UICONTROL Search] > [!UICONTROL Campaigns] exibições.
 
@@ -171,7 +170,7 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
    * Para palavras-chave estáticas: Ampla correspondência = `keyword`, Modificador de correspondência ampla = `+keyword`, ou Correspondência de Frases = `"keyword"`
 
-      Não é possível inserir palavras-chave estáticas com correspondência exata e sintaxe de correspondência padrão aqui porque elas estão entre colchetes (`[]`), como são os parâmetros dinâmicos.
+     Não é possível inserir palavras-chave estáticas com correspondência exata e sintaxe de correspondência padrão aqui porque elas estão entre colchetes (`[]`), como são os parâmetros dinâmicos.
 
 * Para [!DNL Yandex] modelos:
 
@@ -186,7 +185,6 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 * Correspondências negativas não são suportadas.
 * Os modificadores de correspondência ampla do Google agora têm o mesmo comportamento de correspondência que a correspondência de frases para alguns idiomas e você não pode criar novas palavras-chave do modificador de correspondência ampla. Consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/10286719) para obter mais informações.
 
-
 **[!UICONTROL Map Only]:** Adiciona quaisquer novos anúncios a grupos de anúncios (ou a campanhas para [!DNL Yandex] contas) nas quais as palavras-chave especificadas são encontradas, em vez de criar novas palavras-chave. Para ativar essa opção, marque a caixa de seleção. Quando essa opção está habilitada, qualquer variável Param 1 e Param 2 nas palavras-chave especificadas não se aplicam porque as palavras-chave existem.
 
 **[!UICONTROL Keyword Final URL]:** (Contas com URLs finais/avançados; opcional) O URL da página inicial para o qual os usuários da rede de publicidade são direcionados quando clicam no seu anúncio. Ele deve incluir o mesmo domínio que o URL de exibição, e todos os parâmetros no URL final devem corresponder aos parâmetros no URL da página inicial após o clique no anúncio. Ela pode conter redirecionamentos no domínio ou subdomínio da página de aterrissagem, mas nenhum redirecionamento fora do domínio da página de aterrissagem.
@@ -194,9 +192,9 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 Se você usar um [!DNL Google Merchant Center] e inclua esse valor no campo &quot;[!DNL Link]&quot; e, em seguida, insira essa coluna neste campo.
 
 >[!NOTE]
+>
 * Se você gerar URLs de rastreamento ao publicar dados propagados por meio do modelo, os parâmetros de rastreamento serão anexados a esse valor com base nas configurações de rastreamento da conta.
 * ([!DNL Google Ads] contas do ) Evite usar macros, que não são substituídas por cliques de fontes que permitem o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
-
 
 **[!UICONTROL Keyword Tracking Template]:** (Contas com URLs finais/avançados; opcional) o modelo de rastreamento, que especifica todos os redirecionamentos de domínio fora da aterrissagem e parâmetros de rastreamento, além de incorporar o URL final em um parâmetro. O modelo de rastreamento no nível mais granular (com a palavra-chave como mais granular) substitui os valores em todos os outros níveis.
 
@@ -318,7 +316,7 @@ Para anúncios de pesquisa responsivos, insira um personalizador de anúncios us
 
 [!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] substituíram a criação e a edição de anúncios de texto padrão.
 
-**[!UICONTROL Base URL]:** (Contas com URLs de destino somente) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão do Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar o rastreamento no nível do anúncio, em seguida, Pesquisar, Social e Comércio adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
+**[!UICONTROL Base URL]:** (Contas com URLs de destino somente) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar o rastreamento no nível do anúncio, em seguida, Pesquisar, Social e Comércio adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
 
 Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em uma [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) no [!UICONTROL Modifiers] lista.
 
@@ -327,9 +325,9 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 Se você usar um [!DNL Google Merchant] Centralizar o feed e incluir esse valor no &quot;[!UICONTROL Link]&quot; e, em seguida, insira essa coluna neste campo.
 
 >[!NOTE]
+>
 * Se você gerar URLs de rastreamento ao publicar dados propagados por meio do modelo, os parâmetros de rastreamento serão anexados a esse valor com base nas configurações de rastreamento da conta.
 * ([!DNL Google Ads] contas ) Evite usar macros, que não são substituídas por cliques de fontes que permitem o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
-
 
 **[!UICONTROL Tracking Template]:** (Contas com URLs finais/avançados; opcional) o modelo de rastreamento, que especifica todos os redirecionamentos de domínio fora da aterrissagem e parâmetros de rastreamento, além de incorporar o URL final em um parâmetro. O modelo de rastreamento no nível mais granular (com a palavra-chave como mais granular) substitui os valores em todos os outros níveis.
 
@@ -344,10 +342,10 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 **\[Campos de anúncios alternativos abaixo dos campos de anúncios originais\]:** (Opcional) Um conjunto alternativo de cópias de anúncios para um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo permitido, uma vez que quaisquer parâmetros dinâmicos sejam preenchidos com dados durante a propagação.
 
 >[!NOTE]
+>
 * Se a variável [!UICONTROL Prefill] for selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
 * Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
 * Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
-
 
 **\[Componente\] [!UICONTROL Ad Label Classifications] > \[Classificação de rótulo e valor\]:** (Opcional) Valores de até cinco classificações de etiquetas existentes a serem atribuídos às variações de anúncios criadas ou editadas usando o modelo. Para cada componente de campanha ao qual deseja atribuir classificações de rótulo:
 
@@ -384,10 +382,9 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](../inventory-feeds-about.md)
-* [Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário](../inventory-feeds-workflow.md)
 * [Gerenciar modificadores](../modifiers-manage.md)
 * [Gerenciamento de arquivos de feed de dados de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [Propagar dados do feed por meio de modelos](../feed-data-propagate.md)
 * [Publicar dados de campanha de feeds de inventário em redes de anúncios](../propagated-data-post.md)
-

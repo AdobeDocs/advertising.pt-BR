@@ -1,9 +1,9 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Data final | <p>(Somente sitelinks aprimorados) A última data em que podem ser feitas ofertas para o sitelink, no fuso horário do anunciante e em um dos seguintes formatos:  <span style="font-style: italic;"><i>d/m/aaaa</i></span>, <span style="font-style: italic;"><i>d/m/aa</i></span>, <span style="font-style: italic;"><i>d-m-aaaa</i></span>ou <span style="font-style: italic;"><i>d-m-aa</i></span>. O padrão é nenhum (sem data final).</p><p><b>Nota:</b> Os novos sitelinks aprimorados podem ser criados apenas em campanhas com sitelinks aprimorados existentes ou sem sitelinks.</p> |
 | Excluir Tablet (Google Adwords) | (Somente anúncios de instalação de aplicativo existentes)</p><p>(Opcional) Impede que o Google Ads exiba o anúncio para os usuários do tablet. Os valores podem incluir <i>sim</i> e <i>não</i>. |
 | Sufixo da landing page | Quaisquer parâmetros a serem anexados ao final dos URLs finais para rastrear informações. Exemplo: `param2=value1&param3=value2`<br><br>Consulte &quot;[Formatos de rastreamento de cliques para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Os sufixos de URL finais nos níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor do Google Ads. |
-| Modelo de rastreamento | O modelo de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro ValueTrack. O modelo de rastreamento no nível mais granular (com a palavra-chave como o mais granular) substitui os valores em todos os níveis mais altos.<br><br>Para o rastreamento de conversão de Adobe, que é aplicado quando as configurações da campanha incluem &quot;EF Redirect&quot; e &quot;Auto Upload&quot;, o Search, Social e &amp; Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.<br><br>Para redirecionamentos e rastreamento de terceiros, insira um valor. Para obter uma lista de parâmetros ValueTrack para indicar URLs finais em modelos de rastreamento, consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no <a href="https://support.google.com/google-ads/answer/2375447?hl=en" target="_blank">Documentação do Google Ads</a>.<br><br>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
+| Modelo de rastreamento | O modelo de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro ValueTrack. O modelo de rastreamento no nível mais granular (com a palavra-chave como o mais granular) substitui os valores em todos os níveis mais altos.<br><br>Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;EF Redirect&quot; e &quot;Auto Upload&quot;, o Search, Social e &amp; Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.<br><br>Para redirecionamentos e rastreamento de terceiros, insira um valor. Para obter uma lista de parâmetros ValueTrack para indicar URLs finais em modelos de rastreamento, consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no <a href="https://support.google.com/google-ads/answer/2375447?hl=en" target="_blank">Documentação do Google Ads</a>.<br><br>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
 | URL base/URL final | O URL da página de aterrissagem para o qual os usuários do mecanismo de pesquisa são levados quando clicam em seu anúncio, incluindo quaisquer parâmetros de acréscimo configurados para a campanha ou conta. URLs base/final no nível de palavra-chave substituem aqueles no nível de anúncio e superior.<br><br>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
 | URL de destino | (Incluído em bulksheets gerados para fins de informação; não publicado no mecanismo de pesquisa) Para contas com URLs de destino, este é o URL que vincula um anúncio a um URL/página inicial base no site do anunciante (às vezes, por meio de outro site que rastreia o clique e redireciona o usuário para a página inicial). Inclui quaisquer parâmetros de acréscimo configurados para a campanha ou conta do Search, Social e &amp; Commerce. Se você gerou URLs de rastreamento, eles se baseiam nos parâmetros de rastreamento das configurações da conta e das configurações da campanha. Se você anexou parâmetros específicos de mecanismo de pesquisa, eles podem ser substituídos pelos parâmetros equivalentes para Pesquisa, Social e Comércio.<br><br>Para contas com URLs finais, essa coluna mostra o mesmo valor que a coluna URL base/URL final. |
 | Parâmetro de URL personalizado | Dados que substituirão o `{custom_code}` variável dinâmica quando a variável é incluída nos parâmetros de rastreamento da conta de pesquisa ou nas configurações da campanha. Para inserir o valor personalizado no URL de rastreamento, você deve fazer upload do arquivo de bulksheet usando a opção Gerar URLs de rastreamento. |
@@ -114,6 +114,8 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
+
 ## Campos necessários para criar, editar ou excluir cada componente da conta
 
 ### Campos de campanha
@@ -122,24 +124,24 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | ---- | ---- |
 | Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
 | Nome da campanha | Obrigatório | O nome exclusivo que identifica uma campanha para uma conta. |
-| Orçamento da campanha | Obrigatório: Criar<br><br>>Opcional: Editar ou excluir | Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. |
-| Método de entrega | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
-| Tipo de canal | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
-| Redes | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
-| Nome de domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
-| Idioma do domínio DSA | Obrigatório: Criar<br><br>Opcional: Editar ou excluir |
-| Prioridade de campanha | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
-| ID do comerciante | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
-| País de Vendas | Obrigatório/Opcional: Criar<br><br>Opcional / n/a: Editar ou excluir |
-| Filtro de escopo do produto | Opcional |
+| Orçamento da campanha | Obrigatório para criar uma campanha. | Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. |
+| Método de entrega | Obrigatório para criar uma campanha. |
+| Tipo de canal | Obrigatório para criar uma campanha. |
+| Redes | Obrigatório para criar uma campanha. |
+| Nome de domínio DSA | Obrigatório para criar uma campanha na rede de pesquisa que terá anúncios de pesquisa dinâmicos. |
+| Idioma do domínio DSA | Obrigatório para criar uma campanha na rede de pesquisa que terá anúncios de pesquisa dinâmicos. |
+| Prioridade de campanha | Obrigatório para criar uma campanha de compras. |
+| ID do comerciante | Obrigatório para criar uma campanha de compras. |
+| País de Vendas | Obrigatório para criar uma campanha de compras. |
+| Filtro de escopo do produto | (Campanhas de compras) Opcional |
 | Idiomas | Opcional |
 | Destinos de dispositivo | Opcional |
 | Destinos do sistema operacional do dispositivo (Google Adwords) | Opcional |
 | Operadoras De Celular (Google Adwords) | Opcional |
 | Método de direcionamento de público | n/d |
-| Sufixo da landing page | <p>Opcional |
+| Sufixo da landing page | Opcional |
 | Modelo de rastreamento | Opcional |
-| Status da campanha | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| Status da campanha | Necessário apenas para excluir uma campanha. |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | Restrições | Opcional |
 | ID da campanha | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua uma &quot;ID do AMO&quot; para a campanha. |
@@ -154,12 +156,12 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Redes | n/d |
 | Nível de Oferta Personalizada GDN | Opcional |
 | Nome do grupo de anúncios | Obrigatório |
-| Tipo de grupo de anúncios | Obrigatório |
+| Tipo de grupo de anúncios | Obrigatório para criar um grupo de anúncios. |
 | CPC máximo | Opcional |
 | CPC de conteúdo máximo | Opcional |
 | Método de direcionamento de público | Obrigatório |
 | Modelo de rastreamento | Opcional |
-| Status do grupo de anúncios | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| Status do grupo de anúncios | Obrigatório apenas para excluir um grupo de anúncios. |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | Restrições | Opcional |
 | ID do grupo de anúncios | Obrigatório somente ao alterar o nome do grupo de anúncios, a menos que a linha inclua uma &quot;ID do AMO&quot; para o grupo de anúncios. |
@@ -174,13 +176,13 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 | Nome do grupo de anúncios | Obrigatório |
 | CPC máximo | Opcional |
 | Palavra-chave | Obrigatório |
-| Tipo de correspondência | Opcional: Criar<br><br>Obrigatório/Opcional: Editar ou excluir |
+| Tipo de correspondência | Um valor para o tipo de correspondência ou ID de palavra-chave é necessário para editar ou excluir uma palavra-chave com vários tipos de correspondência. |
 | Modelo de rastreamento | Opcional |
 | URL base/URL final | Opcional |
 | Parâmetro de URL personalizado | Opcional |
 | Param1 | Opcional |
 | Param2 | Opcional |
-| Status da palavra-chave | Opcional: criar ou editar<br><br>Obrigatório: Excluir |
+| Status da palavra-chave | Necessário somente para excluir uma palavra-chave. |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | Restrições | Opcional |
 | ID da campanha | Opcional |
@@ -212,7 +214,7 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 ### Anúncio de pesquisa dinâmica expandido
 
-Esse tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; no [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Esse tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; no [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
 
@@ -235,7 +237,7 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;
 
 ### Lista de produtos/campos de anúncios de compras
 
-Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar campanhas de compras do Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar campanhas de compras do Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;linha na [!UICONTROL Download Bulksheet] diálogo.
 
@@ -266,9 +268,9 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Responsive Search Ad]&quot;l
 | Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
 | Nome da campanha | Obrigatório |
 | Nome do grupo de anúncios | Obrigatório | |
-| Título do anúncio, Título do anúncio 2-15 | Para anúncios de pesquisa responsivos, são obrigatórios Título do anúncio, Título do anúncio 2 e Título do anúncio 3, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor `[delete]` (incluindo os colchetes). |
+| Título do anúncio, Título do anúncio 2-15 | Para anúncios de pesquisa responsivos, são necessários Título do anúncio, Título do anúncio 2 e Título do anúncio 3 para criar um anúncio, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor `[delete]` (incluindo os colchetes). |
 | Posição do título de anúncio 1-15 | Opcional |
-| Descrição - Linhas 1-4 | Para anúncios de pesquisa responsivos, a Linha de Descrição 1 e a Linha de Descrição 2 são obrigatórias, e a Linha de Descrição 3 e a Linha de Descrição 4 são opcionais. Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
+| Descrição - Linhas 1-4 | Para anúncios de pesquisa responsivos, a Linha de Descrição 1 e a Linha de Descrição 2 são necessárias para criar um anúncio, e a Linha de Descrição 3 e a Linha de Descrição 4 são opcionais. Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes). |
 | Posição da linha de descrição 1-4 | Opcional |
 | Caminho de exibição 1 | Opcional |
 | Caminho de exibição 2 | Opcional |
@@ -324,6 +326,8 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;
 | Expressão automática de direcionamento | Obrigatório quando a configuração da campanha &quot;Usar o conteúdo do meu site para direcionar meus anúncios&quot; não está ativada; opcional em caso contrário. |
 | Tipo de correspondência | Opcional |
 | Status do Target | Obrigatório para excluir um público alvo |
+| \[Classificação de rótulo específica do anunciante\] | Opcional |
+| Restrições | Opcional |
 | ID da campanha | Opcional |
 | ID do grupo de anúncios | Opcional |
 | ID de destino | Obrigatório somente quando você altera ou exclui o direcionamento automático, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
@@ -376,14 +380,14 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;
 | ---- | ---- | ---- |
 | Nome da conta | Obrigatório, a menos que cada linha inclua uma &quot;ID do AMO&quot; para a entidade. |
 | Nome da campanha | Obrigatório |
-| Localização | Necessário para criar ou editar um destino de local. |
+| Localização | Obrigatório |
 | Tipo de localização | Opcional |
 | Ajuste do lance | Opcional |
 | Status do local | Necessário apenas para excluir um destino de local. |
 | ID da campanha | Opcional |
 | ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da campanha.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
-## Campos de destino do dispositivo no nível da campanha e do grupo de anúncios
+### Campos de destino do dispositivo no nível da campanha e do grupo de anúncios
 
 | Campo | Obrigatório? | Descrição |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;
 | ID de destino do dispositivo | Obrigatório somente quando você altera ou exclui o destino, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
 | ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID de destino do dispositivo.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 
-## Campos de destino/exclusão RLSA no nível da campanha e do grupo de anúncios
+### Campos de destino/exclusão RLSA no nível da campanha e do grupo de anúncios
 
 | Campo | Obrigatório? | Descrição |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Para esse tipo de anúncio, use o &quot;[!UICONTROL Creative (except RSA)]&quot;
 | ID do grupo de anúncios | Opcional; aplicável somente para exclusões e públicos-alvo no nível do grupo de anúncios. |
 | ID de Destino RLSA | Obrigatório somente quando você altera ou exclui o destino, a menos que a linha inclua uma &quot;ID do AMO&quot; para o destino. |
 | ID AMO | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID de Destino RLSA.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
-
-[^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 
 >[!MORELIKETHIS]
 >

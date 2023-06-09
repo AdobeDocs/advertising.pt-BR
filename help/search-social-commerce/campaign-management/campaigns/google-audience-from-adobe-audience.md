@@ -1,9 +1,9 @@
 ---
 title: Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos
 description: Saiba como criar [!DNL Google Ads] públicos-alvo de correspondência do cliente dos públicos-alvo Adobe Analytics e Audience Manager existentes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Cada novo [!DNL Google] o público-alvo tem o mesmo nome que o original [!DNL Ad
 
    1. (Para criar públicos-alvo da lista de remarketing de ID de usuário) Uma [!DNL Adobe] o usuário administrador ou o gerente de conta deve selecionar a configuração no nível do anunciante para habilitar os públicos-alvo de correspondência do cliente. As configurações diferem entre anunciantes com Audience Manager e anunciantes com [!DNL Analytics] somente.
 
-   1. Implementar o [Serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) versão 2.0 ou superior.
+   1. Implementar o [Serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versão 2.0 ou superior.
 
    1. Implante a seguinte tag o mais alto possível nas páginas da Web do anunciante, a partir das quais o público-alvo deve ser rastreado
 
@@ -80,11 +80,9 @@ Cada novo [!DNL Google] o público-alvo tem o mesmo nome que o original [!DNL Ad
 >
 >* Consulte [[!DNL Google Ads] documentação sobre como a correspondência do cliente funciona e limitações](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre públicos](audience-about.md)
 >* [Criar um [!DNL Google Ads] público-alvo de correspondência do cliente de uma lista de email da Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gerenciar públicos-alvo de correspondência do cliente usando listas de dados do cliente](audience-from-customer-data-list.md)
 >* [Gerenciar públicos de remarketing dinâmicos](audience-dynamic-remarketing-manage.md)
-

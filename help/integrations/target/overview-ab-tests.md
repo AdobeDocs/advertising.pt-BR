@@ -1,10 +1,10 @@
 ---
-title: Configurar testes A/B para anúncios publicitários em Adobe no Adobe Target
+title: Configurar testes A/B para anúncios Adobe Advertising no Adobe Target
 description: Saiba como configurar um teste A/B no [!DNL Target] para o seu DSP e [!DNL Search, Social, & Commerce] anúncios.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *Anunciantes com somente DSP publicitário*
 
-A Adobe Advertising e a Adobe Target facilitam ainda mais para os profissionais de marketing o fornecimento de uma experiência personalizada e conectada em mídia paga e mensagens no site. Ao compartilhar sinais entre os produtos, você pode:
+O Adobe Advertising e o Adobe Target tornam ainda mais fácil para os profissionais de marketing fornecer uma experiência personalizada e conectada em mídia paga e mensagens no site. Ao compartilhar sinais entre os produtos, você pode:
 
 * Diminuir as taxas de fallthrough do site, vinculando a exposição dos anúncios dos clientes das campanhas de DSP às suas experiências no site.
 
@@ -85,11 +85,12 @@ Ao adicionar um pixel de evento de impressão de Audience Manager nas tags de an
 
    1. Ir para **Audience Manager** > **Dados de público-alvo** > **Sinais** e selecione a variável **Pesquisar** no canto superior esquerdo.
 
-   1. Insira o **Chave** e **Valor** para o sinal que determina em qual nível os usuários do segmento são agrupados. Use um [chave suportada](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) com um valor que corresponda a uma macro adicionada ao pixel de evento de impressão de Audience Manager.
+   1. Insira o **Chave** e **Valor** para o sinal que determina em qual nível os usuários do segmento são agrupados. Use um [chave suportada](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) com um valor que corresponda a uma macro adicionada ao pixel de evento de impressão de Audience Manager.
 
       Por exemplo, para agrupar usuários para uma disposição específica, use o `d_placement` chave. Para o valor, use uma ID de posicionamento numérico real (como 2501853 na captura de tela acima) capturada pela macro DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Se o campo Contagem total mostrar contagens de usuários para o par de valores chave, o que indica que o pixel foi colocado corretamente e os dados estão fluindo, você pode continuar para a próxima etapa.
+
    ![Procurar sinais](/help/integrations/assets/target-am-signals.png)
 
 1. [Criar uma característica com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para criação de segmento no Audience Manager.
@@ -109,6 +110,7 @@ Ao adicionar um pixel de evento de impressão de Audience Manager nas tags de an
    1. Nomeie o segmento, selecione `Ad Cloud` como o **Fonte de dados** e salve o segmento.
 
       O Audience Manager divide automaticamente o segmento em um grupo de controle que recebe a experiência padrão de página de aterrissagem e um grupo de teste que recebeu uma experiência personalizada no local.
+
    ![Captura de tela de um segmento de teste](/help/integrations/assets/target-am-segment.png)
 
 ## Etapa 3: configurar uma atividade &quot;Teste A/B&quot; no Target
@@ -164,6 +166,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso do D
    * Experiência A: não edite porque é a experiência padrão/de controle da página de aterrissagem sem personalização.
 
    * Experiência B: usar o [!DNL Target] interface para personalizar o modelo de página de aterrissagem com base nos ativos incluídos no teste (como títulos, cópia, posicionamento de botões e criação).
+
    >[!NOTE]
    >
    >Por exemplo, casos de uso de testes criativos, entre em contato com a equipe de conta do Adobe.
@@ -182,7 +185,7 @@ No Analysis Workspace, configure o [!DNL Analytics for Target panel] para analis
 
 #### Métricas
 
-* Crie um painel no espaço de trabalho específico para a campanha, o pacote ou a disposição de anúncio do Adobe para o qual o teste foi executado. Use as visualizações de resumo para mostrar as métricas de Anúncios de Adobe no mesmo relatório que o desempenho do teste do Target.
+* Crie um painel no espaço de trabalho específico para a campanha, o pacote ou a disposição do Adobe Advertising para o qual o teste foi executado. Use as visualizações de resumo para mostrar as métricas de Adobe Advertising no mesmo relatório que o desempenho do teste do Target.
 
 * Priorize o uso de métricas no site (como visitas e conversões) para medir o desempenho.
 
@@ -206,9 +209,9 @@ No Analysis Workspace, se você notar que os dados de atividade e experiências 
 
 [Valores de ID de dados complementares (SDID) no Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* Na mesma página de aterrissagem, verifique se a) o Nome do host mostrado no Depurador do Adobe em Soluções> Target corresponde b) o Servidor de rastreamento mostrado em [!DNL Target] para a atividade (em Metas e configurações > Configurações de relatórios).
+* Na mesma página de aterrissagem, verifique se a) o Nome do host mostrado no Adobe Debugger em Soluções> Target corresponde b) o Servidor de rastreamento mostrado no [!DNL Target] para a atividade (em Metas e configurações > Configurações de relatórios).
 
-   [!DNL Analytics For Target] exige um [!DNL Analytics] servidor de rastreamento a ser enviado em chamadas de [!DNL Target] para o [!DNL Modstats] servidor de coleta de dados para o Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] exige um [!DNL Analytics] servidor de rastreamento a ser enviado em chamadas de [!DNL Target] para o [!DNL Modstats] servidor de coleta de dados para o Analytics.<!-- just "to Analytics?"-->
 
 [Valor do nome do host no Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

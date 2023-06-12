@@ -2,7 +2,7 @@
 title: Pausar ou ativar uma campanha
 description: Saiba como pausar ou ativar uma campanha ao vivo.
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -33,4 +33,3 @@ Todos os posicionamentos pausados antes de pausar uma campanha permanecerão pau
 >
 >* [Editar uma campanha](campaign-edit.md)
 >* [Arquivar uma campanha](campaign-archive-unarchive.md)
-

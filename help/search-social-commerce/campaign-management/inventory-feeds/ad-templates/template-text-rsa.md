@@ -236,7 +236,7 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] apenas templates) A string a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a variável `{Param3}` cadeia de caracteres de substituição dinâmica. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo do elemento de anúncio no qual ele é usado (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 

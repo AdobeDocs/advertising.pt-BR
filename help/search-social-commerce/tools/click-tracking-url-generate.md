@@ -1,9 +1,9 @@
 ---
 title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques de Pesquisa, Social e Comércio.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -34,57 +34,56 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
          * (Criativos, Anúncios padrão) `**landing_page**`
 
-            onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: http://www.example.com/travel.html
+           Exemplo: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-            onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: `Careers <tab> ** <tab> http://www.example.com/careers.html`
+           Exemplo: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-            O arquivo pode incluir até 10.000 linhas.
+           O arquivo pode incluir até 10.000 linhas.
 
          * ([!DNL Google Merchant Center] grupos de produtos e [Publicidade Microsoft®] anúncios de produto) `product name <tab> ** <tab> landing_page`
 
-            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+           Exemplo: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-            O arquivo pode incluir até 10.000 linhas.
+           O arquivo pode incluir até 10.000 linhas.
+
       * No campo de entrada, insira um item por linha no seguinte formato:
 
          * (Criativos, Anúncios padrão) `landing_page`
 
-            onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: http://www.example.com/travel.html
+           Exemplo: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
 
-            onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: `Careers**http://www.example.com/careers.html`
+           Exemplo: `Careers**http://www.example.com/careers.html`
 
          * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft® Advertising] anúncios de produto) `product name**landing_page`
 
-            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+           onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-            Exemplo: Acme PR208**http://www.example.com/travel.html
+           Exemplo: Acme PR208**http://www.example.com/travel.html
+
    1. Clique em **[!UICONTROL Generate Tracking URLs]**.
-
-
 
 1. (Opcional) Copie os URLs (começando com &quot;http&quot; ou &quot;https&quot;) da tela ou página de saída e implemente-os na conta de pesquisa ou social.
 
 Para contas com URLs de destino, insira os valores na variável [!UICONTROL Base URL] campos.
 
-Para contas com URLs finais, insira o valor na tela nas configurações [!UICONTROL Tracking Template] campo. Você deve adicionar um parâmetro para o URL final após a variável `&url=` parâmetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] contas, use o parâmetro `{lpurl}`. Para obter uma lista de [!DNL Google Ads] e [!DNL Microsoft® Advertising] para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (Consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot;) e o [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Para contas com URLs finais, insira o valor na tela nas configurações [!UICONTROL Tracking Template] campo. Você deve adicionar um parâmetro para o URL final após a variável `&url=` parâmetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] contas, use o parâmetro `{lpurl}`. Para obter uma lista de [!DNL Google Ads] e [!DNL Microsoft® Advertising] para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (Consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Modelo de rastreamento [!DNL ValueTrack] Parâmetros&quot;) e a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >
 >* [Sobre as ferramentas para criar e decodificar tags de rastreamento](tracking-tools-about.md)
 >* [Quando e como gerar URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
 >* [Decodificar um URL de rastreamento de cliques de Pesquisa, Social e Comércio](click-tracking-url-decode.md)
-

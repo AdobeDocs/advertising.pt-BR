@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] configurações de modelos de anúncios de compras para feeds de inventário"
 description: Referenciar as configurações de [!DNL Microsoft® Ads] modelos de anúncios de compras para feeds de inventário.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos secundários; opcional) O modelo de rastreamento para o grupo de produtos, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro ValueTrack. Esse template substitui templates em níveis superiores.
+**[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos secundários; opcional) O modelo de rastreamento para o grupo de produtos, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em uma [!DNL ValueTrack] parâmetro. Esse template substitui templates em níveis superiores.
 
 Para o rastreamento de conversão do Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 

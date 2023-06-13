@@ -1,9 +1,9 @@
 ---
 title: Anúncio de texto e configurações responsivas de modelo de anúncio de pesquisa para feeds de inventário
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Usar o parâmetro `!{unescapedurl}` para indicar o URL da landing page.
 
@@ -134,13 +134,13 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 **[!UICONTROL Ad Group Tracking Template]:** (Contas com URLs finais/avançados somente) O modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro.
 
-Para o rastreamento de conversão de Adobe, que é aplicado quando as configurações da campanha incluem &quot;EF Redirect&quot; e &quot;Auto Upload&quot;, o Search, Social e &amp; Commerce adiciona automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente o código de redirecionamento e rastreamento ao salvar o registro.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indicar o URL da landing page:
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou nos parâmetros &quot;Somente modelo de rastreamento&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como a mais granular) substituem esse valor.
 
@@ -198,13 +198,13 @@ Se você usar um [!DNL Google Merchant Center] e inclua esse valor no campo &quo
 
 **[!UICONTROL Keyword Tracking Template]:** (Contas com URLs finais/avançados; opcional) o modelo de rastreamento, que especifica todos os redirecionamentos de domínio fora da aterrissagem e parâmetros de rastreamento, além de incorporar o URL final em um parâmetro. O modelo de rastreamento no nível mais granular (com a palavra-chave como mais granular) substitui os valores em todos os outros níveis.
 
-* Para o rastreamento de conversão de Adobe, que é aplicado quando as configurações da campanha incluem &quot;EF Redirect&quot; e &quot;Auto Upload&quot;, o Search, Social e &amp; Commerce adiciona automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+* Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente o código de redirecionamento e rastreamento ao salvar o registro.
 
 * Opcionalmente, é possível informar redirecionamentos e rastreamento de terceiros.
 
 * Para indicar o URL da landing page:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Usar o parâmetro `!{lpurl}` para indicar o URL da landing page.
 
@@ -316,7 +316,7 @@ Para anúncios de pesquisa responsivos, insira um personalizador de anúncios us
 
 [!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] substituíram a criação e a edição de anúncios de texto padrão.
 
-**[!UICONTROL Base URL]:** (Contas com URLs de destino somente) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar o rastreamento no nível do anúncio, em seguida, Pesquisar, Social e Comércio adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
+**[!UICONTROL Base URL]:** (Contas com URLs de destino somente) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão do Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar o rastreamento no nível do anúncio, em seguida, Pesquisar, Social e Comércio adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
 
 Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em uma [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) no [!UICONTROL Modifiers] lista.
 
@@ -337,7 +337,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou nos parâmetros &quot;Somente modelo de rastreamento&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campos de anúncios alternativos abaixo dos campos de anúncios originais\]:** (Opcional) Um conjunto alternativo de cópias de anúncios para um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo permitido, uma vez que quaisquer parâmetros dinâmicos sejam preenchidos com dados durante a propagação.
 

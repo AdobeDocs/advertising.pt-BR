@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -15,4 +15,4 @@ Para inserir um personalizador de anúncios, use os seguintes formatos, onde `De
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`
 
-Por exemplo, se o Caminho de exibição 1 for &quot;ofertas&quot; e o Caminho de exibição 2 for &quot;local&quot;, o URL de exibição será `<display URL>/deals/local`, como www.example.com/deals/local.
+Por exemplo, se [!UICONTROL Display Path 1] é &quot;ofertas&quot; e [!UICONTROL Display Path 2] for &quot;local&quot;, o URL de exibição será `<display URL>/deals/local`, como www.example.com/deals/local.

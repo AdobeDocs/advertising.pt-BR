@@ -1,9 +1,9 @@
 ---
 title: Gerenciar sitelinks compartilhados
 description: Saiba como criar e gerenciar extensões compartilhadas do sitelink.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 >* ([!DNL Google Ads]) Cada sitelink em uma campanha ou grupo de anúncios deve ter uma página de aterrissagem exclusiva e o conteúdo de cada página de aterrissagem do sitelink deve ter aproximadamente 80% de conteúdo exclusivo. Por exemplo, não é possível ter sitelinks com links para várias âncoras na mesma página.
 >* ([!DNL Google Ads]) Evite usar macros, que não são substituídas por cliques de fontes que permitem o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
-
 **[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-* Para o rastreamento de conversão de Adobe, que é aplicado quando as configurações da campanha incluem &quot;EF Redirect&quot; e &quot;Auto Upload&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio código de rastreamento de cliques ao salvar o registro.
+* Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot;O e o &quot;Upload automático&quot; do Search, Social e Commerce adicionam automaticamente os prefixos de seu próprio código de rastreamento de cliques ao salvar o registro.
 
-* Para obter os parâmetros compatíveis que incorporam o URL final, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Parâmetros ValueTrack disponíveis&quot; no [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para obter os parâmetros compatíveis que incorporam o URL final, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 >* ([!DNL Microsoft Advertising]) É possível atualizar os modelos de rastreamento em qualquer nível sem reenviar os anúncios para aprovação.
 >* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que permitem o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre extensões do sitelink](sitelink-extension-about.md)
 >* [Associar sitelinks compartilhados a contas, campanhas e grupos de anúncios](sitelink-extension-associate.md)
-

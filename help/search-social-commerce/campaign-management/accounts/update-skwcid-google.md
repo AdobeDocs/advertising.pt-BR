@@ -1,16 +1,16 @@
 ---
 title: "Atualize o código de rastreamento do s\_kwcid para um [!DNL Google Ads] account"
 description: Saiba como alternar para o código de rastreamento s\_kwcid mais recente para um [!DNL Google Ads] conta.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
+*Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente*
 
 *[!DNL Google Ads]somente contas*
 
@@ -48,8 +48,8 @@ Todos os novos [!DNL Google Ads] as contas do usam automaticamente o novo format
 
 1. Depois de iniciar a migração, atualize as configurações de Sufixo da página inicial (chamado de &quot;sufixo de URL final&quot; em algumas redes de anúncios), conforme necessário:
 
-   * Quando o recurso &quot;Upload automático&quot; está ativado nas configurações de rastreamento, o Search, Social e Commerce atualiza automaticamente o código de rastreamento no Sufixo da landing page dessa conta e suas campanhas. Você não precisa fazer nada.
-   * Quando o recurso &quot;Carregamento automático&quot; não estiver ativado e você não usar o s-kwcid do lado do servidor, será necessário atualizar manualmente o parâmetro s\_kwcid nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o [!DNL Google Ads] editor.
+   * Quando a variável [!UICONTROL Auto Upload]O recurso &quot;&quot; está ativado nas configurações de rastreamento do; Search, Social e Commerce atualizam automaticamente o código de rastreamento no Sufixo da página de aterrissagem desta conta e suas campanhas. Você não precisa fazer nada.
+   * Quando a variável [!UICONTROL Auto Upload]&quot;O recurso não está ativado e você não usa o s-kwcid do lado do servidor. Em seguida, atualize manualmente o parâmetro s\_kwcid nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o [!DNL Google Ads] editor.
    * Se você incluir o s\_kwcid na configuração de URL base para qualquer componente da campanha, mova-o para a configuração relevante Sufixo da página inicial.
 
 1. (Recomendado) Verifique os dados desta conta no Analytics antes de migrar contas adicionais.

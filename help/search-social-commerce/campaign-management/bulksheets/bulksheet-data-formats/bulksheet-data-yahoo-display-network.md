@@ -1,9 +1,9 @@
 ---
 title: Dados de bulksheet para [!DNL Yahoo! Display Network] contas
 description: Faça referência aos campos de cabeçalho e de dados em bulksheets baixados para [!DNL Yahoo! Display Network] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | n/d | Se incluído | Se incluído | O identificador exclusivo que identifica um grupo de anúncios existente. |
 | [!UICONTROL Keyword ID] | n/d | n/d | Se incluído | A ID exclusiva que identifica uma palavra-chave existente. |
 | [!UICONTROL AMO ID] | n/d | n/d | n/d | (Em bulksheets gerados) Um identificador exclusivo gerado por Adobe para uma entidade sincronizada. |
-| [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce referentes aos dados na linha; as mensagens de erro são incluídas nos arquivos de Erros EF. |
+| [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce referentes aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL EF Errors] arquivos. |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
-

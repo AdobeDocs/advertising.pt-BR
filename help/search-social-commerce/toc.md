@@ -4,18 +4,18 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 archetype: end-user
-user-guide-title: Guia de pesquisa, social e comércio de publicidade
+user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este guia explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e relatar suas campanhas de anúncios de pesquisa, sociais e comerciais.
-breadcrumb-title: Guia de pesquisa, social e comércio de publicidade
+breadcrumb-title: Advertising Search, Social & Commerce
 index: true
 source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Guia de pesquisa, social e comércio de publicidade {#search-social-commerce}
+# Advertising Search, Social &amp; Commerce {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 

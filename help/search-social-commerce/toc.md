@@ -8,9 +8,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este guia explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e relatar suas campanhas de anúncios de pesquisa, sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
+source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -314,6 +314,9 @@ ht-degree: 1%
                + [A variável [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
                + [A variável [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [A variável [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+               + [A variável [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
+               + [A variável [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+               + [A variável [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
             + [Gerar um relatório de especialidade](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Configurações do relatório de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Colunas de relatório para relatórios especiais](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

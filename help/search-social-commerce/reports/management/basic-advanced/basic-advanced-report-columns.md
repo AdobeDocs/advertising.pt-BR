@@ -1,7 +1,8 @@
 ---
 title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) A ID do usuário que concluiu a transação. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] anúncios) O número de visualizações que assistiram ao anúncio em sua totalidade. |
 | [!UICONTROL Top of Page CPC] | (Somente campanhas do Google) O custo por clique (CPC) para anúncios que aparecem na parte superior das páginas de resultados de pesquisa durante o intervalo de datas especificado. |
-| [!UICONTROL Tracking URL] | (Somente palavras-chave direcionadas para pesquisa) O modelo de rastreamento ou o URL de destino incorporado ao (quando aplicável) código de rastreamento de Pesquisa, Social e Comércio. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) A propriedade de transação específica do anunciante à qual a transação é creditada. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) A hora em que a propriedade de transação especificada foi creditada. |
-| [!UICONTROL User Account Type] | Obsoleto |
-| [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de anúncios. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] anúncios) O tempo médio que um vídeo foi reproduzido, incluindo o tempo gasto reproduzindo o vídeo, para uma única impressão. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] anúncios) O número de vezes que o vídeo começa a ser reproduzido, excluindo as repetições. |
-| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], e [!UICONTROL VideoQuartile100Rate] | (Anúncios de vídeo) A porcentagem de vídeos que foram reproduzidos em 25%, 50%, 75% ou 100% do caminho. |
-| [!UICONTROL View Rate] | (Anúncios de vídeo) O número de visualizações ou envolvimentos dividido pelo número de vezes que o anúncio (impressões de vídeo e miniatura) foi exibido. |
-| [!UICONTROL Views] | (Anúncios de vídeo) O número de vezes que as pessoas assistiram ou interagiram com seu anúncio. |
-| [!UICONTROL ViewThroughConversions] | (Anúncios na rede de público-alvo) O número de conversões que resultaram de uma ou mais impressões, mas sem cliques. |
+
+| [!UICONTROL Tracking URL] | (Somente palavras-chave direcionadas para pesquisa) O modelo de rastreamento ou o URL de destino incorporado ao (quando aplicável) código de rastreamento de Pesquisa, Social e Comércio. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) A propriedade de transação específica do anunciante à qual a transação é creditada. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) A hora em que a propriedade de transação especificada foi creditada. | | [!UICONTROL User Account Type] | Obsoleto | | [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de anúncios. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] anúncios) O tempo médio que um vídeo foi reproduzido, incluindo o tempo gasto reproduzindo o vídeo, para uma única impressão. | | [!UICONTROL Video Plays] | ([!DNL Meta] anúncios) O número de vezes que o vídeo começa a ser reproduzido, excluindo as repetições. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], e [!UICONTROL VideoQuartile100Rate] | (Anúncios de vídeo) A porcentagem de vídeos que foram reproduzidos em 25%, 50%, 75% ou 100% do caminho. | | [!UICONTROL View Rate] | (Anúncios de vídeo) O número de visualizações ou envolvimentos dividido pelo número de vezes que o anúncio (impressões de vídeo e miniatura) foi exibido. | | [!UICONTROL Views] | (Anúncios de vídeo) O número de vezes que as pessoas assistiram ou interagiram com seu anúncio. | | [!UICONTROL ViewThroughConversions] | (Anúncios na rede de público-alvo) O número de conversões que resultaram de uma ou mais impressões, mas sem cliques. |
 
 <table style="table-layout:auto">
 

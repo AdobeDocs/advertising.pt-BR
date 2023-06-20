@@ -4,9 +4,10 @@ description: Saiba mais sobre as últimas atualizações e novos recursos na Adv
 cloud: Experience Cloud
 product: advertising cloud
 index: true
-source-git-commit: d5cadaa06de9916cb29eea2b33554bb912a24c60
+exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -19,4 +20,4 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 | ---- | ------- | ----------- | -------------------- |
 | 10 de junho de 2023 | [!UICONTROL Recommendations and Publisher Insights] | (Beta aberto) [!UICONTROL Microsoft Advertising] os insights e as recomendações de desempenho sugeridos nos últimos 30 dias estão disponíveis em [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>Nota:</b> Embora as recomendações ajudem a melhorar o desempenho da campanha, algumas podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação. | — |
 | 30 de maio de 2023 | [!UICONTROL Campaigns], [!UICONTROL Objectives], [!UICONTROL Reports] | (Beta aberto) Conversões rastreadas pelo [!UICONTROL Microsoft Advertising] as tags de rastreamento universal de evento (UET) são novas, disponíveis em exibições e relatórios de gerenciamento de campanha. Também é possível otimizar essas conversões ao incluí-las em objetivos para portfólios que contêm [!UICONTROL Microsoft Advertising] campanhas. | — |
-|  | [!UICONTROL Reports] | (Beta aberto) Três novos relatórios de especialidade incluem dados para [!UICONTROL Microsoft Advertising] extensões de publicidade: [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Ad Extension by Ad Report], e [!UICONTROL MSA Ad Extension by Keyword Report]. | — |
+|  | [!UICONTROL Reports] | (Beta aberto) Três novos relatórios de especialidade incluem dados para [!UICONTROL Microsoft Advertising] extensões de publicidade: [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Ad Extension by Ad Report], e [!UICONTROL MSA Ad Extension by Keyword Report]. | Consulte &quot;[A variável [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md),&quot; &quot;[A variável [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md),&quot; e &quot;[A variável [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md).&quot;<br><br>Consulte também &quot;[Gerar um relatório de especialidade](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)&quot; e &quot;[Colunas de relatório para relatórios especiais](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md).&quot; |

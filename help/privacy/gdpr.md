@@ -3,14 +3,14 @@ title: Suporte de publicidade Adobe para o Regulamento Geral sobre a Proteção 
 description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a configuração necessária e os valores de campo, além de exemplos de solicitações de acesso à API usando IDs de produto herdadas e campos de dados retornados
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
-# Suporte de publicidade Adobe para o Regulamento Geral sobre a Proteção de Dados
+# Suporte de Adobe Advertising para o Regulamento Geral sobre a Proteção de Dados
 
 *Para [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; e Adobe Advertising DCO*
 
@@ -26,7 +26,7 @@ Este documento descreve como [!DNL Advertising Search, Social, & Commerce]; Adve
 
 Para obter mais informações sobre o que o GDPR significa para sua empresa, consulte [GDPR e sua empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Tipos de solicitação de dados suportados para publicidade de Adobe
+## Tipos de solicitação de dados suportados para o Adobe Advertising
 
 O Adobe Experience Platform permite que as empresas concluam as seguintes tarefas:
 
@@ -42,7 +42,7 @@ Para fazer solicitações de acesso e exclusão de dados para Anúncios do Adobe
 
    >[!IMPORTANT]
    >
-   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript, mas as solicitações para a Adobe Advertising exigem.
+   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript do, mas as solicitações para o Adobe Advertising exigem.
 
    Você deve implantar a biblioteca na página da Web a partir da qual os titulares de dados podem enviar solicitações de acesso e exclusão, como o portal de privacidade da sua empresa. A biblioteca ajuda a recuperar cookies de Adobe (ID do namespace: `gsurferID`) para poder enviar essas identidades como parte das solicitações de acesso e exclusão por meio da API do Adobe Experience Platform Privacy Service.
 
@@ -50,9 +50,9 @@ Para fazer solicitações de acesso e exclusão de dados para Anúncios do Adobe
 
    >[!NOTE]
    >
-   >A exclusão de dados pessoais é diferente da opção de não participação, que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um titular de dados solicita a [!DNL Creative], [!DNL DSP]ou [!DNL DCO], a biblioteca também envia uma solicitação à Adobe Advertising para excluir o titular de dados do direcionamento de segmentos. Para anunciantes com [!DNL Search, Social, & Commerce], recomendamos que você forneça aos titulares dos dados um link para [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), que explica como recusar o direcionamento de segmentos de público-alvo.
+   >A exclusão de dados pessoais é diferente da opção de não participação, que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um titular de dados solicita a [!DNL Creative], [!DNL DSP]ou [!DNL DCO], a biblioteca também envia uma solicitação ao Adobe Advertising para recusar o titular dos dados no direcionamento de segmentos. Para anunciantes com [!DNL Search, Social, & Commerce], recomendamos que você forneça aos titulares dos dados um link para [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), que explica como recusar o direcionamento de segmentos de público-alvo.
 
-1. Identifique a ID da organização Experience Cloud e verifique se ela está vinculada às suas contas publicitárias Adobe.
+1. Identifique a ID da organização Experience Cloud e verifique se ela está vinculada às suas contas Adobe Advertising.
 
    Uma ID de organização Experience Cloud é uma sequência de 24 caracteres alfanuméricos anexada com &quot;@AdobeOrg&quot;. Uma ID de organização foi atribuída à maioria dos clientes do Experience Cloud. Se a equipe de marketing ou o administrador interno do sistema Adobe não souber a ID da organização ou não tiver certeza se ela foi provisionada, entre em contato com o Atendimento ao cliente da Adobe em gdprsupport@adobe.com. Você precisará da ID da organização para enviar solicitações à API de privacidade usando o `imsOrgID` namespace.
 
@@ -60,7 +60,7 @@ Para fazer solicitações de acesso e exclusão de dados para Anúncios do Adobe
    >
    >Entre em contato com o representante da Adobe Advertising da sua empresa para confirmar se todas as contas da Adobe Advertising da sua organização, incluindo [!DNL DSP] contas ou anunciantes, [!DNL Search, Social, & Commerce] contas e [!DNL Creative] ou [!DNL DCO] contas do — são vinculadas à sua ID da organização Experience Cloud.
 
-1. Use o [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou o [IU DO PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) enviar solicitações de acesso e exclusão à Adobe Advertising em nome dos titulares de dados e verificar o status das solicitações existentes.
+1. Use o [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou o [IU DO PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) enviar solicitações de acesso e exclusão ao Adobe Advertising em nome dos titulares de dados e verificar o status das solicitações existentes.
 
    Para anunciantes que têm um aplicativo móvel para interagir com titulares de dados e iniciar campanhas com DSP, será necessário baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que os controladores de dados definam sinalizadores de status de recusa, recuperem a ID de dispositivo do titular dos dados (ID de namespace: deviceID) e enviem solicitações para a API Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
@@ -69,11 +69,12 @@ Para fazer solicitações de acesso e exclusão de dados para Anúncios do Adobe
    Ao enviar uma solicitação de exclusão de um titular de dados, a ID do cookie ou a ID do dispositivo e todos os dados de custo, clique e receita associados ao cookie são excluídos do servidor.
 
    >[!NOTE]
+   >
    Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias sub-soluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para a publicidade em Adobe. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Todas essas etapas são necessárias para o Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [Privacidade e o RGPD](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
 
-## Valores de campo obrigatórios em solicitações JSON de publicidade de Adobe
+## Valores de campo obrigatórios em solicitações JSON do Adobe Advertising
 
 &quot;&quot;company context&quot;:
 
@@ -96,7 +97,7 @@ Todas essas etapas são necessárias para a publicidade em Adobe. Para obter mai
 
 * `"regulation": **gdpr**` (que é o regulamento de privacidade que se aplica à solicitação)
 
-## Exemplo de solicitação enviada pelo titular dos dados usando uma ID de usuário de anúncio de Adobe recuperada de `AdobePrivacy.js`
+## Exemplo de solicitação enviada por titular de dados usando uma ID de usuário Adobe Advertising recuperada de `AdobePrivacy.js`
 
 ```
 {

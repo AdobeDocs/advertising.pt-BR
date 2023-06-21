@@ -5,13 +5,13 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search, Social & Commerce
-user-guide-description: Este guia explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e relatar suas campanhas de anúncios de pesquisa, sociais e comerciais.
+user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
 source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

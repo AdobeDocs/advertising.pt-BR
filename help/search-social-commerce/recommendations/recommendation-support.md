@@ -1,32 +1,47 @@
 ---
 title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Sobre o suporte a recomendações e insights do editor
 
-[!DNL Google Ads] recomendações são sugestões de [!DNL Google Ads] para ajudar a melhorar o desempenho e a eficiência de suas campanhas. Cada recomendação fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências [!DNL Google Ads].
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising] contas*
+
+*Recurso beta para [!DNL Microsoft® Advertising] contas*
+
+[!DNL Google Ads] recomendações e [!DNL Microsoft® Advertising] insights de desempenho são sugestões da rede de anúncios para ajudar a melhorar o desempenho e a eficiência de suas campanhas:
+
+* Each [!DNL Google Ads] A recomendação fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências [!DNL Google Ads].
+
+* Each [!DNL Microsoft® Advertising] o performance insight alerta você sobre uma flutuação significativa em uma conta de gerente, de anunciante ou de campanha; identifica as possíveis causas e sugere ações para otimizar o desempenho.
+
+## A variável [!UICONTROL Recommendations & Publisher Insights] exibir
 
 Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], você pode:
 
-* Ver as principais características de todas as recomendações compatíveis da que não foram implementadas por um [!DNL Google Ads]<!-- or [Microsoft Advertising]--> conta. As informações de cada recomendação incluem os detalhes da recomendação, o tipo e a categoria da recomendação, as métricas reais e as métricas que o [!DNL Google Ads] O prevê se a recomendação é aplicada e as entidades afetadas se a recomendação for aplicada. Os aumentos previstos para as métricas são destacados em verde. É possível exibir as ações recomendadas para qualquer recomendação. Opcionalmente, também é possível filtrar a lista por categoria e tipo de recomendação.
+* Ver as principais características de todas as recomendações compatíveis da que não foram implementadas por um [!DNL Google Ads] conta ou todos os insights de desempenho gerados nos últimos 30 dias para um [Publicidade Microsoft®] conta. As informações para cada entrada incluem os detalhes da recomendação/insight e as entidades afetadas. Para [!DNL Google Ads] contas, os aumentos previstos para as métricas são destacados em verde.
 
   ![Interface do usuário do Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface do usuário do Recommendations")
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
-* Aplicar e ignorar as recomendações de uma conta.
+* Para [!DNL Google Ads] contas:
 
-* Visualizar logs de cada recomendação que foi aplicada para uma conta, incluindo as entidades afetadas, que aplicaram a recomendação e o carimbo de data e hora.
+   * Exibir detalhes da recomendação e aplicar ou ignorar diretamente uma recomendação.
+
+   * Visualize um log de cada recomendação que foi aplicada para a conta, incluindo as entidades afetadas, que aplicaram a recomendação e o carimbo de data e hora.
+
+* Para [Publicidade Microsoft®] contas, abra o [!DNL Microsoft® Advertising] editor, a partir do qual você pode agir com base em um insight específico.
 
 >[!NOTE]
 >
->Embora as recomendações ajudem a melhorar o desempenho da campanha, algumas podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação.
+>Embora as recomendações de rede de anúncios e os insights de desempenho ajudem a melhorar o desempenho da campanha, alguns podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação ou insight.
 
 ## Tipos de recomendação compatíveis para [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 
 >[!MORELIKETHIS]
 >
->* [Exibir o log de recomendações para um [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Aplicar ou descartar um [!DNL Google Ads] recomendação](google-recommendation-apply-dismiss.md)
+>* [Exibir o log de recomendações para um [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Práticas recomendadas para usar recomendações e insights do editor com portfólios](recommendation-best-practices.md)

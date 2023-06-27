@@ -1,9 +1,10 @@
 ---
 title: Exibir o log de recomendações para um [!DNL Google Ads] account
 description: Saiba como visualizar um log de cada recomendação que foi aplicada para um [!DNL Google Ads] conta.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ Recomendações descartadas não estão disponíveis na rede de anúncios.
 >[!MORELIKETHIS]
 >
 >* [Sobre o suporte a recomendações e insights do editor](recommendation-support.md)
+>* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Aplicar ou descartar um [!DNL Google Ads] recomendação](google-recommendation-apply-dismiss.md)
 >* [Práticas recomendadas para usar recomendações e insights do editor com portfólios](recommendation-best-practices.md)
-

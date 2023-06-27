@@ -1,9 +1,10 @@
 ---
 title: Aplicar ou descartar um [!DNL Google Ads] recomendação
 description: Saiba como visualizar uma [!DNL Google Ads] recomendação e como aplicar ou rejeitar a recomendação.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ Exibir as ações recomendadas e uma explicação do motivo pelo qual as ações
 
    * Para aplicar uma recomendação, clique em **[!UICONTROL Apply]**.
 
-      A aplicação de uma recomendação pode levar de milissegundos a alguns segundos, dependendo do tamanho da recomendação.
+     A aplicação de uma recomendação pode levar de milissegundos a alguns segundos, dependendo do tamanho da recomendação.
 
    * Para ignorar uma recomendação, clique em **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre o suporte a recomendações e insights do editor](recommendation-support.md)
+>* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Exibir o log de recomendações para um [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Práticas recomendadas para usar recomendações e insights do editor com portfólios](recommendation-best-practices.md)
-

@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 2%
 
 ---
@@ -368,8 +368,9 @@ ht-degree: 2%
    + [Exibir o Relatório do histórico de alterações](/help/search-social-commerce/reports/change-history-view.md)
    + Insights do Recommendations e do editor {#recommendations}
       + [Sobre o suporte a recomendações e insights do editor](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [Exibir o log de recomendações para um [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Exibir as recomendações do editor e os insights de desempenho](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [Aplicar ou descartar um [!DNL Google Ads] recomendação](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Exibir o log de recomendações para um [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [Práticas recomendadas para usar recomendações e insights do editor com portfólios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Ferramentas {#tools}
    + [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)

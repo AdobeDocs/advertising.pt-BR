@@ -2,9 +2,9 @@
 title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | O número de impressões de anúncios durante o intervalo de datas especificado. |
 | [!UICONTROL Keyword] | A palavra-chave.<br><br><b>Nota:</b> Se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa ativadas por conteúdo, essa coluna incluirá os nomes de grupos de anúncios aplicáveis, como &quot;Nome do grupo de anúncios&quot;. Para uma inserção direcionada ao site em uma campanha de pesquisa, essa coluna não tem um valor. |
 | [!UICONTROL Keyword ID] | A ID numérica que o Search, Social e Commerce atribui à palavra-chave. |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) A ID da extensão de anúncio atribuída pela rede de anúncios. |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) A ID da extensão de anúncio atribuída pela rede de anúncios. |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) A ID numérica que a rede de publicidade atribui à extensão de publicidade. |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O atributo de versão da extensão de anúncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O tipo de extensão do anúncio. |
 | [!UICONTROL Keyword Status] | O status da palavra-chave com a qual o termo de pesquisa foi correspondido: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*ou[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) O idioma de destino. |

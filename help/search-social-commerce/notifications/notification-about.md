@@ -1,9 +1,10 @@
 ---
 title: Sobre notificações
 description: Saiba mais sobre notificações, incluindo os diferentes tipos e categorias.
-source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
+exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,31 +43,50 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: notificações de que um [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluído ou falhou.
-
    * **[!UICONTROL UI Actions]**: notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [tarefas de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), tarefas de edição em massa na tabela de dados ou usando a barra de ferramentas, tarefas de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualquer entidade, atribuindo uma campanha a um portfólio e atribuindo ou desatribuindo uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-* [!UICONTROL Setup Errors]
-
-   * **[!UICONTROL Adobe Analytics Tracking Setup Error]**:: notificações de que o [!UICONTROL Landing Page Suffix] O valor está incorreto, ausente ou contém um modelo SKWCID incorreto; ou é substituído em um nível inferior por um valor incorreto.
+   * **[!UICONTROL Bulksheets]**: notificações de que um [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluído ou falhou.
 
    * **[!UICONTROL Manager Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são para a configuração correta de funções críticas.
 
+<!--
+* [!UICONTROL Setup Errors]
+
+  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  
+  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+
+-->
+
 * [!UICONTROL Network Errors]
+
+   * **[!UICONTROL Manager Account Auth Error]**: notificações que o Search, Social e Commerce não conseguiram sincronizar com um [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
 
    * **[!UICONTROL Account Auth Error]**: notificações de que o Search, Social e Commerce não conseguiram acessar um [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
 
-   * **[!UICONTROL Manager Account Auth Error]**: notificações que o Search, Social e Commerce não conseguiram sincronizar com um [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+* [!UICONTROL Data Upload]
+
+   * **[!UICONTROL Direct File Upload]**: usado para um beta fechado
+
+   * **[!UICONTROL File Upload to Cloud Storage]**: usado para um beta fechado
+
+<!--
+* [!UICONTROL Optimization]
+-->
 
 * [!UICONTROL Insights & Reports]
 
    * **[!UICONTROL Custom Alerts]**: notificações que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionados para um modelo de alerta.
 
-   * **[!UICONTROL Advertising Insights]**: notificações que [um [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Spreadsheet Feeds]**: notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
 
    * **[!UICONTROL Reports]**: notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Advertising Insights]**: notificações que [um [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
+
+<!--
+* [!UICONTROL System]
+-->
 
 >[!MORELIKETHIS]
 >

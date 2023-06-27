@@ -1,7 +1,9 @@
 ---
 title: Pré-requisitos para configurar um [!DNL Google Analytics] fonte de dados
 description: Saiba mais sobre as etapas que devem ser concluídas antes de configurar um [!DNL Google Analytics] fonte de dados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -55,4 +57,3 @@ Repita as seguintes tarefas para cada [!DNL Google Analytics] combinação de co
 >* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

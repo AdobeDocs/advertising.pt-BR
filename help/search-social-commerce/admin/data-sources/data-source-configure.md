@@ -1,7 +1,9 @@
 ---
 title: Configurar um [!DNL Google Analytics] exibir como fonte de dados
 description: Saiba como configurar uma fonte de dados a partir de um [!DNL Google Analytics] exibição.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -36,15 +38,16 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
 
          >[!TIP]
          >
-         >Para garantir que apenas [!DNL Google Analytics] As propriedades e as visualizações estão disponíveis no Adobe Advertising, faça logon usando um endereço de email que tenha acesso somente a essas propriedades e visualizações.
+         >Para garantir que apenas [!DNL Google Analytics] as propriedades e as visualizações estão disponíveis no Adobe Advertising, faça logon usando um endereço de email que tenha acesso somente a essas propriedades e visualizações.
 
          >[!NOTE]
          >
          >Se posteriormente você alterar a senha dessa conta de email, todas as conexões abertas com a conta de email serão fechadas. Para retomar a sincronização de dados, retorne a esta página e [reautenticar](data-source-reauthenticate.md).
 
-      1. Marque a caixa de seleção para autorizar a Adobe Advertising a acessar métricas da conta.
+      1. Marque a caixa de seleção para autorizar o Adobe Advertising a acessar as métricas da conta.
 
       1. Clique em **[!UICONTROL Authenticate]**.
+
    1. No [!UICONTROL Account Details] especifique a propriedade e a visualização das métricas que serão importadas. Além disso, especifique a dimensão personalizada que é preenchida com o valor do parâmetro de sequência de consulta &quot;ef_id&quot;.
 
    1. No [!UICONTROL Import Metrics] especifique as métricas a serem incluídas no(s) feed(s).
@@ -56,7 +59,6 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
       >[!DNL Google Analytics] permite até 10 métricas em um único feed de dados. A Search, Social e Commerce pode oferecer suporte a até dois feeds com um total de 20 métricas, mas o uso de um segundo feed dobra suas chamadas de API para [!DNL Google Analytics]. Se você tiver muitas métricas, selecione somente as métricas que deseja usar nos objetivos de otimização. Veja mais sobre [cotas e limites de chamada para solicitações de API para [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. No [!UICONTROL Metric Tag] insira o nome da tag a ser anexada a cada métrica da fonte de dados.
-
 
 1. No canto superior direito, clique em **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
 >* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

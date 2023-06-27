@@ -1,8 +1,9 @@
 ---
 title: Gerenciar assinaturas de alerta
 description: Saiba como gerenciar alertas de email automáticos.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Para adicionar um assinante a uma assinatura, insira os endereços de email no campo de entrada em **[!UICONTROL Subscribers]**.
 
-   Separe vários endereços com espaços.
+  Separe vários endereços com espaços.
 
 * Para remover o assinante de uma assinatura, clique em **[!UICONTROL X]** ao lado do endereço de email em **[!UICONTROL Subscribers]**.
 

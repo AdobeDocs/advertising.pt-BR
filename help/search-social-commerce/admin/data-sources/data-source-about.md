@@ -1,7 +1,9 @@
 ---
 title: Sobre sincronização [!DNL Google Analytics] métricas de conversão
 description: Saiba mais sobre sincronização [!DNL Google Analytics] métricas de conversão para otimização e relatórios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -22,9 +24,9 @@ As etapas a seguir descrevem o processo de sincronização de dados de conversã
 
 1. [Execute as tarefas de pré-requisito](data-source-prerequisites.md)
 
-   * Implementar um token de publicidade Adobe (`ef_id` parâmetro da string de consulta) nos URLs da página inicial para todas as contas publicitárias aplicáveis.
+   * Implementar um token de Adobe Advertising (`ef_id` parâmetro da string de consulta) nos URLs da página inicial para todas as contas publicitárias aplicáveis.
 
-   * Capture o token de anúncio do Adobe (`ef_id` sequência de consulta (parâmetro) em uma [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Capture o token de Adobe Advertising (`ef_id` sequência de consulta (parâmetro) em uma [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Administrador de conta da agência, gerente de conta da agência, [!DNL Adobe] gerente de conta e administrador (somente usuários) [Criar uma fonte de dados por [!DNL Google Analytics] combinação de conta, propriedade e visualização](data-source-configure.md).
 
@@ -41,4 +43,3 @@ As etapas a seguir descrevem o processo de sincronização de dados de conversã
 >* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

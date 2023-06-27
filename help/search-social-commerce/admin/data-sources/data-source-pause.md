@@ -1,7 +1,9 @@
 ---
 title: Pausar sincronização de uma fonte de dados
 description: Saiba como pausar uma fonte de dados para interromper a sincronização.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Pausar uma fonte de dados interrompe sincronizações futuras com a fonte de dad
 >* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

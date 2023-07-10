@@ -1,65 +1,75 @@
 ---
-title: "[!DNL Google Ads] dados de conversão"
+title: '[!DNL Google Ads] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Google Ads]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
+source-git-commit: 29cda72cac949663cd2df822cf7223335a14504d
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] dados de conversão no Search, Social e Commerce
 
-O Search, Social e Commerce sincroniza automaticamente [!DNL Google Ads]Dados de conversão rastreados pelo para todas as campanhas no [!DNL Google Ads] redes de pesquisa e compras em Pesquisa, Social e Comércio para geração de relatórios e otimização. Pesquisar, Social e Comércio sincroniza dados para conversões para as quais &quot;[!DNL Include in 'Conversions']&quot; for ativada, extraindo os dados dos últimos 30 dias e depois extraindo as alterações para os dados diariamente.
+O Search, Social e Commerce sincroniza automaticamente [!DNL Google Ads]Dados de conversão rastreados pelo para todas as campanhas no [!DNL Google Ads] redes de pesquisa e compras em Pesquisa, Social e Comércio para geração de relatórios e otimização.
+
+Todas as métricas estão disponíveis automaticamente nas visualizações de gerenciamento de campanhas e relatórios básicos, além de estarem disponíveis para uso em objetivos de portfólio para otimização.
 
 ## Dados de conversão disponíveis
 
+Pesquisar, Social e Comércio sincroniza dados para conversões para as quais &quot;[!DNL Include in 'Conversions']&quot; for ativada, extraindo os dados dos últimos 35 dias e depois extraindo as alterações nos dados diariamente até 09:00-10:00 no fuso horário do anunciante. Os dados históricos podem mudar de dia para dia, à medida que novas conversões são rastreadas para cada clique.
+
 Até três propriedades de transação para cada [[!DNL Google Ads]Conversão rastreada](https://support.google.com/google-ads/answer/4677036) (que você configurou em [!DNL Google Ads]) ficam disponíveis automaticamente no Search, Social e Commerce, usando os nomes de conversão configurados em [!DNL Google Ads]. As propriedades de transação para cada conversão incluem:
 
-* `GGL*` — (Ao rastrear) A soma dos valores de conversão da palavra-chave, começando com o prefixo &quot;GGL&quot; (como Compra GGL).
+* `GGL*` — (Ao rastrear) O valor de conversão da palavra-chave, começando com o prefixo &quot;GGL&quot; (como Compra GGL).
 
 * `GGL_CT*` — O número (contagem) de conversões, começando com o prefixo &quot;GGL_CT&quot; (como GGL_CT_Purchase).
 
 * `GGL_XD_CT*` — (Quando disponível para o tipo de conversão, ao rastreá-los) O número (contagem) de conversões entre dispositivos, conforme medido pelo Google, começando com o prefixo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).
 
-Os dados estão disponíveis na data em que o recurso é ativado para a conta e são atualizados diariamente até 09:00-10:00 no fuso horário do anunciante.
-
-[!DNL Google Ads] registra cada conversão por [unidade de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data de clique (não a data de conversão). A atribuição se baseia na configuração padrão de atribuição de cada métrica em [!DNL Google Ads]; a atribuição de anúncio de Adobe não é considerada porque os dados no nível do evento de clique não estão disponíveis. A cada dia, o Search, Social e Commerce extrai dados de conversão dos 30 dias anteriores e calcula todas as conversões incrementais desde o dia anterior, usando a data de clique de [!DNL Google Ads] e designando o dia anterior como a data da transação. Como resultado, os dados históricos podem mudar de dia para dia, à medida que novas conversões são rastreadas para cada clique. Se você comparar os dados no Search, Social e Commerce com os do [!DNL Google Ads], use a opção de exibição ou relatório para exibir &quot;[!UICONTROL Conversions by: Click date]&quot; (não por data de transação).
-
-Todas as métricas estão disponíveis automaticamente nas visualizações de gerenciamento de campanhas e relatórios básicos, além de estarem disponíveis para uso em objetivos de portfólio para otimização.
+[!DNL Google Ads] registra cada conversão por [unidade de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data de clique (não a data de conversão). A atribuição se baseia na configuração padrão de atribuição de cada métrica em [!DNL Google Ads]; a atribuição Adobe Advertising não é considerada porque os dados no nível do evento de clique não estão disponíveis.
 
 >[!NOTE]
 >
->* Se você tiver várias contas com os mesmos nomes de conversão, poderá ver nomes de conversão duplicados na Adobe Advertising. Se isso ocorrer, [alterar o nome de exibição](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para uma das métricas duplicadas no [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Os relatórios não são precisos quando duas métricas diferentes têm o mesmo nome.
+>* Se você tiver várias contas com os mesmos nomes de conversão, poderá ver nomes de conversão duplicados no Adobe Advertising. Se isso ocorrer, [alterar o nome de exibição](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para uma das métricas duplicadas no [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Os relatórios não são precisos quando duas métricas diferentes têm o mesmo nome.
 >* Os dados no nível de unidade de oferta correspondem aos dados em [!DNL Google Ads] no mesmo nível. No entanto, [!DNL Google Ads]Os dados de conversão próprios do para níveis superiores podem incluir conversões adicionais que não são atribuídas às unidades de oferta secundárias. Os dados em Pesquisa, Social e Comércio são sempre acumulados a partir do nível da unidade de oferta, portanto, por exemplo, um relatório de nível de campanha pode não ter os mesmos totais que um relatório de nível de campanha no Google Ads.
 >* Normalmente, a variação de dados ocorre menos após a sincronização matinal do que no final do dia, quando as conversões adicionais ainda não foram sincronizadas. Recomendamos validar os dados pela manhã.
 >* Os dados de conversão não estão disponíveis para [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], e [!DNL YouTube] anúncios. Filtre esses tipos de anúncios ao comparar dados no [!DNL Google Ads] com dados em Pesquisa, Social e Comércio.
 >* Dados para [!DNL Google Ads] as conversões não estão disponíveis no nível de público ou localização geográfica e, portanto, não são usadas para otimizar automaticamente os ajustes de oferta de RLSA e localização.
 
-
 ## Como comparar dados de conversão no [!DNL Google Ads] com dados em Pesquisa, Social e Comércio
+
+Se você comparar os dados no Search, Social e Commerce com os do [!DNL Google Ads], use a opção de exibição ou de relatório para exibir conversões com base na data de clique (não na data da transação).
 
 Use as configurações de relatório a seguir para validar dados comparáveis.
 
 ### Configurações de relatório a serem usadas no [!DNL Google Ads]
 
-1. Na barra de ferramentas principal, selecione **[!DNL Reports]>[!DNL Report]**.
+Gere o relatório das ações de conversão selecionadas por dia e inclua dados para todos os status de anúncios.
 
-1. Selecionar **[!DNL + Custom]>[!DNL Table]**.
+<!-- 
 
-1. No painel esquerdo, especifique as linhas e colunas no relatório:
+1. In the main toolbar, select **[!DNL Reports] > [!DNL Report]**.
 
-   1. Procure por **[!DNL Day]** e arraste para a caixa [!DNL Row] seção.
+1. Select **[!DNL + Custom] > [!DNL Table]**.
 
-   1. Procure por **[!DNL All conv].** e arraste para a caixa [!DNL Column] seção.
+1. From the left pane, specify the rows and columns in the report:
+   
+   1. Search for the **[!DNL Day]** field and it drag to the [!DNL Row] section.
 
-   1. Procure por **[!DNL Conversion action]** e arraste para a caixa [!DNL Column] seção.
+   1. Search for the **[!DNL All conv].** field and it drag to the [!DNL Column] section.
 
-1. Na barra de ferramentas de configurações do relatório, selecione **[!DNL Filter]>[!DNL Ad status]** e, em seguida, selecione todas as caixas.
+   1. Search for the **[!DNL Conversion action]** field and it drag to the [!DNL Column] section.
 
-1. Na barra de ferramentas de configurações do relatório, selecione **[!DNL Download]>[!DNL Excel .csv]**.
+1. In the report settings toolbar, select **[!DNL Filter] > [!DNL Ad status]**, and then select all boxes.
+
+1. In the report settings toolbar, select **[!DNL Download] > [!DNL Excel .csv]**.
+
+-->
 
 ### Configurações de relatórios a serem usadas em pesquisa, redes sociais e comércio
+
+Em Pesquisar, Social e Comércio, use a opção de exibição ou relatório para exibir conversões com base na data de clique (não a data da transação).
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -81,7 +91,6 @@ Use as configurações de relatório a seguir para validar dados comparáveis.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de campanhas no Search, Social e Commerce](campaign-management-about.md)
 >* [Visão geral da implementação de contas e campanhas de rede de anúncios](campaign-implemention-overview.md)
 >* [Monitore e gerencie o desempenho de suas campanhas de rede de anúncios](monitor-performance-campaigns.md)
-
+>* [Exibir as propriedades de transação rastreadas para um anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)

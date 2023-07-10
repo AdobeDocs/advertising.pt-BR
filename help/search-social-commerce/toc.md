@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [Sobre o gerenciamento de campanhas no Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Visão geral da implementação de contas e campanhas de rede de anúncios](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Monitore e gerencie o desempenho de suas campanhas de rede de anúncios](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Dados de conversão do Google Ads em Pesquisa, Social e Comércio](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] dados de conversão no Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] dados de conversão no Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Configuração de contas {#campaign-management-accounts}
       + Adicionar contas de rede {#ad-network-accounts}
          + [Sobre contas de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)

@@ -4,10 +4,10 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [Analise relatórios para refinar suas palavras-chave e configurações de campanha](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Escrever texto efetivo e copiar](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Otimizar as páginas de aterrissagem do site](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + Gerenciamento de ativos de publicidade {#assets}
+      + [Sobre o [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Criar e carregar ativos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Número máximo de objetos por conta de rede de publicidade](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Perguntas frequentes sobre o gerenciamento de campanhas](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Insights e relatórios {#insights-reports}

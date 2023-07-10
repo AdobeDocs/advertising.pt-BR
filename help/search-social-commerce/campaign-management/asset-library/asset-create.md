@@ -1,9 +1,9 @@
 ---
 title: Criar e carregar ativos
 description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] biblioteca de ativos no nível da conta.
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       Você pode publicar até 10 URLs de vídeo por vez.
 
-      * Para ativos de texto, insira a sequência de caracteres de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.&lt;!— que elemento de cópia de anúncio — título, descrição curta, descrição longa? Nenhum lugar para selecionar o elemento. —>
+      * Para ativos de texto, insira a sequência de caracteres de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.
 
       Cada ativo de texto pode ter no máximo 1000 caracteres. É possível carregar no máximo 10 ativos de texto por vez.
 
+      Posteriormente, você pode usar os ativos de texto para qualquer elemento de anúncio de sua escolha (como título ou descrição curta), desde que eles atendam aos limites de caracteres desse elemento de anúncio.
+
 1. Clique em **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[Sobre o [!UICONTROL Asset Library]](asset-library-about.md)

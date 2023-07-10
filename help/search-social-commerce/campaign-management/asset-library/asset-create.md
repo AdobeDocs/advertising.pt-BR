@@ -1,9 +1,9 @@
 ---
 title: Criar e carregar ativos
 description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] biblioteca de ativos no nível da conta.
-source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
          1. Clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-        Cada imagem pode ter no máximo 10 MB. É possível carregar até 200 MB de imagens por vez.
+            Cada imagem pode ter no máximo 10 MB. É possível carregar até 200 MB de imagens por vez.
 
          1. Para cada imagem:
 
@@ -48,16 +48,16 @@ ht-degree: 0%
 
       * Para ativos de vídeo, insira o URL de um [!DNL YouTube] um vídeo com pelo menos 10 segundos de duração. Para adicionar outro ativo de vídeo, clique em **+ Adicionar** e insira outro URL.
 
-      Você pode publicar até 10 URLs de vídeo por vez.
+        Você pode publicar até 10 URLs de vídeo por vez.
 
       * Para ativos de texto, insira a sequência de caracteres de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.
 
-      Cada ativo de texto pode ter no máximo 1000 caracteres. É possível carregar no máximo 10 ativos de texto por vez.
+        Cada ativo de texto pode ter no máximo 1000 caracteres. É possível carregar no máximo 10 ativos de texto por vez.
 
-      Posteriormente, você pode usar os ativos de texto para qualquer elemento de anúncio de sua escolha (como título ou descrição curta), desde que eles atendam aos limites de caracteres desse elemento de anúncio.
+        Posteriormente, você pode usar os ativos de texto para qualquer elemento de anúncio de sua escolha (como título ou descrição curta), desde que eles atendam aos limites de caracteres desse elemento de anúncio.
 
 1. Clique em **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
->*[Sobre o [!UICONTROL Asset Library]](asset-library-about.md)
+>* [Sobre o [!UICONTROL Asset Library]](asset-library-about.md)

@@ -1,9 +1,9 @@
 ---
 title: '[!DNL Microsoft Advertising] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Microsoft Advertising]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,7 @@ Duas propriedades de transação para cada [[!DNL Microsoft Advertising]Convers�
 
 Os dados são disponibilizados com base na hora do clique e no horário da conversão/transação a partir da data em que o recurso é ativado para a conta.
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] registra cada conversão por [unidade de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data de clique (não a data de conversão). A atribuição se baseia na configuração padrão de atribuição de cada métrica em [!DNL Microsoft Advertising]; a atribuição Adobe Advertising não é considerada porque os dados no nível do evento de clique não estão disponíveis.
 
 >[!NOTE]
 >

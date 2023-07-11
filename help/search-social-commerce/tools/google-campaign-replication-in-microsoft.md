@@ -1,9 +1,10 @@
 ---
 title: Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]
 description: Saiba como exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft® Advertising] conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Você pode replicar os seguintes tipos de campanhas e sua estrutura de campanha:
 
 * [!DNL Google Display Network] campanhas do, incluindo imagens de anúncios, em [!DNL Microsoft® Advertising] campanhas de público na Microsoft® Audience Network.
 
-   Se quiser replicar campanhas de exibição baseadas em feed de compras, primeiro replique suas [!DNL Google Merchant Center] ofertas de produtos para [!DNL Microsoft® Merchant Center]. Ao replicar as campanhas, selecione a variável [!DNL Microsoft® Merchant Center] armazene nas Opções de importação para vincular a loja às suas campanhas de público-alvo com base em feed.
+  Se quiser replicar campanhas de exibição baseadas em feed de compras, primeiro replique suas [!DNL Google Merchant Center] ofertas de produtos para [!DNL Microsoft® Merchant Center]. Ao replicar as campanhas, selecione a variável [!DNL Microsoft® Merchant Center] armazene nas Opções de importação para vincular a loja às suas campanhas de público-alvo com base em feed.
 
 * [!DNL Google Ads] desempenho máximo de campanhas, incluindo anúncios de inventário locais, em [!DNL Microsoft® Advertising] campanhas de compras inteligentes.
 
@@ -58,7 +59,7 @@ Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.micr
 
 1. (Opcional) Adicione o rastreamento de Pesquisa, Social e Comércio na [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configurações.
 
-## Editar detalhes de um trabalho de importação de campanha
+## Editar configurações de programação para um trabalho de importação de campanha
 
 Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.micr
 
 1. Marque a caixa de seleção ao lado do trabalho de importação e clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite o [configurações de importação](#campaign-import-settings).
-
-   1. No **[!UICONTROL Select accounts]** selecione as contas de origem e destino e a ID de credencial que [!DNL Microsoft® Advertising] exige.
-
-   1. No **[!UICONTROL Select campaigns & ad groups]** especifique as campanhas e os grupos de anúncios a serem importados.
-
-   1. No **[!UICONTROL Customize your import]** especifique os tipos de item a serem importados.
-
-   1. No **[!UICONTROL Set schedule]** especifique quando executar o trabalho de importação.
+1. No **[!UICONTROL Set schedule]** especifique a [configurações de programação](#campaign-import-settings).
 
 1. Clique em **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Você pode listar todos os trabalhos de importação, incluindo a origem [!DNL G
 
    * No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      Por padrão, a exibição é aberta para a variável [!UICONTROL List of Import Jobs] guia.
+     Por padrão, a exibição é aberta para a variável [!UICONTROL List of Import Jobs] guia.
 
    * No [[!UICONTROL Import Logs] guia](#campaign-import-log), clique no link **[!UICONTROL List of Import Jobs]** guia.
 

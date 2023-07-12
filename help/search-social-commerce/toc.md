@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -122,19 +122,19 @@ ht-degree: 2%
          + Campanhas {#campaigns}
             + [Gerenciar campanhas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + Configurações do Campaign por rede de publicidade {#campaign-settings-by-network}
-               + [Configurações da campanha no Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Configurações da campanha do Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Configurações da campanha de publicidade do Microsoft](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Yahoo! Configurações da campanha de anúncios no Japão](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Configurações da campanha Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + Grupos de anúncios {#ad-groups}
             + [Gerenciar grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + Configurações do grupo de anúncios por rede de anúncios {#ad-group-settings-by-network}
-               + [Configurações do grupo de anúncios do Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Configurações de grupo de anúncios do Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Configurações do grupo de publicidade do Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Yahoo! Configurações de grupo de anúncios do Japão](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Configurações do grupo de anúncios Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] configurações do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] configurações do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] configurações do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] configurações do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] configurações do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Palavras-chave {#keywords}
             + [Sobre palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [Gerenciar palavras-chave licitáveis](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

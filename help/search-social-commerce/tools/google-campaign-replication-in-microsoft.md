@@ -2,9 +2,9 @@
 title: Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]
 description: Saiba como exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft® Advertising] conta.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ Nem todas as informações da campanha são replicadas e talvez seja necessário
 
 Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Obter uma ID de credencial de importação de [!DNL Microsoft® Advertising] para representar o seu [!DNL Google Ads] credenciais.
-
-   Geração automática de [!DNL Microsoft® Advertising] as credenciais para importação não estão disponíveis devido a [!DNL Microsoft® Advertising] Limitações da API. Entre em contato com o suporte técnico da Adobe ou com a equipe de conta da Adobe, e as credenciais serão geradas e a ID será fornecida.
-
-   Você deve ter a ID para configurar o trabalho de importação.
-
 1. No menu principal Pesquisar, Social e Comércio, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Clique em **[!UICONTROL +Import]**.
 
 1. Especifique a [configurações de importação](#campaign-import-settings):
 
-   1. No **[!UICONTROL Select accounts]** selecione as contas de origem e destino e a ID de credencial que [!DNL Microsoft® Advertising] exige.
+   1. No **[!UICONTROL Select accounts]** seção:
+
+      1. Selecione as contas de origem e de destino.
+
+      1. Clique em **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. Fazer logon no destino [!DNL Microsoft Advertising] conta, copie a ID da credencial que é exibida e cole o valor no campo **[!UICONTROL Credential ID]** campo.
 
    1. No **[!UICONTROL Select campaigns & ad groups]** especifique as campanhas e os grupos de anúncios a serem importados.
 

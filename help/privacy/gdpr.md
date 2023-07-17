@@ -2,8 +2,9 @@
 title: Suporte de publicidade Adobe para o Regulamento Geral sobre a Proteção de Dados
 description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a configuração necessária e os valores de campo, além de exemplos de solicitações de acesso à API usando IDs de produto herdadas e campos de dados retornados
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Este documento descreve como [!DNL Advertising Search, Social, & Commerce]; Adve
 
 Para obter mais informações sobre o que o GDPR significa para sua empresa, consulte [GDPR e sua empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Tipos de solicitação de dados suportados para o Adobe Advertising
+## Tipos de solicitação de dados suportados para publicidade de Adobe
 
 O Adobe Experience Platform permite que as empresas concluam as seguintes tarefas:
 
@@ -36,13 +37,13 @@ O Adobe Experience Platform permite que as empresas concluam as seguintes tarefa
 
 ## Configuração necessária para enviar solicitações de publicidade de Adobe
 
-Para fazer solicitações de acesso e exclusão de dados para Anúncios do Adobe, é necessário:
+Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertising, é necessário:
 
 1. Implante uma biblioteca JavaScript para recuperar e remover os cookies do titular dos dados. A mesma biblioteca, `AdobePrivacy.js`, é usado para todas as soluções da Adobe Experience Cloud.
 
    >[!IMPORTANT]
    >
-   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript do, mas as solicitações para o Adobe Advertising exigem.
+   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript, mas as solicitações para a Adobe Advertising exigem.
 
    Você deve implantar a biblioteca na página da Web a partir da qual os titulares de dados podem enviar solicitações de acesso e exclusão, como o portal de privacidade da sua empresa. A biblioteca ajuda a recuperar cookies de Adobe (ID do namespace: `gsurferID`) para poder enviar essas identidades como parte das solicitações de acesso e exclusão por meio da API do Adobe Experience Platform Privacy Service.
 
@@ -102,36 +103,36 @@ Todas essas etapas são necessárias para o Adobe Advertising. Para obter mais i
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
 
 ## Campos de dados retornados para solicitações de acesso
 
-Veja a seguir um exemplo de uma resposta de acesso para Anúncios de Adobe.
+Veja a seguir um exemplo de uma resposta de acesso para o Adobe Advertising.
 
 ```
 {

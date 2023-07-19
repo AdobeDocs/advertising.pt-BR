@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 ## [!UICONTROL Multi-Touch Conversion Options] Seção
 
+**[!UICONTROL Attribution Rule Settings]** As configurações variam de acordo com o tipo de relatório:
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
 
-**\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
+   * [!UICONTROL Unique]: (o padrão) conta o número de vezes que um valor de dimensão (como um dispositivo ou um posicionamento) estava no caminho para conversão.
 
-* [!UICONTROL Unique]: (o padrão) conta o número de vezes que um valor de dimensão (como um dispositivo ou um posicionamento) estava no caminho para conversão.
+   * [!UICONTROL Multi-Touch Attribution (MTA)]: distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para a conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]: distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para a conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
+* **\[Tipo de regra\]:** (Todos [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, saiba como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
 
-**\[Tipo de regra\]:** (Todos [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, saiba como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
+  >[!NOTE]
+  >
+  >Os caminhos de conversão incluem quaisquer impressões e cliques nas janelas de impressão ou retrospectiva de cliques do anunciante, que são configuradas em [!DNL Advertising Search, Social, & Commerce]. Os cliques recebem preferência por impressões durante a atribuição de conversão. Quaisquer cliques em um caminho de conversão receberão crédito total com base na regra de atribuição. As impressões recebem crédito somente quando nenhum clique é rastreado no caminho de conversão.
 
->[!NOTE]
->
->Os caminhos de conversão incluem quaisquer impressões e cliques nas janelas de impressão ou retrospectiva de cliques do anunciante, que são configuradas em [!DNL Advertising Search, Social, & Commerce]. Os cliques recebem preferência por impressões durante a atribuição de conversão. Quaisquer cliques em um caminho de conversão receberão crédito total com base na regra de atribuição. As impressões recebem crédito somente quando nenhum clique é rastreado no caminho de conversão.
+   * *[!UICONTROL Last Event]:* Atribui conversões ao último clique ou impressão no caminho de conversão.
 
-* *[!UICONTROL Last Event]:* Atribui conversões ao último clique ou impressão no caminho de conversão.
+   * *[!UICONTROL Weight Last More]:* Atribui conversões a todos os eventos no caminho de conversão, mas atribui mais peso ao último evento e sucessivamente menos peso aos eventos anteriores.
 
-* *[!UICONTROL Weight Last More]:* Atribui conversões a todos os eventos no caminho de conversão, mas atribui mais peso ao último evento e sucessivamente menos peso aos eventos anteriores.
+   * *[!UICONTROL Even Distribution]:* Atribui conversões igualmente a cada evento no caminho de conversão.
 
-* *[!UICONTROL Even Distribution]:* Atribui conversões igualmente a cada evento no caminho de conversão.
+   * *[!UICONTROL Weight First More]:* Atribui conversões a todos os eventos no caminho de conversão, mas atribui mais peso ao primeiro evento e sucessivamente menos peso aos eventos seguintes.
 
-* *[!UICONTROL Weight First More]:* Atribui conversões a todos os eventos no caminho de conversão, mas atribui mais peso ao primeiro evento e sucessivamente menos peso aos eventos seguintes.
+   * *[!UICONTROL First Event]:* Atribui conversões ao primeiro clique ou impressão no caminho de conversão.
 
-* *[!UICONTROL First Event]:* Atribui conversões ao primeiro clique ou impressão no caminho de conversão.
+   * *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas atribui mais peso ao primeiro e ao último eventos, com sucessivamente menos peso para os eventos no meio do caminho de conversão.
 
-* *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas atribui mais peso ao primeiro e ao último eventos, com sucessivamente menos peso para os eventos no meio do caminho de conversão.
+   * *[!UICONTROL Display Only]:*  Conversões de atributos para o último clique ou impressão DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
 
-* *[!UICONTROL Display Only]:*  Conversões de atributos para o último clique ou impressão DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
+   * *[!UICONTROL Social Only]:* Obsoleto
 
-* *[!UICONTROL Social Only]:* Obsoleto
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  (Todos [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas) Quais tipos de conversões relatar quando eventos anteriores ocorreram no mesmo dispositivo. É possível incluir até três tipos. Para cada tipo selecionado, uma coluna separada é incluída para cada métrica de conversão e é anexada com o sufixo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)]ou [!UICONTROL (vt)]):
 

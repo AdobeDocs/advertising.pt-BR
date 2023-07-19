@@ -3,9 +3,9 @@ title: Visão geral do [!DNL Analytics for Advertising]
 description: Visão geral do [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
+source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Principais benefícios:
 * Uso [!DNL Analytics] eventos personalizados e padrão como sinais de conversão para otimizar a publicidade de mídia paga.
 * Aproveite [!DNL Analytics] Analysis Workspace para entender melhor os pontos de entrada do site e o comportamento da visita.
 * Permita uma colaboração mais estreita entre analistas da Web e equipes de mídia paga.
-* Usar IDs de view-through e click-through Adobe Advertising persistentes no [!DNL Analytics] para entender o engajamento no site.
+* Usar IDs de view-through e click-through de publicidade Adobe persistente no [!DNL Analytics] para entender o engajamento no site.
 * Aprimore os relatórios tradicionais de mídia paga no Analysis Workspace com métricas, dimensões e atividades do site personalizadas que não são viáveis ao exportar dados ou pixels para servidores de publicidade ou outro DSP.
 * Aproveite [!DNL Analytics] O código do já está em seu site para rastreamento e otimização no Adobe Advertising.
 
@@ -43,7 +43,7 @@ Principais benefícios:
 * Usar IDs de view-through e click-through Adobe Advertising persistentes no [!DNL Analytics] para entender o engajamento no site.
 * Aproveite o Analysis Workspace para entender melhor os pontos de entrada do site e o comportamento da visita. É possível acessar dados dimensionais e de eventos de mídia paga, que incluem nomes de entidades de campanha de Adobe Advertising (até inserções e anúncios) e suas métricas associadas, como cliques, impressões e custo.
 
-Para usar [!DNL Analytics] como sua ferramenta de relatório de mídia paga, sua organização precisa de um logon de Experience Cloud com acesso ao Analysis Workspace. Sua equipe de Adobe Advertising ajudará você a mapear os dados de Adobe Advertising para conjuntos de relatórios individuais no Analysis Workspace. Você pode enviar dados de Adobe Advertising para qualquer conjunto de relatórios, mas esteja ciente dos conjuntos de relatórios que foram mapeados para o Adobe Advertising e daqueles que não foram. Dependendo do conjunto de relatórios, isso pode alterar os dados relatados.
+Para usar [!DNL Analytics] como sua ferramenta de relatório de mídia paga, sua organização precisa de um logon de Experience Cloud com acesso ao Analysis Workspace. Sua equipe de Adobe Advertising ajudará você a mapear os dados de Adobe Advertising para conjuntos de relatórios individuais no Analysis Workspace. Você pode enviar dados de publicidade de Adobe para qualquer conjunto de relatórios, mas esteja ciente dos conjuntos de relatórios que foram mapeados para a publicidade de Adobe e daqueles que não os receberam. Dependendo do conjunto de relatórios, isso pode alterar os dados relatados.
 
 [IDs de Adobe Advertising em [!DNL Analytics]](ids.md) O funciona como outras eVars, com uma expiração persistente e personalizada. Por padrão, a janela de retrospectiva de atribuição é definida como 60 dias durante a implementação do Adobe Advertising. Para alterar essa configuração, entre em contato com a equipe de conta do Adobe.
 
@@ -70,7 +70,7 @@ Sem exigir pixels adicionais, [!DNL Analytics for Advertising] O permite uma mel
 
 ### Métricas de conversão de site como sinais de oferta
 
-Você pode usar os eventos padrão e personalizados em [!DNL Analytics] para criar objetivos ponderados no Adobe Advertising. Os objetivos informam as decisões de licitação do seu [!DNL DSP] pacotes e portfólios de pesquisa.
+Você pode usar os eventos padrão e personalizados em [!DNL Analytics] para construir objetivos ponderados na Adobe Advertising. Os objetivos informam as decisões de licitação do seu [!DNL DSP] pacotes e portfólios de pesquisa.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Consulte &quot;[Métricas do Analytics no Adobe Advertising](analytics-data-in-a
 
 ### Segmentos do Analytics para redirecionamento de site
 
-A publicidade Adobe pode assimilar [!DNL Analytics] para fins de remarketing para DSP publicitário e [!DNL Search, Social, & Commerce] anúncios usando a integração nativa de públicos-alvo do Experience Cloud entre [!DNL Analytics] e Experience Cloud.
+Adobe Advertising pode assimilar [!DNL Analytics] para fins de remarketing para DSP publicitário e [!DNL Search, Social, & Commerce] anúncios usando a integração nativa de públicos-alvo do Experience Cloud entre [!DNL Analytics] e Experience Cloud.
 
 Para acessar o [!DNL Analytics] segmentos, uma conta de anunciante precisa ter a [Serviço de ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) ativado. Quando o serviço de ID está ativado, todos os segmentos de Experience Cloud (incluindo os segmentos criados no [!DNL Analytics] e publicado no Experience Cloud, segmentos criados no Adobe Audience Manager, segmentos criados no Experience Cloud usando o [!DNL People core service]e os segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising (via Audience Manager) ficam disponíveis no Adobe Advertising assim que são processados.
 
@@ -92,7 +92,7 @@ Para obter mais informações sobre o serviço Experience Cloud Audiences, consu
 
 ## Exemplos de como usar a integração {#integration-examples}
 
-### Utilização de dados de Adobe Advertising no Analysis Workspace
+### Uso de dados de publicidade do Adobe no Analysis Workspace
 
 Para saber como você pode usar seus dados de Adobe Advertising para criar relatórios visuais no Analysis Workspace, assista ao vídeo &quot;[Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
@@ -128,9 +128,13 @@ Uso da exibição Canal de marketing:
 
    Landing Page: `View-Through (CTV)`
 
+>[!NOTE]
+>
+> Conversões de view-through para inserções de CTV também estão disponíveis no [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
+
 ### Criação de painéis do Adobe Advertising
 
-Para saber como rastrear seus dados de Adobe Advertising em relação às suas metas no Analysis Workspace, assista ao vídeo &quot;[Criar painéis de publicidade do Adobe com o Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Para saber como rastrear seus dados de publicidade Adobe em relação às suas metas no Analysis Workspace, assista ao vídeo &quot;[Criar painéis do Adobe Advertising com o Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### Uso da ID de Adobe Advertising para a Análise de entrada de site
 
@@ -144,4 +148,4 @@ Para ver como criar um relatório de entrada de site Adobe Advertising para moni
 >* [Código JavaScript para o Analytics para publicidade](/help/integrations/analytics/javascript.md)
 >* [Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising](data-variances.md)
 >* [Métricas de publicidade Adobe no Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Dados no Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Dados em publicidade de Adobe](/help/integrations/analytics/analytics-data-in-advertising.md)

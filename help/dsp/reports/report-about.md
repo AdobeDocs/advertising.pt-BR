@@ -3,7 +3,7 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamen
 
    * **[!UICONTROL Household Reach & Frequency]:** Use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
 
-* **[!UICONTROL Household Conversions]:** Use esse relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
+   * **[!UICONTROL Household Conversions]:** Use esse relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
 
 ## Relatório entre contas {#cross-account-reporting}
 

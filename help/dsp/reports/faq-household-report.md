@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre relatórios domésticos
 description: Saiba mais sobre alcance, frequência e dados de conversão domésticos, incluindo como os relatórios domésticos são diferentes de outros relatórios e solução de problemas.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Quando um posicionamento inclui várias tags, o relatório considera a string in
 
 Há suporte para dois tipos de métodos de atribuição:
 
-* Exclusivo: conta o número de vezes que um valor de dimensão (como um dispositivo ou um posicionamento) estava no caminho para conversão.
+* [!UICONTROL Unique]: conta o número de vezes que um valor de dimensão (como um dispositivo ou um posicionamento) estava no caminho para conversão.
 
-* MTA (Atribuição multitoque): distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para a conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para a conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
 
 ### Como os relatórios de conversão doméstica diferem dos relatórios de view-through de CTV no Adobe Analytics?
 

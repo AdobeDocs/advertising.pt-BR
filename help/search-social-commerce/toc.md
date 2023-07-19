@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [Configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [Acesso FTP a relatórios](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Como as regras de atribuição são calculadas](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Perguntas frequentes sobre relatórios](/help/search-social-commerce/reports/faqs-report.md)
+      + [Perguntas frequentes sobre relatórios personalizados](/help/search-social-commerce/reports/faqs-report.md)
    + Notificação {#notifications}
       + [Sobre notificações](/help/search-social-commerce/notifications/notification-about.md)
       + [Exibir suas notificações](/help/search-social-commerce/notifications/notification-view.md)

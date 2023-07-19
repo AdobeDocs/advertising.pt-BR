@@ -1,14 +1,15 @@
 ---
-title: Perguntas frequentes sobre relatórios
+title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre relatórios
+# Perguntas frequentes sobre relatórios personalizados
 
 ## Perguntas gerais
 
@@ -208,7 +209,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 +++
 
 +++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante.
-A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] use dados capturados por meio do serviço de rastreamento de conversão do Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão de Adobe Advertising.
+A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] use dados capturados por meio do serviço de rastreamento de conversão de Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão de Adobe Advertising.
 +++
 
 +++Os dados de receita são diferentes dos dados de receita do próprio anunciante.
@@ -312,7 +313,7 @@ As redes de anúncios não fornecem o identificador necessário para atribuir re
 +++
 
 +++No [!UICONTROL Transaction Report], como saber qual propriedade de transação é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
-Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento Adobe Advertising se a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de publicidade do Adobe começam com &quot;`http://pixel.everesttech.net`.&quot;
+Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de publicidade do Adobe, caso inclua a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Os dados no meu [!UICONTROL Transaction Report] não corresponde aos dados em meu [!UICONTROL Keyword Report].

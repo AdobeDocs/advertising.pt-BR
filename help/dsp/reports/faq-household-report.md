@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre relatórios domésticos
 description: Saiba mais sobre alcance, frequência e dados de conversão domésticos, incluindo como os relatórios domésticos são diferentes de outros relatórios e solução de problemas.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Se sua organização tiver [!DNL Analytics for Advertising], use os dois tipos d
 
 ## [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] Relatórios versus dados de [!DNL Advanced Measurement Services]
 
-Para a comunicação avançada de informações sobre o alcance e a frequência ou as conversões [[!DNL Strategic Advertising Consulting] equipe](/help/dsp/introduction/advanced-measurement-services.md) O pode fornecer relatórios altamente personalizáveis juntamente com recomendações estratégicas holísticas. Para obter mais informações sobre [!DNL Advanced Measurement Services], entre em contato com a equipe de conta do Adobe.
+Para a comunicação avançada de informações sobre o alcance e a frequência ou conversões [[!DNL Strategic Advertising Consulting] equipe](/help/dsp/introduction/advanced-measurement-services.md) O pode fornecer relatórios altamente personalizáveis juntamente com recomendações estratégicas holísticas. Para obter mais informações sobre [!DNL Advanced Measurement Services], entre em contato com a equipe de conta do Adobe.
 
 ### Se eu já estiver usando [!DNL Advanced Measurement Services], por que devo usar o [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] relatórios?
 

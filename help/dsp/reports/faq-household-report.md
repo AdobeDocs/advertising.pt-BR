@@ -1,10 +1,10 @@
 ---
 title: Perguntas frequentes sobre relatórios domésticos
-description: Saiba mais sobre os dados do relatório, incluindo como o [!UICONTROL Household] Os relatórios do são diferentes dos outros relatórios do e da solução de problemas do.
+description: Saiba mais sobre alcance, frequência e dados de conversão domésticos, incluindo como os relatórios domésticos são diferentes de outros relatórios e solução de problemas.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---

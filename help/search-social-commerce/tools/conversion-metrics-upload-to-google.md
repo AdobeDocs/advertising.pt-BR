@@ -1,9 +1,10 @@
 ---
 title: Fazer upload de métricas de conversão para [!DNL Google Ads]
 description: Saiba como fazer upload de métricas de conversão rastreadas por pesquisa, redes sociais e comércio para [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
+source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 *Anunciantes com [!DNL Google Ads] Somente contas*
 
-Search, Social e Commerce podem, opcionalmente, fazer upload para [!DNL Google Ads] todas as métricas de conversão que ele rastreia [!DNL Google Ads] campanhas que usam o serviço de rastreamento de conversão de Adobe do Adobe e as métricas de conversão sincronizadas do Adobe Analytics. Essa opção não disponibiliza as conversões para otimização híbrida. Se quiser usar suas conversões de Adobe para otimização híbrida, consulte &quot;[Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md).&quot;
+Search, Social e Commerce podem, opcionalmente, fazer upload para [!DNL Google Ads] todas as métricas de conversão que ele rastreia [!DNL Google Ads] campanhas que usam o serviço de rastreamento de conversão de Adobe Advertising e métricas de conversão sincronizadas do Adobe Analytics. Essa opção não disponibiliza as conversões para otimização híbrida. Se quiser usar suas conversões de Adobe para otimização híbrida, consulte &quot;[Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md).&quot;
 
 Os uploads diários incluem o `gclid` , o valor de conversão definido usando o modelo de atribuição no nível do anunciante e o carimbo de data e hora. Se o modelo de atribuição for atualizado, o próximo upload usará o novo modelo, mas os dados anteriores não serão atualizados para usar o novo modelo.
 
@@ -31,4 +32,3 @@ Os uploads diários incluem o `gclid` , o valor de conversão definido usando o 
 >[!MORELIKETHIS]
 >
 >* [Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md)
-

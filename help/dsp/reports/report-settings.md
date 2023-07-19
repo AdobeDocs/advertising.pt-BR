@@ -3,7 +3,7 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** O nome do relatório. O comprimento máximo é de 180 caracteres.
 
-**[!UICONTROL Report Type]** O tipo de relatório: *[!UICONTROL Custom]* (que inclui a maioria das opções disponíveis), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]* ou *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** O tipo de relatório: *[!UICONTROL Custom]* (que inclui a maioria das opções disponíveis), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] Seção
 
@@ -46,15 +46,15 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > A variável [!UICONTROL Household] O relatório pode incluir apenas uma dimensão.
+  >[!NOTE]
+  >
+  > A variável [!UICONTROL Household Reach & Frequency] O relatório pode incluir apenas uma dimensão.
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >A variável [!UICONTROL Household] O relatório pode incluir métricas de sobreposição ou não, mas não ambas.
+  >[!NOTE]
+  >
+  >A variável [!UICONTROL Household Reach & Frequency] O relatório pode incluir métricas de sobreposição ou não, mas não ambas.
 
 * [!UICONTROL Conversion Metrics] (classificado pelo anunciante)
 
@@ -70,7 +70,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Report Headers]:** Se deseja *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* cabeçalhos de coluna.
 
-**[!UICONTROL Attribution Rule Settings]:** (Todos [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de anúncio Adobe (somente) No relatório, saiba como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
+**[!UICONTROL Attribution Rule Settings]:** (Todos [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, saiba como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
 
 >[!NOTE]
 >
@@ -156,4 +156,3 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 >* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Sobre destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
-

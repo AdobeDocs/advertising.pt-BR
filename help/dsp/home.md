@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
+source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
-| 19 de julho de 2023 | Relatórios | (Usuários de DSP com [!DNL Analytics for Advertising]) O novo [!UICONTROL Household Conversions Report] O mostra conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md)&quot; e &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md).&quot; |
+| 19 de julho de 2023 | Relatórios | O novo [!UICONTROL Household Conversions Report] O mostra conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md)&quot; e &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 de maio de 2023 | [!UICONTROL Campaigns] | Agora você pode pausar ou ativar campanhas, pacotes e anúncios. Você já pode pausar e ativar disposições. | Consulte &quot;[Pausar ou ativar uma campanha](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausar ou ativar um pacote](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; e &quot;[Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 de maio de 2023 | [!UICONTROL Campaigns] | Posicionamentos e anúncios de vídeo universais agora estão disponíveis para o público em geral. | Consulte &quot;[Perguntas frequentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; e &quot;[Crie um anúncio](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Março de 2023 | [!UICONTROL Reports] | Um novo [!UICONTROL Household Report] A mostra impressões, alcance e frequência em várias dimensões em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. O relatório inclui nove dimensões: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]e criado pelo usuário [!UICONTROL Tags]. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md),&quot; &quot;[Configurações do relatório](/help/dsp/reports/report-settings.md),&quot; e &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md).&quot; |

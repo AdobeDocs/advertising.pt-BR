@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 ## [!UICONTROL Multi-Touch Conversion Options] Seção
 
-**[!UICONTROL Attribution Rule Settings]** As configurações variam de acordo com o tipo de relatório:
+**[!UICONTROL Attribution Rule Settings]:** As configurações variam de acordo com o tipo de relatório:
 
 * **\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes com rastreamento de conversão de Adobe Advertising somente) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
 
@@ -150,7 +150,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 ## [!UICONTROL Save Report] Seção
 
-**[!UICONTROL Send & Save]:** Quando enviar o relatório: *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Os relatórios agendados serão entregues até às 9:00 no fuso horário da conta.
+**[!UICONTROL Send & Save]:** Quando enviar o relatório: *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Os relatórios agendados são entregues até às 9:00 no fuso horário da conta.
 
 >[!NOTE]
 >

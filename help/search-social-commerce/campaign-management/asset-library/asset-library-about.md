@@ -1,9 +1,9 @@
 ---
 title: "Sobre o [!UICONTROL Asset Library]"
 description: Saiba mais sobre a biblioteca de ativos para seus ativos de anúncios.
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Para [!DNL Google Ads] somente contas*
 
-*Recurso beta*
+*Abrir recurso beta*
 
 Entrada [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], você pode criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los na sua [!DNL Google Ads] biblioteca de ativos no nível da conta.
 

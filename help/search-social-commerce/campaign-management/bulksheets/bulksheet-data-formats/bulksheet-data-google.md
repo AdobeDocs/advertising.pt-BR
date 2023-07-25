@@ -1,9 +1,10 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode usar arquivos de bulksheet do Search, Social e Commerce formatados especificamente para [!DNL Google Ads] contas. Você pode: a) [gerar arquivos de planilha em massa para contas existentes](../bulksheet-download.md) no formato de arquivo necessário ou b) crie-os manualmente (consulte &quot;[Formatos de arquivo de bulksheet suportados](bulksheet-file-formats.md)&quot; para obter informações gerais sobre os formatos de arquivo compatíveis).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Cada bulksheet deve incluir os campos de cabeçalho e os campos de dados correspondentes necessários para o [operações específicas que você deseja executar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (como criar um anúncio). Quando um campo não é obrigatório, você pode omiti-lo das linhas de cabeçalho e dados. Todas as colunas personalizadas são excluídas ao fazer upload do arquivo de planilha em massa.
+
+A seguir há uma tabela de todos os campos de dados disponíveis e tabelas adicionais indicando quais campos são necessários para adicionar, editar ou excluir dados de entidades individuais (como campanhas e palavras-chave).
 
 ## Todos os campos de dados disponíveis
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+A tabela a seguir mostra todos os campos de dados disponíveis.
+
+Para os campos de dados relevantes para entidades de conta, consulte &quot;[Campos necessários para criar, editar ou excluir cada componente da conta](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* Os valores em todas as colunas de texto fazem distinção entre maiúsculas e minúsculas.
+>* Ao criar um novo registro e não incluir valores para todos os campos de dados obrigatórios, alguns desses campos recebem os valores padrão especificados.
+>* Para campos que não são especificados abaixo, o valor padrão para a rede de publicidade é usado.
+>* Para obter uma lista de linhas de bulksheet disponíveis no [!UICONTROL Download Bulksheet] , consulte &quot;[Linhas de bulksheet por rede de anúncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Campo | Descrição |
 | ---- | ---- |
@@ -116,7 +128,11 @@ Para criar e atualizar [!DNL Google Ads] dados de campanha em massa, você pode 
 
 [^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 
-## Campos necessários para criar, editar ou excluir cada componente da conta
+## Campos necessários para criar, editar ou excluir cada componente da conta {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>Quando um campo não é aplicável a uma ação, qualquer valor inserido no campo é ignorado.
 
 ### Campos de campanha
 

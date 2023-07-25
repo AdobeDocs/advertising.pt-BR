@@ -2,9 +2,9 @@
 title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Cada bulksheet deve incluir os campos de cabeçalho e os campos de dados corresp
 
 A seguir há uma tabela de todos os campos de dados disponíveis e tabelas adicionais indicando quais campos são necessários para adicionar, editar ou excluir dados de entidades individuais (como campanhas e palavras-chave).
 
-## Todos os campos de dados disponíveis
+## Todos os campos de dados disponíveis {#bulksheet-fields-all-google}
 
-A tabela a seguir mostra todos os campos de dados disponíveis.
+A tabela a seguir descreve todos os campos de dados disponíveis.
 
 Para os campos de dados relevantes para entidades de conta, consulte &quot;[Campos necessários para criar, editar ou excluir cada componente da conta](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ Para os campos de dados relevantes para entidades de conta, consulte &quot;[Camp
 [^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 
 ## Campos necessários para criar, editar ou excluir cada componente da conta {#bulksheet-fields-per-component-google}
+
+As seções a seguir incluem os campos relevantes para entidades de conta específicas.
+
+Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os campos de dados disponíveis](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >

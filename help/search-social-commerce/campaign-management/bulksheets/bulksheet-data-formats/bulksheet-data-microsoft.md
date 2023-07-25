@@ -2,9 +2,9 @@
 title: Dados de bulksheet necessários para [!DNL Microsoft Advertising] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Microsoft Advertising] contas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Cada bulksheet deve incluir os campos de cabeçalho e os campos de dados corresp
 
 A seguir há uma tabela de todos os campos de dados disponíveis e tabelas adicionais indicando quais campos são necessários para adicionar, editar ou excluir dados de entidades individuais (como campanhas e palavras-chave).
 
-## Todos os campos de dados disponíveis
+## Todos os campos de dados disponíveis {#bulksheet-fields-all-microsoft}
 
-A tabela a seguir mostra todos os campos de dados disponíveis.
+A tabela a seguir descreve todos os campos de dados disponíveis.
 
 Para os campos de dados relevantes para entidades de conta, consulte &quot;[Campos necessários para criar, editar ou excluir cada componente da conta](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ Para os campos de dados relevantes para entidades de conta, consulte &quot;[Camp
 [^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 
 ## Campos necessários para criar, editar ou excluir cada componente da conta {#bulksheet-fields-per-component-microsoft}
+
+As seções a seguir incluem os campos relevantes para entidades de conta específicas.
+
+Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os campos de dados disponíveis](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >

@@ -1,22 +1,22 @@
 ---
-title: Política de requisitos para anúncio de Adobe
+title: Política de requisitos de anúncio de Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Política de requisitos para anúncio de Adobe
+# Política de requisitos de anúncio de Adobe Advertising
 
-*Última atualização: 12 de julho de 2021*
+*Última atualização: 12 de julho de 2021 (exceto para nomes de produtos e URL atualizados desta página)*
 
-*Para pesquisa de publicidade de Adobe DSP e Adobe Advertising*
+*Para Adobe Advertising DSP e Adobe Advertising Search, Social e Comércio*
 
-Esta Política de requisitos para anúncios (&quot;Política&quot;) estabelece os requisitos para anúncios distribuídos pelos Serviços sob demanda para publicidade em Adobe (&quot;Serviços&quot;) da Adobe. Esta Política é incorporada por referência ao Contrato entre a Adobe e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
+Esta Política de requisitos de anúncios (&quot;Política&quot;) estabelece os requisitos para anúncios distribuídos pelos Serviços sob demanda do Adobe para Adobe Advertising (&quot;Serviços&quot;). Esta Política é incorporada por referência ao Contrato entre a Adobe e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
 
 A Adobe se reserva o direito de determinar, em seu único julgamento, se um Anúncio ou os sites para os quais o Anúncio redireciona ou links violam os requisitos desta Política, em cujo caso a Adobe pode rejeitar tal Anúncio e/ou encerrar ou suspender o acesso aos Serviços com base nisso.
 
@@ -26,7 +26,7 @@ Além dos requisitos estabelecidos abaixo e no Contrato, você deve estar em con
 
 ### Requisitos criativos
 
-Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de publicidade contidas nas Especificações de anúncio de publicidade do Adobe, conforme revisto pelo Adobe periodicamente.
+Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de publicidade contidas nas Especificações de anúncio do Adobe Advertising, conforme revisto pelo Adobe de tempos em tempos.
 
 ### Anúncios proibidos
 
@@ -128,4 +128,3 @@ Você não pode usar os Serviços para se envolver em discriminação em violaç
 >[!MORELIKETHIS]
 >
 >* [Diretrizes de segmento de integridade aceitável](/help/policies/health-segment-guidelines.md)
-

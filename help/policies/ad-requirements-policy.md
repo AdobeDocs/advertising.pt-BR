@@ -3,16 +3,16 @@ title: Política de requisitos de anúncio de Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
+source-git-commit: 6255609563c595b921ef9867359cc57498571d73
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Política de requisitos de anúncio de Adobe Advertising
 
-*Última atualização: 12 de julho de 2021*
+*Última atualização: 12 de julho de 2021 (exceto para nomes de produtos e URL atualizados desta página)*
 
 *Para Adobe Advertising DSP e Adobe Advertising Search, Social e Comércio*
 
@@ -26,7 +26,7 @@ Além dos requisitos estabelecidos abaixo e no Contrato, você deve estar em con
 
 ### Requisitos criativos
 
-Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de publicidade contidas nas Especificações de anúncio de publicidade do Adobe, conforme revisto pelo Adobe periodicamente.
+Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de publicidade contidas nas Especificações de anúncio do Adobe Advertising, conforme revisto pelo Adobe de tempos em tempos.
 
 ### Anúncios proibidos
 

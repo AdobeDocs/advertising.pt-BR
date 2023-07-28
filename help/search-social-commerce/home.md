@@ -5,10 +5,10 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+source-git-commit: 93478366b47acc2f19910a101477858bbe9b8d55
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 24 de julho de 2023 | [!UICONTROL Campaigns], [!UICONTROL Reports], [!UICONTROL Portfolios] | Novas colunas refletem novas convenções de nomenclatura:<ul><li>&quot;[!UICONTROL Objective Value]&quot;tem o mesmo valor que o existente&quot;[!UICONTROL Weighted Revenue]&quot;. Está incluído:</li><ul><li>por padrão, no campo [!UICONTROL Portfolios] > [!UICONTROL Portfolios], [!UICONTROL Portfolios] > [!UICONTROL Campaigns], [!UICONTROL Portfolios > Bid Units], e [!UICONTROL Portfolio Spotlight] > [!UICONTROL Performance] > [!UICONTROL Campaigns] visualizações</li><li>automaticamente em simulações personalizadas</li><li>por padrão, em simulações semanais na tela; a coluna herdada ainda é opcional, mas será removida no futuro</li><li>por padrão, no campo [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e [!UICONTROL Campaigns] > [!UICONTROL Keywords] visualizações</li><li>por padrão, no campo [!UICONTROL Portfolio Report], [!UICONTROL Campaign Report], e [!UICONTROL Keyword Report]</li></ul><li>&quot;[!UICONTROL Objective Value Calculation],&quot; que é o cálculo usado para derivar a [!UICONTROL Objective Value], está incluído por padrão no [!UICONTROL Portfolio Report], [!UICONTROL Campaign Report], e [!UICONTROL Keyword Report].</li><li>&quot;[!UICONTROL Marginal Cost-to-Objective Value]&quot;tem o mesmo valor que o existente&quot;[!UICONTROL Marginal Cost-to-Revenue]&quot;. Está incluído:</li><ul></li>automaticamente em simulações personalizadas</li><li>por padrão, em simulações semanais na tela; a coluna herdada ainda é opcional, mas será removida no futuro</li></ul></ul> | Consulte &quot;[Glossário](/help/search-social-commerce/glossary.md).&quot;<br><br>Consulte também &quot;[Colunas de relatório para relatórios básicos e avançados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)&quot; |
 | 30 de junho de 2023 | [!UICONTROL Asset Library] | (Abrir recurso beta; [!DNL Google Ads] contas) Em [!UICONTROL Campaigns] > [!UICONTROL Asset Library], você pode criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los na sua [!DNL Google Ads] biblioteca de ativos no nível da conta. Você pode usar seus ativos para anúncios ao criar ou editar campanhas dentro da [!DNL Google Ads] editor. | Consulte &quot;[Criar e carregar ativos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | | [!UICONTROL Google Import] | Agora você pode gerar sua própria ID de credencial de importação de [!DNL Microsoft® Advertising] ao configurar um trabalho de importação do campaign para [!DNL Google Ads]. Anteriormente, o suporte técnico para o Adobe ou a equipe de conta do Adobe fornecia a ID do. | Consulte &quot;[Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).&quot; |
 | 27 de junho de 2023 | [!UICONTROL Campaigns] | (Recurso beta; [!DNL Microsoft® Advertising] contas) Agora, você pode especificar metas de conversão no nível da campanha no [!DNL Microsoft® Advertising] configurações da campanha. Antes, quando você criava uma campanha no Search, Social e Commerce, as metas no nível da conta eram usadas. | Consulte &quot;[[!DNL Microsoft® Advertising] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |

@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **custo marginal:** A alteração no custo total quando a quantidade é alterada por uma unidade.
 
+**valor marginal do custo para o objetivo:** A alteração no custo necessária para aumentar o valor do objetivo em um (1). Ela tem o mesmo valor da coluna herdada &quot;Custo-para-Receita Marginal&quot;.
+
 **tipo de correspondência:** Uma opção que especifica como os termos de pesquisa são correspondidos aos anúncios. As opções variam de acordo com a rede de anúncios.
 
 **lance mínimo:** 1) O valor mínimo a ser pago por impressão ou por 1000 impressões. 2) Para palavras-chave de pesquisa, o lance mínimo necessário para uma determinada palavra-chave com base em sua pontuação de qualidade. O lance mínimo é geralmente o menor valor que você pode pagar por clique para que sua palavra-chave mostre anúncios.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **objetivo:** (Anunciantes com portfólios) Uma meta que um cliente define para atender ao seu objetivo de negócios para um portfólio específico ou uma campanha de exibição, como maximizar lucros ou atender a uma meta de vendas específica. Um objetivo consiste nas métricas de conversão (também chamadas de propriedades de transação) a serem rastreadas e otimizadas para o portfólio e nos pesos relativos dessas métricas.
+
+**valor do objetivo:** (Anunciantes com portfólios) O total de conversões ponderadas conforme calculado de acordo com o objetivo atual do portfólio, incluindo:
+
+* todas as conversões, tendo em conta a) os pesos atribuídos a cada conversão na função objetiva da carteira e, quando aplicável, b) o peso de view-through para view-throughs.
+
+* todos os cliques, que o recurso de otimização considera uma única conversão e é ponderado de acordo com o valor de clique do objetivo.
+
+Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **recurso de otimização:** (Anunciantes com portfólios) Tecnologia de lances de palavras-chave de Pesquisa, Social e Comércio, que determina a estratégia ideal de lances e gerenciamento de orçamento para um portfólio com base em seu objetivo comercial.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## W-X {#w-x}
 
-**receita ponderada:** (Anunciantes com portfólios) A receita total, que inclui:
-
-* todas as receitas, tendo em conta a) os pesos atribuídos a cada propriedade de transação no objetivo da carteira e, quando aplicável, b) o peso de view-through para view-throughs/sociais.
-
-* todos os cliques, que o recurso de otimização considera uma única propriedade de transação e é ponderado de acordo com o valor de clique do objetivo.
+**receita ponderada:** Consulte &quot;valor objetivo&quot;.
 
 **XLS** ou **XLSX**: um formato de arquivo binário para [!DNL Microsoft Office Excel] pastas de trabalho.
 

@@ -1,7 +1,9 @@
 ---
 title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,9 +20,9 @@ A parte superior de cada página inclui o menu principal e outros menus baseados
 
 As opções do menu principal de nível superior são baseadas nos canais de publicidade disponíveis. Você verá apenas os canais de publicidade que se aplicam a você:
 
-* **[!UICONTROL DSP]** — (Quando você tiver acesso ao Adobe Advertising DSP (Demand Side Platform) Para gerenciar sua exibição e anúncios de TV conectados. Um separado [Guia do DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) está disponível.
+* **[!UICONTROL DSP]** — (Quando você tiver acesso ao Adobe Advertising DSP (Demand Side Platform)) Para gerenciar sua exibição e anúncios de TV conectados. Um separado [Guia do DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) está disponível.
 
-* **[!UICONTROL Creative]** — (Quando você tiver acesso ao Adobe Advertising Creative) Para automatizar experiências de anúncio personalizadas em tempo real e otimizar seus anúncios no nível do elemento criativo. A ajuda separada está disponível na Creative.
+* **[!UICONTROL Creative]** — (Quando você tem acesso ao Adobe Advertising Creative) Para automatizar experiências de anúncio personalizadas em tempo real e otimizar seus anúncios no nível do elemento criativo. A ajuda separada está disponível na Creative.
 
 * **[!UICONTROL Search]** — gerencie suas contas de rede de anúncios no Search, Social e Commerce, inclusive aquelas para as quais o Search, Social e Commerce está rastreando, mas não faz lances.
 
@@ -32,7 +34,7 @@ No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíve
 
 * **[!UICONTROL Optimization]** — esse menu tem opções para gerenciar objetivos de negócios, gerenciar portfólios com base em seus objetivos de negócios, monitorar o desempenho do portfólio e gerar relatórios entre portfólios [!UICONTROL Spend Recommendation Report], gerenciar restrições de licitação e exibir e (alguns usuários) gerenciar suas [!DNL Google Ads] regras de valor de conversão.
 
-   A documentação separada sobre esses recursos está disponível no [!UICONTROL Help] menu (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")).
+  A documentação separada sobre esses recursos está disponível no [!UICONTROL Help] menu (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")).
 
 * **[!UICONTROL Insights & Reports]** — esse menu inclui opções para gerar insights e relatórios detalhados, automatizar a produção de relatórios usando feeds de planilhas, criar e monitorar alertas, definir as configurações de notificação, exibir recomendações de rede de anúncios e exibir um log de alterações feitas na conta do anunciante.
 
@@ -46,7 +48,7 @@ No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíve
 
 * ![Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta") Um painel listando suas notificações de Pesquisa, Social e Comércio.
 
-   Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), esse painel mostra as notificações do Experience Cloud.
+  Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), esse painel mostra as notificações do Experience Cloud.
 
 * ![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda") Um menu de ajuda que inclui links para a documentação e outras informações.
 
@@ -54,10 +56,9 @@ No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíve
 
 * ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") Um link para o seu perfil, do qual você pode fazer logoff.
 
-   Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), você também pode editar o perfil de Experience Cloud, incluindo a senha do Experience Cloud e as configurações de notificação.
+  Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), você também pode editar o perfil de Experience Cloud, incluindo a senha do Experience Cloud e as configurações de notificação.
 
 >[!MORELIKETHIS]
 >
 >* [Fazer logon](log-in.md)
 >* [Fazer logoff](log-out.md)
-

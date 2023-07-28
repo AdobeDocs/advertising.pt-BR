@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] configurações de anúncios responsivos"
+title: '[!DNL Microsoft® Advertising] configurações de anúncios responsivos'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] anúncios responsivos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -52,4 +54,3 @@ Para anúncios de público-alvo, [!DNL Microsoft® Advertising] recorta automati
 >* [[!DNL Microsoft® Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
-

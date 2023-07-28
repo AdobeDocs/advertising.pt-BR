@@ -1,7 +1,9 @@
 ---
 title: Gerenciar sitelinks compartilhados
 description: Saiba como criar e gerenciar extensões compartilhadas do sitelink.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 
 **[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-* Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot;O e o &quot;Upload automático&quot; do Search, Social e Commerce adicionam automaticamente os prefixos de seu próprio código de rastreamento de cliques ao salvar o registro.
+* Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot;O e o &quot;Upload automático&quot; do Search, Social e Commerce adicionam automaticamente os prefixos de seu próprio código de rastreamento de cliques ao salvar o registro.
 
 * Para obter os parâmetros compatíveis que incorporam o URL final, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 

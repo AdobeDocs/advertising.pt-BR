@@ -1,7 +1,9 @@
 ---
 title: Criar um [!DNL Excel] modelo para um feed de relatório de planilha
 description: Saiba como criar modelos de planilha especialmente formatados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Para criar feeds de planilha, você deve primeiro criar feeds especialmente form
    >
    > * Você pode criar feeds de planilha para [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], e [!UICONTROL Forecast Accuracy] relatórios. Se você usar o [!UICONTROL Ad Group Report], limite o número de grupos de anúncios incluídos para obter resultados mais rápidos.
    > * A variável [!UICONTROL Date Range] a unidade definida no modelo não é usada. Você definirá as datas para as quais atualizará os dados ao configurar o feed de planilha posteriormente.
-
 
 1. Depois que o relatório for gerado, acesse **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** e exporte uma versão TSV ou XLS da saída do relatório para um arquivo.
 
@@ -43,10 +44,10 @@ Para criar feeds de planilha, você deve primeiro criar feeds especialmente form
          Esse nome de guia específico permite que os dados sejam atualizados.
 
       4. (Opcional) Adicione colunas personalizadas à direita das colunas do modelo de relatório, conforme necessário.
+
    1. (Opcional) Em uma planilha separada, crie uma tabela dinâmica. Depois de concluir, clique com o botão direito do mouse em qualquer célula da tabela dinâmica e selecione **[!UICONTROL Pivot Table Options]**, clique no link **[!UICONTROL Data]** e selecione **[!UICONTROL Refresh data when opening the file]**.
 
    1. Salvar o arquivo como um [!DNL Excel] planilha em formato .XLSX.
-
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ Para criar feeds de planilha, você deve primeiro criar feeds especialmente form
 >* [Exibir ou salvar um arquivo de feed de relatório de planilha](spreadsheet-feed-view-or-save.md)
 >* [Atualizar manualmente os feeds de relatório da planilha](spreadsheet-feed-refresh.md)
 >* [Excluir feeds de relatório de planilha](spreadsheet-feed-delete.md)
-

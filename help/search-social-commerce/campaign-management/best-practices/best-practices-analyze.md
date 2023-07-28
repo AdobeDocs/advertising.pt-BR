@@ -1,7 +1,9 @@
 ---
 title: Analise relatórios para refinar suas palavras-chave e configurações de campanha
 description: Saiba mais sobre as práticas recomendadas para usar relatórios para refinar suas palavras-chave e configurações de campanha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Para obter mais informações sobre como ajustar as palavras-chave e as configur
 >
 >* [Escrever texto efetivo e copiar](best-practices-write.md)
 >* [Otimizar as páginas de aterrissagem do site](best-practices-optimize.md)
-

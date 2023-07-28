@@ -1,7 +1,9 @@
 ---
 title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques de Pesquisa, Social e Comércio.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Gerar um URL de rastreamento de cliques de Pesquisa, Social e Comércio usando a ferramenta URLs de rastreamento
 
-*Anunciantes com rastreamento de conversão de anúncio Adobe somente*
+*Anunciantes com rastreamento de conversão de Adobe Advertising somente*
 
 Para obter informações sobre quando você deve gerar e implementar manualmente um URL de rastreamento de cliques, consulte &quot;[Quando e como gerar URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

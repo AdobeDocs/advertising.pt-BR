@@ -1,7 +1,9 @@
 ---
 title: Ativar um modelo de alerta personalizado
 description: Saiba como ativar um modelo de alerta pausado.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Você pode ativar modelos de alertas pausados.
 
    * (Para ativar um ou mais modelos) Marque a caixa de seleção ao lado de cada modelo de alerta que você deseja ativar. Na barra de ferramentas, clique em ![Ativar](/help/search-social-commerce/assets/activate.png "Ativar"). Na caixa de diálogo, clique em **[!UICONTROL Activate]**.
 
-      Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ Você pode ativar modelos de alertas pausados.
 >* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)
-

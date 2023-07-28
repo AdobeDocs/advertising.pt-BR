@@ -1,7 +1,9 @@
 ---
 title: Gerenciar anúncios
 description: Saiba como criar e gerenciar anúncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -36,11 +38,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >(Campanhas com rastreamento de conversão de Adobe Advertising) Se as configurações de conta ou campanha especificarem o rastreamento somente no nível da palavra-chave, a Pesquisa, o Social e o Comércio não gerarão o rastreamento para anúncios.
+   >(Campanhas com rastreamento de conversão de Adobe Advertising) Se as configurações de conta ou campanha especificarem o rastreamento somente no nível da palavra-chave, o Search, Social e Commerce não gerará o rastreamento para anúncios.
 
 1. Clique em **[!UICONTROL Post]**.
 
-1. (Anúncios de compras em campanhas com rastreamento de conversão de Adobe; opcional) Para rastrear cliques no anúncio, [gerar um URL de rastreamento usando a ferramenta URLs de rastreamento](/help/search-social-commerce/tools/click-tracking-url-generate.md)e adicioná-lo manualmente às configurações de conta, campanha ou grupo de produtos.
+1. (Anúncios de compras em campanhas com rastreamento de conversão de Adobe Advertising; opcional) Para rastrear os cliques no anúncio, [gerar um URL de rastreamento usando a ferramenta URLs de rastreamento](/help/search-social-commerce/tools/click-tracking-url-generate.md)e adicioná-lo manualmente às configurações de conta, campanha ou grupo de produtos.
 
 ## Editar configurações de publicidade
 
@@ -49,7 +51,6 @@ ht-degree: 0%
 >* Os seguintes tipos de anúncios são *mutável*, o que significa que é possível alterar a cópia ou imagem do anúncio e manter a mesma ID do anúncio: todas [!DNL Google Ads] tipos de anúncios, exceto anúncios de pesquisa dinâmica, e [!DNL Microsoft Advertising] anúncios de texto expandidos.
 >* Todos os outros anúncios suportados são *não mutável*, o que significa que alterar a cópia ou imagem do anúncio exclui o anúncio existente e cria um novo. O desempenho do novo anúncio pode ficar volátil por algumas semanas, enquanto o Search, Social e Commerce coleta dados suficientes para otimizar ofertas.
 >* Não é possível editar o conteúdo de um anúncio de produto, exceto a linha de promoção de [!DNL Microsoft Advertising] anúncios de produto. No entanto, você pode pausar ou excluir um anúncio.
-
 
 >[!TIP]
 >
@@ -114,4 +115,3 @@ Você também pode excluir qualquer anúncio de pesquisa ativo ou pausado. Os an
 >* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] configurações de anúncio de texto](ad-settings-yandex-text.md)
-

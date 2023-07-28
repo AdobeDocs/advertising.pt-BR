@@ -1,7 +1,9 @@
 ---
 title: Sobre [!DNL Google Ads] destinos de pesquisa dinâmica
 description: Saiba mais sobre [!DNL Google Ads] alvos de pesquisa dinâmica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Dependendo das configurações da campanha, os destinos de pesquisa dinâmica po
 
 * Opcionalmente, é possível criar alvos de pesquisa dinâmica ao especificar um domínio de site e idioma no &quot;[!UICONTROL DSA Options]&quot;.
 
-   [!DNL Google Ads] mostra automaticamente seus anúncios de pesquisa dinâmica com base no conteúdo de um site especificado com essas configurações.
+  [!DNL Google Ads] mostra automaticamente seus anúncios de pesquisa dinâmica com base no conteúdo de um site especificado com essas configurações.
 
 Para melhor rastrear o desempenho, configure sua campanha com um grupo de anúncios por público alvo de pesquisa dinâmica e inclua um grupo de anúncios que segmente todos os critérios.
 
@@ -35,4 +37,3 @@ Você também pode [aplicar um rótulo](/help/search-social-commerce/campaign-ma
 >[!MORELIKETHIS]
 >
 >* [Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica](dynamic-search-target-manage.md)
-

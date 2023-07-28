@@ -1,7 +1,9 @@
 ---
 title: Atribuir valores de classificação aos componentes da conta das exibições de gerenciamento de campanha
 description: Saiba como atribuir valores de classificação a componentes de conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
       * Marque a caixa de seleção ao lado de cada linha relevante.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais")e clique em **[!UICONTROL Classification]**.
 
@@ -38,17 +40,17 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
    * Para alterar quaisquer valores de classificações existentes para novos valores, selecione **[!UICONTROL Set To]**.
 
-      O comprimento máximo para cada valor é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
+     O comprimento máximo para cada valor é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
 
    * Para atribuir valores de classificação especificados sem remover valores existentes, selecione **[!UICONTROL Assign]**.
 
    * Para remover valores de classificação específicos atribuídos no momento, selecione **[!UICONTROL Remove]**.
 
-      Ao remover um valor de classificação, os dados do relatório referentes ao valor não estarão mais disponíveis para os componentes de conta especificados.
+     Ao remover um valor de classificação, os dados do relatório referentes ao valor não estarão mais disponíveis para os componentes de conta especificados.
 
    * Para excluir os valores de classificação especificados, selecione **[!UICONTROL Delete]**.
 
-      A exclusão de um valor de classificação o torna indisponível para uso futuro e os dados de relatório não estão mais disponíveis para o valor. Todas as atribuições entre os valores e componentes de conta específicos são removidas, mas os componentes de conta não são excluídos.
+     A exclusão de um valor de classificação o torna indisponível para uso futuro e os dados de relatório não estão mais disponíveis para o valor. Todas as atribuições entre os valores e componentes de conta específicos são removidas, mas os componentes de conta não são excluídos.
 
 1. Para cada valor de classificação aplicável, faça o seguinte:
 
@@ -58,15 +60,15 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
       * Para criar uma classificação, clique em [!UICONTROL +]. No campo de entrada, digite o nome da classificação e clique em ![Salvar](/help/search-social-commerce/assets/select.png "Salvar") para salvar imediatamente a classificação.
 
-         O nome deve consistir em [Caracteres ASCII 32-126](https://www.asciitable.com/)e o comprimento máximo é de 27 caracteres de byte único.
+        O nome deve consistir em [Caracteres ASCII 32-126](https://www.asciitable.com/)e o comprimento máximo é de 27 caracteres de byte único.
+
    1. No **[!UICONTROL Value Name]** especifique o nome do valor:
 
       * Para usar um valor existente, clique no nome do valor para selecioná-lo.
 
       * Para criar um valor, clique em [!UICONTROL +]. No campo de entrada, insira o valor e clique em ![Salvar](/help/search-social-commerce/assets/select.png "Salvar") para salvar imediatamente o valor.
 
-         O comprimento máximo é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
-
+        O comprimento máximo é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
 
 1. (Opcional) Insira detalhes adicionais:
 
@@ -84,4 +86,3 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir valores de classificação de etiqueta](classification-values-delete.md)
 >* [Excluir classificações de etiquetas](classification-delete.md)
-

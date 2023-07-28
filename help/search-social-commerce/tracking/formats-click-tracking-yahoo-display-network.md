@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Yahoo! Display Network]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Yahoo! Display Network] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -26,9 +28,7 @@ Exemplo:
 >
 >* `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
-

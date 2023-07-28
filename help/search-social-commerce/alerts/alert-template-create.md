@@ -1,7 +1,9 @@
 ---
 title: Criar um modelo de alerta personalizado
 description: Saiba como criar um modelo para gerar alertas personalizados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Você pode mover-se entre guias clicando no nome da guia (como &quot;Filtros&quo
 >* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)
-

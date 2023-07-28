@@ -1,7 +1,9 @@
 ---
 title: Alterar o nome de exibição de uma propriedade de transação
 description: Saiba como alterar o nome da propriedade de transação mostrado nos cabeçalhos de coluna em suas visualizações de gerenciamento e relatórios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Não é possível excluir um nome para exibição existente.
 
 >[!NOTE]
 >
->Para [métricas do Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md), todas as alterações manuais no nome de exibição serão substituídas se você atualizar ou reautenticar a integração. Da mesma forma, qualquer alteração de nome em Google Analytics é ignorada, a menos que você [atualizar](/help/search-social-commerce/admin/data-sources/data-source-edit.md) ou [reautenticar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) a integração.
+>Para [métricas do Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md), todas as alterações manuais no nome de exibição serão substituídas se você atualizar ou reautenticar a integração. Da mesma forma, qualquer alteração de nome em Google Analytics é ignorada, a menos que [atualizar](/help/search-social-commerce/admin/data-sources/data-source-edit.md) ou [reautenticar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) a integração.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
 
@@ -31,4 +33,3 @@ Não é possível excluir um nome para exibição existente.
 >* [Sobre o gerenciamento das propriedades de transação de um anunciante](transaction-property-about.md)
 >* [Exibir as propriedades de transação rastreadas para um anunciante](transaction-property-view-tracked.md)
 >* [Alterar as propriedades de transação disponíveis em exibições de gerenciamento e relatórios](transaction-property-edit-available.md)
-

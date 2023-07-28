@@ -1,7 +1,9 @@
 ---
 title: Sobre grupos de produtos de compras
 description: Saiba mais sobre grupos de produtos de compras em campanhas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -44,9 +46,9 @@ Você pode criar e editar grupos de produtos, além de excluir grupos de produto
 
 * (Obrigatório para [!DNL Google Ads]; melhores práticas para [!DNL Microsoft Advertising]) Adicionar o URL de rastreamento à [!DNL Tracking Template] na conta, campanha ou configuração de grupo de produtos. Para facilitar a manutenção, adicione-os no mais alto nível possível. Nenhum parâmetro de acréscimo especificado para a conta ou campanha foi incluído.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) Use esta opção somente quando não incluir URLs de rastreamento de Pesquisa, Social e Comércio em uma coluna personalizada no feed do produto. Se você fizer ambos, os URLs incluirão dois redirecionamentos e causarão links com falha.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Use esta opção somente quando não incluir URLs de rastreamento de Pesquisa, Social e Comércio em uma coluna personalizada no feed do produto. Se você fizer ambos, os URLs incluirão dois redirecionamentos e causarão links com falha.
 
 * ([!DNL Microsoft Advertising] somente ) Adicionar o URL de rastreamento aos dados do produto na [!DNL Microsoft Merchant Center] conta. Para fazer isso, inclua o URL de rastreamento junto com o valor na variável `link` ou `mobile_link` conforme apropriado, em uma coluna personalizada chamada [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) no feed do produto. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de conta ou campanha em Search, Social e Commerce.
 
@@ -59,4 +61,3 @@ Você pode exibir dados sobre grupos de produtos no [o [!UICONTROL Product Group
 >* [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] configurações do grupo de produtos](product-group-settings-microsoft.md)
 >* [Implementar [!DNL Microsoft® Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

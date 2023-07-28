@@ -1,7 +1,9 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Baidu] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Baidu] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -75,4 +77,3 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
 >* [Formatos de rastreamento de cliques para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Fazer upload de um arquivo de bulksheet ou arquivo de erro corrigido](../bulksheet-upload.md)
-

@@ -2,7 +2,8 @@
 title: '[!DNL Google Ads] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Google Ads]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-source-git-commit: 29cda72cac949663cd2df822cf7223335a14504d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%

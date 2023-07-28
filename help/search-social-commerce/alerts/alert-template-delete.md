@@ -1,7 +1,9 @@
 ---
 title: Excluir um modelo de alerta personalizado
 description: Saiba como excluir modelos de alerta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Você pode excluir somente os modelos de alerta criados.
 >* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)
-

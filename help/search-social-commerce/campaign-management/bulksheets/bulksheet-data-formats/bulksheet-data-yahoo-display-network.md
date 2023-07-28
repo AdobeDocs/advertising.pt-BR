@@ -1,7 +1,9 @@
 ---
 title: Dados de bulksheet para [!DNL Yahoo! Display Network] contas
 description: Faça referência aos campos de cabeçalho e de dados em bulksheets baixados para [!DNL Yahoo! Display Network] contas.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

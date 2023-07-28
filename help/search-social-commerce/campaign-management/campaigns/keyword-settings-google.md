@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configurações de palavra-chave"
+title: '[!DNL Google Ads] configurações de palavra-chave'
 description: Referenciar as configurações de [!DNL Google Ads] palavras-chave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -27,7 +29,6 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >
 >* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
 >* Alterar um [!DNL Google Ads] palavra-chave ou tipo de correspondência exclui a palavra-chave existente e cria uma nova.
-
 
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
@@ -60,4 +61,3 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >[!MORELIKETHIS]
 >
 >* [Gerenciar palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

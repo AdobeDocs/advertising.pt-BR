@@ -1,7 +1,9 @@
 ---
 title: Alterar o status de disposições e disposições negativas
 description: Saiba como alterar o status de posicionamentos e posicionamentos negativos para [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Também é possível excluir uma disposição ativa ou pausada ou uma disposiç�
 >* [Sobre posicionamentos](placement-about.md)
 >* [Gerenciar posicionamentos licitáveis](placement-manage.md)
 >* [Criar posicionamentos negativos](placement-negative-create.md)
-

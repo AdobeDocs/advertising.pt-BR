@@ -1,7 +1,9 @@
 ---
 title: Editar suas configurações de notificação
 description: Saiba como editar as configurações para suas notificações.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bcfbecf4-ed1d-4afe-a42d-e584d6837db8
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -27,12 +29,12 @@ Opcionalmente, é possível assinar ou cancelar a assinatura de notificações d
       * Para cancelar a inscrição de todos os tipos de notificação, mova o controle deslizante para a esquerda (desativado).
 
       * Para assinar um ou mais tipos de notificação, mova o controle deslizante para a direita (ativado).
+
    * (Quando [!UICONTROL Subscribe] está ativado) Para assinar notificações por email, marque a caixa de seleção na **[!UICONTROL Email]** coluna.
 
    * (Quando [!UICONTROL Subscribe] está desativado) Para assinar notificações da Web nas notificações do Search, Social, &amp; Commerce e por push se estiverem ativadas para o navegador, marque a caixa de seleção na **[!UICONTROL Web]** coluna.
 
-      As notificações da Web são entregues somente quando você [ativar notificações por push](notifications-push-enable-disable.md) ao seu navegador.
-
+     As notificações da Web são entregues somente quando você [ativar notificações por push](notifications-push-enable-disable.md) ao seu navegador.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -44,4 +46,3 @@ Opcionalmente, é possível assinar ou cancelar a assinatura de notificações d
 >* [Excluir uma notificação](notification-delete.md)
 >* [Ativar e desativar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
-

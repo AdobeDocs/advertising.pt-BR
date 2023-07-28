@@ -1,7 +1,9 @@
 ---
 title: Gerenciar grupos de produtos de compras
 description: Saiba como criar e gerenciar grupos de produtos de compras em campanhas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -109,4 +111,3 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 >* [Sobre grupos de produtos de compras](product-group-about.md)
 >* [[!DNL Google Ads] configurações do grupo de produtos](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] configurações do grupo de produtos](product-group-settings-microsoft.md)
-

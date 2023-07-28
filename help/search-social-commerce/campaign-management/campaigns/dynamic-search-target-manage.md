@@ -1,7 +1,9 @@
 ---
 title: Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
 description: Saiba como criar e gerenciar [!DNL Google Ads] alvos de pesquisa dinâmica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -85,12 +87,12 @@ Também é possível excluir qualquer destino dinâmico.
    * Para excluir um ou mais destinos dinâmicos, faça o seguinte:
 
       1. Marque a caixa de seleção ao lado de cada destino dinâmico que você deseja excluir.
-      Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+     Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
 
       1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
-
 
 ## [!DNL Google Ads] configurações do dynamic search target {#dynamic-search-target-settings}
 
@@ -129,4 +131,3 @@ Também é possível excluir qualquer destino dinâmico.
 >[!MORELIKETHIS]
 >
 >* [Sobre [!DNL Google Ads] destinos de pesquisa dinâmica](dynamic-search-target-about.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Excluir classificações de etiquetas
 description: Saiba como excluir uma classificação de etiqueta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4d00bda7-e3a6-4558-b818-5ccd45d0eb5b
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -38,4 +40,3 @@ Excluir uma classificação remove todas as associações entre seus valores sec
 >* [Atribuir valores de classificação aos componentes da conta usando bulksheets](classification-values-assign-bulksheets.md)
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir valores de classificação de etiqueta](classification-values-delete.md)
-

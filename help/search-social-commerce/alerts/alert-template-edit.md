@@ -1,7 +1,9 @@
 ---
 title: Editar um modelo de alerta personalizado
 description: Saiba como editar um modelo para gerar alertas personalizados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)
-

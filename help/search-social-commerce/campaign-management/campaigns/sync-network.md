@@ -1,7 +1,9 @@
 ---
 title: Sincronizar manualmente os dados da rede
 description: Saiba como acionar manualmente a sincronização da estrutura da campanha e das entidades da campanha para redes de anúncios compatíveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Você pode seguir o status do trabalho de sincronização no [!UICONTROL Workspa
 >[!MORELIKETHIS]
 >
 >* [Baixar/criar um arquivo de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Baidu]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Baidu] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -28,9 +30,7 @@ Exemplo:
 >
 >* `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
-

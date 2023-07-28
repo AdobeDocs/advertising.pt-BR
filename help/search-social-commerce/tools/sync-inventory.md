@@ -1,7 +1,9 @@
 ---
 title: Habilitar sincronização de estoque adicional
 description: Saiba como sincronizar [!DNL YouTube] campanhas e [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas de compras inteligentes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 217c4677-828c-43ee-afeb-e100780c5494
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Esses tipos de campanhas são cobrados da mesma forma que outros tipos de campan
 >[!MORELIKETHIS]
 >
 >* [Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md)
-

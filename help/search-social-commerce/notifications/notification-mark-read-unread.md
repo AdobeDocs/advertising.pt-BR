@@ -1,7 +1,9 @@
 ---
 title: Marcar uma notificação como lida ou não lida
 description: Saiba como indicar se você leu ou não uma notificação.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Notificações marcadas como *ler* estão em um texto de cor mais clara, mas per
 >* [Editar suas configurações de notificação](notification-edit.md)
 >* [Ativar e desativar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
-

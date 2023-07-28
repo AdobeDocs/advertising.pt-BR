@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Saiba mais sobre o Relatório de Precisão da Previsão, incluindo as colunas de dados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -23,7 +25,6 @@ Você pode exibir dados dos 18 meses anteriores.
 >* Para previsões de custos, um desvio de 10% nos últimos sete dias é considerado aceitável, portanto, o gasto real que está entre 90% e 110% do gasto previsto está correto. Para previsões de receita, um desvio de 15% nos últimos sete dias é considerado aceitável, portanto, a receita real que está entre 85% e 115% do gasto previsto está boa. Previsões com desvios maiores devem ser investigadas.
 >
 >* Quando palavras-chave no portfólio são associadas a restrições de mudança de oferta, o portfólio gasta mais ou menos pelo valor total causado pela mudança de oferta. Como resultado, as colunas de custo previstas se desviam do gasto pretendido pelo aumento ou diminuição do gasto.
-
 
 ## Colunas disponíveis
 
@@ -56,4 +57,3 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 >* [A variável [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Gerar um relatório de precisão de modelo](model-accuracy-report-generate.md)
 >* [Configurações do relatório de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

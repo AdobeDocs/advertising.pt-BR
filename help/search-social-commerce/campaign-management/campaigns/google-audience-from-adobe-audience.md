@@ -1,7 +1,9 @@
 ---
 title: Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos
 description: Saiba como criar [!DNL Google Ads] públicos-alvo de correspondência do cliente dos públicos-alvo Adobe Analytics e Audience Manager existentes.
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]contas elegíveis somente para correspondência de cliente*
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics apenas*
 
 Os anunciantes aceitos podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de a) [!DNL Analytics] segmentos compartilhados com o Adobe Experience Cloud e b) segmentos Audience Manager que têm Pesquisa, Social e Comércio como destino, incluindo [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud. A Pesquisa, o Social e o Commerce enviam automaticamente um [!DNL Google] URL de rastreamento para cada [!DNL Analytics] ou segmento Audience Manager para que [!DNL Google] O pode rastrear o público-alvo.
 

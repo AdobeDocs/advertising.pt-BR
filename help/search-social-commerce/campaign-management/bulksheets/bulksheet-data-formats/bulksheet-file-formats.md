@@ -1,7 +1,9 @@
 ---
 title: Formatos de arquivo de bulksheet compatíveis
 description: Consulte os requisitos gerais de arquivo para bulksheets.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -45,7 +47,7 @@ Os campos de dados em arquivos TSV e arquivos TXT delimitados com guias devem se
 
 * Os campos em cada registro são separados por caracteres de tabulação. Para omitir um valor para um campo, use somente o caractere de tabulação.
 
-   Exemplo: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  Exemplo: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * Os campos não podem conter caracteres de tabulação inseridos.
 
@@ -55,23 +57,23 @@ Os campos de dados em arquivos CSV e TXT delimitados com vírgulas devem ser for
 
 * Os campos em um registro são separados por vírgulas. Para omitir um valor para um campo, use apenas a vírgula.
 
-   Exemplo: `Cruises,5000,Caribbean,,,`
+  Exemplo: `Cruises,5000,Caribbean,,,`
 
 * Como opção, qualquer campo pode estar entre aspas duplas (`""`).
 
-   Exemplo:  `"Cruises","5000","Caribbean",`
+  Exemplo:  `"Cruises","5000","Caribbean",`
 
 * Os campos com vírgulas incorporadas devem estar entre aspas duplas (`""`).
 
-   Exemplo: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  Exemplo: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * Os campos com aspas duplas incorporadas devem ser colocados entre aspas duplas (`""`).
 
-   Exemplo: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  Exemplo: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * Os campos com espaços à esquerda ou à direita devem ser colocados entre aspas duplas (`""`).
 
-   Exemplo: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  Exemplo: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
@@ -79,4 +81,3 @@ Os campos de dados em arquivos CSV e TXT delimitados com vírgulas devem ser for
 >* [Operações que você pode executar em bulksheets](bulksheet-operations.md)
 >* [Apêndice - Erros de bulksheet](../bulksheet-errors.md)
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Fazer logon
 description: Saiba mais sobre como fazer logon.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Você pode fazer logon em Pesquisa, Social e Comércio diretamente ou no Adobe E
 >* [Fazer logoff](log-out.md)
 >* [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)
 >* [Como a interface do usuário é organizada](user-interface.md)
-

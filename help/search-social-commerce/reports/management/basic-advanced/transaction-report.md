@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Transaction Report]"
+title: '[!UICONTROL Transaction Report]'
 description: Saiba mais sobre o [!UICONTROL Transaction Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Você pode exibir dados dos 45 dias anteriores.
 >
 >* Se várias unidades de oferta com diferentes tipos de correspondência tiverem a mesma ID de transação, a receita da ID de rastreamento será dividida de acordo com o número de cliques na data de clique especificada.
 >* Se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa ativadas por conteúdo ou em campanhas sociais ou de exibição (que não incluem palavras-chave), a variável [!UICONTROL Keyword] no relatório concluído inclui os nomes dos grupos de anúncios aplicáveis, como &quot;(conteúdo do grupo de anúncios) Nome do grupo de anúncios&quot;.
-
 
 ## Colunas padrão
 
@@ -42,4 +43,3 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >* [Sobre relatórios básicos e avançados](basic-advanced-report-about.md)
 >* [Gerar um relatório básico ou avançado](basic-advanced-report-generate.md)
 >* [Configurações básicas e avançadas de relatório](basic-advanced-report-settings.md)
-

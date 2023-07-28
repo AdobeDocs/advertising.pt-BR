@@ -1,7 +1,9 @@
 ---
 title: Alterar sua senha
 description: Saiba como alterar a senha da conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1cc63747-4b80-45ba-a044-4a7b0a237c63
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Ao alterar sua senha, você será desconectado da sessão atual. Para continuar 
 >
 >* [Fazer logon](/help/search-social-commerce/getting-started/log-in.md)
 >* [Fazer logoff](/help/search-social-commerce/getting-started/log-out.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Alterar as propriedades de transação disponíveis em exibições de gerenciamento e relatórios
 description: Saiba como disponibilizar propriedades de transação em suas visualizações de gerenciamento e relatórios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Na lista de propriedades que estão disponíveis, cada usuário com acesso aos d
 
    * Para procurar um nome de propriedade ou nome de exibição específico, clique em ![Pesquisar](/help/search-social-commerce/assets/search.png "Pesquisar"), insira a palavra ou a string no campo de entrada e pressione a tecla **[!DNL Enter]** chave.
 
-      Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras) e os termos de pesquisa não [diferencia maiúsculas de minúsculas](/help/search-social-commerce/glossary.md#c-d).
+     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras) e os termos de pesquisa não [diferencia maiúsculas de minúsculas](/help/search-social-commerce/glossary.md#c-d).
 
    * Para pesquisar propriedades por sua disponibilidade em exibições de gerenciamento e relatórios, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro")e selecione o filtro **[!UICONTROL Show in UI and Reports]**. Em seguida, selecione **[!UICONTROL Show]** (para exibir as propriedades disponíveis para inclusão em relatórios e exibições de gerenciamento) ou **[!UICONTROL Hide]** (para exibir as propriedades não disponíveis em relatórios e exibições de gerenciamento).
 
@@ -48,10 +50,10 @@ Na lista de propriedades que estão disponíveis, cada usuário com acesso aos d
 
 >[!NOTE]
 >
->Se a Adobe Advertising coletar dados para novas propriedades, as novas propriedades — exceto as conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tags de rastreamento de evento universal — são excluídas automaticamente das exibições e relatórios de gerenciamento até que você os inclua. Novas conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] as tags universais de rastreamento de eventos estão sempre disponíveis automaticamente.
+>Se o Adobe Advertising coletar dados para novas propriedades, as novas propriedades — exceto as conversões rastreadas pelo [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tags de rastreamento de evento universal — são excluídas automaticamente das exibições e relatórios de gerenciamento até que você os inclua. Novas conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] as tags universais de rastreamento de eventos estão sempre disponíveis automaticamente.
 
 >[!MORELIKETHIS]
+>
 * [Sobre o gerenciamento das propriedades de transação de um anunciante](transaction-property-about.md)
 * [Exibir as propriedades de transação rastreadas para um anunciante](transaction-property-view-tracked.md)
 * [Alterar o nome de exibição de uma propriedade de transação](transaction-property-edit-display-name.md)
-

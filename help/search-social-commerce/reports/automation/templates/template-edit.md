@@ -1,7 +1,9 @@
 ---
 title: Editar um modelo de relatório
 description: Saiba como editar as configurações para seus modelos de relatório reutilizáveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [Criar um modelo de relatório](template-create.md)
 >* [Exibir um modelo de relatório](template-view.md)
 >* [Excluir modelos de relatório](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configurações responsivas de pesquisa e publicidade"
+title: '[!DNL Google Ads] pesquisa responsiva e configurações'
 description: Referenciar as configurações de [!DNL Google Ads] anúncios de pesquisa responsivos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -52,4 +54,3 @@ Consulte a [!DNL Google Ads] ajuda para [limites de publicidade por conta](https
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Google Ads] configurações de anúncio somente de chamada](ad-settings-google-call.md)
 >* [[!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-google-dsa.md)
-

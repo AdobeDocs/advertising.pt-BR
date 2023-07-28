@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Yandex]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Yandex] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -34,9 +36,7 @@ Exemplo:
 >
 >* `position_type` é o bloco no qual o anúncio foi exibido [!DNL Yandex]. Valores possíveis: &quot;premium&quot; (bloco superior), &quot;other&quot; (bloco direito) ou &quot;none&quot; (tráfego que não é de pesquisa).
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
-

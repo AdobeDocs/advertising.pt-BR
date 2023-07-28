@@ -1,7 +1,9 @@
 ---
-title: "Atualize o código de rastreamento do s\_kwcid para um [!DNL Google Ads] account"
+title: Atualize o código de rastreamento s kwcid de um [!DNL Google Ads] account
 description: Saiba como alternar para o código de rastreamento s\_kwcid mais recente para um [!DNL Google Ads] conta.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
 *[!DNL Google Ads]somente contas*
 

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configurações expandidas do anúncio de pesquisa dinâmica"
+title: '''[!DNL Google Ads] configurações expandidas do anúncio de pesquisa dinâmica'
 description: Referenciar as configurações de [!DNL Google Ads] anúncios de pesquisa dinâmica expandidos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -38,4 +40,3 @@ Consulte a ajuda do Google Ads para [limites de publicidade por conta](https://s
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Google Ads] configurações de anúncio somente de chamada](ad-settings-google-call.md)
 >* [[!DNL Google Ads] configurações de anúncio de pesquisa responsiva](ad-settings-google-rsa.md)
-

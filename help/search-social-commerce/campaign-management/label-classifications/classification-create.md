@@ -1,7 +1,9 @@
 ---
 title: Criar uma classificação de etiqueta
 description: Saiba como criar uma classificação de etiquetas para agrupar os componentes da conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Depois de criar uma classificação de rótulo, você pode criar valores de rót
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir valores de classificação de etiqueta](classification-values-delete.md)
 >* [Excluir classificações de etiquetas](classification-delete.md)
-

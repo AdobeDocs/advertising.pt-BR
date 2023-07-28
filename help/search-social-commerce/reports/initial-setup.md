@@ -1,7 +1,9 @@
 ---
 title: As tarefas de configuração iniciais para relatórios
 description: Saiba como disponibilizar métricas em relatórios e como automatizar relatórios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,9 +16,9 @@ Os novos usuários devem executar as seguintes tarefas de configuração inicial
 
 * Tornar as propriedades de transação que o Adobe Advertising está rastreando para um anunciante [disponível para relatórios e outras visualizações](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)e, opcionalmente [renomear qualquer um dos nomes de propriedade](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) que são exibidos nos cabeçalhos da coluna para facilitar a leitura.
 
-   As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
+  As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
 
-   Posteriormente, se você começar a rastrear uma nova propriedade de transação, será necessário repetir essa tarefa.
+  Posteriormente, se você começar a rastrear uma nova propriedade de transação, será necessário repetir essa tarefa.
 
 * (Opcional) Automatizar a geração de relatórios:
 
@@ -30,4 +32,3 @@ Os novos usuários devem executar as seguintes tarefas de configuração inicial
 >
 >* [Sobre relatórios](report-about.md)
 >* [Dados usados para relatórios](data-used-for-reports.md)
-

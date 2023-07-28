@@ -1,7 +1,9 @@
 ---
 title: Selecionar várias linhas
 description: Saiba como selecionar várias linhas para executar a mesma ação em todas elas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -22,11 +24,11 @@ ht-degree: 0%
 
    * Para selecionar todas as linhas na página atual, o que pode incluir algumas ou todas as linhas disponíveis com os filtros aplicados, se você estiver visualizando 25 linhas, 50 linhas, 100 linhas, 200 linhas ou [!UICONTROL Continuous Scroll] — marque a caixa de seleção global.
 
-      Ao selecionar todas as linhas na página, você pode desmarcar linhas individuais.
+     Ao selecionar todas as linhas na página, você pode desmarcar linhas individuais.
 
    * Para selecionar todas as linhas disponíveis com os filtros aplicados, marque a caixa de seleção global e clique em **[!DNL Select all N records?]**, onde *N* é o número de registros disponíveis.
 
-      Ao selecionar todas as linhas disponíveis, não é possível desmarcar linhas individuais.
+     Ao selecionar todas as linhas disponíveis, não é possível desmarcar linhas individuais.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Aplicar filtros de dados na barra de ferramentas](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [Filtrar dados por intervalo de datas](../data-views/ad-hoc-settings/date-filter.md)
 >* [Remover um filtro](../data-views/ad-hoc-settings/column-filter-remove.md)
-

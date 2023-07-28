@@ -1,7 +1,9 @@
 ---
 title: Sobre o gerenciamento de dados de campanha usando bulksheets
 description: Saiba mais sobre a funcionalidade de bulksheet disponível pela rede de anúncios, o fluxo de trabalho de bulksheet e a manipulação de erros.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -26,11 +28,11 @@ Todos os bulksheets, arquivos de erro de validação da página de aterrissagem 
 
 * **Somente download e upload:** [!DNL Naver] contas
 
-   Você pode fazer upload [!DNL Naver] dados para uso no Search, Social e Commerce, mas não podem publicá-los na rede de anúncios. Você também pode baixar os dados existentes (não sincronizados).
+  Você pode fazer upload [!DNL Naver] dados para uso no Search, Social e Commerce, mas não podem publicá-los na rede de anúncios. Você também pode baixar os dados existentes (não sincronizados).
 
 * **Baixar somente dados:**  [!DNL Pinterest], [!DNL Yahoo Native], e [!DNL Yahoo! Display Network] contas
 
-   Você pode baixar os dados existentes (não sincronizados).
+  Você pode baixar os dados existentes (não sincronizados).
 
 ## Visão geral do uso de bulksheets
 
@@ -84,4 +86,3 @@ As informações para cada arquivo incluem o status da tarefa atual e a porcenta
 >* [Fazer upload de uma bulksheet ou arquivo de erro corrigido](bulksheet-upload.md)
 >* [Lançar bulksheets ou arquivos de erro corrigidos](bulksheet-post.md)
 >* [Exportar um arquivo de bulksheet gerado ou carregado](bulksheet-export.md)
-

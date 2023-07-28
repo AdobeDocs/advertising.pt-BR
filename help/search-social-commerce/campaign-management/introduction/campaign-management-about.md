@@ -1,7 +1,9 @@
 ---
 title: Sobre o gerenciamento de campanhas no Search, Social e Commerce
 description: Saiba mais sobre os recursos de gerenciamento de campanhas em Pesquisa, Social e Comércio.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Para contas sincronizadas por meio da API da rede de anúncios, o registro da co
 
 ## Rastreamento de cliques para vincular cliques a conversões
 
-Se você usa o serviço de rastreamento de conversão do Adobe Advertising, é necessário incluir o código de rastreamento de cliques do Search, Social e Commerce no sufixo da página de aterrissagem, modelos de rastreamento e URLs finais/de destino para anúncios, palavras-chave e inserções, links para site e listas de produtos. Para [redes de publicidade e tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) cujas configurações de campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro, de modo que não é necessário adicioná-lo manualmente. Caso contrário, você deve adicionar manualmente o código aos modelos de rastreamento ou URLs finais.
+Se você usa o serviço de rastreamento de conversão de Adobe Advertising, deve incluir o código de rastreamento de cliques de Pesquisa, Social e Comércio no sufixo da página de aterrissagem, modelos de rastreamento e URLs finais/de destino para anúncios, palavras-chave e inserções, links para sites e listas de produtos. Para [redes de publicidade e tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) cujas configurações de campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro, de modo que não é necessário adicioná-lo manualmente. Caso contrário, você deve adicionar manualmente o código aos modelos de rastreamento ou URLs finais.
 
 Para obter mais informações sobre rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
@@ -38,9 +40,9 @@ As visualizações de gerenciamento de campanhas permitem monitorar e gerenciar 
 
 * **[!UICONTROL Campaigns]** — A [!UICONTROL Campaigns] as exibições mostram dados de cada conta de rede de publicidade conectada. Você pode visualizar dados de custo, clique, impressão e receita em todas as contas de rede de publicidade e em contas individuais, campanhas, grupos de anúncios, palavras-chave, anúncios, grupos de produtos de compras, posicionamentos, direcionamentos automáticos (direcionamentos de pesquisa dinâmica), públicos-alvo e bibliotecas de extensão de anúncios e suas entidades de conta associadas. Para [tipos de campanha compatíveis em redes de anúncios compatíveis](/help/search-social-commerce/introduction/supported-inventory.md), você pode criar e editar dados para campanhas individuais e componentes de campanha diretamente na interface. Opcionalmente, é possível exportar os dados na maioria das subexibições para um arquivo de planilha.
 
-   >[!NOTE]
-   >
-   >Os dados no nível do anúncio não estão disponíveis para [!DNL Google Ads] anúncio de pesquisa dinâmica (DSA), desempenho máximo, compras inteligentes e [!DNL YouTube] campanhas.
+  >[!NOTE]
+  >
+  >Os dados no nível do anúncio não estão disponíveis para [!DNL Google Ads] anúncio de pesquisa dinâmica (DSA), desempenho máximo, compras inteligentes e [!DNL YouTube] campanhas.
 
 * **[!UICONTROL Products]** — A [!UICONTROL Products] as exibições mostram dados para cada [[!DNL Google] or [!DNL Microsoft] conta do centro de comércio que está sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). O padrão [!UICONTROL Accounts] A subvisualização lista todas as contas sincronizadas; alguns tipos de usuários podem adicionar novas contas a partir desta visualização. A variável [!UICONTROL Products] A subexibição lista cada produto na conta.
 
@@ -57,4 +59,3 @@ As visualizações de gerenciamento de campanhas permitem monitorar e gerenciar 
 >* [Visão geral da implementação de contas e campanhas de rede de anúncios](campaign-implemention-overview.md)
 >* [Monitore e gerencie o desempenho de suas campanhas de rede de anúncios](monitor-performance-campaigns.md)
 >* [Dados de conversão do Google Ads em Pesquisa, Social e Comércio](google-conversion-data.md)
-

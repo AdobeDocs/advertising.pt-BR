@@ -1,7 +1,9 @@
 ---
 title: Número máximo de objetos por conta de rede de publicidade
 description: Veja onde encontrar o número máximo de objetos por conta de rede de publicidade.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

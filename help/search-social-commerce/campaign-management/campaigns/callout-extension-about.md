@@ -1,7 +1,9 @@
 ---
 title: Sobre [!DNL Google Ads] extensões de chamada
 description: Saiba mais sobre [!DNL Google Ads] extensões de chamada em Pesquisa, Social e Comércio.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -32,4 +34,3 @@ Entrada [!DNL Google Ads], você pode ver os dados de custo e clique no link [!U
 >
 >* [Gerenciar [!DNL Google Ads] extensões de chamada](callout-extension-manage.md)
 >* [Associar [!DNL Google Ads] extensões de chamada compartilhadas com campanhas ou grupos de anúncios](callout-extension-associate.md)
-

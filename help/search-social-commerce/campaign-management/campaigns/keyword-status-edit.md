@@ -1,7 +1,9 @@
 ---
 title: Alterar o status de palavras-chave e palavras-chave negativas
 description: Saiba como alterar o status de palavras-chave e palavras-chave negativas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Você também pode excluir palavras-chave de pesquisa ativas ou pausadas, ou pal
 >* [Sobre palavras-chave](keyword-about.md)
 >* [Gerenciar palavras-chave licitáveis](keyword-manage.md)
 >* [Criar palavras-chave negativas](keyword-negative-create.md)
-

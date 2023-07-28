@@ -1,7 +1,9 @@
 ---
 title: Editar configurações do feed de relatório de planilha
 description: Saiba como editar as configurações para feeds de planilha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
    * (Opcional) Para usar um modelo de relatório diferente ou atualizado para o feed, [criar um novo [!DNL Excel] modelo para o modelo de relatório](spreadsheet-feed-create-excel-template.md).
 
-      Será necessário fazer upload do modelo de relatório e do novo [!DNL Excel] arquivo na próxima etapa.
+     Será necessário fazer upload do modelo de relatório e do novo [!DNL Excel] arquivo na próxima etapa.
 
    * (Opcional) Para simplesmente adicionar colunas personalizadas à [!DNL Excel] insira as colunas à direita das colunas do modelo de relatório e salve o arquivo como um [!DNL Excel] planilha em formato .XLSX. Será necessário fazer upload do novo [!DNL Excel] arquivo na próxima etapa.
 
@@ -40,11 +42,11 @@ ht-degree: 0%
 
    * (Opcional) Depois que o feed for [!UICONTROL Update Status] é *[!UICONTROL Finished]*, clique em **[!UICONTROL XLSX]** ao lado do feed e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador.
 
-      >[!NOTE]
-      >
-      > Se o modelo de relatório associado ao feed for excluído posteriormente, o feed também será excluído.
+     >[!NOTE]
+     >
+     > Se o modelo de relatório associado ao feed for excluído posteriormente, o feed também será excluído.
 
-      Os feeds de planilha são atualizados automaticamente às 08:00 cada dia no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
+     Os feeds de planilha são atualizados automaticamente às 08:00 cada dia no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +57,3 @@ ht-degree: 0%
 >* [Configurações do feed de relatório de planilha](spreadsheet-feed-settings.md)
 >* [Exibir ou salvar um arquivo de feed de relatório de planilha](spreadsheet-feed-view-or-save.md)
 >* [Atualizar manualmente os feeds de relatório da planilha](spreadsheet-feed-refresh.md)
-

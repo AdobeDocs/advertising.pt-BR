@@ -1,7 +1,9 @@
 ---
 title: Bloquear e desbloquear uma configuração de coluna
 description: Saiba como bloquear e desbloquear uma configuração de coluna em visualizações de campanha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e2a72a99-8122-451c-8818-30f817696256
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

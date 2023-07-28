@@ -1,7 +1,9 @@
 ---
 title: Excluir valores de classificação de etiqueta
 description: Saiba como excluir valores de classificações de rótulo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -40,4 +42,3 @@ A exclusão dos valores de classificação de etiqueta os torna indisponíveis p
 >* [Atribuir valores de classificação aos componentes da conta usando bulksheets](classification-values-assign-bulksheets.md)
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir classificações de etiquetas](classification-delete.md)
-

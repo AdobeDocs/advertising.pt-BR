@@ -1,7 +1,9 @@
 ---
 title: Sincronizar [!DNL Adobe] públicos
 description: Saiba como sincronizar metadados, dados de hierarquia e dados exclusivos de público-alvo para o seu [!DNL Adobe] públicos-alvo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]apenas gerentes de clientes e administradores*
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics apenas*
 
 Você pode permitir que o Search, Social e Commerce obtenha metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os anúncios ou agências [!DNL Adobe] públicos-alvo na [!UICONTROL Campaigns] > [!UICONTROL Audiences] exibições. Essas informações incluem dados para:
 
@@ -36,4 +38,3 @@ A sincronização inicial leva cerca de 24 horas. Depois disso, os dados são si
 >
 >* [Sobre públicos](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-

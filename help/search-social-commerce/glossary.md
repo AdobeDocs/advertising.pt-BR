@@ -1,7 +1,9 @@
 ---
 title: Glossário
 description: Consulte as definições de termos principais.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -116,7 +118,7 @@ ht-degree: 0%
 
 **transação órfã:** Um evento de transação que não pode ser associado a uma palavra-chave ou anúncio específico.
 
-**pixel:** Uma imagem transparente, de um pixel por um pixel, incorporada em uma página da Web para fins de rastreamento. As tags de rastreamento de conversão de publicidade de Adobe incluem um pixel de imagem de HTML ou JavaScript para rastrear cliques e suas transações resultantes.
+**pixel:** Uma imagem transparente, de um pixel por um pixel, incorporada em uma página da Web para fins de rastreamento. As tags de rastreamento de conversão de Adobe Advertising incluem um pixel de imagem de HTML ou JavaScript para rastrear cliques e suas transações resultantes.
 
 **posicionamento:** Um local em uma rede de exibição em que seus anúncios podem aparecer. Pode ser um site inteiro, um subconjunto de um site ou uma posição de anúncio em uma página específica.
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 **estratégia de gastos:** (Anunciantes com portfólios) A estratégia selecionada para otimizar lances de palavras-chave/anúncios para um portfólio.
 
-**`s_kwcid`:** Um código de rastreamento que permite que o Adobe Advertising compartilhe dados sobre campanhas de pesquisa com o Adobe Analytics.
+**`s_kwcid`:** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas de pesquisa com o Adobe Analytics.
 
 **URL de rastreamento:** Um modelo de rastreamento ou um URL de destino com parâmetros extras adicionados para rastrear informações sobre os cliques no anúncio. Ele pode incluir um URL de redirecionamento para enviar os usuários inicialmente para um servidor de rastreamento antes de redirecioná-los para a página de aterrissagem do anunciante.
 

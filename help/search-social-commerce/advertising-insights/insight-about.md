@@ -1,7 +1,9 @@
 ---
 title: Sobre [!UICONTROL Advertising Insights]
 description: Saiba mais sobre os diferentes tipos de [!UICONTROL Advertising Insights] disponíveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 08ec4de2-1701-4342-92f9-ff5852e4e659
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Cada insight é gerado sob demanda e a saída é um arquivo que você pode baixa
 
 | Insight | Descrição |
 | --- | --- |
-| [!UICONTROL AMO-AA Tracking Discrepancy] | (Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente) Identifica problemas de rastreamento, que são caracterizados por dias com uma relação de clique para instâncias fora da variação normal ou com uma variação de 20% ou superior. O relatório inclui:<ul><li>A [!DNL Microsoft® PowerPoint] um arquivo com um resumo da variação de dados; uma tabela e gráficos de tendências mostrando a variação por campanha para as campanhas com mais problemas de rastreamento; sugestões de solução de problemas; e uma explicação da metodologia de relatório.</li><li>A [!DNL Microsoft® Excel] arquivo com dados de resumo de cada campanha no portfólio e dados diários do mês passado para cada campanha.</li></ul> |
+| [!UICONTROL AMO-AA Tracking Discrepancy] | (Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics) Identifica problemas de rastreamento, que são caracterizados por dias com uma relação de clique para instâncias fora da variação normal ou com uma variação de 20% ou superior. O relatório inclui:<ul><li>A [!DNL Microsoft® PowerPoint] um arquivo com um resumo da variação de dados; uma tabela e gráficos de tendências mostrando a variação por campanha para as campanhas com mais problemas de rastreamento; sugestões de solução de problemas; e uma explicação da metodologia de relatório.</li><li>A [!DNL Microsoft® Excel] arquivo com dados de resumo de cada campanha no portfólio e dados diários do mês passado para cada campanha.</li></ul> |
 | [!UICONTROL Attribution Analysis] | ([!DNL PowerPoint] formato de apresentação) Indica quando um modelo de atribuição diferente pode melhorar os modelos de receita e a otimização de um único portfólio. |
 | [!UICONTROL Campaign Caps] | ([!DNL PowerPoint] formato de apresentação) Indica se as despesas de um único portfólio nos últimos 30 dias foram limitadas pelos limites de orçamento da campanha e recomenda ajustes nas configurações do portfólio para alcançar o retorno ideal sobre o investimento. |
 | [!UICONTROL Day of Week] | ([!DNL PowerPoint] formato de apresentação) Indica o desempenho de um único portfólio por dia da semana (DOW) nos últimos 30 dias e recomenda as metas de gastos do DOW para aumentar seu retorno sobre o investimento.<br><br>**NOTA:** Portfolio sem gastos suficientes ou que não puderam gastar para o público-alvo nos últimos dois dias, não estão disponíveis para o insight. |
@@ -42,4 +44,3 @@ Cada insight é gerado sob demanda e a saída é um arquivo que você pode baixa
 >* [Gerar um [!DNL Advertising Insight]](insight-generate.md)
 >* [Exibir ou salvar um [!DNL Advertising Insight]](insight-view-save.md)
 >* [Excluir um [!DNL Advertising Insight]](insight-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Acesso FTP a relatórios
 description: Saiba como receber relatórios em um local FTP somente leitura.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ O acesso FTP a relatórios requer acesso a uma conta FTP especificada, e você d
 
 * Entre em contato com a equipe de conta do Adobe para configurar uma conta FTP para acesso ao relatório.
 
-   A equipe fornecerá seu nome de usuário e senha.
+  A equipe fornecerá seu nome de usuário e senha.
 
 ## Configurar modelos de relatório para entrega por FTP
 
@@ -39,6 +41,7 @@ Para gerar relatórios no diretório FTP designado, crie um [modelo de relatóri
       * `[SDATE]` — Para incluir a data inicial do intervalo de datas do relatório.
 
       * `[EDATE]` — Para incluir a data final do intervalo de datas do relatório.
+
    * (Opcional) `[CSV]` (em letras maiúsculas e entre parênteses) para criar arquivos no formato CSV em vez do formato TSV padrão.
 
    Exemplo: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` criaria um arquivo como 202305051656-Portfolio-FTP-20230428-20110504.csv.
@@ -51,7 +54,6 @@ Para gerar relatórios no diretório FTP designado, crie um [modelo de relatóri
 >
 >* Para enviar relatórios concluídos por email, basta inserir os endereços de todos os destinatários de email ao gerar o relatório ou modelo.
 >* Os relatórios são executados de acordo com os cronogramas especificados e entregues à conta FTP dentro de uma hora após a sua conclusão.
-
 
 ## Acessar relatórios em um repositório FTP
 
@@ -68,4 +70,3 @@ Para acessar seus relatórios, conecte-se a um dos hosts FTP a seguir usando o l
 >[!MORELIKETHIS]
 >
 >* [Criar um modelo de relatório](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

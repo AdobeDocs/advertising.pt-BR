@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] configurações de palavra-chave"
+title: '[!DNL Microsoft Advertising] configurações de palavra-chave'
 description: Referenciar as configurações de [!DNL Microsoft Advertising] palavras-chave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >
 >* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
 >* Alterar um [!DNL Microsoft Advertising] palavra-chave exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
-
 
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
@@ -53,4 +54,3 @@ Como opção, esse campo pode incluir a variável `{Param2}` e `{Param3}` variá
 >[!MORELIKETHIS]
 >
 >* [Gerenciar palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

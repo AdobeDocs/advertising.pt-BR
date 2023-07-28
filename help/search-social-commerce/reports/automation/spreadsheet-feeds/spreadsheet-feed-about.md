@@ -1,7 +1,9 @@
 ---
 title: Sobre feeds de relatório de planilhas
 description: Saiba mais sobre como usar a obtenção de dados de desempenho diário em um formato de planilha personalizado.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

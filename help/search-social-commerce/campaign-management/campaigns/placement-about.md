@@ -1,7 +1,9 @@
 ---
 title: Sobre [!DNL Google Ads] disposições
 description: Saiba mais sobre as opções de posicionamentos licitáveis e negativos para [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Você pode criar posicionamentos para um grupo de anúncios na [!UICONTROL Place
 >* [Gerenciar posicionamentos licitáveis](placement-manage.md)
 >* [Criar posicionamentos negativos](placement-negative-create.md)
 >* [Alterar o status de disposições e disposições negativas](placement-status-edit.md)
-

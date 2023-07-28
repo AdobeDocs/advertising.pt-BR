@@ -1,7 +1,9 @@
 ---
 title: Propagar dados de feed de estoque por meio de modelos
 description: Saiba mais sobre como propagar dados dos feeds de inventário por meio de modelos de anúncios para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -30,11 +32,12 @@ Ao propagar dados, você pode, opcionalmente, visualizar os dados gerados em uma
 
    * **[!UICONTROL Propagate and Preview]:** Para criar um arquivo de bulksheet (chamado de &quot;`<feed file name>_<template name>`&quot;), que está disponível no [!UICONTROL Bulksheets] exibir para revisão (mas não no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias). Posteriormente, você pode publicar o arquivo de bulksheet no [!UICONTROL Bulksheets] exibição.
 
-      Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
+     Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
 
    * **[!UICONTROL Propagate and Post to SE]:** Para criar um arquivo de bulksheet (chamado de &quot;`<feed file name>_<template name>`&quot;) que é imediatamente enfileirado para publicação na rede de publicidade. O arquivo de bulksheet está disponível no [!UICONTROL Bulksheets] exibição, mas não está disponível no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias.
 
-      Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP.
+     Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP.
+
    O &quot;Último Prop. A coluna &quot;Status&quot; mostra o status do job para os modelos aplicáveis.
 
    Quando cada ação de propagação é concluída, um sumário de propagação é adicionado ao [!UICONTROL Propagations] indicando o número de cada tipo de entidade que foi ou seria criado, pausado ou excluído com base na propagação. A estimativa não inclui alterações feitas no próprio editor de anúncios da rede de anúncios.
@@ -53,11 +56,11 @@ Ao propagar dados, você pode, opcionalmente, visualizar os dados gerados em uma
 
    * **[!UICONTROL Propagate and Preview]:** Para criar um arquivo de bulksheet (chamado de &quot;`<feed file name>_<template name>`&quot;), que está disponível no [!UICONTROL Bulksheets] exibir para revisão (mas não no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias). Posteriormente, você pode publicar o arquivo de bulksheet no [!UICONTROL Bulksheets] exibição.
 
-      Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
+     Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
 
    * **[!UICONTROL Propagate and Post to SE]:** Para criar um arquivo de bulksheet (chamado de &quot;`<feed file name>_<template name>`&quot;) que é imediatamente enfileirado para publicação na rede de publicidade. O arquivo de bulksheet está disponível no [!UICONTROL Bulksheets] exibição, mas não está disponível no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias.
 
-      Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP.
+     Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP.
 
 1. Na janela pop-up, marque a caixa de seleção ao lado de cada modelo pelo qual deseja propagar dados do arquivo de feed e clique em **[!UICONTROL Propagate Feed]**.
 
@@ -92,4 +95,3 @@ Você pode interromper um trabalho de propagação para dados de feed de invent�
 >* [Publicar dados de campanha gerados a partir de feeds para redes de anúncios](propagated-data-post.md)
 >* [Interromper um trabalho de lançamento para dados de feed de estoque](stop-job.md)
 >* [Status dos dados gerados a partir dos feeds](propagated-data-status.md)
-

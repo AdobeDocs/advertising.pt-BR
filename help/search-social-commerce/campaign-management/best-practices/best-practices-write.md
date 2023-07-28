@@ -1,7 +1,9 @@
 ---
 title: Escrever texto efetivo e copiar
 description: Saiba mais sobre as práticas recomendadas para escrever uma cópia de anúncio eficiente.
-source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
+exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: Excluir relatórios
 description: Saiba como excluir relatórios gerados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Você pode excluir manualmente um relatório que esteja concluído ou em andamen
 >
 >* [Sobre relatórios](/help/search-social-commerce/reports/report-about.md)
 >* [Exibir ou salvar um relatório](/help/search-social-commerce/reports/management/report-view-save.md)
-

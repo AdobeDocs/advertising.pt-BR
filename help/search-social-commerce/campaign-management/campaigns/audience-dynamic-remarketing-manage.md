@@ -1,7 +1,9 @@
 ---
 title: Gerenciar [!DNL Microsoft Advertising] públicos de remarketing dinâmicos
 description: Saiba como criar e gerenciar [!DNL Microsoft Advertising] públicos de remarketing dinâmicos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -94,4 +96,3 @@ Para obter mais informações sobre o remarketing dinâmico e como implementar a
 >* [Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos](google-audience-from-adobe-audience.md)
 >* [Criar um [!DNL Google Ads] público-alvo de correspondência do cliente de uma lista de email da Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gerenciar públicos-alvo de correspondência do cliente usando listas de dados do cliente](audience-from-customer-data-list.md)
-

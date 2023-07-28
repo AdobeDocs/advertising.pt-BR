@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Ads] configurações de modelos de anúncios de compras para feeds de inventário"
+title: '''[!DNL Microsoft® Ads] configurações de modelo de anúncio de compras para feeds de inventário'
 description: Referenciar as configurações de [!DNL Microsoft® Ads] modelos de anúncios de compras para feeds de inventário.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -57,7 +59,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 **[!UICONTROL Campaign Tracking Template]:** (Opcional para modelos para arquivos de feed de cliente) O modelo de rastreamento no nível da campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
 
-* Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; execute um dos procedimentos a seguir&quot;:
+* Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; execute um dos procedimentos a seguir&quot;:
 
    * (Recomendado) Use o [formato do modelo de rastreamento para as campanhas de compras da Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
 
@@ -149,7 +151,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
 **[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos secundários; opcional) O modelo de rastreamento para o grupo de produtos, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em uma [!DNL ValueTrack] parâmetro. Esse template substitui templates em níveis superiores.
 
-Para o rastreamento de conversão do Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
+Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor.
 

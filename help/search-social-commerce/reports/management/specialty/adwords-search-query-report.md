@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Search Query Report]"
+title: '[!UICONTROL AdWords Search Query Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Search Query Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [Sobre relatórios de especialidade](specialty-report-about.md)
 * [Gerar um relatório de especialidade](specialty-report-generate.md)
 * [Configurações do relatório de especialidades](specialty-report-settings.md)
-

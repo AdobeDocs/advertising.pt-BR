@@ -1,7 +1,9 @@
 ---
 title: Operações que você pode executar em bulksheets
 description: Consulte informações gerais sobre adição, edição e exclusão de dados de campanha usando bulksheets.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -24,7 +26,7 @@ As regras a seguir se aplicam ao trabalho com componentes de campanha e suas pro
 
 * Para editar uma propriedade para um componente existente, inclua todos os campos necessários para editar esse componente, além do campo da propriedade.
 
-   Se você deixar o campo de propriedade em branco, o valor existente será retido.
+  Se você deixar o campo de propriedade em branco, o valor existente será retido.
 
 * Excluindo:
 
@@ -48,4 +50,3 @@ As regras a seguir se aplicam ao trabalho com componentes de campanha e suas pro
 >* [Formatos de arquivo de bulksheet compatíveis](bulksheet-file-formats.md)
 >* [Apêndice - Erros de bulksheet](../bulksheet-errors.md)
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
-

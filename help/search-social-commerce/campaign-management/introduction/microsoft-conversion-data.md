@@ -1,7 +1,8 @@
 ---
 title: '[!DNL Microsoft Advertising] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Microsoft Advertising]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
-source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%

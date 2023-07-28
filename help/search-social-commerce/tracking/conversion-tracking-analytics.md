@@ -1,7 +1,9 @@
 ---
 title: Rastreamento de conversão do Adobe Analytics
 description: Saiba mais sobre como usar o rastreamento de conversão do Adobe Analytics para suas campanhas no Adobe Advertising.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Rastreamento de conversão do Adobe Analytics
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
 Para anunciantes com uma integração Adobe Advertising-Adobe Analytics, o Advertising Cloud pode conectar seus cliques em anúncios e impressões com as métricas de conversão e engajamento do site rastreadas pelo [!DNL Analytics] quando você usa um redirecionamento com um token (`ef_id` parâmetro) nos URLs de rastreamento de cliques do [unidades de oferta](/help/search-social-commerce/glossary.md#a-b). A variável [!DNL Analytics] Os dados do são enviados automaticamente para a Advertising Cloud por meio de um arquivo de feed diário.
 

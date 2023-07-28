@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Naver]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Naver] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -24,11 +26,9 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
 >
-
 * `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
-

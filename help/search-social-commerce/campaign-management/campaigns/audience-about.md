@@ -1,7 +1,9 @@
 ---
 title: Sobre públicos
 description: Saiba mais sobre as opções para rastrear, criar e gerenciar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo.
-source-git-commit: 0b77c54ee9214021c841b4c1cca0b3439ea71f6f
+exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%

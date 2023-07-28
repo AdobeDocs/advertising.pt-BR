@@ -1,7 +1,9 @@
 ---
 title: Fazer upload de métricas de tráfego e conversão para o [!DNL Naver] contas somente de rastreamento
 description: Saiba como fazer upload de métricas de tráfego e conversão para rastreamento e relatórios somente para [!DNL Naver] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cfc8178c-0be0-445d-a387-abe826e1ca8a
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -29,4 +31,3 @@ A Search, Social e Commerce não sincroniza dados com a rede de anúncios nem fa
 >* [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Apêndice - Dados de bulksheet necessários para [!DNL Naver] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 >* [Requisitos de dados métricos para [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
-

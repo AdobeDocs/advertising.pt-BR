@@ -1,7 +1,9 @@
 ---
 title: Requisitos do sistema
 description: Saiba mais sobre os requisitos de software e conta.
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Você precisa das seguintes informações de conta e software.
 
 * (Para exibir arquivos exportados no formato XLS) [!DNL Microsoft Excel] recomendado
 
-   Se você usar um aplicativo diferente do [!DNL Microsoft Excel] para exibir arquivos XLS exportados, é possível que números, datas, horas e moedas não estejam no formato correto.
+  Se você usar um aplicativo diferente do [!DNL Microsoft Excel] para exibir arquivos XLS exportados, é possível que números, datas, horas e moedas não estejam no formato correto.
 
 ## Nome de usuário e senha
 

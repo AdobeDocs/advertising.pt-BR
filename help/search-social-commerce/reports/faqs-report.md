@@ -2,7 +2,8 @@
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -76,11 +77,11 @@ Se você gerar um relatório várias vezes usando os mesmos parâmetros de relat
 
 * Os dados baseados em data de clique podem estar fora do intervalo de datas especificado.
 
-  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
+  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
 
 * A seleção de filtro de portfólio exclui alguns dos eventos que levam à conversão.
 
-  Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar o &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
+  Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
 
 >[!TIP]
 >
@@ -313,7 +314,7 @@ As redes de anúncios não fornecem o identificador necessário para atribuir re
 +++
 
 +++No [!UICONTROL Transaction Report], como saber qual propriedade de transação é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
-Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de publicidade do Adobe, caso inclua a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`.&quot;
+Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento Adobe Advertising se a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Os dados no meu [!UICONTROL Transaction Report] não corresponde aos dados em meu [!UICONTROL Keyword Report].

@@ -1,7 +1,9 @@
 ---
 title: Criar um feed de relatório de planilha
 description: Saiba como configurar feeds de planilha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ed793de5-0df1-4fc3-be59-29adec4959f7
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -43,4 +45,3 @@ Configurar feeds de planilha usando dados especialmente formatados [!DNL Excel] 
 >* [Exibir ou salvar um arquivo de feed de relatório de planilha](spreadsheet-feed-view-or-save.md)
 >* [Atualizar manualmente os feeds de relatório da planilha](spreadsheet-feed-refresh.md)
 >* [Excluir feeds de relatório de planilha](spreadsheet-feed-delete.md)
-

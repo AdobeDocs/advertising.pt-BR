@@ -1,7 +1,9 @@
 ---
 title: Atribuir valores de classificação aos componentes da conta usando bulksheets
 description: Saiba como usar bulksheets para atribuir valores de classificação a componentes de conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -28,7 +30,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
    * Selecione cada classificação para a qual deseja incluir uma coluna no arquivo de bulksheet.
 
-      Por exemplo, se você incluir as classificações de rótulo &quot;Cor&quot; e &quot;Geo&quot;, a planilha em massa incluirá as colunas &quot;Cor&quot; e &quot;Geo&quot;.
+     Por exemplo, se você incluir as classificações de rótulo &quot;Cor&quot; e &quot;Geo&quot;, a planilha em massa incluirá as colunas &quot;Cor&quot; e &quot;Geo&quot;.
 
 1. Abra o arquivo em um editor e adicione valores de etiquetas às colunas de classificação de etiquetas das entidades às quais elas serão associadas. O comprimento máximo para cada valor é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
 
@@ -46,15 +48,15 @@ Este exemplo inclui colunas para classificações de rótulo &quot;Cor&quot; e &
 
 | Conta | Campaign | Grupo de publicidade | Palavra-chave | Anúncio | Posicionamento | Rótulos | Cor | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | Verde |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | Reino Unido |
-| Acct1 | C1 | AG1 | K2 |  |  |  | Vermelho | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | Azul | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | Vermelho |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | Vermelho | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | Azul | DE |
+| Acct1 | C1 | | | | | | Verde | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | Reino Unido |
+| Acct1 | C1 | AG1 | K2 | | | | Vermelho | AU |
+| Acct1 | C1 | AG1 | K3 | | | | Azul | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | Vermelho | |
+| Acct1 | C1 | AG1 | | | P1 | | Vermelho | AU |
+| Acct1 | C1 | AG1 | | | P2 | | Azul | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ Este exemplo inclui colunas para classificações de rótulo &quot;Cor&quot; e &
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir valores de classificação de etiqueta](classification-values-delete.md)
 >* [Excluir classificações de etiquetas](classification-delete.md)
-

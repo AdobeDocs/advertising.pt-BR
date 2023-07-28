@@ -1,7 +1,9 @@
 ---
 title: Sobre a automatização do gerenciamento de anúncios usando feeds de inventário
 description: Saiba mais sobre o gerenciamento avançado de campanhas, que permite gerenciar automaticamente a estrutura da conta e fornecer anúncios dinâmicos com base em dados sobre o inventário de produtos ou serviços.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%

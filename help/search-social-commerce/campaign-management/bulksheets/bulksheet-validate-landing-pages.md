@@ -1,7 +1,9 @@
 ---
 title: Validar páginas de aterrissagem em arquivos de bulksheet
 description: Saiba como validar os URLs de destino em um arquivo de bulksheet de uma única conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Posteriormente, você pode baixar o arquivo, corrigir os erros, fazer upload do 
 >
 >* Esse recurso não valida valores na coluna URL base/URL final.
 >* Você pode publicar arquivos de bulksheet enquanto eles estiverem sendo validados ou mesmo se forem encontrados erros.
-
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
@@ -47,7 +48,6 @@ Quando a tarefa começar, uma nova linha será adicionada à [!UICONTROL Bulkshe
 >* Arquivos grandes demoram mais para serem validados.
 >* Os arquivos de bulksheet para várias campanhas podem conter até 500.000 linhas de dados. Se você gerar dados para várias campanhas e os dados combinados consistirem em mais de 500.000 linhas, os dados serão divididos por campanha em dois ou mais arquivos chamados `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`e assim por diante.
 
-
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
@@ -56,4 +56,3 @@ Quando a tarefa começar, uma nova linha será adicionada à [!UICONTROL Bulkshe
 >* [Interromper um trabalho de bulksheet em andamento](bulksheet-stop-job.md)
 >* [Fazer upload de uma bulksheet ou arquivo de erro corrigido](bulksheet-upload.md)
 >* [Exportar um arquivo de bulksheet gerado ou carregado](bulksheet-export.md)
-

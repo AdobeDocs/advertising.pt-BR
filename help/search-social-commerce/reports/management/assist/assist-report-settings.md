@@ -1,7 +1,9 @@
 ---
 title: Ajudar configurações do relatório
 description: Saiba mais sobre as configurações obrigatórias e opcionais para relatórios de assistência.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f5b4f4ee-c13c-4d16-a786-a2225d136efe
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Ajudar configurações do relatório
 
-*Anunciantes com rastreamento de cliques em Pesquisa, Social e Comércio e com rastreamento de conversão da Adobe Advertising, Adobe Analytics (com uma [!DNL Analytics] ), ou fornecidos em feeds usando um token (`ef_id`somente )*
+*Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão do Adobe Advertising, Adobe Analytics (com um [!DNL Analytics] ), ou fornecidos em feeds usando um token (`ef_id`somente )*
 
 | Guia | Parâmetro | Descrição |
 |----|----|----|
@@ -43,4 +45,3 @@ ht-degree: 0%
 >* [A variável [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Gerar um relatório de assistência](assist-report-generate.md)
 >* [Sobre relatórios](/help/search-social-commerce/reports/report-about.md)
-

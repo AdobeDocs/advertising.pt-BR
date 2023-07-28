@@ -1,7 +1,9 @@
 ---
 title: Sobre alertas personalizados
 description: Saiba mais sobre alertas personalizados, incluindo como criar modelos de alertas e quando os alertas são acionados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -34,4 +36,3 @@ No prazo de [!UICONTROL Custom Alerts] exibir, a variável [!UICONTROL Alert Tem
 >* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)
-

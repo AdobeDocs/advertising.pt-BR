@@ -2,7 +2,8 @@
 title: '[!DNL Microsoft Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft Advertising] campanhas.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
-source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%

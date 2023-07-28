@@ -1,7 +1,9 @@
 ---
 title: Como as regras de atribuição são calculadas
 description: Saiba como o Adobe Advertising calcula cada tipo de regra de atribuição.
-source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
+exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Como as regras de atribuição são calculadas para o Adobe Advertising
 
-*Anunciantes com rastreamento de conversão de anúncio Adobe somente*
+*Anunciantes com rastreamento de conversão de Adobe Advertising somente*
 
 <!-- Verify statements about cross-device events -->
 
@@ -21,7 +23,7 @@ Em relatórios, exibições padrão e personalizadas para Pesquisa de publicidad
 >[!NOTE]
 >
 >* As regras de atribuição se aplicam a cliques em anúncios pagos em qualquer canal e a impressões em exibições e anúncios sociais. Elas não se aplicam a impressões para anúncios de pesquisa paga, que não podem ser rastreados no nível do evento.
->* A Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* O Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * No Advertising DSP e no Advertising Creative, as definições entre dispositivos consideram somente o caminho do evento da regra de atribuição selecionada.<!-- cross-device attribution via LiveRamp only -->
 * Nas exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas o Adobe Advertising armazena valores mais precisos.
 
@@ -115,7 +117,7 @@ Atribui a conversão a todos os eventos na série que ocorreram dentro do [cliqu
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderado de acordo com o do anunciante [definição de intensidade de viewthrough](/help/search-social-commerce/glossary.md#uv) ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros relatório, view ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
 
 * Em Pesquisa, Social e Comércio, a variável [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
@@ -139,7 +141,7 @@ Atribuição: Clique em 1 = 60 USD, Clique em 2 = 40 USD, Clique em 3 = 20 USD (
 
 Caminho do evento: Impression 1, Click 1, Impression 2, Click 2, Conversion of 120 USD
 
-#### (Somente Pesquisa, Social e Comércio) Uso do padrão &quot;Peso de substituição de impressão&quot; de 10%
+#### (Somente Pesquisa, Social e Comércio) Uso do &quot;Peso de substituição de impressão&quot; padrão de 10%
 
 Como a série de eventos incluía impressões e cliques, o peso de substituição de impressão se aplica às impressões.
 
@@ -177,7 +179,7 @@ Atribui a conversão igualmente a cada evento na série que ocorreu dentro do [c
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderado de acordo com o do anunciante [definição de intensidade de viewthrough](/help/search-social-commerce/glossary.md#uv) ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros relatório, view ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
 
 * Em Pesquisa, Social e Comércio, a variável [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
@@ -203,7 +205,7 @@ Atribuição: Clique em 1 = 40 USD, Clique em 2 = 40 USD, Clique em 3 = 40 USD (
 
 Caminho do evento: Impression 1, Click 1, Impression 2, Click 2, Conversion of 120 USD
 
-#### (Somente Pesquisa, Social e Comércio) Uso do padrão &quot;Peso de substituição de impressão&quot; de 10%
+#### (Somente Pesquisa, Social e Comércio) Uso do &quot;Peso de substituição de impressão&quot; padrão de 10%
 
 Como a série de eventos incluía impressões e cliques, o peso de substituição de impressão se aplica às impressões.
 
@@ -261,7 +263,7 @@ Atribuição: Clique em 3 = 60 USD, Clique em 2 = 40 USD, Clique em 1 = 20 USD (
 
 Caminho do evento: Impression 1, Click 1, Impression 2, Click 2, Conversion of 120 USD
 
-#### (Somente Pesquisa, Social e Comércio) Uso do padrão &quot;Peso de substituição de impressão&quot; de 10%
+#### (Somente Pesquisa, Social e Comércio) Uso do &quot;Peso de substituição de impressão&quot; padrão de 10%
 
 Como a série de eventos incluía impressões e cliques, o peso de substituição de impressão se aplica às impressões.
 
@@ -295,7 +297,7 @@ Atribui a conversão a todos os eventos na série que ocorreram dentro do [cliqu
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderado de acordo com o do anunciante [definição de intensidade de viewthrough](/help/search-social-commerce/glossary.md#uv) ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros relatório, view ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
 
 * Em Pesquisa, Social e Comércio, a variável [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
@@ -319,7 +321,7 @@ Atribuição: Clique em 1 = 36 USD, Clique em 2 = 24 USD, Clique em 3 = 24 USD, 
 
 Caminho do evento: Impression 1, Click 1, Impression 2, Click 2, Conversion of 120 USD
 
-#### (Somente Pesquisa, Social e Comércio) Uso do padrão &quot;Peso de substituição de impressão&quot; de 10%
+#### (Somente Pesquisa, Social e Comércio) Uso do &quot;Peso de substituição de impressão&quot; padrão de 10%
 
 Como a série de eventos incluía impressões e cliques, o peso de substituição de impressão se aplica às impressões.
 

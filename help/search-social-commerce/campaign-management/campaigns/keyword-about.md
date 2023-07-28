@@ -1,7 +1,9 @@
 ---
 title: Sobre palavras-chave
 description: Saiba mais sobre as opções para palavras-chave licitáveis e negativas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -27,4 +29,3 @@ Você pode criar palavras-chave para um grupo de pesquisa de anúncios a partir 
 >* [Gerenciar palavras-chave licitáveis](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Criar palavras-chave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Alterar o status de palavras-chave e palavras-chave negativas](keyword-status-edit.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Sobre o gerenciamento das propriedades de transação de um anunciante
-description: Saiba como você pode usar as propriedades de transação que a Adobe Advertising rastreia para um anunciante.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Saiba como você pode usar as propriedades de transação que o Adobe Advertising rastreia para um anunciante.
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Sobre o gerenciamento das propriedades de transação de um anunciante
 
-A variável [propriedades da transação](/help/search-social-commerce/glossary.md#s-t) que a Adobe Advertising rastreia para um anunciante, incluindo [métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), são usados em toda a Pesquisa, Social, Comércio e Publicidade DSP.
+A variável [propriedades da transação](/help/search-social-commerce/glossary.md#s-t) que o Adobe Advertising rastreia para um anunciante, incluindo [métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), são usados em toda a Pesquisa, Social, Comércio e Publicidade DSP.
 
 * Em Pesquisa, Social e Comércio, você pode usar suas propriedades de transação para criar objetivos, que são usados para otimizar portfólios. Além disso, os dados das propriedades da transação podem ser exibidos em colunas nas visualizações de gerenciamento de campanhas e portfólios e nos relatórios.
 
@@ -25,4 +27,3 @@ Na lista de propriedades que você disponibiliza, cada usuário com acesso aos d
 >* [Exibir as propriedades de transação rastreadas para um anunciante](transaction-property-view-tracked.md)
 >* [Alterar as propriedades de transação disponíveis em exibições de gerenciamento e relatórios](transaction-property-edit-available.md)
 >* [Alterar o nome de exibição de uma propriedade de transação](transaction-property-edit-display-name.md)
-

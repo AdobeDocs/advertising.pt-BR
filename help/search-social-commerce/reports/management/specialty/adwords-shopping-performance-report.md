@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Shopping Performance Report]"
+title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Shopping Performance Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5884efb5-d34f-47fd-82ad-93a5f4064110
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Você pode exibir dados dos dois meses anteriores. Os dados anteriores a 21 de s
 >
 >* Se o produto incluir a [!UICONTROL Product Category] e um produto for exibido em várias categorias, o produto será exibido em várias linhas e a contagem de conversão será duplicada em cada uma das linhas aplicáveis. Como os totais de dados de conversão não são precisos, classifique os dados por categoria somente para obter uma compreensão geral de como as conversões estão em tendência por categoria.
 >* Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) de cada dia. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho às 23:00.
-
 
 ## Colunas padrão
 
@@ -43,7 +44,7 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [Sobre relatórios de especialidade](specialty-report-about.md)
 * [Gerar um relatório de especialidade](specialty-report-generate.md)
 * [Configurações do relatório de especialidades](specialty-report-settings.md)
-

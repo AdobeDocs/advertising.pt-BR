@@ -1,7 +1,9 @@
 ---
 title: Rastreamento de conversão usando um feed de ID EF
 description: Saiba mais sobre como usar um feed de ID de EF para dados de rastreamento de conversão.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Nesse método, a Advertising Cloud coleta uma `ef_id` cada vez que um usuário c
 
 *Gerente de conta da agência, [!DNL Adobe] funções de gerente de conta e administrador de usuário somente*
 
-1. Usar as opções de rastreamento de conta ou campanha &quot;[!UICONTROL EF Redirect],&quot; o tipo de redirecionamento de &quot;[!UICONTROL Token],&quot; e &quot;[!UICONTROL Auto Upload]&quot; para gerar automaticamente um URL de destino ou URL final com um token de anúncio Adobe (ef_id) para cada palavra-chave (para rastreamento no nível da palavra-chave) ou anúncio (para rastreamento no nível do anúncio) na conta ou campanha.
+1. Usar as opções de rastreamento de conta ou campanha &quot;[!UICONTROL EF Redirect],&quot; o tipo de redirecionamento de &quot;[!UICONTROL Token],&quot; e &quot;[!UICONTROL Auto Upload]&quot; para gerar automaticamente um URL de destino ou URL final com um token de Adobe Advertising (ef_id) para cada palavra-chave (para rastreamento em nível de palavra-chave) ou anúncio (para rastreamento em nível de anúncio) na conta ou campanha.
 
    >[!NOTE]
    >* Esse método não exige que o anunciante use tags de rastreamento de conversão de Adobe Advertising.
@@ -40,5 +42,3 @@ Nesse método, a Advertising Cloud coleta uma `ef_id` cada vez que um usuário c
 >
 >* [Requisitos de arquivo para arquivos de feed de conversão](feed-file-requirements.md)
 >* [Requisitos em matéria de dados aplicáveis aos feeds de dados que utilizam IDs de EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

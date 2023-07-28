@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configurações do grupo de publicidade"
+title: '[!DNL Google Ads] configurações do grupo de publicidade'
 description: Referenciar as configurações de [!DNL Google Ads] grupos de publicidade.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -39,7 +41,6 @@ Se a campanha usar uma estratégia de oferta inteligente (como [!UICONTROL Targe
 >* Ao fazer uma oferta por palavra-chave, crie modelos de rastreamento no nível da palavra-chave. Da mesma forma, ao fazer uma oferta por posicionamento, crie modelos de rastreamento no nível de posicionamento. Para todas as outras dimensões, crie modelos de rastreamento no nível do anúncio.
 >* Quando você faz lances por Idade, Gênero, Interesse e Lista ou Vertical para campanhas em portfólios, o recurso de otimização não otimiza lances para a dimensão. Além disso, todas as atribuições são aplicadas ao grupo de anúncios.
 >* Anúncios na rede de pesquisa sempre usam ofertas de palavra-chave.
-
 
 ## [!UICONTROL Budget Options]
 
@@ -88,4 +89,3 @@ Se a campanha usar uma estratégia de oferta inteligente (como [!UICONTROL Targe
 >[!MORELIKETHIS]
 >
 >* [Gerenciar grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

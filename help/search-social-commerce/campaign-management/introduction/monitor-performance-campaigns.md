@@ -1,7 +1,9 @@
 ---
 title: Monitore e gerencie o desempenho de suas campanhas
 description: Saiba como monitorar o desempenho de cada campanha e portfólio e fazer alterações para atingir suas metas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -38,11 +40,10 @@ Com base no desempenho, talvez seja necessário executar operações comerciais 
 
 * (Quando aplicável) Ajustar as estratégias da carteira para melhorar o desempenho e aproveitar as oportunidades de crescimento.
 
-   Para obter mais informações, consulte o Guia de otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+  Para obter mais informações, consulte o Guia de otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de campanhas no Search, Social e Commerce](campaign-management-about.md)
 >* [Visão geral da implementação de contas e campanhas de rede de anúncios](campaign-implemention-overview.md)
 >* [Dados de conversão do Google Ads em Pesquisa, Social e Comércio](google-conversion-data.md)
-

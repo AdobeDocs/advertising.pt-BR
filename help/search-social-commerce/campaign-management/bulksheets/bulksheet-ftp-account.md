@@ -1,7 +1,9 @@
 ---
 title: Configurar uma conta FTP para fazer upload de bulksheets
 description: Saiba como solicitar uma conta FTP para fazer upload de arquivos de bulksheet.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Os arquivos de bulksheet recuperados e quaisquer arquivos de erro criados durant
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
 >* [Fazer upload de uma bulksheet ou arquivo de erro corrigido](bulksheet-upload.md)
-

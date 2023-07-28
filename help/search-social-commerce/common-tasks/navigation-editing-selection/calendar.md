@@ -1,7 +1,9 @@
 ---
 title: Especificar uma data usando o calendário
 description: Saiba como selecionar datas usando o calendário.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -25,4 +27,5 @@ ht-degree: 0%
    * (Para avançar ou retroceder um mês) Clique **`<`** ou **`>`**, respectivamente.
 
    * (Para selecionar outro mês ou ano) Clique no nome do mês ou ano e clique no mês ou ano.
+
    (Para realçar a data atual) Clique em **[!UICONTROL Today]**.

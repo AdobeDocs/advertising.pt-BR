@@ -1,7 +1,9 @@
 ---
 title: Integração com soluções e serviços da Adobe Experience Cloud
 description: Saiba mais sobre as integrações de pesquisa, social e comércio com as soluções e os serviços da Adobe Experience Cloud.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 A Advertising Search, Social e Commerce está integrada ao seguinte [!DNL Adobe] produtos.
 
-* [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) — Você pode usar o [Extensão do Adobe Advertising Cloud](https://exchange.adobe.com/apps/ec/100155) para que o Adobe Experience Platform crie tags de rastreamento de conversão do Adobe Advertising, bem como tags de rastreamento de terceiros, para suas páginas de aterrissagem de anúncios. (Também é possível [crie tags de rastreamento de conversão diretamente no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md).) Entre em contato com a equipe de conta do Adobe ou com a equipe de implementação para obter informações a serem incluídas nas tags.
+* [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) — Você pode usar o [Extensão do Adobe Advertising Cloud](https://exchange.adobe.com/apps/ec/100155) para que a Adobe Experience Platform crie tags de rastreamento de conversão Adobe Advertising, bem como tags de rastreamento de terceiros, para suas páginas de aterrissagem de anúncios. (Também é possível [crie tags de rastreamento de conversão diretamente no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md).) Entre em contato com a equipe de conta do Adobe ou com a equipe de implementação para obter informações a serem incluídas nas tags.
 
 * Adobe Analytics — (recurso de Opt-in) Adobe Advertising e [!DNL Analytics] são integrados das seguintes formas:
 
@@ -20,7 +22,7 @@ A Advertising Search, Social e Commerce está integrada ao seguinte [!DNL Adobe]
 
      Consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre [!DNL Analytics] suporte para cada rede de publicidade e tipo de publicidade. Consulte também &quot;[Visão geral do [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; para obter mais informações sobre a troca de dados.
 
-     Para trocar dados, tanto a Adobe Advertising [!DNL Analytics] deve ser configurado inicialmente. Entre em contato com a equipe de conta do Adobe para obter mais informações sobre a configuração inicial.
+     Para trocar dados, tanto o Adobe Advertising como o [!DNL Analytics] deve ser configurado inicialmente. Entre em contato com a equipe de conta do Adobe para obter mais informações sobre a configuração inicial.
 
      >[!NOTE]
      >
@@ -30,11 +32,10 @@ A Advertising Search, Social e Commerce está integrada ao seguinte [!DNL Adobe]
 
 * Segmentos do Adobe Audience Manager — (recurso de Opt-in) é possível [criar [!DNL Google Ads] públicos-alvo de correspondência do cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) em segmentos de Audience Manager que têm Pesquisa, Redes sociais e Comércio como destino. Isso pode incluir [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud. Você pode usar os públicos-alvo no [!DNL Google Ads] campanhas como nível de campanha ou nível de grupo de anúncios [targets](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusões](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 
-  Consulte &quot;[Integrações de publicidade do Adobe com o Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)&quot; para obter mais informações.
+  Consulte &quot;[Integrações de Adobe Advertising com o Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)&quot; para obter mais informações.
 
 * Adobe Target — Você pode implementar o compartilhamento de sinal de click-through entre o Search, Social, &amp; Commerce e [!DNL Target], configurar uma atividade de teste A/B no [!DNL Target] para seus anúncios e, em seguida, use [!DNL Analytics] Analysis Workspace para visualizar os dados de teste.
 
 * Adobe Campaign — Você pode [criar e atualizar um [!DNL Google Ads] público-alvo de correspondência do cliente usando uma lista de email no [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
 
-* Notificações do Adobe Experience Cloud — (Quando você está conectado por meio do Adobe Experience Cloud) No link de notificações ([Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta")na parte superior de cada página, é possível visualizar todas as atualizações de sistema, publicações, menções e ativos compartilhados do Adobe Experience Cloud. Entre em contato com a equipe de conta do Adobe para obter informações sobre como acessar o Adobe Experience Cloud.
-
+* Notificações do Adobe Experience Cloud — (Quando você está conectado por meio do Adobe Experience Cloud) No link de notificações ([Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta")na parte superior de cada página, é possível visualizar todas as atualizações de sistema, publicações, menções e ativos compartilhados da Adobe Experience Cloud. Entre em contato com a equipe de conta do Adobe para obter informações sobre como acessar o Adobe Experience Cloud.

@@ -1,7 +1,9 @@
 ---
 title: Sobre modelos de relatório
 description: Saiba mais sobre modelos de relatório reutilizáveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -24,4 +26,3 @@ Você também pode excluir qualquer modelo disponível. Quando você exclui um m
 >* [Editar um modelo de relatório](template-edit.md)
 >* [Exibir um modelo de relatório](template-view.md)
 >* [Excluir modelos de relatório](template-delete.md)
-

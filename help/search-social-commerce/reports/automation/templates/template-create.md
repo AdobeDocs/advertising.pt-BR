@@ -1,7 +1,9 @@
 ---
 title: Criar um modelo de relatório
 description: Saiba como criar um modelo de relatório reutilizável.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * Especifique as configurações do relatório.
 
-         O &quot;[!UICONTROL Save as Template]&quot; é selecionada automaticamente.
+        O &quot;[!UICONTROL Save as Template]&quot; é selecionada automaticamente.
 
 * Para criar um modelo com base em um modelo existente:
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [Editar um modelo de relatório](template-edit.md)
 >* [Exibir um modelo de relatório](template-view.md)
 >* [Excluir modelos de relatório](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Otimizar as páginas de aterrissagem do site
 description: Saiba mais sobre as práticas recomendadas para otimizar as landing pages do seu site.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Para ver o impacto de alterar a landing page (quando tudo o mais é constante), 
 >
 >* [Analise relatórios para refinar suas palavras-chave e configurações de campanha](best-practices-analyze.md)
 >* [Escrever texto efetivo e copiar](best-practices-write.md)
-

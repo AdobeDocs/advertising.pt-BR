@@ -1,7 +1,9 @@
 ---
 title: Remover campanhas de um portfólio
 description: Saiba como remover campanhas de um portfólio.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f86ebc10-650c-42ef-b3df-cd707a863c70
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -33,4 +35,3 @@ Para obter mais informações sobre otimização, consulte o Guia de otimizaçã
 >[!MORELIKETHIS]
 >
 >* [Atribuir campanhas a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
-

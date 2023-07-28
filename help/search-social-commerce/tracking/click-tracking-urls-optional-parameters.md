@@ -1,7 +1,9 @@
 ---
 title: Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques
 description: Saiba mais sobre os parâmetros opcionais de rastreamento de pesquisa, redes sociais e comércio e sobre os parâmetros específicos de rastreamento de rede de anúncios que você pode adicionar aos URLs de rastreamento de cliques.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ca619e55-14b1-4768-b866-e339ae2ca6d4
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -16,9 +18,9 @@ Em vez de usar apenas os parâmetros de rastreamento padrão para um URL final o
 
 * Você pode anexar qualquer string de texto estático como parâmetro nos URLs base da conta/campanha.
 
-* Você pode anexar parâmetros específicos de rede de anúncio e publicidade do Adobe nos URLs base da conta/campanha para rastrear mais dados:
+* Você pode anexar parâmetros específicos da rede de Adobe Advertising e anúncios nos URLs base da conta/campanha para rastrear mais dados:
 
-   * Os parâmetros de publicidade de Adobe são semiestáticos. o Adobe Advertising insere um valor de dados quando carrega o URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` para o URL base, o Adobe Advertising substitui `{ef_campaign}` com o nome real da campanha (como &quot;Back-to-school-Campaign&quot;) quando ele carrega o URL.
+   * Os parâmetros de Adobe Advertising são semiestáticos. o Adobe Advertising insere um valor de dados quando carrega o URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` para o URL base, o Adobe Advertising substitui `{ef_campaign}` com o nome real da campanha (como &quot;Back-to-school-Campaign&quot;) quando ele carrega o URL.
 
      **Nota:** Depois que os valores forem inseridos, eles permanecerão estáticos. Se você mover uma palavra-chave ou anúncio para um grupo de publicidade diferente, ou mover o grupo de publicidade para uma campanha diferente, então a variável  {ef_adgroup} ou {ef_campaign} O parâmetro da não é atualizado automaticamente, portanto, você deve gerar manualmente um novo URL de destino ou URL de base (final).
 

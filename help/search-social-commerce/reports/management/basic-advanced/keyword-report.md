@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Report]"
+title: '[!UICONTROL Keyword Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Report]
 
-A variável [!UICONTROL Keyword Report] inclui dados de custo, clique e conversão (opcionalmente) de palavras-chave que receberam impressões em um ou mais grupos de anúncios. Opcionalmente, é possível filtrar os dados para incluir apenas palavras-chave que contenham uma cadeia de texto específica. Por padrão, os dados incluem uma linha para cada palavra-chave aplicável e combinação de tipo de correspondência que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo e, em seguida, pelo custo por padrão.
+A variável [!UICONTROL Keyword Report] inclui dados de custo, clique e conversão (opcionalmente) de palavras-chave que receberam impressões em um ou mais grupos de anúncios. Opcionalmente, é possível filtrar os dados para incluir apenas palavras-chave que contenham uma cadeia de caracteres de texto específica. Por padrão, os dados incluem uma linha para cada palavra-chave aplicável e combinação de tipo de correspondência que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo e, em seguida, pelo custo por padrão.
 
 Opcionalmente, você pode incluir classificações de rótulos específicas do anunciante.
 
@@ -48,4 +50,3 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >* [Sobre relatórios básicos e avançados](basic-advanced-report-about.md)
 >* [Gerar um relatório básico ou avançado](basic-advanced-report-generate.md)
 >* [Configurações básicas e avançadas de relatório](basic-advanced-report-settings.md)
-

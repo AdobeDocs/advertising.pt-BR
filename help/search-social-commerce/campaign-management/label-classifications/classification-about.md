@@ -1,7 +1,9 @@
 ---
 title: Sobre as classificações de rótulo
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -34,4 +36,3 @@ A variável [!UICONTROL Labels Classifications] exibir no [!UICONTROL Search] > 
 >* [Remover dos componentes da conta os valores de classificação de etiquetas](classification-values-remove.md)
 >* [Excluir valores de classificação de etiqueta](classification-values-delete.md)
 >* [Excluir classificações de etiquetas](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Sobre extensões do sitelink
 description: Saiba mais sobre extensões do sitelink.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -32,4 +34,3 @@ Entrada [!DNL Google Ads] e [!DNL Microsoft® Advertising], você pode ver os da
 >
 >* [Gerenciar extensões compartilhadas do sitelink](sitelink-extension-manage.md)
 >* [Associar extensões compartilhadas do sitelink a campanhas ou grupos de anúncios](sitelink-extension-associate.md)
-

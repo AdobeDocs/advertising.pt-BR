@@ -1,7 +1,9 @@
 ---
 title: Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica
 description: Saiba mais sobre o fluxo de trabalho para configuração [!DNL Google Ads] anúncios de pesquisa dinâmica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%

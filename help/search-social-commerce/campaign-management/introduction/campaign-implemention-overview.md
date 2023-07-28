@@ -1,7 +1,9 @@
 ---
 title: Visão geral da implementação de contas e campanhas de rede de anúncios
 description: Saiba mais sobre as tarefas envolvidas na configuração, sincronização e gerenciamento de suas contas de rede de anúncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -43,12 +45,12 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Anúncios do Japão e contas do Yandex somente) Fazer upload [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contendo quantos dados quiser para uma conta e, em seguida, postando-os nas redes de anúncios.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! contas do Japan Ads e do Yandex somente) Insira dados para componentes individuais diretamente na interface. Para a maioria dos tipos de campanha e anúncios, você pode criar dados no nível da campanha, no nível do grupo de anúncios e nos níveis de palavra-chave, posicionamento e anúncio individuais.
+
       Alguns tipos de campanha e anúncios, no entanto, exigem workflows exclusivos. Consulte as instruções de configuração [[!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] campanhas de desempenho máximo do](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md), e [[!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] somente contas de rastreamento) Fazer upload [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) com dados para replicar as campanhas, grupos de anúncios e palavras-chave existentes em Pesquisa, Social e Comércio sem publicá-los no [!DNL Naver].
 
-
-1. Configure o rastreamento de todos os anúncios para os quais a Publicidade em Adobe rastreará as conversões:
+1. Configure o rastreamento de todos os anúncios para os quais o Adobe Advertising rastreará conversões:
 
    1. (Anunciantes com o serviço de rastreamento de conversão do Adobe Advertising) Se necessário, [configurar o rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para anúncios e, opcionalmente, para palavras-chave, disposições e extensões de anúncios, gerando e fazendo upload de URLs de rastreamento de cliques de Pesquisa, Redes Sociais e Comércio.
 
@@ -58,13 +60,13 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, isso pode envolver a adição de tags de rastreamento de conversão às páginas da Web do anunciante e/ou a configuração de uma queda de feed diária para dados de conversão que o anunciante coletou separadamente.
 
-      Se você usar o serviço de rastreamento de conversão do Adobe Advertising, será possível gerar tags de rastreamento de conversão [no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [uso do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Se você usar o serviço de rastreamento de conversão do Adobe Advertising, poderá gerar tags de rastreamento de conversão [no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [uso do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. Valide os dados que são rastreados.
 
    Para obter mais detalhes sobre como configurar o rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
-1. (Anunciantes com o Adobe Analytics) [Integrar o Adobe Advertising and Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que possam trocar dados.
+1. (Anunciantes com o Adobe Analytics) [Integrar o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que possam trocar dados.
 
 1. (Para permitir que o Search, Social e Commerce otimize ofertas e/ou orçamentos de campanha; [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) somente) [Atribuir a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
@@ -88,4 +90,3 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 >* [Monitore e gerencie o desempenho de suas campanhas de rede de anúncios](monitor-performance-campaigns.md)
 >* [Dados de conversão do Google Ads em Pesquisa, Social e Comércio](google-conversion-data.md)
 >* [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
-

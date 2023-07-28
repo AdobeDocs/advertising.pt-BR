@@ -1,7 +1,9 @@
 ---
 title: Gerenciar modificadores
 description: Saiba como configurar e gerenciar modificadores para seus modelos de anúncio para feeds de dados de inventário.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -70,4 +72,3 @@ Cada grupo de modificadores pode incluir quantos modificadores desejar. Cada mod
 >
 >* [Sobre feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Gerenciar modelos de anúncios](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

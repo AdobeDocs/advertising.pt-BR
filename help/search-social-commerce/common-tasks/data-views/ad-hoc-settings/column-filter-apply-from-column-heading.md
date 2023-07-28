@@ -1,7 +1,9 @@
 ---
 title: Aplicar filtros de dados a partir de um menu de cabeçalho de coluna
 description: Saiba como filtrar os dados da página no menu de cabeçalho de coluna.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ad745599-fd98-4f34-b181-085070adb685
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -20,10 +22,9 @@ ht-degree: 0%
 
    * (Filtros com campos de entrada) Selecione um operador no segundo menu, insira o valor aplicável e clique em ![Atualizar filtro](/help/search-social-commerce/assets/select.png "Atualizar filtro").
 
-      Por exemplo, se você selecionou a opção &quot;[!UICONTROL Clicks]&quot; e quiser retornar apenas linhas com mais de 100 cliques, depois selecione *[!UICONTROL greater than]*&quot; e insira `100` no campo de entrada Dependendo do tipo de dados, os operadores disponíveis podem incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
+     Por exemplo, se você selecionou a opção &quot;[!UICONTROL Clicks]&quot; e quiser retornar apenas linhas com mais de 100 cliques, depois selecione *[!UICONTROL greater than]*&quot; e insira `100` no campo de entrada Dependendo do tipo de dados, os operadores disponíveis podem incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
-      >[!NOTE]
-      >
-      >* Os valores de texto não diferenciam maiúsculas de minúsculas. Por exemplo, se você filtrar por campanhas com &quot;loan&quot; no nome, os resultados incluem &quot;Consumer Loans&quot; e &quot;loan applications&quot;.
-      >* Você pode aplicar apenas um filtro numérico simples (como [!UICONTROL Impressions] \> 100) por coluna.
-
+     >[!NOTE]
+     >
+     >* Os valores de texto não diferenciam maiúsculas de minúsculas. Por exemplo, se você filtrar por campanhas com &quot;loan&quot; no nome, os resultados incluem &quot;Consumer Loans&quot; e &quot;loan applications&quot;.
+     >* Você pode aplicar apenas um filtro numérico simples (como [!UICONTROL Impressions] \> 100) por coluna.

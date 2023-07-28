@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Assist Report]"
+title: '[!UICONTROL Keyword Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # A variável [!UICONTROL Keyword Assist Report]
 
-*Anunciantes com rastreamento de cliques em Pesquisa, Social e Comércio e com rastreamento de conversão da Adobe Advertising, Adobe Analytics (com uma [!DNL Analytics] ), ou fornecidos em feeds usando um token (`ef_id`somente )*
+*Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão do Adobe Advertising, Adobe Analytics (com um [!DNL Analytics] ), ou fornecidos em feeds usando um token (`ef_id`somente )*
 
 A variável [!UICONTROL Keyword Assist Report] indica quais palavras-chave ou posicionamentos a unidade clica. O relatório mostra cada padrão de palavras-chave ou disposições de pesquisa paga que receberam cliques em um caminho de conversão e indica como esse padrão contribuiu para suas conversões gerais. Por exemplo, você poderia ver quantas conversões ocorreram quando os usuários clicaram em um anúncio pela primeira vez, resultante de uma pesquisa por palavra-chave para &quot;sapatos de couro&quot;, e depois clicaram em um anúncio após uma pesquisa por palavra-chave para &quot;sapatos de camurça&quot; e, em seguida, fizeram um pedido; ou você pode ver quantas conversões ocorreram depois que os usuários clicaram em anúncios resultantes de mais de 10 palavras-chave.
 

@@ -1,7 +1,9 @@
 ---
 title: Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising
 description: Saiba mais sobre os formatos de rastreamento de cliques para redes de anúncios compatíveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -10,13 +12,13 @@ ht-degree: 0%
 
 # Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising
 
-Os templates de rastreamento, sufixos de landing page (sufixos de URL final) e URLs de destino para contas de anúncio e campanhas que usam o serviço de rastreamento de conversão do Adobe Advertising têm o seguinte formato:
+Os templates de rastreamento, sufixos de landing page (sufixos de URL final) e URLs de destino para contas de anúncio e campanhas que usam o serviço de rastreamento de conversão de Adobe Advertising têm o seguinte formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
 em que:
 
-* `http://pixel.everesttech.net` O redireciona o usuário para os servidores de pixels de publicidade do Adobe.
+* `http://pixel.everesttech.net` redireciona o usuário para os servidores de pixels do Adobe Advertising.
 
 * `<advertiser_ID>` é uma variável da ID de usuário exclusiva atribuída ao anunciante no Adobe Advertising.
 
@@ -43,4 +45,3 @@ Veja as páginas separadas indicando o [[!DNL Baidu] formatos](formats-click-tra
 >* [Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Yandex]](formats-click-tracking-yandex.md)
-

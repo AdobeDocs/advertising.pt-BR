@@ -1,7 +1,9 @@
 ---
 title: Exibir ou salvar um relatório
 description: Saiba como visualizar um relatório gerado ou salvar um relatório como um arquivo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Você pode exibir um relatório no navegador da Web ou abrir ou salvar os dados 
 
       * **[!UICONTROL XLS]:**   Para um [!DNL Excel] uma única planilha (formato XLSX). O relatório inclui uma planilha rotulada na parte superior com os parâmetros, com uma linha para cada componente relatado quando os dados do componente estiverem disponíveis. Linhas sem dados são omitidas.
 
-         Os relatórios básicos incluem um total para cada coluna numérica.
+        Os relatórios básicos incluem um total para cada coluna numérica.
 
       * **[!UICONTROL TSV]:** Para um arquivo TSV. O relatório inclui os parâmetros e uma linha para cada componente relatado.
 
@@ -42,4 +44,3 @@ Você pode exibir um relatório no navegador da Web ou abrir ou salvar os dados 
 >* [Gerar um relatório a partir de um modelo](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Gerar um relatório a partir de um relatório existente](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [Excluir relatórios](/help/search-social-commerce/reports/management/report-delete.md)
-

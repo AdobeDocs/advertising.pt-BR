@@ -1,7 +1,9 @@
 ---
 title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,12 +47,12 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
       1. Expanda um grupo de portfólios em seus portfólios filhos clicando no [!UICONTROL Portfolio Group] nome.
 
       1. Selecione o portfólio.
+
    * Para pesquisar um portfólio:
 
       1. Insira pelo menos três letras no campo de entrada.
 
       1. Nos resultados da pesquisa, clique em **[!UICONTROL Select]** ao lado do nome do portfólio.
-
 
 1. (Opcional) Clique em **[!UICONTROL Additional Details]** e, opcionalmente, informe um nome de projeto e uma descrição.
 
@@ -79,4 +81,3 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 >[!MORELIKETHIS]
 >
 >* [Remover campanhas de um portfólio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

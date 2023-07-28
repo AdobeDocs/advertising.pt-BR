@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Google Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Google Ads] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -40,7 +42,6 @@ Exemplo:
 >
 >* (Sitelinks) Você pode ver quais conversões resultaram de um clique em um sitelink gerando um [!UICONTROL Transaction Report]. A variável [!UICONTROL Link Type] o valor da coluna para um sitelink é `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
-
 ### Rede de compras
 
 O formato a seguir se aplica a anúncios de compras e grupos de produtos em redes de compras. Você pode especificar um modelo de rastreamento no nível de conta, campanha, grupo de anúncios ou grupo de produtos.
@@ -63,36 +64,33 @@ Exemplo:
 >
 >* Você pode ver quais conversões resultaram de um clique em um anúncio de compras gerando um [!UICONTROL Transaction Report]. A variável [!UICONTROL Link Type] o valor da coluna para um anúncio de produto é pla:`<product ID>`, como `pla:8525822`.
 
-
 ## Formatos de sufixo de página de aterrissagem (sufixo de URL final)
 
-As contas que usam o rastreamento de conversão de anúncio do Adobe devem incluir o identificador de cliques da rede de publicidade (`gclid` para [!DNL Google Ads]) no sufixo:
+As contas que usam o rastreamento de conversão de Adobe Advertising devem incluir o identificador de cliques da rede de publicidade (`gclid` para [!DNL Google Ads]) no sufixo:
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir um dos seguintes:
 
    * [!DNL Google Ads] contas que usam a mais recente `s_kwcid` formato, que oferece suporte a relatórios no nível da campanha e do grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      Se a conta tiver uma implementação s_kwcid do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente.
+     Se a conta tiver uma implementação s_kwcid do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente.
 
    * Todos os outros [!DNL Google Ads] contas:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Quando o anunciante não tiver uma integração do Adobe Analytics, o sufixo deve incluir o seguinte:
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
 >* Os sufixos de página de aterrissagem em níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor da rede de anúncios.
 >
->* (Anúncios de pesquisa dinâmicos; anunciantes com Adobe Analytics e sem rastreamento do lado do servidor) Quando desejar incluir o rastreamento do feed reverso do Adobe Advertising para o Analytics, anexe o `s_kwcid` código de rastreamento até o final do sufixo da página de aterrissagem no nível da conta.
-
+>* (Anúncios de pesquisa dinâmica; anunciantes com Adobe Analytics e sem rastreamento do lado do servidor) Quando desejar incluir o rastreamento do feed reverso do Adobe Advertising para o Analytics, anexe o `s_kwcid` código de rastreamento até o final do sufixo da página de aterrissagem no nível da conta.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
-

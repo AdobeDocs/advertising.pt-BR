@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Label Classification Report]"
+title: '[!UICONTROL Label Classification Report]'
 description: Saiba mais sobre o [!UICONTROL Label Classification Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Label Classification Report]
 
-A variável [!UICONTROL Label Classification Report] inclui dados de custo, clique e conversão (opcionalmente) por classificação de etiqueta em nível de palavra-chave ou nível de anúncio agregada em redes de anúncios, contas, campanhas ou grupos de anúncios. Por padrão, os dados incluem uma linha para cada classificação de rótulo no nível de palavra-chave aplicável para palavras-chave, anúncios e posicionamentos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo, depois por classificação de etiqueta e, em seguida, pelo valor da etiqueta, por padrão.
+A variável [!UICONTROL Label Classification Report] inclui dados de custo, clique e conversão (opcionalmente) por classificação de etiqueta em nível de palavra-chave ou nível de anúncio agregada em redes de anúncios, contas, campanhas ou grupos de anúncios. Por padrão, os dados incluem uma linha para cada classificação de rótulo no nível de palavra-chave aplicável para palavras-chave, anúncios e posicionamentos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data de início da unidade de tempo, depois por classificação de etiqueta e, em seguida, pelo valor da etiqueta, por padrão.
 
 Você pode exibir dados dos últimos 36 meses.
 
@@ -18,7 +20,6 @@ Você pode exibir dados dos últimos 36 meses.
 >
 >* Relatórios por classificações de rótulo no nível do anúncio não estão disponíveis para [!DNL Microsoft® Advertising] campanhas de anúncio de pesquisa dinâmica (DSA).
 >* Mais de uma classificação de etiqueta pode ser aplicada à mesma entidade, portanto, o total de cada métrica pode ser maior que o total real da entidade. Por exemplo, digamos que a palavra-chave &quot;sapatos de camurça&quot; tenha dois valores de etiqueta, &quot;camurça&quot; e &quot;calçado&quot;, e a palavra-chave recebeu 100 cliques. A coluna Clicks mostraria &quot;100&quot; para cada um desses valores de rótulo, portanto, o total para ambas as linhas será &quot;200&quot;.
-
 * Quaisquer alterações feitas em classificações de rótulo e nos valores de rótulo filho de uma entidade serão visíveis em cerca de uma hora.
 
 ## Colunas padrão
@@ -42,4 +43,3 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >* [Sobre relatórios básicos e avançados](basic-advanced-report-about.md)
 >* [Gerar um relatório básico ou avançado](basic-advanced-report-generate.md)
 >* [Configurações básicas e avançadas de relatório](basic-advanced-report-settings.md)
-

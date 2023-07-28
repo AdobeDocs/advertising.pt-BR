@@ -1,7 +1,9 @@
 ---
 title: Definir configurações de dados de feed
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -44,7 +46,6 @@ Você pode configurar como lidar com grupos de anúncios, palavras-chave e anún
 >
 >* Para [!DNL Google Ads] anúncios de compras, somente o grupo de produtos de nível mais baixo é afetado.
 >* Para [!DNL Yandex] contas, tarefas de processamento automático de item obsoletas são sempre executadas em variações de anúncio, independentemente dessa configuração.
-
 
 **[!UICONTROL When the Scheduled End Date is reached]:** (Somente dados publicados manualmente) O que fazer com os itens de linha em um arquivo de feed publicado com uma data e hora de término especificadas assim que a hora de término chegar:
 
@@ -89,7 +90,6 @@ O nível de estoque para cada item de linha vem de uma coluna no arquivo de feed
 >* Para produtos ou serviços para os quais você espera reabastecer ou aumentar a disponibilidade, você deve pausar grupos de anúncios, palavras-chave e anúncios, em vez de excluí-los e recriá-los. Pausar permite que elas mantenham suas pontuações de qualidade.
 >* Se você ativar o processamento automático obsoleto para grupos de anúncios e os novos dados incluírem um nível de estoque para o grupo de anúncios, será significativo excluir ou pausar o grupo de anúncios somente quando o nível de estoque especificado estiver no nível da categoria, em vez de no nível da marca/item. Por exemplo, se você tiver um grupo de anúncios &quot;convertíveis&quot;, o nível de estoque do grupo de anúncios deve ser o total de todos os modelos conversíveis individuais representados no grupo de anúncios.
 
-
 **[!UICONTROL Propagate feed data through all applicable templates]:** (Anunciantes fazendo upload de arquivos de dados via FTP ou uma conta do centro de comércio) Propaga automaticamente novos dados por meio dos modelos aplicáveis. A opção é selecionada por padrão. Se você desativar a opção, ainda será possível propagar dados manualmente para qualquer arquivo ou conta de feed ou para qualquer modelo.
 
 >[!NOTE]
@@ -97,7 +97,6 @@ O nível de estoque para cada item de linha vem de uma coluna no arquivo de feed
 >* Para arquivos FTP, o serviço de feed verifica se há atualizações no diretório FTP a cada duas horas (horas pares no fuso horário PST). Essa opção processa todos os arquivos que foram carregados desde a última verificação.
 >* Para contas do centro de comércio, o Search, Social e Commerce sincroniza com a conta diariamente às 6:00, aproximadamente, no fuso horário do anunciante. Essa opção processa todos os dados atualizados desde a última sincronização.
 >* Os dados propagados estão disponíveis no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] até que os dados sejam publicados na rede de publicidade ou na [!UICONTROL Bulksheets] exibição.
-
 
 **[!UICONTROL Post to the SE]:** (Anunciantes fazendo upload de arquivos de dados via FTP ou uma conta do centro do comerciante) Cria automaticamente arquivos de bulksheet nos formatos corretos para as redes de anúncios relevantes depois que novos dados são propagados pelos modelos aplicáveis. Essa opção também remove os dados do [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias, a menos que quaisquer subcomponentes tenham erros.
 
@@ -116,4 +115,3 @@ Essa opção está desativada por padrão para que todas as palavras-chave sejam
 >* [Sobre feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Propagar dados do feed por meio de modelos](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
 >* [Publicar dados de campanha gerados a partir de feeds para redes de anúncios](propagated-data-post.md)
-

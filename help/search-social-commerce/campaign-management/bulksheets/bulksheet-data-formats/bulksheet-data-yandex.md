@@ -1,7 +1,9 @@
 ---
 title: Dados de bulksheet necessários para [!DNL Yandex] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Yandex] contas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -78,4 +80,3 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 >* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
 >* [Formatos de rastreamento de cliques para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Fazer upload de um arquivo de bulksheet ou arquivo de erro corrigido](../bulksheet-upload.md)
-

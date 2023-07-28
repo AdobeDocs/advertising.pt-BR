@@ -1,7 +1,9 @@
 ---
 title: Gerenciar públicos-alvo de correspondência do cliente usando listas de dados do cliente
 description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -52,11 +54,12 @@ Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços
 
          * ([!DNL Android™] aplicativos) A [!DNL Android™] nome do pacote dentro de [!DNL Google Play], identificado por &quot;`id=<package_name>`.&quot;
 
-            Por exemplo, em https://play.google.com/store/apps/details?id=com.example.game, o nome do pacote é com.example.game.
+           Por exemplo, em https://play.google.com/store/apps/details?id=com.example.game, o nome do pacote é com.example.game.
 
          * ([!DNL iOS] apps) A ID do aplicativo na variável [!DNL iTunes App Store], identificado por &quot;`<idNNNNNNNNN>`&quot; no final do URL. Ele também está disponível no [!DNL iOS Developer Console].
 
-            Por exemplo, em https://itunes.apple.com/us/app/id284882215, a ID é id284882215.
+           Por exemplo, em https://itunes.apple.com/us/app/id284882215, a ID é id284882215.
+
          Sua equipe de desenvolvimento tem acesso ao [!UICONTROL App ID] para a plataforma relevante.
 
       1. No [!UICONTROL Select File] clique em **[!UICONTROL Choose File]** e selecione o arquivo na rede ou no dispositivo.
@@ -64,6 +67,7 @@ Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços
       1. Marque a caixa de seleção para indicar que você concorda com os termos da [!DNL Adobe] e políticas de privacidade de rede de anúncios.
 
       1. Clique em **[!UICONTROL Upload File]**.
+
    1. Especifique o número de **[!UICONTROL Membership Days]**, que é o número de dias que um cookie do usuário permanece no público-alvo.
 
    Use o período de tempo durante o qual você espera que seu anúncio seja relevante para o usuário. As listas de clientes não expiram, a menos que você insira um valor.
@@ -74,7 +78,6 @@ Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços
 >
 >* A rede de publicidade pode levar até 24 horas para processar o arquivo.
 >* Consulte [[!DNL Google Ads] documentação sobre como a correspondência do cliente funciona e limitações](https://support.google.com/displayvideo/answer/9539301).
-
 
 ## Editar um público-alvo de correspondência do cliente usando uma lista de dados do cliente
 
@@ -114,4 +117,3 @@ O nome e o sobrenome, os endereços de email e os números de telefone devem ser
 >* [Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos](google-audience-from-adobe-audience.md)
 >* [Criar um [!DNL Google Ads] público-alvo de correspondência do cliente de uma lista de email da Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gerenciar públicos de remarketing dinâmicos](audience-dynamic-remarketing-manage.md)
-

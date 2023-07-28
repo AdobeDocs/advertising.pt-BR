@@ -1,7 +1,9 @@
 ---
 title: Criar e editar dados da campanha em massa usando copiar e colar
 description: Saiba como gerenciar dados do Campaign em massa usando o recurso copiar e colar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -43,8 +45,8 @@ Você pode usar esse recurso para editar objetos de campanha existentes (com cam
       * Para objetos existentes que você deseja editar, é necessário incluir todas as colunas de ID relevantes, nomes de entidade e o atributo a ser editado. Não edite a ID numérica do objeto.
 
       * Para novos objetos de campanha, inclua todos os nomes e atributos de entidade relevantes, mas não inclua IDs de objeto (que são geradas automaticamente). Por exemplo, se você criar um novo anúncio, deixe a variável [!UICONTROL Ad ID] campo em branco. A rede de publicidade cria automaticamente uma ID quando você publica o objeto.
-   * O valor em qualquer coluna não obrigatória pode ser nulo (em branco), mas cada linha deve ter o mesmo número de valores separados por tabulação.
 
+   * O valor em qualquer coluna não obrigatória pode ser nulo (em branco), mas cada linha deve ter o mesmo número de valores separados por tabulação.
 
 1. Salve os dados como valores separados por tabulação.
 
@@ -81,4 +83,3 @@ Você pode usar esse recurso para editar objetos de campanha existentes (com cam
 >* [Gerenciar grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [Gerenciar palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Gerenciar anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

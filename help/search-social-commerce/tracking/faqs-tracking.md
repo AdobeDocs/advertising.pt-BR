@@ -1,7 +1,9 @@
 ---
 title: Perguntas frequentes sobre rastreamento
 description: Saiba mais sobre respostas a perguntas comuns sobre rastreamento, incluindo a solução de problemas.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: Filtrar dados por intervalo de datas
 description: Saiba como usar o filtro de intervalo de datas global.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Quando você salva um intervalo de datas específico para uma exibição padrão
 >* Para visualizar dados anteriores, acesse o [[!UICONTROL Reports] exibir](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) e executar um relatório básico.
 >* Também é possível salvar um intervalo de datas para uma [modo de exibição padrão ou personalizado](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## Alterar o filtro de data global nas visualizações de campanha
 
 1. Acima de qualquer tabela de dados em Pesquisar \> Campanhas \> Campanhas, clique no intervalo de datas atual.
@@ -33,7 +34,7 @@ Quando você salva um intervalo de datas específico para uma exibição padrão
 
    * Para um intervalo específico: Selecione **[!UICONTROL Custom Date Range]** e especifique a data de início e a data de término.
 
-      Insira as datas no formato MM/DD/AAAA ou MM-DD-AAAA ou clique em ![Ícone de calendário](/help/search-social-commerce/assets/calendar.png "Ícone de calendário") ao lado de cada campo para abrir o calendário e selecionar uma data.
+     Insira as datas no formato MM/DD/AAAA ou MM-DD-AAAA ou clique em ![Ícone de calendário](/help/search-social-commerce/assets/calendar.png "Ícone de calendário") ao lado de cada campo para abrir o calendário e selecionar uma data.
 
 1. (Opcional) Comparar dados para o intervalo de datas especificado com dados para um segundo intervalo de datas:
 

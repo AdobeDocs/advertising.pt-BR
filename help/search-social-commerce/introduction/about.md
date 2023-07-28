@@ -1,24 +1,26 @@
 ---
-title: Sobre a pesquisa de publicidade, redes sociais e comércio do Adobe
+title: Sobre o Adobe Advertising Search, Social e Commerce
 description: Saiba mais sobre Pesquisa, Social e Comércio.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: 0cfd82f7-26b6-4e61-b9a5-718f4eda83c1
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
-# Sobre a pesquisa de publicidade, redes sociais e comércio do Adobe
+# Sobre o Adobe Advertising Search, Social e Commerce
 
-[!DNL Adobe] A é a líder do mercado e da tecnologia em soluções de experiência do cliente. A Adobe Advertising simplifica a entrega de campanhas de publicidade entre canais para o gerenciamento de campanhas de marca e desempenho em qualquer tela, em qualquer formato. A Adobe Advertising consiste em três subsoluções: Advertising Search, Social, &amp; Commerce para pesquisa, compras, social, rede de público-alvo e canais máximos de desempenho; Advertising DSP (Demand Side Platform) para canais de exibição; e Advertising Creative para criar experiências do usuário final para seus anúncios de exibição.
+[!DNL Adobe] A é a líder do mercado e da tecnologia em soluções de experiência do cliente. O Adobe Advertising simplifica a entrega de campanhas de publicidade entre canais para o gerenciamento de campanhas de marca e desempenho em qualquer tela, em qualquer formato. O Adobe Advertising consiste em três subsoluções: Advertising Search, Social, &amp; Commerce para pesquisa, compras, social, rede de público-alvo e canais máximos de desempenho; Advertising DSP (Demand Side Platform) para canais de exibição; e Advertising Creative para criar experiências de usuário final para seus anúncios de exibição.
 
-Como parte da Adobe Advertising, Advertising Search, Social e Commerce combina o melhor gerenciamento de anúncios baseado em portfólio com previsão de campanha inteligente e entrega de anúncios direcionada para publicidade otimizada por dados.
+Como parte do Adobe Advertising, a Advertising Search, Social e Commerce combina o melhor gerenciamento de anúncios baseado em portfólio do setor com previsão inteligente de campanhas e entrega de anúncios direcionada para publicidade otimizada por dados.
 
 ## Tecnologia orientada por IA para otimização de anúncios
 
 Search, Social, &amp; Commerce automatiza e otimiza o gerenciamento de ofertas e orçamentos para campanhas de anúncios em redes de anúncios, dentro dos limites dos objetivos de negócios, métricas, orçamento e outras restrições comerciais de um anunciante. Ele rastreia o histórico de cliques, custos e conversões de cada palavra-chave e anúncio de um anunciante, bem como informações sobre o cenário de ofertas em cada canal de marketing. Usando uma abordagem de teoria do portfólio, o recurso de otimização compara todas as alocações possíveis do orçamento em um portfólio inteiro de campanhas para determinar os lances e orçamentos de campanha que produzirão o maior retorno possível sobre o investimento em anúncios e executa os lances e orçamentos de acordo. O recurso de otimização monitora constantemente as palavras-chave e os anúncios de um anunciante, ajustando dinamicamente ofertas e orçamentos à medida que o mercado muda.
 
-Vários tipos de otimização estão disponíveis, permitindo Pesquisa, Social e Comércio e a rede de anúncios com vários graus de controle sobre a otimização de lances. Dependendo do tipo de otimização, você pode otimizar seus portfólios usando conversões rastreadas pela Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], ou outros feeds corporativos primários.
+Vários tipos de otimização estão disponíveis, permitindo Pesquisa, Social e Comércio e a rede de anúncios com vários graus de controle sobre a otimização de lances. Dependendo do tipo de otimização, você pode otimizar seus portfólios usando conversões rastreadas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], ou outros feeds corporativos primários.
 
 Dependendo da sua função, talvez você possa exibir simulações de desempenho do portfólio, que usam modelagem preditiva para identificar o ponto de gasto ideal, e relatórios detalhados de precisão de previsão. Todos os usuários podem usar a Ferramenta de recomendação de gastos para identificar a distribuição de orçamento ideal entre portfólios.
 
@@ -46,7 +48,7 @@ Para obter mais informações sobre integrações com esses e outros produtos Ad
 
 ## Rastreamento de conversão
 
-A Adobe Advertising oferece, opcionalmente, um serviço de rastreamento de conversão proprietário baseado em pixel para rastrear conversões online de anúncios que vinculam aos seus sites. Quando você usa o serviço de rastreamento de pixels, o Adobe Advertising rastreia os cliques em seus anúncios e as transações/conversões resultantes em seus sites, mapeando com precisão cada sequência de cliques e impressões para conversões. Você pode usar as conversões rastreadas para otimização de oferta e orçamento.
+Adobe Advertising fornece, opcionalmente, um serviço de rastreamento de conversão proprietário, baseado em pixel, para rastrear conversões online de anúncios que vinculam aos seus sites. Quando você usa o serviço de rastreamento de pixels, o Adobe Advertising rastreia os cliques em seus anúncios e as transações/conversões resultantes em seus sites, mapeando com precisão cada sequência de cliques e impressões para conversões. Você pode usar as conversões rastreadas para otimização de oferta e orçamento.
 
 O serviço permite otimizar para diferentes regras de atribuição de dados para os eventos que levam a uma conversão (como atribuir conversões ao último evento relacionado ou pesar mais o último evento). Ele também fornece acesso a relatórios avançados que podem ser usados para melhorar as taxas de conversão, a visibilidade das assistências a cliques e a análise de tendências diárias e intradiárias.
 
@@ -56,4 +58,3 @@ Para obter mais informações sobre rastreamento, consulte o capítulo em &quot;
 >
 >* [Estoque suportado](supported-inventory.md)
 >* [Integração com soluções e serviços da Adobe Experience Cloud](integrations.md)
-

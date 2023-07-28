@@ -2,7 +2,8 @@
 title: Aplicar ou descartar um [!DNL Google Ads] recomendação
 description: Saiba como visualizar uma [!DNL Google Ads] recomendação e como aplicar ou rejeitar a recomendação.
 exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

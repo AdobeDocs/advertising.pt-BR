@@ -3,7 +3,8 @@ title: Sobre sincronização [!DNL Google Analytics] métricas de conversão
 description: Saiba mais sobre sincronização [!DNL Google Analytics] métricas de conversão para otimização e relatórios.
 role: User, Admin
 exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%

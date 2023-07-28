@@ -1,7 +1,9 @@
 ---
 title: Status dos dados gerados a partir dos feeds
 description: Saiba mais sobre os status dos dados gerados a partir dos feeds de dados de inventário.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Cada componente pode ter um dos seguintes status:
 >* [Editar dados gerados a partir dos feeds](propagated-data-edit.md)
 >* [Publicar dados de campanha gerados a partir de feeds para redes de anúncios](propagated-data-post.md)
 >* [Interromper um trabalho de lançamento para dados de feed de estoque](stop-job.md)
-

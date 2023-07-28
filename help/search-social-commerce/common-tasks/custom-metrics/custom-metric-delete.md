@@ -1,7 +1,9 @@
 ---
 title: Excluir uma métrica personalizada
 description: Saiba como excluir métricas personalizadas, que são calculadas a partir das métricas padrão.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -48,4 +50,3 @@ Se a métrica personalizada for incluída como uma coluna na exibição atual, a
 >* [Criar uma métrica personalizada](custom-metric-create.md)
 >* [Editar uma métrica personalizada](custom-metric-edit.md)
 >* [Configurações de métrica personalizada](custom-metric-settings.md)
-

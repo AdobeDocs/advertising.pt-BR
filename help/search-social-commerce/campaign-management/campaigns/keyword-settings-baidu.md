@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] configurações de palavra-chave"
+title: '[!DNL Baidu] configurações de palavra-chave'
 description: Referenciar as configurações de [!DNL Baidu] palavras-chave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -26,7 +28,6 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 >* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
 >* Alterar um [!DNL Baidu] palavra-chave exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
 
-
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
 ## [!UICONTROL Bids]
@@ -41,9 +42,8 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscimo configurados para a campanha ou conta.
 
-Se você usar o serviço de rastreamento de conversão de anúncio do Adobe e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar rastreamento no nível de palavra-chave, Pesquisar, Social e Comércio adiciona automaticamente seu próprio código de rastreamento de cliques.
+Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar rastreamento no nível de palavra-chave, Pesquisar, Social e Comércio adiciona automaticamente seu próprio código de rastreamento de cliques.
 
 >[!MORELIKETHIS]
 >
 >* [Gerenciar palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

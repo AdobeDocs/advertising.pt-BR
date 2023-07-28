@@ -1,7 +1,9 @@
 ---
 title: Ativar e desativar notificações por push de [!UICONTROL Notification Center]
 description: Saiba como habilitar e desabilitar notificações por push de [!UICONTROL Notification Center].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -54,4 +56,3 @@ Consulte as instruções na ajuda do navegador.
 >* [Excluir uma notificação](notification-delete.md)
 >* [Editar suas configurações de notificação](notification-edit.md)
 >* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
-

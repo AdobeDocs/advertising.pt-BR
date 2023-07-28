@@ -1,7 +1,9 @@
 ---
 title: Criar palavras-chave negativas
 description: Saiba como criar palavras-chave negativas para campanhas de pesquisa e grupos de anúncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -44,7 +46,6 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 
    * [!DNL Yandex]: cada palavra-chave pode ter no máximo sete palavras, exceto palavras de interrupção. Each [!DNL Yandex ad group] pode incluir no máximo 200 palavras-chave.
 
-
 1. Clique em **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
@@ -52,4 +53,3 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 >* [Sobre palavras-chave](keyword-about.md)
 >* [Gerenciar palavras-chave licitáveis](keyword-manage.md)
 >* [Alterar o status de palavras-chave e palavras-chave negativas](keyword-status-edit.md)
-

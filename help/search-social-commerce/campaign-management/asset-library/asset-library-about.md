@@ -1,7 +1,8 @@
 ---
 title: "Sobre o [!UICONTROL Asset Library]"
 description: Saiba mais sobre a biblioteca de ativos para seus ativos de anúncios.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%

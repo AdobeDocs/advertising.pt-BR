@@ -1,7 +1,9 @@
 ---
 title: Sobre relatórios básicos e avançados
 description: Saiba mais sobre relatórios básicos e avançados personalizáveis.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Relatórios básicos mostram o custo real e os dados de cliques de portfólios (
 
 Relatórios avançados podem ajudá-lo a tomar decisões estratégicas sobre sua estratégia de publicidade, identificando onde você se beneficiaria ao redefinir a segmentação geográfica ou as configurações de rede. Eles também podem ajudar a validar os dados de conversão disponíveis em Pesquisa, Social e Comércio em relação aos dados de rastreamento de conversão interna do anunciante.
 
-Todos os usuários podem gerar o [!UICONTROL Transaction Report], que mostra transações individuais por palavra-chave. Todos os outros relatórios avançados usam dados capturados pelo serviço de rastreamento de conversão Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço.
+Todos os usuários podem gerar o [!UICONTROL Transaction Report], que mostra transações individuais por palavra-chave. Todos os outros relatórios avançados usam dados capturados pelo serviço de rastreamento de conversão de Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço.
 
 Todos os relatórios avançados podem incluir, opcionalmente, dados de conversão ou qualquer outra métrica criada. Relatórios avançados gerados pelo portfólio, em vez de pela rede de anúncios, mostram dados para campanhas que estão mapeadas atualmente para os portfólios especificados. Os relatórios não incluem dados para campanhas que estavam nos portfólios durante o intervalo de datas, mas ainda não estão lá.
 
@@ -73,4 +75,3 @@ Todos os relatórios avançados podem incluir, opcionalmente, dados de conversã
 >* [Gerar um relatório básico ou avançado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Configurações básicas e avançadas de relatório](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Colunas de relatório para relatórios básicos e avançados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-

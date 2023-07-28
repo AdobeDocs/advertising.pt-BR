@@ -1,7 +1,9 @@
 ---
 title: Gerenciar metas de público-alvo para campanhas e grupos de anúncios
 description: Saiba como configurar e gerenciar públicos-alvo para sua [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas e grupos de publicidade.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -46,7 +48,6 @@ Você pode configurar direcionamentos de público-alvo, editar os modificadores 
 
       Você não pode configurar um público-alvo para uma campanha principal e para um grupo de anúncios secundário (que usa o público-alvo automaticamente).
 
-
 1. Clique em **[!UICONTROL Post]**.
 
 1. (Opcional) Defina um ajuste de oferta para o target de uma das seguintes maneiras a partir do [!UICONTROL Targets] exibir:
@@ -60,7 +61,6 @@ Você pode configurar direcionamentos de público-alvo, editar os modificadores 
    * *0%:* Para não ajustar lances de anúncios para esse público-alvo.
 
    * /[*Outros valores de -90% a 900%*/]: para aumentar ou diminuir a oferta de anúncios para esse público-alvo. Por exemplo, se o lance no nível da palavra-chave for 1 USD e o ajuste de lance para uma meta de público-alvo específica for 50%, o lance para esse público-alvo aumentará para 1,50 USD.
-
 
 ## Editar o modificador de oferta para públicos alvo
 
@@ -100,7 +100,6 @@ Você pode alterar o modificador de oferta e o status das metas de público-alvo
 
       1. Clique em **[!UICONTROL Post]**.
 
-
 ## Alterar o status dos públicos-alvo
 
 Você pode pausar um público-alvo ativo para desativar a licitação. Posteriormente, é possível retomar o lance alterando o status para ativo.
@@ -127,4 +126,3 @@ Você também pode excluir um público-alvo de pesquisa ativo ou pausado.
 >
 >* [Sobre públicos](audience-about.md)
 >* [Gerenciar exclusões de público alvo para campanhas e grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

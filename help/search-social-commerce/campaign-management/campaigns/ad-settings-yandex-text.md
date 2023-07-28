@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] configurações de anúncio de texto"
+title: '[!DNL Yandex] configurações de anúncio de texto'
 description: Referenciar as configurações de [!DNL Yandex] anúncios de texto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -42,4 +44,3 @@ ht-degree: 0%
 >
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
-

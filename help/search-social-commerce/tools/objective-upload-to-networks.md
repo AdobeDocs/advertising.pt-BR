@@ -1,7 +1,9 @@
 ---
 title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 *Anunciantes habilitados somente para otimização híbrida*
 
-Se a conta do anunciante estiver configurada para usar otimização híbrida, a Adobe Advertising poderá, opcionalmente, fazer upload dos objetivos dos portfólios da conta para [!DNL Google Ads] e [!DNL Microsoft® Advertising] como conversões, para que você possa usá-las para otimização híbrida.
+Se a conta do anunciante estiver configurada para usar otimização híbrida, o Adobe Advertising poderá, opcionalmente, fazer upload dos objetivos dos portfólios da conta para [!DNL Google Ads] e [!DNL Microsoft® Advertising] como conversões, para que você possa usá-las para otimização híbrida.
 
 Habilitar essa opção aciona automaticamente um upload para portfólios que contêm campanhas com estratégias de lances inteligentes. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada combinação aplicável de portfólio e objetivo. Cada conversão tem o nome `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, onde `<portfolio_id>` é a ID numérica do portfólio e `<se_acctid/conversion_manager_se_acctid>` é a ID numérica da conta da rede de publicidade ou da conta de gerente. A conversão representa todas as propriedades de transação ponderadas no objetivo.
 
@@ -36,4 +38,3 @@ Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do
 >
 >* [Sobre o gerenciamento das propriedades de transação de um anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [Fazer upload de métricas de conversão para [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
-

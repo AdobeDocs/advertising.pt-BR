@@ -1,7 +1,9 @@
 ---
 title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -79,11 +81,11 @@ Você pode usar o [!DNL Google Ads] [!DNL ValueTrack] parâmetros `{ifmobile}` e
 
 * Inclua a designação móvel como o servidor host usando `{ifmobile:m}{ifnotmobile:www}`.
 
-   Por exemplo, `http://{ifmobile:m}{ifnotmobile:www}.example.com` O leva os usuários de dispositivos móveis para m.example.com e os usuários não móveis para www.example.com.
+  Por exemplo, `http://{ifmobile:m}{ifnotmobile:www}.example.com` O leva os usuários de dispositivos móveis para m.example.com e os usuários não móveis para www.example.com.
 
 * Inclua a designação móvel como o domínio de nível superior usando `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Por exemplo, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` leva os usuários de dispositivos móveis para www.example.mobi e os usuários não móveis para www.example.com.
+  Por exemplo, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` leva os usuários de dispositivos móveis para www.example.mobi e os usuários não móveis para www.example.com.
 
 Em ambos os casos, os URLs base com rastreamento de Search, Social e Commerce incluem o não codificado `{}` tags e quaisquer parâmetros adicionais anexados ao URL básico.
 

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configurações de modelos de anúncios de compras para feeds de inventário"
+title: '''[!DNL Google Ads] configurações de modelo de anúncio de compras para feeds de inventário'
 description: Referenciar as configurações de [!DNL Google Ads] modelos de anúncios de compras para feeds de inventário.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 **[!UICONTROL Campaign Tracking Template]:** (Opcional para modelos para arquivos de feed de cliente) O modelo de rastreamento no nível da campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
 
-Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; use o [formato do modelo de rastreamento para campanhas de compras do Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
+Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; use o [formato do modelo de rastreamento para campanhas de compras do Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor.
 

@@ -2,7 +2,8 @@
 title: Exibir o log de recomendações para um [!DNL Google Ads] account
 description: Saiba como visualizar um log de cada recomendação que foi aplicada para um [!DNL Google Ads] conta.
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

@@ -2,7 +2,8 @@
 title: Fazer upload de métricas de conversão para [!DNL Google Ads]
 description: Saiba como fazer upload de métricas de conversão rastreadas por pesquisa, redes sociais e comércio para [!DNL Google Ads].
 exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
-source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Os uploads diários incluem o `gclid` , o valor de conversão definido usando o 
 
 >[!NOTE]
 >
->Os uploads não incluem métricas de conversão enviadas para a Adobe Advertising a partir de arquivos de feed.
+>Os uploads não incluem métricas de conversão enviadas para o Adobe Advertising a partir de arquivos de feed.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

@@ -3,7 +3,7 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíve
 
 * **[!UICONTROL Tools]** — Esse menu inclui opções para alterar a senha da conta, gerar tags para rastrear conversões de páginas do site, gerar e decodificar URLs de rastreamento de cliques e fazer upload de métricas para campanhas de rastreamento de pesquisa.
 
-* **[!UICONTROL Admin]** — A [!UICONTROL Admin] inclui opções para alterar os nomes para exibição das propriedades de transação de um anunciante em tabelas de dados e relatórios, definir as configurações para sincronizar com uma conta do Adobe Audience Manager e sincronizar as métricas de conversão de uma conta específica [!DNL Google Analytics] combinação de conta, propriedade e visualização. Dependendo da sua função, ela pode permitir gerenciar contas de anunciante, contas de agência, funções de usuário e contas de usuário.
+* **[!UICONTROL Admin]** — A [!UICONTROL Admin] O menu inclui opções para alterar os nomes de exibição das métricas de conversão de um anunciante em tabelas de dados e relatórios, definir as configurações para sincronizar com uma conta do Adobe Audience Manager e sincronizar as métricas de conversão de uma conta específica [!DNL Google Analytics] combinação de conta, propriedade e visualização. Dependendo da sua função, ela pode permitir gerenciar contas de anunciante, contas de agência, funções de usuário e contas de usuário.
 
 ## Outros menus à direita, baseados em tarefas e informações
 

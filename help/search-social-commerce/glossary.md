@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **restrição:** (Anunciantes com portfólios; aplicável somente para unidades de oferta em portfólios padrão) Uma regra para licitação em uma palavra-chave ou anúncio específico. Ele substitui todos os limites no nível do portfólio e a estratégia de lance recomendada.
 
-**conversão:** A conclusão de uma ação depois que um usuário final clica em um anúncio, geralmente capturado como uma métrica; os exemplos incluem registros ou compras. Uma conversão pode consistir em um ou mais eventos de transação, mas os termos &quot;conversão&quot; e &quot;transação&quot; são frequentemente usados alternadamente.
+**conversão:** A conclusão de uma ação depois que um usuário final clica em um anúncio, geralmente capturado como uma métrica. Os exemplos incluem registros e compras e podem representar contagens ou valores monetários. Uma conversão pode consistir em um ou mais eventos de transação, mas os termos &quot;conversão&quot; e &quot;transação&quot; são frequentemente usados alternadamente.
 
 **rastreamento de conversão:** O rastreamento de conversão usa cookies para rastrear a) cliques nos anúncios de um anunciante nas redes de anúncios e b) as transações resultantes no site do anunciante.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**objetivo:** (Anunciantes com portfólios) Uma meta que um cliente define para atender ao seu objetivo de negócios para um portfólio específico ou uma campanha de exibição, como maximizar lucros ou atender a uma meta de vendas específica. Um objetivo consiste nas métricas de conversão (também chamadas de propriedades de transação) a serem rastreadas e otimizadas para o portfólio e nos pesos relativos dessas métricas.
+**objetivo:** (Anunciantes com portfólios) Uma meta que um cliente define para atender ao seu objetivo de negócios para um portfólio específico ou uma campanha de exibição, como maximizar lucros ou atender a uma meta de vendas específica. Um objetivo consiste nas métricas de conversão a serem rastreadas e otimizadas para o portfólio e nos pesos relativos dessas métricas.
 
 **valor do objetivo:** (Anunciantes com portfólios) O total de conversões ponderadas conforme calculado de acordo com o objetivo atual do portfólio, incluindo:
 
@@ -138,9 +138,9 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **PPC:** Consulte &quot;pagamento por clique&quot;.
 
-**propriedade:** Consulte &quot;propriedade de transação&quot;.
+**propriedade:** Consulte &quot;métrica de conversão&quot;.
 
-**tempo da propriedade:** A hora em que uma transação individual ocorre. Quando uma transação inclui transações de acompanhamento relacionadas (como um cliente que se registra primeiro para uma avaliação gratuita e depois se inscreve em um serviço pago), cada transação tem seu próprio tempo de propriedade.
+**tempo da propriedade:** A hora em que um evento de conversão individual ocorre. Quando um evento inclui eventos de acompanhamento relacionados (como um cliente que se registra primeiro em uma avaliação gratuita e depois se inscreve em um serviço pago), cada evento tem seu próprio tempo de propriedade.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **ID da transação:** Uma ID especificada pelo anunciante que identifica uma transação. Quando uma transação inclui vários eventos, todos têm a mesma ID de transação.
 
-**propriedade da transação:** Um atributo de uma transação, como o tipo de transação/conversão, o valor em dólar de uma venda ou um tipo de produto vendido (por exemplo, &quot;Clientes potenciais de vendas&quot;, &quot;Valor de venda&quot; ou &quot;1 ano&quot;. Registros&quot;, respectivamente). Em Pesquisa, Social e Comércio, as propriedades de transação são medidas para o objetivo de um portfólio e são identificadas na ID de rastreamento. Os termos &quot;propriedade de transação&quot; e &quot;conversão<!-- type-->&quot; são frequentemente usados alternadamente.
+**propriedade da transação:** Consulte &quot;conversão&quot;.
 
 **hora da transação:** A hora em que um clique ou impressão é convertido em uma transação. Quando uma transação consiste em vários eventos de transação (como quando um cliente se registra pela primeira vez em uma avaliação gratuita e depois se inscreve em um serviço pago), o tempo da transação vem do primeiro evento na cadeia (registro na avaliação gratuita).
 

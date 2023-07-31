@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre rastreamento
 description: Saiba mais sobre respostas a perguntas comuns sobre rastreamento, incluindo a solução de problemas.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Transações duplicadas podem ocorrer quando um usuário atualiza a página de c
 
 O seguinte é uma lógica de desduplicação de Adobe Advertising:
 
-* **Quando um cliente envia um valor para o `ev_transid` atributo:** As solicitações de pixel subsequentes são consideradas duplicatas da anterior se as seguintes forem todas iguais: o `ev_transid`; a ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento; e o valor de uma propriedade de transação específica.
+* **Quando um cliente envia um valor para o `ev_transid` atributo:** As solicitações de pixel subsequentes são consideradas duplicatas da anterior se as seguintes forem todas iguais: o `ev_transid`; a ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento; e o valor de uma métrica de conversão específica.
 
   Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de aplicativo e valor de empréstimo para a mesma palavra-chave em uma rede de anúncios específica, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
 
-* **Quando um cliente não envia um valor para o `ev_transid` atributo:** As transações subsequentes são consideradas duplicatas da anterior se compartilharem uma ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento e o mesmo valor para uma propriedade de transação específica.
+* **Quando um cliente não envia um valor para o `ev_transid` atributo:** As transações subsequentes são consideradas duplicatas da anterior se compartilharem uma ID de rastreamento para a mesma palavra-chave, anúncio ou posicionamento e o mesmo valor para uma métrica de conversão específica.
 
   Por exemplo, se vários aplicativos de empréstimo tiverem a mesma ID de palavra-chave e valor de empréstimo, eles serão considerados duplicados e somente o primeiro aplicativo de empréstimo será contado.
 +++
@@ -57,9 +57,9 @@ Na conta ou campanha, altere o método de rastreamento para &quot;[!UICONTROL No
 
 ## Perguntas sobre dados
 
-+++Como sei qual propriedade de transação é de um feed de dados ou é rastreada pela tag de rastreamento de conversão de Adobe Advertising?
++++Como sei qual métrica de conversão é de um feed de dados ou é rastreada pela tag de rastreamento de conversão do Adobe Advertising?
 
-Em um [!UICONTROL Transaction Report], você pode saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento de conversão do Adobe Advertising se incluir a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com `http://pixel.everesttech.net`.
+Em um [!UICONTROL Transaction Report], é possível saber se uma métrica de conversão incluída foi rastreada pelo pixel de rastreamento de conversão do Adobe Advertising, caso inclua a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com `http://pixel.everesttech.net`.
 +++
 
 +++O que são transações órfãs?

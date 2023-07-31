@@ -3,7 +3,7 @@ title: Mostrar e ocultar um gráfico de tendências
 description: Saiba como visualizar e ocultar um gráfico de tendências para os dados em algumas exibições de gerenciamento de campanha.
 exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Por padrão, o gráfico mostra o número de cliques em relação ao custo durant
 
    1. No canto superior direito do gráfico, especifique as métricas a serem comparadas e (quando aplicável) a moeda para a qual incluir dados.
 
-      Quando você tem contas com várias moedas, todas as moedas das contas relevantes são listadas; a alteração da moeda mostra dados apenas para as contas que usam essa moeda. Todas as métricas padrão, propriedades de transações específicas do anunciante e métricas personalizadas derivadas de métricas existentes são listadas.
+      Quando você tem contas com várias moedas, todas as moedas das contas relevantes são listadas; a alteração da moeda mostra dados apenas para as contas que usam essa moeda. Todas as métricas padrão, métricas de conversão específicas do anunciante e métricas personalizadas derivadas de métricas existentes são listadas.
 
    1. Clique em ![Salvar](/help/search-social-commerce/assets/save-checkmark.png "Salvar").
 

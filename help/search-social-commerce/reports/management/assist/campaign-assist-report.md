@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -39,11 +39,11 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL First Campaign] | Padrão | A primeira campanha no caminho de conversão. |
 | [!UICONTROL Last Campaign] | Padrão | A última campanha que resultou em conversões (mesmo se a última palavra-chave estiver fora do tamanho de caminho especificado.)<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | Personalizado | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
-| \[Propriedades de transação específicas do anunciante\] | Personalizado | O número de conversões de uma propriedade de transação ou métrica de envolvimento do site especificada. |
-| [!UICONTROL % of Total] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) O número de conversões para uma propriedade de transação especificada resultante do padrão de campanha. |
+| \[Métricas de conversão específicas do anunciante\] | Personalizado | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
+| [!UICONTROL % of Total] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) O número de conversões de uma métrica de conversão especificada que resultou do padrão da campanha. |
 | [!UICONTROL 6th Campaign] para [!UICONTROL 20th Campaign] | Personalizado | A sexta a 20ª campanhas no caminho de conversão que ocorreram no site do anunciante [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j).<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) A latência média em dias desde o primeiro evento (na primeira campanha) até uma conversão. |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última campanha) até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A latência média em dias desde o primeiro evento (na primeira campanha) até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última campanha) até uma conversão. |
 | [!UICONTROL EF Campaign ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à campanha. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
 | [!UICONTROL EF Search Engine ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |

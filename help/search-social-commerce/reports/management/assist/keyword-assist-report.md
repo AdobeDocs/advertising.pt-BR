@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL First Keyword] | Padrão | A primeira palavra-chave ou posicionamento no caminho de conversão. |
 | [!UICONTROL Last Keyword] | Padrão | A última palavra-chave ou posicionamento que resultou em conversões (mesmo se a última palavra-chave estiver fora do tamanho de caminho especificado). |
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | Personalizado | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
-| \[Propriedades de transação específicas do anunciante\] | Personalizado | O número de conversões de uma propriedade de transação ou métrica de envolvimento do site especificada. |
-| [!UICONTROL % of Total] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) A porcentagem de suas conversões gerais em portfólios que foram atribuídas à palavra-chave e/ou ao padrão de posicionamento. |
+| \[Métricas de conversão específicas do anunciante\] | Personalizado | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
+| [!UICONTROL % of Total] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A porcentagem de suas conversões gerais em portfólios que foram atribuídas à palavra-chave e/ou ao padrão de posicionamento. |
 | [!UICONTROL 6th Keyword] para [!UICONTROL 10th Keyword] | Personalizado | A sexta a décima palavra-chave de pesquisa paga ou cliques de posicionamento no caminho de conversão que ocorreu dentro do anúncio [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Se o relatório incluir disposições de campanhas de pesquisa ativadas por conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupo de anúncios aplicáveis, como &quot;Seu nome de grupo de anúncios&quot;. |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) A latência média em dias desde o primeiro evento (na primeira palavra-chave ou disposição) até uma conversão. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última palavra-chave ou disposição) até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A latência média em dias desde o primeiro evento (na primeira palavra-chave ou disposição) até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última palavra-chave ou disposição) até uma conversão. |
 | [!UICONTROL Path Frequency] | Personalizado | O número de vezes que o caminho desta linha ocorreu antes da conversão. |
 
 >[!MORELIKETHIS]

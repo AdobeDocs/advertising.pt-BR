@@ -3,7 +3,7 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-O Advertising DSP fornece um conjunto de recursos de proteção à marca para garantir que cada uma de suas campanhas atinja usuários reais em um ambiente seguro para a marca.
+O Advertising DSP fornece um conjunto de recursos de proteção da marca para garantir que cada uma de suas campanhas atinja usuários reais em um ambiente seguro para a marca.
 
 A nossa equipe de vigilância de fraudes trabalha em estreita colaboração com os principais parceiros do setor, como a [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], e [!DNL WhiteOps], para preparar cuidadosamente o inventário na nossa plataforma. Por meio do gerenciamento pró-ativo de nosso suprimento, o DSP garante que todos os anunciantes na plataforma estejam protegidos contra tráfego não humano (bots, crawlers, tráfego de data center e fraude) e sejam entregues somente em contextos seguros para a marca.
 
@@ -60,11 +60,11 @@ O mapeamento de inventário é o processo detalhado de revisão e integração n
 
 * **Hierarquização:** Examinamos de forma holística a presença da marca no ecossistema geral para classificar o inventário em diferentes níveis. Você pode [direcionar seus posicionamentos](/help/dsp/campaign-management/placements/placement-settings.md) para esses níveis para o nível desejado de alcance:
 
-   * **[!UICONTROL T1]** - Nome da marca, sites reconhecidos internacionalmente
+   * **[!UICONTROL T1]** — Sites com nome comercial e reconhecidos internacionalmente
 
-   * **[!UICONTROL T2]** - Sites bonitos que estão atualizados, sem conteúdo gerado pelo usuário e geralmente carecem de reconhecimento global
+   * **[!UICONTROL T2]** — sites bonitos que estão atualizados, sem conteúdo gerado pelo usuário e geralmente carecem de reconhecimento global
 
-   * **[!UICONTROL T3]** - Conteúdo gerado pelo usuário e conteúdo de nicho
+   * **[!UICONTROL T3]** — Conteúdo gerado pelo utilizador e conteúdo de nicho
 
 * **Categorização do site:** Para garantir o fácil direcionamento e bloqueio de conteúdo, marcamos cada propriedade com uma categoria de site definida pelo DSP com base no conteúdo da propriedade. Você pode [direcionar ou excluir essas categorias de site para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) com base nas metas de posicionamento.
 
@@ -145,5 +145,4 @@ Para obter mais informações sobre a funcionalidade, entre em contato com [!DNL
 >[!MORELIKETHIS]
 >
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

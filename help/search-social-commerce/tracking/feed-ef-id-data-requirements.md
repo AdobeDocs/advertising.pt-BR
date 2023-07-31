@@ -3,7 +3,7 @@ title: Requisitos em matéria de dados aplicáveis aos feeds de dados que utiliz
 description: Referência aos requisitos em matéria de dados para os feeds de dados que utilizam IDs EF.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ A seguir estão os campos de cabeçalho e os campos de dados correspondentes nec
 
 ## Exemplo
 
-O arquivo de exemplo a seguir inclui dados para duas propriedades de transação (Produto e Receita).
+O arquivo de exemplo a seguir inclui dados para duas métricas de conversão (Produto e Receita).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

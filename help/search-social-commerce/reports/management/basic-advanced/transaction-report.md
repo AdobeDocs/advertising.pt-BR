@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: Saiba mais sobre o [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A variável [!UICONTROL Transaction Report] O fornece detalhes no nível da transação para palavras-chave atuais em grupos de anúncios em campanhas de pesquisa e exibição — e para conjuntos de anúncios em campanhas sociais — em portfólios especificados (quando aplicável) ou contas de anúncios. Opcionalmente, é possível incluir métricas de conversão. Você pode comparar os resultados deste relatório com os dados de transação do anunciante para verificar se o Search, Social e Commerce está relatando todas as transações do anunciante.
 
-Por padrão, o relatório inclui dados para transações que ocorreram dentro do intervalo de datas especificado. Os dados de cada transação incluem o ID da transação, os horários da transação e do clique/impressão, o tipo de conversão, a propriedade da transação e os dados de receita da propriedade da transação (como 1 para um registro ou 12 para um pedido de US$ 12) para cada palavra-chave ou combinação de grupo de anúncios/campanha/portfólio. Por padrão, as linhas estão em ordem crescente, primeiro por tempo de transação e, em seguida, por tempo de clique.
+Por padrão, o relatório inclui dados para transações que ocorreram dentro do intervalo de datas especificado. Os dados de cada transação incluem o ID da transação, os horários da transação e do clique/impressão, o tipo de conversão, a métrica de conversão e os dados de receita da métrica de conversão (como 1 para um registro ou 12 para um pedido de US$ 12) para cada palavra-chave ou combinação de grupo de anúncios/campanha/portfólio. Por padrão, as linhas estão em ordem crescente, primeiro por tempo de transação e, em seguida, por tempo de clique.
 
 Você pode exibir dados dos 45 dias anteriores.
 

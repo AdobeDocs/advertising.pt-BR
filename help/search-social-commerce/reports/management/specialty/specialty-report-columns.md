@@ -3,7 +3,7 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | Coluna | Descrição |
 |----|----|
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
-| \[Propriedades de transação específicas do anunciante\] | O número de conversões de uma propriedade de transação ou métrica de envolvimento do site especificada. |
+| \[Métricas de conversão específicas do anunciante\] | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
 | [!UICONTROL Account Name] | O nome da conta. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] relatórios) O identificador de conta atribuído pela rede de publicidade. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] relatórios) O status da conta: *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Inactive]*. |

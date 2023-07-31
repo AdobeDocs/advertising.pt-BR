@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Dependendo do [configurações de dados de feed](/help/search-social-commerce/ca
 
 +++([!DNL Google Ads] campanhas) Alterações nos nomes de exibição do meu [!DNL Google]As conversões rastreadas pelo foram revertidas.
 
-Se você alterar os nomes de exibição das propriedades de transação em Pesquisar, Social e Comércio, suas alterações serão substituídas pelos nomes configurados em [!DNL Google Ads]. Fazer qualquer alteração de nome dentro de [!DNL Google Ads].
+Se você alterar os nomes de exibição das métricas de conversão no Search, Social e Commerce, suas alterações serão substituídas pelos nomes configurados em [!DNL Google Ads]. Fazer qualquer alteração de nome dentro de [!DNL Google Ads].
 +++
 
 +++(Campanhas do Google Ads) É possível usar um orçamento compartilhado para campanhas em portfólios?

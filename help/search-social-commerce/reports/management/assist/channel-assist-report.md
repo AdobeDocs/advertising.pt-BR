@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL First Event Type] | Padrão | O tipo do primeiro evento (mais antigo) no caminho de conversão. |
 | [!UICONTROL Last Event Type] | Padrão | O tipo do último evento que resultou em conversões (mesmo se o último evento estiver fora do tamanho de caminho especificado). |
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | Personalizado | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
-| \[Propriedades de transação específicas do anunciante\] | Personalizado | O número de conversões de uma propriedade de transação ou métrica de envolvimento do site especificada. |
-| [!UICONTROL % of Total] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) A porcentagem de suas conversões gerais em portfólios que foram atribuídas ao padrão do evento. |
+| \[Métricas de conversão específicas do anunciante\] | Personalizado | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
+| [!UICONTROL % of Total] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A porcentagem de suas conversões gerais em portfólios que foram atribuídas ao padrão do evento. |
 | [!UICONTROL 6th Event] para [!UICONTROL 30th Event] | Personalizado | O sexto a 30º tipos de evento no caminho de conversão que ocorreu dentro do [clique em janela de retrospectiva](/help/search-social-commerce/glossary.md#c-d) e [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada propriedade de transação incluída) A latência média em dias desde o primeiro evento até uma conversão. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propriedade de transação\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A latência média em dias desde o primeiro evento até uma conversão. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento até uma conversão. |
 | [!UICONTROL Path Frequency] | Personalizado | O número de vezes que o caminho desta linha ocorreu antes da conversão. |
 
 >[!MORELIKETHIS]

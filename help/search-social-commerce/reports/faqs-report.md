@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ O recurso de otimização cria seus modelos de receita para cada unidade de ofer
 Se você não quiser que os dados do período afetem lances futuros, poderá optar por excluir essas datas do modelo. Entre em contato com a equipe da conta do Adobe para excluir as datas.
 +++
 
-+++É possível criar um relatório sobre uma métrica de propriedade específica, como [!UICONTROL Device] ou [!UICONTROL Objective Name]?
++++É possível criar um relatório sobre uma métrica de propriedade de conta específica, como [!UICONTROL Device] ou [!UICONTROL Objective Name]?
 Para relatórios de entidade de campanha ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], e [!UICONTROL Product Group Report]), os dados de métricas são agregados dinamicamente pelas colunas de propriedade incluídas no relatório. Opcionalmente, é possível remover a coluna principal do relatório e incluir apenas as colunas de propriedade para as quais deseja agregar dados.
 
 Por exemplo, se você gerar uma variável [!UICONTROL Keyword Report] que inclui a [!UICONTROL Ad Group] e  Colunas de dispositivo e, em seguida, por padrão, o relatório agrega métricas para cada palavra-chave por grupo de anúncios e tipo de dispositivo. No entanto, se você remover a variável [!UICONTROL Keyword] antes de gerar o relatório, ele gera dinamicamente as métricas dos grupos de anúncios especificados por tipo de dispositivo.
@@ -77,7 +77,7 @@ Se você gerar um relatório várias vezes usando os mesmos parâmetros de relat
 
 * Os dados baseados em data de clique podem estar fora do intervalo de datas especificado.
 
-  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
+  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
 
 * A seleção de filtro de portfólio exclui alguns dos eventos que levam à conversão.
 
@@ -107,7 +107,7 @@ Problemas de dados de receita podem ocorrer devido a um problema de arquivo de r
 Por padrão, todos os dados monetários nos relatórios são mostrados no formato para dólares americanos (como 1.000,00). Para exibir o valor no formato de moeda correto (mas sem símbolos de moeda nos formatos CSV e TSV), adicione o &quot;[!UICONTROL Currency]&quot; ao relatório. Se o relatório incluir dados de contas com moedas diferentes, qualquer &quot;[!UICONTROL Total]&quot;os valores monetários são simplesmente a soma de todos os números na coluna, independentemente da moeda.
 +++
 
-+++Por que vejo valores decimais para uma propriedade de transação que deve ser um número natural (1, 2 e assim por diante)?
++++Por que vejo valores decimais para uma métrica de conversão que deve ser um número natural (1, 2 e assim por diante)?
 Você pode ver valores decimais nos seguintes casos:
 
 * Se você executou o relatório usando qualquer parâmetro de regra de atribuição de conversão diferente [!UICONTROL Last Event] ou [!UICONTROL First Event], a receita poderá ser dividida entre vários eventos no caminho de conversão.
@@ -162,13 +162,13 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 * A tag de rastreamento de conversão não está implementada corretamente em todas as páginas da Web aplicáveis ou foi editada.
 
-* As propriedades de transação que Search, Social e Commerce estão rastreando são excluídas dos relatórios e, portanto, não estão visíveis.
+* As métricas de conversão que Search, Social e Commerce estão rastreando são excluídas dos relatórios e, portanto, não estão visíveis.
 
 * O analisador de receita do cliente não foi implementado.
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as propriedades da transação para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Verifique se as tags de rastreamento de conversão corretas estão implementadas em todas as páginas da Web aplicáveis. Se necessário, peça à sua equipe de conta do Adobe para criar uma transação de teste para cada tag de rastreamento de conversão aplicável e capturar os detalhes da transação, como a `transactionid` e detalhes do cookie (como a variável `trackingid`, `clickid`e assim por diante).
 
@@ -188,7 +188,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 * O arquivo de feed não foi entregue, não foi completamente analisado ou o feed continha transações órfãs.
 
-* As propriedades de transação relevantes são excluídas dos relatórios e, portanto, não estão visíveis.
+* As métricas de conversão relevantes são excluídas dos relatórios e, portanto, não estão visíveis.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as propriedades da transação para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Execute o [!UICONTROL Portfolio Report]. Se estiver vazio, execute o [!UICONTROL Campaign Report] e [!UICONTROL Search Engine Report] para ver se a receita aparece nesses relatórios. Se isso acontecer, as campanhas não poderão ser atribuídas ao portfólio apropriado.
 
@@ -313,8 +313,8 @@ A variável [!UICONTROL Portfolio Report] mostra dados somente para as campanhas
 As redes de anúncios não fornecem o identificador necessário para atribuir receita a um anúncio individual dessas campanhas. Consequentemente, os dados de desempenho no nível do anúncio não estão disponíveis para esses tipos de campanha no [!UICONTROL Ads] exibir ou na caixa [!UICONTROL Ad Variation Report]. Espere discrepâncias entre o total de dados de nível de anúncio de uma campanha e o total de dados da campanha.
 +++
 
-+++No [!UICONTROL Transaction Report], como saber qual propriedade de transação é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
-Em um relatório de transações, é possível saber se uma propriedade de transação incluída foi rastreada pelo pixel de rastreamento Adobe Advertising se a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`.&quot;
++++No [!UICONTROL Transaction Report], como saber qual métrica de conversão é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
+Em um relatório de transações, é possível saber se uma métrica de conversão incluída foi rastreada pelo pixel de rastreamento do Adobe Advertising, caso inclua a coluna personalizada &quot;[!UICONTROL Tracking URL].&quot; Os URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Os dados no meu [!UICONTROL Transaction Report] não corresponde aos dados em meu [!UICONTROL Keyword Report].

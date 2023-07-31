@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [Novidades](home.md)
 + [Sobre este guia](help-about.md)
 + Introdução {#intro}
-   + [Sobre a pesquisa de publicidade, redes sociais e comércio do Adobe](/help/search-social-commerce/introduction/about.md)
+   + [Sobre o Adobe Advertising Search, Social e Commerce](/help/search-social-commerce/introduction/about.md)
    + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integração com o Adobe Experience Cloud {#integrations}
       + [Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [O parâmetro de rastreamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Rastreamento de conversão {#conversion-tracking}
       + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Rastreamento de conversão de publicidade do Adobe {#advertising-conversion-tracking}
-         + [Sobre as tags de rastreamento de conversão de publicidade do Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+      + Rastreamento de conversão de Adobe Advertising {#advertising-conversion-tracking}
+         + [Sobre as tags de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato das tags de rastreamento de conversão do JavaScript versão 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato das tags de rastreamento de conversão do JavaScript versão 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato das tags de rastreamento de conversão de imagem](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [A tag de mapeamento de conversão do Adobe Advertising JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [A tag de mapeamento de conversão do JavaScript do Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Perguntas frequentes sobre tags de rastreamento de conversão e exibição de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Rastreamento de conversão do Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversões rastreadas pelo anunciante usando feeds{#conversion-feeds}
@@ -382,7 +382,7 @@ ht-degree: 2%
       + [Sobre as ferramentas para criar e decodificar tags de rastreamento](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [Gerar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [Decodificar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Gerar uma tag de conversão Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Gerar uma tag de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Fazer upload de dados de conversão para redes de anúncios {#upload-ad-networks}
       + [Fazer upload de métricas de conversão para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Habilitar carregamento de objetivos para redes de anúncios](/help/search-social-commerce/tools/objective-upload-to-networks.md)

@@ -3,9 +3,9 @@ title: Gerar uma tag de rastreamento de conversão de Adobe Advertising
 description: Saiba como criar uma tag de conversão de Adobe Advertising para rastrear seus eventos de conversão.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Crie uma tag de conversão separada para cada conjunto de métricas que deseja r
 
 Para obter mais informações sobre as diferenças entre os tipos de tag, consulte &quot;[Perguntas frequentes sobre a conversão de Adobe Advertising e as tags de rastreamento de exibição de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** Uma ou mais propriedades de transação (métricas) a serem rastreadas quando um usuário final visualizar uma página contendo a tag de conversão. Para adicionar uma métrica à lista, digite o nome da métrica no &quot;[!UICONTROL Add new property]&quot; e clique em **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** Uma ou mais métricas de conversão a serem rastreadas quando um usuário final visualizar uma página contendo a tag de conversão. Para adicionar uma métrica à lista, digite o nome da métrica no &quot;[!UICONTROL Add new property]&quot; e clique em **[!UICONTROL Add]**.
 
 Quando várias métricas são rastreadas, elas são unidas por um E comercial (`&`) na tag, como `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->As métricas adicionadas a esta lista não são salvas em nenhum lugar nem integradas ao do cliente [!UICONTROL Transaction Properties] lista na [!UICONTROL Admin] guia. No entanto, as métricas são adicionadas ao do cliente [!UICONTROL Transaction Properties] lista automaticamente assim que o Adobe Advertising realmente reúne dados para uma métrica, o que acontece quando a tag de conversão é implementada em uma página e um usuário final conclui uma transação que abre essa página.
+>As métricas adicionadas a esta lista não são salvas em nenhum lugar nem integradas ao do cliente [!UICONTROL Conversions] lista na [!UICONTROL Admin] guia. No entanto, as métricas são adicionadas ao do cliente [!UICONTROL Conversions] lista automaticamente assim que o Adobe Advertising realmente reúne dados para uma métrica, o que acontece quando a tag de conversão é implementada em uma página e um usuário final conclui uma transação que abre essa página.
 
 **[!UICONTROL Include unique transaction IDs]:** (Opcional) Inclui uma propriedade de ID de transação (`ev_transid=<transid>`) na tag. A opção é selecionada por padrão.
 

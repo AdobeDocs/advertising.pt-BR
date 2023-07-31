@@ -2,7 +2,7 @@
 title: '[!DNL Microsoft Advertising] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Microsoft Advertising]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ Todas as métricas estão disponíveis automaticamente em suas visualizações d
 
 Pesquisar, Social e Comércio sincroniza dados para conversões para as quais &quot;[!DNL Include in 'Conversions']&quot; for ativada, extraindo os dados dos últimos 35 dias e depois extraindo as alterações nos dados diariamente até 09:00-10:00 no fuso horário do anunciante. Os dados históricos podem mudar de dia para dia, à medida que novas conversões são rastreadas para cada clique.
 
-Duas propriedades de transação para cada [[!DNL Microsoft Advertising]Conversão rastreada](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (que você configurou em [!DNL Microsoft Advertising]) ficam disponíveis automaticamente no Search, Social e Commerce, usando os nomes de conversão configurados em [!DNL Microsoft Advertising]. As propriedades de transação para cada conversão incluem:
+Duas métricas para cada [[!DNL Microsoft Advertising]Conversão rastreada](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (que você configurou em [!DNL Microsoft Advertising]) ficam disponíveis automaticamente no Search, Social e Commerce, usando os nomes de conversão configurados em [!DNL Microsoft Advertising]. As métricas para cada conversão incluem:
 
 * `<conversion-name>` — O valor de conversão da palavra-chave (como Compra).
 
   >[!TIP]
   >
-  >Use esse tipo de propriedade no objetivo para portfólios que incluem [!DNL Microsoft Advertising] campanhas com o Valor máximo de conversão e estratégias de oferta de ROAS do Target.
+  >Use esse tipo de métrica de conversão no objetivo para portfólios que incluem [!DNL Microsoft Advertising] campanhas com o Valor máximo de conversão e estratégias de oferta de ROAS do Target.
 
 * `CT_<conversion-name>` — O número (contagem) de conversões, começando com o prefixo &quot;CT_&quot; (como CT_Purchase).
 
   >[!TIP]
   >
-  >Use esse tipo de propriedade no objetivo para portfólios que incluem [!DNL Microsoft Advertising] campanhas com as estratégias de oferta Máximo de conversões e CPA do Target.
+  >Use esse tipo de métrica de conversão no objetivo para portfólios que incluem [!DNL Microsoft Advertising] campanhas com as estratégias de oferta Máximo de conversões e CPA do Target.
 
 Os dados são disponibilizados com base na hora do clique e no horário da conversão/transação a partir da data em que o recurso é ativado para a conta.
 

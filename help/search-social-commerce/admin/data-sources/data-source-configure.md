@@ -4,7 +4,7 @@ description: Saiba como configurar uma fonte de dados a partir de um [!DNL Googl
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
 
    A fonte de dados é chamada de &quot;AccountName > PropertyName > ViewName&quot; e é ativada automaticamente. Para pausar a fonte de dados, consulte &quot;[Pausar um feed de uma fonte de dados](data-source-pause.md).&quot;
 
-   As métricas estarão disponíveis no dia seguinte após a conclusão da sincronização diária de dados, que começa às 5:00 no fuso horário do anunciante. Quando as métricas estiverem disponíveis, elas ficarão visíveis no [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Cada nova propriedade de transação é chamada de &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; onde &quot;backEndMetricName&quot; é o nome da métrica usada pela API. O nome de exibição para cada nova propriedade de transação é &quot;`friendlyMetricName_ga:MetricTag`,&quot; onde &quot;friendlyMetricName&quot; é o nome da métrica que aparece em [!DNL Google Analytics] e &quot;MetricTag&quot; é o [!UICONTROL Metric Tag] definido nas configurações da fonte de dados.
+   As métricas estarão disponíveis no dia seguinte após a conclusão da sincronização diária de dados, que começa às 5:00 no fuso horário do anunciante. Quando as métricas estiverem disponíveis, elas ficarão visíveis no [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Cada nova métrica de conversão é chamada de &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; onde &quot;backEndMetricName&quot; é o nome da métrica usada pela API. O nome de exibição para cada nova métrica de conversão é &quot;`friendlyMetricName_ga:MetricTag`,&quot; onde &quot;friendlyMetricName&quot; é o nome da métrica que aparece em [!DNL Google Analytics] e &quot;MetricTag&quot; é o [!UICONTROL Metric Tag] definido nas configurações da fonte de dados.
 
    Você pode adicionar as métricas diretamente ao gerenciamento de campanhas e às visualizações, relatórios e objetivos de otimização do gerenciamento de portfólio.
 

@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Google Ads]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Todas as métricas estão disponíveis automaticamente nas visualizações de ge
 
 Pesquisar, Social e Comércio sincroniza dados para conversões para as quais &quot;[!DNL Include in 'Conversions']&quot; for ativada, extraindo os dados dos últimos 35 dias e depois extraindo as alterações nos dados diariamente até 09:00-10:00 no fuso horário do anunciante. Os dados históricos podem mudar de dia para dia, à medida que novas conversões são rastreadas para cada clique.
 
-Até três propriedades de transação para cada [[!DNL Google Ads]Conversão rastreada](https://support.google.com/google-ads/answer/4677036) (que você configurou em [!DNL Google Ads]) ficam disponíveis automaticamente no Search, Social e Commerce, usando os nomes de conversão configurados em [!DNL Google Ads]. As propriedades de transação para cada conversão incluem:
+Até três métricas para cada [[!DNL Google Ads]Conversão rastreada](https://support.google.com/google-ads/answer/4677036) (que você configurou em [!DNL Google Ads]) ficam disponíveis automaticamente no Search, Social e Commerce, usando os nomes de conversão configurados em [!DNL Google Ads]. As métricas para cada conversão incluem:
 
 * `GGL*` — (Ao rastrear) O valor de conversão da palavra-chave, começando com o prefixo &quot;GGL&quot; (como Compra GGL).
 

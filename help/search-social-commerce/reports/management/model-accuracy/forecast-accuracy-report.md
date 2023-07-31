@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: Saiba mais sobre o Relatório de Precisão da Previsão, incluindo as colunas de dados.
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL EF Portfolio Group ID] | Padrão | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
 | [!UICONTROL Portfolio Group Name] | Padrão | O nome do grupo de portfólio ao qual o portfólio pertence. |
 | [!UICONTROL Portfolio ID] | Padrão | A ID numérica do portfólio. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

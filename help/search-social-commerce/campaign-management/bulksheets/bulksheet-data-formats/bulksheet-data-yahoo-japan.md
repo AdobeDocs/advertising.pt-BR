@@ -3,7 +3,7 @@ title: Dados de bulksheet para [!DNL Yahoo! Japan] contas
 description: Faça referência aos campos de cabeçalho e de dados em bulksheets baixados para [!DNL Yahoo! Japan] contas.
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 1%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | n/d: Criar<br><br>Opcional: Editar ou excluir | n/d: Criar<br><br>Opcional: Editar ou excluir | n/d: Criar<br><br>Opcional: Editar ou excluir | n/d: Criar<br><br>Opcional: Editar ou excluir | n/d | (Em bulksheets gerados) Uma [!DNL Adobe]Identificador exclusivo gerado pelo para uma entidade sincronizada. Para anúncios de pesquisa responsivos, a variável [!UICONTROL AMO ID] é necessário editar ou excluir anúncios, a menos que você inclua a [!UICONTROL Ad ID]. Para editar dados de todos os outros tipos de entidades com um [!UICONTROL AMO ID], o [!UICONTROL AMO ID] O é necessário para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social, &amp; Commerce usa o valor para determinar a identidade correta para editar, mas não publica a ID na rede de anúncios. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce referentes aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL EF Errors] arquivos. Este valor não é postado na rede de publicidade. |
 | [!UICONTROL SE Error Message] | n/d | n/d | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro da rede de publicidade relacionadas aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL SE Errors] arquivos. Este valor não é postado na rede de publicidade. |
-
-<table style="table-layout:auto">
 
 [^1]: o Excel converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 

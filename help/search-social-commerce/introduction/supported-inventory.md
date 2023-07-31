@@ -3,7 +3,7 @@ title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúnc
 | [!DNL Yahoo Native] (Suporte de sincronização encerrado em 2022) | Rede nativa | Nativo | Texto | —<br><br>As informações da conta herdada até 10 de março de 2022 estão disponíveis como somente leitura. | — | — | — | —<br><br>Dados herdados no nível do anúncio que foram sincronizados até 10 de março de 2022. | Dados do Analytics para Pesquisa, Social e Comércio, mas não vice-versa |
 | [!DNL Yandex] | Pesquisar rede | Pesquisar | Texto | Automático via API | Usar [exibições de gerenciamento de campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), e [feeds de gerenciamento de estoque](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sim | Campanhas somente com estratégia de oferta CPC | Dados no nível do anúncio | Dados do Analytics para pesquisa, redes sociais e comércio<br><br>Dados no nível do anúncio, de Pesquisa, Social e Comércio para o Analytics |
 | | Exibir rede | Exibição/conteúdo | Texto | Automático via API | Usar [exibições de gerenciamento de campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), e [feeds de gerenciamento de estoque](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sim | Campanhas somente com estratégia de oferta CPC | Dados no nível do anúncio | Dados do Analytics para pesquisa, redes sociais e comércio<br><br>Dados no nível do anúncio, de Pesquisa, Social e Comércio para o Analytics |
-
-<table style="table-layout:auto">
 
 [^1]: para a maioria das redes de anúncios e tipos de campanha, ao habilitar &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;As configurações de rastreamento de uma campanha ativa (definidas no nível da campanha ou herdadas das configurações da conta), o Search, Social e Commerce cria e carrega automaticamente URLs de rastreamento para os componentes do grupo de anúncios na rede de anúncios sempre que sincroniza com ela. Caso contrário, você precisará gerar URLs de rastreamento e adicioná-los às configurações dos componentes conta, campanha ou campanha. Consulte &quot;[Quando e como gerar URLs de rastreamento de cliques por rede de publicidade e objeto](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

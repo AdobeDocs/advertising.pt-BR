@@ -3,7 +3,7 @@ title: Dados de bulksheet necessários para [!DNL Yandex] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Yandex] contas.
 exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -67,8 +67,6 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | \[Classificação de rótulo específica do anunciante\] | Opcional | Opcional | Opcional | Opcional | n/d | (Nomeado para uma classificação de rótulo específica do anunciante, como &quot;Cor&quot; para uma classificação de rótulo chamada Cor) Um valor para a classificação especificada associada à entidade. Você pode incluir apenas um valor por classificação por entidade (como &quot;vermelho&quot; para a classificação de rótulo &quot;Cor&quot; para a Campanha A). O comprimento máximo é de 100 caracteres e o valor pode incluir caracteres ASCII e não ASCII.<br><br>As classificações de rótulo e seus valores de rótulo são aplicados a todos os componentes filhos; novos componentes adicionados posteriormente são associados automaticamente ao rótulo. As classificações de etiquetas para grupos de produtos são aplicadas ao nível de unidade (mais granular).<br><br>O nome da classificação e o valor da classificação não fazem distinção entre maiúsculas e minúsculas. |
 | [!UICONTROL Constraints] | Opcional | Opcional | Opcional | n/d | n/d | Uma restrição atribuída à entidade. Você pode atribuir somente uma restrição por entidade.<br><br>As restrições são herdadas por entidades filhas, portanto, não é necessário inserir valores para entidades filhas, a menos que você queira substituir os valores herdados. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce referentes aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL EF Errors] arquivos. Este valor não é postado na rede de publicidade. |
-
-<table style="table-layout:auto">
 
 [^1]: o Excel converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 

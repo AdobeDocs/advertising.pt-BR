@@ -3,7 +3,7 @@ title: Configurações básicas e avançadas de relatório
 description: Saiba mais sobre as configurações obrigatórias e opcionais para relatórios básicos e avançados.
 exl-id: 70453b24-f638-45d0-9d1e-e942a78a98d8
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%
@@ -43,8 +43,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponível somente quando a opção &quot;[!UICONTROL Save as template]&quot; estiver selecionada) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dias da semana]</i>ou <i>[!UICONTROL Every Month] [Dia do mês]</i>. Para todos os períodos exceto para <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando às 09:00 AM. |
 |  | [!UICONTROL Email Recipients] | <b>Nota:</b>  Essa configuração é usada somente quando notificações por email para [!UICONTROL Reports] são [habilitado em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Endereços de email de usuários registrados do Search, Social e Commerce para os quais enviar notificações quando o relatório for concluído ou for cancelado devido a erros. Por padrão, o endereço da conta de usuário é inserido. Para especificar vários endereços, separe-os com vírgulas, espaços ou novas linhas. Quando o relatório é agendado para execução repetida, uma notificação é enviada sempre que um relatório é concluído. |
 |  | [!UICONTROL Email Notification] | <b>Nota:</b>  Essa configuração é usada somente quando notificações por email para [!UICONTROL Reports] são [habilitado em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Quando [!UICONTROL Email Recipients] são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>[!UICONTROL Notification Only]</i> (o padrão): Para enviar apenas uma notificação da conclusão ou falha do relatório, sem anexos. A notificação inclui links de download temporários para todos os formatos de relatório.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir uma cópia do relatório concluído no formato XLS, se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato TSV, se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato CSV se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

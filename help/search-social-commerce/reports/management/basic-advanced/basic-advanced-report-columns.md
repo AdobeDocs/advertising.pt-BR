@@ -3,7 +3,7 @@ title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (Anúncios de vídeo) O número de visualizações ou envolvimentos dividido pelo número de vezes que o anúncio (impressões de vídeo e miniatura) foi exibido. |
 | [!UICONTROL Views] | (Anúncios de vídeo) O número de vezes que as pessoas assistiram ou interagiram com seu anúncio. |
 | [!UICONTROL ViewThroughConversions] | (Anúncios na rede de público-alvo) O número de conversões que resultaram de uma ou mais impressões, mas sem cliques. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

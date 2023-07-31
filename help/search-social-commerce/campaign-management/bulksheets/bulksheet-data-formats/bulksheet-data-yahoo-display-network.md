@@ -3,7 +3,7 @@ title: Dados de bulksheet para [!DNL Yahoo! Display Network] contas
 description: Faça referência aos campos de cabeçalho e de dados em bulksheets baixados para [!DNL Yahoo! Display Network] contas.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | n/d | n/d | Se incluído | A ID exclusiva que identifica uma palavra-chave existente. |
 | [!UICONTROL AMO ID] | n/d | n/d | n/d | (Em bulksheets gerados) Um identificador exclusivo gerado por Adobe para uma entidade sincronizada. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce referentes aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL EF Errors] arquivos. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

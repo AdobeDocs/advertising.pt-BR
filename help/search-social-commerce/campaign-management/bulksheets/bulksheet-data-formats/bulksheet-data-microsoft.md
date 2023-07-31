@@ -3,7 +3,7 @@ title: Dados de bulksheet necessários para [!DNL Microsoft Advertising] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Microsoft Advertising] contas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -113,8 +113,6 @@ Para os campos de dados relevantes para entidades de conta, consulte &quot;[Camp
 | [!UICONTROL SE Error Message] | (Incluído em bulksheets gerados para fins de informação) Espaço reservado para exibir mensagens de erro da rede de publicidade relacionadas aos dados na linha; as mensagens de erro estão incluídas em [!UICONTROL SE Errors] arquivos. Este valor não é postado na rede de publicidade. |
 | [!UICONTROL Exemption Request] | (Incluído nos bulksheets gerados para fins de informação) Espaço reservado para exibir os nomes e o texto de qualquer política de publicidade da Google que um anúncio viola. |
 | [!UICONTROL Retail Hash] | (Incluído para fins de informação em bulksheets gerados usando o Campaign Management avançado) Um código de hash alfanumérico (como f9639f40cdf56524b541e5dacf55a991) que indica que o item foi gerado usando a visualização Avançado (ACM). |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] O converte números grandes em notação científica (como 2.12E+09 para 2115585666) quando abre o arquivo. Para exibir dígitos na notação padrão, selecione qualquer célula na coluna e clique dentro da barra de fórmulas.
 

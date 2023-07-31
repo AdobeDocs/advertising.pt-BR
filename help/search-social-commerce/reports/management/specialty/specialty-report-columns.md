@@ -3,7 +3,7 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -154,8 +154,6 @@ ht-degree: 0%
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] relatórios) O número de cliques quando o elemento de anúncio estava presente na cópia de anúncio, quer tenha ou não sido clicado. |
 | [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de anúncios. |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]; anúncios na rede de público-alvo) O número de conversões que resultaram de uma ou mais impressões, mas sem cliques. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

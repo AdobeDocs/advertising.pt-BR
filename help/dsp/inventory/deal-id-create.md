@@ -3,7 +3,7 @@ title: Criar manualmente detalhes da ID do contrato
 description: Saiba como inserir detalhes manualmente para uma ID de acordo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Clique em **[!UICONTROL Save]**.
 
-1. (Somente ofertas garantidas) Selecione os anúncios que serão usados para a oferta (ou um pixel 1x1 para anúncios gerenciados do editor) e crie uma inserção programática garantida (PG) padrão.
+1. (Somente ofertas garantidas) Selecione os anúncios que serão usados para a oferta (ou o pixel 1x1 para anúncios gerenciados do editor) e crie uma disposição programática garantida (PG) padrão.
 
    Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição padrão de PG, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. No [!UICONTROL Placements] exibir, os posicionamentos de PG padrão têm um [!UICONTROL Sub-type] valor da coluna de &quot;[!UICONTROL PG Default].&quot;
 

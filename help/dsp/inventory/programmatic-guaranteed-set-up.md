@@ -3,9 +3,9 @@ title: Configurar um acordo programático garantido
 description: Saiba como configurar um contrato programático garantido (PG) que você negociou com um editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Goog
 
 1. [Aceite o acordo](deal-id-inbox-accept.md).
 
-1. Depois de salvar o contrato, selecione os anúncios que serão usados para o contrato e crie uma disposição padrão programática garantida (PG), conforme solicitado.
+1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados do editor) que serão usados para o negócio e crie uma disposição padrão programática garantida (PG), conforme solicitado.
 
    Criar uma disposição PG padrão para o negócio é obrigatório para entregar 100% da sua compra. Esse tipo de posicionamento não tem direcionamento, portanto, o DSP pode retornar um lance para cada solicitação de lance do editor.
 
    * Se você estiver aceitando um único contrato, será automaticamente redirecionado para o fluxo de trabalho de criação de posicionamento padrão de PG.
 
-      Todos [!DNL FreeWheel] são propostos como um único acordo.
+     Todos [!DNL FreeWheel] são propostos como um único acordo.
 
    * Se você estiver aceitando uma proposta com várias IDs de contrato PG, identifique cada posicionamento padrão PG que você precisa criar. Depois de criar todos os posicionamentos necessários, o botão Continuar será ativado.
 
@@ -48,7 +48,7 @@ Use este método para todos os outros SSPs.
 
 1. [Configurar manualmente os detalhes da ID de negócios](deal-id-create.md).
 
-1. Depois de salvar o contrato, selecione os anúncios que serão usados para o contrato e crie uma disposição padrão PG, conforme solicitado.
+1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados do editor) que serão usados para o negócio e crie um posicionamento padrão PG, conforme solicitado.
 
    Criar uma disposição padrão PG para o negócio é obrigatório para entregar 100% da sua compra. Esse tipo de posicionamento não tem direcionamento, portanto, o DSP pode retornar um lance para cada solicitação de lance do editor.
 
@@ -65,4 +65,3 @@ Use este método para todos os outros SSPs.
 >* [Criar manualmente detalhes da ID do contrato](deal-id-create.md)
 >* [Parceiros SSP](ssp-partners.md)
 >* [Visão Geral dos Recursos do Inventário](inventory-overview.md)
-

@@ -3,9 +3,9 @@ title: Criar manualmente detalhes da ID do contrato
 description: Saiba como inserir detalhes manualmente para uma ID de acordo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
    1. Clique em **[!UICONTROL Save]**.
 
-1. (Somente ofertas garantidas) Selecione os anúncios que serão usados para o negócio e crie uma disposição programática garantida (PG) padrão.
+1. (Somente ofertas garantidas) Selecione os anúncios que serão usados para a oferta (ou um pixel 1x1 para anúncios gerenciados do editor) e crie uma inserção programática garantida (PG) padrão.
 
-   Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição de PG padrão, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. No [!UICONTROL Placements] exibir, os posicionamentos de PG padrão têm um [!UICONTROL Sub-type] valor da coluna de &quot;[!UICONTROL PG Default].&quot;
+   Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição padrão de PG, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. No [!UICONTROL Placements] exibir, os posicionamentos de PG padrão têm um [!UICONTROL Sub-type] valor da coluna de &quot;[!UICONTROL PG Default].&quot;
 
    Opcionalmente, você pode usar a negociação como um destino de inventário em disposições adicionais, mas deve configurá-las corretamente para fazer ofertas.
 
@@ -38,7 +38,10 @@ ht-degree: 0%
 
       1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio a ser usado para a negociação.
 
+      1. Para anúncios gerenciados de editores, um pixel de rastreamento 1x1 será aplicado automaticamente após a seleção do anunciante e da campanha.
+
       1. Clique em **[!UICONTROL Apply]**.
+
    1. Na tela de configurações de posicionamento:
 
       1. Insira o nome da disposição.
@@ -48,8 +51,6 @@ ht-degree: 0%
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 
       1. Clique em **[!UICONTROL Create placement]**.
-
-
 
 Depois de criar a negociação, você pode usá-la como uma meta de inventário para várias disposições.
 
@@ -63,13 +64,10 @@ Depois de criar a negociação, você pode usá-la como uma meta de inventário 
 >
 >* Se o delivery estiver aquém ou acima do ritmo, entre em contato com seu editor para ajustar quanto volume ele está enviando através do negócio.
 
-
 >[!MORELIKETHIS]
 >
 >* [Configurações da ID de oferta manual](deal-id-settings.md)
 >* [Configurar um acordo programático garantido](programmatic-guaranteed-set-up.md)
 >* [Enviar um anúncio para uma oferta programática garantida com [!DNL FreeWheel]](freewheel-submit.md)
 >* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
-
-   <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
-
+<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->

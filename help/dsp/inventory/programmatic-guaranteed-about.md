@@ -3,9 +3,9 @@ title: Sobre Ofertas Programáticas Garantidas
 description: Saiba mais sobre ofertas programáticas garantidas (PG) e quais SSPs são certificados para fornecê-las.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
+source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Um contrato programático garantido (PG) é uma compra garantida diretamente com
 * Normalmente, o negócio tem uma prioridade mais alta no servidor de anúncios do editor.
 * As solicitações de lance não são exclusivas de uma única transação ou comprador.
 * Vários tipos de vídeo são suportados em uma única ID de negócios.
-* Anúncios gerenciados pelo editor são aceitos por meio do Google Authorized Buyers SSP.
+* Anúncios gerenciados pelo editor são aceitos via [!DNL Google Authorized Buyers] SSP
 * Os SSPs e editores têm SLAs de entrega.
 
-Os contratos PG exigem um posicionamento PG padrão e anúncios (ou pixel 1x1 para anúncios gerenciados pelo editor) para que o DSP possa retornar uma solicitação para cada solicitação de oferta e cumprir os SLAs de entrega com os SSPs. Depois de configurar a disposição padrão de PG obrigatória, você também pode direcionar o contrato de PG em outros posicionamentos.
+Os contratos PG exigem um posicionamento PG padrão e anúncios (ou um pixel 1x1 para anúncios gerenciados pelo editor) para que o DSP possa retornar uma solicitação para cada solicitação de oferta e cumprir os SLAs de entrega com os SSPs. Depois de configurar a disposição padrão de PG obrigatória, você também pode direcionar o contrato de PG em outros posicionamentos.
 
 ## SSPs certificados para ofertas PG no DSP
 

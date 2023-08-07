@@ -3,9 +3,9 @@ title: Configurar um acordo programático garantido
 description: Saiba como configurar um contrato programático garantido (PG) que você negociou com um editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Goog
 
 1. [Aceite o acordo](deal-id-inbox-accept.md).
 
-1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados do editor) que serão usados para o negócio e crie uma disposição padrão programática garantida (PG), conforme solicitado.
+1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados pelo editor) que serão usados para o negócio e crie uma disposição padrão programática garantida (PG), conforme solicitado.
 
    Criar uma disposição PG padrão para o negócio é obrigatório para entregar 100% da sua compra. Esse tipo de posicionamento não tem direcionamento, portanto, o DSP pode retornar um lance para cada solicitação de lance do editor.
 
@@ -48,7 +48,7 @@ Use este método para todos os outros SSPs.
 
 1. [Configurar manualmente os detalhes da ID de negócios](deal-id-create.md).
 
-1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados do editor) que serão usados para o negócio e crie um posicionamento padrão PG, conforme solicitado.
+1. Depois de salvar o negócio, selecione os anúncios (ou o pixel de rastreamento 1x1 para anúncios gerenciados pelo editor) que serão usados para o negócio e crie um posicionamento padrão PG, conforme solicitado.
 
    Criar uma disposição padrão PG para o negócio é obrigatório para entregar 100% da sua compra. Esse tipo de posicionamento não tem direcionamento, portanto, o DSP pode retornar um lance para cada solicitação de lance do editor.
 

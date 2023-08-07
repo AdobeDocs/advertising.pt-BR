@@ -3,9 +3,9 @@ title: Criar manualmente detalhes da ID do contrato
 description: Saiba como inserir detalhes manualmente para uma ID de acordo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio a ser usado para a negociação.
 
-      1. Para anúncios gerenciados pelo editor, um pixel de rastreamento 1x1 será aplicado automaticamente após a seleção do anunciante e da campanha.
+         Para cada anúncio gerenciado pelo editor, um pixel de rastreamento 1x1 é aplicado automaticamente depois que um anunciante e uma campanha são selecionados.
 
       1. Clique em **[!UICONTROL Apply]**.
 

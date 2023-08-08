@@ -3,9 +3,9 @@ title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Atribuir uma campanha a um portfólio otimizado permite que o Search, Social e Commerce otimize ofertas e orçamentos de campanha para palavras-chave e anúncios na campanha. Você pode atribuir campanhas a um portfólio a partir do [!UICONTROL Campaigns] ao criar o portfólio ou editando as configurações de um portfólio.
 
-Nem todos os tipos de campanha e redes de anúncios estão qualificados para otimização; consulte uma lista de [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) que você pode incluir em um portfólio. Além disso, verifique o suporte à otimização de cada estratégia de oferta de campanha consultando &quot;Tipos de Portfolio elegíveis por Estratégia de oferta de campanha&quot; no capítulo do Guia de otimização em &quot;Gerenciar Portfolio&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Nem todos os tipos de campanha e redes de anúncios estão qualificados para otimização; consulte uma lista de [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) que você pode incluir em um portfólio. Além disso, verifique o suporte de otimização para cada estratégia de oferta de campanha consultando &quot;Tipos de Portfolio elegíveis por Estratégia de oferta de campanha&quot; no capítulo do Guia de otimização em &quot;Portfolio&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >

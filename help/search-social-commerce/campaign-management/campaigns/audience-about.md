@@ -3,7 +3,7 @@ title: Sobre públicos
 description: Saiba mais sobre as opções para rastrear, criar e gerenciar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Você também pode criar e gerenciar públicos-alvo usando segmentos ou listas d
 
    * (Anunciantes com contas Audience Manager) Você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de segmentos do Audience Manager que têm Pesquisa, Social e Comércio como destino. Isso pode incluir segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud.
 
-  Para criar públicos-alvo de correspondência do cliente, o [!DNL Google Ads] a conta deve ser [qualificado para correspondência personalizada](https://support.google.com/adspolicy/answer/6299717) e optou por [segmentos de ID de usuário](https://support.google.com/google-ads/answer/9199250). Além disso, a conta do anunciante em Search, Social e Commerce deve ser configurada para permitir a criação de públicos-alvo de correspondência do cliente.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  Para criar públicos-alvo de correspondência do cliente, o [!DNL Google Ads] a conta deve ser [qualificado para correspondência personalizada](https://support.google.com/adspolicy/answer/6299717) e optou por [segmentos de ID de usuário](https://support.google.com/google-ads/answer/9199250). Além disso, a conta do anunciante em Search, Social e Commerce deve ser configurada para permitir a criação de públicos-alvo de correspondência do cliente.
 
   [!DNL Adobe] os dados de segmento e os arquivos de sincronização de cookies para públicos-alvo com base em dados do cliente são sincronizados com o [!DNL Google Ads] diariamente.
 

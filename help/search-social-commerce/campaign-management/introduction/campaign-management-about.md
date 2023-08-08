@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de campanhas no Search, Social e Commerce
 description: Saiba mais sobre os recursos de gerenciamento de campanhas em Pesquisa, Social e Comércio.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obter mais informações sobre rastreamento, consulte o capítulo em &quot;
 
 Para [redes de publicidade e tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md), você pode agrupar suas campanhas em portfólios, cada um com um objetivo de negócios específico e um orçamento ou meta de desempenho específica. Em portfólios padrão, o Search, Social e Commerce otimiza ofertas de palavras-chave CPC e orçamentos de campanha. Os portfólios híbridos combinam tecnologias de otimização de pesquisa, social e comércio e suas redes de anúncios.
 
-Para obter mais informações sobre as opções de portfólio disponíveis e como configurar portfólios, consulte o capítulo do Guia de otimização em &quot;Gerenciamento de Portfolio&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Para obter mais informações sobre as opções de portfólio disponíveis e como configurar portfólios, consulte o capítulo do Guia de otimização em &quot;Portfolio&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## As visualizações do gerenciamento de campanhas
 

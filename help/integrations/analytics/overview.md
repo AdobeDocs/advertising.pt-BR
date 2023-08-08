@@ -3,9 +3,9 @@ title: Visão geral do [!DNL Analytics for Advertising]
 description: Visão geral do [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ Principais benefícios:
 
 Para usar [!DNL Analytics] como sua ferramenta de relatório de mídia paga, sua organização precisa de um logon de Experience Cloud com acesso ao Analysis Workspace. Sua equipe de Adobe Advertising ajudará você a mapear os dados de Adobe Advertising para conjuntos de relatórios individuais no Analysis Workspace. Você pode enviar dados de Adobe Advertising para qualquer conjunto de relatórios, mas esteja ciente dos conjuntos de relatórios que foram mapeados para o Adobe Advertising e daqueles que não foram. Dependendo do conjunto de relatórios, isso pode alterar os dados relatados.
 
-[IDs de Adobe Advertising em [!DNL Analytics]](ids.md) O funciona como outras eVars, com uma expiração persistente e personalizada. Por padrão, a janela de retrospectiva de atribuição é definida como 60 dias durante a implementação do Adobe Advertising. Para alterar essa configuração, entre em contato com a equipe de conta do Adobe.
+[IDs de Adobe Advertising em [!DNL Analytics]](ids.md) funciona como outro [!DNL eVars], com uma expiração persistente e personalizada. Por padrão, a janela de retrospectiva de atribuição é definida como 60 dias durante a implementação do Adobe Advertising. Para alterar essa configuração, entre em contato com a equipe de conta do Adobe.
 
 As dimensões Adobe Advertising são anexadas com o sufixo &quot;(ID AMO)&quot; (como &quot;Tipo de anúncio (ID AMO)&quot;). Consulte &quot;[Métricas de Adobe Advertising no Analysis Workspace](advertising-metrics-in-analytics.md)&quot; para obter uma lista das dimensões disponíveis.
 
 >[!NOTE]
 >
-> Ao visualizar dados de Adobe Advertising (ou qualquer conjunto de dados) no [!DNL Analytics], esteja ciente de que as métricas e os relatórios são baseados nas regras definidas no [!DNL Analytics]. Os dados podem ser diferentes do que você vê em outros sistemas de relatórios, como relatórios de servidor de anúncios, [!DNL DSP] relatórios ou relatórios de mecanismo de pesquisa. Para compreender as diferenças de dados em [!DNL Analytics]Além disso, você precisa saber quando os dados de eVar expiram, o que define uma visita, o que é considerado atribuição de último contato versus atribuição persistente total e outros fatores. Para obter mais informações, consulte [Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING](data-variances.md).
+> Ao visualizar dados de Adobe Advertising (ou qualquer conjunto de dados) no [!DNL Analytics], esteja ciente de que as métricas e os relatórios são baseados nas regras definidas no [!DNL Analytics]. Os dados podem ser diferentes do que você vê em outros sistemas de relatórios, como relatórios de servidor de anúncios, [!DNL DSP] relatórios ou relatórios de mecanismo de pesquisa. Para compreender as diferenças de dados em [!DNL Analytics], você precisa saber quando [!DNL eVar] os dados expiram, o que define uma visita, o que é considerado atribuição de último contato versus atribuição persistente total e outros fatores. Para obter mais informações, consulte [Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING](data-variances.md).
 
 ## Uso do Analytics para potencializar campanhas e Portfolio do Adobe Advertising
 

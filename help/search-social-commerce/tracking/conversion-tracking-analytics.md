@@ -3,9 +3,9 @@ title: Rastreamento de conversão do Adobe Analytics
 description: Saiba mais sobre como usar o rastreamento de conversão do Adobe Analytics para suas campanhas no Adobe Advertising.
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Consulte &quot;[Visão geral do [!DNL Analytics for Advertising]](https://experi
 
 1. Entrada [!DNL Analytics], sua equipe de implementação do Search, Social e Commerce modifica as seguintes configurações para cada conjunto de relatórios:
 
-   * A expiração da variável `ef_id` O eVar foi alterado para corresponder à janela de retrospectiva de cliques do anunciante para Adobe Advertising.
+   * A expiração da variável `ef_id` [!DNL eVar] foi alterado para corresponder à janela de retrospectiva de cliques do anunciante para Adobe Advertising.
 
    * A ID de usuário do Adobe Advertising.
 

@@ -1,51 +1,51 @@
 ---
-title: IDs de publicidade do Adobe usadas por [!DNL Analytics]
-description: IDs de publicidade do Adobe usadas por [!DNL Analytics]
+title: IDs de Adobe Advertising usadas por [!DNL Analytics]
+description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
-# IDs de publicidade do Adobe usadas por [!DNL Analytics]
+# IDs de Adobe Advertising usadas por [!DNL Analytics]
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
 *Aplicável à publicidade de DSP e[!DNL Advertising Search, Social, & Commerce]*
 
-A Adobe Advertising usa duas IDs para o rastreamento de desempenho no site: a *ID EF* e a variável *ID AMO*.
+O Adobe Advertising usa duas IDs para o rastreamento de desempenho no site: a variável *ID EF* e a variável *ID AMO*.
 
-Quando ocorre uma impressão de anúncio, a Adobe Advertising cria os valores de ID AMO e ID EF e os armazena. Quando um visitante que viu um anúncio entra no site sem clicar em um anúncio, [!DNL Analytics] O chama esses valores da Publicidade de Adobe por meio da [!DNL Analytics for Advertising] Código JavaScript. Para tráfego de view-through, [!DNL Analytics] gera uma ID complementar (`SDID`), que é utilizada para compilar a ID EF e a ID AMO em [!DNL Analytics]. Para tráfego de click-through, essas IDs são incluídas no URL da página de aterrissagem usando o `s_kwcid` e `ef_id` parâmetros da sequência de consulta.
+Quando ocorre uma impressão de anúncio, o Adobe Advertising cria os valores de ID AMO e ID EF e os armazena. Quando um visitante que viu um anúncio entra no site sem clicar em um anúncio, [!DNL Analytics] chama esses valores do Adobe Advertising até a variável [!DNL Analytics for Advertising] Código JavaScript. Para tráfego de view-through, [!DNL Analytics] gera uma ID complementar (`SDID`), que é utilizada para compilar a ID EF e a ID AMO em [!DNL Analytics]. Para tráfego de click-through, essas IDs são incluídas no URL da página de aterrissagem usando o `s_kwcid` e `ef_id` parâmetros da sequência de consulta.
 
-A Adobe Advertising distingue entre uma entrada click-through ou view-through para o site usando os seguintes critérios:
+O Adobe Advertising distingue entre uma entrada click-through ou view-through para o site usando os seguintes critérios:
 
 * Uma entrada view-through é capturada quando um usuário visita o site após visualizar um anúncio, mas não clica nele. [!DNL Analytics] registra um view-through se duas condições forem atendidas:
    * O visitante não tem click-throughs para uma [!DNL DSP] ou [!DNL Search, Social, & Commerce] anúncio durante o [clique em janela de retrospectiva](#lookback-a4adc).
    * O visitante viu pelo menos um [!DNL DSP] anúncio durante o [janela de retrospectiva de impressão](#lookback-a4adc). A última impressão é transmitida como view-through.
 * Uma entrada click-through é capturada quando um visitante do site clica em um anúncio antes de entrar no site. [!DNL Analytics] captura um click-through quando uma das seguintes condições ocorre:
-   * O URL inclui uma EF ID e uma AMO ID conforme adicionada ao URL da página de aterrissagem pela Adobe Advertising.
+   * O URL inclui um EF ID e um AMO ID conforme adicionado ao URL da página inicial pelo Adobe Advertising.
    * O URL não contém códigos de rastreamento, mas o código JavaScript do Adobe Advertising detecta um clique nos últimos dois minutos.
 
-![Adobe Baseado em visualização de publicidade [!DNL Analytics] integração](/help/integrations/assets/a4adc-view-through-process.png)
+![Adobe Advertising baseado em visualização [!DNL Analytics] integração](/help/integrations/assets/a4adc-view-through-process.png)
 
-*Figura 1: Adobe Baseado na visualização [!DNL Analytics] integração*
+*Figura 1: Adobe Advertising baseado na visualização [!DNL Analytics] integração*
 
-![Adobe Baseado em URL de clique de publicidade [!DNL Analytics] integração](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Advertising click URL-based [!DNL Analytics] integração](/help/integrations/assets/a4adc-click-through-process.png)
 
-*Figura 2: Adobe Advertising click URL-based (Baseado em URL de cliques do Advertising) [!DNL Analytics] integração*
+*Figura 2: Baseado em URL do clique de Adobe Advertising [!DNL Analytics] integração*
 
-## IDs EF de publicidade do Adobe
+## IDs EF Adobe Advertising
 
-A ID EF é um token exclusivo que a Adobe Advertising usa para associar uma atividade a uma exposição de cliques ou anúncios online. A ID de EF é armazenada num [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou a dimensão rVar (eVar reservado) (Adobe ID EF de anúncio) e rastreia cada clique de anúncio ou exposição no navegador individual ou no nível do dispositivo. As IDs EF agem principalmente como chaves para envio [!DNL Analytics] dados para a Adobe Advertising para relatórios e otimização de oferta na Adobe Advertising.
+A ID de EF é um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição de cliques ou anúncios online. A ID de EF é armazenada em [um [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] (reservado) [!DNL eVar]) (ID EF Adobe Advertising) e rastreia cada clique de anúncio ou exposição no navegador individual ou no nível do dispositivo. As IDs EF agem principalmente como chaves para envio [!DNL Analytics] dados para Adobe Advertising para relatórios e otimização de oferta no Adobe Advertising.
 
 ### Formato de ID EF
 
 >[!NOTE]
 >
->EF IDs fazem distinção entre maiúsculas e minúsculas. Se um [!DNL Analytics] A implementação força o rastreamento de URL para letras minúsculas, então a Adobe Advertising não reconhecerá a ID de EF. Isso afetará os lances e os relatórios da Adobe Advertising, mas não tem impacto nos relatórios da Adobe Advertising no [!DNL Analytics].
+>EF IDs fazem distinção entre maiúsculas e minúsculas. Se um [!DNL Analytics] A implementação força o rastreamento de URL para letras minúsculas, em seguida, o Adobe Advertising não reconhecerá a ID EF. Isso afetará os lances e os relatórios do Adobe Advertising, mas não afetará os relatórios do Adobe Advertising no [!DNL Analytics].
 
 #### [!DNL Google Ads] pesquisar anúncios
 
@@ -95,9 +95,9 @@ Entrada [!DNL Analytics] relatórios, é possível encontrar dados de EF ID proc
 
 As IDs de EF estão sujeitas ao limite de identificador exclusivo de 500k no Analysis Workspace. Quando o valor 500k for atingido, todos os novos códigos de rastreamento serão relatados no título de uma linha de item &quot;[!UICONTROL Low Traffic].&quot; Devido à possibilidade de falta de fidelidade de relatório, as IDs de EF não são classificadas e você não deve usá-las para segmentos ou relatórios no [!DNL Analytics].
 
-## IDs AMO de publicidade do Adobe
+## IDs do Adobe Advertising AMO
 
-A ID do AMO rastreia cada combinação de anúncios exclusiva em um nível menos granular e é usada para [!DNL Analytics] classificação de dados e assimilação de métricas de publicidade (como impressões, cliques e custo) da Adobe Advertising. A ID do AMO é armazenada em um [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID) e é usada exclusivamente para relatórios no [!DNL Analytics].
+A ID do AMO rastreia cada combinação de anúncios exclusiva em um nível menos granular e é usada para [!DNL Analytics] classificação de dados e assimilação de métricas de publicidade (como impressões, cliques e custo) do Adobe Advertising. A ID do AMO é armazenada em um [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID) e é usada exclusivamente para relatórios no [!DNL Analytics].
 
 A ID do AMO também é chamada de `s_kwcid`, que às vezes é pronunciado como &quot;[!DNL the squid].&quot;
 
@@ -114,9 +114,9 @@ em que:
    * `AC` = DSP publicitário
    * `AL` para [!DNL Advertising Search, Social, & Commerce]
 
-* &lt;*ID do anúncio*> é usado como um identificador exclusivo gerado pela Adobe Advertising para um anúncio. Ele serve como uma chave para converter metadados de entidade de publicidade Adobe em legíveis [!DNL Analytics] dimensões.
+* &lt;*ID do anúncio*> é usado como um identificador exclusivo gerado por Adobe Advertising para um anúncio. Ele serve como uma chave para converter metadados de entidade de Adobe Advertising em legíveis [!DNL Analytics] dimensões.
 
-* &lt;*ID de posicionamento*> é um identificador exclusivo gerado pela Adobe Advertising para uma inserção. Ele serve como uma chave para converter metadados de entidade de publicidade Adobe em legíveis [!DNL Analytics] dimensões.
+* &lt;*ID de posicionamento*> é um identificador exclusivo gerado por Adobe Advertising para uma inserção. Ele serve como uma chave para converter metadados de entidade de Adobe Advertising em legíveis [!DNL Analytics] dimensões.
 
 Exemplo de ID do AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
@@ -131,8 +131,8 @@ AL!{userid}!{sid}
 em que:
 
 * `AL` é a ID do canal para a rede de publicidade.
-* `{userid}` é a ID de usuário numérica exclusiva que a Adobe Advertising atribui ao anunciante.
-* `{sid}` é a ID numérica que a Adobe Advertising usa para a rede de publicidade especificada, como `3` para [!DNL Google Ads] ou `10` para [!DNL Microsoft Advertising].
+* `{userid}` é a ID de usuário numérica exclusiva que o Adobe Advertising atribui ao anunciante.
+* `{sid}` é a ID numérica que o Adobe Advertising usa para a rede de anúncios especificada, como `3` para [!DNL Google Ads] ou `10` para [!DNL Microsoft Advertising].
 
 A seguir estão os formatos completos de ID do AMO para algumas redes de anúncios. Para formatos de ID AMO para outras redes de anúncios, entre em contato com a equipe de conta do Adobe.
 
@@ -169,10 +169,9 @@ Para qualquer relatório ou auditoria [!DNL Analytics], a prática recomendada �
 
 ## Sobre as classificações do Analytics
 
-Entrada [!DNL Analytics], um [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) é uma parte dos metadados para um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos de publicidade de Adobe usando classificações para que você possa exibir os dados de diferentes maneiras (por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios de Publicidade em Adobe no [!DNL Analytics] e podem ser usadas com as métricas do AMO, como [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], e [!UICONTROL AMO Clicks]e com eventos personalizados e padrão no local, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
+Entrada [!DNL Analytics], um [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) é uma parte dos metadados para um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos de Adobe Advertising usando classificações para que você possa exibir os dados de diferentes maneiras (por exemplo, por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios de Adobe Advertising no [!DNL Analytics] e podem ser usadas com as métricas do AMO, como [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], e [!UICONTROL AMO Clicks]e com eventos personalizados e padrão no local, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
 >* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
->* [Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising](data-variances.md)
-
+>* [Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING](data-variances.md)

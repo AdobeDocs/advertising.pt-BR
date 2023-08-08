@@ -2,9 +2,9 @@
 title: "Criar métricas de conversão a partir do Adobe Analytics [!DNL eVars] e props"
 description: "Configurar métricas de evento bem-sucedido personalizadas usando [!DNL eVar]- e [!DNL prop]dados a nível da UE."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
-Você pode usar as métricas de evento de sucesso para otimizar pacotes DSP e campanhas de Pesquisa, Social e Comércio com base nos dados do site da Adobe Analytics que melhor se ajustam aos objetivos de sua marca. Você pode configurar métricas de evento bem-sucedidas personalizadas com base em [seu existente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [seu [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) por funil [!DNL eVar]- e [!DNL prop]em um evento. Outro [!DNL Analytics] métricas, incluindo métricas de conversão padrão, personalizada e reservada e métricas de tráfego, são disponibilizadas automaticamente no DSP e em Pesquisa, Social e Comércio.
+Você pode usar as métricas de evento de sucesso para otimizar pacotes DSP e campanhas de Pesquisa, Social e Comércio com base nos dados do site da Adobe Analytics que melhor se ajustam aos objetivos de sua marca. Você pode configurar métricas de evento bem-sucedidas personalizadas com base em [seu existente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) por funil [!DNL eVar]- e [!DNL prop]em um evento. Outro [!DNL Analytics] métricas, incluindo métricas de conversão padrão, personalizada e reservada e métricas de tráfego, são disponibilizadas automaticamente no DSP e em Pesquisa, Social e Comércio.
 
 ![Exemplo de uso](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Exemplo de uso")
 

@@ -3,7 +3,7 @@ title: Gerar uma tag de rastreamento de conversão de Adobe Advertising
 description: Saiba como criar uma tag de conversão de Adobe Advertising para rastrear seus eventos de conversão.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Crie uma tag de conversão separada para cada conjunto de métricas que deseja r
 
 >[!NOTE]
 >
->Cada métrica na nova tag de conversão é listada automaticamente em [!UICONTROL Admin] > [!UICONTROL Transaction Properties], mesmo que não esteja implementado ou que as páginas da Web em que está não tenham recebido nenhum clique. Esse comportamento é diferente do comportamento das métricas em tags criadas manualmente ou em outro lugar, que não estão listadas em [!UICONTROL Admin] > [!UICONTROL Transaction Properties] até que uma das páginas da web em que está tenha recebido um clique. No entanto, em todos os casos, cada métrica é inicialmente excluída dos objetivos de portfólio, relatórios e exibições até que você as disponibilize explicitamente. No entanto, antes de adicionar as métricas aos objetivos do portfólio, considere primeiro disponibilizar as métricas e adicioná-las aos relatórios para verificar quando recebem cliques.
+>Cada métrica na nova tag de conversão é listada automaticamente em [!UICONTROL Admin] > [!UICONTROL Conversions], mesmo que não esteja implementado ou que as páginas da Web em que está não tenham recebido nenhum clique. Esse comportamento é diferente do comportamento das métricas em tags criadas manualmente ou em outro lugar, que não estão listadas em [!UICONTROL Admin] > [!UICONTROL Conversions] até que uma das páginas da web em que está tenha recebido um clique. No entanto, em todos os casos, cada métrica é inicialmente excluída dos objetivos de portfólio, relatórios e exibições até que você as disponibilize explicitamente. No entanto, antes de adicionar as métricas aos objetivos do portfólio, considere primeiro disponibilizar as métricas e adicioná-las aos relatórios para verificar quando recebem cliques.
 
 ## Configurações de tag de conversão de Adobe Advertising {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ Consulte &quot;[Perguntas frequentes sobre a conversão de Adobe Advertising e a
 >* [Formato das tags de rastreamento de conversão do JavaScript versão 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato das tags de rastreamento de conversão de imagem](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [A tag de mapeamento de conversão do JavaScript do Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [Sobre o gerenciamento das propriedades de transação de um anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

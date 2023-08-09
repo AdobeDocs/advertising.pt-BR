@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Verifique se as tags de rastreamento de conversão corretas estão implementadas em todas as páginas da Web aplicáveis. Se necessário, peça à sua equipe de conta do Adobe para criar uma transação de teste para cada tag de rastreamento de conversão aplicável e capturar os detalhes da transação, como a `transactionid` e detalhes do cookie (como a variável `trackingid`, `clickid`e assim por diante).
 
@@ -196,7 +196,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe deverão [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Execute o [!UICONTROL Portfolio Report]. Se estiver vazio, execute o [!UICONTROL Campaign Report] e [!UICONTROL Search Engine Report] para ver se a receita aparece nesses relatórios. Se isso acontecer, as campanhas não poderão ser atribuídas ao portfólio apropriado.
 

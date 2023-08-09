@@ -3,7 +3,7 @@ title: Os dados usados para os relatórios
 description: Saiba mais sobre os diferentes tipos de dados disponíveis em visualizações de dados e relatórios personalizados.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de clique e conversão. Você pode exibir dados básicos de desempenho para os vários componentes de um portfólio ou conta de anúncio na [!UICONTROL Portfolios] e [!UICONTROL Campaigns] visualizações, bem como gerando vários relatórios básicos e avançados.
 
-Os anunciantes que usam o serviço de rastreamento de conversão de Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice de conversão geral e a distribuição de conversões para um único site [métrica de conversão](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe da conta do Adobe tem acesso a todos os relatórios.
+Os anunciantes que usam o serviço de rastreamento de conversão de Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice de conversão geral e a distribuição de conversões para um único site [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe da conta do Adobe tem acesso a todos os relatórios.
 
 A maioria dos relatórios pode ser personalizada para exibir apenas as informações que você deseja ver. As seguintes métricas padrão estão disponíveis na maioria dos relatórios e são calculadas no nível do anúncio:
 

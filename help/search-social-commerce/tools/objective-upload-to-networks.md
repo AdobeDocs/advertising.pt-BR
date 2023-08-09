@@ -3,7 +3,7 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento das propriedades de transação de um anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
 >* [Fazer upload de métricas de conversão para [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

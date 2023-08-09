@@ -3,7 +3,7 @@ title: Visão geral da implementação de contas e campanhas de rede de anúncio
 description: Saiba mais sobre as tarefas envolvidas na configuração, sincronização e gerenciamento de suas contas de rede de anúncios.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    Para obter mais informações sobre portfólios, consulte o Guia de otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Se alguma nova conversão for rastreada pelo anunciante) [Disponibilizar as conversões](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) para relatórios, exibições de gerenciamento de campanhas e objetivos de portfólio.
+1. (Se alguma nova conversão for rastreada pelo anunciante) [Disponibilizar as conversões](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) para relatórios, exibições de gerenciamento de campanhas e objetivos de portfólio.
 
 1. Para cada campanha, verifique se o Search, Social e Commerce está recebendo dados de clique e custo da rede de anúncios e valide os dados de receita exibidos em Search, Social e Commerce com os dados de receita do próprio anunciante.
 

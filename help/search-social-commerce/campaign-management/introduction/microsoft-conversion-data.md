@@ -1,10 +1,10 @@
 ---
 title: '[!DNL Microsoft Advertising] dados de conversão'
 description: Saiba mais sobre os tipos de [!DNL Microsoft Advertising]Dados de conversão rastreados pelo disponíveis no Search, Social e Commerce.
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Os dados são disponibilizados com base na hora do clique e no horário da conve
 
 >[!NOTE]
 >
->* Se você tiver várias contas com os mesmos nomes de conversão, poderá ver nomes de conversão duplicados no Adobe Advertising. Se isso ocorrer, [alterar o nome de exibição](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para uma das métricas duplicadas no [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Os relatórios não são precisos quando duas métricas diferentes têm o mesmo nome.
+>* Se você tiver várias contas com os mesmos nomes de conversão, poderá ver nomes de conversão duplicados no Adobe Advertising. Se isso ocorrer, [alterar o nome de exibição](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md para uma das métricas duplicadas no [!UICONTROL Admin] > [!UICONTROL Conversions]. Os relatórios não são precisos quando duas métricas diferentes têm o mesmo nome.
 >* Os dados no nível da unidade de oferta correspondem aos dados na rede de anúncios no mesmo nível. No entanto, os dados de conversão da própria rede de anúncios para níveis mais altos podem incluir conversões adicionais que não são atribuídas às unidades de oferta secundárias. Os dados em Pesquisa, Social e Comércio são sempre acumulados a partir do nível da unidade de oferta, portanto, por exemplo, um relatório de nível de campanha pode não ter os mesmos totais que um relatório de nível de campanha na rede de anúncios.
 >* Normalmente, a variação de dados ocorre menos após a sincronização matinal do que no final do dia, quando as conversões adicionais ainda não foram sincronizadas. Recomendamos validar os dados pela manhã.
 >* Os dados não estão disponíveis no nível de público ou localização geográfica e, portanto, não são usados para otimizar automaticamente os ajustes de oferta de RLSA e localização.
@@ -78,4 +78,4 @@ Em Pesquisar, Social e Comércio, use a opção de exibição ou relatório para
 >
 >* [Visão geral da implementação de contas e campanhas de rede de anúncios](campaign-implemention-overview.md)
 >* [Monitore e gerencie o desempenho de suas campanhas de rede de anúncios](monitor-performance-campaigns.md)
->* [Exibir as propriedades de transação rastreadas para um anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [Exibir as métricas de conversão rastreadas para um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)

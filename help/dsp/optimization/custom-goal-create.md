@@ -3,7 +3,7 @@ title: Criar uma meta personalizada
 description: Criar uma meta personalizada
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
 
 1. Efetue logon no [!DNL Advertising Search, Social, & Commerce] at (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Verifique se as métricas que você deseja incluir em sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativado para a métrica.
    1. Se a métrica não tiver um valor no campo **[!UICONTROL Display Name]** , clique na célula, digite o nome de exibição e clique em **[!UICONTROL Apply].**
 1. Criar a meta personalizada como um *objetivo*:

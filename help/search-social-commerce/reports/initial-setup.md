@@ -3,9 +3,9 @@ title: As tarefas de configuração iniciais para relatórios
 description: Saiba como disponibilizar métricas em relatórios e como automatizar relatórios.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os novos usuários devem executar as seguintes tarefas de configuração inicial:
 
-* Criar as métricas de conversão que o Adobe Advertising está rastreando para um anunciante [disponível para relatórios e outras visualizações](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)e, opcionalmente [renomear qualquer uma das métricas de conversão](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) que são exibidos nos cabeçalhos da coluna para facilitar a leitura.
+* Criar as métricas de conversão que o Adobe Advertising está rastreando para um anunciante [disponível para relatórios e outras visualizações](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)e, opcionalmente [renomear qualquer uma das métricas de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md que são exibidos nos cabeçalhos da coluna para facilitar a leitura.
 
   As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
 

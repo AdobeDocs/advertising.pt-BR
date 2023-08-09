@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,11 @@ Se você gerar um relatório várias vezes usando os mesmos parâmetros de relat
 
 * Os dados baseados em data de clique podem estar fora do intervalo de datas especificado.
 
-  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
+  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
 
 * A seleção de filtro de portfólio exclui alguns dos eventos que levam à conversão.
 
-  Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
+  Se você relatar em um subconjunto de portfólios, talvez não esteja incluindo as campanhas que incluíram o evento ao qual a conversão foi atribuída em uma das regras de atribuição. Por exemplo, suponha que um usuário clique em Palavra-chave_1 de Portfolio_1, clique em Palavra-chave_2 de Portfolio_2 e, em seguida, converta. Se o relatório usar o &quot;[!UICONTROL First Event]&quot; regra de atribuição, Portfolio_1 deve ser incluído para que a conversão seja incluída no relatório. No entanto, se o relatório usar a regra de atribuição &quot;Último evento&quot;, Portfolio_2 deverá ser incluído.
 
 >[!TIP]
 >
@@ -122,7 +122,7 @@ Veja a seguir os motivos comuns para a falta de dados de cliques.
 
 | Causa | Detecção/análise | Resolução |
 |---|---|---|
-| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Entre em contato com o Suporte ao cliente em &lt;*sua conta de usuário do Search, Social e Commerce*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe da conta do Adobe pode excluir as datas. |
+| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Entre em contato com a equipe de conta do Adobe.<br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe da conta do Adobe pode excluir as datas. |
 | Um problema de faturamento entre o anunciante e a rede de anúncios impede que a conta de anúncios seja gasta. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custos ou cliques. | Se você souber que uma conta publicitária não pôde gastar devido a um problema de faturamento, exclua essas datas das previsões de custo. A equipe da conta do Adobe pode excluir as datas. |
 +++
 

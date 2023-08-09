@@ -2,9 +2,9 @@
 title: Obter ajuda
 description: Saiba como visualizar a ajuda online e os recursos da comunidade e como obter suporte técnico.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Você pode abrir a ajuda online de qualquer página da interface. Se a ajuda on-
 
 Procure respostas para suas perguntas na [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Adobe de contato
+## Contato [!DNL Adobe]
 
-| Para... | Fale conosco em |
-| ---- | ---- |
-| Problemas de conta ou de produto do Search, Social e Commerce | Entre em contato com a equipe de conta do Adobe. |
-| Feedback sobre Pesquisa, Social e Comércio | No menu superior, clique em ![Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Ajuda") > **[!UICONTROL Provide Feedback]**, insira a mensagem e clique em **[!UICONTROL Send Feedback]**. |
+Para problemas de produto ou conta de Pesquisa, Social e Comércio, siga um destes procedimentos:
 
-### Informações a serem incluídas para problemas de produtos
+* Entre em contato com a equipe de conta do Adobe.
 
-Forneça etapas detalhadas para reproduzir o problema, o nome e a versão do navegador, todos os dados relevantes e informações sobre a solução de problemas preliminar executada.
+* No menu superior, clique em ![Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Ajuda") > **[!UICONTROL Provide Feedback]**, insira a mensagem e clique em **[!UICONTROL Send Feedback]**. |
+
+Forneça etapas detalhadas para reproduzir o problema, dados relevantes e informações sobre a solução de problemas preliminar realizada. Se você estiver relatando o problema para a sua equipe de conta do Adobe, inclua também o nome e a versão do navegador.
 
 Para problemas de relatório, não exclua o relatório e forneça o nome e o URL do relatório.

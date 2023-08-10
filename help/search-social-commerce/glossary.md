@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **grupo de publicidade:** Um conjunto de anúncios e suas palavras-chave, disposições e grupos de produtos relacionados para uma campanha.
 
 **variação de publicidade:** Qualquer anúncio em um grupo de publicidade ou estratégia de publicidade.
+
+**ID AMO:** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas com o Adobe Analytics. Começa com `s_kwcid=`.
 
 **unidade de oferta:** Um termo de Pesquisa, Social e Comércio para uma unidade em que são feitas ofertas. Para a maioria das campanhas na maioria das redes, essa é uma palavra-chave e seu tipo de correspondência para uma campanha de pesquisa ou conteúdo, um grupo de produtos no nível da unidade (o nível mais baixo de subdivisão) para uma campanha de compras ou um destino de pesquisa dinâmica para uma campanha de publicidade de pesquisa dinâmica. Quando a mesma combinação de palavra-chave e tipo de correspondência, o mesmo grupo de produtos ou o mesmo público-alvo de pesquisa dinâmica ocorre em vários grupos de anúncios em uma única campanha, todas as instâncias são consideradas a mesma unidade de oferta e, portanto, têm a mesma oferta.
 
@@ -166,7 +168,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **estratégia de gastos:** (Anunciantes com portfólios) A estratégia selecionada para otimizar lances de palavras-chave/anúncios para um portfólio.
 
-**`s_kwcid`:** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas de pesquisa com o Adobe Analytics.
+**`s_kwcid`:** Consulte &quot;ID do AMO&quot;.
 
 **URL de rastreamento:** Um modelo de rastreamento ou um URL de destino com parâmetros extras adicionados para rastrear informações sobre os cliques no anúncio. Ele pode incluir um URL de redirecionamento para enviar os usuários inicialmente para um servidor de rastreamento antes de redirecioná-los para a página de aterrissagem do anunciante.
 

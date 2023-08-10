@@ -3,7 +3,7 @@ title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúnc
 
 [^3]: requer uma integração com o Adobe Analytics. Consulte &quot;[Visão geral do Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] Os dados do são enviados para o Search, Social e Commerce usando o parâmetro de rastreamento de ID do AMO atualizado (s_kwcid), independentemente do formato de ID do AMO que você normalmente usa para a conta. Se você normalmente usa a versão mais antiga da ID do AMO, recomendamos atualizar para o novo formato de ID do AMO para obter a melhor experiência. No entanto, mesmo que seus dados de clique/custo e receita sejam rastreados usando IDs AMO diferentes, ambos os conjuntos de dados são totalmente classificados e agregados na mesma campanha e conta.
+[^4]: [!DNL Analytics] Os dados do são enviados para o Search, Social e Commerce usando o parâmetro de rastreamento de ID do AMO atualizado (começando com `s_kwcid`), independentemente do formato de ID AMO que você normalmente usa para a conta. Se você normalmente usa a versão mais antiga da ID do AMO, recomendamos atualizar para o novo formato de ID do AMO para obter a melhor experiência. No entanto, mesmo que seus dados de clique/custo e receita sejam rastreados usando IDs AMO diferentes, ambos os conjuntos de dados são totalmente classificados e agregados na mesma campanha e conta.

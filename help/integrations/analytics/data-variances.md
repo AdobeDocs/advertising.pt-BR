@@ -3,9 +3,9 @@ title: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 description: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Entrada [!DNL Analytics], uma das maneiras mais fáceis de validar [!DNL Analyti
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] representa o número de vezes que as IDs do AMO (`s_kwcid` parâmetros) são rastreados no site. Cada vez que um anúncio é clicado, uma `s_kwcid` é adicionado ao URL da página inicial. O número de [!UICONTROL AMO ID Instances], portanto, é análogo ao número de cliques e pode ser validado em relação aos cliques reais de anúncios. Geralmente, vemos uma taxa de correspondência de 80% para [!DNL Search, Social, & Commerce] e uma taxa de correspondência de 30% para [!DNL DSP] tráfego (quando filtrado para incluir apenas click-through [!UICONTROL AMO ID Instances]). A diferença nas expectativas entre pesquisa e exibição pode ser explicada pelo comportamento do tráfego esperado. A pesquisa captura a intenção e, como tal, os usuários geralmente pretendem clicar nos resultados da pesquisa de sua consulta. Os usuários que visualizam uma exibição ou anúncio de vídeo online, no entanto, têm mais probabilidade de clicar no anúncio involuntariamente e, em seguida, saltar do site ou abandonar a nova janela que é carregada antes que a atividade da página seja rastreada.
+[!UICONTROL AMO ID Instances] representa o número de vezes que [IDs AMO](ids.md) são rastreados no site. Sempre que um anúncio for clicado, uma ID do AMO (`s_kwcid`) é adicionado ao URL da página inicial. O número de [!UICONTROL AMO ID Instances], portanto, é análogo ao número de cliques e pode ser validado em relação aos cliques reais de anúncios. Geralmente, vemos uma taxa de correspondência de 80% para [!DNL Search, Social, & Commerce] e uma taxa de correspondência de 30% para [!DNL DSP] tráfego (quando filtrado para incluir apenas click-through [!UICONTROL AMO ID Instances]). A diferença nas expectativas entre pesquisa e exibição pode ser explicada pelo comportamento do tráfego esperado. A pesquisa captura a intenção e, como tal, os usuários geralmente pretendem clicar nos resultados da pesquisa de sua consulta. Os usuários que visualizam uma exibição ou anúncio de vídeo online, no entanto, têm mais probabilidade de clicar no anúncio involuntariamente e, em seguida, saltar do site ou abandonar a nova janela que é carregada antes que a atividade da página seja rastreada.
 
 Nos relatórios Adobe Advertising, é possível comparar cliques com instâncias de maneira semelhante usando o &quot;[!UICONTROL ef_id_instances]&quot; em vez de [!UICONTROL AMO ID Instances]:
 

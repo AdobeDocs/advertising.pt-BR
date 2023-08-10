@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para [!DNL Google Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Google Ads] contas.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir um dos seguintes:
 
-   * [!DNL Google Ads] contas que usam a mais recente `s_kwcid` formato, que oferece suporte a relatórios no nível da campanha e do grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
+   * [!DNL Google Ads] contas que usam o formato de ID AMO mais recente (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se a conta tiver uma implementação s_kwcid do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente.
+     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente.
 
    * Todos os outros [!DNL Google Ads] contas:
 
@@ -88,9 +88,9 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >
 >* Os sufixos de página de aterrissagem em níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor da rede de anúncios.
 >
->* (Anúncios de pesquisa dinâmica; anunciantes com Adobe Analytics e sem rastreamento do lado do servidor) Quando desejar incluir o rastreamento do feed reverso do Adobe Advertising para o Analytics, anexe o `s_kwcid` código de rastreamento até o final do sufixo da página de aterrissagem no nível da conta.
+>* (Anúncios de pesquisa dinâmica; anunciantes com Adobe Analytics e sem rastreamento do lado do servidor) Quando desejar incluir o rastreamento do feed reverso do Adobe Advertising para o Analytics, anexe o código de rastreamento da ID do AMO ao final do sufixo da página de aterrissagem no nível da conta.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formatos para o código de rastreamento da ID do AMO](skwcid-tracking-parameter.md)

@@ -3,7 +3,7 @@ title: Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica
 description: Saiba mais sobre o fluxo de trabalho para configuração [!DNL Google Ads] anúncios de pesquisa dinâmica.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Você pode configurar anúncios de pesquisa dinâmica individualmente ou usando 
 
    1. (Opcional) Configure um modelo de rastreamento de nível de campanha, que substitui o modelo de rastreamento de nível de conta, mas pode ser substituído nos níveis inferiores.
 
-      (Anunciantes com Adobe Analytics sem rastreamento do lado do servidor) Quando quiser incluir o rastreamento do feed reverso do Search, Social e Commerce para o Analytics, adicione o código de rastreamento s_kwcid aos parâmetros de acréscimo no nível da conta, que adicionam o código ao URL final. Consulte &quot;[O parâmetro de rastreamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Anunciantes com Adobe Analytics sem rastreamento do lado do servidor) Quando quiser incluir o rastreamento do feed reverso do Search, Social e Commerce para o Analytics, adicione o código de rastreamento da ID do AMO aos parâmetros de acréscimo no nível da conta, que adicionam o código ao URL final. Consulte &quot;[O parâmetro de rastreamento da ID do AMO](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
 
 1. [Criar um grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) na campanha, incluindo as seguintes etapas:
 

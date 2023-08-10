@@ -3,9 +3,9 @@ title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Para [!DNL Microsoft Advertising] contas, somente [!DNL oAuth]logons autorizados
 
 Exemplo: `param1=value1&param2=value2`
 
-As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) no sufixo. As contas com uma integração do Adobe Analytics devem usar o `s_kwcid` parâmetro. Se a conta tiver uma implementação s\_kwcid do lado do servidor, o parâmetro será adicionado automaticamente quando um usuário clicar em um anúncio. Caso contrário, você deverá adicioná-lo manualmente aqui. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) no sufixo. As contas com uma integração do Adobe Analytics devem usar o parâmetro da ID do AMO (começando com `s_kwcid`). Se a conta tiver uma implementação de ID do AMO do lado do servidor, o parâmetro será adicionado automaticamente quando um usuário clicar em um anúncio. Caso contrário, você deverá adicioná-lo manualmente aqui. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -240,15 +240,15 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S\_kwcid** - (Existente [!DNL Google Ads] contas para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais o s\_kwcid ainda não foi migrado)
+* **Formato S\_kwcid** - (Existente [!DNL Google Ads] contas para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s\_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento s\_kwcid, o que permite que o Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. A variável [formato mais recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que o Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. A variável [formato mais recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 Se essa conta precisar de relatórios nos níveis de campanha e grupo de publicidade, clique no link [!UICONTROL Edit] (lápis) e **[!UICONTROL Migrate to new s\_kwcid format]** para alterar para o novo formato. Para contas que não incluem esses tipos de campanha, a migração para o novo formato é opcional, mas recomendada.
 
-Para obter instruções completas, consulte &quot;[Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+Para obter instruções completas, consulte &quot;[Atualizar o código de rastreamento da ID do AMO para um [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **Nomes dos conjuntos de relatórios** - (Para redirecionamento EF somente com token; anunciantes com integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, Social e Commerce envia dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
 
@@ -258,4 +258,4 @@ Para que os dados sejam exibidos nos conjuntos de relatórios, (a) o s\_kwcid do
 >
 >* [Sobre contas de rede de publicidade](ad-network-account-about.md)
 >* [Gerenciar contas do centro de comércio](merchant-account-manage.md)
->* [Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account](update-skwcid-google.md)
+>* [Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account](update-amo-id-google.md)

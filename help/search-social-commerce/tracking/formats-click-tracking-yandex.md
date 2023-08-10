@@ -3,7 +3,7 @@ title: Formatos de rastreamento de cliques para [!DNL Yandex]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Yandex] contas.
 exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Exemplo:
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos para o código de rastreamento s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formatos para o código de rastreamento da ID do AMO](skwcid-tracking-parameter.md)

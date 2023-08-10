@@ -3,7 +3,7 @@ title: Sobre contas de rede de publicidade
 description: Saiba mais sobre contas de rede de anúncios em Pesquisa, Social e Comércio.
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Veja mais informações sobre [!DNL Naver] campanhas somente de rastreamento, co
 >
 >* [Gerenciar contas de rede de publicidade](ad-network-account-manage.md)
 >* [Gerenciar contas do centro de comércio](merchant-account-manage.md)
->* [Atualize o código de rastreamento do s\_kwcid de um [!DNL Google Ads] account](update-skwcid-google.md)
+>* [Atualizar o código de rastreamento da ID do AMO para um [!DNL Google Ads] account](update-amo-id-google.md)

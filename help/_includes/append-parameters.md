@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Separe vários parâmetros com vírgulas ou sinal gráfico (&amp;). Colchetes an
 
 * (Adicione redes com rastreamento paralelo) Evite usar macros, que não são substituídas por cliques de fontes que permitem rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
-* (Anunciantes com uma integração Adobe Advertising-Adobe Analytics) Para incluir uma `s_kwcid` parâmetro para enviar dados de Pesquisa, Social e Comércio para o [!DNL Analytics], consulte o [adicionar formatos específicos de rede](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Não é necessário adicionar manualmente o parâmetro para [!DNL Google Ads] e [!DNL Microsoft Advertising] contas com uma implementação s\_kwcid do lado do servidor.
+* (Anunciantes com uma integração Adobe Advertising-Adobe Analytics) Para incluir um parâmetro de ID do AMO para enviar dados de Pesquisa, Redes sociais e Comércio para o [!DNL Analytics], consulte o [adicionar formatos específicos de rede](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Não é necessário adicionar manualmente o parâmetro para [!DNL Google Ads] e [!DNL Microsoft Advertising] contas do com uma implementação de ID do AMO do lado do servidor.

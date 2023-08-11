@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Formatos de rastreamento de cliques para [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
-      + [O parâmetro de rastreamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+      + [O parâmetro de rastreamento da ID do AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Rastreamento de conversão {#conversion-tracking}
       + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Rastreamento de conversão de Adobe Advertising {#advertising-conversion-tracking}

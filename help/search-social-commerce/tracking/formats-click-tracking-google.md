@@ -3,7 +3,7 @@ title: Formatos de rastreamento de cliques para [!DNL Google Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Google Ads] contas.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -93,4 +93,4 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos para o código de rastreamento da ID do AMO](skwcid-tracking-parameter.md)
+>* [Formatos para o código de rastreamento da ID do AMO](amo-id-tracking-parameter.md)

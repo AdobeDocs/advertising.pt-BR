@@ -3,7 +3,7 @@ title: Atualizar o código de rastreamento da ID do AMO (s_kwcid) para um [!DNL 
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para um [!DNL Google Ads] conta.
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]somente contas*
 
-O formato herdado para o [Código de rastreamento de ID do AMO](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) para existentes [!DNL Google Ads] contas do não são compatíveis com alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas, campanhas de rascunhos e experimentos e outros casos de uso em que a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
+O formato herdado para o [Código de rastreamento de ID do AMO](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) para existentes [!DNL Google Ads] contas do não são compatíveis com alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas, campanhas de rascunhos e experimentos e outros casos de uso em que a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
 
 O formato mais recente inclui parâmetros para a ID da campanha e a ID do grupo de publicidade:
 
@@ -58,7 +58,7 @@ Todos os novos [!DNL Google Ads] As contas do usam automaticamente o novo format
 
    * Quando a variável [!UICONTROL Auto Upload]O recurso &quot;&quot; está ativado nas configurações de rastreamento do; Search, Social e Commerce atualizam automaticamente o código de rastreamento no Sufixo da página de aterrissagem desta conta e suas campanhas. Você não precisa fazer nada.
 
-   * Quando a variável [!UICONTROL Auto Upload]O recurso &quot; não está habilitado e você não usa o [recurso de ID do AMO do lado do servidor](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md), você deverá atualizar manualmente o parâmetro da ID do AMO nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o [!DNL Google Ads] editor.
+   * Quando a variável [!UICONTROL Auto Upload]O recurso &quot; não está habilitado e você não usa o [recurso de ID do AMO do lado do servidor](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md), você deverá atualizar manualmente o parâmetro da ID do AMO nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o [!DNL Google Ads] editor.
 
    * Se você incluir a ID do AMO na configuração de URL base para qualquer componente da campanha, mova-a para a configuração relevante Sufixo da página inicial.
 
@@ -67,5 +67,5 @@ Todos os novos [!DNL Google Ads] As contas do usam automaticamente o novo format
 >[!MORELIKETHIS]
 >
 >* [Gerenciar contas de rede de publicidade](ad-network-account-manage.md)
->* [O parâmetro de rastreamento da ID do AMO](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+>* [O parâmetro de rastreamento da ID do AMO](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
 >* [Visão geral do [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

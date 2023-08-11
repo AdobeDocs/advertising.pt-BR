@@ -3,7 +3,7 @@ title: Implementar [!DNL Google Ads] campanhas de desempenho máximo do
 description: Saiba mais sobre o fluxo de trabalho para configuração [!DNL Google Ads] desempenho máximo de campanhas.
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Entrada [!DNL Google Ads] desempenho máximo de campanhas, você não configura grupos de anúncios, anúncios ou palavras-chave. Em vez disso, nas configurações da campanha, você especifica um ou mais grupos de ativos, que incluem títulos, descrições e imagens, logotipos e [!DNL YouTube videos]. [!DNL Google Ads] combina automaticamente os ativos para veicular anúncios com base no canal (como [!DNL YouTube], [!DNL Gmail]ou [!DNL Search]).
 
-Você pode visualizar suas campanhas de desempenho máximo existentes, com dados de desempenho no formato de tabela e gráfico de tendências, no [!DNL Campaigns] view; os dados não estão disponíveis em níveis inferiores. Os dados de desempenho no nível de campanha também estão disponíveis nos relatórios e no Adobe Analytics (para anunciantes com uma [Integração do Analytics](/help/integrations/analytics/overview.md). Para exibir dados de desempenho para campanhas de desempenho máximo no [!DNL Analytics], a campanha deve usar o [Código de rastreamento de ID do AMO atualizado](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) (que rastreia a ID da campanha e a ID do grupo de publicidade).
+Você pode visualizar suas campanhas de desempenho máximo existentes, com dados de desempenho no formato de tabela e gráfico de tendências, no [!DNL Campaigns] view; os dados não estão disponíveis em níveis inferiores. Os dados de desempenho no nível de campanha também estão disponíveis nos relatórios e no Adobe Analytics (para anunciantes com uma [Integração do Analytics](/help/integrations/analytics/overview.md). Para exibir dados de desempenho para campanhas de desempenho máximo no [!DNL Analytics], a campanha deve usar o [Código de rastreamento de ID do AMO atualizado](/help/integrations/analytics/ids.md#amo-id-formats) (que rastreia a ID da campanha e a ID do grupo de publicidade).
 
 >[!NOTE]
 >

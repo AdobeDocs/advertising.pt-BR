@@ -3,7 +3,7 @@ title: Sobre notificações
 description: Saiba mais sobre notificações, incluindo os diferentes tipos e categorias.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
 feature: Search Notifications
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
   <!--
   * [!UICONTROL Setup Errors]
   
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md); or it's overridden at a lower level by an incorrect value.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
     
     * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
   -->

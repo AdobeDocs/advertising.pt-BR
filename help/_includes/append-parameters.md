@@ -1,5 +1,5 @@
 ---
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Separe vários parâmetros com vírgulas ou sinal gráfico (&amp;). Colchetes an
 
 * (Adicione redes com rastreamento paralelo) Evite usar macros, que não são substituídas por cliques de fontes que permitem rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
-* (Anunciantes com uma integração Adobe Advertising-Adobe Analytics) Para incluir um parâmetro de ID do AMO para enviar dados de Pesquisa, Redes sociais e Comércio para o [!DNL Analytics], consulte o [adicionar formatos específicos de rede](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). Não é necessário adicionar manualmente o parâmetro para [!DNL Google Ads] e [!DNL Microsoft Advertising] contas do com uma implementação de ID do AMO do lado do servidor.
+* (Anunciantes com uma integração Adobe Advertising-Adobe Analytics) Para incluir um parâmetro de ID do AMO para enviar dados de Pesquisa, Redes sociais e Comércio para o [!DNL Analytics], consulte o [adicionar formatos específicos de rede](/help/integrations/analytics/ids.md#amo-id-formats). Não é necessário adicionar manualmente o parâmetro para [!DNL Google Ads] e [!DNL Microsoft Advertising] contas do com uma implementação de ID do AMO do lado do servidor.

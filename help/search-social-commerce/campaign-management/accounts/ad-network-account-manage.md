@@ -3,7 +3,7 @@ title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * **Formato S_kwcid** - (Existente [!DNL Google Ads] contas para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que o Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. A variável [formato mais recente](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que o Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. A variável [formato mais recente](/help/integrations/analytics/ids.md#amo-id-formats) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

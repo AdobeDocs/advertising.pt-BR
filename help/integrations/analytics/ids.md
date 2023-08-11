@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -95,71 +95,135 @@ Entrada [!DNL Analytics] relatórios, é possível encontrar dados de EF ID proc
 
 As IDs de EF estão sujeitas ao limite de identificador exclusivo de 500k no Analysis Workspace. Quando o valor 500k for atingido, todos os novos códigos de rastreamento serão relatados no título de uma linha de item &quot;[!UICONTROL Low Traffic].&quot; Devido à possibilidade de falta de fidelidade de relatório, as IDs de EF não são classificadas e você não deve usá-las para segmentos ou relatórios no [!DNL Analytics].
 
-## IDs do Adobe Advertising AMO
+## IDs do Adobe Advertising AMO {#amo-id}
 
 A ID do AMO rastreia cada combinação de anúncios exclusiva em um nível menos granular e é usada para [!DNL Analytics] classificação de dados e assimilação de métricas de publicidade (como impressões, cliques e custo) do Adobe Advertising. A ID do AMO é armazenada em um [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID) e é usada exclusivamente para relatórios no [!DNL Analytics].
 
 A ID do AMO também é chamada de `s_kwcid`, que às vezes é pronunciado como &quot;[!DNL the squid].&quot;
 
-### Formato de ID AMO para [!DNL DSP]
+### Formatos de ID AMO {#amo-id-formats}
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+#### Formato de ID AMO para [!DNL DSP]
+
+`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
 em que:
 
-* &lt;*ID do canal*> pode ser:
+* `AC` indica o canal de exibição.
 
-   * `AC` = DSP publicitário
-   * `AL` para [!DNL Advertising Search, Social, & Commerce]
+* `{TM_AD_ID}` é a chave de anúncio alfanumérica gerada por Adobe Advertising. Ele é usado como um identificador exclusivo para um anúncio e serve como uma chave para converter metadados de entidade Adobe Advertising em legíveis [!DNL Analytics] dimensões.
 
-* &lt;*ID do anúncio*> é usado como um identificador exclusivo gerado por Adobe Advertising para um anúncio. Ele serve como uma chave para converter metadados de entidade de Adobe Advertising em legíveis [!DNL Analytics] dimensões.
-
-* &lt;*ID de posicionamento*> é um identificador exclusivo gerado por Adobe Advertising para uma inserção. Ele serve como uma chave para converter metadados de entidade de Adobe Advertising em legíveis [!DNL Analytics] dimensões.
+* `{TM_PLACEMENT_ID}` é a chave de posicionamento alfanumérico gerada por Adobe Advertising. Ele é usado como um identificador exclusivo para um posicionamento e serve como uma chave para converter metadados de entidade de Adobe Advertising em legíveis [!DNL Analytics] dimensões.
 
 Exemplo de ID do AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### Formato de ID AMO para [!DNL Search, Social, & Commerce]
+#### Formatos de ID do AMO para anúncios de Pesquisa, Social e Comércio
 
-IDs AMO para [!DNL Search, Social, & Commerce] siga um formato distinto para cada mecanismo de pesquisa. O formato para todos os mecanismos de pesquisa começa com o seguinte:
+Os parâmetros variam por rede de anúncios, mas os seguintes parâmetros são comuns a todos:
 
-```
-AL!{userid}!{sid}
-```
+* `AL` indica o canal de pesquisa. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+
+* `{userid}` é uma ID de usuário exclusiva atribuída ao anunciante.
+
+* `{sid}` é substituído pela ID numérica da conta de rede de anúncios do anunciante: *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
+
+##### [!DNL Baidu]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+
+em que:
+
+* `{creative}` é a ID numérica exclusiva da rede de publicidade para o criativo.
+* `{placement}` é o site em que o anúncio foi clicado.
+* `{keywordid}` é a ID numérica exclusiva da rede de publicidade para a palavra-chave que disparou o anúncio.
+
+##### [!DNL Google Ads]
+
+Isso inclui campanhas de compras usando o [!DNL Google Merchant Center].
+
+* Contas que usam o formato de ID AMO mais recente, compatível com relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+
+* Todas as outras contas:
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 em que:
 
-* `AL` é a ID do canal para a rede de publicidade.
-* `{userid}` é a ID de usuário numérica exclusiva que o Adobe Advertising atribui ao anunciante.
-* `{sid}` é a ID numérica que o Adobe Advertising usa para a rede de anúncios especificada, como `3` para [!DNL Google Ads] ou `10` para [!DNL Microsoft Advertising].
-
-A seguir estão os formatos completos de ID do AMO para algumas redes de anúncios. Para formatos de ID AMO para outras redes de anúncios, entre em contato com a equipe de conta do Adobe.
-
-Formato de ID AMO para [!DNL Google Ads]:
-
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
-
-em que:
+<!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
 * `{creative}` é o [!DNL Google Ads] ID numérica exclusiva do criativo.
 * `{matchtype}` é o tipo de correspondência da palavra-chave que acionou o anúncio: `e` para obter informações exatas, `p` para frase, ou `b` para amplo.
 * `{placement}` é o nome de domínio do site em que o anúncio foi clicado. Um valor está disponível para anúncios em campanhas direcionadas para posicionamento e para anúncios em campanhas direcionadas por palavras-chave que são exibidas em sites de conteúdo.
-* `{network}` indica a rede da qual o clique ocorreu:  `g` para [!DNL Google] pesquisa (somente para anúncios direcionados a palavras-chave), `s` para um parceiro de pesquisa (somente para anúncios direcionados a palavras-chave) ou `d` para a Rede de exibição (para anúncios direcionados a palavras-chave ou de posicionamento).
+* `{network}` indica a rede da qual o clique ocorreu: `g` para [!DNL Google] pesquisa (somente para anúncios direcionados a palavras-chave), `s` para um parceiro de pesquisa (somente para anúncios direcionados a palavras-chave) ou `d` para a rede de exibição (para anúncios direcionados por palavra-chave ou de posicionamento).
+* `{product_partition_id}` é o identificador numérico exclusivo da rede de publicidade para o grupo de produtos usado com anúncios de produtos.
 * `{keyword}` é a palavra-chave específica que acionou seu anúncio (em sites de pesquisa) ou a palavra-chave com melhor correspondência (em sites de conteúdo).
+* `{campaignid}` é o identificador numérico exclusivo da rede de publicidade para a campanha.
+* `{adgroupid}` é o identificador numérico exclusivo da rede de publicidade para o grupo de publicidade.
 
-Formato de ID AMO para [!DNL Microsoft Advertising]:
+>[!NOTE]
+>
+>* Para anúncios de pesquisa dinâmica, {keyword} é preenchida com o direcionamento automático.
+>* Ao gerar o rastreamento para [!DNL Google] anúncios de compras, um parâmetro de ID do produto, `{adwords_producttargetid}`, é inserido antes do parâmetro de palavra-chave. O parâmetro da ID do produto não aparece no [!DNL Google Ads] parâmetros de rastreamento no nível da conta e no nível da campanha.
+>* Para usar o código de rastreamento de ID do AMO mais recente, consulte &quot;[Atualizar o código de rastreamento da ID do AMO para um [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+<!--
+
+##### [!DNL Meta]
+
+`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+
+where:
+
+* `{{ad.id}}` is the unique numeric ID for the ad/creative.
+
+* `{{campaign.id}}` is the unique ID for the campaign.
+
+* `{{adset.id}}` is the unique ID for the ad set.
+
+-->
+
+##### [!DNL Microsoft Advertising]
+
+* Pesquisar campanhas:
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+
+* Campanhas de compras (usando [!DNL Microsoft Merchant Center]):
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+
+* Campanhas de rede de público-alvo:
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 em que:
 
-* `{AdId}` é o [!DNL Microsoft Advertising] ID numérica exclusiva do criativo.
-* `{OrderItemId}` é o [!DNL Microsoft Advertising] ID numérica para a palavra-chave.
+* `{AdId}` é a ID numérica exclusiva da rede de publicidade para o criativo.
+* `{OrderItemId}` é a ID numérica da rede de publicidade para a palavra-chave.
+* `{CriterionId}` é a ID numérica da rede de publicidade para o grupo de produtos usado com anúncios de produtos.
+
+##### [!DNL Yahoo! Japan Ads]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+
+em que:
+
+* `{creative}` é a ID numérica exclusiva da rede de publicidade para o criativo.
+* `{matchtype}` é o tipo de correspondência da palavra-chave que acionou o anúncio: `be` para obter informações exatas, `bp` para frase, ou `bb` para amplo.
+* `{network}` indica a rede da qual o clique ocorreu: `n` para nativo ou `s` para pesquisa.
+* `{keyword}` é a palavra-chave que acionou seu anúncio.
+
+##### [!DNL Yandex]
+
+`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+
+em que:
+
+* `{ad_id}` é a ID numérica exclusiva da rede de publicidade para o criativo.
+* `{source_type}` é o tipo de site no qual o anúncio foi exibido: *b* para pesquisa, *c* para contexto (conteúdo), ou *ct* para categoria.
+* `{phrase_id}` é a ID numérica da rede de publicidade para a palavra-chave.
 
 ### DIMENSION de ID AMO em [!DNL Analytics]
 

@@ -3,9 +3,9 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Consulte as seguintes práticas recomendadas para campanhas de desempenho:
 
 ## Etapa 1 - Definir A Meta
 
-É importante entender se o objetivo da campanha é alcançar o ROAS mais alto possível ou o CPA mais baixo possível. Para cada pacote na campanha, você especificará a meta do objetivo de acordo como *[!UICONTROL Highest ROAS - Custom Goal]* ou *[!UICONTROL Lowest CPA - Custom Goal]*.
+É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho [metas de otimização](/help/dsp/optimization/optimization-goals.md) que terminam com &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada pacote na campanha, você especificará a meta do objetivo de acordo.
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
@@ -73,7 +73,7 @@ Além disso, use as configurações a seguir.
 
 * **Datas de voo:** (Pacotes de prospecção) Quando a campanha é executada por mais de 25 dias, use o [!UICONTROL Activate Custom Flighting] recurso. Primeiro, defina um voo personalizado para os primeiros 10 dias em aproximadamente 75% do orçamento diário necessário para reduzir os gastos durante o *fase de aprendizagem*. Em seguida, defina um segundo voo personalizado para o restante do orçamento.
 
-   Por exemplo, se você tiver US$ 100.000 para gastar em 30 dias, defina o orçamento do voo 1 (dias 1 a 10) para US$ 25.000 (75% x US$ 100.000/30 dias = US$ 2.500 por dia). Use o orçamento restante de US$ 75.000 para o voo 2 (dias 11 a 30).
+  Por exemplo, se você tiver US$ 100.000 para gastar em 30 dias, defina o orçamento do voo 1 (dias 1 a 10) para US$ 25.000 (75% x US$ 100.000/30 dias = US$ 2.500 por dia). Use o orçamento restante de US$ 75.000 para o voo 2 (dias 11 a 30).
 
 * **Orçamento:** O DSP sempre tentará alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
 
@@ -85,9 +85,9 @@ Além disso, use as configurações a seguir.
 
 * **Ritmo de veiculação e Ritmo intradiário:** Para ambos os tipos de ritmo, selecione *[!UICONTROL Even]* para maximizar suas metas de desempenho, acompanhando uniformemente ao longo de cada dia e durante todo o voo.
 
-   >[!CAUTION]
-   >
-   >Uso *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* para o ritmo de *[!UICONTROL ASAP]* ritmo para ritmo intradiário somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho, pois essas estratégias podem afetar negativamente os KPIs de desempenho desejados.
+  >[!CAUTION]
+  >
+  >Uso *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* para o ritmo de *[!UICONTROL ASAP]* ritmo para ritmo intradiário somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho, pois essas estratégias podem afetar negativamente os KPIs de desempenho desejados.
 
 ## Etapa 4 - Criar estrutura de posicionamento
 
@@ -165,4 +165,3 @@ Uso de filtragem contextual, bloqueio pré-oferta de fraudes e/ou [!UICONTROL Ad
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Filtros pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
 >* [Lista de verificação de lançamento de campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
-

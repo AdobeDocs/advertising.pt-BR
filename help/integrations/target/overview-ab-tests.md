@@ -2,9 +2,9 @@
 title: Configurar testes A/B para anúncios Adobe Advertising no Adobe Target
 description: Saiba como configurar um teste A/B no [!DNL Target] para seus anúncios de DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Ao adicionar um pixel de evento de impressão de Audience Manager nas tags de an
 
 As instruções a seguir destacam informações relacionadas ao caso de uso do DSP. Para obter instruções completas, consulte &quot;&quot;.
 
-1. [Faça logon no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Fazer logon no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 

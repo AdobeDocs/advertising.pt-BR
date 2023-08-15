@@ -4,9 +4,9 @@ description: Saiba mais sobre o suporte para capturar solicitações de cancelam
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 >
 >Os usuários permanecem em segmentos de cancelamento de venda do CCPA indefinidamente.
 
-1. Faça logon na conta do anunciante no Advertising DSP em [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. Faça logon na conta do anunciante em Advertising DSP em [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Crie um segmento de cancelamento de venda do CCPA e implemente o pixel do segmento para capturar as solicitações de cancelamento](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### Método 2: comunicar solicitações de cancelamento de venda do CCPA usando a API do Adobe Experience Platform Privacy Service
@@ -65,7 +65,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 
    >[!IMPORTANT]
    >
-   >Entre em contato com o representante da Adobe Advertising da sua empresa para confirmar se todas as contas da Adobe Advertising da sua organização, incluindo [!DNL DSP] contas ou anunciantes, [!DNL Search, Social, & Commerce] contas e [!DNL Creative] ou [!DNL DCO] contas do — são vinculadas à sua ID da organização Experience Cloud.
+   >Entre em contato com o representante da Adobe Advertising da empresa para confirmar se todas as contas Adobe Advertising da organização, incluindo [!DNL DSP] contas ou anunciantes, [!DNL Search, Social, & Commerce] contas e [!DNL Creative] ou [!DNL DCO] contas do — são vinculadas à sua ID da organização Experience Cloud.
 
 1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de cancelamento de venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
@@ -73,9 +73,9 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 
    >[!NOTE]
    >
-   Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias sub-soluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
+   Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para receber suporte da Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperação de relatórios de consumidores que enviaram solicitações de recusa de venda
 
@@ -85,7 +85,7 @@ O Adobe Advertising gera relatórios mensais de IDs que os clientes enviaram par
 
 ### Método 1: Recuperar relatórios de cancelamento de venda do consumidor dentro do DSP do anúncio
 
-1. Faça logon na conta do anunciante no Advertising DSP em [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. Faça logon na conta do anunciante em Advertising DSP em [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Recuperar os relatórios](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### Método 2: recuperar relatórios de cancelamento de venda do consumidor usando o DSP do anúncio [!DNL Trafficking API]

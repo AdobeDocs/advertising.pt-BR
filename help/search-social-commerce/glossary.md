@@ -3,7 +3,7 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variação de publicidade:** Qualquer anúncio em um grupo de publicidade ou estratégia de publicidade.
 
-**ID AMO:** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas com o Adobe Analytics. Começa com `s_kwcid=`.
+**[ID AMO](/help/integrations/analytics/ids.md#amo-id):** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas com o Adobe Analytics. Começa com `s_kwcid=`.
 
 **unidade de oferta:** Um termo de Pesquisa, Social e Comércio para uma unidade em que são feitas ofertas. Para a maioria das campanhas na maioria das redes, essa é uma palavra-chave e seu tipo de correspondência para uma campanha de pesquisa ou conteúdo, um grupo de produtos no nível da unidade (o nível mais baixo de subdivisão) para uma campanha de compras ou um destino de pesquisa dinâmica para uma campanha de publicidade de pesquisa dinâmica. Quando a mesma combinação de palavra-chave e tipo de correspondência, o mesmo grupo de produtos ou o mesmo público-alvo de pesquisa dinâmica ocorre em vários grupos de anúncios em uma única campanha, todas as instâncias são consideradas a mesma unidade de oferta e, portanto, têm a mesma oferta.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **URL de rastreamento de cliques:** Um modelo de rastreamento ou um URL de destino com código incorporado para rastrear cliques em uma palavra-chave, variação de anúncio ou posicionamento.
 
-**restrição:** (Anunciantes com portfólios; aplicável somente para unidades de oferta em portfólios padrão) Uma regra para licitação em uma palavra-chave ou anúncio específico. Ele substitui todos os limites no nível do portfólio e a estratégia de lance recomendada.
+**restrição:** (Anunciantes com portfólios; aplicável somente para unidades de oferta em portfólios padrão) Uma regra para licitação em uma palavra-chave ou anúncio específico. Ele substitui todos os limites no nível do portfólio e a estratégia de lances recomendada.
 
 **conversão:** A conclusão de uma ação depois que um usuário final clica em um anúncio, geralmente capturado como uma métrica. Os exemplos incluem registros e compras e podem representar contagens ou valores monetários. Uma conversão pode consistir em um ou mais eventos de transação, mas os termos &quot;conversão&quot; e &quot;transação&quot; são frequentemente usados alternadamente.
 

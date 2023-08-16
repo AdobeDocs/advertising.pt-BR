@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para [!DNL Google Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Google Ads] contas.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir um dos seguintes:
 
-   * [!DNL Google Ads] contas que usam o formato de ID AMO mais recente (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
+   * [!DNL Google Ads] contas que usam a mais recente [Formato de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats) (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente.
+     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente. Consulte &quot;Maneiras de implementar a ID do AMO&quot; em &quot;[IDs de Adobe Advertising usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Todos os outros [!DNL Google Ads] contas:
 

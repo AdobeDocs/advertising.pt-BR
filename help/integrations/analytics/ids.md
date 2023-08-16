@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
+source-git-commit: 21acf015a511c578a95e938e32fb170287f91555
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneira
 
       * Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configuração ativada para a conta ou campanha, o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final clica em um anúncio com o pixel Adobe Advertising.
 
-      * Para outras redes de publicidade, ou [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configurando desativado, adicione manualmente o parâmetro aos parâmetros de acréscimo no nível da conta, que o anexam aos URLs base.
+      * Para outras redes de publicidade, ou [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configuração desativada, manualmente [adicione o parâmetro aos parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), que o anexam aos URLs base.
 
 * O recurso de inserção do lado do servidor não está implementado:
 
@@ -132,9 +132,9 @@ O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneira
 
    * Clientes de pesquisa, social e comércio:
 
-      * Para ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem.
+      * Para ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem, de preferência no [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) a menos que seja necessário um rastreamento diferente para componentes de conta individuais.
 
-      * Para anúncios em todas as outras redes de anúncios, adicione manualmente o parâmetro da ID do AMO aos parâmetros de acréscimo no nível da conta, que o anexam aos URLs base.
+      * Para anúncios em todas as outras redes de anúncios, manualmente [adicionar o parâmetro da ID do AMO aos parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), que o anexam aos URLs base.
 
 Para implementar o recurso de inserção do lado do servidor ou determinar a melhor opção para sua empresa, entre em contato com a equipe de conta da Adobe.
 

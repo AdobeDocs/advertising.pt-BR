@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 O Adobe Advertising usa duas IDs para o rastreamento de desempenho no site: a variável *ID EF* e a variável *ID AMO*.
 
-Quando ocorre uma impressão de anúncio, o Adobe Advertising cria os valores de ID AMO e ID EF e os armazena. Quando um visitante que viu um anúncio entra no site sem clicar em um anúncio, [!DNL Analytics] chama esses valores do Adobe Advertising até a variável [!DNL Analytics for Advertising] Código JavaScript. Para tráfego de view-through, [!DNL Analytics] gera uma ID complementar (`SDID`), que é utilizada para compilar a ID EF e a ID AMO em [!DNL Analytics]. Para tráfego de click-through, essas IDs são incluídas no URL da página de aterrissagem usando o `s_kwcid` e `ef_id` parâmetros da sequência de consulta.
+Quando ocorre uma impressão de anúncio, o Adobe Advertising cria os valores de ID AMO e ID EF e os armazena. Quando um visitante que viu um anúncio entra no site sem clicar em um anúncio, [!DNL Analytics] chama esses valores do Adobe Advertising até a variável [!DNL Analytics for Advertising] Código JavaScript. Para tráfego de view-through, [!DNL Analytics] gera uma ID complementar (`SDID`), que é utilizada para compilar a ID EF e a ID AMO em [!DNL Analytics]. Para tráfego de click-through, essas IDs são incluídas no URL da página de aterrissagem usando o `ef_id` e `s_kwcid` (para a ID do AMO) parâmetros de sequência de consulta.
 
 O Adobe Advertising distingue entre uma entrada click-through ou view-through para o site usando os seguintes critérios:
 
 * Uma entrada view-through é capturada quando um usuário visita o site após visualizar um anúncio, mas não clica nele. [!DNL Analytics] registra um view-through se duas condições forem atendidas:
+
    * O visitante não tem click-throughs para uma [!DNL DSP] ou [!DNL Search, Social, & Commerce] anúncio durante o [clique em janela de retrospectiva](#lookback-a4adc).
+
    * O visitante viu pelo menos um [!DNL DSP] anúncio durante o [janela de retrospectiva de impressão](#lookback-a4adc). A última impressão é transmitida como view-through.
+
 * Uma entrada click-through é capturada quando um visitante do site clica em um anúncio antes de entrar no site. [!DNL Analytics] captura um click-through quando uma das seguintes condições ocorre:
+
    * O URL inclui um EF ID e um AMO ID conforme adicionado ao URL da página inicial pelo Adobe Advertising.
+
    * O URL não contém códigos de rastreamento, mas o código JavaScript do Adobe Advertising detecta um clique nos últimos dois minutos.
 
 ![Adobe Advertising baseado em visualização [!DNL Analytics] integração](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ As IDs de EF estão sujeitas ao limite de identificador exclusivo de 500k no Ana
 A ID do AMO rastreia cada combinação de anúncios exclusiva em um nível menos granular e é usada para [!DNL Analytics] classificação de dados e assimilação de métricas de publicidade (como impressões, cliques e custo) do Adobe Advertising. A ID do AMO é armazenada em um [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou rVar (AMO ID) e é usada exclusivamente para relatórios no [!DNL Analytics].
 
 A ID do AMO também é chamada de `s_kwcid`, que às vezes é pronunciado como &quot;[!DNL the squid].&quot;
+
+### Formas de implementação da ID do AMO
+
+O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneiras:
+
+* (Recomendado) O recurso de inserção do lado do servidor é implementado.
+
+   * Clientes DSP: o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final visualiza um anúncio de exibição com o pixel Adobe Advertising.
+
+   * Clientes de pesquisa, social e comércio:
+
+      * Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configuração ativada para a conta ou campanha, o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final clica em um anúncio com o pixel Adobe Advertising.
+
+      * Para outras redes de publicidade, ou [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configurando desativado, adicione manualmente o parâmetro aos parâmetros de acréscimo no nível da conta, que o anexam aos URLs base.
+
+* O recurso de inserção do lado do servidor não está implementado:
+
+   * Clientes DSP:
+
+      * Para [!DNL Flashtalking] adicionar tags, insira manualmente macros adicionais de acordo com &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * Para [!DNL Google Campaign Manager 360] adicionar tags, insira manualmente macros adicionais de acordo com &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Clientes de pesquisa, social e comércio:
+
+      * Para ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem.
+
+      * Para anúncios em todas as outras redes de anúncios, adicione manualmente o parâmetro da ID do AMO aos parâmetros de acréscimo no nível da conta, que o anexam aos URLs base.
+
+Para implementar o recurso de inserção do lado do servidor ou determinar a melhor opção para sua empresa, entre em contato com a equipe de conta da Adobe.
 
 ### Formatos de ID AMO {#amo-id-formats}
 

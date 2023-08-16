@@ -3,9 +3,9 @@ title: Publicidade de macros DSP
 description: Consulte as macros disponíveis para rastreamento geral e para rastrear cliques em anúncios de exibição de terceiros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ O DSP insere automaticamente macros de clique de exibição em uma tag de exibi�
 
 Se uma macro de clique estiver ausente ao criar um anúncio de exibição, o DSP exibirá uma mensagem de aviso solicitando que você insira manualmente a macro de clique de exibição apropriada na área correta da tag.
 
+## [!DNL Analytics for Advertising] Macros
+
+Para macros adicionais disponíveis especificamente para [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) clientes, consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
 ## Solução de problemas de erros de macro
 
 Ao adicionar macros ao código, certifique-se de usar a sintaxe exata da macro. Ao validar as macros, o DSP verifica se a macro corresponde exatamente a uma das macros válidas.
@@ -103,4 +107,3 @@ Erros são gerados se houver caracteres ausentes no início ou no fim do nome da
 >* [Configurações do anúncio nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Configurações do anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-

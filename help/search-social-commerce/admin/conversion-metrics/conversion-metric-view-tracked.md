@@ -3,16 +3,16 @@ title: Exibir as métricas de conversão rastreadas para um anunciante
 description: Saiba como visualizar uma lista das métricas de conversão rastreadas para um anunciante.
 feature: Conversions
 exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: f69075bfd49964d005271e882d27b4410b180915
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Exibir as métricas de conversão rastreadas para um anunciante
 
-É possível exibir uma lista de todos os [conversão](/help/search-social-commerce/glossary.md#c-d) métricas que o Adobe Advertising rastreou para um anunciante.
+É possível exibir uma lista de todos os [conversão](/help/search-social-commerce/glossary.md#c-d) métricas que o Adobe Advertising rastreou para um anunciante. Cada linha de métrica inclui a origem da métrica.
 
 * No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 

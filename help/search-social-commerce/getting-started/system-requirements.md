@@ -3,9 +3,9 @@ title: Requisitos do sistema
 description: Saiba mais sobre os requisitos de software e conta.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ Você precisa das seguintes informações de conta e software.
 
 Para fazer logon, você precisa de um nome de usuário e senha. Sua equipe de conta do Adobe configura sua conta de usuário e cria seu nome de usuário e senha.
 
-## Configurações de idioma do computador e do navegador
+## Configurações do computador e do navegador
+
+### Configurações do site do navegador
+
+Para ver as visualizações de imagem de alguns tipos de anúncios/ativos, desative os bloqueadores de anúncios/bloqueadores de conteúdo para o `efrontier.com` ao permitir uma exceção para o site. Gerencie bloqueadores de anúncios nas configurações do site/site do seu navegador ou (no Firefox) editando as configurações de qualquer extensão de navegador bloqueador de anúncios instalada.
+
+### Configurações de idioma do computador e do navegador
 
 As informações a seguir determinam quais conjuntos de caracteres usar e quais formatos usar para exibir números, datas, horas e moedas:
 

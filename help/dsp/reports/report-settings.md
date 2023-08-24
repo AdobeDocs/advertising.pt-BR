@@ -3,7 +3,7 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -146,7 +146,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
       O novo destino agora está disponível na lista de destinos existentes, e você pode adicioná-lo ao relatório.
 
-**[!UICONTROL Frequency]:** (Para cada [!UICONTROL Destination Name] Frequência de envio do relatório para o destino: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (Para cada [!UICONTROL Destination Name]) Com que frequência enviar o relatório para o destino: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] Seção
 

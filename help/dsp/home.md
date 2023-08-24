@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
+source-git-commit: 237b37a03664abab00c9fd4b68a564a0f57cdc5c
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 23 de agosto de 2023 | [!UICONTROL Placements] | Agora é possível associar vários anúncios com disposições baixando um arquivo de planilha para uma campanha ou para uma ou mais disposições, editando o arquivo para incluir valores na nova &quot;[!UICONTROL Attached Ad ID]&quot; e, em seguida, fazendo upload do arquivo editado. Use a coluna para adicionar anúncios ao posicionamento, mas não para removê-los.<br><br>Para baixar uma lista de nomes de anúncios e [!UICONTROL Ad ID]s, vá para a guia [!UICONTROL Ads] crie uma exibição personalizada que inclua a variável [!UICONTROL ID] e, em seguida, exporte os dados. | Consulte &quot;[Baixar configurações de posicionamento em uma planilha](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[Colunas de configuração de posicionamento em planilhas baixadas/carregadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; e &quot;[Carregar Configurações de Posicionamento em uma Planilha](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Consulte também &quot;[Exportar dados de uma visualização do Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 | 19 de julho de 2023 | Inventário | Agora é possível executar anúncios gerenciados pelo editor para ofertas programáticas garantidas com o Google Authorized Buyers SSP. Ao hospedar seus anúncios diretamente com o editor, em vez de hospedá-los no DSP, você pode aproveitar os formatos de anúncios de mídia avançada personalizados. Os formatos de anúncios personalizados geralmente são executados por meio de reservas diretas, de modo que a capacidade de selecionar anúncios gerenciados pelo editor no DSP também permite transferir seus orçamentos de reservas diretas para o ecossistema programático. | Consulte &quot;[Sobre Ofertas Programáticas Garantidas](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; e &quot;[Configurar um acordo programático garantido](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 19 de julho de 2023 | Relatórios | O novo [!UICONTROL Household Conversions Report] O mostra conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. | Consulte &quot;[Sobre Relatórios](/help/dsp/reports/report-about.md)&quot; e &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 de maio de 2023 | [!UICONTROL Campaigns] | Agora você pode pausar ou ativar campanhas, pacotes e anúncios. Você já pode pausar e ativar disposições. | Consulte &quot;[Pausar ou ativar uma campanha](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausar ou ativar um pacote](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; e &quot;[Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |

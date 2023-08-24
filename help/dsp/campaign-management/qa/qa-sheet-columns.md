@@ -1,24 +1,24 @@
 ---
 title: Colunas em planilhas baixadas/carregadas
-description: Referencie as colunas em planilhas de controle de qualidade do Excel baixadas e carregadas.
+description: Faça referência às colunas de configuração de posicionamento em planilhas baixadas e carregadas.
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ad0b5826e6639675f374837a04f9877fd05dd0c7
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
-# Colunas em planilhas baixadas/carregadas
-
-<!-- rename -- not specific enough - I think you can download Excel files of other things too -->
+# Colunas de configuração de posicionamento em planilhas baixadas/carregadas
 
 <!-- see notes within the table about descriptions that need to be edited -->
 
 >[!TIP]
 >
 > Em uma planilha baixada, todas as colunas editáveis são destacadas em azul.
+
+## Planilhas de nível de campanha
 
 | Seção | Coluna | Descrição | Editável? |
 |---------|--------|-------------|-----------|
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | O intervalo do limite de frequência primário: *[!UICONTROL Day]*, *[!UICONTROL Week]* ou *[!UICONTROL Month]*. | Sim |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | O limite de frequência secundário para o posicionamento durante o período especificado [!UICONTROL Secondary Frequency Cap Interval] | Sim |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | O tipo de intervalo para o limite de frequência secundário: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* ou *[!UICONTROL Minute]*. O número aplicável de semanas, dias, horas ou minutos é indicado pela variável [!UICONTROL Secondary Frequency Cap Interval Value]. | Sim |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | O número de semanas, dias, horas ou minutos para os quais o [!UICONTROL Secondary Frequency Cap] aplicável. Por exemplo, se o limite secundário for de três impressões a cada seis horas, o valor aqui será <b>6&lt;/>. | Sim |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | O número de semanas, dias, horas ou minutos para os quais o [!UICONTROL Secondary Frequency Cap] aplicável. Por exemplo, se o limite secundário for de três impressões a cada seis horas, o valor aqui será `6`. | Sim |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | O número de localizações geográficas visadas, *[!UICONTROL All]* ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | As localizações geográficas direcionadas, separadas por ponto e vírgula ou *[!UICONTROL All Locations]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | O número de localizações geográficas ou *[!UICONTROL None]*. | — |
@@ -84,14 +84,32 @@ ht-degree: 0%
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | O número de pixels de rastreamento de conversão anexados ao posicionamento ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | Uma taxa de taxa estática de terceiros que deve ser rastreada como um custo não faturável por 1000 impressões, se aplicável. | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | O número de anúncios anexados ao posicionamento, se houver, ou *[!UICONTROL None]*. | — |
-| [!UICONTROL Ads] | [!UICONTROL Ad Names] | Os nomes dos anúncios anexados ao posicionamento, se houver, ou *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Ad Names] | Os nomes de qualquer anúncio anexado ao posicionamento ou *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | As IDs de anúncio exclusivas geradas pelo DSP de qualquer anúncio anexado ao posicionamento, separadas por ponto e vírgula. Para baixar uma lista de nomes de anúncios e IDs de anúncios associadas da [!UICONTROL Ads] crie uma exibição personalizada que inclua a variável [!UICONTROL Ad ID] e depois [exportar os dados](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sim |
 
-{style="table-layout:auto"}
+## Planilhas de nível de posicionamento
+
+| Coluna | Descrição | Editável? |
+|--------|-------------|-----------|
+| [!UICONTROL Placement ID] | A ID numérica do posicionamento. | — |
+| [!UICONTROL Placement Name] | O nome do posicionamento. | Sim |
+| [!UICONTROL Package Name] | O nome do pacote principal, quando aplicável. | — |
+| [!UICONTROL Start Date] | A data de início do posicionamento. | — |
+| [!UICONTROL End Date] | A data final do posicionamento. | — |
+| [!UICONTROL Status] | O status do posicionamento: *[!UICONTROL active]* ou *[!UICONTROL inactive]*. | — |
+| [!UICONTROL Max Bid] | O lance máximo para a inserção. | Sim |
+| [!UICONTROL Budget] | O orçamento de posicionamento, se houver. | Sim |
+| [!UICONTROL Budget Interval] | O intervalo do orçamento: &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*.[!UICONTROL >Daily] | Sim |
+| [!UICONTROL Primary Frequency Cap] | O limite de frequência primária para o posicionamento durante o período especificado [!UICONTROL Primary Frequency Cap Interval]. | Sim |
+| [!UICONTROL Primary Frequency Cap Interval] | O intervalo do limite de frequência primário: *[!UICONTROL Day]*, *[!UICONTROL Week]* ou *[!UICONTROL Month]*. | Sim |
+| [!UICONTROL Secondary Frequency Cap] | O limite de frequência secundário para o posicionamento durante o período especificado [!UICONTROL Secondary Frequency Cap Interval] | Sim |
+| [!UICONTROL Secondary Frequency Cap Interval] | O tipo de intervalo para o limite de frequência secundário: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* ou *[!UICONTROL Minute]*. O número aplicável de semanas, dias, horas ou minutos é indicado pela variável [!UICONTROL Secondary Frequency Cap Interval Value]. | Sim |
+| [!UICONTROL Secondary Frequency Cap Interval Value] | O número de semanas, dias, horas ou minutos para os quais o [!UICONTROL Secondary Frequency Cap] aplicável. Por exemplo, se o limite secundário for de três impressões a cada seis horas, o valor aqui será `6`. | Sim |
+| [!UICONTROL Attached Ad ID] | As IDs de anúncio exclusivas geradas pelo DSP de qualquer anúncio anexado ao posicionamento, separadas por ponto e vírgula. Para baixar uma lista de nomes de anúncios e IDs de anúncios associadas da [!UICONTROL Ads] crie uma exibição personalizada que inclua a variável [!UICONTROL Ad ID] e depois [exportar os dados](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sim |
 
 >[!MORELIKETHIS]
 >
->* [Sobre a Correção de Configurações de Posicionamento para uma Campanha Usando Planilhas](qa-about.md)
->* [Baixar configurações de posicionamento para uma campanha](qa-sheet-download.md)
->* [Fazer upload das configurações de posicionamento de uma campanha](qa-sheet-upload.md)
+>* [Sobre a Correção de Configurações de Posicionamento Usando Planilhas](qa-about.md)
+>* [Baixar configurações de posicionamento em uma planilha](qa-sheet-download.md)
+>* [Carregar Configurações de Posicionamento em uma Planilha](qa-sheet-upload.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

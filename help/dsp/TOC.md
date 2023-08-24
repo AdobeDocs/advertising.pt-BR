@@ -4,7 +4,7 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -107,8 +107,8 @@ ht-degree: 6%
       + [Gerenciar visualizações de dados](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + Corrigir Configurações De Posicionamento Usando Planilhas {#qa-spreadsheet}
       + [Sobre a Correção de Configurações de Posicionamento Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Baixar configurações de posicionamento para uma campanha](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Fazer upload das configurações de posicionamento de uma campanha](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Baixar configurações de posicionamento em uma planilha](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Carregar Configurações de Posicionamento em uma Planilha](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colunas em planilhas baixadas/carregadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros do DSP](/help/dsp/campaign-management/macros.md)
    + [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

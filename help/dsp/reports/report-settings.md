@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 * *[!UICONTROL sFTP]:* Para enviar o relatório concluído para um ou mais locais SFTP, que você especificará no **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído a um ou mais locais FTP, que você especificará no **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL FTP SSL](Atualmente em Beta):* Para enviar o relatório concluído a um ou mais locais SSL FTP, que você especificará no **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL Email]:* Para especificar endereços de e-mail para os quais enviar relatórios completos ou notificações se o relatório for cancelado devido a erros. Para especificar vários endereços, separe-os com vírgulas ou espaços.
+* *[!UICONTROL Email]:* Para especificar endereços de e-mail para os quais enviar relatórios completos ou notificações se o relatório for cancelado devido a erros.
 
 >[!NOTE]
 >
 > Não é possível alterar o tipo de destino depois de salvar o relatório.
+
+**[!UICONTROL Email]:** (Somente tipo de destino do email) Para cada endereço, digite o endereço e clique em **+**.
 
 **[!UICONTROL Destination Name]:** (Somente tipos de destino S3, FTP, sFTP e FTP SSL) Os nomes dos destinos de relatório para os quais o relatório personalizado será enviado.
 
@@ -148,9 +150,13 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Frequency]:** (Para cada [!UICONTROL Destination Name]) Com que frequência enviar o relatório para o destino: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (Para cada [!UICONTROL Destination Name] com um [!UICONTROL Frequency] de *[!UICONTROL Weekly]* ou *[!UICONTROL Monthly]*) Qual dia gerar o relatório. Para relatórios semanais, selecione o dia da semana. Para relatórios mensais, selecione o dia numérico do mês.
+
 ## [!UICONTROL Save Report] Seção
 
-**[!UICONTROL Send & Save]:** Quando enviar o relatório: *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Os relatórios agendados são entregues até às 9:00 no fuso horário da conta.
+**[!UICONTROL When to Generate]:** Quando gerar o relatório: *[!UICONTROL On Schedule]* ou *[!UICONTROL Run Now]*. Os relatórios agendados são entregues até às 9:00 no fuso horário da conta.
+
+**[!UICONTROL End Date]:** A data de expiração do relatório, que pode ser de até quatro meses. Antes de um relatório expirar, todos os recipients de email especificados recebem um alerta por email sete dias e um dia antes da data de expiração. Para manter o relatório por mais tempo, altere a data de expiração nas configurações do relatório.
 
 >[!NOTE]
 >

@@ -3,18 +3,16 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # Práticas recomendadas para configurar campanhas de desempenho
 
-O DSP pode otimizar suas campanhas focadas em desempenho para inserções com o menor custo por aquisição (CPA) ou o maior retorno sobre o investimento em anúncios (ROAS).
-
-Consulte as seguintes práticas recomendadas para campanhas de desempenho:
+O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as seguintes práticas recomendadas para campanhas de desempenho:
 
 * Etapa 1 - Definir a meta
 * Etapa 2 - Definir a estratégia
@@ -24,7 +22,7 @@ Consulte as seguintes práticas recomendadas para campanhas de desempenho:
 
 ## Etapa 1 - Definir A Meta
 
-É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho [metas de otimização](/help/dsp/optimization/optimization-goals.md) que terminam com &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada pacote na campanha, você especificará a meta do objetivo de acordo.
+É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho [metas de otimização](/help/dsp/optimization/optimization-goals.md) que terminam com &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada pacote na campanha, você especificará a meta de otimização de acordo.
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 

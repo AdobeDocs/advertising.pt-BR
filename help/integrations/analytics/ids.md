@@ -3,7 +3,7 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 0%
@@ -262,13 +262,13 @@ em que:
 
 ### DIMENSION de ID AMO em [!DNL Analytics]
 
-Nos relatórios do Analytics, você pode encontrar dados da ID do AMO procurando pela variável [!UICONTROL AMO ID] dimensão e usando o [!UICONTROL AMO ID Instance] métrica. A variável [!UICONTROL AMO ID] dimensão armazena todos os valores de ID do AMO capturados, enquanto a variável [!UICONTROL AMO ID Instance] indica a frequência com que um valor de ID do AMO foi capturado pelo site. Por exemplo, se o mesmo anúncio de pesquisa foi clicado quatro vezes, mas o Analytics rastreou sete entradas de site, então [!UICONTROL AMO ID Instance] seria sete (7) e [!UICONTROL Clicks] seria quatro (4).
+Nos relatórios do Analytics, você pode encontrar dados da ID do AMO procurando pela variável [!UICONTROL AMO ID] dimensão e usando o [!UICONTROL AMO ID Instances] métrica. A variável [!UICONTROL AMO ID] dimensão armazena todos os valores de ID do AMO capturados, enquanto a variável [!UICONTROL AMO ID Instances] indica a frequência com que um valor de ID do AMO foi capturado pelo site. Por exemplo, se o mesmo anúncio de pesquisa foi clicado quatro vezes, mas o Analytics rastreou sete entradas de site, então [!UICONTROL AMO ID Instances] seria sete (7) e [!UICONTROL Clicks] seria quatro (4).
 
 Para qualquer relatório ou auditoria [!DNL Analytics], a prática recomendada é usar a ID do AMO junto com a instância correspondente. Para obter mais informações, consulte &quot;[Validação de dados para [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; em &quot;Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising.&quot;
 
 ## Sobre as classificações do Analytics
 
-Entrada [!DNL Analytics], um [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) é uma parte dos metadados para um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos de Adobe Advertising usando classificações para que você possa exibir os dados de diferentes maneiras (por exemplo, por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios de Adobe Advertising no [!DNL Analytics] e podem ser usadas com as métricas do AMO, como [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], e [!UICONTROL AMO Clicks]e com eventos personalizados e padrão no local, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
+Entrada [!DNL Analytics], um [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) é uma parte dos metadados para um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos de Adobe Advertising usando classificações para que você possa exibir os dados de diferentes maneiras (por exemplo, por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios de Adobe Advertising no [!DNL Analytics] e podem ser usadas com as métricas do AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions], e [!UICONTROL AMO Clicks]e com eventos personalizados e padrão no local, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

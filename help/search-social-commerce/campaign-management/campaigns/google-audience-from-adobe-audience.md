@@ -3,9 +3,9 @@ title: Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de 
 description: Saiba como criar [!DNL Google Ads] públicos-alvo de correspondência do cliente dos públicos-alvo Adobe Analytics e Audience Manager existentes.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Cada novo [!DNL Google] o público-alvo tem o mesmo nome que o original [!DNL Ad
 
 1. Conclua os pré-requisitos conforme necessário:
 
-   1. (Para criar públicos-alvo da lista de remarketing de ID de usuário) Uma [!DNL Adobe] o usuário administrador ou o gerente de conta deve selecionar a configuração no nível do anunciante para habilitar os públicos-alvo de correspondência do cliente. As configurações diferem entre anunciantes com Audience Manager e anunciantes com [!DNL Analytics] somente.
+   1. (Para criar públicos-alvo da lista de remarketing de ID de usuário) Uma [!DNL Adobe] o usuário administrador ou o gerente de conta deve selecionar a configuração no nível do anunciante para habilitar os públicos-alvo de correspondência do cliente.
 
    1. Implementar o [Serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versão 2.0 ou superior.
 
@@ -40,7 +40,9 @@ Cada novo [!DNL Google] o público-alvo tem o mesmo nome que o original [!DNL Ad
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      onde `Advertising_Cloud_UserID` é a ID de usuário exclusiva atribuída ao anunciante. Exemplo:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      onde `Advertising_Cloud_UserID` é a ID de usuário numérica exclusiva atribuída ao anunciante.
+
+      Exemplo: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Se ainda não tiver sido concluído) Um usuário autorizado deve configurar a conta do anunciante para [sincronizar com a conta da organização do anunciante no Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 

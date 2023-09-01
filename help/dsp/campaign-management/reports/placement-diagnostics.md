@@ -3,9 +3,9 @@ title: Exibir os Relatórios de Diagnóstico de Posicionamento
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ As ferramentas a seguir podem ajudar você a diagnosticar problemas com a config
       1. No menu principal, clique em **[!UICONTROL Campaigns]**.
       1. Clique no nome da campanha e em **[!UICONTROL Placements]**.
       1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. No canto superior direito, clique em ![Diagnóstico de posicionamento](/help/dsp/assets/placement-diagnostics.png) ou **[!UICONTROL Diagnostic]**.
+   1. No canto superior direito, clique em ![Diagnóstico de posicionamento](/help/dsp/assets/placement-diagnostics.png).
 1. Siga um destes procedimentos:
    * Para exibir o log de alterações:
       1. Clique em **[!UICONTROL Change Log]**.
@@ -46,5 +46,5 @@ As ferramentas a seguir podem ajudar você a diagnosticar problemas com a config
 >[!MORELIKETHIS]
 >
 >* [Sobre Relatórios Na Plataforma](campaign-reports-about.md)
+>* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

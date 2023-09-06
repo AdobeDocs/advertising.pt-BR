@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
 **[!UICONTROL Final URL]:** O URL final de todos os anúncios criados a partir do grupo de ativos. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Até quinze imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem retrato. Consulte a [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Para carregar imagens:
+**[!UICONTROL Images]:** Até quinze imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem retrato. Consulte a [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
 
-1. Clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+* Para carregar imagens:
 
-1. Para cada imagem:
+   1. No [!UICONTROL Upload from computer] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. Selecione a taxa de proporção.
+   1. Para cada imagem:
 
-   1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+      1. Selecione a taxa de proporção.
 
-   1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-      Um ativo é criado para cada taxa de proporção selecionada.
+      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-   1. Clique em **[!UICONTROL Proceed]**.
+         Um ativo é criado para cada taxa de proporção selecionada.
 
-1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+      1. Clique em **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** Pelo menos um logotipo quadrado (1:1) e um logotipo paisagem (4:1). É possível incluir até cinco de cada tamanho. Consulte a [[!DNL Google Ads] especificações do logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Para carregar imagens:
+   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
 
-1. Clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+* Para selecionar imagens de seu [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
-1. Para cada imagem:
+**[!UICONTROL Logos]:** Pelo menos um logotipo quadrado (1:1) e um logotipo paisagem (4:1). É possível incluir até cinco de cada tamanho. Consulte a [[!DNL Google Ads] especificações do logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
 
-   1. Selecione a taxa de proporção.
+* Para carregar imagens:
 
-   1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+   1. No [!UICONTROL Upload from computer] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+   1. Para cada imagem:
 
-      Um ativo é criado para cada taxa de proporção selecionada.
+      1. Selecione a taxa de proporção.
 
-   1. Clique em **[!UICONTROL Proceed]**.
+      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-**[!UICONTROL Videos]:** (Opcional) O URL para pelo menos um e até cinco, [!DNL YouTube] vídeos com duração mínima de 10 segundos.
+         Um ativo é criado para cada taxa de proporção selecionada.
+
+      1. Clique em **[!UICONTROL Proceed]**.
+
+   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+
+* Para selecionar imagens de seu [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
+
+**[!UICONTROL Videos]:** (Opcional) Pelo menos um e até cinco, [!DNL YouTube] vídeos com pelo menos 10 segundos de duração.  Você pode inserir URLs ou selecioná-los nos seus [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir URLs:
+
+   1. No [!UICONTROL Upload from computer] insira um URL.
+
+   1. (Opcional) Para adicionar outro URL, clique em [!UICONTROL + Add]** e insira o URL.
+
+* Para selecionar vídeos de sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os vídeos.
 
 **[!UICONTROL Headlines]:** Pelo menos três e até cinco manchetes curtas com no máximo 30 caracteres cada. Pelo menos um título deve ter no mínimo 15 caracteres. Se a opção no nível da campanha para habilitar a expansão final do URL estiver definida em [!DNL Google Ads], depois [!DNL Google Ads] O substitui esse valor por um título personalizado com base no conteúdo da página de aterrissagem.
 
@@ -302,7 +318,24 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
 **[!UICONTROL Business Name]:** O nome da empresa, com no máximo 25 caracteres.
 
+**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Google Ads] públicos-alvo a serem usados como sinais de público-alvo para a campanha. [!DNL Google Ads] os modelos de aprendizado de máquina usam os públicos-alvo para encontrar navegadores da web semelhantes ao público-alvo e também podem mostrar anúncios para públicos-alvo que não são especificados como sinais para ajudar você a atingir suas metas de desempenho. Escolha os públicos-alvo com maior probabilidade de conversão.
+
+>[!NOTE]
+>Os sinais de público são diferentes dos [metas de público-alvo no nível da campanha e do grupo de anúncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** Permite especificar outro grupo de ativos.
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Se deseja *[!UICONTROL Use account conversion goals for this campaign]* (o padrão) ou *[!UICONTROL Use campaign specific conversion goals]*. Se você optar por especificar metas de conversão para a campanha, selecione metas padrão e/ou crie uma meta personalizada para a campanha.
+
+As metas são sincronizadas diariamente, portanto, as metas existentes criadas nas 24 horas anteriores podem não ser listadas. Para atualizar a lista, [sincronizar manualmente os dados da rede de publicidade](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Para criar uma meta de conversão personalizada, clique em **[!UICONTROL + Add custom goal]**, insira o nome da meta personalizada, selecione o [ações de conversão](https://support.google.com/google-ads/answer/6032150) para incluir na meta personalizada e clique em **[!UICONTROL Save]**. **Nota:** Cada campanha pode ter apenas uma meta personalizada.
+
+>[!TIP]
+>
+>Se a campanha fizer parte de um portfólio, use as mesmas metas de conversão que o objetivo do portfólio. Usar diferentes metas de conversão pode afetar o desempenho do portfólio.
 
 >[!MORELIKETHIS]
 >

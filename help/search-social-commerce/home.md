@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 4c851ce01c69460b3d1f1c7357af377718eb8488
+source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
 | 7 de outubro de 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Dois novos relatórios de especialidade para [!DNL Microsoft Advertising] as contas do mostram o desempenho no nível da campanha por distribuição de anúncios (pesquisa ou público-alvo) e/ou rede (como [!DNL Microsoft] sites e selecione o tráfego ou o público-alvo):<ul><li>[!UICONTROL MSA Network Performance Report]: inclui métricas básicas de tráfego (custo, cliques, impressões), conversões e receita.</li><li>[!UICONTROL MSA Network Impression Share Report]: inclui métricas de compartilhamento de impressão e métricas básicas de tráfego (custo, cliques, impressões).</li></ul> | — |
-| 14 de setembro de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campanhas de desempenho máximo) Nos grupos de ativos de uma campanha, agora é possível selecionar entre os ativos de texto existentes no [!UICONTROL Asset Library]. Você também pode carregar novos ativos de texto. | — |
+| 14 de setembro de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campanhas de desempenho máximo) Nos grupos de ativos de uma campanha, agora é possível selecionar entre os ativos de texto existentes no [!UICONTROL Asset Library]. Você também pode carregar novos ativos de texto. | Consulte &quot;[[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5 de setembro de 2023 | Campanhas | ([!DNL Google Ads] campanhas) Para todos os tipos de campanha disponíveis, agora é possível escolher metas de conversão existentes ou criar novas nas configurações da campanha.</li> | Consulte &quot;[[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Campanhas | ([!DNL Google Ads] desempenho (máximo de campanhas) Novos recursos permitem:<ul><li>Escolha metas de conversão existentes ou crie novas para uma campanha, conforme mencionado acima.</li><li>Selecione entre os ativos existentes na [!UICONTROL Asset Library] para imagens, logotipos e vídeos dentro das configurações de desempenho máximo do campaign. Você também pode fazer upload de novos ativos.</li><li>(Opcional) Forneça sinais de público-alvo para seus grupos de ativos de desempenho máximo ao selecionar [!DNL Google Ads] públicos-alvo. [!DNL Google Ads] os modelos de aprendizado de máquina usam os públicos-alvo para encontrar navegadores da web semelhantes ao público-alvo e também podem mostrar anúncios para públicos-alvo que não são especificados como sinais para ajudar você a atingir suas metas de desempenho. **Nota:** Os sinais de público são diferentes dos [metas de público-alvo no nível da campanha e do grupo de anúncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Consulte &quot;[[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 15 de agosto de 2023 | Métricas de conversão | [!UICONTROL Admin] > [!DNL Transaction Properties] agora inclui um &quot;[!UICONTROL Source]&quot;, que indica a origem de cada métrica, como [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads]ou [!UICONTROL Custom Feed]. | Consulte &quot;[Exibir as métricas de conversão rastreadas para um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |

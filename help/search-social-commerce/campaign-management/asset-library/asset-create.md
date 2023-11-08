@@ -1,17 +1,18 @@
 ---
 title: Criar e carregar ativos
-description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] biblioteca de ativos no nível da conta.
+description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] bibliotecas de ativos no nível da conta.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Criar e carregar ativos
 
-*Para [!DNL Google Ads] somente contas*
+*Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] somente contas*
 
 *Abrir recurso beta*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         Você pode publicar até 10 URLs de vídeo por vez.
 
-      * Para ativos de texto, insira a sequência de caracteres de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.
+      * ([!DNL Google Ads] contas somente) Para ativos de texto, insira a sequência de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.
 
         Cada ativo de texto pode ter no máximo 1000 caracteres. É possível carregar no máximo 10 ativos de texto por vez.
 

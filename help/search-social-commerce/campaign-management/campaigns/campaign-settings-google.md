@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]:* Mostra anúncios de produtos, que [!DNL Google] O é gerado automaticamente com base nos produtos na [!DNL Google Merchant Center] em [!DNL Google Shopping], a área ao lado de [!DNL Google] resultados de pesquisa (separados de anúncios de texto) e (opcionalmente) sites de parceiros de pesquisa. Para cada grupo de publicidade na campanha, você pode especificar grupos de produtos para anunciar.
 
-* *[!UICONTROL Display Network Only]:* Mostra anúncios na rede de exibição. Para cada grupo de publicidade, você deve especificar disposições e, opcionalmente, pode especificar palavras-chave.
+* *[!UICONTROL Display Network Only]:* Mostra anúncios na rede de exibição. Para cada grupo de publicidade, você deve especificar disposições e pode, opcionalmente, especificar palavras-chave.
 
 * *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra e otimiza conversões para seus anúncios em canais usando [!DNL Google Ads] oferta inteligente. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, vídeos opcionais e sinais de público-alvo. [!DNL Google Ads] combina automaticamente os ativos para veicular anúncios com base no canal (como [!DNL YouTube], [!DNL Gmail]ou [!DNL Search]).
 
@@ -88,7 +88,7 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
-  Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversions] estratégia usando um [!UICONTROL Target CPA] valor. Para campanhas de pesquisa existentes com essa estratégia, você só pode editar o valor do target e, assim, altera a estratégia para o [!UICONTROL Maximize Conversions] usando a estratégia especificada [!UICONTROL Target CPA] valor.
+  Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversions] estratégia usando um [!UICONTROL Target CPA] valor. Para campanhas de pesquisa existentes com essa estratégia, é possível editar somente o valor do target, e isso altera a estratégia para o [!UICONTROL Maximize Conversions] usando a estratégia especificada [!UICONTROL Target CPA] valor.
 
 * *[!UICONTROL Target Impression Share]:* (Campanhas de pesquisa) A rede de publicidade, não a Search, Social e &amp; Commerce, otimiza ofertas para atingir uma impressão de público-alvo e uma posição de anúncio. Opcionalmente, informe um **[!UICONTROL Target Impression Share]** em porcentagem, a variável **[!UICONTROL Target Ad Position]**, e uma **[!UICONTROL Max CPC]** (custo por clique). **Nota:** Esta opção não é permitida em portfólios.
 
@@ -96,7 +96,7 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
-  Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversion Value] estratégia usando um [!UICONTROL Target Return on Ad Spend value]. Para campanhas de pesquisa existentes com essa estratégia, você só pode editar o valor do target e, assim, altera a estratégia para o [!UICONTROL Maximize Conversion Value] usando a estratégia especificada [!UICONTROL Target Return on Ad Spend] valor.
+  Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversion Value] estratégia usando um [!UICONTROL Target Return on Ad Spend value]. Para campanhas de pesquisa existentes com essa estratégia, é possível editar somente o valor do target, e isso altera a estratégia para o [!UICONTROL Maximize Conversion Value] usando a estratégia especificada [!UICONTROL Target Return on Ad Spend] valor.
 
 * *[!UICONTROL Viewable CPM]:* (Existente, somente leitura) [!DNL Gmail] somente campanhas) A rede de publicidade — não Pesquisa, Social e Comércio — oferece somente anúncios que são medidos como visualizáveis. **Nota:** A otimização para essa estratégia não é compatível com nenhum tipo de portfólio.
 
@@ -254,11 +254,11 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
 **[!UICONTROL Final URL]:** O URL final de todos os anúncios criados a partir do grupo de ativos. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Até quinze imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem retrato. Consulte a [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+**[!UICONTROL Images]:** Até 15 imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem retrato. Consulte a [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
 
 * Para carregar imagens:
 
-   1. No [!UICONTROL Upload from computer] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+   1. No [!UICONTROL Upload from Device] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
    1. Para cada imagem:
 
@@ -280,7 +280,7 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
 * Para carregar imagens:
 
-   1. No [!UICONTROL Upload from computer] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+   1. No [!UICONTROL Upload from Device] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
    1. Para cada imagem:
 
@@ -298,21 +298,47 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
 
 * Para selecionar imagens de seu [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
-**[!UICONTROL Videos]:** (Opcional) Pelo menos um e até cinco, [!DNL YouTube] vídeos com pelo menos 10 segundos de duração.  Você pode inserir URLs ou selecioná-los nos seus [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+**[!UICONTROL Videos]:** (Opcional) Pelo menos um e até cinco, [!DNL YouTube] vídeos com pelo menos 10 segundos de duração. Você pode inserir URLs ou selecioná-los nos seus [!UICONTROL Asset Library] — mas não ambas na mesma operação.
 
 * Para inserir URLs:
 
-   1. No [!UICONTROL Upload from computer] insira um URL.
+   1. No [!UICONTROL Enter Video Url] insira um URL.
 
-   1. (Opcional) Para adicionar outro URL, clique em [!UICONTROL + Add]** e insira o URL.
+   1. (Opcional) Para adicionar outro URL, clique em **[!UICONTROL + Add]** e insira o URL.
 
 * Para selecionar vídeos de sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os vídeos.
 
 **[!UICONTROL Headlines]:** Pelo menos três e até cinco manchetes curtas com no máximo 30 caracteres cada. Pelo menos um título deve ter no mínimo 15 caracteres. Se a opção no nível da campanha para habilitar a expansão final do URL estiver definida em [!DNL Google Ads], depois [!DNL Google Ads] O substitui esse valor por um título personalizado com base no conteúdo da página de aterrissagem.
 
-**[!UICONTROL Long Headlines]:** Pelo menos uma e até cinco manchetes longas com no máximo 90 caracteres cada.
+É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
 
-**[!UICONTROL Descriptions]:** Pelo menos duas e até quatro descrições com no máximo 90 caracteres cada. Pelo menos uma descrição deve ter no mínimo 30 caracteres.
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
+
+**[!UICONTROL Long Headlines]:** Pelo menos uma e até cinco manchetes longas com no máximo 90 caracteres cada. É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
+
+**[!UICONTROL Descriptions]:** Pelo menos duas e até quatro descrições com no máximo 90 caracteres cada. Pelo menos uma descrição deve ter no mínimo 30 caracteres. É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
 **[!UICONTROL Call to Action]:** O plano de ação a ser incluído no anúncio. Por padrão, *[!UICONTROL Automated]* estiver selecionado e [!DNL Google Ads] seleciona o plano de ação. Como opção, você pode escolher uma ação diferente.
 

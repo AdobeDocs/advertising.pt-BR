@@ -1,9 +1,9 @@
 ---
 title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] campanhas) O ajuste de oferta móvel no nível da campanha atual, que determina como as ofertas são ajustadas quando o anúncio é exibido em um dispositivo móvel. |
 | [!UICONTROL Campaign Start Date] | O primeiro dia em que foram/são feitas ofertas para a campanha. |
 | [!UICONTROL Campaign Status] | O status da campanha: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>ou <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | O tipo de campanha, como <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Video]</i>ou <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | O tipo de campanha, como <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>ou <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | O tipo de canal de marketing: <i>[!UICONTROL Search]</i> ou <i>[!UICONTROL Content]</i>. Essa coluna não é incluída quando o [!UICONTROL Search/Content] nas configurações do relatório é &quot;[!UICONTROL Combined].&quot; |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) Uma cidade da qual os cliques se originaram. É determinado pelo endereço IP do usuário. |
 | [!UICONTROL Click Match Type] | O tipo de correspondência de palavra-chave para o anúncio que foi clicado. Isso é o mesmo que o [!UICONTROL Listing Match Type] exceto para [!DNL Microsoft Advertising] com vários tipos de correspondência. Para [!DNL Microsoft Advertising] palavras-chave, esse é o tipo de correspondência que foi realmente clicado. |

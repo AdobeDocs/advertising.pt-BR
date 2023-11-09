@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
+source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 8 de novembro de 2023 | [!UICONTROL Asset Library] | (Abrir recurso beta; [!DNL Microsoft® Advertising] contas) Em [!UICONTROL Campaigns] > [!UICONTROL Asset Library], você pode criar ativos de imagem e vídeo reutilizáveis e carregá-los na sua [!DNL Microsoft® Advertising] biblioteca de ativos no nível da conta. Você pode adicionar os ativos carregados aos tipos de campanha aplicáveis na [!DNL Microsoft® Advertising] editor. | Consulte &quot;[Sobre o [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot; e &quot;[Criar e carregar ativos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | 7 de outubro de 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Dois novos relatórios de especialidade para [!DNL Microsoft Advertising] as contas do mostram o desempenho no nível da campanha por distribuição de anúncios (pesquisa ou público-alvo) e/ou rede (como [!DNL Microsoft] sites e selecione o tráfego ou o público-alvo):<ul><li>[!UICONTROL MSA Network Performance Report]: inclui métricas básicas de tráfego (custo, cliques, impressões), conversões e receita.</li><li>[!UICONTROL MSA Network Impression Share Report]: inclui métricas de compartilhamento de impressão e métricas básicas de tráfego (custo, cliques, impressões).</li></ul> | — |
 | 14 de setembro de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campanhas de desempenho máximo) Nos grupos de ativos de uma campanha, agora é possível selecionar entre os ativos de texto existentes no [!UICONTROL Asset Library]. Você também pode carregar novos ativos de texto. | Consulte &quot;[[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5 de setembro de 2023 | Campanhas | ([!DNL Google Ads] campanhas) Para todos os tipos de campanha disponíveis, agora é possível escolher metas de conversão existentes ou criar novas nas configurações da campanha.</li> | Consulte &quot;[[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |

@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 2%
             + [Sobre [!DNL Google Ads] destinos de pesquisa dinâmica](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
             + [Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
          + Públicos-alvo e metas de público-alvo {#audiences-and-targets}
-            + Públicos {#audiences}
+            + Públicos-alvo {#audiences}
                + [Sobre públicos](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
                + [Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Criar um [!DNL Google Ads] público-alvo de correspondência do cliente de uma lista de email da Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
@@ -317,6 +317,8 @@ ht-degree: 2%
                + [A variável [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [A variável [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [A variável [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [A variável [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [A variável [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [Gerar um relatório de especialidade](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Configurações do relatório de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Colunas de relatório para relatórios especiais](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
@@ -339,7 +341,7 @@ ht-degree: 2%
             + [Editar um modelo de relatório](/help/search-social-commerce/reports/automation/templates/template-edit.md)
             + [Excluir um modelo de relatório](/help/search-social-commerce/reports/automation/templates/template-delete.md)
          + Feeds de planilhas {#spreadsheet-feeds}
-            + [Sobre feeds de relatório de planilhas](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
+            + [Sobre feeds de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
             + [Criar um [!DNL Excel] modelo para um feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
             + [Criar um feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
             + [Editar configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)

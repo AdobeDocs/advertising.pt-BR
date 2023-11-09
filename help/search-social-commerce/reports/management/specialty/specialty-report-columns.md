@@ -1,11 +1,11 @@
 ---
 title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
 | \[Métricas de conversão específicas do anunciante\] | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
+| [!UICONTROL Absolute Top Impression Rate Percent] | A porcentagem de suas impressões de anúncio mostradas na primeira posição na parte superior dos resultados da pesquisa. |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | A porcentagem de tempo estimada em que seus anúncios não foram mostrados na primeira posição no topo dos resultados da pesquisa porque seu orçamento diário ou mensal era muito baixo. |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | A porcentagem de tempo em que seus anúncios não foram mostrados na primeira posição no topo dos resultados da pesquisa devido a uma classificação de anúncio ruim. |
+| [!UICONTROL Absolute Top Impression Share Percent] | As impressões que você recebeu no local superior absoluto (o primeiro anúncio acima dos resultados da pesquisa orgânica) divididas pelo número estimado de impressões que você estava qualificado a receber no local superior. |
 | [!UICONTROL Account Name] | O nome da conta. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] relatórios) O identificador de conta atribuído pela rede de publicidade. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] relatórios) O status da conta: *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]) Onde o anúncio foi distribuído: *[!UICONTROL Search]* (nas páginas de resultados da pesquisa) ou *[!UICONTROL Content]* (em [!DNL Microsoft®]sites próprios ou sites de parceiros participantes). |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report], [!UICONTROL MSA Network Impression Share Report], e [!UICONTROL MSA Network Performance Report]) Onde o anúncio foi distribuído: *[!UICONTROL Audience]* (na rede audience)*,[!UICONTROL Search]* (nas páginas de resultados da pesquisa) ou *[!UICONTROL Content]* (em [!DNL Microsoft®]sites próprios ou sites de parceiros participantes). |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] relatórios) A ID da extensão de anúncio. |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] relatórios) O atributo de versão da extensão de anúncio. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de extensão de anúncio. |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] reports) O número de vezes que uma entidade contribuiu para uma conversão associada a uma entidade diferente. |
 | [!UICONTROL Audience ID] | A ID numérica do público-alvo. |
 | [!UICONTROL Audience Name] | A audiência. Os públicos disponíveis incluem [!DNL Google Ads] públicos-alvo semelhantes, no mercado e com base em dados do cliente e seu [!DNL [!DNL Microsoft® Advertising]] personalizado, correspondência de cliente, remarketing dinâmico, no mercado, remarketing e públicos semelhantes. |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | A porcentagem de compartilhamento de impressão que você perdeu na Rede de público-alvo da Microsoft porque seu orçamento diário ou mensal era muito baixo. |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | A porcentagem de compartilhamento de impressões que você perdeu na Rede de público-alvo da Microsoft devido a uma classificação de anúncios ruim. |
+| [!UICONTROL Audience Impression Share Percent] | A porcentagem estimada de impressões no [!DNL Microsoft Audience Network] dividido pelo total de impressões disponíveis que você poderia ter recebido. |
 | [!UICONTROL Audience Status] | O status do público. |
 | [!UICONTROL Average CPC] | O custo médio por clique. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para [!DNL Google Ads] e [!DNL Yahoo! Japan Ads] esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft® Advertising], esses dados só estarão disponíveis até 22 de janeiro de 2021. |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | O último dia reportado. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] relatórios) A [nome de exibição da extensão](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] relatórios) A ID do tipo de extensão de anúncio. |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] relatórios) O nome da meta de conversão. |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de meta de conversão. |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] relatórios, [!UICONTROL MSA Network Performance Report]) O nome da meta de conversão. |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] relatórios, [!UICONTROL MSA Network Performance Report]) O tipo de meta de conversão. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) O número de conversões online rastreadas pelo [o [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; descontinuado em 2016) O número de cliques que resultaram em uma ou mais conversões. |
-| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] apenas; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de suas impressões de anúncio mostradas como o primeiro anúncio acima dos resultados da pesquisa orgânica. |
+| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] apenas; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de suas impressões de anúncio que foram mostradas como o primeiro anúncio acima dos resultados da pesquisa orgânica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] apenas; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de suas impressões de anúncios mostradas acima dos resultados da pesquisa orgânica. |
+| [!UICONTROL Impression Lost To Budget Percent] | A porcentagem de tempo estimada em que seus anúncios não foram exibidos porque o orçamento diário ou mensal era muito baixo. |
+| [!UICONTROL Impression Lost To Rank Percent] | A porcentagem de tempo em que seus anúncios não foram exibidos devido a uma classificação de anúncio ruim. |
+| [!UICONTROL Impression Share Percent] | As impressões recebidas divididas pelo número estimado de impressões que você estava qualificado a receber. |
 | [!UICONTROL Impressions] | O número de impressões de anúncios durante o intervalo de datas especificado. |
 | [!UICONTROL Keyword] | A palavra-chave.<br><br><b>Nota:</b> Se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa ativadas por conteúdo, essa coluna incluirá os nomes de grupos de anúncios aplicáveis, como &quot;Nome do grupo de anúncios&quot;. Para uma inserção direcionada ao site em uma campanha de pesquisa, essa coluna não tem um valor. |
 | [!UICONTROL Keyword ID] | A ID numérica que o Search, Social e Commerce atribui à palavra-chave. |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | (Relatório de consulta de pesquisa do AdWords) O tipo de correspondência de palavra-chave para a consulta de pesquisa. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] e [!UICONTROL Bing Ads Geo Report]) Uma região ou estado dos EUA/Canadá para o qual as impressões ou os cliques se originaram. É determinado pelo endereço IP do usuário. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total dividida por gasto, expressa como uma porcentagem. |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total. |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] relatórios, [!UICONTROL MSA Network Performance Report]) A receita total. |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total por assistência. |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total por conversão. |
 | [!UICONTROL SE Account Name] | O nome da conta na rede de publicidade. |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) A primeira linha do anúncio que vincula ao seu site. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) A segunda linha do anúncio que vincula ao seu site. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) A terceira linha do anúncio que vincula ao seu site. |
+| [!UICONTROL Top Impression Rate Percent] | A porcentagem de suas impressões de anúncio mostradas na linha principal (os principais posicionamentos de anúncios acima dos resultados da pesquisa). |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | A porcentagem de tempo estimada em que seus anúncios não foram mostrados na linha principal (os principais posicionamentos de anúncios acima dos resultados da pesquisa) porque o orçamento diário ou mensal era muito baixo. |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | A porcentagem de tempo em que seus anúncios não foram mostrados na linha principal (os principais posicionamentos de anúncios acima dos resultados da pesquisa) devido a uma classificação de anúncio ruim. |
+| [!UICONTROL Top Impression Share Percent] | As impressões que você recebeu na linha principal (os principais posicionamentos de anúncios acima dos resultados da pesquisa) divididas pelo número estimado de impressões que você estava qualificado a receber na localização superior. |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] relatórios) A posição de seu anúncio na página de resultados da pesquisa. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] relatórios) O número de cliques quando o elemento de anúncio estava presente na cópia de anúncio, quer tenha ou não sido clicado. |
 | [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de anúncios. |

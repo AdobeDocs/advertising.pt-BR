@@ -1,12 +1,12 @@
 ---
-title: Suporte de publicidade Adobe para o Regulamento Geral sobre a Proteção de Dados
+title: Suporte de Adobe Advertising para o Regulamento Geral sobre a Proteção de Dados
 description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a configuração necessária e os valores de campo, além de exemplos de solicitações de acesso à API usando IDs de produto herdadas e campos de dados retornados
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Este documento descreve como [!DNL Advertising Search, Social, & Commerce]; Adve
 
 Para obter mais informações sobre o que o GDPR significa para sua empresa, consulte [GDPR e sua empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Tipos de solicitação de dados suportados para publicidade de Adobe
+## Tipos de solicitação de dados suportados para o Adobe Advertising
 
 O Adobe Experience Platform permite que as empresas concluam as seguintes tarefas:
 
@@ -35,7 +35,7 @@ O Adobe Experience Platform permite que as empresas concluam as seguintes tarefa
 * Excluir dados em nível de cookie armazenados no [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]ou [!DNL DCO] para titulares de dados usando um navegador ou excluir dados de nível de ID armazenados no [!DNL DSP] para titulares de dados que usam aplicativos em dispositivos móveis.
 * Verifique o status de uma ou de todas as solicitações existentes.
 
-## Configuração necessária para enviar solicitações de publicidade de Adobe
+## Configuração necessária para enviar solicitações para o Adobe Advertising
 
 Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertising, é necessário:
 
@@ -43,7 +43,7 @@ Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertisin
 
    >[!IMPORTANT]
    >
-   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript, mas as solicitações para a Adobe Advertising exigem.
+   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca JavaScript do, mas as solicitações para o Adobe Advertising exigem.
 
    Você deve implantar a biblioteca na página da Web a partir da qual os titulares de dados podem enviar solicitações de acesso e exclusão, como o portal de privacidade da sua empresa. A biblioteca ajuda a recuperar cookies de Adobe (ID do namespace: `gsurferID`) para poder enviar essas identidades como parte das solicitações de acesso e exclusão por meio da API do Adobe Experience Platform Privacy Service.
 
@@ -59,7 +59,7 @@ Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertisin
 
    >[!IMPORTANT]
    >
-   >Entre em contato com o representante da Adobe Advertising da sua empresa para confirmar se todas as contas da Adobe Advertising da sua organização, incluindo [!DNL DSP] contas ou anunciantes, [!DNL Search, Social, & Commerce] contas e [!DNL Creative] ou [!DNL DCO] contas do — são vinculadas à sua ID da organização Experience Cloud.
+   >Entre em contato com o representante da Adobe Advertising da empresa para confirmar se todas as contas Adobe Advertising da organização, incluindo [!DNL DSP] contas ou anunciantes, [!DNL Search, Social, & Commerce] contas e [!DNL Creative] ou [!DNL DCO] contas do — são vinculadas à sua ID da organização Experience Cloud.
 
 1. Use o [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou o [IU DO PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) enviar solicitações de acesso e exclusão ao Adobe Advertising em nome dos titulares de dados e verificar o status das solicitações existentes.
 
@@ -71,9 +71,9 @@ Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertisin
 
    >[!NOTE]
    >
-   Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias sub-soluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
+   Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para o Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [Privacidade e o RGPD](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
+Todas essas etapas são necessárias para o Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte &quot;[visão geral do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot; e &quot;[Guia da API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).&quot;
 
 ## Valores de campo obrigatórios em solicitações JSON do Adobe Advertising
 

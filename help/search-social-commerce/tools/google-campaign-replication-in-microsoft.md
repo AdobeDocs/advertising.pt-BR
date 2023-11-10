@@ -1,9 +1,9 @@
 ---
 title: Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]
 description: Saiba como exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft® Advertising] conta.
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Você pode replicar os seguintes tipos de campanhas e sua estrutura de campanha:
 
   Se quiser replicar campanhas de exibição baseadas em feed de compras, primeiro replique suas [!DNL Google Merchant Center] ofertas de produtos para [!DNL Microsoft® Merchant Center]. Ao replicar as campanhas, selecione a variável [!DNL Microsoft® Merchant Center] armazene nas Opções de importação para vincular a loja às suas campanhas de público-alvo com base em feed.
 
-* [!DNL Google Ads] desempenho máximo de campanhas, incluindo anúncios de inventário locais, em [!DNL Microsoft® Advertising] campanhas de compras inteligentes.
+* [!DNL Google Ads] desempenho máximo de campanhas, incluindo anúncios de inventário locais, em [!DNL Microsoft® Advertising] desempenho máximo de campanhas.
 
 Você pode optar por atualizar as campanhas uma vez; diariamente, semanalmente ou mensalmente; ou de acordo com [!DNL Microsoft® Advertising]do calendário recomendado. Opcionalmente, é possível configurar notificações sempre que um trabalho de importação for executado ou quando ocorrerem erros ou alterações. Depois de importar suas campanhas para o [!DNL Microsoft® Advertising], você pode verificar o status do seu trabalho de importação, revisar logs de erro, executar um trabalho de importação manualmente e editar, pausar, habilitar ou excluir o cronograma de importação.
 

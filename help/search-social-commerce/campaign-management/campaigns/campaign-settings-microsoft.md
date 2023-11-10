@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] campanhas.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Mostra anúncios nativos/de exibição na [!DNL Microsoft® Audience Network]. Você pode a) gerar automaticamente anúncios baseados em feed, vinculando a campanha a uma loja de centro de comércio na [!UICONTROL Shopping Settings] ou b) crie anúncios responsivos com ativos de texto e imagens carregadas. Ambas as opções exigem que você crie grupos de anúncios com direcionamento de usuário.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Recurso Beta) Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Crie grupos de anúncios secundários e grupos de produtos (aplicativos a serem promovidos) para a campanha e [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Recurso Beta) Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Você pode criar grupos de anúncios secundários e grupos de produtos (aplicativos para promover), além de anúncios de produtos opcionais para a campanha; [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Recurso Beta) Promove seus aplicativos e jogos que estão disponíveis na [!DNL Microsoft® Store]. Você pode criar grupos de anúncios secundários e grupos de produtos para a campanha e [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Recurso Beta) Promove seus aplicativos e jogos que estão disponíveis na [!DNL Microsoft® Store]. Você pode criar grupos de anúncios secundários, grupos de produtos e anúncios de produtos opcionais para a campanha; [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
 
 * *[!UICONTROL Audience Video]:* (Recurso Beta) Mostra anúncios de vídeo na rede de público-alvo.
 
 * *[!UICONTROL Audience Video]:* (Recurso Beta) Mostra anúncios de vídeo de TV conectada (CTV) na rede de público-alvo.
 
-* *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra vários tipos de anúncios em todas as redes.
+* *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra vários tipos de anúncios em todas as redes. Atribuir grupos de ativos separadamente dentro do [!DNL Microsoft® Advertising] editor de anúncios.
 
 ## [!UICONTROL Campaign Details]
 

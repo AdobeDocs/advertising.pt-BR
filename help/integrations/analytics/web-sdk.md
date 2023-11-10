@@ -3,7 +3,7 @@ title: Usar o [!DNL Last Event Service] Biblioteca JavaScript com [!DNL Web SDK]
 description: Saiba mais sobre as etapas para alternar usando o [!DNL Analytics] [!DNL visitorAPI] para a [!DNL Experience Platform] [!DNL Web SDK] biblioteca para seu [!DNL Analytics for Advertising] execução.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 687f146b27765d59f172284e4cff7ab5c0e57b50
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Usar o [!DNL Last Event Service] Biblioteca JavaScript com Adobe Experience Platform [!DNL Web SDK]
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Analytics somente*
+*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
 Se sua organização usar o Adobe Analytics herdado `visitorAPI.js` para coleta de dados, você pode, opcionalmente, mudar para usando a [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) biblioteca (`alloy.js`), que permite interagir com os vários serviços de Experience Cloud por meio da [!DNL Edge Network].
 
@@ -27,7 +27,7 @@ No [!DNL Analytics for Advertising] [!DNL Last Event Service] tag usada nas pág
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          AdCloudEvent('IMS ORG Id');
+          AdCloudEvent('IMS ORG Id','rsid');
 </script>
 ```
 
@@ -36,7 +36,7 @@ No [!DNL Analytics for Advertising] [!DNL Last Event Service] tag usada nas pág
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id''rsid').generateRandomId();
 </script>
 ```
 
@@ -75,4 +75,3 @@ Insira a seguinte propriedade em seu [!DNL Web SDK] `sendEvent` comando para env
 >
 >* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
 >* [Código JavaScript para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
-

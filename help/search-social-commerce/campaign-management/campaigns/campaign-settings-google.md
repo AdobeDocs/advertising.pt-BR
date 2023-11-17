@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social
    * (Locais próximos a um endereço; somente targets incluídos) Clique em **[!UICONTROL Radius Target]** (![Alvo do Raio](/help/search-social-commerce/assets/radius-target.png "Alvo do Raio")) e clique em **[!UICONTROL Address]**. Insira o endereço e o raio em milhas ou quilômetros ao redor do endereço a ser direcionado e clique em **[!UICONTROL Add]**.
 
    * (Locais próximos a coordenadas geográficas; destinos incluídos apenas) Clique em **[!UICONTROL Radius Target]** (![Alvo do Raio](/help/search-social-commerce/assets/radius-target.png "Alvo do Raio")) e clique em **[!UICONTROL Coordinate]**. Insira a latitude, a longitude e o raio em milhas ou quilômetros ao redor do local de destino e clique em **[!UICONTROL Add]**.
-
-   * (Locais próximos ao seu [!DNL My Business] locais que estão disponíveis como extensões de local; somente destinos incluídos) Clique em **[!UICONTROL Location Group Target]** (![Grupo de locais](/help/search-social-commerce/assets/location-group.png "Grupo de locais")); opcionalmente, informe um país, estado, região metropolitana ou cidade para fazer a seta para baixo na lista de locais disponíveis e, em seguida, selecione um ou mais locais na lista de [!DNL Google My Business] locais. Especifique o raio em milhas ou quilômetros ao redor dos locais a serem direcionados e clique em **[!UICONTROL Add]**.
 
 * (Para adicionar um ajuste de oferta para um local de destino incluído) Informe um valor de ajuste de oferta:
 

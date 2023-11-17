@@ -1,11 +1,11 @@
 ---
 title: Excluir associações de extensão de anúncio com campanhas e grupos de anúncios
 description: Saiba como desassociar extensões de anúncios a campanhas e grupos de anúncios.
-exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,4 @@ Você pode excluir associações de nível de campanha e grupo de anúncios com 
 >[!MORELIKETHIS]
 >
 >* [Gerenciar [!DNL Google Ads] extensões de chamada](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [Gerenciar extensões de localização](location-extension-manage.md)
 >* [Gerenciar extensões do sitelink](sitelink-extension-manage.md)

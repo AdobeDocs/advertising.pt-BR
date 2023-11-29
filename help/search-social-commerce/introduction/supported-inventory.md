@@ -3,20 +3,20 @@ title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Estoque suportado
 
-A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúncios compatíveis, além da funcionalidade disponível para cada um.
+A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúncios compatíveis, e a funcionalidade disponível para cada tipo de anúncio.
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Também é possível ocultar temporariamente o sumário clicando em ![Ocultar sumário](/help/dsp/assets/hide-toc.png "Ocultar sumário") na parte superior do painel esquerdo.
+>A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Também é possível ocultar temporariamente o sumário clicando em ![Ocultar sumário](/help/search-social-commerce/assets/hide-toc.png "Ocultar sumário") na parte superior do painel esquerdo.
 
 | Origem | Rede | Tipo de campanha | Tipo de anúncio | Sincronizar e exibir | Criar/Editar | Rastrear[^1] | Otimizar | Relatório[^2] | Suporte ao Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|

@@ -3,9 +3,9 @@ title: Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante
 description: Saiba como gerenciar a lista de sites bloqueados para uma conta ou anunciante.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
       * Para remover um único valor, clique em **X** ao lado do valor.
 
-   * (Opcional) Para exportar a lista para uma planilha do Microsoft Excel no formato CSV (valores separados por vírgula), clique em **Exportar**.
+   * (Opcional) Para exportar a lista para um [!DNL Microsoft Excel]  em formato CSV (valores separados por vírgula), clique em **Exportar**.
 
 >[!MORELIKETHIS]
 >

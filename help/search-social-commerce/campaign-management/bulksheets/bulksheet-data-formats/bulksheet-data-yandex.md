@@ -3,9 +3,9 @@ title: Dados de bulksheet necessários para [!DNL Yandex] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Yandex] contas.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Também é possível ocultar temporariamente o sumário clicando em ![Ocultar sumário](/help/search-social-commerce/assets/hide-toc.png "Ocultar sumário") na parte superior do painel esquerdo.
+>A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Como opção, também é possível ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel](/help/search-social-commerce/assets/hide-pane.png "Ocultar painel") na parte superior do painel esquerdo ou direito.
 
 | Campo | Campaign | Grupo de publicidade | Palavra-chave | Anúncio de texto | Sitelink | Descrição |
 |----|----|-----|-----|----|----|----|

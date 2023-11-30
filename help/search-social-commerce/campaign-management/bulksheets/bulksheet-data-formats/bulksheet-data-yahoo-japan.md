@@ -3,9 +3,9 @@ title: Dados de bulksheet para [!DNL Yahoo! Japan] contas
 description: Faça referência aos campos de cabeçalho e de dados em bulksheets baixados para [!DNL Yahoo! Japan] contas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2631'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Também é possível ocultar temporariamente o sumário clicando em ![Ocultar sumário](/help/search-social-commerce/assets/hide-toc.png "Ocultar sumário") na parte superior do painel esquerdo.
+>A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Como opção, também é possível ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel](/help/search-social-commerce/assets/hide-pane.png "Ocultar painel") na parte superior do painel esquerdo ou direito.
 
 | Campo | Campaign | Grupo de publicidade | Palavra-chave | Anúncio de texto | Destino do local da campanha | Descrição |
 |----|----|----|----|----|----|----|

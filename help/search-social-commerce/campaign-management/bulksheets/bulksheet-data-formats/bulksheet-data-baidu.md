@@ -3,9 +3,9 @@ title: Dados de bulksheet necessários para [!DNL Baidu] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Baidu] contas.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Também é possível ocultar temporariamente o sumário clicando em ![Ocultar sumário](/help/search-social-commerce/assets/hide-toc.png "Ocultar sumário") na parte superior do painel esquerdo.
+>A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Como opção, também é possível ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel](/help/search-social-commerce/assets/hide-pane.png "Ocultar painel") na parte superior do painel esquerdo ou direito.
 
 | Campo | Campaign | Grupo de publicidade | Palavra-chave | Anúncio de texto | Destino do local | Descrição |
 |----|----|----|----|----|----|----|

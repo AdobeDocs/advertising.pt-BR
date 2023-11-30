@@ -3,9 +3,9 @@ title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúnc
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Como opção, também é possível ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel](/help/search-social-commerce/assets/hide-pane.png "Ocultar painel") na parte superior do painel esquerdo ou direito.
+>A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Como opção, também é possível ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel esquerdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo ou ![Ocultar painel direito](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito.
 
 | Origem | Rede | Tipo de campanha | Tipo de anúncio | Sincronizar e exibir | Criar/Editar | Rastrear[^1] | Otimizar | Relatório[^2] | Suporte ao Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|

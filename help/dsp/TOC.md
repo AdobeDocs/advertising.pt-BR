@@ -4,10 +4,10 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 6%
       + [Práticas recomendadas para a criação de metas personalizadas](/help/dsp/optimization/custom-goal-best-practices.md)
    + [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
-+ Públicos {#audiences}
++ Públicos-alvo {#audiences}
    + [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
    + Segmentos {#segments}
       + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
       + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
-   + Públicos {#reusable-audiences}
+   + Públicos-alvo {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planejador {#planner}
+   + [Sobre a ferramenta Planejador DSP](/help/dsp/planner/planner-about.md)
+   + [Criar um plano de alcance de TV conectado](/help/dsp/planner/planner-create.md)
+   + [Duplicar um plano de alcance de TV conectado](/help/dsp/planner/planner-duplicate.md)
+   + [Editar um plano de alcance de TV conectado](/help/dsp/planner/planner-edit.md)
+   + [Configurações para planos de alcance de TV conectado](/help/dsp/planner/planner-settings.md)
+   + [Exportar uma Previsão para um Plano de Alcance de TV Conectada](/help/dsp/planner/planner-export.md)
+   + [Regenerar a Previsão para um Plano de Alcance de TV Conectada](/help/dsp/planner/planner-forecast.md)
+   + [Arquivar um plano de alcance de TV conectada](/help/dsp/planner/planner-archive.md)
 + Administração {#admin}
    + [Editar seu perfil](/help/dsp/admin/user-own-profile-edit.md)
    + Usuários {#users}
@@ -227,6 +236,6 @@ ht-degree: 6%
    + Notificação {#notifications}
       + [Sobre Assinaturas de Alerta](/help/dsp/admin/alerts-about.md)
       + [Gerenciar assinaturas de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integrações com a Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integrações com o Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Suporte ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-+ [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

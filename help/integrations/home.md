@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: e0044c5241b6a7a89fdce9d7ef9225a2fb0cc19f
+source-git-commit: cde3e59564eeaeb1659715e77c30f2c7beae687e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 | ---- | ------- | ----------- | -------------------- |
 | 8 de agosto de 2023 | [!DNL Analytics for Advertising] | Alguns [!DNL Analytics] métricas de evento bem-sucedido, incluindo métricas de conversão e métricas de tráfego padrão, personalizadas e reservadas, estão automaticamente disponíveis no DSP e em Pesquisa, Social e Comércio. Agora, você também pode configurar suas próprias métricas de sucesso com base nas [!DNL Analytics] [!DNL eVars] e [!DNL props] por funil [!DNL eVar]- e [!DNL prop]em um evento bem-sucedido personalizado. | Consulte &quot;[Criar métricas de conversão do Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 de julho de 2023 | Relatórios | (Usuários de DSP com [!DNL Analytics for Advertising]) As conversões de view-through para inserções de TV conectada (CTV) agora são incluídas nos dados de conversão disponíveis no Adobe Analytics. | Consulte a seção &quot;Exemplos de como usar a integração&quot; em &quot;[Visão geral do [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
-| 1 de novembro de 2022 | Ajuda | Um novo documento explica como implementar o compartilhamento de sinal de click-through e view-through entre o DSP do Advertising e o Adobe Target, configurar uma atividade de teste A/B no [!DNL Target] para seus anúncios DSP e como configurar o Adobe Analytics Analysis Workspace para visualizar os dados de teste. | Consulte &quot;[Configurar testes A/B no Adobe Target para anúncios DSP](/help/integrations/target/overview-ab-tests.md).&quot; |
+| 1 de novembro de 2022 | Ajuda | Um novo documento explica como implementar o compartilhamento de sinal de click-through e view-through entre o DSP do Advertising e o Adobe Target, configurar uma atividade de teste A/B no [!DNL Target] para seus anúncios DSP e como configurar o Adobe Analytics Analysis Workspace para visualizar os dados de teste. | Consulte &quot;[Configurar testes A/B no Adobe Target para anúncios DSP](/help/integrations/target/ab-tests-dsp.md).&quot; |
 | 17 de agosto de 2022 | Ajuda | Um novo capítulo explica todas as maneiras em que o Adobe Advertising é integrado ao Adobe Audience Manager. | Consulte o capítulo sobre &quot;Integração com o Adobe Audience Manager&quot;, incluindo uma visão geral do &quot;[Integrações de Adobe Advertising com o Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
 | 27 de abril de 2021 | [!DNL Analytics for Advertising] | Saiba por que e como adicionar [!DNL Analytics for Advertising] macros para o seu [!DNL Google Campaign Manager 360] adicione tags para enviar dados de cliques para a Adobe Analytics. | Consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 19 de abril de 2021 | [!DNL Analytics for Advertising] | Saiba por que e como anexar macros ao seu [!DNL Flashtalking] adicione tags para enviar dados de cliques para a Adobe Analytics. | Consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](/help/integrations/analytics/macros-flashtalking.md).&quot; |

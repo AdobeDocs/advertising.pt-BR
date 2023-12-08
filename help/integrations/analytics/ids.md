@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -264,7 +264,7 @@ em que:
 
 Nos relatórios do Analytics, você pode encontrar dados da ID do AMO procurando pela variável [!UICONTROL AMO ID] dimensão e usando o [!UICONTROL AMO ID Instances] métrica. A variável [!UICONTROL AMO ID] dimensão armazena todos os valores de ID do AMO capturados, enquanto a variável [!UICONTROL AMO ID Instances] indica a frequência com que um valor de ID do AMO foi capturado pelo site. Por exemplo, se o mesmo anúncio de pesquisa foi clicado quatro vezes, mas o Analytics rastreou sete entradas de site, então [!UICONTROL AMO ID Instances] seria sete (7) e [!UICONTROL Clicks] seria quatro (4).
 
-Para qualquer relatório ou auditoria [!DNL Analytics], a prática recomendada é usar a ID do AMO junto com a instância correspondente. Para obter mais informações, consulte &quot;[Validação de dados para [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; em &quot;Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising.&quot;
+Para qualquer relatório ou auditoria [!DNL Analytics], a prática recomendada é usar a ID do AMO junto com a instância correspondente. Para obter mais informações, consulte &quot;[Validação de dados de click-through para [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; em &quot;Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising.&quot;
 
 ## Sobre as classificações do Analytics
 

@@ -3,16 +3,16 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Criar e implementar um segmento personalizado
 
-Você pode coletar seus próprios dados de público-alvo primários criando e implementando um segmento DSP personalizado. Você pode usar o segmento para rastrear a) usuários expostos a anúncios de dispositivos de desktop, móveis e CTV e b) usuários que visitam páginas da Web específicas. Posteriormente, você pode redirecionar os usuários no segmento com anúncios adicionais ou impedir que eles recebam anúncios adicionais.
+Você pode coletar seus próprios dados de público-alvo primários criando e implementando um segmento DSP personalizado. Você pode usar o segmento para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. Posteriormente, você pode redirecionar os usuários no segmento com anúncios adicionais ou impedir que eles recebam anúncios adicionais.
 
 >[!NOTE]
 >
@@ -47,10 +47,10 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
          1. Forneça a tag ao anunciante ou contato do site para implantação.
 
             O departamento de TI do anunciante ou outro grupo pode precisar agendar ou ser informado sobre a implantação da tag.
-      * Para rastrear usuários expostos a uma unidade de publicidade em dispositivos de desktop, móveis ou CTV:
+
+      * Para rastrear usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop:
 
          1. Copie a tag de rastreamento de impressão, chamada de &quot;[!UICONTROL Desktop or mobile ads].&quot;
-
 
 1. Adicione a tag ao [!UICONTROL Pixel] para cada anúncio relevante ou para o [!UICONTROL Event Pixels] seção do [[!UICONTROL Tracking] configurações para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
@@ -71,4 +71,3 @@ Depois que uma tag de rastreamento é implementada, você pode usar o segmento n
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

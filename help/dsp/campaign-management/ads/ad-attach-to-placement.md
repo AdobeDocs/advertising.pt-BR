@@ -3,10 +3,10 @@ title: Anexar um anúncio a um posicionamento
 description: Saiba como anexar um anúncio a um posicionamento.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
+source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 1%
       1. Clique em **[!UICONTROL Create New Placement]**.
 
       1. Insira o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Create Placement]**.
+
    * Para adicionar o anúncio a um ou mais posicionamentos existentes:
 
       1. Clique em **[!UICONTROL Select a Placement].**
@@ -44,6 +45,7 @@ ht-degree: 1%
             1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
 
             1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach to Other Placement]**. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
+
          * Para anexar o anúncio a até 20 posicionamentos de cada vez:
 
             1. Marque a caixa de seleção ao lado de **Seleção em massa.&quot;
@@ -51,14 +53,12 @@ ht-degree: 1%
             1. Marque a caixa de seleção ao lado de cada posicionamento ao qual o anúncio será anexado.
 
             1. Clique em **[!UICONTROL Attach]**.
+
       1. Na guia Concluir e revisar, selecione uma das seguintes opções:
 
          * Para retornar à exibição Anúncios, clique em **[!UICONTROL I'm done for now]**.
 
          * Para anexar o anúncio a outro posicionamento, clique em **[!UICONTROL Attach To Other Placement]**.
-
-
-
 
 ## Anexe um anúncio novo ou existente do [!UICONTROL Placements] Exibir
 
@@ -85,6 +85,7 @@ ht-degree: 1%
          >[!NOTE]
          >
          >Seu anúncio só será veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+
    * Para selecionar anúncios existentes:
 
       1. Clique em **[!UICONTROL Select an Ad].**
@@ -96,6 +97,7 @@ ht-degree: 1%
             1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
 
             1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Add Another Ad]**. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
+
          * Para adicionar até 20 anúncios por vez:
 
             1. Marque a caixa de seleção ao lado de **[!UICONTROL Bulk Select]**.&quot;
@@ -103,6 +105,7 @@ ht-degree: 1%
             1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
 
             1. Clique em **[!UICONTROL Attach]**.
+
       1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
 
          1. Clique em **[!UICONTROL Custom Schedule Ads]**.
@@ -117,16 +120,13 @@ ht-degree: 1%
 
             * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações de voo e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
 
-               Os pesos totais devem ser iguais a 100.
+              Os pesos totais devem ser iguais a 100.
+
          1. No canto superior direito, clique em **[!UICONTROL Continue]**.
 
          1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
+
       1. Clique em **[!UICONTROL I'm done for now]**.
-
-
-
-
-
 
 >[!MORELIKETHIS]
 >
@@ -135,6 +135,5 @@ ht-degree: 1%
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Editar um anúncio](ad-edit.md)
 >* [Listar as disposições associadas a um anúncio](ad-list-placements.md)
->* [Editar a programação de anúncios para uma disposição](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Editar os cronogramas de anúncios para disposições](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

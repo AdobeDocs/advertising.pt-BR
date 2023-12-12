@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
       + [Editar rapidamente as configurações de posicionamento de chaves](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Duplicar um posicionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Anexar um anúncio a um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
-      + [Editar a programação de anúncios para uma disposição](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [Editar os cronogramas de anúncios para disposições](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Exibir o Log de Alterações para um Posicionamento](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [Pausar ou ativar um posicionamento](/help/dsp/campaign-management/placements/placement-pause-activate.md)

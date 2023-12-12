@@ -3,10 +3,10 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
 >* [Editar uma disposição](placement-edit.md)
->* [Editar a programação de anúncios para uma disposição](placement-edit-ad-schedule.md)
+>* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)
 >* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

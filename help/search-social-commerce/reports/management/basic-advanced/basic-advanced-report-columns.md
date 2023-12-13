@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de anúncios. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] somente campanhas) O tempo médio que um vídeo foi reproduzido, incluindo o tempo gasto reproduzindo o vídeo, para uma única impressão. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] (Somente campanhas do ) O número de vezes que o vídeo começa a ser reproduzido, excluindo repetições. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], e [!UICONTROLVVídeo reproduzido na contagem de 100%] | (Anúncios de vídeo) O número de vídeos que foram reproduzidos em 25%, 50%, 75% ou 100% do caminho. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], e [!UICONTROL Video Played at 100 Percent Count] | (Anúncios de vídeo) O número de vídeos que foram reproduzidos em 25%, 50%, 75% ou 100% do caminho. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], e [!UICONTROL VideoQuartile100Rate] | (Anúncios de vídeo) A porcentagem de vídeos que foram reproduzidos em 25%, 50%, 75% ou 100% do caminho. |
 | [!UICONTROL View Rate] | (Anúncios de vídeo) O número de visualizações ou envolvimentos dividido pelo número de vezes que o anúncio (impressões de vídeo e miniatura) foi exibido. |
 | [!UICONTROL Views] | (Anúncios de vídeo) O número de vezes que as pessoas assistiram ou interagiram com seu anúncio. |

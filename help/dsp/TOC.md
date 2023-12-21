@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Sintaxe da lógica do segmento de público-alvo](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Origens {#sources}
       + [Sobre a ativação de segmentos autenticados de fontes de público-alvo](/help/dsp/audiences/sources/source-about.md)
-      + [Ativar segmentos autenticados de parceiros de ID durável](/help/dsp/audiences/sources/source-durable-id.md)
+      + Workflows por plataforma de dados do cliente {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [Fluxo de trabalho para usar a integração do DSP com o [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Ativar segmentos autenticados de parceiros de ID universal](/help/dsp/audiences/sources/source-universal-id.md)
+         + [Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Criar uma fonte de público-alvo para ativar públicos-alvo primários](/help/dsp/audiences/sources/source-create.md)
       + [Configurações de fonte de público](/help/dsp/audiences/sources/source-settings.md)
    + [Provedores de dados de terceiros disponíveis](/help/dsp/audiences/third-party-data-providers.md)

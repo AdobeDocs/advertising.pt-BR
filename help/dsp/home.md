@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 21 de dezembro de 2023 | [!UICONTROL Audiences] | A documentação agora está disponível para compartilhar dados primários do [!DNL Tealium] plataforma de dados do cliente com DSP usando [!DNL Amazon Web Services]. Você pode direcionar os posicionamentos do DSP para os segmentos usando [!DNL RampIDs]. Nas configurações de posicionamento para [!UICONTROL Audience Targeting], os segmentos compartilhados estarão disponíveis no [!UICONTROL First Party Segments] lista. | Consulte &quot;[Sobre a ativação de segmentos autenticados de fontes de público-alvo](/help/dsp/audiences/sources/source-about.md)&quot; e &quot;[Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 de dezembro de 2023 | Planejador | (Recurso Beta) A nova ferramenta de planejador ajuda a prever o alcance exclusivo, a nível doméstico, das inserções de TV conectada (CTV) de acordo com o orçamento e os critérios de direcionamento especificados. Depois de avaliar vários planos, é possível implementar pacotes e disposições que melhor se alinham aos resultados desejados. | Consulte &quot;[Sobre a ferramenta Planejador DSP](/help/dsp/planner/planner-about.md).&quot; |
 |  | Otimização | Duas novas metas de otimização baseadas em cliques estão disponíveis para todos os usuários: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** e **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Consulte &quot;[Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)&quot; e &quot;[Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 27 de setembro de 2023 | Otimização | Duas novas metas de otimização baseadas em alcance, **[!UICONTROL Always Max Bid and Maximize Reach]** e **[!UICONTROL Lowest Cost per Reach]**, ajudam a atingir o maior número possível de residências únicas usando o mesmo nível de impressões ou gastos, respectivamente. Ambas as metas estão disponíveis no nível do pacote e no nível de posicionamento. | Consulte &quot;[Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).&quot; |

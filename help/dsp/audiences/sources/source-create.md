@@ -3,10 +3,10 @@ title: Criar uma fonte de público-alvo para ativar públicos-alvo primários
 description: Saiba como criar uma fonte para importar públicos para sua conta ou uma conta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
+source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
@@ -14,19 +14,21 @@ ht-degree: 3%
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-Crie uma fonte para importar públicos para sua conta DSP ou uma conta de anunciante. Atualmente, você pode importar públicos-alvo de [o [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR).
+Crie uma fonte no DSP para importar públicos-alvo primários para sua conta DSP ou para uma conta de anunciante.
 
->[!NOTE]
->
->Depois de criar uma origem para a variável [!DNL Real-Time CDP], será necessário ativar o [!DNL Real-Time CDP] públicos-alvo por meio do destino do DSP de publicidade do Adobe no [!DNL Real-Time CDP] para começar a importá-los. Consulte [as etapas no fluxo de trabalho de ativação](source-about.md#workflow-sources).
+Para obter as etapas adicionais necessárias para assimilar segmentos de plataformas de dados específicas do cliente, consulte [os workflows de ativação específicos do público](source-about.md)
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Clique em [!UICONTROL Add Source].
+1. Clique em **[!UICONTROL Add Source]**.
 
 1. No [!UICONTROL Select a Type] selecione o tipo de origem.
 
-   *[!UICONTROL RT-CDP]*: Este tipo de origem, para [o [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), é a única opção.
+   * *[!UICONTROL RT-CDP]*: [A variável [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+
+   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+
+   * *[!UICONTROL Tealium CDP]*: A variável [[!DNL Tealium] plataforma de dados do cliente](source-about.md).
 
 1. Especifique a [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
 
@@ -36,15 +38,14 @@ Crie uma fonte para importar públicos para sua conta DSP ou uma conta de anunci
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. No Experience Platform, crie uma conexão de destino DSP de publicidade usando o [!UICONTROL Source Key] que foi gerado nas configurações da fonte DSP.
-
-   Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão com o Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+>[!NOTE]
+>
+>Depois de criar uma fonte para a plataforma de dados do cliente, será necessário concluir as etapas adicionais. Consulte a [fluxo de trabalho de ativação para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> e a variável [fluxo de trabalho de ativação para [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
 >* [Configurações de fonte de público](source-settings.md)
 >* [Sobre a ativação de segmentos autenticados de fontes de público-alvo](source-about.md)
->* [Ativar segmentos autenticados de parceiros de ID durável](source-durable-id.md)<!-- title?-->
+>* [Ativar segmentos autenticados de parceiros de ID universal](source-universal-id.md)<!-- title?-->
 >* [Conexão com o Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
-

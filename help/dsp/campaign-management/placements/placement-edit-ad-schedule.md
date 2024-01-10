@@ -3,9 +3,9 @@ title: Editar cronogramas de publicidade para inserções
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ ht-degree: 0%
 
    ![Notificação de Download pronto](/help/dsp/assets/download-ready.png "Notificação de Download pronto")
 
-1. Abra o arquivo baixado, edite as informações de voo conforme necessário e salve o arquivo atualizado:
+1. Abra o arquivo baixado, edite os campos de informações de voo de cada linha de anúncio a ser incluída no voo e salve o arquivo atualizado:
 
-   * Para adicionar um voo, especifique as datas de veiculação de cada linha de anúncio a ser incluída no voo usando o **[!UICONTROL Flight N Start Date]** e **[!UICONTROL Flight N End Date]** colunas. Use o formato AAAA-MM-DD para cada data.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (como [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date]): A primeira e a última data do voo. Use o formato AAAA-MM-DD para cada data. Quaisquer anúncios com campos vazios de data de veiculação são tratados como anúncios não participantes.
 
-     Por exemplo, para anúncios no primeiro voo, insira valores no campo [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date] campos. Se as linhas de anúncio ainda não estiverem incluídas no arquivo, insira as informações de anúncio necessárias em novas linhas.
+   **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): Como girar os anúncios para um voo. Insira um valor:
 
-     Quaisquer anúncios com campos vazios de data de veiculação são tratados como anúncios não participantes.
+   * Para girar os anúncios de um voo uniformemente, digite &quot;**[!UICONTROL Even]**&quot;.
 
-   * Para girar os anúncios de um voo uniformemente, digite &quot;**[!UICONTROL Even]**&quot; no relevante **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
-
-   * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem, no respectivo **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
-
-     O peso total de cada voo deve ser igual a 100.
+   * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem. O peso total do voo deve ser igual a 100.
 
 1. Faça upload do modelo de programação de anúncios editado:
 

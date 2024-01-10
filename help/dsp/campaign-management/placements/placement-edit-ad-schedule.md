@@ -3,9 +3,9 @@ title: Editar cronogramas de publicidade para inserções
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       * Para girar os anúncios de um voo uniformemente, informe `[!UICONTROL Even]`.
 
-      * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem. O peso total do voo deve ser igual a 100.
+      * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem (como `40` 40%). O peso total do voo deve ser igual a 100.
 
 1. Faça upload do modelo de programação de anúncios editado:
 

@@ -3,18 +3,16 @@ title: Reenviar um Convite de Usuário Pendente
 description: Saiba como reenviar um convite de usuário pendente.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # Reenviar um Convite de Usuário Pendente
 
-*Somente usuários administradores*
-
-Você pode reenviar um convite para um usuário com um convite pendente para a conta da organização.
+Os usuários administradores podem reenviar um convite para um usuário com um convite pendente para a conta da organização.
 
 1. Siga um destes procedimentos:
 

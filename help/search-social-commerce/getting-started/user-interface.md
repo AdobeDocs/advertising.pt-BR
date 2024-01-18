@@ -1,11 +1,11 @@
 ---
 title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 A parte superior de cada página inclui o menu principal e outros menus baseados em tarefas e informações.
 
 ## O menu principal
-
-As opções do menu principal de nível superior são baseadas nos canais de publicidade disponíveis. Você verá apenas os canais de publicidade que se aplicam a você:
-
-* **[!UICONTROL DSP]** — (Quando você tiver acesso ao Adobe Advertising DSP (Demand Side Platform)) Para gerenciar sua exibição e anúncios de TV conectados. Um separado [Guia do DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) está disponível.
-
-* **[!UICONTROL Creative]** — (Quando você tem acesso ao Adobe Advertising Creative) Para automatizar experiências de anúncio personalizadas em tempo real e otimizar seus anúncios no nível do elemento criativo. A ajuda separada está disponível na Creative.
 
 * **[!UICONTROL Search]** — gerencie suas contas de rede de anúncios no Search, Social e Commerce, inclusive aquelas para as quais o Search, Social e Commerce está rastreando, mas não faz lances.
 

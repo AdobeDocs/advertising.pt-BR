@@ -1,18 +1,18 @@
 ---
 title: Gerenciar campanhas
 description: Saiba como criar e gerenciar campanhas de publicidade.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Gerenciar campanhas
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Uma campanha é o componente principal de uma conta de rede de anúncios. Para a maioria dos tipos de campanha, ele consiste em um conjunto de grupos de anúncios ou conjuntos de anúncios. As configurações da campanha incluem parâmetros de orçamento da campanha, metas de anúncios e parâmetros de rastreamento opcionais para todos os anúncios na campanha. Os parâmetros de rastreamento no nível da campanha substituem os parâmetros no nível da conta, mas podem ser substituídos em um nível inferior.
 

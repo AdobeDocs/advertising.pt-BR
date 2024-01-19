@@ -1,8 +1,9 @@
 ---
-title: "Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]"
-description: "Saiba como habilitar o DSP para assimilar seus [!DNL Tealium] segmentos primários."
+title: Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]
+description: Saiba como habilitar o DSP para assimilar seus [!DNL Tealium] segmentos primários.
 feature: DSP Audiences
-source-git-commit: e7c967d66be9c8ca78a64d644c7e3a691f1e216a
+exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 Veja a seguir instruções para criar e editar detalhes de conta de rede de anúncios, atualizar a [!DNL oAuth] token para uma conta e desativando contas.
 
+Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## Criar detalhes da conta de rede de publicidade {#create-account}
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-Para habilitar a sincronização ou o rastreamento de uma conta, você deve criar um registro de conta correspondente contendo as credenciais de acesso e as opções de rastreamento da conta e com o status *ativo*. Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Para habilitar a sincronização ou o rastreamento de uma conta, você deve criar um registro de conta correspondente contendo as credenciais de acesso e as opções de rastreamento da conta e com o status *ativo*.
 
 >[!NOTE]
 >
->Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
+>* O suporte não está disponível para novos [!DNL Baidu] contas.
+>* Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
 1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -138,7 +141,7 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
 >[!NOTE]
 >
->Contas de gerente de rede de publicidade não são suportadas aqui. Para identificar uma conta de gerente para [!DNL Microsoft Advertising] ou [!DNL Yandex], use o campo ID de conta Principal ou Conta MCC, respectivamente. Para [configurar credenciais para um [!DNL Google Ads] conta do gerente](/help/search-social-commerce/admin/manager-accounts.md), vá para [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Contas de gerente de rede de publicidade não são suportadas aqui. Para identificar uma conta de gerente para [!DNL Microsoft Advertising] ou [!DNL Yandex], use o campo ID da conta principal ou Conta MCC, respectivamente. Para [configurar credenciais para um [!DNL Google Ads] conta do gerente](/help/search-social-commerce/admin/manager-accounts.md), vá para [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** O nome a ser exibido para a conta no Search, Social e Commerce.
 
@@ -156,11 +159,11 @@ Para [!DNL Microsoft Advertising] contas, somente [!DNL oAuth]logons autorizados
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Todas as redes de publicidade, exceto [!DNL Naver]) O nome de logon ou a ID para habilitar o acesso da API à conta.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-habilitado e todas as outras redes, exceto para [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) O token da conta para autorizar logons usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-habilitado e todas as outras redes, exceto para [!DNL Meta] e [!DNL Yandex]) O token da conta para autorizar logons usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas as redes de publicidade, exceto [!DNL Naver]) A senha da conta. Para contas habilitadas com senha em [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], esse campo é obrigatório. Para [!DNL oAuth]Contas habilitadas para, esse campo é opcional; use-o quando desejar criptografar e salvar a senha para que o gerente de conta possa atualizar tokens conforme necessário.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas as redes de publicidade, exceto [!DNL Naver]) A senha da conta. Para contas habilitadas com senha em [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], esse campo é obrigatório. Para [!DNL oAuth]Contas habilitadas para, esse campo é opcional; use-o quando desejar criptografar e salvar a senha para que o gerente de conta possa atualizar tokens conforme necessário.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] e [!DNL Yandex] contas somente) A chave de acesso da conta de desenvolvedor a ser usada.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] contas somente) A chave de acesso da conta de desenvolvedor a ser usada.
 
 **[!UICONTROL Currency]:** A abreviação da moeda usada na conta. Este campo é editável para novos [!DNL Naver] contas. Para todas as outras redes de pesquisa, o valor é preenchido automaticamente com a moeda configurada para a conta na rede de publicidade depois que você salva o registro.
 
@@ -182,7 +185,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 * *Ativado:* Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.
 * *Desabilitado:* Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as exibições e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está pausada. Posteriormente, você pode reativar a conta para retomar a atividade com ela.
 
-**Modelo de rastreamento** - ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] somente contas; opcional) o modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da página de aterrissagem, e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**Modelo de rastreamento** - ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] somente contas; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
 * Para incorporar o URL final:
 
@@ -246,11 +249,11 @@ Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o 
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-Se essa conta precisar de relatórios nos níveis de campanha e grupo de publicidade, clique no link [!UICONTROL Edit] (lápis) e **[!UICONTROL Migrate to new s_kwcid format]** para alterar para o novo formato. Para contas que não incluem esses tipos de campanha, a migração para o novo formato é opcional, mas recomendada.
+Se essa conta precisar de relatórios nos níveis de campanha e grupo de anúncios, clique no link [!UICONTROL Edit] (lápis) e **[!UICONTROL Migrate to new s_kwcid format]** para alterar para o novo formato. Para contas que não incluem esses tipos de campanha, a migração para o novo formato é opcional, mas recomendada.
 
 Para obter instruções completas, consulte &quot;[Atualizar o código de rastreamento da ID do AMO para um [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
-**Nomes dos conjuntos de relatórios** - (Para redirecionamento EF somente com token; anunciantes com integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, Social e Commerce envia dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
+**Nomes dos conjuntos de relatórios** - (Para redirecionamento EF somente com token; anunciantes com uma integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, Social e Commerce envia dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
 
 Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve ser ativado. Além disso, a conta do Analytics do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com o Gerente de conta do Adobe.
 

@@ -1,18 +1,18 @@
 ---
 title: Criar e editar dados da campanha em massa usando copiar e colar
 description: Saiba como gerenciar dados do Campaign em massa usando o recurso copiar e colar.
-exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # Criar e editar dados da campanha em massa usando copiar e colar
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 *[!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] visualizações*
 

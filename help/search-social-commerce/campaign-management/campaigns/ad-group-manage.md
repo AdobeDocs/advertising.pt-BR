@@ -1,18 +1,18 @@
 ---
 title: Gerenciar grupos de anúncios
 description: Saiba como criar e gerenciar grupos de anúncios.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Gerenciar grupos de anúncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Um grupo de anúncios inclui um conjunto de anúncios e suas palavras-chave relacionadas. Um grupo de anúncios em uma campanha direcionada à rede de exibição também pode incluir disposições, que são locais na rede de exibição nos quais seus anúncios podem aparecer. As configurações dos grupos de anúncios, que se aplicam a todos os componentes do grupo de anúncios, variam de acordo com a rede de anúncios.
 

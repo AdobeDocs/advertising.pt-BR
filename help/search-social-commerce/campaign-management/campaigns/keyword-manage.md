@@ -1,18 +1,18 @@
 ---
 title: Gerenciar palavras-chave licitáveis
 description: Saiba como criar e gerenciar palavras-chave licitáveis para grupos de anúncios de pesquisa.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Gerenciar palavras-chave licitáveis
 
-*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Você pode criar e editar palavras-chave para grupos de anúncios de pesquisa no [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) que direcionam a pesquisa e a exibição/redes nativas em um [conta de rede de publicidade sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 

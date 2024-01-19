@@ -1,18 +1,18 @@
 ---
 title: Gerenciar anúncios
 description: Saiba mais sobre anúncios em Pesquisa, Social e Comércio, incluindo os tipos de anúncios disponíveis.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Sobre anúncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Um anúncio pode ser exibido em um site de destino (para campanhas de conteúdo ou direcionadas por posicionamento); quando um usuário pesquisa uma das palavras-chave no grupo de anúncios (para campanhas de pesquisa) ou para conteúdo em seu site (anúncios de pesquisa dinâmicos no [!DNL Google Ads] campanhas somente de pesquisa); ou quando um usuário realiza uma pesquisa relevante para um dos itens em sua [!DNL Google Merchant Center] ou [!DNL Microsoft® Merchant Center] feed de produto (anúncios de compras no [!DNL Google Ads] ou anúncios de produto no [!DNL Microsoft® Advertising] campanhas).
 

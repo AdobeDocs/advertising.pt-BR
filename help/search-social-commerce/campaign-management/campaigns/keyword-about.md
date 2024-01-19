@@ -1,9 +1,9 @@
 ---
 title: Sobre palavras-chave
 description: Saiba mais sobre as opções para palavras-chave licitáveis e negativas.
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Sobre palavras-chave
 
-*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Uma palavra-chave é uma palavra ou frase associada a um anúncio. As configurações de palavra-chave incluem o tipo de correspondência de palavra-chave, os lances máximos a serem usados quando seu anúncio é acionado pela palavra-chave e (algumas redes de anúncios) parâmetros de rastreamento opcionais. As configurações de nível de palavra-chave substituem as configurações de campanha ou do grupo de anúncios.
 

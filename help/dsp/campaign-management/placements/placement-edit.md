@@ -3,9 +3,9 @@ title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
    1. Selecione o **[!UICONTROL Edit Mode]**.
 
       As opções variam de acordo com a configuração, mas podem incluir:
-
-      * **Adicionar** (para anexar anúncios)
 
       * **Anexar** (para manter os valores existentes e adicionar novos valores)
 

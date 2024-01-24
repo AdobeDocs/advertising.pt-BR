@@ -3,10 +3,10 @@ title: Especificar disposições e anúncios para um acordo privado
 description: Saiba como usar uma negociação privada com posicionamentos e anúncios adicionais.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Para negociações não garantidas, você pode especificar a negociação como u
 
 Para ofertas programáticas garantidas (PG), é possível criar inserções com anúncios especificados da [!UICONTROL Deals] exibição.
 
-Também é possível [anexar novos anúncios aos posicionamentos existentes](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associada a ofertas PG e não garantidas a qualquer momento.
+Também é possível [anexar anúncios a posicionamentos](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associada a ofertas PG e não garantidas a qualquer momento.
 
 ## Especificar uma Negociação Não Garantida como um Destino de Inventário para uma Colocação
 
@@ -46,7 +46,6 @@ Também é possível [anexar novos anúncios aos posicionamentos existentes](/he
 
       1. Clique em **[!UICONTROL Create placement]**.
 
-
 O posicionamento começará a ser executado depois que o editor ativar a ID de contrato PG.
 
 >[!NOTE]
@@ -60,4 +59,3 @@ O posicionamento começará a ser executado depois que o editor ativar a ID de c
 >* [Criar manualmente detalhes da ID do contrato](deal-id-create.md)
 >* [Configurações da ID de oferta manual](deal-id-settings.md)
 >* [Configurar um acordo programático garantido](programmatic-guaranteed-set-up.md)
-

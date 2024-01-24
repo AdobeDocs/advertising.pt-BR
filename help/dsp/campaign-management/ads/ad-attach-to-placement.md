@@ -1,132 +1,80 @@
 ---
-title: Anexar um anúncio a um posicionamento
-description: Saiba como anexar um anúncio a um posicionamento.
+title: Anexar anúncios a inserções
+description: Saiba como anexar um anúncio a inserções.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# Anexar um anúncio a um posicionamento
+# Anexar anúncios a inserções
 
 >[!NOTE]
 >
 >Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-## Anexe um novo anúncio da [!UICONTROL Ads] Exibir
+## Anexar anúncios a inserções {#attach-ads-campaign}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
 1. Clique no nome da campanha.
 
-1. No submenu, clique em **[!UICONTROL Ads]**.
+1. Abra o [!UICONTROL Ad Tools] exibição de qualquer uma das seguintes maneiras:
 
-1. Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (No campo [!UICONTROL Packages] , [!UICONTROL Placements]ou [!UICONTROL Ads] ) No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Na tela Inserir anúncio, siga um destes procedimentos:
+   * (No campo [!UICONTROL Placements] (exibir) Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Para criar um novo posicionamento para o anúncio:
+   * (No campo [!UICONTROL Ads] exibir) Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Clique em **[!UICONTROL Create New Placement]**.
+1. No [!UICONTROL Edit] faça o seguinte para cada grupo de anúncios que deseja anexar aos posicionamentos:
 
-      1. Insira o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Create Placement]**.
+   1. (Opcional) Localize inserções e anúncios específicos de qualquer uma das seguintes maneiras:
 
-   * Para adicionar o anúncio a um ou mais posicionamentos existentes:
+      * Acima das tabelas, clique em ![Filtro](/help/dsp/assets/filter.png) e filtrar as listas por tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
 
-      1. Clique em **[!UICONTROL Select a Placement].**
+      * Nas tabelas direita e esquerda, procure sequências de texto específicas nos nomes da disposição e do anúncio.
 
-      1. Siga um destes procedimentos:
+   1. Na tabela à esquerda, marque a caixa de seleção ao lado de cada posicionamento ao qual os anúncios serão anexados.
 
-         * Para adicionar um anúncio por vez:
+   1. Na tabela à direita, marque a caixa de seleção ao lado de cada anúncio que deseja anexar aos posicionamentos selecionados.
 
-            1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
+      Somente os anúncios aplicáveis ao tipo de posicionamento e que ainda não estejam anexados aos posicionamentos selecionados podem ser selecionados.
 
-            1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach to Other Placement]**. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
+   1. Na parte inferior direita, clique em  **[!UICONTROL Attach]**.
 
-         * Para anexar o anúncio a até 20 posicionamentos de cada vez:
+1. (Opcional) Para retornar às exibições de detalhes da campanha, clique em ![Retornar à pasta](/help/dsp/assets/breadcrumb-return.png "Retornar à pasta") à esquerda de [!UICONTROL Ad Tools] e selecione o nome da campanha.
 
-            1. Marque a caixa de seleção ao lado de **Seleção em massa.&quot;
+## Exibir anúncios anexados a inserções {#view-ads-campaign}
 
-            1. Marque a caixa de seleção ao lado de cada posicionamento ao qual o anúncio será anexado.
-
-            1. Clique em **[!UICONTROL Attach]**.
-
-      1. Na guia Concluir e revisar, selecione uma das seguintes opções:
-
-         * Para retornar à exibição Anúncios, clique em **[!UICONTROL I'm done for now]**.
-
-         * Para anexar o anúncio a outro posicionamento, clique em **[!UICONTROL Attach To Other Placement]**.
-
-## Anexe um anúncio novo ou existente do [!UICONTROL Placements] Exibir
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
 1. Clique no nome da campanha.
 
-1. No submenu, clique em **[!UICONTROL Placements]**.
+1. Abra o [!UICONTROL Ad Tools] exibição de qualquer uma das seguintes maneiras:
 
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (No campo [!UICONTROL Packages] , [!UICONTROL Placements]ou [!UICONTROL Ads] ) No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. No [!UICONTROL Add Ad to Placement] faça o seguinte:
+   * (Para ver anúncios anexados a uma disposição específica) No submenu, clique em **[!UICONTROL Placements]**. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Para criar um novo anúncio:
+   * (Para ver os posicionamentos aos quais um anúncio está ou pode ser anexado) No submenu, clique em **[!UICONTROL Ads]**. Ao lado do nome de um anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Clique em **[!UICONTROL Create a New Ad]**.
+1. Alterne para a **[!UICONTROL View]** no canto superior direito.
 
-      1. Insira as configurações de publicidade para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [exibir anúncios](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md)ou [anúncios antes da exibição](ad-settings-pre-roll.md).
+1. (Opcional) Localize inserções e anúncios específicos conforme necessário:
 
-      1. Clique em **[!UICONTROL Save & Submit for Review]**.
+   * Acima da tabela à esquerda, filtre as listas por tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
 
-         A variável [revisão de publicidade](ad-about.md) para o novo anúncio, leva de 24 a 48 horas e inclui verificações de categorias confidenciais, clique na funcionalidade URL e pré-visualize a renderização. A variável [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   * Nas tabelas direita e esquerda, procure sequências de texto específicas no posicionamento ou nome do anúncio.
 
-         >[!NOTE]
-         >
-         >Seu anúncio só será veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+1. Clique em qualquer linha de posicionamento na tabela à esquerda para ver os anúncios anexados na tabela à direita.
 
-   * Para selecionar anúncios existentes:
-
-      1. Clique em **[!UICONTROL Select an Ad].**
-
-      1. Especifique os anúncios:
-
-         * Para adicionar um anúncio por vez:
-
-            1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
-
-            1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Add Another Ad]**. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
-
-         * Para adicionar até 20 anúncios por vez:
-
-            1. Marque a caixa de seleção ao lado de **[!UICONTROL Bulk Select]**.&quot;
-
-            1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
-
-            1. Clique em **[!UICONTROL Attach]**.
-
-      1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
-
-         1. Clique em **[!UICONTROL Custom Schedule Ads]**.
-
-         1. Siga um destes procedimentos:
-
-            * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data inicial e a data final.
-
-            * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
-
-            * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
-
-            * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações de voo e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
-
-              Os pesos totais devem ser iguais a 100.
-
-         1. No canto superior direito, clique em **[!UICONTROL Continue]**.
-
-         1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
-
-      1. Clique em **[!UICONTROL I'm done for now]**.
+1. (Opcional) Para anexar mais anúncios aos posicionamentos da campanha, alterne para a **[!UICONTROL Edit]** no canto superior direito. Consulte a Etapa 4 do procedimento anterior, &quot;[Anexar anúncios a inserções](#attach-ads-campaign),&quot; para obter instruções.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Listar as disposições associadas a um anúncio
 description: Saiba como ver os posicionamentos associados a um anúncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Listar as disposições associadas a um anúncio
 
 Exiba uma lista de posicionamentos associados a um anúncio para ver os dados de desempenho por posicionamento e editar as configurações de posicionamento, se necessário.
+
+Consulte também &quot;[Exibir anúncios anexados a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
@@ -25,4 +27,3 @@ Exiba uma lista de posicionamentos associados a um anúncio para ver os dados de
 >* [Editar um anúncio](ad-edit.md)
 >* [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)
-

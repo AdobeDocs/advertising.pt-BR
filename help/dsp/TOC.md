@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
+source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -92,20 +92,13 @@ ht-degree: 3%
          + [Configurações do anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificações para os tipos de anúncios suportados](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Relatórios de campanha {#campaign-reports}
-      + [Sobre Relatórios Na Plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Relatórios de desempenho em visualizações do Campaign Management {#campaign-reports}
+      + [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportar dados de uma visualização do Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Exibir os sites, anúncios e detalhes de frequência de uma disposição](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + Gerenciar visualizações de dados {#data-views}
-         + [Sobre as visualizações de dados do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
-         + [Alterar a Exibição de Coluna](/help/dsp/campaign-management/reports/column-view-change.md)
-         + [Criar uma Exibição de coluna personalizada](/help/dsp/campaign-management/reports/column-view-create.md)
-         + [Editar uma Exibição de coluna personalizada](/help/dsp/campaign-management/reports/column-view-edit.md)
-         + [Filtrar dados de campanha](/help/dsp/campaign-management/reports/campaign-data-filter.md)
-         + [Classificar uma coluna](/help/dsp/campaign-management/reports/campaign-data-sort.md)
-      + [Gerenciar visualizações de dados](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
+      + [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + Corrigir Configurações De Posicionamento Usando Planilhas {#qa-spreadsheet}
       + [Sobre a Correção de Configurações de Posicionamento Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
       + [Baixar configurações de posicionamento em uma planilha](/help/dsp/campaign-management/qa/qa-sheet-download.md)

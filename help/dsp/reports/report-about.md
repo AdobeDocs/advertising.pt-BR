@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,6 @@ Suas configurações de conta em [!UICONTROL Settings] > [!UICONTROL Account] in
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
 >* [Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)
->* [Sobre Relatórios Na Plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

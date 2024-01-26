@@ -3,9 +3,9 @@ title: Exibir os Relatórios de Diagnóstico de Posicionamento
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ As ferramentas a seguir podem ajudar você a diagnosticar problemas com a config
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Na Plataforma](campaign-reports-about.md)
+>* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](campaign-reports-about.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Exportar dados de uma visualização do Campaign Management
 description: Saiba como exportar os dados de qualquer tipo de visualização de gerenciamento de campanha para um arquivo de planilha.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,5 @@ Você pode exportar um instantâneo da visualização atual e filtrada do gerenc
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Na Plataforma](campaign-reports-about.md)
->* [Alterar a Exibição de Coluna](column-view-change.md)
->* [Filtrar dados de campanha](campaign-data-filter.md)
->* [Classificar uma Coluna de Dados](campaign-data-sort.md)
-
+>* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](campaign-reports-about.md)
+>* [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

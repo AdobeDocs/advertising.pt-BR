@@ -2,9 +2,9 @@
 title: Gerenciar As Visualizações De Dados Do Campaign
 description: Saiba como personalizar suas visualizações de dados para campanhas, pacotes, posicionamentos e anúncios.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Na parte inferior direita de qualquer página, ao lado de **[!UICONTROL Items pe
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](campaign-reports-about.md)
+>* [Tipos de relatórios de desempenho em visualizações do Campaign Management](campaign-reports-about.md)
 >* [Exibir os sites, anúncios e detalhes de frequência de uma disposição](placement-details-view.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](placement-diagnostics.md)

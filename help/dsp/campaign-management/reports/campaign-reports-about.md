@@ -1,16 +1,16 @@
 ---
-title: Sobre Relatórios de Desempenho em Visualizações do Campaign Management
+title: Tipos de relatórios de desempenho em visualizações do Campaign Management
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# Sobre Relatórios de Desempenho em Visualizações do Campaign Management
+# Tipos de relatórios de desempenho em visualizações do Campaign Management
 
 As visualizações de gerenciamento de campanha incluem dados de relatório abrangentes. Os relatórios disponíveis ajudam a identificar os pacotes e posicionamentos que estão apresentando um bom desempenho e aqueles que precisam de sua atenção. Os botões de ação rápida também tornam você mais produtivo.
 
@@ -62,49 +62,26 @@ Em cada guia de entidade, cada linha inclui métricas de ritmo e entrega por pad
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### Posicionamento [!UICONTROL Inspector] {#placement-inspector}
-
-Para cada posicionamento, é possível [abrir uma (exibição detalhada [!UICONTROL Inspector])](placement-details-view.md), que inclui os seguintes dados detalhados:
-
-* **[!UICONTROL Sites]:** Todos os sites nos quais o posicionamento teve impressões.
-
-  A variável [!UICONTROL Sites] inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada disponíveis na página principal e um [!UICONTROL Exclude] em cada linha, para excluir rapidamente um site do posicionamento.
-
-* **[!UICONTROL Ads]:** Todos os anúncios no posicionamento.
-
-  A variável [!UICONTROL Ads] A guia inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada disponíveis na página principal e botões de ação rápida em cada linha, como [!UICONTROL Pause] (para pausar rapidamente um anúncio).
-
-* **[!UICONTROL Frequency]:** Dados para cada nível de frequência de anúncio para o posicionamento, incluindo:
-   * o nível de frequência do anúncio (como &quot;1&quot; para todas as instâncias em que os usuários viram um anúncio uma vez)
-   * o número exclusivo estimado de dispositivos/navegadores ou pessoas (dependendo da [!UICONTROL Cross Device Level] para a campanha) que receberam impressões no nível de frequência especificado
-   * o número estimado de impressões no nível de frequência especificado
-   * a frequência média estimada para o nível de frequência especificado. Esse valor é igual a (Impressões estimadas)/(Únicos estimados).
-
-* **[!UICONTROL Inventory]:** Informações sobre todas as ofertas direcionadas pelo posicionamento.
-
-  A variável [!UICONTROL Inventory] permite a solução rápida de problemas ao mostrar estatísticas de desempenho, como [!UICONTROL Auctions], [!UICONTROL Bids], e [!UICONTROL Win Rate]. A guia inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada disponíveis na página principal e botões de ação rápida em cada linha, incluindo [!UICONTROL Edit], [!UICONTROL View Report], e [[!UICONTROL Auction Insights] para obter mais soluções de problemas](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### Solução de problemas de inventário
-
-| Problema | Causa possível | Ações a serem executadas |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | O editor não começou a enviar solicitações de oferta. | Entre em contato com o editor para ativar o negócio. |
-| | O negócio foi configurado incorretamente, por exemplo, inserindo uma ID de negócio externa incorreta. | Confirme os detalhes da negociação e edite-a. |
-| [!UICONTROL Auctions but no Bids] | O direcionamento de posicionamento não corresponde às solicitações de oferta recebidas para a oferta. <br><br> Por exemplo, uma inserção pode ter como alvo uma região geográfica que não é elegível para o negócio. | Edite os destinos de posicionamento conforme necessário para evitar incompatibilidades de direcionamento. |
-| | O posicionamento não tem um anúncio ativo com o tipo de mídia necessário para o negócio. | Crie e anexe um anúncio com o tipo de mídia correto ao posicionamento. |
-| | O posicionamento não tem orçamento adequado. | Aumentar o orçamento de posicionamento para permitir lances em solicitações recebidas. |
-| | As datas de voo de posicionamento não se sobrepõem às datas de entrega de impressão da negociação. | Edite as datas de voo da disposição conforme necessário. |
-| [!UICONTROL Low Win Rate] | O lance máximo da disposição (piso ou fixo) está abaixo do mínimo exigido pela negociação. | Aumentar a posição [!UICONTROL Max Bid] conforme necessário. |
-| | O posicionamento usa filtros pré-oferta que limitam a oferta. | Diminua os limites dos filtros pré-oferta para permitir mais lances. |
-| | O direcionamento de público-alvo para o posicionamento é muito restritivo. | Verifique se os públicos-alvo especificados têm usuários ativos suficientes e expanda o público-alvo, se possível. |
-
-![inserção Inspetor](/help/dsp/assets/placement-inspector.png)
-
-É possível exportar os dados no [!UICONTROL Sites], [!UICONTROL Ads]ou [!UICONTROL Frequency] para a pasta de download padrão do navegador como um relatório no formato XLSM.
-
 ### Outros tipos de relatórios no nível da campanha
 
-Para outros detalhamentos de dados, exibir [as páginas de relatórios no nível da campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md). A variável <!--legacy --> O relatório inclui seções sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], e [!UICONTROL Audience Performance] dados.
+Para outros detalhamentos de dados, exibir [as páginas de relatórios no nível da campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md). O relatório inclui seções sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], e [!UICONTROL Audience Performance] dados.
+
+### Outros tipos de relatórios de nível de posicionamento
+
+Para outros detalhamentos de dados, exibir [as páginas de relatórios no nível de posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md). O relatório inclui seções sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications], e [!UICONTROL Ads] dados.
+
+Além disso, você pode exibir os seguintes dados nas configurações de posicionamento:
+
+* [A (visualização detalhada [!UICONTROL Inspector])](placement-details-view.md), que mostra todos os sites direcionados, anúncios, dados de frequência e ofertas para um posicionamento.
+
+* A [relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [Relatórios de diagnóstico de posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### Outros tipos de relatórios no nível do anúncio
+
+Para outros detalhamentos de dados, exibir [as páginas de relatórios no nível do anúncio](/help/dsp/campaign-management/ads/ad-view-report.md). O relatório inclui [!UICONTROL Overview], [!UICONTROL Geography], e [!UICONTROL Viewability] dados.
 
 >[!MORELIKETHIS]
 >

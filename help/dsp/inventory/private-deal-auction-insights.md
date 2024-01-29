@@ -3,9 +3,9 @@ title: Exibir Insights de Leilão para uma Negociação Privada
 description: Saiba como usar insights de leilão para analisar a composição de negócios de negócios privados.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,4 @@ Os gráficos de área estão disponíveis para os seguintes atributos de leilão
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Especificar disposições e anúncios para uma ID de oferta](deal-id-attach-placements.md)
 >* [Exibir um Relatório Detalhado de uma Transação](deal-view-report.md)
->* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de relatórios de desempenho em visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

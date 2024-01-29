@@ -3,9 +3,9 @@ title: Exibir o Relatório de Previsão de Posicionamento
 description: Consulte o número de impressões, gastos e lance máximo ideal previstos para uma estratégia de direcionamento específica para uma inserção.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,6 @@ A previsão inclui as seguintes informações:
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios de Desempenho em Visualizações do Campaign Management](campaign-reports-about.md)
+>* [Tipos de relatórios de desempenho em visualizações do Campaign Management](campaign-reports-about.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

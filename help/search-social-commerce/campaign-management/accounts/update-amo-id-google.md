@@ -1,11 +1,11 @@
 ---
 title: Atualizar o código de rastreamento da ID do AMO (s_kwcid) para um [!DNL Google Ads] account
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para um [!DNL Google Ads] conta.
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]somente contas*
 
-O formato herdado para o [Código de rastreamento de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats) para existentes [!DNL Google Ads] contas do não são compatíveis com alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas, campanhas de rascunhos e experimentos e outros casos de uso em que a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
+O formato herdado (anterior a outubro de 2019) para o [Código de rastreamento de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats) para existentes [!DNL Google Ads] contas do não são compatíveis com alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para [!DNL Google Ads] desempenho máximo de campanhas, campanhas de rascunhos e experimentos e outros casos de uso em que a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
 
-O formato mais recente inclui parâmetros para a ID da campanha e a ID do grupo de publicidade:
+O formato atual inclui parâmetros para a ID da campanha e a ID do grupo de publicidade:
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-É possível alterar para o novo formato de qualquer uma ou todas as contas existentes, individualmente. Se você não tiver campanhas de desempenho máximo ou campanhas de rascunhos e experimentos, a migração para o novo formato é opcional.
+É possível alterar para o formato atual de qualquer uma ou todas as contas existentes, individualmente. Se você não tiver campanhas de desempenho máximo ou campanhas de rascunhos e experimentos, a migração para o novo formato é opcional.
 
-Todos os novos [!DNL Google Ads] As contas do usam automaticamente o novo formato de ID AMO.
+Todos os novos [!DNL Google Ads] contas usam automaticamente o formato de ID AMO atual.
 
 >[!NOTE]
 >

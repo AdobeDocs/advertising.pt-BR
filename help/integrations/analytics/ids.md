@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ A ID do AMO também é chamada de `s_kwcid`, que às vezes é pronunciado como &
 
 O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneiras:
 
-* (Recomendado) O recurso de inserção do lado do servidor é implementado.
+* (Recomendado) Quando o recurso de inserção do lado do servidor é implementado.
 
    * Clientes DSP: o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final visualiza um anúncio de exibição com o pixel Adobe Advertising.
 
@@ -120,7 +120,7 @@ O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneira
 
       * Para outras redes de publicidade, ou [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configuração desativada, adicione manualmente o parâmetro ao seu [parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que o anexam aos URLs base.
 
-* O recurso de inserção do lado do servidor não está implementado:
+* Quando o recurso de inserção do lado do servidor não está implementado:
 
    * Clientes do DSP: a [Código JavaScript](javascript.md) registra automaticamente click-throughs e view-throughs. Quando um navegador não é compatível com cookies de terceiros, você ainda pode rastrear conversões baseadas em cliques para os seguintes tipos de anúncio:
 
@@ -152,7 +152,7 @@ em que:
 
 Exemplo de ID do AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### Formatos de ID do AMO para anúncios de Pesquisa, Social e Comércio
+#### Formatos de ID do AMO para anúncios de Pesquisa, Social e Comércio {#amo-id-format-search}
 
 Os parâmetros variam por rede de anúncios, mas os seguintes parâmetros são comuns a todos:
 

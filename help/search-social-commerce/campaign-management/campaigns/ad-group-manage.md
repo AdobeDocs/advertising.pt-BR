@@ -3,9 +3,9 @@ title: Gerenciar grupos de anúncios
 description: Saiba como criar e gerenciar grupos de anúncios.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Você pode criar grupos de anúncios no Search, Social e Commerce para um [tipo 
 
 1. Insira o [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Anúncios do Google](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Anúncios no Japão](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) configurações do grupo de publicidade.
 
-   Dependendo da rede de anúncios, as configurações podem ser agrupadas em [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options]. Para definir as configurações de [!UICONTROL Negative Keywords] ou [!UICONTROL Negative Websites], quando estiverem disponíveis, clique em **[!UICONTROL Add Negative Keywords]** ou **[!UICONTROL Add Negative Websites]**, respectivamente.
+   Dependendo da rede de anúncios, as configurações podem ser agrupadas em [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options]. Para definir as configurações de [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], quando estiverem disponíveis, clique em **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** ou **[!UICONTROL Add Negative Websites]**, respectivamente.
 
 1. Clique em **[!UICONTROL Post]**.
 

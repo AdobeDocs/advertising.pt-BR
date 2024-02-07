@@ -3,9 +3,9 @@ title: Anexar anúncios a inserções
 description: Saiba como anexar um anúncio a inserções.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
+source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (Opcional) Localize inserções e anúncios específicos de qualquer uma das seguintes maneiras:
 
-      * Acima das tabelas, clique em ![Filtro](/help/dsp/assets/filter.png) e filtrar as listas por tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
+      * Acima das tabelas, clique em ![Filtro](/help/dsp/assets/filter.png) e filtrar as listas por pacote, tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
 
       * Nas tabelas direita e esquerda, procure sequências de texto específicas nos nomes da disposição e do anúncio.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Opcional) Localize inserções e anúncios específicos conforme necessário:
 
-   * Acima da tabela à esquerda, filtre as listas por pacote, tipo de posicionamento, status do posicionamento, tipo de anúncio ou status do anúncio.
+   * Acima da tabela à esquerda, clique em ![Filtro](/help/dsp/assets/filter.png) e filtrar as listas por pacote, tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
 
    * Nas tabelas direita e esquerda, procure sequências de texto específicas no posicionamento ou nome do anúncio.
 

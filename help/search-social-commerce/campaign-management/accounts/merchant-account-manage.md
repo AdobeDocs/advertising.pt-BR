@@ -1,11 +1,11 @@
 ---
 title: Gerenciar contas de comerciante
 description: Saiba como configurar e gerenciar detalhes de uma conta da central de comércio.
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
 1. Especifique a [configurações da conta de comerciante](#merchant-account-settings):
 
    1. No [!UICONTROL Product Source] selecione o centro de comércio.
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. (Obrigatório para [!DNL Google Ads] contas; opcional para [!DNL Microsoft Advertising] contas) Permitir que o Search, Social e Commerce acesse a conta usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/):
 

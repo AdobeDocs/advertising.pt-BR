@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
+source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
 workflow-type: tm+mt
-source-wordcount: '3433'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. Siga um destes procedimentos:
 
-   * Para reutilizar todos os públicos-alvo de um modelo, marque a caixa de seleção ao lado do nome do modelo.
+   * Para reutilizar todos os alvos de um modelo, marque a caixa de seleção ao lado do nome do modelo.
 
    * Para reutilizar tipos de alvo individuais de um modelo, expanda o nome do modelo e marque a caixa de seleção ao lado dos tipos de alvo que deseja reutilizar.
 
@@ -46,7 +46,7 @@ Nos relatórios personalizados, a dimensão no nível de posicionamento &quot;Am
 
 ## Metas
 
-**[!UICONTROL Package]:** (Opcional) Um pacote ao qual o posicionamento é atribuído. Clique em ![Editar](/help/dsp/assets/edit.png) para selecionar um pacote existente ou criar um novo pacote. Ao atribuir o posicionamento a um pacote, a variável [!UICONTROL Goals] A seção é atualizada com as datas de voo, a meta do delivery e o orçamento do pacote.
+**[!UICONTROL Package]:** (Opcional) Um pacote ao qual o posicionamento é atribuído. Clique em ![Editar](/help/dsp/assets/edit.png) para selecionar um pacote existente ou criar um pacote. Ao atribuir o posicionamento a um pacote, a variável [!UICONTROL Goals] A seção é atualizada com as datas de voo, a meta do delivery e o orçamento do pacote.
 
 **[!UICONTROL Flight Dates]:** A data inicial e a data final do posicionamento. Os anúncios aprovados estão qualificados para execução durante o voo quando a inserção estiver ativa e atribuída a um pacote ou campanha ativa.
 
@@ -56,13 +56,16 @@ As datas do pacote (quando aplicável) ou da campanha são preenchidas automatic
 >
 >* As datas de voo devem ser incluídas nas datas de voo da campanha e nas datas de voo do pacote.
 
-
 ### Posicionamentos atribuídos a pacotes com ritmo no nível do pacote
 
 **[!UICONTROL Placement Funding]:** Como fazer o orçamento do posicionamento:
 
 * *[!UICONTROL Optimize based on performance]:* Controla o orçamento no nível do pacote.
-* *[!UICONTROL Set a fixed budget cap]:* Permite definir um orçamento de posicionamento diário, semanal, mensal ou permanente. Insira um valor e a duração (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
+* *[!UICONTROL Set a Fixed Minimum or Maximum Budget]:* Permite definir um orçamento de posicionamento mínimo e/ou máximo. Especifique pelo menos um tipo de orçamento:
+
+   * *[!UICONTROL Maximum Budget]*: insira um valor e a duração (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
+
+   * *[!UICONTROL Minimum Budget]*: o orçamento mínimo como uma porcentagem do orçamento do pacote. Quando um limite de intervalo é especificado, o valor de orçamento mínimo é sempre calculado como uma porcentagem do limite de intervalo. Caso contrário, será calculado como uma porcentagem do orçamento do pacote.
 
 **[!UICONTROL Max Bid]:** O máximo a pagar por 1000 impressões.
 
@@ -92,7 +95,7 @@ Consulte as descrições de cada filtro de pré-oferta em &quot;[Filtros pré-of
 >
 >Este campo é apenas um referencial e não é usado para decisões.
 
-**[!UICONTROL Pace on]:** Em que ritmo se baseará:
+**[!UICONTROL Pace on]:** A base para o ritmo:
 
 * **[!UICONTROL Budget goal]:** (Padrão) Essa opção fornece o máximo de impressões possível dentro do orçamento alocado.
 
@@ -116,9 +119,9 @@ Consulte as descrições de cada filtro de pré-oferta em &quot;[Filtros pré-of
 
 * *[!UICONTROL ASAP]:* (O padrão) Acelera a entrega para o dobro da velocidade de *Par*.
 
-   >[!CAUTION]
-   >
-   >Essa opção pode afetar negativamente o desempenho. Use-a somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho.
+  >[!CAUTION]
+  >
+  >Essa opção pode afetar negativamente o desempenho. Use-a somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho.
 
 **[!UICONTROL Placement Pre-bid Filters]:** (Opcional) Até cinco filtros que devem ser atendidos para que os lances ocorram. Você pode usar filtros de pré-oferta como táticas de otimização, mas lembre-se de que cada regra pode limitar as oportunidades nas quais esse posicionamento pode licitar. Para adicionar ou editar filtros:
 
@@ -151,13 +154,13 @@ Para especificar locais:
       1. Selecione o país.
       1. Insira o nome da cidade e clique em ![Editar](/help/dsp/assets/search.png).
       1. Clique no resultado de pesquisa correto.
-      1. Clique em *[!UICONTROL Include All]* para incluir todos os locais como alvos ou *[!UICONTROL Exclude All]* para excluir todos os locais como alvos.
+      1. Clique em *[!UICONTROL Include All]* para incluir todos os locais como alvos ou *[!UICONTROL Exclude All]* para excluir todos os locais como destinos.
    * Para informar ou colar códigos postais e incluir ou excluir todos eles:
       1. Clique em **[!UICONTROL Paste Postal Code]**.
       1. Selecione o país.
       1. Insira ou cole até 1000 códigos postais.
 Inclua um código postal por linha ou insira vários valores separados por vírgulas ou guias.
-      1. Clique em *[!UICONTROL Include All]* para incluir todos os locais como alvos ou *[!UICONTROL Exclude All]* para excluir todos os locais como alvos.
+      1. Clique em *[!UICONTROL Include All]* para incluir todos os locais como alvos ou *[!UICONTROL Exclude All]* para excluir todos os locais como destinos.
    * Para remover um local da lista [!UICONTROL Included] ou [!UICONTROL Excluded] clique em **[!UICONTROL X]** ao lado do local na coluna à direita.
 1. Clique em **[!UICONTROL Done]**.
 
@@ -166,22 +169,25 @@ Inclua um código postal por linha ou insira vários valores separados por vírg
 >* Nem todos os países têm localizações de Estado, Cidade ou Código Postal.
 >* O DMA (área de mercado designada), os Distritos Legislativos Federais e os Distritos Legislativos Estaduais estão disponíveis somente para locais nos EUA.
 
-
 ## [!UICONTROL Inventory Targeting]
 
 **[!UICONTROL Inventory Sources]:** Origens de inventário a serem incluídas ou excluídas como destinos. Para a maioria dos tipos de posicionamento, todos os tipos de inventário e todas as origens para cada tipo são incluídos por padrão. Para [!DNL Roku] posicionamentos, você deve especificar o tipo de inventário e as origens. Você pode escolher entre os seguintes tipos de inventário:
 
-* [!UICONTROL Public]: (Todos os tipos de posicionamento, exceto Roku) Todo o inventário de intercâmbio aberto ao qual o DSP tem acesso. Você pode incluir e excluir inventário público.
+* [!UICONTROL Public]: (Todos os tipos de posicionamento, exceto Roku) Todos os inventários de intercâmbio aberto aos quais o DSP tem acesso. Você pode incluir e excluir inventário público.
 
-   Você pode visualizar a lista por fonte ou por feed. Ao visualizar a lista por feed, você pode pesquisar por nome do feed, chave do feed ou uma tag característica selecionada.
+  Você pode visualizar a lista por fonte ou por feed. Ao visualizar a lista por feed, você pode pesquisar por nome do feed, chave do feed ou uma tag característica selecionada.
 
 * [!UICONTROL Private] | [!UICONTROL Roku Private]: suas ofertas privadas existentes (ou ofertas privadas existentes), [!DNL Roku] ofertas para [!DNL Roku] posicionamentos) com editores configurados no DSP. Você pode incluir, mas não excluir, inventário público.
 
-   Você pode pesquisar a lista por palavra-chave, chave, ID de negócio ou tag personalizada.
+  Você pode pesquisar a lista por palavra-chave, chave, ID de negócio ou tag personalizada.
+
+   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) Substitui o algoritmo de preço de compra para oferecer pelo menos os preços fixo e mínimo para as negociações.
 
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Todos [prêmio, não garantido [!UICONTROL On Demand] inventário](/help/dsp/inventory/on-demand-inventory-about.md) (ou [!UICONTROL On Demand] [!DNL Roku] ofertas para [!DNL Roku] posicionamentos) nos quais você se inscreveu [!DNL DSP]. É possível incluir e excluir [!UICONTROL On Demand] inventário.
 
-   Você pode visualizar a lista por fonte ou por feed. Ao visualizar a lista por feed, você pode pesquisar por nome do feed, chave do feed ou uma região do editor, tag de categoria ou tag característica selecionada.
+  Você pode visualizar a lista por fonte ou por feed. Ao visualizar a lista por feed, você pode pesquisar por nome do feed, chave do feed ou uma região do editor, tag de categoria ou tag característica selecionada.
+
+   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) Substitui o algoritmo de preço de compra para oferecer pelo menos os preços fixo e mínimo para as negociações.
 
 Para especificar o direcionamento de inventário:
 
@@ -216,8 +222,11 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 **[!UICONTROL Site tier]:** (Disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) A qualidade dos sites a serem direcionados. As camadas 1 a 3 são seguras para a marca e foram verificadas e aprovadas pela equipe de mapeamento do DSP.
 
 * *[!UICONTROL Tier 1]:* Sites e aplicativos premium reconhecidos nacionalmente.
-* *[!UICONTROL Tier 2]:* Direciona o Nível 1, bem como sites e aplicativos de qualidade menos conhecidos do que o Nível 1.
-* *[!UICONTROL Tier 3]:* Direciona níveis 1 a 2, bem como sites e aplicativos legítimos e seguros para a marca que atendem a um público-alvo de nicho. Use o Nível 3 para compras de alcance ou direcionamento de dados.
+
+* *[!UICONTROL Tier 2]:* Tem como alvo o Nível 1, bem como sites e aplicativos de qualidade menos conhecidos do que o Nível 1.
+
+* *[!UICONTROL Tier 3]:* Segmenta níveis de 1 a 2, além de sites e aplicativos legítimos e seguros para a marca, que atendem a um público-alvo de nicho. Use o Nível 3 para compras de alcance ou direcionamento de dados.
+
 * *[!UICONTROL All Sites]:* Segmenta níveis 1 a 3 e novo inventário que não foi filtrado ou categorizado, que você pode usar para alcance.
 
 >[!NOTE]
@@ -228,7 +237,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 >
 >Para campanhas de desempenho, a prática recomendada é selecionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Categorias de site nos níveis de site selecionados para incluir ou excluir (mas não ambos) como alvos. Escolha nas listas verticais de sites que o DSP mapeou com base no assunto do site:
+**[!UICONTROL Site Categories]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Categorias de site nos níveis de site selecionados para incluir ou excluir (mas não ambos) como alvos. Escolha nas listas verticais de sites que o DSP mapeou com base no assunto:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Especifique as categorias de site a serem incluídas ou excluídas:
@@ -262,7 +271,6 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 >* Listas de sites bloqueados no nível da conta e do anunciante também são aplicadas, além do DSP [lista de sites bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md), que inclui sites considerados inseguros para anúncios.
 >* As listas de sites bloqueados sempre substituem as listas de sites direcionados. Se uma disposição excluir e incluir o mesmo target para um anúncio, a target será excluída.
 
-
 **[!UICONTROL Language]:** (Opcional) Um único idioma a ser direcionado.
 
 **[!UICONTROL Site List Preview]:** (Somente leitura) Todos os sites direcionados e bloqueados para o posicionamento.
@@ -291,24 +299,24 @@ Como opção, é possível exportar a lista de sites direcionados e bloqueados c
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** Quaisquer públicos-alvo para a inserção, incluindo [segmentos de terceiros, segmentos primários, segmentos de Adobe, segmentos personalizados e públicos salvos](/help/dsp/audiences/audience-settings.md). O tamanho total e ativo do público-alvo desduplicado em todos os segmentos selecionados e nos públicos salvos também é exibido. Você pode selecionar um público existente, criar um novo público que possa ser reutilizado posteriormente ou selecionar segmentos específicos de público:
+**[!UICONTROL Included Audiences]:** Quaisquer públicos-alvo para a inserção, incluindo [segmentos de terceiros, segmentos primários, segmentos de Adobe, segmentos personalizados e públicos salvos](/help/dsp/audiences/audience-settings.md). O tamanho total e ativo do público-alvo desduplicado em todos os segmentos selecionados e nos públicos salvos também é exibido. Você pode selecionar um público existente, criar um público que possa ser reutilizado posteriormente ou selecionar segmentos específicos de público:
 
 * Para selecionar um público existente, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences]e selecione o público.
-* Para criar um novo público, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences]e selecione **[!UICONTROL + Create Audience]**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), começando com a Etapa 3.
+* Para criar um público, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences]e selecione **[!UICONTROL + Create Audience]**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), começando com a Etapa 3.
 * Para selecionar segmentos específicos de público, clique em **[!UICONTROL Select segments for this placement only]**. Selecione a lógica do segmento. Para obter instruções, consulte Etapa 6 em &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; Quando terminar, clique em **Salvar**.
 
 **[!UICONTROL Excluded Audiences]:** Quaisquer públicos-alvo a serem excluídos para o posicionamento, incluindo públicos-alvo com [segmentos de terceiros, segmentos primários, segmentos de Adobe, segmentos personalizados e públicos salvos](/help/dsp/audiences/audience-settings.md). O tamanho total e ativo do público desduplicado em todos os públicos excluídos também é exibido. Você pode selecionar um público existente ou criar um novo público que poderá reutilizar posteriormente:
 
 * Para selecionar um público existente, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Excluded Audiences]e selecione o público.
-* Para criar um novo público, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Excluded Audiences]e selecione **+ Criar público-alvo**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), começando com a Etapa 3.
+* Para criar um público, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Excluded Audiences]e selecione **+ Criar público-alvo**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), começando com a Etapa 3.
 
-**[!UICONTROL Cross Device Targeting]:** (Disponível quando você seleciona pelo menos um segmento ou público-alvo e [o campaign está configurado para direcionamento entre dispositivos com base em pessoas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite estender o direcionamento em todos os dispositivos conhecidos de uma pessoa (de acordo com o gráfico de dispositivos especificado nas configurações da campanha), até mesmo dispositivos que não estão nos segmentos especificados. As tarifas podem ser aplicadas dependendo do gráfico especificado para a campanha. Os dados do gráfico de dispositivos estão disponíveis atualmente apenas na América do Norte.
+**[!UICONTROL Cross Device Targeting]:** (Disponível quando você seleciona pelo menos um segmento ou público-alvo e [o campaign está configurado para direcionamento entre dispositivos com base em pessoas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite estender o direcionamento em todos os dispositivos conhecidos de uma pessoa (de acordo com o gráfico de dispositivos especificado nas configurações da campanha), até mesmo dispositivos que não estão nos segmentos especificados. As tarifas podem ser aplicadas dependendo do gráfico especificado para a campanha. Os dados do gráfico de dispositivos estão disponíveis somente na América do Norte.
 
-**[!UICONTROL Placement Cap]:** (Opcional) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level] para a campanha) serão veiculados anúncios a partir da inserção. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
+**[!UICONTROL Placement Cap]:** (Opcional) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level] para a campanha) são anúncios veiculados a partir do posicionamento. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
 
 >[!NOTE]
 >
-> Você pode definir limites de frequência nos níveis de campanha, pacote e posicionamento. O DSP respeitará o limite de frequência mais rigoroso na hierarquia de campanha.
+> Você pode definir limites de frequência nos níveis de campanha, pacote e posicionamento. O DSP respeita o limite de frequência mais rigoroso na hierarquia de campanha.
 
 **[!UICONTROL Secondary Cap]:** (Opcional; disponível ao incluir uma variável numérica [!UICONTROL Placement Cap]) Uma limitação adicional dentro dos limites do limite de posicionamento principal. Selecione o número de impressões e o período de tempo (como 3 a cada 12 horas).
 
@@ -337,7 +345,6 @@ Para especificar o direcionamento de tópico:
 >* O direcionamento de tópico limita o inventário no qual a disposição pode fazer ofertas. Portanto, use o direcionamento de tópico somente para uma pequena porcentagem da sua compra geral.
 >
 >* Configurar qualquer direcionamento negativo no segmento em [!DNL Comscore] ou [!DNL Grapeshot].
-
 
 **[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Para especificar o direcionamento de dispositivo:
 
@@ -391,21 +398,21 @@ Para especificar o direcionamento de tópico:
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Por padrão, o bloqueia todo o tráfego 100% inválido, incluindo o tráfego em dispositivos de alta conexão, para novos posicionamentos. Taxas adicionais podem ser aplicadas.
+   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Por padrão, o bloqueia todo o tráfego 100% inválido, incluindo o tráfego em dispositivos sequestrados, para novos posicionamentos. Taxas adicionais podem ser aplicadas.
 
-   * **[!UICONTROL Also block sites with]:** (Opcional) Um nível adicional de fraude e tráfego inválido que fará com que o DSP bloqueie anúncios por padrão:  *[!UICONTROL None]* (o padrão, que não bloqueia o tráfego adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Taxas adicionais podem ser aplicadas.
+   * **[!UICONTROL Also block sites with]:** (Opcional) Um nível adicional de fraude e tráfego inválido que faz com que o DSP bloqueie anúncios por padrão:  *[!UICONTROL None]* (o padrão, que não bloqueia o tráfego adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Taxas adicionais podem ser aplicadas.
 
 * [!UICONTROL Peer 39]:
 
-   * **[!UICONTROL Block sites that are]:** (Opcional) Um ou mais tipos de fraude que farão com que o DSP bloqueie anúncios por padrão: *[!UICONTROL Fraud]* (que bloqueia todos os sites com fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, e/ou *[!UICONTROL Fraud: Zero Ads]*. Taxas adicionais podem ser aplicadas.
+   * **[!UICONTROL Block sites that are]:** (Opcional) Um ou mais tipos de fraude que fazem com que o DSP bloqueie anúncios por padrão: *[!UICONTROL Fraud]* (que bloqueia todos os sites com fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, e/ou *[!UICONTROL Fraud: Zero Ads]*. Taxas adicionais podem ser aplicadas.
 
 * [!UICONTROL Integral Ad Science]:
 
-   * **[!UICONTROL Block sites that are]:** (Opcional) Um tipo de atividade suspeita de site ou aplicativo que fará com que o DSP bloqueie anúncios por padrão: *[!UICONTROL None]* (o padrão, que não bloqueia anúncios com base em atividades suspeitas), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Taxas adicionais podem ser aplicadas.
+   * **[!UICONTROL Block sites that are]:** (Opcional) Um tipo de atividade suspeita de site ou aplicativo que faz com que o DSP bloqueie anúncios por padrão: *[!UICONTROL None]* (o padrão, que não bloqueia anúncios com base em atividades suspeitas), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Taxas adicionais podem ser aplicadas.
 
 **[!UICONTROL Ads.txt filtering]:**
 
-Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem pré-oferta a ser usada aproveitando a lista de Vendedores digitais autorizados de cada editor. O padrão no nível do anunciante é selecionado para novos posicionamentos, mas você pode alterar as configurações:
+Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem pré-oferta a ser usada aplicando a lista de Vendedores digitais autorizados de cada editor. O padrão no nível do anunciante é selecionado para novos posicionamentos, mas você pode alterar as configurações:
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: para comprar o inventário de todos os vendedores.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: para priorizar a compra de estoque dos vendedores diretos e revendedores autorizados de um domínio.
@@ -420,12 +427,12 @@ Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem 
 >
 >([!DNL Roku] posicionamentos) Fornecedores de rastreamento de terceiros aprovados por [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], e [!DNL Research Now].
 
-**[!UICONTROL Event Pixels]:** (Opcional) Pixels de rastreamento de eventos de terceiros que serão anexados por padrão a todos os novos anúncios no posicionamento. Para especificar pixels de evento:
+**[!UICONTROL Event Pixels]:** (Opcional) pixels de rastreamento de eventos de terceiros a serem anexados por padrão a todos os novos anúncios no posicionamento. Para especificar pixels de evento:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Siga um destes procedimentos:
    * Para selecionar um pixel existente, marque a caixa de seleção na linha de pixels.
-   * Para criar um novo pixel:
+   * Para criar um pixel:
       1. Clique em **[!UICONTROL Create]**.
       1. Insira as seguintes informações:
          * **[!UICONTROL Pixel name]:** O nome do pixel; o comprimento máximo é de 500 caracteres. Use um nome que ajude a identificar facilmente o pixel.
@@ -435,12 +442,12 @@ Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem 
       1. Clique em **[!UICONTROL Create and attach]**.
    1. Clique em **[!UICONTROL Save]**.
 
-**[!UICONTROL Conversion Pixels]:** (Opcional) Os pixels de rastreamento de conversão que serão anexados por padrão a todos os novos anúncios no posicionamento. Para especificar os pixels de conversão:
+**[!UICONTROL Conversion Pixels]:** (Opcional) Rastreamento de conversão de pixels para anexar por padrão a todos os novos anúncios no posicionamento. Para especificar os pixels de conversão:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Siga um destes procedimentos:
    * Para selecionar um pixel existente, marque a caixa de seleção na linha de pixels.
-   * Para criar um novo pixel:
+   * Para criar um pixel:
       1. Clique em **[!UICONTROL Create]**.
       1. Insira as seguintes informações:
          * **[!UICONTROL Conversion pixel name]:** O nome do pixel; o comprimento máximo é de 500 caracteres. Use um nome que ajude a identificar facilmente o pixel.
@@ -471,4 +478,3 @@ Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem 
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
-

@@ -3,9 +3,9 @@ title: Tipos de relatórios de desempenho em visualizações do Campaign Managem
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ Por padrão, cada linha de campanha inclui métricas de ritmo e entrega. As mét
 
 Você pode continuar [personalizar as tabelas de dados](campaign-data-views-manage.md#data-tables-manage) de formas adicionais e [filtrar os dados visíveis](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 Para exibir uma campanha com mais detalhes, clique no seu nome.
+
+#### Indicadores de alerta
+
+*Recurso beta*
+
+Um &quot;[!UICONTROL Alerts]&quot;a coluna indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. A [!UICONTROL Pulse Panel] O ícone à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir alertas](campaign-alerts.md)&quot; para obter mais informações.
 
 ## Relatórios de campanha única {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ Consulte a [Seção &quot;Exibição de gráfico&quot; sobre métricas entre cam
 
 Em cada guia de entidade, cada linha inclui métricas de ritmo e entrega por padrão, mas você pode [alterar a exibição de coluna](campaign-data-views-manage.md#column-view-change) ou até mesmo [criar uma exibição de coluna personalizada](campaign-data-views-manage.md#column-view-create) para aplicar em todas as subguias da campanha. Você pode continuar [personalizar as tabelas de dados](campaign-data-views-manage.md#data-tables-manage) de formas adicionais. Cada tabela de dados inclui um [!UICONTROL Subtotals] linha, que mostra a soma ou o valor médio de cada métrica em todas as linhas visíveis.
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### Indicadores de alerta
+
+*Recurso beta*
+
+Um &quot;[!UICONTROL Alerts]&quot;A coluna indica quando um pacote, posicionamento ou anúncio — ou qualquer entidade filha em um pacote ou posicionamento — tem um problema. Um &quot;[!UICONTROL Alerts]&quot;a coluna indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. A [!UICONTROL Pulse Panel] O ícone à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir alertas](campaign-alerts.md)&quot; para obter mais informações.
 
 ### Outros tipos de relatórios no nível da campanha
 
@@ -89,3 +93,4 @@ Para outros detalhamentos de dados, exibir [as páginas de relatórios no nível
 >* [Gerenciar As Visualizações De Dados Do Campaign](campaign-data-views-manage.md)
 >* [Exportar dados de uma visualização do Campaign Management](campaign-export-data.md)
 >* [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [Exibir alertas](campaign-alerts.md)

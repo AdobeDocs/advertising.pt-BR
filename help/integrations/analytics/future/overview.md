@@ -1,22 +1,22 @@
 ---
-title: Integrações de publicidade do Adobe com o Adobe Analytics
-description: Saiba mais sobre como a Adobe Advertising pode trocar dados com a Adobe Analytics e como você pode usar os dados no Search, Social e Commerce.
+title: Integrações de Adobe Advertising com o Adobe Analytics
+description: Saiba mais sobre como o Adobe Advertising pode trocar dados com o Adobe Analytics e como você pode usar os dados no Search, Social e Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
+source-git-commit: 78f69587771d9e72eb137f1e0866d782ed5c4d01
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Integrações de publicidade do Adobe com o Adobe Analytics
+# Integrações de Adobe Advertising com o Adobe Analytics
 
-É possível integrar o Adobe Advertising ao Analytics das seguintes maneiras.
+É possível integrar o Adobe Advertising com o Analytics das seguintes maneiras.
 
-## Trocar Dados Entre [!DNL Analytics] e Adobe Advertising
+## Trocar Dados Entre [!DNL Analytics] e ADOBE ADVERTISING
 
-### Puxar [!DNL Analytics] Dados na publicidade do Adobe
+### Puxar [!DNL Analytics] Dados no Adobe Advertising
 
 Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e o DSP puxa:
 
@@ -26,11 +26,11 @@ Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 * **[!DNL Analytics]métricas padrão, personalizadas e reservadas**
 
-### Enviar dados de publicidade do Adobe para [!DNL Analytics]
+### Enviar dados de Adobe Advertising para [!DNL Analytics]
 
-* **Métricas de tráfego da Publicidade de Adobe**
+* **Métricas de tráfego do Adobe Advertising**
 
-* **Dimension da Adobe Advertising**
+* **Dimension do Adobe Advertising**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 <!-- Verify all -->
 
-Dentro de [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] Públicos-alvo de correspondência de clientes do Google provenientes de IDs de usuários que usam sua [!DNL Analytics] segmentos. Isso inclui segmentos do Adobe Analytics publicados no Adobe Experience Cloud e segmentos criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte a ajuda no produto em [!DNL Search, Social, & Commerce].
+Dentro de [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] Públicos-alvo de correspondência de clientes do Google provenientes de IDs de usuários que usam sua [!DNL Analytics] segmentos. Isso inclui segmentos do Adobe Analytics publicados no Adobe Experience Cloud e segmentos criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte &quot;[Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [Públicos-alvo de correspondência do cliente de IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo com base em tags do site, mas uma ID que não seja uma PII é atribuída a membros únicos do público-alvo para obter benefícios distintos em relação à correspondência padrão do cliente e aos públicos-alvo com base em tags do site.
 
@@ -58,4 +58,4 @@ Depois de criar os públicos-alvo, você pode usá-los no [!DNL Google Ads] camp
 
 * (Anunciantes com DSP) Você pode usar seu anúncio existente [!DNL Analytics] segmentos como destinos para seus posicionamentos de anúncios. Opcionalmente, é possível incluir os segmentos em públicos-alvo reutilizáveis, que você pode usar como destinos ou exclusões para vários posicionamentos.
 
-* (Anunciantes com Advertising Creative) Você pode usar sua [!DNL Analytics] segmentos como alvos para criações específicas em suas experiências de anúncio.
+* (Anunciantes com Advertising Creative) Você pode usar seu anúncio existente [!DNL Analytics] segmentos como alvos para criações específicas em suas experiências de anúncio.

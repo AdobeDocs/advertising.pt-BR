@@ -4,7 +4,7 @@ description: Consulte a política para o uso de Universal IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Se você receber uma opção de não participação após os Dados efetivos, nã
 
 Você não pode usar os Serviços para se envolver em discriminação em violação da lei, incluindo direcionar ilegalmente grupos específicos de pessoas para publicidade, excluir ilegalmente grupos específicos de pessoas de ver anúncios ou apresentar conteúdo discriminatório em anúncios. Você é responsável por usar os Serviços de forma responsável para evitar a discriminação contra classes protegidas, incluindo, mas não se limitando a, garantir que seus anúncios não tenham um impacto diferente nas classes protegidas.
 
-## ANEXO A: PAÍSES PROIBIDOS {#prohibited-countries}
+## Anexo A: Países proibidos {#prohibited-countries}
 
 ### Países da UE
 

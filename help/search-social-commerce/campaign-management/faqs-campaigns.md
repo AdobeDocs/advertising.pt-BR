@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++É possível mover campanhas e componentes de uma conta para outra?
 
-Não mova ou copie um componente de campanha ou de campanha, que tem uma ID exclusiva, para uma conta com uma ID de conta diferente. Isso resultará em erros de dados.
+Não mova ou copie um componente de campanha ou de campanha, que tem uma ID exclusiva, para uma conta com uma ID de conta diferente. Isso resulta em erros de dados.
 +++
 
 +++Quando os dados de cliques são atualizados pelas redes de anúncios?
@@ -30,7 +30,7 @@ Além disso, [!DNL Google Ads] as métricas de desempenho no nível da campanha 
 
 >[!NOTE]
 >
->(Anunciantes com portfólios) Espere que o desempenho de novas combinações de palavras-chave e tipos de correspondência seja volátil, enquanto o Search, Social e Commerce reúne dados para criar novos modelos.
+>(Anunciantes com portfólios) Espere que o desempenho de novas combinações de palavras-chave e tipos de correspondência seja volátil, enquanto o Search, Social e Commerce reúne dados para criar modelos para eles.
 
 **As ações no [!UICONTROL Search] > [!UICONTROL Campaigns] exibições, no processo de publicação de bulksheet e no próprio editor de rede de anúncios:**
 
@@ -38,11 +38,11 @@ A palavra-chave ou anúncio existente é excluído e outro é criado quando:
 
 * ([!DNL Baidu], [!DNL Google Ads], e [!DNL Yandex]) Edite um nome de palavra-chave.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
 
 * Você move uma palavra-chave entre grupos de anúncios.
 
-* ([!DNL Google Ads] anúncios de pesquisa dinâmica, [!DNL Microsoft Advertising] anúncios de texto expandidos e todos os tipos de anúncios em outras redes de anúncios suportadas) Edite a cópia de anúncio (título/título ou descrição) ou uma imagem de anúncio.
+* ([!DNL Google Ads] anúncios de pesquisa dinâmica, [!DNL Microsoft® Advertising] anúncios de texto expandidos e todos os tipos de anúncios em outras redes de anúncios suportadas) Edite a cópia de anúncio (título/título ou descrição) ou uma imagem de anúncio.
 
 * Você move um anúncio entre grupos de anúncios.
 
@@ -72,7 +72,7 @@ Se você alterar os nomes de exibição das métricas de conversão no Search, S
 
 +++(Campanhas do Google Ads) É possível usar um orçamento compartilhado para campanhas em portfólios?
 
-Para obter melhores resultados, não adicione [!DNL Google Ads] campanhas para um [!DNL Google Ads] orçamento compartilhado se estiverem em portfólios otimizados configurados para &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Se você fizer isso, [!DNL Google Ads] substitui os orçamentos de campanha otimizados de Pesquisa, Social e Comércio, o que pode levar a ineficiências de oferta.
+Para obter melhores resultados, não adicione [!DNL Google Ads] campanhas para uma [!DNL Google Ads] orçamento compartilhado se estiverem em portfólios otimizados configurados para &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Se você fizer isso, [!DNL Google Ads] substitui os orçamentos de campanha otimizados de Pesquisa, Social e Comércio, o que pode levar a ineficiências de oferta.
 +++
 
 +++([!DNL Google Ads] campanhas) Posso enviar usuários móveis e não móveis para páginas de aterrissagem diferentes?
@@ -99,7 +99,7 @@ Em ambos os casos, os URLs base com rastreamento de Search, Social e Commerce in
 
 [!DNL Google Ads] as métricas de desempenho no nível da campanha na rede de pesquisa do dia atual são extraídas às 08:00 e 16:00 no fuso horário do anunciante.
 
-No [!UICONTROL Campaigns] em ambos os [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e a [!UICONTROL Optimization] > [!UICONTROL Portfolios] exibir, ao criar relatórios sobre [!UICONTROL Today] Para um intervalo de datas personalizado que inclui o dia atual, os dados incluirão os dados obtidos mais recentemente.
+No [!UICONTROL Campaigns] em ambos os [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e a [!UICONTROL Optimization] > [!UICONTROL Portfolios] exibir, ao criar relatórios sobre [!UICONTROL Today] Para um intervalo de datas personalizado que inclui o dia atual, os dados incluem os dados sincronizados mais recentemente.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ No [!UICONTROL Campaigns] em ambos os [!UICONTROL Search] > [!UICONTROL Campaign
 
 +++
 
-+++([!DNL Google Ads] e [!DNL Microsoft Advertising]) O Search, Social e Commerce oferece suporte ao rastreamento paralelo de anúncios no? [!DNL Google Ads] ou [!DNL Microsoft Advertising]?
++++Qual é a diferença entre um modelo de rastreamento e um sufixo de página de destino?
 
-O rastreamento paralelo envia clientes diretamente do seu anúncio para o URL final, e o URL do modelo de rastreamento (com medição de cliques) é carregado em segundo plano. Como resultado, a landing page é carregada mais rapidamente.
+Use um sufixo de página de aterrissagem somente para redes de anúncios que oferecem suporte ao rastreamento paralelo. Em Search, Social e Commerce, os modelos de rastreamento e os sufixos de página de aterrissagem devem incluir um identificador de clique da rede de anúncios, mas os modelos de rastreamento incluem parâmetros de rastreamento adicionais.
 
-O Search, Social e Commerce oferece suporte ao rastreamento paralelo para campanhas de pesquisa e compra usando o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para [!DNL Google Ads]). Use um [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [nível da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (chamado de &quot;[!DNL final URL suffix]&quot; nas redes de publicidade), que são anexadas aos URLs da página inicial para rastrear cliques em anúncios secundários de navegadores que oferecem suporte ao rastreamento paralelo. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Consulte as próximas Perguntas frequentes sobre [suporte de rastreamento paralelo](#parallel-tracking) para obter mais informações sobre como os modelos de rastreamento e os sufixos de página de aterrissagem são carregados quando um usuário clica em um anúncio.
 
-Quando um usuário visualiza seu anúncio em um navegador que não oferece suporte ao rastreamento paralelo, a rede de anúncios usa o rastreamento sequencial: os clientes são enviados primeiro ao URL do modelo de rastreamento, que pode redirecionar os clientes para servidores de rastreamento intermediários antes de redirecioná-los para o URL final. Todos os modelos de rastreamento de uma conta de rede de anúncios devem incluir o mesmo parâmetro de identificador de cliques usado no [!UICONTROL Landing Page Suffix]. Consulte a [formatos de modelo de rastreamento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e a variável [formatos de modelo de rastreamento para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] e [!DNL Microsoft® Advertising]) O Search, Social e Commerce oferece suporte ao rastreamento paralelo de anúncios no? [!DNL Google Ads] ou [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+O rastreamento paralelo envia clientes diretamente do seu anúncio para o URL final, que pode incluir parâmetros anexados de um sufixo de URL final ou &quot;sufixo de página inicial&quot;. O URL do modelo de rastreamento (com parâmetros adicionais para medição de cliques) é carregado separadamente em segundo plano; como resultado, a landing page é carregada mais rapidamente.
+
+O Search, Social e Commerce oferece suporte ao rastreamento paralelo para campanhas de pesquisa e compra usando o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft® Advertising]; `gclid` para [!DNL Google Ads]). Use um [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [nível da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (chamado de &quot;[!DNL final URL suffix]&quot; nas redes de publicidade), que são anexadas aos URLs da página inicial para rastrear cliques em anúncios secundários de navegadores que oferecem suporte ao rastreamento paralelo. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+Quando um usuário visualiza seu anúncio em um navegador que não oferece suporte ao rastreamento paralelo, a rede de anúncios usa o rastreamento sequencial: os clientes são enviados primeiro ao URL do modelo de rastreamento, que pode redirecionar os clientes para servidores de rastreamento intermediários antes de redirecioná-los para o URL final (que pode incluir parâmetros adicionais em um sufixo de página de aterrissagem). Todos os modelos de rastreamento de uma conta de rede de anúncios devem incluir o mesmo parâmetro de identificador de cliques usado no [!UICONTROL Landing Page Suffix]. Consulte a [formatos de modelo de rastreamento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e a variável [formatos de modelo de rastreamento para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Por que os URLs de rastreamento dos meus anúncios incluem &quot;`&EV_HASH={<hash>}`?&quot;
@@ -129,7 +137,7 @@ Depende dos requisitos comerciais do anunciante.
 
 Quando você pausa anúncios, eles são reativados se você reenviar o mesmo anúncio ou o nível de estoque ultrapassar o mínimo. Isso permite que você retenha o histórico do anúncio.
 
-Quando você exclui os anúncios e os reenvia, novos anúncios são criados e os dados históricos precisam ser acumulados. No entanto, se você não espera enviar novamente os anúncios excluídos, ter dados históricos não é importante.
+Quando você exclui anúncios e os reenvia, novos anúncios são criados e os dados históricos precisam ser acumulados para os novos anúncios. No entanto, se você não espera enviar novamente os anúncios excluídos, ter dados históricos não é importante.
 +++
 
 +++(Feeds de inventário de produtos) Se eu excluir um modelo de anúncio e criar um novo e idêntico, faltam itens no próximo arquivo de feed pausado (quando as configurações do arquivo de feed são definidas para isso)?
@@ -150,7 +158,7 @@ Ao enviar dados, os campos de dados para o [!UICONTROL Param1] e [!UICONTROL Par
 
 +++Minhas campanhas geradas por feeds de inventário têm muitas transações órfãs.
 
-Se a variável [configurações de dados de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) são configuradas para excluir anúncios em várias situações e, portanto, quaisquer conversões atrasadas que ocorram após cliques no anúncio podem causar [transações órfãs](/help/search-social-commerce/glossary.md#o-p). A prática recomendada é pausar os anúncios em vez de excluí-los. Se um anúncio ainda não tiver recebido nenhuma receita após um longo período de tempo, você poderá excluí-lo por meio de uma bulksheet ou exibição de gerenciamento de anúncios.
+Se a variável [configurações de dados de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) são configuradas para excluir anúncios em várias situações e, portanto, quaisquer conversões atrasadas que ocorram após cliques no anúncio podem causar [transações órfãs](/help/search-social-commerce/glossary.md#o-p). A prática recomendada é pausar os anúncios em vez de excluí-los. Se um anúncio ainda não tiver recebido nenhuma receita após um longo tempo, é possível excluí-lo por meio de uma bulksheet ou exibição de gerenciamento de anúncios.
 +++
 
 ## Problemas de desempenho relacionados à conta e à campanha

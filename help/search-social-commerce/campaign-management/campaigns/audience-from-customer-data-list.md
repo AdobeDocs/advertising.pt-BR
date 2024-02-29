@@ -1,11 +1,11 @@
 ---
 title: Gerenciar públicos-alvo de correspondência do cliente usando listas de dados do cliente
 description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente.
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços
       1. No [!UICONTROL Select File] clique em **[!UICONTROL Choose File]** e selecione o arquivo na rede ou no dispositivo.
 
       1. Marque a caixa de seleção para indicar que você concorda com os termos da [!DNL Adobe] e políticas de privacidade de rede de anúncios.
+
+      1. (Anunciantes criando [!DNL Google Ads] Públicos-alvo que fazem negócios no Espaço Econômico Europeu (EEE) ou Reino Unido (Reino Unido); opcional) Se você tiver o consentimento protegido de usuários do EEE e do Reino Unido para fazer upload de seus dados para fins de publicidade, marque a caixa de seleção ao lado de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] O ignora quaisquer dados para usuários do EEE e do Reino Unido com um status de consentimento não especificado. Isso pode levar a discrepância de dados e problemas de desempenho.
 
       1. Clique em **[!UICONTROL Upload File]**.
 

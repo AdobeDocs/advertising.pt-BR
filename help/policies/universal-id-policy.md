@@ -4,9 +4,9 @@ description: Consulte a política para o uso de Universal IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
+source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,25 @@ Além dos requisitos estabelecidos abaixo e no Contrato, você deve estar em con
 
 Ao optar por usar as Universal IDs disponibilizadas pelos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda sejam consistentes com as seguintes especificações da Universal ID e com quaisquer outros requisitos desta Política, conforme revisado por [!DNL Adobe] de tempos em tempos.
 
-Os dados do cliente foram coletados por você diretamente de usuários ou licenciados por você de outra parte que (i) coletou os dados do cliente diretamente dos usuários aos quais esses dados se relacionam ou (ii) obteve os dados do cliente por meio de intermediários que obtiveram os dados de outra parte que coletou esses dados do usuário, desde que você possa identificar a parte original que coletou os dados do cliente dos usuários aos quais os dados se relacionam.
+* Os dados do cliente foram coletados por você diretamente de usuários ou licenciados por você de outra parte que (i) coletou os dados do cliente diretamente dos usuários aos quais esses dados se relacionam ou (ii) obteve os dados do cliente por meio de intermediários que obtiveram os dados de outra parte que coletou esses dados do usuário, desde que você possa identificar a parte original que coletou os dados do cliente dos usuários aos quais os dados se relacionam.
 
-Os dados do cliente não foram originados por meio de raspagem na web ou da compra de um banco de dados de uma fonte desconectada da coleção original dos dados.
+* Os dados do cliente não foram originados por meio de raspagem na web ou da compra de um banco de dados de uma fonte desconectada da coleção original dos dados.
 
-Você forneceu todos os avisos e obteve todos os consentimentos necessários para divulgar os Dados do cliente para [!DNL Adobe] seus parceiros para os fins enunciados no Acordo.
+* Você forneceu todos os avisos e obteve todos os consentimentos necessários para divulgar os Dados do cliente para [!DNL Adobe] seus parceiros para os fins enunciados no Acordo.
 
-Os Dados do cliente não estão relacionados a nenhum indivíduo (i) que tenha exercido uma opção que você tenha direta ou indiretamente comprometido a honrar em relação à criação ou ao uso de dados para públicos-alvo direcionados (&quot;Opt Out&quot;), (ii) que você saiba ser um menor (sendo menor de idade, indivíduos com idade inferior à maioridade definida por lei em qualquer jurisdição aplicável), (iii) onde você tenha conhecimento real de que tal indivíduo sofre de uma determinada condição de saúde, ou (iv) que seja residente de qualquer um dos seguintes [Países proibidos incluídos na lista do Anexo A](#prohibited-countries) aqui indicado.
+* Os Dados do cliente não estão relacionados a nenhum indivíduo (i) que tenha exercido uma opção que você tenha direta ou indiretamente comprometido a honrar em relação à criação ou ao uso de dados para públicos-alvo direcionados (&quot;Opt Out&quot;), (ii) que você saiba ser um menor (sendo menor de idade, indivíduos com idade inferior à maioridade definida por lei em qualquer jurisdição aplicável) ou (iii) onde você tenha conhecimento real de que tal indivíduo sofre de uma determinada condição de saúde.
 
-Se você receber uma opção de não participação após os Dados efetivos, não utilizará mais a ID universal desse usuário que se recusou a participar.
+* Se você receber uma opção de não participação após a Data efetiva do contrato, não será mais utilizado o Universal ID desse usuário que se recusou a participar.
+
+### UID2 Países proibidos
+
+Ao optar por usar UID2 Universal IDs por meio dos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda para tal uso em conexão com UID2 Universal IDs não estejam relacionados a nenhum indivíduo que seja residente de qualquer um dos [UID2 Países proibidos listados no Anexo A](#prohibited-countries-uid2) aqui indicado.
 
 ## Sem Discriminação
 
 Você não pode usar os Serviços para se envolver em discriminação em violação da lei, incluindo direcionar ilegalmente grupos específicos de pessoas para publicidade, excluir ilegalmente grupos específicos de pessoas de ver anúncios ou apresentar conteúdo discriminatório em anúncios. Você é responsável por usar os Serviços de forma responsável para evitar a discriminação contra classes protegidas, incluindo, mas não se limitando a, garantir que seus anúncios não tenham um impacto diferente nas classes protegidas.
 
-## Anexo A: Países proibidos {#prohibited-countries}
+## Anexo A: UID2 Países proibidos {#prohibited-countries-uid2}
 
 ### Países da UE
 

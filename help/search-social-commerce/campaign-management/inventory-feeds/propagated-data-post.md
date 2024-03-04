@@ -1,11 +1,11 @@
 ---
 title: Publicar dados de campanha gerados a partir de feeds para redes de anúncios
 description: Saiba como publicar dados gerados a partir de feeds de dados de inventário em redes de anúncios.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Para uma publicação bem-sucedida, todos os grupos de anúncios devem ser atrib
 
               Para especificar uma data, use o formato DD/MM/AAAA ou D/M/AAAA ou clique em [Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para alterar uma hora, insira a hora no formato de 24 horas HH/MM ou H/M ou selecione uma hora (em intervalos de 30 minutos) na lista.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Cria um arquivo de planilha em massa disponível no [!UICONTROL Search] > [!UICONTROL Bulksheets] exibição. É possível postar o arquivo a partir daí.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Cria um arquivo de planilha em massa disponível no [!UICONTROL Search] > [!UICONTROL Bulksheets] exibição. É possível postar o arquivo a partir daí.
 
            Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
 

@@ -3,7 +3,7 @@ title: Publicar dados de campanha gerados a partir de feeds para redes de anúnc
 description: Saiba como publicar dados gerados a partir de feeds de dados de inventário em redes de anúncios.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Para uma publicação bem-sucedida, todos os grupos de anúncios devem ser atrib
 
             * **[!UICONTROL End Time]:** Uma data e hora futuras em que os anúncios publicados poderão ser pausados ou excluídos com base no [configuração de dados de feed](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Por padrão, a hora de término é às 00:00 (12:00), 30 dias a partir de hoje. Selecionar **[!UICONTROL None]** para manter os dados ativos indefinidamente (ou até que você propague novos dados para o modelo), ou especifique uma data e hora.
 
-              Para especificar uma data, use o formato DD/MM/AAAA ou D/M/AAAA ou clique em [Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para alterar uma hora, insira a hora no formato de 24 horas HH/MM ou H/M ou selecione uma hora (em intervalos de 30 minutos) na lista.
+              Para especificar uma data, use o formato DD/MM/AAAA ou D/M/AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para alterar uma hora, insira a hora no formato de 24 horas HH/MM ou H/M ou selecione uma hora (em intervalos de 30 minutos) na lista.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Cria um arquivo de planilha em massa disponível no [!UICONTROL Search] > [!UICONTROL Bulksheets] exibição. É possível postar o arquivo a partir daí.
 

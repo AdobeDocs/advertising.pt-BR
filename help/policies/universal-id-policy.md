@@ -4,7 +4,7 @@ description: Consulte a política para o uso de Universal IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-Última atualização: 1 de março de 2024
+Última atualização: 29 de fevereiro de 2024
 
 Esta Política de requisitos da Universal ID (&quot;Política&quot;) define os requisitos para o uso de Universal IDs em conexão com anúncios distribuídos via [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Serviços&quot;). Esta política é incorporada por referência no Acordo entre a [!DNL Adobe] e o Cliente (&quot;você&quot;) que utiliza os On-demand Services. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
 

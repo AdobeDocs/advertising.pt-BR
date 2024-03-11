@@ -3,9 +3,9 @@ title: Parceiros certificados de veiculação de anúncios
 description: Consulte todos os servidores de anúncios e unidades de anúncios certificados.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 863716dab22ace19c7752ac6cb8cc10948b093c2
+source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!DNL PLAYGROUND XYZ] | | | X | | |
 | [!DNL Pubmatic] | | | | X | Somente VAST |
 | [!DNL RevJet] | | | | X | Somente VAST |
-| [!DNL Seedtag] | | X | | | |
+| [!DNL Seedtag] | | X | X | | |
 | [!DNL Sizmek] | X | X | | X | OLV e CTV</br></br>Para que as tags sejam renderizadas na interface do usuário, envolva a tag com `<a>` tags (no início e no fim). Consulte a tag de exemplo abaixo:</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
 | [!DNL Spirable] | | X | | | |

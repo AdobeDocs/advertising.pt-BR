@@ -3,9 +3,9 @@ title: Pré-requisitos e informações-chave para implementação do [!DNL Analy
 description: Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
    * Serviço de identidade Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
 * Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
+* (Clientes de publicidade DSP) Uma [Anunciando trecho JavaScript do DSP](javascript.md) implantado em suas páginas da web para rastrear visitas de view-through.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Entre em contato com a equipe de conta do Adobe para obter os ambientes de anún
 
 * A integração passa somente pelo [!DNL Analytics] eventos padrão e personalizados para o Adobe Advertising para otimização de oferta de mídia paga e esforços de publicidade subsequentes. Não passa [!DNL Analytics] segmentos, métricas calculadas e [!DNL eVars] para Adobe Advertising para otimização de oferta.
 
-* O Adobe Advertising cria IDs persistentes no [!DNL Analytics] com base no último anúncio clicado ou exibido antes que o usuário entre no site, com base no [janelas de retrospectiva de click-through e view-through](#lookback-a4adc) configurado no Adobe Advertising. Se um visitante do site tiver ambos os tipos de interações de entrada no site em seu perfil e o clique estiver dentro do período de lookback, a ID de click-through do visitante substituirá a ID de view-through para relatórios do site.
+* O Adobe Advertising cria IDs persistentes no [!DNL Analytics] com base no último anúncio clicado ou exibido antes que o usuário entre no site, com base no [janelas de retrospectiva de click-through e view-through](#lookback-a4adc) configurado no Adobe Advertising. Se um visitante do site tiver ambos os tipos de interações de entrada de site em seu perfil e o clique estiver dentro do período de lookback, a ID de click-through do visitante substituirá a ID de view-through para relatórios do site.
 
 * [!DNL Analytics for Advertising] o rastreamento de conversão no Adobe Analytics usa uma janela de pesquisa de rastreamento configurável (60 dias por padrão). Os relatórios de Adobe Advertising refletem conversões e engajamento do site até o final desta janela de retrospectiva de rastreamento.
 

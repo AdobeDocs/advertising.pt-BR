@@ -3,7 +3,7 @@ title: Editar cronogramas de publicidade para inserções
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ ht-degree: 0%
 
 1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. Siga um destes procedimentos:
+1. Siga um destes procedimentos:
 
-      * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data inicial e a data final.
+   * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data inicial e a data final.
 
-      * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
+   * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
 
-      * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
+   * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
 
       * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações de voo e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
 
         Os pesos totais devem ser iguais a 100.
 
-   1. No canto superior direito, clique em **[!UICONTROL Continue]**.
+1. No canto superior direito, clique em **[!UICONTROL Continue]**.
 
-   1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
+1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >

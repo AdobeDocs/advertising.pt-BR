@@ -3,9 +3,9 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Uso de filtragem contextual, bloqueio pré-oferta de fraudes e/ou [!UICONTROL Ad
 
 ## Etapa 5 - Usar os ativos de criação certos
 
-* A prática recomendada é incluir o máximo possível de tamanhos de anúncio únicos para maximizar o alcance. O modelo de exibição universal permite fazer upload de qualquer tamanho de anúncio de exibição padrão.
-* Verifique se todos os posicionamentos contêm *pelo menos* todos os tamanhos de anúncios de exibição principal (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
+* A prática recomendada é incluir o máximo possível de tamanhos de anúncio únicos para maximizar o alcance. O modelo de exibição universal permite fazer upload de qualquer tamanho de anúncio de exibição padrão.
+* Verifique se todos os posicionamentos contêm *pelo menos* todos os tamanhos de anúncios de exibição principal (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
 * Atualizar criações com frequência para evitar fadiga criativa.
 
 >[!MORELIKETHIS]

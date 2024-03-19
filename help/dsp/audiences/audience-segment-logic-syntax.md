@@ -3,7 +3,7 @@ title: Sintaxe da lógica do segmento de público-alvo
 description: Faça referência à sintaxe que pode ser usada para definir a lógica dos segmentos de público-alvo.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Ao criar públicos-alvo reutilizáveis, você pode definir manualmente a lógica
 >
 >* Todos os grupos de segmentos especificados são incluídos, a menos que sejam precedidos por ! (o que os exclui).
 >* Você pode [encontrar a ID de segmento para um público-alvo](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
-
 
 Por exemplo, a seguinte lógica:
 
@@ -48,4 +47,3 @@ significa (em inglês simples)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Configurações de público](audience-settings.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
-

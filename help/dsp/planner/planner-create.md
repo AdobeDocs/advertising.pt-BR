@@ -2,16 +2,15 @@
 title: Criar um plano de alcance de TV conectado
 description: Saiba como criar um plano de alcance de TV conectado.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 # Criar um plano de alcance de TV conectado
-
-*Recurso beta*
 
 1. No menu principal, clique em **[!UICONTROL Planner]**.
 

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 20 de março de 2024 | Planejador | A nova ferramenta de planejamento não está mais no modo beta. | Consulte &quot;[Sobre a ferramenta Planejador DSP](/help/dsp/planner/planner-about.md).&quot; |
 | 21 de fevereiro de 2024 | [!UICONTROL Alerts] para [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads], e [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] ícone no [!UICONTROL Campaigns], [!UICONTROL Packages] e detalhes do pacote, [!UICONTROL Placements], e [!UICONTROL Ads] exibições indica se algum alerta está disponível para itens na exibição. Você pode abrir o painel para exibir cada alerta e, opcionalmente, abrir a exibição aplicável (por exemplo, a variável [!UICONTROL Placements] exibir com o posicionamento aplicável listado) para que você possa editar as configurações conforme necessário para resolver o problema. Opcionalmente, também é possível ignorar qualquer alerta.<br><br>Além disso, a [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], e [!UICONTROL Ads] as visualizações incluem um &quot;[!UICONTROL Alerts]&quot;coluna que indica quando um item ou qualquer um de seus componentes tem um problema.<br><br>Os alertas estão disponíveis nos níveis de campanha, pacote, posicionamento, anúncio e negociação. | Consulte &quot;[Exibir alertas e notificações](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
 |  | [!UICONTROL Placements] | Novas configurações de posicionamento permitem especificar a) um orçamento de posicionamento mínimo para substituir a alocação de orçamento no nível do pacote sempre que houver orçamento suficiente disponível e b) substituir o algoritmo de preço de oferta para oferecer pelo menos os preços fixos e mínimos para negociações:<ul><li>Nas configurações para inserções que pertencem a pacotes, agora é possível especificar um orçamento mínimo como uma porcentagem do orçamento do pacote. Para usar o recurso, selecione a opção de financiamento de posicionamento para &quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (antigo &quot;[!UICONTROL Set a fixed budget cap]&quot;). Você ainda pode inserir um [!UICONTROL Maximum Budget] em USD (como você poderia antes para o limite de orçamento) e também pode inserir um [!UICONTROL Minimum Budget] como uma porcentagem do orçamento do pacote. Para inserções existentes, as configurações existentes são mantidas usando os novos nomes de campo.</li><li>No [!UICONTROL Inventory Targeting] configurações, uma nova opção para [!UICONTROL On Demand] o inventário e o inventário privado permitem &quot;[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | Consulte &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 7 de fevereiro de 2024 | [!UICONTROL Placements] e [!UICONTROL Ads] | A variável [!UICONTROL Ads Tool] O agora tem um filtro de pacote. | Consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |

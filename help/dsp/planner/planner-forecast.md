@@ -2,16 +2,15 @@
 title: Regenerar a Previsão para um Plano de Alcance de TV Conectada
 description: Saiba como criar uma nova previsão para um plano de alcance de TV conectado.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Regenerar a Previsão para um Plano de Alcance de TV Conectada
-
-*Recurso beta*
 
 Você pode gerar novamente a previsão para um plano de alcance de TV conectado com base nos dados observados mais recentes.
 

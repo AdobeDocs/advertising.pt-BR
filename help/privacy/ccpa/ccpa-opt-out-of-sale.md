@@ -4,9 +4,9 @@ description: Saiba mais sobre o suporte para capturar solicitações de cancelam
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 
    Você deve implantar a biblioteca na página da Web a partir da qual seus clientes podem enviar solicitações de cancelamento de venda, como o portal de privacidade da sua empresa. A biblioteca ajuda a recuperar cookies de Adobe (ID do namespace: `gsurferID`) para que você possa enviar essas identidades como parte de solicitações de cancelamento de venda por meio da API do Adobe Experience Platform Privacy Service.
 
-1. Identifique a ID da organização Experience Cloud e verifique se ela está vinculada às contas Adobe Advertising.
+1. Identifique a ID da organização do Experience Cloud e verifique se ela está vinculada às suas contas do Adobe Advertising.
 
-   Uma ID de organização Experience Cloud é uma sequência de 24 caracteres alfanuméricos anexada com &quot;@AdobeOrg&quot;. Uma ID de organização foi atribuída à maioria dos clientes do Experience Cloud. Se a equipe de marketing ou o administrador interno do sistema Adobe não souber a ID da organização ou não tiver certeza se ela foi provisionada, entre em contato com o Atendimento ao cliente da Adobe em gdprsupport@adobe.com. Você precisará da ID da organização para enviar solicitações à API de privacidade usando o `imsOrgID` namespace.
+   Uma ID de organização Experience Cloud é uma sequência de 24 caracteres alfanuméricos anexada com &quot;@AdobeOrg&quot;. Uma ID de organização foi atribuída à maioria dos clientes do Experience Cloud. Se a sua equipe de marketing ou o administrador interno do sistema Adobe não souber a ID da organização ou não tiver certeza se ela foi provisionada, entre em contato com a equipe de conta da Adobe. Você precisará da ID da organização para enviar solicitações à API de privacidade usando o `imsOrgID` namespace.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 
    >[!NOTE]
    >
-   Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
+   >Se sua empresa tiver várias IDs de organização de Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), com uma conta por subsolução.
 
 Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando o Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ O Adobe Advertising gera relatórios mensais de IDs que os clientes enviaram par
 
 ### Método 2: recuperar relatórios de cancelamento de venda do consumidor usando o DSP do anúncio [!DNL Trafficking API]
 
-Esse recurso está disponível para organizações que usam o [!DNL Trafficking API]. Consulte a documentação do [!DNL Trafficking API] para obter mais informações.
+Esse recurso está disponível para organizações que usam o [!DNL Trafficking API]. Consulte a documentação do [!DNL Trafficking API] para obter mais informações.<!-- Add link to API doc once it's published. -->
 
 Se sua organização não usar o [!DNL Trafficking API] mas tiver interesse em mais informações, entre em contato com a equipe de conta da Adobe.
 

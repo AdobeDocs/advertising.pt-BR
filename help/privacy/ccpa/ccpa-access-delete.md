@@ -4,7 +4,7 @@ description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Todas essas etapas são necessárias para receber suporte do Adobe Advertising. 
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (que indica a [!DNL adcloud] espaço do cookie)
+   * `"namespace": **411**` (que indica a [!DNL adCloud] espaço do cookie)
 
    * `"value":` &lt;*o valor real da ID do cookie do cliente conforme recuperado de`AdobePrivacy.js`*>
 

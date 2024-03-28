@@ -4,7 +4,7 @@ description: Saiba mais sobre o suporte para capturar solicitações de cancelam
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
+source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -121,17 +121,17 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "AdCloud",
+            "namespace": "adCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
     ],
-    "include": ["AdCloud"],
+    "include": ["adCloud"],
     "regulation": "ccpa"
 }'
 ```
 
 em que:
 
-* `"namespace": "AdCloud"` indica o `AdCloud` espaço de cookie, e o valor correspondente é a ID do cookie do cliente, conforme recuperada do `AdobePrivacy.js`
-* `"include": ["AdCloud"]` indica que a solicitação se aplica ao Adobe Advertising
+* `"namespace": "adCloud"` indica o `adCloud` espaço de cookie, e o valor correspondente é a ID do cookie do cliente, conforme recuperada do `AdobePrivacy.js`
+* `"include": ["adCloud"]` indica que a solicitação se aplica ao Adobe Advertising

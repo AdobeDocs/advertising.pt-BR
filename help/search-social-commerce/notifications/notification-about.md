@@ -1,11 +1,11 @@
 ---
 title: Sobre notificações
 description: Saiba mais sobre notificações, incluindo os diferentes tipos e categorias.
-exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -44,25 +44,11 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [tarefas de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), tarefas de edição em massa na tabela de dados ou usando a barra de ferramentas, tarefas de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualquer entidade, atribuindo uma campanha a um portfólio e atribuindo ou desatribuindo uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
-
    * **[!UICONTROL Bulksheets]**: notificações de que um [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Manager Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são para a configuração correta de funções críticas.
+   * **[!UICONTROL Manager Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessários para a configuração correta de funções críticas.
 
-  <!--
-  * [!UICONTROL Setup Errors]
-  
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
-    
-    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
-  -->
-
-   * [!UICONTROL Network Errors]
-
-      * **[!UICONTROL Manager Account Auth Error]**: notificações que o Search, Social e Commerce não conseguiram sincronizar com um [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
-
-      * **[!UICONTROL Account Auth Error]**: notificações de que o Search, Social e Commerce não conseguiram acessar um [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+   * **[!UICONTROL UI Actions]**: notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [tarefas de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), tarefas de edição em massa na tabela de dados ou usando a barra de ferramentas, tarefas de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualquer entidade, atribuindo uma campanha a um portfólio e atribuindo ou desatribuindo uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -70,22 +56,51 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
       * **[!UICONTROL File Upload to Cloud Storage]**: usado para um beta fechado
 
-<!--
-* [!UICONTROL Optimization]
--->
+   * [!UICONTROL Network Errors]
+
+      * **[!UICONTROL Account Auth Error]**: notificações de que o Search, Social e Commerce não conseguiram acessar um [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+
+      * **[!UICONTROL Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+      * **[!UICONTROL Manager Account Auth Error]**: notificações que o Search, Social e Commerce não conseguiram sincronizar com um [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+
+  <!--
+  * [!UICONTROL Setup Errors]
+  
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
+  -->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**: notificações que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionados para um modelo de alerta.
+   * **[!UICONTROL Advertising Insights]**: notificações que [um [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Custom Alerts]**: notificações que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionados para um modelo de alerta.
 
    * **[!UICONTROL Reports]**: notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Advertising Insights]**: notificações que [um [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Spreadsheet Feeds]**: notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
+
+<!--
+* [!UICONTROL Optimization]
+
+  * **[!UICONTROL Accuracy]**: 
+
+-->
+
+<!--
+* [!UICONTROL Portfolio Management]
+
+  * **[!UICONTROL Simulation Report]**: 
+
+-->
 
 <!--
 * [!UICONTROL System]
+
+  * **[!UICONTROL Change Management]**: 
+
 -->
 
 >[!MORELIKETHIS]

@@ -2,7 +2,7 @@
 title: Soluções de medição avançada
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
+source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
    * **Acesso com base em pessoas entre ID**
 
-     Quantifique o alcance exclusivo e a sobreposição entre cookies e RampIDs, bem como o custo por métricas por tipo de ID. Comprove a eficácia do teste de RampIDs ao encontrar alcance incremental relativo a segmentos baseados em cookies em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
+     Quantifique o alcance exclusivo e a sobreposição entre cookies e RampIDs, bem como o custo por métrica por tipo de ID. Comprove a eficácia do teste de RampIDs ao encontrar alcance incremental relativo a segmentos baseados em cookies em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
 * **[!DNL Dynata]Pesquisas baseadas em painel**
 

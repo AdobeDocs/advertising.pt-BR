@@ -3,7 +3,7 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Além disso, use as configurações a seguir.
 
 * **Orçamento:** O DSP sempre tentará alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
 
-* **Metas de otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest ROAS]* ou *[!UICONTROL Lowest CPA]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
+* **Metas de otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
 
 * **Metas personalizadas:**
    * Se um novo pacote tiver o mesmo objetivo de um pacote existente, você poderá, opcionalmente, vincular o pacote existente para que o algoritmo possa usar os dados existentes de aprendizado de máquina.

@@ -2,9 +2,9 @@
 title: Soluções de medição avançada
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
   Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
-* **Acesso com base em pessoas entre ID**
+   * **Acesso com base em pessoas entre ID**
 
-  Quantifique o alcance exclusivo e a sobreposição entre cookies e RampIDs, bem como o custo por métricas por tipo de ID. Comprove a eficácia do teste de RampIDs ao encontrar alcance incremental relativo a segmentos baseados em cookies em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
+     Quantifique o alcance exclusivo e a sobreposição entre cookies e RampIDs, bem como o custo por métricas por tipo de ID. Comprove a eficácia do teste de RampIDs ao encontrar alcance incremental relativo a segmentos baseados em cookies em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
 * **[!DNL Dynata]Pesquisas baseadas em painel**
 
@@ -76,10 +76,6 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
    * Medição de alcance, frequência e conversão com base na família
 
      Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais
-
-   * Acesso com base em pessoas entre ID
-
-     Qualquer cliente que queira quantificar o alcance único e a sobreposição entre cookies e RampIDs e o custo por métrica por tipo de ID em várias táticas digitais
 
    * Medição de alcance, frequência e conversão entre telas
 

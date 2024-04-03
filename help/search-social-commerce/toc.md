@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + Grupos de produtos {#product-groups}
             + [Sobre grupos de produtos](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [Gerenciar grupos de produtos](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Configurações do grupo de produtos do Google Ads](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Configurações do grupo de produtos Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] configurações do grupo de produtos](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] configurações do grupo de produtos](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + Posicionamentos {#placements}
             + [Sobre posicionamentos](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)

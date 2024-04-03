@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft Advertising] configurações do grupo de publicidade'
-description: Referenciar as configurações de [!DNL Microsoft Advertising] grupos de publicidade.
+title: '[!DNL Microsoft® Advertising] configurações do grupo de publicidade'
+description: Referenciar as configurações de [!DNL Microsoft® Advertising] grupos de publicidade.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] configurações do grupo de publicidade
+# [!DNL Microsoft® Advertising] configurações do grupo de publicidade
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Anúncios de pesquisa) Como e onde colocar anúncios no grupo de anúncios:
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (o padrão): Para fazer ofertas de anúncios na rede de pesquisa.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (o padrão): Para fazer ofertas de anúncios na rede de pesquisa.
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Para fazer lances para anúncios em sites de parceiros sindicalizados.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Para fazer lances para anúncios em sites de parceiros sindicalizados.
 
 * *[!UICONTROL Content network]:* Obsoleto
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Para [!DNL Microsoft Advertising] grupos de anúncios na rede de público-alvo, os modificadores de oferta para públicos-alvo de localização não são otimizados em portfólios padrão com o &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Para [!DNL Microsoft® Advertising] grupos de anúncios na rede de público-alvo, os modificadores de oferta para públicos-alvo de localização não são otimizados em portfólios padrão com o &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ Para [!DNL Microsoft Advertising] grupos de anúncios na rede de público-alvo, 
 
 **[!UICONTROL Negative Websites]:** (Campanhas somente na exibição/rede nativa; opcional) Sites na rede de exibição na qual você não deseja que seus anúncios sejam exibidos. Insira um URL válido, como www.example.com. Para especificar várias cadeias de caracteres, separe-as com vírgulas ou insira-as em linhas separadas.
 
-Para obter informações sobre a disponibilidade, consulte a ajuda da Microsoft Advertising em &quot;[Impedir a exibição de anúncios em sites específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Para obter informações sobre disponibilidade, consulte [!DNL Microsoft® Advertising] ajuda para &quot;[Impedir a exibição de anúncios em sites específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

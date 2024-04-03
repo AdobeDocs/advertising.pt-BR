@@ -2,9 +2,9 @@
 title: Soluções de medição avançada
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
+source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -25,37 +25,43 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
 * **Alcance, frequência e conversões com base na família**
 
-   Entenda o alcance total da campanha em um nível doméstico, bem como a contribuição de telas individuais. As opções de relatório incluem:
+  Entenda o alcance total da campanha em um nível doméstico, bem como a contribuição de telas individuais. As opções de relatório incluem:
 
+   * Tempo Médio para Conversão
+   * Frequência para conversão
    * Relatórios da TV Conectada (CTV)
    * Incrementalidade de aplicativo CTV
    * Relatórios entre telas (Digital e CTV)
    * Relatórios do Cross-Screen Plus (Digital, CTV e TV)
    * Alcance e frequência do segmento interno digital
 
-* **Alcance com base em pessoas**
+* **Alcance e conversões com base em pessoas**
 
-   Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
+  Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
+
+* **Acesso com base em pessoas entre ID**
+
+  Quantifique o alcance exclusivo e a sobreposição entre cookies e RampIDs, bem como o custo por métricas por tipo de ID. Comprove a eficácia do teste de RampIDs ao encontrar alcance incremental relativo a segmentos baseados em cookies em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
 * **[!DNL Dynata]Pesquisas baseadas em painel**
 
-   Fazer pesquisas de controle/exposição para determinar o efeito da exposição dos anúncios em métricas como percepção, familiaridade e intenção.
+  Fazer pesquisas de controle/exposição para determinar o efeito da exposição dos anúncios em métricas como percepção, familiaridade e intenção.
 
 * **Tráfego de pé**
 
-   Entenda a incrementalidade orientada pela exposição ao anúncio e como o investimento em mídia está causando alteração no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
+  Entenda a incrementalidade orientada pela exposição ao anúncio e como o investimento em mídia está causando alteração no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
 
 * **Insights da transação**
 
-   Enriqueça sua estratégia de campanha com dados de vendas determinísticos de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
+  Enriqueça sua estratégia de campanha com dados de vendas determinísticos de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
 
 * **Medição da transação**
 
-   Determine a influência da exposição do anúncio nas vendas usando dados de vendas de crédito e débito robustos e determinísticos.
+  Determine a influência da exposição do anúncio nas vendas usando dados de vendas de crédito e débito robustos e determinísticos.
 
 * **Designer de experimentos (teste A/B)**
 
-   Compare o comportamento e o sentimento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
+  Compare o comportamento e o sentimento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
 
 ## Encontrando o ajuste de medição perfeito: Soluções por vertical
 
@@ -63,21 +69,25 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
    * Designer de experimentos (teste A/B e placebo)
 
-   * Alcance com base em pessoas
+   * Alcance e conversões com base em pessoas
 
-      Qualquer organização que busque medir em várias táticas digitais; organizações que buscam mostrar o valor do áudio
+     Qualquer organização que busque medir em várias táticas digitais; organizações que buscam mostrar o valor do áudio
 
    * Medição de alcance, frequência e conversão com base na família
 
-      Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais
+     Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais
+
+   * Acesso com base em pessoas entre ID
+
+     Qualquer cliente que queira quantificar o alcance único e a sobreposição entre cookies e RampIDs e o custo por métrica por tipo de ID em várias táticas digitais
 
    * Medição de alcance, frequência e conversão entre telas
 
-      Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais relativas ao investimento em TV linear
+     Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais relativas ao investimento em TV linear
 
    * Pesquisas com base em painel do Dynamic Data
 
-      Qualquer cliente que busque medir a percepção e a percepção da marca em várias telas; mais adequado para públicos-alvo de nicho
+     Qualquer cliente que busque medir a percepção e a percepção da marca em várias telas; mais adequado para públicos-alvo de nicho
 
 * **QSR, Varejo (Tijolo e Argamassa):**
 
@@ -89,7 +99,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
    * Insights da transação
 
-      Qualquer cliente que queira alcançar um tipo específico de comprador para impulsionar as vendas on-line e na loja
+     Qualquer cliente que queira alcançar um tipo específico de comprador para impulsionar as vendas on-line e na loja
 
 ## Mais Informações
 

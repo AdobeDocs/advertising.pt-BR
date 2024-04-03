@@ -3,9 +3,9 @@ title: Criar uma meta personalizada
 description: Criar uma meta personalizada
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
 
       1. Na parte inferior das configurações, clique em **[!UICONTROL Save]**.
 
-Depois de criar um objetivo, você pode atribuí-lo a um pacote DSP como uma meta personalizada quando a meta de otimização terminar com &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;).
+Depois de criar um objetivo, você pode atribuí-lo a um pacote DSP como uma meta personalizada quando a meta de otimização for &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot;
 
 >[!TIP]
 >

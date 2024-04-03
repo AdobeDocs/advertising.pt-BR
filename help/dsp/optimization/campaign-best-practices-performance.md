@@ -3,9 +3,9 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as segui
 
 ## Etapa 1 - Definir A Meta
 
-É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho [metas de otimização](/help/dsp/optimization/optimization-goals.md) que terminam com &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada pacote na campanha, você especificará a meta de otimização de acordo.
+É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm o [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada pacote na campanha, você especificará a meta de otimização de acordo.
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 

@@ -3,9 +3,9 @@ title: Práticas recomendadas para a criação de uma meta personalizada
 description: Conheça as práticas recomendadas para criar metas personalizadas para definir seus eventos de sucesso.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Os exemplos a seguir mostram como você pode configurar metas que têm como alvo uma única métrica de conversão.
 
-### Exemplo de uma campanha com &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Meta de otimização
+### Exemplo de uma campanha com &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Meta de otimização
 
-Se a meta da campanha for receita ([!UICONTROL Highest ROAS - Custom Goal]), então sua meta personalizada (objetivo) incluirá a &quot;[!UICONTROL Revenue]&quot; com um peso de um (1).
+Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]), então sua meta personalizada (objetivo) incluirá a &quot;[!UICONTROL Revenue]&quot; com um peso de um (1).
 
 ![exemplo de uma meta personalizada de ROAS com uma única métrica de conversão](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ Se a meta da campanha for receita ([!UICONTROL Highest ROAS - Custom Goal]), ent
 >
 > Por exemplo, uma conversão de $250 com um peso de um é relatada como $250. Se um peso de 0,5 for atribuído à métrica de conversão, a conversão de US$ 250 será relatada como US$ 125 em Adobe Advertising (conversão de US$ 250 * 0,5) [!UICONTROL Property Weight] = US$ 125).
 
-### Exemplo de uma campanha com &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Meta de otimização
+### Exemplo de uma campanha com &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Meta de otimização
 
 Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido, você incluirá essa métrica (no exemplo a seguir, &quot;Envio de aplicativo&quot;). A prática recomendada é definir o peso como um (1).
 

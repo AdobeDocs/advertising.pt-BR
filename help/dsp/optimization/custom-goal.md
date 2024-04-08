@@ -2,9 +2,9 @@
 title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
 
 Nas configurações de pacote do DSP para pacotes que usam a meta de otimização&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; o nome do objetivo agora é incluído na variável [!UICONTROL Custom Goals] lista. Ao selecionar o objetivo como meta personalizada para um pacote, a variável [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
 
-## Práticas recomendadas para a criação de uma meta personalizada [#custom-goal-best-practices]
+## Práticas recomendadas para a criação de uma meta personalizada {#custom-goal-best-practices}
 
 ### Metas personalizadas com uma única métrica
 

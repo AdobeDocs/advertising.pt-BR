@@ -3,9 +3,9 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Para pacotes com configuração personalizada, o intervalo do orçamento é semp
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; (somente metas de otimização) Instrui o modelo de otimização a aprender somente com conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
 
-**[!UICONTROL Conversion Metric]:** (Opcional; pacotes com &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente metas de otimização) O evento de conversão final (como inscrições) ou o valor de evento/venda de receita (como compras e valores de compra) a ser usado para calcular o retorno do investimento em anúncios ou o custo por aquisição. Selecione de uma lista de todos os eventos mapeados para a meta personalizada selecionada.
+**[!UICONTROL Conversion Metric]:** (Opcional; pacotes com &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente metas de otimização) O evento de conversão final (como inscrições) ou o valor de evento/venda de receita (como compras e valores de compra) a ser usado para calcular o retorno do investimento em anúncios ou o custo por aquisição. Selecione em uma lista de todos os eventos principais (&quot;métricas de meta&quot;) mapeados para a meta personalizada selecionada. Se a lista estiver vazia, edite a meta personalizada para incluir pelo menos um dos eventos subjacentes como uma métrica de meta.
 
 **[!UICONTROL Package Goal Type]:** (Pacotes somente com metas de otimização personalizadas) A finalidade do pacote. Esta configuração ajuda a determinar como otimizar o pacote:
 

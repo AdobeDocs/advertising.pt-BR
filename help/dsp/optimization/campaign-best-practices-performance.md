@@ -3,7 +3,7 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
+source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -26,7 +26,7 @@ O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as segui
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
-Você também precisa determinar os eventos bem-sucedidos que levarão à meta geral e criar metas personalizadas de acordo. Para cada pacote, você especificará uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe Sensei]. Para obter mais informações sobre como criar metas personalizadas, consulte a [Práticas recomendadas para a criação de uma meta personalizada](custom-goal-best-practices.md).
+Você também precisa determinar os eventos bem-sucedidos que levarão à meta geral e criar metas personalizadas de acordo. Para cada pacote, você especificará uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe Sensei]. Para obter mais informações sobre como criar metas personalizadas, consulte a [Práticas recomendadas para a criação de uma meta personalizada](custom-goal.md#custom-goal-best-practices).
 
 ![metas personalizadas](/help/dsp/assets/objective-goals.png)
 

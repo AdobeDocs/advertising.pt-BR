@@ -3,9 +3,9 @@ title: Colunas de Relatório Disponíveis
 description: Consulte descrições de colunas disponíveis em relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: cfc680030bb14c4a283735a4315fe11955c270e0
+source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | A porcentagem de impressões visualizáveis de todas as impressões mensuráveis, calculada como <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | O número de impressões de anúncios consideradas visíveis. |
 | [!UICONTROL Conversion Metrics] | [Agrupado pelo anunciante nas configurações do relatório] | [Conversão específica do anunciante] | O total de uma métrica de conversão específica do anunciante ou evento do Adobe Analytics. |
-| [!UICONTROL Custom Goals] | [Agrupado pelo anunciante nas configurações do relatório] | [Meta personalizada específica do anunciante] | A soma ponderada de todas as conversões incluídas na variável especificada [meta personalizada](/help/dsp/optimization/custom-goal-about.md). |
+| [!UICONTROL Custom Goals] | [Agrupado pelo anunciante nas configurações do relatório] | [Meta personalizada específica do anunciante] | A soma ponderada de todas as conversões incluídas na variável especificada [meta personalizada](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

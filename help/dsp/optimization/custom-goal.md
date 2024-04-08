@@ -2,7 +2,7 @@
 title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
       >* [!DNL Analytics] os eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
       >* [!DNL Analytics] dimensões e segmentos não estão disponíveis para otimização de Adobe Advertising.
 
-Nas configurações de pacote do DSP para pacotes que usam a meta de otimização&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; o nome do objetivo agora é incluído na variável [!UICONTROL Custom Goals] lista. Ao selecionar o objetivo como meta personalizada para um pacote, a variável [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
+      >[!TIP]
+      >
+      >Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para a criação de uma meta personalizada](#custom-goal-best-practices) para obter diretrizes.
 
->[!TIP]
->
->Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para a criação de uma meta personalizada](custom-goal-best-practices.md) para obter diretrizes.
+Nas configurações de pacote do DSP para pacotes que usam a meta de otimização&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; o nome do objetivo agora é incluído na variável [!UICONTROL Custom Goals] lista. Ao selecionar o objetivo como meta personalizada para um pacote, a variável [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
 
 ## Práticas recomendadas para a criação de uma meta personalizada [#custom-goal-best-practices]
 

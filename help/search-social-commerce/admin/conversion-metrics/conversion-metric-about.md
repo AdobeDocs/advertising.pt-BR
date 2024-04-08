@@ -2,8 +2,8 @@
 title: Sobre o gerenciamento das métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
+source-git-commit: c3c864a838b5d7efca523ba8b35a5a3db47f71b8
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +16,7 @@ A variável [conversão](/help/search-social-commerce/glossary.md#c-d) métricas
 
 * Em Pesquisa, Social e Comércio, você pode usar suas métricas de conversão para criar objetivos, que são usados para otimizar portfólios. Além disso, os dados para as métricas de conversão podem ser exibidos em colunas nas visualizações de gerenciamento de campanhas e portfólios e nos relatórios.
 
-* No Advertising DSP, você pode usar métricas de conversão para [criar metas personalizadas](/help/dsp/optimization/custom-goal-create.md), que são usados para otimizar pacotes.
+* No Advertising DSP, você pode usar métricas de conversão para criar [metas personalizadas](/help/dsp/optimization/custom-goal.md), que são usados para otimizar pacotes.
 
 Por padrão, nenhuma das métricas de conversão de um anunciante, exceto as conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tags universais de rastreamento de eventos — estão disponíveis para exibições e relatórios de gerenciamento de campanhas e portfólios. Elas estão disponíveis somente quando você as disponibiliza especificamente e inclui um nome de exibição, que é o nome mostrado. Ao disponibilizar uma métrica de conversão, você pode usar o nome da métrica exatamente como está escrito nos dados recuperados ou alterar o nome mostrado nos cabeçalhos da coluna para facilitar a leitura.
 

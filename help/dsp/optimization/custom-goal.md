@@ -2,7 +2,7 @@
 title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
-source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
+source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 0%

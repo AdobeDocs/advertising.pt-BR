@@ -4,7 +4,7 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
+source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -118,16 +118,6 @@ ht-degree: 3%
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 + Públicos-alvo {#audiences}
    + [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
-   + Segmentos {#segments}
-      + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segmentos {#ccpa-opt-out-of-sale-segments}
-         + [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [Criar e implementar uma [!UICONTROL CCPA Opt-out-of-Sale] Segmento](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Recuperar [!UICONTROL Consumer Opt-Out-of-Sale] Relatórios](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [Editar informações do segmento](/help/dsp/audiences/segment-edit.md)
-      + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
-      + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
-      + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
    + Públicos-alvo {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -139,6 +129,16 @@ ht-degree: 3%
       + [Excluir um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-delete.md)
       + [Configurações de público](/help/dsp/audiences/audience-settings.md)
       + [Sintaxe da lógica do segmento de público-alvo](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + Segmentos {#segments}
+      + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] Segmentos {#ccpa-opt-out-of-sale-segments}
+         + [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [Criar e implementar uma [!UICONTROL CCPA Opt-out-of-Sale] Segmento](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [Recuperar [!UICONTROL Consumer Opt-Out-of-Sale] Relatórios](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [Editar informações do segmento](/help/dsp/audiences/segment-edit.md)
+      + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
+      + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
+      + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
    + Origens {#sources}
       + [Sobre a ativação de segmentos autenticados de fontes de público-alvo](/help/dsp/audiences/sources/source-about.md)
       + Workflows por plataforma de dados do cliente {#sources-workflows}

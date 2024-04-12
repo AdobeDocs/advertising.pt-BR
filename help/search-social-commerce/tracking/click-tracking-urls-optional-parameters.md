@@ -3,16 +3,16 @@ title: Parâmetros de rastreamento opcionais para URLs de rastreamento de clique
 description: Saiba mais sobre os parâmetros opcionais de rastreamento de pesquisa, redes sociais e comércio e sobre os parâmetros específicos de rastreamento de rede de anúncios que você pode adicionar aos URLs de rastreamento de cliques.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], e [!DNL Yandex] somente contas*
 
 Em vez de usar apenas os parâmetros de rastreamento padrão para um URL final ou URL de destino, você pode adicionar mais parâmetros para rastrear dados específicos de uma conta de rede de anúncios. Você pode adicionar qualquer combinação dos seguintes parâmetros nas configurações da conta ou nas configurações da campanha:
 
@@ -66,16 +66,8 @@ Consulte [https://support.google.com/google-ads/answer/2375447](https://support.
 
 Consulte [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Atualizado upstream
-## [!DNL Yahoo Native] parâmetros de rastreamento dinâmico
-
-Consulte [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] parâmetros de rastreamento dinâmico
-======
 ## Yahoo! Parâmetros de rastreamento dinâmico de anúncios do Japão
->>>>>>>>>>Alterações no stash
-> 
+
 Consulte [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] parâmetros de rastreamento dinâmico
@@ -84,4 +76,4 @@ Consulte [https://yandex.com/support/direct/statistics/url-tags.html](https://ya
 
 >[!MORELIKETHIS]
 >
-* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)

@@ -1,11 +1,11 @@
 ---
 title: Número máximo de objetos por conta de rede de publicidade
 description: Veja onde encontrar o número máximo de objetos por conta de rede de publicidade.
-exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b14b290afd6b13b1b9d1ac03c94c758e007dfc48
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ Consulte a documentação da rede de anúncios para obter os limites de objeto a
 * **[!DNL Microsoft Advertising]:** Consulte &quot;Limites para contas, campanhas e grupos de anúncios&quot; em [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 
 * **[!DNL Google Ads]:** Consulte [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
-
-* **[!DNL Yahoo Native]:** Consulte &quot;Representação de objeto&quot; > &quot;Limites&quot; em [https://developer.yahooinc.com/native/guide/objects.html](https://developer.yahooinc.com/native/guide/objects.html).
 
 * **[!DNL Yahoo! Japan Ads]:** Consulte [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
 

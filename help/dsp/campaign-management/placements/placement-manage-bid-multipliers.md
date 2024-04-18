@@ -2,9 +2,9 @@
 title: Gerenciar multiplicadores de oferta para disposições
 description: Saiba como criar e editar multiplicadores de oferta para destinos de posicionamento especificados.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: be52d56554f40babae1da683d436b821ef190e09
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Você pode configurar modificadores de lances somente para alvos incluídos, nã
 
 * **Públicos-alvo:** segmentos, dayparts e tópicos
 
-* **destinos do ads.txt:** (Quando você recusa o ads.txt) somente vendedores de ads.txt, vendedores diretos de ads.txt e vendedores de ads.txt, além de sites sem ads.txt.
+* **destinos do ads.txt:** (Ao recusar o ads.txt, que permite comprar inventário de todos os vendedores) somente vendedores do ads.txt, vendedores diretos do ads.txt e vendedores do ads.txt mais sites sem ads.txt <!-- bid multipliers for the different subsets of inventory -->
 
 ## Número Máximo de Multiplicadores de Oferta por Tipo de Meta {#bid-multiplier-limits-by-target}
 

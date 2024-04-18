@@ -3,9 +3,9 @@ title: Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] T
 description: Saiba por que e como adicionar [!DNL Analytics for Advertising] macros para o seu [!DNL Flashtalking] tags de publicidade
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ Usar macros para [!DNL Flashtalking] exibição e anúncios de vídeo para os se
 
 No prazo de [!DNL Flashtalking] adicionar configurações de tag, anexe a seguinte macro ao final do URL de click-through no `Clicktag` campo:
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-Exemplo:  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+É a primeira ou única sequência de consulta após o URL base, em seguida, separe-a do URL base com um `?`. Se o URL base incluirá várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
+
+Exemplos:
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Tags de anúncio de vídeo
 
 No prazo de [!DNL Flashtalking] adicionar configurações de tag, anexe a seguinte macro ao final do URL de click-through no `Clicktag` campo:
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Exemplo:  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+É a primeira ou única sequência de consulta após o URL base, em seguida, separe-a do URL base com um `?`. Se o URL base incluirá várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
+
+Exemplos:
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

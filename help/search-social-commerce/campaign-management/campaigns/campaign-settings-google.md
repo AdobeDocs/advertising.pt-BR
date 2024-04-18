@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -70,35 +70,35 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** A estratégia de oferta da campanha:
 
-* *[!UICONTROL Enhanced CPC]:* (Não disponível para desempenho máximo ou existente, somente leitura [!DNL Gmail] campanhas) Usa o modelo de custo por clique (eCPC) aprimorado da rede de anúncios, que permite que a rede de anúncios altere automaticamente a oferta de custo por clique (CPC) para cada leilão, em uma tentativa de maximizar as conversões, usando as conversões especificadas na rede de anúncios (não em Pesquisa, Social e Comércio), enquanto tenta manter seu CPC médio abaixo do CPC máximo.
+* *[!UICONTROL Enhanced CPC]:* (Não disponível para desempenho máximo ou existente, somente leitura [!DNL Gmail] campanhas) Usa o modelo de custo por clique (eCPC) aprimorado da rede de anúncios, que permite que a rede de anúncios altere automaticamente a oferta de custo por clique (CPC) para cada leilão, em uma tentativa de maximizar as conversões, usando as conversões especificadas na rede de anúncios (não em Pesquisa, Social e Commerce), ao tentar manter seu CPC médio abaixo do CPC máximo.
 
-Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social e Comércio, o Search, Social e Comércio otimiza as ofertas básicas e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; opção está ativada — o orçamento da campanha. A rede de publicidade otimiza todos os ajustes de oferta e pode alterar as ofertas geradas por Pesquisa, Social e Comércio no momento da consulta do usuário com base em dados e insights proprietários. **Atenção:** Use campanhas eCPC em portfólios somente quando o total de conversões rastreadas na rede de anúncios estiver alinhado ao objetivo do portfólio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+Quando você adiciona uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social e Commerce, o Search, Social e Commerce otimiza as ofertas básicas e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; opção está ativada — o orçamento da campanha. A rede de publicidade otimiza todos os ajustes de oferta e pode alterar as ofertas geradas pela Search, Social e Commerce no momento da consulta do usuário com base em dados e insights proprietários. **Atenção:** Use campanhas eCPC em portfólios somente quando o total de conversões rastreadas na rede de anúncios estiver alinhado ao objetivo do portfólio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (o padrão): (não disponível para campanhas de desempenho máximo) usa o modelo de custo por clique (CPC). Opcionalmente, é possível permitir que a rede de publicidade altere os lances da campanha:
 
    * **[!UICONTROL Enable Enhanced CPC]** (desativado por padrão): é o mesmo que usar o &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa, exibição e compras) A rede de publicidade — não as campanhas de pesquisa, social e comércio — otimiza ofertas para maximizar os cliques. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Atenção:** Quando você adiciona uma campanha com essa estratégia a um portfólio, as ofertas são orientadas pelo peso dos cliques, não pelo objetivo do portfólio.
+* *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa, exibição e compras) A rede de publicidade — não as campanhas Search, Social e Commerce — otimiza ofertas para maximizar os cliques. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Atenção:** Quando você adiciona uma campanha com essa estratégia a um portfólio, as ofertas são orientadas pelo peso dos cliques, não pelo objetivo do portfólio.
 
 * *[!UICONTROL Maximize Conversion Value]:* (Campanhas de pesquisa, desempenho máximo e compras inteligentes) A rede de publicidade, não a Search, Social e Commerce, otimiza ofertas para maximizar o valor de conversão. Opcionalmente, informe um **[!UICONTROL Target Return on Ad Spend]** (ROAS) em porcentagem. **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
 
-* *[!UICONTROL Maximize Conversions]:* (Campanhas máximas de pesquisa, exibição e desempenho) A rede de anúncios, não de pesquisa, social e comércio, otimiza ofertas para maximizar as conversões. Opcionalmente, informe um **[!UICONTROL Target CPA]** (custo por aquisição). **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
+* *[!UICONTROL Maximize Conversions]:* (Campanhas máximas de pesquisa, exibição e desempenho) A rede de anúncios, não a Search, Social e Commerce, otimiza ofertas para maximizar as conversões. Opcionalmente, informe um **[!UICONTROL Target CPA]** (custo por aquisição). **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
 
-* *[!UICONTROL Target CPA]:* (Campanhas de exibição; campanhas de pesquisa existentes) A rede de publicidade — não de Pesquisa, Social e Comércio — otimiza ofertas com base em uma **[!UICONTROL Target CPA]** (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campanhas de exibição; campanhas de pesquisa existentes) A rede de publicidade — não Search, Social e Commerce — otimiza ofertas com base em uma **[!UICONTROL Target CPA]** (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
   Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversions] estratégia usando um [!UICONTROL Target CPA] valor. Para campanhas de pesquisa existentes com essa estratégia, é possível editar somente o valor do target, e isso altera a estratégia para o [!UICONTROL Maximize Conversions] usando a estratégia especificada [!UICONTROL Target CPA] valor.
 
-* *[!UICONTROL Target Impression Share]:* (Campanhas de pesquisa) A rede de publicidade, não a Search, Social e &amp; Commerce, otimiza ofertas para atingir uma impressão de público-alvo e uma posição de anúncio. Opcionalmente, informe um **[!UICONTROL Target Impression Share]** em porcentagem, a variável **[!UICONTROL Target Ad Position]**, e uma **[!UICONTROL Max CPC]** (custo por clique). **Nota:** Esta opção não é permitida em portfólios.
+* *[!UICONTROL Target Impression Share]:* (Campanhas de pesquisa) A rede de publicidade, não a Search, Social e Commerce, otimiza ofertas para atingir um compartilhamento de impressões de público-alvo e uma posição de anúncio. Opcionalmente, informe um **[!UICONTROL Target Impression Share]** em porcentagem, a variável **[!UICONTROL Target Ad Position]**, e uma **[!UICONTROL Max CPC]** (custo por clique). **Nota:** Esta opção não é permitida em portfólios.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campanhas de exibição e compras; campanhas de pesquisa existentes) A rede de publicidade — não de pesquisa, social e comércio — otimiza ofertas com base em uma **[!UICONTROL Target ROAS]** (retorno do investimento em publicidade), especificado como uma porcentagem. **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Campanhas de exibição e compras; campanhas de pesquisa existentes) A rede de publicidade — não Pesquisar, Social e Commerce — otimiza ofertas com base em uma **[!UICONTROL Target ROAS]** (retorno do investimento em publicidade), especificado como uma porcentagem. **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
   Para novas campanhas de pesquisa, [!DNL Google Ads] substituiu esta estratégia de licitação pela [!UICONTROL Maximize Conversion Value] estratégia usando um [!UICONTROL Target Return on Ad Spend value]. Para campanhas de pesquisa existentes com essa estratégia, é possível editar somente o valor do target, e isso altera a estratégia para o [!UICONTROL Maximize Conversion Value] usando a estratégia especificada [!UICONTROL Target Return on Ad Spend] valor.
 
-* *[!UICONTROL Viewable CPM]:* (Existente, somente leitura) [!DNL Gmail] somente campanhas) A rede de publicidade — não Pesquisa, Social e Comércio — oferece somente anúncios que são medidos como visualizáveis. **Nota:** A otimização para essa estratégia não é compatível com nenhum tipo de portfólio.
+* *[!UICONTROL Viewable CPM]:* (Existente, somente leitura) [!DNL Gmail] somente campanhas) A rede de publicidade — não a Search, Social e Commerce — oferece ofertas somente em anúncios que são medidos como visualizáveis. **Nota:** A otimização para essa estratégia não é compatível com nenhum tipo de portfólio.
 
 ## [!UICONTROL Shopping Settings]
 

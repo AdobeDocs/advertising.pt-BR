@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Campo Location Targets em algumas configurações de campanha e em configurações de grupo de anúncios MS
 
-**[!UICONTROL Location Targets]:** Localizações geográficas específicas do usuário a serem incluídas ou excluídas como alvos. Por padrão, todos os locais são direcionados. É possível incluir e excluir usuários em qualquer combinação de locais. As exclusões sempre substituem as inclusões.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (Quando disponível) Localizações geográficas específicas do usuário a serem incluídas ou excluídas como targets. Por padrão, todos os locais são direcionados. É possível incluir e excluir usuários em qualquer combinação de locais. As exclusões sempre substituem as inclusões.
 
 * Para direcionar todos os locais, não selecione nenhum local.
 

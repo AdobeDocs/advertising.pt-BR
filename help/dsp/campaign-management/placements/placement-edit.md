@@ -3,9 +3,9 @@ title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 >* [Editar rapidamente as configurações de posicionamento de chaves](placement-quick-edit.md)
 >* [Criar uma disposição](placement-create.md)
 >* [Duplicar um posicionamento](placement-duplicate.md)
+>* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
 >* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)
 >* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)

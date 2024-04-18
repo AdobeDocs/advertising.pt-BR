@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -475,6 +475,7 @@ Qual nível de [Anúncios.txt](https://iabtechlab.com/ads-txt-about/) filtragem 
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
 >* [Criar uma disposição](placement-create.md)
 >* [Editar uma disposição](placement-edit.md)
+>* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

@@ -3,16 +3,16 @@ title: Sobre o gerenciamento de posicionamento no DSP publicitário
 description: Saiba mais sobre gerenciamento de posicionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Sobre o gerenciamento de posicionamento no DSP publicitário
 
-Um posicionamento inclui parâmetros de direcionamento para um ou mais anúncios do mesmo tipo de anúncio. Você pode criar uma disposição para uma única campanha ou pacote e depois atribuir anúncios a ela. Cada campanha ou inserção pode incluir vários posicionamentos, com uma rotação de anúncio especificada. Por padrão, os anúncios são girados uniformemente.
+Um posicionamento inclui parâmetros de direcionamento para um ou mais anúncios do mesmo tipo de anúncio. Você pode criar uma disposição para uma única campanha ou pacote e depois atribuir anúncios a ela. Cada campanha ou inserção pode incluir vários posicionamentos, com uma rotação de anúncio especificada. Por padrão, os anúncios são girados uniformemente. Você pode configurar multiplicadores de oferta separadamente para vários tipos de alvo de posicionamento.
 
 Depois de atribuir uma inserção ativa a um pacote ou campanha ativa, todos os anúncios ativos e aprovados na inserção são elegíveis para execução com base nos parâmetros de direcionamento de inserção.
 
@@ -47,7 +47,7 @@ Para cada posicionamento, é possível abrir uma exibição detalhada ([o [!UICO
 >[!MORELIKETHIS]
 >
 >* [Criar uma disposição](placement-create.md)
+>* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
-

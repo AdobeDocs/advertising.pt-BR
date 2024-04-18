@@ -3,9 +3,9 @@ title: Editar rapidamente as configurações de posicionamento de chaves
 description: Saiba como alterar rapidamente as configurações de posicionamento de chaves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 >* [Criar uma disposição](placement-create.md)
 >* [Editar uma disposição](placement-edit.md)
 >* [Duplicar um posicionamento](placement-duplicate.md)
+>* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
 >* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)
 >* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)

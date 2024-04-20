@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
+source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Mostra anúncios nativos/de exibição na [!DNL Microsoft® Audience Network]. Você pode a) gerar automaticamente anúncios baseados em feed, vinculando a campanha a uma loja de centro de comércio na [!UICONTROL Shopping Settings] ou b) crie anúncios responsivos com ativos de texto e imagens carregadas. Ambas as opções exigem que você crie grupos de anúncios com direcionamento de usuário.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Recurso Beta) Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Você pode criar grupos de anúncios secundários e grupos de produtos (aplicativos para promover), além de anúncios de produtos opcionais para a campanha; [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Recurso Beta) Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Você pode criar grupos de anúncios secundários e grupos de produtos (aplicativos para promover), além de anúncios de produtos opcionais para a campanha; [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos. Para campanhas de compra de marcas, use a estratégia de oferta [!UICONTROL Manual CPC]; para promoções de compras de marcas, use a estratégia de oferta [!UICONTROL Cost per Sale].
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Recurso Beta) Promove seus aplicativos e jogos que estão disponíveis na [!DNL Microsoft® Store]. Você pode criar grupos de anúncios secundários, grupos de produtos e anúncios de produtos opcionais para a campanha; [!DNL Microsoft® Advertising] O cria anúncios automaticamente para os grupos de produtos.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Recurso Beta) Mostra anúncios de vídeo padrão na rede de público-alvo.
 
-* *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra vários tipos de anúncios em todas as redes. Atribuir grupos de ativos separadamente dentro do [!DNL Microsoft® Advertising] editor de anúncios.
+* *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra vários tipos de anúncios em todas as redes que usam [!DNL Microsoft Advertising] oferta inteligente. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, uma chamada para ação opcional e sinais de público-alvo. A rede de anúncios combina automaticamente os ativos para veicular anúncios com base no canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,11 +58,15 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** A estratégia de oferta da campanha:
 
+* *[!UICONTROL Cost per Sale]:* (Somente campanhas de compras) A rede de publicidade — não Search, Social e Commerce — otimiza ofertas com base na **[!UICONTROL Target CPS]** (custo por venda). Você paga somente quando um clique no anúncio do produto resulta em uma venda em 24 horas. **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.<!-- Verify all -->
+
+  Depois de salvar uma campanha de compras para marcas com essa estratégia de oferta, você não pode alterar a estratégia de oferta. Para outros tipos de campanha de compras, essa estratégia está disponível somente para novas campanhas.
+
 * *[!UICONTROL CPV]* (Somente campanhas de vídeo de CTV de público-alvo) Usa o modelo de custo por visualização (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
 
-* *[!UICONTROL Enhanced CPC]:* (Campanhas nas redes de público, pesquisa e compras) Usa o modelo de custo por clique (eCPC) aprimorado da rede de anúncios, o que permite que a rede de anúncios altere automaticamente a oferta de custo por clique (CPC) para cada leilão, em uma tentativa de maximizar as conversões, usando conversões especificadas na rede de anúncios (não em Pesquisa, Social e Comércio), enquanto tenta manter o CPC médio abaixo do seu CPC máximo.
+* *[!UICONTROL Enhanced CPC]:* (Campanhas nas redes de público, pesquisa e compras) Usa o modelo de custo por clique (eCPC) aprimorado da rede de anúncios, o que permite que a rede de anúncios altere automaticamente a oferta de custo por clique (CPC) para cada leilão, em uma tentativa de maximizar as conversões, usando conversões especificadas na rede de anúncios (não em Pesquisa, Social e Commerce), enquanto tenta manter o CPC médio abaixo do CPC máximo.
 
-  Ao adicionar uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social e Comércio, o Search, Social e Comércio otimiza as ofertas básicas e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; opção está ativada — o orçamento da campanha. A rede de publicidade otimiza todos os ajustes de oferta e pode alterar as ofertas geradas por Pesquisa, Social e Comércio no momento da consulta do usuário com base em dados e insights proprietários. **Atenção:** Use campanhas eCPC em portfólios somente quando o total de conversões rastreadas na rede de anúncios estiver alinhado ao objetivo do portfólio.
+  Quando você adiciona uma campanha com eCPC a um portfólio otimizado de Pesquisa, Social e Commerce, o Search, Social e Commerce otimiza as ofertas básicas e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; opção está ativada — o orçamento da campanha. A rede de publicidade otimiza todos os ajustes de oferta e pode alterar as ofertas geradas pela Search, Social e Commerce no momento da consulta do usuário com base em dados e insights proprietários. **Atenção:** Use campanhas eCPC em portfólios somente quando o total de conversões rastreadas na rede de anúncios estiver alinhado ao objetivo do portfólio.
 
 * *[!UICONTROL Manual CPC]*: (campanhas de compras para marcas; [!DNL Microsoft Store Ads] campanhas; descontinuado por [!DNL Microsoft® Advertising] em 2021 para outros tipos de campanha) Usa o modelo de custo por clique (CPC). Para alguns tipos de anúncios, você pode permitir que a rede de anúncios altere ofertas para a campanha:
 
@@ -72,19 +76,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPM]* (Somente campanhas de público e campanhas de vídeo de público) Usa o modelo de custo por mil impressões (CPM), para o qual você especifica o que deseja gastar por 1.000 impressões visualizadas. Campanhas com essa estratégia de oferta não são otimizadas quando são incluídas em portfólios.
 
-* *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa e compras) A rede de publicidade — não de pesquisa, social e comércio — otimiza ofertas para maximizar os cliques. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Atenção:** Quando você adiciona uma campanha com essa estratégia a um portfólio, as ofertas são orientadas pelo peso dos cliques, não pelo objetivo do portfólio.
+* *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa e compras) A rede de publicidade — não Search, Social e Commerce — otimiza ofertas para maximizar os cliques. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Atenção:** Quando você adiciona uma campanha com essa estratégia a um portfólio, as ofertas são orientadas pelo peso dos cliques, não pelo objetivo do portfólio.
 
 * *[!UICONTROL Maximize Conversion Value]:* (Redes de pesquisa e compras/compras inteligentes, campanhas de desempenho máximo) A rede de anúncios, não a Search, Social e Commerce, otimiza ofertas para maximizar o valor de conversão. Opcionalmente, informe um **[!UICONTROL Target Return on Ad Spend]** (ROAS) como uma porcentagem. **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
 
-* *[!UICONTROL Maximize Conversions]:* (Desempenho máximo de campanhas e campanhas na rede de pesquisa ou na rede de público (mas não de vídeos de público ou TV conectada) A rede de anúncios, não de Pesquisa, Social e Comércio, otimiza ofertas para maximizar as conversões. Opcionalmente, informe um **[!UICONTROL Target CPC]** (custo por clique). Para campanhas de público, você também pode inserir uma **[!UICONTROL Target CPA]** (custo por aquisição). **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
+* *[!UICONTROL Maximize Conversions]:* (Desempenho máximo de campanhas e campanhas na rede de pesquisa ou na rede de público (mas não de vídeos de público ou TV conectada) A rede de anúncios, não de Pesquisa, Social e Commerce, otimiza ofertas para maximizar as conversões. Opcionalmente, informe um **[!UICONTROL Target CPC]** (custo por clique). Para campanhas de público, você também pode inserir uma **[!UICONTROL Target CPA]** (custo por aquisição). **Nota:** Use essa opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
 
-* *[!UICONTROL Target CPA]:* (Campanhas na rede de pesquisa) A rede de publicidade — não Pesquisar, Social e Comércio — otimiza ofertas com base em uma **[!UICONTROL Target CPA]** (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campanhas na rede de pesquisa) A rede de publicidade — não a Search, Social e Commerce — otimiza ofertas com base em uma **[!UICONTROL Target CPA]** (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
-* *[!UICONTROL Target Impression Share]:* (Campanhas na rede de pesquisa) A rede de publicidade — não Pesquisar, Social e Comércio — otimiza ofertas para alcançar um compartilhamento de impressões alvo e uma posição de anúncio. Opcionalmente, informe um **[!UICONTROL Target Impression Share]** em porcentagem, a variável **[!UICONTROL Target Ad Position]**, e uma **[!UICONTROL Max CPC]** (custo por clique). **Nota:** Essa opção não é compatível com portfólios híbridos.
+* *[!UICONTROL Target Impression Share]:* (Campanhas na rede de pesquisa) A rede de publicidade — não a Search, Social e Commerce — otimiza ofertas para atingir um compartilhamento de impressões de público-alvo e uma posição de anúncio. Opcionalmente, informe um **[!UICONTROL Target Impression Share]** em porcentagem, a variável **[!UICONTROL Target Ad Position]**, e uma **[!UICONTROL Max CPC]** (custo por clique). **Nota:** Essa opção não é compatível com portfólios híbridos.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campanhas nas redes de pesquisa e compras) A rede de anúncios, e não a Search, Social e Commerce, otimiza ofertas com base em suas **[!UICONTROL Target ROAS]** (retorno do investimento em publicidade), especificado como uma porcentagem. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Campanhas nas redes de pesquisa e compras) A rede de anúncios, não a Search, Social e Commerce, otimiza ofertas com base em suas **[!UICONTROL Target ROAS]** (retorno do investimento em publicidade), especificado como uma porcentagem. Opcionalmente, informe um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de anúncios não pague mais do que um valor específico para cada clique. **Nota:** Use essa opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
@@ -104,7 +108,6 @@ Depois de vincular a campanha a uma loja e salvar as configurações, não é po
 
 {{$include /help/_includes/merchant-id.md}}
 
-
 **[!UICONTROL Products]:** (Campanhas de público-alvo vinculadas somente a uma loja de centro de comércio) Os produtos a serem anunciados. Por padrão, *[!UICONTROL All products]* está selecionada. Para anunciar apenas produtos com atributos específicos, selecione *[!UICONTROL Filter products]* e especifique até sete combinações de dimensão e atributo de produto nas quais filtrar seus produtos. Todos os valores especificados devem ser aplicáveis para que os anúncios apareçam para o produto. Por exemplo, para mostrar anúncios de suprimentos para animais de estimação da Acme, você pode criar os filtros `Custom Label 1=animals`, `Category=pet supplies`, e `Brand=Acme Pet Supplies`.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
@@ -112,6 +115,8 @@ Depois de vincular a campanha a uma loja e salvar as configurações, não é po
 {{$include /help/_includes/inventory-filter.md}}
 
 ## [!UICONTROL Campaign Targeting]
+
+**[!UICONTROL Languages]:** (Campanhas de desempenho máximo somente) O idioma do anúncio, que deve corresponder ao idioma dos sites em que o anúncio será exibido. [!DNL Microsoft Advertising] determina o idioma de um usuário a partir de vários sinais, incluindo o query do usuário, o país do editor e a configuração de idioma do usuário.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -192,6 +197,103 @@ Para obter informações sobre disponibilidade, consulte a ajuda da Microsoft® 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Asset Groups] (por grupo de ativos)
+
+**[!UICONTROL Asset Group Name]:** O nome da pasta de ativos (grupo de ativos).
+
+**[!UICONTROL Asset Group Status]:** O status do grupo de ativos: *[!UICONTROL Active]* ou *[!UICONTROL Paused]*.
+
+**[!UICONTROL Final URL]:** O URL final de todos os anúncios criados a partir do grupo de ativos.
+
+**[!UICONTROL Images]:** Até 20 imagens para o anúncio, incluindo pelo menos uma imagem quadrada e uma imagem paisagem. Consulte a [[!DNL Microsoft Advertising] diretrizes de imagem](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para carregar imagens:
+
+   1. No [!UICONTROL Upload from Device] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+
+   1. Para cada imagem:
+
+      1. Selecione a taxa de proporção.
+
+      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+
+      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+
+         Um ativo é criado para cada taxa de proporção selecionada.
+
+      1. Clique em **[!UICONTROL Proceed]**.
+
+   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+
+* Para selecionar imagens de seu [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
+
+**[!UICONTROL Logos]:** Pelo menos um logotipo. É possível incluir até cinco. Consulte a [[!DNL Microsoft Advertising] diretrizes do ativo](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Você pode carregar imagens ou selecioná-las na sua [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para carregar imagens:
+
+   1. No [!UICONTROL Upload from Device] clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+
+   1. Para cada imagem:
+
+      1. Selecione a taxa de proporção.
+
+      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+
+      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+
+         Um ativo é criado para cada taxa de proporção selecionada.
+
+      1. Clique em **[!UICONTROL Proceed]**.
+
+   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+
+* Para selecionar imagens de seu [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
+
+**[!UICONTROL Headlines]:** Pelo menos três e até 15 títulos curtos com no máximo 30 caracteres cada. É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
+
+**[!UICONTROL Long Headlines]:** Pelo menos uma e até cinco manchetes longas com no máximo 90 caracteres cada. É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
+
+**[!UICONTROL Descriptions]:** Pelo menos duas e até cinco descrições com no máximo 90 caracteres cada. É possível inserir texto ou selecionar ativos a partir da [!UICONTROL Asset Library] — mas não ambas na mesma operação.
+
+* Para inserir texto:
+
+   1. No [!UICONTROL Enter Text] insira o texto.
+
+   1. (Opcional) Para adicionar outra sequência de texto, clique em **[!UICONTROL + Add]** e digite a string.
+
+* Para selecionar ativos da sua [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
+
+**[!UICONTROL Call to Action]:** O plano de ação a ser incluído no anúncio. Por padrão, *[!UICONTROL Act Now]* está selecionada.
+
+**[!UICONTROL Business Name]:** O nome da empresa, com no máximo 25 caracteres. Ele não pode conter scripts, HTML ou outro idioma de marcação.
+
+**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft Advertising] públicos-alvo a serem usados como sinais de público-alvo para a campanha. [!DNL Microsoft Advertising] os modelos de aprendizado de máquina usam os públicos-alvo para encontrar navegadores da web semelhantes ao público-alvo e também podem mostrar anúncios para públicos-alvo que não são especificados como sinais para ajudar você a atingir suas metas de desempenho. Escolha os públicos-alvo com maior probabilidade de conversão.
+
+>[!NOTE]
+>Os sinais de público são diferentes dos [metas de público-alvo no nível do grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
+<!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
+
+{{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Add new asset group]:** Permite especificar outro grupo de ativos.
 
 ## [!UICONTROL Conversion Goals]
 

@@ -3,9 +3,9 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,33 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 >
 >Para rastrear IDs de usuários a partir de solicitações de cancelamento de venda em seu site, de acordo com a California Consumer Privacy Act (CCPA), crie um [Segmento de cancelamento de venda do CCPA](ccpa-opt-out-segment-create.md).
 
+## Pré-requisitos para que os segmentos rastreiem IDs ID5
+
+*Recurso beta*
+
+* Antes de gerar um segmento para rastrear usuários associados a IDs ID5, você deve assinar um contrato com a [!DNL ID5] e obtenha a ID de parceiro da organização. Entre em contato com a equipe de conta do Adobe para obter instruções.
+
+* Para a medição no Adobe Analytics, você deve:
+
+   1. Concluir tudo [pré-requisitos para implementar o [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e a variável [ID AMO e ID EF nos URLs de rastreamento](/help/integrations/analytics/ids.md).
+
+   1. Adicione o seguinte parâmetro às suas páginas da Web antes ou dentro do [Código JavaScript necessário para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — em qualquer lugar antes da inicialização do último serviço de evento.
+
+      `window.id5PartnerId=Your_ID5_PartnerID;`
+
+      Exemplo:
+
+      ```
+      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+      <script>
+        window.id5PartnerId=Your_ID5_PartnerID;
+             if("undefined" != typeof AdCloudEvent)
+                 AdCloudEvent('IMS ORG Id','rsid');
+      </script>
+      ```
+
+## Criar e implementar um segmento personalizado
+
 1. Crie o segmento:
 
    1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
@@ -28,9 +55,19 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
    1. Para o **[!UICONTROL Segment Type]**, selecione *[!UICONTROL Custom]*.
 
-   1. Insira o **[!UICONTROL Segment Window]**, que é o número de dias que um cookie do usuário permanece no segmento.
+   1. Insira o **[!UICONTROL Lookback Window]**, que é o número de dias que um cookie do usuário permanece no segmento.
 
       A janela padrão é de 45 dias. Insira um valor de um (1) a 365.
+
+   1. Clique em **[!UICONTROL Advanced]** para expandir as configurações avançadas e, em seguida, selecione os tipos de identificadores de usuário que a tag de segmento rastreará:
+
+      * *[!UICONTROL Cookies]:* (O padrão) A tag de segmento rastreará cookies.
+
+      * [!UICONTROL Universal IDs (Beta)]:
+
+         * *[!UICONTROL ID5]:* A tag de segmento rastreará [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
+
+        **[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta do DSP deve aceitar os termos uma vez antes que você possa usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta do Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
    1. Clique em **[!UICONTROL Save]**.
 
@@ -51,6 +88,20 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
       * Para rastrear usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop:
 
          1. Copie a tag de rastreamento de impressão, chamada de &quot;[!UICONTROL Desktop or mobile ads].&quot;
+
+   1. (Tags para segmentos que rastream [!DNL ID5] IDs para visitantes móveis e de desktop a uma página da Web) Na tag copiada, substitua `ID5_PARTNER_ID` com a ID do parceiro que [!DNL ID5] atribuído à sua organização.
+
+   Por exemplo, se a ID do parceiro ID5 for `abcde` e a tag de segmento gerada for
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   depois substituir `ID5_PARTNER_ID` com `abcde` na tag para obter o seguinte:
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   Sua organização recebeu a ID do parceiro quando assinou um contrato com a [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta do Adobe.
+
+   Essa etapa não é necessária para que as tags rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
 
 1. Adicione a tag ao [!UICONTROL Pixel] para cada anúncio relevante ou para o [!UICONTROL Event Pixels] seção do [[!UICONTROL Tracking] configurações para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 

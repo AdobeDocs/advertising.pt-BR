@@ -3,9 +3,9 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Marque a caixa de seleção ao lado de **[!UICONTROL Enable Objective Upload]**.
-
-   Essa opção só estará disponível se a conta do anunciante estiver configurada para usar otimização híbrida. Para ativar a otimização híbrida, entre em contato com a equipe de conta do Adobe.
 
 1. (Anunciantes com [!DNL Google Ads] contas que fazem negócios no Espaço Econômico Europeu (EEA) ou Reino Unido (UK); opcional) Se você coletou consentimento de usuários do EEA e do UK para carregar seus dados para fins de publicidade, marque a caixa de seleção ao lado de **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 

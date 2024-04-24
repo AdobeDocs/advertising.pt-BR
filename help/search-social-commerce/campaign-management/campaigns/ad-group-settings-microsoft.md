@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações do grupo de publicidade'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] grupos de publicidade.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
+source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ ht-degree: 0%
 {{$include /help/_includes/location-targets.md}}
 
 Para [!DNL Microsoft® Advertising] grupos de anúncios na rede de público-alvo, os modificadores de oferta para públicos-alvo de localização não são otimizados em portfólios padrão com o &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+
+**[!UICONTROL Genre]:** (Grupos de anúncios em [!UICONTROL Audience CTV Video] campanhas; disponível nos EUA, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY e TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Os gêneros alvo, que determinam os programas e canais nos quais seus anúncios são exibidos:
+
+* *[!UICONTROL All genres]:* (O padrão) Segmenta todos os gêneros.
+
+* *[!UICONTROL Select From Below List]:* Direciona os gêneros selecionados. Selecione na lista de todos os gêneros disponíveis.
+
+O posicionamento do anúncio de TV conectada (CTV) depende da qualidade do vídeo e do valor da oferta. Consulte a [requisitos técnicos para anúncios de CTV](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 

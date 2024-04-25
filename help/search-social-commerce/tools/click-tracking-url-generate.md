@@ -1,11 +1,11 @@
 ---
 title: Gerar um URL de rastreamento de cliques
-description: Saiba como gerar manualmente um URL de rastreamento de cliques de Pesquisa, Social e Comércio.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+description: Saiba como gerar manualmente um URL de rastreamento de cliques do Search, Social e Commerce.
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
            O arquivo pode incluir até 10.000 linhas.
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [Publicidade Microsoft®] anúncios de produto) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de produtos e [Publicidade Microsoft® DNL] anúncios de produto) `product name <tab> ** <tab> landing_page`
 
            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
@@ -88,4 +88,4 @@ Para contas com URLs finais, insira o valor na tela nas configurações [!UICONT
 >
 >* [Sobre as ferramentas para criar e decodificar tags de rastreamento](tracking-tools-about.md)
 >* [Quando e como gerar URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [Decodificar um URL de rastreamento de cliques de Pesquisa, Social e Comércio](click-tracking-url-decode.md)
+>* [Decodificar um URL de rastreamento de cliques de Pesquisa, Social e Commerce](click-tracking-url-decode.md)

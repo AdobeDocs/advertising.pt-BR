@@ -3,9 +3,9 @@ title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
-* Para [Publicidade Microsoft®] contas, consulte as informações de desempenho geradas nos últimos 30 dias para obter uma [Publicidade Microsoft®] conta. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para obter mais detalhes) e a ação sugerida com um link para abrir o editor do Microsoft® Advertising, a partir do qual você pode agir de acordo com o insight específico.
+* Para [Publicidade Microsoft® DNL] contas, consulte as informações de desempenho geradas nos últimos 30 dias para obter uma [Publicidade Microsoft® DNL] conta. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para obter mais detalhes) e a ação sugerida com um link para abrir o editor do Microsoft® Advertising, a partir do qual você pode agir de acordo com o insight específico.
 
 * Exibir detalhes sobre uma recomendação e aplicá-la diretamente ou descartá-la.
 

@@ -3,9 +3,9 @@ title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques do Search, Social e Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
            O arquivo pode incluir até 10.000 linhas.
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [Publicidade Microsoft® DNL] anúncios de produto) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft® Advertising] anúncios de produto) `product name <tab> ** <tab> landing_page`
 
            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 

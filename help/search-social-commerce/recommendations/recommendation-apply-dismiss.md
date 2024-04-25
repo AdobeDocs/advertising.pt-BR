@@ -3,7 +3,7 @@ title: Aplicar ou ignorar uma recomendação do editor
 description: Saiba como exibir, aplicar ou ignorar uma recomendação do editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 >* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Exibir o log de recomendações do editor de uma conta](recommendation-view-log.md)
 >* [Práticas recomendadas para usar as recomendações do editor com portfólios](recommendation-best-practices.md)
+

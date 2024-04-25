@@ -3,7 +3,7 @@ title: Exibir o log de recomendações do editor de uma conta
 description: Saiba como visualizar um log de cada recomendação que foi aplicada para um [!DNL Google Ads] ou [!DNL Microsoft Advertising] conta.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -32,3 +32,4 @@ Recomendações descartadas não estão disponíveis na rede de anúncios.
 >* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Aplicar ou ignorar uma recomendação do editor](recommendation-apply-dismiss.md)
 >* [Práticas recomendadas para usar as recomendações do editor com portfólios](recommendation-best-practices.md)
+

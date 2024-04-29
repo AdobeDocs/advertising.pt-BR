@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ Para criar uma meta de conversão personalizada, clique em **[!UICONTROL + Add c
 
 >[!TIP]
 >
->Se a campanha fizer parte de um portfólio, use as mesmas metas de conversão que o objetivo do portfólio. Usar diferentes metas de conversão pode afetar o desempenho do portfólio.
+>Para campanhas em portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se os objetivos da campanha incluírem [!DNL Google]Conversões rastreadas pelo e, em seguida, adicioná-las no [!DNL Google Ads] editor porque eles não serão recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Google Ads] editor, remova as ações de conversão da campanha como metas padrão da conta marcando-as como metas secundárias (não primárias).
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ Para obter informações sobre disponibilidade, consulte a ajuda da Microsoft® 
 
 **[!UICONTROL Conversion Goal]:** Se deseja *[!UICONTROL Use account conversion goals for this campaign]* (o padrão) ou *[!UICONTROL Use campaign specific conversion goals]*. Se você optar por especificar metas de conversão para a campanha, selecione as metas na lista de todas as metas disponíveis. **Nota:** As metas são sincronizadas diariamente, portanto, as metas criadas nas 24 horas anteriores podem não ser listadas. Para atualizar a lista, [sincronizar manualmente os dados da rede de publicidade](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-Se a campanha fizer parte de um portfólio, use as mesmas metas de conversão que o objetivo do portfólio. Usar diferentes metas de conversão pode afetar o desempenho do portfólio.
+>[!TIP]
+>
+>Para portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se as metas da campanha incluírem conversões rastreadas pelo [!DNL Microsoft Advertising] universal event tracking (UET), em seguida, adicione-os na tag [!DNL Microsoft Advertising] editor porque eles não serão recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Microsoft Advertising] editor, remova as ações de conversão da campanha como metas padrão da conta ao desmarcar &quot;incluir em conversões&quot;.
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >

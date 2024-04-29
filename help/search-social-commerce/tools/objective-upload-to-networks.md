@@ -3,9 +3,9 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
+source-git-commit: a61bdd9c68420a16a01057d8a3ac03d659d2ad3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,33 @@ ht-degree: 0%
 
 *Anunciantes habilitados somente para otimização híbrida*
 
-Se a conta do anunciante estiver configurada para usar otimização híbrida, o Adobe Advertising poderá, opcionalmente, fazer upload dos objetivos dos portfólios da conta para [!DNL Google Ads] e [!DNL Microsoft® Advertising] como conversões, para que você possa usá-las para otimização híbrida.
+Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para o [!DNL Google Ads] e [!DNL Microsoft® Advertising] para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha.
 
-Habilitar essa opção aciona automaticamente um upload para portfólios que contêm campanhas com estratégias de lances inteligentes. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada combinação aplicável de portfólio e objetivo. Cada conversão tem o nome `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, onde `<portfolio_id>` é a ID numérica do portfólio e `<se_acctid/conversion_manager_se_acctid>` é a ID numérica da conta da rede de publicidade ou da conta de gerente. A conversão representa todas as métricas de conversão ponderadas no objetivo.
+Habilitar essa opção aciona automaticamente um upload para objetivos em portfólios que contêm campanhas com estratégias de oferta inteligente. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada objetivo aplicável. A conversão representa todas as métricas de conversão ponderadas no objetivo. Cada conversão tem um dos seguintes nomes:
+
+* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+  onde `<network_ID>` é a ID numérica que o Search, Social e Commerce usa para a rede de publicidade, `<objective_id>` é a ID numérica do objetivo e `<network_account_ID>` é a ID numérica da conta da rede de publicidade ou da conta de gerente.
+
+* (Formato antigo que será descontinuado no futuro) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+
+  onde `<portfolio_id>` é a ID numérica do portfólio e `<se_acctid/conversion_manager_se_acctid>` é a ID numérica da conta da rede de publicidade ou da conta de gerente.
+
+  Sua equipe de conta do Adobe trabalhará com você para migrar os nomes de ação de conversão existentes na rede de anúncios antes que o formato antigo seja descontinuado. Durante o período de migração, os uploads de formato antigo e novo serão executados em paralelo. A modelagem e a otimização não são afetadas porque as novas ações de conversão aparecerão inicialmente com o status &quot;secundário&quot; (não otimizado) e com 90 dias de dados de preenchimento retroativo.
 
 Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do anunciante. Carrega para [!DNL Microsoft® Advertising] ocorrem diariamente às 9h no fuso horário do anunciante.
 
-<!-- Note to self: Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren't re-uploaded to the ad networks. -->
+>[!IMPORTANT]
+>
+>As conversões rastreadas pelo Google Ads e pela tag de rastreamento de evento universal (UET) da Microsoft Advertising não são recarregadas nas redes de publicidade. Se você incluí-los em um objetivo, adicione-os às metas da campanha no editor da rede de publicidade.
+
+<!--
+>[!IMPORTANT]
+>
+>Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
+-->
+
+<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -33,6 +53,8 @@ Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do
 1. Clique em **[!UICONTROL Save]**.
 
 1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicionar credenciais para sua conta de gerente](/help/search-social-commerce/admin/manager-accounts.md) em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+
+Após a conclusão do upload diário, é possível verificar se as ações de conversão aparecem na rede de anúncios.
 
 >[!MORELIKETHIS]
 >

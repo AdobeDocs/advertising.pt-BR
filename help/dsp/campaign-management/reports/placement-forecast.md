@@ -3,9 +3,9 @@ title: Exibir o Relatório de Previsão de Posicionamento
 description: Consulte o número de impressões, gastos e lance máximo ideal previstos para uma estratégia de direcionamento específica para uma inserção.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ A ferramenta de previsão de posicionamento mostra o número previsto de impress
 
 >[!NOTE]
 >
+>* Os códigos postais não são considerados nos cálculos de previsão de posicionamento.
 >* Nenhuma previsão é gerada para inserções com direcionamento apenas programático garantido (PG), pois a disponibilidade e os gastos são determinísticos.
 
 ## Informações na Previsão

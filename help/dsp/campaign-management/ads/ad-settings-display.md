@@ -3,7 +3,7 @@ title: Configurações do anúncio de exibição
 description: Consulte descrições das configurações de anúncios disponíveis para exibir anúncios.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -60,7 +60,7 @@ As configurações a seguir se aplicam a cada pixel criado ou editado.
 
 **[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
 
-**[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* ou *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ As configurações a seguir se aplicam a cada pixel criado ou editado.
 >* [Listar as disposições associadas a um anúncio](ad-list-placements.md)
 >* [Especificações de publicidade](ad-specs.md)
 >* [Macros do DSP](/help/dsp/campaign-management/macros.md)
-

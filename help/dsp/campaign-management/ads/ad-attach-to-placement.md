@@ -1,22 +1,24 @@
 ---
 title: Anexar anúncios a inserções
-description: Saiba como anexar um anúncio a inserções.
+description: Saiba como anexar anúncios a inserções.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 972284a41dda4a7d7948f1763ba3674413a22954
+source-git-commit: 86acfaecdf761adc7c6585a49dbcdf4490290a8c
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Anexar anúncios a inserções
 
+Use o [!UICONTROL Ad Tools] visualização para anexar anúncios a inserções, anexar pixels de rastreamento de terceiros aos anúncios e desanexar pixels de rastreamento de terceiros existentes dos anúncios.
+
 >[!NOTE]
 >
 >Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-## Anexar anúncios a inserções {#attach-ads-campaign}
+## Abra o [!UICONTROL Ad Tools] Exibir {#ad-tools-open}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -26,9 +28,15 @@ ht-degree: 0%
 
    * (No campo [!UICONTROL Packages] , [!UICONTROL Placements]ou [!UICONTROL Ads] ) No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-   * (No campo [!UICONTROL Placements] (exibir) Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (No campo [!UICONTROL Placements] (exibir) Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
    * (No campo [!UICONTROL Ads] exibir) Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+
+   A variável [!UICONTROL Attach Ads] é selecionada por padrão.
+
+## Anexar anúncios a inserções {#attach-ads-campaign}
+
+1. [Abra o [!UICONTROL Ad Tools] exibir](#ad-tools-open).
 
 1. No [!UICONTROL Edit] faça o seguinte para cada grupo de anúncios que deseja anexar aos posicionamentos:
 
@@ -36,7 +44,7 @@ ht-degree: 0%
 
       * Acima da tabela à esquerda, clique em ![Filtro](/help/dsp/assets/filter.png) e filtrar as listas por pacote, tipo de posicionamento, status de posicionamento, tipo de anúncio ou status do anúncio.
 
-      * Nas tabelas direita e esquerda, procure sequências de texto específicas nos nomes da disposição e do anúncio.
+      * Acima das tabelas direita e esquerda, procure sequências de texto específicas nos nomes de posicionamento e anúncios.
 
    1. Na tabela à esquerda, marque a caixa de seleção ao lado de cada posicionamento ao qual os anúncios serão anexados.
 
@@ -44,7 +52,7 @@ ht-degree: 0%
 
       Somente os anúncios aplicáveis ao tipo de posicionamento e que ainda não estejam anexados aos posicionamentos selecionados podem ser selecionados.
 
-   1. Na parte inferior direita, clique em  **[!UICONTROL Attach]**.
+   1. Na parte inferior direita, clique em **[!UICONTROL Attach]**.
 
 1. (Opcional) Para retornar às exibições de detalhes da campanha, clique em ![Retornar à pasta](/help/dsp/assets/breadcrumb-return.png "Retornar à pasta") à esquerda de [!UICONTROL Ad Tools] e selecione o nome da campanha.
 
@@ -52,17 +60,7 @@ ht-degree: 0%
 
 <!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
-1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-
-1. Clique no nome da campanha.
-
-1. Abra o [!UICONTROL Ad Tools] exibição de qualquer uma das seguintes maneiras:
-
-   * (No campo [!UICONTROL Packages] , [!UICONTROL Placements]ou [!UICONTROL Ads] ) No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
-
-   * (Para ver anúncios anexados a uma disposição específica) No submenu, clique em **[!UICONTROL Placements]**. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
-
-   * (Para ver os posicionamentos aos quais um anúncio está ou pode ser anexado) No submenu, clique em **[!UICONTROL Ads]**. Ao lado do nome de um anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+1. [Abra o [!UICONTROL Ad Tools] exibir](#ad-tools-open).
 
 1. Alterne para a **[!UICONTROL View]** no canto superior direito.
 
@@ -74,7 +72,91 @@ ht-degree: 0%
 
 1. Clique em qualquer linha de posicionamento na tabela à esquerda para ver os anúncios anexados na tabela à direita.
 
-1. (Opcional) Para anexar mais anúncios aos posicionamentos da campanha, alterne para a **[!UICONTROL Edit]** no canto superior direito. Consulte a Etapa 4 do procedimento anterior, &quot;[Anexar anúncios a inserções](#attach-ads-campaign),&quot; para obter instruções.
+1. (Opcional) Para anexar mais anúncios aos posicionamentos da campanha, alterne para a **[!UICONTROL Edit]** no canto superior direito. Consulte a Etapa 2 no procedimento anterior, &quot;[Anexar anúncios a inserções](#attach-ads-campaign),&quot; para obter instruções.
+
+## Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento {#attach-pixels-ads}
+
+1. [Abra o [!UICONTROL Ad Tools] exibir](#ad-tools-open).
+
+1. Clique em **[!UICONTROL Attach Pixels]** guia.
+
+1. No [!UICONTROL Edit] subexibição:
+
+   1. (Opcional) Localize anúncios e pixels de terceiros de qualquer uma das seguintes maneiras:
+
+      * Acima da tabela à esquerda, clique em ![Filtro](/help/dsp/assets/filter.png) e filtre as listas por status do anúncio, tipo de anúncio, evento de integração de pixels ou tipo de pixel.
+
+      * Acima das tabelas direita e esquerda, procure sequências de texto específicas nos nomes dos anúncios e nos nomes dos pixels.
+
+   1. (Se não houver pixels de rastreamento de terceiros para a campanha) Crie um pixel:
+
+      1. Na tabela à direita, clique em **[!UICONTROL Create pixel]**.
+
+      1. Especifique as configurações:
+
+         **[!UICONTROL Integration Event]:** O evento que aciona o pixel, como *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
+
+         **[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem com 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+
+         **[!UICONTROL Pixel URL or Code]:** A URL da imagem pixel, no formato apropriado para o Tipo de Pixel especificado.
+
+         **[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
+
+         **[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
+
+      1. Clique em **[!UICONTROL Save]**.
+
+   1. Na tabela à esquerda, marque a caixa de seleção ao lado de cada anúncio para o qual deseja anexar pixels de rastreamento de terceiros.
+
+   1. Na tabela à direita, marque a caixa de seleção ao lado de cada pixel de rastreamento de terceiros que você deseja anexar aos anúncios selecionados.
+
+      Somente os pixels que ainda não estão anexados aos anúncios selecionados podem ser selecionados.
+
+   1. Na parte inferior direita, clique em **[!UICONTROL Attach]**.
+
+1. (Opcional) Para retornar às exibições de detalhes da campanha, clique em ![Retornar à pasta](/help/dsp/assets/breadcrumb-return.png "Retornar à pasta") à esquerda de [!UICONTROL Ad Tools] e selecione o nome da campanha.
+
+## Desanexar pixels de rastreamento de terceiros de anúncios em um posicionamento {#detach-pixels-ads}
+
+1. [Abra o [!UICONTROL Ad Tools] exibir](#ad-tools-open).
+
+1. Clique em **[!UICONTROL Attach Pixels]** guia.
+
+1. No [!UICONTROL Edit] subexibição:
+
+   1. (Opcional) Localize anúncios e pixels de terceiros de qualquer uma das seguintes maneiras:
+
+      * Acima da tabela à esquerda, clique em ![Filtro](/help/dsp/assets/filter.png) e filtre as listas por status do anúncio, tipo de anúncio, evento de integração de pixels ou tipo de pixel.
+
+      * Acima das tabelas direita e esquerda, procure sequências de texto específicas nos nomes dos anúncios e nos nomes dos pixels.
+
+   1. Na tabela à esquerda, marque a caixa de seleção ao lado de cada anúncio do qual deseja desanexar pixels de rastreamento de terceiros.
+
+   1. Na tabela à direita, marque a caixa de seleção ao lado de cada pixel de rastreamento de terceiros que você deseja desanexar dos anúncios selecionados.
+
+      Somente os pixels anexados a todos os anúncios selecionados são selecionáveis.
+
+   1. Na parte inferior direita, clique em **[!UICONTROL Detach]**.
+
+1. (Opcional) Para retornar às exibições de detalhes da campanha, clique em ![Retornar à pasta](/help/dsp/assets/breadcrumb-return.png "Retornar à pasta") à esquerda de [!UICONTROL Ad Tools] e selecione o nome da campanha.
+
+## Visualizar pixels anexados a anúncios {#view-pixels-ads}
+
+1. [Abra o [!UICONTROL Ad Tools] exibir](#ad-tools-open).
+
+1. Clique em **[!UICONTROL Attach Pixels]** guia.
+
+1. Alterne para a **[!UICONTROL View]** no canto superior direito.
+
+1. (Opcional) Localize anúncios e pixels de terceiros conforme necessário:
+
+   * Acima da tabela à esquerda, clique em ![Filtro](/help/dsp/assets/filter.png) e filtre as listas por status do anúncio, tipo de anúncio, evento de integração de pixels ou tipo de pixel.
+
+   * Acima das tabelas direita e esquerda, procure sequências de texto específicas nos nomes dos anúncios e nos nomes dos pixels.
+
+1. Clique em qualquer linha de anúncio na tabela à esquerda para ver os pixels anexados na tabela à direita.
+
+1. (Opcional) Para anexar mais pixels aos anúncios, alterne para a tag **[!UICONTROL Edit]** no canto superior direito. Consulte a Etapa 3 do procedimento anterior, &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](#attach-pixels-ads),&quot; para obter instruções.
 
 >[!MORELIKETHIS]
 >

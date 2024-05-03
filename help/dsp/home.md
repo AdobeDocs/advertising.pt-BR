@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # Novidades
 
 Os seguintes recursos são novos ou foram alterados recentemente.
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
 | 2 de maio de 2024 | Anúncios, Pixels | É possível baixar as configurações de todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão no [!UICONTROL Ad Tools] exibição. | Consulte &quot;[Examine as configurações do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |

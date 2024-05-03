@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4f73beed93be30187148a4425e5062d5bcd05dc9
+source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
 workflow-type: tm+mt
-source-wordcount: '2723'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,14 @@ ht-degree: 0%
 # Novidades
 
 Os seguintes recursos são novos ou foram alterados recentemente.
-
+<!--
+|  | Ads, Pixels |  |  | 
+-->
+>>
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
-| 2 de maio de 2024 | Posicionamentos, anúncios | A variável [!UICONTROL Ad Tools] a visualização agora inclui a capacidade de anexar vários pixels de rastreamento de terceiros a um ou mais anúncios e desanexar pixels de rastreamento de terceiros existentes dos anúncios. | Consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2 de maio de 2024 | Anúncios, Pixels | A variável [!UICONTROL Ad Tools] visualizar > [!UICONTROL Attach Pixels] A guia mostra os pixels de rastreamento de terceiros anexados aos seus anúncios e fornece um novo fluxo de trabalho para anexar pixels a um ou mais anúncios e desanexar pixels existentes. | Consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+|  | Posicionamentos, públicos | Agora é possível excluir segmentos de público-alvo individuais ou públicos-alvo não reutilizáveis de disposições por meio de ferramentas de edição em massa ou do editor de disposições. | Consulte &quot;[Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)&quot; e &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 de abril de 2024 | Posicionamentos | Agora é possível criar e gerenciar modificadores de lance, pelos quais um lance é multiplicado para aumentar ou diminuir o lance, para tipos de alvo especificados para um posicionamento. O modificador de oferta padrão é 1,00, o que significa sem aumento ou diminuição; os valores podem variar de 0,10 a 10,00. Por exemplo, um modificador de lance de 0,50 diminui um lance de USD 6 para USD 3 (0,50 x 6). Quando um leilão é qualificado para vários modificadores de lance, todos os modificadores de lance aplicáveis são multiplicados. Os modificadores de oferta nunca aumentam a oferta para mais do que a oferta máxima. | Consulte &quot;[Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 3 de abril de 2024 | Parceiros de estoque | O Adobe Advertising da UE para a [!DNL Google Authorized Buyers] foi mesclada com o assento existente na APAC. | Consulte &quot;[Parceiros SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 |   | Otimização | Novo `CPA` (custo por aquisição) e `ROAS` (retorno sobre o investimento em anúncios) as métricas no pacote, posicionamento e tabelas relacionadas fornecem um rastreamento de desempenho mais preciso para pacotes e posicionamentos com metas relacionadas. A nova métrica de CPA considera apenas o evento de conversão final (como inscrições) para calcular o custo por aquisição, o que fornece uma imagem mais precisa do CPA real do que a métrica de meta personalizada herdada, que também incluiu eventos de funil superior (como visitas de página e adições ao carrinho de compras) em seu cálculo. Da mesma forma, a nova métrica de ROAS considera somente o evento de receita final (como compras e valores de compra), que é mais confiável do que a métrica de meta personalizada herdada para rastrear o desempenho.<br><br>Agora, ao configurar um pacote com uma meta de otimização baseada em CPA ou ROAS, você deve especificar o evento final de conversão ou receita, bem como uma meta personalizada que inclua o evento de conversão ou receita; a meta personalizada pode, opcionalmente, incluir eventos adicionais de funil superior ponderados (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica CPA ou ROAS para otimização de pacote.<br><br>Além disso, as metas de otimização focadas no desempenho foram combinadas para simplificar:<ul><li>O novo &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;a meta substitui a herdada&quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; e [!UICONTROL Highest ROAS (click focused) - Custom Goal],&quot; com opções para realizar qualquer cenário herdado.</li><li>O novo &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;a meta substitui a herdada&quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; e [!UICONTROL Lowest CPA (click focused) - Custom Goal],&quot; com opções para realizar qualquer cenário herdado.</li></ul>Seus pacotes existentes que usavam as metas herdadas foram migrados automaticamente para as novas metas com as configurações relevantes e você não precisa atualizar nada manualmente. | Consulte &quot;[Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md),&quot; e &quot;[Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |

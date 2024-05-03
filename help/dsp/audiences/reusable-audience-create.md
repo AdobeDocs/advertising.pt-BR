@@ -3,7 +3,7 @@ title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
 
-1. Insira um único [!UICONTROL Audience Name].
+1. Insira um único **[!UICONTROL Audience Name]**.
 
 1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
@@ -49,6 +49,7 @@ ht-degree: 0%
          1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
             O grupo de segmentos é atualizado automaticamente com o novo segmento.
+
       * Para adicionar um novo grupo de segmentos:
 
          1. Clique em **[!UICONTROL + New Group]** no painel direito.
@@ -58,6 +59,7 @@ ht-degree: 0%
          1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
 
          1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+
    * Para usar a lógica de segmento de um público-alvo existente:
 
       1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
@@ -67,14 +69,12 @@ ht-degree: 0%
          * Nas configurações do público-alvo existente, na parte superior do painel lógico de segmentos, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [Sintaxe booleana](audience-segment-logic-syntax.md), e copie-o para a área de transferência.
+
       1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica do segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
          >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
-
-
-
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -87,4 +87,3 @@ ht-degree: 0%
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
 >* [Criar e implementar uma [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

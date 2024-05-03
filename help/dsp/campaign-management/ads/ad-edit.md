@@ -3,14 +3,18 @@ title: Editar um anúncio
 description: Saiba como editar um anúncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # Editar um anúncio
+
+>[!TIP]
+>
+>Para alterar os pixels de rastreamento de terceiros para vários anúncios de uma só vez, consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Seu anúncio só será veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+   >Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >
@@ -42,4 +46,3 @@ ht-degree: 0%
 >* [Duplicar um anúncio](ad-duplicate.md)
 >* [Listar as disposições associadas a um anúncio](ad-list-placements.md)
 >* [Especificações de publicidade](ad-specs.md)
-

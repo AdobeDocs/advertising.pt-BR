@@ -3,9 +3,9 @@ title: Configurações do anúncio móvel
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios móveis.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Isso é o mesmo que o **[!UICONTROL Height]** campo.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual.
+Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** Para editar os pixels de rastreamento de terceiros para vários anúncios em uma disposição de uma só vez usando o [!UICONTROL Ad Tools] exibir, consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 As configurações a seguir se aplicam a cada pixel criado ou editado.
 

@@ -3,9 +3,9 @@ title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 É possível editar as configurações de uma única disposição ou de várias disposições de uma só vez.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->Também é possível baixar as configurações de uma ou mais disposições, ou de todas as disposições em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto de campos; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e corrigir configurações de posicionamento usando planilhas](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e corrigir configurações de posicionamento usando planilhas](placement-qa.md).&quot;
 
 ## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 É possível editar o nome da disposição, o status, o lance máximo e o orçamento sem abrir as configurações completas de disposição.
 

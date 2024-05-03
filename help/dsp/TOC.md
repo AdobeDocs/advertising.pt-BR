@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [Sobre o gerenciamento de posicionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Criar uma disposição](/help/dsp/campaign-management/placements/placement-create.md)
       + [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Editar rapidamente as configurações de posicionamento de chaves](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Revisar e corrigir configurações de posicionamento usando planilhas](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Duplicar um posicionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Exibir alertas](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Corrigir Configurações De Posicionamento Usando Planilhas {#qa-spreadsheet}
-      + [Sobre a Correção de Configurações de Posicionamento Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Baixar configurações de posicionamento em uma planilha](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Carregar Configurações de Posicionamento em uma Planilha](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Colunas em planilhas baixadas/carregadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macros do DSP](/help/dsp/campaign-management/macros.md)
    + [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

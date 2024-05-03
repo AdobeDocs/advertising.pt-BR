@@ -3,9 +3,9 @@ title: Editar uma disposição
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+É possível editar o nome da disposição, o status, o lance máximo e o orçamento sem abrir as configurações completas de disposição.
+
+1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+1. Clique no nome da campanha.
+1. No submenu, clique em **[!UICONTROL Placements]**.
+1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Editar qualquer um dos disponíveis [configurações de posicionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, e **[!UICONTROL Budget]**.
+1. Clique em **[!UICONTROL Apply]**.
+
 ## Editar um único posicionamento
 
 >[!TIP]
 >
-> Para editar apenas o nome da disposição, o status, o lance máximo e o orçamento, consulte &quot;[Editar rapidamente as configurações de posicionamento de chaves](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Para editar apenas o nome da disposição, o status, o lance máximo e o orçamento, consulte &quot;[Editar rapidamente as configurações de posicionamento de chaves](#placement-quick-edit).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Editar rapidamente as configurações de posicionamento de chaves](placement-quick-edit.md)
+>* [Revisar e corrigir configurações de posicionamento usando planilhas](placement-qa.md)
 >* [Criar uma disposição](placement-create.md)
 >* [Duplicar um posicionamento](placement-duplicate.md)
 >* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Sobre a Correção de Configurações de Posicionamento Usando Planilhas](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

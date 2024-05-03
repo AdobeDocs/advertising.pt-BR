@@ -2,9 +2,9 @@
 title: Examine as configurações do anúncio usando planilhas
 description: Saiba como revisar as configurações de anúncios usando planilhas.
 feature: DSP Ads
-source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
+source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Editar um anúncio](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Configurações do anúncio](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)

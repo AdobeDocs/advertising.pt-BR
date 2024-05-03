@@ -3,9 +3,9 @@ title: Editar rapidamente as configurações de posicionamento de chaves
 description: Saiba como alterar rapidamente as configurações de posicionamento de chaves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
 >* [Criar uma disposição](placement-create.md)
->* [Editar uma disposição](placement-edit.md)
+>* [Editar disposições](placement-edit.md)
 >* [Duplicar um posicionamento](placement-duplicate.md)
 >* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
 >* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)

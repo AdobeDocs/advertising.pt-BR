@@ -3,9 +3,9 @@ title: Duplicar disposições
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,6 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
 >* [Criar uma disposição](placement-create.md)
->* [Editar uma disposição](placement-edit.md)
+>* [Editar disposições](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
-

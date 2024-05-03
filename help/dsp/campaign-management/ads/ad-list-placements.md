@@ -3,9 +3,9 @@ title: Listar as disposições associadas a um anúncio
 description: Saiba como ver os posicionamentos associados a um anúncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Consulte também &quot;[Exibir anúncios anexados a inserções](/help/dsp/campa
 >
 >* [Sobre o gerenciamento de anúncios](ad-about.md)
 >* [Editar um anúncio](ad-edit.md)
->* [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)

@@ -3,9 +3,9 @@ title: Atalhos de teclado
 description: Referencie os atalhos de teclado disponíveis nas configurações de posicionamento.
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,5 @@ Nas configurações de posicionamento, use atalhos de teclado para navegar rapid
 >[!MORELIKETHIS]
 >
 >* [Criar uma disposição](/help/dsp/campaign-management/placements/placement-create.md)
->* [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

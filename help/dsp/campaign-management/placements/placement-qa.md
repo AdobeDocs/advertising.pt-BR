@@ -1,16 +1,16 @@
 ---
-title: Revisar e corrigir configurações de posicionamento usando planilhas
+title: Revisar e editar configurações de posicionamento usando planilhas
 description: Saiba como revisar e editar configurações de posicionamento de chaves usando planilhas.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Revisar e corrigir configurações de posicionamento usando planilhas
+# Revisar e editar configurações de posicionamento usando planilhas
 
 É possível baixar as configurações de uma ou mais disposições, ou de todas as disposições em uma campanha, no formato XLSX (planilha do Excel) para revisão. Use esse recurso para analisar rapidamente detalhes como:
 
@@ -22,7 +22,7 @@ Em seguida, é possível fazer alterações em campos selecionados e carregá-lo
 
 >[!TIP]
 >
->Para fazer alterações mais abrangentes nas configurações de posicionamento, use o [recurso de edição em massa](/help/dsp/campaign-management/placements/placement-edit.md).
+>Para editar mais campos para uma ou mais disposições, consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Configurações de download para todos os posicionamentos em uma campanha
 
@@ -193,5 +193,5 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 
 >[!MORELIKETHIS]
 >
->* [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

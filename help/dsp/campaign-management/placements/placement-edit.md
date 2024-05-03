@@ -1,16 +1,16 @@
 ---
-title: Editar uma disposição
+title: Editar disposições
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Editar uma disposição
+# Editar disposições
 
 É possível editar as configurações de uma única disposição ou de várias disposições de uma só vez.
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e corrigir configurações de posicionamento usando planilhas](placement-qa.md).&quot;
+>Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e editar configurações de posicionamento usando planilhas](placement-qa.md).&quot;
 
 ## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Revisar e corrigir configurações de posicionamento usando planilhas](placement-qa.md)
+>* [Revisar e editar configurações de posicionamento usando planilhas](placement-qa.md)
 >* [Criar uma disposição](placement-create.md)
 >* [Duplicar um posicionamento](placement-duplicate.md)
 >* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)

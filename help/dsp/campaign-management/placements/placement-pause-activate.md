@@ -3,9 +3,9 @@ title: Pausar ou ativar um posicionamento
 description: Saiba como pausar ou ativar um posicionamento.
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,5 @@ Pausar uma inserção ao vivo ou ativar uma inserção pausada quando estiver de
 >[!MORELIKETHIS]
 >
 >* [Arquivar ou desarquivar um posicionamento](placement-archive-unarchive.md)
->* [Editar uma disposição](placement-edit.md)
+>* [Editar disposições](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
-

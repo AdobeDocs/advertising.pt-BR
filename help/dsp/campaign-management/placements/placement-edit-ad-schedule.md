@@ -3,9 +3,9 @@ title: Editar cronogramas de publicidade para inserções
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Editar uma disposição](placement-edit.md)
+>* [Editar disposições](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Posicionamentos {#placements}
       + [Sobre o gerenciamento de posicionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Criar uma disposição](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Editar uma disposição](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Revisar e corrigir configurações de posicionamento usando planilhas](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Revisar e editar configurações de posicionamento usando planilhas](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicar um posicionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [Crie um único anúncio](/help/dsp/campaign-management/ads/ad-create.md)
       + [Criar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Criar anúncios com [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Examine as configurações do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar um anúncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar um anúncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [Anexar anúncios a inserções](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

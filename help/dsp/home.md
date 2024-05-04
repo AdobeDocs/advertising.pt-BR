@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
-| 2 de maio de 2024 | Anúncios, Pixels | É possível baixar as configurações de todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão no [!UICONTROL Ad Tools] exibição. | Consulte &quot;[Examine as configurações do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| 2 de maio de 2024 | Anúncios, Pixels | É possível baixar as configurações de anúncio e associações de posicionamento para todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão no [!UICONTROL Ad Tools] exibição. | Consulte &quot;[Analise os detalhes do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | A variável [!UICONTROL Ad Tools] visualizar > [!UICONTROL Attach Pixels] A guia mostra os pixels de rastreamento de terceiros anexados aos seus anúncios e fornece um novo fluxo de trabalho para anexar pixels a um ou mais anúncios e desanexar pixels existentes. | Consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Posicionamentos, públicos | Agora é possível excluir segmentos de público-alvo individuais ou públicos-alvo não reutilizáveis de disposições por meio de ferramentas de edição em massa ou do editor de disposições. | Consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)&quot; e &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 de abril de 2024 | Posicionamentos | Agora é possível criar e gerenciar modificadores de lance, pelos quais um lance é multiplicado para aumentar ou diminuir o lance, para tipos de alvo especificados para um posicionamento. O modificador de oferta padrão é 1,00, o que significa sem aumento ou diminuição; os valores podem variar de 0,10 a 10,00. Por exemplo, um modificador de lance de 0,50 diminui um lance de USD 6 para USD 3 (0,50 x 6). Quando um leilão é qualificado para vários modificadores de lance, todos os modificadores de lance aplicáveis são multiplicados. Os modificadores de oferta nunca aumentam a oferta para mais do que a oferta máxima. | Consulte &quot;[Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |

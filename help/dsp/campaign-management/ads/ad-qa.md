@@ -2,7 +2,7 @@
 title: Analise os detalhes do anúncio usando planilhas
 description: Saiba como revisar os detalhes do anúncio, incluindo as configurações do anúncio e disposições associadas, usando planilhas.
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%

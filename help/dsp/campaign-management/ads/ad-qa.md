@@ -3,16 +3,16 @@ title: Analise os detalhes do anúncio usando planilhas
 description: Saiba como revisar os detalhes do anúncio, incluindo as configurações do anúncio e disposições associadas, usando planilhas.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 64a1d623bd505764d1fb320e95706e0f702b1d23
+source-git-commit: b469ce7db2bddb99062b32aef25e3e5ae524fa61
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Analise os detalhes do anúncio usando planilhas
 
-Você pode baixar detalhes sobre todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão. Os detalhes incluem as configurações do anúncio e os posicionamentos associados.<!-- Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+Você pode baixar detalhes sobre todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão. Os detalhes incluem uma guia com as configurações e disposições associadas para cada anúncio e outra guia com cada pixel usado para os anúncios na campanha.
 
 >[!NOTE]
 >

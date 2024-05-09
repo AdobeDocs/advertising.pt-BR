@@ -3,9 +3,9 @@ title: Criar manualmente detalhes da ID do contrato
 description: Saiba como inserir detalhes manualmente para uma ID de acordo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 0%
 
    1. Clique em **[!UICONTROL Save]**.
 
-1. (Somente ofertas garantidas) Selecione os anúncios que serão usados para a oferta (ou o pixel 1x1 para anúncios gerenciados pelo editor) e crie uma inserção programática garantida (PG) padrão.
+1. (Somente ofertas garantidas) Selecione os anúncios a serem usados para a oferta (ou o pixel 1x1 para anúncios gerenciados pelo editor) e crie uma inserção programática garantida (PG) padrão.
 
    Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição padrão de PG, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. No [!UICONTROL Placements] exibir, os posicionamentos de PG padrão têm um [!UICONTROL Sub-type] valor da coluna de &quot;[!UICONTROL PG Default].&quot;
 
    Opcionalmente, você pode usar a negociação como um destino de inventário em disposições adicionais, mas deve configurá-las corretamente para fazer ofertas.
 
-   1. No [!UICONTROL Ad & Campaign Selection] selecione os anúncios que serão usados para a oferta:
+   1. No [!UICONTROL Ad & Campaign Selection] selecione os anúncios a serem usados para a oferta:
 
       1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
 

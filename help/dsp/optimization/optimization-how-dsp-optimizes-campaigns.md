@@ -3,9 +3,9 @@ title: Como o DSP otimiza suas campanhas
 description: Saiba como o DSP otimiza os pacotes em suas campanhas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ As metas de otimização de pacotes operam em dois níveis:
 
 * Para cada posicionamento/leilão no pacote: O DSP calcula o valor do KPI econômico em tempo real para cada leilão por posicionamento e, em seguida, usa esse valor para determinar o lance.
 
-   >[!NOTE]
-   >
-   >O valor econômico pode ser pesadamente ponderado com base no quão bem uma colocação está gastando. Se uma colocação estiver por trás de sua meta de gastos, então será permitido comprar leilões de qualidade mais baixa. Se uma inserção estiver facilmente atingindo sua meta de gastos, ela se concentrará em leilões de maior qualidade.
+  >[!NOTE]
+  >
+  >O valor econômico pode ser pesadamente ponderado com base no quão bem uma colocação está gastando. Se uma colocação estiver por trás de sua meta de gastos, então é permitido comprar leilões de qualidade mais baixa. Se uma inserção estiver facilmente atingindo sua meta de gastos, o foco será transferido para leilões de maior qualidade.
 
 ## Otimização de pacote
 
@@ -48,9 +48,9 @@ Esse modo de otimização funciona bem se:
 
 #### Lógica de ritmo {#pacing-logic-performance}
 
-* Se os gastos estiverem no ritmo, os lances se tornarão mais seletivos, de modo que você só fará lances em leilões previstos com altas taxas de desempenho.
+* Se os gastos estiverem no ritmo, a licitação se torna mais seletiva, de modo que você só licitará em leilões previstos com altas taxas de desempenho.
 
-* Se os gastos estiverem atrasados, a licitação se tornará menos seletiva, de modo que você licitará em leilões previstos com taxas de desempenho mais baixas para alcançar a meta de ritmo.
+* Se os gastos estiverem atrasados, a licitação se torna menos seletiva, de modo que você licitará em leilões previstos com taxas de desempenho mais baixas para alcançar a meta de ritmo.
 
 #### Limpando o Sombreamento de Preço/Oferta {#clearing-price-performance}
 
@@ -89,4 +89,3 @@ Consulte [Filtros pré-oferta no nível de posicionamento e como usá-los](optim
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Filtros pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
-

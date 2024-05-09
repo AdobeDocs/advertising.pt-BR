@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -78,16 +78,15 @@ Para estimar impostos a reter:
 >
 >* Você também pode configurar esses valores nas configurações de taxa da conta.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-
 **[!UICONTROL Cross Device Level]:** (Somente leitura para campanhas existentes criadas desde 22 de junho de 2020; não disponível para campanhas criadas antes de 22 de junho de 2020) O nível no qual o DSP direcionará anúncios e aplicará limites de frequência: *Mesmo dispositivo* para direcionar um dispositivo ou *Pessoas* para direcionar uma pessoa em todos os dispositivos conhecidos.
 
 **[!UICONTROL Device Graph]:** (Somente leitura para campanhas existentes; campanhas com direcionamento entre dispositivos baseado em pessoas somente) O gráfico de dispositivos a ser usado para direcionamento entre dispositivos e gerenciamento de frequência:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Disponível para todos os anunciantes para direcionamento entre dispositivos a US$ 0,35 CPM para impressões fornecidas usando o [!DNL LiveRamp] gráfico de dispositivos (ou seja, para dispositivos não encontrados nos segmentos de público-alvo direcionados). Você pode configurar o direcionamento entre dispositivos no nível do posicionamento.
 
-   Essa opção também está disponível para todos os anunciantes, sem taxas, para gestão de frequência e medição de atribuição.
+  Essa opção também está disponível para todos os anunciantes, sem taxas, para gestão de frequência e medição de atribuição.
 
-**[!UICONTROL Frequency Cap]:** (Opcional) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level]) serão veiculados com anúncios da campanha. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
+**[!UICONTROL Frequency Cap]:** (Opcional) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level]) podem ser veiculados em anúncios da campanha. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
 
 >[!NOTE]
 >
@@ -109,9 +108,9 @@ Para estimar impostos a reter:
 
 * **[!UICONTROL Measure On]:** O inventário no qual medir: *[!UICONTROL Display and VPAID video inventory]* (o padrão) ou *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >A visibilidade do vídeo pode ser medida somente no inventário VPAID.
+  >[!NOTE]
+  >
+  >A visibilidade do vídeo pode ser medida somente no inventário VPAID.
 
 * **[!UICONTROL IAS Account ID (AnID)]:** (Anunciantes com seus próprios [!DNL IAS] contas; opcional) As contas da organização [!DNL IAS] ID da conta, que [!DNL IAS] cobrará diretamente pelo uso.
 
@@ -151,4 +150,3 @@ Para estimar impostos a reter:
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
-

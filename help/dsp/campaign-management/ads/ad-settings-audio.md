@@ -3,9 +3,9 @@ title: Configurações do anúncio de áudio
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios em áudio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: o URL da tag VAST.
 
-**[!UICONTROL Title]**: Um nome para o arquivo, que será usado na variável [!UICONTROL Ads] e relatórios.
+**[!UICONTROL Title]**: Um nome para o arquivo, que é usado no [!UICONTROL Ads] e relatórios.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Este campo pode ou não ser exibido, dependendo das permissões da conta.
 
 **[!UICONTROL Final VAST Tag]:** (Anúncios que usam somente tags VAST) O URL da fonte de anúncios de terceiros com as tags necessárias [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
 
-**[!UICONTROL Select Rate]:** (Somente usuários com permissão) Uma taxa pré-negociada cobrada por meio do Adobe, ou uma das taxas que você negociou e pela qual será cobrada por meio do fornecedor. Para adicionar uma taxa, entre em contato com a equipe da conta Adobe.
+**[!UICONTROL Select Rate]:** (Somente usuários com permissão) Uma taxa pré-negociada cobrada por meio do Adobe ou uma das taxas que você negociou e é cobrada por meio do fornecedor. Para adicionar uma taxa, entre em contato com a equipe da conta Adobe.
 
 ### [!UICONTROL Pixel]
 

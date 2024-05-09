@@ -1,11 +1,11 @@
 ---
 title: Formato das tags de rastreamento de conversão do JavaScript versão 2
 description: Consulte o formato das tags de rastreamento de conversão do JavaScript versão 2.
-exl-id: c4845694-10ac-41f8-bafb-ca813e42d190
+exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ em que:
 
 * `<ef-userid>` é uma ID de usuário exclusiva e numérica que o Search, Social e Commerce atribui ao anunciante.
 
-* `<propertyname>` é a conversão que será rastreada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>`e você precisaria passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Nota:**  O nome da propriedade não pode incluir caracteres especiais.
+* `<propertyname>` é a conversão a ser rastreada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>`e você precisaria passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Nota:**  O nome da propriedade não pode incluir caracteres especiais.
 
 * `<transid>` é uma ID de transação exclusiva (como uma ID de pedido real) que o anunciante gera e transmite para identificar uma transação. É incluído somente quando o &quot;[!UICONTROL Include unique transaction IDs]&quot; está selecionada.
 
-  Search, Social, &amp; Commerce usa a ID de transação para eliminar transações duplicadas com a mesma ID de transação e valor de propriedade. A ID da transação está incluída na variável [!UICONTROL Transaction Report], que você pode usar para validar dados no Adobe Advertising com os dados do anunciante. **Nota:** Se os dados do anunciante não incluírem uma ID exclusiva por transação, Search, Social e Commerce ainda gerarão uma com base no tempo da transação.
+  O Search, Social e Commerce usa a ID de transação para eliminar transações duplicadas com a mesma ID de transação e valor de propriedade. A ID da transação está incluída na variável [!UICONTROL Transaction Report], que você pode usar para validar dados no Adobe Advertising com os dados do anunciante. **Nota:** Se os dados do anunciante não incluírem uma ID exclusiva por transação, Search, Social e Commerce ainda gerarão uma com base no tempo da transação.
 
 <!-- add more links -->
 

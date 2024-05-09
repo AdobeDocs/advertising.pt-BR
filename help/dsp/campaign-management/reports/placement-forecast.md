@@ -3,9 +3,9 @@ title: Exibir o Relatório de Previsão de Posicionamento
 description: Consulte o número de impressões, gastos e lance máximo ideal previstos para uma estratégia de direcionamento específica para uma inserção.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ A previsão inclui as seguintes informações:
 
    * O posicionamento usa um novo tipo de anúncio para a campanha.
 
-     Uma inserção geralmente é uma coleção de vários modelos de anúncio, conforme definido pelas plataformas do lado da oferta. Portanto, mesmo que o posicionamento já exista há muito tempo, o modelo de anúncio subjacente pode ser novo e a ferramenta de previsão não será capaz de fazer a previsão.
+     Uma inserção geralmente é uma coleção de vários modelos de anúncio, conforme definido pelas plataformas do lado da oferta. Portanto, mesmo que o posicionamento já exista há muito tempo, se o modelo de anúncio subjacente for novo, a ferramenta de previsão não poderá criar uma previsão.
 
 ## Abrir o Relatório de Previsão de Posicionamento
 

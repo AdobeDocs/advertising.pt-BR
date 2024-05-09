@@ -3,9 +3,9 @@ title: Configurações do anúncio de exibição
 description: Consulte descrições das configurações de anúncios disponíveis para exibir anúncios.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ As configurações a seguir são para anúncios de exibição padrão.
 
 **[!UICONTROL Certified Vendors]:** (Somente anúncios de banner expansíveis de terceiros) O fornecedor certificado para o qual o anúncio está disponível: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]* ou *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Somente anúncios de terceiros) O URL do ativo criativo de terceiros. Qualquer [carimbo de data e hora] e [[carimbo de data e hora]] parâmetros serão substituídos por valores reais.
+**[!UICONTROL Display Code]:** (Somente anúncios de terceiros) O URL do ativo criativo de terceiros. Qualquer [carimbo de data e hora] e [[carimbo de data e hora]] são substituídos por valores reais.
 
 **[!UICONTROL Final Display Code]:** (Somente anúncios de terceiros) O URL para o ativo criativo de terceiros, com os anúncios necessários [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
 
@@ -44,7 +44,7 @@ As configurações a seguir são para anúncios de exibição padrão.
 
 >[!IMPORTANT]
 >
-> O tamanho do anúncio declarado nos campos largura e altura será correspondido com as solicitações de oferta recebidas. Você pode enfrentar problemas na entrega se as dimensões do anúncio não corresponderem ao tamanho declarado do anúncio.
+> O tamanho do anúncio declarado nos campos largura e altura corresponde às solicitações de oferta recebidas. Você pode enfrentar problemas na entrega se as dimensões do anúncio não corresponderem ao tamanho declarado do anúncio.
 
 ### [!UICONTROL Pixel]
 

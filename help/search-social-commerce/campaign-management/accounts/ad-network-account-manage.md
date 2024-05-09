@@ -3,9 +3,9 @@ title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
 
 1. Clique em **[!UICONTROL Post]**.
 
-   Os dados recentes de custo e clique para todas as campanhas na conta estão disponíveis em Pesquisa, Social e Comércio em cerca de 24 horas. Por padrão, os dados estão disponíveis nos últimos 5 a 10 dias, dependendo da rede de anúncios. No entanto, quando necessário, a equipe de lançamento do projeto pode recuperar dados dos últimos 60 dias.
+   Os dados recentes de custos e cliques de todas as campanhas na conta do estão disponíveis em Pesquisa, Social e Commerce em cerca de 24 horas. Por padrão, os dados estão disponíveis nos últimos 5 a 10 dias, dependendo da rede de anúncios. No entanto, quando necessário, a equipe de lançamento do projeto pode recuperar dados dos últimos 60 dias.
 
 ## Editar detalhes da conta de rede de publicidade {#edit-account}
 
@@ -81,13 +81,13 @@ Se as credenciais da conta forem alteradas, você desejará alterar os parâmetr
 
    >[!NOTE]
    >
-   >A Search, Social e Commerce precisa sincronizar os novos dados da conta com os da rede de anúncios. Isso acontece automaticamente uma vez por dia ou com mais frequência quando o Search, Social e Commerce detecta alterações na rede de anúncios.
+   >Search, Social e Commerce devem sincronizar os novos dados da conta com os da rede de anúncios. Isso acontece automaticamente uma vez por dia ou com mais frequência quando o Search, o Social e o Commerce detectam alterações na rede de anúncios.
 
 ## Atualizar tokens de acesso oAuth para contas de pesquisa {#refresh-oauth-tokens}
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-Se as opções Pesquisar, Social e Comércio acessarem a conta usando o [Protocolo de autorização OAuth](https://oauth.net/2/) e as credenciais da conta forem alteradas, ou se for necessário acesso adicional para oferecer suporte a novos recursos no Search, Social e Commerce, você deverá obter um novo token de acesso para a conta.
+Se as opções Pesquisar, Social e Commerce acessarem a conta usando o [Protocolo de autorização OAuth](https://oauth.net/2/) e as credenciais da conta forem alteradas, ou se for necessário acesso adicional para oferecer suporte a novos recursos no Search, Social e Commerce, você deverá obter um novo token de acesso para a conta.
 
 Sua equipe de conta do Adobe informará se novos recursos exigirem um novo token.
 
@@ -113,7 +113,7 @@ Sua equipe de conta do Adobe informará se novos recursos exigirem um novo token
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando há suporte) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.Quando você desabilita uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
+Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.Quando você desabilita uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
 
 1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -178,12 +178,12 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 >* Este campo não é atualizado pelo [!UICONTROL Auto Upload] configuração de rastreamento.
 >* Os sufixos de URL finais nos níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor da rede de anúncios.
 
-**Fuso Horário:** (Todas as redes de anúncios, exceto [!DNL Baidu] e [!DNL Yahoo! Display Network]) O fuso horário do anunciante. Este campo é editável e opcional para novos [!DNL Naver] contas. Para todas as outras redes de pesquisa, o valor é preenchido automaticamente com o fuso horário configurado para a conta de Pesquisa, Social e Comércio do anunciante depois de salvar o registro.
+**Fuso Horário:** (Todas as redes de anúncios, exceto [!DNL Baidu] e [!DNL Yahoo! Display Network]) O fuso horário do anunciante. Este campo é editável e opcional para novos [!DNL Naver] contas. Para todas as outras redes de pesquisa, o valor é preenchido automaticamente com o fuso horário configurado para a conta Search, Social, &amp; Commerce do anunciante depois de salvar o registro.
 
-**Status:** O status da conta em Pesquisa, Social e Comércio:
+**Status:** O status da conta em Search, Social e Commerce:
 
-* *Ativado:* Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.
-* *Desabilitado:* Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as exibições e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está pausada. Posteriormente, você pode reativar a conta para retomar a atividade com ela.
+* *Ativado:* O Search, Social e Commerce sincroniza dados de campanha com a conta (quando há suporte) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.
+* *Desabilitado:* O Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as exibições e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está pausada. Posteriormente, você pode reativar a conta para retomar a atividade com ela.
 
 **Modelo de rastreamento** - ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] somente contas; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
@@ -197,7 +197,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros.
 
-* Quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+* Quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] contas somente) O token do desenvolvedor a ser usado para a conta. O mesmo token é usado para todos [!DNL Yandex] contas.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] contas com a configuração Conta compartilhada desativada somente; opcional) a ID numérica da campanha que será usada para pagar todas as campanhas de publicidade na conta.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] contas com a configuração Conta compartilhada desativada somente; opcional) a ID numérica da campanha usada para pagar todas as campanhas de publicidade na conta.
 
 **[!UICONTROL Finance Token]:** ([!DNL Yandex] contas com a configuração Conta compartilhada desativada somente; opcional) O token do desenvolvedor a ser usado para chamadas de API relacionadas a finanças, como para realocar dinheiro da carteira entre as campanhas do anunciante, conforme necessário para otimização de portfólio.
 

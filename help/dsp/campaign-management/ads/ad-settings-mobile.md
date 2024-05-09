@@ -3,9 +3,9 @@ title: Configurações do anúncio móvel
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios móveis.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[Origem do anúncio\]**: (Somente leitura) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** O URL do ativo criativo de terceiros. Qualquer [carimbo de data e hora] e [[carimbo de data e hora]] parâmetros serão substituídos por valores reais.
+**[!UICONTROL Display Code]:** O URL do ativo criativo de terceiros. Qualquer [carimbo de data e hora] e [[carimbo de data e hora]] são substituídos por valores reais.
 
 **[!UICONTROL Final Display Code]:** O URL do ativo criativo de terceiros, com as informações necessárias [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
 

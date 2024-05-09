@@ -3,9 +3,9 @@ title: Sintaxe da lógica do segmento de público-alvo
 description: Faça referência à sintaxe que pode ser usada para definir a lógica dos segmentos de público-alvo.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ significa (em inglês simples)
 
 >[!NOTE]
 >
->Nas configurações de posicionamento, é possível usar os públicos salvos como públicos-alvo para direcionar explicitamente ou como públicos-alvo separados para excluir do direcionamento. Verifique se a lógica do segmento reflete a finalidade para a qual você usará o público-alvo.
+>Nas configurações de posicionamento, é possível usar os públicos salvos como públicos-alvo para direcionar explicitamente ou como públicos-alvo separados para excluir do direcionamento. Certifique-se de que a lógica do segmento reflita a finalidade de uso do público-alvo.
 
 >[!MORELIKETHIS]
 >

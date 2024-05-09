@@ -3,9 +3,9 @@ title: Configurações de destino do relatório
 description: Veja os detalhes necessários para os destinos do seu relatório, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
 
-**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no [!DNL Amazon Simple Storage Service] (S3) bucket para o qual o relatório será carregado. Exemplo: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no [!DNL Amazon Simple Storage Service] (S3) bucket para o qual o relatório é carregado. Exemplo: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** A ID da chave de acesso para o ([!DNL Amazon S3]) bucket (fornecido por [!DNL Amazon]).
 
@@ -40,7 +40,7 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Password]:** A senha para fazer logon no servidor.
 
-**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos serão carregados.
+**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Password]:** A senha para fazer logon no servidor.
 
-**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos serão carregados.
+**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Password]:** A senha para fazer logon no servidor.
 
-**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos serão carregados.
+**[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 >* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

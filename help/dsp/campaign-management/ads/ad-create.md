@@ -3,9 +3,9 @@ title: Crie um único anúncio
 description: Saiba como criar um único anúncio de terceiros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vário
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. Clique no nome da campanha na qual o anúncio será incluído.
+1. Clique no nome da campanha na qual deseja incluir o anúncio.
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**. No [!UICONTROL Ad Types] do menu, clique na guia [tipo de anúncio](ad-about.md#ad-types).
 
@@ -55,4 +55,3 @@ Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vário
 >* [Editar um anúncio](ad-edit.md)
 >* [Especificações de publicidade](ad-specs.md)
 >* [Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

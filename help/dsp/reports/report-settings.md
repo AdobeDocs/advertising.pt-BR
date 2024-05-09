@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,9 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Conversion Reporting Based On]:**  Como relatar dados de conversão:
 
-* *[!UICONTROL Conversion Timestamp]:* (O padrão) As conversões serão associadas à data de conversão.
+* *[!UICONTROL Conversion Timestamp]:* (O padrão) As conversões estão associadas à data de conversão.
 
-* *[!UICONTROL Event Timestamp]:* As conversões serão relatadas com base na data da impressão ou clique que causou a conversão, conforme determinado pelo parâmetro especificado [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* As conversões são relatadas com base na data da impressão ou clique que causou a conversão, conforme determinado pelo parâmetro especificado [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] Seção
 
@@ -134,7 +134,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Email]:** (Somente tipo de destino do email) Para cada endereço, digite o endereço e clique em **+**.
 
-**[!UICONTROL Destination Name]:** (Somente tipos de destino S3, FTP, sFTP e FTP SSL) Os nomes dos destinos de relatório para os quais o relatório personalizado será enviado.
+**[!UICONTROL Destination Name]:** (Somente tipos de destino S3, FTP, sFTP e FTP SSL) Os nomes dos destinos de relatório para os quais o relatório personalizado é enviado.
 
 * Para especificar um destino existente, selecione um nome de destino na lista. É possível selecionar vários nomes de destino separadamente.
 

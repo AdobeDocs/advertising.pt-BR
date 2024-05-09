@@ -2,9 +2,9 @@
 title: Gerenciar multiplicadores de oferta para disposições
 description: Saiba como criar e editar multiplicadores de oferta para destinos de posicionamento especificados.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para todas as disposições selecionadas, você pode editar os valores manualmen
 
    * Para ajustar manualmente os valores do multiplicador de oferta, vá para cada guia específica de destino ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e[!UICONTROL Brand Safety]) e edite os valores existentes para os destinos de posicionamento.
 
-   As mesmas alterações serão feitas em todos os posicionamentos selecionados.
+   As mesmas alterações se aplicam a todos os posicionamentos selecionados.
 
    * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta que substituirão os valores existentes:
 

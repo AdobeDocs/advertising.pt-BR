@@ -3,9 +3,9 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. Clique no nome da campanha na qual o posicionamento será incluído.
+1. Clique no nome da campanha na qual deseja incluir o posicionamento.
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**. No [!UICONTROL Placement Types] do menu, clique no tipo de posicionamento.
 

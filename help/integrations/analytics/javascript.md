@@ -3,9 +3,9 @@ title: Código JavaScript para [!DNL Analytics for Advertising]
 description: Código JavaScript para [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Você pode executar a validação usando qualquer tipo de ferramenta de sniffer 
    * A primeira linha é a chamada para a biblioteca do JavaScript e é intitulada `last-event-tag-latest.min.js`.
    * A segunda linha é a chamada que envia a solicitação para o Adobe Advertising. Ele começa da seguinte maneira: `_les_imsOrgId=[your_imsOrgId_here]&_les_url=[your_encoded_url]`
 
-     Se você não vir a chamada para o Adobe Advertising, talvez não seja a primeira exibição de página da sua visita. Para fins de teste, você pode remover o cookie de modo que a próxima chamada seja a primeira exibição de página da visita correspondente:
+     Se você não vir a chamada para o Adobe Advertising, talvez não seja a primeira exibição de página da sua visita. Para fins de teste, você pode remover o cookie para que a próxima chamada seja a primeira exibição de página da visita correspondente:
 
    1. Na guia Aplicativo, localize o `adcloud` cookie e verifique se o cookie contém `_les_v` (última visita) com um valor de `y` e um carimbo de data e hora UTC que expira em 30 minutos.
       1. Exclua o `adcloud` cookie e atualiza a página.
@@ -84,13 +84,13 @@ Você pode executar a validação usando qualquer tipo de ferramenta de sniffer 
 
    ![Filtragem ativada `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (Implementações que usam o Experience Platform [!DNL Web SDK] `alloy.js`code) Filtrar em `/interact` para verificar se a carga da solicitação para a Rede de borda contém `advertisingStitchID`.
+1. (Implementações que usam o Experience Platform [!DNL Web SDK] `alloy.js`code) Filtrar em `/interact` para verificar se a carga da solicitação para o Edge Network contém `advertisingStitchID`.
 
    ![Filtragem ativada `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. Compare os valores de ID entre as duas ocorrências. Todos os valores estarão em parâmetros de sequência de consulta, exceto a ID do conjunto de relatórios na ocorrência do Analytics, que é o caminho do URL imediatamente após `/b/ss/`.
+1. Compare os valores de ID entre as duas ocorrências. Todos os valores devem estar nos parâmetros da sequência de consulta, exceto a ID do conjunto de relatórios na ocorrência do Analytics, que é o caminho do URL imediatamente após `/b/ss/`.
 
-   | ID | Parâmetro do Analytics | Rede de borda | Parâmetro Adobe Advertising |
+   | ID | Parâmetro do Analytics | Edge Network | Parâmetro Adobe Advertising |
    | --- | --- | --- | --- |
    | Experience Cloud Organização IMS | `mcorgid` |  | `_les_imsOrgid` |
    | ID de dados complementares | sdid |  | `_les_sdid` |
@@ -108,7 +108,7 @@ Você pode executar a validação usando qualquer tipo de ferramenta de sniffer 
 1. No [!UICONTROL Request URL - Hostname] linha de parâmetro, localizar `lasteventf-tm.everesttech.net`.
 1. No [!UICONTROL Request - Parameters] linha, audite os sinais gerados, semelhante à Etapa 3 em &quot;[Como confirmar o código com [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementações que usam o serviço de identidade Experience Cloud) `visitorAPI.js` código) Verifique se o `Sdid` O parâmetro do corresponde ao `Supplemental Data ID` no filtro Adobe Analytics.
-   * (Implementações que usam o Experience Platform [!DNL Web SDK] `alloy.js`code) Verifique se o valor do campo `advertisingStitchID` O parâmetro do corresponde ao `Sdid` enviado para a Rede de borda do Experience Platform.
+   * (Implementações que usam o Experience Platform [!DNL Web SDK] `alloy.js`code) Verifique se o valor do campo `advertisingStitchID` O parâmetro do corresponde ao `Sdid` enviado para o Edge Network Experience Platform.
    * Se o código não estiver sendo gerado, verifique se o cookie Adobe Advertising foi removido na variável [!UICONTROL Application] guia. Depois de removida, atualize a página e repita o processo.
 
    ![Auditoria [!DNL Analytics for Advertising] Código JavaScript no [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

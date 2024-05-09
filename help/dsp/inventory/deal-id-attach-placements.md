@@ -3,9 +3,9 @@ title: Especificar disposições e anúncios para um acordo privado
 description: Saiba como usar uma negociação privada com posicionamentos e anúncios adicionais.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Também é possível [anexar anúncios a posicionamentos](/help/dsp/campaign-man
 
        1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
        
-       1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio que será usado para a oferta.
+       1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio a ser usado para a negociação.
        
        1. Clique em **[!UICONTROL Apply]**.
    
@@ -46,7 +46,7 @@ Também é possível [anexar anúncios a posicionamentos](/help/dsp/campaign-man
 
       1. Clique em **[!UICONTROL Create placement]**.
 
-O posicionamento começará a ser executado depois que o editor ativar a ID de contrato PG.
+O posicionamento começa a ser executado depois que o editor ativa a ID de contrato PG.
 
 >[!NOTE]
 >

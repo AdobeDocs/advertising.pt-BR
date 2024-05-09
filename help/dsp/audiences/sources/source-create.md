@@ -3,9 +3,9 @@ title: Criar uma fonte de público-alvo para ativar públicos-alvo primários
 description: Saiba como criar uma fonte para importar públicos para sua conta ou uma conta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para obter as etapas adicionais necessárias para assimilar segmentos de platafo
 
 >[!NOTE]
 >
->Depois de criar uma fonte para a plataforma de dados do cliente, será necessário concluir as etapas adicionais. Consulte a [fluxo de trabalho de ativação para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> e a variável [fluxo de trabalho de ativação para [!DNL Tealium]](source-tealium.md).
+>Após criar uma origem para sua plataforma de dados do cliente, você deve concluir etapas adicionais. Consulte a [fluxo de trabalho de ativação para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> e a variável [fluxo de trabalho de ativação para [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >

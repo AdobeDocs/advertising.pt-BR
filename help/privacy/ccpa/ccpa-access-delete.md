@@ -4,9 +4,9 @@ description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ O Adobe Experience Platform permite que as empresas concluam as seguintes tarefa
 
 ## Configuração necessária para enviar solicitações para o Adobe Advertising
 
-Para fazer solicitações de acesso e exclusão de informações pessoais do consumidor do Adobe Advertising, é necessário:
+Para fazer solicitações de acesso e exclusão de informações pessoais do consumidor do Adobe Advertising, você deve:
 
 1. Implante uma biblioteca do JavaScript para recuperar e remover os cookies do cliente. A mesma biblioteca, `AdobePrivacy.js`, é usado para todas as soluções da Adobe Experience Cloud.
 
@@ -67,7 +67,7 @@ Para fazer solicitações de acesso e exclusão de informações pessoais do con
 
 1. Use o [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou o [IU DO PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) enviar solicitações para acessar e excluir informações pessoais ao Adobe Advertising em nome dos consumidores e verificar o status das solicitações existentes.
 
-   Para anunciantes que têm um aplicativo móvel para interagir com clientes e iniciar campanhas com [!DNL DSP], será necessário baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que as empresas definam sinalizadores de status de recusa e recuperem a ID do dispositivo do consumidor (ID de namespace: `deviceID`) e enviar solicitações à API Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
+   Para anunciantes que têm um aplicativo móvel para interagir com clientes e iniciar campanhas com [!DNL DSP], você deve baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que as empresas definam sinalizadores de status de recusa e recuperem a ID do dispositivo do consumidor (ID de namespace: `deviceID`) e enviar solicitações à API Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
    Ao enviar uma solicitação de acesso do consumidor, a API Privacy Service retorna as informações do consumidor com base no cookie ou ID do dispositivo especificado, que você deve retornar ao consumidor.
 

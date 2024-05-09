@@ -1,9 +1,9 @@
 ---
 title: As tarefas de configuração iniciais para relatórios
 description: Saiba como disponibilizar métricas em relatórios e como automatizar relatórios.
-exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Os novos usuários devem executar as seguintes tarefas de configuração inicial
 
   As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
 
-  Posteriormente, se você começar a rastrear uma nova métrica de conversão, será necessário repetir essa tarefa.
+  Posteriormente, se você começar a rastrear uma nova métrica de conversão, deverá repetir essa tarefa.
 
 * (Opcional) Automatizar a geração de relatórios:
 

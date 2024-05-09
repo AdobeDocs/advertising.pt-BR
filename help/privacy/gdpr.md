@@ -4,9 +4,9 @@ description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ O Adobe Experience Platform permite que as empresas concluam as seguintes tarefa
 
 ## Configuração necessária para enviar solicitações para o Adobe Advertising
 
-Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertising, é necessário:
+Para fazer solicitações de acesso e exclusão de dados do Adobe Advertising, você deve:
 
 1. Implante uma biblioteca JavaScript para recuperar e remover os cookies do titular dos dados. A mesma biblioteca, `AdobePrivacy.js`, é usado para todas as soluções da Adobe Experience Cloud.
 
@@ -63,7 +63,7 @@ Para fazer solicitações de acesso e exclusão de dados para o Adobe Advertisin
 
 1. Use o [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou o [IU DO PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) enviar solicitações de acesso e exclusão ao Adobe Advertising em nome dos titulares de dados e verificar o status das solicitações existentes.
 
-   Para anunciantes que têm um aplicativo móvel para interagir com titulares de dados e iniciar campanhas com DSP, será necessário baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que os controladores de dados definam sinalizadores de status de recusa e recuperem a ID do dispositivo do titular dos dados (ID de namespace: `deviceID`) e enviar solicitações à API Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
+   Para anunciantes que têm um aplicativo móvel para interagir com titulares de dados e iniciar campanhas com DSP, você deve baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que os controladores de dados definam sinalizadores de status de recusa e recuperem a ID do dispositivo do titular dos dados (ID de namespace: `deviceID`) e enviar solicitações à API Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
    Ao enviar uma solicitação de acesso do titular de dados, a API do Privacy Service retorna as informações de um titular de dados com base no cookie ou na ID do dispositivo especificada, que você deve retornar ao titular dos dados.
 

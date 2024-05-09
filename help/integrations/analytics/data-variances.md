@@ -3,9 +3,9 @@ title: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 description: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ A janela de retrospectiva para [!DNL Marketing Channels] pode ser personalizado.
 
 os relatórios de Adobe Advertising capturam apenas mídia paga traficada pelo Adobe Advertising (pesquisa paga por [!DNL Advertising Search, Social, & Commerce] publicidade, bem como exibição para publicidade DSP), enquanto [!DNL Marketing Channels] Os relatórios do podem rastrear todos os canais digitais. Isso pode levar a uma discrepância no canal para o qual uma conversão é atribuída.
 
-Por exemplo, os canais de pesquisa paga e pesquisa natural muitas vezes têm uma relação simbiótica, em que cada canal auxilia o outro. A variável [!DNL Marketing Channels] O relatório atribuirá algumas conversões à pesquisa natural que o Adobe Advertising não atribuirá porque ele não rastreia a pesquisa natural.
+Por exemplo, os canais de pesquisa paga e pesquisa natural muitas vezes têm uma relação simbiótica, em que cada canal auxilia o outro. A variável [!DNL Marketing Channels] o relatório atribui algumas conversões à pesquisa natural que o Adobe Advertising não atribui porque não rastreia a pesquisa natural.
 
 Considere também um cliente que visualiza um anúncio de exibição, clica em um anúncio de pesquisa pago, clica em uma mensagem de email e coloca um pedido de US$ 30. Mesmo que Adobe Advertising e [!DNL Marketing Channels] ambos usam o modelo de atribuição último contato, a conversão ainda seria atribuída de forma diferente a cada um. O Adobe Advertising não tem acesso ao [!UICONTROL Email] canal, portanto, creditaria a pesquisa paga pela conversão. [!DNL Marketing Channels]no entanto, tem acesso aos três canais, pelo que consideraria [!UICONTROL Email] para a conversão.
 

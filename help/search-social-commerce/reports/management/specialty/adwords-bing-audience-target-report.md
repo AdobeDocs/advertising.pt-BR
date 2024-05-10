@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] somente contas*
 
-A variável [!UICONTROL AdWords and Bing Audience Target Report] inclui dados de custo, clique, impressão e métrica derivada (opcionalmente) por público-alvo ([!DNL Google Ads] públicos-alvo semelhantes, no mercado e com base em dados do cliente, e sua [!DNL Microsoft® Advertising] remarketing, personalizado, correspondência de cliente, semelhante e públicos-alvo no mercado ) para um ou mais grupos de anúncios ou campanhas. Por padrão, os dados incluem uma linha para cada público-alvo que recebeu pelo menos uma impressão ou clique para cada grupo de anúncios aplicável para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente pelo nome do grupo de anúncios e, em seguida, pelo público-alvo por padrão. O relatório inclui dados de conversão rastreados pelo [!DNL Adobe] somente para públicos-alvo da lista de remarketing.
+A variável [!UICONTROL AdWords and Bing Audience Target Report] inclui dados de custo, clique, impressão e métrica derivada (opcionalmente) por público-alvo ([!DNL Google Ads] públicos-alvo semelhantes, no mercado e com base em dados do cliente, e sua [!DNL Microsoft Advertising] remarketing, personalizado, correspondência de cliente, semelhante e públicos-alvo no mercado ) para um ou mais grupos de anúncios ou campanhas. Por padrão, os dados incluem uma linha para cada público-alvo que recebeu pelo menos uma impressão ou clique para cada grupo de anúncios aplicável para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente pelo nome do grupo de anúncios e, em seguida, pelo público-alvo por padrão. O relatório inclui dados de conversão rastreados pelo [!DNL Adobe] somente para públicos-alvo da lista de remarketing.
 
 É possível exibir dados para até o ano anterior.
 
@@ -42,6 +42,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
-* [Sobre relatórios de especialidade](specialty-report-about.md)
-* [Gerar um relatório de especialidade](specialty-report-generate.md)
-* [Configurações do relatório de especialidades](specialty-report-settings.md)
+>* [Sobre relatórios de especialidade](specialty-report-about.md)
+>* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Configurações do relatório de especialidades](specialty-report-settings.md)

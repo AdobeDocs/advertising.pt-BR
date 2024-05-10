@@ -1,11 +1,11 @@
 ---
 title: Criar uma classificação de etiqueta
 description: Saiba como criar uma classificação de etiquetas para agrupar os componentes da conta.
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Cada anunciante pode ter até 30 classificações de etiquetas.
 
 1. Insira um nome exclusivo de classificação de etiqueta e clique em **[!UICONTROL Save]**.
 
-   O nome deve ser exclusivo para a conta do anunciante e consistir em [Caracteres ASCII 32-126](https://www.asciitable.com/)e o comprimento máximo é de 27 caracteres de byte único. O nome não pode ser idêntico ao nome de uma coluna de relatório existente ou de uma coluna de bulksheet existente. Consulte os nomes das colunas da bulksheet para [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Anúncios do Google](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Publicidade Microsoft®](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Navegador](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Anúncios no Japão](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Rede de exibição](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   O nome deve ser exclusivo para a conta do anunciante e consistir em [Caracteres ASCII 32-126](https://www.asciitable.com/)e o comprimento máximo é de 27 caracteres de byte único. O nome não pode ser idêntico ao nome de uma coluna de relatório existente ou de uma coluna de bulksheet existente. Consulte os nomes das colunas da bulksheet para [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Anúncios do Google](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Navegador](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Anúncios no Japão](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Rede de exibição](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 Depois de criar uma classificação de rótulo, você pode criar valores de rótulo específicos para a classificação e atribuir os valores de rótulo às entidades da conta do [exibições de gerenciamento de campanha](classification-values-assign-campaign-management.md) ou [uso de bulksheets](classification-values-assign-bulksheets.md).
 

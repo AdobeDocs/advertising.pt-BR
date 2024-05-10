@@ -3,7 +3,7 @@ title: Regenerar a Previsão para um Plano de Alcance de TV Conectada
 description: Saiba como criar uma nova previsão para um plano de alcance de TV conectado.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode gerar novamente a previsão para um plano de alcance de TV conectado 
 
 1. Mantenha o cursor sobre a linha do plano e clique em **[!UICONTROL Forecast]**.
 
-1. (Opcional) Para exportar a variável [!UICONTROL Budget vs Reach] previsão para um [!DNL Microsoft® Excel] planilha**, clique em **[!UICONTROL ...]** no canto superior direito e clique em **[!UICONTROL Export]**.
+1. (Opcional) Para exportar a variável [!UICONTROL Budget vs Reach] previsão para um [!DNL Microsoft Excel] planilha**, clique em **[!UICONTROL ...]** no canto superior direito e clique em **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

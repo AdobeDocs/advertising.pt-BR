@@ -1,42 +1,42 @@
 ---
-title: Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]
-description: Saiba como exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft® Advertising] conta.
+title: Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft Advertising]
+description: Saiba como exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft Advertising] conta.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft® Advertising]
+# Replicar [!DNL Google Ads] campanhas no [!DNL Microsoft Advertising]
 
-Você pode exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft® Advertising] conta como campanhas CPC (eCPC) avançadas. Os lances e orçamentos de campanha existentes são dimensionados. O rastreamento existente de Pesquisa, Social e Comércio não é importado.
+Você pode exportar suas campanhas sincronizadas em um [!DNL Google Ads] diretamente em uma conta sincronizada [!DNL Microsoft Advertising] conta como campanhas CPC (eCPC) avançadas. Os lances e orçamentos de campanha existentes são dimensionados. O rastreamento existente de Pesquisa, Social e Commerce não é importado.
 
 Você pode replicar os seguintes tipos de campanhas e sua estrutura de campanha:
 
-* [!DNL Google Ads] pesquisar e exibir campanhas em [!DNL Microsoft® Advertising] pesquisar e exibir campanhas.
+* [!DNL Google Ads] pesquisar e exibir campanhas em [!DNL Microsoft Advertising] pesquisar e exibir campanhas.
 
-* [!DNL Google Display Network] campanhas do, incluindo imagens de anúncios, em [!DNL Microsoft® Advertising] campanhas de público na Microsoft® Audience Network.
+* [!DNL Google Display Network] campanhas do, incluindo imagens de anúncios, em [!DNL Microsoft Advertising] campanhas de público na Microsoft Audience Network.
 
-  Se quiser replicar campanhas de exibição baseadas em feed de compras, primeiro replique suas [!DNL Google Merchant Center] ofertas de produtos para [!DNL Microsoft® Merchant Center]. Ao replicar as campanhas, selecione a variável [!DNL Microsoft® Merchant Center] armazene nas Opções de importação para vincular a loja às suas campanhas de público-alvo com base em feed.
+  Se quiser replicar campanhas de exibição baseadas em feed de compras, primeiro replique suas [!DNL Google Merchant Center] ofertas de produtos para [!DNL Microsoft Merchant Center]. Ao replicar as campanhas, selecione a variável [!DNL Microsoft Merchant Center] armazene nas Opções de importação para vincular a loja às suas campanhas de público-alvo com base em feed.
 
-* [!DNL Google Ads] desempenho máximo de campanhas, incluindo anúncios de inventário locais, em [!DNL Microsoft® Advertising] desempenho máximo de campanhas.
+* [!DNL Google Ads] desempenho máximo de campanhas, incluindo anúncios de inventário locais, em [!DNL Microsoft Advertising] desempenho máximo de campanhas.
 
-Você pode optar por atualizar as campanhas uma vez; diariamente, semanalmente ou mensalmente; ou de acordo com [!DNL Microsoft® Advertising]do calendário recomendado. Opcionalmente, é possível configurar notificações sempre que um trabalho de importação for executado ou quando ocorrerem erros ou alterações. Depois de importar suas campanhas para o [!DNL Microsoft® Advertising], você pode verificar o status do seu trabalho de importação, revisar logs de erro, executar um trabalho de importação manualmente e editar, pausar, habilitar ou excluir o cronograma de importação.
+Você pode optar por atualizar as campanhas uma vez; diariamente, semanalmente ou mensalmente; ou de acordo com [!DNL Microsoft Advertising]do calendário recomendado. Opcionalmente, é possível configurar notificações sempre que um trabalho de importação for executado ou quando ocorrerem erros ou alterações. Depois de importar suas campanhas para o [!DNL Microsoft Advertising], você pode verificar o status do seu trabalho de importação, revisar logs de erro, executar um trabalho de importação manualmente e editar, pausar, habilitar ou excluir o cronograma de importação.
 
-Nem todas as informações da campanha são replicadas e talvez seja necessário adicionar algumas informações às [!DNL Microsoft® Advertising] campanhas. Para obter mais informações sobre quais dados são importados, consulte [!DNL Microsoft® Advertising] ajuda sobre &quot;[O que é importado do [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Como o rastreamento de Pesquisa, Social e Comércio não é importado, você também deve adicionar o rastreamento dentro da [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configurações.
+Nem todas as informações da campanha são replicadas e talvez seja necessário adicionar algumas informações às [!DNL Microsoft Advertising] campanhas. Para obter mais informações sobre quais dados são importados, consulte [!DNL Microsoft Advertising] ajuda sobre &quot;[O que é importado do [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Como o rastreamento de Pesquisa, Social e Commerce não é importado, você também deve adicionar o rastreamento dentro da [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configurações.
 
 ## Replicar [!DNL Google Ads] campanhas
 
 >[!NOTE]
 >
->Se você quiser replicar campanhas de exibição baseadas em feed de compras, primeiro [replique seu [!DNL Google Merchant Center] ofertas de produto no [!DNL Microsoft® Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870). Ao replicar as campanhas, selecione a variável [!DNL Microsoft® Merchant Center] armazene nas opções de importação para vincular a loja às suas campanhas de público-alvo baseadas em feed.
+>Se você quiser replicar campanhas de exibição baseadas em feed de compras, primeiro [replique seu [!DNL Google Merchant Center] ofertas de produto no [!DNL Microsoft Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870). Ao replicar as campanhas, selecione a variável [!DNL Microsoft Merchant Center] armazene nas opções de importação para vincular a loja às suas campanhas de público-alvo baseadas em feed.
 
 Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. No menu principal Pesquisar, Social e Comércio, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. No menu principal Search, Social e Commerce, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Clique em **[!UICONTROL +Import]**.
 
@@ -58,7 +58,7 @@ Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.micr
 
 1. Clique em **[!UICONTROL Post]**.
 
-1. (Opcional) Adicione o rastreamento de Pesquisa, Social e Comércio na [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configurações.
+1. (Opcional) Adicione o rastreamento de Search, Social e Commerce na [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)ou [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configurações.
 
 ## Editar configurações de programação para um trabalho de importação de campanha
 
@@ -74,7 +74,7 @@ Consulte [do que é importado [!DNL Google Ads] campanhas](https://help.ads.micr
 
 ## Exibir seus trabalhos de importação de campanha
 
-Você pode listar todos os trabalhos de importação, incluindo a origem [!DNL Google Ads] conta, o target [!DNL Microsoft® Advertising] conta, o horário ou agendamento de importação e o usuário que criou o job. Quando você executa um trabalho de importação várias vezes, incluindo durante importações programadas regularmente, cada ocorrência é listada como um trabalho separado.
+Você pode listar todos os trabalhos de importação, incluindo a origem [!DNL Google Ads] conta, o target [!DNL Microsoft Advertising] conta, o horário ou agendamento de importação e o usuário que criou o job. Quando você executa um trabalho de importação várias vezes, incluindo durante importações programadas regularmente, cada ocorrência é listada como um trabalho separado.
 
 * Siga um destes procedimentos:
 
@@ -94,7 +94,7 @@ Você pode listar todos os trabalhos de importação, incluindo a origem [!DNL G
 
 ## Exibir logs para seus trabalhos de importação de campanha {#campaign-import-log}
 
-Você pode listar todos os trabalhos de importação concluídos ou com falha, incluindo a hora de início, a origem [!DNL Google Ads] conta, o target [!DNL Microsoft® Advertising] , o usuário que criou o trabalho, o número de operações bem-sucedidas e com falha e quaisquer endereços de email que receberam notificações para cada trabalho. Você pode ver mais detalhes sobre as alterações no público alvo [!DNL Microsoft® Advertising] conta que ocorreu para cada trabalho, incluindo o número de itens adicionados, sincronizados, excluídos e que produziram erros para cada nível de entidade (como campanha ou palavra-chave) na conta.
+Você pode listar todos os trabalhos de importação concluídos ou com falha, incluindo a hora de início, a origem [!DNL Google Ads] conta, o target [!DNL Microsoft Advertising] , o usuário que criou o trabalho, o número de operações bem-sucedidas e com falha e quaisquer endereços de email que receberam notificações para cada trabalho. Você pode ver mais detalhes sobre as alterações no público alvo [!DNL Microsoft Advertising] conta que ocorreu para cada trabalho, incluindo o número de itens adicionados, sincronizados, excluídos e que produziram erros para cada nível de entidade (como campanha ou palavra-chave) na conta.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
@@ -108,17 +108,17 @@ Você pode listar todos os trabalhos de importação concluídos ou com falha, i
 
 **[!UICONTROL Source Google Ads account]:** O sincronizado [!DNL Google Ads] conta da qual os dados do campaign são exportados.
 
-**[!UICONTROL Credential ID]:** Uma ID que [!DNL Microsoft® Advertising] O usa o para representar sua [!DNL Google Ads] credenciais.
+**[!UICONTROL Credential ID]:** Uma ID que [!DNL Microsoft Advertising] O usa o para representar sua [!DNL Google Ads] credenciais.
 
-Geração automática de [!DNL Microsoft® Advertising] as credenciais para importação não estão disponíveis devido a [!DNL Microsoft® Advertising] limitações. Entre em contato com a equipe de conta do Adobe, que gerará as credenciais e fornecerá a ID.
+Geração automática de [!DNL Microsoft Advertising] as credenciais para importação não estão disponíveis devido a [!DNL Microsoft Advertising] limitações. Entre em contato com a equipe de conta do Adobe, que gerará as credenciais e fornecerá a ID.
 
-**[!UICONTROL Target Microsoft® Ads account]:** O sincronizado [!DNL Microsoft® Advertising] conta para a qual os dados da campanha são importados.
+**[!UICONTROL Target Microsoft Ads account]:** O sincronizado [!DNL Microsoft Advertising] conta para a qual os dados da campanha são importados.
 
 ### [!UICONTROL Select campaigns & ad groups]
 
 **\[Dados a importar\]:** Especifique os dados a serem importados:
 
-* *[!UICONTROL Import all new and existing campaigns]:* Para importar dados de todas as campanhas que já existem e campanhas que não existem no [!DNL Microsoft® Advertising].
+* *[!UICONTROL Import all new and existing campaigns]:* Para importar dados de todas as campanhas que já existem e campanhas que não existem no [!DNL Microsoft Advertising].
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* Para selecionar campanhas específicas e grupos de anúncios.
 
@@ -146,7 +146,7 @@ Geração automática de [!DNL Microsoft® Advertising] as credenciais para impo
 
 **[!UICONTROL Import name]:** O nome do trabalho de importação.
 
-**[!UICONTROL When]:** Quando importar as campanhas especificadas: *Automático* (para permitir [!DNL Microsoft® Advertising] definir um cronograma para otimizar suas campanhas), *[!UICONTROL Now]* (para executar o job ao publicar as configurações do job), *[!UICONTROL Once]* em um horário especificado, *[!UICONTROL Daily]* em um horário especificado, *[!UICONTROL Weekly]* em um horário especificado, ou *[!UICONTROL Monthly]* em um horário especificado.
+**[!UICONTROL When]:** Quando importar as campanhas especificadas: *Automático* (para permitir [!DNL Microsoft Advertising] definir um cronograma para otimizar suas campanhas), *[!UICONTROL Now]* (para executar o job ao publicar as configurações do job), *[!UICONTROL Once]* em um horário especificado, *[!UICONTROL Daily]* em um horário especificado, *[!UICONTROL Weekly]* em um horário especificado, ou *[!UICONTROL Monthly]* em um horário especificado.
 
 **[!UICONTROL Receive email notifications]:** Se e quando enviar notificações por email sobre trabalhos de importação para os endereços de email no campo Enviar relatórios para.
 

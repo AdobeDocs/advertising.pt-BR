@@ -1,11 +1,11 @@
 ---
 title: Ativar e desativar notificações por push de [!UICONTROL Notification Center]
 description: Saiba como habilitar e desabilitar notificações por push de [!UICONTROL Notification Center].
-exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Recurso Beta*
 
-Você pode ativar notificações em Pesquisa, Social e Comércio, onde elas são exibidas de acordo com as convenções de notificação do navegador. Em dispositivos que usam [!DNL Microsoft® Windows], as notificações são exibidas na parte inferior direita da tela (bandeja do sistema). Ligado [!DNL Apple Mac] dispositivos, as notificações são exibidas no menu direito.
+Você pode ativar notificações em Pesquisa, Social e Commerce, onde elas são exibidas de acordo com as convenções de notificação do navegador. Em dispositivos que usam [!DNL Microsoft Windows], as notificações são exibidas na parte inferior direita da tela (bandeja do sistema). Ligado [!DNL Apple Mac] dispositivos, as notificações são exibidas no menu direito.
 
 As notificações por push estão disponíveis nos seguintes navegadores:
 
 * [!DNL Google Chrome] 40 e superior
 
-* [!DNL Microsoft® Edge] 17 e superior
+* [!DNL Microsoft Edge] 17 e superior
 
 * [!DNL Mozilla Firefox] 44 e superior
 
@@ -36,9 +36,9 @@ Você pode desativar as notificações por push de acordo com o procedimento pad
 
 4. Configurar o navegador para permitir notificações do [!UICONTROL Notification Center] em`https://alert-center-ui-na.efrontier.com`.
 
-   As configurações padrão de notificação variam de acordo com o navegador e você pode a) receber automaticamente a opção de permitir notificações de [!UICONTROL Notification Center] ou b) precisam gerenciar manualmente as configurações de notificação. Por exemplo, em [!DNL Microsoft® Edge], é possível permitir notificações do [!UICONTROL Notification Center] na barra de ferramentas do navegador. Consulte as instruções na ajuda do navegador.
+   As configurações padrão de notificação variam de acordo com o navegador e você pode a) receber automaticamente a opção de permitir notificações de [!UICONTROL Notification Center] ou b) precisam gerenciar manualmente as configurações de notificação. Por exemplo, em [!DNL Microsoft Edge], é possível permitir notificações do [!UICONTROL Notification Center] na barra de ferramentas do navegador. Consulte as instruções na ajuda do navegador.
 
-   ![Onde gerenciar configurações de notificação no Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Onde gerenciar configurações de notificação no Microsoft® Edge")
+   ![Onde gerenciar configurações de notificação no Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Onde gerenciar configurações de notificação no Microsoft Edge")
 
 5. No seu [configurações de notificação](notification-edit.md), ativar [!UICONTROL Web] notificações para os tipos de alertas que você deseja enviar.
 

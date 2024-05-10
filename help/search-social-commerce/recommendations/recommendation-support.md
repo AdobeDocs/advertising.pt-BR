@@ -3,7 +3,7 @@ title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Sobre o suporte a recomendações e insights do editor
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
 
-*Recurso beta para [!DNL Microsoft® Advertising] contas*
+*Recurso beta para [!DNL Microsoft Advertising] contas*
 
-[!DNL Google Ads] e [!DNL Microsoft® Advertising] recomendações e insights são sugestões da rede de anúncios para ajudar a melhorar o desempenho e a eficiência de suas campanhas:
+[!DNL Google Ads] e [!DNL Microsoft Advertising] recomendações e insights são sugestões da rede de anúncios para ajudar a melhorar o desempenho e a eficiência de suas campanhas:
 
 * Each [!DNL Google Ads] A recomendação fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências [!DNL Google Ads].
 
-* Each [!DNL Microsoft® Advertising] o insight e a recomendação sobre desempenho sugerem alterações para otimizar o desempenho do campaign com base em algoritmos de aprendizado de máquina e práticas recomendadas.
+* Each [!DNL Microsoft Advertising] o insight e a recomendação sobre desempenho sugerem alterações para otimizar o desempenho do campaign com base em algoritmos de aprendizado de máquina e práticas recomendadas.
 
 ## A variável [!UICONTROL Recommendations & Publisher Insights] exibir
 
@@ -32,7 +32,7 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
-* Para [!DNL Microsoft® Advertising] contas, consulte as informações de desempenho geradas nos últimos 30 dias para obter uma [!DNL Microsoft® Advertising] conta. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o [!DNL Microsoft® Advertising] editor, a partir do qual você pode agir com base no insight específico.
+* Para [!DNL Microsoft Advertising] contas, consulte as informações de desempenho geradas nos últimos 30 dias para obter uma [!DNL Microsoft Advertising] conta. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o [!DNL Microsoft Advertising] editor, a partir do qual você pode agir com base no insight específico.
 
 * Exibir detalhes sobre uma recomendação e aplicá-la diretamente ou descartá-la.
 

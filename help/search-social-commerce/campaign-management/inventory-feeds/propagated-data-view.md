@@ -1,9 +1,9 @@
 ---
 title: Exibir dados gerados de feeds
 description: Saiba como visualizar dados gerados de feeds de dados de inventário.
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exibir dados gerados de feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Ao propagar dados do feed sem publicá-los simultaneamente na rede de anúncios, é possível visualizar os dados de uma das seguintes maneiras. É possível, opcionalmente, [publicar dados](propagated-data-post.md) de qualquer local para as redes de anúncios relevantes.
 

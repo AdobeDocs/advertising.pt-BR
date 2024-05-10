@@ -1,9 +1,9 @@
 ---
 title: Criar um [!DNL Excel] modelo para um feed de relatório de planilha
 description: Saiba como criar modelos de planilha especialmente formatados.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Somente para relatórios básicos e relatórios de precisão de modelo*
 
-Para criar feeds de planilha, você deve primeiro criar feeds especialmente formatados [!DNL Microsoft® Excel] modelos de planilhas usando modelos de relatório regulares. Opcionalmente, é possível personalizar a variável [!DNL Excel] planilha para incluir colunas e gráficos adicionais.
+Para criar feeds de planilha, você deve primeiro criar feeds especialmente formatados [!DNL Microsoft Excel] modelos de planilhas usando modelos de relatório regulares. Opcionalmente, é possível personalizar a variável [!DNL Excel] planilha para incluir colunas e gráficos adicionais.
 
 1. Entrada **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, gere o tipo de relatório desejado usando um [!UICONTROL Date Aggregation] unidade de &quot;[!UICONTROL Daily]&quot; e com todos os outros parâmetros de dados desejados, salve o relatório como um template.
 
@@ -51,7 +51,7 @@ Para criar feeds de planilha, você deve primeiro criar feeds especialmente form
 
 >[!MORELIKETHIS]
 >
->* [Sobre feeds de relatório de planilhas](spreadsheet-feed-about.md)
+>* [Sobre feeds de relatório de planilha](spreadsheet-feed-about.md)
 >* [Criar um feed de relatório de planilha](spreadsheet-feed-create.md)
 >* [Editar configurações do feed de relatório de planilha](spreadsheet-feed-edit.md)
 >* [Configurações do feed de relatório de planilha](spreadsheet-feed-settings.md)

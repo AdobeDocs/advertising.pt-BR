@@ -1,18 +1,18 @@
 ---
 title: Definir configurações de dados de feed
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Definir configurações de dados de feed
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Você pode configurar como lidar com grupos de anúncios, palavras-chave e anúncios em arquivos de dados de feed, e como processar os dados em arquivos FTP especificamente, por meio das configurações de feed.
 
@@ -63,7 +63,7 @@ Você pode configurar como lidar com grupos de anúncios, palavras-chave e anún
 
 * *[!UICONTROL None]* (o padrão): não altere os componentes existentes.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** O que fazer com os itens existentes quando 1) eles não são incluídos a) em um novo arquivo de feed que foi carregado para um diretório FTP ou b) em uma conta de centro de comércio na próxima vez que o Search, Social e Commerce for sincronizado com ele ou 2) quando eles não são mapeados para campanhas ou grupos de anúncios existentes de acordo com o [!UICONTROL Map Only] configurações no modelo.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** O que fazer com os itens existentes quando 1) eles não são incluídos a) em um novo arquivo de feed que foi carregado para um diretório FTP ou b) em uma conta do centro de comércio na próxima vez que o Search, Social e Commerce for sincronizado com ele ou 2) quando eles não são mapeados para campanhas ou grupos de anúncios existentes de acordo com o [!UICONTROL Map Only] configurações no modelo.
 
 * *[!UICONTROL Delete]:* Excluir os componentes existentes.
 
@@ -95,7 +95,7 @@ O nível de estoque para cada item de linha vem de uma coluna no arquivo de feed
 >[!NOTE]
 >
 >* Para arquivos FTP, o serviço de feed verifica se há atualizações no diretório FTP a cada duas horas (horas pares no fuso horário PST). Essa opção processa todos os arquivos que foram carregados desde a última verificação.
->* Para contas do centro de comércio, o Search, Social e Commerce sincroniza com a conta diariamente às 6:00, aproximadamente, no fuso horário do anunciante. Essa opção processa todos os dados atualizados desde a última sincronização.
+>* Para contas do centro do comerciante, o Search, Social e Commerce sincroniza com a conta diariamente às 6:00, aproximadamente, no fuso horário do anunciante. Essa opção processa todos os dados atualizados desde a última sincronização.
 >* Os dados propagados estão disponíveis no [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] até que os dados sejam publicados na rede de publicidade ou na [!UICONTROL Bulksheets] exibição.
 
 **[!UICONTROL Post to the SE]:** (Anunciantes fazendo upload de arquivos de dados via FTP ou uma conta do centro do comerciante) Cria automaticamente arquivos de bulksheet nos formatos corretos para as redes de anúncios relevantes depois que novos dados são propagados pelos modelos aplicáveis. Essa opção também remove os dados do [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] guias, a menos que quaisquer subcomponentes tenham erros.

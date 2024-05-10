@@ -3,7 +3,7 @@ title: Gerenciar palavras-chave licitáveis
 description: Saiba como criar e gerenciar palavras-chave licitáveis para grupos de anúncios de pesquisa.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar palavras-chave licitáveis
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
 
 Você pode criar e editar palavras-chave para grupos de anúncios de pesquisa no [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md) que direcionam a pesquisa e a exibição/redes nativas em um [conta de rede de publicidade sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -28,7 +28,7 @@ Você pode criar e editar palavras-chave para grupos de anúncios de pesquisa no
 
 1. Selecione a rede de publicidade, a conta, a campanha e o grupo de publicidade e clique em **[!UICONTROL Continue]**.
 
-1. Insira o [[!DNL Baidu] configurações de palavra-chave](keyword-settings-baidu.md), [[!DNL Google Ads] configurações de palavra-chave](keyword-settings-google.md), [[!DNL Microsoft® Advertising] configurações de palavra-chave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] configurações de palavra-chave](keyword-settings-yahoo-japan.md)ou [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md).
+1. Insira o [[!DNL Baidu] configurações de palavra-chave](keyword-settings-baidu.md), [[!DNL Google Ads] configurações de palavra-chave](keyword-settings-google.md), [[!DNL Microsoft Advertising] configurações de palavra-chave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] configurações de palavra-chave](keyword-settings-yahoo-japan.md)ou [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md).
 
    Você pode inserir ou colar até 2000 palavras-chave em uma operação. Separe várias palavras-chave com vírgulas ou insira-as em linhas separadas.
 
@@ -44,7 +44,7 @@ A palavra-chave existente é excluída e outra é criada quando:
 
 * ([!DNL Baidu], [!DNL Google Ads], e [!DNL Yandex]) Edite um nome de palavra-chave.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ A palavra-chave existente é excluída e outra é criada quando:
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar") .
 
-1. Edite o [[!DNL Baidu] configurações de palavra-chave](keyword-settings-baidu.md), [[!DNL Google Ads] configurações de palavra-chave](keyword-settings-google.md), [[!DNL Microsoft® Advertising] configurações de palavra-chave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] configurações de palavra-chave](keyword-settings-yahoo-japan.md)ou [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md).
+1. Edite o [[!DNL Baidu] configurações de palavra-chave](keyword-settings-baidu.md), [[!DNL Google Ads] configurações de palavra-chave](keyword-settings-google.md), [[!DNL Microsoft Advertising] configurações de palavra-chave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] configurações de palavra-chave](keyword-settings-yahoo-japan.md)ou [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md).
 
    Para várias palavras-chave, você pode editar apenas os campos que são comuns a todas as palavras-chave selecionadas e suas alterações serão aplicadas a todas as palavras-chave selecionadas. Para alguns campos alfanuméricos, você tem opções para alterar os valores existentes para um valor especificado, substituir uma string existente por uma string especificada, adicionar um prefixo especificado ao início de cada valor ou anexar um sufixo ao final de cada valor. Para alguns campos monetários, você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 
@@ -73,7 +73,7 @@ A palavra-chave existente é excluída e outra é criada quando:
 >* [Sobre palavras-chave](keyword-about.md)
 >* [[!DNL Baidu] configurações de palavra-chave](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] configurações de palavra-chave](keyword-settings-google.md)
->* [[!DNL Microsoft® Advertising] configurações de palavra-chave](keyword-settings-microsoft.md)
+>* [[!DNL Microsoft Advertising] configurações de palavra-chave](keyword-settings-microsoft.md)
 >* [[!DNL Yahoo! Japan Ads] configurações de palavra-chave](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] configurações de palavra-chave](keyword-settings-yandex.md)
 >* [Criar palavras-chave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)

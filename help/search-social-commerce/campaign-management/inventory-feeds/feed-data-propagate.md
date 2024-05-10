@@ -1,20 +1,20 @@
 ---
 title: Propagar dados de feed de estoque por meio de modelos
 description: Saiba mais sobre como propagar dados dos feeds de inventário por meio de modelos de anúncios para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Propagar dados de feed de estoque por meio de modelos
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
-Depois de criar um modelo de feed específico para a rede de anúncios e associar um arquivo de feed ou um [!DNL Google] ou [!DNL Microsoft®] conta do centro de negócios com ela, você pode criar anúncios dinamicamente propagando os dados do feed por meio do modelo de acordo com a [configurações de dados de feed](feed-settings-manage.md). Durante a propagação, os nomes das colunas no modelo são substituídos por valores de dados no feed, e as campanhas geradas e seus componentes têm as configurações padrão, a menos que o modelo especifique o contrário. Dependendo das opções do modelo, o Search, Social e &amp; Commerce cria uma nova estrutura de conta (campanhas, grupos de anúncios, palavras-chave) para os anúncios ou mapeia os anúncios para a estrutura de conta existente.
+Depois de criar um modelo de feed específico para a rede de anúncios e associar um arquivo de feed ou um [!DNL Google] ou [!DNL Microsoft] conta do centro de negócios com ela, você pode criar anúncios dinamicamente propagando os dados do feed por meio do modelo de acordo com a [configurações de dados de feed](feed-settings-manage.md). Durante a propagação, os nomes das colunas no modelo são substituídos por valores de dados no feed, e as campanhas geradas e seus componentes têm as configurações padrão, a menos que o modelo especifique o contrário. Dependendo das opções do modelo, o Search, Social e Commerce cria uma nova estrutura de conta (campanhas, grupos de anúncios, palavras-chave) para os anúncios ou mapeia os anúncios para a estrutura de conta existente.
 
 Quando os novos dados de feed contêm novos valores de dados para um item ou o modelo foi alterado, os anúncios existentes são excluídos e os novos são criados. Se a única alteração for a designação de [!DNL Google Ads] Parâmetros 1 e 2, então apenas esses valores são atualizados. Anúncios duplicados (a mesma cópia de anúncio e página de aterrissagem) nunca são criados.
 

@@ -1,9 +1,9 @@
 ---
 title: Habilitar carregamento de objetivos para redes de anúncios
-description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
+description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Habilitar carregamento de objetivos para redes de anúncios
 
-*Anunciantes com [!DNL Google Ads] e [!DNL Microsoft® Advertising] somente contas*
+*Anunciantes com [!DNL Google Ads] e [!DNL Microsoft Advertising] somente contas*
 
 *Anunciantes habilitados somente para otimização híbrida*
 
-Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para o [!DNL Google Ads] e [!DNL Microsoft® Advertising] para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha.
+Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para o [!DNL Google Ads] e [!DNL Microsoft Advertising] para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha.
 
 Habilitar essa opção aciona automaticamente um upload para objetivos em portfólios que contêm campanhas com estratégias de oferta inteligente. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada objetivo aplicável. A conversão representa todas as métricas de conversão ponderadas no objetivo. Cada conversão tem um dos seguintes nomes:
 
@@ -30,7 +30,7 @@ Habilitar essa opção aciona automaticamente um upload para objetivos em portf�
 
   Sua equipe de conta do Adobe trabalhará com você para migrar os nomes de ação de conversão existentes na rede de anúncios antes que o formato antigo seja descontinuado. Durante o período de migração, os uploads de formato antigo e novo serão executados em paralelo. A modelagem e a otimização não são afetadas porque as novas ações de conversão aparecem inicialmente com o status &quot;secundário&quot; (não otimizado) e com 90 dias de dados de preenchimento retroativo.
 
-Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do anunciante. Carrega para [!DNL Microsoft® Advertising] ocorrem diariamente às 9h no fuso horário do anunciante.
+Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do anunciante. Carrega para [!DNL Microsoft Advertising] ocorrem diariamente às 9h no fuso horário do anunciante.
 
 >[!IMPORTANT]
 >

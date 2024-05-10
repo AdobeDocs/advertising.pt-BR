@@ -1,20 +1,20 @@
 ---
 title: Associar sitelinks compartilhados a contas, campanhas e grupos de anúncios
 description: Saiba como atribuir extensões compartilhadas de sitelink a contas, campanhas e grupos de anúncios.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Associar sitelinks compartilhados a contas, campanhas e grupos de anúncios
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] somente*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
 
-Você pode criar extensões de anúncios atribuindo sitelinks a partir de [!DNL Sitelinks] biblioteca a entidades de conta, para uso somente na rede de pesquisa. Para [!DNL Google Ads] , você pode atribuir sitelinks a contas ou a campanhas e grupos de anúncios na rede de pesquisa. Para [!DNL Microsoft® Advertising] contas, você pode atribuir sitelinks a campanhas na rede de pesquisa (e a contas e grupos de anúncios de dentro da [!DNL Microsoft® Advertising] ad manager).
+Você pode criar extensões de anúncios atribuindo sitelinks a partir de [!DNL Sitelinks] biblioteca a entidades de conta, para uso somente na rede de pesquisa. Para [!DNL Google Ads] , você pode atribuir sitelinks a contas ou a campanhas e grupos de anúncios na rede de pesquisa. Para [!DNL Microsoft Advertising] contas, você pode atribuir sitelinks a campanhas na rede de pesquisa (e a contas e grupos de anúncios de dentro da [!DNL Microsoft Advertising] ad manager).
 
 Você deve ter pelo menos seis sitelinks ativos para desktop e dispositivos móveis para que seus sitelinks sejam exibidos com anúncios. É possível atribuir até 20 sitelinks por conta, campanha ou grupo de anúncios.
 

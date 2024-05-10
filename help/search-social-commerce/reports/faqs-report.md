@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ Quando você gera os dois relatórios por portfólio, os dados são diferentes s
 +++A saída do relatório inclui uma combinação de intervalos de datas.
 Você poderá ver intervalos de datas diferentes se o feed agregar dados usando qualquer nível de agregação de dados diferente de &quot;[!UICONTROL Daily].&quot;
 
-Para resolver o problema, atualize o feed da planilha para incluir dados agregados diariamente. Essa tarefa inclui atualizar o modelo de relatório, gerar um relatório usando o modelo e criar um relatório personalizado. [!DNL Microsoft® Excel] usando o relatório e, em seguida, atualizando as configurações do feed para incluir o novo modelo do Excel. Para obter mais informações, consulte &quot;[Editar configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Para resolver o problema, atualize o feed da planilha para incluir dados agregados diariamente. Essa tarefa inclui atualizar o modelo de relatório, gerar um relatório usando o modelo e criar um relatório personalizado. [!DNL Microsoft Excel] usando o relatório e, em seguida, atualizando as configurações do feed para incluir o novo modelo do Excel. Para obter mais informações, consulte &quot;[Editar configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++O feed de planilha resulta em um Erro interno.
-Esse erro poderá ocorrer se você alterar as colunas no modelo de relatório, mas não atualizar o [!DNL Microsoft® Excel] modelo de acordo.
+Esse erro poderá ocorrer se você alterar as colunas no modelo de relatório, mas não atualizar o [!DNL Microsoft Excel] modelo de acordo.
 
 Para resolver o problema, atualize o feed da planilha para incluir as novas colunas. Essa tarefa inclui atualizar o modelo de relatório, gerar um relatório usando o modelo e criar um relatório personalizado. [!DNL Excel] usando o relatório e, em seguida, atualizando as configurações do feed para incluir o novo modelo do Excel. Para obter mais informações, consulte &quot;[Editar configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Quando tento abrir um feed de planilha no [!DNL Excel], [!DNL Excel] relata um erro de &quot;conteúdo ilegível&quot; e os dados são removidos do conteúdo recuperado.
-Quando a variável [!DNL Microsoft® Excel] O modelo não classifica os dados por data de início em ordem crescente. O feed da planilha pode incluir linhas em branco. Em especial, [!DNL Excel] relata o erro &quot;O Excel encontrou conteúdo ilegível em &#39;&lt;*nome do relatório*>.xlsx.&#39; Deseja recuperar o conteúdo da pasta de trabalho? Se você confiar na origem desta pasta de trabalho, clique em sim.&quot; Se você clicar em &quot;Sim&quot;, receberá a seguinte mensagem: &quot;Registros removidos: informações da célula da parte /xl/worksheets/sheet1.xml&quot;, e o feed da planilha terá linhas em branco.
+Quando a variável [!DNL Microsoft Excel] O modelo não classifica os dados por data de início em ordem crescente. O feed da planilha pode incluir linhas em branco. Em especial, [!DNL Excel] relata o erro &quot;O Excel encontrou conteúdo ilegível em &#39;&lt;*nome do relatório*>.xlsx.&#39; Deseja recuperar o conteúdo da pasta de trabalho? Se você confiar na origem desta pasta de trabalho, clique em sim.&quot; Se você clicar em &quot;Sim&quot;, receberá a seguinte mensagem: &quot;Registros removidos: informações da célula da parte /xl/worksheets/sheet1.xml&quot;, e o feed da planilha terá linhas em branco.
 
 Para resolver o problema, edite a [!DNL Excel] modelo associado ao feed para classificar os dados [!DNL Start date in Ascending (Oldest to Newest) order]e, em seguida, faça upload do modelo atualizado por meio das configurações do feed de planilha. Para obter mais informações, consulte &quot;[Editar feeds de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

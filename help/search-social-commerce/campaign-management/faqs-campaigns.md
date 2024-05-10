@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Além disso, [!DNL Google Ads] as métricas de desempenho no nível da campanha 
 
 >[!NOTE]
 >
->(Anunciantes com portfólios) Espere que o desempenho de novas combinações de palavras-chave e tipos de correspondência seja volátil, enquanto o Search, Social e Commerce reúne dados para criar modelos para eles.
+>(Anunciantes com portfólios) Espere que o desempenho das novas combinações de palavras-chave e tipos de correspondência seja volátil, enquanto o Search, Social e Commerce reúne dados para criar modelos para elas.
 
 **As ações no [!UICONTROL Search] > [!UICONTROL Campaigns] exibições, no processo de publicação de bulksheet e no próprio editor de rede de anúncios:**
 
@@ -38,11 +38,11 @@ A palavra-chave ou anúncio existente é excluído e outro é criado quando:
 
 * ([!DNL Baidu], [!DNL Google Ads], e [!DNL Yandex]) Edite um nome de palavra-chave.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex]) Você altera o tipo de correspondência de uma palavra-chave.
 
 * Você move uma palavra-chave entre grupos de anúncios.
 
-* ([!DNL Google Ads] anúncios de pesquisa dinâmica, [!DNL Microsoft® Advertising] anúncios de texto expandidos e todos os tipos de anúncios em outras redes de anúncios suportadas) Edite a cópia de anúncio (título/título ou descrição) ou uma imagem de anúncio.
+* ([!DNL Google Ads] anúncios de pesquisa dinâmica, [!DNL Microsoft Advertising] anúncios de texto expandidos e todos os tipos de anúncios em outras redes de anúncios suportadas) Edite a cópia de anúncio (título/título ou descrição) ou uma imagem de anúncio.
 
 * Você move um anúncio entre grupos de anúncios.
 
@@ -72,7 +72,7 @@ Se você alterar os nomes de exibição das métricas de conversão no Search, S
 
 +++(Campanhas do Google Ads) É possível usar um orçamento compartilhado para campanhas em portfólios?
 
-Para obter melhores resultados, não adicione [!DNL Google Ads] campanhas para uma [!DNL Google Ads] orçamento compartilhado se estiverem em portfólios otimizados configurados para &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Se você fizer isso, [!DNL Google Ads] substitui os orçamentos de campanha otimizados de Pesquisa, Social e Comércio, o que pode levar a ineficiências de oferta.
+Para obter melhores resultados, não adicione [!DNL Google Ads] campanhas para uma [!DNL Google Ads] orçamento compartilhado se estiverem em portfólios otimizados configurados para &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Se você fizer isso, [!DNL Google Ads] O substitui os orçamentos de campanha otimizada para Pesquisa, Social e Commerce, o que pode levar a ineficiências de oferta.
 +++
 
 +++([!DNL Google Ads] campanhas) Posso enviar usuários móveis e não móveis para páginas de aterrissagem diferentes?
@@ -109,24 +109,24 @@ No [!UICONTROL Campaigns] em ambos os [!UICONTROL Search] > [!UICONTROL Campaign
 
 +++Qual é a diferença entre um modelo de rastreamento e um sufixo de página de destino?
 
-Use um sufixo de página de aterrissagem somente para redes de anúncios que oferecem suporte ao rastreamento paralelo. Em Search, Social e Commerce, os modelos de rastreamento e os sufixos de página de aterrissagem devem incluir um identificador de clique da rede de anúncios, mas os modelos de rastreamento incluem parâmetros de rastreamento adicionais.
+Use um sufixo de página de aterrissagem somente para redes de anúncios que oferecem suporte ao rastreamento paralelo. Em Search, Social e Commerce, os modelos de rastreamento e os sufixos de página de aterrissagem devem incluir um identificador de clique na rede de anúncios, mas os modelos de rastreamento incluem parâmetros de rastreamento adicionais.
 
 Consulte as próximas Perguntas frequentes sobre [suporte de rastreamento paralelo](#parallel-tracking) para obter mais informações sobre como os modelos de rastreamento e os sufixos de página de aterrissagem são carregados quando um usuário clica em um anúncio.
 
 +++
 
-+++([!DNL Google Ads] e [!DNL Microsoft® Advertising]) O Search, Social e Commerce oferece suporte ao rastreamento paralelo de anúncios no? [!DNL Google Ads] ou [!DNL Microsoft® Advertising]? {#parallel-tracking}
++++([!DNL Google Ads] e [!DNL Microsoft Advertising]) O Search, Social e Commerce oferece suporte ao rastreamento paralelo de anúncios no [!DNL Google Ads] ou [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 O rastreamento paralelo envia clientes diretamente do seu anúncio para o URL final, que pode incluir parâmetros anexados de um sufixo de URL final ou &quot;sufixo de página inicial&quot;. O URL do modelo de rastreamento (com parâmetros adicionais para medição de cliques) é carregado separadamente em segundo plano; como resultado, a landing page é carregada mais rapidamente.
 
-O Search, Social e Commerce oferece suporte ao rastreamento paralelo para campanhas de pesquisa e compra usando o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft® Advertising]; `gclid` para [!DNL Google Ads]). Use um [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [nível da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (chamado de &quot;[!DNL final URL suffix]&quot; nas redes de publicidade), que são anexadas aos URLs da página inicial para rastrear cliques em anúncios secundários de navegadores que oferecem suporte ao rastreamento paralelo. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+O Search, Social e Commerce oferece suporte ao rastreamento paralelo para campanhas de pesquisa e compra usando o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para [!DNL Google Ads]). Use um [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) ou [nível da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (chamado de &quot;[!DNL final URL suffix]&quot; nas redes de publicidade), que são anexadas aos URLs da página inicial para rastrear cliques em anúncios secundários de navegadores que oferecem suporte ao rastreamento paralelo. Consulte a [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Quando um usuário visualiza seu anúncio em um navegador que não oferece suporte ao rastreamento paralelo, a rede de anúncios usa o rastreamento sequencial: os clientes são enviados primeiro ao URL do modelo de rastreamento, que pode redirecionar os clientes para servidores de rastreamento intermediários antes de redirecioná-los para o URL final (que pode incluir parâmetros adicionais em um sufixo de página de aterrissagem). Todos os modelos de rastreamento de uma conta de rede de anúncios devem incluir o mesmo parâmetro de identificador de cliques usado no [!UICONTROL Landing Page Suffix]. Consulte a [formatos de modelo de rastreamento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e a variável [formatos de modelo de rastreamento para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Quando um usuário visualiza seu anúncio em um navegador que não oferece suporte ao rastreamento paralelo, a rede de anúncios usa o rastreamento sequencial: os clientes são enviados primeiro ao URL do modelo de rastreamento, que pode redirecionar os clientes para servidores de rastreamento intermediários antes de redirecioná-los para o URL final (que pode incluir parâmetros adicionais em um sufixo de página de aterrissagem). Todos os modelos de rastreamento de uma conta de rede de anúncios devem incluir o mesmo parâmetro de identificador de cliques usado no [!UICONTROL Landing Page Suffix]. Consulte a [formatos de modelo de rastreamento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e a variável [formatos de modelo de rastreamento para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Por que os URLs de rastreamento dos meus anúncios incluem &quot;`&EV_HASH={<hash>}`?&quot;
 
-Ao fazer upload de anúncios usando uma [feed de inventário do produto](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) para uma conta com o redirecionamento de pixels do Search, Social, &amp; Commerce e com rastreamento de nível de palavra-chave e criação, o Search, Social, &amp; Commerce adiciona o parâmetro de hash e o valor ao modelo de rastreamento do anúncio ou ao URL de destino para identificar se ele foi criado usando o recurso de feed de inventário.
+Ao fazer upload de anúncios usando uma [feed de inventário do produto](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) para uma conta com o redirecionamento de pixels do Search, Social e Commerce e com rastreamento de nível de palavra-chave e criação, o Search, Social e Commerce adiciona o parâmetro de hash e o valor ao modelo de rastreamento do anúncio ou ao URL de destino para identificar se ele foi criado usando o recurso de feed de inventário.
 +++
 
 ## Feeds de inventário

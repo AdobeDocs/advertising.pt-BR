@@ -3,7 +3,7 @@ title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques do Search, Social e Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
            Exemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
            onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
@@ -48,7 +48,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
            O arquivo pode incluir até 10.000 linhas.
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft® Advertising] anúncios de produto) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produto) `product name <tab> ** <tab> landing_page`
 
            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
@@ -64,13 +64,13 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
            Exemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
 
            onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
            Exemplo: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft® Advertising] anúncios de produto) `product name**landing_page`
+         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produto) `product name**landing_page`
 
            onde `product name` é o nome e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
@@ -82,7 +82,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
 Para contas com URLs de destino, insira os valores na variável [!UICONTROL Base URL] campos.
 
-Para contas com URLs finais, insira o valor na tela nas configurações [!UICONTROL Tracking Template] campo. Você deve adicionar um parâmetro para o URL final após a variável `&url=` parâmetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] contas, use o parâmetro `{lpurl}`. Para obter uma lista de [!DNL Google Ads] e [!DNL Microsoft® Advertising] para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (Consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Modelo de rastreamento [!DNL ValueTrack] Parâmetros&quot;) e a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Para contas com URLs finais, insira o valor na tela nas configurações [!UICONTROL Tracking Template] campo. Você deve adicionar um parâmetro para o URL final após a variável `&url=` parâmetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] contas, use o parâmetro `{lpurl}`. Para obter uma lista de [!DNL Google Ads] e [!DNL Microsoft Advertising] para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (Consulte os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Modelo de rastreamento [!DNL ValueTrack] Parâmetros&quot;) e a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

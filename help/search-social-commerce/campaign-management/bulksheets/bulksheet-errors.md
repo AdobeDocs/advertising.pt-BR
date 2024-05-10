@@ -1,11 +1,11 @@
 ---
 title: Erros de bulksheet
 description: Faça referência aos possíveis motivos para cada erro de bulksheet.
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Os seguintes erros podem ser incluídos na variável [!UICONTROL EF Error] colun
 | Categoria | Mensagem | Descrição |
 |----|----|----|
 | Geral | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | A operação falhou completamente devido a um erro sem categoria ou sem tratamento. Se o problema persistir, entre em contato com a equipe da conta do Adobe para investigar a causa. |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | A Pesquisa, o Social e o Commerce não puderam sincronizar com a rede de anúncios antes de criar a bulksheet, portanto, nenhuma bulksheet foi criada. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | O Search, Social e Commerce não pôde sincronizar com a rede de anúncios antes de criar o bulksheet, portanto, nenhum bulksheet foi criado. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 
 ### Erros de upload
 
@@ -43,7 +43,7 @@ Os seguintes erros podem ser incluídos na variável [!UICONTROL EF Error] colun
 |----|----|----|
 | Geral | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | A operação falhou completamente. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 | Todas as entidades | [!UICONTROL Invalid Fields.] \[campos inválidos e erro\] | Os dados especificados estão ausentes ou são inválidos. |
-|  | [!UICONTROL Invalid Reference Given] | A ID da entidade na rede de publicidade ou a ID de uma entidade pai (como a ID da conta) não corresponde a uma entidade no Search, Social e &amp; Commerce. Isso pode ocorrer ao editar a ID na bulksheet. |
+|  | [!UICONTROL Invalid Reference Given] | A ID da entidade na rede de publicidade ou a ID de uma entidade principal (como a ID da conta) não corresponde a uma entidade no Search, Social e Commerce. Isso pode ocorrer ao editar a ID na bulksheet. |
 |  | [!UICONTROL <Entity> is deleted or expired] | A entidade expirou ou foi excluída, e você não pode alterar suas propriedades. A entidade pode ser excluída quando alguém editou manualmente o status. |
 |  | [!UICONTROL <Entity> status should be Active or Paused] | (Novas entidades) Uma nova entidade só pode ser &quot;Ativa&quot; ou &quot;Pausada&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Várias linhas são incluídas para a mesma entidade, com atributos diferentes em cada linha. Consolidar as alterações em uma linha. |
@@ -51,7 +51,7 @@ Os seguintes erros podem ser incluídos na variável [!UICONTROL EF Error] colun
 |  | [!UICONTROL Invalid row given] | A linha não inclui informações suficientes para determinar o tipo de entidade. Edite a linha para incluir todos os campos obrigatórios para o tipo de entidade. |
 | Contas | [!UICONTROL Provide Valid Account Details] | (Bulksheets para várias contas) Os identificadores de conta não são incluídos em todas as linhas. Insira valores para qualquer uma das seguintes combinações de colunas para cada linha: a) &quot;[!UICONTROL AMO ID]&quot; ou b) &quot;[!UICONTROL Account Name]&quot; e &quot;[!UICONTROL Platform].&quot; |
 |  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | O Search, Social e Commerce não tem acesso à conta de rede de anúncios, portanto, não é possível criar ou editar dados de campanha. Verifique se as credenciais da conta de pesquisa estão corretas e se a conta está habilitada. |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | (Campanhas de compras) O valor no campo &quot;[!UICONTROL Sales Country]O campo &quot; é inválido. Ver uma lista de países válidos [para [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) e [para [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | (Campanhas de compras) O valor no campo &quot;[!UICONTROL Sales Country]O campo &quot; é inválido. Ver uma lista de países válidos [para [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) e [para [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | Todos os componentes da campanha | [!UICONTROL Campaign creation failed] | A campanha pai não foi criada, portanto, esta entidade não foi criada. Verifique se todas as entidades principais contêm todos os campos obrigatórios. |
 | Grupo de publicidade | [!UICONTROL Campaign Row missing] | A campanha pai especificada não existe, portanto, o grupo de publicidade não foi criado. Crie a campanha pai em uma nova linha. |
 |  | [!UICONTROL New adgroup has both keywords and placement] | Um grupo de anúncios pode conter palavras-chave ou disposições, mas não ambas. Crie grupos de anúncios separados para palavras-chave e disposições. |

@@ -1,11 +1,11 @@
 ---
 title: Editar configurações do feed de relatório de planilha
 description: Saiba como editar as configurações para feeds de planilha.
-exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Somente para relatórios básicos e relatórios de precisão de modelo*
 
-É possível alterar qual modelo de relatório, [!DNL Microsoft® Excel] e outros parâmetros são usados para um feed de planilha.
+É possível alterar qual modelo de relatório, [!DNL Microsoft Excel] e outros parâmetros são usados para um feed de planilha.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre feeds de relatório de planilhas](spreadsheet-feed-about.md)
+>* [Sobre feeds de relatório de planilha](spreadsheet-feed-about.md)
 >* [Criar um feed de relatório de planilha](spreadsheet-feed-create.md)
 >* [Criar um [!DNL Excel] modelo para um feed de relatório de planilha](spreadsheet-feed-create-excel-template.md)
 >* [Editar configurações do feed de relatório de planilha](spreadsheet-feed-edit.md)

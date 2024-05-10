@@ -1,9 +1,9 @@
 ---
 title: Status dos dados gerados a partir dos feeds
 description: Saiba mais sobre os status dos dados gerados a partir dos feeds de dados de inventário.
-exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+exl-id: 45c93fb2-0ed2-4336-9883-e150c292a7a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Status dos dados gerados a partir dos feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Cada componente pode ter um dos seguintes status:
 

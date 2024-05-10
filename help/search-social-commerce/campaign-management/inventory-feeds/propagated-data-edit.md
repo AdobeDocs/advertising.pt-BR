@@ -1,9 +1,9 @@
 ---
 title: Editar dados gerados a partir dos feeds
 description: Saiba como editar dados gerados a partir de feeds de dados de inventário.
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar dados gerados a partir dos feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Ao propagar dados do feed sem publicá-los simultaneamente na rede de anúncios, você pode editar os dados de uma das seguintes maneiras. É possível, opcionalmente, [publicar dados](propagated-data-post.md) de qualquer local para as redes de anúncios relevantes:
 

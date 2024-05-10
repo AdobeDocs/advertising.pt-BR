@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft® Advertising] configurações do grupo de produtos'
-description: Referenciar as configurações de [!DNL Microsoft® Advertising] grupos de produtos de compras.
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: '[!DNL Microsoft Advertising] configurações do grupo de produtos'
+description: Referenciar as configurações de [!DNL Microsoft Advertising] grupos de produtos de compras.
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configurações do grupo de produtos
+# [!DNL Microsoft Advertising] configurações do grupo de produtos
 
 ## Grupos de produtos &quot;Todos os produtos&quot;
 
@@ -52,4 +52,4 @@ Este modelo substitui modelos em níveis superiores e é usado apenas para unida
 >* [Sobre grupos de produtos de compras](product-group-about.md)
 >* [Gerenciar grupos de produtos de compras](product-group-manage.md)
 >* [Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementar [!DNL Microsoft® Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

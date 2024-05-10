@@ -3,7 +3,7 @@ title: Anúncio de texto e configurações responsivas de modelo de anúncio de 
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Anúncio de texto e configurações responsivas de modelo de anúncio de pesquisa para feeds de inventário
 
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Usar o parâmetro `!{unescapedurl}` para indicar o URL da landing page.
 
@@ -142,7 +142,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para obter os parâmetros disponíveis para contas do Microsoft Advertising e do Google Ads, consulte [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como a mais granular) substituem esse valor.
 
@@ -166,7 +166,7 @@ Esse valor substitui as configurações no nível da conta e da campanha, mas os
 
 Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em uma [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) na lista Modificadores. Para especificar várias palavras-chave ou vários tipos de correspondência para a mesma palavra-chave, insira-os em linhas separadas. Para especificar o tipo de correspondência de palavra-chave, use a seguinte sintaxe de tipo de correspondência ao redor do nome da coluna:
 
-* Para [!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads] modelos:
+* Para [!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] modelos:
 
    * Para parâmetros dinâmicos: Ampla correspondência = `[keyword]`, Modificador de correspondência ampla para o primeiro termo na [!UICONTROL Keyword] coluna (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de correspondência ampla para cada termo na coluna Palavra-chave (como +azul +camurça +sapatos) = `+[keyword]+`, Correspondência de Frase = `"[keyword]"`, Correspondência exata = `[[keyword]]`
 
@@ -206,7 +206,7 @@ Se você usar um [!DNL Google Merchant Center] e inclua esse valor no campo &quo
 
 * Para indicar o URL da landing page:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft® Advertising] somente) [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Usar o parâmetro `!{lpurl}` para indicar o URL da landing page.
 
@@ -234,15 +234,15 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
    * Dois números podem ser incorporados com uma barra. Por exemplo, 4/1 e 0.95/0.45 são válidos.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] templates\]:** ([!DNL Microsoft® Advertising] apenas templates) A string a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a variável `{Param2}` cadeia de caracteres de substituição dinâmica. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] templates\]:** ([!DNL Microsoft Advertising] apenas templates) A string a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a variável `{Param2}` cadeia de caracteres de substituição dinâmica. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] apenas templates) A string a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a variável `{Param3}` cadeia de caracteres de substituição dinâmica. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] apenas templates) A string a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a variável `{Param3}` cadeia de caracteres de substituição dinâmica. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]:** ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente campanhas) O tipo de anúncios: *[!UICONTROL Expanded Search Ads]* ou *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]:** ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente campanhas) O tipo de anúncios: *[!UICONTROL Expanded Search Ads]* ou *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]:** (Opcional) Preenche todos os campos de texto alternativo de anúncios com texto dos campos de cópia de anúncio originais.
 
@@ -258,7 +258,7 @@ Pelo menos um título deve estar disponível para cada posição. Se você fixar
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** (Somente anúncios de texto padrão da Microsoft® Advertising; somente leitura) O título, ou a primeira linha, de um anúncio. A Microsoft® Advertising descontinuou a criação e edição de anúncios de texto padrão.
+**[!UICONTROL Ad Title]:** (Somente anúncios de texto padrão da Microsoft Advertising existentes; somente leitura) O título, ou a primeira linha, de um anúncio. A Microsoft Advertising substituiu a criação e a edição de anúncios de texto padrão.
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] e [!DNL Yahoo! Japan Ads] modelos de anúncio de texto expandidos/estendidos) O título de um anúncio. O comprimento máximo de cada linha (após a substituição de qualquer parâmetro dinâmico) é de 30 caracteres ou 15 caracteres de byte duplo.
 
@@ -270,13 +270,13 @@ Pelo menos um título deve estar disponível para cada posição. Se você fixar
 
 **[!UICONTROL Title]:** ([!DNL Yandex] somente) O título ou a primeira linha de um anúncio. O máximo é de 33 caracteres.
 
-**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Somente para anúncios de texto expandidos da Microsoft® Advertising) O título de um anúncio. O comprimento máximo de cada linha (após a substituição de qualquer parâmetro dinâmico) é de 30 caracteres ou 15 caracteres de byte duplo.
+**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Somente anúncios de texto expandidos da Microsoft Advertising) O título de um anúncio. O comprimento máximo de cada linha (após a substituição de qualquer parâmetro dinâmico) é de 30 caracteres ou 15 caracteres de byte duplo.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** (Somente para anúncios de texto expandidos da Microsoft® Advertising) O corpo de um anúncio. O comprimento máximo (após a substituição de qualquer parâmetro dinâmico) é de 80 caracteres ou 40 caracteres de byte duplo (como chinês, japonês e coreano).
+**[!UICONTROL Ad Text]:** (Somente anúncios de texto expandidos da Microsoft Advertising) O corpo de um anúncio. O comprimento máximo (após a substituição de qualquer parâmetro dinâmico) é de 80 caracteres ou 40 caracteres de byte duplo (como chinês, japonês e coreano).
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ Para anúncios de pesquisa responsivos, insira um personalizador de anúncios us
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (Existente) [!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] somente anúncios de texto padrão; somente leitura) O URL exibido em um anúncio.
+**[!UICONTROL Display URL]:** (Existente) [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] somente anúncios de texto padrão; somente leitura) O URL exibido em um anúncio.
 
-[!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] substituíram a criação e a edição de anúncios de texto padrão.
+[!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] substituíram a criação e a edição de anúncios de texto padrão.
 
 **[!UICONTROL Base URL]:** (Contas com URLs de destino somente) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar o rastreamento no nível do anúncio, em seguida, Pesquisar, Social e Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
 
@@ -339,7 +339,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para as contas do Microsoft® Advertising e do Google Ads, consulte a [[!DNL Microsoft® Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para obter os parâmetros disponíveis para contas do Microsoft Advertising e do Google Ads, consulte [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campos de anúncios alternativos abaixo dos campos de anúncios originais\]:** (Opcional) Um conjunto alternativo de cópias de anúncios para um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo permitido, uma vez que quaisquer parâmetros dinâmicos sejam preenchidos com dados durante a propagação.
 

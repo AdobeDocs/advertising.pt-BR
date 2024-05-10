@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] configurações expandidas do anúncio de pesquisa dinâmica'
-description: Referenciar as configurações de [!DNL Microsoft® Advertising] anúncios de pesquisa dinâmica expandidos.
+title: '''[!DNL Microsoft Advertising] configurações expandidas do anúncio de pesquisa dinâmica'
+description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios de pesquisa dinâmica expandidos.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configurações expandidas de anúncios de pesquisa dinâmica
+# [!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica
 
 Anúncios de pesquisa dinâmica expandidos (eDSAs) estão disponíveis apenas em grupos de anúncios dinâmicos em campanhas na rede de pesquisa. A rede de publicidade gera dinamicamente o título e escolhe a landing page para um anúncio de pesquisa dinâmica e gera automaticamente o URL final.
 
@@ -38,7 +38,7 @@ Anúncios de pesquisa dinâmica expandidos (eDSAs) estão disponíveis apenas em
 >
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)

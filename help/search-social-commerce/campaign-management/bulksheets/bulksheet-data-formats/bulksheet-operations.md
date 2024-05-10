@@ -1,9 +1,9 @@
 ---
 title: Operações que você pode executar em bulksheets
 description: Consulte informações gerais sobre adição, edição e exclusão de dados de campanha usando bulksheets.
-exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -32,13 +32,13 @@ As regras a seguir se aplicam ao trabalho com componentes de campanha e suas pro
 
    * Para excluir um componente existente, inclua todos os campos necessários para editar esse componente e alterar seu status para [!UICONTROL Deleted]. Por exemplo, para excluir um [!DNL Google Ads] grupo de publicidade, você deve incluir a variável [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] com um valor de <i>[!UICONTROL Deleted]</i>, e [!UICONTROL Ad Group ID].
 
-   * ([!UICONTROL Param1], [!UICONTROL Param2], e [!UICONTROL Param3] somente valores) Para excluir um existente [!DNL paramN] para uma palavra-chave, inclua todos os campos necessários para editar a palavra-chave e também exclua os campos [!DNL paramN] inserindo o valor `[delete]` (incluindo os colchetes) no campo correspondente.
+   * ([!UICONTROL Param1], [!UICONTROL Param2], e [!UICONTROL Param3] somente valores) Para excluir um existente [!DNL paramN] valor de uma palavra-chave, inclua todos os campos necessários para editar a palavra-chave e também exclua os campos [!DNL paramN] inserindo o valor `[delete]` (incluindo os colchetes) no campo correspondente.
 
    * (Campos de propriedade permitidos) Para excluir um valor de propriedade existente para um componente, inclua todos os campos necessários para editar esse componente e também exclua o valor de propriedade inserindo o valor `[delete]` (incluindo os colchetes). Os campos permitidos incluem:
 
       * ([!UICONTROL Google Ads] somente) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] somente) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

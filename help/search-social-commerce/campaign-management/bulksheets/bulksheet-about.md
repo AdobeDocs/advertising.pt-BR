@@ -1,11 +1,11 @@
 ---
 title: Sobre o gerenciamento de dados de campanha usando bulksheets
 description: Saiba mais sobre a funcionalidade de bulksheet disponível pela rede de anúncios, o fluxo de trabalho de bulksheet e a manipulação de erros.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Uma bulksheet é um arquivo que contém dados de campanha em um formato específ
 
 Você pode gerar bulksheets com a quantidade de dados que desejar — ou, como opção, criá-los manualmente e carregá-los (consulte o capítulo em &quot;Dados obrigatórios/incluídos em Bulksheets&quot;).
 
-Depois de criar um bulksheet, você poderá identificar qualquer página de aterrissagem quebrada que precise ser corrigida ou dados adicionais para adicionar ou editar. É possível editar o arquivo e carregá-lo no Search, Social e &amp; Commerce, programando, opcionalmente, que ele seja publicado na rede de publicidade relevante imediatamente ou posteriormente. Também é possível publicar um bulksheet disponível imediatamente ou posteriormente.
+Depois de criar um bulksheet, você poderá identificar qualquer página de aterrissagem quebrada que precise ser corrigida ou dados adicionais para adicionar ou editar. É possível editar o arquivo e carregá-lo no Search, Social e Commerce, programando, opcionalmente, que ele seja publicado na rede de publicidade relevante imediatamente ou posteriormente. Também é possível publicar um bulksheet disponível imediatamente ou posteriormente.
 
 Opcionalmente, é possível fazer upload de arquivos de bulksheet para uma conta FTP especificada para recuperação e contabilização automática. O diretório é examinado a cada hora e novos arquivos são publicados na rede de pesquisa na ordem em que são recebidos.
 
@@ -24,7 +24,7 @@ Todos os bulksheets, arquivos de erro de validação da página de aterrissagem 
 
 ## Funcionalidade por rede de anúncios
 
-* **Baixar, carregar e publicar:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex] contas
+* **Baixar, carregar e publicar:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex] contas
 
 * **Somente download e upload:** [!DNL Naver] contas
 
@@ -48,9 +48,9 @@ As etapas padrão do uso de bulksheets para contas sincronizadas são as seguint
 
 1. Quando for necessário adicionar dados ou fazer correções:
 
-   1. [Exportar o arquivo](bulksheet-export.md) na sua área de trabalho e edite-a no [!DNL Microsoft® Excel].
+   1. [Exportar o arquivo](bulksheet-export.md) na sua área de trabalho e edite-a no [!DNL Microsoft Excel].
 
-   1. [Carregar manualmente o arquivo editado](bulksheet-upload.md) para Pesquisar, Social e Comércio ou [fazer upload do arquivo para uma conta FTP especificada](bulksheet-ftp-account.md) para lançamento automático.
+   1. [Carregar manualmente o arquivo editado](bulksheet-upload.md) para o Search, Social, &amp; Commerce ou [fazer upload do arquivo para uma conta FTP especificada](bulksheet-ftp-account.md) para lançamento automático.
 
 1. (Para arquivos carregados manualmente) [Publicar o arquivo](bulksheet-post.md) à rede de publicidade ao carregá-la ou posteriormente.
 

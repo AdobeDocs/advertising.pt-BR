@@ -2,8 +2,8 @@
 title: Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios
 description: Saiba como disponibilizar métricas de conversão em suas visualizações de gerenciamento e relatórios.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios
 
-Quando o Adobe Advertising rastreia um [conversão](/help/search-social-commerce/glossary.md#c-d) para um anunciante, inicialmente ela é excluída dos objetivos do portfólio, dos relatórios e das visualizações de gerenciamento. Para tornar uma métrica de conversão visível, você deve disponibilizá-la explicitamente e, opcionalmente, alterar o nome de exibição padrão, que é o nome mostrado. A única exceção é que as conversões são rastreadas pelo [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] as tags universais de rastreamento de eventos estão disponíveis e visíveis automaticamente.
+Quando o Adobe Advertising rastreia um [conversão](/help/search-social-commerce/glossary.md#c-d) para um anunciante, inicialmente ela é excluída dos objetivos do portfólio, dos relatórios e das visualizações de gerenciamento. Para tornar uma métrica de conversão visível, você deve disponibilizá-la explicitamente e, opcionalmente, alterar o nome de exibição padrão, que é o nome mostrado. A única exceção é que as conversões são rastreadas pelo [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] as tags universais de rastreamento de eventos estão disponíveis e visíveis automaticamente.
 
 Da mesma forma, é possível ocultar uma métrica de conversão dos objetivos do portfólio, dos relatórios e das visualizações de gerenciamento. Quando você oculta uma métrica de conversão que estava visível anteriormente, ela é removida de qualquer métrica derivada que contenha a métrica de conversão.
 
@@ -50,10 +50,10 @@ A partir da lista de métricas de conversão disponíveis, cada usuário com ace
 
 >[!NOTE]
 >
->Se o Adobe Advertising coletar dados para novas métricas de conversão, as novas métricas — exceto as conversões rastreadas pelo [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tags de rastreamento de evento universal — são excluídas automaticamente das exibições e relatórios de gerenciamento até que você os inclua. Novas conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] as tags universais de rastreamento de eventos estão sempre disponíveis automaticamente.
+>Se o Adobe Advertising coletar dados para novas métricas de conversão, as novas métricas — exceto as conversões rastreadas pelo [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] tags de rastreamento de evento universal — são excluídas automaticamente das exibições e relatórios de gerenciamento até que você os inclua. Novas conversões rastreadas por [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] as tags universais de rastreamento de eventos estão sempre disponíveis automaticamente.
 
 >[!MORELIKETHIS]
 >
-* [Sobre o gerenciamento das métricas de conversão de um anunciante](conversion-metric-about.md)
-* [Exibir as métricas de conversão rastreadas para um anunciante](conversion-metric-view-tracked.md)
-* [Alterar o nome de exibição de uma métrica de conversão](conversion-metric-edit-display-name.md)
+>* [Sobre o gerenciamento das métricas de conversão de um anunciante](conversion-metric-about.md)
+>* [Exibir as métricas de conversão rastreadas para um anunciante](conversion-metric-view-tracked.md)
+>* [Alterar o nome de exibição de uma métrica de conversão](conversion-metric-edit-display-name.md)

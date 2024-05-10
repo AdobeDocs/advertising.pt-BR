@@ -1,11 +1,11 @@
 ---
 title: Baixar dados de uma visualização de gerenciamento de campanha
 description: Saiba como baixar dados da maioria das exibições de gerenciamento de campanha.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 É possível baixar dados da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] exibições, exceto para [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], e [!UICONTROL Extensions] exibições. Você pode baixar:
 
-* Um relatório no [!DNL XLSM] (habilitado para macro [!DNL Microsoft® Excel] planilha). Se você selecionar linhas específicas na exibição, o relatório incluirá uma linha para cada linha selecionada. Se você não selecionar nenhuma linha, uma linha será criada para cada linha na exibição.
+* Um relatório no [!DNL XLSM] (habilitado para macro [!DNL Microsoft Excel] planilha). Se você selecionar linhas específicas na exibição, o relatório incluirá uma linha para cada linha selecionada. Se você não selecionar nenhuma linha, uma linha será criada para cada linha na exibição.
 
 * Um arquivo de bulksheet no formato TXT que inclui todas as entidades secundárias relevantes. Se você selecionar linhas para entidades em várias redes de anúncios, um arquivo será criado para cada rede de anúncios relevante. Se você não selecionar nenhuma linha, um arquivo será criado para cada rede de publicidade representada na exibição. Os arquivos de bulksheet gerados para diferentes redes de anúncios incluem diferentes colunas de dados.
 

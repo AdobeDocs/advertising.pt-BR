@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: Saiba mais sobre o [!UICONTROL Bing Ads Search Query Report].
-exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft® Advertising]somente contas*
+*[!DNL Microsoft Advertising]somente contas*
 
 A variável [!UICONTROL Bing Ads Search Query Report] inclui dados de custo, clique, impressão e métrica derivada (opcionalmente) para termos de consulta de pesquisa do usuário para um ou mais grupos de anúncios. Por padrão, os dados incluem uma linha para cada termo de pesquisa que resultou em impressões ou cliques para cada grupo de anúncios aplicável para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente pelo nome do grupo de anúncios e pelo termo de pesquisa por padrão. O relatório não inclui a palavra-chave à qual o termo de pesquisa correspondeu, nem quaisquer dados de conversão rastreados por [!DNL Adobe].
 
@@ -41,6 +41,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
-* [Sobre relatórios de especialidade](specialty-report-about.md)
-* [Gerar um relatório de especialidade](specialty-report-generate.md)
-* [Configurações do relatório de especialidades](specialty-report-settings.md)
+>* [Sobre relatórios de especialidade](specialty-report-about.md)
+>* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Configurações do relatório de especialidades](specialty-report-settings.md)

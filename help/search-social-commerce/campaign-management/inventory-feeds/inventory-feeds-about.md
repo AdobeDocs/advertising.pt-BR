@@ -1,28 +1,28 @@
 ---
 title: Sobre a automatização do gerenciamento de anúncios usando feeds de inventário
 description: Saiba mais sobre o gerenciamento avançado de campanhas, que permite gerenciar automaticamente a estrutura da conta e fornecer anúncios dinâmicos com base em dados sobre o inventário de produtos ou serviços.
-exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Sobre a automatização do gerenciamento de anúncios usando feeds de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
-A variável [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] o view for advanced campaign management permite criar e atualizar automaticamente a estrutura de conta da rede de publicidade e fornecer anúncios dinâmicos com base em dados sobre o inventário de produtos ou serviços. Você pode fazer upload de novos arquivos com os dados do produto diariamente ou sempre que desejar, ou vincular diretamente a um [!DNL Google] ou [!DNL Microsoft®] conta da central de comércio. Use o recurso para:
+A variável [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] o view for advanced campaign management permite criar e atualizar automaticamente a estrutura de conta da rede de publicidade e fornecer anúncios dinâmicos com base em dados sobre o inventário de produtos ou serviços. Você pode fazer upload de novos arquivos com os dados do produto diariamente ou sempre que desejar, ou vincular diretamente a um [!DNL Google] ou [!DNL Microsoft] conta da central de comércio. Use o recurso para:
 
 * Crie novas campanhas a partir de fontes de dados solicitadas.
 
-* Atualizar dinamicamente o texto e os anúncios de pesquisa responsivos, [!DNL Google Ads] anúncios de compras ou [!DNL Microsoft® Advertising] anúncios de compras sempre que novos dados forem processados, usando variáveis dinâmicas para elementos de dados alteráveis (como preço ou quantidade). Cada vez que os dados são alterados, os anúncios existentes são excluídos e novos são criados.
+* Atualizar dinamicamente o texto e os anúncios de pesquisa responsivos, [!DNL Google Ads] anúncios de compras ou [!DNL Microsoft Advertising] anúncios de compras sempre que novos dados forem processados, usando variáveis dinâmicas para elementos de dados alteráveis (como preço ou quantidade). Cada vez que os dados são alterados, os anúncios existentes são excluídos e novos são criados.
 
 * Pausar ou remover automaticamente grupos de anúncios, palavras-chave e anúncios quando o estoque cair abaixo de um nível específico, de acordo com uma data final especificada, ou quando um componente existente for omitido dos dados de feed.
 
-Para configurar seus anúncios, crie modelos de feed de inventário contendo variáveis (espaços reservados) e substitua as variáveis por colunas de dados reais de um arquivo carregado ou uma [Conta do centro de comércio da Google ou Microsoft® que é sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). As variáveis também podem incluir grupos de modificadores configurados em um arquivo ou linhas individuais no arquivo para criar vários anúncios, palavras-chave, campanhas ou grupos de anúncios para cada linha aplicável no arquivo de dados. Por exemplo, se você usar uma variável do grupo de modificadores em um título de anúncio e o grupo de modificadores incluir dois modificadores (&quot;para barato&quot; e &quot;com desconto&quot;), dois anúncios separados serão criados para cada produto — um para cada modificador. Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] anúncios de pesquisa dinâmica, você também pode incluir valores para personalizadores de anúncios.
+Para configurar seus anúncios, crie modelos de feed de inventário contendo variáveis (espaços reservados) e substitua as variáveis por colunas de dados reais de um arquivo carregado ou uma [Conta do centro de comércio do Google ou Microsoft sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). As variáveis também podem incluir grupos de modificadores configurados em um arquivo ou linhas individuais no arquivo para criar vários anúncios, palavras-chave, campanhas ou grupos de anúncios para cada linha aplicável no arquivo de dados. Por exemplo, se você usar uma variável do grupo de modificadores em um título de anúncio e o grupo de modificadores incluir dois modificadores (&quot;para barato&quot; e &quot;com desconto&quot;), dois anúncios separados serão criados para cada produto — um para cada modificador. Para [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios de pesquisa dinâmica, você também pode incluir valores para personalizadores de anúncios.
 
 | [!UICONTROL Ad Variation] Seção do modelo | Modificadores no Search, Social e Commerce | Conteúdos do feed | Anúncios resultantes |
 |----|----|----|----|
@@ -35,7 +35,7 @@ Depois de gerar os anúncios, você pode, opcionalmente, revisá-los e, em segui
 
 ## Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Inicialmente, teste pelo menos um arquivo de feed ou conta e, em seguida, você pode automatizar totalmente o processo ou continuar a controlá-lo em cada etapa:
 
@@ -49,7 +49,7 @@ Inicialmente, teste pelo menos um arquivo de feed ou conta e, em seguida, você 
 
    Se estiver usando o FTP, inicialmente não publique dados nas redes de anúncios automaticamente. Depois de verificar a saída do primeiro arquivo e ficar satisfeito com os resultados, é possível alterar as configurações.
 
-1. Fazer upload de um arquivo de dados para o diretório FTP, [fazer upload manual de um arquivo de dados](feed-files-manage.md) no [!UICONTROL Advanced (ACM) view]ou [habilitar o acesso a uma conta de centro de comerciante da Google ou Microsoft®](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Fazer upload de um arquivo de dados para o diretório FTP, [fazer upload manual de um arquivo de dados](feed-files-manage.md) no [!UICONTROL Advanced (ACM) view]ou [habilitar o acesso a uma conta do Google ou do Microsoft commerce center](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Para carregar arquivos manualmente, você pode aguardar até criar um modelo que use o arquivo de dados.
 
@@ -57,7 +57,7 @@ Para carregar arquivos manualmente, você pode aguardar até criar um modelo que
 
 1. [Criar um ou mais modelos](ad-templates/ad-template-manage.md) que usam as colunas de dados para criar campanhas, grupos de anúncios, palavras-chave e/ou cópias de anúncios para uma conta de rede de anúncios específica.
 
-1. [Propagar dados do feed por meio dos modelos](feed-data-propagate.md), que substitui os nomes das colunas no modelo pelos dados no arquivo ou na conta. Dependendo das opções do modelo, Search, Social, &amp; Commerce cria uma nova estrutura de conta (campanhas, grupos de anúncios, palavras-chave) para os anúncios usando as configurações padrão ou mapeia os anúncios para a estrutura de conta existente.
+1. [Propagar dados do feed por meio dos modelos](feed-data-propagate.md), que substitui os nomes das colunas no modelo pelos dados no arquivo ou na conta. Dependendo das opções do modelo, o Search, Social e Commerce cria uma nova estrutura de conta (campanhas, grupos de anúncios, palavras-chave) para os anúncios usando as configurações padrão ou mapeia os anúncios para a estrutura de conta existente.
 
 1. (Opcional) [Visualizar a saída](propagated-data-view.md) no [!UICONTROL Advanced (ACM)] exibições e, opcionalmente, exibir um resumo das alterações de dados na [!UICONTROL Propagations] guia.
 

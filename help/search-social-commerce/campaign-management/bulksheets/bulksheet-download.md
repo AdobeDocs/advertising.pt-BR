@@ -1,11 +1,11 @@
 ---
 title: Baixar/criar um arquivo de bulksheet
 description: Saiba como criar arquivos de bulksheet baixando dados de conta para suas redes de anúncios.
-exl-id: 42558276-b930-49de-90a0-445433ee66b9
+exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Quando a tarefa for iniciada, a janela exibirá uma notificação, mas permanece
 
 ## Linhas de bulksheet por rede de anúncios {#bulksheet-rows-by-ad-network}
 
-| Linha de Bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft® Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | Yandex | Notas |
+| Linha de Bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | Yandex | Notas |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | — |
 | [!UICONTROL Adgroup] | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | — |

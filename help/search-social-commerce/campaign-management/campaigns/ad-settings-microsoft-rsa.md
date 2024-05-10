@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft® Advertising] pesquisa responsiva e configurações'
-description: Referenciar as configurações de [!DNL Microsoft® Advertising] anúncios de pesquisa responsivos.
-exl-id: 4ee3c81a-38f4-448d-aea5-c062ab0a6f2a
+title: '[!DNL Microsoft Advertising] pesquisa responsiva e configurações'
+description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios de pesquisa responsivos.
+exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configurações de anúncio de pesquisa responsiva
+# [!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva
 
 O formato de anúncio de pesquisa responsiva está disponível para anúncios na rede de pesquisa. A rede de publicidade monta dinamicamente anúncios de pesquisa responsivos usando as combinações mais eficazes de elementos de publicidade.
 
@@ -51,7 +51,7 @@ O formato de anúncio de pesquisa responsiva está disponível para anúncios na
 >
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)

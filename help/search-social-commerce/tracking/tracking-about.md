@@ -3,7 +3,7 @@ title: Sobre o rastreamento para o Search, Social e Commerce
 description: Saiba mais sobre as opções de rastreamento para Search, Social e Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Sobre o rastreamento para o Search, Social e Commerce
 
-Para acompanhar o desempenho de seus anúncios, a Pesquisa, o Social e o Comércio precisam de dados de impressão, clique, custo e conversão (transação) para seus anúncios. O Search, Social e Commerce usa esses dados para criar os modelos de previsão de dados necessários para otimizar seus portfólios de anúncios.
+Para acompanhar o desempenho de seus anúncios, Search, Social e Commerce precisa de dados de impressão, clique, custo e conversão (transação) para seus anúncios. O Search, Social e Commerce usa esses dados para criar os modelos de previsão de dados necessários para otimizar seus portfólios de anúncios.
 
 ## Dados de custo, clique e impressão
 
-Os recursos de Pesquisa, Social e Comércio recuperam dados de impressão, clique e custo diretamente do [redes de publicidade suportadas](/help/search-social-commerce/introduction/supported-inventory.md) todos os dias. Além disso, o Search, Social e Commerce pode adicionar um código de rastreamento de cliques exclusivo (incluindo um redirecionamento para um servidor de rastreamento) em seus modelos de rastreamento e URLs de destino para rastrear impressões de exibição/conteúdo, cliques e custo, e depois vincular os eventos a conversões.
+O Search, Social e Commerce recupera dados de impressão, clique e custo diretamente do [redes de publicidade suportadas](/help/search-social-commerce/introduction/supported-inventory.md) todos os dias. Além disso, o Search, Social e Commerce pode adicionar um código de rastreamento de cliques exclusivo (incluindo um redirecionamento para um servidor de rastreamento) em seus modelos de rastreamento e URLs de destino para rastrear impressões de exibição/conteúdo, cliques e custo e, posteriormente, vincular os eventos a conversões.
 
-Se você quiser rastrear campanhas em redes de anúncios com as quais a Search, o Social e o Commerce não sincronizam dados, será necessário fornecer dados para essas campanhas enviando um arquivo de feed diário com dados de impressão, clique e custo.
+Se você quiser rastrear campanhas em redes de anúncios com as quais a Search, o Social e o Commerce não sincronizam dados, será necessário fornecer dados para essas campanhas enviando um arquivo de feed diário com os dados de impressão, clique e custo.
 
 ### Tags de rastreamento de cliques
 
-Sua equipe de implementação de Pesquisa, Social e Comércio configura o rastreamento de cliques atualizando os modelos de rastreamento e os URLs de destino para anúncios, palavras-chave, inserções, grupos de produtos e extensões de sitelink em suas campanhas de anúncios sincronizados para incluir uma sequência de ID de rastreamento exclusiva e um redirecionamento de Adobe Advertising. Eles também adicionam rastreamento aos sufixos de página de aterrissagem (sufixos de URL finais) para o seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas e campanhas.
+Sua equipe de implementação de Search, Social e Commerce configura o rastreamento de cliques atualizando os modelos de rastreamento e os URLs de destino para anúncios, palavras-chave, disposições, grupos de produtos e extensões de sitelink em suas campanhas de anúncios sincronizados para incluir uma sequência de ID de rastreamento exclusiva e um redirecionamento de Adobe Advertising. Eles também adicionam rastreamento aos sufixos de página de aterrissagem (sufixos de URL finais) para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] contas e campanhas.
 
 Os parâmetros de rastreamento permitem ao Adobe Advertising rastrear cliques em um nível de palavra-chave individual (campanhas de pesquisa) ou nível de variação de anúncio (campanhas de pesquisa com direcionamento de conteúdo ou site, campanhas de exibição e campanhas sociais). Cada vez que um usuário visualiza um anúncio de exibição/conteúdo ou clica em um de seus anúncios, a rede de anúncios envia o evento para os servidores de pixels do Adobe Advertising usando uma tag de rastreamento de cliques associada à palavra-chave ou ao anúncio. Para cliques:
 
-* Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] anúncios em navegadores que oferecem suporte ao rastreamento paralelo, a rede de anúncios envia o clique para o seu site primeiro e, em seguida, para os servidores de pixels Adobe Advertising, que, em seguida, colocam um cookie no computador do usuário, se um ainda não existir.
+* Para [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios em navegadores que oferecem suporte ao rastreamento paralelo, a rede de anúncios envia o clique para o seu site primeiro e, em seguida, para os servidores de pixels Adobe Advertising, que, em seguida, colocam um cookie no computador do usuário, se um ainda não existir.
 
 * Em todos os outros casos, a rede de publicidade envia o clique diretamente para os servidores de pixel de Adobe Advertising. O servidor de pixels coloca um cookie no computador do usuário (se ainda não existir um) e, em seguida, redireciona o usuário para o URL relevante em seu site. A experiência geral para o usuário final é a mesma que seria sem um redirecionamento.
 

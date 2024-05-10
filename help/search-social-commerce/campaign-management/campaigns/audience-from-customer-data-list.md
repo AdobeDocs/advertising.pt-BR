@@ -1,34 +1,34 @@
 ---
 title: Gerenciar públicos-alvo de correspondência do cliente usando listas de dados do cliente
-description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente.
+description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Gerenciar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo de correspondência do cliente usando listas de dados do cliente
+# Gerenciar [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo de correspondência do cliente usando listas de dados do cliente
 
-Você pode criar [!DNL Google Ads] e [!DNL Microsoft® Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente. Também é possível atualizar qualquer [!DNL Google Ads] ou [!DNL Microsoft® Advertising] público-alvo de correspondência do cliente, exceto por [!DNL Google Ads] públicos-alvo criados a partir de um [!DNL Adobe] público-alvo.
+Você pode criar [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo de correspondência do cliente das listas de dados do cliente. Também é possível atualizar qualquer [!DNL Google Ads] ou [!DNL Microsoft Advertising] público-alvo de correspondência do cliente, exceto por [!DNL Google Ads] públicos-alvo criados a partir de um [!DNL Adobe] público-alvo.
 
 ## Criar um público-alvo de correspondência do cliente a partir de uma lista de dados do cliente
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] contas elegíveis somente para correspondência de cliente*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] contas elegíveis somente para correspondência de cliente*
 
-Você pode criar um [!DNL Google Ads] ou [!DNL Microsoft® Advertising] lista baseada em dados do cliente de um arquivo de dados gerado pelo sistema de gerenciamento de relacionamento com o cliente (CRM).
+Você pode criar um [!DNL Google Ads] ou [!DNL Microsoft Advertising] lista baseada em dados do cliente de um arquivo de dados gerado pelo sistema de gerenciamento de relacionamento com o cliente (CRM).
 
-Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços de email. Para [!DNL Google Ads] , o arquivo pode incluir endereços de email, endereços de correspondência ou números de telefone, IDs de usuário ou IDs de dispositivo móvel do seu CRM.
+Para [!DNL Microsoft Advertising] contas, o arquivo poderá incluir endereços de email. Para [!DNL Google Ads] , o arquivo pode incluir endereços de email, endereços de correspondência ou números de telefone, IDs de usuário ou IDs de dispositivo móvel do seu CRM.
 
 >[!NOTE]
 >
->O Search, Social e Commerce não armazena nenhum dos dados do cliente que você carrega ou da [!DNL Adobe] segmentos usados para criar ou editar um [!DNL Google Ads] ou [!DNL Microsoft® Advertising] público-alvo.
+>O Search, Social e Commerce não armazena nenhum dos dados do cliente que você carrega ou da [!DNL Adobe] segmentos usados para criar ou editar um [!DNL Google Ads] ou [!DNL Microsoft Advertising] público-alvo.
 
 1. Gere um arquivo com os dados do cliente no formato necessário.
 
-   O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a [!DNL Google Ads] documentação sobre &quot;[Diretrizes de formatação para fazer upload de dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista dos campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft® Advertising] públicos-alvo, consulte a [!DNL Microsoft® Advertising] documentação sobre [preparando listas de correspondência do cliente]https://help.ads.microsoft.com/#apex/ads/en/56921. É possível, opcionalmente, baixar um [!DNL Microsoft® Excel] modelo para informações de contato.
+   O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a [!DNL Google Ads] documentação sobre &quot;[Diretrizes de formatação para fazer upload de dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista dos campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft Advertising] públicos-alvo, consulte a [!DNL Microsoft Advertising] documentação sobre [preparando listas de correspondência do cliente]https://help.ads.microsoft.com/#apex/ads/en/56921. É possível, opcionalmente, baixar um [!DNL Microsoft Excel] modelo para informações de contato.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ Para [!DNL Microsoft® Advertising] contas, o arquivo poderá incluir endereços
 
 ## Editar um público-alvo de correspondência do cliente usando uma lista de dados do cliente
 
-É possível atualizar qualquer [!DNL Google Ads] ou [!DNL Microsoft® Advertising] público-alvo de correspondência do cliente, exceto por [!DNL Google Ads] públicos-alvo criados a partir de um [!DNL Adobe] público-alvo. É possível carregar dados para adicionar, excluir ou substituir todos os dados existentes do público-alvo.
+É possível atualizar qualquer [!DNL Google Ads] ou [!DNL Microsoft Advertising] público-alvo de correspondência do cliente, exceto por [!DNL Google Ads] públicos-alvo criados a partir de um [!DNL Adobe] público-alvo. É possível carregar dados para adicionar, excluir ou substituir todos os dados existentes do público-alvo.
 
 Os dados devem ser do mesmo tipo da lista original de clientes (endereços de email, endereços de correspondência, números de telefone, IDs de usuário ou IDs de dispositivo móvel para um aplicativo específico em um sistema operacional móvel específico).
 
 1. Gere um arquivo com os dados do cliente no formato necessário para o tipo de dados existente.
 
-O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a [!DNL Google Ads] documentação sobre &quot;[Diretrizes de formatação para fazer upload de dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista dos campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft® Advertising] públicos-alvo, consulte a [!DNL Microsoft® Advertising] documentação sobre [preparando listas de correspondência do cliente]https://help.ads.microsoft.com/#apex/ads/en/56921. É possível, opcionalmente, baixar um [!DNL Microsoft® Excel] modelo para informações de contato.
+O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a [!DNL Google Ads] documentação sobre &quot;[Diretrizes de formatação para fazer upload de dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista dos campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft Advertising] públicos-alvo, consulte a [!DNL Microsoft Advertising] documentação sobre [preparando listas de correspondência do cliente]https://help.ads.microsoft.com/#apex/ads/en/56921. É possível, opcionalmente, baixar um [!DNL Microsoft Excel] modelo para informações de contato.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

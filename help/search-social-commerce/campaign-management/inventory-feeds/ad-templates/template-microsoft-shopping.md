@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] configurações de modelo de anúncio de compras para feeds de inventário'
-description: Referenciar as configurações de [!DNL Microsoft® Ads] modelos de anúncios de compras para feeds de inventário.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] configurações de modelo de anúncio de compras para feeds de inventário'
+description: Referenciar as configurações de [!DNL Microsoft Ads] modelos de anúncios de compras para feeds de inventário.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] configurações de modelo de anúncio de compras para feeds de inventário
+# [!DNL Microsoft Ads] configurações de modelo de anúncio de compras para feeds de inventário
 
 Use modelos de anúncios de compras para configurar esses anúncios.
 
@@ -61,7 +61,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 * Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; execute um dos procedimentos a seguir&quot;:
 
-   * (Recomendado) Use o [formato do modelo de rastreamento para as campanhas de compras da Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
+   * (Recomendado) Use o [formato do modelo de rastreamento para campanhas de compras do Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
 
    * Se, em vez disso, você incluir um valor para cada produto no feed usando o &quot;[!DNL bingads_redirect]coluna &quot; (usando o [formato correto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) e, em seguida, insira o parâmetro `{lpurl}`. Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros à `{lpurl}` parâmetro.
 

@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Microsoft® Advertising] configurações de anúncios responsivos'
-description: Referenciar as configurações de [!DNL Microsoft® Advertising] anúncios responsivos.
+title: '[!DNL Microsoft Advertising] configurações de anúncios responsivos'
+description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios responsivos.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configurações de anúncio responsivo (público-alvo)
+# [!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)
 
-O formato de anúncio responsivo está disponível para anúncios de público-alvo com base em imagem, vídeo e TV conectada com base em vídeo no [!DNL Microsoft® Audience Network]. A rede de publicidade monta dinamicamente anúncios responsivos usando as combinações mais eficazes de elementos de publicidade.
+O formato de anúncio responsivo está disponível para anúncios de público-alvo com base em imagem, vídeo e TV conectada com base em vídeo no [!DNL Microsoft Audience Network]. A rede de publicidade monta dinamicamente anúncios responsivos usando as combinações mais eficazes de elementos de publicidade.
 
 ## [!UICONTROL Ad Settings] (para anúncios de vídeo) e [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ O formato de anúncio responsivo está disponível para anúncios de público-al
 
 **[!UICONTROL Images]:** Até 15 imagens JPEG ou PNG para o anúncio. Inclua pelo menos uma imagem com uma proporção de 1,91:1. Consulte as proporções e dimensões permitidas para [imagens de anúncios do público-alvo](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-Para anúncios de público-alvo, [!DNL Microsoft® Advertising] recorta automaticamente esta imagem para todas as taxas de proporções possíveis.
+Para anúncios de público-alvo, [!DNL Microsoft Advertising] recorta automaticamente esta imagem para todas as taxas de proporções possíveis.
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ Para anúncios de público-alvo, [!DNL Microsoft® Advertising] recorta automati
 >
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)

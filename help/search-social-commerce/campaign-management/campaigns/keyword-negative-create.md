@@ -3,7 +3,7 @@ title: Criar palavras-chave negativas
 description: Saiba como criar palavras-chave negativas para campanhas de pesquisa e grupos de anúncios.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criar palavras-chave negativas
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]e existentes [!DNL Baidu] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]e existentes [!DNL Baidu] somente contas*
 
 Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa ou campanha direcionada à pesquisa ou exibição/rede nativa. Palavras-chave negativas não acionam anúncios.
 
@@ -30,7 +30,7 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 
 1. Insira as palavras-chave negativas. Use a sintaxe a seguir, sem um sinal de menos (`-`):
 
-   * Correspondência ampla negativa: `keyword` (não suportado pelo [!DNL Microsoft® Advertising])
+   * Correspondência ampla negativa: `keyword` (não suportado pelo [!DNL Microsoft Advertising])
 
    * Correspondência de frase negativa: `"keyword"`
 
@@ -38,7 +38,7 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 
    Separe vários valores com vírgulas ou insira-os em linhas separadas. Você pode inserir ou colar até 2.000 palavras-chave negativas em uma operação. Consulte também os seguintes requisitos e restrições:
 
-   * Tamanho máximo de caracteres: [!DNL Baidu]: 30 bytes simples ou 15 bytes duplos; [!DNL Microsoft® Advertising]: 100 bytes únicos ou 50 bytes duplos; [!DNL Google Ads] e [!DNL Yahoo! Japan Ads]: 80 bytes únicos ou 40 bytes duplos.
+   * Tamanho máximo de caracteres: [!DNL Baidu]: 30 bytes simples ou 15 bytes duplos; [!DNL Microsoft Advertising]: 100 bytes únicos ou 50 bytes duplos; [!DNL Google Ads] e [!DNL Yahoo! Japan Ads]: 80 bytes únicos ou 40 bytes duplos.
 
    * [!DNL Baidu] permite somente um tipo de correspondência por palavra-chave por grupo de publicidade. Por exemplo, o Grupo de anúncios 1 não pode incluir ambos `"keyword"` e `[keyword]`.
 

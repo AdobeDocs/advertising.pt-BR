@@ -1,9 +1,9 @@
 ---
 title: Gerenciar modificadores
 description: Saiba como configurar e gerenciar modificadores para seus modelos de anúncio para feeds de dados de inventário.
-exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar modificadores
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Modificadores são adjetivos ou advérbios que podem ser adicionados ou removidos de uma sentença sem alterar a estrutura básica da sentença. Você pode criar grupos de modificadores para usar como variáveis em vários campos de dados em modelos de dados de feed. Ao incluir modificadores nos campos de estrutura de conta (campanha e grupo de anúncios), palavras-chave, URLs de base e anúncios, você cria um valor para cada valor de modificador associado. Por exemplo, se você usar uma variável do grupo de modificadores em um título de anúncio e o grupo de modificadores incluir três modificadores (&quot;barato&quot;, &quot;desconto&quot; e &quot;acessível&quot;), três anúncios separados serão criados para cada linha de dados no feed de dados — um para cada modificador. Da mesma forma, se você incluir um grupo de modificadores com vários valores no URL base de um grupo de anúncios, um conjunto de palavras-chave será criado para cada um dos URLs base resultantes.
 

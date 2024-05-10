@@ -1,21 +1,21 @@
 ---
-title: Configurar testes A/B para anúncios de pesquisa, sociais e do Commerce do Adobe Advertising no Adobe Target
-description: Saiba como configurar um teste A/B no [!DNL Target] para seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] anúncios em Pesquisa, Social e Comércio.
+title: Configurar testes A/B para anúncios do Adobe Advertising Search, Social e Commerce no Adobe Target
+description: Saiba como configurar um teste A/B no [!DNL Target] para seu [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios em Search, Social e Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# Configurar testes A/B no Adobe Target para anúncios de pesquisa de publicidade, sociais e do Commerce
+# Configurar testes A/B no Adobe Target para Advertising Search, Social e Commerce Ads
 
 *Anunciantes com somente Advertising Search, Social e Commerce*
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] somente contas*
 
-O Adobe Advertising e o Adobe Target facilitam a configuração de testes A/B de experiência de página de aterrissagem para tráfego de publicidade digital [!DNL Google Ads] e [!DNL Microsoft® Advertising] para:
+O Adobe Advertising e o Adobe Target facilitam a configuração de testes A/B de experiência de página de aterrissagem para tráfego de publicidade digital [!DNL Google Ads] e [!DNL Microsoft Advertising] para:
 
 * Melhorar as taxas de conversão (CVR) e as medidas de eficiência de aquisição (como CPA, CPL e CAC).
 
@@ -23,13 +23,13 @@ O Adobe Advertising e o Adobe Target facilitam a configuração de testes A/B de
 
 Também é possível combinar o nativo [[!DNL Analytics] para publicidade](/help/integrations/analytics/overview.md) e [[!DNL Analytics] para [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) dimensões de relatório de integração integradas ao Adobe Analytics para medir e visualizar seus dados de teste com [!DNL Analytics] métricas e eventos de sucesso.
 
-Consulte as seções a seguir para obter os pré-requisitos, instruções para configurar testes A/B no [!DNL Target] para tráfego de click-through de anúncios em Pesquisa, Social e Comércio, e dicas sobre como medir e visualizar seus testes em [!DNL Analytics].
+Consulte as seções a seguir para obter os pré-requisitos, instruções para configurar testes A/B no [!DNL Target] para tráfego de click-through de anúncios em Pesquisa, Social e Commerce, e dicas sobre como medir e visualizar seus testes em [!DNL Analytics].
 
 ## Pré-requisitos
 
 ### Produtos necessários
 
-* Pesquisa, Social e Comércio
+* Pesquisa, Social e Commerce
 * [!DNL Target]
 
 ### Produtos e integrações recomendados
@@ -40,9 +40,9 @@ Consulte as seções a seguir para obter os pré-requisitos, instruções para c
 
 * [[!DNL Analytics] para [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integração
 
-## Etapa 1: criar uma atividade de teste A/B no [!DNL Target] para pesquisa, redes sociais e comércio
+## Etapa 1: criar uma atividade de teste A/B no [!DNL Target] para Search, Social e Commerce
 
-As instruções a seguir destacam informações relacionadas ao caso de uso de Pesquisa, Social e Comércio.
+As instruções a seguir destacam informações relacionadas ao caso de uso de Pesquisa, Social e Commerce.
 
 1. [Fazer logon no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -65,7 +65,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso de P
 
    1. No **[!UICONTROL Date Range]** insira as datas de início e término apropriadas para o teste.
 
-   1. Selecionar **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. No **[!UICONTROL Value]** insira o [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID]ou [!UICONTROL Network Ad ID] para a entidade de rede de anúncios relevante em Pesquisa, Social e Comércio. Isso permite usar o [!DNL Target] parâmetros de cadeia de caracteres de consulta para públicos-alvo de click-through da entidade.
+   1. Selecionar **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. No **[!UICONTROL Value]** insira o [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID]ou [!UICONTROL Network Ad ID] para a entidade de rede de anúncios relevante em Pesquisa, Social e Commerce. Isso permite usar o [!DNL Target] parâmetros de cadeia de caracteres de consulta para públicos-alvo de click-through da entidade.
 
       Você pode encontrar a ID por [adicionar a coluna de ID relevante à visualização de entidade](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
@@ -134,7 +134,7 @@ No Analysis Workspace, se você notar que os dados de atividade e experiências 
 ## Leitura adicional
 
 * [Integração do Target ao Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explica como configurar [!DNL Target] relatórios no Analysis Workspace.
-* [Visão geral do teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Descreve as atividades de teste A/B, que você pode usar com os anúncios de Pesquisa, Social e Comércio.
+* [Visão geral do teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Descreve as atividades de teste A/B, que você pode usar com os anúncios de Pesquisa, Social e Commerce.
 * [Visão geral do Analytics for Advertising](/help/integrations/analytics/overview.md) : apresenta o Analytics for Advertising, que permite rastrear interações do site de click-through e view-through nas instâncias do Analytics.
 
 >[!MORELIKETHIS]

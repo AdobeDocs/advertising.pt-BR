@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] configurações de anúncios multimídia'
-description: Referenciar as configurações de [!DNL Microsoft® Advertising] anúncios multimídia.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '''[!DNL Microsoft Advertising] configurações de anúncios multimídia'
+description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios multimídia.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configurações de anúncios multimídia
+# [!DNL Microsoft Advertising] configurações de anúncios multimídia
 
 Anúncios multimídia estão disponíveis na rede de pesquisa. A rede de publicidade monta dinamicamente anúncios multimídia usando as combinações mais eficazes de elementos de publicidade.
 
@@ -54,7 +54,7 @@ Consulte as proporções e dimensões permitidas para [anúncios multimídia](ht
 >
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)

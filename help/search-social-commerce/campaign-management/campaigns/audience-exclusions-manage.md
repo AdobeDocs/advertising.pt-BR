@@ -1,18 +1,18 @@
 ---
 title: Gerenciar exclusões de público alvo para campanhas e grupos de anúncios
-description: Saiba como configurar e gerenciar exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas e grupos de publicidade.
+description: Saiba como configurar e gerenciar exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de publicidade.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Gerencie exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas e grupos de publicidade
+# Gerencie exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de publicidade
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] somente*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
 
 Você pode excluir públicos-alvo específicos como alvos para grupos de anúncios e campanhas específicas. Excluir um público-alvo garante que essas pessoas não recebam anúncios nos grupos de anúncios e campanhas especificados.
 

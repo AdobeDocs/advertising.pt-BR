@@ -1,18 +1,18 @@
 ---
 title: Criar e carregar ativos
-description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] bibliotecas de ativos no nível da conta.
+description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Criar e carregar ativos
 
-*Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] somente contas*
+*Para [!DNL Google Ads] e [!DNL Microsoft Advertising] somente contas*
 
 *Abrir recurso beta*
 

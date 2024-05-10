@@ -1,9 +1,9 @@
 ---
 title: Gerenciar arquivos de feed de dados de inventário
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar arquivos de feed de dados de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Se você enviar seus próprios dados de feed, precisará carregar arquivos contendo os dados do produto para criar dinamicamente a estrutura da campanha, os anúncios e as palavras-chave, com base nos dados do produto. Em seguida, você pode associá-los a modelos de anúncios específicos da rede de anúncios e processar os dados por meio dos modelos, eventualmente postando os dados nas redes de anúncios relevantes. É possível associar vários modelos a um arquivo de feed, mas cada modelo pode ser associado a apenas um arquivo de feed.
 
@@ -22,7 +22,7 @@ Se você enviar seus próprios dados de feed, precisará carregar arquivos conte
 
 Você pode fazer upload e processar arquivos de feed de dados de uma das seguintes maneiras:
 
-* **Usar o FTP automaticamente:** É possível fazer upload de arquivos diretamente em um diretório FTP; o serviço de feed verifica se há novos arquivos a cada duas horas. Depois de fazer upload de um arquivo pela primeira vez, você pode associá-lo a um modelo específico de rede de anúncios. Posteriormente, todos os arquivos carregados com o mesmo nome serão associados automaticamente ao mesmo modelo. Dependendo de como você [definir as configurações de dados de feed](feed-settings-manage.md)O, Search, Social e Commerce pode propagar automaticamente os dados do feed por meio de todos os modelos aplicáveis e, como opção, publicar os dados de campanha e anúncios resultantes nas redes de anúncios relevantes.
+* **Usar o FTP automaticamente:** É possível fazer upload de arquivos diretamente em um diretório FTP; o serviço de feed verifica se há novos arquivos a cada duas horas. Depois de fazer upload de um arquivo pela primeira vez, você pode associá-lo a um modelo específico de rede de anúncios. Posteriormente, todos os arquivos carregados com o mesmo nome serão associados automaticamente ao mesmo modelo. Dependendo de como você [definir as configurações de dados de feed](feed-settings-manage.md)O, Search, Social e Commerce podem propagar automaticamente os dados do feed por meio de todos os modelos aplicáveis e, como opção, publicar os dados de campanha e anúncios resultantes nas redes de anúncios relevantes.
 
   Para configurar um diretório FTP para depositar e processar automaticamente arquivos de dados, entre em contato com a equipe de conta do Adobe.
 

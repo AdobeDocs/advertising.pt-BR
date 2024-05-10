@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * Para direcionar todos os locais, não selecione nenhum local.
 
-* Para incluir um local e seus locais secundários, clique no círculo ao lado dele uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada local direcionado.
+* Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada local direcionado.
 
-* Para excluir um local, clique duas vezes no círculo ao lado dele para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 * Para expandir uma localização em seus subcomponentes (como estados, prefeituras, regiões ou cidades), clique no nome da localização.
 

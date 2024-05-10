@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
       1. Clique em **[!UICONTROL Search]**.
       1. Insira uma palavra-chave, selecione um nível de site e/ou selecione uma categoria de site.
       1. Nos resultados da pesquisa, selecione os sites a serem excluídos:
-         * Para excluir um site individual, marque a caixa de seleção ao lado dele.
+         * Para excluir um site individual, marque a caixa de seleção adjacente.
          * (Quando mais de 50 resultados estiverem disponíveis) Para excluir os primeiros 50 resultados, clique em **[!UICONTROL Exclude these 50]**. Para excluir todos os resultados da pesquisa, clique em **[!UICONTROL Exclude these \<*NN *\>]**.
    * Para inserir nomes de domínio:
       1. Clique em **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ Como opção, é possível exportar a lista de sites direcionados e bloqueados c
       1. Clique em **[!UICONTROL Search]**.
       1. Insira uma palavra-chave, selecione um nível de site e/ou selecione uma categoria de site.
       1. Nos resultados da pesquisa, selecione os sites a serem incluídos:
-         * Para excluir um site individual, marque a caixa de seleção ao lado dele.
+         * Para excluir um site individual, marque a caixa de seleção adjacente.
          * (Quando mais de 50 resultados estiverem disponíveis) Para incluir os primeiros 50 resultados, clique em **[!UICONTROL Include these 50]**. Para incluir todos os resultados da pesquisa, clique em **[!UICONTROL Include these \<*NN *\>]**.
    * Para inserir nomes de domínio:
       1. click **[!UICONTROL Paste]**.

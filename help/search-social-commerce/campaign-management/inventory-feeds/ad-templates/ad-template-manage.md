@@ -3,9 +3,9 @@ title: Gerenciar modelos de anúncio para feeds de inventário
 description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos quais os dados de inventário podem ser processados para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
                >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
                >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 
-         * Para remover uma variação de anúncio, clique em **[!UICONTROL Remove ETA Variation]** (para anúncios de texto expandidos/estendidos) ou **[!UICONTROL Remove RSA Variation]** (para anúncios de pesquisa responsivos) ao lado dele, conforme aplicável.
+         * Para remover uma variação de anúncio, clique em **[!UICONTROL Remove ETA Variation]** (para anúncios de texto expandidos/estendidos) ou **[!UICONTROL Remove RSA Variation]** (para anúncios de pesquisa responsivos) ao lado da variação de anúncio, conforme aplicável.
 
    1. (Somente modelos de compras) Clique no link **[!UICONTROL Product Groups]** e especifique as informações sobre os grupos de produtos que deseja direcionar.
 

@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações do grupo de publicidade'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] grupos de publicidade.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ O posicionamento do anúncio de TV conectada (CTV) depende da qualidade do víde
 
 * Para direcionar todos os valores, não selecione nenhum valor.
 
-* Para incluir um valor, clique no círculo ao lado dele uma vez para que uma marca azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada gênero direcionado.
+* Para incluir um valor, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada gênero direcionado.
 
-* Para excluir um valor, clique no círculo ao lado dele duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um valor, clique no círculo adjacente duas vezes para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 **[!UICONTROL Age]:** (Grupos de anúncios de público-alvo; opcional) Categorias etárias específicas a serem incluídas ou excluídas como metas: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, e *[!UICONTROL Unknown]*. Por padrão, todas as idades são direcionadas. As exclusões sempre substituem as inclusões.
 
 * Para direcionar todos os valores, não selecione nenhum valor.
 
-* Para incluir um valor, clique no círculo ao lado dele uma vez para que uma marca azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada faixa etária de destino.
+* Para incluir um valor, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada faixa etária de destino.
 
-* Para excluir um valor, clique no círculo ao lado dele duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um valor, clique no círculo adjacente duas vezes para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 **[!UICONTROL Industry]:** (Grupos de anúncios de público-alvo; opcional) Setores específicos a serem incluídos ou excluídos como metas. Por padrão, todos os setores são direcionados. As exclusões sempre substituem as inclusões.
 
 * Para direcionar todos os valores, não selecione nenhum valor.
 
-* Para incluir um valor, clique no círculo ao lado dele uma vez para que uma marca azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir ofertas em uma porcentagem especificada para cada setor direcionado.
+* Para incluir um valor, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir ofertas em uma porcentagem especificada para cada setor direcionado.
 
-* Para excluir um valor, clique no círculo ao lado dele duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um valor, clique no círculo adjacente duas vezes para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 **[!UICONTROL Job Function Targets]:** (Grupos de anúncios de público-alvo; opcional) Funções de trabalho específicas a serem incluídas ou excluídas como metas. Por padrão, todas as funções de trabalho são direcionadas. As exclusões sempre substituem as inclusões.
 
 * Para direcionar todos os valores, não selecione nenhum valor.
 
-* Para incluir um valor, clique no círculo ao lado dele uma vez para que uma marca azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada função da ordem de produção pretendida.
+* Para incluir um valor, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada função da ordem de produção pretendida.
 
-* Para excluir um valor, clique no círculo ao lado dele duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um valor, clique no círculo adjacente duas vezes para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 ## [!UICONTROL URL Options]
 

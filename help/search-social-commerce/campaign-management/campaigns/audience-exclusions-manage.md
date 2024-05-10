@@ -1,11 +1,11 @@
 ---
 title: Gerenciar exclusões de público alvo para campanhas e grupos de anúncios
 description: Saiba como configurar e gerenciar exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas e grupos de publicidade.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Você também pode excluir exclusões de público-alvo.
 
       1. Siga um destes procedimentos:
 
-         * Especifique cada exclusão de grupo de anúncios clicando no círculo ao lado dela para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+         * Especifique cada exclusão de grupo de anúncios clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
-         * Especifique cada exclusão de campanha clicando no círculo ao lado dela para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+         * Especifique cada exclusão de campanha clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
 1. Clique em **[!UICONTROL Post]**.
 

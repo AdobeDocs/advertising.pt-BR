@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ Quando você adiciona uma campanha com eCPC a um portfólio otimizado de Pesquis
 
    * (Países, estados, regiões metropolitanas ou cidades) Clique **[!UICONTROL Location Target]** (![Destino do local](/help/search-social-commerce/assets/location-target.png "Destino do local")) e localize os locais a serem incluídos e excluídos:
 
-      * Para incluir um local e seus locais secundários, clique no círculo ao lado dele uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida.
+      * Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida.
 
-      * Para excluir um local, clique duas vezes no círculo ao lado dele para que uma marca vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+      * Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
 
       * Para expandir um local em seus subcomponentes (como estados, regiões metropolitanas ou cidades nos EUA), clique no nome do local.
 

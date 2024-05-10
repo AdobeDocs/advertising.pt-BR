@@ -1,11 +1,11 @@
 ---
 title: Gerenciar metas de público-alvo para campanhas e grupos de anúncios
 description: Saiba como configurar e gerenciar públicos-alvo para sua [!DNL Google Ads] e [!DNL Microsoft® Advertising] campanhas e grupos de publicidade.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você pode configurar direcionamentos de público-alvo, editar os modificadores 
 
       1. (Opcional) Para filtrar uma lista de campanhas ou uma lista de grupos de anúncios por uma string de texto incluída no nome, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") , insira ou cole a cadeia de texto no campo de entrada e pressione a tecla **[!UICONTROL Enter]** chave.
 
-      1. Especifique cada campanha e público alvo do grupo de publicidade para a rede de publicidade especificada clicando no círculo vazio ao lado dele para que uma marca de seleção azul (![Selecionar](/help/search-social-commerce/assets/include.png "Selecionar")) será exibida.
+      1. Especifique cada campanha e público alvo do grupo de publicidade para a rede de publicidade especificada clicando no círculo vazio adjacente para que uma marca de seleção azul (![Selecionar](/help/search-social-commerce/assets/include.png "Selecionar")) será exibida.
 
       Você não pode configurar um público-alvo para uma campanha principal e para um grupo de anúncios secundário (que usa o público-alvo automaticamente).
 
@@ -68,7 +68,7 @@ Você pode alterar o modificador de oferta e o status das metas de público-alvo
 
 >[!NOTE]
 >
->Search, Social e Commerce otimiza automaticamente o modificador de oferta quando a campanha principal usa a estratégia de oferta CPC e está em um portfólio configurado para otimizar automaticamente os valores de ajuste de oferta para metas de público-alvo.
+>O Search, Social e Commerce otimiza automaticamente o modificador de oferta quando a campanha principal usa a estratégia de oferta CPC e está em um portfólio configurado para otimizar automaticamente os valores de ajuste de oferta para metas de público-alvo.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 

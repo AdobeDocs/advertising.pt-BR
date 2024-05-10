@@ -3,7 +3,7 @@ title: Crie um único anúncio
 description: Saiba como criar um único anúncio de terceiros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vário
 
    >[!NOTE]
    >
-   >Seu anúncio só será veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+   >Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >

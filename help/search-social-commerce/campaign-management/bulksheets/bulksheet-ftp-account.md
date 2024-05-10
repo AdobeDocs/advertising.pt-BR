@@ -1,11 +1,11 @@
 ---
 title: Configurar uma conta FTP para fazer upload de bulksheets
 description: Saiba como solicitar uma conta FTP para fazer upload de arquivos de bulksheet.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Os arquivos de bulksheet recuperados e quaisquer arquivos de erro criados durant
 
 1. Entre em contato com a equipe de conta do Adobe para configurar uma conta FTP para fazer upload de arquivos de bulksheet.
 
-   Sua equipe de conta do Adobe fornecerá a você o local FTP e seu nome de usuário e senha.
+   Sua equipe de conta do Adobe fornece a você o local FTP e seu nome de usuário e senha.
 
 1. (Opcional) Para receber notificações por email sobre arquivos de bulksheet processados de sua conta FTP, pergunte à sua equipe de conta do Adobe.
 

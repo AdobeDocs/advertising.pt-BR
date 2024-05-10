@@ -3,9 +3,9 @@ title: IDs de Adobe Advertising usadas por [!DNL Analytics]
 description: IDs de Adobe Advertising usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A ID de EF é um token exclusivo que o Adobe Advertising usa para associar a ati
 
 >[!NOTE]
 >
->EF IDs fazem distinção entre maiúsculas e minúsculas. Se um [!DNL Analytics] A implementação força o rastreamento de URL para letras minúsculas, em seguida, o Adobe Advertising não reconhecerá a ID EF. Isso afetará os lances e os relatórios do Adobe Advertising, mas não afetará os relatórios do Adobe Advertising no [!DNL Analytics].
+>EF IDs fazem distinção entre maiúsculas e minúsculas. Se um [!DNL Analytics] A implementação força o rastreamento de URL para letras minúsculas, em seguida, o Adobe Advertising não reconhece a ID EF. Isso afeta os lances e os relatórios do Adobe Advertising, mas não afeta os relatórios do Adobe Advertising no [!DNL Analytics].
 
 #### [!DNL Google Ads] pesquisar anúncios
 
@@ -114,7 +114,7 @@ O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneira
 
    * Clientes DSP: o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final visualiza um anúncio de exibição com o pixel Adobe Advertising.
 
-   * Clientes de pesquisa, social e comércio:
+   * Clientes do Search, Social e Commerce:
 
       * Para [!DNL Google Ads] e [!DNL Microsoft® Advertising] contas com o [!UICONTROL Auto Upload] configuração ativada para a conta ou campanha, o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final clica em um anúncio com o pixel Adobe Advertising.
 
@@ -128,7 +128,7 @@ O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneira
 
       * Para [!DNL Google Campaign Manager 360] adicionar tags, insira manualmente macros adicionais de acordo com &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
-   * Clientes de pesquisa, social e comércio:
+   * Clientes do Search, Social e Commerce:
 
       * Para ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem, de preferência no [nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} a menos que seja necessário um rastreamento diferente para componentes de conta individuais.
 
@@ -152,7 +152,7 @@ em que:
 
 Exemplo de ID do AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### Formatos de ID do AMO para anúncios de Pesquisa, Social e Comércio {#amo-id-format-search}
+#### Formatos de ID do AMO para anúncios de Pesquisa, Social e Commerce {#amo-id-format-search}
 
 Os parâmetros variam por rede de anúncios, mas os seguintes parâmetros são comuns a todos:
 

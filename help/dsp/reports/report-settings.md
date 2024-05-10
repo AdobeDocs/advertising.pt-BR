@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Destination Type]:** Escolha um dos seguintes tipos de destino:
 
-* *[!UICONTROL S3]:* Para enviar o relatório concluído a um ou mais [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que você especificará nas **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL sFTP]:* Para enviar o relatório concluído para um ou mais locais SFTP, que você especificará no **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP]:* Para enviar o relatório concluído a um ou mais locais FTP, que você especificará no **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP SSL](Atualmente em Beta):* Para enviar o relatório concluído a um ou mais locais SSL FTP, que você especificará no **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL S3]:* Para enviar o relatório concluído a um ou mais [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) locais, que devem ser especificados na **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL sFTP]:* Para enviar o relatório concluído para um ou mais locais SFTP, que você deve especificar no **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL FTP]:* Para enviar o relatório concluído a um ou mais locais FTP, que você deve especificar no **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL FTP SSL](Atualmente em Beta):* Para enviar o relatório concluído a um ou mais locais SSL FTP, que você deve especificar no **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL Email]:* Para especificar endereços de e-mail para os quais enviar relatórios completos ou notificações se o relatório for cancelado devido a erros.
 
 >[!NOTE]

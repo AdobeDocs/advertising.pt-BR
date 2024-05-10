@@ -3,9 +3,9 @@ title: Sobre relatórios de especialidade
 description: Saiba mais sobre relatórios de especialidade.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A maioria dos relatórios de especialidade consiste apenas em dados coletados pe
 
 >[!NOTE]
 >
->Para a maioria dos relatórios de especialidade, os dados são obtidos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23h de 18 de junho, ele extrairá dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá dados até 17 de junho às 23:00. Esta sincronização de dados se aplica a todos [!DNL Google Ads] relatórios de especialidade e à [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
+>Para a maioria dos relatórios de especialidade, os dados são obtidos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá dados até 17 de junho às 23:00. Esta sincronização de dados se aplica a todos [!DNL Google Ads] relatórios de especialidade e à [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de relatórios de especialidades
 
@@ -52,6 +52,6 @@ A maioria dos relatórios de especialidade consiste apenas em dados coletados pe
 
 >[!MORELIKETHIS]
 >
-* [Gerar um relatório de especialidade](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [Configurações do relatório de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [Colunas de relatório para relatórios especiais](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Gerar um relatório de especialidade](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Configurações do relatório de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Colunas de relatório para relatórios especiais](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

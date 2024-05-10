@@ -3,9 +3,9 @@ title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
-   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público-alvo contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para o mesmo [!DNL Analytics] conta, o segmento não será visualizado nesse público-alvo para esse anunciante. Somente os segmentos disponíveis para esse anunciante serão visualizados no público-alvo.
+   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para o mesmo [!DNL Analytics] conta, o segmento não será visualizado nesse público-alvo para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
 
 1. Clique em **[!UICONTROL Save]**.
 

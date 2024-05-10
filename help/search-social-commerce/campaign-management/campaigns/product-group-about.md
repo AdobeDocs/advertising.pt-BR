@@ -3,9 +3,9 @@ title: Sobre grupos de produtos de compras
 description: Saiba mais sobre grupos de produtos de compras em campanhas de compras.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Você pode criar e editar grupos de produtos, além de excluir grupos de produto
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Use esta opção somente quando não incluir URLs de rastreamento de Pesquisa, Social e Comércio em uma coluna personalizada no feed do produto. Se você fizer ambos, os URLs incluirão dois redirecionamentos e causarão links com falha.
+  >([!DNL Microsoft® Advertising]) Use essa opção somente quando não incluir URLs de rastreamento de Pesquisa, Social e Commerce em uma coluna personalizada no feed do produto. Se você fizer ambos, os URLs incluirão dois redirecionamentos e causarão links com falha.
 
 * ([!DNL Microsoft® Advertising] somente ) Adicionar o URL de rastreamento aos dados do produto na [!DNL Microsoft® Merchant Center] conta. Para fazer isso, inclua o URL de rastreamento junto com o valor na variável `link` ou `mobile_link` conforme apropriado, em uma coluna personalizada chamada [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) no feed do produto. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de conta ou campanha em Search, Social e Commerce.
 

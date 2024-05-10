@@ -3,9 +3,9 @@ title: Coletar dados de cliques e impressões de campanhas de DSP
 description: Saiba como capturar eventos de cliques e impressões baseados em cookies de anúncios de DSP usando pixels de Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Onde:
 
 * `[Audience Manager customer domain]` é o nome de domínio que enviará eventos de impressão ou clique para [!DNL Adobe].
 
-* `[source id]` é a ID do [fonte de dados](#set-up-data-source) no qual você rastreará os dados de impressão e cliques do DSP.
+* `[source id]` é a ID do [fonte de dados](#set-up-data-source) no qual você rastreia dados de impressão e cliques do DSP.
 
 * `[redirect URL]` é o URL de redirecionamento codificado duas vezes. Se estiver usando uma ferramenta de codificação online, como www.urlencoder.org, execute a cadeia de caracteres por meio do codificador e codifique novamente o resultado.
 
@@ -112,7 +112,7 @@ No servidor de publicidade, insira o pixel do evento de clique (com o URL codifi
 
 ## Etapa 3: Tarefas Pós-Implementação
 
-Depois que as tags de evento forem implementadas, os dados fluirão para os servidores de coleta de dados do Audience Manager. Conclua as seguintes tarefas antes de usar os dados nos relatórios.
+Depois que as tags de evento são implementadas, os dados fluem para os servidores de coleta de dados do Audience Manager. Conclua as seguintes tarefas antes de usar os dados nos relatórios.
 
 ### Criar um [!DNL Amazon S3] Classificação e fonte de dados
 
@@ -120,7 +120,7 @@ Quando seus dados estiverem nos servidores Audience Manager, você deverá criar
 
 ### Criar características e segmentos do Audience Manager
 
-Seus dados do evento fluirão para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Criar manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) usando essas características, antes de poder usar os dados nos relatórios.
+Seus dados de evento fluem para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Criar manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) usando essas características, antes de poder usar os dados nos relatórios.
 
 Exemplo de característica que preenche dados no nível do usuário para usuários expostos a um criativo específico no DSP:
 

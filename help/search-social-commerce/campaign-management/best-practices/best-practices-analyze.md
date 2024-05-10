@@ -1,11 +1,11 @@
 ---
 title: Analise relatórios para refinar suas palavras-chave e configurações de campanha
 description: Saiba mais sobre as práticas recomendadas para usar relatórios para refinar suas palavras-chave e configurações de campanha.
-exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para obter mais informações sobre como ajustar as palavras-chave e as configur
 
 >[!TIP]
 >
->Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível na Pesquisa, Social e Comércio.<!-- verify convention for referencing Optimization Guide here -->
+>Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

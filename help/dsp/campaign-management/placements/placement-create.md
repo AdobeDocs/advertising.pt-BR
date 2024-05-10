@@ -3,9 +3,9 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. (Opcional) Para cada anúncio adicional que você deseja criar para o posicionamento, clique em **[!UICONTROL Attach Another Ad]** e, em seguida, repita as Etapas 1 a 3.
 
-         1. Caso não anexe nenhum anúncio existente, clique em **[!UICONTROL I'm done for now]**.
+         1. Se não for anexar nenhum anúncio existente, clique em **[!UICONTROL I'm done for now]**.
 
       * Para anexar anúncios existentes na campanha:
 

@@ -3,9 +3,9 @@ title: Atualizar o código de rastreamento da ID do AMO (s_kwcid) para um [!DNL 
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para um [!DNL Google Ads] conta.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ Todos os novos [!DNL Google Ads] contas usam automaticamente o formato de ID AMO
 
    >[!NOTE]
    >
-   >Todos os click-throughs ocorridos antes da migração ainda relatarão dados de conversão com base no formato antigo.
+   >Todos os click-throughs ocorridos antes da migração ainda relatam dados de conversão com base no formato antigo.
 
 1. Depois de iniciar a migração, atualize as configurações de Sufixo da página inicial (chamado de &quot;sufixo de URL final&quot; em algumas redes de anúncios), conforme necessário:
 
-   * Quando a variável [!UICONTROL Auto Upload]O recurso &quot;&quot; está ativado nas configurações de rastreamento do; Search, Social e Commerce atualizam automaticamente o código de rastreamento no Sufixo da página de aterrissagem desta conta e suas campanhas. Você não precisa fazer nada.
+   * Quando a variável [!UICONTROL Auto Upload]O recurso &quot;&quot; está ativado nas configurações de rastreamento do, Search, Social e Commerce atualiza automaticamente o código de rastreamento no Sufixo da página inicial desta conta e suas campanhas. Você não precisa fazer nada.
 
    * Quando a variável [!UICONTROL Auto Upload]O recurso &quot; não está habilitado e você não usa o [recurso de ID do AMO do lado do servidor](/help/integrations/analytics/ids.md#amo-id-formats), você deverá atualizar manualmente o parâmetro da ID do AMO nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o [!DNL Google Ads] editor.
 

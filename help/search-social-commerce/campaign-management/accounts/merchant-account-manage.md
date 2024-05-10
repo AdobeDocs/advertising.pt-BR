@@ -3,9 +3,9 @@ title: Gerenciar contas de comerciante
 description: Saiba como configurar e gerenciar detalhes de uma conta da central de comércio.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-A Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias para qualquer uma das contas do Google Merchant Center ou do Microsoft Merchant Center de um anunciante. Além disso, o Search, Social e Commerce pode automatizar a criação de anúncios com base no conteúdo da conta do comerciante.Para trabalhar diretamente com os dados do produto no Search, Social e Commerce, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com acesso *habilitado*.
+O Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias para qualquer uma das contas do Google Merchant Center ou do Microsoft Merchant Center de um anunciante. Além disso, o Search, Social e Commerce pode automatizar a criação de anúncios com base no conteúdo da conta do comerciante.Para trabalhar diretamente com os dados do produto no Search, Social e Commerce, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com acesso *habilitado*.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
    
    -->
 
-   1. (Obrigatório para [!DNL Google Ads] contas; opcional para [!DNL Microsoft Advertising] contas) Permitir que o Search, Social e Commerce acesse a conta usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/):
+   1. (Obrigatório para [!DNL Google Ads] contas; opcional para [!DNL Microsoft Advertising] contas) Permitir que o Search, Social e Commerce acessem a conta usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] somente contas) Selecionar **[!UICONTROL oAuth]**.
 
@@ -62,7 +62,7 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
 
 1. Clique em **[!UICONTROL Save]**.
 
-   Os dados de atributo de todos os produtos na conta do estão disponíveis em Pesquisa, Social e Comércio após o próximo processo diário de sincronização (cerca de 06:00 no fuso horário local do usuário). Você pode usar os dados do produto para automatizar a criação de anúncios usando feeds de inventário.
+   Os dados de atributo de todos os produtos na conta do ficam disponíveis no Search, Social e Commerce após o próximo processo diário de sincronização (cerca de 06:00 no fuso horário local do usuário). Você pode usar os dados do produto para automatizar a criação de anúncios usando feeds de inventário.
 
 ## Editar detalhes da conta de comerciante {#edit-merchant-account}
 
@@ -84,13 +84,13 @@ Se as credenciais da conta forem alteradas ou se você quiser parar de recuperar
 
 >[!NOTE]
 >
->A Search, Social e Commerce deve sincronizar os novos dados da conta com os da rede de comerciantes. Isso acontece automaticamente uma vez por dia, por volta das 06:00 no fuso horário local do usuário.
+>Search, Social e Commerce devem sincronizar os novos dados da conta com os da rede de estabelecimentos comerciais. Isso acontece automaticamente uma vez por dia, por volta das 06:00 no fuso horário local do usuário.
 
 ## Desabilitar acesso a uma conta de comerciante {#disable-merchant-account}
 
 *Somente funções de gerente de conta da agência, gerente de conta do Adobe e administrador de usuário*
 
-Quando você desativa uma conta de comerciante, o Search, Social e Commerce não faz logon na conta e, portanto, não recupera os dados atualizados do produto. Os dados coletados enquanto a conta estava habilitada ainda são armazenados e os anúncios existentes criados usando os dados do produto não são atualizados, pausados ou excluídos de acordo com o modelo de feed e as configurações de dados do feed.
+Ao desativar uma conta de comerciante, o Search, o Social e o Commerce não fazem logon na conta e, portanto, não recuperam os dados atualizados do produto. Os dados coletados enquanto a conta estava habilitada ainda são armazenados e os anúncios existentes criados usando os dados do produto não são atualizados, pausados ou excluídos de acordo com o modelo de feed e as configurações de dados do feed.
 
 1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , que abre para o [!UICONTROL Accounts] guia.
 
@@ -126,7 +126,7 @@ Quando você desativa uma conta de comerciante, o Search, Social e Commerce não
 
 **[!UICONTROL Confirm Password]:** A senha da conta.
 
-**[!UICONTROL EF Account Type]:** Se o Search, Social e Commerce acessará a conta:
+**[!UICONTROL EF Account Type]:** Se o Search, Social e Commerce acessam a conta:
 
 * *[!UICONTROL Enabled]* (o padrão): Search, Social e Commerce podem fazer logon na conta para recuperar dados do produto.
 
@@ -134,7 +134,7 @@ Quando você desativa uma conta de comerciante, o Search, Social e Commerce não
 
 **[!UICONTROL Account ID]:** A ID da conta do comerciante. Se você tiver apenas uma conta com as informações de logon especificadas, esse valor será opcional.
 
-**[!UICONTROL Time Zone]:** O fuso horário do anunciante. Use o mesmo fuso horário configurado para as informações da conta de Pesquisa, Social e Comércio do anunciante (que é definido quando a conta é criada). Você não pode alterar o valor de uma conta existente.
+**[!UICONTROL Time Zone]:** O fuso horário do anunciante. Use o mesmo fuso horário configurado para as informações de conta de Pesquisa, Social e Commerce do anunciante (que é definido quando a conta é criada). Você não pode alterar o valor de uma conta existente.
 
 >[!MORELIKETHIS]
 >

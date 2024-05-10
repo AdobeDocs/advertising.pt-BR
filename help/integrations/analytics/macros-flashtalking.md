@@ -3,9 +3,9 @@ title: Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] T
 description: Saiba por que e como adicionar [!DNL Analytics for Advertising] macros para o seu [!DNL Flashtalking] tags de publicidade
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ No prazo de [!DNL Flashtalking] adicionar configurações de tag, anexe a seguin
 [ftqs:[AdobeAMO]]
 ```
 
-Se for a primeira ou única sequência de consulta após o URL base, separe-a do URL base com um `?`. Se o URL base incluirá várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
+Se for a primeira ou única sequência de consulta após o URL base, separe-a do URL base com um `?`. Se o URL de base incluir várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
 
 Exemplos:
 
@@ -52,7 +52,7 @@ No prazo de [!DNL Flashtalking] adicionar configurações de tag, anexe a seguin
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Se for a primeira ou única sequência de consulta após o URL base, separe-a do URL base com um `?`. Se o URL base incluirá várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
+Se for a primeira ou única sequência de consulta após o URL base, separe-a do URL base com um `?`. Se o URL de base incluir várias cadeias de caracteres de consulta, comece a primeira com uma `?` e cada string subsequente com um `&`.
 
 Exemplos:
 

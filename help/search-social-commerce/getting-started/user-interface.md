@@ -3,9 +3,9 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A parte superior de cada página inclui o menu principal e outros menus baseados
 
 ## [!UICONTROL Search] menus
 
-No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíveis são determinadas pela sua função:
+A variável [!UICONTROL Search] inclui os seguintes submenus. As opções disponíveis são determinadas pela sua função:
 
 * **[!UICONTROL Campaigns]** — Esse menu inclui opções para exibir e gerenciar informações sobre as contas de anúncios e campanhas que você está gerenciando ou rastreando. Dependendo da rede de publicidade e de sua função, talvez seja necessário criar e editar contas e campanhas e seus componentes. Você também pode gerenciar classificações de etiquetas, que podem ser atribuídas a vários componentes de conta.
 
@@ -40,7 +40,7 @@ No [!UICONTROL Search] você verá os seguintes submenus. As opções disponíve
 
 * (Quando aplicável) Uma lista selecionável de anunciantes que você está gerenciando.
 
-* ![Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta") Um painel listando suas notificações de Pesquisa, Social e Comércio.
+* ![Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta") Um painel listando suas notificações do Search, Social e Commerce.
 
   Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), esse painel mostra as notificações do Experience Cloud.
 

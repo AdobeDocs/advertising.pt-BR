@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Você pode ver quais conversões resultaram de um clique em uma [!DNL Google Ads
 Quando a linha inclui dados para campanhas de pesquisa ativadas por conteúdo, campanhas de exibição ou campanhas sociais — que não incluem palavras-chave — a variável [!UICONTROL Keyword] mostra o nome do grupo de anúncios aplicável.
 +++
 
-+++Devido a alterações sazonais ou de mercado, meus relatórios mostram dados atípicos. Isso afetará os lances depois que as condições forem alteradas?
++++Devido a alterações sazonais ou de mercado, meus relatórios mostram dados atípicos. Isso afeta os lances depois que as condições são alteradas?
 O recurso de otimização cria seus modelos de receita para cada unidade de oferta diariamente para garantir que ele identifique e responda imediatamente às tendências, e os modelos incorporam dados históricos de longo prazo para ajudar a prever o desempenho sazonal. A configuração de meia-vida do modelo de receita do portfólio<!-- add link to glossary? --> também determina o peso dos dados de receita recentes. A prática recomendada é reduzir a meia-vida durante um período de desempenho atípico, mas aumentá-la depois que o modelo de receita for ajustado. Em caso de dúvidas sobre a necessidade de ajustar a meia-vida, entre em contato com a equipe de conta do Adobe.
 
 Se você não quiser que os dados do período afetem lances futuros, poderá optar por excluir essas datas do modelo. Entre em contato com a equipe da conta do Adobe para excluir as datas.
@@ -77,7 +77,7 @@ Se você gerar um relatório várias vezes usando os mesmos parâmetros de relat
 
 * Os dados baseados em data de clique podem estar fora do intervalo de datas especificado.
 
-  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar a tag &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
+  Se você usar o parâmetro de relatório &quot;[!UICONTROL Conversions based on click date],&quot; o intervalo de datas especificado se aplica à data do clique em vez da data da transação. Se o relatório também usar a regra de atribuição &quot;Primeiro evento&quot; ou &quot;Último evento&quot;, o primeiro ou o último evento que levou à conversão pode estar fora do intervalo de datas especificado. Por exemplo, suponha que um usuário tenha clicado em Keyword_1 em 30 de abril, em Keyword_2 em 20 de maio e convertido em 21 de maio. Se o relatório usar o &quot;[!UICONTROL First Event]&quot;Uma regra de atribuição e um intervalo de datas de 1 a 21 de maio, em seguida, o primeiro evento (um clique em Palavra-chave_1 em 30 de abril) não é incluído no relatório. Se você executar o relatório com o mesmo intervalo de datas, mas usando a tag &quot;[!UICONTROL Last Event]&quot;, a conversão será incluída no relatório porque o último clique ocorreu dentro do intervalo de datas especificado.
 
 * A seleção de filtro de portfólio exclui alguns dos eventos que levam à conversão.
 
@@ -98,7 +98,7 @@ Essa situação pode ocorrer quando os formatos de métrica usam números inteir
 +++
 
 +++Quando os dados de clique ou receita estão ausentes, como evitar que afetem lances futuros?
-Problemas de dados de cliques ocorrem quando o Search, Social e Commerce está fora de sincronia com a rede de anúncios. Entre em contato com a equipe da conta do Adobe para sincronizar manualmente a conta. Se os dados de cliques estiverem ausentes por um dia inteiro, peça à sua equipe de conta do Adobe para excluir esse dia dos modelos de custo.
+Problemas de dados de cliques ocorrem quando o Search, o Social e o Commerce estão fora de sincronia com a rede de anúncios. Entre em contato com a equipe da conta do Adobe para sincronizar manualmente a conta. Se os dados de cliques estiverem ausentes por um dia inteiro, peça à sua equipe de conta do Adobe para excluir esse dia dos modelos de custo.
 
 Problemas de dados de receita podem ocorrer devido a um problema de arquivo de rastreamento ou feed. Entre em contato com a equipe de conta do Adobe para investigar o problema. Se os dados de receita estiverem ausentes por um dia inteiro, peça à sua equipe de conta do Adobe para excluir esse dia dos modelos de receita.
 +++
@@ -127,23 +127,23 @@ Veja a seguir os motivos comuns para a falta de dados de cliques.
 +++
 
 +++Os dados de desempenho são diferentes dos dados no editor de rede de anúncios.
-Quando a rede de anúncios envia atualizações para dados anteriores (geralmente porque atribuíram fraude de cliques a alguns cliques), o Search, Social e Commerce não atualiza os dados, a menos que haja mais de 5% de discrepância e a Equipe de conta do Adobe registre uma solicitação.
+Quando a rede de publicidade envia atualizações para dados anteriores (geralmente porque atribuiu fraude de cliques a alguns cliques), o Search, Social e Commerce não atualiza os dados, a menos que haja mais de 5% de discrepância e a Equipe de conta do Adobe registre uma solicitação.
 
-Além disso, ao comparar dados de compartilhamento de impressão agregados em um intervalo de datas, os dados que os relatórios de Pesquisa, Social e Comércio podem ser diferentes dos dados que a rede de publicidade relata. Essa diferença se deve à maneira como os dados são relatados pela API da rede de anúncios, que o Search, Social e Commerce usa para obter dados. Por exemplo, para [!DNL Google Ads] dados:
+Além disso, ao comparar dados de compartilhamento de impressão agregados em um intervalo de datas, os dados que os relatórios de Pesquisa, Social e Commerce podem ser diferentes dos dados que a rede de publicidade relata. Essa diferença se deve à maneira como os dados são relatados pela API da rede de anúncios, que a Search, o Social e o Commerce usam para obter dados. Por exemplo, para [!DNL Google Ads] dados:
 
 * Para a maioria das métricas de compartilhamento de impressão, [!DNL Google Ads] limita a extremidade inferior ou superior dos valores relatados para valores menores que 10% ou maiores que 90%. Os dados são reportados como 0,0999 para &lt;10% e 0,9001 para >90%
 
-* Quando há uma combinação de dados limitados e não limitados no intervalo de datas, as agregações de pesquisa, social e comércio compartilham dados de impressão usando os valores enviados na API como estão, usando 0,0999 para linhas com &lt;10% e 0,9001 para linhas com >90%. Essa agregação pode resultar em uma variação da variável [!DNL Google Ads] dados pré-agregados porque [!DNL Google Ads] pode usar valores percentuais reais, como 7% ou 97%.
+* Quando há uma combinação de dados limitados e não limitados no intervalo de datas, a impressão dos agregados do Search, Social e Commerce compartilha dados usando os valores enviados na API como estão, usando 0,0999 para linhas com &lt;10% e 0,9001 para linhas com >90%. Essa agregação pode resultar em uma variação da variável [!DNL Google Ads] dados pré-agregados porque [!DNL Google Ads] pode usar valores percentuais reais, como 7% ou 97%.
 +++
 
 +++Os dados de desempenho em relatórios são diferentes dos dados em [!DNL Google Analytics].
 Os dois sistemas medem dados diferentes, portanto, você deve esperar ver dados diferentes. Por exemplo:
 
-* Os cliques na faixa de Pesquisa, Social e Comércio (e Google Ads), enquanto [!DNL Google Analytics] rastreia visitas por sessão de navegador de 30 minutos. Por exemplo, se um usuário clicar em seu anúncio uma vez, clicar no botão Voltar e clicar no anúncio novamente, então Pesquisar, Social e Comércio registrará dois cliques, mas [!DNL Google Analytics] registra uma visita.
+* Search, Social, &amp; Commerce (e Google Ads) rastream cliques, enquanto [!DNL Google Analytics] rastreia visitas por sessão de navegador de 30 minutos. Por exemplo, se um usuário clicar em seu anúncio uma vez, clicar no botão Voltar e clicar no anúncio novamente, então Pesquisar, Social e Commerce registrará dois cliques, mas [!DNL Google Analytics] registra uma visita.
 
 * [!DNL Google Analytics] mostra todos os dados de tráfego, enquanto o Search, Social e Commerce (e [!DNL Google Ads]) filtra cliques inválidos (como cliques excessivos e repetidos).
 
-* [!DNL Google Analytics] inclui dados de clique e receita para todos os cliques. Search, Social e Commerce não podem rastrear dados de cliques e receita de anúncios e palavras-chave com URLs de rastreamento incorretas ou ausentes.
+* [!DNL Google Analytics] inclui dados de clique e receita para todos os cliques. Search, Social e Commerce não podem rastrear dados de cliques e receita de anúncios e palavras-chave com URLs de rastreamento incorretos ou ausentes.
 +++
 
 ## Métricas de conversão
@@ -158,7 +158,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possíveis causas:*
 
-* Palavras-chave ou anúncios foram adicionados sem prefixar o prefixo de rastreamento de cliques em Pesquisa, Social e Comércio aos modelos de rastreamento ou URLs de destino, ou o prefixo de rastreamento está incorreto.
+* Palavras-chave ou anúncios foram adicionados sem prefixar o prefixo de rastreamento de cliques em Search, Social e Commerce aos modelos de rastreamento ou URLs de destino, ou o prefixo de rastreamento está incorreto.
 
 * A tag de rastreamento de conversão não está implementada corretamente em todas as páginas da Web aplicáveis ou foi editada.
 
@@ -172,7 +172,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 1. Verifique se as tags de rastreamento de conversão corretas estão implementadas em todas as páginas da Web aplicáveis. Se necessário, peça à sua equipe de conta do Adobe para criar uma transação de teste para cada tag de rastreamento de conversão aplicável e capturar os detalhes da transação, como a `transactionid` e detalhes do cookie (como a variável `trackingid`, `clickid`e assim por diante).
 
-1. Se a variável [!UICONTROL Auto Upload] A opção está desativada para a campanha e você adicionou palavras-chave ou anúncios. Em seguida, verifique se você gerou um modelo de rastreamento ou URL de destino que inclui o rastreamento de redirecionamento de cliques de Pesquisa, Social e Comércio para cada um. Sua equipe de conta do Adobe pode executar um relatório interno para ver se algum URL de rastreamento de cliques (modelos de rastreamento ou URLs de destino) está ausente ou malformado.
+1. Se a variável [!UICONTROL Auto Upload] A opção está desativada para a campanha e você adicionou palavras-chave ou anúncios. Em seguida, verifique se você gerou um modelo de rastreamento ou URL de destino que inclui o rastreamento de redirecionamento de cliques de Pesquisa, Social e Commerce para cada um. Sua equipe de conta do Adobe pode executar um relatório interno para ver se algum URL de rastreamento de cliques (modelos de rastreamento ou URLs de destino) está ausente ou malformado.
 
    Se necessário, gere o rastreamento criando um arquivo de bulksheet com os URLs corretos e publique o arquivo na conta apropriada usando o **Gerar URLs de rastreamento** opção.
 
@@ -180,7 +180,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 1. Se nenhuma dessas etapas resolver o problema, [entre em contato com o Atendimento ao cliente](/help/search-social-commerce/get-help.md).
 
-   Se o cliente não tiver sido iniciado ou se for iniciado recentemente, o Atendimento ao cliente verificará se um analisador de receita foi configurado. Se o analisador estiver configurado, ele verificará se o Search, Social e Commerce está recebendo conversões de pixels e solucionará o problema.
+   Se o cliente não tiver sido iniciado ou se for iniciado recentemente, o Atendimento ao cliente verificará se um analisador de receita foi configurado. Se o analisador estiver configurado, eles verificarão se o Search, Social e Commerce está recebendo conversões de pixels e solucionarão o problema.
 
 **Anunciantes que enviam feeds de dados de conversão**
 
@@ -206,7 +206,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 1. Se o arquivo foi enviado, então [entre em contato com o Atendimento ao cliente](/help/search-social-commerce/get-help.md).
 
-   O Atendimento ao cliente verificará se o arquivo foi recebido e analisado. Se o arquivo tiver sido processado sem erros, eles verificarão se há transações órfãs.
+   O Atendimento ao cliente verificará se o arquivo foi recebido e analisado. Se o arquivo foi processado sem erros, eles verificam transações órfãs.
 +++
 
 +++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante.
@@ -219,7 +219,7 @@ A variável [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral R
 
 *Possíveis causas:*
 
-* Search, Social, &amp; Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
+* Search, Social e Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
 
 * O tráfego para a página do anunciante veio de um marcador ou pesquisa orgânica em vez de um anúncio.
 
@@ -245,7 +245,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
 *Possíveis causas:*
 
-* Search, Social e Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la válida.
+* O Search, Social e Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la válida.
 
 * O tráfego para a página do anunciante veio de um marcador ou pesquisa orgânica em vez de um anúncio.
 
@@ -265,13 +265,13 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
 *Possíveis causas:*
 
-* Search, Social, &amp; Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
+* Search, Social e Commerce ignora a receita quando o cookie expira ou é excluído, mas o anunciante pode considerá-la receita válida.
 
 * O tráfego para a página do anunciante veio de um marcador ou pesquisa orgânica em vez de um anúncio.
 
-* Há [transações órfãs](/help/search-social-commerce/glossary.md#o-p)Portanto, o Search, Social e Commerce não está contando toda a receita que deveria.
+* Há [transações órfãs](/help/search-social-commerce/glossary.md#o-p), portanto, o Search, Social e Commerce não conta toda a receita que deveria.
 
-* O anunciante validou um relatório de Pesquisa, Social e Comércio em relação a um conjunto de dados diferente daquele enviado no feed.
+* O anunciante validou um relatório de Pesquisa, Social e Commerce em relação a um conjunto de dados diferente daquele enviado no feed.
 
 * As IDs de transação (`ev_transid` não foram enviados, não são exclusivos ou estão incorretos.
 
@@ -279,7 +279,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 
 * Ocorreram erros quando o arquivo foi analisado.
 
-* A lógica de desduplicação do anunciante é diferente da lógica de Pesquisa, Social e Comércio.
+* A lógica de desduplicação do anunciante é diferente da lógica de Pesquisa, Social e Commerce.
 
 *Possível solução ou solução alternativa:*
 

@@ -3,9 +3,9 @@ title: Revisar e editar configurações de posicionamento usando planilhas
 description: Saiba como revisar e editar configurações de posicionamento de chaves usando planilhas.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 É possível baixar as configurações de uma ou mais disposições, ou de todas as disposições em uma campanha, no formato XLSX (planilha do Excel) para revisão. Use esse recurso para analisar rapidamente detalhes como:
 
 * O público alvo da campanha.
-* Quando os posicionamentos começam a ser entregues e quando vão parar.
+* Quando os posicionamentos começam a entregar e quando param.
 * Quais anúncios são anexados aos posicionamentos.
 
 Em seguida, é possível fazer alterações em campos selecionados e carregá-los de volta para o DSP de uma só vez. Os campos editáveis incluem nomes de posicionamento, status, lances, orçamentos, estratégias de ritmo e limites de frequência.

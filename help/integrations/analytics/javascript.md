@@ -3,9 +3,9 @@ title: Código JavaScript para [!DNL Analytics for Advertising]
 description: Código JavaScript para [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Você pode executar a validação usando qualquer tipo de ferramenta de sniffer 
    | Conjunto de relatórios do Analytics | O valor depois de `/b/ss/` | | `_les_rsid` |
    | ID de visitante Experience Cloud | mid |  | `_les_mid` |
 
-   Se os valores de ID corresponderem, a implementação do JavaScript será confirmada. O Adobe Advertising enviará o [!DNL Analytics] servidor quaisquer detalhes de rastreamento de click-through ou view-through, se existirem.
+   Se os valores de ID corresponderem, a implementação do JavaScript será confirmada. Adobe Advertising envia o [!DNL Analytics] servidor quaisquer detalhes de rastreamento de click-through ou view-through, se existirem.
 
 #### Como confirmar o código com [!DNL Adobe Experience Cloud Debugger]
 

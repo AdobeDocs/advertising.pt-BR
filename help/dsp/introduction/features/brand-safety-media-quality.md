@@ -3,9 +3,9 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-O Advertising DSP fornece um conjunto de recursos de proteção da marca para garantir que cada uma de suas campanhas atinja usuários reais em um ambiente seguro para a marca.
+O Advertising DSP fornece um conjunto de recursos de proteção à marca para garantir que cada uma de suas campanhas atinja usuários reais em um ambiente seguro para a marca.
 
 A nossa equipe de vigilância de fraudes trabalha em estreita colaboração com os principais parceiros do setor, como a [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], e [!DNL WhiteOps], para preparar cuidadosamente o inventário na nossa plataforma. Por meio do gerenciamento pró-ativo de nosso suprimento, o DSP garante que todos os anunciantes na plataforma estejam protegidos contra tráfego não humano (bots, crawlers, tráfego de data center e fraude) e sejam entregues somente em contextos seguros para a marca.
 
@@ -78,7 +78,7 @@ O DSP mantém uma lista de sites bloqueados globalmente com sites considerados i
 
 Como parte de nossa iniciativa de Segurança da marca para eliminar as atividades que defraudam anunciantes, todos os sites são verificados usando as medidas na lista de sites bloqueados do gráfico. Todos os sites que não passarem nas verificações de segurança da marca serão adicionados à lista de sites bloqueados globalmente. Como o DSP gerencia essa lista dinamicamente, os sites podem ser ativados ou desativados a qualquer momento, com base na análise mais recente de segurança da marca.
 
-Quando você inclui um site na lista de sites globalmente bloqueados como um destino de posicionamento, o site é sinalizado com um ponto de exclamação vermelho (!). Isso indica que os anúncios não serão executados no site sinalizado.
+Quando você inclui um site na lista de sites globalmente bloqueados como um destino de posicionamento, o site é sinalizado com um ponto de exclamação vermelho (!). Isso indica que os anúncios não são executados no site sinalizado.
 
 >[!NOTE]
 >

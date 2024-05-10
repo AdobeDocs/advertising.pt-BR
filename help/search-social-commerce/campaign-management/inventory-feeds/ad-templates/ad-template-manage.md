@@ -1,11 +1,11 @@
 ---
 title: Gerenciar modelos de anúncio para feeds de inventário
 description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos quais os dados de inventário podem ser processados para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
             >[!NOTE]
             >
             >* Se a variável [!UICONTROL Prefill] for selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
-            >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que o texto alternativo faça sentido quando combinado com o texto original do anúncio.
+            >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
             >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
             >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 
@@ -103,7 +103,7 @@ Criar modelos separados para texto e anúncios de texto expandidos/estendidos, a
                >[!NOTE]
                >
                >* Se a variável [!UICONTROL Prefill] for selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
-               >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que o texto alternativo faça sentido quando combinado com o texto original do anúncio.
+               >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
                >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
                >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 

@@ -3,7 +3,7 @@ title: Sobre [!UICONTROL Report Destinations]
 description: Saiba mais sobre como gerenciar locais de entrega para seus relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -33,7 +33,7 @@ A variável [!UICONTROL Report Destinations] A visualização mostra todos os de
 
 >[!NOTE]
 >
->Atualizar as credenciais para seus destinos de relatório existentes não interromperá a entrega do relatório, desde que as credenciais sejam válidas.
+>Atualizar as credenciais para seus destinos de relatório existentes não interrompe a entrega do relatório, desde que as credenciais sejam válidas.
 
 ![Destinos do relatório](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ A variável [!UICONTROL Report Destinations] A visualização mostra todos os de
 >* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

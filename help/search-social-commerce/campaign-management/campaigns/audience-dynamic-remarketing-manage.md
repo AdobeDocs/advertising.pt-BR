@@ -1,11 +1,11 @@
 ---
 title: Gerenciar [!DNL Microsoft Advertising] públicos de remarketing dinâmicos
 description: Saiba como criar e gerenciar [!DNL Microsoft Advertising] públicos de remarketing dinâmicos.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Para obter mais informações sobre o remarketing dinâmico e como implementar a
 
    1. Insira o **[!UICONTROL Audience Name]**.
 
-   1. Em uma lista de todas as tags disponíveis para a conta do mecanismo de pesquisa, selecione o nome da [!DNL Microsoft Advertising] Tag UET incluída nas páginas da web cujos usuários compõem o público-alvo.
+   1. Em uma lista de todas as tags disponíveis para a conta do mecanismo de pesquisa, selecione o nome da [!DNL Microsoft Advertising] Tag UET incluída nas páginas da Web cujos usuários compõem o público.
 
    1. Selecione o tipo de visitante do público-alvo, que se baseia nas ações do visitante nas páginas da Web relevantes: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* ou *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ Para obter mais informações sobre o remarketing dinâmico e como implementar a
 
    1. (Opcional) Altere a **[!UICONTROL Audience Name]**.
 
-   1. (Opcional) Em uma lista de todas as tags disponíveis para a conta de rede de publicidade, altere o nome da [!DNL Microsoft Advertising] Tag UET incluída nas páginas da web cujos usuários compõem o público-alvo.
+   1. (Opcional) Em uma lista de todas as tags disponíveis para a conta de rede de publicidade, altere o nome da [!DNL Microsoft Advertising] Tag UET incluída nas páginas da Web cujos usuários compõem o público.
 
    1. (Opcional) Altere o tipo de visitante do público-alvo, que se baseia nas ações do visitante nas páginas da Web relevantes: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* ou *[!UICONTROL Shopping Cart Abandoners]*.
 

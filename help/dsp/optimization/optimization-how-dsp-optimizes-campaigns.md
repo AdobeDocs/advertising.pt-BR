@@ -3,7 +3,7 @@ title: Como o DSP otimiza suas campanhas
 description: Saiba como o DSP otimiza os pacotes em suas campanhas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ O DSP pode otimizar sua entrega de duas maneiras fundamentais, com 20 variaçõe
 
 * Priorizar o equilíbrio entre a eficiência de custos e a taxa de desempenho
 
-Consulte [Metas de otimização e como usá-las](optimization-goals.md) para determinar qual meta de otimização ajudará você a atingir seus KPIs.
+Consulte [Metas de otimização e como usá-las](optimization-goals.md) para determinar qual meta de otimização pode ajudar você a atingir seus KPIs.
 
 ### Pacotes que priorizam a taxa de desempenho
 
@@ -48,9 +48,9 @@ Esse modo de otimização funciona bem se:
 
 #### Lógica de ritmo {#pacing-logic-performance}
 
-* Se os gastos estiverem no ritmo, a licitação se torna mais seletiva, de modo que você só licitará em leilões previstos com altas taxas de desempenho.
+* Se os gastos estiverem no ritmo, a licitação se torna mais seletiva para que você lance apenas em leilões previstos com altas taxas de desempenho.
 
-* Se os gastos estiverem atrasados, a licitação se torna menos seletiva, de modo que você licitará em leilões previstos com taxas de desempenho mais baixas para alcançar a meta de ritmo.
+* Se os gastos estiverem atrasados, a licitação se torna menos seletiva para que você lance em leilões previstos com taxas de desempenho mais baixas a fim de alcançar a meta de ritmo.
 
 #### Limpando o Sombreamento de Preço/Oferta {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ Os filtros de pré-oferta de posicionamento são a maneira mais rigorosa de gara
 >
 >Os filtros de pré-oferta disponíveis variam de acordo com o tipo de anúncio. Por exemplo, para um posicionamento de exibição padrão, é possível filtrar por taxa de cliques e visibilidade, mas não por taxa de conclusão.
 
-Consulte [Filtros pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md) para determinar qual filtro de pré-oferta ajudará você a atingir seus KPIs.
+Consulte [Filtros pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md) para determinar qual filtro de pré-oferta pode ajudá-lo a atingir seus KPIs.
 
 >[!MORELIKETHIS]
 >

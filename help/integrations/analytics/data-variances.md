@@ -3,9 +3,9 @@ title: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 description: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Se uma janela de retrospectiva de relatório ou um modelo de atribuição for mo
 
 * **Exemplo de discrepâncias causadas por diferentes janelas de pesquisa:**
 
-  Suponha que o Adobe Advertising tenha uma janela de retrospectiva de clique de 60 dias e [!DNL Analytics] O tem uma janela de retrospectiva de 30 dias. E suponha que um usuário chegue ao site através de um anúncio rastreado por Adobe Advertising, saia e retorne no dia 45 e converta. O Adobe Advertising atribuirá a conversão à visita inicial porque a conversão ocorreu dentro da janela de retrospectiva de 60 dias. [!DNL Analytics]No entanto, o não pode atribuir a conversão à visita inicial porque a conversão ocorreu após a janela de lookback de 30 dias ter expirado. Neste exemplo, o Adobe Advertising relataria um número maior de conversões do que [!DNL Analytics] seria.
+  Suponha que o Adobe Advertising tenha uma janela de retrospectiva de clique de 60 dias e [!DNL Analytics] O tem uma janela de retrospectiva de 30 dias. E suponha que um usuário chegue ao site através de um anúncio rastreado por Adobe Advertising, saia e retorne no dia 45 e converta. O Adobe Advertising atribui a conversão à visita inicial porque a conversão ocorreu dentro da janela de retrospectiva de 60 dias. [!DNL Analytics]No entanto, o não pode atribuir a conversão à visita inicial porque a conversão ocorreu após a janela de lookback de 30 dias ter expirado. Neste exemplo, o Adobe Advertising relata um número maior de conversões do que [!DNL Analytics] O faz.
 
   ![Exemplo de uma conversão atribuída no Adobe Advertising, mas não no [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Exemplo de discrepâncias causadas por diferentes modelos de atribuição:**
 
-  Suponha que um usuário interaja com três anúncios de Adobe Advertising diferentes antes da conversão, com a receita como o tipo de conversão. Se um relatório de Adobe Advertising usar um modelo de distribuição par para atribuição, ele atribuirá a receita uniformemente em todos os anúncios. Se [!DNL Analytics] O usa o modelo de atribuição último contato, no entanto, ele atribuirá a receita ao último anúncio. No exemplo a seguir, o Adobe Advertising atribui um par de USD 10 dos 30 USD de receita capturados para cada um dos três anúncios, enquanto que [!DNL Analytics] O atribui todos os 30 USD da receita ao último anúncio visto pelo usuário. Quando você compara relatórios de Adobe Advertising e [!DNL Analytics], você pode esperar ver o impacto da diferença na atribuição.
+  Suponha que um usuário interaja com três anúncios de Adobe Advertising diferentes antes da conversão, com a receita como o tipo de conversão. Se um relatório de Adobe Advertising usar um modelo de distribuição par para atribuição, ele atribuirá a receita uniformemente em todos os anúncios. Se [!DNL Analytics] O usa o modelo de atribuição último toque, no entanto, e atribui a receita ao último anúncio. No exemplo a seguir, o Adobe Advertising atribui um par de USD 10 dos 30 USD de receita capturados para cada um dos três anúncios, enquanto que [!DNL Analytics] O atribui todos os 30 USD da receita ao último anúncio visto pelo usuário. Quando você compara relatórios de Adobe Advertising e [!DNL Analytics], você pode esperar ver o impacto da diferença na atribuição.
 
   ![Receitas diferentes atribuídas ao Adobe Advertising e ao [!DNL Analytics] com base em diferentes modelos de atribuição](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ No Adobe Advertising, você pode relatar dados de conversão pela data de clique
 
 ### Modelos de atribuição potencialmente diferentes no [!DNL Marketing Channels]
 
-Mais [!DNL Marketing Channels] Os relatórios do são configurados com [!UICONTROL Last Touch] atribuição para a qual o último canal de marketing detectado recebe 100% do valor de conversão. Usar diferentes modelos de atribuição para o [!DNL Marketing Channels] Os relatórios do e do Adobe Advertising resultarão em discrepâncias nas conversões atribuídas.
+Mais [!DNL Marketing Channels] Os relatórios do são configurados com [!UICONTROL Last Touch] atribuição para a qual o último canal de marketing detectado recebe 100% do valor de conversão. Usar diferentes modelos de atribuição para o [!DNL Marketing Channels] relatórios e relatórios Adobe Advertising levam a discrepâncias em conversões atribuídas.
 
 ### Uma janela de pesquisa potencialmente diferente no [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ Os cliques e click-throughs podem ser muito diferentes devido aos cliques aciden
 
 Os sites carregados em dispositivos móveis também têm menos probabilidade de resultar em click-throughs, devido às menores larguras de banda ou à potência de processamento disponível, fazendo com que as landing pages demorem mais para carregar. Não é incomum que 50 a 70% dos cliques não resultem em click-throughs. Em ambientes móveis, a diferença pode ser de até 90% devido à combinação de um navegador mais lento e à maior probabilidade de o usuário clicar acidentalmente no anúncio enquanto percorre a página ou tenta fechar o anúncio.
 
-Os dados de cliques também podem ser registrados em ambientes que não podem gravar click-throughs com os mecanismos de rastreamento atuais (como cliques entrando, ou vindo, de um aplicativo móvel) ou para os quais o anunciante implantou apenas uma abordagem de rastreamento (por exemplo, com a abordagem JavaScript view-through, os navegadores que bloqueiam cookies de terceiros rastrearão cliques, mas não click-throughs). Um motivo importante pelo qual a Adobe recomenda a implantação das abordagens de rastreamento de URL de clique e rastreamento de view-through JavaScript é maximizar a cobertura de click-throughs rastreáveis.
+Os dados de cliques também podem ser registrados em ambientes que não podem gravar click-throughs com os mecanismos de rastreamento atuais (como cliques entrando, ou vindo, de um aplicativo móvel) ou para os quais o anunciante implantou apenas uma abordagem de rastreamento (por exemplo, com a abordagem JavaScript view-through, os navegadores que bloqueiam cookies de terceiros rastreiam cliques, mas não click-throughs). Um motivo importante pelo qual a Adobe recomenda a implantação das abordagens de rastreamento de URL de clique e rastreamento de view-through JavaScript é maximizar a cobertura de click-throughs rastreáveis.
 
 ### Utilização de métricas de tráfego de Adobe Advertising para Dimension não-Adobe Advertising
 
 O Adobe Advertising fornece ao Analytics [métricas de tráfego específicas de publicidade e as dimensões relacionadas de [!DNL DSP] e [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). As métricas fornecidas por Adobe Advertising são aplicáveis somente às dimensões de Adobe Advertising especificadas e os dados não estão disponíveis para outras dimensões no [!DNL Analytics].
 
-Por exemplo, se você exibir a variável [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] métricas por Conta, que é uma dimensão Adobe Advertising, você verá o total de [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] por conta.
+Por exemplo, se você exibir a variável [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] métricas por Conta, que é uma dimensão Adobe Advertising, então o total [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] são mostrados por conta.
 
 ![Exemplo de métricas de Adobe Advertising em um relatório que usa uma dimensão Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

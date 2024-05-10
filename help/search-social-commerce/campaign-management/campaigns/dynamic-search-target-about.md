@@ -1,11 +1,11 @@
 ---
 title: Sobre [!DNL Google Ads] destinos de pesquisa dinâmica
 description: Saiba mais sobre [!DNL Google Ads] alvos de pesquisa dinâmica.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]somente contas*
 
-Os destinos de pesquisa dinâmica definem se a rede de publicidade usará todas ou um subconjunto das páginas do site para direcionar seus anúncios de pesquisa dinâmica. Configure alvos de pesquisa dinâmica no nível do grupo de publicidade; eles se aplicam a todos os anúncios de pesquisa dinâmica no mesmo grupo de publicidade.
+Os destinos de pesquisa dinâmica definem se a rede de anúncios usa todas as páginas do site ou um subconjunto delas para direcionar seus anúncios de pesquisa dinâmica. Configure alvos de pesquisa dinâmica no nível do grupo de publicidade; eles se aplicam a todos os anúncios de pesquisa dinâmica no mesmo grupo de publicidade.
 
 Dependendo das configurações da campanha, os destinos de pesquisa dinâmica podem ser obrigatórios ou opcionais:
 

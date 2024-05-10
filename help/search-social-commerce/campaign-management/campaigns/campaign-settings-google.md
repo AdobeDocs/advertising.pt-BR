@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referenciar as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,7 @@ Para criar uma meta de conversão personalizada, clique em **[!UICONTROL + Add c
 
 >[!TIP]
 >
->Para campanhas em portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se os objetivos da campanha incluírem [!DNL Google]Conversões rastreadas pelo e, em seguida, adicioná-las no [!DNL Google Ads] editor porque eles não serão recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Google Ads] editor, remova as ações de conversão da campanha como metas padrão da conta marcando-as como metas secundárias (não primárias).
+>Para campanhas em portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se os objetivos da campanha incluírem [!DNL Google]Conversões rastreadas pelo e, em seguida, adicioná-las no [!DNL Google Ads] editor porque eles não são recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Google Ads] editor, remova as ações de conversão da campanha como metas padrão da conta marcando-as como metas secundárias (não primárias).
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

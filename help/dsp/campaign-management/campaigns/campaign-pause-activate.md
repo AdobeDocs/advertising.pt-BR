@@ -2,9 +2,10 @@
 title: Pausar ou ativar uma campanha
 description: Saiba como pausar ou ativar uma campanha ao vivo.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Pausar uma campanha ao vivo ou ativar uma campanha pausada quando estiver dentro da programação de voo configurada.
 
-Todos os posicionamentos pausados antes de pausar uma campanha permanecerão pausados na ativação da campanha.
+Todos os posicionamentos pausados antes de pausar uma campanha permanecem pausados na ativação da campanha.
 
 ## Pausar uma campanha
 

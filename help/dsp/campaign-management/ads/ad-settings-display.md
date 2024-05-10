@@ -3,9 +3,9 @@ title: Configurações do anúncio de exibição
 description: Consulte descrições das configurações de anúncios disponíveis para exibir anúncios.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ As configurações a seguir são para anúncios de exibição padrão.
 
 **[!UICONTROL Final Display Code]:** (Somente anúncios de terceiros) O URL para o ativo criativo de terceiros, com os anúncios necessários [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
 
-**[!UICONTROL Ad Size]:** A largura e a altura do anúncio. Deve ser um [tamanho de anúncio de exibição padrão suportado](ad-specs.md). Você pode inserir manualmente o tamanho do anúncio antes de fazer upload ou inserir um [!UICONTROL Display Code]. Se você não inserir o tamanho do anúncio, as dimensões do anúncio carregado ou da tag do anúncio serão inseridas automaticamente como somente leitura. Observe que o anúncio de exibição não será salvo se as dimensões não estiverem em Exibição padrão como tamanhos, por exemplo, 301x250 em vez de tamanho de anúncio 300x250.
+**[!UICONTROL Ad Size]:** A largura e a altura do anúncio. Deve ser um [tamanho de anúncio de exibição padrão suportado](ad-specs.md). Você pode inserir manualmente o tamanho do anúncio antes de fazer upload ou inserir um [!UICONTROL Display Code]. Se você não inserir o tamanho do anúncio, as dimensões do anúncio carregado ou da tag do anúncio serão inseridas automaticamente como somente leitura.
 
 >[!IMPORTANT]
 >

@@ -3,9 +3,9 @@ title: Pré-requisitos e informações-chave para implementação do [!DNL Analy
 description: Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Entre em contato com a equipe de conta do Adobe para obter os ambientes de anún
 
 ## O que você deve saber antes da implementação
 
-* A equipe de implementação do Adobe Advertising configurará a integração.
+* A equipe de implementação do Adobe Advertising configura a integração.
 
 * Não serão cobrados custos adicionais por essa integração, nem as chamadas do servidor resultarão em custos adicionais [!DNL Analytics] ou Adobe Advertising.
 

@@ -3,9 +3,9 @@ title: Dados de bulksheet necessários para [!DNL Google Ads] contas
 description: Fazer referência aos campos de cabeçalho e campos de dados necessários em bulksheets para [!DNL Google Ads] contas.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | [!UICONTROL Delivery Method] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Channel Type] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Networks] | Obrigatório para criar uma campanha. |
-| [!UICONTROL DSA Domain Name] | Obrigatório para criar uma campanha na rede de pesquisa que terá anúncios de pesquisa dinâmicos. |
-| [!UICONTROL DSA Domain Language] | Obrigatório para criar uma campanha na rede de pesquisa que terá anúncios de pesquisa dinâmicos. |
+| [!UICONTROL DSA Domain Name] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
+| [!UICONTROL DSA Domain Language] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
 | [!UICONTROL Campaign Priority] | Obrigatório para criar uma campanha de compras. |
 | [!UICONTROL Merchant ID] | Obrigatório para criar uma campanha de compras. |
 | [!UICONTROL Sales Country] | Obrigatório para criar uma campanha de compras. |
@@ -410,7 +410,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | [!UICONTROL Sitelink Status] | Necessário somente para excluir um sitelink. |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Sitelink ID] | Obrigatório somente quando você altera ou exclui o sitelink, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o sitelink ou b) um &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Sitelink ID] nem [!UICONTROL AMO ID]  e as colunas de propriedade corresponderem a vários sitelinks, o status de apenas um dos sitelinks será alterado.<br><br><b>Nota:</b> Se você editar as colunas de propriedade do sitelink exceto [!UICONTROL Status] para um sitelink existente, e você não inclui o [!UICONTROL Sitelink ID] nem [!UICONTROL AMO ID], um novo sitelink será criado e o sitelink existente não será alterado. |
+| [!UICONTROL Sitelink ID] | Obrigatório somente quando você altera ou exclui o sitelink, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o sitelink ou b) um &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Sitelink ID] nem [!UICONTROL AMO ID]  e as colunas de propriedade corresponderem a vários sitelinks, então o status de apenas um dos sitelinks será alterado.<br><br><b>Nota:</b> Se você editar as colunas de propriedade do sitelink exceto [!UICONTROL Status] para um sitelink existente, e você não inclui o [!UICONTROL Sitelink ID] nem [!UICONTROL AMO ID], um novo sitelink será criado e o sitelink existente não será alterado. |
 | [!UICONTROL AMO ID] | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>Search, Social e Commerce usam o valor para determinar a identidade correta a ser editada, mas não publicam a ID na rede de anúncios. |
 
 ### Destino da localização

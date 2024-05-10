@@ -1,11 +1,11 @@
 ---
 title: Formatos de rastreamento de cliques para [!DNL Microsoft Advertising]
 description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Microsoft Advertising] contas.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Exemplo:
 >
 >* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
 >
->* (Opcional) Em vez de inserir modelos de rastreamento no nível da conta, campanha, grupo de anúncios ou grupo de produtos, você pode adicionar o URL de rastreamento aos dados do produto no [!DNL Microsoft Merchant Center] conta. Para fazer isso, inclua o URL de rastreamento junto com o valor no &quot;`link`&quot; ou &quot;`mobile_link`&quot;campo, conforme apropriado, em uma coluna personalizada&quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; no feed do produto. O valor no campo &quot;`bingads_redirect`O campo &quot; substituirá os valores na &quot;`link`&quot; e &quot;`mobile_link`&quot;. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de campanha ou conta de Pesquisa, Social e Comércio.
+>* (Opcional) Em vez de inserir modelos de rastreamento no nível da conta, campanha, grupo de anúncios ou grupo de produtos, você pode adicionar o URL de rastreamento aos dados do produto no [!DNL Microsoft Merchant Center] conta. Para fazer isso, inclua o URL de rastreamento junto com o valor no &quot;`link`&quot; ou &quot;`mobile_link`&quot;campo, conforme apropriado, em uma coluna personalizada&quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; no feed do produto. O valor no campo &quot;`bingads_redirect`O campo &quot; substitui os valores no &quot;`link`&quot; e &quot;`mobile_link`&quot;. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de pesquisa, social e conta da Commerce ou da campanha.
 
 ## Formatos de sufixo de página de aterrissagem (sufixo de URL final)
 

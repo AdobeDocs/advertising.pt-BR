@@ -2,9 +2,9 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Os anunciantes com produtos adicionais da Adobe Experience Cloud podem compartil
 
 (Opcional) Produtos de Experience Cloud adicionais vinculados à conta DSP. Os produtos devem ser associados à mesma ID de organização de Experience Cloud fornecida no [!UICONTROL Adobe IMS IDs] seção.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes com [!DNL Advertising Search, Social, & Commerce] ou que usam pixels de conversão de Adobe Advertising) A [!DNL Search, Social, & Commerce] conta com a qual o DSP trocará dados de atribuição.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes com [!DNL Advertising Search, Social, & Commerce] ou que usam pixels de conversão de Adobe Advertising) A [!DNL Search, Social, & Commerce] conta com a qual o DSP troca dados de atribuição.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes com Adobe Analytics; opcional; aplicável somente aos dados coletados usando tags de rastreamento de conversão de Adobe Advertising que incluem uma [!DNL EF Redirect] e somente token) Um ou mais [!DNL Analytics] conjuntos de relatórios para os quais o DSP enviará dados coletados de editores e parceiros do lado do suprimento. O Analytics também enviará os dados coletados do site do cliente para o DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes com Adobe Analytics; opcional; aplicável somente aos dados coletados usando tags de rastreamento de conversão de Adobe Advertising que incluem uma [!DNL EF Redirect] e somente token) Um ou mais [!DNL Analytics] conjuntos de relatórios para os quais o DSP envia dados coletados de editores e parceiros do lado do suprimento. O Analytics também envia os dados coletados do site do cliente para o DSP.
 
 Para que os dados apareçam nos conjuntos de relatórios, as [!DNL Search, Social, & Commerce] a configuração no nível do anunciante deve estar ativada. Além disso, o [!DNL Analytics] a conta deve ser configurada para receber dados do Adobe Advertising.
 
@@ -51,7 +51,7 @@ Para que os dados apareçam nos conjuntos de relatórios, as [!DNL Search, Socia
 
 Para obter mais informações sobre a integração com o [!DNL Analytics], consulte &quot;[Visão geral do [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes com Adobe Audience Manager ou Adobe Analytics; opcional) Um Audience Manager ou [!DNL Analytics] conta da qual o DSP extrairá metadados de segmento, dados de hierarquia e dados exclusivos de público-alvo para todos os públicos-alvo Adobe do anunciante. Isso inclui dados para:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes com Adobe Audience Manager ou Adobe Analytics; opcional) Um Audience Manager ou [!DNL Analytics] conta da qual o DSP extrai metadados de segmento, dados de hierarquia e dados exclusivos de público-alvo para todos os públicos-alvo Adobe do anunciante. Isso inclui dados para:
 
 * segmentos Audience Manager
 * [!DNL Analytics] segmentos publicados no Adobe Experience Cloud
@@ -110,15 +110,15 @@ Tipos de sites a serem bloqueados com base em tráfego fraudulento e atividades 
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Por padrão, o bloqueia todo o tráfego 100% inválido, incluindo o tráfego em dispositivos sequestrados, para novos posicionamentos. Taxas adicionais podem ser aplicadas.
 
-**[!UICONTROL Also block sites with]:** (Opcional) Um nível adicional de fraude e tráfego inválido que fará com que o DSP bloqueie anúncios por padrão:  *[!UICONTROL None]* (o padrão, que não bloqueia o tráfego adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Taxas adicionais podem ser aplicadas.
+**[!UICONTROL Also block sites with]:** (Opcional) Um nível adicional de fraude e tráfego inválido que faz com que o DSP bloqueie anúncios por padrão:  *[!UICONTROL None]* (o padrão, que não bloqueia o tráfego adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* ou *[!UICONTROL >25% Average Fraud/IVT levels]*. Taxas adicionais podem ser aplicadas.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Opcional) Um ou mais tipos de fraude que farão com que o DSP bloqueie anúncios por padrão: *[!UICONTROL Fraud]* (que bloqueia todos os sites com fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, e/ou *[!UICONTROL Fraud: Zero Ads]*. Taxas adicionais podem ser aplicadas.
+**[!UICONTROL Block sites that are]:** (Opcional) Um ou mais tipos de fraude que fazem com que o DSP bloqueie anúncios por padrão: *[!UICONTROL Fraud]* (que bloqueia todos os sites com fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, e/ou *[!UICONTROL Fraud: Zero Ads]*. Taxas adicionais podem ser aplicadas.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Opcional) Um tipo de atividade suspeita de site ou aplicativo que fará com que o DSP bloqueie anúncios por padrão: *[!UICONTROL None]* (o padrão, que não bloqueia anúncios com base em atividades suspeitas), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Taxas adicionais podem ser aplicadas.
+**[!UICONTROL Block sites that are]:** (Opcional) Um tipo de atividade suspeita de site ou aplicativo que faz com que o DSP bloqueie anúncios por padrão: *[!UICONTROL None]* (o padrão, que não bloqueia anúncios com base em atividades suspeitas), *[!UICONTROL Suspicious Activity - High Risk]* ou *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Taxas adicionais podem ser aplicadas.
 
 #### [!UICONTROL Ads.text]
 

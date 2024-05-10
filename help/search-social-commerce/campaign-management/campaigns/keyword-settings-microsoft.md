@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Microsoft Advertising] configurações de palavra-chave'
 description: Referenciar as configurações de [!DNL Microsoft Advertising] palavras-chave.
-exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 ## Espaços reservados
 
-**[!UICONTROL Param2]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param2}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo do elemento de anúncio no qual ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
+**[!UICONTROL Param2]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param2}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
 
-**[!UICONTROL Param3]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param3}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo do elemento de anúncio no qual ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
+**[!UICONTROL Param3]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param3}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
 
 ## Opções de URL
 

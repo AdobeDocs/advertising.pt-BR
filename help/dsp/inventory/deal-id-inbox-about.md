@@ -3,7 +3,7 @@ title: Sobre o [!UICONTROL Deal ID Inbox]
 description: Saiba mais sobre o [!UICONTROL Deal ID inbox] recurso, que permite que você aceite ofertas privadas que já negociou com editores no [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]), and [!DNL Magnite DV+] (antigo [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -35,11 +35,11 @@ O DSP atualiza automaticamente todos os detalhes do negócio diariamente às 4h3
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
 >
->Para ofertas programáticas garantidas por meio de [!DNL Google Authorized Buyers], você deverá atingir pelo menos 90% do orçamento, caso contrário sua conta perderá o acesso a [!DNL Google] ofertas na [!UICONTROL Deal ID inbox].
+>Para ofertas programáticas garantidas por meio de [!DNL Google Authorized Buyers], você deverá atingir pelo menos 90% do seu orçamento ou sua conta perderá o acesso a [!DNL Google] ofertas na [!UICONTROL Deal ID inbox].
 
 ## A implementação da [!UICONTROL Deal ID Inbox]
 
-Para receber suas ofertas no [!UICONTROL Deal ID inbox], suas contas SSP devem mapear a conta DSP de sua organização para sua conta SSP. O DSP compartilhará os nomes das contas da organização com os SSPs relevantes. Entre em contato com a equipe de conta do Adobe para obter instruções.
+Para receber suas ofertas no [!UICONTROL Deal ID inbox], suas contas SSP devem mapear a conta DSP de sua organização para sua conta SSP. O DSP pode compartilhar os nomes das contas da organização com os SSPs relevantes. Entre em contato com a equipe de conta do Adobe para obter instruções.
 
 Durante as negociações, peça ao editor para enviar o negócio para seu comprador em vez de para a conta pai do DSP. O identificador de negócios pode ser um nome ou uma ID, dependendo da SSP.
 
@@ -47,7 +47,7 @@ Durante as negociações, peça ao editor para enviar o negócio para seu compra
 
 * **Revisar ofertas** para verificar se a SSP enviou o editor correto, as datas de ativação, o CPM e outros detalhes do negócio. Se o editor tiver cometido um erro, entre em contato com ele fora do DSP para que ele possa corrigir e reenviar o negócio.
 
-* **Aceitar ofertas** após a revisão, e não aparecerão mais no [!UICONTROL Deal ID inbox]. As ofertas aceitas estão listadas em [!UICONTROL Inventory] > [!UICONTROL Deals] e estão prontos para direcionar nos posicionamentos dos anunciantes.
+* **Aceitar ofertas** após a revisão, e não aparecem mais no [!UICONTROL Deal ID inbox]. As ofertas aceitas estão listadas em [!UICONTROL Inventory] > [!UICONTROL Deals] e estão prontos para direcionar nos posicionamentos dos anunciantes.
 
 * **Ignorar ofertas** que não são necessários ou não são solicitados. As ofertas ignoradas são movidas para a [!UICONTROL Ignored Deals] na guia [!UICONTROL Deal ID inbox], que serve como um arquivo. O DSP não alerta SSPs e editores quando você ignora um acordo.
 
@@ -75,4 +75,3 @@ Os detalhes da transação incluem o motivo pelo qual a transação não está d
 >
 >* [Aceitar uma oferta na caixa de entrada da ID de oferta](deal-id-inbox-accept.md)
 >* [Visão Geral dos Recursos do Inventário](inventory-overview.md)
-

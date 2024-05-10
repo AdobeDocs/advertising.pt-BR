@@ -1,11 +1,11 @@
 ---
 title: Filtrar dados por intervalo de datas
 description: Saiba como usar o filtro de intervalo de datas global.
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O mesmo filtro de intervalo de datas global é aplicado à maioria das visualizações de dados da campanha, em todos os anunciantes, exceto para exibições padrão e personalizadas para as quais você salvou intervalos de datas específicos. O intervalo de datas padrão do sistema para exibições de gerenciamento de campanha é &quot;Ontem&quot;.
 
-Suas configurações de intervalo de datas são salvas em um cookie específico do navegador, de modo que quaisquer alterações no filtro de intervalo de datas são usadas para todos os anunciantes sempre que você fizer logon usando o mesmo aplicativo do navegador, até alterar o filtro ou excluir o cookie. Cada aplicativo de navegador usado armazenará as configurações de filtro de intervalo de datas em um cookie diferente.
+Suas configurações de intervalo de datas são salvas em um cookie específico do navegador, de modo que quaisquer alterações no filtro de intervalo de datas são usadas para todos os anunciantes sempre que você fizer logon usando o mesmo aplicativo do navegador, até alterar o filtro ou excluir o cookie. Cada aplicativo de navegador usado armazena configurações de filtro de intervalo de datas em um cookie diferente.
 
 Quando você salva um intervalo de datas específico para uma exibição padrão ou personalizada, esse intervalo é aplicado sempre que a exibição é aplicada, independentemente do aplicativo do navegador usado.
 

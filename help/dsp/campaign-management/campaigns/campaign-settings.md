@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para estimar impostos a reter:
 
 >[!NOTE]
 >
-> Você pode definir limites de frequência nos níveis de campanha, pacote e posicionamento. O DSP respeitará o limite de frequência mais rigoroso na hierarquia de campanha.
+> Você pode definir limites de frequência nos níveis de campanha, pacote e posicionamento. O DSP respeita o limite de frequência mais rigoroso na hierarquia de campanha.
 
 **[!UICONTROL Packages]:** A variável [pacotes](/help/dsp/campaign-management/packages/package-about.md) para incluir na campanha. Selecione pacotes existentes e/ou crie pacotes para incluir. Se você criar packages, consulte descrições sobre o [configurações de pacote](/help/dsp/campaign-management/packages/package-settings.md) para obter mais informações.
 
@@ -126,7 +126,7 @@ Para estimar impostos a reter:
 
 * **[!UICONTROL Target Age]:** A faixa etária a ser atingida. Use os controles deslizantes esquerdo e direito para reduzir o intervalo conforme necessário.
 
-* **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Nielsen] O medirá impressões veiculadas somente em países suportados.
+* **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Nielsen] O mede somente impressões veiculadas em países suportados.
 
 **[!UICONTROL comScore vCE]:** (Opcional) Ativa [!DNL Comscore validated Campaign Essentials (vCE)] medição e relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
@@ -134,7 +134,7 @@ Para estimar impostos a reter:
 
 * **[!UICONTROL Target Age]:** A faixa etária a ser atingida. Use os controles deslizantes esquerdo e direito para reduzir o intervalo conforme necessário.
 
-* **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Comscore] O medirá impressões veiculadas somente em países suportados.
+* **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Comscore] O mede somente impressões veiculadas em países suportados.
 
 ### [!UICONTROL 1st Party Metrics]
 

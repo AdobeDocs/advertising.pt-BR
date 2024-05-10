@@ -2,16 +2,17 @@
 title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # Metas personalizadas
 
-As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada que ajudará a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* in [!DNL Advertising Search, Social, & Commerce].
+As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* in [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apen
 
 Há dois cenários nos quais você usaria várias métricas em uma meta personalizada:
 
-* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos móveis e não móveis de um (1), a variável [!DNL Adobe Sensei] O algoritmo tratará cada uma das métricas e tipos de dispositivo do usuário com a mesma importância. Se as diferentes métricas e tipos de dispositivos tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
+* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos móveis e não móveis de um (1), a variável [!DNL Adobe Sensei] O algoritmo trata cada uma das métricas do e os tipos de dispositivo do usuário com a mesma importância. Se as diferentes métricas e tipos de dispositivos tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
 
 <!-- update image or delete it and adjust the wording above
 

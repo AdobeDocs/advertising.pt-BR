@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de anúncios no DSP publicitário
 description: Saiba mais sobre o gerenciamento de anúncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -39,27 +39,26 @@ Todos os tipos de anúncios a seguir estão disponíveis no DSP. Para obter as e
 
 * **Anúncios de vídeo universal (somente de terceiros)**: anúncios de vídeo universais permitem direcionar o inventário de vídeo de ambientes de desktop, móveis e TV conectada para inventário VPAID e VAST usando uma única inserção de vídeo. Eles combinam todos os recursos de TV conectada, anúncios precedentes e anúncios precedentes móveis e são exibidos antes e durante o conteúdo de vídeo. Os principais indicadores de desempenho para vídeo universal incluem [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
 
-   Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
+  Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-   Consulte &quot;[Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
+  Consulte &quot;[Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
 
 ## Aprovações de anúncios DSP
 
 Ao criar um anúncio, o DSP o revisa em busca de categorias confidenciais, clique na funcionalidade de URL e na renderização de visualização.
 
-Inicialmente, você verá um ponto vermelho no [!UICONTROL Status] coluna. O processo de revisão normalmente leva de 24 a 48 horas. Entretanto, um anúncio interrompido pode ter um status pendente por mais de 48 horas, portanto, você tem tempo para corrigir erros antes que o anúncio seja rejeitado. Os anúncios rejeitados incluem um motivo para a rejeição.
+Inicialmente, o anúncio [!UICONTROL Status] exibe um ponto vermelho. O processo de revisão normalmente leva de 24 a 48 horas. Entretanto, um anúncio interrompido pode ter um status pendente por mais de 48 horas, portanto, você tem tempo para corrigir erros antes que o anúncio seja rejeitado. Os anúncios rejeitados incluem um motivo para a rejeição.
 
-Quando o DSP aprovar um anúncio, você verá um ponto verde na coluna Status.
+Quando o DSP aprova um anúncio, a coluna Status do anúncio exibe um ponto verde.
 
 ![indicador de aprovação no [!UICONTROL Status] coluna](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->Seu anúncio só será veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+>Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >
 >* [Crie um único anúncio](ad-create.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Especificações de publicidade](ad-specs.md)
-

@@ -1,11 +1,11 @@
 ---
 title: Requisitos de arquivo para arquivos de feed de conversão
 description: Consulte os requisitos para arquivos de feed de conversão.
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ O nome do arquivo deve incluir a data e ser consistente. Por exemplo, se você u
 
 ## Protocolo de transferência de arquivos
 
-Envie o arquivo por meio do protocolo de transferência SFTP, usando a Porta 22. Você precisará fornecer suas informações de chave pública.  A equipe de conta do Adobe ou a equipe de implementação fornecerá o local do servidor, juntamente com as credenciais necessárias para que o sistema transfira os arquivos.
+Envie o arquivo por meio do protocolo de transferência SFTP, usando a Porta 22. Você precisará fornecer suas informações de chave pública.  Sua equipe de conta do Adobe ou a equipe de implementação fornecem o local do servidor, juntamente com as credenciais necessárias para que o sistema transfira os arquivos.
 
 >[!TIP]
 >

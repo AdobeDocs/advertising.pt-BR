@@ -3,9 +3,9 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as segui
 
 ## Etapa 1 - Definir A Meta
 
-É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm o [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada pacote na campanha, você especificará a meta de otimização de acordo.
+É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm o [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada pacote na campanha, especifique a meta de otimização de acordo.
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
-Você também precisa determinar os eventos bem-sucedidos que levarão à meta geral e criar metas personalizadas de acordo. Para cada pacote, você especificará uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe Sensei]. Para obter mais informações sobre como criar metas personalizadas, consulte a [Práticas recomendadas para a criação de uma meta personalizada](custom-goal.md#custom-goal-best-practices).
+Você também precisa determinar os eventos bem-sucedidos que levam à meta geral e criar metas personalizadas de acordo. Para cada pacote, especifique uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe Sensei]. Para obter mais informações sobre como criar metas personalizadas, consulte a [Práticas recomendadas para a criação de uma meta personalizada](custom-goal.md#custom-goal-best-practices).
 
 ![metas personalizadas](/help/dsp/assets/objective-goals.png)
 
@@ -73,7 +73,7 @@ Além disso, use as configurações a seguir.
 
   Por exemplo, se você tiver US$ 100.000 para gastar em 30 dias, defina o orçamento do voo 1 (dias 1 a 10) para US$ 25.000 (75% x US$ 100.000/30 dias = US$ 2.500 por dia). Use o orçamento restante de US$ 75.000 para o voo 2 (dias 11 a 30).
 
-* **Orçamento:** O DSP sempre tentará alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
+* **Orçamento:** O DSP sempre tenta alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
 
 * **Metas de otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
 
@@ -97,7 +97,7 @@ A seguir estão as configurações de posicionamento recomendadas para campanhas
 
 ### Metas
 
-Você configurará a otimização de CPA ou ROAS no nível do pacote (consulte Etapa 3 - Criar pacotes), mas pode adicionar outras configurações no nível de posicionamento.
+Você deve configurar a otimização de CPA ou ROAS no nível do pacote (consulte Etapa 3 - Criar pacotes), mas pode adicionar outras configurações no nível de posicionamento.
 
 * **Lance máximo:**
    * Para inserções de prospecção, use um lance máximo baixo (US$ 5).
@@ -105,7 +105,7 @@ Você configurará a otimização de CPA ou ROAS no nível do pacote (consulte E
 
 * **Filtros pré-oferta:** Minimize ou, idealmente, evite definir filtros agressivos de pré-oferta, que impedem que o posicionamento alcance escala. As práticas recomendadas incluem o seguinte:
 
-   * Use um (1) filtro de pré-oferta por disposição. Vários filtros pré-oferta exigirão que ambos sejam atendidos, o que reduz a escala.
+   * Use um (1) filtro de pré-oferta por disposição. A utilização de vários filtros pré-oferta exige que ambos sejam atendidos, o que reduz a escala.
 
    * Considere definir filtros de pré-oferta menos rigorosos nos casos em que o direcionamento adicional (como público-alvo, geografia e direcionamento de site) é aplicado.
 
@@ -132,7 +132,7 @@ Para maximizar a escala, use [!UICONTROL Public] (Open Exchange) e [!UICONTROL O
 
 >[!NOTE]
 >
->Seu desempenho será melhor se um usuário puder ser acessado por apenas um posicionamento. Uma sobreposição significativa entre os usuários em vários posicionamentos pode causar concorrência, o que resulta em um ciclo de ofertas em aumento contínuo, elevando o custo por usuário. Portanto, se você incluir vários públicos-alvo, certifique-se de que eles não consistam em usuários/membros de público-alvo sobrepostos.
+>Seus anúncios têm melhor desempenho se um usuário puder ser acessado por apenas um posicionamento. Uma sobreposição significativa entre os usuários em vários posicionamentos pode causar concorrência, o que resulta em um ciclo de ofertas em aumento contínuo, elevando o custo por usuário. Portanto, se você incluir vários públicos-alvo, certifique-se de que eles não consistam em usuários/membros de público-alvo sobrepostos.
 >
 > Você pode evitar públicos-alvo sobrepostos criando públicos-alvo em camadas para suprimir os níveis mais altos e inclusivos dos posicionamentos, conforme necessário.
 
@@ -147,7 +147,7 @@ Para maximizar a escala, use [!UICONTROL Public] (Open Exchange) e [!UICONTROL O
 
 ### Segurança da marca e qualidade da mídia
 
-Uso de filtragem contextual, bloqueio pré-oferta de fraudes e/ou [!UICONTROL Ads.txt] a filtragem limitará a escala das inserções, mas use-as se necessário.
+Uso de filtragem contextual, bloqueio pré-oferta de fraudes e/ou [!UICONTROL Ads.txt] a filtragem limita a escala de suas disposições, mas as usa se necessário.
 
 ## Etapa 5 - Usar os ativos de criação certos
 

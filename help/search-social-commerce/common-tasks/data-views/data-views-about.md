@@ -1,11 +1,11 @@
 ---
 title: Sobre a personalização de dados em visualizações de gerenciamento de campanha
 description: Saiba mais sobre os tipos de dados que você pode personalizar nas visualizações de dados do Campaign.
-exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Na maioria das visualizações de dados do Campaign, é possível personalizar o
 
    * Procure ou pesquise campanhas por portfólio ou grupo de portfólio e filtre pelo status da entidade e o status do grupo de portfólio, portfólio e campanha. Clique em qualquer grupo, portfólio ou campanha do portfólio no painel para carregar dados para o grupo, portfólio ou campanha do portfólio na exibição de entidade atual.
 
-   * Acesse, edite e redefina as exibições padrão, e acesse, edite e exclua as exibições personalizadas. Clicar em qualquer nome de exibição carregará a exibição apropriada.
+   * Acesse, edite e redefina as exibições padrão, e acesse, edite e exclua as exibições personalizadas. Clicar em qualquer nome de exibição carrega a exibição apropriada.
 
 * Aplique filtros em qualquer coluna de dados disponível para alterar os dados exibidos na guia atual. É possível criar filtros a partir dos cabeçalhos da coluna ou de um botão na barra de ferramentas. Os filtros são mantidos ao abrir entidades secundárias. Por exemplo, se você exibir campanhas com \> 100 cliques e, em seguida, abrir um grupo de anúncios nessa campanha, somente grupos de anúncios com \> 100 cliques serão mostrados.
 

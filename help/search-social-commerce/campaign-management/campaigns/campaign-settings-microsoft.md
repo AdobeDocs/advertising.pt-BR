@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft® Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Para obter informações sobre disponibilidade, consulte a ajuda da Microsoft® 
 
 >[!TIP]
 >
->Para portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se as metas da campanha incluírem conversões rastreadas pelo [!DNL Microsoft Advertising] universal event tracking (UET), em seguida, adicione-os na tag [!DNL Microsoft Advertising] editor porque eles não serão recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Microsoft Advertising] editor, remova as ações de conversão da campanha como metas padrão da conta ao desmarcar &quot;incluir em conversões&quot;.
+>Para portfólios híbridos para os quais você faz upload de objetivos na rede de publicidade, a prática recomendada é usar metas de nível de campanha que correspondam às metas de conversão no objetivo do portfólio. No entanto, se as metas da campanha incluírem conversões rastreadas pelo [!DNL Microsoft Advertising] universal event tracking (UET), em seguida, adicione-os na tag [!DNL Microsoft Advertising] editor porque eles não são recarregados na rede de publicidade com o objetivo. Além disso, no âmbito do [!DNL Microsoft Advertising] editor, remova as ações de conversão da campanha como metas padrão da conta ao desmarcar &quot;incluir em conversões&quot;.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

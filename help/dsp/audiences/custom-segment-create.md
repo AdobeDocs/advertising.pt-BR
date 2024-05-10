@@ -3,9 +3,9 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
       A janela padrão é de 45 dias. Insira um valor de um (1) a 365.
 
-   1. Clique em **[!UICONTROL Advanced]** para expandir as configurações avançadas e, em seguida, selecione os tipos de identificadores de usuário que a tag de segmento rastreará:
+   1. Clique em **[!UICONTROL Advanced]** para expandir as configurações avançadas e selecionar os tipos de identificadores de usuário que a tag de segmento rastreia:
 
-      * *[!UICONTROL Cookies]:* (O padrão) A tag de segmento rastreará cookies.
+      * *[!UICONTROL Cookies]:* (O padrão) A tag de segmento rastreia cookies.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* A tag de segmento rastreará [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
+         * *[!UICONTROL ID5]:* A tag de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
         **[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta do DSP deve aceitar os termos uma vez antes que você possa usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta do Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 

@@ -3,9 +3,9 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Habilitar essa opção aciona automaticamente um upload para objetivos em portf�
 
   onde `<portfolio_id>` é a ID numérica do portfólio e `<se_acctid/conversion_manager_se_acctid>` é a ID numérica da conta da rede de publicidade ou da conta de gerente.
 
-  Sua equipe de conta do Adobe trabalhará com você para migrar os nomes de ação de conversão existentes na rede de anúncios antes que o formato antigo seja descontinuado. Durante o período de migração, os uploads de formato antigo e novo serão executados em paralelo. A modelagem e a otimização não são afetadas porque as novas ações de conversão aparecerão inicialmente com o status &quot;secundário&quot; (não otimizado) e com 90 dias de dados de preenchimento retroativo.
+  Sua equipe de conta do Adobe trabalhará com você para migrar os nomes de ação de conversão existentes na rede de anúncios antes que o formato antigo seja descontinuado. Durante o período de migração, os uploads de formato antigo e novo serão executados em paralelo. A modelagem e a otimização não são afetadas porque as novas ações de conversão aparecem inicialmente com o status &quot;secundário&quot; (não otimizado) e com 90 dias de dados de preenchimento retroativo.
 
 Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do anunciante. Carrega para [!DNL Microsoft® Advertising] ocorrem diariamente às 9h no fuso horário do anunciante.
 

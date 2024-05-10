@@ -1,9 +1,9 @@
 ---
 title: Aplicar filtros de dados na barra de ferramentas
 description: Saiba como filtrar os dados da página na barra de ferramentas.
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%

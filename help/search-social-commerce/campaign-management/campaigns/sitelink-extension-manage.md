@@ -1,11 +1,11 @@
 ---
 title: Gerenciar sitelinks compartilhados
 description: Saiba como criar e gerenciar extensões compartilhadas do sitelink.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Depois de criar um sitelink, você pode [atribuí-lo a uma conta, campanha ou gr
 
 ## Configurações de sitelink compartilhado {#shared-sitelink-settings}
 
-Para obter políticas adicionais e motivos para desaprovação do sitelink, consulte [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) e [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) requisitos de extensão do sitelink.
+Para obter políticas adicionais e motivos para desaprovação do sitelink, consulte [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) e [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) requisitos de extensão do sitelink.
 
 ### [!UICONTROL Sitelink]
 
@@ -96,7 +96,7 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 
 **[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-* Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot;O e o &quot;Upload automático&quot; do Search, Social e Commerce adicionam automaticamente os prefixos de seu próprio código de rastreamento de cliques ao salvar o registro.
+* Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;Upload automático&quot;, Search, Social e Commerce prefixam automaticamente seu próprio código de rastreamento de cliques ao salvar o registro.
 
 * Para obter os parâmetros compatíveis que incorporam o URL final, consulte o ([!DNL Microsoft Advertising] somente) [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou ([!DNL Google Ads] somente) os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
@@ -106,7 +106,7 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 
 >[!NOTE]
 >
->* Quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+>* Quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro.
 >* O modelo de rastreamento no nível mais granular substitui os valores em todos os níveis superiores. Por exemplo, se as configurações da conta e as configurações de palavra-chave incluírem um valor, o valor da palavra-chave será aplicado.
 >* ([!DNL Google Ads]) Se você atualizar um modelo de rastreamento no nível do sitelink ou da palavra-chave, os anúncios relevantes serão reenviados para revisão. É possível atualizar os modelos de rastreamento nos níveis de conta, campanha ou grupo de anúncios sem reenviar os anúncios para aprovação.
 >* ([!DNL Microsoft Advertising]) É possível atualizar os modelos de rastreamento em qualquer nível sem reenviar os anúncios para aprovação.

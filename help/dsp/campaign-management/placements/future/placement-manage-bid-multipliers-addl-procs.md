@@ -2,7 +2,7 @@
 title: Gerenciar multiplicadores de oferta para disposições
 description: Saiba mais sobre xxx
 feature: DSP Placements
-source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. a) Clique em **[!UICONTROL Download Template]** e edite o arquivo ou b) edite um template baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
 
-         Os modelos baixados incluem uma planilha para cada tipo de alvo (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores diferentes de 1,0 são incluídos.
+         As planilhas baixadas incluem uma planilha para cada tipo de destino (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores &lt; 1.0 ou > 1.0 são incluídos.
 
          * Para adicionar um multiplicador de lance para um target existente, informe o target usando a mesma sintaxe visível na interface do usuário e o valor do multiplicador de lance correspondente.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    1. a) Clique em **[!UICONTROL Download Template]** e edite o arquivo ou b) edite um template baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
 
-      Os modelos baixados incluem uma planilha para cada tipo de alvo (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores diferentes de 1,0 são incluídos.
+      As planilhas baixadas incluem uma planilha para cada tipo de destino (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores &lt; 1.0 ou > 1.0 são incluídos.
 
       * Para adicionar um multiplicador de lance para um target existente, informe o target usando a mesma sintaxe visível na interface do usuário e o valor do multiplicador de lance correspondente.
 

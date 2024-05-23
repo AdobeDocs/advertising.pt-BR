@@ -3,9 +3,9 @@ title: Gerenciar multiplicadores de oferta para disposições
 description: Saiba como criar e editar multiplicadores de oferta para seus alvos de posicionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ Esse recurso funciona com seus destinos de posicionamento existentes. Para alter
 
 1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Ajuste os multiplicadores de oferta para o target elegível manualmente ou fazendo upload de um arquivo CSV com valores de destino:
+1. Ajustar os multiplicadores de oferta para alvos elegíveis:
 
-   * Para ajustar manualmente os valores do multiplicador de oferta, mova para cada [guia específico do público-alvo](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e [!UICONTROL Brand Safety]) e edite os valores existentes para os destinos de posicionamento. A maioria das categorias de público alvo lista subcategorias à esquerda. Clique em uma subcategoria para gerenciar os multiplicadores de oferta dessa subcategoria, quando aplicável.
+   * Para ajustar manualmente os valores do multiplicador de oferta, mova para cada [guia específico do público-alvo](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e [!UICONTROL Brand Safety]) e edite os valores existentes para os destinos de posicionamento.
+
+     A maioria das categorias de público alvo lista subcategorias à esquerda. Clique em uma subcategoria para gerenciar multiplicadores de oferta para essa subcategoria, conforme aplicável.
 
    * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta para substituir os valores existentes:
 

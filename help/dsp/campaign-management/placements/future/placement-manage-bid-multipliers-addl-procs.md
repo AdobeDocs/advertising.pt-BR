@@ -1,30 +1,45 @@
 ---
 title: Gerenciar multiplicadores de oferta para disposições
-description: Saiba como criar e editar multiplicadores de oferta para destinos de posicionamento especificados.
+description: Saiba mais sobre xxx
 feature: DSP Placements
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Gerenciar multiplicadores de oferta para disposições
+# XXX
 
+## Gerenciar os Multiplicadores de Oferta para uma Única Colocação
 
-<!--
+1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-See if any of these procedures are implemented; may need to be edited and/or re-worded based on functionality/UI
+1. Clique no nome da campanha.
 
--->
+1. No submenu, clique em **[!UICONTROL Placements]**.
 
-Você pode alterar os multiplicadores de oferta de seus alvos de disposição existentes usando esse recurso.
+1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-Para alterar os destinos selecionados para suas disposições, consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+1. Ajustar os multiplicadores de oferta para alvos elegíveis:
+
+   * Para ajustar manualmente os valores do multiplicador de oferta, mova para cada [guia específico do público-alvo](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e [!UICONTROL Brand Safety]) e edite os valores existentes para os destinos de posicionamento.
+
+     A maioria das categorias de público alvo lista subcategorias à esquerda. Clique em uma subcategoria para gerenciar multiplicadores de oferta para essa subcategoria, conforme aplicável.
+
+   * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta para substituir os valores existentes:
+
+      1. Clique em **[!UICONTROL CSV File Edit]** no canto superior direito.
+
+      1. a) Clique em **[!UICONTROL Download Template]** e insira os alvos usando a mesma sintaxe visível na interface do usuário e os valores do multiplicador de lance correspondentes ou b) edite um template baixado anteriormente com as mesmas informações. Salve o arquivo editado em seu dispositivo ou rede.
+
+      1. Clique em **[!UICONTROL Next]** para ir para a [!UICONTROL Upload File] e a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
+
+      1. Verifique os dados carregados na variável [!UICONTROL Review & Submit] e clique em **[!UICONTROL Save]**.
 
 ## Gerenciar os multiplicadores de oferta para uma ou mais disposições
 
-Para todas as disposições selecionadas, você pode editar os valores manualmente ou fazer upload de uma planilha com valores.
+<!-- verify all and edit accordingly -->
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -34,9 +49,11 @@ Para todas as disposições selecionadas, você pode editar os valores manualmen
 
 1. Marque a caixa de seleção ao lado de cada disposição cujos multiplicadores de oferta você deseja gerenciar.
 
-1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
 
-1. Ajuste os multiplicadores de oferta para o target elegível manualmente ou fazendo upload de um arquivo CSV com valores de destino:
+<!-- Check the following this functionality when available in UAT -->
+
+1. Ajustar os multiplicadores de oferta para alvos elegíveis:
 
    * Para ajustar manualmente os valores do multiplicador de oferta, vá para cada guia específica de destino ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e[!UICONTROL Brand Safety]) e edite os valores existentes para os destinos de posicionamento.
 
@@ -55,43 +72,6 @@ Para todas as disposições selecionadas, você pode editar os valores manualmen
       1. a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
 
    1. Clique em **[!UICONTROL Upload]**.
-
-   Por padrão, o multiplicador de oferta de uma meta é 1,00, o que significa que a oferta não é ajustada para essa meta. Os valores podem variar de 0,10 a 10,00. Por exemplo, um modificador de lance de 0,5 diminui um lance de USD 6 para USD 3 (0,5 x 6). É possível definir multiplicadores de oferta (com valores diferentes de 1,00) para uma [número limitado de targets](#bid-multiplier-limits-by-target).
-
-   Quando um leilão é qualificado para vários modificadores de lance, todos os modificadores de lance aplicáveis são multiplicados.
-
-   Os modificadores de oferta nunca aumentam a oferta para mais do que a oferta máxima.
-
-1. Clique em **[!UICONTROL Save]**.
-
--->
-
-## Fazer Upload de uma Planilha para Gerenciar os Multiplicadores de Oferta para uma Única Colocação<!-- Is this still going to exist independently, or will you just do this via the "Bid Multiplier" option in the main context menu for placements? If both options, then reword headings for distinction -->
-
-As alterações no arquivo carregado substituem os valores existentes do multiplicador de oferta.<!-- what if you delete a row? -->
-
-1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-
-1. Clique no nome da campanha.
-
-1. No submenu, clique em **[!UICONTROL Placements]**.
-
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
-
-1. 
-   <!-- Verify the rest of these steps. -->
-
-1. a) Clique em **[!UICONTROL Download Template]** e edite os valores do multiplicador de oferta ou b) edite um template baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
-
-   Por padrão, o multiplicador de oferta de uma meta é 1,00, o que significa que a oferta não é ajustada para essa meta. Os valores podem variar de 0,10 a 10,00. Por exemplo, um modificador de lance de 0,5 diminui um lance de USD 6 para USD 3 (0,5 x 6). É possível definir multiplicadores de oferta (com valores diferentes de 1,00) para uma [número limitado de targets](#bid-multiplier-limits-by-target).
-
-   Quando um leilão é qualificado para vários modificadores de lance, todos os modificadores de lance aplicáveis são multiplicados.
-
-   Os modificadores de oferta nunca aumentam a oferta para mais do que a oferta máxima.
-
-1. a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
-
-1. Clique em **[!UICONTROL Upload]**.
 
 1. Clique em **[!UICONTROL Save]**.
 

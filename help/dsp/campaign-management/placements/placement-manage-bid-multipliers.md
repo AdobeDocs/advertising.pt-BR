@@ -3,9 +3,9 @@ title: Gerenciar multiplicadores de oferta para disposições
 description: Saiba como criar e editar multiplicadores de oferta para seus alvos de posicionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
+source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '613'
 ht-degree: 2%
 
 ---
@@ -34,11 +34,19 @@ Esse recurso funciona com seus destinos de posicionamento existentes. Para alter
 
      A maioria das categorias de público alvo lista subcategorias à esquerda. Clique em uma subcategoria para gerenciar multiplicadores de oferta para essa subcategoria, conforme aplicável.
 
-   * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta para substituir os valores existentes:
+   * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta para substituir todos os valores existentes:
 
       1. Clique em **[!UICONTROL CSV File Edit]** no canto superior direito.
 
-      1. a) Clique em **[!UICONTROL Download Template]** e insira os alvos usando a mesma sintaxe visível na interface do usuário e os valores do multiplicador de lance correspondentes ou b) edite um template baixado anteriormente com as mesmas informações. Salve o arquivo editado em seu dispositivo ou rede.
+      1. a) Clique em **[!UICONTROL Download Template]** e edite o arquivo ou b) edite um template baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
+
+         Os modelos baixados incluem uma planilha para cada tipo de alvo (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores diferentes de 1,0 são incluídos.
+
+         * Para adicionar um multiplicador de lance para um target existente, informe o target usando a mesma sintaxe visível na interface do usuário e o valor do multiplicador de lance correspondente.
+
+         * Para remover um modificador de oferta, defina o valor do multiplicador de oferta como 1,0 ou exclua todas as informações da linha.
+
+         ![Exemplo de linha em um arquivo de planilha do multiplicador de oferta](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemplo de linha em um arquivo de planilha do multiplicador de oferta")
 
       1. Clique em **[!UICONTROL Next]** para ir para a [!UICONTROL Upload File] e a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
 

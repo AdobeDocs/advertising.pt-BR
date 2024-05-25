@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
 workflow-type: tm+mt
-source-wordcount: '2775'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 20 de maio de 2024 | Anúncios de TV, Pixels, Segmentos de redirecionamento conectados | (Beta aberto; disponível somente nos EUA e AUS) Agora é possível redirecionar segmentos de público-alvo expostos a uma campanha de CTV com anúncios adicionais para aprimorar a publicidade entre canais:<ul><li>Configure um segmento de exposição de anúncio e copie a tag de rastreamento de impressão para o posicionamento do CTV desejado ou anúncio para começar a rastrear o segmento.</li><li>Na inserção de redirecionamento, selecione o segmento de exposição do CTV na [!UICONTROL Audience Targeting] seção.</li></ul> | Consulte &quot;[Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot; e &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 de maio de 2024 | Anúncios, Pixels | É possível baixar as configurações de anúncio e associações de posicionamento para todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão no [!UICONTROL Ad Tools] exibição. | Consulte &quot;[Analise os detalhes do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | A variável [!UICONTROL Ad Tools] visualizar > [!UICONTROL Attach Pixels] A guia mostra os pixels de rastreamento de terceiros anexados aos seus anúncios e fornece um novo fluxo de trabalho para anexar pixels a um ou mais anúncios e desanexar pixels existentes. | Consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Posicionamentos, públicos | Agora é possível excluir segmentos de público-alvo individuais ou públicos-alvo não reutilizáveis de disposições por meio de ferramentas de edição em massa ou do editor de disposições. | Consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)&quot; e &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |

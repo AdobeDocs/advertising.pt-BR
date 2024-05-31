@@ -3,9 +3,9 @@ title: Pré-requisitos e informações-chave para implementação do [!DNL Analy
 description: Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 * Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
 * (Clientes de publicidade DSP) Uma [Anunciando trecho JavaScript do DSP](javascript.md) implantado em suas páginas da web para rastrear visitas de view-through.
+* O parâmetro da ID do AMO nos URLs de rastreamento dos seus anúncios.
+
+  O parâmetro é adicionado automaticamente aos URLs de rastreamento em algumas circunstâncias, mas pode ser necessário adicioná-lo manualmente. Em &quot;Adobe Advertising IDs Used by [!DNL Analytics]/help/integrations/analytics/ids.md,&quot; consulte &quot;[Formas de implementação da ID do AMO](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: Tipos de relatórios de desempenho em visualizações do Campaign Managem
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Além disso, você pode exibir os seguintes dados nas configurações de posicio
 
 * [A (visualização detalhada [!UICONTROL Inspector])](placement-details-view.md), que mostra todos os sites direcionados, anúncios, dados de frequência e ofertas para um posicionamento.
 
-* A [relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Relatórios de diagnóstico de posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 

@@ -3,9 +3,9 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
          1. Copie a tag de rastreamento de exibição de página, chamada de &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (Tags para segmentos que rastream [!DNL ID5] IDs) Na tag copiada, substitua `ID5_PARTNER_ID` com a ID do parceiro que [!DNL ID5] atribuído à sua organização.
+
+            Por exemplo, se a ID do parceiro ID5 for `abcde` e a tag de segmento gerada for
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            depois substituir `ID5_PARTNER_ID` com `abcde` na tag para obter o seguinte:
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            Sua organização recebeu a ID do parceiro quando assinou um contrato com a [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta do Adobe.
+
+            Essa etapa não é necessária para que as tags rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
+
          1. Forneça a tag ao anunciante ou contato do site para implantação.
 
             O departamento de TI do anunciante ou outro grupo pode precisar agendar ou ser informado sobre a implantação da tag.
@@ -89,21 +103,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
          1. Copie a tag de rastreamento de impressão, chamada de &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (Tags para segmentos que rastream [!DNL ID5] IDs para visitantes móveis e de desktop a uma página da Web) Na tag copiada, substitua `ID5_PARTNER_ID` com a ID do parceiro que [!DNL ID5] atribuído à sua organização.
-
-   Por exemplo, se a ID do parceiro ID5 for `abcde` e a tag de segmento gerada for
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   depois substituir `ID5_PARTNER_ID` com `abcde` na tag para obter o seguinte:
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   Sua organização recebeu a ID do parceiro quando assinou um contrato com a [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta do Adobe.
-
-   Essa etapa não é necessária para que as tags rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
-
-1. Adicione a tag ao [!UICONTROL Pixel] para cada anúncio relevante ou para o [!UICONTROL Event Pixels] seção do [[!UICONTROL Tracking] configurações para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Adicione a tag ao [!UICONTROL Pixel] para cada anúncio relevante ou para o [!UICONTROL Event Pixels] seção do [[!UICONTROL Tracking] configurações para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Depois que uma tag de rastreamento é implementada, você pode usar o segmento nos destinos ou exclusões de público-alvo para qualquer posicionamento.
 

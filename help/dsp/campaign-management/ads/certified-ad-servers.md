@@ -3,9 +3,9 @@ title: Parceiros certificados de veiculação de anúncios
 description: Consulte todos os servidores de anúncios e unidades de anúncios certificados.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
+source-git-commit: af73b56336b3d676a9bc4f6c02835ef1e12ddda3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Capas de alto impacto (incluindo anúncios conversacionais Cavai) devem ser servidas a partir de uma ID de negócios de exibição 180x150 em toda a rede de inventário Inskin. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Âncora de 320x50, BYOC, Passar o mouse, Sair, Sair e Sidekick; 300x250 Externo, Alto-alcance; Exibição de desktop padrão (IDs de plug-in de anúncio específicas não são necessárias); Âncora de vídeo (somente VAST); CTV via [!DNL Pubmatic]</br></br>Entre em contato com a equipe de conta do Adobe para obter assistência na configuração de unidades de publicidade. |
+| [!DNL Kargo] | | X | | X | Âncora de 320x50, BYOC, Passar o mouse, Sair, Sair, Pista e Sidekick; 300x250 Outstream, HighRise; Exibição de desktop padrão (IDs de plug-in de anúncio específicas não são necessárias); Âncora de vídeo (somente VAST); CTV via [!DNL Pubmatic]</br></br>Entre em contato com a equipe de conta do Adobe para obter assistência na configuração de unidades de publicidade. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

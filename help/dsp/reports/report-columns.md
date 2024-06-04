@@ -3,9 +3,9 @@ title: Colunas de Relatório Disponíveis
 description: Consulte descrições de colunas disponíveis em relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | O identificador exclusivo do criativo do vídeo no DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | O nome do criativo atribuído pelo usuário. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | A variável [!UICONTROL App/Site Distinct Uniques] dividido por [!UICONTROL App/Site Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | O número total de dispositivos que foram atingidos somente neste aplicativo. Um visualizador exposto a um anúncio em vários editores não é incluído nesse valor. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | O número total de dispositivos que foram atingidos somente neste aplicativo. Um visualizador exposto a um anúncio em vários editores não é incluído nesse valor. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | A variável [!UICONTROL Total Spend] dividido por [!UICONTROL App/Site Distinct Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | A variável [!UICONTROL Total Spend] dividido por [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | A porcentagem estimada do universo doméstico alvo que recebeu uma exposição. |
@@ -126,6 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | O número total de impressões veiculadas que puderam ser medidas para fins de visibilidade. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | O gasto total. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | O total de domicílios únicos (endereços IP distintos) alcançados. |
+| [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | O tipo de ID direcionada. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | O custo bruto médio por aquisição, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | O custo bruto médio por clique no anúncio, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | O custo médio por visualização de vídeo concluída, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |

@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamen
 
 * Modelos de relatório pré-configurados
 
-   * **[!UICONTROL Billing]:** Use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha.
+   * **[!UICONTROL Billing]:** Use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamen
 
    * **[!UICONTROL Geo]**: use esse modelo pré-preenchido para ver as métricas principais por dimensões geográficas.
 
-   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento.
+   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Segment]:** Use esse modelo pré-preenchido para ver as métricas principais por segmento.
 
@@ -72,9 +72,9 @@ Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamen
 
    * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
+   * **[!UICONTROL Household Reach & Frequency]:** Use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-   * **[!UICONTROL Household Conversions]:** Use esse relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações.
+   * **[!UICONTROL Household Conversions]:** Use esse relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
 ## Relatório entre contas {#cross-account-reporting}
 

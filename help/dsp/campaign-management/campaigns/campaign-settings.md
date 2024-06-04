@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Para estimar impostos a reter:
 >
 >* Você também pode configurar esses valores nas configurações de taxa da conta.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Somente leitura para campanhas existentes criadas desde 22 de junho de 2020; não disponível para campanhas criadas antes de 22 de junho de 2020) O nível no qual o DSP direcionará anúncios e aplicará limites de frequência: *Mesmo dispositivo* para direcionar um dispositivo ou *Pessoas* para direcionar uma pessoa em todos os dispositivos conhecidos.
+**[!UICONTROL Cross Device Level]:** (Somente leitura para campanhas existentes criadas desde 22 de junho de 2020; não disponível para campanhas criadas antes de 22 de junho de 2020) O nível no qual o DSP direciona anúncios e aplica limites de frequência: *Mesmo dispositivo* para direcionar um dispositivo ou *Pessoas* para direcionar uma pessoa em todos os dispositivos conhecidos. **Nota:** O suporte entre dispositivos não está disponível para posicionamentos que direcionam IDs universais.
 
 **[!UICONTROL Device Graph]:** (Somente leitura para campanhas existentes; campanhas com direcionamento entre dispositivos baseado em pessoas somente) O gráfico de dispositivos a ser usado para direcionamento entre dispositivos e gerenciamento de frequência:
 
@@ -86,7 +86,9 @@ Para estimar impostos a reter:
 
   Essa opção também está disponível para todos os anunciantes, sem taxas, para gestão de frequência e medição de atribuição.
 
-**[!UICONTROL Frequency Cap]:** (Opcional) O número de vezes que um dispositivo ou pessoa única (dependendo do [!UICONTROL Cross Device Level]) podem ser veiculados em anúncios da campanha. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
+  O suporte entre dispositivos se aplica somente a posicionamentos que direcionam IDs herdadas, mas não a posicionamentos que direcionam IDs universais (incluindo [!DNL LiveRamps]). O direcionamento, o gerenciamento de frequência e a atribuição de IDs universais são aplicados somente no nível de ID.
+
+**[!UICONTROL Frequency Cap]:** (Opcional) O número de vezes que um dispositivo exclusivo, ID universal ou pessoa (dependendo do [!UICONTROL Cross Device Level] e o posicionamento [!UICONTROL Targeting] ) podem ser veiculadas com anúncios da campanha. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
 
 >[!NOTE]
 >

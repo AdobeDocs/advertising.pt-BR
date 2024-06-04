@@ -1,47 +1,97 @@
 ---
-title: Sobre a ativação de segmentos autenticados de fontes de público-alvo
-description: Saiba mais sobre como assimilar segmentos primários de uma plataforma de dados do cliente.
+title: Sobre fontes de público-alvo primárias
+description: Saiba mais sobre como converter outros identificadores de usuário em seus segmentos primários em IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: f01cfbf22628cec0510f4a860ad927b333d5946a
+source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
-# Sobre a ativação de segmentos autenticados de fontes de público-alvo
+# Sobre fontes de público-alvo primárias
 
-O DSP pode assimilar segmentos primários compostos de IDs de email com hash ou IDs universais criadas em uma CDP (Plataforma de dados do cliente). Você pode usar os segmentos assimilados como destinos de suas inserções.
+*Recurso beta*
 
-As CDPs a seguir estabeleceram conectores, mas o DSP também pode se conectar a qualquer CDP usando lote, transmissão ou compartilhamento de dados baseado em API. Para integrar com uma nova CDP, entre em contato com a equipe de conta da Adobe.
+O DSP pode assimilar segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de dados do cliente) e convertê-los em segmentos compostos de IDs universais. Cada ID resultante é baseada em pessoas e os limites de frequência de anúncio são aplicados no nível de ID<!-- Move that info. to somewhere else? -->.
 
-## [!DNL Adobe Real-Time Customer Data Platform]
+Os detalhes do segmento incluem o tamanho de cada tipo de ID universal, bem como o tamanho de cada tipo de dispositivo rastreado por cookies ou IDs de dispositivo.
 
-O DSP é integrado ao [o [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte do Adobe Experience Platform.
+## Tipos de ID universal {#universal-id-types}
 
-Entrada [!DNL Real-Time CDP], *destinos* são conexões com plataformas de dados externas que permitem ativação de dados contínua. Por exemplo, você pode usar destinos para ativar seus relacionamentos de cliente conhecidos (como endereços de email com hash) para publicidade direcionada em formatos digitais suportados pelo DSP. Para obter mais informações sobre destinos, consulte a Experience Platform [Guia de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), incluindo uma visão geral do produto, instruções para [criação de espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [criação de conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), e [ativação de dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+<!--  Replace below with this once ID5 sources are possible 
 
-Para obter mais informações, consulte &quot;[Fluxo de trabalho para usar a integração do DSP com o [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Using your first-party data, you can create segments with IDs from the following universal ID partners.
 
-## [!DNL ActionIQ]
+* Authenticated (deterministic) IDs using hashed email addresses:
 
-Você pode compartilhar os dados primários de sua organização na [!DNL Action IQ] plataforma de dados do cliente com DSP. Em seguida, é possível direcionar os posicionamentos do DSP para os segmentos usando [!DNL RampIDs] ou [!DNL Unified IDs 2.0].
+-->
 
-Essa integração requer personalização. Entre em contato com a equipe de conta do Adobe para obter mais informações.
+Você pode traduzir segmentos primários para segmentos com IDs autenticadas (determinísticas) dos seguintes parceiros de ID universal.
 
-## [!DNL Tealium]
+* [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-Você pode compartilhar os dados primários de sua organização na [!DNL Tealium] plataforma de dados do cliente usando [!DNL Amazon Web Services]. Em seguida, é possível direcionar os posicionamentos do DSP para os segmentos usando [!DNL RampIDs]. Para obter mais informações, consulte &quot;[Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
+   * Para redirecionar usuários conectados.
+
+     [!DNL RampIDs] estão disponíveis para usuários na América do Norte, Austrália e Nova Zelândia.
+
+     As taxas são de US$ 0,15 por impressão de anúncio de exibição entregue e US$ 0,25 por impressão de anúncio de vídeo entregue.
+
+   * Para medição usando [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+
+* [[!DNL Unified ID 2.0 (UID2.0)] IDs](https://unifiedid.com):
+
+   * Para redirecionar usuários conectados.
+
+     [!DNL UID2 IDs] não estão disponíveis para usuários no Espaço Econômico Europeu e em alguns países adicionais. Consulte a [lista de países proibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+     As taxas são de US$ 0,15 por impressão de anúncio de exibição entregue e US$ 0,25 por impressão de anúncio de vídeo entregue.
+
+<!-- Not yet
+
+* Probabilistic (unauthenticated) IDs using hashed email addresses:
+
+  * [[!DNL ID5] IDs](https://id5.io): For retargeting unauthenticated site traffic, prospecting using third-party data, and measurement for both using [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md). ID5 IDs are available for no fee.
+
+    ID5 creates an ID by stitching together user signals (hashed email address) with various browser signals (such as IP address and timestamp).
+
+    [!DNL Analytics] measurement requires all [prerequisites for implementing [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) and the [AMO ID and EF ID in your tracking URLs](/help/integrations/analytics/ids.md). You also must sign an agreement with [!DNL ID5] and set a parameter within your existing JavaScript tracking tags. <!-- Contact your Adobe Account Team for instructions. -->
+
+<!--
+    >[!NOTE]
+    >
+    >Third-party segments from [!DNL Eyeota] may automatically include ID5 IDs, in addition to users tracked by cookies or device IDs. The segment details include the size for each type. The usual usage fee for each segment, which is stated next to the segment name, applies; no additional fees are charged for the ID5 IDs.
+-->
+
+## Plataformas de dados do cliente compatíveis com segmentos primários
+
+O DSP estabeleceu conectores para as seguintes CDPs para assimilar rapidamente seus segmentos primários.
+
+O DSP também pode se conectar a qualquer CDP adicional usando compartilhamento de dados em lote, transmissão ou API. Para integrar com uma nova CDP, entre em contato com a equipe de conta da Adobe.
+
+### [!DNL Adobe Real-Time Customer Data Platform]
+
+O DSP é um *destino* para [o [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte do Adobe Experience Platform.
+
+Entrada [!DNL Real-Time CDP], os destinos são conexões com plataformas de dados externas que permitem ativação de dados contínua. Você pode usar destinos para ativar seus endereços de email com hash para publicidade direcionada no DSP. Para obter mais informações sobre destinos, consulte a Experience Platform [Guia de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), incluindo uma visão geral do produto, instruções para [criação de espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [criação de conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), e [ativação de dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+
+Para permitir que o DSP assimile seu [!DNL Adobe] [!DNL Real-time CDP] segmentos primários e converter seus endereços de email com hash em IDs universais, consulte &quot;[Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+
+### [!DNL ActionIQ]
+
+Você pode compartilhar os dados primários de sua organização na [!DNL Action IQ] plataforma de dados do cliente com DSP para converter seus endereços de email com hash em IDs universais para publicidade direcionada no DSP. Essa integração requer personalização. Entre em contato com a equipe de conta do Adobe para obter mais informações.
+
+### [!DNL Tealium]
+
+Você pode compartilhar os dados primários de sua organização na [!DNL Tealium] plataforma de dados do cliente usando [!DNL Amazon Web Services]. Para obter mais informações sobre como converter seus endereços de email com hash em IDs universais para publicidade direcionada em DSP, consulte &quot;[Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Fluxo de trabalho para usar a integração do DSP com o [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
->* [Criar uma fonte de público-alvo para ativar públicos-alvo primários](source-create.md)
+>* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)
+>* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
 >* [Configurações de fonte de público](source-settings.md)
+>* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Workflow for Using the DSP Integration with [!DNL ActionIQ]](/help/dsp/audiences/sources/source-actioniq.md)
--->
+>* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

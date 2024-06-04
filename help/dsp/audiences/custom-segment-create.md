@@ -3,9 +3,9 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
+source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
 *Recurso beta*
 
-* Antes de gerar um segmento para rastrear usuários associados a IDs ID5, você deve assinar um contrato com a [!DNL ID5] e obtenha a ID de parceiro da organização. Entre em contato com a equipe de conta do Adobe para obter instruções.
+* Antes de gerar um segmento para rastrear usuários associados a IDs ID5, assine um contrato com a [!DNL ID5] e obtenha a ID de parceiro da organização. Entre em contato com a equipe de conta do Adobe para obter instruções.
 
 * Para a medição no Adobe Analytics, você deve:
 
@@ -42,6 +42,8 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+   1. Use qualquer ferramenta de depuração de navegador para verificar se cada chamada foi iniciada para o domínio `lasteventf-tm.everesttech.net` e contém o parâmetro `_les_id5` com uma ID ID5 criptografada como seu valor.
 
 ## Criar e implementar um segmento personalizado
 

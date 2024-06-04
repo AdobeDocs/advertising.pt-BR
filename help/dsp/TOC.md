@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 + Públicos-alvo {#audiences}
    + [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
-   + Públicos-alvo {#reusable-audiences}
+   + [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
+   + Públicos-alvo reutilizáveis {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
    + Origens {#sources}
-      + [Sobre a ativação de segmentos autenticados de fontes de público-alvo](/help/dsp/audiences/sources/source-about.md)
+      + [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
       + Workflows por plataforma de dados do cliente {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [Fluxo de trabalho para usar a integração do DSP com o [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [Ativar segmentos autenticados de parceiros de ID universal](/help/dsp/audiences/sources/source-universal-id.md)
-         + [Fluxo de trabalho para usar a integração do DSP com o [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [Criar uma fonte de público-alvo para ativar públicos-alvo primários](/help/dsp/audiences/sources/source-create.md)
+         + [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)
+      + [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-create.md)
       + [Configurações de fonte de público](/help/dsp/audiences/sources/source-settings.md)
+   + [Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Provedores de dados de terceiros disponíveis](/help/dsp/audiences/third-party-data-providers.md)
 + Inventário {#inventory}
    + [Visão Geral dos Recursos do Inventário](/help/dsp/inventory/inventory-overview.md)

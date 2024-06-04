@@ -3,16 +3,16 @@ title: Editar disposições
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Editar disposições
 
-É possível editar as configurações de uma única disposição ou de várias disposições de uma só vez.
+É possível editar as configurações de uma única disposição ou de várias disposições de uma só vez. Algumas configurações não podem ser alteradas depois que o posicionamento estiver ativo.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 

@@ -2,9 +2,10 @@
 title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Em um posicionamento novo, agendado ou pausado, faça o seguinte:
 
       1. Selecione o tipo de ID universal a ser direcionado.
 
-         A configuração inclui as opções &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; que pode incluir as subopções &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID],&quot; e &quot;[!UICONTROL Unified ID2.0].&quot; As subopções reais são determinadas pelos alvos geográficos selecionados.
+         A configuração inclui as opções &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; que pode incluir as subopções &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID],&quot; e &quot;[!UICONTROL Unified ID2.0].&quot; Os destinos geográficos selecionados determinam as subopções disponíveis.
 
          Você pode selecionar ambos &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; mas é possível selecionar apenas um tipo de ID universal por posicionamento. Ao selecionar IDs herdadas e IDs universais, a preferência de lances é dada às IDs universais.
 
@@ -80,7 +81,7 @@ Use as seguintes práticas recomendadas para [!DNL RampID]Segmentos com base em 
 
   Consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances)&quot; para obter mais informações sobre como as contagens de segmentos podem variar.
 
-* Não altere seus pacotes e posicionamentos existentes. No entanto, se você não tiver orçamento incremental para testar IDs universais, reduza os orçamentos originais para financiar os testes.
+* Não altere seus pacotes e posicionamentos existentes. No entanto, se você não tiver um orçamento incremental para testar as IDs universais, reduza os orçamentos originais para financiar os testes.
 
 * Copie os pacotes e posicionamentos originais, ajuste os orçamentos com base no tamanho do teste e altere os públicos-alvo a serem usados [!DNL RampID]Segmentos com base em (para usuários autenticados) ou segmentos com base em ID5 (para usuários não autenticados) e verifique se os novos pacotes e posicionamentos gastam seu orçamento completo.
 
@@ -96,7 +97,7 @@ Use as seguintes práticas recomendadas para [!DNL RampID]Segmentos com base em 
 
      >[!NOTE]
      >
-     >O limite de frequência se aplica a uma ID individual. Quando um usuário tem vários tipos de ID, você pode estar atingindo esse usuário mais do que o esperado.
+     >O limite de frequência se aplica a uma ID individual. Quando um usuário tem vários tipos de ID, você pode alcançar esse usuário mais do que o esperado.
 
 * Lembre-se de que o alcance para segmentos de público-alvo autenticados é naturalmente menor do que o alcance para segmentos baseados em cookies, e que o uso de opções adicionais de direcionamento diminui ainda mais o alcance. Seja criterioso em usar o direcionamento granular, especialmente ao unir vários targets com instruções AND.
 
@@ -108,7 +109,7 @@ Há dois motivos para a variação de IDs de email com hash traduzidas em [!DNL 
 
 * A [!DNL RampID] pode ser atualizado para um novo valor. Se [!DNL LiveRamp] não reconhece uma ID de e-mail ou não pode mapeá-la para uma ID existente [!DNL RampID] em seu banco de dados, atribuirá um novo [!DNL RampID] à ID de e-mail. No futuro, quando eles puderem mapear a ID de email para outra [!DNL RampID] ou puder coletar mais informações sobre a mesma ID de email, eles atualizarão o [!DNL RampID] para um novo valor. [!DNL LiveRamp] refere-se a esta ação como atualização de um &quot;derivado&quot; [!DNL RampID] para um ambiente &quot;mantido&quot; [!DNL RampID]. No entanto, o DSP não obtém mapeamentos entre derivados e mantidos [!DNL RampIDs] e, portanto, não pode remover a versão anterior da RampID do segmento DSP. Nesse caso, a contagem de segmentos pode ser maior que a contagem de perfis.
 
-  Exemplo: um usuário faz logon na variável [!DNL Adobe] site e visite a página do Photoshop. Se [!DNL LiveRamp] não tiver nenhuma informação existente sobre a ID de e-mail e, em seguida, atribuírem a ela um [!DNL RampID], digamos D123. Quinze dias depois, o usuário visita a mesma página, mas [!DNL LiveRamp] atualizou o [!DNL RampID] durante esses 15 dias e tiver reatribuído a [!DNL RampID] M123. Embora o segmento &quot;Entusiasta da Photoshop&quot; da plataforma de dados do cliente tenha apenas uma ID de email para o usuário, o segmento DSP tem duas RampIDs: D123 e M123.
+  Exemplo: um usuário faz logon na variável [!DNL Adobe] site e visita a página do Photoshop. Se [!DNL LiveRamp] não tiver nenhuma informação existente sobre a ID de e-mail e, em seguida, atribuírem a ela um [!DNL RampID], digamos D123. Quinze dias depois, o usuário visita a mesma página, mas [!DNL LiveRamp] atualizou o [!DNL RampID] durante esses 15 dias e tiver reatribuído a [!DNL RampID] M123. Embora o segmento &quot;Entusiasta da Photoshop&quot; da plataforma de dados do cliente tenha apenas uma ID de email para o usuário, o segmento DSP tem duas RampIDs: D123 e M123.
 
 ## Solução de problemas
 

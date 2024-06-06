@@ -3,7 +3,7 @@ title: Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal
 description: Saiba como criar e gerenciar uma fonte para importar públicos da plataforma de dados do cliente e convertê-los em segmentos que contêm IDs universais.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Especifique a [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
 
-1. Insira o restante [configurações de origem](source-settings.md).
+1. Insira o restante [configurações de origem](#source-settings).
 
    Manter uma cópia do [!UICONTROL Source Key] que é gerado. Você precisará do valor mais tarde.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Edit]**.
 
-1. Altere o [IDs selecionadas para a origem](source-settings.md).
+1. Altere o [IDs selecionadas para a origem](#source-settings).
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Você pode exibir detalhes sobre alterações em um registro de origem de públi
 
 1. (Opcional) Para abrir o log em uma tela de detalhes maior, mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL View Details]**.
 
-## Configurações de fonte de público
+## Configurações de fonte de público {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Se os segmentos estão disponíveis para um único anunciante com acesso à conta (*[!UICONTROL Advertiser]*) ou a todos os anunciantes com acesso à conta *[!UICONTROL Account]*.
 

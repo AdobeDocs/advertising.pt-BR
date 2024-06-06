@@ -3,7 +3,7 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Se você não estiver vendo as contagens de usuários ou se os tamanhos de públ
 
 * Certifique-se de que o código correto e específico do parceiro de ID universal esteja implementado em seu site para corresponder aos eventos e às exposições dos anúncios no site. Trabalhe com o seu [!DNL LiveRamp] ou [!DNL ID5] representante, conforme necessário.
 
-* (Para [!DNL RampIDs] e [!DNL UID 2.0] IDs) Certifique-se de que seus [A fonte de dados do DSP está configurada corretamente](/help/dsp/audiences/sources/source-settings.md)e que as contagens de usuários sejam preenchidas para os segmentos de público-alvo gerados.
+* (Para [!DNL RampIDs] e [!DNL UID 2.0] IDs) Certifique-se de que seus [A fonte de dados do DSP está configurada corretamente](/help/dsp/audiences/sources/source-manage.md#source-settings)e que as contagens de usuários sejam preenchidas para os segmentos de público-alvo gerados.
 
 * Se o alcance for menor do que o esperado, verifique se a lógica do segmento de público-alvo não é muito granular.
 

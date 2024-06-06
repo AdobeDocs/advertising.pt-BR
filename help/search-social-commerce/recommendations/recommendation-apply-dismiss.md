@@ -3,7 +3,7 @@ title: Aplicar ou ignorar uma recomendação do editor
 description: Saiba como exibir, aplicar ou ignorar uma recomendação do editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Aplicar ou ignorar uma recomendação do editor
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
 
-*Recurso beta para [!DNL Microsoft® Advertising] contas*
+*Recurso beta para [!DNL Microsoft Advertising] contas*
 
 Exibir as ações recomendadas e uma explicação de por que as ações seriam benéficas para uma recomendação do editor. Você pode aplicar a recomendação quando ela estiver alinhada às suas metas de negócios e ignorar uma recomendação quando não estiver alinhada.
 
@@ -26,7 +26,7 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 
 1. No canto superior direito, selecione a rede de anúncios e a conta.
 
-   Para [!DNL Microsoft® Advertising] contas, a variável [!UICONTROL Recommendations] para a conta são listados por padrão.
+   Para [!DNL Microsoft Advertising] contas, a variável [!UICONTROL Recommendations] para a conta são listados por padrão.
 
 1. (Opcional) Filtre as recomendações por categoria e tipo.
 

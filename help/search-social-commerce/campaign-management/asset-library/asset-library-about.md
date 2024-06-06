@@ -3,16 +3,16 @@ title: Sobre o [!UICONTROL Asset Library]
 description: Saiba mais sobre a biblioteca de ativos para seus ativos de anúncios.
 feature: Search Campaign Management
 exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 61eccefe29d38f925a6b0d2fc2de9af73b014c74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
 # Sobre o [!UICONTROL Asset Library]
 
-<!-- Combine with "Create" page into one page? -->
+<!-- Combine with "Create" page into one page once you can do more than just create/upload. Or still combine them and rename this page; you can't really "manage" assets here, just create/upload and see a list of assets you've previously uploaded (including a preview), but not edit existing uploaded assets or anything on the ad network. -->
 
 *Para [!DNL Google Ads] e [!DNL Microsoft Advertising] somente contas*
 
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 Entrada [!UICONTROL Campaigns] > [!UICONTROL Asset Library], você pode criar imagens, vídeos e vídeos reutilizáveis (para [!DNL Google Ads] somente) ativos de texto e carregue-os no seu [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
 
-Você pode usar seus ativos para anúncios ao criar ou editar campanhas:
+Ao criar ou editar campanhas de desempenho máximo na Pesquisa de publicidade, você pode selecionar entre todos os ativos existentes na biblioteca de ativos específica da rede de anúncios (incluindo os ativos que você carregou daqui) para imagens, logotipos e vídeos. Você também pode fazer upload de novos ativos.
 
-* [!DNL Google Ads]: Nas configurações de desempenho máximo do Campaign na Pesquisa de publicidade, é possível selecionar entre os ativos existentes na [!UICONTROL Asset Library] para imagens, logotipos e vídeos. Você também pode fazer upload de novos ativos.
+<!--
+Should all assets on the ad network be listed in Campaigns > Asset Library by now, or just ones created/uploaded from our UI? (Within perf max campaign settings, you can select from all in the ad network's asset library, which should include assets uploaded from our UI. But I'm not sure that this list here is the same.) If all, then mention when they're updated.
 
-* [!DNL Microsoft Advertising]: você pode adicionar os ativos carregados às campanhas aplicáveis em [!DNL Microsoft Advertising] editor.
+-->
 
 >[!MORELIKETHIS]
 >

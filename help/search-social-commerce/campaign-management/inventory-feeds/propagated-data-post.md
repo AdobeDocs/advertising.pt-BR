@@ -3,7 +3,7 @@ title: Publicar dados de campanha gerados a partir de feeds para redes de anúnc
 description: Saiba como publicar dados gerados a partir de feeds de dados de inventário em redes de anúncios.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Publicar dados de campanha gerados a partir de feeds para redes de anúncios
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
 
 Você pode publicar dados de campanha gerados a partir de um feed à medida que propaga os dados por meio dos modelos associados ou como um processo separado. Depois de publicar os dados, todos os dados propagados existentes serão removidos da [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] listas.
 

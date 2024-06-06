@@ -3,9 +3,9 @@ title: Sobre fontes de público-alvo primárias
 description: Saiba mais sobre como converter outros identificadores de usuário em seus segmentos primários em IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Você pode compartilhar os dados primários de sua organização na [!DNL Tealiu
 >
 >* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Configurações de fonte de público](source-settings.md)
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

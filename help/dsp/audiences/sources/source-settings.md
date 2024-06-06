@@ -3,9 +3,9 @@ title: Configurações de fonte de público
 description: Saiba mais sobre as configurações para fontes de público-alvo.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 >[!MORELIKETHIS]
 >
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Sobre fontes de público-alvo primárias](source-about.md)
 >* [Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

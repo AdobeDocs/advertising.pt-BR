@@ -3,9 +3,9 @@ title: Importar segmentos autenticados manualmente do [!DNL LiveRamp]
 description: Saiba mais sobre como ativar públicos autenticados por meio do [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: f10a0bd487d641bd150d9ecbefe907b2bf25e5a7
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ O mapeamento de segmentos e o upload de cada trabalho de importação podem leva
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](source-about.md)
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Configurações de fonte de público](source-settings.md)
 >* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

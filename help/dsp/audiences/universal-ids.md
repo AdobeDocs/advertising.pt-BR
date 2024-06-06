@@ -3,9 +3,9 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Se você não conseguir resolver o problema, entre em contato com a equipe de co
 
 >[!MORELIKETHIS]
 >
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md)
 >* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)

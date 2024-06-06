@@ -3,9 +3,9 @@ title: Converter IDs de usuário de [!DNL Tealium] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Tealium] segmentos primários.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Para obter suporte para solução de problemas, entre em contato com a equipe de
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Configurações de fonte de público](source-settings.md)
 >* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

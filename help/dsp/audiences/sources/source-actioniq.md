@@ -2,9 +2,9 @@
 title: "Converter IDs de usuário de [!DNL ActionIQ] para Universal IDs"
 description: "Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários."
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Os segmentos são atualizados a cada 24 horas.
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Criar uma fonte de público-alvo para ativar públicos-alvo da Universal ID](source-create.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Configurações de fonte de público](source-settings.md)
 >* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)

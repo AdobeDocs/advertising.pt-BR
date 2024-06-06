@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 5 de junho de 2024 | Posicionamentos | Agora é possível gerenciar multiplicadores de oferta para várias disposições de uma vez usando uma planilha. | Consulte &quot;[Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
+|  | Fontes de público-alvo | Agora você pode alterar os tipos de ID universal para os quais o público-alvo de origem é traduzido e exibir um log das alterações. | Consulte &quot;[Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 de maio de 2024 | Otimização, anúncios de TV conectados | Em pacotes com as metas de otimização &quot;CPA mais baixo&quot; e &quot;ROAS mais alto&quot;, os modelos de desempenho para anúncios de TV conectados agora usam dados de vários pontos de contato no caminho de conversão para um aprendizado de máquina mais rápido e robusto. Os pacotes existentes são atualizados para usar a otimização multitoque e nenhuma ação é necessária. | — |
 | 20 de maio de 2024 | Anúncios de TV, Pixels, Segmentos de redirecionamento conectados | (Beta aberto; disponível somente nos EUA e AUS) Agora é possível redirecionar segmentos de público-alvo expostos a uma campanha de TV conectada com anúncios adicionais para aprimorar a publicidade entre canais:<ol><li>Configure um segmento de exposição de anúncio e copie a tag de rastreamento de impressão para o posicionamento desejado da TV conectada ou anúncio para começar a rastrear o segmento.</li><li>Na inserção de redirecionamento, selecione o segmento de exposição da TV conectado na [!UICONTROL Audience Targeting] seção.</li></ol> | Consulte &quot;[Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot; e &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 de maio de 2024 | Anúncios, Pixels | É possível baixar as configurações de anúncio e associações de posicionamento para todos os anúncios em uma campanha no formato XLSX (planilha do Excel) para revisão no [!UICONTROL Ad Tools] exibição. | Consulte &quot;[Analise os detalhes do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |

@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] configurações da campanha'
 description: Referenciar as configurações de [!DNL Microsoft Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Mostra anúncios nativos/de exibição na [!DNL Microsoft Audience Network]. Você pode a) gerar automaticamente anúncios baseados em feed, vinculando a campanha a uma loja de centro de comércio na [!UICONTROL Shopping Settings] ou b) crie anúncios responsivos com ativos de texto e imagens carregadas. Ambas as opções exigem que você crie grupos de anúncios com direcionamento de usuário.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Recurso Beta) Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Você pode criar grupos de anúncios secundários e grupos de produtos (aplicativos para promover), além de anúncios de produtos opcionais para a campanha; [!DNL Microsoft Advertising] O cria anúncios automaticamente para os grupos de produtos. Para campanhas de compra de marcas, use a estratégia de oferta [!UICONTROL Manual CPC]; para promoções de compras de marcas, use a estratégia de oferta [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* Promove seus produtos por meio de varejistas vinculados nas redes de pesquisa e público-alvo. Você pode criar grupos de anúncios secundários e grupos de produtos (aplicativos para promover), além de anúncios de produtos opcionais para a campanha; [!DNL Microsoft Advertising] O cria anúncios automaticamente para os grupos de produtos. Para campanhas de compra de marcas, use a estratégia de oferta [!UICONTROL Manual CPC]; para promoções de compras de marcas, use a estratégia de oferta [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Recurso Beta) Promove seus aplicativos e jogos que estão disponíveis na [!DNL Microsoft Store]. Você pode criar grupos de anúncios secundários, grupos de produtos e anúncios de produtos opcionais para a campanha; [!DNL Microsoft Advertising] O cria anúncios automaticamente para os grupos de produtos.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* Promove seus aplicativos e jogos que estão disponíveis na [!DNL Microsoft Store]. Você pode criar grupos de anúncios secundários, grupos de produtos e anúncios de produtos opcionais para a campanha; [!DNL Microsoft Advertising] O cria anúncios automaticamente para os grupos de produtos.
 
-* *[!UICONTROL Audience CTV Video]:* (Recurso Beta) Mostra anúncios de vídeo de TV conectada (CTV) na rede de público-alvo.
+* *[!UICONTROL Audience CTV Video]:* Mostra anúncios de vídeo da TV conectada (CTV) na rede de público-alvo.
 
-* *[!UICONTROL Audience Video]:* (Recurso Beta) Mostra anúncios de vídeo padrão na rede de público-alvo.
+* *[!UICONTROL Audience Video]:* Mostra os anúncios de vídeo padrão na rede de público-alvo.
 
-* *[!UICONTROL Performance Max]:* (Recurso Beta) Mostra vários tipos de anúncios em todas as redes que usam [!DNL Microsoft Advertising] oferta inteligente. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, uma chamada para ação opcional e sinais de público-alvo. A rede de anúncios combina automaticamente os ativos para veicular anúncios com base no canal.
+* *[!UICONTROL Performance Max]:* Mostra vários tipos de anúncios em todas as redes que usam [!DNL Microsoft Advertising] oferta inteligente. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, uma chamada para ação opcional e sinais de público-alvo. A rede de anúncios combina automaticamente os ativos para veicular anúncios com base no canal.
 
 ## [!UICONTROL Campaign Details]
 

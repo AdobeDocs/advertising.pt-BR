@@ -1,22 +1,20 @@
 ---
 title: Gerenciar credenciais para contas do gerenciador de rede de anúncios
 description: Saiba como fornecer credenciais para o [!DNL Google Ads] contas de gerente.
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # Gerenciar credenciais para contas do gerenciador de rede de anúncios
 
-*Recurso Beta*
-
 *[!DNL Google Ads]somente contas*
 
-Forneça as credenciais para o [!DNL Google Ads] As contas de gerente para as quais você deseja que o Search, Social e Commerce carregue conversões entre contas. Use este recurso se desejar a) fazer upload [!DNL Adobe]Métricas de conversão entre contas rastreadas para um [!DNL Google Ads] conta do gerente ou b) fazer upload de objetivos de portfólio que incluem conversões entre contas para [!DNL Google Ads] para otimização híbrida.
+Forneça as credenciais para o [!DNL Google Ads] contas de gerente para as quais você deseja que o Search, Social e Commerce faça upload de conversões entre contas. Use este recurso se desejar a) fazer upload [!DNL Adobe]Métricas de conversão entre contas rastreadas para um [!DNL Google Ads] conta do gerente ou b) fazer upload de objetivos de portfólio que incluem conversões entre contas para [!DNL Google Ads] para otimização híbrida.
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 
@@ -32,7 +30,7 @@ Depois de adicionar credenciais para uma conta de gerente, as configurações da
 
 1. Insira as credenciais de logon da conta de gerente.
 
-   A variável **[!UICONTROL Manager Account ID]** e **[!UICONTROL Login Email]** são obrigatórios. Search, Social e Commerce captura e armazena automaticamente o token de conta a ser usado para autenticação.
+   A variável **[!UICONTROL Manager Account ID]** e **[!UICONTROL Login Email]** são obrigatórios. O Search, Social e Commerce captura e armazena automaticamente o token de conta a ser usado para autenticação.
 
    Opcionalmente, é possível incluir uma **[!UICONTROL MCC Account Name]** para identificação no Search, Social, &amp; Commerce e na conta **[!UICONTROL Password]**. Digite a senha quando quiser criptografá-la e salvá-la para que o gerente de conta possa atualizar os tokens conforme necessário.
 
@@ -50,7 +48,7 @@ Depois de adicionar credenciais para uma conta de gerente, as configurações da
 
 1. Insira as credenciais de logon da conta de gerente.
 
-   A variável **[!UICONTROL Manager Account ID]** e **E-mail de login** são obrigatórios. Search, Social e Commerce captura e armazena automaticamente o token de conta a ser usado para autenticação.
+   A variável **[!UICONTROL Manager Account ID]** e **E-mail de login** são obrigatórios. O Search, Social e Commerce captura e armazena automaticamente o token de conta a ser usado para autenticação.
 
    Opcionalmente, é possível incluir uma **[!UICONTROL MCC Account Name]** para identificação no Search, Social, &amp; Commerce e na conta **[!UICONTROL Password]**. Digite a senha quando quiser criptografá-la e salvá-la para que o gerente de conta possa atualizar os tokens conforme necessário.
 

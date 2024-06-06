@@ -3,7 +3,7 @@ title: Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal
 description: Saiba como criar e gerenciar uma fonte para importar públicos da plataforma de dados do cliente e convertê-los em segmentos que contêm IDs universais.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Clique em **[!UICONTROL Add Source]**.
 
-1. No [!UICONTROL Select a Type] selecione a plataforma de dados do cliente:
+1. No [!UICONTROL Select a Type] selecione o [plataforma de dados do cliente](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [A variável [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: A variável [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: A variável [[!DNL ActionIQ] plataforma de dados do cliente](source-about.md).
+   * *[!UICONTROL ActionIQ]*: A variável [!DNL ActionIQ] plataforma de dados do cliente.
 
-   * *[!UICONTROL Tealium CDP]*: (Somente usuários configurados) A variável [[!DNL Tealium] plataforma de dados do cliente](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (Somente usuários configurados) A variável [!DNL Tealium] plataforma de dados do cliente.
 
 1. Especifique a [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* ou *[!UICONTROL Account]*.
 

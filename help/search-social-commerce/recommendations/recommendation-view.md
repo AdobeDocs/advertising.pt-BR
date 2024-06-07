@@ -3,9 +3,9 @@ title: Exibir recomendações do editor e insights de desempenho
 description: Saiba como visualizar o [!DNL Google Ads] recomendações e [!DNL Microsoft Advertising] insights de desempenho para suas contas de rede de anúncios.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Exibir as recomendações do editor e os insights de desempenho
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
-
-*Recurso beta para [!DNL Microsoft Advertising] contas*
 
 ## Exibir as recomendações do editor
 

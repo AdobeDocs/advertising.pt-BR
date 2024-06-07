@@ -3,9 +3,9 @@ title: Exibir o log de recomendações do editor de uma conta
 description: Saiba como visualizar um log de cada recomendação que foi aplicada para um [!DNL Google Ads] ou [!DNL Microsoft Advertising] conta.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Exibir as recomendações do editor para uma conta
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
-
-*Recurso beta para [!DNL Microsoft Advertising] contas*
 
 Você pode exibir um log de cada recomendação que foi aplicada para um [!DNL Google Ads] ou [!DNL Microsoft Advertising] conta. As informações incluem a categoria de recomendação, o tipo de recomendação, as entidades afetadas, o usuário que aplicou a recomendação e o carimbo de data e hora.
 

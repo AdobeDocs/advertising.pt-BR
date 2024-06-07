@@ -3,9 +3,9 @@ title: Criar e carregar ativos
 description: Saiba como criar ativos de imagem, vídeo e texto reutilizáveis e carregá-los no seu [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Criar e carregar ativos
 
 *Para [!DNL Google Ads] e [!DNL Microsoft Advertising] somente contas*
-
-*Abrir recurso beta*
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 

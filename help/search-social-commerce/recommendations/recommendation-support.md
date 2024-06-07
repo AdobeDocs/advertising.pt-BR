@@ -3,9 +3,9 @@ title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Sobre o suporte a recomendações e insights do editor
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
-
-*Recurso beta para [!DNL Microsoft Advertising] contas*
 
 [!DNL Google Ads] e [!DNL Microsoft Advertising] recomendações e insights são sugestões da rede de anúncios para ajudar a melhorar o desempenho e a eficiência de suas campanhas:
 

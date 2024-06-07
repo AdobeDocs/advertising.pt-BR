@@ -3,9 +3,9 @@ title: Aplicar ou ignorar uma recomendação do editor
 description: Saiba como exibir, aplicar ou ignorar uma recomendação do editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Aplicar ou ignorar uma recomendação do editor
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
-
-*Recurso beta para [!DNL Microsoft Advertising] contas*
 
 Exibir as ações recomendadas e uma explicação de por que as ações seriam benéficas para uma recomendação do editor. Você pode aplicar a recomendação quando ela estiver alinhada às suas metas de negócios e ignorar uma recomendação quando não estiver alinhada.
 

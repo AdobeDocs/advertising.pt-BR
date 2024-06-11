@@ -3,9 +3,9 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Use as seguintes práticas recomendadas para [!DNL RampID]Segmentos com base em 
 
 ## Solução de problemas
 
-Se você não estiver vendo as contagens de usuários ou se os tamanhos de público-alvo estiverem baixos, verifique o seguinte:
+Se você não vir as contagens de usuários ou se os tamanhos de público-alvo estiverem baixos, verifique o seguinte:
 
 * Se você usar [!DNL Flashtalking] ou [!DNL Google Campaign Manager 360] anúncios, verifique se os URLs de clickthrough dos anúncios estão anexados com as macros corretas. Veja as macros para [[!DNL Flashtalking] anúncios](/help/integrations/analytics/macros-flashtalking.md) e [[!DNL Google Campaign Manager 360] anúncios](/help/integrations/analytics/macros-google-campaign-manager.md).
 

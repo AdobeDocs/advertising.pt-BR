@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
+source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3035'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 10 de junho de 2024 | [!UICONTROL Audiences] | (Recurso Beta) Agora você pode converter segmentos primários do [!DNL Amperity] e [!DNL Optimizely] plataformas de dados do cliente para segmentos compostos de [[!DNL LiveRamp] [!DNL RampIDs]] ou [!DNL Unified ID 2.0 (UID2.0)] IDs. Nas configurações de posicionamento para Direcionamento de público-alvo, os segmentos compartilhados ficam disponíveis na lista Segmentos primários. | Consulte &quot;[Converter IDs de usuário de [!DNL Amperity] para Universal IDs](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[Converter IDs de usuário de [!DNL Optimizely] para Universal IDs](/help/dsp/audiences/sources/source-optimizely.md),&quot; e &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md).&quot; |
 | 5 de junho de 2024 | Posicionamentos | Agora é possível gerenciar multiplicadores de oferta para várias disposições de uma vez usando uma planilha. | Consulte &quot;[Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 |  | Fontes de público-alvo | Agora você pode alterar os tipos de ID universal para os quais o público-alvo de origem é traduzido e exibir um log das alterações. | Consulte &quot;[Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 de maio de 2024 | Otimização, anúncios de TV conectados | Em pacotes com as metas de otimização &quot;CPA mais baixo&quot; e &quot;ROAS mais alto&quot;, os modelos de desempenho para anúncios de TV conectados agora usam dados de vários pontos de contato no caminho de conversão para um aprendizado de máquina mais rápido e robusto. Os pacotes existentes são atualizados para usar a otimização multitoque e nenhuma ação é necessária. | — |

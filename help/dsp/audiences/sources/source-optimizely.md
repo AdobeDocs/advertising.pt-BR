@@ -2,14 +2,16 @@
 title: Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Optimizely] segmentos primários.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
+
+*Recurso beta*
 
 Use a integração do DSP com o [!DNL Optimizely] plataforma de dados do cliente para converter os endereços de email com hash primários da sua organização em IDs universais para publicidade direcionada.
 

@@ -2,14 +2,16 @@
 title: Converter IDs de usuário de [!DNL Amperity] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Amperity] segmentos primários.
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Converter IDs de usuário de [!DNL Amperity] para Universal IDs
+
+*Recurso beta*
 
 Use a integração do DSP com o [!DNL Amperity] plataforma de dados do cliente para converter os endereços de email com hash primários da sua organização em IDs universais para publicidade direcionada.
 

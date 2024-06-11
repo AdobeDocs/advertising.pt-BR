@@ -3,9 +3,9 @@ title: Converter IDs de usuário de [!DNL Tealium] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Tealium] segmentos primários.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Use a integração do DSP com o [!DNL Tealium] plataforma de dados do cliente pa
 1. [Duplicação do conector existente no [!DNL Tealium] para continuar a compartilhar segmentos](#duplicate-connector).
 
 1. [Comparar o número de IDs universais com o número de endereços de email com hash](#compare-id-count).
-
-Os segmentos devem estar disponíveis no DSP em 24 horas e são atualizados a cada 24 horas.
 
 ## Etapa 1: configurar o rastreamento do [!DNL Analytics] medição {#analytics-tracking}
 
@@ -142,7 +140,7 @@ Você pode ter apenas um conector por segmento e um segmento por conector.
 
 ## Etapa 6: Comparar o número de IDs universais com o número de endereços de email com hash {#compare-id-count}
 
-Após concluir todas as etapas, verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) que o segmento está preenchendo em 24 horas. Compare o número de IDs universais com o número de endereços de email com hash originais.
+Após concluir todas as etapas, os segmentos devem estar disponíveis no DSP em 24 horas. Verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) que o segmento está preenchendo em 24 horas. Compare o número de IDs universais com o número de endereços de email com hash originais.
 
 A taxa de conversão de endereços de email com hash em IDs universais deve ser superior a 90%. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para mais de 90 IDs universais. Uma taxa de tradução de 90% ou menos é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 

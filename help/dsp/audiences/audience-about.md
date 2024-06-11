@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de público-alvo na publicidade do DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
+source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,7 @@ Os segmentos traduzidos estão disponíveis para inclusão em públicos reutiliz
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
 >* [Criar e implementar uma [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
 >* [Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

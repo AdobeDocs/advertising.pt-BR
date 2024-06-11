@@ -3,9 +3,9 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -126,14 +126,9 @@ Se você não conseguir resolver o problema, entre em contato com a equipe de co
 
 >[!MORELIKETHIS]
 >
+>* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md)
->* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] para Universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Converter IDs de usuário de [!DNL Tealium] para Universal IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
 >* [Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Sobre o Gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

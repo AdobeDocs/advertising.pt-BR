@@ -1,23 +1,25 @@
 ---
-title: Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
-description: Saiba como habilitar o DSP para assimilar seus [!DNL Optimizely] segmentos primários.
+title: Converter IDs de usuário de [!DNL Amperity] para Universal IDs
+description: Saiba como habilitar o DSP para assimilar seus [!DNL Amperity] segmentos primários.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
+# Converter IDs de usuário de [!DNL Amperity] para Universal IDs
 
-Use a integração do DSP com o [!DNL Optimizely] plataforma de dados do cliente para converter os endereços de email com hash primários da sua organização em IDs universais para publicidade direcionada.
+Use a integração do DSP com o [!DNL Amperity] plataforma de dados do cliente para converter os endereços de email com hash primários da sua organização em IDs universais para publicidade direcionada.
 
 1. (Para converter endereços de email em [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Configurar o rastreamento para habilitar [!DNL Analytics] medição](#analytics-tracking).
 
 1. [Criar uma fonte de público no DSP](#source-create).
 
-1. [Preparar e enviar os dados do segmento](#push-data).
+1. [Preparar e compartilhar dados de mapeamento de segmento](#map-data).
+
+1. [Solicitar um push de dados de [!DNL Amperity] para DSP](#push-data).
 
 1. [Comparar o número de IDs universais com o número de endereços de email com hash](#compare-id-count).
 
@@ -39,27 +41,39 @@ Para converter endereços de email em [!DNL RampIDs] ou [!DNL ID5] IDs, você de
 
    As configurações de origem incluirão uma chave de origem gerada automaticamente, que você usará para enviar os dados do segmento.
 
-1. Depois de criar a origem do público-alvo, compartilhe a chave do código-fonte com a [!DNL Optimizely] usuário.
+1. Depois de criar a origem do público-alvo, compartilhe a chave do código-fonte com a [!DNL Amperity] usuário.
 
-## Etapa 3: preparar e enviar os dados do segmento {#push-data}
+## Etapa 3: Preparar e compartilhar dados de mapeamento de segmento {#map-data}
 
-O anunciante deve preparar e enviar os dados com a ajuda de seus [!DNL Optimizely] representante.
+O anunciante deve preparar e compartilhar dados de mapeamento de segmento.
 
-1. Dentro de [!DNL Optimizely Data Platform], coloque as IDs de email em hash para o público-alvo do anunciante usando o algoritmo SHA-256.
+1. Dentro de [!DNL Amperity], coloque as IDs de email em hash para o público-alvo usando o algoritmo SHA -256.
 
-1. Entre em contato com o do anunciante [!DNL Optimizely] representante para obter instruções sobre como encaminhar o segmento para DSP. Inclua as seguintes informações ao enviar o segmento:
+1. O anunciante deve fornecer dados de mapeamento de segmento à Equipe de conta do Adobe para criar os segmentos no DSP. Use os seguintes nomes e valores de coluna em um arquivo de valores separados por vírgula:
 
-   * **Chave de origem:** Esta é a chave de origem criada em [Etapa 2](#source-create).
+   * **Chave de segmento externo:** A variável [!DNL Amperity] chave de segmento associada ao segmento.
 
-   * **Código da conta:** Este é o código alfanumérico da conta DSP, que você pode encontrar dentro do DSP em [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Nome do segmento:** O nome do segmento.
 
-Os segmentos devem estar disponíveis no DSP em 24 horas e são atualizados conforme configurado para o anunciante. Independentemente da frequência com que o segmento é atualizado, a inclusão em um segmento expira após 30 dias para garantir a conformidade com a privacidade, portanto, atualize os públicos-alvo enviando-os novamente de [!DNL Optimizely] a cada 30 dias ou menos.
+   * **Descrição do segmento:** A finalidade ou a regra do segmento, ou ambas.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **ID do pai:** Manter em branco
 
-## Etapa 4: Comparar o número de IDs universais com o número de endereços de email com hash {#compare-id-count}
+   * **CPM de vídeo:** 0
+
+   * **Exibir CPM:** 0
+
+   * **Janela Segmento:** O tempo de vida do segmento.
+
+## Etapa 4: solicitar um push de dados do [!DNL Amperity] para DSP {#push-data}
+
+1. Depois que o segmento é mapeado no DSP, o anunciante deve trabalhar com seu [!DNL Amperity] representante para distribuir os dados do segmento ao DSP.
+
+1. O anunciante deve confirmar com a equipe da conta do Adobe que os dados do segmento foram recebidos.
+
+Os segmentos devem estar disponíveis no DSP em 24 horas e são atualizados conforme configurado para o anunciante. Independentemente da frequência com que o segmento é atualizado, a inclusão em um segmento expira após 30 dias para garantir a conformidade com a privacidade, portanto, atualize os públicos-alvo enviando-os novamente de [!DNL Amperity] a cada 30 dias ou menos.
+
+## Etapa 5: Comparar o número de IDs universais com o número de endereços de email com hash {#compare-id-count}
 
 Após concluir todas as etapas, verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) de que o segmento está disponível e está sendo preenchido em 24 horas. Compare o número de IDs universais com o número de endereços de email com hash originais.
 

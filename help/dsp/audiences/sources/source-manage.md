@@ -3,9 +3,9 @@ title: Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal
 description: Saiba como criar e gerenciar uma fonte para importar públicos da plataforma de dados do cliente e convertê-los em segmentos que contêm IDs universais.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*: A variável [!DNL Amperity] plataforma de dados do cliente.
 
-   * *[!UICONTROL Optimizely]*: A variável [!DNL Optimizely]: A variável [!DNL Amperity] plataforma de dados do cliente.
+   * *[!UICONTROL Optimizely]*: A variável [!DNL Optimizely] plataforma de dados do cliente.
 
    * *[!UICONTROL Tealium CDP]*: (Somente usuários configurados) A variável [!DNL Tealium] plataforma de dados do cliente.
 

@@ -3,9 +3,9 @@ title: Converter IDs de usuário de [!DNL Tealium] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Tealium] segmentos primários.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
+source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Após concluir todas as etapas, os segmentos devem estar disponíveis no DSP em 
 
 A taxa de conversão de endereços de email com hash em IDs universais deve ser superior a 90%. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para mais de 90 IDs universais. Uma taxa de tradução de 90% ou menos é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
-Os segmentos são atualizados a cada 24 horas. No entanto, a inclusão em um segmento expira após 30 dias para garantir a conformidade com a privacidade. Portanto, atualize os públicos-alvo enviando-os novamente do [!DNL Tealium] a cada 30 dias ou menos.
+Os segmentos são atualizados a cada 24 horas. No entanto, a inclusão em um segmento expira após 30 dias por padrão ou após um período de expiração especificado pelo cliente. Atualize seus segmentos enviando novamente de [!DNL Tealium] antes da expiração. Para solicitar a expiração de um segmento personalizado, entre em contato com a equipe de conta do Adobe.
 
 Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 

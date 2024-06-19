@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de público-alvo na publicidade do DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
 * Todos os seus segmentos de dados personalizados de terceiros importados.
 
-* (Posicionamentos direcionados somente aos EUA) [Todos os segmentos de dados de terceiros disponíveis para clientes DSP de mais de 30 provedores](/help/dsp/audiences/third-party-data-providers.md), incluindo [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]e muito mais.
+* (Posicionamentos direcionados somente aos EUA) [Todos os segmentos de dados de terceiros disponíveis para clientes DSP de mais de 30 provedores](/help/dsp/audiences/third-party-data-providers.md), incluindo [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar]e muito mais.
 
   Você pode direcionar segmentos específicos, que direcionam usuários com base nos dados do público-alvo (por exemplo, usuários com demografia, interesses ou intenções específicos e/ou perfis comportamentais). Você pode procurar por provedor de dados e categoria, procurar segmentos por nome ou ID de segmento, ou filtrar os resultados por provedor de dados, tamanho total do segmento, contagem de navegadores da Web ou contagem de dispositivos.
 

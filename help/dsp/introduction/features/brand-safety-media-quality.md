@@ -3,9 +3,9 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ Filtros de visibilidade pré-oferta viabilizados por nossos parceiros líderes d
 
 ### Direcionamento de tópico
 
-O direcionamento de tópico do DSP permite direcionar ou bloquear listas de palavras-chave aproveitando nossos parceiros contextuais líderes do setor [!DNL Comscore] e [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). O direcionamento de tópico ajuda a garantir que seus anúncios sejam sempre veiculados em um ambiente que se alinha à sua marca, seja bloqueando conteúdo prejudicial ou garantindo que sejam gastos em um contexto que garanta um resultado melhor.
+O direcionamento de tópico do DSP permite direcionar ou bloquear listas de palavras-chave aproveitando nossos parceiros contextuais líderes do setor [!DNL Comscore] e [!DNL Oracle Data Cloud] (antigo [!DNL Grapeshot]). O direcionamento de tópico ajuda a garantir que seus anúncios sejam sempre veiculados em um ambiente que se alinha à sua marca, seja bloqueando conteúdo prejudicial ou garantindo que sejam gastos em um contexto que garanta um resultado melhor.
 
-O direcionamento de tópico exige que você crie segmentos de tópico personalizados diretamente com o [!DNL Comscore] ou [!DNL Grapeshot] (usando [!DNL Oracle Data Cloud]). Depois que eles forem criados na plataforma do parceiro, você poderá [direcionar ou excluir uma ID de segmento no [!UICONTROL Audience Targeting] seção para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas para este recurso.
+O direcionamento de tópico exige que você crie segmentos de tópico personalizados diretamente com a plataforma de parceiro. Depois que os segmentos forem criados, você poderá [direcionar ou excluir uma ID de segmento no [!UICONTROL Audience Targeting] seção para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas para este recurso.
 
 Para criar segmentos de tópico personalizados:
 

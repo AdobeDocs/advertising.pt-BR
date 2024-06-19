@@ -3,7 +3,7 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ Ao selecionar IDs herdadas e IDs universais, a preferência de lances é dada à
    * Para selecionar manualmente um intervalo, clique dentro de uma célula e, como opção, arraste para selecionar o intervalo.
 1. Clique em **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Opcional; disponível para anunciantes configurados com [!DNL Comscore] e [!DNL Grapeshot] segmentos) Nomes de segmentos ou IDs específicos de [!DNL Comscore] e [!DNL Grapeshot] para incluir como targets. Taxas adicionais podem ser aplicadas para este recurso. Para ativar esse recurso e configurar segmentos de tópico, entre em contato com a equipe de conta do Adobe.
+**[!UICONTROL Topic Targeting]:** (Opcional; disponível para anunciantes configurados com [!DNL Proximic by Comscore] e [!DNL Grapeshot] segmentos) Nomes de segmentos ou IDs específicos de [!DNL Proximic by Comscore] e [!DNL Grapeshot] para incluir como targets. Taxas adicionais podem ser aplicadas para este recurso. Para ativar esse recurso e configurar segmentos de tópico, entre em contato com a equipe de conta do Adobe.
 
 Para especificar o direcionamento de tópico:
 
@@ -361,7 +361,7 @@ Para especificar o direcionamento de tópico:
 >
 >* O direcionamento de tópico limita o inventário no qual a disposição pode fazer ofertas. Portanto, use o direcionamento de tópico somente para uma pequena porcentagem da sua compra geral.
 >
->* Configurar qualquer direcionamento negativo no segmento em [!DNL Comscore] ou [!DNL Grapeshot].
+>* Configurar qualquer direcionamento negativo no segmento em [!DNL Proximic by Comscore] ou [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Para especificar o direcionamento de dispositivo:
 

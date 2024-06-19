@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Para estimar impostos a reter:
 
 #### Verificação de público-alvo
 
-**[!UICONTROL comScore Campaign Ratings]:** (Opcional) Ativa a medição de classificações de campanha validadas pelo [!DNL Comscore] e a geração de relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
+**[!UICONTROL comScore Campaign Ratings]:** (Opcional) Ativa [!DNL Comscore] validado [!DNL Campaign Ratings] medição e relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
 * **[!UICONTROL Target Gender]:** O gênero a ser direcionado: *[!UICONTROL Both]* (o padrão), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
 
@@ -130,9 +130,9 @@ Para estimar impostos a reter:
 
 * **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Comscore] O mede somente impressões veiculadas em países suportados.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Ativa o rastreamento para o nível de posicionamento [!UICONTROL Attention Score] métrica (o número médio ponderado de unidades de atenção em impressões) de [!DNL Adelaide]. As métricas estão disponíveis para todos os tipos de posicionamento, exceto para [!DNL Roku] TV conectada, pré-lançamento somente VPAID e áudio que não é um podcast. O DSP anexa automaticamente uma tag JavaScript a todas as criações associadas e [!DNL Adelaide] O rastreia os dados de exposição e os envia para o DSP diariamente. Você pode usar a data para otimizar manualmente seus gastos com táticas de posicionamento com melhores pontuações de atenção.
+**[!UICONTROL Adelaide]:** Ativa o rastreamento para o nível de posicionamento [!UICONTROL Attention Score] métrica (o número médio ponderado de [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; em impressões). As métricas estão disponíveis para todos os tipos de posicionamento, exceto para [!DNL Roku] TV conectada, pré-lançamento somente VPAID e áudio que não é um podcast. O DSP anexa automaticamente uma tag JavaScript a todas as criações associadas e [!DNL Adelaide] O rastreia os dados de exposição e os envia para o DSP diariamente. Você pode usar a data para otimizar manualmente seus gastos com táticas de posicionamento com melhores pontuações de atenção.
 
 A variável [!UICONTROL Attention Score] O campo está disponível no [!UICONTROL Metrics] seção de relatórios; no prazo de [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] visualizações; e no [!UICONTROL Sites], [!UICONTROL Ads], e [!UICONTROL Inventory] guias da [exibição de detalhes da disposição](/help/dsp/campaign-management/reports/placement-details-view.md).
 

@@ -3,9 +3,9 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ Filtros de visibilidade pré-oferta viabilizados por nossos parceiros líderes d
 É possível definir filtros de visibilidade padrão para cada anunciante<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->e, opcionalmente, [personalizar as configurações para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas quando você usar este recurso.
 
 ![Logotipo do DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo da Oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logotipo Integral Ad Science](/help/dsp/assets/ias-logo.png)
+
+### Direcionamento de atenção e medição
+
+[!DNL Adobe's] parceria com [!DNL Adelaide] O fornece aos anunciantes suporte para a métrica de Adelaide &quot;[!DNL Attention Units],&quot; que mede a qualidade da mídia com base em dados de rastreamento ocular, exposição e resultado.
+
+[Direcionamento de atenção pré-oferta no nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) O permite que os anunciantes direcionem níveis de atenção específicos para melhorar o engajamento do cliente.
+
+Além disso, os anunciantes podem habilitar [rastreamento para o nível de posicionamento [!UICONTROL Attention Score] métrica](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (o número médio ponderado de [!DNL Attention Units] em impressões) para que qualquer campanha entenda quais táticas de posicionamento produzem os melhores resultados de negócios.
+
+Taxas adicionais se aplicam a cada recurso separado.
 
 ### Direcionamento de tópico
 

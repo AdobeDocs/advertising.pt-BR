@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ Para estimar impostos a reter:
 
 #### Verificação de público-alvo
 
-**[!UICONTROL Nielsen]:** (Opcional) Ativa [!DNL Nielsen] medição e relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
-
-* **[!UICONTROL Target Gender]:** O gênero a ser direcionado: *[!UICONTROL Both]* (o padrão), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** A faixa etária a ser atingida. Use os controles deslizantes esquerdo e direito para reduzir o intervalo conforme necessário.
-
-* **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Nielsen] O mede somente impressões veiculadas em países suportados.
-
-**[!UICONTROL comScore vCE]:** (Opcional) Ativa [!DNL Comscore validated Campaign Essentials (vCE)] medição e relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
+**[!UICONTROL comScore Campaign Ratings]:** (Opcional) Ativa a medição de classificações de campanha validadas pelo [!DNL Comscore] e a geração de relatórios da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
 * **[!UICONTROL Target Gender]:** O gênero a ser direcionado: *[!UICONTROL Both]* (o padrão), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** A faixa etária a ser atingida. Use os controles deslizantes esquerdo e direito para reduzir o intervalo conforme necessário.
 
 * **[!UICONTROL Target Country]:** (Opcional) Um país a ser direcionado. [!DNL Comscore] O mede somente impressões veiculadas em países suportados.
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** Ativa o rastreamento para o nível de posicionamento [!UICONTROL Attention Score] métrica (o número médio ponderado de unidades de atenção em impressões) de [!DNL Adelaide]. As métricas estão disponíveis para todos os tipos de posicionamento, exceto para [!DNL Roku] TV conectada, pré-lançamento somente VPAID e áudio que não é um podcast. O DSP anexa automaticamente uma tag JavaScript a todas as criações associadas e [!DNL Adelaide] O rastreia os dados de exposição e os envia para o DSP diariamente. Você pode usar a data para otimizar manualmente seus gastos com táticas de posicionamento com melhores pontuações de atenção.
+
+A variável [!UICONTROL Attention Score] O campo está disponível no [!UICONTROL Metrics] seção de relatórios; no prazo de [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] visualizações; e no [!UICONTROL Sites], [!UICONTROL Ads], e [!UICONTROL Inventory] guias da [exibição de detalhes da disposição](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+Usar [!DNL Adelaide] segmentos para medição incorre em uma taxa de CPM para cada impressão fornecida pelos anúncios com [!DNL Adelaide] marcas de medição. Essa taxa é separada das taxas de [direcionamento de atenção no nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 

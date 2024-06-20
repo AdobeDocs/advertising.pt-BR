@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Para especificar o direcionamento de tópico:
 >
 >* O direcionamento de tópico limita o inventário no qual a disposição pode fazer ofertas. Portanto, use o direcionamento de tópico somente para uma pequena porcentagem da sua compra geral.
 >
->* Configurar qualquer direcionamento negativo no segmento em [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud].
+>* Configurar qualquer direcionamento negativo no segmento em [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (antigo [!DNL Grapeshot]).
 
 **[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Para especificar o direcionamento de dispositivo:
 

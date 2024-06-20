@@ -3,9 +3,9 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ A filtragem contextual permite direcionar ou bloquear oportunidades de anúncios
 
 ### Bloqueio de fraude pré-oferta
 
-Aproveite nossas integrações de terceiros com o [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], e [!DNL Peer39] para bloquear o tráfego não humano de suas campanhas. Essas integrações fornecem os melhores recursos de bloqueio pré-oferta do setor para minimizar o tráfego geral e o tráfego inválido sofisticado (GIVT e SIVT) em suas campanhas.
+Aproveite nossas integrações de terceiros com o [!DNL DoubleVerify], [!DNL Integral Ad Science], e [!DNL Peer39] para bloquear o tráfego não humano de suas campanhas. Essas integrações fornecem os melhores recursos de bloqueio pré-oferta do setor para minimizar o tráfego geral e o tráfego inválido sofisticado (GIVT e SIVT) em suas campanhas.
 
 Você pode definir controles padrão de bloqueio de fraude pré-oferta para cada anunciante<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->e, opcionalmente, [personalizar as configurações para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas quando você usar este recurso.
 
 Para obter mais informações sobre a funcionalidade, entre em contato diretamente com o fornecedor de sua preferência ou com a equipe de conta do Adobe.
 
-![Logotipo Comscore](/help/dsp/assets/comscore-logo.png) ![Logotipo do DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logotipo Peer39](/help/dsp/assets/peer39-logo.png)
+![Logotipo do DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logotipo Peer39](/help/dsp/assets/peer39-logo.png)
 
 ### Visibilidade pré-oferta {#pre-bid-viewability}
 

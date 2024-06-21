@@ -3,9 +3,9 @@ title: Visão geral do envio de dados de exposição da mídia DSP para o Adobe 
 description: Saiba como usar pixels de evento Audience Manager para capturar dados de nível de impressão e nível de clique de campanhas de Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Anunciantes com somente DSP publicitário*
 
-*Anunciantes com uma integração Adobe Advertising-Adobe Audience Manager somente*
+*Anunciantes com apenas uma integração Adobe Advertising-Adobe Audience Manager*
 
 Os clientes de publicidade de DSP com Adobe Audience Manager podem usar pixels de evento de Audience Manager para capturar dados de nível de impressão e dados de nível de clique de campanhas de DSP. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso do DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
 
@@ -36,7 +36,7 @@ A DSP não cobra para enviar esses sinais para o Audience Manager. No entanto, v
 
 ## Como os dados são rastreados
 
-Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).
+Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).<!-- Verify if this is still correct. -->
 
 ### Pixels de rastreamento de impressão
 
@@ -54,4 +54,3 @@ O Audience Manager rastreia cliques de forma semelhante às impressões, exceto 
 >
 >* [Coletar dados de cliques e impressões de campanhas de DSP](collect.md)
 >* [Casos de uso](use-cases.md)
-

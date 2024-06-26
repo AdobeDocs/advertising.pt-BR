@@ -3,7 +3,7 @@ title: Parceiros certificados de veiculação de anúncios
 description: Consulte todos os servidores de anúncios e unidades de anúncios certificados.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Suspensão no slot: 21x21, Suspensão no slot Vídeo móvel: 22x22, Suspensão no slot Desktop: 24x24, Hoverboard no slot: 25x25, Velocidade no slot: 26x26, Super Skin: 29x29, Canto expansível na tela: 20x20 |
+| [!DNL GumGum] | | | X | | Suspensão no slot: 21x21; Vídeo móvel de suspensão no slot: 22x22; Desktop de suspensão no slot: 24x24; Hoverboard no slot: 25x25; Velocidade no slot: 26x26; Super Skin: 29x29; Canto expansível na tela: 20x20 |
 | [!DNL HUMAN] (Anteriormente [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |

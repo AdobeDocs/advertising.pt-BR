@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8c3ad4adb9edc2c3e21972ef18734317c3571458
+source-git-commit: 0ccd4694eb2ee1a024e4f73479f2387dbb829d55
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 24 de junho de 2024 | Parceiros SSP | Novas unidades de anúncio de exibição de alto impacto estão disponíveis em [!DNL GumGum] | Consulte &quot;[Parceiros SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 19 de junho de 2024 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | No [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] exibições:<ul><li>Os gráficos de tendências agora podem incluir as seguintes métricas opcionais:</li><ul><li>**Ritmo diário:** Mostra a tendência da métrica &quot;Ritmo de ontem&quot; ao longo do tempo.</li><li>**Voo em marcha à frente/atrás:** Mostra a tendência do ritmo cumulativo (em relação ao tempo decorrido) ao longo do tempo.</li></ul>![Novas métricas de ritmo](/help/dsp/assets/trend-chart-pacing-metrics.png "Novas métricas de ritmo")<li>Como opção, as tabelas de dados podem incluir novas colunas de métrica relacionadas ao ritmo:</li><ul><li>**Gastos exigidos no dia anterior:** O valor que deveria ter sido gasto ontem para distribuição uniforme do orçamento restante pelo resto do voo.</li><li>**Ritmo de ontem:** O gasto de ontem como uma porcentagem do gasto necessário de ontem. Esta é uma versão aprimorada do &quot;Today&#39;s OTS&quot;, que agora está obsoleta. Quando o ritmo de hoje é consistentemente inferior a 100%, o pacote ou a disposição está com dificuldades na entrega do orçamento.</li><li>**Gastos exigidos hoje:** O valor que deve ser gasto hoje para distribuição uniforme do orçamento restante pelo resto do voo.</li><li>**Ritmo atual:** O gasto de hoje como uma porcentagem do gasto necessário de hoje; o valor é atualizado a cada 30 minutos. Esta é uma versão aprimorada do &quot;OTS de ontem&quot;, que agora está obsoleta. Quando o ritmo de ontem é consistentemente inferior a 100%, o pacote ou posicionamento está com dificuldades na entrega do orçamento.</li></ul><li>Nas tabelas de dados, as colunas &quot;Objetivo de ontem&quot; e &quot;Objetivo de hoje&quot; são renomeadas para &quot;Objetivo de ontem gasto&quot; e &quot;Objetivo de hoje gasto&quot;.</li></ul> | Consulte &quot;[Criar uma Exibição de coluna personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; e &quot;[Editar uma Exibição de coluna personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).&quot; |
 | 10 de junho de 2024 | [!UICONTROL Audiences] | (Recurso Beta) Agora você pode converter segmentos primários do [!DNL Amperity] e [!DNL Optimizely] plataformas de dados do cliente para segmentos compostos de [[!DNL LiveRamp] [!DNL RampIDs]] ou [!DNL Unified ID 2.0 (UID2.0)] IDs. Nas configurações de posicionamento para Direcionamento de público-alvo, os segmentos compartilhados ficam disponíveis na lista Segmentos primários. | Consulte &quot;[Converter IDs de usuário de [!DNL Amperity] para Universal IDs](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[Converter IDs de usuário de [!DNL Optimizely] para Universal IDs](/help/dsp/audiences/sources/source-optimizely.md),&quot; e &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md).&quot; |
 |  |  | A documentação sobre recursos beta do DSP para IDs universais com base em pessoas para direcionamento sem cookies está disponível. | Consulte &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md).&quot; |

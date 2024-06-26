@@ -3,9 +3,9 @@ title: Parceiros SSP
 description: Consulte uma lista de SSPs (Supply-Side Platform, plataforma do lado do suprimento) e parceiros de intercâmbio aberto disponíveis.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 417d88b1d21d450e0b77e561ba9547bb41a68a4c
+source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Uma plataforma do lado da oferta (SSP) é uma plataforma de tecnologia de public
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Não | EUA/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (antigo [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (antigo [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e UE - 89185975 | Sim | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | Não | Global | USD | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | Não | Global | USD | x | x |  | x | x |  | Suspensão no slot: 21x21, Suspensão no slot Vídeo móvel: 22x22, Suspensão no slot Desktop: 24x24, Hoverboard no slot: 25x25, Velocidade no slot: 26x26, Super Skin: 29x29, Canto expansível na tela: 20x20 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Não | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (antigo [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (antigo [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | USD | x | x | x | x | x |  | x |

@@ -3,7 +3,7 @@ title: Implementar [!DNL Microsoft Advertising] campanhas de compras
 description: Saiba mais sobre o fluxo de trabalho para configuração [!DNL Microsoft Advertising] campanhas de compras.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Você pode configurar campanhas de compras usando [modelos de feed de estoque](/
 
 1. [Criar um grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) na campanha e defina a oferta padrão para todos os anúncios.
 
-Você pode substituir a oferta padrão para grupos de produtos individuais.
+   Você pode substituir a oferta padrão para grupos de produtos individuais.
 
 1. Criar grupos de produtos para o grupo de publicidade:
 
@@ -40,7 +40,7 @@ Você pode substituir a oferta padrão para grupos de produtos individuais.
 
    1. Criar [anúncios de produto](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) com [linhas de promoção a serem potencialmente incluídas em cada anúncio de compra](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) no grupo de publicidade.
 
-      A Microsoft Advertising gera dinamicamente a cópia de anúncio e o URL da página de aterrissagem de cada anúncio.
+      O Microsoft Advertising gera dinamicamente a cópia do anúncio e o URL da página de aterrissagem para cada anúncio.
 
       >[!NOTE]
       >

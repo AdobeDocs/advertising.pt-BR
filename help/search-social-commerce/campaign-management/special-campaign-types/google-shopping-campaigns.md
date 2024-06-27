@@ -1,11 +1,11 @@
 ---
 title: Implementar [!DNL Google Ads] campanhas de compras
 description: Saiba mais sobre o fluxo de trabalho para configuração [!DNL Google Ads] campanhas de compras.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Você pode configurar campanhas de compras usando [modelos de feed de estoque](/
 
 1. Configure seu [!DNL Google Merchant Center] conta e preencha-a com dados do produto.
 
-1. [Permitir que o Search, Social e Commerce baixem dados da [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Permitir que o Search, Social e Commerce baixem dados do [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Criar uma campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) na rede de compras.
 
 1. [Criar um grupo de publicidade](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) na campanha e defina a oferta padrão para todos os anúncios.
 
-Você pode substituir a oferta padrão para grupos de produtos individuais.
+   Você pode substituir a oferta padrão para grupos de produtos individuais.
 
 1. Criar grupos de produtos para o grupo de publicidade:
 
@@ -49,7 +49,7 @@ Você pode substituir a oferta padrão para grupos de produtos individuais.
 
    1. [Editar as configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) para ajustar o orçamento da campanha.
 
-      Se a campanha fizer parte de um portfólio, a configuração do portfólio &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; permite que o Search, Social e Commerce otimizem os orçamentos para todas as campanhas no portfólio.
+      Se a campanha fizer parte de um portfólio, a configuração do portfólio &quot;[!UICONTROL Auto adjust campaign budget limits]O &quot; permite que o Search, Social e Commerce otimizem os orçamentos para todas as campanhas no portfólio.
 
    1. [Ajustar o lance máximo para grupos de produtos existentes](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [excluir grupos de produtos](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) para o qual você não deseja mais criar anúncios ou adicionar um [novo grupo de produtos &quot;todos os produtos&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)ou [novos grupos de produtos secundários](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) para criar anúncios para produtos adicionais.
 

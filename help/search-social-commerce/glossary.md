@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 0%
 
 **[ID AMO](/help/integrations/analytics/ids.md#amo-id):** Um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas com o Adobe Analytics. Começa com `s_kwcid=`.
 
-**unidade de oferta:** Um termo de Pesquisa, Social e Comércio para uma unidade em que são feitas ofertas. Para a maioria das campanhas na maioria das redes, essa é uma palavra-chave e seu tipo de correspondência para uma campanha de pesquisa ou conteúdo, um grupo de produtos no nível da unidade (o nível mais baixo de subdivisão) para uma campanha de compras ou um destino de pesquisa dinâmica para uma campanha de publicidade de pesquisa dinâmica. Quando a mesma combinação de palavra-chave e tipo de correspondência, o mesmo grupo de produtos ou o mesmo público-alvo de pesquisa dinâmica ocorre em vários grupos de anúncios em uma única campanha, todas as instâncias são consideradas a mesma unidade de oferta e, portanto, têm a mesma oferta.
+**unidade de oferta:** Um termo de Pesquisa, Social e Commerce para uma unidade em que são feitas ofertas.
+
+* Para campanhas CPC, esta é uma palavra-chave e seu tipo de correspondência para uma campanha de pesquisa ou conteúdo, um grupo de produtos no nível da unidade (o nível mais baixo de subdivisão) para uma campanha de compras ou um destino de pesquisa dinâmica para uma campanha de publicidade de pesquisa dinâmica. Quando a mesma combinação de palavra-chave e tipo de correspondência, o mesmo grupo de produtos ou o mesmo público-alvo de pesquisa dinâmica ocorre em vários grupos de anúncios em uma única campanha, todas as instâncias são consideradas a mesma unidade de oferta e, portanto, têm a mesma oferta.
+
+* Para campanhas com o [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition]ou [!DNL Target Return on Ad Spend] estratégias de gastos, cada campanha é uma unidade de oferta.
+
+* Para campanhas em [!DNL Yahoo! Display Network], que não usa palavras-chave, todos os anúncios em um grupo de anúncios têm a mesma oferta e são considerados a mesma unidade de oferta.
 
 **restrição de unidade de oferta:** Consulte &quot;restrição&quot;.
 
 ## C-D {#c-d}
 
-**campanha:** Um conjunto de grupos de anúncios em uma única conta de anúncio que compartilha um orçamento, intervalo de tempo, direcionamento e outras configurações. **Nota:** [!DNL Baidu] não tem o conceito de campanhas, mas Search, Social e Commerce cria pseudo campanhas para cada conjunto de grupos de anúncios relacionados em [!DNL Baidu] contas sincronizadas no Search, Social e Commerce.
+**campanha:** Um conjunto de grupos de anúncios em uma única conta de anúncio que compartilha um orçamento, intervalo de tempo, direcionamento e outras configurações. **Nota:** [!DNL Baidu] não tem o conceito de campanhas, mas o Search, Social e Commerce cria pseudo-campanhas para cada conjunto de grupos de anúncios relacionados no existente [!DNL Baidu] contas sincronizadas no Search, Social e Commerce.
 
 **campo que diferencia maiúsculas e minúsculas:** Um campo ou consulta que diferencia maiúsculas e minúsculas trata as letras maiúsculas (como C) de forma diferente das letras minúsculas (como c). Por exemplo, Carro é tratado como um valor diferente de carro.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto.
 
-**modelo de custo:** (Anunciantes com portfólios) Tecnologia de pesquisa, social e comércio que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
+**modelo de custo:** (Anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
 
 **cobertura de modelo de custo:** (Anunciantes com portfólios) O número e/ou porcentagem de unidades de oferta que receberam pelo menos uma impressão nos últimos sete dias para que o recurso de otimização possa criar modelos de custo. Nem todas as unidades de oferta têm modelos de custo; aqueles que contam para a cobertura do modelo de custo.
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
-**recurso de otimização:** (Anunciantes com portfólios) Tecnologia de lances de palavras-chave de Pesquisa, Social e Comércio, que determina a estratégia ideal de lances e gerenciamento de orçamento para um portfólio com base em seu objetivo comercial.
+**recurso de otimização:** (Anunciantes com portfólios) Tecnologia de lances de palavras-chave Search, Social e Commerce, que determina a estratégia ideal de lances e gerenciamento de orçamento para um portfólio com base em seu objetivo comercial.
 
 **transação órfã:** Um evento de transação que não pode ser associado a uma palavra-chave ou anúncio específico.
 
@@ -154,7 +160,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **precisão da receita:** (Anunciantes com portfólios) A receita real de um portfólio dividida pela receita prevista.
 
-**modelo de receita:** (Anunciantes com portfólios) Tecnologia de pesquisa, social e comércio que prevê a taxa de conversão e o retorno estimado para cada unidade de oferta, com base nos dados de clique (pesquisa e social) ou dados de impressão (exibição) e nos dados de conversão do anunciante.
+**modelo de receita:** (Anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê a taxa de conversão e o retorno estimado para cada unidade de oferta, com base nos dados de clique (pesquisa e social) ou dados de impressão (exibição) e nos dados de conversão do anunciante.
 
 **cobertura do modelo de receita:** (Anunciantes com portfólios) O número e/ou porcentagem de unidades de oferta em um portfólio com modelos de receita. As unidades de oferta podem ter modelos de receita, mesmo que não tenham recebido receita, mas tenham recebido impressões.
 

@@ -1,22 +1,22 @@
 ---
 title: Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager
-description: Saiba como usar pixels de evento Audience Manager para capturar dados de nível de impressão e nível de clique de campanhas de Advertising DSP
+description: Saiba como usar pixels de evento Audience Manager para capturar dados de nível de impressão e nível de clique de campanhas do Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager
 
-*Anunciantes com somente DSP publicitário*
+*Anunciantes somente com o Advertising DSP*
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Audience Manager*
 
-Os clientes de publicidade de DSP com Adobe Audience Manager podem usar pixels de evento de Audience Manager para capturar dados de nível de impressão e dados de nível de clique de campanhas de DSP. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso do DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
+Os clientes do Advertising DSP com Adobe Audience Manager podem usar pixels de evento Audience Manager para capturar dados de nível de impressão e dados de nível de clique de campanhas do DSP. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso do DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
 
 A DSP não cobra para enviar esses sinais para o Audience Manager. No entanto, você paga custos de assimilação de Audience Manager padrão com base em chamadas de servidor, de acordo com o contrato de Audience Manager. O Audience Manager remove eventos duplicados que são rastreados de duas maneiras diferentes, para que cada evento seja cobrado apenas uma vez.
 
@@ -36,7 +36,7 @@ A DSP não cobra para enviar esses sinais para o Audience Manager. No entanto, v
 
 ## Como os dados são rastreados
 
-Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis.<!-- Verify if this is still correct. -->
+Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Pixels de rastreamento de impressão
 
@@ -52,5 +52,5 @@ O Audience Manager rastreia cliques de forma semelhante às impressões, exceto 
 
 >[!MORELIKETHIS]
 >
->* [Coletar dados de cliques e impressões de campanhas de DSP](collect.md)
+>* [Coletar dados de cliques e impressões de campanhas do Advertising DSP](collect.md)
 >* [Casos de uso](use-cases.md)

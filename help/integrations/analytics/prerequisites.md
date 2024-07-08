@@ -1,124 +1,123 @@
 ---
-title: Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
-description: Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
+title: Pré-requisitos e informações-chave para implementação [!DNL Analytics for Advertising]
+description: Pré-requisitos e informações-chave para implementação [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 156e64af56e0aa95999210bd0cc8df38ce42690d
+source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
-# Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]
+# Pré-requisitos e informações-chave para implementação [!DNL Analytics for Advertising]
 
-*Anunciantes com DSP e[!DNL Advertising Search, Social, & Commerce]*
+*Anunciantes com DSP de publicidade e[!DNL Advertising Search, Social, & Commerce]*
 
-Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe Analytics.
+Analise as seguintes informações antes de integrar a Adobe Systems Advertising com o Adobe Analytics.
 
-## Requisitos para relatórios de dados do Adobe Advertising no [!DNL Analytics]
+## Requisitos para relatórios Adobe Systems dados de publicidade em [!DNL Analytics]
 
-* Qualquer uma das seguintes opções:
+* Um dos itens a seguir:
    * Adobe Experience Platform Web SDK: `alloy.js`
-   * Serviço de identidade Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
-* Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
+   * Experience Cloud Serviço de identidade: `visitorAPI.js` versão 2.0 ou superior
+* Qualquer versão de Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium]ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
-* (Clientes de publicidade DSP) Uma [Anunciando trecho JavaScript do DSP](javascript.md) implantado em suas páginas da web para rastrear visitas de view-through.
+* (Clientes do DSP de publicidade) Um [snippet](javascript.md) do Advertising DSP JavaScript implantado em suas páginas da Web para faixa visualização-through de visitas.
 
 >[!TIP]
 >
 >Para melhorar a fidelidade dos dados, use a versão mais recente de cada biblioteca.
 
-## Requisitos para o compartilhamento de segmentos do Analytics com o Adobe Advertising
+## Requisitos para compartilhar segmentos Analytics com a Adobe Systems publicidade
 
-* Serviço de identidade Experience Cloud: `visitorAPI.js` versão 2.1 ou superior
+* Experience Cloud Serviço de identidade: `visitorAPI.js` versão 2.1 ou superior
 * Adobe Analytics: `appMeasurement.js` versão 1.8 ou superior
 
-## Requisitos para relatórios [!DNL Analytics] Dados no Adobe Advertising
+## Requisitos para relatórios de [!DNL Analytics] dados no Adobe Systems Advertising
 
-Forneça o seguinte à equipe de implementação do Adobe Advertising:
+Forneça o Adobe Systems Advertising implementação equipe com o seguinte:
 
-* A variável [!DNL Analytics] ID do conjunto de relatórios a ser usada para relatórios sobre a atividade de mídia paga e para alimentar a atividade do site para otimização e relatórios no Adobe Advertising
-* A ID da organização Experience Cloud da empresa (ID da organização).
+* O [!DNL Analytics] ID de conjunto de relatórios para uso para relatórios no mídia paga atividade e para alimentar atividade do site para otimização e relatórios na Adobe Systems Advertising
+* A ID da organização Experience Cloud do empresa (ID organizacional).
 
-Você pode encontrar ambas as IDs no [Guia Resumo do Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Você pode encontrar ambas as IDs na [guia Resumo do Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
-![tela Resumo do Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
+![Tela Resumo do Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
-## [!DNL Analytics] Dados no Adobe Advertising {#lookback-a4adc}
+## [!DNL Analytics] Dados em publicidade Adobe Systems {#lookback-a4adc}
 
-Porque [!DNL Analytics] Os dados do são enviados para o Adobe Advertising para relatórios e otimização, os dados estão sujeitos às regras de atribuição, incluindo as janelas de retrospectiva de impressão e clique, que são configuradas para o anunciante no Adobe Advertising.
+Como [!DNL Analytics] os dados são enviados para a Adobe Systems Advertising para relatórios e otimização, os dados estão sujeitos às regras atribuição, incluindo as janelas de retrospectiva de impressão e cliques, configuradas para os anunciante na Adobe Systems Advertising.
 
-![configurações da janela de retrospectiva no nível do anunciante no Adobe Advertising](/help/integrations/assets/a4adc-lookbacks.png)
+![Configurações da janela de lookback em nível anunciante no Adobe Systems Publicidade](/help/integrations/assets/a4adc-lookbacks.png)
 
-* Janela de retrospectiva de clique para atribuição de Adobe Advertising: o número de dias após o primeiro clique em que o clique pode ser atribuído a uma conversão. Por padrão, esse valor é 60 dias; o máximo é 90 dias
-* Janela de retrospectiva de impressão de atribuição de Adobe Advertising: o número de dias após a ocorrência de uma impressão de anúncio em que a impressão pode ser atribuída a uma conversão. Por padrão, esse valor é 14 dias; o máximo é 30 dias
+* Adobe Systems Advertising atribuição janela de lookback de cliques: o número de dias após o primeiro clique ocorre em que o clique pode ser atribuído a um conversão. Por padrão, esse valor é de 60 dias; o máximo é de 90 dias
+* Adobe Systems advertising atribuição impressão janela de lookback: o número de dias após uma impressão publicitária em que os impressão podem ser atribuídos a um conversão. Por padrão, esse valor é de 14 dias; o máximo é de 30 dias
 
   >[!NOTE]
   >
-  > A janela de retrospectiva de impressão é específica do Adobe Advertising, não [!DNL Analytics for Advertising], relatórios.
+  > A impressão janela de lookback é específica para o Adobe Systems Advertising, não [!DNL Analytics for Advertising]o relatórios.
 
-A variável [!DNL Analytics for Advertising] O JavaScript usa essas configurações para determinar até que ponto considerar uma entrada view-through ou entrada click-through para o site como válida. Para obter mais informações sobre como view-throughs e click-throughs são determinados, consulte &quot;[IDs de Adobe Advertising usadas pelo Analytics](ids.md).&quot;
+O [!DNL Analytics for Advertising] JavaScript usa essas configurações para determinar o quanto tempo atrás considerar uma entrada de visualização ou entrada de click-through no site como válida. Para obter mais informações sobre como os visualização-throughs e click-throughs são determinados, consulte &quot;[Adobe Systems IDs de publicidade usadas pelo Analytics](ids.md)&quot;.
 
-## Entrada de dados Adobe Advertising [!DNL Analytics]
+## Adobe Systems dados de publicidade no [!DNL Analytics]
 
-[!DNL Analytics] O define IDs de Adobe Advertising (IDs AMO) na ocorrência do Analytics, sujeitas às solicitações [!DNL eVar] configuração de persistência, que se aplica a click-throughs e view-throughs. A configuração de persistência está definida no back-end do Adobe Advertising e sua equipe de conta do Adobe pode alterá-la.
+[!DNL Analytics] define Adobe Systems IDs de publicidade (AMO IDs) no Analytics hit, sujeito à configuração de persistência do [!DNL eVar] anunciante, que se aplica a click-throughs e visualização-throughs. A configuração de persistência é configurada no back-end Adobe Systems Advertising e sua equipe de conta Adobe Systems pode alterá-la.
 
-* [!DNL Analytics for Advertising] [!DNL eVar] expiração: 60 dias por padrão para IDs do AMO
+* [!DNL Analytics for Advertising][!DNL eVar] expiração: 60 dias por padrão para IDs AMO
 
 >[!NOTE]
 >
->Para segmentar dados para um período diferente, é possível [configurar segmentos personalizados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) com diferentes janelas de pesquisa no Analysis Workspace.
+>Para segmento dados para diferentes período, você pode [configurar segmentos personalizados com diferentes janelas](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) de retrospectiva dentro Analysis Workspace.
 
-## Ambientes de anúncios compatíveis
+## Ambientes de publicidade suportados
 
-* Pesquisar
-* Exibir
+* Procurar
+* Exposição
 * Vídeo
 * Vídeo online
+* TV conectados
 * Nativo
 
-Entre em contato com a equipe de conta do Adobe para obter os ambientes de anúncios mais recentes compatíveis em cada canal.
+Entre em contato com a equipe de conta Adobe Systems para obter os ambientes de publicidade mais recentes suportados em cada canal.
 
 ## O que você deve saber antes da implementação
 
-* A equipe de implementação do Adobe Advertising configura a integração.
+* O Adobe Systems Advertising implementação equipe configura a integração.
 
-* Não serão cobrados custos adicionais por essa integração, nem as chamadas do servidor resultarão em custos adicionais [!DNL Analytics] ou Adobe Advertising.
+* Nenhum custo adicional é cobrado por essa integração, nem as chamadas do servidor resultam em taxas adicionais [!DNL Analytics] ou Adobe Systems de publicidade.
 
-* [!DNL Analytics for Advertising] é independente de servidor de anúncios: um view-through ou click-through pode ocorrer a partir de qualquer servidor de anúncios, e as IDs adequadas são geradas após a entrada do site.
+* [!DNL Analytics for Advertising] é servidor de publicidade independente: um visualização-through ou click-through pode ocorrer a partir de qualquer servidor de publicidade e as IDs adequadas são geradas na entrada do site.
 
-* A integração passa somente pelo [!DNL Analytics] eventos padrão e personalizados para o Adobe Advertising para otimização de oferta de mídia paga e esforços de publicidade subsequentes. Não passa [!DNL Analytics] segmentos, métricas calculadas e [!DNL eVars] para Adobe Advertising para otimização de oferta.
+* A integração passa apenas [!DNL Analytics] eventos padrão e personalizados para Adobe Systems Advertising para oferta otimização de esforços subsequentes de mídia paga e publicidade. Ele não transmite [!DNL Analytics] segmentos, métricas calculadas e [!DNL eVars] para Adobe Systems o Advertising para oferta otimização.
 
-* O Adobe Advertising cria IDs persistentes no [!DNL Analytics] com base no último anúncio clicado ou exibido antes que o usuário entre no site, com base no [janelas de retrospectiva de click-through e view-through](#lookback-a4adc) configurado no Adobe Advertising. Se um visitante do site tiver ambos os tipos de interações de entrada de site em seu perfil e o clique estiver dentro do período de lookback, a ID de click-through do visitante substituirá a ID de view-through para relatórios do site.
+* Adobe Systems a publicidade cria IDs persistentes com base no último anúncio clicado ou visualizado antes da usuário entrar no site, com base no [clique e nas janelas [!DNL Analytics]](#lookback-a4adc) de lookback de visualização-through configuradas na Adobe Systems Advertising. Se um visitante do site tiver ambos os tipos de interações de entrada do site dentro do perfil e o clique estiver dentro do período de lookback, a ID de click-through do visitante substituirá a ID de visualização-through do relatórios do site.
 
-* [!DNL Analytics for Advertising] o rastreamento de conversão no Adobe Analytics usa uma janela de pesquisa de rastreamento configurável (60 dias por padrão). Os relatórios de Adobe Advertising refletem conversões e engajamento do site até o final desta janela de retrospectiva de rastreamento.
+* [!DNL Analytics for Advertising] conversão rastreamento no Adobe Analytics usa uma janela de lookback rastreamento configurável (60 dias por padrão). Adobe Systems relatórios de publicidade refletem as conversões e os envolvimento do site até o final desta rastreamento janela de retrospectiva.
 
-* Todos os tipos de anúncios são compatíveis. No entanto, nem todos os ambientes de anúncios são compatíveis.
-
-  Por exemplo, anúncios de TV conectada (CTV) não são rastreados porque nenhum clique ocorre em CTV e nenhuma conversão pode ocorrer no mesmo dispositivo. No entanto, se o anúncio for visualizado em um ambiente de desktop, alguns dados de entrada do site de view-through poderão ser rastreados.
+* Todos os publicidade tipos são suportados. No entanto, nem todos os ambientes publicidade são suportados.
 
 * [!DNL Analytics] no momento, as conversões são rastreadas e atribuídas apenas a um visitante no mesmo dispositivo.
 
-* [!DNL Analytics for Advertising] O não oferece suporte a conversões de view-through no aplicativo.
+* [!DNL Analytics for Advertising] não suporta conversões de visualização-through no aplicativo.
 
-* O rastreamento de view-through não é compatível com anunciantes que usam uma implementação de encaminhamento pelo lado do servidor do [!DNL Analytics].
+* Exibir rastreamento não é suportada por anunciantes que usam uma lado do servidor encaminhamento implementação de [!DNL Analytics].
 
 ### ID suplementar
 
-Depois que o Serviço de identidade do Experience Cloud é implementado em um site, as ocorrências que contêm dados de [!DNL Analytics] ou Adobe Advertising contêm uma ID complementar.
+Depois que o Experience Cloud Serviço de identidade for implementado para um site, ocorrências que contêm dados [!DNL Analytics] ou Adobe Systems Publicidade contêm uma ID adicional.
 
 Exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
-Para uma integração de dados precisa, todas as chamadas de Adobe Advertising usadas por um [!DNL Analytics for Advertising] atividade para fornecer conteúdo ou registrar, a métrica de meta deve ter uma [!DNL Analytics] que compartilha a mesma ID complementar.
+Para uma integração precisa de dados, todas as chamadas Adobe Systems Advertising usadas por um [!DNL Analytics for Advertising] atividade para fornecer conteúdo ou registrar a meta métrica devem ter uma hit correspondente [!DNL Analytics] que compartilhe a mesma ID suplementar.
 
-Quando estiver solucionando problemas no [!DNL Analytics], confirme se a ID complementar está presente para [!DNL Analytics] ocorrências. No [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), você poderá ver essa ID na guia Adobe Advertising como a variável `sdid` parâmetro.
+Ao solucionar [!DNL Analytics]problemas, confirme se a ID adicional está presente para [!DNL Analytics] as ocorrências. [No Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), você pode ver essa ID no Adobe Systems Advertising guia como o `sdid` parâmetro.
 
 >[!NOTE]
 >
-> Esta implementação funciona de forma semelhante à [!DNL Analytics for Target] integração.
+> Esse implementação funciona de forma semelhante à [!DNL Analytics for Target] integração.
 
 >[!MORELIKETHIS]
 >
->* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
->* [Código JavaScript para o Analytics para publicidade](/help/integrations/analytics/javascript.md)
+>* [Visão geral de [!DNL Analytics for Advertising]](overview.md)
+>* [JavaScript Code for Analytics for Advertising](/help/integrations/analytics/javascript.md)

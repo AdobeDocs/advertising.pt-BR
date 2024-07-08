@@ -1,70 +1,70 @@
 ---
-title: Converter IDs de usuários de [!DNL Optimizely] IDs universais
-description: Aprenda a habilitar DSP para assimilar seus [!DNL Optimizely] segmentos primários.
+title: Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
+description: Saiba como habilitar o DSP para assimilar seus [!DNL Optimizely] segmentos primários.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 2c42e8e4b7ca7e0cfaaf7895f067e4ccf7a2a40e
+source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-# Converter IDs de usuários de [!DNL Optimizely] IDs universais
+# Converter IDs de usuário de [!DNL Optimizely] para Universal IDs
 
-*recurso de beta*
+*Recurso do Beta*
 
-Use the DSP integration with the [!DNL Optimizely] customer data platform to convert your organization&#39;s first-party hashed email addresses to universal IDs for targeted advertising.
+Use a integração do DSP com o [!DNL Optimizely] plataforma de dados do cliente para converter os endereços de email com hash primários da sua organização em IDs universais para publicidade direcionada.
 
-1. (To convert email addresses to [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; advertisers with [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Set up tracking to enable [!DNL Analytics] measurement](#analytics-tracking).
+1. (Para converter endereços de email em [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Configurar o rastreamento para habilitar [!DNL Analytics] medição](#analytics-tracking).
 
-1. [Create an audience source in DSP](#source-create).
+1. [Criar uma fonte de público no DSP](#source-create).
 
-1. [Prepare and push the segment data](#push-data).
+1. [Preparar e enviar os dados do segmento](#push-data).
 
-1. [Compare the number of universal IDs with the number of hashed email addresses](#compare-id-count).
+1. [Comparar o número de IDs universais com o número de endereços de email com hash](#compare-id-count).
 
-## Step 1: Set up tracking for [!DNL Analytics] measurement {#analytics-tracking}
+## Etapa 1: configurar o rastreamento do [!DNL Analytics] medição {#analytics-tracking}
 
 *Anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
 
-Para converter endereços de email ou [!DNL RampIDs] [!DNL ID5] IDs, faça o seguinte:
+Para converter endereços de email em [!DNL RampIDs] ou [!DNL ID5] IDs, você deve fazer o seguinte:
 
-1. (Caso ainda não tenha feito) Todos os Apps todos os [pré-requisitos para a implementação [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e verifique se a ID do AMO e a [ID](/help/integrations/analytics/ids.md) de EF estão sendo preenchidas nos URLs rastreamento.
+1. (Se você ainda não tiver feito isso) Conclua tudo [pré-requisitos para implementar o [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e certifique-se de que o [ID AMO e ID EF](/help/integrations/analytics/ids.md) estão sendo preenchidos nos URLs de rastreamento.
 
-1. Registre-se com o parceiro de ID universal e implantar código específico da ID universal em suas páginas da Web para corresponder às conversões das IDs em navegadores de desktop e da Web móvel (mas não aplicativos móveis) para visualização-throughs:
+1. Registre-se com o parceiro de ID universal e implante o código específico da ID universal em suas páginas da Web para corresponder às conversões de IDs em navegadores da Web para desktop e dispositivos móveis (mas não em aplicativos móveis) para view-throughs:
 
-   * **Para [!DNL RampIDs]:** você deve implantar uma JavaScript tag adicional em suas páginas da Web para corresponder às conversões das IDs em desktop e navegadores móveis da Web (mas não aplicativos móveis) para visualização-throughs. Contact your Adobe Account Team, who will give you instructions to register for a [!DNL LiveRamp] [!DNL LaunchPad] tag from [!DNL LiveRamp] Authentication Traffic Solutions. Registration is free, but you must sign an agreement. Once you register, your Adobe Account Team will generate and provide a unique tag for your organization to implement on your webpages.
+   * **Para [!DNL RampIDs]:** Você deve implantar uma tag JavaScript adicional em suas páginas da Web para corresponder às conversões de IDs em navegadores da Web para desktop e dispositivos móveis (mas não em aplicativos móveis) para view-throughs. Entre em contato com a equipe de conta do Adobe, que fornecerá instruções para se registrar em um [!DNL LiveRamp] [!DNL LaunchPad] tag de [!DNL LiveRamp] Soluções de tráfego de autenticação. A inscrição é gratuita, mas você deve assinar um contrato. Depois de se registrar, sua equipe de conta do Adobe gerará e fornecerá uma tag exclusiva para sua organização implementar em suas páginas da Web.
 
-## Step 2: Create an audience source in DSP {#source-create}
+## Etapa 2: criar uma fonte de público-alvo no DSP {#source-create}
 
-1. [Create an audience source](source-manage.md) to import audiences to your DSP account or an advertiser account. You can choose to convert your user identifiers to any of the [available universal ID formats](source-about.md).
+1. [Criar uma fonte de público-alvo](source-manage.md) para importar públicos para sua conta DSP ou uma conta de anunciante. É possível optar por converter os identificadores de usuário em qualquer um dos [formatos de ID universal disponíveis](source-about.md).
 
-   The source settings will include an auto-generated source key, which you&#39;ll use to push the segment data.
+   As configurações de origem incluirão uma chave de origem gerada automaticamente, que você usará para enviar os dados do segmento.
 
-1. After you create the audience source, share the source code key with the [!DNL Optimizely] user.
+1. Depois de criar a origem do público-alvo, compartilhe a chave do código-fonte com a [!DNL Optimizely] usuário.
 
-## Etapa 3: preparar e enviar os dados segmento {#push-data}
+## Etapa 3: preparar e enviar os dados do segmento {#push-data}
 
-A anunciante deve preparar e enviar os dados com a ajuda de seu [!DNL Optimizely] representante.
+O anunciante deve preparar e enviar os dados usando o [!DNL Optimizely Data Platform]. Em caso de dúvidas sobre o processo, entre em contato com [!DNL Optimizely] representante.
 
-1. Dentro disso [!DNL Optimizely Data Platform], hash as IDs de email do público-alvo do anunciante usando o algoritmo SHA-256.
+1. Dentro de [!DNL Optimizely Data Platform], coloque as IDs de email em hash para o público-alvo usando o algoritmo SHA -256.
 
-1. Siga as instruções para [[!DNL Optimizely's] encaminhar o segmento para DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads). Inclua as seguintes informações para ativar a integração:
+1. Seguir [[!DNL Optimizely's] instruções para encaminhar o segmento para DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads). Inclua as seguintes informações para habilitar a integração:
 
-   * **Source Key:** This is the source key created in [Step 2](#source-create).
+   * **Chave do Source:** Esta é a chave de origem criada em [Etapa 2](#source-create).
 
-   * **Account Code:** This is the alphanumeric DSP Account Code, which you can find within DSP at [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Código da conta:** Este é o código alfanumérico da conta DSP, que você pode encontrar dentro do DSP em [!UICONTROL Settings] > [!UICONTROL Account].
 
-The segments should be available in DSP within 24 hours and are refreshed as configured for the advertiser. Regardless of how frequently the segment is refreshed, inclusion in a segment expires after 30 days by default or after a customer-specified expiration period. Refresh your segments by re-pushing them from [!DNL Optimizely] prior to the expiration. To request a custom segment expiration, contact your Adobe Account Team.
+Os segmentos devem estar disponíveis no DSP em 24 horas e são atualizados conforme configurado para o anunciante. Independentemente da frequência com que o segmento é atualizado, a inclusão em um segmento expira após 30 dias por padrão ou após um período de expiração especificado pelo cliente. Atualize seus segmentos enviando novamente de [!DNL Optimizely] antes da expiração. Para solicitar a expiração de um segmento personalizado, entre em contato com a equipe de conta do Adobe.
 
-## Step 4: Compare the number of universal IDs with the number of hashed email addresses {#compare-id-count}
+## Etapa 4: Comparar o número de IDs universais com o número de endereços de email com hash {#compare-id-count}
 
-Depois de concluir todas as etapas, verifique na biblioteca de público-alvo (que está disponível ao criar ou editar uma público-alvo a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas posicionamento configurações) se a segmento está disponível e está sendo preenchida dentro de 24 horas. Compare the number of universal IDs with the number of original hashed email addresses.
+Após concluir todas as etapas, verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) de que o segmento está disponível e está sendo preenchido em 24 horas. Compare o número de IDs universais com o número de endereços de email com hash originais.
 
-A taxa de tradução dos endereços de email com hash para IDs universais deve ser maior que 90%. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para mais de 90 IDs universais. Uma taxa de tradução de 90% ou menos é um problema. Para obter mais informações sobre como as contagens de segmento podem variar, consulte &quot;[Causas de variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances)&quot;.
+A taxa de conversão de endereços de email com hash em IDs universais deve ser superior a 90%. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para mais de 90 IDs universais. Uma taxa de tradução de 90% ou menos é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
-Para solucionar problemas de suporte, entre em contato com seu Adobe Systems equipe de conta ou `adcloud-support@adobe.com`.
+Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

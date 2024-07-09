@@ -3,9 +3,9 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ Para cada voo, insira a data de início, a data de término e a meta de gastos. 
 Para pacotes existentes, você pode opcionalmente informar um valor no campo [!UICONTROL Rollover] para qualquer voo para adicionar um orçamento potencial não gasto ao próximo voo. O valor projetado no [!UICONTROL Adjusted Goal (Goal + Rollover)] é alterada de acordo.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-Para e
->>
-* [Sobre o gerenciamento de pacotes](package-about.md)
+>
+>* [Sobre o gerenciamento de pacotes](package-about.md)
 >* [Criar um pacote](package-create.md)
-* [Editar um pacote](package-edit.md)
-* [Anexar um posicionamento a um pacote](package-attach-placement.md)
-* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
-* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Editar um pacote](package-edit.md)
+>* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
+>* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

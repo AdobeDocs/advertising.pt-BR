@@ -3,9 +3,9 @@ title: Converter IDs de usuário de [!DNL Amperity] para Universal IDs
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Amperity] segmentos primários.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ Os segmentos serão atualizados conforme configurados para o anunciante no [!DNL
 
 ## Etapa 5: Comparar o número de IDs universais com o número de endereços de email com hash {#compare-id-count}
 
-Depois que o DSP receber os dados do segmento, a contagem de público-alvo deve estar visível dentro de nove (9) horas. Na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) compare o número de IDs universais com o número de endereços de email com hash originais.
+Depois que o DSP receber os dados do segmento, a contagem de público-alvo deve estar visível dentro de nove (9) horas.
 
-Para obter informações sobre as taxas de conversão de ID aceitáveis e por que a contagem de segmentos pode variar, consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
+Na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) compare o número de IDs universais com o número de endereços de email com hash originais. Para obter informações sobre as taxas de conversão de ID aceitáveis e por que a contagem de segmentos pode variar, consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
-Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
+## Solução de problemas
+
+Para solucionar problemas de taxa de conversão e contagem de usuários, consulte &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md).&quot;
+
+Para solucionar problemas com o procedimento de conversão, entre em contato com a equipe de conta do Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

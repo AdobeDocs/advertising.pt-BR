@@ -2,16 +2,16 @@
 title: "Converter IDs de usuário de [!DNL ActionIQ] para Universal IDs"
 description: "Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários."
 feature: DSP Audiences
-source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
+source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 # Converter IDs de usuário de [!DNL ActionIQ] para Universal IDs
 
-*Recurso beta*
+*Recurso do Beta*
 
 Use a integração do DSP com o [!DNL ActionIQ] plataforma de dados do cliente para converter seus endereços de email com hash em IDs universais para publicidade direcionada.
 
@@ -27,9 +27,14 @@ Há <!-- NN --> etapas para compartilhar dados de [!DNL ActionIQ] com DSP:
 
 1. Depois de criar a origem do público-alvo, compartilhe a chave do código-fonte com a [!DNL ActionIQ] usuário.
 
-1. Após concluir todas as etapas, verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) que o segmento está preenchendo em 24 horas. Compare o número de IDs universais com o número de endereços de email com hash originais.
+1. 
+   <!-- ActionIQ-specific step(s) -->
 
-   A taxa de conversão de endereços de email com hash em IDs universais deve ser superior a 90%. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para mais de 90 IDs universais. Uma taxa de tradução de 90% ou menos é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
+1. Verifique na biblioteca de público-alvo (que está disponível ao criar ou editar um público-alvo em [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) que o segmento está preenchendo, e compare o número de IDs universais com o número de endereços de email com hash originais.
+
+   Os segmentos devem estar disponíveis no DSP em 24 horas. Depois que o DSP receber os dados do segmento, a contagem de público-alvo deve estar visível dentro de nove (9) horas.
+
+   A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular, deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
    Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 

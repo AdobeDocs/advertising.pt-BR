@@ -3,9 +3,9 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Placement level pacing]:**  Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos *individualmente*. A prática recomendada é usar essa estratégia apenas para executar negócios garantidos de mercados privados.
 
-**[!UICONTROL Flight Dates]:** A data inicial e a data final do pacote.
-
-Como opção, para criar voos não uniformes para o pacote, selecione *[!UICONTROL *Activate Custom Flighting]** e configurar os voos personalizados no [!UICONTROL Flighting] abaixo. Depois de habilitar a sinalização personalizada e salvar o pacote, não é possível desativar a sinalização personalizada.
+**[!UICONTROL Flight Dates]:** A data inicial e a data final gerais do pacote. As datas de voo devem ser incluídas nas datas de voo da campanha.
 
 >[!NOTE]
 >
->* As datas de voo devem ser incluídas nas datas de voo da campanha. Além disso, as datas de voo de todas as colocações atribuídas a este pacote devem ser incluídas nessas datas.
+>* As datas de voo de todas as colocações atribuídas a este pacote devem ser incluídas nessas datas.
 > * Não é possível editar a data de início do pacote quando a iluminação personalizada está ativada.
+
+**[!UICONTROL *Activate Custom Flighting]:** Permite criar voos espaciais irregulares para o pacote no [!UICONTROL Flighting] abaixo. Depois de habilitar a pesquisa personalizada e salvar o pacote, não é possível desabilitar a pesquisa personalizada nem editar a data de início do pacote.
 
 **[!UICONTROL Budget]:** (Pacotes com ritmo no nível do pacote somente) O limite de orçamento bruto e o intervalo de orçamento.
 

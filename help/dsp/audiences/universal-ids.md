@@ -3,9 +3,9 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Use as seguintes práticas recomendadas para [!DNL RampID]Segmentos com base em 
 
 * Cerca de 24 horas depois de ativar um segmento, verifique a contagem de IDs convertidas para o segmento no [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Se a contagem de ID for inesperada, entre em contato com a equipe de conta do Adobe.
 
-  Consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances)&quot; para obter mais informações sobre como as contagens de segmentos podem variar.
+  Consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances)&quot; para obter mais informações sobre como as contagens de segmentos podem variar.
 
 * Não altere seus pacotes e posicionamentos existentes. No entanto, se você não tiver um orçamento incremental para testar as IDs universais, reduza os orçamentos originais para financiar os testes.
 
@@ -96,15 +96,21 @@ Use as seguintes práticas recomendadas para [!DNL RampID]Segmentos com base em 
 
 * Lembre-se de que o alcance para segmentos de público-alvo autenticados é naturalmente menor do que o alcance para segmentos baseados em cookies, e que o uso de opções adicionais de direcionamento diminui ainda mais o alcance. Seja criterioso em usar o direcionamento granular, especialmente ao unir vários targets com instruções AND.
 
-## Causas para variações de dados entre IDs de email e IDs universais {#universal-ids-data-variances}
+## Variações de dados entre IDs de email e IDs universais {#universal-ids-data-variances}
+
+### Níveis aceitáveis de variação
+
+A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular, deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa pode indicar um problema. Consulte &quot;[Causas de variação](#universal-ids-data-variances-causes&quot; para possíveis explicações.
+
+Para [!DNL RampIDs], entre em contato com a equipe de conta do Adobe para obter mais informações se as taxas de tradução forem inferiores a 70%.
+
+### Causas de variação {#universal-ids-data-variances-causes}
 
 * IDs de email com hash traduzidas para IDs 5:
 
   O modelo probabilístico tem uma variação de erro de +/- 5%. Isso significa que pode superestimar ou subestimar a contagem de público em 5%.
 
 * IDs de email com hash traduzidas para [!DNL RampIDs]:
-
-  A taxa de conversão de endereços de email com hash para [!DNL RampIDs] deve ser de 95% se todos os endereços de email com hash forem exclusivos. Para taxas de tradução inferiores a 70%, entre em contato com a equipe de conta da Adobe para obter mais informações.
 
    * Quando vários perfis usam a mesma ID de email, a contagem de segmentos do DSP pode ser inferior à contagem de perfis na plataforma de dados do cliente. Por exemplo, no Adobe Photoshop, é possível criar uma conta da empresa e uma conta pessoal usando uma única ID de email. Mas se ambos os perfis pertencerem à mesma pessoa, os perfis serão mapeados para uma ID de email e correspondentemente para uma [!DNL RampID].
 

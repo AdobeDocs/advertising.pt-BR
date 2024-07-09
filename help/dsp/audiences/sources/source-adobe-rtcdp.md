@@ -3,9 +3,9 @@ title: Uso da integração do DSP com o [!DNL Adobe] [!DNL Real-time CDP]
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Adobe] [!DNL Real-time CDP] segmentos primários.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 5d4dfa7976b1500bf65105cf8fcc6dc5d3e1ec65
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Use a integração do DSP com o [o [!DNL Adobe Real-Time Customer Data Platform 
 
    Os segmentos devem estar disponíveis no DSP em 24 horas. Depois que o DSP receber os dados do segmento, a contagem de público-alvo deve estar visível dentro de nove (9) horas.
 
-   A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular, deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
+   Para obter informações sobre as taxas de conversão de ID aceitáveis e por que a contagem de segmentos pode variar, consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
    Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 

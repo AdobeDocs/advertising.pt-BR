@@ -2,9 +2,9 @@
 title: "Converter IDs de usuário de [!DNL ActionIQ] para Universal IDs"
 description: "Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários."
 feature: DSP Audiences
-source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Há <!-- NN --> etapas para compartilhar dados de [!DNL ActionIQ] com DSP:
 
    Os segmentos devem estar disponíveis no DSP em 24 horas. Depois que o DSP receber os dados do segmento, a contagem de público-alvo deve estar visível dentro de nove (9) horas.
 
-   A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular, deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa é um problema. Para obter mais informações sobre como as contagens de segmentos podem variar, consulte &quot;[Causas para variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
+   Para obter informações sobre as taxas de conversão de ID aceitáveis e por que a contagem de segmentos pode variar, consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances).&quot;
 
    Para obter suporte para solução de problemas, entre em contato com a equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 

@@ -3,7 +3,7 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
+source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* As datas de voo de todas as colocações atribuídas a este pacote devem ser incluídas nessas datas.
 > * Não é possível editar a data de início do pacote quando a iluminação personalizada está ativada.
 
-**[!UICONTROL *Activate Custom Flighting]:** Permite criar voos espaciais irregulares para o pacote no [!UICONTROL Flighting] abaixo. Depois de habilitar a pesquisa personalizada e salvar o pacote, não é possível desabilitar a pesquisa personalizada nem editar a data de início do pacote.
+**[!UICONTROL Activate Custom Flighting]:** Permite criar voos espaciais irregulares para o pacote no [!UICONTROL Flighting] abaixo. Depois de habilitar a pesquisa personalizada e salvar o pacote, não é possível desabilitar a pesquisa personalizada nem editar a data de início do pacote.
 
 **[!UICONTROL Budget]:** (Pacotes com ritmo no nível do pacote somente) O limite de orçamento bruto e o intervalo de orçamento.
 

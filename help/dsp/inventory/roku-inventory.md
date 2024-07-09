@@ -3,22 +3,20 @@ title: Usar [!DNL Roku] Inventário
 description: Saiba mais sobre a parceria do DSP com a [!DNL Roku], incluindo opções de inventário, fornecedores de rastreamento de terceiros aprovados e práticas recomendadas para [!DNL Roku]- disposições específicas.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Usar [!DNL Roku] Inventário
 
-O DSP de publicidade fornece recursos exclusivos para publicidade em [!DNL Roku].
+O Advertising DSP fornece recursos para publicidade em [!DNL Roku].
 
 ## O DSP e [!DNL Roku] Parceria
 
-Roku e DSP têm uma parceria exclusiva que corresponde às suas [!DNL DSP] públicos-alvo para [!DNL Roku] IDs para direcionamento determinístico de público-alvo em 1:1 [!DNL Roku] inventário.
-
-Fora do DSP da Roku (OneView), o DSP publicitário tem acesso exclusivo a esses recursos de direcionamento. A publicidade do DSP também é o único DSP com permissão para medir [!DNL Roku] fornecer ao lado de todo o inventário de TV conectada (CTV). Porque [!DNL Roku] não compartilha todos os sinais padrão de RTB e pixel de impressão, nenhum outro DSP pode direcionar ou medir em toda a fonte de CTV vendida pelo Roku.
+A variável [!DNL Roku] e a parceria com DSP combinam com seus [!DNL DSP] públicos-alvo para [!DNL Roku] IDs para direcionamento determinístico de público-alvo em 1:1 [!DNL Roku] inventário.
 
 ## [!DNL Roku] Opções de inventário
 
@@ -53,7 +51,7 @@ As ofertas privadas permitem personalizar os parâmetros da negociação de acor
 
 Em campanhas com DSP, [criar [!DNL Roku]Posicionamentos específicos do](/help/dsp/campaign-management/placements/placement-create.md) uso do tipo de posicionamento &quot;[!UICONTROL Connected TV (Roku)].&quot; Incluir [!DNL Roku] inserções no [!DNL Roku]Pacotes específicos do com metas definidas.
 
-Each [!DNL Roku] o posicionamento deve direcionar pelo menos um [!DNL Roku] acordo ou origem. Para usar a correspondência de público-alvo exclusivo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que possam ser comparados com o [!DNL Roku] (aceitação) conjunto de dados determinísticos.
+Each [!DNL Roku] o posicionamento deve direcionar pelo menos um [!DNL Roku] acordo ou origem. Para usar a correspondência do público-alvo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que possam ser comparados com o [!DNL Roku] (aceitação) conjunto de dados determinísticos.
 
 ### [!DNL Roku]Fornecedores de rastreamento de terceiros aprovados
 

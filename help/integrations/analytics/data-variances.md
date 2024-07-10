@@ -3,9 +3,9 @@ title: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 description: Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ A variável [!DNL Paid Search Detection] permitem identificar o tráfego de pesq
 
 Na sua integração, você deve validar os dados de click-through para garantir que todas as páginas do site estejam rastreando click-throughs corretamente.
 
-Entrada [!DNL Analytics], uma das maneiras mais fáceis de validar [!DNL Analytics for Advertising] O rastreamento do é para comparar instâncias a cliques usando uma métrica calculada &quot;Instâncias de ID do AMO para cliques do Adobe Advertising&quot;, que é calculada da seguinte maneira:
+Entrada [!DNL Analytics], uma das maneiras mais fáceis de validar [!DNL Analytics for Advertising] O rastreamento do é para comparar instâncias a cliques usando uma métrica calculada &quot;Instâncias de ID do AMO para cliques&quot;, que é calculada da seguinte maneira:
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] representa o número de vezes que [IDs AMO](ids.md) são rastreados no site. Sempre que um anúncio for clicado, uma ID do AMO (`s_kwcid`) é adicionado ao URL da página inicial. O número de [!UICONTROL AMO ID Instances], portanto, é análogo ao número de cliques e pode ser validado em relação aos cliques reais de anúncios. Geralmente, vemos uma taxa de correspondência de 85% para [!DNL Search, Social, & Commerce] e uma taxa de correspondência de 30% para [!DNL DSP] tráfego (quando filtrado para incluir apenas click-through [!UICONTROL AMO ID Instances]). A diferença nas expectativas entre pesquisa e exibição pode ser explicada pelo comportamento do tráfego esperado. A pesquisa captura a intenção e, como tal, os usuários geralmente pretendem clicar nos resultados da pesquisa de sua consulta. Os usuários que visualizam uma exibição ou anúncio de vídeo online, no entanto, têm mais probabilidade de clicar no anúncio involuntariamente e, em seguida, saltar do site ou abandonar a nova janela que é carregada antes que a atividade da página seja rastreada.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 Nos relatórios Adobe Advertising, é possível comparar instâncias de maneira semelhante a cliques usando o &quot;[!UICONTROL EF ID Instances]&quot; em vez de [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Embora você deva esperar uma alta taxa de correspondência entre a AMO ID e a EF ID, não espere 100% de paridade, pois a AMO ID e a EF ID rastreiam fundamentalmente dados diferentes, e essa diferença pode levar a pequenas diferenças no total [!UICONTROL AMO ID Instances] e [!UICONTROL EF ID Instances]. Se o total [!UICONTROL AMO ID Instances] in [!DNL Analytics] diferir de [!UICONTROL EF ID Instances] no Adobe Advertising em mais de 1%, no entanto, entre em contato com a equipe de conta do Adobe para obter assistência.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### Solução de problemas de disparidades entre cliques e instâncias
 
-Se a variável [!UICONTROL EF ID Instances]-para-[!UICONTROL Adobe Advertising Clicks] for inferior a 85%, verifique o seguinte:
+Se a variável [!UICONTROL EF ID Instances]A relação de -cliques for inferior a 85%, verifique o seguinte:
 
 * O rastreamento de cliques da conta ou de qualquer subnível está ausente, ou você tem um rastreamento de cliques duplicado (por exemplo, nos níveis da conta e da campanha)?
 

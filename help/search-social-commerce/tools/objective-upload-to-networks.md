@@ -3,9 +3,9 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como fazer upload de objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Carrega para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso horário do
 
 ## Como o objetivo ponderado é calculado
 
-O objetivo ponderado passado para a rede de publicidade é a soma de todos os valores de métrica coletados, com exceção das conversões rastreadas pelo [!DNL Google Ads] ou pelo [!DNL Microsoft Advertising] universal event tracking (UET).
+O objetivo ponderado passado para a rede de publicidade é a soma de todos os valores de métrica coletados, com exceção das conversões rastreadas pelo [!DNL Google Ads] ou pelo [!DNL Microsoft Advertising] universal event tracking (UET). O valor é calculado usando o método de atribuição configurado para a conta Search, Social e Commerce do anunciante.
 
 Por exemplo, digamos que a métrica de objetivo seja Adições ao carrinho com um peso de 25, e suas métricas de assistência incluem GL_Lead e Receita com pesos de 1 e Downloads com um peso de 0,5.
 
@@ -70,6 +70,12 @@ Suponha que uma palavra-chave tenha resultado nas seguintes ações para o portf
 * 5 GL_Lead
 
 GL_Lead não está incluído no cálculo/upload porque é uma métrica rastreada pelo Google Ads. Portanto, o valor objetivo ponderado é calculado como ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+
+>[!TIP]
+>
+>Você pode exibir dados para receita ponderada de Adobe Advertising nos relatórios da rede de publicidade. Como prática recomendada, compare a receita ponderada com a [!DNL Google Ads] &quot;Todos conv. (por conv. tempo)&quot; para a métrica [!DNL Microsoft Advertising] métrica &quot;Todas as conv. receita&quot;, segmentada para a métrica O_ACS_OBJ*.<!--clarify -->
+
+no editor da rede de publicidade
 
 ## Solução de problemas de objetivos ausentes
 

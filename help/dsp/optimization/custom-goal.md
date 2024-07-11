@@ -3,9 +3,9 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ As metas personalizadas definem os eventos de sucesso que um anunciante precisa 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Cada meta personalizada consiste em uma ou mais métricas de conversão e os pesos relativos dessas métricas. As métricas de conversão disponíveis incluem todas as métricas rastreadas usando o pixel de conversão de Adobe Advertising e por meio do Adobe Analytics.
+Cada meta personalizada (objetivo) consiste em uma ou mais métricas de conversão e os pesos relativos dessas métricas. Somente pesos não móveis são considerados para metas personalizadas de DSP. As métricas de conversão disponíveis incluem todas as métricas rastreadas usando o pixel de conversão de Adobe Advertising e por meio do Adobe Analytics.
 
 Por exemplo, suponha que três métricas de conversão sejam relevantes para um pacote específico em uma de suas campanhas: &quot;Download de PDF&quot; com valor de 20 USD, &quot;Inscrição em email&quot; com valor de 30 USD e &quot;Confirmação de pedido&quot; com valor de 40 USD. Se você quiser atribuir peso de acordo com o valor monetário único da ação do cliente, os pesos relativos das métricas serão 1, 1,5 e 2.
 
 Uma vez que [criar uma meta personalizada](#custom-goal-create), você pode [atribuir a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algorítmicos usando o Adobe Sensei.
+
+Recomendações de peso são geradas automaticamente para métricas atribuídas ao DSP em objetivos do e podem aplicar todas as recomendações de peso com um clique. Todas as alterações de peso nos objetivos com o prefixo &quot;ADSP_&quot; são aplicadas de forma algorítmica no DSP dentro de dois dias. Para obter mais informações sobre recomendações de peso, consulte o capítulo do Guia de otimização em &quot;(Beta) Novos objetivos&quot;, que está disponível no Search, Social e Commerce.
 
 ## Criar uma meta personalizada {#custom-goal-create}
 
@@ -49,9 +51,15 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
 
    1. Na barra de ferramentas, clique em ![Criar](/help/dsp/assets/create-search-ui.png "Criar").
 
-   1. Insira as configurações do objetivo, incluindo as métricas associadas e seus pesos numéricos relativos para dispositivos não móveis e dispositivos móveis, e salve o objetivo.
+   1. Insira as configurações do objetivo, incluindo as métricas associadas e seus pesos numéricos relativos para dispositivos não móveis, e salve o objetivo. Considere o seguinte:
 
-      Pelo menos uma métrica deve ter o tipo de métrica *[!UICONTROL Goal]*.
+      * Para objetivos usados para pacotes do Advertising DSP, o nome do objetivo deve ter o prefixo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. O prefixo não diferencia maiúsculas de minúsculas.
+
+      * Incluir somente métricas atribuídas ao DSP. Qualquer métrica atribuída à Pesquisa, Social e Commerce ou a qualquer outra rede de anúncios é ignorada.
+
+      * Pelo menos uma métrica deve ter o tipo de métrica *[!UICONTROL Goal]*.
+
+      * O DSP usa os pesos não móveis para todos os anúncios. Quaisquer pesos móveis especificados são ignorados.
 
       >[!NOTE]
       >

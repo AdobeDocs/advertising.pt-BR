@@ -3,9 +3,9 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
+source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Os exemplos a seguir mostram como você pode configurar metas que têm como alvo
 
 #### Exemplo de uma campanha com &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Meta de otimização
 
-Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]), e a receita de todos os tipos de dispositivos é igualmente importante para você, em seguida, inclua o &quot;[!UICONTROL Revenue]&quot;com um peso não móvel (para conversões de um dispositivo não móvel) de um (1) e um peso móvel (para conversões de um dispositivo móvel) de um (1). Selecionar o tipo de métrica *[!UICONTROL Goal]*.
+Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]), e a receita de todos os tipos de dispositivos é igualmente importante para você, em seguida, inclua o &quot;[!UICONTROL Revenue]&quot; com um peso não móvel de um (1); o peso móvel é ignorado. Selecionar o tipo de métrica *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,13 +90,11 @@ Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 >[!NOTE]
 >
-> Um peso móvel ou não móvel de um (1) equivale a um valor de um (1) para cada US$ 1 de receita rastreada.
->
-> Por exemplo, uma conversão de $250 com um peso não móvel de um (1) é relatada como $250 para conversões. Se for atribuído um peso não móvel de 0,5 à métrica de conversão, a conversão de US$ 250 de um dispositivo não móvel será relatada como US$ 125 em Adobe Advertising (conversão de US$ 250 * 0,5) [!UICONTROL Non-mobile Weight] = US$ 125).
+> Um peso não móvel de um (1) equivale a um valor de um (1) para cada US$ 1 da receita rastreada para anúncios de exibição em qualquer dispositivo. Por exemplo, uma conversão de $250 com um peso não móvel de um (1) é relatada como $250 para conversões. Se for atribuído um peso não móvel de 0,5 à métrica de conversão, a conversão de US$ 250 será relatada como US$ 125 em Adobe Advertising (conversão de US$ 250 * 0,5) [!UICONTROL Non-mobile Weight] = US$ 125).
 
 #### Exemplo de uma campanha com &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Meta de otimização
 
-Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido (como &quot;Envio de aplicativo&quot;), inclua essa métrica e especifique o tipo de métrica como *[!UICONTROL Goal]*. A prática recomendada é definir o peso móvel e não móvel como um (1).
+Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido (como &quot;Envio de aplicativo&quot;), inclua essa métrica e especifique o tipo de métrica como *[!UICONTROL Goal]*. A prática recomendada é definir o peso não móvel como um (1); o peso móvel é ignorado.
 
 <!-- update image or delete 
 
@@ -106,13 +104,13 @@ Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apen
 
 >[!NOTE]
 >
-> Um peso móvel ou não móvel de um (1) equivale a um valor de um (1) para cada conversão rastreada. Por exemplo, se 10 conversões de Envio de aplicativo forem rastreadas, 10 conversões de Envio de aplicativo serão relatadas. No entanto, se for atribuído um peso não móvel de 0,5 à métrica de conversão, as 10 conversões não móveis serão relatadas como cinco (5) em Adobe Advertising (10 conversões * 0,5 [!UICONTROL Non-mobile Weight] = 5).
+> Um peso não móvel de um (1) equivale a um valor de um (1) para cada conversão rastreada para anúncios de exibição em qualquer dispositivo. Por exemplo, se 10 conversões de Envio de aplicativo forem rastreadas, 10 conversões de Envio de aplicativo serão relatadas. No entanto, se for atribuído um peso não móvel de 0,5 à métrica de conversão, as 10 conversões serão relatadas como cinco (5) em Adobe Advertising (10 conversões * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Metas personalizadas com várias métricas
 
 Há dois cenários nos quais você usaria várias métricas em uma meta personalizada:
 
-* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos móveis e não móveis de um (1), a variável [!DNL Adobe Sensei] O algoritmo trata cada uma das métricas do e os tipos de dispositivo do usuário com a mesma importância. Se as diferentes métricas e tipos de dispositivos tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
+* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), a variável [!DNL Adobe Sensei] O algoritmo trata cada uma das métricas do e os tipos de dispositivo do usuário com a mesma importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -124,7 +122,7 @@ Há dois cenários nos quais você usaria várias métricas em uma meta personal
 
   Ao adicionar métricas de suporte a uma meta personalizada, avalie-as de acordo com sua importância relativa para o evento bem-sucedido principal e lembre-se da quantidade de pontos de dados. Isso permite que o algoritmo do Adobe Sensei equilibre várias métricas e otimize em direção à sua meta.
 
-  O exemplo de objetivo a seguir inclui três métricas, cada uma com um peso não móvel diferente: Envio de aplicativo = 1, Início do aplicativo = 0.1 e Página de aterrissagem do anunciante = 0.01. Isso significa que cada conversão de envio de aplicativo de dispositivos não móveis tem o mesmo valor para sua empresa como uma média de 10 conversões de início de aplicativo de dispositivos não móveis e 100 conversões de página de aterrissagem de anunciante de dispositivos não móveis.
+  O exemplo de objetivo a seguir inclui três métricas, cada uma com um peso não móvel diferente: Envio de aplicativo = 1, Início do aplicativo = 0.1 e Página de aterrissagem do anunciante = 0.01. Isso significa que cada conversão de envio de aplicativo tem o mesmo valor para sua empresa como uma média de 10 conversões de início de aplicativo e 100 conversões de página de aterrissagem de anunciante.
 
 <!-- update image or delete it and adjust the wording above
 

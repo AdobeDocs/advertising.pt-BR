@@ -3,23 +3,23 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # Metas personalizadas
 
-As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* in [!DNL Advertising Search, Social, & Commerce].
+As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* in [!DNL Advertising Search, Social, & Commerce]. O nome de cada objetivo para DSP deve receber o prefixo &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Cada meta personalizada (objetivo) consiste em uma ou mais métricas de conversão e os pesos relativos dessas métricas. Somente pesos não móveis são considerados para metas personalizadas de DSP. As métricas de conversão disponíveis incluem todas as métricas rastreadas usando o pixel de conversão de Adobe Advertising e por meio do Adobe Analytics.
+Cada meta personalizada (objetivo) consiste em uma ou mais métricas de conversão e os pesos relativos dessas métricas. As métricas de conversão disponíveis incluem todas as métricas rastreadas usando o pixel de conversão de Adobe Advertising e por meio do Adobe Analytics. Somente pesos não móveis são considerados para metas personalizadas de DSP, mas são usados para todos os tipos de anúncios.
 
 Por exemplo, suponha que três métricas de conversão sejam relevantes para um pacote específico em uma de suas campanhas: &quot;Download de PDF&quot; com valor de 20 USD, &quot;Inscrição em email&quot; com valor de 30 USD e &quot;Confirmação de pedido&quot; com valor de 40 USD. Se você quiser atribuir peso de acordo com o valor monetário único da ação do cliente, os pesos relativos das métricas serão 1, 1,5 e 2.
 

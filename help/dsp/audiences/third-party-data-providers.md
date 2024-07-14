@@ -1,25 +1,25 @@
 ---
-title: Provedores de dados de terceiros disponíveis em Advertising DSP
+title: Provedores de dados de terceiros disponíveis no Advertising DSP
 description: Consulte uma lista de todos os provedores de dados de terceiros disponíveis.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
+source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Provedores de dados de terceiros disponíveis em Advertising DSP
+# Provedores de dados de terceiros disponíveis no Advertising DSP
 
 As categorias de dados e os segmentos para os seguintes provedores de dados de terceiros estão disponíveis como alvos de posicionamento no DSP. Esses segmentos estão disponíveis principalmente para o público dos EUA.
 
 A taxa para usar cada segmento é mostrada ao lado do nome do segmento em configurações de posicionamento e configurações de público-alvo salvas.
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)]
+* [!DNL Audiences by Oracle (BlueKai)] (a terminar em 30 de setembro de 2024)
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
@@ -37,7 +37,6 @@ A taxa para usar cada segmento é mostrada ao lado do nome do segmento em config
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
 * [!DNL TruSignal]
-* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
@@ -45,6 +44,6 @@ Para obter mais informações sobre como importar segmentos personalizados de te
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
->* [Configurações de público](audience-settings.md)
+>* [Configurações de público-alvo](audience-settings.md)

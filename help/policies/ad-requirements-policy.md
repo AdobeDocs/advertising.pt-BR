@@ -3,16 +3,16 @@ title: Política de requisitos de anúncio de Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 1136589913b2648dd33fa2f6aae6d1aa13f94289
+source-git-commit: 703031baac908e2024d877f031ff164370528383
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
 
 # Política de requisitos de anúncio de Adobe Advertising
 
-*Última atualização: 17 de julho de 2024<!-- (except for formatting changes unrelated to content)-->*
+*Última atualização da política: 17 de julho de 2024<!-- (except for formatting changes unrelated to content)-->*
 
 *Para Adobe Advertising DSP e Adobe Advertising Search, Social e Commerce*
 

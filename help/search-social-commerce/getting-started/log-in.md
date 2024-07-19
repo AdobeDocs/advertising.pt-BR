@@ -1,18 +1,18 @@
 ---
 title: Fazer logon
 description: Saiba mais sobre como fazer logon.
-exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
 # Fazer logon
 
-Você pode fazer logon em Pesquisa, Social e Comércio diretamente ou no Adobe Experience Cloud.
+Você pode fazer logon na Search, Social e Commerce diretamente ou pelo Adobe Experience Cloud.
 
 ## Fazer logon diretamente
 
@@ -26,9 +26,9 @@ Você pode fazer logon em Pesquisa, Social e Comércio diretamente ou no Adobe E
 
 >[!NOTE]
 >
->Sua empresa deve ser provisionada na Adobe Experience Cloud e você deve ter [vinculou sua conta do Experience Cloud a uma conta do Search, Social e Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Sua empresa deve ser provisionada na Adobe Experience Cloud e você deve ter [vinculado sua conta do Experience Cloud a uma conta do Search, Social e Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Fazer logon no Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Faça logon no Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
 1. No menu superior, selecione ![seletor de soluções](/help/search-social-commerce/assets/menu-icon.png "seletor de soluções").
 
@@ -38,4 +38,4 @@ Você pode fazer logon em Pesquisa, Social e Comércio diretamente ou no Adobe E
 >
 >* [Fazer logoff](log-out.md)
 >* [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)
->* [Como a interface do usuário é organizada](user-interface.md)
+>* [Como a interface do usuário está organizada](user-interface.md)

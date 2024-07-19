@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]somente contas*
 
-A variável [!UICONTROL AdWords Search Query Report] inclui dados de custo, clique, impressão e métrica derivada (opcionalmente) para termos de consulta de pesquisa do usuário para um ou mais grupos de anúncios. Por padrão, os dados incluem uma linha para cada termo de pesquisa que resultou em impressões ou cliques para cada grupo de anúncios aplicável para cada unidade de tempo no intervalo de datas especificado, e as linhas estão em ordem crescente por nome de grupo de anúncios e, em seguida, por termo de pesquisa. Opcionalmente, você pode incluir a palavra-chave à qual o termo de pesquisa correspondeu. O relatório não inclui a palavra-chave à qual o termo de pesquisa correspondeu, nem quaisquer dados de conversão rastreados por [!DNL Adobe].
+O [!UICONTROL AdWords Search Query Report] inclui dados de custo, clique, impressão e métrica derivada (opcionalmente) para termos de consulta de pesquisa de usuário para um ou mais grupos de anúncios. Por padrão, os dados incluem uma linha para cada termo de pesquisa que resultou em impressões ou cliques para cada grupo de anúncios aplicável para cada unidade de tempo no intervalo de datas especificado, e as linhas estão em ordem crescente por nome de grupo de anúncios e, em seguida, por termo de pesquisa. Opcionalmente, você pode incluir a palavra-chave à qual o termo de pesquisa correspondeu. O relatório não inclui a palavra-chave à qual o termo de pesquisa correspondeu, nem quaisquer dados de conversão rastreados por [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ A variável [!UICONTROL AdWords Search Query Report] inclui dados de custo, cliq
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especiais](specialty-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especializados](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
-* [Sobre relatórios de especialidade](specialty-report-about.md)
-* [Gerar um relatório de especialidade](specialty-report-generate.md)
-* [Configurações do relatório de especialidades](specialty-report-settings.md)
+>* [Sobre relatórios especializados](specialty-report-about.md)
+>* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Configurações do relatório de especialidades](specialty-report-settings.md)

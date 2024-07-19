@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Documentação de Políticas e diretrizes de publicidade do Adobe
+# Documentação de políticas e diretrizes do Adobe Advertising
 
-Esta é a pasta da documentação de ajuda sobre políticas e diretrizes de publicidade entre Adobe.
+Esta é a pasta da documentação de ajuda sobre diretivas e diretrizes entre Adobe Advertising.
 
 **Observação: esta página não está publicada na documentação voltada para o cliente.**

@@ -1,9 +1,9 @@
 ---
 title: Otimizar as páginas de aterrissagem do site
 description: Saiba mais sobre as práticas recomendadas para otimizar as landing pages do seu site.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para melhorar a experiência do usuário e as taxas de conversão, é importante
 
 >[!TIP]
 >
->Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível na Pesquisa, Social e Comércio.<!-- verify convention for referencing Optimization Guide here -->
+>Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Criar páginas de aterrissagem eficazes
 
@@ -34,7 +34,7 @@ A seguir estão algumas diretrizes para criar páginas de aterrissagem que forne
 
 * Use um bom design de página; um bom design pode gerar confiança imediatamente, um senso de familiaridade e credibilidade. Personalize os botões do formulário para torná-los mais visíveis; não use o botão padrão gerado pelo navegador com a palavra &quot;Enviar&quot;. Use um layout de duas colunas, com o item acionável na coluna principal e informações de suporte na segunda coluna.
 
-* Forneça indicadores de credibilidade e segurança. Logotipos e selos ajudam a reduzir a ansiedade do visitante. Isso inclui [!DNL Verisign], [!DNL BBB] logotipo, [!DNL eTrust], [!DNL HackerSafe], garantias de satisfação, ofertas de devolução de dinheiro e assim por diante. Inclua uma declaração de privacidade sempre que as informações forem coletadas. Coloque esses indicadores o mais próximo possível do item acionável.
+* Forneça indicadores de credibilidade e segurança. Logotipos e selos ajudam a reduzir a ansiedade do visitante. Eles incluem [!DNL Verisign], [!DNL BBB] logotipo, [!DNL eTrust], [!DNL HackerSafe], garantias de satisfação, ofertas de devolução de dinheiro e assim por diante. Inclua uma declaração de privacidade sempre que as informações forem coletadas. Coloque esses indicadores o mais próximo possível do item acionável.
 
 * Ofereça um incentivo, como frete grátis, presentes, descontos ou um relatório gratuito ou e-book. Um visitante que acessa uma landing page está fazendo compras e precisa de um incentivo para ficar em uma página e concluir a oferta. O incentivo deve ser um dos itens mais notáveis na página.
 
@@ -52,9 +52,9 @@ A seguir estão algumas diretrizes para criar páginas de aterrissagem que forne
 
 ## Testar o impacto das páginas de aterrissagem
 
-Para ver o impacto de alterar a landing page (quando tudo o mais é constante), execute [o [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), que inclui o URL de exibição e o URL de base/final ou de destino para cada anúncio.
+Para ver o impacto de alterar a página de aterrissagem (quando todo o resto é constante), execute [the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), que inclui a URL de exibição e a URL de base/final ou de destino para cada anúncio.
 
 >[!MORELIKETHIS]
 >
 >* [Analise relatórios para refinar suas palavras-chave e configurações de campanha](best-practices-analyze.md)
->* [Escrever texto efetivo e copiar](best-practices-write.md)
+>* [Gravar texto e cópia efetivos](best-practices-write.md)

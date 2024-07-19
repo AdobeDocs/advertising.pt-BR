@@ -16,27 +16,26 @@ Você pode criar um público-alvo duplicando um público-alvo existente.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL Duplicate]**.
+1. Mantenha o cursor sobre a linha de público e clique em **[!UICONTROL Duplicate]**.
 
 1. (Opcional) Altere o nome do público-alvo padrão para outro nome exclusivo.
 
-   Por padrão, o novo público-alvo é chamado de &quot;[público] cópia.&quot;
+   Por padrão, o novo público-alvo é chamado de cópia de &quot;[público-alvo]&quot;.
 
 1. Clique em **[!UICONTROL Duplicate]**.
 
-1. (Opcional) [Refinar o novo público](reusable-audience-edit.md).
+1. (Opcional) [Refine a nova audiência](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
+>* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
->* [Configurações de público](audience-settings.md)
+>* [Configurações de público-alvo](audience-settings.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
-

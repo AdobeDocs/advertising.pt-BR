@@ -1,49 +1,49 @@
 ---
-title: Pré-requisitos para configurar um [!DNL Google Analytics] fonte de dados
-description: Saiba mais sobre as etapas que devem ser concluídas antes de configurar um [!DNL Google Analytics] fonte de dados.
+title: Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics]
+description: Saiba mais sobre as etapas que devem ser concluídas antes de configurar uma fonte de dados  [!DNL Google Analytics] .
 role: User, Admin
-exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# Pré-requisitos para configurar um [!DNL Google Analytics] fonte de dados
+# Pré-requisitos para configurar uma fonte de dados [!DNL Google Analytics]
 
-Antes de poder configurar um [!DNL Google Analytics] fonte de dados, você deve estabelecer o parâmetro de sequência de consulta de Pesquisa, Social e Comércio &quot;ef_id&quot; como a chave primária para transmitir os dados do [!DNL Google Analytics] para Pesquisar, Social e Comércio. Configurar a chave primária para cada [!DNL Google Analytics] combinação de conta e propriedade para a qual você deseja sincronizar dados. Outras pessoas na sua organização podem precisar concluir essas tarefas; veja abaixo para obter mais informações.
+Antes de configurar uma fonte de dados [!DNL Google Analytics], é necessário estabelecer o parâmetro de sequência de consulta de Pesquisa, Social e Commerce &quot;ef_id&quot; como a chave primária para transmitir dados de [!DNL Google Analytics] para Pesquisa, Social e Commerce. Configure a chave primária para cada combinação de conta e propriedade do [!DNL Google Analytics] para a qual deseja sincronizar dados. Outras pessoas na sua organização podem precisar concluir essas tarefas; veja abaixo para obter mais informações.
 
-Se os URLs da página de aterrissagem de seus anúncios ou palavras-chave ainda não incluírem os redirecionamentos de Pesquisa, Social e Comércio, adicione-os primeiro.
+Se os URLs da página de aterrissagem de seus anúncios ou palavras-chave ainda não incluírem os redirecionamentos de Pesquisa, Social e Commerce, adicione-os primeiro.
 
-## Pré-requisito 1: Implementar um token de pesquisa, social e comércio (parâmetro de sequência de consulta &quot;ef_id&quot;) nos URLs da página inicial para todas as contas de publicidade aplicáveis
+## Pré-requisito 1: Implementar um token de Pesquisa, Social e Commerce (parâmetro de sequência de consulta &quot;ef_id&quot;) nos URLs da página inicial para todas as contas de publicidade aplicáveis
 
-Em cada clique de pesquisa paga para as campanhas relevantes, uma única `ef_id` deve ser gerado e anexado ao URL da página inicial como uma sequência de consulta, como `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, onde `&ef_id=abcde:123456789:s` é o símbolo anexar, `ef_id` e `ef_id` valor. Para incluir uma ef_id, as contas e campanhas da rede de anúncios relevantes devem ter a [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e o [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
+Em cada clique de pesquisa paga para as campanhas relevantes, um `ef_id` exclusivo deve ser gerado e anexado à URL da página de aterrissagem como uma sequência de consulta, como `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, em que `&ef_id=abcde:123456789:s` é o símbolo de acréscimo, a chave `ef_id` e o valor `ef_id`. Para incluir uma ef_id, as contas e campanhas relevantes da rede de publicidade devem ter [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
 
 Para contas e campanhas existentes, a ef_id provavelmente já está implementada.
 
 Se a ef_id não for incluída, peça ajuda à sua equipe de conta do Adobe.
 
-Quando todos os pré-requisitos estiverem concluídos, a variável `ef_id` é usada como chave primária para enviar dados do [!DNL Google Analytics] para Pesquisar, Social e Comércio.
+Quando todos os pré-requisitos forem concluídos, o `ef_id` será usado como chave primária para transmitir dados do [!DNL Google Analytics] para o Search, Social e Commerce.
 
-## Pré-requisito 2: Capturar o token de Pesquisa, Social e Comércio (parâmetro de sequência de consulta &quot;ef_id&quot;) em uma dimensão personalizada para cada relevante [!DNL Google Analytics] propriedade
+## Pré-requisito 2: Capturar o token de Pesquisa, Social e Commerce (parâmetro de sequência de consulta &quot;ef_id&quot;) em uma dimensão personalizada para cada propriedade [!DNL Google Analytics] relevante
 
-Repita as seguintes tarefas para cada [!DNL Google Analytics] combinação de conta e propriedade para a qual você deseja sincronizar dados. Consulte [[!DNL Google Analytics] documentação sobre criação e implementação de dimensões personalizadas](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) para obter ajuda com essas tarefas.
+Repita as seguintes tarefas para cada combinação de conta e propriedade do [!DNL Google Analytics] para a qual deseja sincronizar dados. Consulte [[!DNL Google Analytics] documentação sobre como criar e implementar dimensões personalizadas](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) para obter ajuda com essas tarefas.
 
-1. Entrada [!DNL Google Analytics], crie uma dimensão personalizada com o nome &quot;`ef_id`&quot;. Defina o escopo da dimensão como [!DNL User]e defina a dimensão como ativa.
+1. Em [!DNL Google Analytics], crie uma dimensão personalizada com o nome &quot;`ef_id`&quot;. Defina o escopo da dimensão como [!DNL User] e defina a dimensão como ativa.
 
    >[!NOTE]
    >
    >Este pré-requisito requer a permissão de edição para as propriedades relevantes.
 
-1. Atualize seu [!DNL Google Analytics] código de rastreamento para capturar o valor do parâmetro de sequência de consulta ef_id quando ele está presente no URL da página inicial e armazená-lo na dimensão personalizada ef_id.
+1. Atualize o código de rastreamento [!DNL Google Analytics] para capturar o valor do parâmetro de cadeia de caracteres de consulta ef_id quando ele estiver presente na URL da página de aterrissagem e armazená-lo na dimensão personalizada ef_id.
 
    >[!NOTE]
    >
    >O ef_id deve estar somente nos URLs da página inicial.
 
-   Por exemplo, se o URL da landing page for `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, o valor da dimensão ef_id em [!DNL Google Analytics] é `abcde:123456789:s`.
+   Por exemplo, se a URL da página de aterrissagem for `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, o valor da dimensão ef_id em [!DNL Google Analytics] será `abcde:123456789:s`.
 
    >[!NOTE]
    >
@@ -51,10 +51,10 @@ Repita as seguintes tarefas para cada [!DNL Google Analytics] combinação de co
 
 >[!MORELIKETHIS]
 >
->* [Sobre sincronização [!DNL Google Analytics] métricas de conversão](data-source-about.md)
->* [Configurar um [!DNL Google Analytics] exibir como fonte de dados](data-source-configure.md)
->* [Editar um [!DNL Google Analytics] fonte de dados](data-source-edit.md)
+>* [Sobre a sincronização [!DNL Google Analytics] de métricas de conversão](data-source-about.md)
+>* [Configurar uma  [!DNL Google Analytics] exibição como fonte de dados](data-source-configure.md)
+>* [Editar uma [!DNL Google Analytics] fonte de dados](data-source-edit.md)
 >* [Pausar sincronização de uma fonte de dados](data-source-pause.md)
->* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
+>* [Reautenticar uma [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)

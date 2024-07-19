@@ -1,9 +1,9 @@
 ---
 title: Sobre métricas personalizadas
 description: Saiba mais sobre métricas personalizadas, que são calculadas a partir das métricas padrão.
-exl-id: 6a2df48f-4d6b-4afe-88c0-c52a6de53e33
+exl-id: 2c322ad1-399c-4e94-9a68-44c07da04cbd
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Sobre métricas personalizadas
 
-É possível configurar métricas personalizadas (derivadas), que são calculadas a partir das métricas de tráfego padrão e das métricas de conversão existentes rastreadas para o anunciante. As métricas personalizadas podem ser tão simples (como `[Cost]/[Registrations]`) ou tão complexo quanto você desejar.
+É possível configurar métricas personalizadas (derivadas), que são calculadas a partir das métricas de tráfego padrão e das métricas de conversão existentes rastreadas para o anunciante. As métricas personalizadas podem ser tão simples (como `[Cost]/[Registrations]`) ou tão complexas quanto você deseja.
 
 Você pode incluir métricas personalizadas como colunas em exibições de gerenciamento de portfólio e campanha e em relatórios.
 

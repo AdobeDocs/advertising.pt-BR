@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Label Value Report]'
 description: Saiba mais sobre o [!UICONTROL Label Value Report].
-exl-id: 6fc7efca-9189-48f9-a2db-dc324b73bef6
+exl-id: 6d279267-f7ee-475b-b4c3-72af6256330d
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Label Value Report]
 
-A variável [!UICONTROL Label Value Report] inclui dados de custo, clique e conversão (opcionalmente) por valor de classificação de rótulo agregados em portfólios, redes de anúncios, contas, campanhas ou grupos de anúncios. Por padrão, os dados incluem uma linha para cada valor aplicável para palavras-chave, anúncios e posicionamentos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo, depois pelo custo e, por padrão, pelo valor do rótulo. Você também pode exibir o número de cada tipo de entidade ao qual o valor do rótulo é atribuído.
+O [!UICONTROL Label Value Report] inclui dados de custo, clique e conversão (opcionalmente) por valor de classificação de rótulo agregados em portfólios, redes de anúncios, contas, campanhas ou grupos de anúncios. Por padrão, os dados incluem uma linha para cada valor aplicável para palavras-chave, anúncios e posicionamentos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo, depois pelo custo e, por padrão, pelo valor do rótulo. Você também pode exibir o número de cada tipo de entidade ao qual o valor do rótulo é atribuído.
 
 Você pode exibir dados dos últimos 36 meses.
 
@@ -22,7 +22,7 @@ Você pode exibir dados dos últimos 36 meses.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Label Value]
 * [!UICONTROL Label Classification]

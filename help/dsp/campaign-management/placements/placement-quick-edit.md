@@ -18,24 +18,24 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar Posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Editar qualquer um dos disponíveis [configurações de posicionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, e **[!UICONTROL Budget]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Edite qualquer uma das [configurações de posicionamento](placement-settings.md) disponíveis: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** e **[!UICONTROL Budget]**.
 1. Clique em **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Criar uma disposição](placement-create.md)
->* [Editar disposições](placement-edit.md)
->* [Duplicar um posicionamento](placement-duplicate.md)
->* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
->* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)
->* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Criar um posicionamento](placement-create.md)
+>* [Editar posicionamentos](placement-edit.md)
+>* [Duplicar um Posicionamento](placement-duplicate.md)
+>* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
+>* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
+>* [Pausar ou Ativar um Posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

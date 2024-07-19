@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
 source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
    * (Opcional) Para colar ou inserir até 10.000 valores:
 
-      1. Clique em **Colar em Sites/Aplicativos**.
+      1. Clique em **Colar em Sites/Apps**.
 
       1. No campo de entrada, insira ou cole um valor por linha e clique em **Continuar**.
 
-      1. (Se algum valor for identificado como inválido) Clique no link **Colar em sites e aplicativos** , corrija os valores e clique em **Continuar**.
+      1. (Se algum valor for identificado como inválido) Clique na guia **Colar em sites e aplicativos**, corrija os valores e clique em **Continuar**.
 
       1. Clique em **Concluir**.
 
@@ -32,14 +32,14 @@ ht-degree: 0%
 
       * Para remover todos os valores, clique em **Limpar tudo**. Na mensagem de confirmação, clique em **OK**.
 
-      * Para remover um ou mais valores, marque a caixa de seleção ao lado de cada um e clique em **Excluir marcados**.
+      * Para remover um ou mais valores, marque a caixa de seleção ao lado de cada um e clique em **Excluir Marcados**.
 
-      * Para remover um único valor, clique em **X** ao lado do valor.
+      * Para remover valores únicos, clique em **X** ao lado do valor.
 
-   * (Opcional) Para exportar a lista para um [!DNL Microsoft Excel]  em formato CSV (valores separados por vírgula), clique em **Exportar**.
+   * (Opcional) Para exportar a lista para uma planilha do [!DNL Microsoft Excel] no formato de valores separados por vírgula (CV), clique em **Exportar**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre Listas de Sites Bloqueadas no Nível da Conta e no Nível do Anunciante](/help/dsp/admin/blocked-sites-list-about.md)
+>* [Sobre Listas de Sites Bloqueadas no Nível da Conta e do Anunciante](/help/dsp/admin/blocked-sites-list-about.md)
 > [Segurança da marca e qualidade da mídia](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

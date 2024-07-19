@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Modelo de anúncio de texto - Nota explicando como inserir um personalizador de anúncio
 
-Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não inclui um valor válido:
+Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não incluir um valor válido:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`
 

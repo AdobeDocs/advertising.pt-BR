@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Campo de idioma DSA nas configurações de campanha de pesquisa do GL e do MS
 
-**[!UICONTROL DSA Language]:** (Somente rede de pesquisa; aplicável somente a anúncios de pesquisa dinâmica expandidos) O idioma para o domínio do site especificado.
+**[!UICONTROL DSA Language]:** (Pesquisar somente rede; aplicável somente a anúncios de pesquisa dinâmica expandidos) O idioma do domínio do site especificado.
 
 Se o domínio contiver páginas em vários idiomas e você quiser direcionar todas elas, crie uma campanha separada para cada idioma.

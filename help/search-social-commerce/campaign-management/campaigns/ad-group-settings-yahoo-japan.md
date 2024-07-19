@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] configurações do grupo de publicidade'
-description: Referenciar as configurações de [!DNL Yahoo! Japan Ads] grupos de publicidade.
-exl-id: 987c9627-06b3-447a-aa1b-a4040f4f5a0c
+title: Configurações do grupo de anúncios '[!DNL Yahoo! Japan Ads]'
+description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] grupos de anúncios.
+exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] configurações do grupo de publicidade
+# Configurações do grupo de anúncios [!DNL Yahoo! Japan Ads]
 
 ## [!UICONTROL Adgroup Details]
 

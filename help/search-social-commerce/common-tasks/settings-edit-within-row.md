@@ -1,9 +1,9 @@
 ---
 title: Editar configurações diretamente em uma linha
 description: Saiba como editar dados em exibições de gerenciamento na linha.
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * (Datas) Insira uma nova data ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma nova data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
-   * (Valores de formato livre) Insira um novo valor e clique em ![Salvar](/help/search-social-commerce/assets/select.png "Salvar") ou pressione a &lt;barra de espaço> **Enter** chave.
+   * (Valores de forma livre) Insira um novo valor e clique em ![Salvar](/help/search-social-commerce/assets/select.png "Salvar") ou pressione a tecla **Enter**.
 
    >[!MORELIKETHIS]
    >

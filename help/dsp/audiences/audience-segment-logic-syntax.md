@@ -22,7 +22,7 @@ Ao criar públicos-alvo reutilizáveis, você pode definir manualmente a lógica
 >[!NOTE]
 >
 >* Todos os grupos de segmentos especificados são incluídos, a menos que sejam precedidos por ! (o que os exclui).
->* Você pode [encontrar a ID de segmento para um público-alvo](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Você pode [encontrar a ID de segmento para uma audiência](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 Por exemplo, a seguinte lógica:
 
@@ -42,8 +42,8 @@ significa (em inglês simples)
 
 >[!MORELIKETHIS]
 >
->* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](reusable-audience-clipboard.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
->* [Configurações de público](audience-settings.md)
+>* [Configurações de público-alvo](audience-settings.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)

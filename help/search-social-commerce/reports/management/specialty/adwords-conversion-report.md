@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL AdWords Conversion Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Conversion Report].
-exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]contas com [!DNL Google Ads] somente otimização de conversão*
 
-A variável [!UICONTROL AdWords Conversion Report] inclui dados de custo, clique e impressão; dados de conversão por tipo de conversão rastreados pelo [!DNL Google Ads Conversion Optimizer]; e (opcionalmente) dados de métricas derivadas de uma ou mais contas, campanhas, grupos de anúncios, anúncios ou palavras-chave. Os dados são mostrados somente quando a variável [!DNL Google Ads Conversion Optimizer] está ativado nas configurações de lance da campanha (e, portanto, o Search, Social e Commerce não está otimizando ofertas para a campanha). Por padrão, os dados incluem uma linha para cada conversão para cada palavra-chave aplicável para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente pelo nome do grupo de anúncios e por palavra-chave por padrão. O relatório não inclui dados de custo, clique ou impressão, nem quaisquer dados de conversão rastreados pelo [!DNL Adobe].
+O [!UICONTROL AdWords Conversion Report] inclui dados de custo, clique e impressão; dados de conversão por tipo de conversão rastreado pelo [!DNL Google Ads Conversion Optimizer]; e (opcionalmente) dados de métrica derivados para uma ou mais contas, campanhas, grupos de anúncios, anúncios ou palavras-chave. Os dados são exibidos somente quando o [!DNL Google Ads Conversion Optimizer] está habilitado nas configurações de lances da campanha (e, portanto, o Search, Social e Commerce não está otimizando lances para a campanha). Por padrão, os dados incluem uma linha para cada conversão para cada palavra-chave aplicável para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente pelo nome do grupo de anúncios e por palavra-chave por padrão. O relatório não inclui dados de custo, clique ou impressão, nem quaisquer dados de conversão rastreados por [!DNL Adobe].
 
 Você pode exibir dados dos dois meses anteriores.
 
@@ -24,7 +24,7 @@ Você pode exibir dados dos dois meses anteriores.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especiais](specialty-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especializados](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -51,6 +51,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
-* [Sobre relatórios de especialidade](specialty-report-about.md)
-* [Gerar um relatório de especialidade](specialty-report-generate.md)
-* [Configurações do relatório de especialidades](specialty-report-settings.md)
+>* [Sobre relatórios especializados](specialty-report-about.md)
+>* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Configurações do relatório de especialidades](specialty-report-settings.md)

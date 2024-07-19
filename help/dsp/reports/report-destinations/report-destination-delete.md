@@ -26,4 +26,3 @@ A exclusão de um destino de relatório afeta o delivery de todos os relatórios
 >* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-

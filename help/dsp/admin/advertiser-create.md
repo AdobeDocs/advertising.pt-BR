@@ -5,7 +5,7 @@ role: User, Admin
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,15 @@ Os anunciantes estão disponíveis para todos os usuários na conta da organiza�
 
 1. Clique em **[!UICONTROL Create]**.
 
-1. Especifique a [configurações do anunciante](advertiser-settings.md):
+1. Especifique as [configurações do anunciante](advertiser-settings.md):
 
-   1. No [!UICONTROL General] configurações:
+   1. Nas configurações de [!UICONTROL General]:
 
-      1. Especifique a [!UICONTROL General] configurações.
+      1. Especifique as configurações de [!UICONTROL General].
 
-      1. (Opcional) Para configurar integrações entre o DSP e outros produtos da Adobe Experience Cloud, insira a ID de organização do Experience Cloud do anunciante na [!UICONTROL Adobe IMS IDs] e, em seguida, configure as integrações de produtos no [!UICONTROL Integrations] seção.
+      1. (Opcional) Para configurar integrações entre o DSP e outros produtos da Adobe Experience Cloud, insira a ID de organização da Experience Cloud do anunciante na seção [!UICONTROL Adobe IMS IDs] e configure as integrações de produtos na seção [!UICONTROL Integrations].
 
-   1. (Opcional) Na [!UICONTROL Targeting] especificam alvos padrão para cada novo posicionamento.
+   1. (Opcional) Nas seções [!UICONTROL Targeting], especifique destinos padrão para cada novo posicionamento.
 
       É possível substituir os destinos padrão por qualquer posicionamento criado.
 

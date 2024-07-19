@@ -1,11 +1,11 @@
 ---
 title: Atualizar manualmente os feeds de relatório da planilha
 description: Saiba como atualizar manualmente os dados em feeds de planilha.
-exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-1. (Opcional) Uma vez que o feed é [!UICONTROL Update Status] é *[!UICONTROL Finished]*, clique em **[!UICONTROL XLSX]** ao lado do feed e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador.
+1. (Opcional) Assim que o [!UICONTROL Update Status] de um feed for *[!UICONTROL Finished]*, clique em **[!UICONTROL XLSX]** ao lado do feed e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador.
 
 >[!MORELIKETHIS]
 >
->* [Sobre feeds de relatório de planilhas](spreadsheet-feed-about.md)
+>* [Sobre feeds de relatório de planilha](spreadsheet-feed-about.md)
 >* [Criar um feed de relatório de planilha](spreadsheet-feed-create.md)
 >* [Criar um [!DNL Excel] modelo para um feed de relatório de planilha](spreadsheet-feed-create-excel-template.md)
->* [Editar configurações do feed de relatório de planilha](spreadsheet-feed-edit.md)
+>* [Editar configurações do feed de relatório da planilha](spreadsheet-feed-edit.md)
 >* [Configurações do feed de relatório de planilha](spreadsheet-feed-settings.md)
 >* [Exibir ou salvar um arquivo de feed de relatório de planilha](spreadsheet-feed-view-or-save.md)
 >* [Excluir feeds de relatório de planilha](spreadsheet-feed-delete.md)

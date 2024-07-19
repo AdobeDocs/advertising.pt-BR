@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Campo de status nas configurações do anúncio
 
-**[!UICONTROL Status]:** O status de exibição do anúncio: *Ativo* (para permitir lances; o padrão), *Pausado* (para desativar licitação) ou *Excluído* (para excluir o anúncio; somente anúncios existentes).
+**[!UICONTROL Status]:** O status de exibição do anúncio: *Ativo* (para habilitar lances; o padrão), *Pausado* (para desabilitar lances) ou *Excluído* (para excluir o anúncio; somente anúncios existentes).

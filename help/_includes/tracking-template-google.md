@@ -1,7 +1,7 @@
 ---
 source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- Search CRUD and bulk edit of Google entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página inicial, e também incorpora o URL da página final/de aterrissagem em uma [!DNL ValueTrack] parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro [!DNL ValueTrack]. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-Para rastreamento de conversão de anúncio de Adobe, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
-* Para obter os parâmetros compatíveis que incorporam o URL final, consulte a [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348). (Vá para os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros.&quot;)
+* Para obter os parâmetros compatíveis para incorporar a URL final, consulte a [[!DNL Google Ads] documentação dos [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348) compatíveis. (Vá para os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot;.)
 
-* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;dispositivo={device}.
+* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros.
 

@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Modelo de anúncio de texto - Gerenciar configurações para NOVOS grupos de anúncios
 
-**[!UICONTROL Manage Settings for NEW Ad Groups]:**(Opcional) Permite definir configurações para qualquer grupo de anúncios criado.
+**[!UICONTROL Manage Settings for NEW Ad Groups]:**(Opcional) Permite que você defina as configurações de todos os grupos de anúncios criados.

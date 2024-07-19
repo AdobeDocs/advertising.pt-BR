@@ -1,16 +1,16 @@
 ---
 title: '[!DNL Baidu] configurações da campanha'
-description: Referenciar as configurações de [!DNL Baidu] campanhas.
-exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+description: Referencie as configurações de  [!DNL Baidu] campanhas.
+exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] configurações da campanha
+# Configurações de campanha de [!DNL Baidu]
 
 ## \[Tela de criação da campanha\]
 
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo na conta. O comprimento máximo é de 15 caracteres de byte duplo.
+**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo dentro da conta. O comprimento máximo é de 15 caracteres de byte duplo.
 
 **[!UICONTROL Ad Serving]:**
 Com que frequência o mecanismo de pesquisa entrega seus anúncios ativos em relação uns aos outros em um grupo de anúncios:
 
-* *[!UICONTROL Rotate]* (o padrão para novas campanhas): cada um dos anúncios tem a mesma probabilidade de entrar no leilão de anúncios.
+* *[!UICONTROL Rotate]* (o padrão para novas campanhas): cada um dos seus anúncios tem a mesma probabilidade de entrar no leilão de anúncios.
 
-* *[!UICONTROL Optimize]:*  A rede de publicidade favorece anúncios que têm melhor desempenho. Isso pode ser inconsistente com seus objetivos de negócios e otimização.
+* *[!UICONTROL Optimize]:* A rede de anúncios favorece anúncios com melhor desempenho. Isso pode ser inconsistente com seus objetivos de negócios e otimização.
 
-**[!UICONTROL Status]:** O status de exibição da campanha: *Ativo* ou *Pausado*. O padrão para novas campanhas de publicidade é *Ativo*.
+**[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
 
 ## [!UICONTROL Budget Options]
 

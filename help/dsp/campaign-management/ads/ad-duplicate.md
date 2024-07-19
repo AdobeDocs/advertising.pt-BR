@@ -20,17 +20,17 @@ Você pode duplicar um anúncio na mesma campanha.
 
 1. No submenu, clique em **[!UICONTROL Ads]**.
 
-1. Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Ao lado do nome do anúncio, clique em **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Especifique as novas configurações do anúncio:
 
-   1. (Opcional) Altere o nome padrão do anúncio. Por padrão, o novo anúncio é chamado de &quot;Cópia de \&lt;*nome do anúncio original*\>.&quot;
+   1. (Opcional) Altere o nome padrão do anúncio. Por padrão, o novo anúncio é chamado de &quot;Cópia de \&lt;*nome original do anúncio*\>.&quot;
 
-   1. (Opcional) Altere as configurações de publicidade de [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [exibir anúncios](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios antes da exibição](ad-settings-pre-roll.md)ou [anúncios de vídeo universais](ad-settings-universal-video.md).
+   1. (Opcional) Altere as configurações de anúncios para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [anúncios de exibição](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios precedentes](ad-settings-pre-roll.md) ou [anúncios de vídeo universais](ad-settings-universal-video.md).
 
 1. Clique em **[!UICONTROL Save & Submit for Review]**.
 
-   A variável [revisão de publicidade](ad-about.md) para o novo anúncio, leva de 24 a 48 horas e inclui verificações de categorias confidenciais, clique na funcionalidade URL e pré-visualize a renderização. A variável [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   A [revisão de anúncio](ad-about.md) do novo anúncio demora de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A coluna [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
 
    >[!NOTE]
    >
@@ -38,8 +38,8 @@ Você pode duplicar um anúncio na mesma campanha.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
->* [Crie um único anúncio](ad-create.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Criar um único anúncio](ad-create.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Editar um anúncio](ad-edit.md)
->* [Especificações de publicidade](ad-specs.md)
+>* [Especificações do anúncio](ad-specs.md)

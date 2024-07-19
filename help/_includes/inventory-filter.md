@@ -9,7 +9,8 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Filter]:** (Somente campanhas de compras; opcional) Produtos com atributos específicos para anunciar a campanha. Se você não especificar filtros de inventário, a rede de publicidade pode anunciar qualquer produto em sua loja.
 
-É possível inserir até sete combinações de dimensão e atributo de produto nas quais filtrar seus produtos, usando o formato `dimension=attribute`. Separe vários filtros com um &quot;`>>`&quot;delimitador. Para obter uma lista de dimensões de produto disponíveis, consulte &quot;[Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;
+Você pode inserir até sete combinações de dimensão e atributo de produto nas quais filtrar seus produtos, usando o formato `dimension=attribute`. Separar vários filtros
+com um delimitador &quot;`>>`&quot;. Para obter uma lista de dimensões de produto disponíveis, consulte &quot;[Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;.
 
 O exemplo a seguir mostra anúncios para suprimentos para animais de estimação da Acme:
 

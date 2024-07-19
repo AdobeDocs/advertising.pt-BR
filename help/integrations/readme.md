@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentação para integrações de publicidade do Adobe com o Adobe Experience Cloud
+# Documentação para integrações de Adobe Advertising com o Adobe Experience Cloud
 
-Esta pasta é para documentos sobre integrações da Adobe Advertising com outros produtos Adobe.
+Esta pasta é para documentos sobre integrações de Adobe Advertising com outros produtos de Adobe.
 
 **Observação: esta página não está publicada na documentação voltada para o cliente.**

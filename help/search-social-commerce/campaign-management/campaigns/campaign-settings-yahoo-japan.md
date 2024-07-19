@@ -1,16 +1,16 @@
 ---
 title: '[!DNL Yahoo! Japan Ads] configurações da campanha'
-description: Referenciar as configurações de [!DNL Yahoo! Japan Ads] campanhas.
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] campanhas.
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] configurações da campanha
+# Configurações de campanha de [!DNL Yahoo! Japan Ads]
 
 ## \[Tela de criação da campanha\]
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo na conta.
+**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo dentro da conta.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** O status de exibição da campanha: *Ativo* ou *Pausado*. O padrão para novas campanhas de publicidade é *Ativo*.
+**[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
 
 <!-- **[!UICONTROL End date]:** -->
 

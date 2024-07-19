@@ -1,9 +1,9 @@
 ---
 title: Editar um modelo de alerta personalizado
 description: Saiba como editar um modelo para gerar alertas personalizados.
-exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Editar um modelo de alerta personalizado
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que abre para o [!UICONTROL Alert Templates] exibição.
+1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
 
 1. (Opcional) Filtre a exibição para incluir linha com nomes específicos, intervalo de dados a ser avaliado ou outros critérios.
 
-   É possível aplicar filtros de dados [na barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou [dos cabeçalhos de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   Você pode aplicar os filtros de dados [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou [dos cabeçalhos de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Ao lado do nome do modelo, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. No [!UICONTROL Update \[Entity Type\] Alert] editar a [configurações de alerta](alert-template-settings.md) no **[!UICONTROL Date Range]**, **[!UICONTROL Filters]**, e **[!UICONTROL Scheduling and Delivery]** guias.
+1. Na janela [!UICONTROL Update \[Entity Type\] Alert], edite as [configurações de alerta](alert-template-settings.md) nas guias **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
 
-   Você pode mover-se entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** na parte inferior direita.
+   Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
 
-1. No [!UICONTROL Summary] clique em **[!UICONTROL Update]**.
+1. Na guia [!UICONTROL Summary], clique em **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
@@ -33,6 +33,6 @@ ht-degree: 0%
 >* [Pausar um modelo de alerta personalizado](alert-template-pause.md)
 >* [Ativar um modelo de alerta personalizado](alert-template-activate.md)
 >* [Excluir um modelo de alerta personalizado](alert-template-delete.md)
->* [Configurações do modelo de alerta personalizado](alert-template-settings.md)
+>* [Configurações personalizadas do modelo de alerta](alert-template-settings.md)
 >* [Exibir alertas personalizados](alert-view.md)
 >* [Exportar dados para alertas personalizados](alert-export-data.md)

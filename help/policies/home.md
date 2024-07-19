@@ -1,6 +1,6 @@
 ---
 title: Políticas e diretrizes da Adobe Advertising
-description: Saiba mais sobre as políticas e diretrizes para DSP de publicidade e Pesquisa de publicidade.
+description: Saiba mais sobre as políticas e diretrizes do Advertising DSP e do Advertising Search.
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -13,9 +13,9 @@ ht-degree: 21%
 
 # Políticas e diretrizes da Adobe Advertising
 
-Saiba mais sobre as políticas e diretrizes para DSP de publicidade e Pesquisa de publicidade:
+Saiba mais sobre as políticas e diretrizes do Advertising DSP e do Advertising Search:
 
 + [Política de requisitos de anúncios](/help/policies/ad-requirements-policy.md)
 + [Política de requisitos de ID universal](/help/policies/universal-id-policy.md)
 + [Diretrizes de segmento de integridade aceitável](/help/policies/health-segment-guidelines.md)
-+ [[!DNL DSP] Diretrizes de uso de dados](/help/policies/data-usage-guidelines.md)
++ [Diretrizes de uso de dados do [!DNL DSP]](/help/policies/data-usage-guidelines.md)

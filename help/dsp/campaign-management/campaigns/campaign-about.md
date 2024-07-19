@@ -1,25 +1,25 @@
 ---
-title: Sobre o Campaign Management no DSP publicitário
+title: Sobre o Campaign Management no Advertising DSP
 description: Saiba mais sobre o gerenciamento de campanhas.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Sobre o Campaign Management no DSP publicitário
+# Sobre o Campaign Management no Advertising DSP
 
 As campanhas são a estrutura abrangente das configurações de voo. Todas as configurações de nível de campanha se aplicam automaticamente a cada pacote e posicionamento na campanha. Cada campanha está associada a um anunciante específico.
 
 Você pode criar campanhas manualmente ou duplicando campanhas existentes. Você também pode editar campanhas existentes.
 
-## A variável [!UICONTROL Campaigns] Painel
+## O Painel [!UICONTROL Campaigns]
 
 <!-- standardize on "dashboard" or "view" -->
-A variável [!UICONTROL Campaigns] O painel de controle centraliza os relatórios de desempenho e economia em todas as campanhas, fornecendo um rápido instantâneo do desempenho de suas campanhas durante um intervalo de datas especificado.
+O painel [!UICONTROL Campaigns] centraliza o desempenho e os relatórios econômicos em todas as suas campanhas, fornecendo um rápido instantâneo do desempenho de suas campanhas durante um intervalo de datas especificado.
 
 ![Painel de campanhas](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ Por padrão, o painel mostra as métricas de ritmo e delivery por campanha. Opci
 
 >[!NOTE]
 >
->Você pode personalizar ainda mais o conteúdo e o delivery dos relatórios de campanha por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
+>Você pode personalizar ainda mais o conteúdo e a entrega dos relatórios do Campaign por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
 
 Para ver todos os pacotes, posicionamentos e anúncios em uma campanha, clique no nome da campanha.
 
@@ -35,5 +35,4 @@ Para ver todos os pacotes, posicionamentos e anúncios em uma campanha, clique n
 >
 >* [Criar uma campanha](campaign-create.md)
 >* [Configurações da campanha](campaign-settings.md)
->* [Vídeo: Estrutura de conta e interface do usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

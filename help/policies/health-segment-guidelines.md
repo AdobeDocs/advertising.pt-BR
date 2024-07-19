@@ -1,30 +1,30 @@
 ---
-title: Segmentos de saúde aceitáveis para publicidade em Adobe
+title: Segmentos de integridade aceitáveis do Adobe Advertising
 description: Consulte as diretrizes sobre segmentos de público-alvo e táticas aceitáveis relacionadas à saúde a serem usadas como alternativas para segmentar segmentos de público-alvo relacionados à saúde.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Diretrizes do segmento de integridade aceitável da publicidade do Adobe
+# Diretrizes de segmento de integridade aceitável do Adobe Advertising
 
-*Para a Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
+*Para Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 As diretrizes a seguir descrevem segmentos de público-alvo aceitáveis e relacionados à saúde. Eles também recomendam táticas para usar como alternativas para direcionar segmentos de público-alvo relacionados à saúde.
 
-As presentes orientações são resumidas da [!DNL Network Advertising Alliance (NAI)].
+Essas diretrizes são resumidas a partir do [!DNL Network Advertising Alliance (NAI)].
 
-Consulte também [Política de requisitos para anúncios de anúncio de Adobe](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado à integridade pode ser usado de acordo com a política de direcionamento de publicidade do Adobe.
+Consulte também [Política de requisitos de anúncios de Adobe Advertising](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado à integridade pode ser usado pela política de direcionamento de Adobe Advertising.
 
 ## Segmentos de integridade que não devem ser usados
 
 * Segmentos que dependem de informações médicas protegidas (PHI)\*, registros médicos no nível do usuário, receitas farmacêuticas ou fontes médicas ou de saúde semelhantes que fornecem conhecimento real sobre a condição ou o tratamento desse usuário.
 
-   \* O anúncio de Adobe não é um [!DNL HIPAA]solução pronta para uso.
+  \* Adobe Advertising não é uma solução pronta para [!DNL HIPAA].
 
 * Segmentos direcionados a condições de saúde (ou tratamentos relacionados), como qualquer forma de câncer, saúde mental, dependência de drogas, doenças sexualmente transmissíveis, condições que afetam predominantemente crianças ou outras condições de saúde sensíveis que não podem ser tratadas com medicamentos de venda livre (por exemplo, diabetes, psoríase, artrite reumatoide ou doenças fibromialgia).
 
@@ -51,4 +51,3 @@ Todos os itens a seguir devem ser verdadeiros:
 >[!MORELIKETHIS]
 >
 >* [Política de requisitos de anúncios](/help/policies/ad-requirements-policy.md)
-

@@ -1,11 +1,11 @@
 ---
 title: Aplicar filtros de dados a partir de um menu de cabeçalho de coluna
 description: Saiba como filtrar os dados da página no menu de cabeçalho de coluna.
-exl-id: ad745599-fd98-4f34-b181-085070adb685
+exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 É possível aplicar quantos filtros desejar a uma coluna, um de cada vez. Todos os filtros são unidos por meio do operador AND. Para adicionar mais de um filtro por vez usando todas as métricas disponíveis, consulte &quot;[Aplicar filtros de dados na barra de ferramentas](column-filter-apply-from-toolbar.md).&quot;
 
-1. No lado direito do cabeçalho da coluna, clique em ![Seta para baixo](/help/search-social-commerce/assets/arrow-down-dropdown.png "Seta para baixo")e clique em **[!UICONTROL Add Filter]**.
+1. No lado direito do cabeçalho da coluna, clique em ![Seta para baixo](/help/search-social-commerce/assets/arrow-down-dropdown.png "Seta para baixo") e clique em **[!UICONTROL Add Filter]**.
 
 1. Defina o filtro na coluna:
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * (Filtros com campos de entrada) Selecione um operador no segundo menu, insira o valor aplicável e clique em ![Atualizar filtro](/help/search-social-commerce/assets/select.png "Atualizar filtro").
 
-     Por exemplo, se você selecionou a opção &quot;[!UICONTROL Clicks]&quot; e quiser retornar apenas linhas com mais de 100 cliques, depois selecione *[!UICONTROL greater than]*&quot; e insira `100` no campo de entrada Dependendo do tipo de dados, os operadores disponíveis podem incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
+     Por exemplo, se você selecionou a coluna &quot;[!UICONTROL Clicks]&quot; e deseja retornar apenas linhas com mais de 100 cliques, selecione *[!UICONTROL greater than]*&quot; e insira `100` no campo de entrada. Dependendo do tipo de dados, os operadores disponíveis podem incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* ou *[!UICONTROL no date].*
 
      >[!NOTE]
      >

@@ -14,16 +14,16 @@ ht-degree: 0%
 
 Exiba uma lista de posicionamentos associados a um anúncio para ver os dados de desempenho por posicionamento e editar as configurações de posicionamento, se necessário.
 
-Consulte também &quot;[Exibir anúncios anexados a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
+Consulte também &quot;[Exibir anúncios anexados a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Ads]**.
-1. Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. Ao lado do nome do anúncio, clique em **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
 >* [Editar um anúncio](ad-edit.md)
->* [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)

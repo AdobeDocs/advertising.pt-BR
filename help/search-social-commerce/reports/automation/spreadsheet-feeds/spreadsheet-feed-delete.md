@@ -1,9 +1,9 @@
 ---
 title: Excluir feeds de relatório de planilha
 description: Saiba como excluir feeds de planilha.
-exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre feeds de relatório de planilhas](spreadsheet-feed-about.md)
+>* [Sobre feeds de relatório de planilha](spreadsheet-feed-about.md)
 >* [Criar um feed de relatório de planilha](spreadsheet-feed-create.md)
 >* [Criar um [!DNL Excel] modelo para um feed de relatório de planilha](spreadsheet-feed-create-excel-template.md)
->* [Editar configurações do feed de relatório de planilha](spreadsheet-feed-edit.md)
+>* [Editar configurações do feed de relatório da planilha](spreadsheet-feed-edit.md)
 >* [Configurações do feed de relatório de planilha](spreadsheet-feed-settings.md)
 >* [Exibir ou salvar um arquivo de feed de relatório de planilha](spreadsheet-feed-view-or-save.md)
 >* [Atualizar manualmente os feeds de relatório da planilha](spreadsheet-feed-refresh.md)

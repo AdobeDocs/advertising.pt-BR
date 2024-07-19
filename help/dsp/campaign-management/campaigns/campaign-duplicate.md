@@ -48,7 +48,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Destinos geográficos
    * Pixels de evento
    * Anúncios
-   * Nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] segmentos (que substituem os segmentos de nível do anunciante)
+   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +57,3 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 >* [Editar uma campanha](campaign-edit.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
 >* [Configurações da campanha](campaign-settings.md)
-

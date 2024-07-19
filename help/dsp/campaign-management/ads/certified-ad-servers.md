@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!DNL ADventori] | | X | | | |
 | [!DNL Artsai] | | X | | X | |
 | [!DNL Atlas] | | | | X | |
-| [!DNL Big Ads] | | | X | | Cubo (Desktop), Cubo (Mobile), Cartões (Desktop), Grande Revelação (Desktop), Cine-Cube (Desktop), Cinemática (Desktop). Configure todos esses tipos de anúncios no DSP como 300x250. Certificado somente via [!DNL Magnite DV+]. |
+| [!DNL Big Ads] | | | X | | Cubo (Desktop), Cubo (Mobile), Cartões (Desktop), Grande Revelação (Desktop), Cine-Cube (Desktop), Cinemática (Desktop). Configure todos esses tipos de anúncios no DSP como 300x250. Certificado apenas via [!DNL Magnite DV+]. |
 | [!DNL Bonzai] | | | X | | |
 | [!DNL Contobox] | | | X | | |
 | [!DNL Conversant] | | X | | | |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Capas de alto impacto (incluindo anúncios conversacionais Cavai) devem ser servidas a partir de uma ID de negócios de exibição 180x150 em toda a rede de inventário Inskin. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Âncora de 320x50, BYOC, Passar o mouse, Sair, Sair, Pista e Sidekick; 300x250 Outstream, HighRise; Exibição de desktop padrão (IDs de plug-in de anúncio específicas não são necessárias); Âncora de vídeo (somente VAST); CTV via [!DNL Pubmatic]</br></br>Entre em contato com a equipe de conta do Adobe para obter assistência na configuração de unidades de publicidade. |
+| [!DNL Kargo] | | X | | X | Âncora de 320x50, BYOC, Passar o mouse, Sair, Sair, Pista e Sidekick; 300x250 Outstream, HighRise; Exibição de desktop padrão (não são necessárias IDs de plug-in de anúncio específicas); Âncora de vídeo (somente VAST); CTV via [!DNL Pubmatic]</br></br>Contate a equipe de conta do Adobe para obter assistência na configuração de unidades de publicidade. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
@@ -54,14 +54,14 @@ ht-degree: 0%
 | [!DNL RevJet] | | | | X | Somente VAST |
 | [!DNL Seedtag] | | X | X | | |
 | [!DNL Sharethrough] | | | | | Somente CTV, Nativo e Outstream |
-| [!DNL Sizmek] | X | X | | X | OLV e CTV</br></br>Para que as tags sejam renderizadas na interface do usuário, envolva a tag com `<a>` tags (no início e no fim). Consulte a tag de exemplo abaixo:</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
+| [!DNL Sizmek] | X | X | | X | OLV e CTV</br></br>Para que as marcas sejam renderizadas na interface do usuário, envolva a marca com `<a>` marcas (no início e no fim). Ver marca de exemplo abaixo:</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | Não há suporte disponível para VPAID no inventário de saída. |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | Unidade de anúncio de Grabber de página personalizada carregada como 180x150 no DSP</br></br>Quando a Index Exchange passa em um leilão de 180x150 e o DSP oferece no leilão e produz uma impressão, o criativo se expande para um anúncio de exibição de página inteira.</br></br>Certificado inicialmente para unidades de anúncio Grabber de página, Aderência expansível e Deslocamento de tela. Isso precisa ser recertificado, com etapas marcadas para os processos. |
+| [!DNL Undertone] | | | X | | Unidade de anúncio de Captador de Página Personalizado carregada como 180x150 no DSP</br></br>Quando o Index Exchange passa um leilão de 180x150 e o DSP oferece no leilão e produz uma impressão, a criação se expande para um anúncio de exibição de página inteira.</br></br>Certificado inicialmente para unidades de anúncio Grabber de Página, Aderência Expansível e Deslocamento de Tela. Isso precisa ser recertificado, com etapas marcadas para os processos. |
 | [!DNL Vox] | | | X | | [!DNL Athena] unidades de publicidade |
 | [!DNL Wunderkind] | | X | | | |
 

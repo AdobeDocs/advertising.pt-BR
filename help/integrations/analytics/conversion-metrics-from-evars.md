@@ -1,6 +1,6 @@
 ---
-title: Criar métricas de conversão a partir do Adobe Analytics [!DNL eVars] e props
-description: Configurar métricas de evento bem-sucedido personalizadas usando o [!DNL eVar]- e [!DNL prop]dados no nível da.
+title: Criar métricas de conversão do Adobe Analytics [!DNL eVars]  e props
+description: Configure métricas de evento bem-sucedidas personalizadas usando dados de nível  [!DNL eVar] e  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
 source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
@@ -10,55 +10,55 @@ ht-degree: 0%
 
 ---
 
-# Criar métricas de conversão a partir do Adobe Analytics [!DNL eVars] e [!DNL props]
+# Criar métricas de conversão do Adobe Analytics [!DNL eVars] e [!DNL props]
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
+*Anunciantes com uma Integração Adobe Advertising-Adobe Analytics Somente*
 
-Você pode usar as métricas de evento de sucesso para otimizar pacotes DSP e campanhas de Pesquisa, Social e Comércio com base nos dados do site da Adobe Analytics que melhor se ajustam aos objetivos de sua marca. É possível configurar métricas de evento bem-sucedidas personalizadas com base em suas [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) por funil [!DNL eVar]- e [!DNL prop]em um evento. Outro [!DNL Analytics] métricas, incluindo métricas de conversão padrão, personalizada e reservada e métricas de tráfego, são disponibilizadas automaticamente no DSP e em Pesquisa, Social e Comércio.
+Você pode usar as métricas de evento de sucesso para otimizar pacotes DSP e campanhas de Pesquisa, Social e Commerce com base nos dados do site da Adobe Analytics que melhor se ajustam aos objetivos da sua marca. Você pode configurar métricas de evento bem-sucedidas personalizadas com base em suas [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) existentes, canalizando dados de nível [!DNL eVar] e [!DNL prop] para um evento. Outras métricas do [!DNL Analytics], incluindo métricas de conversão e métricas de tráfego padrão, personalizadas e reservadas, estão automaticamente disponíveis no DSP e em Pesquisa, Social e Commerce.
 
 ![Exemplo de uso](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Exemplo de uso")
 
-A maioria das tarefas a seguir deve ser executada por um [!DNL Analytics] administrador ou outro usuário. Se precisar de assistência, entre em contato com (usuários do DSP) a equipe de suporte técnico do DSP em `adcloud_support@adobe.com` ou (Usuários de pesquisa, redes sociais e comércio) sua Equipe de conta do Adobe.
+A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Analytics] ou outro usuário. Se precisar de assistência, entre em contato com (usuários do DSP) a equipe de suporte técnico do DSP em `adcloud_support@adobe.com` ou (usuários do Search, Social e Commerce) sua Equipe de conta do Adobe.
 
-1. Entrada [!DNL Analytics], [criar um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. Em [!DNL Analytics], [crie um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
 
    Use os seguintes parâmetros adicionais:
 
    **Tipo:** `Counter`
 
-   **Polaridade:**  ou `Up is Good` ou `Up is Bad`
+   **Polaridade:** `Up is Good` ou `Up is Bad`
 
    **Visibilidade:** `Visible Everywhere`
 
-   **Gravação de evento único:** `Always Record Event`
+   **Gravação de Evento Exclusiva:** `Always Record Event`
 
    **Participação:** `Enabled`
 
    Você não precisa implementar o novo evento no site da sua marca porque ele usa dados existentes que já foram capturados.
 
-1. Criar e validar uma regra de processamento no [!DNL Analytics]:
+1. Criar e validar uma regra de processamento em [!DNL Analytics]:
 
    >[!NOTE]
    >
-   >Somente [!DNL Analytics] administradores de conta podem criar regras de processamento, a menos que tenham concedido permissão para não administradores.
+   >Somente administradores de conta do [!DNL Analytics] podem criar regras de processamento, a menos que tenham concedido permissão para não administradores.
 
-   1. [Criar uma regra de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), usando a seguinte configuração:
+   1. [Criar uma regra de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), usando esta configuração:
 
-      * Para a condição que deve ser atendida, especifique o [!DNL eVars] ou [!DNL props].
+      * Para a condição que deve ser atendida, especifique o(s) [!DNL eVars] ou [!DNL props] necessário(s).
 
         Você pode configurar níveis adicionais de granularidade, conforme necessário, para garantir a criação dos eventos mais precisos.
 
         >[!TIP]
         >
-        >A prática recomendada é usar apenas um [!DNL eVar] ou [!DNL prop].
+        >A prática recomendada é usar somente um [!DNL eVar] ou [!DNL prop].
 
-      * Para a ação, selecione **Definir evento** e selecione o evento de espaço reservado.
+      * Para a ação, selecione **Definir Evento** e selecione o evento de espaço reservado.
 
-   1. Entrada [!DNL Analytics] [!DNL Analysis Workspace], [criar um projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e puxe o novo evento em uma tabela de forma livre para garantir que os dados sejam preenchidos para o [!DNL eVar] ou [!DNL prop] métrica.
+   1. Em [!DNL Analytics] [!DNL Analysis Workspace], [crie um projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e coloque o novo evento em uma tabela de forma livre para garantir que os dados sejam preenchidos para a métrica [!DNL eVar] ou [!DNL prop].
 
 1. Entre em contato com a equipe de conta do Adobe para sincronizar a nova métrica no Adobe Advertising.
 
-Depois que a métrica estiver disponível, você poderá usá-la para criar um objetivo, que poderá ser atribuído a um portfólio de Pesquisa, Social e Comércio ou usado como [meta personalizada](/help/dsp/optimization/custom-goal.md) para um pacote DSP.
+Depois que a métrica estiver disponível, você poderá usá-la para criar um objetivo, que poderá ser atribuído a um portfólio de Pesquisa, Social e Commerce ou usar como uma [meta personalizada](/help/dsp/optimization/custom-goal.md) para um pacote DSP.
 
 Para obter mais informações sobre como criar objetivos, consulte o capítulo do Guia de Otimização em &quot;Objetivos&quot;, que está disponível no Search, Social e Commerce.
 

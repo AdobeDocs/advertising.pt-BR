@@ -35,7 +35,7 @@ A previsão inclui as seguintes informações:
 
 * **[!UICONTROL Budget Yield Curve]:** O número estimado de impressões que o posicionamento pode gerar em diferentes níveis de orçamento se todas as outras configurações de direcionamento forem iguais.
 
-* **[!UICONTROL Max Bid Yield Curve]:** O gasto estimado para o posicionamento em diferentes níveis Máximos de Oferta, quando todas as outras configurações de direcionamento são iguais.
+* **[!UICONTROL Max Bid Yield Curve]:** O gasto estimado para o posicionamento em diferentes níveis de Lance Máximo, quando todas as outras configurações de direcionamento são iguais.
 
 * **[!UICONTROL Message]:** Fornece informações sobre a saída prevista, incluindo cenários nos quais a previsão não pôde ser gerada. Também destaca as configurações de direcionamento analisadas, mas não consideradas nesse cenário devido à falta de dados.
 
@@ -71,9 +71,9 @@ A previsão inclui as seguintes informações:
 
 1. Clique no nome da campanha e em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Localize o **[!UICONTROL Forecast]** na parte superior direita. Se necessário, clique em ![Previsão](/help/dsp/assets/placement-forecast.png).
+1. Localize a seção **[!UICONTROL Forecast]** no canto superior direito. Se necessário, clique em ![Previsão](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ A previsão inclui as seguintes informações:
 
 >[!MORELIKETHIS]
 >
->* [Tipos de relatórios de desempenho em visualizações do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

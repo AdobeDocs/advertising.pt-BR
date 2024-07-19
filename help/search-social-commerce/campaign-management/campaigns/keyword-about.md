@@ -12,17 +12,18 @@ ht-degree: 0%
 
 # Sobre palavras-chave
 
-*[!DNL Google Ads]e [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]e existentes [!DNL Baidu] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
 
 Uma palavra-chave é uma palavra ou frase associada a um anúncio. As configurações de palavra-chave incluem o tipo de correspondência de palavra-chave, os lances máximos a serem usados quando seu anúncio é acionado pela palavra-chave e (algumas redes de anúncios) parâmetros de rastreamento opcionais. As configurações de nível de palavra-chave substituem as configurações de campanha ou do grupo de anúncios.
 
 Você pode criar palavras-chave para qualquer grupo de publicidade em uma campanha direcionada à rede de pesquisa.
 
-## A variável [!UICONTROL Keywords] visualizações
+## As [!UICONTROL Keywords] visualizações
 
-A variável [!UICONTROL Keywords] > [!UICONTROL Keywords] lista todas as palavras-chave licitáveis e a variável [!UICONTROL Keywords] > [!UICONTROL Negatives] A exibição lista todas as palavras-chave negativas para as quais os anúncios não são exibidos.
+A exibição [!UICONTROL Keywords] > [!UICONTROL Keywords] lista todas as palavras-chave licitáveis, e a exibição [!UICONTROL Keywords] > [!UICONTROL Negatives] lista todas as palavras-chave negativas, para as quais os anúncios não são exibidos.
 
-Você pode criar palavras-chave para um grupo de pesquisa de anúncios a partir da [!UICONTROL Keywords] > [!UICONTROL Keywords] exibição. Você pode criar palavras-chave negativas para um grupo de publicidade ou campanha a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir ou nas configurações de campanha e grupo de anúncios. Também é possível editar e alterar o status de palavras-chave ativas e pausadas, além de excluir palavras-chave negativas.
+Você pode criar palavras-chave para um grupo de pesquisa e publicidade da exibição [!UICONTROL Keywords] > [!UICONTROL Keywords]. Você pode criar
+palavras-chave negativas para um grupo de publicidade ou campanha da exibição [!UICONTROL Keywords] > [!UICONTROL Negatives] ou das configurações de campanha e grupo de publicidade. Também é possível editar e alterar o status de palavras-chave ativas e pausadas, além de excluir palavras-chave negativas.
 
 >[!MORELIKETHIS]
 >

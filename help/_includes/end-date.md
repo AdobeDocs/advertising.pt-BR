@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Campo Data final em algumas configurações de campanha e configurações de grupo de anúncios MS
 
-**[!UICONTROL End date]:** A última data em que as ofertas podem ser feitas. O padrão é *Sem data final*. Para colocar lances até uma data especificada, insira uma data no formato MM/DD/AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png) e selecione uma data.
+**[!UICONTROL End date]:** A última data em que os lances podem ser feitos. O padrão é *Sem Data Final*. Para fazer lances até uma data especificada, insira uma data no formato MM/DD/AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png) e selecione uma data.

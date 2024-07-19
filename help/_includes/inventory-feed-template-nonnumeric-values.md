@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Modelo de anúncio de texto - Essa coluna tem valores não numéricos
 
-**[!UICONTROL This column has non-numeric values]:**(Opcional) A coluna especificada tem valores não numéricos. Por exemplo, se você usar o caractere &quot;[!UICONTROL Availability]&quot; coluna em uma [!DNL Google Merchant Center] , os valores não serão numéricos, como &quot;[!DNL in stock]&quot; e &quot;[!DNL out of stock].&quot; **Nota:** Os valores baseados em texto não diferenciam maiúsculas de minúsculas.
+**[!UICONTROL This column has non-numeric values]:**(Opcional) A coluna especificada tem valores não numéricos. Por exemplo, se você usar a coluna &quot;[!UICONTROL Availability]&quot; em um feed [!DNL Google Merchant Center], os valores serão não numéricos, como &quot;[!DNL in stock]&quot; e &quot;[!DNL out of stock].&quot; **Observação:** os valores baseados em texto não diferenciam maiúsculas de minúsculas.

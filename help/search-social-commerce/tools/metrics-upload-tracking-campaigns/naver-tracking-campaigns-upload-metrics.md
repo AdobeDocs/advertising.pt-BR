@@ -1,22 +1,22 @@
 ---
-title: Fazer upload de métricas de tráfego e conversão para o [!DNL Naver] contas somente de rastreamento
-description: Saiba como fazer upload de métricas de tráfego e conversão para rastreamento e relatórios somente para [!DNL Naver] contas.
-exl-id: cfc8178c-0be0-445d-a387-abe826e1ca8a
+title: Carregar métricas de tráfego e conversão para  [!DNL Naver] contas somente de rastreamento
+description: Saiba como carregar métricas de tráfego e conversão somente para rastreamento e relatórios de contas do  [!DNL Naver] .
+exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# Fazer upload de métricas de tráfego e conversão para o [!DNL Naver] contas somente de rastreamento
+# Carregar métricas de tráfego e conversão de [!DNL Naver] contas somente de rastreamento
 
-*Somente contas do Naver*
+*Somente contas de navegação*
 
-Você pode carregar um arquivo TSV, CSV ou TXT de métricas de tráfego agregadas diariamente e métricas de conversão para rastrear e gerar relatórios somente para suas contas de rede de anúncios. Os dados devem seguir um [formato especificado](naver-tracking-campaigns-data-requirements.md). Se o arquivo contiver dados para entidades que não existem na Search, Social e Commerce, essas linhas serão ignoradas.
+Você pode carregar um arquivo TSV, CSV ou TXT de métricas de tráfego agregadas diariamente e métricas de conversão para rastrear e gerar relatórios somente para suas contas de rede de anúncios. Os dados devem seguir um [formato especificado](naver-tracking-campaigns-data-requirements.md). Se o arquivo contiver dados para entidades que não existem na Pesquisa, no Social e no Commerce, essas linhas serão ignoradas.
 
-A Search, Social e Commerce não sincroniza dados com a rede de anúncios nem faz lances para a conta.
+O Search, Social e Commerce não sincroniza dados com a rede de publicidade, nem faz ofertas para a conta.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
 
@@ -30,4 +30,4 @@ A Search, Social e Commerce não sincroniza dados com a rede de anúncios nem fa
 >
 >* [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Apêndice - Dados de bulksheet necessários para [!DNL Naver] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
->* [Requisitos de dados métricos para [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>* [Requisitos de dados de métrica para [!DNL Naver] contas somente rastreamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)

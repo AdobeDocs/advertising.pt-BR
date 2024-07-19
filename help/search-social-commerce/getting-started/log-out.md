@@ -1,11 +1,11 @@
 ---
 title: Fazer logoff
 description: Saiba onde fazer logoff.
-exl-id: cebb97ca-8fa6-4b29-a3f7-613beb422450
+exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >Sua sessão de logon termina automaticamente se a janela do navegador ficar ociosa por 30 minutos.
 
-* No canto superior direito de qualquer página, clique em ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário")e clique em **[!UICONTROL Sign Out]**.
+* Na parte superior direita de qualquer página, clique em ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") e em **[!UICONTROL Sign Out]**.
 
 >[!MORELIKETHIS]
 >
 >* [Fazer logon](log-in.md)
->* [Como a interface do usuário é organizada](user-interface.md)
+>* [Como a interface do usuário está organizada](user-interface.md)

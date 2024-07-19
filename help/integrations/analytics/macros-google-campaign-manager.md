@@ -1,36 +1,36 @@
 ---
-title: Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade
-description: Saiba por que e como adicionar [!DNL Analytics for Advertising] macros para o seu [!DNL Google Campaign Manager 360] tags de publicidade
+title: Acrescentar  [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio
+description: Saiba por que e como adicionar  [!DNL Analytics for Advertising] macros às suas [!DNL Google Campaign Manager 360] marcas de anúncio
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
 source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-# Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade
+# Anexar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
+*Anunciantes com uma Integração Adobe Advertising-Adobe Analytics Somente*
 
-*Aplicável somente ao DSP do anúncio*
+*Aplicável somente ao Advertising DSP*
 
-Se você usar tags de publicidade de [!DNL Google Campaign Manager 360] para seus anúncios de DSP, anexe [!DNL Analytics for Advertising] parâmetros para os URLs da sua landing page usando o [`%p` macro](https://support.google.com/campaignmanager/table/6096962). Os parâmetros registram a ID AMO (`s_kwcid`) e `ef_id` parâmetros da string de consulta no URL da página inicial, permitindo que o Adobe Advertising envie dados de cliques dos anúncios para a Adobe Analytics.
+Se você usar marcas de anúncio de [!DNL Google Campaign Manager 360] para seus anúncios Advertising DSP, anexe [!DNL Analytics for Advertising] parâmetros às URLs da sua página de aterrissagem usando a macro [`%p` ](https://support.google.com/campaignmanager/table/6096962). Os parâmetros registram os parâmetros de ID AMO (`s_kwcid`) e `ef_id` da cadeia de caracteres de consulta na URL da página de aterrissagem, permitindo que o Adobe Advertising envie dados de cliques para os anúncios para a Adobe Analytics.
 
-Usar macros para [!DNL Campaign Manager 360] exibição e anúncios de vídeo para os seguintes tipos de [!DNL Analytics for Advertising] implementações:
+Use macros para exibição e anúncios de vídeo do [!DNL Campaign Manager 360] para os seguintes tipos de implementações do [!DNL Analytics for Advertising]:
 
-* **Anunciantes com o [!DNL Adobe] [!DNL Analytics for Advertising] Código JavaScript implementado em seus sites**: o código JavaScript já registra a ID do AMO (`s_kwcid`) e `ef_id` parâmetros da sequência de consulta. No entanto, o uso de macros estende o rastreamento para incluir conversões baseadas em cliques quando não há suporte para cookies de terceiros. A prática recomendada é adicionar as macros nas seções a seguir às tags de anúncio para capturar dados de click-through adicionais que não são capturados pelo código JavaScript.
+* **Anunciantes com o código JavaScript [!DNL Adobe] [!DNL Analytics for Advertising] implementado em seus sites**: o código JavaScript já registra os parâmetros de cadeia de caracteres de consulta AMO (`s_kwcid`) e `ef_id`. No entanto, o uso de macros estende o rastreamento para incluir conversões baseadas em cliques quando não há suporte para cookies de terceiros. A prática recomendada é adicionar as macros nas seções a seguir às tags de anúncio para capturar dados de click-through adicionais que não são capturados pelo código JavaScript.
 
 >[!NOTE]
 >
 >O código JavaScript é uma solução para rastreamento de cliques somente enquanto os cookies ainda estão disponíveis. Quando os cookies forem descontinuados, será necessário implementar as seguintes macros.
 
-* **Anunciantes cujos sites não usam o [!DNL Analytics for Advertising] Código JavaScript e, em vez disso, dependem de [!DNL Analytics] encaminhamento pelo lado do servidor somente para dados de click-through** (sem dados de view-through): as seguintes macros são necessárias para relatar a atividade de cliques no site orientada por anúncios comprados pelo Adobe Advertising.
+* **Anunciantes cujos sites não usam o código JavaScript [!DNL Analytics for Advertising] e dependem do encaminhamento pelo lado do servidor [!DNL Analytics] somente para dados de click-through** (sem dados de view-through): as macros a seguir são necessárias para relatar a atividade de clique no site orientada pelos anúncios comprados pelo Adobe Advertising.
 
-## Anexe as macros ao seu [!DNL Google Campaign Manager 360] Anúncios
+## Anexe as macros aos seus anúncios do [!DNL Google Campaign Manager 360]
 
-Dentro de [!DNL Google Campaign Manager 360], anexe ao seguinte parâmetro ao URL da página inicial de cada exibição e anúncio de vídeo: `%pamo=!;`
+No [!DNL Google Campaign Manager 360], anexe ao seguinte parâmetro à URL da página de aterrissagem para cada exibição e anúncio de vídeo: `%pamo=!;`
 
 Você pode especificar o URL da página de aterrissagem de várias maneiras. As instruções para cada opção estão incluídas nas subseções a seguir.
 
@@ -42,29 +42,29 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Se o URL da página de aterrissagem incluir um símbolo de hash (#), o que não é comum, insira o `amo` antes do símbolo de hash.
->* Se nenhum outro parâmetro for incluído após a variável `amo` e adicione um parâmetro (por exemplo, &amp;a=b) depois dele. Exemplo: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>>* Se a URL da página de aterrissagem incluir um símbolo de hash (#), o que não é comum, coloque o parâmetro `amo` antes do símbolo de hash.
+>* Se nenhum outro parâmetro for incluído após o parâmetro `amo`, adicione um parâmetro (por exemplo, &amp;a=b) depois dele. Exemplo: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurar o sufixo do URL da página inicial no nível do anunciante
 
-1. Consulte a [instruções para abrir as propriedades do anunciante](https://support.google.com/campaignmanager/answer/2829344).
-1. No [!UICONTROL Landing page URL suffix] configurações, incluir `%pamo!;` no [!UICONTROL URL suffix] campo.
+1. Consulte as [instruções para abrir as propriedades do anunciante](https://support.google.com/campaignmanager/answer/2829344).
+1. Nas configurações de [!UICONTROL Landing page URL suffix], inclua `%pamo!;` no campo [!UICONTROL URL suffix].
 
 ### Configurar o sufixo do URL da página inicial no nível da campanha
 
-1. Consulte a [instruções para abrir as propriedades da campanha](https://support.google.com/campaignmanager/answer/2838056#set).
-1. No [!UICONTROL Landing page URL suffix] configurações, incluir `%pamo!;` no [!UICONTROL URL suffix] campo.
+1. Consulte as [instruções para abrir as propriedades da campanha](https://support.google.com/campaignmanager/answer/2838056#set).
+1. Nas configurações de [!UICONTROL Landing page URL suffix], inclua `%pamo!;` no campo [!UICONTROL URL suffix].
 
 ### Configurar o sufixo do URL da página inicial de nível criativo
 
 1. Abra as propriedades criativas.
-1. No [!UICONTROL Click tags] configuração, incluir `%pamo!;` no [!UICONTROL Landing page] para a tag de clique.
+1. Na configuração [!UICONTROL Click tags], inclua `%pamo!;` na coluna [!UICONTROL Landing page] para a marca de clique.
 
-## Como [!DNL Analytics for Advertising] Macros são expandidas no DSP
+## Como as macros [!DNL Analytics for Advertising] são expandidas no DSP
 
-No DSP, ao criar um anúncio que inclui a variável [!DNL Analytics for Advertising] parâmetro (`amo`), o `ef_id` e `s_kwcid` as macros são anexadas automaticamente ao URL de clique. A prática recomendada é verificar a tag no DSP para garantir que a `ef_id` e `s_kwcid` macros estão presentes.
+No DSP, ao criar um anúncio que inclui o parâmetro [!DNL Analytics for Advertising] (`amo`), as macros `ef_id` e `s_kwcid` são automaticamente anexadas à URL de clique. A prática recomendada é verificar a tag no DSP para garantir que as macros `ef_id` e `s_kwcid` estejam presentes.
 
-Veja a seguir um exemplo de [!DNL Google Campaign Manager 360] [tag ins](https://support.google.com/campaignmanager/answer/6080468) como aparece no DSP.
+Este é um exemplo de uma [!DNL Google Campaign Manager 360] [in tag](https://support.google.com/campaignmanager/answer/6080468) como ela aparece no DSP.
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
@@ -78,10 +78,10 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 </ins>
 ```
 
-Quando um usuário clica no anúncio, [!DNL Google Campaign Manager 360] visualiza `%pamo` no sufixo do URL e insere dinamicamente o valor de `amo` no URL.
+Quando um usuário clica no anúncio, [!DNL Google Campaign Manager 360] vê `%pamo` no sufixo da URL e insere dinamicamente o valor do parâmetro `amo` na URL.
 
 >[!MORELIKETHIS]
 >
->* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
->* [IDs de Adobe Advertising usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](macros-flashtalking.md)
+>* [Visão geral de [!DNL Analytics for Advertising]](overview.md)
+>* [IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](macros-flashtalking.md)

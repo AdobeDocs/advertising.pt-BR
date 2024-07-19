@@ -23,23 +23,23 @@ Você pode desarquivar um posicionamento para restaurar seu status anterior a qu
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para exibir disposições arquivadas, filtre a variável [!UICONTROL Placements] exibir: clique ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Placement status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
+>Para exibir os posicionamentos arquivados, filtre a exibição [!UICONTROL Placements]: clique no ![botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Placement status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
 
 ## Desarquivar um Posicionamento
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
->* [Editar disposições](placement-edit.md)
+>* [Pausar ou Ativar um Posicionamento](placement-pause-activate.md)
+>* [Editar posicionamentos](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)

@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Portfolio Report]'
 description: Saiba mais sobre o [!UICONTROL Portfolio Report].
-exl-id: 92ff61b5-335d-4c8f-998d-fd9cf59574dc
+exl-id: fe1ac365-e613-4ac1-9fb9-0063e1350014
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Portfolio Report]
 
-A variável [!UICONTROL Portfolio Report] inclui dados de custo, clique e conversão (opcionalmente) de um ou mais portfólios. Por padrão, os dados incluem uma linha para cada portfólio aplicável para cada unidade de tempo no intervalo de datas especificado, e as linhas estão em ordem crescente, primeiro por portfólio e, em seguida, pela data inicial da unidade de tempo.
+O [!UICONTROL Portfolio Report] inclui dados de custo, clique e conversão (opcionalmente) de um ou mais portfólios. Por padrão, os dados incluem uma linha para cada portfólio aplicável para cada unidade de tempo no intervalo de datas especificado, e as linhas estão em ordem crescente, primeiro por portfólio e, em seguida, pela data inicial da unidade de tempo.
 
 Você pode exibir dados dos últimos 36 meses.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Start Date]

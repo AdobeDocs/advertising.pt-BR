@@ -1,24 +1,24 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] Configurações do negócio'
-description: Saiba mais sobre as configurações disponíveis para o [!UICONTROL Simple Ad Serving] negócios.
+title: '[!UICONTROL Simple Ad Serving] Configurações de oferta'
+description: Saiba mais sobre as configurações disponíveis para [!UICONTROL Simple Ad Serving] ofertas.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] Configurações de oferta
+# Configurações de oferta do [!UICONTROL Simple Ad Serving]
 
-## Novo [!UICONTROL Simple Ad Serving] Transações
+## Novas ofertas do [!UICONTROL Simple Ad Serving]
 
 ### [!UICONTROL Select Ad Source]
 
 | Parâmetro | Descrição |
 |-----------|-------------|
-| **[!UICONTROL Serving Type]** | O tipo de mídia para este negócio: *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
+| **[!UICONTROL Serving Type]** | O tipo de mídia desta oferta: *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | O nome do publicador que está vendendo este estoque. Procure um editor inserindo pelo menos os dois primeiros caracteres no nome. Para adicionar um editor que não esteja listado, entre em contato com a equipe de conta do Adobe. |
 | **[!UICONTROL Advertiser]** | Um único anunciante na conta que pode acessar esta oferta. Selecione também a campanha e (opcionalmente) o pacote no qual o contrato está disponível. |
 | **[!UICONTROL Media Quality Assessment?]** | (Alguns usuários) Permite que o anúncio seja executado em outro DSP para verificação de terceiros. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
@@ -34,14 +34,14 @@ ht-degree: 0%
 
 ### [!UICONTROL Select & Upload [Media Type]]
 
-(Somente para novos anúncios) Telas para criar um novo [anúncio de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+(Somente para novos anúncios) Screens para criar um novo [anúncio de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 ### [!UICONTROL Feed Details]
 
 | Parâmetro | Descrição |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | O custo por 1000 impressões (CPM), conforme refletido no cartão de tarifa do seu contrato. Entre em contato com a equipe de conta do Adobe para obter esse valor. <br><br>Especificar também a moeda da transação. Todos os usuários podem selecionar USD ou, se a SSP oferecer suporte a moedas adicionais, a moeda da conta DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Opcional) Uma taxa estática de terceiros a ser rastreada como um custo não faturável e a moeda da transação.<br><br>Todos os usuários podem selecionar USD ou, se a SSP oferecer suporte a moedas adicionais, a moeda da conta DSP. **NOTA:** As taxas faturáveis são refletidas na [!UICONTROL Net CPM] métrica. |
+| **[!UICONTROL Media CPM]** | O custo por 1000 impressões (CPM), conforme refletido no cartão de tarifa do seu contrato. Entre em contato com a equipe de conta do Adobe para obter esse valor. <br><br>Especifique também a moeda da transação. Todos os usuários podem selecionar USD ou, se a SSP oferecer suporte a moedas adicionais, a moeda da conta DSP. |
+| **[!UICONTROL Third Party Billed Fees]** | (Opcional) Uma taxa estática de terceiros a ser rastreada como um custo não faturável e a moeda da transação.<br><br>Todos os usuários podem selecionar USD ou, se o SSP oferecer suporte a moedas adicionais, a moeda da conta DSP. **OBSERVAÇÃO:** as taxas faturáveis são refletidas na métrica [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Opcional) Uma descrição das taxas de terceiros. |
 | **[!UICONTROL Flight Dates]** | As datas de início e término do tráfego que usa esta oferta. As datas de voo devem ser incluídas nas datas de voo da campanha. As tags de anúncio retornam uma resposta somente durante o voo especificado.<br><br> A prática recomendada para criar uma campanha de veiculação de anúncios simples separada com um ano de duração e criar pixels de rastreamento dentro dela. |
 | **[!UICONTROL Impressions]** | (Opcional) O número estimado de impressões que você espera executar usando esta oferta. Esse valor é usado somente para fins de rastreamento e para sinalizar quando as metas de entrega são atendidas; o editor controla a entrega de anúncios real. A prática recomendada é inserir um alto número de impressões para manter a tag ativa no DSP para que ela possa ser renovada ou estendida, se necessário. |
@@ -81,10 +81,9 @@ But I see:
 >[!MORELIKETHIS]
 >
 >* [Sobre [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Criar um [!UICONTROL Simple Ad Serving] Negociação](simple-deal-create.md)
+>* [Criar um Contrato [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
 >* [Editar [!UICONTROL Simple Ad Serving] Configurações de oferta](simple-deal-edit.md)
->* [Exibir um Relatório Detalhado de uma Transação](/help/dsp/inventory/deal-view-report.md)
-
+>* [Exibir um Relatório Detalhado de um Acordo](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
 >* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)

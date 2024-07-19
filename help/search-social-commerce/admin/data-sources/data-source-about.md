@@ -1,35 +1,35 @@
 ---
-title: Sobre sincronização [!DNL Google Analytics] métricas de conversão
-description: Saiba mais sobre sincronização [!DNL Google Analytics] métricas de conversão para otimização e relatórios.
+title: Sobre a sincronização de  [!DNL Google Analytics] métricas de conversão
+description: Saiba mais sobre como sincronizar  [!DNL Google Analytics] métricas de conversão para otimização e relatórios.
 role: User, Admin
-exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-# Sobre sincronização [!DNL Google Analytics] métricas de conversão
+# Sobre a sincronização de [!DNL Google Analytics] métricas de conversão
 
-As soluções de Pesquisa, Social e Comércio podem sincronizar métricas de conversão de uma [!DNL Google Analytics] combinação de conta, propriedade e exibição para otimização e relatórios. [Exibições de página](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=page_tracking&amp;jump=ga_pageviews), [Sessões](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessions), [Taxa de rejeição](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_bouncerate) (calculado como rejeições/sessões) e [Duração da sessão](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessionduration) são incluídos automaticamente. É possível incluir até 16 métricas adicionais por fonte de dados.
+A Search, o Social e o Commerce podem sincronizar métricas de conversão de uma conta, propriedade e combinação de exibição específica do [!DNL Google Analytics] para otimização e relatórios. [Exibições de página](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=page_tracking&amp;jump=ga_pageviews), [Sessões](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessions), [Taxa de Rejeição](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_bouncerate) (calculada como rejeições/sessões) e [Duração da Sessão](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessionduration) são incluídas automaticamente. É possível incluir até 16 métricas adicionais por fonte de dados.
 
 >[!NOTE]
 >
->Os usuários de DSP de publicidade podem usar as métricas de conversão como metas personalizadas e em relatórios.
+>Os usuários do Advertising DSP podem usar as métricas de conversão como metas personalizadas e em relatórios.
 
-Todo o uso da API para as transferências de dados é avaliado para um projeto na [!DNL Google Analytics] conta. Você pode exibir suas cotas para este projeto em [o [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Consulte [!DNL Google Analytics] para obter mais informações sobre [cotas e limites de chamada para solicitações de API de relatórios](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+Todo o uso da API para transferências de dados é avaliado para um projeto na conta [!DNL Google Analytics] aplicável. Você pode exibir suas cotas para este projeto em [the [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Consulte [!DNL Google Analytics] documentação para obter mais informações sobre [cotas e limites de chamada para solicitações de API de relatórios](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
-As etapas a seguir descrevem o processo de sincronização de dados de conversão do [!DNL Google Analytics].
+As etapas a seguir descrevem o processo de sincronização dos dados de conversão de [!DNL Google Analytics].
 
 1. [Execute as tarefas de pré-requisito](data-source-prerequisites.md)
 
-   * Implementar um token de Adobe Advertising (`ef_id` parâmetro da string de consulta) nos URLs da página inicial para todas as contas publicitárias aplicáveis.
+   * Implemente um token Adobe Advertising (`ef_id` parâmetro da sequência de consulta) nas URLs da página de aterrissagem para todas as contas de publicidade aplicáveis.
 
-   * Capture o token de Adobe Advertising (`ef_id` sequência de consulta (parâmetro) em uma [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Capture o token Adobe Advertising (`ef_id` parâmetro da cadeia de caracteres de consulta) em um [!DNL Custom Dimension] em [!DNL Google Analytics].
 
-1. (Administrador de conta da agência, gerente de conta da agência, [!DNL Adobe] gerente de conta e administrador (somente usuários) [Criar uma fonte de dados por [!DNL Google Analytics] combinação de conta, propriedade e visualização](data-source-configure.md).
+1. (Somente para usuários administradores de contas de agências, gerentes de contas de agências, [!DNL Adobe] gerentes de contas e administradores) [Crie uma fonte de dados por [!DNL Google Analytics] combinação de contas, propriedades e exibições](data-source-configure.md).
 
    Para integrar métricas de várias propriedades ou de várias exibições de uma única propriedade, configure uma fonte de dados separada para cada uma.
 
@@ -37,10 +37,10 @@ As etapas a seguir descrevem o processo de sincronização de dados de conversã
 
 >[!MORELIKETHIS]
 >
->* [Pré-requisitos para configurar um [!DNL Google Analytics] fonte de dados](data-source-prerequisites.md)
->* [Configurar um [!DNL Google Analytics] exibir como fonte de dados](data-source-configure.md)
->* [Editar um [!DNL Google Analytics] fonte de dados](data-source-edit.md)
+>* [Pré-requisitos para configurar uma [!DNL Google Analytics] fonte de dados](data-source-prerequisites.md)
+>* [Configurar uma  [!DNL Google Analytics] exibição como fonte de dados](data-source-configure.md)
+>* [Editar uma [!DNL Google Analytics] fonte de dados](data-source-edit.md)
 >* [Pausar sincronização de uma fonte de dados](data-source-pause.md)
->* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
+>* [Reautenticar uma [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)
 >* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)

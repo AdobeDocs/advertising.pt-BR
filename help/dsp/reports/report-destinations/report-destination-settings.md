@@ -20,19 +20,19 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 ## [!UICONTROL S3]
 
-**[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
+**[!UICONTROL Name]:** Um nome para ajudá-lo a identificar o destino.
 
-**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no [!DNL Amazon Simple Storage Service] (S3) bucket para o qual o relatório é carregado. Exemplo: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** O caminho completo para a pasta no bucket [!DNL Amazon Simple Storage Service] (S3) para o qual o relatório é carregado. Exemplo: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** A ID da chave de acesso para o ([!DNL Amazon S3]) bucket (fornecido por [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** A ID da Chave de Acesso para o bucket ([!DNL Amazon S3]) (fornecida por [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** A chave de acesso secreta para o ([!DNL Amazon S3]) bucket (fornecido por [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** A Chave de Acesso Secreta para o bucket ([!DNL Amazon S3]) (fornecida por [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 
-**[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
+**[!UICONTROL Name]:** Um nome para ajudá-lo a identificar o destino.
 
-**[!UICONTROL Server]:** O nome do host do servidor.
+**[!UICONTROL Server]:** O nome de host do servidor.
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
@@ -44,9 +44,9 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 ## [!UICONTROL SFTP]
 
-**[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
+**[!UICONTROL Name]:** Um nome para ajudá-lo a identificar o destino.
 
-**[!UICONTROL Server]:** O nome do host do servidor.
+**[!UICONTROL Server]:** O nome de host do servidor.
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
@@ -58,9 +58,9 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 ## [!UICONTROL FTP SSL]
 
-**[!UICONTROL Name]:** Um nome para ajudar a identificar o destino.
+**[!UICONTROL Name]:** Um nome para ajudá-lo a identificar o destino.
 
-**[!UICONTROL Server]:** O nome do host do servidor.
+**[!UICONTROL Server]:** O nome de host do servidor.
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 

@@ -1,11 +1,11 @@
 ---
 title: Excluir bulksheets e arquivos de erro enviados
 description: Saiba como excluir arquivos de bulksheet e arquivos de erro.
-exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Você pode excluir manualmente arquivos de bulksheet, arquivos de erro de valida
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Delete]**.
 
-1. (Se a planilha estiver programada para publicação) Na mensagem de confirmação, clique em **[!UICONTROL OK]** para excluir a bulksheet sem lançar os dados.
+1. (Se o bulksheet estiver agendado para publicação) Na mensagem de confirmação, clique em **[!UICONTROL OK]** para excluir o bulksheet sem lançar os dados.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
->* [Interromper um trabalho de bulksheet em andamento](bulksheet-stop-job.md)
+>* [Parar um trabalho de bulksheet em andamento](bulksheet-stop-job.md)
 >* [Exportar um arquivo de bulksheet gerado ou carregado](bulksheet-export.md)

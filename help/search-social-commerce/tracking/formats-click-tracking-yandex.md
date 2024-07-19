@@ -1,16 +1,16 @@
 ---
-title: Formatos de rastreamento de cliques para [!DNL Yandex]
-description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Yandex] contas.
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+title: Formatos de rastreamento de cliques para  [!DNL Yandex]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yandex] .
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Yandex]
+# Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yandex]
 
 O formato de URL de destino básico a seguir se aplica a anúncios patrocinados:
 
@@ -22,21 +22,21 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
+>* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
 >
->* `source_type`  é o tipo de correspondência.
+>* `source_type` é o tipo de correspondência.
 >
->* `source` é se o anúncio foi exibido em um site de pesquisa ou baseado em conteúdo.
+>* `source` indica se o anúncio foi mostrado em um site de pesquisa ou baseado em conteúdo.
 >
 >* `position` é o número da posição do anúncio no bloco. Para tráfego que não é de pesquisa, o valor é &quot;0&quot;.
 >
->* `position_type` é o bloco no qual o anúncio foi exibido [!DNL Yandex]. Valores possíveis: &quot;premium&quot; (bloco superior), &quot;other&quot; (bloco direito) ou &quot;none&quot; (tráfego que não é de pesquisa).
+>* `position_type` é o bloco no qual o anúncio foi exibido em [!DNL Yandex]. Valores possíveis: &quot;premium&quot; (bloco superior), &quot;other&quot; (bloco direito) ou &quot;none&quot; (tráfego que não é de pesquisa).
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

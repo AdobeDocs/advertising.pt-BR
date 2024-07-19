@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Ad Variation Report]'
 description: Saiba mais sobre o [!UICONTROL Ad Variation Report].
-exl-id: 3f760c40-c9ff-4100-8b4a-80c98dca2460
+exl-id: e12f2dee-b430-444f-9204-73fed4e33e29
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Ad Variation Report]
 
-A variável [!UICONTROL Ad Variation Report] inclui dados de custo, clique e conversão (opcionalmente) de cada variação de anúncio aplicável (criativo) que recebeu impressões em um ou mais grupos de anúncios. Por padrão, os dados incluem uma linha para cada anúncio aplicável que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pelo título criativo (anúncio) e depois pela rede de anúncios, por padrão.
+O [!UICONTROL Ad Variation Report] inclui dados de custo, clique e conversão (opcionalmente) para cada variação de anúncio aplicável (criativo) que recebeu impressões em um ou mais grupos de anúncios. Por padrão, os dados incluem uma linha para cada anúncio aplicável que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pelo título criativo (anúncio) e depois pela rede de anúncios, por padrão.
 
 Opcionalmente, você pode incluir classificações de rótulos específicas do anunciante.
 
@@ -24,7 +24,7 @@ Você pode exibir dados dos últimos 36 meses.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Creative Title, Creative Title2 - Creative Title15]
 * [!UICONTROL Creative Name]

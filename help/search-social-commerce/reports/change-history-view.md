@@ -1,18 +1,18 @@
 ---
-title: Exibir o [!UICONTROL Change History] relatório
+title: Exibir o relatório [!UICONTROL Change History]
 description: Saiba como visualizar alterações recentes na conta do anunciante.
-exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Exibir o [!UICONTROL Change History] relatório
+# Exibir o relatório [!UICONTROL Change History]
 
-A variável [!UICONTROL Change History] O relatório inclui um log de alterações feitas na conta do anunciante nos últimos 31 dias. Ela pode incluir alterações nos seguintes tipos de objetos: usuários (anunciantes), portfólios, campanhas, grupos de anúncios, anúncios, palavras-chave, inserções e destinos de produtos. Por padrão, as alterações são exibidas para dois dias atrás.
+O relatório [!UICONTROL Change History] inclui um log de alterações feitas na conta do anunciante nos últimos 31 dias. Ela pode incluir alterações nos seguintes tipos de objetos: usuários (anunciantes), portfólios, campanhas, grupos de anúncios, anúncios, palavras-chave, inserções e destinos de produtos. Por padrão, as alterações são exibidas para dois dias atrás.
 
 Você pode classificar e filtrar os dados por qualquer coluna.
 
@@ -26,7 +26,7 @@ Você pode classificar e filtrar os dados por qualquer coluna.
 
    * (Para filtrar os dados por valor de coluna) Siga um destes procedimentos:
 
-      * [Aplicar um filtro usando o **[!UICONTROL Add Filter]** link](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+      * [Aplique um filtro usando o link **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [Aplicar um filtro a partir de um menu de cabeçalho de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -38,7 +38,7 @@ Você pode classificar e filtrar os dados por qualquer coluna.
 
          * (Para um intervalo predefinido) — Selecione na lista de incrementos de tempo comuns. O padrão é *[!UICONTROL 2 Days Ago]*.
 
-         * (Para um intervalo específico) — Selecione **[!UICONTROL Custom Date Range]** e especifique a data de início e a data de término.
+         * (Para um intervalo específico) — Selecione **[!UICONTROL Custom Date Range]** e especifique a data inicial e a data final.
 
            Insira as datas no formato MM/DD/AAAA ou MM-DD-AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") ao lado de cada campo para abrir o calendário e selecionar uma data. Você pode incluir dados somente dos últimos 31 dias.
 
@@ -48,7 +48,7 @@ Você pode classificar e filtrar os dados por qualquer coluna.
 
    1. Acima da tabela de dados, clique em **[!UICONTROL Download]**.
 
-      Quando o relatório for concluído, ele será listado no [!UICONTROL Download] menu.
+      Quando o relatório for concluído, ele será listado no menu [!UICONTROL Download].
 
    1. (Para abrir ou salvar os dados do relatório em um arquivo) Clique em ![Baixar Relatório como XLS](/help/search-social-commerce/assets/download-spreadsheet2.png "Baixar Relatório como XLS") ao lado do nome do arquivo e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador.
 

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager
 
-*Anunciantes somente com o Advertising DSP*
+*Somente anunciantes com o Advertising DSP*
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Audience Manager*
+*Anunciantes com uma Integração Adobe Advertising-Adobe Audience Manager Somente*
 
 Os clientes do Advertising DSP com Adobe Audience Manager podem usar pixels de evento Audience Manager para capturar dados de nível de impressão e dados de nível de clique de campanhas do DSP. Os pixels do evento enviam os dados como sinais acionáveis para o Audience Manager. Esses sinais permitem vários casos de uso do DSP, como segmentação mais avançada, gerenciamento de frequência, análise de marketing e insights de relatórios.
 
@@ -32,23 +32,23 @@ A DSP não cobra para enviar esses sinais para o Audience Manager. No entanto, v
 
 * Você pode aproveitar os dados da campanha para casos de uso, como limite de frequência em criações, redirecionamento de usuários que foram expostos a campanhas anteriores e análise do comportamento downstream do site e dos pontos de entrada.
 
-* Os dados agregados fornecem uma visualização unificada do desempenho da campanha, ajuda a identificar caminhos de conversão personalizados e podem ser usados para melhorar a sequência de eventos que levam a conversões por meio do Audience Manager [!DNL Audience Optimization Reports] ou por meio de um [[!DNL Audience Analytics] integração com o Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* Os dados agregados fornecem uma visão unificada do desempenho da campanha, ajudam a identificar caminhos de conversão personalizados e podem ser usados para melhorar a sequência de eventos que levam a conversões por meio do Audience Manager [!DNL Audience Optimization Reports] ou por meio de uma integração [[!DNL Audience Analytics] com o Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Como os dados são rastreados
 
-Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e TV conectada (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
+Os pixels do evento de impressão de Audience Manager e clique são baseados em cookies. Os pixels não capturam eventos que ocorrem em ambientes sem cookies, como aplicativos móveis e CTV (TV conectada).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Pixels de rastreamento de impressão
 
-o Audience Manager rastreia dados de impressão de um anúncio quando você anexa um pixel transparente de rastreamento de eventos de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é exibido a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados do Audience Manager.
+o Audience Manager rastreia dados de impressão de um anúncio quando você anexa um pixel transparente de rastreamento de eventos de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é exibido a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados do Audience Manager.
 
 ### Pixels de rastreamento de cliques
 
-O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel de evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de cliques são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente do [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados do Audience Manager. O servidor então redireciona o usuário para a página inicial desejada. O URL contém parâmetros como pares de valor chave.
+O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel de evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de cliques são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados do Audience Manager. O servidor então redireciona o usuário para a página inicial desejada. O URL contém parâmetros como pares de valor chave.
 
 >[!NOTE]
 >
->Se sua organização usar [!DNL Analytics] , talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio de [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los ao Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >

@@ -1,9 +1,9 @@
 ---
-title: Exibir ou salvar um [!DNL Advertising Insight]
-description: Saiba como visualizar um [!DNL Advertising Insight] e salve-o em um arquivo.
-exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+title: Exibir ou salvar um  [!DNL Advertising Insight]
+description: Saiba como exibir e salvar um arquivo  [!DNL Advertising Insight] .
+exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 2. No menu esquerdo, clique em ![Relatórios](/help/search-social-commerce/assets/insight-reports.png "Relatórios").
 
-3. No [!UICONTROL Generated Insights] faça o seguinte:
+3. No painel [!UICONTROL Generated Insights], siga um destes procedimentos:
 
    * Clique na instância do relatório.
 

@@ -1,5 +1,5 @@
 ---
-title: Ativar e desativar notificações por push de [!UICONTROL Notification Center]
+title: Habilitar e desabilitar notificações por push de [!UICONTROL Notification Center]
 description: Saiba como habilitar e desabilitar notificações por push de [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Ativar e desativar notificações por push de [!UICONTROL Notification Center]
+# Habilitar e desabilitar notificações por push de [!UICONTROL Notification Center]
 
-*Recurso Beta*
+*Recurso do Beta*
 
-Você pode ativar notificações em Pesquisa, Social e Commerce, onde elas são exibidas de acordo com as convenções de notificação do navegador. Em dispositivos que usam [!DNL Microsoft Windows], as notificações são exibidas na parte inferior direita da tela (bandeja do sistema). Ligado [!DNL Apple Mac] dispositivos, as notificações são exibidas no menu direito.
+Você pode ativar notificações em Pesquisa, Social e Commerce, onde elas são exibidas de acordo com as convenções de notificação do navegador. Em dispositivos que usam o [!DNL Microsoft Windows], as notificações são exibidas na parte inferior direita da tela (bandeja do sistema). Em [!DNL Apple Mac] dispositivos, as notificações são exibidas no menu direito.
 
 As notificações por push estão disponíveis nos seguintes navegadores:
 
@@ -30,17 +30,17 @@ Você pode desativar as notificações por push de acordo com o procedimento pad
 
 1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-2. Na parte inferior direita, clique em ![Ativar notificações por push](/help/search-social-commerce/assets/notifications-push.png "Ativar notificações por push").
+2. Na parte inferior direita, clique em ![Habilitar notificações por push](/help/search-social-commerce/assets/notifications-push.png "Habilitar notificações por push").
 
 3. Na mensagem de confirmação, clique em **[!UICONTROL Enable]**.
 
-4. Configurar o navegador para permitir notificações do [!UICONTROL Notification Center] em`https://alert-center-ui-na.efrontier.com`.
+4. Configure o navegador para permitir notificações de [!UICONTROL Notification Center] em `https://alert-center-ui-na.efrontier.com`.
 
-   As configurações padrão de notificação variam de acordo com o navegador e você pode a) receber automaticamente a opção de permitir notificações de [!UICONTROL Notification Center] ou b) precisam gerenciar manualmente as configurações de notificação. Por exemplo, em [!DNL Microsoft Edge], é possível permitir notificações do [!UICONTROL Notification Center] na barra de ferramentas do navegador. Consulte as instruções na ajuda do navegador.
+   As configurações padrão de notificação variam de acordo com o navegador e você pode a) ser automaticamente apresentado à opção para permitir notificações de [!UICONTROL Notification Center] ou b) precisar gerenciar manualmente as configurações de notificação. Por exemplo, em [!DNL Microsoft Edge], você pode permitir notificações de [!UICONTROL Notification Center] na barra de ferramentas do navegador. Consulte as instruções na ajuda do navegador.
 
    ![Onde gerenciar configurações de notificação no Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Onde gerenciar configurações de notificação no Microsoft Edge")
 
-5. No seu [configurações de notificação](notification-edit.md), ativar [!UICONTROL Web] notificações para os tipos de alertas que você deseja enviar.
+5. Nas [configurações de notificação](notification-edit.md), habilite as [!UICONTROL Web] notificações para os tipos de alertas que você deseja enviar.
 
 ## Desativar notificações por push
 
@@ -55,4 +55,4 @@ Consulte as instruções na ajuda do navegador.
 >* [Marcar uma notificação como lida ou não lida](notification-mark-read-unread.md)
 >* [Excluir uma notificação](notification-delete.md)
 >* [Editar suas configurações de notificação](notification-edit.md)
->* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
+>* [Instalar e desinstalar o [!UICONTROL Notification Center] aplicativo Web](notification-app-install-uninstall.md)

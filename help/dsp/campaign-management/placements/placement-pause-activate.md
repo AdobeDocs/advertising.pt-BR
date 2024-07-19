@@ -19,17 +19,17 @@ Pausar uma inserção ao vivo ou ativar uma inserção pausada quando estiver de
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Ativar um posicionamento pausado
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Arquivar ou desarquivar um posicionamento](placement-archive-unarchive.md)
->* [Editar disposições](placement-edit.md)
+>* [Arquivar ou Desarquivar um Posicionamento](placement-archive-unarchive.md)
+>* [Editar posicionamentos](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)

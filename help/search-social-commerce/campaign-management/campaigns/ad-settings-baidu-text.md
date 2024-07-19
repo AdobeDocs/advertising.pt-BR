@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Baidu] configurações de anúncio de texto'
-description: Referenciar as configurações de [!DNL Baidu] anúncios de texto.
+title: Configurações de anúncio de texto '[!DNL Baidu]'
+description: Referencie as configurações de  [!DNL Baidu] anúncios de texto.
 exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] configurações de anúncio de texto
+# Configurações de anúncio de texto [!DNL Baidu]
 
 >[!NOTE]
 >
->Alterar a cópia de anúncio para um [!DNL Baidu] o anúncio exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
+>Alterar a cópia do anúncio para um anúncio [!DNL Baidu] exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
 
 ## [!UICONTROL Text Ad]
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 2]:** A segunda linha do corpo de um anúncio. O comprimento mínimo é de quatro caracteres de byte duplo ou 8 caracteres de byte único e o comprimento máximo é de 20 caracteres de byte duplo ou 40 caracteres de byte único.
 
-**[!UICONTROL Display URL]:** O URL exibido em um anúncio. O tamanho máximo é de 35 caracteres de byte único.
+**[!UICONTROL Display URL]:** A URL exibida em um anúncio. O tamanho máximo é de 35 caracteres de byte único.
 
 **[!UICONTROL Mobile Preferred]:** (Opcional) Permite que a rede tente exibir a extensão de anúncio ou anúncio para usuários de dispositivos móveis em vez de usuários de desktop ou tablet. Por padrão, a opção não está ativada e o anúncio pode aparecer em qualquer tipo de dispositivo.
 

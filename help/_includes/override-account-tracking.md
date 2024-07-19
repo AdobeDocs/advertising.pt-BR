@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Substituir campo de Rastreamento de conta nas configurações da campanha
 
-**[!UICONTROL Override Account Tracking]:** (Opcional) Permite definir parâmetros de rastreamento para esta campanha. Por padrão, essa opção está desativada e a campanha usa os parâmetros de rastreamento no nível da conta.
+**[!UICONTROL Override Account Tracking]:** (opcional) permite que você defina parâmetros de rastreamento para esta campanha. Por padrão, essa opção está desativada e a campanha usa os parâmetros de rastreamento no nível da conta.

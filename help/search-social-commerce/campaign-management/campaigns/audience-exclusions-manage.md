@@ -1,6 +1,6 @@
 ---
 title: Gerenciar exclusões de público alvo para campanhas e grupos de anúncios
-description: Saiba como configurar e gerenciar exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de publicidade.
+description: Saiba como configurar e gerenciar exclusões de público-alvo para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de anúncios.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Gerencie exclusões de público para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de publicidade
+# Gerencie exclusões de público para suas campanhas e grupos de anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising]
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
 
 Você pode excluir públicos-alvo específicos como alvos para grupos de anúncios e campanhas específicas. Excluir um público-alvo garante que essas pessoas não recebam anúncios nos grupos de anúncios e campanhas especificados.
 
-Para [!DNL Google Ads] contas, é possível excluir qualquer tipo de público-alvo. Para [!DNL Microsoft Advertising] contas, você poderá excluir somente públicos de remarketing dinâmicos.
+Para contas do [!DNL Google Ads], você pode excluir qualquer tipo de público-alvo. Para contas do [!DNL Microsoft Advertising], você pode excluir somente públicos de remarketing dinâmicos.
 
 >[!NOTE]
 >
@@ -36,21 +36,21 @@ Você também pode excluir exclusões de público-alvo.
 
    1. Selecione os públicos-alvo aplicáveis.
 
-      Como opção, você pode pesquisar públicos-alvo que contenham uma sequência de texto específica com no mínimo três caracteres. Para qualquer público correspondente, clique em **[!UICONTROL Include]** para selecioná-la para exclusão.
+      Como opção, você pode pesquisar públicos-alvo que contenham uma sequência de texto específica com no mínimo três caracteres. Para qualquer público correspondente, clique em **[!UICONTROL Include]** para selecioná-lo para exclusão.
 
-      **Nota:** [!DNL Google Ads] os públicos-alvo de correspondência do cliente estão disponíveis somente para campanhas de pesquisa e compra.
+      **Observação:** [!DNL Google Ads] públicos-alvo de correspondência do cliente estão disponíveis somente para campanhas de pesquisa e compras.
 
    1. Especifique os públicos a serem excluídos:
 
       1. (Opcional) Para expandir uma campanha para exibir seus grupos de anúncios secundários, clique no nome da campanha.
 
-      1. (Opcional) Para filtrar uma lista de campanhas ou uma lista de grupos de anúncios por uma string de texto incluída no nome, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro"), insira ou cole a cadeia de texto no campo de entrada e pressione a tecla [!UICONTROL Enter] chave.
+      1. (Opcional) Para filtrar uma lista de campanhas ou lista de grupos de anúncios por uma sequência de caracteres de texto incluída no nome, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro"), insira ou cole a sequência de caracteres de texto no campo de entrada e pressione a tecla [!UICONTROL Enter].
 
       1. Siga um destes procedimentos:
 
-         * Especifique cada exclusão de grupo de anúncios clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+         * Especifique cada exclusão de grupo de anúncios clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) apareça.
 
-         * Especifique cada exclusão de campanha clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+         * Especifique cada exclusão de campanha clicando no círculo adjacente para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) seja exibida.
 
 1. Clique em **[!UICONTROL Post]**.
 
@@ -62,7 +62,7 @@ Você também pode excluir exclusões de público-alvo.
 
 1. Marque a caixa de seleção ao lado de cada exclusão de público-alvo cujo status você deseja alterar.
 
-   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Na barra de ferramentas, clique em ![Mais ações](/help/search-social-commerce/assets/more.png "Mais ações") e selecione **[!UICONTROL Delete]**.
 
@@ -70,5 +70,5 @@ Você também pode excluir exclusões de público-alvo.
 
 >[!MORELIKETHIS]
 >
->* [Sobre públicos](audience-about.md)
+>* [Sobre públicos-alvo](audience-about.md)
 >* [Gerenciar metas de público-alvo para campanhas e grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)

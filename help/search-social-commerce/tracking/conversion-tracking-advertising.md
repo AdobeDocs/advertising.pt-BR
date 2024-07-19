@@ -18,13 +18,13 @@ O Adobe Advertising rastreia as conversões resultantes de cliques em anúncios 
 >
 >Se o usuário não tiver um cookie válido, o Adobe Advertising não relatará a conversão.
 
-Para cada conjunto de métricas de conversão que você deseja rastrear, é necessário criar uma tag de conversão separada. Forneça as tags ao anunciante ou à agência uma lista de páginas da Web nas quais inserir cada uma. Você pode gerar qualquer um dos seguintes tipos de tags de conversão. Consulte &quot;[Gerar uma tag de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obter instruções.
+Para cada conjunto de métricas de conversão que você deseja rastrear, é necessário criar uma tag de conversão separada. Forneça as tags ao anunciante ou à agência uma lista de páginas da Web nas quais inserir cada uma. Você pode gerar qualquer um dos seguintes tipos de tags de conversão. Consulte &quot;[Gerar uma marca de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obter instruções.
 
 * (Recomendado) Tags do JavaScript (Versão 3 ou Versão 2), que não estão visíveis nas páginas da Web.
 
-* HTML tags de imagem para exibir imagens transparentes (pixels) de 1 pixel x 1 pixel, que são invisíveis para os usuários finais, nas páginas da Web. Use tags de imagem somente quando a empresa tiver uma política contra o uso de tags JavaScript.
+* HTML tags de imagem para exibir imagens transparentes (pixels) de 1 pixel x 1 pixel, que são invisíveis para os usuários finais, nas páginas da Web. Use tags de imagem somente quando a empresa tiver uma política contra o uso de tags da JavaScript.
 
-Para obter mais informações sobre as diferenças entre os tipos de tag, consulte &quot;[Perguntas frequentes sobre as tags de rastreamento de conversão do Advertising Cloud](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+Para obter mais informações sobre as diferenças entre os tipos de marca, consulte &quot;[Perguntas frequentes sobre as marcas de rastreamento de conversão do Advertising Cloud](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
 >[!NOTE]
 >
@@ -54,9 +54,9 @@ O pixel de rastreamento de conversão permite que o Adobe Advertising faça o se
 >[!MORELIKETHIS]
 >
 >* [Opções de rastreamento de conversão](conversion-tracking-about.md)
->* [Gerar uma tag de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [Formato das tags de rastreamento de conversão do JavaScript versão 3](format-conversion-tag-jsv3.md)
->* [Formato das tags de rastreamento de conversão do JavaScript versão 2](format-conversion-tag-jsv2.md)
->* [Formato das tags de rastreamento de conversão de imagem](format-conversion-tag-image.md)
+>* [Gerar uma marca de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Formato das marcas de rastreamento de conversão do JavaScript versão 3](format-conversion-tag-jsv3.md)
+>* [Formato das marcas de rastreamento de conversão do JavaScript versão 2](format-conversion-tag-jsv2.md)
+>* [Formato das marcas de rastreamento de conversão de imagem](format-conversion-tag-image.md)
 >* [Perguntas frequentes sobre tags de rastreamento de conversão e exibição de página](faqs-conversion-page-view-tracking-tags.md)
->* [A tag de mapeamento de conversão do JavaScript do Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [A marca de mapeamento de conversão do Adobe Advertising JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

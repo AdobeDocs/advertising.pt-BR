@@ -1,16 +1,16 @@
 ---
-title: Formatos de rastreamento de cliques para [!DNL Naver]
-description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Naver] contas.
-exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+title: Formatos de rastreamento de cliques para  [!DNL Naver]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Naver] .
+exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Naver]
+# Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Naver]
 
 O formato de URL de destino básico a seguir se aplica a anúncios patrocinados:
 
@@ -22,13 +22,13 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
-* `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
+* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

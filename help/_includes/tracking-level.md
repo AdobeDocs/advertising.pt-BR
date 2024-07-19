@@ -7,13 +7,13 @@ ht-degree: 0%
 ---
 # Campo Nível de rastreamento nas configurações da conta e da campanha
 
-**[!UICONTROL Tracking Level]:** (Para [!UICONTROL EF Redirect] somente; disponível nos níveis de conta e campanha; não aplicável a redes de anúncios ativadas para rastreamento paralelo). O nível em que os cliques e a receita devem ser rastreados adicionando um redirecionamento (quando relevante) e anexando parâmetros aos URLs relevantes:
+**[!UICONTROL Tracking Level]:** (Somente para [!UICONTROL EF Redirect]; disponível nos níveis de conta e campanha; não aplicável a redes de anúncios habilitadas para rastreamento paralelo) O nível no qual os cliques e as receitas devem ser rastreados, adicionando um redirecionamento (quando relevante) e anexando parâmetros às URLs relevantes:
 
 * *[!UICONTROL Keyword]:* Para rastrear dados somente no nível da palavra-chave.
 
-* *[!UICONTROL Ad]:* Rastrear dados somente no nível do anúncio.
+* *[!UICONTROL Ad]:* Para rastrear dados somente no nível do anúncio.
 
-   **Nota:** Alterar uma campanha existente para essa configuração exclui todas as IDs de rastreamento de palavra-chave existentes. Além disso, se você quiser executar testes multivariados usando várias páginas de aterrissagem para um anúncio, crie um arquivo de bulksheet e edite-o para os componentes necessários.
+  **Observação:** alterar uma campanha existente para essa configuração exclui todas as IDs de rastreamento de palavra-chave existentes. Além disso, se você quiser executar testes multivariados usando várias páginas de aterrissagem para um anúncio, crie um arquivo de bulksheet e edite-o para os componentes necessários.
 
 * *[!UICONTROL Keyword and Ad]:* Para rastrear dados nos níveis de palavra-chave e anúncio.
 

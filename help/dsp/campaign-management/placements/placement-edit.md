@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e editar configurações de posicionamento usando planilhas](placement-qa.md).&quot;
+>Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e Editar Configurações de Posicionamento Usando Planilhas](placement-qa.md).&quot;
 
 ## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
 
@@ -27,15 +27,15 @@ ht-degree: 0%
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Placements]**.
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Editar qualquer um dos disponíveis [configurações de posicionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, e **[!UICONTROL Budget]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Edite qualquer uma das [configurações de posicionamento](placement-settings.md) disponíveis: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** e **[!UICONTROL Budget]**.
 1. Clique em **[!UICONTROL Apply]**.
 
 ## Editar um único posicionamento
 
 >[!TIP]
 >
-> Para editar apenas o nome da disposição, o status, o lance máximo e o orçamento, consulte &quot;[Editar rapidamente as configurações de posicionamento de chaves](#placement-quick-edit).&quot;
+> Para editar apenas o nome do posicionamento, o status, a oferta máxima e o orçamento, consulte &quot;[Editar configurações de posicionamento de chaves](#placement-quick-edit) rapidamente&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Edite o [configurações de posicionamento](placement-settings.md).
+1. Edite as [configurações de posicionamento](placement-settings.md).
 
 1. Clique em **[!UICONTROL Update placement]**.
 
@@ -77,7 +77,7 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 
       * **Diminuir** (para diminuir um valor existente por um valor especificado)
 
-      * **Aumentar** (para aumentar um valor existente por uma quantia especificada)
+      * **Aumentar** (para aumentar um valor existente em um valor especificado)
 
       * **Substituir** (para alterar o valor existente para um novo valor)
 
@@ -85,21 +85,21 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 
       * **Remover** (para remover valores especificados)
 
-   1. Edite o [configuração de posicionamento](placement-settings.md).
+   1. Edite a [configuração de posicionamento](placement-settings.md).
 
 1. Clique em **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Revisar e editar configurações de posicionamento usando planilhas](placement-qa.md)
->* [Criar uma disposição](placement-create.md)
->* [Duplicar um posicionamento](placement-duplicate.md)
->* [Gerenciar multiplicadores de oferta para disposições](placement-manage-bid-multipliers.md)
->* [Editar os cronogramas de anúncios para disposições](placement-edit-ad-schedule.md)
->* [Pausar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Revisar e Editar Configurações de Posicionamento Usando Planilhas](placement-qa.md)
+>* [Criar um posicionamento](placement-create.md)
+>* [Duplicar um Posicionamento](placement-duplicate.md)
+>* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
+>* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
+>* [Pausar ou Ativar um Posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vídeo: Como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

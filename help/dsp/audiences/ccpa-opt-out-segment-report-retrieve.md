@@ -16,7 +16,7 @@ Você pode recuperar relatórios mensais de IDs que os clientes enviaram para so
 
 >[!NOTE]
 >
->Opcionalmente, é possível recuperar relatórios de cancelamento de venda do consumidor usando o DSP [!DNL Trafficking API]. Para obter instruções, consulte a documentação do [!DNL Trafficking API]. Se sua organização não usar o [!DNL Trafficking API] mas tiver interesse em mais informações, entre em contato com a equipe de conta da Adobe.
+>Como opção, você pode recuperar relatórios de cancelamento de venda do consumidor usando o DSP [!DNL Trafficking API]. Para obter instruções, consulte a documentação do [!DNL Trafficking API]. Se a sua organização não usa o [!DNL Trafficking API], mas está interessada em obter mais informações, contate a equipe de conta do Adobe.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. Acima da lista de segmentos, clique em **[!UICONTROL Access CCPA Reports]**.
@@ -24,8 +24,7 @@ Você pode recuperar relatórios mensais de IDs que os clientes enviaram para so
 
 >[!MORELIKETHIS]
 >
->* [Suporte de publicidade Adobe para a California Consumer Privacy Act: suporte de recusa do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e relatórios](ccpa-opt-out-about.md)
->* [Criar e implementar uma [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
-
+>* [Suporte Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e Relatórios](ccpa-opt-out-about.md)
+>* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)

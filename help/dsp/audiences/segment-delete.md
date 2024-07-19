@@ -22,9 +22,8 @@ A exclusão de um segmento de recusa de venda personalizado ou do CCPA o remove 
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Editar informações do segmento](segment-edit.md)
->* [Exibir pixels de rastreamento para um segmento](segment-view-pixels.md)
->* [Compartilhar ou parar de compartilhar um segmento](segment-share.md)
-
+>* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)
+>* [Compartilhar ou Parar de Compartilhar um Segmento](segment-share.md)

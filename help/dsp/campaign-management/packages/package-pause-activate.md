@@ -2,7 +2,8 @@
 title: Pausar ou ativar um pacote
 description: Saiba como pausar ou ativar um pacote.
 feature: DSP Packages
-source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
+exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -18,8 +19,8 @@ Todos os posicionamentos pausados em um pacote antes de pausá-lo permanecem em 
 ## Pausar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
+1. Ao lado do nome do pacote, clique em **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -28,8 +29,8 @@ Todos os posicionamentos pausados em um pacote antes de pausá-lo permanecem em 
 ## Ativar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
+1. Ao lado do nome do pacote, clique em **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >

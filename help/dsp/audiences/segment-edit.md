@@ -5,7 +5,7 @@ feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Você pode editar o nome e a janela de lookback de um segmento personalizado ou 
 
 1. Edite as informações do segmento:
 
-   1. (Opcional) Editar o segmento **[!UICONTROL Name]**.
+   1. (Opcional) Edite o segmento **[!UICONTROL Name]**.
 
       Cada nome de segmento deve ser exclusivo para o tipo de segmento.
 
-   1. (Somente segmentos personalizados; opcional) Edite a **[!UICONTROL Segment Window]**, que é o número de dias que um cookie do usuário permanece no segmento.
+   1. (Somente segmentos personalizados; opcional) Edite o **[!UICONTROL Segment Window]**, que é o número de dias que um cookie de usuário permanece no segmento.
 
       Insira um valor de um (1) a 365.
 
@@ -32,9 +32,8 @@ Você pode editar o nome e a janela de lookback de um segmento personalizado ou 
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Excluir um segmento](segment-delete.md)
->* [Exibir pixels de rastreamento para um segmento](segment-view-pixels.md)
->* [Compartilhar ou parar de compartilhar um segmento](segment-share.md)
-
+>* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)
+>* [Compartilhar ou Parar de Compartilhar um Segmento](segment-share.md)

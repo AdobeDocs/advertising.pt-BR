@@ -1,11 +1,11 @@
 ---
 title: Configurar o rastreamento de cliques com base em cookies
 description: Saiba como configurar e validar tags de rastreamento de cliques.
-exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,41 @@ Para que o Search, Social e Commerce rastreie cliques, os seguintes elementos de
 
 1. [Especifique as opções de rastreamento corretas para cada uma das contas e campanhas da rede de anúncios do anunciante](#set-up-click-tracking-options).
 
-1. Se necessário, [gerar URLs de rastreamento e carregá-los](#generate-upload-tracking-urls) para alguns elementos da campanha.
+1. Se necessário, [gere URLs de rastreamento e carregue-as](#generate-upload-tracking-urls) para alguns elementos da campanha.
 
-1. [Valide o formato de alguns dos URLs de rastreamento de cliques e teste-os para validar se a página de aterrissagem correta é aberta](#validate-tracking-urls).
+1. [Valide o formato de algumas das URLs de rastreamento de cliques e teste-as para validar se a página de aterrissagem correta abre](#validate-tracking-urls).
 
 ## Configurar opções de rastreamento para campanhas e contas de rede de anúncios {#set-up-click-tracking-options}
 
-*Gerente de conta da agência, [!DNL Adobe] funções de gerente de conta e administrador de usuário somente*
+*Somente funções de gerente de conta da agência, gerente de conta [!DNL Adobe] e usuário administrador*
 
 1. Para cada conta de rede de publicidade, faça o seguinte:
 
    1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
-   1. Mantenha o cursor sobre o nome da conta e clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu")e selecione **[!UICONTROL Edit]**.
+   1. Mantenha o cursor sobre o nome da conta, clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu") e selecione **[!UICONTROL Edit]**.
 
    1. Clique em **[!UICONTROL Set Account Tracking]**.
 
-   1. Para o [!UICONTROL Tracking Type] , selecione **[!UICONTROL EF Redirect]**.
+   1. Para a configuração [!UICONTROL Tracking Type], selecione **[!UICONTROL EF Redirect]**.
 
-   1. (Para permitir que o Search, Social e Commerce troquem dados com o Adobe Analytics ou rastreiem conversões que ocorrem no [!DNL Apple Safari]) Selecione o [!UICONTROL Redirect Type] opção **[!UICONTROL Token]**.
+   1. (Para permitir que o Search, Social e Commerce troquem dados com o Adobe Analytics ou rastreiem conversões que ocorrem no [!DNL Apple Safari]) Selecione a opção [!UICONTROL Redirect Type] **[!UICONTROL Token]**.
 
-   1. (Opcional) Ative o botão **[!UICONTROL Auto Upload]** opção para carregar automaticamente novos URLs de rastreamento na rede de publicidade na próxima vez que o Search, Social e Commerce sincronizar com ele. Esse valor é herdado como o padrão para todas as campanhas na conta, mas pode ser substituído no nível da campanha.
+   1. (Opcional) Ative a opção **[!UICONTROL Auto Upload]** para carregar automaticamente novas URLs de rastreamento na rede de publicidade na próxima vez que o Search, Social e Commerce forem sincronizados com ela. Esse valor é herdado como o padrão para todas as campanhas na conta, mas pode ser substituído no nível da campanha.
 
 1. Para cada campanha, faça o seguinte:
 
    1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
-   1. Mantenha o cursor sobre o nome da campanha, clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu")e selecione **[!UICONTROL Edit]**.
+   1. Mantenha o cursor sobre o nome da campanha, clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu") e selecione **[!UICONTROL Edit]**.
 
    1. Clique em **[!UICONTROL Set Campaign Tracking]**. Em seguida, selecione a opção para **[!UICONTROL Override Account Tracking]**.
 
-   1. Para o [!UICONTROL Tracking Type] , selecione **[!UICONTROL EF Redirect]**.
+   1. Para a configuração [!UICONTROL Tracking Type], selecione **[!UICONTROL EF Redirect]**.
 
-   1. (Para permitir que o Search, Social e Commerce troquem dados com o Adobe Analytics ou rastreiem conversões que ocorrem no [!DNL Apple Safari]) Selecione o [!UICONTROL Redirect Type] opção **[!UICONTROL Token]**.
+   1. (Para permitir que o Search, Social e Commerce troquem dados com o Adobe Analytics ou rastreiem conversões que ocorrem no [!DNL Apple Safari]) Selecione a opção [!UICONTROL Redirect Type] **[!UICONTROL Token]**.
 
-   1. (Opcional) Ative o botão **[!UICONTROL Auto Upload]** opção para carregar automaticamente novos URLs de rastreamento na rede de publicidade na próxima vez que o Search, Social e Commerce sincronizar com ele. Esse valor é herdado como o padrão para todas as campanhas na conta, mas pode ser substituído no nível da campanha.
+   1. (Opcional) Ative a opção **[!UICONTROL Auto Upload]** para carregar automaticamente novas URLs de rastreamento na rede de publicidade na próxima vez que o Search, Social e Commerce forem sincronizados com ela. Esse valor é herdado como o padrão para todas as campanhas na conta, mas pode ser substituído no nível da campanha.
 
 ## Gerar e carregar URLs de rastreamento {#generate-upload-tracking-urls}
 
@@ -64,7 +64,7 @@ Valide se a landing page correta é aberta para o URL de rastreamento de cliques
 
 1. Imite um clique de anúncio enviando tráfego para o ambiente de preparo do anunciante:
 
-   1. Em um editor de texto, cole um URL de rastreamento de cliques, altere o URL da página de destino para apontar para a mesma página no ambiente de preparo do anunciante e, em seguida, cole o novo URL na barra de endereços do navegador e pressione a tecla **[!DNL Enter]** chave.
+   1. Em um editor de texto, cole uma URL de rastreamento de cliques, altere a URL da página de aterrissagem para apontar para a mesma página no ambiente de preparo do anunciante e, em seguida, cole a nova URL na barra de endereços do navegador e pressione a tecla **[!DNL Enter]**.
 
    1. Procure o cookie nos cookies armazenados do seu navegador.
 
@@ -83,7 +83,7 @@ Valide se a landing page correta é aberta para o URL de rastreamento de cliques
 
 1. Repita a Etapa 1 para cada domínio, usando uma landing page diferente.
 
-1. Se necessário, confirme se o Search, o Social e o Commerce podem ver os pixels das IDs de transações (`ev_transid`) gerado durante o teste.
+1. Se necessário, confirme se o Search, Social e Commerce podem ver os pixels das IDs de transações (`ev_transid`) geradas durante o teste.
 
 >[!MORELIKETHIS]
 >

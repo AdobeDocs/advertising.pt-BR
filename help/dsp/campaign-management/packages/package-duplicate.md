@@ -23,9 +23,9 @@ Consulte &quot;[O que não está duplicado](#package-not-duplicated)&quot; para 
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
+1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
 
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Ao lado do nome do pacote, clique em **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Especifique as novas configurações de pacote:
 
@@ -57,13 +57,12 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Destinos geográficos
    * Pixels de evento
    * Anúncios
-   * Nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] segmentos (que substituem os segmentos de nível do anunciante)
+   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de pacotes](package-about.md)
+>* [Sobre o Gerenciamento de Pacotes](package-about.md)
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Configurações do pacote](package-settings.md)
-

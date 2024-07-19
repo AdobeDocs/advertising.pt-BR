@@ -26,58 +26,58 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->As taxas faturáveis são refletidas na [!UICONTROL Net CPM] métrica.
+>Taxas faturáveis são refletidas na métrica [!UICONTROL Net CPM].
 
-É possível substituir a configuração no nível do pacote na [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+Você pode substituir a configuração no nível do pacote no [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
-**[!UICONTROL Pacing & Capping]:** (Somente leitura para pacotes existentes) Em que nível colocar e limitar as disposições no pacote:
+**[!UICONTROL Pacing & Capping]:** (Somente leitura para pacotes existentes) Em que nível colocar e limitar posicionamentos no pacote:
 
 * **[!UICONTROL Package level pacing]:** Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos como um *grupo*. Essa estratégia garante que todos os posicionamentos em um determinado pacote sejam otimizados de forma holística, distribuindo gastos com base no desempenho e dimensionando para indicadores principais de desempenho (KPIs) selecionados.
 
-* **[!UICONTROL Placement level pacing]:**  Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos *individualmente*. A prática recomendada é usar essa estratégia apenas para executar negócios garantidos de mercados privados.
+* **[!UICONTROL Placement level pacing]:** Essa estratégia de ritmo opera acompanhando e limitando todos os posicionamentos incluídos *individualmente*. A prática recomendada é usar essa estratégia apenas para executar negócios garantidos de mercados privados.
 
-**[!UICONTROL Flight Dates]:** A data inicial e a data final gerais do pacote. As datas de voo devem ser incluídas nas datas de voo da campanha.
+**[!UICONTROL Flight Dates]:** A data de início e a data de término gerais do pacote. As datas de voo devem ser incluídas nas datas de voo da campanha.
 
 >[!NOTE]
 >
 >* As datas de voo de todas as colocações atribuídas a este pacote devem ser incluídas nessas datas.
 > * Não é possível editar a data de início do pacote quando a iluminação personalizada está ativada.
 
-**[!UICONTROL Activate Custom Flighting]:** Permite criar voos espaciais irregulares para o pacote no [!UICONTROL Flighting] abaixo. Depois de habilitar a pesquisa personalizada e salvar o pacote, não é possível desabilitar a pesquisa personalizada nem editar a data de início do pacote.
+**[!UICONTROL Activate Custom Flighting]:** Permite criar voos não uniformes para o pacote na seção [!UICONTROL Flighting] abaixo. Depois de habilitar a pesquisa personalizada e salvar o pacote, não é possível desabilitar a pesquisa personalizada nem editar a data de início do pacote.
 
 **[!UICONTROL Budget]:** (Pacotes com ritmo no nível do pacote somente) O limite de orçamento bruto e o intervalo de orçamento.
 
-Para pacotes com configuração personalizada, o intervalo do orçamento é sempre *[!UICONTROL All time]*. Para pacotes sem configuração personalizada, especifique o intervalo do orçamento: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+Para pacotes com fluxo personalizado, o intervalo de orçamento é sempre *[!UICONTROL All time]*. Para pacotes sem sinalização personalizada, especifique o intervalo de orçamento: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Gross Budget]:** (Pacotes com ritmo no nível do pacote e gerenciamento dinâmico de margem somente) O limite de orçamento bruto para a duração do pacote.
+**[!UICONTROL Gross Budget]:** (Pacotes com ritmo no nível de pacote e gerenciamento dinâmico de margem apenas) O limite de orçamento bruto para a duração do pacote.
 
-**[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível do pacote somente) A meta de otimização do pacote. Consulte descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível de pacote somente) A meta de otimização do pacote. Consulte as descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com o &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; metas de otimização apenas) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada pode incluir, opcionalmente, eventos ponderados adicionais de funil superior (como visitas a páginas e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas para criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada pode incluir, opcionalmente, eventos ponderados adicionais de funil superior (como visitas a páginas e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
-**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; (somente metas de otimização) Instrui o modelo de otimização a aprender somente com conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
+**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) Diz ao modelo de otimização para aprender somente a partir de conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
 
-**[!UICONTROL Conversion Metric]:** (Opcional; pacotes com &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente metas de otimização) O evento de conversão final (como inscrições) ou o valor de evento/venda de receita (como compras e valores de compra) a ser usado para calcular o retorno do investimento em anúncios ou o custo por aquisição. Selecione em uma lista de todos os eventos principais (&quot;métricas de meta&quot;) mapeados para a meta personalizada selecionada. Se a lista estiver vazia, edite a meta personalizada para incluir pelo menos um dos eventos subjacentes como uma métrica de meta.
+**[!UICONTROL Conversion Metric]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) O evento de conversão final (como inscrições) ou o valor de evento de receita/venda (como compras e valores de compra) a serem usados para calcular o retorno sobre o gasto com anúncios ou o custo por aquisição. Selecione em uma lista de todos os eventos principais (&quot;métricas de meta&quot;) mapeados para a meta personalizada selecionada. Se a lista estiver vazia, edite a meta personalizada para incluir pelo menos um dos eventos subjacentes como uma métrica de meta.
 
-**[!UICONTROL Package Goal Type]:** (Pacotes somente com metas de otimização personalizadas) A finalidade do pacote. Esta configuração ajuda a determinar como otimizar o pacote:
+**[!UICONTROL Package Goal Type]:** (pacotes com metas de otimização personalizadas apenas) A finalidade do pacote. Esta configuração ajuda a determinar como otimizar o pacote:
 
-* *[!UICONTROL Prospecting]:* Os pacotes de prospecção se concentram na aquisição de novos clientes.
+* *[!UICONTROL Prospecting]:* A prospecção de pacotes tem como foco a aquisição de novos clientes.
 
-* *[!UICONTROL Retargeting]:* Os pacotes de redirecionamento se concentram na reexposição de visitantes ou clientes anteriores.
+* *[!UICONTROL Retargeting]:* Os pacotes de redirecionamento se concentram em expor novamente visitantes ou clientes anteriores.
 
-* *[!UICONTROL Other]:* Todos os outros fins.
+* *[!UICONTROL Other]:* Todas as outras finalidades.
 
-**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Pacotes somente com metas de otimização personalizadas) Outro pacote cujos dados históricos são usados como entrada para otimização do pacote.
+**[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Pacotes com metas de otimização personalizadas apenas) Outro pacote cujos dados históricos são usados como entrada para a otimização do pacote.
 
-**[!UICONTROL Target]:** (Pacotes com ritmo no nível do pacote somente) A meta do, que é usada para rastrear o desempenho.
+**[!UICONTROL Target]:** (Pacotes com ritmo no nível de pacote somente) A meta de destino, que é usada para acompanhar o desempenho.
 
 >[!NOTE]
 >
 >Este campo é apenas um referencial e não é usado para decisões.
 
-**[!UICONTROL Frequency Cap]:** (Pacotes com ritmo no nível do pacote somente) O número de vezes que um dispositivo exclusivo, ID universal ou pessoa (dependendo do estado especificado) [!UICONTROL Cross Device Level] para a campanha e o posicionamento [!UICONTROL Targeting] ) podem ser veiculadas com anúncios do pacote. As opções incluem *[!UICONTROL Unlimited]* ou uma quantidade específica por dia, semana ou mês.
+**[!UICONTROL Frequency Cap]:** (Pacotes com ritmo no nível do pacote somente) O número de vezes que um dispositivo exclusivo, ID universal ou pessoa (dependendo do [!UICONTROL Cross Device Level] especificado para a campanha e da configuração [!UICONTROL Targeting] do posicionamento) pode receber anúncios do pacote. As opções incluem *[!UICONTROL Unlimited]* ou um valor específico por dia, semana ou mês.
 
 >[!NOTE]
 >
@@ -85,27 +85,27 @@ Para pacotes com configuração personalizada, o intervalo do orçamento é semp
 >* A prática recomendada é definir limites de frequência para prospecção e redirecionamento no nível do pacote.
 > * Limites de frequência mais altos resultam em gastos e impressões mais altos, mas com menor alcance. Limites de frequência mais baixos resultam em gastos e impressões mais baixos, mas em maior alcance.
 
-**[!UICONTROL Pace on]:** (Pacotes com ritmo no nível do pacote somente) Em que ritmo se baseia:
+**[!UICONTROL Pace on]:** (Pacotes somente com ritmo de nível de pacote) Em que o ritmo se baseia:
 
 * *[!UICONTROL Budget]:* (Padrão) Essa opção fornece o máximo de impressões possível dentro do orçamento do pacote alocado.
 
-* *[!UICONTROL Impressions]:* Essa opção fornece impressões até que uma quantidade especificada seja atingida em um intervalo especificado. Ao selecionar essa opção, especifique o número de impressões e o intervalo: *O tempo todo,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
+* *[!UICONTROL Impressions]:* Essa opção fornece impressões até que uma quantidade especificada seja atingida dentro de um intervalo especificado. Ao selecionar essa opção, especifique o número de impressões e o intervalo: *Todos os tempos,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* ou *[!UICONTROL Weekly]*.
 
 **[!UICONTROL Flight pacing]:** (Pacotes com ritmo no nível do pacote somente) Como acompanhar e entregar durante todo o voo:
 
-* *[!UICONTROL Even]:* Acompanha o delivery de forma uniforme em cada voo, com uma meta de 50% do delivery na primeira metade do voo.
+* *[!UICONTROL Even]:* Acompanha a entrega uniformemente em cada voo, com uma meta de 50% da entrega na primeira metade do voo.
 
-* *[!UICONTROL Slightly Ahead]:* (O padrão) Acelera a entrega para que esteja 55 a 65% concluído na metade da duração do voo.
+* *[!UICONTROL Slightly Ahead]:* (o padrão) Acelera a entrega para que esteja 55 a 65% concluído na metade da duração do voo.
 
-* *[!UICONTROL Frontload]:* Acelera a entrega para que esteja 65 a 75% concluído na metade do voo.
+* *[!UICONTROL Frontload]:* acelera a entrega, de modo que esteja 65 a 75% concluído na metade do processo.
 
-* *[!UICONTROL Aggressive Frontload]:* Acelera a entrega para que esteja 75 a 85% concluído na metade do voo.
+* *[!UICONTROL Aggressive Frontload]:* acelera a entrega, de modo que esteja 75 a 85% concluído na metade do processo.
 
 **[!UICONTROL Intraday pacing]:** (Pacotes com ritmo no nível do pacote somente) Como acompanhar e entregar em cada dia dentro do voo:
 
-* *[!UICONTROL Even]:* (O padrão) Dimensiona a entrega com base na disponibilidade do inventário. Geralmente, mais anúncios são entregues por hora durante o dia, quando o volume do leilão é maior, e menos anúncios são entregues de manhã e à noite.
+* *[!UICONTROL Even]:* (padrão) Dimensiona a entrega com base na disponibilidade de estoque. Geralmente, mais anúncios são entregues por hora durante o dia, quando o volume do leilão é maior, e menos anúncios são entregues de manhã e à noite.
 
-* *[!UICONTROL ASAP]:* Acelera a entrega para o dobro da velocidade de *Par*.
+* *[!UICONTROL ASAP]:* acelera a entrega para o dobro da velocidade de *Even*.
 
   >[!CAUTION]
   >
@@ -113,17 +113,17 @@ Para pacotes com configuração personalizada, o intervalo do orçamento é semp
 
 ## [!UICONTROL Flighting]
 
-(Pacotes com ritmo no nível do pacote) Os períodos de voo do pacote, incluindo quaisquer períodos de voo personalizados dentro do intervalo [!UICONTROL Flight Dates] para o pacote. Você pode configurar voos personalizados somente quando a variável [!UICONTROL Activate Custom Flighting] está ativada na variável [!UICONTROL Goals & Budget] seção.
+(Pacotes com ritmo no nível do pacote) Os períodos de execução do pacote, incluindo quaisquer períodos de execução personalizados dentro do [!UICONTROL Flight Dates] geral do pacote. Você pode configurar voos personalizados somente quando a opção [!UICONTROL Activate Custom Flighting] está habilitada na seção [!UICONTROL Goals & Budget].
 
-**[!DNL Flight N]:** (Disponível somente quando a variável [!UICONTROL Activate Custom Flighting] estiver ativada) Para cada voo, especifique a data inicial, a data final e a meta de gastos. Para adicionar outro voo, clique em **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (Disponível somente quando a opção [!UICONTROL Activate Custom Flighting] estiver habilitada) Para cada voo, especifique a data de início, a data de término e a meta de gastos. Para adicionar outro voo, clique em **[!UICONTROL Add Flight]**.
 
-Para pacotes existentes, você pode opcionalmente informar um valor no campo [!UICONTROL Rollover] para qualquer voo para adicionar um orçamento potencial não gasto ao próximo voo. O valor projetado no [!UICONTROL Adjusted Goal (Goal + Rollover)] é alterada de acordo.<!-- clarify usage -->
+Para pacotes existentes, você pode opcionalmente inserir um valor na coluna [!UICONTROL Rollover] para qualquer voo para adicionar um orçamento não gasto potencial ao próximo voo. O valor projetado na coluna [!UICONTROL Adjusted Goal (Goal + Rollover)] foi alterado de acordo.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de pacotes](package-about.md)
+>* [Sobre o Gerenciamento de Pacotes](package-about.md)
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

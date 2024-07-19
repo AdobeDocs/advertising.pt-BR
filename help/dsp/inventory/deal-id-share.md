@@ -18,7 +18,7 @@ Você pode interromper o compartilhamento de um acordo com contas para remover o
 
 >[!NOTE]
 >
-> Também é possível [editar os anunciantes individuais com acesso à conta](deal-id-edit-advertisers.md).
+> Você também pode [editar os anunciantes individuais com acesso à conta](deal-id-edit-advertisers.md).
 
 ## Compartilhar uma ID de acordo com as contas
 
@@ -28,7 +28,7 @@ Você pode interromper o compartilhamento de um acordo com contas para remover o
 
 1. Para cada conta a ser compartilhada:
 
-   1. Insira o **[!UICONTROL Email Address]** para a conta com acesso à negociação.
+   1. Digite o **[!UICONTROL Email Address]** para a conta com acesso à oferta.
 
    1. Clique em **[!UICONTROL Share]**.
 
@@ -38,13 +38,12 @@ Você pode interromper o compartilhamento de um acordo com contas para remover o
 
 1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
-1. Ao lado do [!UICONTROL Account Email] clique em **[!UICONTROL Unshare].**
+1. Ao lado do valor [!UICONTROL Account Email], clique em **[!UICONTROL Unshare].**
 
 1. Clique em **[!UICONTROL Cancel]** para fechar a janela.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre Inventário Privado](private-inventory-about.md)
->* [Editar os anunciantes com acesso a uma ID de oferta](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [Configurações da ID de oferta manual](deal-id-settings.md)
-
+>* [Editar os anunciantes com acesso a uma ID de contrato](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Configurações manuais de ID do contrato](deal-id-settings.md)

@@ -5,7 +5,7 @@ feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -19,18 +19,17 @@ ht-degree: 0%
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha em que deseja criar o pacote.
 1. Na guia Pacotes, clique em **[!UICONTROL Create]** > **[!UICONTROL Package]**.
-1. Insira o [configurações de pacote](package-settings.md).
+1. Insira as [configurações do pacote](package-settings.md).
 1. Clique em **[!UICONTROL Save and Close]**.
 
 Depois de criar um pacote, você pode atribuir disposições a ele.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de pacotes](package-about.md)
+>* [Sobre o Gerenciamento de Pacotes](package-about.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
->* [Pausar ou ativar um pacote](package-pause-activate.md)
+>* [Pausar ou Ativar um Pacote](package-pause-activate.md)
 >* [Configurações do pacote](package-settings.md)
->* [Vídeo: Como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
-
+>* [Vídeo: como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

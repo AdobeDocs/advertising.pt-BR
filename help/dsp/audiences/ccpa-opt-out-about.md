@@ -1,5 +1,5 @@
 ---
-title: Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e relatórios
+title: Cerca de [!UICONTROL CCPA Opt-out-of-Sale] segmentos e relatórios
 description: Saiba mais sobre como criar segmentos para rastrear IDs de solicitações de cancelamento de venda do CCPA e como recuperar relatórios das IDs.
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e relatórios
+# Cerca de [!UICONTROL CCPA Opt-out-of-Sale] segmentos e relatórios
 
-Você pode rastrear as IDs de usuários a partir de solicitações de cancelamento de venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA), ao [criação e implementação de um segmento de cancelamento de venda do CCPA](ccpa-opt-out-segment-create.md). Os usuários permanecem em segmentos de cancelamento de venda do CCPA indefinidamente.
+Você pode rastrear as IDs de usuários a partir de solicitações de cancelamento de venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA), [criando e implementando um segmento de cancelamento de venda do CCPA](ccpa-opt-out-segment-create.md). Os usuários permanecem em segmentos de cancelamento de venda do CCPA indefinidamente.
 
 Depois que a tag de pixel de segmento é implementada, o Adobe Advertising começa a coletar um pool de IDs em nome do anunciante.
 
@@ -22,11 +22,11 @@ O Adobe Advertising gera relatórios mensais de IDs que os clientes enviaram par
 
 Cada relatório está disponível como um arquivo de texto separado por tabulação e compactado no formato GZIP. As IDs de usuário capturadas nos segmentos de cancelamento de venda do CCPA são identificadas por segmento e pelo anunciante.
 
-Você pode [recuperar links para os relatórios mensais](ccpa-opt-out-segment-report-retrieve.md) criados nos últimos três meses, quer a partir do DSP, quer utilizando o DSP [!DNL Trafficking API]. Cada link é válido por sete dias, mas é atualizado sempre que um cliente tenta recuperar um.
+Você pode [recuperar links para os relatórios mensais](ccpa-opt-out-segment-report-retrieve.md) criados nos últimos três meses, seja por meio do DSP ou usando o DSP [!DNL Trafficking API]. Cada link é válido por sete dias, mas é atualizado sempre que um cliente tenta recuperar um.
 
 >[!MORELIKETHIS]
 >
->* [Suporte Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento da participação do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Criar e implementar uma [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Recuperar relatórios de cancelamento de venda do consumidor](ccpa-opt-out-segment-report-retrieve.md)
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Suporte Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
+>* [Recuperar Relatórios de Cancelamento de Venda do Consumidor](ccpa-opt-out-segment-report-retrieve.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)

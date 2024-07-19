@@ -22,7 +22,7 @@ Um contrato programático garantido (PG) é uma compra garantida diretamente com
 * Normalmente, o negócio tem uma prioridade mais alta no servidor de anúncios do editor.
 * As solicitações de lance não são exclusivas de uma única transação ou comprador.
 * Vários tipos de vídeo são suportados em uma única ID de negócios.
-* Anúncios gerenciados pelo editor são aceitos via [!DNL Google Authorized Buyers] SSP
+* Anúncios gerenciados pelo editor são aceitos via SSP [!DNL Google Authorized Buyers].
 * Os SSPs e editores têm SLAs de entrega.
 
 Os contratos PG exigem um posicionamento e anúncios padrão PG (ou um pixel 1x1 para anúncios gerenciados pelo editor) para que o DSP possa retornar uma solicitação para cada solicitação de oferta e cumprir os SLAs de entrega com os SSPs. Depois de configurar a disposição padrão de PG obrigatória, você também pode direcionar o contrato de PG em outros posicionamentos.
@@ -32,14 +32,14 @@ Os contratos PG exigem um posicionamento e anúncios padrão PG (ou um pixel 1x1
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (antigo [!DNL Telaria])
-* [!DNL Magnite DV+] (antigo [!DNL Rubicon])
+* [!DNL Magnite CTV] (anteriormente [!DNL Telaria])
+* [!DNL Magnite DV+] (anteriormente [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [Dicas para negociar um acordo programático garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Configurar um acordo programático garantido](programmatic-guaranteed-set-up.md)
+>* [Dicas para Negociar um Acordo Programático Garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)
 >* [Parceiros SSP](ssp-partners.md)
->* [Visão Geral dos Recursos do Inventário](inventory-overview.md)
+>* [Visão Geral dos Recursos de Inventário](inventory-overview.md)

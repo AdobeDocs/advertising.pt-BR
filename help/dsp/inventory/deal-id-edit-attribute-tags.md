@@ -15,15 +15,15 @@ Você pode criar e atribuir tags às IDs de negócios para agrupar negócios sem
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Na linha de negócios, clique em ![Menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
+1. Na linha de negócios, clique em ![Menu de opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 
-1. No [!UICONTROL Ad & Deal Tagging] faça o seguinte:
+1. Nas configurações de [!UICONTROL Ad & Deal Tagging], siga um destes procedimentos:
 
-   * Para atribuir uma tag existente ao negócio, marque a caixa de seleção ao lado do negócio na [!UICONTROL Custom Tags] lista.
+   * Para atribuir uma tag existente ao negócio, marque a caixa de seleção ao lado do negócio na lista [!UICONTROL Custom Tags].
 
-   * Para criar uma tag e associá-la ao contrato, digite o nome da tag no campo **[!UICONTROL Create new tag(s)]** e clique em **[!UICONTROL Create and Associate Tag]**.
+   * Para criar uma marca e associá-la ao negócio, digite o nome da marca no campo **[!UICONTROL Create new tag(s)]** e clique em **[!UICONTROL Create and Associate Tag]**.
 
-   * Para remover uma tag existente do contrato, desmarque a caixa de seleção ao lado do contrato na [!UICONTROL Custom Tags] lista.
+   * Para remover uma tag existente do contrato, desmarque a caixa de seleção ao lado do contrato na lista [!UICONTROL Custom Tags].
 
 1. Clique em **[!UICONTROL Update]**.
 
@@ -31,4 +31,3 @@ Você pode criar e atribuir tags às IDs de negócios para agrupar negócios sem
 >
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Editar configurações de oferta privada](/help/dsp/inventory/deal-id-edit.md)
-

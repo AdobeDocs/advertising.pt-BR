@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Crie um único anúncio
 
-Você pode criar um anúncio de exibição nativo individual ou um anúncio de terceiros em vários [tipos de publicidade](ad-about.md#ad-types).
+Você pode criar um anúncio de exibição nativo individual ou um anúncio de terceiros em vários [tipos de anúncios](ad-about.md#ad-types).
 
-Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vários anúncios de terceiros](ad-create-multiple.md).
+Para criar vários anúncios de terceiros de cada vez, consulte [Criar vários anúncios de terceiros](ad-create-multiple.md).
 
 >[!NOTE]
 >
@@ -24,25 +24,25 @@ Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vário
 
 1. Clique no nome da campanha na qual deseja incluir o anúncio.
 
-1. Acima da tabela de dados, clique em **[!UICONTROL Create]**. No [!UICONTROL Ad Types] do menu, clique na guia [tipo de anúncio](ad-about.md#ad-types).
+1. Acima da tabela de dados, clique em **[!UICONTROL Create]**. Na seção [!UICONTROL Ad Types] do menu, clique no [tipo de anúncio](ad-about.md#ad-types).
 
-1. Especifique as configurações de publicidade para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [exibir anúncios](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios antes da exibição](ad-settings-pre-roll.md)ou [anúncios de vídeo universais](ad-settings-universal-video.md):
+1. Especifique as configurações de anúncio para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [anúncios de exibição](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios precedentes](ad-settings-pre-roll.md) ou [anúncios de vídeo universais](ad-settings-universal-video.md):
 
    >[!NOTE]
    >
    >Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-   1. No [!UICONTROL Insert Ad Tag] insira informações sobre o anúncio de um parceiro certificado de fornecimento de anúncios de terceiros e clique em **[!UICONTROL Go]**.
+   1. Na tela [!UICONTROL Insert Ad Tag], insira informações sobre o anúncio de um parceiro certificado de fornecimento de anúncios de terceiros e clique em **[!UICONTROL Go]**.
 
-   1. No [!UICONTROL Options] tela:
+   1. Na tela [!UICONTROL Options]:
 
-      1. No [!UICONTROL Basics] especifique os detalhes do anúncio.
+      1. Na guia [!UICONTROL Basics], especifique os detalhes do anúncio.
 
-      1. (Opcional) No [!UICONTROL Pixel] especifique os pixels de rastreamento de terceiros que deseja anexar ao anúncio.
+      1. (Opcional) Na guia [!UICONTROL Pixel], especifique os pixels de rastreamento de terceiros que deseja anexar ao anúncio.
 
 1. Quando o anúncio estiver concluído, clique em **[!UICONTROL Save & Submit for Review]**.
 
-   A variável [revisão de publicidade](ad-about.md) O leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A coluna Status indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   A [revisão de anúncio](ad-about.md) leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A coluna Status indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
 
    >[!NOTE]
    >
@@ -50,8 +50,8 @@ Para criar vários anúncios de terceiros de uma só vez, consulte [Criar vário
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Editar um anúncio](ad-edit.md)
->* [Especificações de publicidade](ad-specs.md)
->* [Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Especificações do anúncio](ad-specs.md)
+>* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)

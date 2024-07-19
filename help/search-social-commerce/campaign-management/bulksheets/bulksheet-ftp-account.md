@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Opcionalmente, é possível fazer upload de arquivos de bulksheet para redes de anúncios compatíveis em uma conta FTP especificada para recuperação e publicação automática. O diretório é examinado a cada hora e novos arquivos são publicados na ordem em que são recebidos.
 
-Os arquivos de bulksheet recuperados e quaisquer arquivos de erro criados durante o lançamento são listados no [!DNL Bulksheets] exibição.
+Os arquivos de bulksheet recuperados e quaisquer arquivos de erro criados durante o lançamento são listados na exibição [!DNL Bulksheets].
 
 >[!NOTE]
 >
@@ -29,4 +29,4 @@ Os arquivos de bulksheet recuperados e quaisquer arquivos de erro criados durant
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
->* [Fazer upload de uma bulksheet ou arquivo de erro corrigido](bulksheet-upload.md)
+>* [Carregar uma bulksheet ou arquivo de erro corrigido](bulksheet-upload.md)

@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Microsoft Advertising] pesquisa responsiva e configurações'
-description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios de pesquisa responsivos.
+title: Configurações de anúncio de pesquisa responsiva '[!DNL Microsoft Advertising]'
+description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios de pesquisa responsivos.
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva
+# Configurações de anúncios de pesquisa responsiva [!DNL Microsoft Advertising]
 
 O formato de anúncio de pesquisa responsiva está disponível para anúncios na rede de pesquisa. A rede de publicidade monta dinamicamente anúncios de pesquisa responsivos usando as combinações mais eficazes de elementos de publicidade.
 
@@ -53,5 +53,5 @@ O formato de anúncio de pesquisa responsiva está disponível para anúncios na
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios responsivos (público-alvo)](ad-settings-microsoft-responsive.md)

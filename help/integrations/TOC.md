@@ -18,34 +18,34 @@ ht-degree: 11%
 
 + [Novidades](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [Visão geral do [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-   + [IDs de Adobe Advertising usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
-   + Planejamento da implementação {#planning}
-      + [Pré-requisitos e informações-chave para implementação do [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [(DSP) Código JavaScript para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
-      + [Usar o [!DNL Last Event Service] Biblioteca JavaScript com Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + (DSP) Macros para tags de anúncios {#macros}
-         + [Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](/help/integrations/analytics/macros-flashtalking.md)
-         + [Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md)
-   + Dados trocados {#data}
+   + [Visão geral de  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+   + [IDs de Adobe Advertising usadas por  [!DNL Analytics]](/help/integrations/analytics/ids.md)
+   + Planejando sua implementação {#planning}
+      + [Pré-requisitos e Informações-Chave para Implementação [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
+      + [(DSP) Código JavaScript para  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+      + [Usando a  [!DNL Last Event Service] Biblioteca da JavaScript com o Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
+      + (DSP) Macros para Marcas de Anúncio {#macros}
+         + [Acrescentar  [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md)
+         + [Acrescentar  [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio](/help/integrations/analytics/macros-google-campaign-manager.md)
+   + Dados Trocados {#data}
       + [Métricas de Adobe Advertising no Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [[!DNL Analytics] Dados no Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
-      + [Variações de dados esperadas entre [!DNL Analytics] e ADOBE ADVERTISING](/help/integrations/analytics/data-variances.md)
+      + [Variações de dados esperadas entre  [!DNL Analytics]  e Adobe Advertising](/help/integrations/analytics/data-variances.md)
    + Trabalhando em [!DNL Analytics Marketing Channels] {#mc}
-      + [Fundamentos da [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
-      + [Utilização de IDs de Adobe Advertising para criar [!DNL Marketing Channels] Regras de processamento](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [Usar [!DNL Marketing Channels] com dados de Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
-      + [Por que os dados de canal podem variar entre Adobe Advertising e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [Criar métricas de conversão do Adobe Analytics [!DNL eVars] e [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
+      + [Fundamentos de  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [Usando IDs de Adobe Advertising para Criar  [!DNL Marketing Channels] Regras de Processamento](/help/integrations/analytics/marketing-channels/mc-ids.md)
+      + [Usando  [!DNL Marketing Channels] com Dados do Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [Por que os dados de canal podem variar entre Adobe Advertising e  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+   + [Criar Métricas de Conversão do Adobe Analytics [!DNL eVars] and [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Integração com o Adobe Audience Manager {#audience-manager}
    + [Integrações de Adobe Advertising com o Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importar segmentos de Audience Manager para Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
-   + Integração de dados de mídia do DSP com o Adobe Audience Manager {#media-data-ingestion}
+   + Integração de dados de mídia DSP com o Adobe Audience Manager {#media-data-ingestion}
       + [Visão geral do envio de dados de exposição da mídia DSP para o Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
       + [Coletar dados de impressão e cliques de campanhas do DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [Casos de uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
-   + [Audience Analytics Adobe para clientes de publicidade](/help/integrations/audience-manager/audience-analytics.md)
+   + [Audience Analytics do Adobe para clientes da Advertising](/help/integrations/audience-manager/audience-analytics.md)
 + Integração com o Adobe Target {#target}
    + [Configurar testes A/B no Adobe Target para anúncios DSP](/help/integrations/target/ab-tests-dsp.md)
-   + [Configurar testes A/B no Adobe Target para anúncios de pesquisa, sociais e comércio](/help/integrations/target/ab-tests-search.md)
-+ [Vídeos Tutorials Sobre Integrações Do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
+   + [Configurar testes A/B no Adobe Target para anúncios de pesquisa, social e Commerce](/help/integrations/target/ab-tests-search.md)
++ [Vídeos Tutorials Sobre Integrações Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

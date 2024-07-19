@@ -1,30 +1,30 @@
 ---
 title: '[!UICONTROL RSA Asset Report]'
 description: Saiba mais sobre o [!UICONTROL RSA Asset Report].
-exl-id: 76a7c698-5d05-4b48-bd50-5d126c0c4386
+exl-id: 6582c837-9521-479f-bae0-782e4c404ba2
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL RSA Asset Report]
 
-*[!DNL Google Ads]contas somente com anúncios de pesquisa responsivos*
+*[!DNL Google Ads]contas com somente anúncios de pesquisa responsivos*
 
-A variável [!UICONTROL RSA Asset Report] inclui métricas de impressão diária para cada ativo ([!UICONTROL Creative Title] ou [!UICONTROL Description]) para os anúncios de pesquisa responsiva (RSAs) em um ou mais portfólios ou uma ou mais contas, campanhas e grupos de anúncios. Por padrão, os dados incluem uma linha para cada ativo que recebeu pelo menos uma impressão no intervalo de dados especificado, mesmo que o ativo tenha sido desativado (removido) durante o período do relatório. As linhas estão em ordem crescente por grupo de anúncios por padrão. Opcionalmente, o relatório pode incluir classificações de etiquetas.
+O [!UICONTROL RSA Asset Report] inclui métricas de impressão diária para cada ativo ([!UICONTROL Creative Title] ou [!UICONTROL Description]) para os anúncios de pesquisa responsivos (RSAs) em um ou mais portfólios, ou uma ou mais contas, campanhas e grupos de anúncios. Por padrão, os dados incluem uma linha para cada ativo que recebeu pelo menos uma impressão no intervalo de dados especificado, mesmo que o ativo tenha sido desativado (removido) durante o período do relatório. As linhas estão em ordem crescente por grupo de anúncios por padrão. Opcionalmente, o relatório pode incluir classificações de etiquetas.
 
 >[!NOTE]
 >
 >Ao selecionar a opção para &quot;[!UICONTROL Include rows with no performance data]&quot;, os resultados ainda não incluem dados para ativos que nunca receberam dados.
 
-Você pode visualizar os dados a partir de 8 de agosto de 2022.<!-- Later: You can view data for the previous 36 months. -->
+Você pode exibir os dados a partir de 8 de agosto de 2022.<!-- Later: You can view data for the previous 36 months. -->
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especiais](specialty-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especializados](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -38,6 +38,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios de especialidade](specialty-report-about.md)
+>* [Sobre relatórios especializados](specialty-report-about.md)
 >* [Gerar um relatório de especialidade](specialty-report-generate.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)

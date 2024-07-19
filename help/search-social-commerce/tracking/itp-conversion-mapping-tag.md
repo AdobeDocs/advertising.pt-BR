@@ -1,42 +1,42 @@
 ---
 title: A tag de mapeamento de conversão do Adobe Advertising
 description: Saiba mais sobre a tag de mapeamento de conversão baseada em JavaScript para ITP 2.2, que permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial.
-exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
 
-# A tag de mapeamento de conversão do JavaScript do Adobe Advertising
+# A tag de mapeamento de conversão do Adobe Advertising JavaScript
 
-*Anunciantes com rastreamento de conversão de Adobe Advertising somente*
+*Anunciantes somente com rastreamento de conversão de Adobe Advertising*
 
-A tag de mapeamento de conversão baseada em JavaScript do Adobe Advertising, quando usada além da tag de rastreamento de conversão do JavaScript v2 ou v3 do Adobe Advertising, permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial. A solução ITP 2.2 armazena o cookie de um usuário no armazenamento local em um iFrame de propriedade do anunciante. O armazenamento local pode manter o valor do cookie do downstream de clique para a página de conversão.
+A tag de mapeamento de conversão baseada em JavaScript do Adobe Advertising, quando usada além da tag de rastreamento de conversão do Adobe Advertising JavaScript v2 ou v3, permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial. A solução ITP 2.2 armazena o cookie de um usuário no armazenamento local em um iFrame de propriedade do anunciante. O armazenamento local pode manter o valor do cookie do downstream de clique para a página de conversão.
 
 Use a tag de mapeamento de conversão para garantir que o Adobe Advertising possa rastrear todas as conversões que ocorrem nos navegadores Apple Safari e Mozilla Firefox, que limitam a persistência de cookies primários. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Para usar a tag de mapeamento de conversão:
 
-1. [Implantar a tag de mapeamento de conversão](#deploy-conversion-mapping-tag).
+1. [Implante a marca de mapeamento de conversão](#deploy-conversion-mapping-tag).
 
-1. Se sua organização usar várias IDs de organização do Serviço de identidade da Adobe Experience Cloud (antes chamadas de IDs organizacionais IMS), [atualizar suas tags de conversão](#update-conversion-tags) para incluir a ID da organização.
+1. Se sua organização usa várias IDs de organização do Serviço de identidade da Adobe Experience Cloud (antes chamadas de IDs de organização IMS), [atualize suas tags de conversão](#update-conversion-tags) para incluir a ID de organização.
 
-1. [Validar a implantação de tags](#validate-conversion-mapping).
+1. [Validar a implantação da marca](#validate-conversion-mapping).
 
 ## Implante a tag de mapeamento de conversão do JavaScript para ITP 2.2 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->Se estiver usando a tag de mapeamento de conversão do JavaScript para ITP 2.0, substitua a tag existente em todas as páginas de conversão por uma das tags a seguir.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>Se estiver usando a marca de mapeamento de conversão do JavaScript para ITP 2.0, substitua a marca existente em todas as páginas de conversão por uma das seguintes marcas.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* Se sua organização usar uma única ID de organização, que é usada para sua conta de Pesquisa, Social e Comércio, use a seguinte tag:
+* Se sua organização usar uma única ID de organização, que é usada para sua conta do Search, Social e Commerce, use a seguinte tag:
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  onde você substitui `{AMO User ID}` com a ID de usuário exclusiva para sua conta do Search, Social e Commerce.
+  onde você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
 * Se sua organização usar várias IDs de organização, use a seguinte tag:
 
@@ -44,11 +44,11 @@ Para usar a tag de mapeamento de conversão:
 
   em que:
 
-   * você substitui o valor `{xxxxxx@AdobeOrg}` com a ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
+   * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
 
-   * você substitui `{AMO User ID}` com a ID de usuário exclusiva para sua conta do Search, Social e Commerce.
+   * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
-* Se você estiver usando um sistema de gerenciamento de tags não compatível com a adição de `imsorgid` para a tag do script, use o seguinte código:
+* Se você estiver usando um sistema de gerenciamento de tags que não oferece suporte à adição da variável `imsorgid` à tag de script, use o seguinte código:
 
   *Se sua organização usar uma única ID de organização:
 
@@ -60,7 +60,7 @@ Para usar a tag de mapeamento de conversão:
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  onde você substitui `{AMO User ID}` com a ID de usuário exclusiva para sua conta do Search, Social e Commerce.
+  onde você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
    * Se sua organização usar várias IDs de organização:
 
@@ -75,11 +75,11 @@ Para usar a tag de mapeamento de conversão:
 
      em que:
 
-      * você substitui o valor `{xxxxxx@AdobeOrg}` com a ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
+      * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
 
-      * você substitui `{AMO User ID}` com a ID de usuário exclusiva para sua conta do Search, Social e Commerce.
+      * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
-Se você não souber o valor da ID da organização ou da ID de usuário de pesquisa, social e comércio, pergunte ao gerente de conta do Adobe.
+Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte ao Gerente de conta do Adobe.
 
 ### Exemplos
 
@@ -108,7 +108,7 @@ Se for colocado em um iframe ou tag container, então:
 
 ## Atualizar as tags de conversão do JavaScript {#update-conversion-tags}
 
-Se sua organização usar várias IDs de organização, adicione a ID de organização para a qual as conversões de uma página são rastreadas às tags de conversão JavaScript existentes.
+Se sua organização usar várias IDs de organização, adicione a ID de organização para a qual as conversões de uma página são rastreadas às suas tags de conversão do JavaScript existentes.
 
 Se sua organização usar uma ID de organização, essa etapa não será necessária.
 
@@ -118,7 +118,7 @@ Adicione a seguinte string no início da tag do script de conversão:
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-onde você substitui o valor `{xxxxxx@AdobeOrg}` com a ID da organização para a qual as conversões da página são rastreadas.
+onde você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas.
 
 Exemplo:
 
@@ -144,11 +144,11 @@ effp();
 
 ### Tags do JavaScript V3
 
-Depois `window.EF` for definida, adicione a seguinte string:
+Depois que `window.EF` for definido, adicione a seguinte cadeia de caracteres:
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-onde você substitui o valor `{xxxxxx@AdobeOrg}` com a ID da organização para a qual as conversões da página são rastreadas.
+onde você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas.
 
 Exemplo:
 

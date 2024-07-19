@@ -16,23 +16,23 @@ ht-degree: 0%
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Deal ID]**.
 
-1. Insira o [configurações de oferta](deal-id-settings.md):
+1. Insira as [configurações de negócios](deal-id-settings.md):
 
-   1. No [!UICONTROL Deal ID basics] especifique os detalhes do negócio e os anunciantes que podem acessar o negócio. Para ofertas garantidas, você também deve especificar as datas de voo planejadas e o número estimado de impressões, somente para fins de rastreamento.
+   1. Na seção [!UICONTROL Deal ID basics], especifique os detalhes do negócio e os anunciantes que podem acessá-lo. Para ofertas garantidas, você também deve especificar as datas de voo planejadas e o número estimado de impressões, somente para fins de rastreamento.
 
       Você pode rastrear o ritmo das ofertas garantidas incluindo a coluna &quot;Ritmo de impressão PG&quot; nos gastos em Inventário > Exibição de ofertas.
 
-   1. (Somente usuários administradores; opcional) Na [!UICONTROL Technical] edite as configurações padrão conforme necessário.
+   1. (Somente usuários administradores; opcional) Na seção [!UICONTROL Technical], edite as configurações padrão conforme necessário.
 
    1. Clique em **[!UICONTROL Save]**.
 
 1. (Somente ofertas garantidas) Selecione os anúncios a serem usados para a oferta (ou o pixel 1x1 para anúncios gerenciados pelo editor) e crie uma inserção programática garantida (PG) padrão.
 
-   Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição padrão de PG, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. No [!UICONTROL Placements] exibir, os posicionamentos de PG padrão têm um [!UICONTROL Sub-type] valor da coluna de &quot;[!UICONTROL PG Default].&quot;
+   Os posicionamentos de PG padrão garantem que sua oferta sempre retorne um lance para cada solicitação de oferta. Se você não criar uma disposição padrão de PG, quaisquer disposições direcionadas para o negócio não darão lances, a menos que estejam configuradas corretamente. Você sempre deve criar um posicionamento de PG padrão. Na exibição [!UICONTROL Placements], os posicionamentos de PG padrão têm um valor de coluna [!UICONTROL Sub-type] de &quot;[!UICONTROL PG Default]&quot;.
 
    Opcionalmente, você pode usar a negociação como um destino de inventário em disposições adicionais, mas deve configurá-las corretamente para fazer ofertas.
 
-   1. No [!UICONTROL Ad & Campaign Selection] selecione os anúncios a serem usados para a oferta:
+   1. Nas configurações de [!UICONTROL Ad & Campaign Selection], selecione os anúncios a serem usados para a oferta:
 
       1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. Insira o nome da disposição.
 
-      1. (Opcional) Edite o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição do lance padrão, que é preenchido automaticamente com o valor CPM do contrato, a alteração do intervalo de datas ou a anexação de mais anúncios.
+      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é preenchida automaticamente com o valor CPM da oferta; a alteração do intervalo de datas; ou a anexação de mais anúncios.
 
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 
@@ -60,14 +60,14 @@ Depois de criar a negociação, você pode usá-la como uma meta de inventário 
 
 >[!TIP]
 >
->* No [!UICONTROL Inventory] > [!UICONTROL Deals] exibir, a variável [!UICONTROL Pacing & Budget] A coluna mostra como a negociação está ocorrendo até a data de voo especificada e a meta de impressão.
+>* Na exibição [!UICONTROL Inventory] > [!UICONTROL Deals], a coluna [!UICONTROL Pacing & Budget] mostra como a transação está se aproximando da data de voo especificada e da meta de impressão.
 >
 >* Se o delivery estiver aquém ou acima do ritmo, entre em contato com seu editor para ajustar quanto volume ele está enviando através do negócio.
 
 >[!MORELIKETHIS]
 >
->* [Configurações da ID de oferta manual](deal-id-settings.md)
->* [Configurar um acordo programático garantido](programmatic-guaranteed-set-up.md)
->* [Enviar um anúncio para uma oferta programática garantida com [!DNL FreeWheel]](freewheel-submit.md)
+>* [Configurações manuais de ID do contrato](deal-id-settings.md)
+>* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)
+>* [Enviar um anúncio para uma oferta programática garantida com o  [!DNL FreeWheel]](freewheel-submit.md)
 >* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
 <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->

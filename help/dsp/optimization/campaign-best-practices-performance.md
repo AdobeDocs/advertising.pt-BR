@@ -18,11 +18,11 @@ O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as segui
 * Etapa 2 - Definir a estratégia
 * Etapa 3 - Criar pacotes
 * Etapa 4 - Criar estrutura de posicionamento
-* Etapa 5 - Usar os ativos de criação certos
+* Etapa 5 - Usar o Creative Assets correto
 
 ## Etapa 1 - Definir A Meta
 
-É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm o [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada pacote na campanha, especifique a meta de otimização de acordo.
+É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;. Para cada pacote na campanha, especifique a meta de otimização de acordo.
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
@@ -43,7 +43,7 @@ Os pacotes de funil superior incluem disposições com direcionamento muito ampl
    * Direcionamento contextual.
    * Direcionamento de site/categoria.
 
-* Uso do direcionamento de execução da rede (RON): é importante incluir um fluxo de posicionamento da rede sem direcionamento de público-alvo e com direcionamento amplo de inventário. Isso permite que o [!DNL Adobe Sensei] um algoritmo para encontrar usuários valiosos que podem ter cookies mais recentes que ainda não foram categorizados em um público-alvo.
+* Uso do direcionamento de execução da rede (RON): é importante incluir um fluxo de posicionamento da rede sem direcionamento de público-alvo e com direcionamento amplo de inventário. Isso permite que o algoritmo [!DNL Adobe Sensei] encontre usuários valiosos que podem ter cookies mais recentes que ainda não foram categorizados em um público-alvo.
 
 ### Estratégias de redirecionamento
 
@@ -65,25 +65,25 @@ Além disso, use as configurações a seguir.
 
 ### Metas e orçamento
 
-* **Ritmo e limite:** Para selecionar uma meta de otimização de CPA ou ROAS, o pacote deve usar o ritmo no nível do pacote. Isso garante que todos os posicionamentos no pacote sejam otimizados para distribuir os gastos com base no desempenho e dimensionar para as metas selecionadas.
+* **Ritmo e Limite:** Para selecionar uma meta de otimização de CPA ou ROAS, o pacote deve usar o ritmo no nível do pacote. Isso garante que todos os posicionamentos no pacote sejam otimizados para distribuir os gastos com base no desempenho e dimensionar para as metas selecionadas.
 
-* **Datas de voo:** (Pacotes de prospecção) Quando a campanha é executada por mais de 25 dias, use o [!UICONTROL Activate Custom Flighting] recurso. Primeiro, defina um voo personalizado para os primeiros 10 dias em aproximadamente 75% do orçamento diário necessário para reduzir os gastos durante o *fase de aprendizagem*. Em seguida, defina um segundo voo personalizado para o restante do orçamento.
+* **Datas de voo:** (pacotes de prospecção) Quando a campanha for executada por mais de 25 dias, use o recurso [!UICONTROL Activate Custom Flighting]. Primeiro, defina um voo personalizado para os primeiros 10 dias em aproximadamente 75% do orçamento diário necessário para reduzir os gastos durante a *fase de aprendizado*. Em seguida, defina um segundo voo personalizado para o restante do orçamento.
 
   Por exemplo, se você tiver US$ 100.000 para gastar em 30 dias, defina o orçamento do voo 1 (dias 1 a 10) para US$ 25.000 (75% x US$ 100.000/30 dias = US$ 2.500 por dia). Use o orçamento restante de US$ 75.000 para o voo 2 (dias 11 a 30).
 
-* **Orçamento:** O DSP sempre tenta alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
+* **Orçamento:** o DSP sempre tenta alocar 100% do orçamento do pacote uniformemente entre todos os posicionamentos em um pacote. Se uma inserção tiver gasto baixo ou nenhum gasto, recomendamos limitar o orçamento para permitir que mais do orçamento seja alocado para inserções com escala. Aguarde de 24 a 48 horas para que as alterações de orçamento sejam calibradas.
 
-* **Metas de otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
+* **Metas de Otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
 
 * **Metas personalizadas:**
    * Se um novo pacote tiver o mesmo objetivo de um pacote existente, você poderá, opcionalmente, vincular o pacote existente para que o algoritmo possa usar os dados existentes de aprendizado de máquina.
-   * Insira o apropriado [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS].
+   * Insira o [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS] apropriado.
 
-* **Ritmo de veiculação e Ritmo intradiário:** Para ambos os tipos de ritmo, selecione *[!UICONTROL Even]* para maximizar suas metas de desempenho, acompanhando uniformemente ao longo de cada dia e durante todo o voo.
+* **Ritmo de veiculação e Ritmo Intradiário:** Para ambos os tipos de ritmo, selecione *[!UICONTROL Even]* para maximizar suas metas de desempenho, acompanhando uniformemente ao longo de cada dia e durante todo o voo.
 
   >[!CAUTION]
   >
-  >Uso *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* para o ritmo de *[!UICONTROL ASAP]* ritmo para ritmo intradiário somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho, pois essas estratégias podem afetar negativamente os KPIs de desempenho desejados.
+  >Use *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* para o ritmo de veiculação e *[!UICONTROL ASAP]* para o ritmo intradiário somente quando estiver priorizando totalmente a entrega e o gasto em relação à otimização de desempenho, pois essas estratégias podem afetar negativamente seus KPIs de desempenho desejados.
 
 ## Etapa 4 - Criar estrutura de posicionamento
 
@@ -97,21 +97,21 @@ A seguir estão as configurações de posicionamento recomendadas para campanhas
 
 Você deve configurar a otimização de CPA ou ROAS no nível do pacote (consulte Etapa 3 - Criar pacotes), mas pode adicionar outras configurações no nível de posicionamento.
 
-* **Lance máximo:**
+* **Lance Máximo:**
    * Para inserções de prospecção, use um lance máximo baixo (US$ 5).
    * Para inserções de redirecionamento, use um lance máximo alto (US$ 12).
 
-* **Filtros pré-oferta:** Minimize ou, idealmente, evite definir filtros agressivos de pré-oferta, que impedem que o posicionamento alcance escala. As práticas recomendadas incluem o seguinte:
+* **Filtros de pré-oferta:** minimize ou evite definir filtros de pré-oferta agressivos, que impeçam o posicionamento de atingir a escala. As práticas recomendadas incluem o seguinte:
 
    * Use um (1) filtro de pré-oferta por disposição. A utilização de vários filtros pré-oferta exige que ambos sejam atendidos, o que reduz a escala.
 
    * Considere definir filtros de pré-oferta menos rigorosos nos casos em que o direcionamento adicional (como público-alvo, geografia e direcionamento de site) é aplicado.
 
-Consulte descrições de quando usar cada filtro de pré-oferta em [Filtros pré-oferta no nível de posicionamento e como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Consulte descrições de quando usar cada filtro de pré-oferta em [Filtros de pré-oferta no nível de posicionamento e Como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventário
 
-Para maximizar a escala, use [!UICONTROL Public] (Open Exchange) e [!UICONTROL On Demand] inventário.
+Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventário do [!UICONTROL On Demand].
 
 ### Direcionamento de site
 
@@ -139,25 +139,25 @@ Para maximizar a escala, use [!UICONTROL Public] (Open Exchange) e [!UICONTROL O
    * Para inserções de redirecionamento, defina a limitação de inserção primária para 6-10 impressões por dia e a limitação secundária para uma impressão por hora.
 
 * **[!UICONTROL Device Targeting]**:
-   * Incluir [!UICONTROL Computer], [!UICONTROL Mobile], e [!UICONTROL Tablet].
-   * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Entre em contato com a equipe de conta do Adobe para obter mais detalhes sobre [!DNL Adobe] suporte para [!DNL Safari ITP].
-   * Se você direcionar o tráfego de web para dispositivos móveis, desative todos os navegadores móveis, exceto [!UICONTROL Chrome] e [!UICONTROL Edge].
+   * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
+   * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Entre em contato com a equipe de conta do Adobe para obter mais detalhes sobre o suporte do [!DNL Adobe] para [!DNL Safari ITP].
+   * Se você direcionar o tráfego de web para dispositivos móveis, desabilite todos os navegadores móveis, exceto [!UICONTROL Chrome] e [!UICONTROL Edge].
 
 ### Segurança da marca e qualidade da mídia
 
-Uso de filtragem contextual, bloqueio pré-oferta de fraudes e/ou [!UICONTROL Ads.txt] a filtragem limita a escala de suas disposições, mas as usa se necessário.
+O uso de filtragem contextual, bloqueio de fraude pré-oferta e/ou filtragem de [!UICONTROL Ads.txt] limita a escala de suas inserções, mas as usa se necessário.
 
-## Etapa 5 - Usar os ativos de criação certos
+## Etapa 5 - Usar o Creative Assets correto
 
 * A prática recomendada é incluir o máximo possível de tamanhos de anúncio únicos para maximizar o alcance. O modelo de exibição universal permite fazer upload de qualquer tamanho de anúncio de exibição padrão.
-* Verifique se todos os posicionamentos contêm *pelo menos* todos os tamanhos de anúncios de exibição principal (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
+* Verifique se todos os posicionamentos contêm *pelo menos* todos os tamanhos de anúncios de exibição primários (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
 * Atualizar criações com frequência para evitar fadiga criativa.
 
 >[!MORELIKETHIS]
 >
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Como o DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Como o DSP Otimiza Suas Campanhas](optimization-how-dsp-optimizes-campaigns.md)
 >* [Metas de otimização e como usá-las](optimization-goals.md)
->* [Filtros pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
->* [Lista de verificação de lançamento de campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Filtros de pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
+>* [Lista de Verificação de Inicialização da Campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)

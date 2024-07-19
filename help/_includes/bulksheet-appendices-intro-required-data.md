@@ -14,5 +14,4 @@ A tabela a seguir mostra quais campos são obrigatórios, opcionais ou não apli
 >* Os valores em todas as colunas de texto fazem distinção entre maiúsculas e minúsculas.
 >* Ao criar um novo registro e não incluir valores para todos os campos de dados obrigatórios, alguns desses campos recebem os valores padrão especificados.
 >* Para campos que não são especificados abaixo, o valor padrão para a rede de publicidade é usado.
->* Para obter uma lista de linhas de bulksheet disponíveis no [!UICONTROL Download Bulksheet] , consulte &quot;[Linhas de bulksheet por rede de anúncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
-
+>* Para obter uma lista de linhas de bulksheet disponíveis na caixa de diálogo [!UICONTROL Download Bulksheet], consulte &quot;[Linhas de bulksheet por rede de anúncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;

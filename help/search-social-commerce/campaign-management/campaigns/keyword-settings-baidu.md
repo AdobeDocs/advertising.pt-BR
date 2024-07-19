@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Baidu] configurações de palavra-chave'
-description: Referenciar as configurações de [!DNL Baidu] palavras-chave.
-exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+title: Configurações de palavra-chave '[!DNL Baidu]'
+description: Referencie as configurações de  [!DNL Baidu] palavras-chave.
+exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] configurações de palavra-chave
+# Configurações de palavra-chave [!DNL Baidu]
 
 ## [!UICONTROL Keyword Details]
 
@@ -24,9 +24,9 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 >[!NOTE]
 >
->* [!DNL Baidu] permite somente um tipo de correspondência por palavra-chave por grupo de publicidade. Por exemplo, o Grupo de anúncios 1 não pode incluir ambos `"keyword"` e `[keyword]`.
->* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
->* Alterar um [!DNL Baidu] palavra-chave exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
+>* [!DNL Baidu] permite somente um tipo de correspondência por palavra-chave por grupo de publicidade. Por exemplo, o Grupo de Anúncios 1 não pode incluir `"keyword"` e `[keyword]`.
+>* Você pode criar palavras-chave negativas no modo de exibição [!UICONTROL Keywords] > [!UICONTROL Negatives] e nas configurações de grupo de anúncios e campanha.
+>* Alterar uma palavra-chave [!DNL Baidu] exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
 
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
@@ -38,11 +38,12 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 ## Opções de URL
 
-**[!UICONTROL Base URL]:** (Campanhas somente com rastreamento em nível de palavra-chave; opcional) O URL da página inicial para a qual os usuários são levados quando clicam em seu anúncio. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você inserir um valor, ele substituirá o URL base do anúncio.
+**[!UICONTROL Base URL]:** (Campanhas somente com rastreamento de nível de palavra-chave; opcional) A URL da página de aterrissagem para a qual os usuários são levados quando clicam em seu anúncio. Pode incluir
+redirecionamento e código de rastreamento de terceiros. Se você inserir um valor, ele substituirá o URL base do anúncio.
 
 Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscimo configurados para a campanha ou conta.
 
-Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] Além disso, adicionar rastreamento no nível de palavra-chave, Pesquisar, Social e Comércio adiciona automaticamente seu próprio código de rastreamento de cliques.
+Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] e a adição de rastreamento no nível de palavra-chave, Search, Social e Commerce adicionarão automaticamente seu próprio código de rastreamento de cliques.
 
 >[!MORELIKETHIS]
 >

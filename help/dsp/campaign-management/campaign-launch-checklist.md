@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Financiamento da conta
 
-Verifique se sua conta tem crédito suficiente para executar toda a campanha. Você pode checar e recarregar fundos da conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a equipe da conta Adobe.
+Verifique se sua conta tem crédito suficiente para executar toda a campanha. Você pode verificar e recarregar fundos de conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a Equipe de Conta do Adobe.
 
 ## Status da campanha
 
@@ -22,7 +22,7 @@ Confirme se as datas da campanha e o orçamento estão definidos com precisão.
 
 ## Status do posicionamento
 
-Verifique se o status do posicionamento é &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled].&quot; Além disso, verifique se os outros parâmetros de posicionamento (como lista de sites, orçamento, meta, datas de ativação e frequência) estão corretos.
+Verifique se o status do posicionamento é &quot;[!UICONTROL Active]&quot; ou &quot;[!UICONTROL Scheduled]&quot;. Além disso, verifique se os outros parâmetros de posicionamento (como lista de sites, orçamento, meta, datas de ativação e frequência) estão corretos.
 
 ## Status do anúncio
 
@@ -33,4 +33,3 @@ Confirme se todos os anúncios estão anexados, aprovados e ativos. Além disso,
 >* [Configurações da campanha](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
-

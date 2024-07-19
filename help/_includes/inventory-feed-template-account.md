@@ -12,5 +12,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Para reutilizar os parâmetros de gabarito para outra conta ou mecanismo de pesquisa, clone o gabarito, especificando a nova conta.
->* Se você clonar o gabarito para outro mecanismo de pesquisa, talvez precise ajustar os parâmetros do gabarito de acordo. Por exemplo, [!DNL Google Ads] tem dois campos de descrição para anúncios de texto, enquanto [!DNL Microsoft Advertising] tem apenas um; cada mecanismo de pesquisa tem tamanhos máximos diferentes para campos de anúncio; e [!UICONTROL Google Param 1] e [!UICONTROL Google Param 2] estão disponíveis somente para [!DNL Google Ads] contas.
-
+>* Se você clonar o gabarito para outro mecanismo de pesquisa, talvez precise ajustar os parâmetros do gabarito de acordo. Por exemplo, [!DNL Google Ads] tem dois campos de descrição para anúncios de texto, enquanto [!DNL Microsoft Advertising] tem apenas um; cada mecanismo de pesquisa tem comprimentos máximos diferentes para campos de anúncio; e [!UICONTROL Google Param 1] e [!UICONTROL Google Param 2] estão disponíveis apenas para contas [!DNL Google Ads].

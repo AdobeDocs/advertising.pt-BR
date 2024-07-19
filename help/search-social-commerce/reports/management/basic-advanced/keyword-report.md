@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Report].
-exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Report]
 
-A variável [!UICONTROL Keyword Report] inclui dados de custo, clique e conversão (opcionalmente) de palavras-chave que receberam impressões em um ou mais grupos de anúncios. Opcionalmente, é possível filtrar os dados para incluir apenas palavras-chave que contenham uma cadeia de caracteres de texto específica. Por padrão, os dados incluem uma linha para cada palavra-chave aplicável e combinação de tipo de correspondência que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo e, em seguida, pelo custo por padrão.
+O [!UICONTROL Keyword Report] inclui dados de custo, clique e conversão (opcionalmente) de palavras-chave que receberam impressões em um ou mais grupos de anúncios. Opcionalmente, é possível filtrar os dados para incluir apenas palavras-chave que contenham uma cadeia de texto específica. Por padrão, os dados incluem uma linha para cada palavra-chave aplicável e combinação de tipo de correspondência que recebeu impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data inicial da unidade de tempo e, em seguida, pelo custo por padrão.
 
 Opcionalmente, você pode incluir classificações de rótulos específicas do anunciante.
 
@@ -20,11 +20,11 @@ Você pode exibir dados dos últimos 36 meses.
 
 >[!NOTE]
 >
->Se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa ativadas por conteúdo, a variável [!UICONTROL Keyword] no relatório concluído inclui os nomes dos grupos de anúncios aplicáveis, como &quot;(adgroup content) Your Ad Group Name&quot; (Conteúdo do adgroup).
+>Se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa habilitadas para conteúdo, a coluna [!UICONTROL Keyword] no relatório concluído incluirá os nomes de grupos de anúncios aplicáveis, como &quot;(conteúdo do grupo de anúncios) Seu Nome de grupo de anúncios&quot;.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]

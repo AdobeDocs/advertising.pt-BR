@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Microsoft Advertising] configurações de palavra-chave'
-description: Referenciar as configurações de [!DNL Microsoft Advertising] palavras-chave.
+title: Configurações de palavra-chave '[!DNL Microsoft Advertising]'
+description: Referencie as configurações de  [!DNL Microsoft Advertising] palavras-chave.
 exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,20 +10,20 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] configurações de palavra-chave
+# Configurações de palavra-chave [!DNL Microsoft Advertising]
 
 Você pode criar palavras-chave para campanhas que usam as redes de pesquisa e exibição.
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** As palavras-chave, incluindo qualquer [!DNL Microsoft Advertising] corresponder sintaxe e espaços reservados. O comprimento máximo por palavra-chave é de 100 caracteres.
+**[!UICONTROL Keywords]:** As palavras-chave, incluindo qualquer [!DNL Microsoft Advertising], correspondem à sintaxe e aos espaços reservados. O comprimento máximo por palavra-chave é de 100 caracteres.
 
 Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-chave com vírgulas ou insira-as em linhas separadas.
 
 >[!NOTE]
 >
->* Você pode criar palavras-chave negativas a partir do [!UICONTROL Keywords] > [!UICONTROL Negatives] exibir e nas configurações do grupo de anúncios e da campanha.
->* Alterar um [!DNL Microsoft Advertising] palavra-chave exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
+>* Você pode criar palavras-chave negativas no modo de exibição [!UICONTROL Keywords] > [!UICONTROL Negatives] e nas configurações de grupo de anúncios e campanha.
+>* Alterar uma palavra-chave [!DNL Microsoft Advertising] exclui a palavra-chave existente e cria uma nova com uma nova ID de palavra-chave. No entanto, alterar o tipo de correspondência não exclui a palavra-chave existente.
 
 **[!UICONTROL Status]:** O status de exibição da palavra-chave: *Ativo* ou *Pausado*. O padrão para novas palavras-chave é *Ativo*.
 
@@ -35,9 +35,9 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 ## Espaços reservados
 
-**[!UICONTROL Param2]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param2}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
+**[!UICONTROL Param2]:** A cadeia de caracteres a ser usada como valor de substituição se a URL base da palavra-chave ou o título, a descrição ou a URL base do anúncio contiver [a `{Param2}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
 
-**[!UICONTROL Param3]:** A sequência de caracteres a ser usada como valor de substituição se o URL base da palavra-chave ou o título, a descrição ou o URL base do anúncio contiver [o `{Param3}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
+**[!UICONTROL Param3]:** A cadeia de caracteres a ser usada como valor de substituição se a URL base da palavra-chave ou o título, a descrição ou a URL base do anúncio contiver [a `{Param3}` cadeia de caracteres de substituição dinâmica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que ele é usado (por exemplo, a combinação do Título 1 e do Título 2 pode ter no máximo 76 caracteres).
 
 ## Opções de URL
 
@@ -45,7 +45,7 @@ Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-ch
 
 {{$include /help/_includes/base-url-keyword-ad-sitelink.md}}
 
-Como opção, esse campo pode incluir a variável `{Param2}` e `{Param3}` variáveis de substituição dinâmicas.
+Opcionalmente, este campo pode incluir as variáveis de substituição dinâmica `{Param2}` e `{Param3}`.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 

@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Exibir um relatório detalhado de um anúncio
 
-A variável <!--legacy --> o relatório de nível de anúncio inclui [!UICONTROL Overview], [!UICONTROL Geography], e [!UICONTROL Viewability] dados.
+O relatório de nível de anúncio <!--legacy --> inclui dados de [!UICONTROL Overview], [!UICONTROL Geography] e [!UICONTROL Viewability].
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
 1. No submenu, clique em **[!UICONTROL Ads]**.
-1. Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. Ao lado do nome do anúncio, clique em **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Tipos de relatórios de desempenho em visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)

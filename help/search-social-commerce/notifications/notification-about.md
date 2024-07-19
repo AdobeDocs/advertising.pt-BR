@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Sobre notificações
 
-*Recurso Beta*
+*Recurso do Beta*
 
 Você pode definir suas configurações de notificação para assinar ou cancelar a assinatura de diferentes tipos de alertas. Você pode exibir as notificações de qualquer uma das seguintes maneiras:
 
-* No [!UICONTROL Notifications] que está disponível no menu principal em ![Notificação](/help/search-social-commerce/assets/notifications-panel.png "Notificação").
+* No painel [!UICONTROL Notifications], que está disponível no menu principal em ![Notificações](/help/search-social-commerce/assets/notifications-panel.png "Notificações").
 
 * De [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
 
-* De um [!UICONTROL Notification Center] aplicativo web, que é aberto [!UICONTROL Notification Center] em uma janela separada fora do Search, Social e Commerce.
+* Em um aplicativo Web [!UICONTROL Notification Center], que abre [!UICONTROL Notification Center] em uma janela separada fora do Search, Social e Commerce.
 
   O aplicativo é carregado mais rápido do que a versão normal do navegador e é atualizado automaticamente. Você pode instalar o aplicativo e gerenciá-lo usando o gerenciador de aplicativos do navegador.
 
@@ -34,21 +34,21 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * **[!UICONTROL Notices]**: avisos de liberação, tempo de inatividade e outros avisos de gerenciamento de alterações.
 
-* **[!UICONTROL Recommendations]**: oportunidades identificadas para melhorar o desempenho, implementar práticas recomendadas etc.
+* **[!UICONTROL Recommendations]**: Oportunidades identificadas para melhorar o desempenho, implementar práticas recomendadas etc.
 
-* **[!UICONTROL Warnings]**: problemas que exigem atenção, mas não são essenciais para a otimização ou o gerenciamento.
+* **[!UICONTROL Warnings]**: problemas que requerem atenção, mas não são críticos para otimização ou gerenciamento.
 
-* **[!UICONTROL Issues]**: problemas críticos que exigem atenção imediata. As notificações de erro de autorização de conta estão incluídas.
+* **[!UICONTROL Issues]**: Problemas críticos que exigem atenção imediata. As notificações de erro de autorização de conta estão incluídas.
 
 ## Categorias de notificação
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: notificações de que um [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Bulksheets]**: Notificações de que uma [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluída ou falhou.
 
-   * **[!UICONTROL Manager Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessários para a configuração correta de funções críticas.
+   * **[!UICONTROL Manager Account Missing]**: as notificações de que Search, Social e Commerce não têm as credenciais de uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessárias para a configuração correta de funções críticas.
 
-   * **[!UICONTROL UI Actions]**: notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [tarefas de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), tarefas de edição em massa na tabela de dados ou usando a barra de ferramentas, tarefas de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualquer entidade, atribuindo uma campanha a um portfólio e atribuindo ou desatribuindo uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: Notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [trabalhos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), trabalhos de edição em massa na tabela de dados ou usando a barra de ferramentas, trabalhos de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) para qualquer entidade, atribuir uma campanha a um portfólio e atribuir ou desatribuir uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -58,11 +58,11 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: notificações de que o Search, Social e Commerce não conseguiram acessar um [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+      * **[!UICONTROL Account Auth Error]**: as notificações de que a Pesquisa, o Social e a Commerce não conseguiram acessar uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
 
-      * **[!UICONTROL Account Missing]**: as notificações de que os recursos de Pesquisa, Social e Comércio não têm as credenciais para uma [conta de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**: as credenciais de uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) estão ausentes nas notificações de que Search, Social e Commerce.
 
-      * **[!UICONTROL Manager Account Auth Error]**: notificações que o Search, Social e Commerce não conseguiram sincronizar com um [conta do gerenciador de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou a um token de autorização inválido ou expirado.
+      * **[!UICONTROL Manager Account Auth Error]**: Notificações de que a Pesquisa, o Social e o Commerce não puderam ser sincronizados com uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -74,13 +74,13 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: notificações que [um [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Advertising Insights]**: Notificações de que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Custom Alerts]**: notificações que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionados para um modelo de alerta.
+   * **[!UICONTROL Custom Alerts]**: Notificações de que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionadas para um modelo de alerta.
 
-   * **[!UICONTROL Reports]**: notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Reports]**: Notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
+   * **[!UICONTROL Spreadsheet Feeds]**: Notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
 
 <!--
 * [!UICONTROL Optimization]
@@ -109,5 +109,5 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 >* [Marcar uma notificação como lida ou não lida](notification-mark-read-unread.md)
 >* [Excluir uma notificação](notification-delete.md)
 >* [Editar suas configurações de notificação](notification-edit.md)
->* [Ativar e desativar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
+>* [Habilitar e desabilitar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Instalar e desinstalar o [!UICONTROL Notification Center] aplicativo Web](notification-app-install-uninstall.md)

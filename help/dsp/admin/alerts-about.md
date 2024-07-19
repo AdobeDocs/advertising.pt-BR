@@ -62,4 +62,4 @@ Você pode adicionar ou remover alertas de uma assinatura, editar os usuários q
 
 >[!MORELIKETHIS]
 >
->[Gerenciar assinaturas de alerta](alerts-manage.md)
+>[Gerenciar Assinaturas de Alerta](alerts-manage.md)

@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Ads] configurações de modelo de anúncio de compras para feeds de inventário'
-description: Referenciar as configurações de [!DNL Microsoft Ads] modelos de anúncios de compras para feeds de inventário.
+title: Configurações de modelo de anúncio de compra '[!DNL Microsoft Ads]' para feeds de estoque
+description: Referencie as configurações de  [!DNL Microsoft Ads] modelos de anúncios de compras para feeds de inventário.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Ads] configurações de modelo de anúncio de compras para feeds de inventário
+# [!DNL Microsoft Ads] configurações de modelo de anúncio de compra para feeds de inventário
 
 Use modelos de anúncios de compras para configurar esses anúncios.
 
 >[!NOTE]
 >
->* Os seguintes caracteres são reservados para designar nomes de colunas e nomes de modificadores no modelo e, portanto, são proibidos como texto em todos os campos de atributo:  `[ ] < > `
+>* Os seguintes caracteres são reservados para designar nomes de coluna e nomes de modificadores no modelo e, portanto, são proibidos como texto em todos os campos de atributo: `[ ] < > `
 
 
 ## \[Acima de todas as guias\]
@@ -57,13 +57,13 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** (Opcional para modelos para arquivos de feed de cliente) O modelo de rastreamento no nível da campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
+**[!UICONTROL Campaign Tracking Template]:** (opcional para modelos para arquivos de feed de cliente) O modelo de rastreamento de nível de campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
 
-* Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; execute um dos procedimentos a seguir&quot;:
+* Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, siga um destes procedimentos:
 
-   * (Recomendado) Use o [formato do modelo de rastreamento para campanhas de compras do Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
+   * (Recomendado) Use o [formato de modelo de rastreamento para campanhas de compras do Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
 
-   * Se, em vez disso, você incluir um valor para cada produto no feed usando o &quot;[!DNL bingads_redirect]coluna &quot; (usando o [formato correto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) e, em seguida, insira o parâmetro `{lpurl}`. Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros à `{lpurl}` parâmetro.
+   * Se você incluir um valor para cada produto no feed usando a coluna &quot;[!DNL bingads_redirect]&quot; (usando o [formato correto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), insira o parâmetro `{lpurl}`. Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros ao parâmetro `{lpurl}`.
 
 * Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
@@ -71,9 +71,10 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** A ID do cliente da conta do comerciante cujos produtos são usados para a campanha.
+**[!UICONTROL Merchant ID]:** A ID do cliente da conta de comerciante cujos produtos são usados para a campanha.
 
-**[!UICONTROL Sales Country]:** O país no qual os produtos da campanha são vendidos. Como os produtos são associados aos países de destino, essa configuração determina quais produtos são anunciados na campanha.
+**[!UICONTROL Sales Country]:** O país no qual os produtos da campanha são vendidos. Como os produtos estão associados
+com os países de destino, essa configuração determina quais produtos são anunciados na campanha.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -97,7 +98,9 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** A prioridade com a qual a campanha é usada quando várias campanhas anunciam o mesmo produto: *[!UICONTROL Low]* (o padrão para novas campanhas), *[!UICONTROL Medium]* ou *[!UICONTROL High]*. Quando o mesmo produto é incluído em mais de uma campanha, a rede de publicidade usa a prioridade de campanha primeiro para determinar qual campanha (e ofertas associadas) está qualificada para o leilão de anúncios. Quando todas as campanhas têm a mesma prioridade, a campanha com a maior oferta é qualificada.
+**[!UICONTROL Campaign Priority]:** A prioridade com a qual a campanha é usada quando várias campanhas anunciam o
+mesmo produto: *[!UICONTROL Low]* (o padrão para novas campanhas), *[!UICONTROL Medium]* ou *[!UICONTROL High]*. Quando o mesmo produto é incluído em mais de uma campanha, a rede de publicidade usa
+a prioridade da campanha primeiro para determinar qual campanha (e lances associados) está qualificada para o leilão de anúncios. Quando todas as campanhas têm a mesma prioridade, a campanha com a maior oferta é qualificada.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -117,7 +120,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (Opcional) Um modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em um parâmetro. Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares substituem esse valor.
+**[!UICONTROL Ad Group Tracking Template]:** (opcional) um modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da aterrissagem e incorpora a URL final em um parâmetro. Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares substituem esse valor.
 
 Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
@@ -139,7 +142,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** O grupo de produtos padrão com tudo incluído, &quot;[!UICONTROL All products].&quot; Você não pode excluir este grupo de produtos principal, mas ele é excluído automaticamente quando todas as camadas inferiores estão ausentes do feed.
+**[!UICONTROL Tier 1]:** o grupo de produtos padrão, completo, &quot;[!UICONTROL All products].&quot; Você não pode excluir este grupo de produtos principal, mas ele é excluído automaticamente quando todas as camadas inferiores estão ausentes do feed.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -149,7 +152,8 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos secundários; opcional) O modelo de rastreamento para o grupo de produtos, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora o URL final em uma [!DNL ValueTrack] parâmetro. Esse template substitui templates em níveis superiores.
+**[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos filho; opcional) O modelo de rastreamento do produto
+grupo, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro [!DNL ValueTrack]. Esse template substitui templates em níveis superiores.
 
 Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
@@ -172,7 +176,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 >[!MORELIKETHIS]
 >
 >* [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](../inventory-feeds-about.md)
->* [Gerenciar modificadores](../modifiers-manage.md)
+>* [Gerenciando modificadores](../modifiers-manage.md)
 >* [Gerenciamento de arquivos de feed de dados de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [Propagar dados do feed por meio de modelos](../feed-data-propagate.md)
->* [Publicar dados de campanha de feeds de inventário em redes de anúncios](../propagated-data-post.md)
+>* [Propagar dados de feed por meio de modelos](../feed-data-propagate.md)
+>* [Postar dados de campanha dos feeds de inventário nas redes de anúncios](../propagated-data-post.md)

@@ -1,17 +1,18 @@
 ---
-title: Criar uma tag de conversão para [!DNL Google Ads]
-description: Saiba como criar um [!DNL Google Ads] tag de conversão.
+title: Criar uma marca de conversão para  [!DNL Google Ads]
+description: Saiba como criar uma tag de conversão  [!DNL Google Ads] .
 feature: Conversions
-source-git-commit: 395421c69214c3b0370523909047a924af23ea55
+exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# Criar uma tag de conversão para [!DNL Google Ads]
+# Criar uma marca de conversão para [!DNL Google Ads]
 
-É possível criar tags de conversão para novas conversões a serem rastreadas para eventos individuais [!DNL Google Ads] contas, não rastreadas no nível de uma conta de gerente.
+É possível criar marcas de conversão para novas conversões a serem rastreadas para contas individuais do [!DNL Google Ads], não rastreadas no nível de uma conta de gerente.
 
 Para gerar tags de conversão para conversões existentes, use o editor da rede de publicidade.
 
@@ -19,7 +20,7 @@ Para gerar tags de conversão para conversões existentes, use o editor da rede 
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
-1. Especifique a [configurações da tag de conversão](#conversion-tag-settings-google).
+1. Especifique as [configurações da marca de conversão](#conversion-tag-settings-google).
 
    1. Selecione a conta e o tipo de conversão.
 
@@ -31,17 +32,17 @@ Para gerar tags de conversão para conversões existentes, use o editor da rede 
 
 1. Copie a tag de conversão e implemente-a nos sites a partir dos quais deseja rastrear a métrica de conversão.
 
-   Consulte &quot;Instalar o [!DNL Google] &quot; na caixa [!DNL Google Ads] ajuda para &quot;[2. Configurar a tag do Google](https://support.google.com/google-ads/answer/12215519).&quot;
+   Consulte &quot;Instalando a marca [!DNL Google]&quot; na ajuda do [!DNL Google Ads] para &quot;[2. Configure sua marca Google](https://support.google.com/google-ads/answer/12215519).&quot;
 
 1. Clique em **[!UICONTROL Done].**
 
-Depois de adicionar as tags ao site e elas começarem a disparar, [!DNL Google Ads] O registra conversões no site. O Search, Social e Commerce sincroniza as conversões diariamente. Para obter mais informações sobre os dados sincronizados, consulte &quot;[[!DNL Google Ads] dados de conversão no Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).
+Depois que você adicionar as tags ao seu site e elas começarem a disparar, [!DNL Google Ads] registrará as conversões no site. O Search, Social e Commerce sincroniza as conversões diariamente. Para obter mais informações sobre os dados sincronizados, consulte &quot;[[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).
 
 ## Configurações da tag de conversão {#conversion-tag-settings-google}
 
 **[!UICONTROL Select an Account]:** A conta do Google Ads aplicável.
 
-**[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreado: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreada: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*.
 
 **[!UICONTROL Conversion Name]:** Um nome exclusivo para a métrica de conversão.
 
@@ -49,22 +50,22 @@ Depois de adicionar as tags ao site e elas começarem a disparar, [!DNL Google A
 
 **\[Tipo de ação\]:** Se a meta é um *[!UICONTROL Primary action used for bidding optimization]* ou um *[!UICONTROL Secondary action not used for bidding optimization]*.
 
-**[!UICONTROL Value]:** Como medir a [valor de cada conversão](https://support.google.com/google-ads/answer/3419241):
+**[!UICONTROL Value]:** Como medir o [valor de cada conversão](https://support.google.com/google-ads/answer/3419241):
 
-* *[!UICONTROL Use the same value for each conversion],* que requer que você selecione uma moeda e insira o valor para cada conversão.
+* *[!UICONTROL Use the same value for each conversion],*, que requer que você selecione uma moeda e insira o valor para cada conversão.
 
-* *[!UICONTROL Use a different value for each conversion],* que requer que você selecione uma moeda e insira um valor padrão para cada conversão. Você pode alterar o valor padrão na tag com um valor específico da transação ao implementar a tag em uma página da Web específica.
+* *[!UICONTROL Use a different value for each conversion],*, que requer que você selecione uma moeda e insira um valor padrão para cada conversão. Você pode alterar o valor padrão na tag com um valor específico da transação ao implementar a tag em uma página da Web específica.
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [Quantas conversões devem ser contadas por clique ou interação](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* ou *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
+**[!UICONTROL Count]:** [Quantas conversões contar por clique ou interação](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* ou *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
 
-**[!UICONTROL Click Through Conversion Window]:** O número máximo de dias após uma interação com anúncio para a qual as conversões são registradas. Para campanhas de pesquisa, exibição e compras, a janela pode ser de 1 a 90 dias. Selecione um número ou selecione **[!UICONTROL Custom]** e insira um número.
+**[!UICONTROL Click Through Conversion Window]:** O número máximo de dias após uma interação de anúncio para a qual as conversões são registradas. Para campanhas de pesquisa, exibição e compras, a janela pode ser de 1 a 90 dias. Selecione um número ou selecione **[!UICONTROL Custom]** e insira um número.
 
-**[!UICONTROL View Through Conversion Window]:** O número máximo de dias depois que um usuário visualiza seus anúncios para os quais as conversões de view-through são registradas. Para campanhas de pesquisa, exibição e compras, a janela pode ser de 1 a 90 dias. Selecione um número ou selecione **[!UICONTROL Custom]** e insira um número.
+**[!UICONTROL View Through Conversion Window]:** o número máximo de dias depois que um usuário exibe seus anúncios nos quais as conversões de view-through são registradas. Para campanhas de pesquisa, exibição e compras, a janela pode ser de 1 a 90 dias. Selecione um número ou selecione **[!UICONTROL Custom]** e insira um número.
 
 **[!UICONTROL Attribution Model]:** [Quanto crédito cada interação de anúncio recebe](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* ou *[!UICONTROL Position based]*.
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Google Ads] dados de conversão no Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+>* [[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

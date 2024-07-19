@@ -16,13 +16,13 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Add Destination]**.
 
-1. Especifique a [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md), que variam de acordo com o tipo de destino.
+1. Especifique as [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md), que variam de acordo com o tipo de destino.
 
 1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Se o relatório estiver configurado para entrega em qualquer tipo de FTP ou [!DNL Amazon S3] você não receberá notificações se o relatório for cancelado devido a erros. Se você não receber os relatórios esperados, entre em contato com a equipe de conta do Adobe para descobrir o motivo.
+> Se o relatório estiver configurado para entrega em qualquer tipo de local FTP ou [!DNL Amazon S3], você não receberá notificações se o relatório for cancelado devido a erros. Se você não receber os relatórios esperados, entre em contato com a equipe de conta do Adobe para descobrir o motivo.
 
 >[!MORELIKETHIS]
 >

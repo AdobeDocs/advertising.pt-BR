@@ -18,15 +18,15 @@ Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Val
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Opcional) Siga qualquer um destes procedimentos:
 
    * Para alternar entre a exibição dos dados somente em forma de tabela e em formulários de tabela e gráfico, clique em ![Exibição de tabela e gráfico](/help/dsp/assets/table-plus-chart-view.png "Exibição de tabela e gráfico") ou ![Visualização em tabela](/help/dsp/assets/table-view.png "Visualização em tabela") na barra de ferramentas superior direita.
 
-   * Para adicionar uma nota a uma entrada, mantenha o cursor sobre o [!UICONTROL Notes] para a linha e clique em **[!UICONTROL Add Notes]**. Insira texto nos campos de entrada e clique em **[!UICONTROL Save]**.
+   * Para adicionar uma observação a uma entrada, mantenha o cursor sobre a coluna [!UICONTROL Notes] da linha e clique em **[!UICONTROL Add Notes]**. Insira texto nos campos de entrada e clique em **[!UICONTROL Save]**.
 
-   * Para exibir os detalhes de uma entrada em uma janela pop-up, mantenha o cursor sobre o [!UICONTROL Notes] para a linha e clique em **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Para exibir os detalhes de uma entrada em uma janela pop-up, mantenha o cursor sobre a coluna [!UICONTROL Notes] da linha e clique em **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
@@ -35,4 +35,3 @@ Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Val
 >* [Editar uma campanha](campaign-edit.md)
 >* [Configurações da campanha](campaign-settings.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)
-

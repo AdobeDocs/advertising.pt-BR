@@ -22,35 +22,35 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Use um nome fácil de encontrar ao anexar o anúncio a uma disposição, no campo [!UICONTROL Ads] e nos relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos-chave (como Visualização de produto de feriado: 15 segundos nativo).
+> Use um nome fácil de encontrar ao anexar o anúncio a um posicionamento, no modo de exibição [!UICONTROL Ads] e em relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos-chave (como Visualização de produto de feriado: 15 segundos nativo).
 
-**[!UICONTROL Native Creative]:** Uma imagem de 1200 x 627 para maximizar a entrega no inventário móvel. Clique em **[!UICONTROL Browse]** e localize o arquivo no dispositivo ou na rede e clique em **[!UICONTROL Upload]**.
+**[!UICONTROL Native Creative]:** Uma imagem de 1200x627 para maximizar a entrega no inventário móvel. Clique em **[!UICONTROL Browse]**, localize o arquivo em seu dispositivo ou rede e clique em **[!UICONTROL Upload]**.
 
-**[!UICONTROL Title]:** Um título atraente para envolver os visualizadores.
+**[!UICONTROL Title]:** Um título atraente para engajar os visualizadores.
 
 **[!UICONTROL Description]:** O corpo do anúncio. O comprimento máximo é de 100 caracteres.
 
-**[!UICONTROL Landing Page]:** O URL no qual o visualizador chega ao clicar no anúncio.
+**[!UICONTROL Landing Page]:** A URL na qual o visualizador chega ao clicar no anúncio.
 
-**[!UICONTROL Final Landing Page]:** A variável [!UICONTROL Landing Page] URL com o necessário [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
+**[!UICONTROL Final Landing Page]:** A URL [!UICONTROL Landing Page] com as [macros de rastreamento do Advertising DSP](/help/dsp/campaign-management/macros.md) necessárias inseridas, se aplicável.
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** O anunciante do anúncio.
 
-**[!UICONTROL Call to Action]:** (Opcional) A etapa que os visualizadores devem realizar quando visualizarem este anúncio.
+**[!UICONTROL Call to Action]:** (opcional) a etapa que os visualizadores devem realizar quando visualizarem este anúncio.
 
-**[!UICONTROL Advertiser Logo]:** (Opcional) Um logotipo na proporção de 1:1 a ser incluído no anúncio para obter maior reconhecimento da marca. Clique em **[!UICONTROL Browse]** e localize o arquivo no dispositivo ou na rede e clique em **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (Opcional) Um logotipo de proporção 1:1 a ser incluído no anúncio para obter mais reconhecimento da marca. Clique em **[!UICONTROL Browse]**, localize o arquivo em seu dispositivo ou rede e clique em **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** Para editar os pixels de rastreamento de terceiros para vários anúncios em uma disposição de uma só vez usando o [!UICONTROL Ad Tools] exibir, consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
+Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 As configurações a seguir se aplicam a cada pixel criado ou editado.
 
-**[!UICONTROL Integration Event]:** O evento que aciona o pixel para ser acionado. Para esse tipo de anúncio, a única opção é *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** O evento que aciona o pixel. Para este tipo de anúncio, a única opção é *[!UICONTROL Impression]*.
 
-**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem com 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem de 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** A URL da imagem do pixel, no formato apropriado para a imagem especificada [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** A URL da imagem de pixel, no formato apropriado para o [!UICONTROL Pixel Type] especificado.
 
 **[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
 
@@ -58,8 +58,8 @@ As configurações a seguir se aplicam a cada pixel criado ou editado.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
->* [Crie um único anúncio](ad-create.md)
->* [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [Especificações de publicidade](ad-specs.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Criar um único anúncio](ad-create.md)
+>* [Listar os Posicionamentos Associados a um Anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Especificações do anúncio](ad-specs.md)
 >* [Macros do DSP](/help/dsp/campaign-management/macros.md)

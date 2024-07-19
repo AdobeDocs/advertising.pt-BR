@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] configurações expandidas do anúncio de pesquisa dinâmica'
-description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios de pesquisa dinâmica expandidos.
+title: '[!DNL Microsoft Advertising] configurações de anúncio de pesquisa dinâmica expandidas'
+description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios de pesquisa dinâmica expandidos.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -39,6 +39,6 @@ Anúncios de pesquisa dinâmica expandidos (eDSAs) estão disponíveis apenas em
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Microsoft Advertising] configurações de anúncios multimídia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios responsivos (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações responsivas de pesquisa e publicidade](ad-settings-microsoft-rsa.md)

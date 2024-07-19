@@ -18,7 +18,7 @@ Este relatório mostra as impressões agregadas, cliques, gastos e custo médio 
 
 Quando você executa um relatório somente com colunas de métrica e sem dimensões, o relatório gerado contém duas linhas duplicadas: uma com dados agregados e a outra com todas as métricas.<!-- all metrics? -->
 
-Você pode exibir dados dos últimos 180 dias. O Search, Social e Commerce extrai os dados do [!DNL Microsoft Advertising] em tempo real, e pode levar vários minutos para gerar relatórios com um volume de dados maior.
+Você pode exibir dados dos últimos 180 dias. O Search, Social e Commerce extrai os dados de [!DNL Microsoft Advertising] em tempo real e pode levar vários minutos para gerar relatórios com um volume de dados maior.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Você pode exibir dados dos últimos 180 dias. O Search, Social e Commerce extra
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especiais](specialty-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especializados](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -47,6 +47,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios de especialidade](specialty-report-about.md)
+>* [Sobre relatórios especializados](specialty-report-about.md)
 >* [Gerar um relatório de especialidade](specialty-report-generate.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)

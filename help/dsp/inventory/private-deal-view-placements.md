@@ -16,23 +16,22 @@ Você pode abrir uma lista de todos os posicionamentos e anúncios associados a 
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negócios, clique em  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
+1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
-   A variável [!UICONTROL Placements] é exibida por padrão. Para exibir os anúncios, clique no link [!UICONTROL Ads] guia.
+   A guia [!UICONTROL Placements] é exibida por padrão. Para exibir os anúncios, clique na guia [!UICONTROL Ads].
 
 1. (Opcional) Siga qualquer um destes procedimentos:
 
-   * Para editar as configurações de uma disposição, mantenha o cursor sobre a linha de disposição e clique em **[!UICONTROL Edit]**. [Editar as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)e clique em **[!UICONTROL Update placement]**.
+   * Para editar as configurações de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL Edit]**. [Edite as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) e clique em **[!UICONTROL Update placement]**.
 
-   * Para remover a negociação dos destinos de inventário de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
+   * Para remover a oferta dos destinos de estoque de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-      Desanexar o posicionamento não exclui o posicionamento.
+     Desanexar o posicionamento não exclui o posicionamento.
 
-   * Para editar as configurações de um anúncio, mantenha o cursor sobre a linha do anúncio e clique em **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Editar as configurações do anúncio](/help/dsp/campaign-management/ads/ad-edit.md)e clique em **[!UICONTROL Save & submit for review]**.
+   * Para editar as configurações de um anúncio, mantenha o cursor sobre a linha do anúncio e clique em **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Edite as configurações do anúncio](/help/dsp/campaign-management/ads/ad-edit.md) e clique em **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Especificar disposições e anúncios para uma ID de oferta](deal-id-attach-placements.md)
->* [Exibir um Relatório Detalhado de uma Transação](deal-view-report.md)
-
+>* [Exibir um Relatório Detalhado de um Acordo](deal-view-report.md)

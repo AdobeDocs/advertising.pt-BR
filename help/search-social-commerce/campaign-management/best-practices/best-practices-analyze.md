@@ -20,7 +20,7 @@ Relatórios avançados podem ajudá-lo a tomar decisões estratégicas sobre as 
 
 * Seja conservador ao excluir sites de suas campanhas, pois o conteúdo e as alterações de mercado podem alterar rapidamente o valor do tráfego de um site.
 
-Para obter mais informações sobre como ajustar as palavras-chave e as configurações de campanha, consulte &quot;Ajustar as estratégias de portfólio&quot; na seção Portfolio do Guia de otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Para obter mais informações sobre como ajustar as palavras-chave e as configurações de campanha, consulte &quot;Ajustar as estratégias de portfólio&quot; na seção Portfolio do Guia de Otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
@@ -28,5 +28,5 @@ Para obter mais informações sobre como ajustar as palavras-chave e as configur
 
 >[!MORELIKETHIS]
 >
->* [Escrever texto efetivo e copiar](best-practices-write.md)
+>* [Gravar texto e cópia efetivos](best-practices-write.md)
 >* [Otimizar as páginas de aterrissagem do site](best-practices-optimize.md)

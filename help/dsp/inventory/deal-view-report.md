@@ -1,5 +1,5 @@
 ---
-title: Exibir um Relatório detalhado de um evento [!UICONTROL On Demand]ou [!UICONTROL Simple Ad Serving] Negociação
+title: Exibir um Relatório Detalhado de uma oferta privada, [!UICONTROL On Demand] ou [!UICONTROL Simple Ad Serving]
 description: Saiba como abrir um relatório de nível de negócios.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
@@ -26,4 +26,3 @@ O relatório no nível de negócios inclui o número de leilões, a taxa de ofer
 >* [Sobre [!DNL On Demand] Inventário Premium](on-demand-inventory-about.md)
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Sobre [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
-

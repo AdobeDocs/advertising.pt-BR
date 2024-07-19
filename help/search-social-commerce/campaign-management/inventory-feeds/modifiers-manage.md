@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar modificadores
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente excluir ações) e [!DNL Yandex] somente contas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
 
 Modificadores são adjetivos ou advérbios que podem ser adicionados ou removidos de uma sentença sem alterar a estrutura básica da sentença. Você pode criar grupos de modificadores para usar como variáveis em vários campos de dados em modelos de dados de feed. Ao incluir modificadores nos campos de estrutura de conta (campanha e grupo de anúncios), palavras-chave, URLs de base e anúncios, você cria um valor para cada valor de modificador associado. Por exemplo, se você usar uma variável do grupo de modificadores em um título de anúncio e o grupo de modificadores incluir três modificadores (&quot;barato&quot;, &quot;desconto&quot; e &quot;acessível&quot;), três anúncios separados serão criados para cada linha de dados no feed de dados — um para cada modificador. Da mesma forma, se você incluir um grupo de modificadores com vários valores no URL base de um grupo de anúncios, um conjunto de palavras-chave será criado para cada um dos URLs base resultantes.
 
@@ -54,7 +54,7 @@ Cada grupo de modificadores pode incluir quantos modificadores desejar. Cada mod
 
 >[!IMPORTANT]
 >
->Quando você deleta um grupo de modificadores, remove todas as variáveis desse grupo de modificadores (denotado como `<modifier_group_name>`) nos campos dos modelos existentes. Se você tentar propagar dados por meio de um modelo usando variáveis para modificadores que não existem, o job falhará1.
+>Ao excluir um grupo de modificadores, remova todas as variáveis desse grupo de modificadores (denotado como `<modifier_group_name>`) dos campos de modelos existentes. Se você tentar propagar dados por meio de um modelo usando variáveis para modificadores que não existem, o job falhará1.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -66,7 +66,7 @@ Cada grupo de modificadores pode incluir quantos modificadores desejar. Cada mod
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-1. (Se necessário) [Remover referências ao modificador](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
+1. (Se necessário) [Remova referências ao modificador ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
 
 >[!MORELIKETHIS]
 >

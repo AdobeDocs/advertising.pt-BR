@@ -1,6 +1,6 @@
 ---
-title: Exibir e criar ativos de publicidade a partir do seu [!UICONTROL Asset Library]
-description: Saiba como visualizar e criar ativos de imagem, vídeo e texto reutilizáveis para o seu [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
+title: Exibir e criar ativos de publicidade de seu [!UICONTROL Asset Library]
+description: Saiba como exibir e criar ativos de imagem, vídeo e texto reutilizáveis para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
 source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Exibir e criar ativos de publicidade a partir do seu [!UICONTROL Asset Library]
+# Exibir e criar ativos de publicidade de seu [!UICONTROL Asset Library]
 
-*Para [!DNL Google Ads] e [!DNL Microsoft Advertising] somente contas*
+*Somente para contas [!DNL Google Ads] e [!DNL Microsoft Advertising]*
 
-Entrada [!UICONTROL Campaigns] > [!UICONTROL Asset Library], você poderá ver todas as imagens, vídeos e vídeos reutilizáveis (para [!DNL Google Ads] somente) ativos de texto no seu [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta. Você também pode criar novos ativos para uma conta de rede de publicidade e carregá-los na rede de publicidade.
+Em [!UICONTROL Campaigns] > [!UICONTROL Asset Library], você pode exibir todos os ativos de imagem, vídeo e texto reutilizáveis (somente para [!DNL Google Ads]) nas bibliotecas de ativos no nível da conta do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. Você também pode criar novos ativos para uma conta de rede de publicidade e carregá-los na rede de publicidade.
 
 Você pode usar qualquer um dos ativos das campanhas de desempenho máximo.
 
@@ -52,11 +52,11 @@ Você pode usar qualquer um dos ativos das campanhas de desempenho máximo.
 
             1. Clique em **[!UICONTROL Proceed]**.
 
-      * Para ativos de vídeo, insira o URL de um [!DNL YouTube] um vídeo com pelo menos 10 segundos de duração. Para adicionar outro ativo de vídeo, clique em **+ Adicionar** e insira outro URL.
+      * Para ativos de vídeo, insira a URL para um vídeo do [!DNL YouTube] que tenha pelo menos 10 segundos de duração. Para adicionar outro ativo de vídeo, clique em **+ Adicionar** e insira outra URL.
 
         Você pode publicar até 10 URLs de vídeo por vez.
 
-      * ([!DNL Google Ads] contas somente) Para ativos de texto, insira a sequência de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e digite outra string de texto.
+      * (Somente contas do [!DNL Google Ads]) Para ativos de texto, insira a sequência de texto. Para adicionar outro ativo de texto, clique em **+ Adicionar** e insira outra cadeia de caracteres de texto.
 
         Cada ativo de texto pode ter no máximo 1000 caracteres. É possível carregar no máximo 10 ativos de texto por vez.
 

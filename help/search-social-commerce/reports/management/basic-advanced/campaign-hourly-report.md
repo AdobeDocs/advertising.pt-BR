@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Hourly Report]'
 description: Saiba mais sobre o [!UICONTROL Campaign Hourly Report].
-exl-id: 0819d249-c105-4408-b5a2-a82a9e553d31
+exl-id: 0e807e74-b8f8-4823-a9d9-1871a20e90b6
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Hourly Report]
 
-A variável [!UICONTROL Campaign Hourly Report] inclui dados de custo, clique e conversão (opcionalmente) de um ou mais [!DNL Google Ads] campanhas com palavras-chave. Por padrão, os dados incluem uma linha para cada campanha aplicável para cada hora no intervalo de datas especificado, e as linhas estão em ordem crescente, primeiro por campanha e depois (quando aplicável) por portfólio.
+O [!UICONTROL Campaign Hourly Report] inclui dados de custo, clique e conversão (opcionalmente) de uma ou mais campanhas [!DNL Google Ads] com palavras-chave. Por padrão, os dados incluem uma linha para cada campanha aplicável para cada hora no intervalo de datas especificado, e as linhas estão em ordem crescente, primeiro por campanha e depois (quando aplicável) por portfólio.
 
 Opcionalmente, você pode incluir classificações de rótulos específicas do anunciante.
 
@@ -20,7 +20,7 @@ Os dados estarão disponíveis a partir de 15 de maio de 2021. <!-- [Later: You 
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]

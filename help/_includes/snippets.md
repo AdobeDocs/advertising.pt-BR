@@ -11,13 +11,13 @@ ht-degree: 0%
 
 <!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
 
-**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página inicial, e também incorpora o URL da página final/de aterrissagem em uma [!DNL ValueTrack] parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro [!DNL ValueTrack]. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
-* Para obter os parâmetros compatíveis que incorporam o URL final, consulte a [[!DNL Google Ads] documentação para o suportado [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348). (Vá para os parâmetros &quot;Modelo de rastreamento somente&quot; na seção &quot;Disponível [!DNL ValueTrack] Parâmetros.&quot;)
+* Para obter os parâmetros compatíveis para incorporar a URL final, consulte a [[!DNL Google Ads] documentação dos [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348) compatíveis. (Vá para os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot;.)
 
-* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;dispositivo={device}.
+* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros.
 
@@ -31,13 +31,13 @@ Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as 
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da página de aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**[!UICONTROL Tracking Template]:** (Opcional) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
-* Para obter os parâmetros compatíveis que incorporam o URL final, consulte a [[!DNL Microsoft Advertising] documentação sobre parâmetros para indicar o URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
+* Para obter os parâmetros com suporte para incorporar a URL final, consulte a [[!DNL Microsoft Advertising] documentação sobre parâmetros para indicar a URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
 
-* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;dispositivo={device}.
+* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros.
 
@@ -50,11 +50,11 @@ Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as 
 
 ## Modelo de anúncio de texto - Nota que explica como inserir um parâmetro dinâmico {#inventory-feed-template-insert-dynamic-parameter}
 
-Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em uma [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) na lista Modificadores. Para inserir a variável [!DNL Param1] ou [!DNL Param2] insira o valor `{param1:default text}` ou `{param2:default text}`, onde &quot;texto padrão&quot; é o texto usado se a coluna de parâmetros no arquivo de feed estiver vazia em uma linha de anúncio.
+Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em um [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) na lista de Modificadores. Para inserir a variável [!DNL Param1] ou [!DNL Param2], insira o valor `{param1:default text}` ou `{param2:default text}`, onde &quot;texto padrão&quot; é o texto que será usado se a coluna de parâmetro no arquivo de feed estiver vazia em uma linha de anúncio.
 
 ## Modelo de anúncio de texto - Nota explicando como inserir um personalizador de anúncio {#inventory-feed-template-insert-ad-customizer}
 
-Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não inclui um valor válido:
+Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não incluir um valor válido:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`
 

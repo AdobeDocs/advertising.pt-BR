@@ -20,7 +20,7 @@ As listas no nível do anunciante substituem as listas no nível da conta.
 
 >[!NOTE]
 >
->* Listas de sites bloqueados no nível da conta e do anunciante são aplicadas além do DSP [lista de sites bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites), que incluem sites considerados inseguros para anúncios.
+>* Listas de sites bloqueados no nível da conta e do anunciante são aplicadas além da [lista de sites bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) do DSP, que inclui sites considerados inseguros para anúncios.
 >* Os usuários também podem adicionar sites direcionados a qualquer posicionamento.
 >* As listas de sites bloqueados sempre substituem as listas de sites direcionados. Se uma disposição excluir e incluir o mesmo target para um anúncio, a target será excluída.
 

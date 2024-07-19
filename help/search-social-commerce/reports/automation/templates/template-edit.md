@@ -1,9 +1,9 @@
 ---
 title: Editar um modelo de relatório
 description: Saiba como editar as configurações para seus modelos de relatório reutilizáveis.
-exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Clique em **[!UICONTROL Templates]** guia.
+1. Clique na guia **[!UICONTROL Templates]**.
 
 1. Clique no nome do template.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > Ao editar as configurações, não é necessário marcar a caixa de seleção ao lado de &quot;[!UICONTROL Save as template]&quot; no [!UICONTROL Scheduling and Delivery] seção. Isso solicitará que você crie um novo modelo com um nome diferente.
+   > Ao editar as configurações, não é necessário marcar a caixa de seleção ao lado de &quot;[!UICONTROL Save as template]&quot; na seção [!UICONTROL Scheduling and Delivery]. Isso solicitará que você crie um novo modelo com um nome diferente.
 
 1. Clique em **[!UICONTROL Update Template]**.
 

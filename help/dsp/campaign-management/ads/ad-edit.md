@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para alterar os pixels de rastreamento de terceiros para vários anúncios de uma só vez, consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
+>Para alterar os pixels de rastreamento de terceiros para vários anúncios de uma só vez, consulte &quot;[Anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. No submenu, clique em **[!UICONTROL Ads]**.
 
-1. Ao lado do nome do anúncio, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Ao lado do nome do anúncio, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Editar as configurações de publicidade de [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [exibir anúncios](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios antes da exibição](ad-settings-pre-roll.md)ou [anúncios de vídeo universais](ad-settings-universal-video.md).
+1. Edite as configurações de anúncio para [anúncios de áudio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [anúncios de exibição](ad-settings-display.md), [anúncios móveis](ad-settings-mobile.md), [anúncios nativos](ad-settings-native.md), [anúncios precedentes](ad-settings-pre-roll.md) ou [anúncios de vídeo universais](ad-settings-universal-video.md).
 
    >[!NOTE]
    >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Save and Close]**.
 
-   O anúncio editado passa por um novo [revisão de publicidade](ad-about.md), que leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A variável [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   O anúncio editado passa por uma nova [revisão de anúncio](ad-about.md), que leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de cliques e renderização de visualização. A coluna [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
 
    >[!NOTE]
    >
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
->* [Crie um único anúncio](ad-create.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Criar um único anúncio](ad-create.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Duplicar um anúncio](ad-duplicate.md)
->* [Listar as disposições associadas a um anúncio](ad-list-placements.md)
->* [Especificações de publicidade](ad-specs.md)
+>* [Listar os Posicionamentos Associados a um Anúncio](ad-list-placements.md)
+>* [Especificações do anúncio](ad-specs.md)

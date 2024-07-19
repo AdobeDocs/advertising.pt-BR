@@ -14,15 +14,15 @@ ht-degree: 0%
 
 É possível integrar o Adobe Advertising com o Analytics das seguintes maneiras.
 
-## Trocar Dados Entre [!DNL Analytics] e ADOBE ADVERTISING
+## Trocar Dados entre [!DNL Analytics] e Adobe Advertising
 
-### Puxar [!DNL Analytics] Dados no Adobe Advertising
+### Transferir dados do [!DNL Analytics] para o Adobe Advertising
 
-Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e o DSP puxa:
+Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e DSP:
 
-* **[!DNL Analytics]segmentos:**  Metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os segmentos de um anunciante ou agência criados no [!DNL Analytics] e publicado no Experience Cloud.
+* **[!DNL Analytics]segmentos:** Metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os segmentos de um anunciante ou de uma agência criados em [!DNL Analytics] e publicados no Experience Cloud.
 
-* **[!DNL Analytics]métricas de engajamento no site**
+* **[!DNL Analytics]métricas de envolvimento do site**
 
 * **[!DNL Analytics]métricas padrão, personalizadas e reservadas**
 
@@ -34,28 +34,28 @@ Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 >[!NOTE]
 >
->Para [!DNL Search, Social, & Commerce], esse recurso é compatível com a maioria das redes de anúncios e tipos de campanha. Consulte &quot;Inventário suportado&quot; no [!DNL Search, Social, & Commerce] Guia para obter mais informações.<!-- add link when that's published in ExL -->
+>Para [!DNL Search, Social, & Commerce], esse recurso tem suporte para a maioria das redes de anúncios e tipos de campanha. Consulte &quot;Inventário com Suporte&quot; no Guia do [!DNL Search, Social, & Commerce] para obter mais informações.<!-- add link when that's published in ExL -->
 
-### Uso [!DNL Analytics] Segmentos a serem criados [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
+### Usar [!DNL Analytics] segmentos para criar [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
-*Anunciantes aceitos com o [!DNL Advertising Search, Social, & Commerce] somente*
+*Anunciantes aceitos com [!DNL Advertising Search, Social, & Commerce] somente*
 
 <!-- Verify all -->
 
-Dentro de [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] Públicos-alvo de correspondência de clientes do Google provenientes de IDs de usuários que usam sua [!DNL Analytics] segmentos. Isso inclui segmentos do Adobe Analytics publicados no Adobe Experience Cloud e segmentos criados usando a Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte &quot;[Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
+No [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente do Google a partir de IDs de usuário usando seus [!DNL Analytics] segmentos existentes. Isso inclui segmentos do Adobe Analytics publicados no Adobe Experience Cloud e segmentos criados com o Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte &quot;[Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos-alvo](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
-[Públicos-alvo de correspondência do cliente de IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo com base em tags do site, mas uma ID que não seja uma PII é atribuída a membros únicos do público-alvo para obter benefícios distintos em relação à correspondência padrão do cliente e aos públicos-alvo com base em tags do site.
+[Os públicos-alvo de correspondência do cliente das IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo baseados em marcas de site, mas uma ID que não seja uma PII é atribuída a membros de público-alvo exclusivos para benefícios distintos em relação aos públicos-alvo padrão baseados em marcas de site e correspondência do cliente.
 
-Para criar as IDs de usuário necessárias, você deve usar uma tag JavaScript do Adobe Advertising <!-- with a user ID parameter -->em seus sites. Entre em contato com a equipe de conta do Adobe para obter mais informações.
+Para criar as IDs de usuário necessárias, você deve usar uma tag Adobe Advertising JavaScript <!-- with a user ID parameter -->nos sites. Entre em contato com a equipe de conta do Adobe para obter mais informações.
 
 ![processo de criação de segmento](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Depois de criar os públicos-alvo, você pode usá-los no [!DNL Google Ads] campanhas como [metas ou exclusões no nível da campanha ou do grupo de anúncios](#audience-manager-targets).
+Depois de criar os públicos, você pode usá-los em [!DNL Google Ads] campanhas como [exclusões ou destinos de nível de campanha ou de grupo de anúncios](#audience-manager-targets).
 
-### Uso [!DNL Analytics] Segmentos para direcionar ou excluir anúncios {#analytics-targets}
+### Usar [!DNL Analytics] segmentos para direcionar ou excluir anúncios {#analytics-targets}
 
-* (Anunciantes aceitos com [!DNL Search, Social, & Commerce]) É possível usar qualquer [!DNL Google Ads] públicos-alvo que foram [criado usando [!DNL Analytics] segmentos](#audience-manager-google-audiences) como exclusões ou alvos no nível da campanha ou do grupo de anúncios no [!DNL Google Ads] campanhas.
+* (Anunciantes aceitos com [!DNL Search, Social, & Commerce]) Você pode usar qualquer [!DNL Google Ads] público-alvo que tenha sido [criado usando [!DNL Analytics] segmentos](#audience-manager-google-audiences) como metas ou exclusões no nível da campanha ou do grupo de anúncios em suas [!DNL Google Ads] campanhas.
 
-* (Anunciantes com DSP) Você pode usar seu anúncio existente [!DNL Analytics] segmentos como destinos para seus posicionamentos de anúncios. Opcionalmente, é possível incluir os segmentos em públicos-alvo reutilizáveis, que você pode usar como destinos ou exclusões para vários posicionamentos.
+* (Anunciantes com DSP) Você pode usar seus segmentos existentes do [!DNL Analytics] como destinos de seus posicionamentos de anúncios. Opcionalmente, é possível incluir os segmentos em públicos-alvo reutilizáveis, que você pode usar como destinos ou exclusões para vários posicionamentos.
 
-* (Anunciantes com Advertising Creative) Você pode usar seu anúncio existente [!DNL Analytics] segmentos como alvos para criações específicas em suas experiências de anúncio.
+* (Anunciantes com Advertising Creative) Você pode usar seus segmentos existentes do [!DNL Analytics] como destinos de criações específicas em suas experiências de anúncio.

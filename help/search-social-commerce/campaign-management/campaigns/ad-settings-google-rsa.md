@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Google Ads] pesquisa responsiva e configurações'
-description: Referenciar as configurações de [!DNL Google Ads] anúncios de pesquisa responsivos.
-exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+title: Configurações de anúncio de pesquisa responsiva '[!DNL Google Ads]'
+description: Referencie as configurações de  [!DNL Google Ads] anúncios de pesquisa responsivos.
+exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] configurações de anúncio de pesquisa responsiva
+# Configurações de anúncios de pesquisa responsiva [!DNL Google Ads]
 
 [!DNL Google Ads] monta dinamicamente [anúncios de pesquisa responsivos](https://support.google.com/google-ads/answer/7684791?hl=en) (RSAs) com até três títulos e duas descrições.
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Cada grupo de publicidade pode incluir até três anúncios de pesquisa responsivos ativados.
 
-Consulte a [!DNL Google Ads] ajuda para [limites de publicidade por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
+Consulte a ajuda do [!DNL Google Ads] para [limites de anúncios por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 

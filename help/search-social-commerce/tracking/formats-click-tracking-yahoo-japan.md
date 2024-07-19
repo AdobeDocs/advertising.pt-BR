@@ -1,22 +1,22 @@
 ---
-title: Formatos de rastreamento de cliques para [!DNL Yahoo! Japan Ads]
-description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Yahoo! Japan Ads] contas.
-exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
+title: Formatos de rastreamento de cliques para  [!DNL Yahoo! Japan Ads]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yahoo! Japan Ads] .
+exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-# Formatos de rastreamento de cliques para anúncios patrocinados no [!DNL Yahoo! Japan Ads]
+# Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yahoo! Japan Ads]
 
 Os seguintes formatos de modelo de rastreamento base se aplicam aos anúncios patrocinados:
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}`
 
-ou, quando a opção de marcação automática estiver definida para a conta no [!DNL Yahoo! Japan Ads]:
+ou, quando a opção de marcação automática estiver definida para a conta em [!DNL Yahoo! Japan Ads]:
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}/?yclid=<yclid>`
 
@@ -26,13 +26,13 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `<the landing page>` é uma variável que representa o URL do site para o qual os usuários finais são direcionados.
+>* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

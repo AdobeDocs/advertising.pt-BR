@@ -1,6 +1,6 @@
 ---
-title: Formatos de rastreamento de cliques para [!DNL Microsoft Advertising]
-description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Microsoft Advertising] contas.
+title: Formatos de rastreamento de cliques para  [!DNL Microsoft Advertising]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formatos de rastreamento de cliques para [!DNL Microsoft Advertising]
 
-A seguir estão os formatos de modelo base de rastreamento e sufixo de página de aterrissagem (sufixo de URL final) exigidos pelo Search, Social e Commerce para [!DNL Microsoft Advertising].
+A seguir estão os formatos de modelo base de rastreamento e sufixo de página de aterrissagem (sufixo de URL final) que o Search, Social e Commerce exige para [!DNL Microsoft Advertising].
 
 ## Formatos de modelo de rastreamento
 
@@ -28,11 +28,11 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
 
 ### Sitelinks
 
@@ -44,15 +44,15 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
 >
->* `{adextensionid}` não é usado.
+>* `{adextensionid}` não está em uso.
 >
->* (Sitelinks) Você pode ver quais conversões resultaram de um clique em um sitelink gerando um [!UICONTROL Transaction Report]. A variável [!UICONTROL Link Type] o valor da coluna para um sitelink é `sl:<Sitelink text>`, como `sl:See Current Offers`.
+>* (Sitelinks) Você pode ver quais conversões resultaram de um clique em um sitelink gerando um [!UICONTROL Transaction Report]. O valor da coluna [!UICONTROL Link Type] para um sitelink é `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
 ### Rede de compras
 
@@ -66,13 +66,13 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
 >
->* (Opcional) Em vez de inserir modelos de rastreamento no nível da conta, campanha, grupo de anúncios ou grupo de produtos, você pode adicionar o URL de rastreamento aos dados do produto no [!DNL Microsoft Merchant Center] conta. Para fazer isso, inclua o URL de rastreamento junto com o valor no &quot;`link`&quot; ou &quot;`mobile_link`&quot;campo, conforme apropriado, em uma coluna personalizada&quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; no feed do produto. O valor no campo &quot;`bingads_redirect`O campo &quot; substitui os valores no &quot;`link`&quot; e &quot;`mobile_link`&quot;. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de pesquisa, social e conta da Commerce ou da campanha.
+>* (Opcional) Em vez de inserir modelos de rastreamento no nível da conta, campanha, grupo de anúncios ou grupo de produtos, você pode adicionar a URL de rastreamento aos dados do produto na conta [!DNL Microsoft Merchant Center]. Para fazer isso, inclua a URL de rastreamento junto com o valor no campo &quot;`link`&quot; ou &quot;`mobile_link`&quot;, conforme apropriado, em uma coluna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; no feed do produto. O valor no campo &quot;`bingads_redirect`&quot; substitui os valores nos campos &quot;`link`&quot; e &quot;`mobile_link`&quot;. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de pesquisa, social e conta da Commerce ou da campanha.
 
 ## Formatos de sufixo de página de aterrissagem (sufixo de URL final)
 
@@ -107,4 +107,4 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Sobre Inventário Privado
 
-*Não disponível para usuários com os tipos de conta &quot;Rede de publicidade&quot;, &quot;Extensão de público-alvo do editor&quot; e &quot;Outro&quot;; anunciantes com a categoria &quot;Outro&quot;; e revendedores*
+*Não disponível para usuários com os tipos de conta &quot;Rede de Anúncios&quot;, &quot;Extensão de Público-Alvo do Editor&quot; e &quot;Outros&quot;; anunciantes com a categoria &quot;Outros&quot;; e revendedores*
 
 Os anunciantes que procuram além do RTB podem usar o inventário privado para facilitar as transações de mídia exclusivas. As trocas privadas permitem que os editores criem pools exclusivos de inventário, que os anunciantes aprovados podem usar para comprar por meio de plataformas em tempo real. Um intercâmbio privado oferece a confiança de uma compra direta combinada com benefícios programáticos, como eficiência, fluxo de trabalho simplificado e análise centralizada de campanha.
 
 ## IDs de oferta
 
-Se você tiver relações diretas com editores, poderá simplificar seu processo de compra de mídia e fluxo de trabalho usando suas próprias ofertas privadas, com inventário e preços negociados, em suas inserções de DSP de publicidade. O DSP se integra a todos os seus editores ao configurar uma conta. Se desejar obter acesso a editores adicionais posteriormente, entre em contato com a equipe de conta do Adobe para configurar o acesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Se você tiver relações diretas com editores, poderá simplificar seu processo de compra de mídia e fluxo de trabalho usando suas próprias ofertas privadas, com inventário e preços negociados, em seus posicionamentos do Advertising DSP. O DSP se integra a todos os seus editores ao configurar uma conta. Se desejar obter acesso a editores adicionais posteriormente, entre em contato com a equipe de conta do Adobe para configurar o acesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
-Todas as suas ofertas privadas com uma ID de negócios são financiadas e faturadas pelo [!DNL Adobe].
+Todas as suas ofertas privadas com uma ID de negócios são financiadas e faturadas por [!DNL Adobe].
 
 Você pode usar IDs de negócios de uma das seguintes maneiras:
 
-* (Recurso opcional que requer ativação) No [!UICONTROL Deal ID Inbox], você pode revisar e aceitar rapidamente suas ofertas de inventário privado garantidas e não garantidas acordadas de editores nas seguintes plataformas do lado do suprimento (SSPs): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (antigo [!DNL Rubicon]) do [!UICONTROL Deal ID inbox].
+* (Recurso opcional que requer ativação) No [!UICONTROL Deal ID Inbox], você pode revisar e aceitar rapidamente suas ofertas de estoque privado garantidas e não garantidas acordadas de editores nas seguintes plataformas do lado da oferta (SSPs): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]) do [!UICONTROL Deal ID inbox].
 
-   Para obter mais informações, consulte &quot;[Sobre o [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).&quot;
+  Para obter mais informações, consulte &quot;[Sobre o [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)&quot;.
 
 * Você pode configurar manualmente as informações sobre uma negociação privada que já negociou.
 
@@ -34,7 +34,7 @@ Você pode usar cada negociação privada como um direcionamento de posicionamen
 
 ## A Visão de Ofertas
 
-No [!UICONTROL Inventory] > [!UICONTROL Deals] você pode criar configurações de negociação privada. Você também pode editar algumas configurações de negócios, listar os posicionamentos e anúncios e anexar posicionamentos e anúncios adicionais a uma negociação privada, editar os anunciantes e as contas que podem acessar uma negociação privada, exibir um relatório de desempenho de uma negociação, exibir insights de leilão para uma negociação privada ou arquivar ou desarquivar uma negociação.<!-- ; or edit the attribute tags for a deal -->
+Na exibição [!UICONTROL Inventory] > [!UICONTROL Deals], você pode criar configurações de negociação privada. Você também pode editar algumas configurações de negócios, listar os posicionamentos e anúncios, e anexar posicionamentos e anúncios adicionais, a um negócio privado, editar os anunciantes e as contas que podem acessar um negócio privado, exibir um relatório de desempenho de um negócio, exibir insights de leilão para um negócio privado ou arquivar ou desarquivar um negócio.<!-- ; or edit the attribute tags for a deal -->
 
 A coluna &quot;Integridade da transação&quot; indica o status de integridade de cada transação privada: &quot;Sucesso&quot;, &quot;Aviso&quot;, &quot;Crítico&quot; ou &quot;Indisponível&quot;. Você pode clicar no status para ver mais detalhes, incluindo por que uma transação não está funcionando ou gastando conforme o esperado e as etapas para solucionar possíveis problemas.
 
@@ -42,8 +42,7 @@ Você pode personalizar como os dados de negócios existentes são apresentados 
 
 >[!MORELIKETHIS]
 >
->* [Visão Geral dos Recursos do Inventário](/help/dsp/inventory/inventory-overview.md)
+>* [Visão Geral dos Recursos de Inventário](/help/dsp/inventory/inventory-overview.md)
 >* [Sobre o [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [Aceitar uma oferta na caixa de entrada da ID de oferta](deal-id-inbox-accept.md)
->* [Criar manualmente detalhes da ID do contrato](deal-id-create.md)
-
+>* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
+>* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)

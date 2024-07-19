@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Product Group Report]'
 description: Saiba mais sobre o [!UICONTROL Product Group Report].
-exl-id: cda775bb-3b86-4315-9b46-bf5f488a9fe8
+exl-id: 4e310d06-11fe-4c5a-b9a3-59ee099aeaef
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Product Group Report]
 
-A variável [!UICONTROL Product Group Report] inclui dados de custo, clique e conversão (opcionalmente) por grupo de produtos, agregados em contas, campanhas ou grupos de anúncios. Opcionalmente, é possível filtrar os dados por rótulo. Por padrão, os dados incluem uma linha para cada meta de produto aplicável para anúncios de listagem de produtos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data de início da unidade de tempo e, em seguida, pelo destino do produto por padrão.
+O [!UICONTROL Product Group Report] inclui dados de custo, clique e conversão (opcionalmente) por grupo de produtos, agregados em contas, campanhas ou grupos de anúncios. Opcionalmente, é possível filtrar os dados por rótulo. Por padrão, os dados incluem uma linha para cada meta de produto aplicável para anúncios de listagem de produtos que receberam impressões para cada unidade de tempo no intervalo de datas especificado. As linhas estão em ordem crescente, primeiro pela data de início da unidade de tempo e, em seguida, pelo destino do produto por padrão.
 
 Opcionalmente, você pode incluir classificações de rótulos específicas do anunciante.
 
-Você pode visualizar os dados de cliques dos últimos dois meses e os dados pós-clique de todas as redes de anúncios nas integrações de Pesquisa, Social, Comércio e Adobe Analytics dos últimos 18 meses.
+Você pode visualizar os dados de cliques dos últimos dois meses e os dados pós-clique de todas as redes de anúncios nas integrações de Pesquisa, Social e Commerce e Adobe Analytics dos últimos 18 meses.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios básicos e avançados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Product Groupings]
 * [!UICONTROL Parent Product Groupings]

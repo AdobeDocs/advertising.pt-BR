@@ -18,9 +18,9 @@ A seguir estão os requisitos para o formato de arquivo, campos de dados obrigat
 
 O arquivo de dados deve estar no formato de texto simples (TXT), valores separados por vírgula (CSV) ou valores separados por tabulação (TSV). O arquivo pode consistir em uma linha de cabeçalho e linhas de dados com valores separados por guias, vírgulas ou outro caractere (mas não espaços):
 
-* **Linha de cabeçalho:** (Opcional) A primeira linha do arquivo é um cabeçalho, que especifica os nomes de campo necessários (ou nomes de coluna) em uma ordem específica, separados por guias ou vírgulas. Os nomes de coluna necessários incluem as métricas de conversão que o Adobe Advertising está rastreando como conversões.
+* **Linha de cabeçalho:** (opcional) A primeira linha do arquivo é um cabeçalho que especifica os nomes de campos obrigatórios (ou nomes de colunas) em uma ordem específica, separados por tabulações ou vírgulas. Os nomes de coluna necessários incluem as métricas de conversão que o Adobe Advertising está rastreando como conversões.
 
-* **Linhas de dados:** Cada linha subsequente inclui campos de dados na mesma ordem do cabeçalho e separados por guias ou vírgulas. Se o primeiro registro não for um cabeçalho, cada linha de dados deverá incluir todos os campos possíveis, em uma ordem especificada. Os valores de todas as IDs e métricas de conversão devem ser alfanuméricos.
+* **Linhas de dados:** cada linha subsequente inclui campos de dados na mesma ordem do cabeçalho e separados por guias ou vírgulas. Se o primeiro registro não for um cabeçalho, cada linha de dados deverá incluir todos os campos possíveis, em uma ordem especificada. Os valores de todas as IDs e métricas de conversão devem ser alfanuméricos.
 
   Quando vários cliques em um ou vários anúncios levam a uma transação, é necessário determinar a ID do clique e a ID de rastreamento à qual atribuir a transação. Como um identificador exclusivo é relatado para cada transação, você pode atualizar transações individuais.
 
@@ -38,5 +38,5 @@ Envie o arquivo por meio do protocolo de transferência SFTP, usando a Porta 22.
 
 >[!MORELIKETHIS]
 >
->* [Requisitos em matéria de dados aplicáveis aos feeds de dados que utilizam IDs de EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [Requisitos em matéria de dados aplicáveis aos feeds de dados que utilizam uma ID de transação](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [Requisitos de dados para feeds de dados usando EF IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+>* [Requisitos de dados para feeds de dados usando uma ID de transação](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

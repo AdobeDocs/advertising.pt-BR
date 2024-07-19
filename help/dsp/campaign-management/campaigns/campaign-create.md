@@ -13,12 +13,12 @@ ht-degree: 0%
 # Criar uma campanha
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. No [!UICONTROL Campaigns] clique em **[!UICONTROL Create campaign]**.
-1. Insira o [configurações da campanha](campaign-settings.md):
-   1. Especifique a [!UICONTROL Basic Campaign Details].
-   1. (Somente usuários administradores) Na [!UICONTROL Ad Cloud Admin Fields] especifique as configurações administrativas.
-   1. No [!UICONTROL Campaign Goals] especifique o orçamento. Opcionalmente, é possível alterar as configurações da meta padrão e selecionar pacotes existentes e/ou criar pacotes para incluir na campanha.
-   1. (Opcional) Na [!UICONTROL Campaign Measurement] especifique todas as opções de medição de terceiros e primários para visualização, fraude, segurança da marca e verificação do público-alvo.
+1. Na exibição [!UICONTROL Campaigns], clique em **[!UICONTROL Create campaign]**.
+1. Insira as [configurações da campanha](campaign-settings.md):
+   1. Especifique o [!UICONTROL Basic Campaign Details].
+   1. (Somente usuários administradores) Na seção [!UICONTROL Ad Cloud Admin Fields], especifique as configurações administrativas.
+   1. Na seção [!UICONTROL Campaign Goals], especifique o orçamento. Opcionalmente, é possível alterar as configurações da meta padrão e selecionar pacotes existentes e/ou criar pacotes para incluir na campanha.
+   1. (Opcional) Na seção [!UICONTROL Campaign Measurement], especifique quaisquer opções de medição de terceiros e primários para visibilidade, fraude, segurança da marca e verificação de público-alvo.
 1. Clique em **[!UICONTROL Create Campaign]**.
 
 >[!MORELIKETHIS]
@@ -29,4 +29,3 @@ ht-degree: 0%
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
 >* [Configurações da campanha](campaign-settings.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)
-

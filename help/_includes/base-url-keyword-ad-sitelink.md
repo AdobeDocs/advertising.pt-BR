@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Campo URL base na maioria das configurações de palavra-chave e sitelink
 
-**[!UICONTROL Base URL]:** O URL da página de aterrissagem para o qual os usuários do mecanismo de pesquisa são direcionados quando clicam no anúncio. Inclua quaisquer parâmetros que determinem o conteúdo da página. Os URLs de base no nível de palavra-chave e no nível de sitelink substituem os do nível de anúncio.
+**[!UICONTROL Base URL]:** A URL da página de aterrissagem para a qual os usuários do mecanismo de pesquisa são levados quando clicam no seu anúncio. Inclua quaisquer parâmetros que determinem o conteúdo da página. Os URLs de base no nível de palavra-chave e no nível de sitelink substituem os do nível de anúncio.
 
 Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscimo configurados para a campanha ou conta.

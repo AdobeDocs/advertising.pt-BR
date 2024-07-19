@@ -1,16 +1,16 @@
 ---
 title: '[!DNL Yandex] configurações da campanha'
-description: Referenciar as configurações de [!DNL Yandex] campanhas.
-exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+description: Referencie as configurações de  [!DNL Yandex] campanhas.
+exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] configurações da campanha
+# Configurações de campanha de [!DNL Yandex]
 
 ## \[Tela de criação da campanha\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Exibe anúncios de texto na rede de pesquisa. Você deve especificar palavras-chave para cada grupo de publicidade.
 
-* *[!UICONTROL Search and Display Network]:* Exibe anúncios de texto na rede de pesquisa e na [!DNL Yandex Advertising Network]. Para anúncios de pesquisa, você deve especificar palavras-chave de pesquisa para cada grupo de publicidade; para anúncios de exibição, você deve especificar palavras-chave para os sites nos quais deseja anunciar cada grupo de publicidade.
+* *[!UICONTROL Search and Display Network]:* Exibe anúncios de texto na rede de pesquisa e no [!DNL Yandex Advertising Network]. Para anúncios de pesquisa, você deve especificar palavras-chave de pesquisa para cada grupo de publicidade; para anúncios de exibição, você deve especificar palavras-chave para os sites nos quais deseja anunciar cada grupo de publicidade.
 
 * *[!UICONTROL Display Network Only]:* Exibe anúncios de texto no [!DNL Yandex Advertising Network]. Para cada grupo de publicidade, você deve especificar palavras-chave para os sites nos quais deseja anunciar.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo na conta.
+**[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo dentro da conta.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** O status de exibição da campanha: *Ativo* ou *Pausado*. O padrão para novas campanhas de publicidade é *Ativo*.
+**[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
 
 ## [!UICONTROL Budget Options]
 

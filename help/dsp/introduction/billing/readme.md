@@ -5,7 +5,7 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Documentação de publicidade do DSP
+# Documentação do Advertising DSP
 
 Esta é a pasta da documentação de ajuda do DSP.
 

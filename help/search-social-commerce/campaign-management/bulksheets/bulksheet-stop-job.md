@@ -1,9 +1,9 @@
 ---
 title: Interromper um trabalho de bulksheet em andamento
 description: Saiba como interromper um trabalho de bulksheet enquanto ele estiver em processo.
-exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -29,4 +29,4 @@ Você pode interromper qualquer trabalho de bulksheet, incluindo a publicação 
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
->* [Excluir bulksheets e arquivos de erro enviados](bulksheet-delete.md)
+>* [Excluir bulksheets e arquivos de erro carregados](bulksheet-delete.md)

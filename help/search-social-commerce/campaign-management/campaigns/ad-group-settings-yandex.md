@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Yandex] configurações do grupo de publicidade'
-description: Referenciar as configurações de [!DNL Yandex] grupos de publicidade.
-exl-id: 8b313502-4101-46a0-a0c9-692eb754cc3d
+title: Configurações do grupo de anúncios '[!DNL Yandex]'
+description: Referencie as configurações de  [!DNL Yandex] grupos de anúncios.
+exl-id: f580382a-ada8-4de3-91c4-d0c84e43234c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] configurações do grupo de publicidade
+# Configurações do grupo de anúncios [!DNL Yandex]
 
 ## [!UICONTROL Ad Group Details]
 

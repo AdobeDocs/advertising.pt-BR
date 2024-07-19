@@ -1,5 +1,5 @@
 ---
-title: Publicidade de macros DSP
+title: Macros do Advertising DSP
 description: Consulte as macros disponíveis para rastreamento geral e para rastrear cliques em anúncios de exibição de terceiros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Publicidade de macros DSP
+# Macros do Advertising DSP
 
 Uma macro é um comando curto ou abreviação para uma instrução e geralmente segue o formato `${MACRO_NAME}`. As macros incluídas no código criativo ou URLs de click-through se expandem em uma string de código mais longa que o servidor de publicidade pode entender. O servidor de anúncios DSP executa macros quando o anúncio é veiculado ou clicado.
 
@@ -34,7 +34,7 @@ Use macros de rastreamento geral em todos os tipos de anúncios e tags para tran
 | ` ${TM_CLICK_URL_URLENC}` | O URL de redirecionamento codificado, que permite aos servidores de publicidade rastrear e contar cliques de anúncios. Quando o anúncio é veiculado, se o usuário clicar nele, a macro é ativada e o clique é registrado e contado para fins de relatório. Não use essa macro, a menos que você esteja criando anúncios de terceiros e seu fornecedor exija codificação de URL. | string |
 | `${TM_FEED_ID}` | A chave para o posicionamento de mídia (feedKey). | string |
 | `${TM_FEED_ID_NUM}` | A ID para o posicionamento de mídia. | inteiro |
-| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | A chave do site para o posicionamento. Obrigatório para [!DNL AppsFlyer] rastreadores de cliques para anúncios de instalação de aplicativos móveis.<!-- should map to placement_site_key column of placement_site table --> | string |
+| ` ${TM_MACRO_PLACEMENT_SITE_KEY` | A chave do site para o posicionamento. Necessário para rastreadores de cliques do [!DNL AppsFlyer] para anúncios de instalação de aplicativos móveis.<!-- should map to placement_site_key column of placement_site table --> | string |
 | `${TM_PLACEMENT_ID}` | A chave de posicionamento (cpKey). | string |
 | `${TM_PLACEMENT_ID_NUM}` | A ID de posicionamento. | inteiro |
 | `${TM_RANDOM}` | Cache Buster: um número aleatório entre 1 e 1000000. | long |
@@ -56,14 +56,14 @@ Use macros de rastreamento geral em todos os tipos de anúncios e tags para tran
 
 | Macro | Descrição de Substituição | Tipo |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) A ID da plataforma, que corresponde ao sistema operacional do dispositivo:<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` quando a plataforma não for nenhuma das opções acima</li></ul> | varchar(50) |
+| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) A ID da plataforma, que corresponde ao sistema operacional do dispositivo:<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` quando a plataforma não é nenhuma das opções acima</li></ul> | varchar(50) |
 | `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) O nome do modelo do dispositivo, codificado em URL. | string |
-| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) O ambiente em que o anúncio foi veiculado:<ul><li>`a` = aplicativo móvel</li><li>`b` = site móvel</li></ul> | sequência de caracteres (`a` ou `b`) |
-| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) A ID da plataforma, que corresponde ao sistema operacional do dispositivo:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` quando a plataforma não for nenhuma das opções acima</li></ul> | string |
-| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) O tipo de dispositivo no qual o anúncio foi visualizado:<ul><li>`TAB` = tablet</li><li>`PHN` = dispositivo móvel</li><li>`computer` = computador</li></ul> | string |
-| `${UOO}` | ([!DNL Nielsen]) Se o usuário desativou ou não o rastreamento de anúncios:<ul><li>`1` (sinalizador DNT = 1) = o usuário recusou o rastreamento de anúncios</li><li>`0` (sinalizador DNT = 0) = o usuário optou por participar do rastreamento de anúncios</li></ul> | inteiro (`0` ou `1`) |
-| `${TM_BUNDLE}` | A variável [!DNL iOS] ou [!DNL Android] ID do pacote da app store. Exemplos: com.zynga.wwf2.free ou id804379658 | string |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` indica se o licitante determina que a solicitação de oferta é proveniente da origem da União Europeia e requer a aplicação do GDPR:<ul><li>`1` = O GDPR deve ser aplicado</li><li>`0` = O GDPR não deve ser aplicado</li></ul>`gdpr_consent=${GDPR_CONSENT}` é o valor de consentimento transmitido pelo parceiro de fornecimento na solicitação de oferta de entrada:<ul><li>Na maioria dos casos, é uma string de consentimento codificada em base64url ou daisybit (exemplo: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = sem consentimento</li><li>`1` = consentimento</li></ul> | daisybit ou inteiro |
+| `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) O ambiente no qual o anúncio foi veiculado:<ul><li>`a` = aplicativo para dispositivos móveis</li><li>`b` = site para dispositivos móveis</li></ul> | cadeia de caracteres (`a` ou `b`) |
+| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) A ID da plataforma, que corresponde ao sistema operacional do dispositivo:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` quando a plataforma não é nenhuma das opções acima</li></ul> | string |
+| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) O tipo de dispositivo no qual o anúncio era visualizador:<ul><li>`TAB` = tablet</li><li>`PHN` = celular</li><li>`computer` = computador</li></ul> | string |
+| `${UOO}` | ([!DNL Nielsen]) Se o usuário desativou ou não o rastreamento de anúncios:<ul><li>`1` (sinalizador DNT = 1) = o usuário desativou o rastreamento de anúncios</li><li>`0` (sinalizador DNT = 0) = o usuário optou pelo rastreamento de anúncios</li></ul> | inteiro (`0` ou `1`) |
+| `${TM_BUNDLE}` | A ID do conjunto da loja de aplicativos [!DNL iOS] ou [!DNL Android]. Exemplos: com.zynga.wwf2.free ou id804379658 | string |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` indica se o licitante determina que a solicitação de licitação vem da origem da União Europeia e requer a aplicação do GDPR:<ul><li>`1` = O GDPR deve ser aplicado</li><li>`0` = O GDPR não deve ser aplicado</li></ul>`gdpr_consent=${GDPR_CONSENT}` é o valor de consentimento transmitido pelo parceiro de fornecimento na solicitação de oferta de entrada:<ul><li>Na maioria dos casos, é uma string de consentimento codificada em base64url ou daisybit (exemplo: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = sem consentimento</li><li>`1` = consentimento</li></ul> | daisybit ou inteiro |
 
 {style="table-layout:auto"}
 
@@ -80,14 +80,14 @@ Para rastrear com precisão os cliques de anúncios usando tags de exibição de
 
 O DSP insere automaticamente macros de clique de exibição em uma tag de exibição de terceiros ao:
 
-* Exportar tags de publicidade de um parceiro de servidor de publicidade <!-- [Needs PM confirmation.] -->
-* Upload em massa [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] adicionar tags diretamente no DSP
+* Exportar marcas de anúncio de um parceiro de servidor de publicidade <!-- [Needs PM confirmation.] -->
+* Carregar em massa [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] marcas de anúncio diretamente no DSP
 
 Se uma macro de clique estiver ausente ao criar um anúncio de exibição, o DSP exibirá uma mensagem de aviso solicitando que você insira manualmente a macro de clique de exibição apropriada na área correta da tag.
 
 ## [!DNL Analytics for Advertising] Macros
 
-Para macros adicionais disponíveis especificamente para [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) clientes, consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Flashtalking] Tags de publicidade](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Anexar [!DNL Analytics for Advertising] Macros para [!DNL Google Campaign Manager 360] Tags de publicidade](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+Para macros adicionais disponíveis especificamente para clientes do [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), consulte &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
 ## Solução de problemas de erros de macro
 
@@ -100,10 +100,10 @@ Erros são gerados se houver caracteres ausentes no início ou no fim do nome da
 
 >[!MORELIKETHIS]
 >
->* [Configurações do anúncio de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Configurações do Anúncio de TV Conectado](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Configurações do anúncio de exibição](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Configurações do anúncio móvel](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Configurações do anúncio nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Configurações do anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Configurações de Anúncio de Áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Configurações Conectadas do Anúncio de TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Exibir configurações do anúncio](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Configurações de Anúncios Móveis](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Configurações de Anúncios Nativos](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Configurações de Anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

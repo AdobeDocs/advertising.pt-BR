@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] configurações de anúncios multimídia'
-description: Referenciar as configurações de [!DNL Microsoft Advertising] anúncios multimídia.
+title: '[!DNL Microsoft Advertising] configurações de anúncios multimídia'
+description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios multimídia.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -22,7 +22,7 @@ Anúncios multimídia estão disponíveis na rede de pesquisa. A rede de publici
 
 * Pelo menos uma imagem quadrada (1:1).
 
-Consulte as proporções e dimensões permitidas para [anúncios multimídia](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
+Consulte as taxas de proporção e dimensões permitidas para [anúncios multimídia](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
 
 <!-- Instructions -->
 
@@ -30,9 +30,9 @@ Consulte as proporções e dimensões permitidas para [anúncios multimídia](ht
 
 **[!UICONTROL Business Name]:** O nome da empresa, com no máximo 25 caracteres.
 
-**[!UICONTROL Short Headlines]:** Pelo menos três e até 15 títulos curtos com pelo menos uma palavra e no máximo 30 caracteres cada.
+**[!UICONTROL Short Headlines]:** No mínimo três e no máximo 15 manchetes curtas com pelo menos uma palavra e no máximo 30 caracteres cada.
 
-**[!UICONTROL Long Headlines]:** Pelo menos três e até cinco manchetes longas com no máximo 90 caracteres cada.
+**[!UICONTROL Long Headlines]:** No mínimo três e no máximo cinco manchetes longas com no máximo 90 caracteres cada.
 
 **[!UICONTROL Ad Text]:** Pelo menos duas e até quatro descrições com pelo menos uma palavra e no máximo 90 caracteres cada.
 
@@ -55,6 +55,6 @@ Consulte as proporções e dimensões permitidas para [anúncios multimídia](ht
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio do produto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio responsivo (público-alvo)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] configurações de anúncio de pesquisa responsiva](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncio de produto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configurações de anúncios responsivos (público-alvo)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configurações responsivas de pesquisa e publicidade](ad-settings-microsoft-rsa.md)

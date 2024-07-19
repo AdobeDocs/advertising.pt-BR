@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Soluções de medição avançada
 
-Os anunciantes muitas vezes têm dificuldades para entender onde o melhor dólar da mídia seguinte deve ser gasto, ou para quantificar o impacto de seus anúncios online. Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A variável [!DNL Strategic Advertising Consulting] ajuda os parceiros de marca e agência a medir como os elementos de sua [!DNL Adobe] as conexões ganham vida através da publicidade. Com ofertas robustas de medição de atribuição, a equipe ajuda a implantar estratégias de direcionamento com curadoria usando uma estrutura de medição sofisticada, facilitando para as marcas conectar suas decisões de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
+Os anunciantes muitas vezes têm dificuldades para entender onde o melhor dólar da mídia seguinte deve ser gasto, ou para quantificar o impacto de seus anúncios online. Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe do [!DNL Strategic Advertising Consulting] ajuda os parceiros de marca e agência a medir como elementos de suas conexões do [!DNL Adobe] ganham vida por meio de anúncios. Com ofertas robustas de medição de atribuição, a equipe ajuda a implantar estratégias de direcionamento com curadoria usando uma estrutura de medição sofisticada, facilitando para as marcas conectar suas decisões de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
 
 * Ativar estudos de medição em campanhas de mídia digital de funil completo
 
@@ -23,7 +23,7 @@ Os anunciantes muitas vezes têm dificuldades para entender onde o melhor dólar
 
 Os seguintes pacotes de solução de medição estão disponíveis para validar o sucesso de suas campanhas de publicidade:
 
-* **Alcance, frequência e conversões com base na família**
+* **Conversões, Frequência e Alcance Baseados na Família**
 
   Entenda o alcance total da campanha em um nível doméstico, bem como a contribuição de telas individuais. As opções de relatório incluem:
 
@@ -47,7 +47,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
    * Alcance e frequência do segmento interno digital
 
-* **Alcance e conversões com base em pessoas**
+* **Conversões e alcance com base em pessoas**
 
   Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
@@ -55,12 +55,12 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
       Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
-* **Efeito de Halo nos relatórios de pesquisa**
+* **Efeito Halo nos Relatórios de Pesquisa**
 
   Quantifique o impacto da CTV e exposições de anúncios digitais na geração de cliques de pesquisa, conversões de pesquisa e ROAS no nível doméstico em todos os níveis de aplicativo de CTV, palavra-chave de pesquisa, mecanismo de pesquisa e público-alvo e tática personalizados.
 
 
-* **[!DNL Dynata]Pesquisas baseadas em painel**
+* **[!DNL Dynata]Pesquisas com base em painel**
 
   Fazer pesquisas de controle/exposição para determinar o efeito da exposição dos anúncios em métricas como percepção, familiaridade e intenção.
 
@@ -68,7 +68,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
   Entenda a incrementalidade orientada pela exposição ao anúncio e como o investimento em mídia está causando alteração no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
 
-* **Insights da transação**
+* **Insights de transação**
 
   Enriqueça sua estratégia de campanha com dados de vendas determinísticos de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
 
@@ -76,15 +76,15 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
   Determine a influência da exposição do anúncio nas vendas usando dados de vendas de crédito e débito robustos e determinísticos.
 
-* **Designer de experimentos (teste A/B)**
+* **Experimentar o Designer (Teste A/B)**
 
   Compare o comportamento e o sentimento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
 
 ## Encontrando o ajuste de medição perfeito: Soluções por vertical
 
-* **Qualquer vertical:**
+* **Qualquer Vertical:**
 
-   * Designer de experimentos (teste A/B e placebo)
+   * Experimentar o Designer (teste A/B e placebo)
 
    * Alcance e conversões com base em pessoas
 

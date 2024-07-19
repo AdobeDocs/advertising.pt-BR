@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Rastreamento de conversão do Adobe Analytics
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
+*Somente anunciantes com integração Adobe Advertising-Adobe Analytics*
 
-Para anunciantes com uma integração Adobe Advertising-Adobe Analytics, o Advertising Cloud pode conectar seus cliques em anúncios e impressões com as métricas de conversão e engajamento do site rastreadas pelo [!DNL Analytics] quando você usa um redirecionamento com um token (`ef_id` parâmetro) nos URLs de rastreamento de cliques do [unidades de oferta](/help/search-social-commerce/glossary.md#a-b). A variável [!DNL Analytics] Os dados do são enviados automaticamente para a Advertising Cloud por meio de um arquivo de feed diário.
+Para anunciantes com integração Adobe Advertising-Adobe Analytics, o Advertising Cloud pode conectar seus cliques e impressões de anúncios com as métricas de conversão e engajamento do site rastreadas por [!DNL Analytics] quando você usa um redirecionamento com token (parâmetro `ef_id`) nas URLs de rastreamento de cliques para suas [unidades de oferta](/help/search-social-commerce/glossary.md#a-b). Os dados do [!DNL Analytics] são enviados automaticamente para a Advertising Cloud por meio de um arquivo de feed diário.
 
-Consulte &quot;[Visão geral do [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot; para obter mais informações sobre a integração.
+Consulte &quot;[Visão Geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot; para obter mais informações sobre a integração.
 
 >[!PREREQUISITES]
 >
-> Fusos horários na conta do anunciante do Search, Social e Commerce, a variável [!DNL Analytics] conjuntos de relatórios e as contas da rede de publicidade devem corresponder. Se não corresponderem, ocorrem variações de dados entre os sistemas.
+> Os fusos horários na conta do anunciante do Search, Social e Commerce, nos conjuntos de relatórios do [!DNL Analytics] e nas contas da rede de anúncios devem coincidir. Se não corresponderem, ocorrem variações de dados entre os sistemas.
 
 ## Visão geral da implementação
 
-1. Entrada [!DNL Analytics], sua equipe de implementação do Search, Social e Commerce modifica as seguintes configurações para cada conjunto de relatórios:
+1. No [!DNL Analytics], sua equipe de implementação do Search, Social e Commerce modifica as seguintes configurações para cada conjunto de relatórios:
 
-   * A expiração da variável `ef_id` [!DNL eVar] foi alterado para corresponder à janela de retrospectiva de cliques do anunciante para Adobe Advertising.
+   * A expiração de `ef_id` [!DNL eVar] foi alterada para corresponder à janela de retrospectiva de cliques do anunciante para o Adobe Advertising.
 
    * A ID de usuário do Adobe Advertising.
 
@@ -36,11 +36,11 @@ Consulte &quot;[Visão geral do [!DNL Analytics for Advertising]](https://experi
 
    1. Sincroniza a hierarquia de contas de rede de anúncios existente em Pesquisa, Social e Commerce.
 
-   1. Adiciona redirecionamentos com &quot;`ef_id`&quot;token de envio para os URLs de rastreamento do e os publica na rede de anúncios.
+   1. Adiciona redirecionamentos com o token &quot;`ef_id`&quot; passando para as URLs de rastreamento e os publica na rede de anúncios.
 
-   Esta etapa anexa um redirecionamento ao servidor de rastreamento do Adobe Advertising (exceto para [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios em navegadores compatíveis com rastreamento paralelo) e adiciona um parâmetro &quot;ef_id&quot; preenchido dinamicamente ao URL no momento do clique no anúncio. Quando o rastreamento paralelo é aplicado, os usuários finais são enviados diretamente do seu anúncio para o URL final, e o URL do modelo de rastreamento (com medição de cliques) é carregado em segundo plano.
+   Esta etapa anexa um redirecionamento ao servidor de rastreamento de Adobe Advertising (exceto para anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising] em navegadores que oferecem suporte ao rastreamento paralelo) e adiciona um parâmetro &quot;ef_id&quot; preenchido dinamicamente à URL no momento do clique do anúncio. Quando o rastreamento paralelo é aplicado, os usuários finais são enviados diretamente do seu anúncio para o URL final, e o URL do modelo de rastreamento (com medição de cliques) é carregado em segundo plano.
 
-Quando a integração for concluída, o Search, Social e Commerce receberá automaticamente todos os dados do evento na página rastreados no [!DNL Analytics] para os conjuntos de relatórios que foram configurados.
+Quando a integração for concluída, o Search, Social e Commerce receberá automaticamente todos os dados de eventos na página rastreados em [!DNL Analytics] para os conjuntos de relatórios que foram configurados.
 
 >[!MORELIKETHIS]
 >

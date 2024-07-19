@@ -1,29 +1,29 @@
 ---
-title: Códigos de erro para [!DNL FreeWheel] Envio de anúncios
-description: Referencie os códigos de erro retornados para envio de anúncios a [!DNL FreeWheel].
+title: Códigos de erro para  [!DNL FreeWheel] Envio de anúncios
+description: Referencie os códigos de erro retornados para envio de anúncios a  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
 
-# Códigos de erro para [!DNL FreeWheel] Envio de anúncios
+# Códigos de erro para envio de anúncios [!DNL FreeWheel]
 
-As mensagens de erro para envios de anúncios com falha podem vir do DSP publicitário ou do [!DNL FreeWheel]. Mensagens de erro são mostradas na variável [!UICONTROL API Response] na [[!UICONTROL Freewheel Status] caixa de diálogo](freewheel-check-status.md).
+As mensagens de erro para envio de anúncios com falha podem vir do Advertising DSP ou do [!DNL FreeWheel]. Mensagens de erro são mostradas na coluna [!UICONTROL API Response] na caixa de diálogo [[!UICONTROL Freewheel Status]](freewheel-check-status.md).
 
-## Erros internos de publicidade do DSP
+## Erros internos do Advertising DSP
 
 | Mensagem de erro | Descrição | Próximas etapas |
 |--- |--- |--- |
 | [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] ainda não respondeu que o envio foi bem-sucedido ou falhou. | Verifique o status novamente em 10 minutos. |
 | [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] não aceita anúncios do Reino Unido sem clock numbers atribuídos. | Atribua um clock number ao anúncio e reenvie o anúncio. |
 | [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | O transcodificador não havia terminado de transcodificar o anúncio quando você tentou enviá-lo. | Aguarde dez minutos e reenvie o anúncio. |
-| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | O contrato enviado não está configurado como um contrato programático garantido. [!DNL FreeWheel] O aceita somente ofertas garantidas. | Configure a ID de acordo como um acordo programático garantido. O anúncio é enviado automaticamente para [!DNL FreeWheel] ao salvar a disposição padrão programática garantida no final do fluxo de trabalho da ID de negócios. |
-| [!DNL Invalid external_deal_id:] \&lt;deal_id> | A ID de negócios enviada não existe ou não está ativa no Adobe. | Certifique-se de que o contrato esteja ativo e, em seguida, reenvie o anúncio. |
-| [!DNL \[public_id=]\&lt;deal>] não existe | A ID de negócios enviada não existe no [!DNL FreeWheel] fim. | Entre em contato com [!DNL FreeWheel] representante para confirmar a ID do negócio. |
+| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | O contrato enviado não está configurado como um contrato programático garantido. [!DNL FreeWheel] aceita somente ofertas garantidas. | Configure a ID de acordo como um acordo programático garantido. O anúncio é enviado automaticamente para [!DNL FreeWheel] quando você salva a disposição padrão programática garantida no final do fluxo de trabalho da ID de negócio. |
+| [!DNL Invalid external_deal_id:] \&lt;id_do_negócio\> | A ID de negócios enviada não existe ou não está ativa no Adobe. | Certifique-se de que o contrato esteja ativo e, em seguida, reenvie o anúncio. |
+| [!DNL \[public_id=]\&lt;negócio\>] não existe | A ID de negócios enviada não existe na extremidade [!DNL FreeWheel]. | Entre em contato com o representante do [!DNL FreeWheel] para confirmar a ID do negócio. |
 | [!DNL Ad with identifier] \&lt;*nome do anúncio*\> [!DNL was not found.] | A chave do anúncio enviado não existe ou não está ativa no Adobe. | Encontre a chave do anúncio correta e envie o anúncio novamente. |
 | [!DNL Pending Submission] | O envio ainda está pendente. | Atualize a página. |
 
@@ -64,8 +64,7 @@ As mensagens de erro para envios de anúncios com falha podem vir do DSP publici
 
 >[!MORELIKETHIS]
 >
->* [Visão geral da configuração de ofertas programáticas garantidas no [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Aceitar uma oferta na caixa de entrada da ID de oferta](deal-id-inbox-accept.md)
->* [Envie um anúncio para um contrato programático garantido para [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
+>* [Enviar um anúncio para uma oferta programática garantida para [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [Verifique o status dos anúncios para [!DNL FreeWheel] Ofertas programáticas garantidas](/help/dsp/inventory/freewheel-check-status.md)
-

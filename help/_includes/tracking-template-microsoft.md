@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Opcional; não disponível para todas as entidades) O modelo de rastreamento ou URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora o URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**[!UICONTROL Tracking Template]:** (Opcional; não disponível para todas as entidades) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
-Para rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; O Search, Social e Commerce adiciona automaticamente os prefixos de redirecionamento e código de rastreamento ao salvar o registro.
+Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
-* Para obter os parâmetros compatíveis que incorporam o URL final, consulte a [[!DNL Microsoft Advertising] documentação sobre parâmetros para indicar o URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
+* Para obter os parâmetros com suporte para incorporar a URL final, consulte a [[!DNL Microsoft Advertising] documentação sobre parâmetros para indicar a URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
 
-* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;dispositivo={device}.
+* Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
 
 * Opcionalmente, é possível adicionar redirecionamentos e rastreamento de terceiros.
 

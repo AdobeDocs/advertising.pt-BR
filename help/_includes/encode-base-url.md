@@ -7,8 +7,8 @@ ht-degree: 0%
 ---
 # Codificação do campo URL base nas configurações da conta e da campanha
 
-**[!UICONTROL Encode Base URL]:** (Contas com URLs de destino e o tipo de rastreamento) [!UICONTROL EF Redirect] somente) Se o URL na barra de endereço do navegador do usuário final inclui codificação de caracteres (como `%3D` em vez de `=`):
+**[!UICONTROL Encode Base URL]:** (Contas com URLs de destino e somente o tipo de rastreamento [!UICONTROL EF Redirect]) Se a URL na barra de endereços do navegador do usuário final inclui codificação de caracteres (como `%3D` em vez de `=`):
 
-* *[!UICONTROL On]* (o padrão): para mostrar a codificação de caracteres em URLs.
+* *[!UICONTROL On]* (o padrão): para mostrar codificação de caracteres em URLs.
 
-* *[!UICONTROL Off]:* Para mostrar URLs não codificados.
+* *[!UICONTROL Off]:* Para mostrar URLs não codificadas.

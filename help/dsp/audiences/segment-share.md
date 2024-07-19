@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Compartilhar ou parar de compartilhar um segmento
 
-Você pode compartilhar seus segmentos personalizados e segmentos de recusa de venda da CCPA com contas de usuário DSP adicionais. O compartilhamento de um segmento o torna disponível em [!UICONTROL Audiences] > [!UICONTROL Segments] e no [!UICONTROL Custom Segments] nos posicionamentos dos usuários especificados e nos públicos-alvo reutilizáveis.
+Você pode compartilhar seus segmentos personalizados e segmentos de recusa de venda da CCPA com contas de usuário DSP adicionais. O compartilhamento de um segmento o torna disponível em [!UICONTROL Audiences] > [!UICONTROL Segments] e na guia [!UICONTROL Custom Segments] nos posicionamentos dos usuários especificados e públicos reutilizáveis.
 
 Também é possível interromper o compartilhamento de um segmento com outras contas de usuário do DSP.
 
@@ -24,17 +24,16 @@ Também é possível interromper o compartilhamento de um segmento com outras co
 
    * Para compartilhar o segmento:
 
-      1. Insira o **[!UICONTROL E-mail Address]** para o usuário DSP e, em seguida, clique em **[!UICONTROL +]**.
+      1. Insira o **[!UICONTROL E-mail Address]** para o usuário DSP e clique em **[!UICONTROL +]**.
 
       1. (Opcional) Para cada usuário adicional, insira outro **[!UICONTROL E-mail Address]** e clique em **[!UICONTROL +]**.
-   * Para interromper o compartilhamento do segmento com um usuário, clique em **[!UICONTROL Unshare]** ao lado do endereço de email.
 
+   * Para interromper o compartilhamento do segmento com um usuário, clique em **[!UICONTROL Unshare]** ao lado do endereço de email.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Editar informações do segmento](segment-edit.md)
 >* [Excluir um segmento](segment-delete.md)
->* [Exibir pixels de rastreamento para um segmento](segment-view-pixels.md)
-
+>* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)

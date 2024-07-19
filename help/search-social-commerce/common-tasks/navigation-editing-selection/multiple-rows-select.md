@@ -1,28 +1,28 @@
 ---
 title: Selecionar várias linhas
 description: Saiba como selecionar várias linhas para executar a mesma ação em todas elas.
-exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Selecionar várias linhas
 
-É possível selecionar várias linhas na variável [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications], e [!UICONTROL Optimization] > [!UICONTROL Constraints] exibições das seguintes maneiras:
+Você pode selecionar várias linhas nas exibições [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints] das seguintes maneiras:
 
 * Atalhos de teclado:
 
-   * **[!DNL Shift+Click]**: para selecionar várias linhas consecutivas, clique na primeira e pressione **[!DNL Shift]** enquanto você clica no último.
+   * **[!DNL Shift+Click]**: Para selecionar várias linhas consecutivas, clique na primeira e pressione **[!DNL Shift]** enquanto clica na última.
 
-   * **[!DNL Ctrl+Click]**: para selecionar várias linhas não consecutivas, clique na primeira e pressione **[!DNL Ctrl]** enquanto você clica em cada linha adicional.
+   * **[!DNL Ctrl+Click]**: Para selecionar várias linhas não consecutivas, clique na primeira e pressione **[!DNL Ctrl]** enquanto clica em cada linha adicional.
 
-* Caixa de seleção Global (![Caixa de seleção](/help/search-social-commerce/assets/check-box.png) &quot;Caixa de seleção&quot;) no cabeçalho da coluna superior esquerda:
+* Caixa de seleção global (![Caixa de seleção](/help/search-social-commerce/assets/check-box.png) &quot;Caixa de seleção&quot;) no cabeçalho de coluna superior esquerdo:
 
-   * Para selecionar todas as linhas na página atual, o que pode incluir algumas ou todas as linhas disponíveis com os filtros aplicados, se você estiver visualizando 25 linhas, 50 linhas, 100 linhas, 200 linhas ou [!UICONTROL Continuous Scroll] — marque a caixa de seleção global.
+   * Para selecionar todas as linhas na página atual, que pode incluir algumas ou todas as linhas disponíveis com os filtros aplicados, se você estiver visualizando 25 linhas, 50 linhas, 100 linhas, 200 linhas ou [!UICONTROL Continuous Scroll], marque a caixa de seleção global.
 
      Ao selecionar todas as linhas na página, você pode desmarcar linhas individuais.
 
@@ -33,6 +33,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Aplicar um Filtro de Dados a partir de um Menu de Cabeçalho de Coluna](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [Aplicar filtros de dados na barra de ferramentas](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [Filtrar dados por intervalo de datas](../data-views/ad-hoc-settings/date-filter.md)
+>* [Aplicar Filtros de Dados da Barra de Ferramentas](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Filtrar Dados por Intervalo de Datas](../data-views/ad-hoc-settings/date-filter.md)
 >* [Remover um filtro](../data-views/ad-hoc-settings/column-filter-remove.md)

@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Configurar um acordo programático garantido
 
-*[Somente plataformas do lado da fonte compatíveis](programmatic-guaranteed-about.md)*
+*[Somente plataformas do lado do suprimento com suporte](programmatic-guaranteed-about.md)*
 
-Depois de negociar um contrato programático garantido (PG) com um editor suportado, é possível configurar o contrato no DSP usando o [!DNL Deal ID inbox] ou inserindo manualmente os detalhes do negócio.
+Depois de negociar um contrato programático garantido (PG) com um editor suportado, você pode configurar o contrato no DSP usando o [!DNL Deal ID inbox] ou inserindo manualmente os detalhes do contrato.
 
 >[!NOTE]
 >
 > Para ofertas PG, o editor lida com todo o ritmo do orçamento, limite de orçamento e direcionamento. Todos os SSPs que permitem PG por meio de DSP confirmam que o editor pode configurar limite de orçamento.
 >
-> Configuração de ofertas programáticas garantidas com editores no [!DNL FreeWheel] O requer permissões e etapas adicionais. Consulte &quot;[Visão geral da configuração de ofertas programáticas garantidas no [!DNL FreeWheel]](freewheel-overview.md)&quot; para obter mais informações.
+> A configuração de ofertas programáticas garantidas com editores em [!DNL FreeWheel] requer permissões e etapas adicionais. Consulte &quot;[Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL FreeWheel]](freewheel-overview.md)&quot; para obter mais informações.
 
-## Configurar um acordo programático garantido usando o [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
+## Configure um Acordo Programático Garantido Usando o [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Google Authorized Buyers], e [!DNL Magnite DV+].
+O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Google Authorized Buyers] e [!DNL Magnite DV+].
 
 1. [Aceite o acordo](deal-id-inbox-accept.md).
 
@@ -34,11 +34,11 @@ O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Goog
 
    * Se você estiver aceitando um único contrato, será automaticamente redirecionado para o fluxo de trabalho de criação de posicionamento padrão de PG.
 
-     Todos [!DNL FreeWheel] são propostos como um único acordo.
+     Todas as [!DNL FreeWheel] ofertas são propostas como uma única oferta.
 
    * Se você estiver aceitando uma proposta com várias IDs de contrato PG, identifique cada posicionamento padrão PG que você precisa criar. Depois de criar todos os posicionamentos necessários, o botão Continuar será ativado.
 
-1. (Opcional) Direcione o contrato PG em inserções PG ou não PG adicionais clicando em ![Menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Opcional) Direcione o contrato PG em posicionamentos PG ou não-PG adicionais clicando em ![menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Uma oferta pode visar vários posicionamentos que suportam qualquer combinação de tipos de mídia (como TV conectada, desktop e áudio).
 
@@ -52,16 +52,16 @@ Use este método para todos os outros SSPs.
 
    Criar uma disposição padrão PG para o negócio é obrigatório para entregar 100% da sua compra. Esse tipo de posicionamento não tem direcionamento, portanto, o DSP pode retornar um lance para cada solicitação de lance do editor.
 
-1. (Opcional) Direcione o contrato PG em inserções PG ou não PG adicionais clicando em ![Menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Opcional) Direcione o contrato PG em posicionamentos PG ou não-PG adicionais clicando em ![menu Opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Uma oferta pode visar vários posicionamentos que suportam qualquer combinação de tipos de mídia (como TV conectada, desktop e áudio).
 
 >[!MORELIKETHIS]
 >
 >* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
->* [Dicas para negociar um acordo programático garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Enviar um anúncio para uma oferta programática garantida com [!DNL FreeWheel]](freewheel-submit.md)
->* [Aceitar uma oferta na caixa de entrada da ID de oferta](deal-id-inbox-accept.md)
->* [Criar manualmente detalhes da ID do contrato](deal-id-create.md)
+>* [Dicas para Negociar um Acordo Programático Garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Enviar um anúncio para uma oferta programática garantida com o  [!DNL FreeWheel]](freewheel-submit.md)
+>* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
+>* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)
 >* [Parceiros SSP](ssp-partners.md)
->* [Visão Geral dos Recursos do Inventário](inventory-overview.md)
+>* [Visão Geral dos Recursos de Inventário](inventory-overview.md)

@@ -14,23 +14,23 @@ ht-degree: 0%
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
 
-[!DNL Google Ads] e [!DNL Microsoft Advertising] recomendações e insights são sugestões da rede de anúncios para ajudar a melhorar o desempenho e a eficiência de suas campanhas:
+As recomendações e os insights do [!DNL Google Ads] e do [!DNL Microsoft Advertising] são sugestões da rede de publicidade para ajudar a melhorar o desempenho e a eficiência das suas campanhas:
 
-* Each [!DNL Google Ads] A recomendação fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências [!DNL Google Ads].
+* Cada recomendação do [!DNL Google Ads] fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências do [!DNL Google Ads].
 
-* Each [!DNL Microsoft Advertising] o insight e a recomendação sobre desempenho sugerem alterações para otimizar o desempenho do campaign com base em algoritmos de aprendizado de máquina e práticas recomendadas.
+* Cada insight e recomendação de desempenho do [!DNL Microsoft Advertising] sugere alterações para otimizar o desempenho da campanha com base em algoritmos de aprendizado de máquina e práticas recomendadas.
 
-## A variável [!UICONTROL Recommendations & Publisher Insights] exibir
+## A visualização [!UICONTROL Recommendations & Publisher Insights]
 
-Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], você pode:
+Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], você pode:
 
-* Ver as principais características de todas as recomendações compatíveis da que não foram implementadas em uma conta. As informações para cada entrada incluem o tipo de recomendação, o [!DNL Adobe] recomendação, as métricas afetadas, a entidade afetada e um link para obter mais detalhes. Os aumentos previstos para as métricas são destacados em verde.
+* Ver as principais características de todas as recomendações compatíveis da que não foram implementadas em uma conta. As informações para cada entrada incluem o tipo de recomendação, a recomendação [!DNL Adobe], as métricas afetadas, a entidade afetada e um link para mais detalhes. Os aumentos previstos para as métricas são destacados em verde.
 
-  ![Interface do usuário do Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface do usuário do Recommendations")
+  ![INTERFACE DO USUÁRIO DO Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "INTERFACE DO USUÁRIO DO Recommendations")
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
-* Para [!DNL Microsoft Advertising] contas, consulte as informações de desempenho geradas nos últimos 30 dias para obter uma [!DNL Microsoft Advertising] conta. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o [!DNL Microsoft Advertising] editor, a partir do qual você pode agir com base no insight específico.
+* Para contas do [!DNL Microsoft Advertising], veja as informações sobre cada insight de desempenho gerado nos últimos 30 dias para uma conta do [!DNL Microsoft Advertising]. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o editor [!DNL Microsoft Advertising], a partir do qual você pode agir com base no insight específico.
 
 * Exibir detalhes sobre uma recomendação e aplicá-la diretamente ou descartá-la.
 
@@ -40,7 +40,7 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 >
 >Embora as recomendações de rede de anúncios e os insights de desempenho ajudem a melhorar o desempenho da campanha, alguns podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação ou insight.
 
-## Tipos de recomendação compatíveis para [!DNL Google Ads]
+## Tipos de recomendação com suporte para [!DNL Google Ads]
 
 | Categoria de recomendação | Tipo de recomendação | Descrição |
 | --- | --- | --- |
@@ -53,7 +53,7 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 | | [!UICONTROL Sitelink extension] | Adicionar extensões do sitelink a uma campanha |
 | | [!UICONTROL Text ad] | Adicionar um novo anúncio de texto |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrar anúncios de pesquisa dinâmica para campanhas de desempenho máximo |
-| | [!UICONTROL Dynamic image extension opt in] | Habilitar extensões de imagem dinâmicas para a conta, o que permite [!DNL Google Ads] aprendizado de máquina para anexar automaticamente as imagens mais relevantes da landing page do seu anúncio ao seu anúncio |
+| | [!UICONTROL Dynamic image extension opt in] | Habilite extensões de imagem dinâmicas para a conta, o que permite que o aprendizado de máquina do [!DNL Google Ads] anexe automaticamente as imagens mais relevantes da página de aterrissagem do seu anúncio ao seu anúncio |
 | | [!UICONTROL Improve performance max ad strength] | Melhore a força do grupo de ativos de uma campanha de desempenho máximo para uma classificação &quot;Excelente&quot; |
 | | [!UICONTROL Performance max final URL opt in] | Ativar a expansão final de URL para suas campanhas de desempenho máximo |
 | | [!UICONTROL Performance max opt in] | Optar por campanhas de desempenho máximo |
@@ -65,23 +65,23 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 | | [!UICONTROL Forecasting set Target CPA] | Definir um CPA de destino para campanhas sem um antes de um evento sazonal previsto para aumentar o tráfego |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumente o orçamento antes de um evento sazonal previsto para aumentar o tráfego e altere a estratégia de lances de [!UICONTROL Maximize Conversion Value] para [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Ajustar o orçamento da campanha para aumentar o ROI |
-| | [!UICONTROL Maximize clicks opt in] | Altere para a variável [!UICONTROL Maximize Clicks] estratégia de lance |
+| | [!UICONTROL Maximize clicks opt in] | Alteração na estratégia de lances [!UICONTROL Maximize Clicks] |
 | | [!UICONTROL Maximize conversion value opt in] | Alteração na estratégia de lances Maximizar Valor de Conversão |
-| | [!UICONTROL Maximize conversions opt in] | Altere para a variável [!UICONTROL Maximize Conversions] estratégia de lance |
+| | [!UICONTROL Maximize conversions opt in] | Alteração na estratégia de lances [!UICONTROL Maximize Conversions] |
 | | [!UICONTROL Move unused budget] | Mover orçamento não utilizado para um orçamento restrito |
-| | [!UICONTROL Raise Target CPA bid too low] | Eleve o [!UICONTROL Target CPA] por um valor recomendado quando for muito baixo e houver poucas ou nenhuma conversão |
+| | [!UICONTROL Raise Target CPA bid too low] | Aumente o [!UICONTROL Target CPA] de acordo com o valor recomendado quando ele for muito baixo e houver poucas ou nenhuma conversão |
 | | [!UICONTROL Set Target CPA] | Definir um CPA de destino para campanhas sem um |
 | | [!UICONTROL Set Target ROAS] | Definir um ROAS de destino para campanhas sem um |
-| | [!UICONTROL Target CPA opt in] | Altere para a variável [!UICONTROL Target CPA] estratégia de lance |
-| | [!UICONTROL Target CPA raising] | Eleve o [!UICONTROL Target CPA] baseado em [!DNL Google Ads] previsões, que são calculadas a partir de conversões anteriores |
-| | [!UICONTROL Target ROAS lowering] | Reduza o [!UICONTROL Target ROAS] baseado em [!DNL Google Ads] previsões, que são calculadas a partir de conversões anteriores |
-| | [!UICONTROL Target ROAS opt in] | Altere para a variável [!UICONTROL Target ROAS] estratégia de lance |
+| | [!UICONTROL Target CPA opt in] | Alteração na estratégia de lances [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | Gerar o [!UICONTROL Target CPA] com base em [!DNL Google Ads] previsões, que são calculadas a partir de conversões passadas |
+| | [!UICONTROL Target ROAS lowering] | Reduza o [!UICONTROL Target ROAS] com base em [!DNL Google Ads] previsões, que são calculadas a partir de conversões anteriores |
+| | [!UICONTROL Target ROAS opt in] | Alteração na estratégia de lances [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Expandir alcance atualizando uma campanha para usar a expansão de exibição |
 | | [!UICONTROL Keyword] | Adicionar novas palavras-chave |
-| | [!UICONTROL Search partners opt in] | Expandir alcance com [!DNL Google] pesquisar parceiros |
+| | [!UICONTROL Search partners opt in] | Expandir alcance com [!DNL Google] parceiros de pesquisa |
 | | [!UICONTROL Use broad match keyword] | Use uma ampla correspondência para campanhas baseadas em conversão com ofertas totalmente automatizadas baseadas em conversão |
 
-## Tipos de recomendação compatíveis para [!DNL Microsoft Advertising]
+## Tipos de recomendação com suporte para [!DNL Microsoft Advertising]
 
 | Categoria de recomendação | Tipo de recomendação | Descrição |
 | --- | --- | --- |
@@ -93,5 +93,5 @@ Dentro de [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publis
 >
 >* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
 >* [Aplicar ou ignorar uma recomendação do editor](recommendation-apply-dismiss.md)
->* [Exibir o log de recomendações do editor de uma conta](recommendation-view-log.md)
+>* [Exibir o log de recomendações do editor para uma conta](recommendation-view-log.md)
 >* [Práticas recomendadas para usar as recomendações do editor com portfólios](recommendation-best-practices.md)

@@ -17,22 +17,22 @@ ht-degree: 0%
 1. 
    1. Mantenha o cursor sobre a linha do plano e clique em **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
-1. (Opcional) Edite o nome do plano e [configurações do plano](planner-settings.md).
+1. (Opcional) Edite o nome do plano e as [configurações do plano](planner-settings.md).
 
-   Por padrão, o novo plano é chamado de &quot;`<existing plan name> duplicate`.&quot;
+   Por padrão, o novo plano é chamado de &quot;`<existing plan name> duplicate`&quot;.
 
 1. Clique em **[!UICONTROL Save and Forecast]**.
 
    Depois de salvar o plano, a saída prevista é mostrada.
 
-1. (Opcional) Para exportar a variável [!UICONTROL Budget vs Reach] previsão para um [!DNL Microsoft Excel] planilha**, clique em **[!UICONTROL ...]** no canto superior direito e clique em **[!UICONTROL Export]**.
+1. (Opcional) Para exportar a previsão [!UICONTROL Budget vs Reach] para uma planilha [!DNL Microsoft Excel]**, clique em **[!UICONTROL ...]** no canto superior direito e, em seguida, clique em **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre a ferramenta Planejador DSP](planner-about.md)
->* [Criar um plano de alcance de TV conectado](planner-create.md)
->* [Editar um plano de alcance de TV conectado](planner-edit.md)
->* [Exportar um plano de alcance de TV conectada](planner-export.md)
+>* [Sobre a Ferramenta de Planejamento DSP](planner-about.md)
+>* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
+>* [Editar um Plano de Alcance de TV Conectado](planner-edit.md)
+>* [Exportar um Plano de Alcance de TV Conectada](planner-export.md)
 >* [Regenerar a Previsão para um Plano de Alcance de TV Conectada](planner-forecast.md)
->* [Arquivar um plano de alcance de TV conectada](planner-archive.md)
->* [Configurações para planos de alcance de TV conectado](planner-settings.md)
+>* [Arquivar um Plano de Alcance de TV Conectada](planner-archive.md)
+>* [Configurações para Planos de Alcance de TV Conectados](planner-settings.md)

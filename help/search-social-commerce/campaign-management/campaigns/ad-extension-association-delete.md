@@ -20,7 +20,7 @@ Você pode excluir associações de nível de campanha e grupo de anúncios com 
 
 1. Marque a caixa de seleção ao lado de cada associação que deseja excluir.
 
-   Para obter dicas sobre como selecionar várias linhas, &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obter dicas sobre como selecionar várias linhas, &quot;[Selecione várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
 

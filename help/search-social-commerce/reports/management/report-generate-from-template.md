@@ -1,12 +1,12 @@
 ---
 title: Gerar um relatório a partir de um modelo
 description: Saiba como criar um relatório usando um template de relatório.
-exl-id: 353e2a88-a3fc-4a53-afd4-b18b776357db
+exl-id: cb918323-cb7e-407c-bfa3-ec3d8753ecbb
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Clique em **[!UICONTROL Templates]** guia.
+1. Clique na guia **[!UICONTROL Templates]**.
 
 1. Clique no nome do template.
 

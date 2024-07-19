@@ -1,11 +1,11 @@
 ---
 title: Escrever texto efetivo e copiar
 description: Saiba mais sobre as práticas recomendadas para escrever uma cópia de anúncio eficiente.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível na Pesquisa, Social e Comércio.<!-- verify convention for referencing Optimization Guide here -->
+>Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisitos gerais para todas as redes de publicidade
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * Os pontos de exclamação são proibidos em títulos/títulos, mas são permitidos em linhas de descrição. Somente um é permitido na descrição.
 
-* Caracteres especiais, como `@,~,\, ^,>,<` são proibidas.
+* Caracteres especiais, como `@,~,\, ^,>,<`, são proibidos.
 
-* É proibido o uso de atalhos ou de símbolos para substituir palavras. Por exemplo, você não pode usar &quot;U&quot; para substituir &quot;você&quot; ou &quot;`@`&quot; para substituir &quot;em.&quot;
+* É proibido o uso de atalhos ou de símbolos para substituir palavras. Por exemplo, você não pode usar &quot;U&quot; para substituir &quot;você&quot; ou &quot;`@`&quot; para substituir &quot;em&quot;.
 
 * Frases superlativas, como &quot;Melhor&quot; ou &quot;#1&quot;, são proibidas, a menos que essa distinção tenha sido verificada por um terceiro e a verificação seja exibida claramente em seu site.
 
@@ -68,19 +68,19 @@ ht-degree: 0%
 
 * Pesquise o que seus concorrentes estão fazendo. Examine os anúncios principais em busca de um espaço (em sites como www.spyfu.com) e tente entender quais anúncios estão funcionando.
 
-[1]: Se você usar inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
+[1]: se você usar a inserção de palavra-chave, use as letras maiúsculas corretas para o código de inserção:
 
 `{keyword:default}` = máquinas de cortar relva
 
 `{Keyword:default}` = Cortadores de relva
 
-`{KeyWord:default}` = Cortadores de relva
+`{KeyWord:default}` = Cortadores de grama
 
-`{KEYWord:default}` = Cortadores de grama (que só é permitido se &quot;LAWN&quot; for uma marca)
+`{KEYWord:default}` = Cortadores de grama (o que é permitido somente se &quot;LAWN&quot; é uma marca)
 
-`{KeyWORD:default}` = CORTA-RELVA (o que só é permitido se &quot;CORTA-RELVA&quot; for uma marca)
+`{KeyWORD:default}` = CORTADORES de grama (permitido somente se &quot;CORTADORES&quot; for uma marca)
 
-`{KEYWORD:default}` = CORTADORES DE RELVA (permitido apenas se &quot;CORTADORES DE RELVA&quot; for uma marca)
+`{KEYWORD:default}` = CORTADORES DE RELVA (permitido somente se &quot;CORTADORES DE RELVA&quot; for uma marca)
 
 >[!MORELIKETHIS]
 >

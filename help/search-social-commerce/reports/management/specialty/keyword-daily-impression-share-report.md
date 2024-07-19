@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]e [!DNL Microsoft Advertising] somente contas*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] contas apenas*
 
-A variável [!UICONTROL Keyword Daily Impression Share Report] O inclui métricas de compartilhamento de impressões diárias para cada palavra-chave, o tipo de correspondência correspondente e o tipo de dispositivo correspondente para um ou mais grupos de anúncios ou campanhas. Por padrão, os dados incluem uma linha para cada palavra-chave, tipo de correspondência e dispositivo que recebeu pelo menos uma impressão ou clique para cada grupo de anúncios aplicável para cada dia no intervalo de datas especificado. As linhas estão em ordem crescente por data por padrão. Opcionalmente, o relatório pode incluir dados rastreados por [!DNL Adobe] e métricas derivadas.
+O [!UICONTROL Keyword Daily Impression Share Report] inclui métricas de compartilhamento de impressões diárias para cada palavra-chave, tipo de correspondência correspondente e tipo de dispositivo correspondente para um ou mais grupos de anúncios ou campanhas. Por padrão, os dados incluem uma linha para cada palavra-chave, tipo de correspondência e dispositivo que recebeu pelo menos uma impressão ou clique para cada grupo de anúncios aplicável para cada dia no intervalo de datas especificado. As linhas estão em ordem crescente por data por padrão. Opcionalmente, o relatório pode incluir dados rastreados por [!DNL Adobe] e métricas derivadas.
 
 As métricas de compartilhamento de impressão estão disponíveis às 13h no fuso horário do anunciante do dia anterior. Você pode exibir dados dos dois meses anteriores.
 
 ## Colunas padrão
 
-Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especiais](specialty-report-columns.md).&quot;
+Para obter descrições de todas as colunas padrão e personalizadas, consulte &quot;[Colunas de relatório para relatórios especializados](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios de especialidade](specialty-report-about.md)
+>* [Sobre relatórios especializados](specialty-report-about.md)
 >* [Gerar um relatório de especialidade](specialty-report-generate.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)

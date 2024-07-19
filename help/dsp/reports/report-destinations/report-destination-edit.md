@@ -6,7 +6,7 @@ exl-id: 33c011a5-c207-455d-8112-360098024eaa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ As alterações em um destino de relatório afetam o delivery de todos os relat�
 
 1. Para o destino desejado, clique em Editar
 
-1. Edite o [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md).
+1. Edite as [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md).
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -30,4 +30,3 @@ As alterações em um destino de relatório afetam o delivery de todos os relat�
 >* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

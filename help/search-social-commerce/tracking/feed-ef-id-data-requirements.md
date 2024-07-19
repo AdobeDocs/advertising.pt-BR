@@ -1,11 +1,11 @@
 ---
 title: Requisitos em matéria de dados aplicáveis aos feeds de dados que utilizam IDs de EF
 description: Referência aos requisitos em matéria de dados para os feeds de dados que utilizam IDs EF.
-exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
+exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ TRl4BEtoTPMBEW4SU5ZUMEPIE:20100217065804:s,04896552,2010-02-17,Coffee,22.00
 >[!MORELIKETHIS]
 >
 >* [Requisitos de arquivo para arquivos de feed de conversão](feed-file-requirements.md)
->* [Rastreamento de conversão usando um feed de ID EF](/help/search-social-commerce/tracking/feed-efid.md)
+>* [Rastreamento de conversão usando um feed EF ID](/help/search-social-commerce/tracking/feed-efid.md)

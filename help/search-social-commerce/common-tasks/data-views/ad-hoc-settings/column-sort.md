@@ -1,11 +1,11 @@
 ---
 title: Reclassificar uma coluna
 description: Saiba como reclassificar colunas.
-exl-id: 14f66a19-232d-4f68-b939-c5c512025ec9
+exl-id: 934e1f7e-a34d-4973-8219-27876cf50f0f
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 1. Selecione a opção de classificação:
 
-   * *Ordenar por ordem crescente* (A a Z ou 1 a 10)
+   * *Classificação crescente* (A a Z ou 1 a 10)
 
-   * *Ordenar por ordem decrescente* (Z a A ou 10 a 1)
+   * *Classificação decrescente* (Z a A ou 10 a 1)

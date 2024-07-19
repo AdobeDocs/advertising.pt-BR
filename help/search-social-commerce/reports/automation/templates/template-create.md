@@ -1,11 +1,11 @@
 ---
 title: Criar um modelo de relatório
 description: Saiba como criar um modelo de relatório reutilizável.
-exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,29 @@ ht-degree: 0%
 
 * Para criar um modelo do zero, siga um destes procedimentos:
 
-   * No [!UICONTROL Reports] , crie um relatório e marque a caixa de seleção ao lado de **[!UICONTROL Save as template]**, que fica ao lado do nome do relatório.
+   * Na guia [!UICONTROL Reports], crie um relatório, marcando a caixa de seleção ao lado de **[!UICONTROL Save as template]**, que está ao lado do nome do relatório.
 
-   * No [!UICONTROL Templates] guia:
+   * Na guia [!UICONTROL Templates]:
 
       * No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-      * Clique em **[!UICONTROL Templates]** guia.
+      * Clique na guia **[!UICONTROL Templates]**.
 
       * Clique em **[!UICONTROL Create Template]** e selecione a categoria do relatório.
 
       * Especifique as configurações do relatório.
 
-        O &quot;[!UICONTROL Save as Template]&quot; é selecionada automaticamente.
+        A configuração &quot;[!UICONTROL Save as Template]&quot; é selecionada automaticamente.
 
 * Para criar um modelo com base em um modelo existente:
 
    1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-   1. Clique em **[!UICONTROL Templates]** guia.
+   1. Clique na guia **[!UICONTROL Templates]**.
 
    1. Clique no nome do template e edite as configurações do relatório, se necessário.
 
-   1. Marque a caixa de seleção ao lado de **[!UICONTROL Save as template]** (que fica ao lado do nome do relatório), digite um novo nome de relatório e clique em **[!UICONTROL Update Template]**.
+   1. Marque a caixa de seleção ao lado de **[!UICONTROL Save as template]** (que está ao lado do nome do relatório), insira um novo nome de relatório e clique em **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >

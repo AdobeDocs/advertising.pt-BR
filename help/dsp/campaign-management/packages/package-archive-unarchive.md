@@ -5,7 +5,7 @@ feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -19,24 +19,23 @@ Ocultar um pacote que não está sendo usado ao arquivá-lo. A única ação que
 ## Arquivar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
+1. Ao lado do nome do pacote, clique em **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para visualizar pacotes arquivados, filtre o [!UICONTROL Packages] exibir: clique ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Package status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
+>Para exibir pacotes arquivados, filtre a exibição [!UICONTROL Packages]: clique em ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Package status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
 
 ## Desarquivar um pacote
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Clique no nome da campanha para abrir a [!UICONTROL Packages] exibição.
-1. Ao lado do nome do pacote, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
+1. Ao lado do nome do pacote, clique em **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Editar um pacote](package-edit.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
->* [Pausar ou ativar um pacote](package-pause-activate.md)
-
+>* [Pausar ou Ativar um Pacote](package-pause-activate.md)

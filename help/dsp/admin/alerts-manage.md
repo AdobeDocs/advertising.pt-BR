@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. Na parte superior da lista Notificações, clique em **[!UICONTROL Add Subscription]**.
 
-1. Insira um único *Nome da assinatura** para os alertas.
+1. Digite um *Nome da Assinatura** exclusivo para os alertas.
 
-1. No **[!UICONTROL Add Alerts]** seção:
+1. Na seção **[!UICONTROL Add Alerts]**:
 
    1. Selecione o primeiro tipo de alerta.
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
    1. (Opcional) Para executar o alerta imediatamente, selecione **[!UICONTROL Alert immediately]**. Por padrão, o alerta é executado às 08:00 no fuso horário da conta.
 
-   1. (Opcional) Para adicionar um alerta adicional à assinatura, clique em **[!UICONTROL Add Alert]** e criar o alerta.
+   1. (Opcional) Para adicionar outro alerta à assinatura, clique em **[!UICONTROL Add Alert]** e crie o alerta.
 
-1. No **[!UICONTROL Add Subscriber Email Addresses]** insira cada endereço de email que receberá os alertas e pressione a tecla **[!UICONTROL Enter]** chave.
+1. No campo **[!UICONTROL Add Subscriber Email Addresses]**, digite cada endereço de email que receberá os alertas e pressione a tecla **[!UICONTROL Enter]**.
 
 1. Clique em **Salvar**.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## Gerenciar os Assinantes de uma Assinatura
 
-* Para adicionar um assinante a uma assinatura, insira os endereços de email no campo de entrada em **[!UICONTROL Subscribers]**.
+* Para adicionar assinante a uma assinatura, insira os endereços de email no campo de entrada em **[!UICONTROL Subscribers]**.
 
   Separe vários endereços com espaços.
 

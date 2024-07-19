@@ -1,20 +1,20 @@
 ---
-title: '''[!DNL Google Ads] configurações expandidas do anúncio de pesquisa dinâmica'
-description: Referenciar as configurações de [!DNL Google Ads] anúncios de pesquisa dinâmica expandidos.
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+title: '[!DNL Google Ads] configurações de anúncio de pesquisa dinâmica expandidas'
+description: Referencie as configurações de  [!DNL Google Ads] anúncios de pesquisa dinâmica expandidos.
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica
 
-Os anúncios de pesquisa dinâmica (DSAs) estão disponíveis somente para [!DNL Google Ads] pesquisar grupos de anúncios dinâmicos em campanhas somente pesquisa. A rede de publicidade gera dinamicamente o título, escolhe a página de aterrissagem e o URL de exibição para um anúncio de pesquisa dinâmica e gera automaticamente o URL final.
+Os anúncios de pesquisa dinâmica (DSAs) estão disponíveis apenas para [!DNL Google Ads] grupos de anúncios dinâmicos de pesquisa em campanhas somente pesquisa. A rede de publicidade gera dinamicamente o título, escolhe a página de aterrissagem e o URL de exibição para um anúncio de pesquisa dinâmica e gera automaticamente o URL final.
 
-Consulte a ajuda do Google Ads para [limites de publicidade por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
+Consulte a ajuda do Google Ads para [limites de anúncios por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 >[!NOTE]
 >
@@ -39,4 +39,4 @@ Consulte a ajuda do Google Ads para [limites de publicidade por conta](https://s
 >* [Sobre anúncios](ad-about.md)
 >* [Gerenciar anúncios](ad-manage.md)
 >* [[!DNL Google Ads] configurações de anúncio somente de chamada](ad-settings-google-call.md)
->* [[!DNL Google Ads] configurações de anúncio de pesquisa responsiva](ad-settings-google-rsa.md)
+>* [[!DNL Google Ads] configurações responsivas de pesquisa e publicidade](ad-settings-google-rsa.md)

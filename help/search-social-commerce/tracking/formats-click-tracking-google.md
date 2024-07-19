@@ -1,9 +1,9 @@
 ---
-title: Formatos de rastreamento de cliques para [!DNL Google Ads]
-description: Saiba mais sobre os formatos de rastreamento de cliques do [!DNL Google Ads] contas.
-exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+title: Formatos de rastreamento de cliques para  [!DNL Google Ads]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Google Ads] .
+exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formatos de rastreamento de cliques para [!DNL Google Ads]
 
-A seguir estão os formatos de modelo base de rastreamento e sufixo de página de aterrissagem (sufixo de URL final) exigidos pelo Search, Social e Commerce para [!DNL Google Ads].
+A seguir estão os formatos de modelo base de rastreamento e sufixo de página de aterrissagem (sufixo de URL final) que o Search, Social e Commerce exige para [!DNL Google Ads].
 
 ## Formatos de modelo de rastreamento
 
@@ -28,19 +28,19 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* A variável [!DNL ValueTrack] parâmetros para indicar URLs finais em modelos de rastreamento devem ser `{lpurl}` ou `!{unescapedurl}`.
+>* Os parâmetros [!DNL ValueTrack] para indicar URLs finais em modelos de rastreamento devem ser `{lpurl}` ou `!{unescapedurl}`.
 >
->* (Anúncios de texto) Quando você faz uma oferta por palavra-chave, o parâmetro `ev_pl` (para inserções) não tem valor. Quando você faz ofertas por posicionamento, `ev_ln` (para palavras-chave) não tem valor. Quando você faz uma oferta por grupo de anúncios ou por qualquer outra dimensão, ambos `ev_ln` e `ev_pl` não têm valores.
+>* (Anúncios de texto) Quando você faz uma oferta por palavra-chave, o parâmetro `ev_pl` (para posicionamentos) não tem valor. Quando você faz uma oferta por posicionamento, `ev_ln` (para palavras-chave) não tem valor. Quando você faz uma oferta por grupo de publicidade ou por qualquer outra dimensão, `ev_ln` e `ev_pl` não têm valores.
 >
->* (Anúncios de pesquisa dinâmica) `{keyword}` indica a expressão de destino da pesquisa dinâmica, como `_cat:[VALUE]` ou `_url:[VALUE]`.
+>* (Anúncios de pesquisa dinâmica) `{keyword}` indica a expressão de destino de pesquisa dinâmica, como `_cat:[VALUE]` ou `_url:[VALUE]`.
 >
->* (Anúncios de pesquisa dinâmica) [!DNL Google Ads] determina o URL final dinamicamente, de modo que não é necessário inserir um.
+>* (Anúncios de pesquisa dinâmica) [!DNL Google Ads] determina a URL final dinamicamente, portanto, você não precisa inserir uma.
 >
->* (Sitelinks) Você pode ver quais conversões resultaram de um clique em um sitelink gerando um [!UICONTROL Transaction Report]. A variável [!UICONTROL Link Type] o valor da coluna para um sitelink é `sl:<Sitelink text>`, como `sl:See Current Offers`.
+>* (Sitelinks) Você pode ver quais conversões resultaram de um clique em um sitelink gerando um [!UICONTROL Transaction Report]. O valor da coluna [!UICONTROL Link Type] para um sitelink é `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
 ### Rede de compras
 
@@ -54,15 +54,15 @@ Exemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` é uma variável do identificador exclusivo do anunciante no Adobe Advertising.
+>* `<advertiser_ID>` é uma variável para o identificador exclusivo do anunciante no Adobe Advertising.
 >
->* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a transmissão de token estiver desativada, substitua `cq?` após `<advertiser_ID>` com `c?`.
+>* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* A variável [!DNL ValueTrack] parâmetros para indicar URLs finais em modelos de rastreamento devem ser `{lpurl}` ou `!{unescapedurl}`.
+>* Os parâmetros [!DNL ValueTrack] para indicar URLs finais em modelos de rastreamento devem ser `{lpurl}` ou `!{unescapedurl}`.
 >
->* [!DNL Google Ads] O usa URLs de produtos no feed do Google Merchant Center como os URLs finais, de modo que você não precisa inserir URLs finais para os dados do produto ou grupos de produtos.
+>* O [!DNL Google Ads] usa URLs de produtos no feed do Google Merchant Center como as URLs finais, de modo que você não precisa inserir as URLs finais para seus dados de produtos ou grupos de produtos.
 >
->* Você pode ver quais conversões resultaram de um clique em um anúncio de compras gerando um [!UICONTROL Transaction Report]. A variável [!UICONTROL Link Type] o valor da coluna para um anúncio de produto é pla:`<product ID>`, como `pla:8525822`.
+>* Você pode ver quais conversões resultaram de um clique em um anúncio de compras gerando um [!UICONTROL Transaction Report]. O valor da coluna [!UICONTROL Link Type] para um anúncio de produto é pla:`<product ID>`, como `pla:8525822`.
 
 ## Formatos de sufixo de página de aterrissagem (sufixo de URL final)
 
@@ -70,13 +70,13 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir um dos seguintes:
 
-   * [!DNL Google Ads] contas que usam a mais recente [Formato de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats) (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
+   * Contas do [!DNL Google Ads] que usam o [formato de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats) mais recente (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver ativado, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente. Consulte &quot;[IDs de Adobe Advertising usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver habilitada, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente. Consulte &quot;[IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
 
-   * Todos os outros [!DNL Google Ads] contas:
+   * Todas as outras contas do [!DNL Google Ads]:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
@@ -93,4 +93,4 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

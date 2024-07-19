@@ -9,4 +9,4 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]:** (Campanhas de compras e campanhas de público vinculadas somente a um feed de comerciante) A ID do cliente da conta do comerciante cujos produtos são usados para a campanha.
 
-Para [!DNL Microsoft Advertising] campanhas de público vinculadas a uma loja do shopping center, selecione a [!UICONTROL Merchant ID] na lista de todas as lojas vinculadas à conta de pesquisa. Depois de vincular a campanha a uma loja e salvar as configurações, não é possível alterar essa opção.
+Para [!DNL Microsoft Advertising] campanhas de público vinculadas a um armazenamento do centro de comércio, selecione [!UICONTROL Merchant ID] na lista de todos os armazenamentos vinculados à conta de pesquisa. Depois de vincular a campanha a uma loja e salvar as configurações, não é possível alterar essa opção.

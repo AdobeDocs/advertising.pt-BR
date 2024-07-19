@@ -18,13 +18,13 @@ Os usuários administradores podem reenviar um convite para um usuário com um c
 
    * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Account]** e clique em **[!UICONTROL Edit users]**.
+   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Account]** e, em seguida, clique em **[!UICONTROL Edit users]**.
 
-1. No **Convites** clique em ![Reenviar](/help/dsp/assets/resend.png).
+1. Na seção **Convites**, clique em ![Reenviar](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >
 >* [Convidar um Novo Usuário para a Conta da Organização](user-invite.md)
->* [Desconvidar um usuário pendente](user-uninvite.md)
+>* [Desconvidar um Usuário Pendente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Também é possível [compartilhar e parar de compartilhar uma ID de negócios com todos os anunciantes em contas especificadas](deal-id-share.md).
+>Você também pode [compartilhar e parar de compartilhar uma ID de negócios com todos os anunciantes em contas especificadas](deal-id-share.md).
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negócios, clique em  **[!UICONTROL ...]** > **[!UICONTROL Manage Advertisers]**.
+1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Manage Advertisers]**.
 
 1. Nas configurações do contrato, marque a caixa de seleção ao lado de cada anunciante que deve ter acesso ao contrato e desmarque a caixa de seleção ao lado de cada anunciante que não deve ter acesso.
 
@@ -27,5 +27,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Editar as contas com acesso a uma ID de oferta](/help/dsp/inventory/deal-id-share.md)
->* [Configurações da ID de oferta manual](deal-id-settings.md)
-
+>* [Configurações manuais de ID do contrato](deal-id-settings.md)

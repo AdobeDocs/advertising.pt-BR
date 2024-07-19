@@ -1,11 +1,11 @@
 ---
 title: Exportar um arquivo de bulksheet gerado ou carregado
 description: Saiba como baixar um arquivo de bulksheet, incluindo arquivos de erro e arquivos de validação de landing page.
-exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Você pode baixar qualquer arquivo de bulksheet gerado ou carregado, incluindo a
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
-1. (Opcional) Acima da lista de bulksheet, [adicionar filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar os arquivos listados.
+1. (Opcional) Acima da lista de bulksheets, [adicione filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar os arquivos listados.
 
 1. Na lista de bulksheet, clique no nome do arquivo.
 
@@ -27,7 +27,7 @@ Você pode baixar qualquer arquivo de bulksheet gerado ou carregado, incluindo a
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](bulksheet-about.md)
->* [Baixar/criar um arquivo de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Baixar/Criar um arquivo de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
 >* [Validar páginas de aterrissagem em arquivos de bulksheet](bulksheet-validate-landing-pages.md)
->* [Lançar bulksheets ou arquivos de erro corrigidos](bulksheet-post.md)
->* [Configurar uma conta FTP para fazer upload de bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
+>* [Postar bulksheets ou arquivos de erro corrigidos](bulksheet-post.md)
+>* [Configurar uma conta FTP para carregar bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)

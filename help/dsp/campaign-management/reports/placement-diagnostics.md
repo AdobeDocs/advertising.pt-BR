@@ -18,11 +18,11 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
 ## Informações nos Relatórios de Diagnóstico de Posicionamento
 
-* **[!UICONTROL Change Log]:** Mostra alterações nas configurações de posicionamento de chave, como nome, status e lance máximo. Cada entrada inclui a data e o nome de usuário da pessoa que fez a alteração.
+* **[!UICONTROL Change Log]:** Mostra as alterações nas configurações de posicionamento de chaves, como nome, status e lance máximo. Cada entrada inclui a data e o nome de usuário da pessoa que fez a alteração.
 
 * **[!UICONTROL Ad Approvals]:** Mostra se os anúncios foram aprovados ou rejeitados pelos provedores de estoque. Como opção, é possível alterar o status de qualquer anúncio (por exemplo, pausar um anúncio rejeitado) ou abrir as configurações do anúncio.
 
-* **[!UICONTROL Non Bids]:** Mostra por que o DSP não deu lance na colocação.
+* **[!UICONTROL Non Bids]:** Mostra por que o DSP não deu lance no posicionamento.
 
 ## Abra os Relatórios de diagnóstico de posicionamento
 
@@ -34,7 +34,7 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
       1. Clique no nome da campanha e em **[!UICONTROL Placements]**.
 
-      1. Ao lado do nome do posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
    1. No canto superior direito, clique em ![Diagnóstico de posicionamento](/help/dsp/assets/placement-diagnostics.png).
 
@@ -46,7 +46,7 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
       1. (Opcional) Filtre os resultados do relatório:
 
-         * No menu data, altere o período do relatório do padrão Últimos 14 dias para outro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
+         * No menu de data, altere o período padrão do relatório Últimos 14 Dias para outro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
 
          * No menu esquerdo, filtre o relatório por um nome de usuário específico.
 
@@ -56,7 +56,7 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
       1. No canto superior direito, clique em **[!UICONTROL Ad Approvals]**.
 
-      1. (Opcional) Para pausar ou ativar o anúncio, clique na opção de status (![Alternância de status](/help/dsp/assets/status-switch.png)) na coluna Ad ).
+      1. (Opcional) Para pausar ou ativar o anúncio, clique na opção de status (![Opção de status](/help/dsp/assets/status-switch.png)) na coluna Anúncio).
 
       1. (Opcional) Para abrir as configurações de um anúncio, clique em **[!UICONTROL View Ad]** ao lado do anúncio.
 
@@ -70,6 +70,6 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
 >[!MORELIKETHIS]
 >
->* [Tipos de relatórios de desempenho em visualizações do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

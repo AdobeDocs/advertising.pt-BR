@@ -5,16 +5,16 @@ exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
 source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
 # Os dados usados para os relatórios
 
-O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de clique e conversão. Você pode exibir dados básicos de desempenho para os vários componentes de um portfólio ou conta de anúncio na [!UICONTROL Portfolios] e [!UICONTROL Campaigns] visualizações, bem como gerando vários relatórios básicos e avançados.
+O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de cliques e conversão. Você pode ver dados básicos de desempenho para os vários componentes de um portfólio ou conta publicitária das visualizações [!UICONTROL Portfolios] e [!UICONTROL Campaigns], bem como gerar vários relatórios básicos e avançados.
 
-Os anunciantes que usam o serviço de rastreamento de conversão de Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice de conversão geral e a distribuição de conversões para um único site [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe da conta do Adobe tem acesso a todos os relatórios.
+Os anunciantes que usam o serviço de rastreamento de conversão de Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice geral de conversão e a distribuição de conversões para uma única [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe da conta do Adobe tem acesso a todos os relatórios.
 
 A maioria dos relatórios pode ser personalizada para exibir apenas as informações que você deseja ver. As seguintes métricas padrão estão disponíveis na maioria dos relatórios e são calculadas no nível do anúncio:
 
@@ -26,17 +26,17 @@ A maioria dos relatórios pode ser personalizada para exibir apenas as informaç
 
    * **[!UICONTROL Cost]:** O custo total do anúncio. O custo da publicidade paga por clique (PPC) é sempre o número de cliques multiplicado pelo custo por clique.
 
-   * **[!UICONTROL Cost per Click]:** O custo médio de um clique para um anúncio, que é o custo do anúncio dividido pelo número total de cliques do anúncio. Por exemplo, se você gastar US$ 100 para criar uma impressão de anúncio e o anúncio gerar 10 cliques, o custo por clique será de US$ 100/10=10 por clique.
+   * **[!UICONTROL Cost per Click]:** O custo médio de um clique para um anúncio, que é o custo do anúncio dividido pelo número total de cliques no anúncio. Por exemplo, se você gastar US$ 100 para criar uma impressão de anúncio e o anúncio gerar 10 cliques, o custo por clique será de US$ 100/10=10 por clique.
 
-   * **[!UICONTROL Average Position]:** (Quando aplicável) A posição média de um anúncio que foi colocado, ponderada pelo número de impressões.
+   * **[!UICONTROL Average Position]:** (quando aplicável) a posição média de um anúncio que foi colocado, ponderada pelo número de impressões.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados para anunciantes somente com o serviço de rastreamento de conversão de Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
+   * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados de anunciantes somente com o serviço de rastreamento de conversão de Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
 
-* **Métricas de conversão:** O número total de conversões de cada métrica de conversão do anunciante ou os dados de transação rastreados em direção a uma métrica de conversão. Isso pode incluir métricas de conversão e envolvimento do site, mas não métricas calculadas e métricas calculadas avançadas, que são sincronizadas do Adobe Analytics.
+* **Métricas de conversão:** o número total de conversões de cada métrica de conversão do anunciante ou dados de transação rastreados em direção a uma métrica de conversão. Isso pode incluir métricas de conversão e envolvimento do site, mas não métricas calculadas e métricas calculadas avançadas, que são sincronizadas do Adobe Analytics.
 
-  Isso também pode incluir [[!DNL Google Ads]Conversões rastreadas pelo](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics]Conversões rastreadas pelo](/help/search-social-commerce/admin/data-sources/data-source-about.md) sincronizados para a conta do anunciante.
+  Isso também pode incluir [[!DNL Google Ads] conversões rastreadas](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics] conversões rastreadas](/help/search-social-commerce/admin/data-sources/data-source-about.md) que são sincronizadas para a conta do anunciante.
 
-* **Métricas personalizadas:** Suas próprias métricas, que você obtém criando fórmulas com base em métricas existentes (como o custo por pedido).
+* **Métricas personalizadas:** suas próprias métricas, que você obtém criando fórmulas com base em métricas existentes (como o custo por pedido).
 
 ## Disponibilidade de dados
 
@@ -46,8 +46,8 @@ Dependendo da regra de atribuição especificada para o relatório, os dados par
 
 | Grupo de relatório | Relatório | Datas para as quais os dados estão disponíveis |
 |---|---|---|
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir de 15 de maio de 2021.<br><br><b>Exceção:</b> Os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
-| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores.<br><br><b>Exceção:</b> Os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir de 15 de maio de 2021.<br><br><b>Exceção:</b> os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
+| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores.<br><br><b>Exceção:</b> os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Os 45 dias anteriores. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Os dois (2) meses anteriores mais o mês atual. |
 | [!UICONTROL Assist Reports] | Todos | Os 18 meses anteriores. |
@@ -61,4 +61,4 @@ Dependendo da regra de atribuição especificada para o relatório, os dados par
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios](report-about.md)
->* [Tarefas de configuração inicial para relatórios](initial-setup.md)
+>* [Tarefas de configuração iniciais para relatórios](initial-setup.md)

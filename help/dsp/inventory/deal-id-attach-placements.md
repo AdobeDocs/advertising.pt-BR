@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Especificar disposições e anúncios para um acordo privado
 
-Para negociações não garantidas, você pode especificar a negociação como um destino de inventário para novos posicionamentos na [!UICONTROL Placements] exibição.
+Para ofertas não garantidas, você pode especificar a oferta como um destino de inventário para novos posicionamentos na exibição [!UICONTROL Placements].
 
-Para ofertas programáticas garantidas (PG), é possível criar inserções com anúncios especificados da [!UICONTROL Deals] exibição.
+Para ofertas programáticas garantidas (PG), você pode criar inserções com anúncios especificados da exibição [!UICONTROL Deals].
 
-Também é possível [anexar anúncios a posicionamentos](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associada a ofertas PG e não garantidas a qualquer momento.
+Você também pode [anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associadas a ofertas PG e não garantidas a qualquer momento.
 
 ## Especificar uma Negociação Não Garantida como um Destino de Inventário para uma Colocação
 
-* [Criar uma inserção no [!UICONTROL Placements] exibir](/help/dsp/campaign-management/placements/placement-create.md). No [!UICONTROL Inventory Targeting] selecione a oferta privada.
+* [Criar um posicionamento a partir da [!UICONTROL Placements] exibição](/help/dsp/campaign-management/placements/placement-create.md). Nas configurações de [!UICONTROL Inventory Targeting], selecione a oferta privada.
 
 ## Anexar inserções e anúncios a um contrato de PG
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Na linha de negócios, clique em  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. No [!UICONTROL Ad & Campaign Selection] , selecione os anúncios a serem usados para o posicionamento:
+1. Nas configurações de [!UICONTROL Ad & Campaign Selection], selecione os anúncios a serem usados para o posicionamento:
 
        1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
        
@@ -40,7 +40,7 @@ Também é possível [anexar anúncios a posicionamentos](/help/dsp/campaign-man
 
       1. Insira o nome da disposição.
 
-      1. (Opcional) Edite o [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição do lance padrão, que é preenchido automaticamente com o valor CPM do contrato, a alteração do intervalo de datas ou a anexação de mais anúncios.
+      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é preenchida automaticamente com o valor CPM da oferta; a alteração do intervalo de datas; ou a anexação de mais anúncios.
 
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 
@@ -55,7 +55,7 @@ O posicionamento começa a ser executado depois que o editor ativa a ID de contr
 >[!MORELIKETHIS]
 >
 >* [Sobre Inventário Privado](private-inventory-about.md)
->* [Listar os posicionamentos e anúncios de uma oferta privada](/help/dsp/inventory/private-deal-view-placements.md)
->* [Criar manualmente detalhes da ID do contrato](deal-id-create.md)
->* [Configurações da ID de oferta manual](deal-id-settings.md)
->* [Configurar um acordo programático garantido](programmatic-guaranteed-set-up.md)
+>* [Listar os Posicionamentos e Anúncios de um Contrato Privado](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)
+>* [Configurações manuais de ID do contrato](deal-id-settings.md)
+>* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)

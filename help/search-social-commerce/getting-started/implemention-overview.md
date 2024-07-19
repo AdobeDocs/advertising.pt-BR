@@ -1,24 +1,24 @@
 ---
 title: Visão geral da implementação do Search, Social e Commerce
 description: Saiba mais
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Visão geral da implementação do Search, Social e Commerce
 
-[!DNL Adobe] ou uma de suas agências afiliadas trabalha com cada anunciante para iniciar seus portfólios de publicidade online e rastrear campanhas de publicidade adicionais. Após o lançamento inicial, as tarefas contínuas adicionais garantem que as metas do anunciante continuem a ser atingidas.
+[!DNL Adobe] ou uma de suas agências afiliadas trabalha com cada anunciante para iniciar seus portfólios de publicidade online e rastrear quaisquer campanhas de publicidade adicionais. Após o lançamento inicial, as tarefas contínuas adicionais garantem que as metas do anunciante continuem a ser atingidas.
 
-Este é o fluxo de trabalho geral para implementação e uso do Search, Social e Commerce.
+Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Commerce.
 
 ## Lançamento inicial
 
-[!DNL Adobe] e/ou sua agência trabalhe com você da seguinte maneira:
+[!DNL Adobe] e/ou sua agência trabalham com você e fazem o seguinte:
 
 1. Avalie suas metas comerciais de alto nível e elabore estratégias para atingi-las:
 
@@ -48,9 +48,9 @@ Este é o fluxo de trabalho geral para implementação e uso do Search, Social e
 
 1. Configure o rastreamento de todos os anúncios para os quais você deseja que o Adobe Advertising rastreie conversões:
 
-   1. (Se necessário) Configurar o rastreamento de cliques para anúncios e, opcionalmente, para palavras-chave, [!DNL Google Ads] posicionamentos e [!DNL Google Ads] extensões gerando e fazendo upload de URLs de rastreamento de cliques.
+   1. (Se necessário) Configure o rastreamento de cliques para anúncios e, opcionalmente, para palavras-chave, [!DNL Google Ads] inserções e [!DNL Google Ads] extensões, gerando e carregando URLs de rastreamento de cliques.
 
-      Os URLs de rastreamento de cliques dos anunciantes com o serviço de rastreamento de conversão baseado em pixel do Adobe Advertising incluem um redirecionamento para [!DNL Adobe] servidores.
+      As URLs de rastreamento de cliques dos anunciantes com o serviço de rastreamento de conversão baseado em pixel de Adobe Advertising incluem um redirecionamento para os servidores [!DNL Adobe].
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, pode envolver a adição de tags de rastreamento de conversão às páginas da Web apropriadas e/ou a configuração de uma queda diária de feed para os dados de conversão coletados usando seu próprio método.
 
@@ -60,11 +60,11 @@ Este é o fluxo de trabalho geral para implementação e uso do Search, Social e
 
    1. (Anunciantes com Adobe Analytics e/ou Adobe Audience Manager) Configure integrações entre as várias contas para que o Adobe Advertising possa trocar dados com elas.
 
-      Consulte o guia em &quot;[Integrações com o Experience Cloud](/help/integrations/home.md).&quot;
+      Consulte o guia em &quot;[Integrações com o Experience Cloud](/help/integrations/home.md)&quot;.
 
-   1. (Anunciantes com [!DNL Google Analytics]) Sincronizar métricas de conversão para um [!DNL Google Analytics] combinação de conta, propriedade e exibição para otimização e relatórios.
+   1. (Anunciantes com [!DNL Google Analytics]) Sincronizam métricas de conversão para uma conta, propriedade e combinação de exibição [!DNL Google Analytics] para otimização e relatórios.
 
-      Consulte o subcapítulo de ajuda &quot;Admin&quot; > &quot;[Configurar fontes de dados](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
+      Consulte o subcapítulo de ajuda &quot;Administrador&quot; > &quot;[Configurando Fontes de Dados](/help/search-social-commerce/admin/data-sources/data-source-about.md)&quot;.
 
 1. Configurar e iniciar portfólios:
 
@@ -72,11 +72,11 @@ Este é o fluxo de trabalho geral para implementação e uso do Search, Social e
 
       >[!NOTE]
       >
-      >Search, Social e Commerce ainda rastreia e relata dados de campanhas que não estão atribuídas a portfólios, mas não otimiza ofertas para eles.
+      >Search, Social e Commerce ainda rastreia e relata dados de campanhas que não são atribuídas a portfólios, mas não otimiza ofertas para eles.
 
    1. Depois que dados suficientes estiverem disponíveis para criar uma linha de base, a equipe do poderá iniciar o portfólio, permitindo que o Search, o Social e o Commerce otimizem ofertas e/ou orçamentos para o portfólio, com base no tipo de otimização.
 
-   Para obter detalhes sobre como configurar e iniciar portfólios, consulte a ajuda da seção &quot;Otimização&quot;, disponível na [!UICONTROL Help] menu (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")) na parte superior direita de qualquer página em Search, Social e Commerce.
+   Para obter detalhes sobre como configurar e iniciar portfólios, consulte a ajuda da &quot;Otimização&quot;, disponível no menu [!UICONTROL Help] (![menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "menu Ajuda")), no canto superior direito de qualquer página, em Search, Social e Commerce.
 
 1. Monitore o desempenho de seus portfólios:
 
@@ -86,11 +86,11 @@ Este é o fluxo de trabalho geral para implementação e uso do Search, Social e
 
    Para obter detalhes sobre como executar insights de publicidade e configurar relatórios, consulte o capítulo de ajuda em &quot;Insights e relatórios&quot;.
 
-1. (Opcional) Configure seu [visualizações de dados de desempenho](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) para mostrar os dados que deseja ver.
+1. (Opcional) Configure suas [visualizações de dados de desempenho](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) para mostrar os dados que você deseja ver.
 
 ## Tarefas em andamento
 
-Após a primeira inicialização, as seguintes tarefas contínuas serão necessárias. Dependendo dos seus termos de contrato, [!DNL Adobe], uma agência afiliada ou o anunciante executa estas tarefas:
+Após a primeira inicialização, as seguintes tarefas contínuas serão necessárias. Dependendo das suas condições de contrato, [!DNL Adobe], uma agência afiliada ou o anunciante realiza estas tarefas:
 
 * Continue a monitorar e analisar o desempenho de cada portfólio visualizando alertas, dados de desempenho de cada portfólio e suas campanhas de componentes, relatórios personalizáveis e simulações (algumas funções).
 
@@ -108,4 +108,4 @@ Após a primeira inicialização, as seguintes tarefas contínuas serão necess�
 
    * Adicione novos portfólios.
 
-Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfolio&quot; > &quot;Monitoramento e gerenciamento de desempenho&quot;, que está disponível no [!UICONTROL Help] menu (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")) na parte superior direita de qualquer página em Search, Social e Commerce.
+Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfolio&quot; > &quot;Monitoramento e gerenciamento de desempenho&quot;, disponível no menu [!UICONTROL Help] (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")) no canto superior direito de qualquer página em Pesquisa, Social e Commerce.

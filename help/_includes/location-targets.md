@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
 
-**[!UICONTROL Location Targets]:** (Quando disponível) Localizações geográficas específicas do usuário a serem incluídas ou excluídas como targets. Por padrão, todos os locais são direcionados. É possível incluir e excluir usuários em qualquer combinação de locais. As exclusões sempre substituem as inclusões.
+**[!UICONTROL Location Targets]:** (quando disponível) Localizações geográficas específicas do usuário a serem incluídas ou excluídas como destinos. Por padrão, todos os locais são direcionados. É possível incluir e excluir usuários em qualquer combinação de locais. As exclusões sempre substituem as inclusões.
 
 * Para direcionar todos os locais, não selecione nenhum local.
 
-* Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) será exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada local direcionado.
+* Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) seja exibida. Opcionalmente, você pode aumentar ou diminuir lances em uma porcentagem especificada para cada local direcionado.
 
-* Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) será exibida.
+* Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) seja exibida.
 
 * Para expandir uma localização em seus subcomponentes (como estados, prefeituras, regiões ou cidades), clique no nome da localização.
 

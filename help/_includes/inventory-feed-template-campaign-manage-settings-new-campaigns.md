@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Modelo de anúncio de texto - Gerenciar configurações para NOVAS campanhas
 
-**[!UICONTROL Manage Settings for NEW Campaigns]:**(Opcional) Permite definir configurações para qualquer campanha criada.
+**[!UICONTROL Manage Settings for NEW Campaigns]:**(Opcional) Permite que você defina as configurações de todas as campanhas criadas.

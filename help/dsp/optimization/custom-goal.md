@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Metas personalizadas
 
-As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* in [!DNL Advertising Search, Social, & Commerce]. O nome de cada objetivo para DSP deve receber o prefixo &quot;ADSP_&quot;.
+As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* em [!DNL Advertising Search, Social, & Commerce]. O nome de cada objetivo para DSP deve receber o prefixo &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
@@ -23,27 +23,27 @@ Cada meta personalizada (objetivo) consiste em uma ou mais métricas de convers�
 
 Por exemplo, suponha que três métricas de conversão sejam relevantes para um pacote específico em uma de suas campanhas: &quot;Download de PDF&quot; com valor de 20 USD, &quot;Inscrição em email&quot; com valor de 30 USD e &quot;Confirmação de pedido&quot; com valor de 40 USD. Se você quiser atribuir peso de acordo com o valor monetário único da ação do cliente, os pesos relativos das métricas serão 1, 1,5 e 2.
 
-Uma vez que [criar uma meta personalizada](#custom-goal-create), você pode [atribuir a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algorítmicos usando o Adobe Sensei.
+Depois de [criar uma meta personalizada](#custom-goal-create), você pode [atribuí-la a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algoritmos usando o Adobe Sensei.
 
 Recomendações de peso são geradas automaticamente para métricas atribuídas ao DSP em objetivos do e podem aplicar todas as recomendações de peso com um clique. Todas as alterações de peso nos objetivos com o prefixo &quot;ADSP_&quot; são aplicadas de forma algorítmica no DSP dentro de dois dias. Para obter mais informações sobre recomendações de peso, consulte o capítulo do Guia de otimização em &quot;(Beta) Novos objetivos&quot;, que está disponível no Search, Social e Commerce.
 
 ## Criar uma meta personalizada {#custom-goal-create}
 
-Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe Experience Cloud, de dentro do [!DNL Search, Social, & Commerce] configurações do cliente. Se sua conta do DSP não estiver vinculada a um [!DNL Search, Social, & Commerce] e entre em contato com a equipe da sua conta Adobe.
+Para criar uma meta personalizada, a conta DSP deve estar vinculada a uma conta [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe Experience Cloud, nas configurações de cliente [!DNL Search, Social, & Commerce]. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a Equipe de Conta do Adobe.
 
-1. Efetue logon no [!DNL Advertising Search, Social, & Commerce] at (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Faça logon em [!DNL Advertising Search, Social, & Commerce] às (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 
 1. Verifique se as métricas que você deseja incluir em sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
 
    1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
-   1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está ativado para a métrica.
+   1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está habilitado para a métrica.
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] os eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
+      >* [!DNL Analytics] eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
 
-   1. Se a métrica não tiver um valor no campo **[!UICONTROL Display Name]** e clique na célula, digite o nome de exibição e clique em **[!UICONTROL Apply].**
+   1. Se a métrica não tiver um valor na coluna **[!UICONTROL Display Name]**, clique na célula, digite o nome de exibição e clique em **[!UICONTROL Apply].**
 
 1. Criar a meta personalizada como um *objetivo*:
 
@@ -63,14 +63,14 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a um [!DN
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] os eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
+      >* [!DNL Analytics] eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
       >* [!DNL Analytics] dimensões e segmentos não estão disponíveis para otimização de Adobe Advertising.
 
       >[!TIP]
       >
-      >Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para a criação de uma meta personalizada](#custom-goal-best-practices) para obter diretrizes.
+      >Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para criar uma meta personalizada](#custom-goal-best-practices) para obter diretrizes.
 
-Nas configurações de pacote do DSP para pacotes que usam a meta de otimização&quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; o nome do objetivo agora é incluído na variável [!UICONTROL Custom Goals] lista. Ao selecionar o objetivo como meta personalizada para um pacote, a variável [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
+Nas configurações do pacote DSP para pacotes que usam a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, o nome do objetivo agora está incluído na lista [!UICONTROL Custom Goals]. Quando você seleciona o objetivo como meta personalizada para um pacote, a lista [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
 
 ## Práticas recomendadas para a criação de uma meta personalizada {#custom-goal-best-practices}
 
@@ -78,9 +78,9 @@ Nas configurações de pacote do DSP para pacotes que usam a meta de otimizaçã
 
 Os exemplos a seguir mostram como você pode configurar metas que têm como alvo uma única métrica de conversão.
 
-#### Exemplo de uma campanha com &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Meta de otimização
+#### Exemplo de uma Campanha com a Meta de Otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
-Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]), e a receita de todos os tipos de dispositivos é igualmente importante para você, em seguida, inclua o &quot;[!UICONTROL Revenue]&quot; com um peso não móvel de um (1); o peso móvel é ignorado. Selecionar o tipo de métrica *[!UICONTROL Goal]*.
+Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e a receita de todos os tipos de dispositivos for igualmente importante para você, inclua a métrica &quot;[!UICONTROL Revenue]&quot; com um peso não móvel de um (1); o peso móvel será ignorado. Selecione o tipo de métrica *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,9 +90,9 @@ Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 >[!NOTE]
 >
-> Um peso não móvel de um (1) equivale a um valor de um (1) para cada US$ 1 da receita rastreada para anúncios de exibição em qualquer dispositivo. Por exemplo, uma conversão de $250 com um peso não móvel de um (1) é relatada como $250 para conversões. Se for atribuído um peso não móvel de 0,5 à métrica de conversão, a conversão de US$ 250 será relatada como US$ 125 em Adobe Advertising (conversão de US$ 250 * 0,5) [!UICONTROL Non-mobile Weight] = US$ 125).
+> Um peso não móvel de um (1) equivale a um valor de um (1) para cada US$ 1 da receita rastreada para anúncios de exibição em qualquer dispositivo. Por exemplo, uma conversão de $250 com um peso não móvel de um (1) é relatada como $250 para conversões. Se for atribuído um peso não móvel de 0,5 à métrica de conversão, a conversão de US$ 250 será relatada como US$ 125 em Adobe Advertising (conversão de US$ 250 * 0,5 [!UICONTROL Non-mobile Weight] = US$ 125).
 
-#### Exemplo de uma campanha com &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Meta de otimização
+#### Exemplo de uma Campanha com a Meta de Otimização &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
 Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido (como &quot;Envio de aplicativo&quot;), inclua essa métrica e especifique o tipo de métrica como *[!UICONTROL Goal]*. A prática recomendada é definir o peso não móvel como um (1); o peso móvel é ignorado.
 
@@ -110,7 +110,7 @@ Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apen
 
 Há dois cenários nos quais você usaria várias métricas em uma meta personalizada:
 
-* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), a variável [!DNL Adobe Sensei] O algoritmo trata cada uma das métricas do e os tipos de dispositivo do usuário com a mesma importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
+* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download de PDF, Fale conosco e Inscrição por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), o algoritmo [!DNL Adobe Sensei] tratará cada uma das métricas e tipos de dispositivos de usuário com igual importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -130,10 +130,10 @@ Há dois cenários nos quais você usaria várias métricas em uma meta personal
 
 -->
 
-Se, em vez disso, você ponderasse as visitas de página de aterrissagem igualmente aos envios de aplicativos, a quantidade naturalmente maior de visitas de página de aterrissagem poderia sobrecarregar sua meta e distorcer as visitas de página de aterrissagem.<!--reword-->
+Se, em vez disso, você ponderar as visitas à página de aterrissagem igualmente aos envios de aplicativos, a quantidade naturalmente maior de visitas à página de aterrissagem poderá sobrecarregar sua meta e inclinar as visitas à página de aterrissagem.<!--reword-->
 
 >[!MORELIKETHIS]
 >
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Como o DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Como o DSP Otimiza Suas Campanhas](optimization-how-dsp-optimizes-campaigns.md)

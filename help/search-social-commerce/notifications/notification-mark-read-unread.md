@@ -1,9 +1,9 @@
 ---
 title: Marcar uma notificação como lida ou não lida
 description: Saiba como indicar se você leu ou não uma notificação.
-exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+exl-id: b6f35d37-819c-489d-aca6-a0753e82e7fd
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Marcar uma notificação como lida ou não lida
 
-*Recurso Beta*
+*Recurso do Beta*
 
-Marcar uma notificação como *ler* ou *não lido* altera o número de notificações não lidas indicadas na variável [!UICONTROL Notifications] na parte superior de cada página (como ![Ícone Notificações com contador de notificações não lidas](/help/search-social-commerce/assets/notifications-unread.png "Ícone Notificações com contador de notificações não lidas")).
+Marcar uma notificação como *lida* ou *não lida* altera o número de notificações não lidas indicadas no link [!UICONTROL Notifications] na parte superior de cada página (como o ícone ![Notificações com contador de notificações não lidas](/help/search-social-commerce/assets/notifications-unread.png "Ícone Notificações com contador de notificações não lidas")).
 
-Notificações marcadas como *ler* estão em um texto de cor mais clara, mas permanecem disponíveis até que você os exclua.
+As notificações marcadas como *lido* estão em um texto de cor mais clara, mas permanecem disponíveis até que você as exclua.
 
 ![Notificações Lidas e Não Lidas](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Notificações Lidas e Não Lidas")
 
-1. [Abra o painel Notificações ou a Central de notificações](notification-view.md).
+1. [Abra o painel Notificações ou a Central de Notificações](notification-view.md).
 
-1. Mantenha o cursor sobre o nome do alerta e clique em ![Marcar como lido ou não lido](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como lido ou não lido").
+1. Mantenha o cursor sobre o nome do alerta e clique em ![Marcar como Lido ou Não Lido](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como Lido ou Não Lido").
 
 >[!MORELIKETHIS]
 >
@@ -30,5 +30,5 @@ Notificações marcadas como *ler* estão em um texto de cor mais clara, mas per
 >* [Exibir suas notificações](notification-view.md)
 >* [Excluir uma notificação](notification-delete.md)
 >* [Editar suas configurações de notificação](notification-edit.md)
->* [Ativar e desativar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Instale e desinstale o [!UICONTROL Notification Center] aplicativo web](notification-app-install-uninstall.md)
+>* [Habilitar e desabilitar notificações por push de [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Instalar e desinstalar o [!UICONTROL Notification Center] aplicativo Web](notification-app-install-uninstall.md)

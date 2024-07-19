@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência
 
-Você pode copiar a chave de segmento alfanumérico (ID) de um público para a área de transferência. Você pode usar chaves de segmento para [definir manualmente a lógica de segmento](audience-segment-logic-syntax.md) para outros públicos-alvo reutilizáveis.
+Você pode copiar a chave de segmento alfanumérico (ID) de um público para a área de transferência. Você pode usar chaves de segmento para [definir manualmente a lógica de segmento](audience-segment-logic-syntax.md) para outros públicos reutilizáveis.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Mantenha o cursor sobre a linha de público-alvo e clique **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+1. Mantenha o cursor sobre a linha de público e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
 1. Cole a chave de segmento em qualquer software de edição.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Duplicar um público-alvo reutilizável](reusable-audience-duplicate.md)
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)
@@ -32,7 +32,6 @@ Você pode copiar a chave de segmento alfanumérico (ID) de um público para a �
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
->* [Configurações de público](audience-settings.md)
+>* [Configurações de público-alvo](audience-settings.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
-

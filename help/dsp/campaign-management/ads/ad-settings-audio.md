@@ -16,13 +16,13 @@ ht-degree: 0%
 
 *Somente novos anúncios*
 
-**[!UICONTROL URL]**: o URL da tag VAST.
+**[!UICONTROL URL]**: A URL da marca VAST.
 
-**[!UICONTROL Title]**: Um nome para o arquivo, que é usado no [!UICONTROL Ads] e relatórios.
+**[!UICONTROL Title]**: Um nome para o arquivo, que é usado na exibição e nos relatórios [!UICONTROL Ads].
 
 >[!TIP]
 >
-> Para verificar a validade de uma tag VAST, cole-a em um navegador e clique em **[!UICONTROL Enter]** chave. Se a tag for válida, você verá um arquivo XML que inclui `<VAST>` perto do topo.
+> Para verificar a validade de uma tag VAST, cole-a em um navegador e pressione a tecla **[!UICONTROL Enter]**. Se a marca for válida, você verá um arquivo XML que inclui `<VAST>` perto da parte superior.
 
 ## [!UICONTROL Ad Options]
 
@@ -34,29 +34,29 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Use um nome fácil de encontrar ao anexar o anúncio a uma disposição, no campo [!UICONTROL Ads] e nos relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos principais (como Visualização de produto de feriado: áudio de 30 segundos).
+> Use um nome fácil de encontrar ao anexar o anúncio a um posicionamento, no modo de exibição [!UICONTROL Ads] e em relatórios. Por exemplo, descreva o tipo de unidade e alguns atributos principais (como Visualização de produto de feriado: áudio de 30 segundos).
 
 **[!UICONTROL Ad Duration]:** O comprimento do arquivo de áudio. É automaticamente definido como [!UICONTROL 15] ou [!UICONTROL 30], dependendo da unidade de anúncio selecionada.
 
 Este campo pode ou não ser exibido, dependendo das permissões da conta.
 
-**[!UICONTROL VAST Tag]:** (Anúncios usando somente tags VAST) Um URL para uma fonte de anúncios de terceiros. Verifique se a tag VAST inclui apenas arquivos de mídia de áudio.
+**[!UICONTROL VAST Tag]:** (Anúncios usando somente marcas VAST) Uma URL para uma fonte de anúncio de terceiros. Verifique se a tag VAST inclui apenas arquivos de mídia de áudio.
 
-**[!UICONTROL Final VAST Tag]:** (Anúncios que usam somente tags VAST) O URL da fonte de anúncios de terceiros com as tags necessárias [Macros de rastreamento de DSP de publicidade](/help/dsp/campaign-management/macros.md) se for caso disso.
+**[!UICONTROL Final VAST Tag]:** (Anúncios usando somente marcas VAST) A URL da fonte de anúncio de terceiros com as [macros de rastreamento do Advertising DSP](/help/dsp/campaign-management/macros.md) necessárias inseridas, se aplicável.
 
-**[!UICONTROL Select Rate]:** (Somente usuários com permissão) Uma taxa pré-negociada cobrada por meio do Adobe ou uma das taxas que você negociou e é cobrada por meio do fornecedor. Para adicionar uma taxa, entre em contato com a equipe da conta Adobe.
+**[!UICONTROL Select Rate]:** (Usuários com permissão apenas) Uma taxa pré-negociada cobrada por Adobe ou uma das taxas que você negociou e é cobrada pelo fornecedor. Para adicionar uma taxa, entre em contato com a equipe da conta Adobe.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** Para editar os pixels de rastreamento de terceiros para vários anúncios em uma disposição de uma só vez usando o [!UICONTROL Ad Tools] exibir, consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
+Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 As configurações a seguir se aplicam a cada pixel criado ou editado.
 
-**[!UICONTROL Integration Event]:** O evento que aciona o pixel para ser acionado. Para esse tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** O evento que aciona o pixel. Para este tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem com 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem de 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** A URL da imagem pixel, no formato apropriado para o Tipo de Pixel especificado.
+**[!UICONTROL Pixel URL or Code]:** A URL da imagem de pixel, no formato apropriado para o Tipo de Pixel especificado.
 
 **[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
 
@@ -64,8 +64,8 @@ As configurações a seguir se aplicam a cada pixel criado ou editado.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de anúncios](ad-about.md)
->* [Crie um único anúncio](ad-create.md)
->* [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [Especificações de publicidade](ad-specs.md)
+>* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Criar um único anúncio](ad-create.md)
+>* [Listar os Posicionamentos Associados a um Anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Especificações do anúncio](ad-specs.md)
 >* [Macros do DSP](/help/dsp/campaign-management/macros.md)

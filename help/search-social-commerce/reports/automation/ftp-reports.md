@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Acesso FTP a relatórios
 
-Opcionalmente, é possível receber relatórios em um local FTP somente leitura, do qual você pode recuperar os arquivos para processos automatizados adicionais (por exemplo, para analisar os dados com outro programa). Todos os relatórios básicos, exceto o [!UICONTROL Search Engine Account Report] e todos os relatórios avançados podem ser entregues a um local FTP como arquivos TSV compactados (o padrão) ou arquivos CSV, com uma extensão de arquivo .ZIP. Todos os cabeçalhos de arquivo TSV ou CSV estão incluídos e não podem ser suprimidos.
+Opcionalmente, é possível receber relatórios em um local FTP somente leitura, do qual você pode recuperar os arquivos para processos automatizados adicionais (por exemplo, para analisar os dados com outro programa). Todos os relatórios básicos, exceto o [!UICONTROL Search Engine Account Report], e todos os relatórios avançados podem ser entregues a um local FTP como arquivos TSV zipados (o padrão) ou arquivos CSV, com uma extensão de arquivo .ZIP. Todos os cabeçalhos de arquivo TSV ou CSV estão incluídos e não podem ser suprimidos.
 
 O acesso FTP a relatórios requer acesso a uma conta FTP especificada, e você deve configurar modelos de relatório usando uma convenção de nomenclatura específica e um agendamento.
 
@@ -24,11 +24,11 @@ O acesso FTP a relatórios requer acesso a uma conta FTP especificada, e você d
 
 ## Configurar modelos de relatório para entrega por FTP
 
-Para gerar relatórios no diretório FTP designado, crie um [modelo de relatório](templates/template-create.md) com as seguintes convenções de nomenclatura e programação.
+Para gerar relatórios no diretório FTP designado, crie um [modelo de relatório](templates/template-create.md) com o agendamento e as convenções de nomenclatura a seguir.
 
 >[!NOTE]
 >
->Todos os relatórios avançados e todos os relatórios básicos, exceto [!UICONTROL Search Engine Account Report] pode ser entregue a um local FTP.
+>Todos os relatórios avançados e todos os relatórios básicos, exceto o [!UICONTROL Search Engine Account Report], podem ser entregues a um local FTP.
 
 1. No modelo de relatório, inclua as seguintes informações em qualquer lugar no nome do modelo:
 
@@ -36,7 +36,7 @@ Para gerar relatórios no diretório FTP designado, crie um [modelo de relatóri
 
    * (Opcional) Qualquer uma das três datas do sistema, usando a seguinte sintaxe que diferencia maiúsculas de minúsculas, incluindo colchetes:
 
-      * `[TODAY]` — Para incluir data, hora e minuto em que o relatório foi executado. Como isso inclui a hora exata, o mesmo modelo pode ser executado várias vezes por dia sem substituir o relatório anterior.
+      * `[TODAY]` — Para incluir a data, hora e minuto em que o relatório foi executado. Como isso inclui a hora exata, o mesmo modelo pode ser executado várias vezes por dia sem substituir o relatório anterior.
 
       * `[SDATE]` — Para incluir a data inicial do intervalo de datas do relatório.
 
@@ -57,7 +57,7 @@ Para gerar relatórios no diretório FTP designado, crie um [modelo de relatóri
 
 ## Acessar relatórios em um repositório FTP
 
-Para acessar seus relatórios, conecte-se a um dos hosts FTP a seguir usando o logon da sua conta FTP (`amo<userID>rpt`, como amo1234rpt) e uma senha ou uma chave de conexão privada, se configurada:
+Para acessar seus relatórios, conecte-se a um dos seguintes hosts FTP usando o logon da sua conta FTP (`amo<userID>rpt`, como amo1234rpt) e uma senha ou uma chave de conexão privada, se houver uma configurada:
 
 * Clientes internacionais: `ftp3.adobe.net`
 * Clientes dos EUA: `ftp5.adobe.net`

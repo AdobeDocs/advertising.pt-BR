@@ -18,9 +18,8 @@ Você pode desarquivar um negócio para restaurar seu status anterior a qualquer
 
 >[!NOTE]
 >
->* Você não pode arquivar [!UICONTROL On Demand] negócios.
+>* Você não pode arquivar [!UICONTROL On Demand] ofertas.
 >* Para desativar uma negociação no lado do publicador, entre em contato com o publicador ou com o SSP. Depois que eles desativarem o negócio, você pode arquivá-lo no DSP para ocultá-lo.
-
 
 ## Arquivar um contrato privado
 
@@ -30,12 +29,12 @@ Você pode desarquivar um negócio para restaurar seu status anterior a qualquer
 
 >[!NOTE]
 >
->Para exibir ofertas arquivadas, clique em ![Filtro](/help/dsp/assets/filter.png) acima da lista de negócios; clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Archived]*; e clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Para exibir ofertas arquivadas, clique em ![Filtro](/help/dsp/assets/filter.png) acima da lista de ofertas; clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Archived]*; depois clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Desarquivar um negócio privado
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
-1. Acima da lista de negócios, clique em ![Filtro](/help/dsp/assets/filter.png); clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Archived]*; e clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+1. Acima da lista de negócios, clique em ![Filtro](/help/dsp/assets/filter.png); clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Archived]*; depois clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
@@ -43,10 +42,9 @@ Se o publicador ou o SSP tiver desativado o negócio anteriormente e você quise
 
 >[!NOTE]
 >
->Para exibir ofertas não arquivadas (ativas), clique em ![Filtro](/help/dsp/assets/filter.png) acima da lista de negócios; clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Live]*; e clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Para exibir ofertas (online) não arquivadas, clique em ![Filtro](/help/dsp/assets/filter.png) acima da lista de ofertas; clique em **[!UICONTROL Status]** e selecione *[!UICONTROL Live]*; depois clique em **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Editar configurações de oferta privada](/help/dsp/inventory/deal-id-edit.md)
-

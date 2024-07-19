@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Arquivar um plano de alcance de TV conectada
 
-O arquivamento de um plano o remove do padrão [!UICONTROL Planner] exibição.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+O arquivamento de um plano o remove do modo de exibição [!UICONTROL Planner] padrão.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
 1. No menu principal, clique em **[!UICONTROL Planner]**.
 
@@ -20,10 +20,10 @@ O arquivamento de um plano o remove do padrão [!UICONTROL Planner] exibição.<
 
 >[!MORELIKETHIS]
 >
->* [Sobre a ferramenta Planejador DSP](planner-about.md)
->* [Criar um plano de alcance de TV conectado](planner-create.md)
->* [Duplicar um plano de alcance de TV conectado](planner-duplicate.md)
->* [Editar um plano de alcance de TV conectado](planner-edit.md)
->* [Exportar um plano de alcance de TV conectada](planner-export.md)
+>* [Sobre a Ferramenta de Planejamento DSP](planner-about.md)
+>* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
+>* [Duplicar um Plano de Alcance de TV Conectado](planner-duplicate.md)
+>* [Editar um Plano de Alcance de TV Conectado](planner-edit.md)
+>* [Exportar um Plano de Alcance de TV Conectada](planner-export.md)
 >* [Regenerar a Previsão para um Plano de Alcance de TV Conectada](planner-forecast.md)
->* [Configurações para planos de alcance de TV conectado](planner-settings.md)
+>* [Configurações para Planos de Alcance de TV Conectados](planner-settings.md)

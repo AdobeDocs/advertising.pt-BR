@@ -16,9 +16,9 @@ Use pacotes para agrupar disposições para entrega em um orçamento definido, m
 
 É possível criar pacotes manualmente ou duplicando pacotes existentes. Também é possível editar e anexar disposições a qualquer pacote.
 
-## A variável [!UICONTROL Packages] Painel
+## O Painel [!UICONTROL Packages]
 
-A variável [!UICONTROL Packages] O painel de controle centraliza os relatórios de desempenho e economia em todas as estratégias de pacote, fornecendo instantâneos rápidos do desempenho de seus pacotes durante um intervalo de datas especificado.
+O painel [!UICONTROL Packages] centraliza o desempenho e os relatórios econômicos em todas as estratégias de pacote, fornecendo instantâneos rápidos do desempenho de seus pacotes durante um intervalo de datas especificado.
 
 ![Painel de pacotes](/help/dsp/assets/package-dashboard.png)
 
@@ -28,7 +28,7 @@ Ela também mostra as métricas de ritmo e entrega por pacote, por padrão. Opci
 
 >[!NOTE]
 >
->É possível personalizar ainda mais o conteúdo e o delivery de relatórios de pacotes por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
+>Você pode personalizar ainda mais o conteúdo e a entrega de relatórios de pacotes por meio de [relatórios personalizados](/help/dsp/reports/report-about.md).
 
 Para ver todos os posicionamentos em um pacote e as datas de início e término do pacote, clique no nome do pacote.
 
@@ -36,6 +36,6 @@ Para ver todos os posicionamentos em um pacote e as datas de início e término 
 >
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Configurações do pacote](package-settings.md)

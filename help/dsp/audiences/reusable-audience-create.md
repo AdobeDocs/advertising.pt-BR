@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
 
-1. Insira um único **[!UICONTROL Audience Name]**.
+1. Digite um **[!UICONTROL Audience Name]** exclusivo.
 
 1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
-   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para o mesmo [!DNL Analytics] conta, o segmento não será visualizado nesse público-alvo para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
+   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para a mesma conta [!DNL Analytics], o segmento não será visualizado nesse público para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >À medida que você cria o público-alvo, [dados de tamanho do público](audience-about.md) é atualizado no painel direito
+   >À medida que você cria o público-alvo, os [dados detalhados sobre o tamanho do público-alvo](audience-about.md) são atualizados no painel direito
 
-   * Para criar manualmente a lógica de segmento, usando segmentos disponíveis na [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments], e [!UICONTROL Saved Audiences] guias](audience-settings.md), faça o seguinte.
+   * Para criar manualmente a lógica do segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
 
       * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
          1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
-            *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em uma disposição, selecione esse público no menu Públicos-alvo excluídos.
+            *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em um posicionamento, selecione esse público-alvo no menu Públicos-alvo excluídos.
 
          1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
       1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todos os públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações do público-alvo existente, na parte superior do painel lógico de segmentos, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [Sintaxe booleana](audience-segment-logic-syntax.md), e copie-o para a área de transferência.
+         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
 
-      1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica do segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
+      1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
@@ -80,10 +80,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de público-alvo](audience-about.md)
->* [Configurações de público](audience-settings.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Configurações de público-alvo](audience-settings.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
->* [Criar e implementar uma [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -22,13 +22,13 @@ Você pode exportar um instantâneo da visualização atual e filtrada do gerenc
 * Todas as disposições
 * Todos os anúncios
 
-1. No menu principal, clique em **[!UICONTROL Campaigns]** e abra a exibição que deseja exportar.
+1. No menu principal, clique em **[!UICONTROL Campaigns]** e abra o modo de exibição que deseja exportar.
 
-1. Na barra de ferramentas superior direita, clique em  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. Na barra de ferramentas superior direita, clique em **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    O arquivo é salvo na pasta de downloads padrão do navegador.
 
 >[!MORELIKETHIS]
 >
->* [Tipos de relatórios de desempenho em visualizações do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
 >* [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

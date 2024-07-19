@@ -1,11 +1,11 @@
 ---
 title: Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
-description: Saiba como criar e gerenciar [!DNL Google Ads] alvos de pesquisa dinâmica.
-exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+description: Saiba como criar e gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica.
+exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Você pode criar, editar e alterar o status de alvos de pesquisa dinâmica para 
 
 >[!NOTE]
 >
->Você pode criar e editar grandes quantidades de dados de destino de uma só vez fazendo upload [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) e publicá-los na rede de publicidade.
+>Você pode criar e editar grandes quantidades de dados de destino de uma só vez carregando [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) e postando-os na rede de anúncios.
 
-## Criar um [!DNL Google Ads] destino de pesquisa dinâmica
+## Criar um destino de pesquisa dinâmica [!DNL Google Ads]
 
 Você pode criar destinos de pesquisa dinâmica para definir páginas em seus sites (ou seja, os domínios usados nos URLs de exibição de seus anúncios) cujo conteúdo é usado para direcionar seus anúncios de pesquisa dinâmica no mesmo grupo de anúncios.
 
@@ -28,7 +28,7 @@ Você pode direcionar todos os critérios ou até três critérios individuais.
 
 >[!NOTE]
 >
->Para melhor monitorar o desempenho, crie um &quot;[!UICONTROL All Targets]&quot; para apenas um grupo de anúncios por campanha.
+>Para melhor monitorar o desempenho, crie um público alvo &quot;[!UICONTROL All Targets]&quot; somente para um grupo de anúncios por campanha.
 
 >[!TIP]
 >
@@ -40,35 +40,35 @@ Você pode direcionar todos os critérios ou até três critérios individuais.
 
 1. Selecione a rede de publicidade, a conta, a campanha e o grupo de publicidade e clique em **[!UICONTROL Continue]**.
 
-1. Especifique a [configurações do dynamic search target](#dynamic-search-target-settings).
+1. Especifique as [configurações de destino de pesquisa dinâmica](#dynamic-search-target-settings).
 
 1. Clique em **[!UICONTROL Post]**.
 
-## Editar [!DNL Google Ads] configurações do dynamic search target
+## Editar configurações de destino de pesquisa dinâmica [!DNL Google Ads]
 
-É possível editar o status ou o lance máximo de um [!DNL Google Ads] destino de pesquisa dinâmica. Você não pode alterar os critérios de destino.
+Você pode editar o status ou o lance máximo para um público alvo de pesquisa dinâmica [!DNL Google Ads]. Você não pode alterar os critérios de destino.
 
 >[!TIP]
 >
->Para editar grandes quantidades de dados de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Para editar grandes quantidades de dados de uma só vez, use os [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada linha a ser editada.
 
-   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+1. Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Especifique a [configurações do dynamic search target](#dynamic-search-target-settings).
+1. Especifique as [configurações de destino de pesquisa dinâmica](#dynamic-search-target-settings).
 
-   Para vários alvos, as alterações são aplicadas a todos os alvos selecionados. Para o [!UICONTROL Bid field], você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
+   Para vários alvos, as alterações são aplicadas a todos os alvos selecionados. Para o [!UICONTROL Bid field], você tem opções para alterar valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 
 1. Salve os dados:
 
-   * (Alvos únicos) Clique em **[!UICONTROL Post]**.
+   * (Destinos únicos) Clique em **[!UICONTROL Post]**.
 
-   * (Vários grupos de anúncios) Clique **[!UICONTROL Post Now]**.
+   * (Vários grupos de anúncios) Clique em **[!UICONTROL Post Now]**.
 
 ## Alterar o status de [!DNL Google Ads] destinos de pesquisa dinâmica
 
@@ -82,43 +82,43 @@ Também é possível excluir qualquer destino dinâmico.
 
 1. Siga um destes procedimentos:
 
-   * Para alterar o status de um target dinâmico, clique no **[!UICONTROL Status]** e altere o status.
+   * Para alterar o status de um destino dinâmico, clique na coluna **[!UICONTROL Status]** e altere o status.
 
    * Para excluir um ou mais destinos dinâmicos, faça o seguinte:
 
       1. Marque a caixa de seleção ao lado de cada destino dinâmico que você deseja excluir.
 
-     Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
       1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
 
       1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
-## [!DNL Google Ads] configurações do dynamic search target {#dynamic-search-target-settings}
+## [!DNL Google Ads] configurações de destino de pesquisa dinâmica {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** (Obrigatório quando você não especifica um domínio de site e idioma no [!UICONTROL DSA Options] seção; somente leitura para destinos existentes) Alvos de pesquisa dinâmica para o grupo de publicidade:
+**[!UICONTROL Auto-targets]:** (Obrigatório quando você não especifica um domínio de site e idioma na seção [!UICONTROL DSA Options] da campanha; somente leitura para destinos existentes) Destinos de pesquisa dinâmica para o grupo de anúncios:
 
 * *[!UICONTROL All Targets]* (o padrão): segmenta todas as páginas indexadas.
 
-* *\[Destinos específicos\]:* Direciona até três critérios para as páginas indexadas. Ao selecionar essa opção, você deve especificar os critérios especificando categorias de informações e valores específicos para os quais os anúncios devem ser direcionados (por exemplo, &quot;URL contém shoes.example.com&quot;). Para especificar mais de um critério, clique em **[!UICONTROL + And]**. Os critérios de direcionamento incluem:
+* *\[Destinos específicos\]:* Segmenta até três critérios para as páginas indexadas. Ao selecionar essa opção, você deve especificar os critérios especificando categorias de informações e valores específicos para os quais os anúncios devem ser direcionados (por exemplo, &quot;URL contém shoes.example.com&quot;). Para especificar mais de um critério, clique em **[!UICONTROL + And]**. Os critérios de direcionamento incluem:
 
-   * *[!UICONTROL Category]:* Para mostrar anúncios de páginas indexadas com um [!DNL Google Ads] categoria de conteúdo.
+   * *[!UICONTROL Category]:* Para mostrar anúncios de páginas indexadas com uma categoria de conteúdo [!DNL Google Ads] específica.
 
-   * *[!UICONTROL URL]:* Para mostrar anúncios de páginas indexadas com um URL específico, onde o valor pode ser incluído em qualquer lugar no URL.
+   * *[!UICONTROL URL]:* Para mostrar anúncios de páginas indexadas com uma URL específica, em que o valor pode ser incluído em qualquer lugar da URL.
 
    * *[!UICONTROL Page Title]:* Para mostrar anúncios de páginas indexadas com texto específico no título da página.
 
    * *[!UICONTROL Page Content]:* Para mostrar anúncios de páginas indexadas com conteúdo específico.
 
-**Status:** O status das configurações do target:
+**Status:** O status das configurações de destino:
 
-* *[!UICONTROL Active]* (o padrão): Permite lances.
+* *[!UICONTROL Active]* (padrão): habilita lances.
 
-* *[!UICONTROL Paused]:* Desabilita lances.
+* *[!UICONTROL Paused]:* Desabilita a licitação.
 
-* *[!UICONTROL Deleted]* (somente destinos existentes): exclui as definições de destino.
+* *[!UICONTROL Deleted]* (somente destinos existentes): exclui as configurações de destino.
 
 ### [!UICONTROL Bids]
 

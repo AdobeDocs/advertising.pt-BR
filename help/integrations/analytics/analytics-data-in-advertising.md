@@ -1,22 +1,22 @@
 ---
-title: '[!DNL Analytics] Dados no Adobe Advertising'
-description: '[!DNL Analytics] Dados no Adobe Advertising'
+title: '[!DNL Analytics] Dados em Adobe Advertising'
+description: '[!DNL Analytics] Dados em Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics] Dados no Adobe Advertising
 
-*Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
+*Anunciantes com uma Integração Adobe Advertising-Adobe Analytics Somente*
 
 ## Segmentos do Analytics
 
-Todos os segmentos criados no [!DNL Analytics] e publicado no Experience Cloud.
+Todos os segmentos criados em [!DNL Analytics] e publicados no Experience Cloud.
 
 Novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising. As atualizações de segmentos existentes são sincronizadas em cerca de oito horas.
 
@@ -26,8 +26,8 @@ Novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising.
 
 >[!NOTE]
 >
->* [!DNL Analytics] transmite eventos para a ID EF [!DNL eVar] no Adobe Advertising.  A integração padrão não oferece suporte ao envio de métricas calculadas ou outras dimensões ([!DNL eVars]) no Adobe Advertising. No entanto, se a métrica calculada puder ser totalmente capturada em um evento personalizado, o Adobe Advertising poderá assimilar o evento personalizado.
->* [!DNL Analytics] transmite dados para o Adobe Advertising por hora.
+>* [!DNL Analytics] passa eventos para EF ID [!DNL eVar] para Adobe Advertising.  A integração padrão não oferece suporte ao envio de métricas calculadas ou outras dimensões ([!DNL eVars]) para o Adobe Advertising. No entanto, se a métrica calculada puder ser totalmente capturada em um evento personalizado, o Adobe Advertising poderá assimilar o evento personalizado.
+>* [!DNL Analytics] passa dados para Adobe Advertising por hora.
 
 * [!UICONTROL Timespent_secs_1stvisit]: o número de segundos gastos no site durante a primeira visita.
 * [!UICONTROL Timespent_secs_total]: o número total de segundos gastos no site em todas as visitas na janela de retrospectiva de cliques.
@@ -35,11 +35,11 @@ Novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising.
 * [!UICONTROL Pageviews_total]: o número total de exibições de página no site em todas as visitas na janela de retrospectiva de cliques.
 * [[!UICONTROL Bounces] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]: o número de vezes que [!DNL Analytics] coletou um [!UICONTROL EF ID].
+* [!UICONTROL ef_id_instances]: O número de vezes que [!DNL Analytics] coletou um [!UICONTROL EF ID].
 
 ## Métricas de conversão
 
-[!DNL Analytics] O transmite métricas de conversão para o Adobe Advertising diariamente.
+[!DNL Analytics] passa métricas de conversão para Adobe Advertising diariamente.
 
 ### Métricas de conversão padrão
 
@@ -56,9 +56,9 @@ Novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising.
 
 Essas métricas são específicas para o conjunto de relatórios, de modo que as métricas disponíveis variam para cada cliente e conjunto de relatórios.
 
-### Métricas de conversão personalizadas criadas a partir de [!DNL eVars] e [!DNL Props]
+### Métricas de Conversão Personalizadas Criadas de [!DNL eVars] e [!DNL Props]
 
-As métricas disponíveis variam para cada cliente. Consulte &quot;[Criar métricas de conversão do Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+As métricas disponíveis variam para cada cliente. Consulte &quot;[Criar Métricas de Conversão do Adobe Analytics [!DNL eVars] and [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)&quot;.
 
 ### Métricas de conversão reservadas
 
@@ -66,5 +66,5 @@ Essas métricas são específicas para o conjunto de relatórios, de modo que as
 
 >[!MORELIKETHIS]
 >
->* [Visão geral do [!DNL Analytics for Advertising]](overview.md)
+>* [Visão geral de [!DNL Analytics for Advertising]](overview.md)
 >* [Métricas de Adobe Advertising no Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)

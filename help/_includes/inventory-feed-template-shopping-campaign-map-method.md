@@ -7,11 +7,11 @@ ht-degree: 0%
 ---
 # Modelo de anúncio de texto - Método de mapa de campanha
 
-**[!UICONTROL Map Method]:** (Quando [!UICONTROL Map Only] está ativado para a campanha) O método pelo qual novos grupos de anúncios (não disponível para [!DNL Yandex]), palavras-chave e anúncios são mapeados para campanhas existentes:
+**[!UICONTROL Map Method]:** (Quando [!UICONTROL Map Only] está habilitado para a campanha) O método pelo qual novos grupos de anúncios (não disponível para [!DNL Yandex]), palavras-chave e anúncios são mapeados para campanhas existentes:
 
-* *[!UICONTROL Contains Anywhere]:* Adiciona dados a uma campanha existente cujo nome inclui a cadeia de caracteres especificada, se existir.
+* *[!UICONTROL Contains Anywhere]:* Adiciona dados a uma campanha existente cujo nome inclui a cadeia de caracteres especificada, se ela existir.
 
-* *[!UICONTROL Contains Exactly]:* Adiciona dados a uma campanha existente cujo nome inclui a cadeia de caracteres especificada, se existir.
+* *[!UICONTROL Contains Exactly]:* Adiciona dados a uma campanha existente cujo nome inclui a cadeia de caracteres especificada, se ela existir.
 
 * *[!UICONTROL Exactly Matches]* (o padrão): — Adiciona dados a uma campanha existente com o mesmo nome, se existir.
 

@@ -31,7 +31,7 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 
 1. Siga um destes procedimentos:
 
-   * Para duplicar um posicionamento, clique em  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** ao lado do nome do pacote.
+   * Para duplicar um posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** ao lado do nome do pacote.
 
    * Para duplicar vários posicionamentos:
 
@@ -43,7 +43,7 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 
    1. (Inserções únicas) Insira o novo nome de inserção.
 
-   1. No **[!UICONTROL Choose Package (Required)]** selecione o pacote principal ou **[!UICONTROL No package]*.
+   1. No menu **[!UICONTROL Choose Package (Required)]**, selecione o pacote pai ou **[!UICONTROL No package]*.
 
    1. (Opcional) Altere as configurações padrão.
 
@@ -51,7 +51,7 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 
    Por padrão, as novas inserções são para o tipo de anúncio original, são atribuídas aos anunciantes e campanhas originais, têm programações de voo que começam no dia atual, são pausadas e não incluem os anúncios originais.
 
-   Quando você cria várias disposições, os novos nomes de disposições são anexados com um número, em sequência, usando a convenção &lt;*original_placement_name #N*>, como &quot;Meu posicionamento #2&quot;.
+   Ao criar vários posicionamentos, os novos nomes de posicionamento são anexados com um número, em sequência, usando a convenção &lt;*original_placement_name #N*>, como &quot;Meu Posicionamento #2&quot;.
 
 1. Clique em **[!UICONTROL Submit]**.
 
@@ -67,12 +67,12 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Destinos geográficos
    * Pixels de evento
    * Anúncios
-   * Nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] segmentos (que substituem os segmentos de nível do anunciante)
+   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de posicionamento](placement-about.md)
->* [Criar uma disposição](placement-create.md)
->* [Editar disposições](placement-edit.md)
+>* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Criar um posicionamento](placement-create.md)
+>* [Editar posicionamentos](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

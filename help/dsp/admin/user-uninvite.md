@@ -18,9 +18,9 @@ Usuários administradores podem desconvidar um usuário com um convite pendente.
 
    * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Account]** e clique em **[!UICONTROL Edit users]**.
+   * No menu principal, clique em **[!UICONTROL Settings]** > **[!UICONTROL Account]** e, em seguida, clique em **[!UICONTROL Edit users]**.
 
-1. No **[!UICONTROL Invitations]** clique em **[!UICONTROL X]** ao lado do convite.
+1. Na seção **[!UICONTROL Invitations]**, clique em **[!UICONTROL X]** ao lado do convite.
 
 >[!MORELIKETHIS]
 >

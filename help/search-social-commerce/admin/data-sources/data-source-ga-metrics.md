@@ -1,19 +1,19 @@
 ---
-title: Disponível [!DNL Google Analytics] métricas
-description: Referencie a [!DNL Google Analytics] métricas disponíveis para fontes de dados.
+title: Métricas [!DNL Google Analytics]  disponíveis
+description: Referencie as  [!DNL Google Analytics]  métricas disponíveis para fontes de dados.
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Apêndice - Disponível [!DNL Google Analytics] métricas
+# Apêndice - Métricas [!DNL Google Analytics] disponíveis
 
-As seguintes métricas, exceto as exclusões anotadas, estão disponíveis quando são ativadas na implementação do cliente no [!DNL Google Analytics].
+As seguintes métricas, com exceção das exclusões anotadas, estão disponíveis quando são habilitadas na implementação do cliente em [!DNL Google Analytics].
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -38,10 +38,10 @@ As seguintes métricas, exceto as exclusões anotadas, estão disponíveis quand
 
 >[!MORELIKETHIS]
 >
->* [Sobre sincronização [!DNL Google Analytics] métricas de conversão](data-source-about.md)
->* [Pré-requisitos para configurar um [!DNL Google Analytics] fonte de dados](data-source-prerequisites.md)
->* [Configurar um [!DNL Google Analytics] exibir como fonte de dados](data-source-configure.md)
->* [Editar um [!DNL Google Analytics] fonte de dados](data-source-edit.md)
+>* [Sobre a sincronização [!DNL Google Analytics] de métricas de conversão](data-source-about.md)
+>* [Pré-requisitos para configurar uma [!DNL Google Analytics] fonte de dados](data-source-prerequisites.md)
+>* [Configurar uma  [!DNL Google Analytics] exibição como fonte de dados](data-source-configure.md)
+>* [Editar uma [!DNL Google Analytics] fonte de dados](data-source-edit.md)
 >* [Pausar sincronização de uma fonte de dados](data-source-pause.md)
->* [Reautenticar um [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
+>* [Reautenticar uma [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configurações da fonte de dados](data-source-settings.md)

@@ -1,11 +1,11 @@
 ---
 title: Formatos de arquivo de bulksheet compatíveis
 description: Consulte os requisitos gerais de arquivo para bulksheets.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Ao criar/baixar uma bulksheet, ela é criada no formato de arquivo especificado 
 
 ## Conteúdo básico de uma bulksheet
 
-O primeiro registro (linha) de um arquivo de bulksheet contém um conjunto de nomes de coluna específicos, coletivamente conhecidos como um <i>cabeçalho</i>. Os nomes das colunas no cabeçalho estão em uma ordem especificada e correspondem a cada um dos campos nos registros de dados subsequentes. Os nomes de coluna necessários no cabeçalho variam de acordo com a rede de anúncios.
+O primeiro registro (linha) de um arquivo de bulksheet contém um conjunto de nomes de coluna específicos, coletivamente conhecidos como <i>cabeçalho</i>. Os nomes das colunas no cabeçalho estão em uma ordem especificada e correspondem a cada um dos campos nos registros de dados subsequentes. Os nomes de coluna necessários no cabeçalho variam de acordo com a rede de anúncios.
 
 Cada registro subsequente (linha) contém dados, com campos contendo valores (ou nenhum valor) para cada coluna no cabeçalho.
 
@@ -35,7 +35,7 @@ Os arquivos de bulksheet podem ter até 2,5 GB, o que corresponde a cerca de 2,5
 
 >[!NOTE]
 >
->Quando você gera um bulksheet para várias campanhas e os dados combinados consistem em mais de 500.000 linhas, os dados são divididos por campanha em dois ou mais arquivos, chamados de `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`e assim por diante.
+>Quando você gera um bulksheet para várias campanhas e os dados combinados consistem em mais de 500.000 linhas, os dados são divididos por campanha em dois ou mais arquivos, chamados `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv` e assim por diante.
 
 ## Requisitos de formatação para diferentes tipos de arquivos
 
@@ -59,19 +59,19 @@ Os campos de dados em arquivos CSV e TXT delimitados com vírgulas devem ser for
 
   Exemplo: `Cruises,5000,Caribbean,,,`
 
-* Como opção, qualquer campo pode estar entre aspas duplas (`""`).
+* Qualquer campo pode, opcionalmente, estar entre aspas duplas (`""`).
 
-  Exemplo:  `"Cruises","5000","Caribbean",`
+  Exemplo: `"Cruises","5000","Caribbean",`
 
-* Os campos com vírgulas incorporadas devem estar entre aspas duplas (`""`).
+* Os campos com vírgulas inseridas devem estar entre aspas duplas (`""`).
 
   Exemplo: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
-* Os campos com aspas duplas incorporadas devem ser colocados entre aspas duplas (`""`).
+* Os campos com aspas duplas incorporadas devem estar entre aspas duplas (`""`).
 
   Exemplo: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
-* Os campos com espaços à esquerda ou à direita devem ser colocados entre aspas duplas (`""`).
+* Os campos com espaços à esquerda ou à direita devem estar entre aspas duplas (`""`).
 
   Exemplo: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
@@ -80,4 +80,4 @@ Os campos de dados em arquivos CSV e TXT delimitados com vírgulas devem ser for
 >* [Sobre o gerenciamento de dados de campanha usando bulksheets](../bulksheet-about.md)
 >* [Operações que você pode executar em bulksheets](bulksheet-operations.md)
 >* [Apêndice - Erros de bulksheet](../bulksheet-errors.md)
->* [Baixar/criar um arquivo de bulksheet](../bulksheet-download.md)
+>* [Baixar/Criar um arquivo de bulksheet](../bulksheet-download.md)

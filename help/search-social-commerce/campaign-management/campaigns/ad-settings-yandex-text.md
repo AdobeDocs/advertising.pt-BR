@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Yandex] configurações de anúncio de texto'
-description: Referenciar as configurações de [!DNL Yandex] anúncios de texto.
-exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+title: Configurações de anúncio de texto '[!DNL Yandex]'
+description: Referencie as configurações de  [!DNL Yandex] anúncios de texto.
+exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] configurações de anúncio de texto
+# Configurações de anúncio de texto [!DNL Yandex]
 
 ## [!UICONTROL Text Ad]
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alterar a cópia de anúncio para um [!DNL Yandex] o anúncio exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
+>Alterar a cópia do anúncio para um anúncio [!DNL Yandex] exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
 
 **[!UICONTROL Description Line 1]:** O corpo do banner (anúncio). O comprimento máximo é de 75 caracteres e uma única palavra não pode ter mais de 22 caracteres.
 
 >[!NOTE]
 >
->Alterar a cópia de anúncio para um [!DNL Yandex] o anúncio exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
+>Alterar a cópia do anúncio para um anúncio [!DNL Yandex] exclui o anúncio existente e cria um novo anúncio com as mesmas propriedades.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->O URL também pode incluir a variável [`{param1}` e `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) variáveis de substituição. Quando você as usa, as variáveis são substituídas pela variável `{param1}` e `{param2}` valores definidos para a palavra-chave usada para exibir o anúncio.
+>A URL também pode incluir as variáveis de substituição [`{param1}` e `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html). Quando você as usa, as variáveis são substituídas pelos valores `{param1}` e `{param2}` definidos para a palavra-chave que é usada para exibir o anúncio.
 
 >[!MORELIKETHIS]
 >

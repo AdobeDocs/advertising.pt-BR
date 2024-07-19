@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Exibir um relatório detalhado de uma campanha
 
-A variável <!--legacy --> o relatório de nível de campanha inclui uma visão geral e seções sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], e [!UICONTROL Audience Performance] dados.
+O relatório de nível de campanha <!--legacy --> inclui uma visão geral e seções sobre dados [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] e [!UICONTROL Audience Performance].
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Siga um destes procedimentos:
    * Clique em **[!UICONTROL ...]** > **[!UICONTROL View report]** na barra de ferramentas superior direita.
-   * Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+   * Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Exibir um relatório detalhado de uma disposição](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [Tipos de relatórios de desempenho em visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)

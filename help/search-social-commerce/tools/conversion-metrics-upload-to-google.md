@@ -1,6 +1,6 @@
 ---
-title: Fazer upload de métricas de conversão para [!DNL Google Ads]
-description: Saiba como fazer upload de métricas de conversão rastreadas por pesquisa, redes sociais e comércio para [!DNL Google Ads].
+title: Carregar métricas de conversão para  [!DNL Google Ads]
+description: Saiba como carregar métricas de conversão rastreadas por Search, Social e Commerce para  [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
 source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Fazer upload de métricas de conversão para [!DNL Google Ads]
+# Carregar métricas de conversão para [!DNL Google Ads]
 
-*Anunciantes com [!DNL Google Ads] Somente contas*
+*Anunciantes com [!DNL Google Ads] Contas Apenas*
 
-Search, Social e Commerce podem, opcionalmente, fazer upload para [!DNL Google Ads] todas as métricas de conversão que ele rastreia [!DNL Google Ads] que usam o serviço de rastreamento de conversão de Adobe Advertising. Essa opção não disponibiliza as conversões para otimização híbrida. Se quiser usar suas conversões de Adobe para otimização híbrida, consulte &quot;[Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md).&quot;
+Search, Social e Commerce podem, opcionalmente, fazer upload para [!DNL Google Ads] todas as métricas de conversão que ele rastrear para [!DNL Google Ads] campanhas que usam o serviço de rastreamento de conversão de Adobe Advertising. Essa opção não disponibiliza as conversões para otimização híbrida. Se quiser usar suas conversões de Adobe para otimização híbrida, consulte &quot;[Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md)&quot;.
 
-Os uploads diários incluem o `gclid` , o valor de conversão definido usando o modelo de atribuição no nível do anunciante e o carimbo de data e hora. Se o modelo de atribuição for atualizado, o próximo upload usará o novo modelo, mas os dados anteriores não serão atualizados para usar o novo modelo.
+Os uploads diários incluem o valor `gclid` rastreado, o valor de conversão definido com o modelo de atribuição no nível do anunciante e o carimbo de data/hora. Se o modelo de atribuição for atualizado, o próximo upload usará o novo modelo, mas os dados anteriores não serão atualizados para usar o novo modelo.
 
 >[!NOTE]
 >
@@ -34,4 +34,4 @@ Os uploads diários incluem o `gclid` , o valor de conversão definido usando o 
 
 >[!MORELIKETHIS]
 >
->* [Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md)
+>* [Habilitar carregamento de objetivos em redes de anúncios](objective-upload-to-networks.md)

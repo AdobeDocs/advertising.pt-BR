@@ -24,11 +24,11 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 
 1. No canto superior direito, selecione a rede de anúncios e a conta.
 
-   Para [!DNL Microsoft Advertising] contas, a variável [!UICONTROL Recommendations] para a conta são listados por padrão.
+   Para contas do [!DNL Microsoft Advertising], os [!UICONTROL Recommendations] da conta são listados por padrão.
 
 1. (Opcional) Filtre as recomendações por categoria e tipo.
 
-1. No [!UICONTROL Actions] para a recomendação ou linha de insight, clique em **[!UICONTROL View]**.
+1. Na coluna [!UICONTROL Actions] da linha de recomendação ou insight, clique em **[!UICONTROL View]**.
 
 1. (Recommendations com sub-recomendações) Clique em **[!UICONTROL View]** ao lado da sub-recomendação.
 
@@ -44,6 +44,6 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 >
 >* [Sobre o suporte a recomendações e insights do editor](recommendation-support.md)
 >* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
->* [Exibir o log de recomendações do editor de uma conta](recommendation-view-log.md)
+>* [Exibir o log de recomendações do editor para uma conta](recommendation-view-log.md)
 >* [Práticas recomendadas para usar as recomendações do editor com portfólios](recommendation-best-practices.md)
 

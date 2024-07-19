@@ -1,15 +1,15 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 # Campo Descrições do anúncio nas configurações de anúncio RSA
 
-**[!UICONTROL Ad Descriptions]:** Pelo menos duas e até quatro descrições de anúncios, com pinos de posição opcionais. A rede de publicidade exibe anúncios com até duas descrições; insira pelo menos duas. O comprimento máximo de cada descrição é de 90 caracteres, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).
+**[!UICONTROL Ad Descriptions]:** Pelo menos duas e até quatro descrições de anúncio, com pinos de posição opcionais. A rede de publicidade exibe anúncios com até duas descrições; insira pelo menos duas. O comprimento máximo de cada descrição é de 90 caracteres, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).
 
-Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não inclui um valor válido:
+Para inserir um personalizador de anúncios, use os seguintes formatos, onde `Default text` é um valor opcional a ser inserido quando o arquivo de feed não incluir um valor válido:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}, such as {CUSTOMIZER.Discount:10%}`
 

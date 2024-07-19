@@ -19,17 +19,17 @@ Você pode desarquivar uma campanha para restaurar seu status anterior a qualque
 ## Arquivar uma campanha
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para visualizar campanhas arquivadas, filtre a variável [!UICONTROL Campaigns] exibir: clique ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Campaign status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
+>Para exibir campanhas arquivadas, filtre a exibição [!UICONTROL Campaigns]: clique em ![Botão Filtrar](/help/dsp/assets/filter.png), clique em **[!UICONTROL Campaign status]** e selecione **[!UICONTROL Archived]** e clique em **[!UICONTROL Apply].**
 
 ## Desarquivar uma campanha
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-1. Ao lado do nome da campanha, clique em  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Ao lado do nome da campanha, clique em **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Na mensagem de confirmação, clique em **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
@@ -37,4 +37,3 @@ Você pode desarquivar uma campanha para restaurar seu status anterior a qualque
 >* [Editar uma campanha](campaign-edit.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)
-

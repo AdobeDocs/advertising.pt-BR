@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] configurações da campanha'
 description: Referencie as configurações de  [!DNL Microsoft Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ a campanha pode conter:
 
 * *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa e compras) A rede de publicidade, não a Search, Social e Commerce, otimiza ofertas para maximizar cliques. Opcionalmente, insira um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de publicidade não pague mais do que um valor específico para cada clique. **Cuidado:** quando você adiciona uma campanha com esta estratégia a um portfólio, o peso dos cliques (não o objetivo do portfólio) gera ofertas.
 
-* *[!UICONTROL Maximize Conversion Value]:* (redes de pesquisa e compras/compras inteligentes, campanhas de desempenho máximo) A rede de anúncios, não a Search, Social e Commerce, otimiza ofertas para maximizar o valor de conversão. Opcionalmente, insira um **[!UICONTROL Target Return on Ad Spend]** (ROAS) como uma porcentagem. **Observação:** use esta opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
+* *[!UICONTROL Maximize Conversion Value]:* (redes de pesquisa e compras/compras inteligentes, campanhas de desempenho máximo) A rede de anúncios, não a Search, Social e Commerce, otimiza ofertas para maximizar o valor de conversão. Opcionalmente, insira um **[!UICONTROL Target Return on Ad Spend]** (ROAS) como uma porcentagem. **Observação:** use esta opção para campanhas em portfólios híbridos, mas não em portfólios padrão. Em portfólios híbridos, o Search, Social e Commerce otimiza o ROAS do Target.
 
-* *[!UICONTROL Maximize Conversions]:* (Desempenho máximo de campanhas e campanhas na rede de pesquisa ou na rede de público (mas não de vídeos de público ou TV conectada)) A rede de anúncios, não Search, Social e Commerce, otimiza ofertas para maximizar conversões. Opcionalmente, insira um **[!UICONTROL Target CPC]** (custo por clique). Para campanhas de público, você também pode inserir um **[!UICONTROL Target CPA]** opcional (custo por aquisição). **Observação:** use esta opção para campanhas em portfólios híbridos, mas não em portfólios padrão.
+* *[!UICONTROL Maximize Conversions]:* (Desempenho máximo de campanhas e campanhas na rede de pesquisa ou na rede de público (mas não de vídeos de público ou TV conectada)) A rede de anúncios, não Search, Social e Commerce, otimiza ofertas para maximizar conversões. Opcionalmente, insira um **[!UICONTROL Target CPC]** (custo por clique). Para campanhas de público, você também pode inserir um **[!UICONTROL Target CPA]** opcional (custo por aquisição). **Observação:** use esta opção para campanhas em portfólios híbridos, mas não em portfólios padrão. Em portfólios híbridos, o Search, Social e Commerce otimiza o CPA do Target.
 
-* *[!UICONTROL Target CPA]:* (Campanhas na rede de pesquisa) A rede de publicidade — não Search, Social, &amp; Commerce — otimiza ofertas com base em um **[!UICONTROL Target CPA]** opcional (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Observação:** use esta opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campanhas na rede de pesquisa) A rede de publicidade — não Search, Social, &amp; Commerce — otimiza ofertas com base em um **[!UICONTROL Target CPA]** opcional (custo por aquisição), que é o valor médio de 30 dias que você deseja pagar por uma aquisição (conversão). **Observação:** use esta opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target CPA]. Em portfólios híbridos, o Search, Social e Commerce otimiza o CPA do Target.
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 
 * *[!UICONTROL Target Impression Share]:* (Campanhas na rede de pesquisa) A rede de publicidade — não Search, Social e Commerce — otimiza ofertas para atingir um compartilhamento de impressões de destino e uma posição de anúncio. Opcionalmente, insira um **[!UICONTROL Target Impression Share]** como uma porcentagem, o **[!UICONTROL Target Ad Position]** e um **[!UICONTROL Max CPC]** (custo por clique). **Observação:** esta opção não tem suporte em portfólios híbridos.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (Campanhas nas redes de pesquisa e compras) A rede de anúncios — não Search, Social e Commerce — otimiza ofertas com base em sua **[!UICONTROL Target ROAS]** (retorno do investimento em anúncios), especificada como uma porcentagem. Opcionalmente, insira um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de publicidade não pague mais do que um valor específico para cada clique. **Observação:** use esta opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Campanhas nas redes de pesquisa e compras) A rede de anúncios — não Search, Social e Commerce — otimiza ofertas com base em sua **[!UICONTROL Target ROAS]** (retorno do investimento em anúncios), especificada como uma porcentagem. Opcionalmente, insira um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de publicidade não pague mais do que um valor específico para cada clique. **Observação:** use esta opção para campanhas em portfólios híbridos (mas não em portfólios padrão) com qualquer estratégia de gastos, exceto [!UICONTROL Weekly] ou [!UICONTROL Google Target ROAS]. Em portfólios híbridos, o Search, Social e Commerce otimiza o ROAS do Target.
 
   Os dados de posição média e oferta de CPC não estão disponíveis para campanhas com essa estratégia de oferta.
 

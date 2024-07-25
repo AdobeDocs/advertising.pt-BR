@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total dividida por gasto, expressa como uma porcentagem. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) A receita por conversão. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) O ativo. |
-| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) A ID numérica que o Search, Social e Commerce atribui ao ativo. |
+| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) A ID exclusiva que identifica um ativo existente. |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report]) A [[!DNL Google Ads] avaliação de desempenho](https://support.google.com/google-ads/answer/9564897) do ativo. |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report]) O status do ativo: *[!UICONTROL Enabled]* ou *[!UICONTROL Enabled]* (removido). |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report]) O tipo de ativo: *[!UICONTROL Creative Title]* ou *[!UICONTROL Description]*. |

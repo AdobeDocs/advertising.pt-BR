@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] relatórios) O atributo de versão para a extensão de anúncio. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de extensão de anúncio. |
 | [!UICONTROL Ad Group] | O grupo de publicidade. |
-| [!UICONTROL Ad Group ID] | A ID numérica que o Search, Social e Commerce atribui ao grupo de anúncios. |
+| [!UICONTROL Ad Group ID] | O identificador exclusivo que identifica um grupo de anúncios existente. |
 | [!UICONTROL Ad Group Name] | O grupo de publicidade. |
 | [!UICONTROL Ad Group Status] | O status do grupo de anúncios: *[!UICONTROL Active]*, *[!UICONTROL Paused]* ou *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] relatórios) O título do anúncio. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | As impressões recebidas divididas pelo número estimado de impressões que você estava qualificado a receber. |
 | [!UICONTROL Impressions] | O número de impressões de anúncios durante o intervalo de datas especificado. |
 | [!UICONTROL Keyword] | A palavra-chave.<br><br><b>Observação:</b> se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa habilitadas para conteúdo, esta coluna incluirá os nomes de grupos de anúncios aplicáveis, como &quot;Seu Nome de Grupo de Anúncios&quot;. Para uma inserção direcionada ao site em uma campanha de pesquisa, essa coluna não tem um valor. |
-| [!UICONTROL Keyword ID] | A ID numérica que o Search, Social e Commerce atribui à palavra-chave. |
+| [!UICONTROL Keyword ID] | A ID exclusiva que identifica uma palavra-chave existente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) A ID numérica que a rede de publicidade atribui à extensão de publicidade. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O atributo de versão da extensão de anúncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O tipo de extensão de anúncio. |

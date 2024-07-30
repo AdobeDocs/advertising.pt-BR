@@ -3,7 +3,7 @@ title: A tag de mapeamento de conversão do Adobe Advertising
 description: Saiba mais sobre a tag de mapeamento de conversão baseada em JavaScript para ITP 2.2, que permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Para usar a tag de mapeamento de conversão:
 
       * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
-Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte ao Gerente de conta do Adobe.
+Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte à equipe de conta do Adobe.
 
 ### Exemplos
 

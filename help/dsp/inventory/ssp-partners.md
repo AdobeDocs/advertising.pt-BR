@@ -3,9 +3,9 @@ title: Parceiros SSP
 description: Consulte uma lista de SSPs (Supply-Side Platform, plataforma do lado do suprimento) e parceiros de intercâmbio aberto disponíveis.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Uma plataforma do lado da oferta (SSP) é uma plataforma de tecnologia de public
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Você também pode ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel esquerdo](/help/dsp/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo ou ![Ocultar painel direito](/help/dsp/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito.
+>A tabela a seguir é ampla. Para expandir sua área de exibição, você pode ocultar temporariamente o sumário e o painel direito clicando em ![Ocultar painel esquerdo](/help/dsp/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo e ![Ocultar painel direito](/help/dsp/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito. Você também pode usar a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo.
 
 | SSP Listado | Empresa | ID de licença | Suporte programático garantido | Região | Moeda suportada | Área de Trabalho de Vídeo | Vídeo móvel | CTV de vídeo | Exibir desktop | Exibir dispositivo móvel | Exibição nativa | Área de trabalho de áudio e portáteis |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

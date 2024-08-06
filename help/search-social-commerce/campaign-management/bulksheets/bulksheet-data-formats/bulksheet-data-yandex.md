@@ -3,9 +3,9 @@ title: Dados de bulksheet necessários para  [!DNL Yandex] contas
 description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Yandex] .
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Você também pode ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel esquerdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo ou ![Ocultar painel direito](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito.
+>A tabela a seguir é ampla. Para expandir sua área de exibição, você pode ocultar temporariamente o sumário e o painel direito clicando em ![Ocultar painel esquerdo](/help/dsp/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo e ![Ocultar painel direito](/help/dsp/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito. Você também pode usar a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo.
 
 | Campo | Campaign | Grupo de publicidade | Palavra-chave | Anúncio de texto | Sitelink | Descrição |
 |----|----|-----|-----|----|----|----|

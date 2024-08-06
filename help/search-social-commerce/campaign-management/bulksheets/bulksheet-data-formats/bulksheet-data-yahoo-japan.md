@@ -3,9 +3,9 @@ title: Dados de bulksheet para  [!DNL Yahoo! Japan] contas
 description: Referencie os campos de cabeçalho e de dados em bulksheets baixados para  [!DNL Yahoo! Japan] contas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2668'
+source-wordcount: '2672'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Você também pode ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel esquerdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo ou ![Ocultar painel direito](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito.
+>A tabela a seguir é ampla. Para expandir sua área de exibição, você pode ocultar temporariamente o sumário e o painel direito clicando em ![Ocultar painel esquerdo](/help/dsp/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo e ![Ocultar painel direito](/help/dsp/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito. Você também pode usar a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo.
 
 | Campo | Campaign | Grupo de publicidade | Palavra-chave | Anúncio de texto | Destino do local da campanha | Descrição |
 |----|----|----|----|----|----|----|

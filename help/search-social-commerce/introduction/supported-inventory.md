@@ -3,9 +3,9 @@ title: Estoque suportado
 description: Faça referência às redes de anúncios, tipos de campanha e tipos de anúncios compatíveis.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúnc
 
 >[!TIP]
 >
->A tabela a seguir é ampla. Se necessário, use a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo. Você também pode ocultar temporariamente o sumário ou o painel direito clicando em ![Ocultar painel esquerdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo ou ![Ocultar painel direito](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito.
+>A tabela a seguir é ampla. Para expandir sua área de exibição, você pode ocultar temporariamente o sumário e o painel direito clicando em ![Ocultar painel esquerdo](/help/dsp/assets/hide-left-pane.png "Ocultar painel esquerdo") na parte superior do painel esquerdo e ![Ocultar painel direito](/help/dsp/assets/hide-right-pane.png "Ocultar painel direito") na parte superior do painel direito. Você também pode usar a barra de rolagem na parte inferior da tabela para exibir o conteúdo completo.
 
 | Source | Rede | Tipo de campanha | Tipo de anúncio | Sincronizar e exibir | Criar/Editar | Faixa[^1] | Otimizar | Relatório[^2] | Suporte do Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|

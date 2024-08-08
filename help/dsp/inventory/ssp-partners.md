@@ -3,7 +3,7 @@ title: Parceiros SSP
 description: Consulte uma lista de SSPs (Supply-Side Platform, plataforma do lado do suprimento) e parceiros de intercâmbio aberto disponíveis.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 96a8080a134bc3bdff597d8a26bfbc4cd40bc545
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Uma plataforma do lado da oferta (SSP) é uma plataforma de tecnologia de public
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | Sim | Global | USD |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | Não | EUA + EMEA | USD | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 

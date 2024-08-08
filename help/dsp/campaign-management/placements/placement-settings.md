@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ Para especificar o direcionamento de tópico:
 >
 >* Configure qualquer direcionamento negativo dentro do segmento em [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]).
 
-**[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Para especificar o direcionamento de dispositivo:
+**[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Os tipos variam de acordo com o tipo de posicionamento. Para especificar o direcionamento de dispositivo:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Especifique os detalhes do dispositivo a serem incluídos e excluídos:

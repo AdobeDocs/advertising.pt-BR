@@ -2,9 +2,9 @@
 title: xxx
 description: xxx
 feature: DSP Private Inventory
-source-git-commit: c010701ce6848b784c24984c3888f973316b1a1c
+source-git-commit: b0ef7bca0745ddad310caf2c53826e04537a223c
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,30 @@ ht-degree: 0%
 | [!DNL Triton] |  | Adobe Advertising | Sim | Global | USD | Desktop de áudio e dispositivos móveis |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | Não | EUA + EMEA | USD | Área de trabalho de vídeo, dispositivos móveis e CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |
+
+| SSP Listado | Empresa | ID de licença | Suporte programático garantido | Região | Moeda suportada | Área de Trabalho de Vídeo | Vídeo móvel | CTV de vídeo | Exibir desktop | Exibir dispositivo móvel | Exibição nativa | Área de trabalho de áudio e portáteis |
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
+| [!DNL AdColony] (anteriormente [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Não | Global | USD | x | x |  | x | x |  |  |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Sim | Global | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AppNexus] | [!DNL Xandr] | ID do assento de vídeo: 9094<br>ID do assento de vídeo: 3939 | Não | Global | USD | x | x | x | x | x |  |  |
+| [!DNL DailyMotion] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | EUA + EMEA | USD, EUR | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Não | EUA/CA | USD | x | x | x | x | x |  |  |
+| [!DNL FreeWheel] (anteriormente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
+| [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e EU - 89185975 | Sim | Global | USD, BRL | x | x | x | x | x |  | x |
+| [!DNL GumGum] |  | Adobe Advertising | Não | Global | USD | x | x |  | x | x |  | |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Não | Global | USD | x | x | x | x | x | | |
+| [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (anteriormente [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | AUD, USD | x | x | x |  |  |  |  |
+| [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | USD | x | x | x | x | x |  | x |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] ou Adobe Advertising | Sim | Global | USD | x | x | x | x | x |  |  |
+| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x | x |  |
+| [!DNL SmartClip] |  | Adobe Advertising | Não | EMEA | Todas as Moedas | x | x | x | x | x |  |  |
+| [!DNL SmartStream] |  | Adobe Advertising | Não | EMEA | EUR, USD | x | x |  |  |  |  |  |
+| [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | Não | CA | USD |  |  |  | x | x |  |  |
+| [!DNL Taboola] |  | Adobe Advertising | Não | EUA/CA | USD | x | x |  |  |  |  |  |
+| [!DNL Teads] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Vídeo externo = Global<br>Exibição = NA + EMEA | USD | x | x |  | x | x |  |  |
+| [!DNL TripleLift] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD |  |  |  |  |  | x |  |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |
+| [!DNL Triton] |  | Adobe Advertising | Sim | Global | USD |  |  |  |  |  |  | x |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | Não | EUA + EMEA | USD | x | x | x |  |  |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] ou Adobe Advertising | Não | Global | USD | x | x | x | x | x |  |  |

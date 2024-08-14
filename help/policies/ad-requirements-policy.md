@@ -3,9 +3,9 @@ title: Política de requisitos de anúncio de Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 703031baac908e2024d877f031ff164370528383
+source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Os anúncios contendo conteúdo das categorias abaixo são permitidos com as res
 
 * **Álcool**. Anúncios que anunciam ou promovem bebidas alcoólicas e empresas de álcool só são permitidos se estiverem em conformidade com as leis aplicáveis e as regras autorregulatórias. Por exemplo, anúncios de álcool não podem ter como alvo menores e só podem ser veiculados em países que permitem anúncios de álcool. No entanto, em nenhuma circunstância qualquer Anúncios pode glamourizar ou descrever o consumo excessivo de álcool.
 
-* **Cannabis**. Anúncios que anunciem ou promovam empresas de cannabis legais ou cannabis nas Províncias Canadenses Permitidas só são permitidos se estiverem em conformidade com as leis estaduais ou canadenses aplicáveis, respectivamente, sujeitas a (a) entrar anteriormente no [!DNL Adobe Rider] aplicável, (b) conformidade com os requisitos de diligência de [!DNL Adobe] e (c) conforme permitido pelos Fornecedores de Mídia e leis aplicáveis. Anúncios para cannabis legalizada podem não oferecer ou promover produtos específicos para venda e devem ser geograficamente direcionados para o estado apropriado. Todos os anúncios de cannabis permitidos podem não ser (1) atraente para menores, ou (2) glamourizar ou descrever o consumo de cannabis. &quot;Províncias canadenses permitidas&quot; significa as províncias de Alberta, Colúmbia Britânica, Manitoba, Nova Brunswick, Terra Nova e Labrador, Nova Escócia, Nunavut, Ontário, Ilha do Príncipe Eduardo, Quebec, Saskatchewan e Yukon.
+* **Cannabis**. Anúncios que anunciam ou promovem empresas de cannabis legais ou cannabis nas Províncias Canadenses Permitidas só são permitidos se estiverem em conformidade com as leis estaduais ou canadenses aplicáveis, respectivamente, sujeito a (a) entrar anteriormente no [!DNL Adobe Rider] aplicável, (b) conformidade com [!DNL Adobe] requisitos de diligência, e \(c\) conforme permitido pelos Fornecedores de Mídia e leis aplicáveis. Anúncios para cannabis legalizada não podem oferecer ou promover produtos específicos para venda e devem ser geograficamente direcionados para o estado apropriado. Todos os anúncios de cannabis permitidos podem não ser (1) atraente para menores, ou (2) glamourizar ou descrever o consumo de cannabis. &quot;Províncias canadenses permitidas&quot; significa as províncias de Alberta, Colúmbia Britânica, Manitoba, Nova Brunswick, Terra Nova e Labrador, Nova Escócia, Nunavut, Ontário, Ilha do Príncipe Eduardo, Quebec, Saskatchewan e Yukon.
 
 * **Jogos de Azar**. Anúncios com conteúdo relacionado a jogos de azar, inclusive promovendo cassinos, loterias e outros jogos de azar (on-line ou off-line), só podem ser promovidos de acordo com as leis aplicáveis. No entanto, nenhum anúncio pode glamourizar ou descrever comportamentos de jogo excessivos ou deturpar as probabilidades ou os riscos do jogo.
 
-* **Cânhamo**. Os anúncios de cânhamo e produtos derivados do cânhamo devem estar em conformidade com todas as leis estaduais e federais aplicáveis, sujeitas a (a) entrar previamente no [!DNL Adobe Rider] aplicável, (b) conformidade com os requisitos de diligência de [!DNL Adobe] e (c) conforme permitido pelos Fornecedores de Mídia e leis aplicáveis. Anúncios para cânhamo e produtos derivados do cânhamo não podem (1) fazer alegações de saúde, (2) visar populações vulneráveis, incluindo menores, ou (3) glamourizar ou descrever o tabagismo, ou (4) sugerir que tais produtos têm efeitos intoxicantes semelhantes ao cannabis.
+* **Cânhamo**. Os anúncios de cânhamo e produtos derivados do cânhamo devem estar em conformidade com todas as leis estaduais e federais aplicáveis, sujeitas a (a) entrar previamente na [!DNL Adobe Rider] aplicável, (b) conformidade com [!DNL Adobe] requisitos de devida diligência, e \(c\) conforme permitido pelos Fornecedores de Mídia e leis aplicáveis. Anúncios para cânhamo e produtos derivados do cânhamo não podem (1) fazer alegações de saúde, (2) visar populações vulneráveis, incluindo menores, ou (3) glamourizar ou descrever o tabagismo, ou (4) sugerir que tais produtos têm efeitos intoxicantes semelhantes ao cannabis.
 
 * **Anúncios Farmacêuticos**. Os anúncios que promovem medicamentos de venda livre e prescritos devem estar em conformidade com as leis, regulamentos e diretrizes federais e locais aplicáveis.
 

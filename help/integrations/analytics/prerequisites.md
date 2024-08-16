@@ -3,9 +3,9 @@ title: Pré-requisitos e Informações-Chave para Implementação [!DNL Analytic
 description: Pré-requisitos e Informações-Chave para Implementação [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Entre em contato com a equipe de conta do Adobe para obter os ambientes de anún
 
 * O rastreamento de conversão do [!DNL Analytics for Advertising] no Adobe Analytics usa uma janela de retrospectiva de rastreamento configurável (60 dias por padrão). Os relatórios de Adobe Advertising refletem conversões e engajamento do site até o final desta janela de retrospectiva de rastreamento.
 
-* Todos os tipos de anúncios são compatíveis. No entanto, nem todos os ambientes de anúncios são compatíveis.
+* Todos os tipos de anúncios são compatíveis. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] conversões são atualmente rastreadas e atribuídas apenas a um visitante no mesmo dispositivo.
 

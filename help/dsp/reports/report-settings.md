@@ -3,7 +3,7 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Configurações do relatório personalizado
 
-**[!UICONTROL Name]** O nome do relatório. O comprimento máximo é de 180 caracteres.
+**[!UICONTROL Name]:** O nome do relatório. O comprimento máximo é de 180 caracteres.
 
-**[!UICONTROL Report Type]** O tipo de relatório: *[!UICONTROL Custom]* (que inclui a maioria das opções disponíveis), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** O tipo de relatório: *[!UICONTROL Custom]* (que inclui a maioria das opções disponíveis), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* ou *[!UICONTROL Household Conversions]*.
 
-## Seção [!UICONTROL Report range]
+## Seção [!UICONTROL Report Range]
 
 Esta seção determina os dados incluídos no relatório. Para configurar datas para o agendamento do relatório, consulte a seção &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -32,7 +32,7 @@ Esta seção determina os dados incluídos no relatório. Para configurar datas 
 
 * **[!UICONTROL Custom Range]:** Inclui dados entre datas de início e término específicas. Para relatar dados até o dia anterior, selecione **[!UICONTROL Present]**.
 
-## Seção [!UICONTROL Report run schedule]
+## Seção [!UICONTROL Report Run schedule]
 
 Esta seção determina as datas em que o relatório é executado. Para configurar as datas nas quais incluir dados de relatório, consulte a seção &quot;[!UICONTROL Report range]&quot;.
 

@@ -3,9 +3,9 @@ title: Duplicar um relatório personalizado
 description: Saiba como criar um relatório personalizado duplicando um relatório existente.
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Duplique um relatório personalizado para criar um novo relatório com configurações semelhantes.
 
-1. No menu principal, clique em **[!UICONTROL Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
-1. Na coluna Opções da linha do relatório, clique em **[!UICONTROL options]** > **[!UICONTROL Copy]**.
+1. Ao lado do nome do relatório, clique em **[!UICONTROL ...]** > **[!UICONTROL Copy]**.
 
 1. (Opcional) Edite as [configurações do relatório](/help/dsp/reports/report-settings.md) conforme necessário.
 
@@ -29,5 +29,6 @@ Duplique um relatório personalizado para criar um novo relatório com configura
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
+>* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)

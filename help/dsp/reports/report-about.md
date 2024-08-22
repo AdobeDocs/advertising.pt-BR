@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 Relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados de relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou geografia) e as métricas mais importantes para você. Você pode:
 
 * Configure completamente relatórios de desempenho de campanha em nível detalhado.
+
 * Escolha entre modelos de relatório pré-configurados e, como opção, personalize-os ainda mais.
 
-Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamente, semanalmente ou mensalmente, às 03:00 no fuso horário especificado. Depois que um relatório é gerado, ele é entregue a cada destinatário de email especificado ou aos [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
+Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamente, semanalmente ou mensalmente, às 03:00 no fuso horário especificado, de acordo com os critérios especificados (como a cada 15 dias ou no primeiro dia de cada mês). Depois que um relatório é gerado, você pode baixá-lo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou dos [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* SSL FTP <!-- (in beta) -->
 * SFTP
-* FTP SSL (na versão beta)
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ Depois que o recurso for habilitado para sua organização, você poderá [filtr
 
 As configurações da sua conta em [!UICONTROL Settings] > [!UICONTROL Account] indicam a) as outras contas cujos dados estão disponíveis para a sua conta e b) as outras contas que podem acessar os dados da sua conta.
 
+## A Visão [!UICONTROL Custom Reports]
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports] lista seus relatórios existentes, incluindo relatórios que foram gerados, aqueles que estão agendados para geração futura e aqueles que falharam. A coluna &quot;[!UICONTROL Report Run]&quot; mostra as datas em que o relatório foi acionado a partir de 22 de agosto de 2024. Por padrão, todos os relatórios não arquivados criados pelo usuário são listados, com o mais recente no topo. Você pode filtrar ainda mais a lista por status, se o relatório é recorrente ou ocasional, o tipo de relatório, o tipo de destino e o criador do relatório.
+
+Você pode criar novos relatórios personalizados, editar relatórios existentes ou duplicá-los para criar novos relatórios, executar relatórios imediatamente, baixar qualquer instância de relatório dos últimos quatro meses e excluir relatórios.
+
+## Status do relatório {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** O relatório nunca foi executado.
+
+* **[!UICONTROL Report generating]:** O relatório está sendo criado.
+
+* **[!UICONTROL Ready to download]:** (Somente relatórios recorrentes) Uma ou mais instâncias do relatório estão disponíveis para download e mais instâncias de relatório estão agendadas.
+
+* **[!UICONTROL Failed]:** Falha no trabalho de relatório. Para ver por que as instâncias de relatório individuais falharam em um cabo de relatório, clique em ![seta para baixo](/help/dsp/assets/chevron-down.png "seta para baixo") ao lado de [!UICONTROL Download]. Os trabalhos de relatório com falha são indicados com um ícone de erro (![indicador de erro](/help/dsp/assets/indicator-critical.png "indicador de erro")). Mantenha o cursor sobre o ícone de erro para obter uma descrição do erro.
+
+* **[!UICONTROL Completed]:** Para relatórios não recorrentes, o relatório foi concluído. Para relatórios recorrentes, todas as instâncias de relatório são concluídas. É possível baixar todos os relatórios concluídos nos últimos quatro meses.
+
+* **[!UICONTROL Archived]:** O relatório está arquivado e não pode ser executado. Esse status é definido quando a geração de relatório falha várias vezes em um relatório. No momento, não é possível definir esse status na interface.
+
 >[!MORELIKETHIS]
 >
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
+>* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
 >* [Perguntas Frequentes sobre Relatórios Domésticos](/help/dsp/reports/faq-household-report.md)
 >* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

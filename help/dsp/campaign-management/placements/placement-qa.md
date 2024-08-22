@@ -3,16 +3,16 @@ title: Revisar e editar configurações de posicionamento usando planilhas
 description: Saiba como revisar e editar configurações de posicionamento de chaves usando planilhas.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Revisar e editar configurações de posicionamento usando planilhas
 
-É possível baixar as configurações de uma ou mais disposições, ou de todas as disposições em uma campanha, no formato XLSX (planilha do Excel) para revisão. Use esse recurso para analisar rapidamente detalhes como:
+Você pode baixar as configurações para um ou mais posicionamentos, ou para todos os posicionamentos em uma campanha, no formato XLSX ([!DNL Microsoft Excel] planilha) para revisão. Use esse recurso para analisar rapidamente detalhes como:
 
 * O público alvo da campanha.
 * Quando os posicionamentos começam a entregar e quando param.
@@ -42,7 +42,7 @@ Em seguida, é possível fazer alterações em campos selecionados e carregá-lo
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-   O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas em Planilhas Baixadas/Carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+   O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
 ## Baixar configurações para uma ou mais disposições
 
@@ -56,7 +56,7 @@ Em seguida, é possível fazer alterações em campos selecionados e carregá-lo
 
 1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
 
-O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quot;[Colunas em Planilhas Baixadas/Carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
 ## Configurações de upload para todos os posicionamentos em uma campanha
 

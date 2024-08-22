@@ -3,9 +3,9 @@ title: Excluir um relatório personalizado
 description: Saiba como excluir um relatório personalizado.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 570eb1cba51bae5681f989f9450dfcb70a62666b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,6 @@ ht-degree: 0%
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Duplicar um Relatório Personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
+>* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)

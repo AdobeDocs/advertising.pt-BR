@@ -2,9 +2,9 @@
 title: Revisar e editar configurações de pacote usando planilhas
 description: Saiba como revisar e editar as principais configurações de pacote usando planilhas.
 feature: DSP Packages
-source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
+source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | O valor de destino da meta. | Sim |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | (Pacotes somente com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;)Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. | Sim |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | (Opcional; pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) O evento de conversão final ou o valor de evento de receita/venda a ser usado para calcular o retorno sobre o gasto com anúncios ou o custo por aquisição. | Sim |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Pacotes somente com metas de otimização personalizadas) A finalidade do pacote, que ajuda a determinar como otimizá-lo: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* ou *[!UICONTROL Other]*. | — |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Pacotes somente com metas de otimização personalizadas) A finalidade do pacote, que ajuda a determinar como otimizá-lo: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* ou *[!UICONTROL Other]*. | Sim |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | (Pacotes somente com metas de otimização personalizadas) A ID do pacote de outro pacote cujos dados históricos são usados como entrada para otimizar o pacote. | Sim |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | (Pacotes somente com metas de otimização personalizadas) Outro pacote cujos dados históricos são usados como entrada para otimização do pacote. | — |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | Se o pacote está se aproximando de *[!UICONTROL budget]* ou *[!UICONTROL primary_goal]* (para impressões). | — |
@@ -102,10 +102,10 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | A ID numérica do pacote. | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | A ID numérica do voo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | A primeira data do voo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | A data final do voo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | A meta de gastos para o voo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Pacotes existentes sem a opção &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; ativada) Uma quantidade de orçamento potencialmente não gasto para ser adicionada ao próximo voo. | — |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | A primeira data do voo. | Sim |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | A data final do voo. | Sim |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | A meta de gastos para o voo. | Sim |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Pacotes existentes sem a opção &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; ativada) Uma quantidade de orçamento potencialmente não gasto para ser adicionada ao próximo voo. | Sim |
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -106,9 +106,9 @@ Para [!DNL RampIDs], entre em contato com a equipe de conta do Adobe para obter 
 
 ### Causas de variação {#universal-ids-data-variances-causes}
 
-* IDs de email com hash traduzidas para IDs 5:
+* Todos os segmentos:
 
-  O modelo probabilístico tem uma variação de erro de +/- 5%. Isso significa que pode superestimar ou subestimar a contagem de público em 5%.
+  A contagem de segmento para dispositivo usa um modelo probabilístico, que tem uma variação de erro de +/- 5%. Isso significa que pode superestimar ou subestimar a contagem de público em 5%.
 
 * IDs de email com hash traduzidas para [!DNL RampIDs]:
 

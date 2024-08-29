@@ -3,9 +3,9 @@ title: Criar métricas de conversão do Adobe Analytics [!DNL eVars]  e props
 description: Configure métricas de evento bem-sucedidas personalizadas usando dados de nível  [!DNL eVar] e  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Você pode usar as métricas de evento de sucesso para otimizar pacotes DSP e ca
 
 A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Analytics] ou outro usuário. Se precisar de assistência, entre em contato com (usuários do DSP) a equipe de suporte técnico do DSP em `adcloud_support@adobe.com` ou (usuários do Search, Social e Commerce) sua Equipe de conta do Adobe.
 
-1. Em [!DNL Analytics], [crie um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. Em [!DNL Analytics], [crie um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Use os seguintes parâmetros adicionais:
 
@@ -60,7 +60,7 @@ A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Ana
 
 Depois que a métrica estiver disponível, você poderá usá-la para criar um objetivo, que poderá ser atribuído a um portfólio de Pesquisa, Social e Commerce ou usar como uma [meta personalizada](/help/dsp/optimization/custom-goal.md) para um pacote DSP.
 
-Para obter mais informações sobre como criar objetivos, consulte o capítulo do Guia de Otimização em &quot;Objetivos&quot;, que está disponível no Search, Social e Commerce.
+consulte o capítulo do Guia de otimização em &quot;Objetivos&quot;, disponível no Search, Social e Commerce
 
 >[!MORELIKETHIS]
 >

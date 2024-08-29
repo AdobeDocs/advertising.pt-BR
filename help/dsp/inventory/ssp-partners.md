@@ -3,9 +3,9 @@ title: Parceiros SSP
 description: Consulte uma lista de SSPs (Supply-Side Platform, plataforma do lado do suprimento) e parceiros de intercâmbio aberto disponíveis.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Uma plataforma do lado da oferta (SSP) é uma plataforma de tecnologia de public
 | [!DNL TripleLift] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Exibição nativa |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |
 | [!DNL Triton] |  | Adobe Advertising | Suporte PG | Global | USD | Desktop de áudio e dispositivos móveis |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | EUA + EMEA | USD | Área de trabalho de vídeo, dispositivos móveis e CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | EUA + EMEA | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] ou Adobe Advertising | — | Global | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |
 
 >[!MORELIKETHIS]

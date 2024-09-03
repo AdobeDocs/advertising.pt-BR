@@ -3,9 +3,9 @@ title: Criar uma marca de conversão para  [!DNL Google Ads]
 description: Saiba como criar uma tag de conversão  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Para gerar tags de conversão para conversões existentes, use o editor da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que abrirá a guia **[!UICONTROL Summary]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -42,7 +42,7 @@ Depois que você adicionar as tags ao seu site e elas começarem a disparar, [!D
 
 **[!UICONTROL Select an Account]:** A conta do Google Ads aplicável.
 
-**[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreada: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreada: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*. **Observação:** *[!UICONTROL Import conversion]* é usado para uma finalidade diferente; consulte &quot;[Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md).&quot;
 
 **[!UICONTROL Conversion Name]:** Um nome exclusivo para a métrica de conversão.
 
@@ -68,4 +68,5 @@ Depois que você adicionar as tags ao seu site e elas começarem a disparar, [!D
 
 >[!MORELIKETHIS]
 >
+>* [Carregar dados de conversão offline para conversões aprimoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

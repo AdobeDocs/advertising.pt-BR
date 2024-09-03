@@ -3,9 +3,9 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como carregar objetivos para seus portfólios híbridos do  [!DNL Google Ads] and [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 >[!MORELIKETHIS]
 >
 >* [Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [Carregar métricas de conversão para [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [Carregar métricas de conversão rastreadas por Pesquisa, Social e Commerce para [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

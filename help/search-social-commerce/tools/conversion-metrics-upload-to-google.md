@@ -1,18 +1,18 @@
 ---
-title: Carregar métricas de conversão para  [!DNL Google Ads]
+title: Carregar métricas de conversão rastreadas por Commerce, Social e Pesquisa para [!DNL Google Ads]
 description: Saiba como carregar métricas de conversão rastreadas por Search, Social e Commerce para  [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Carregar métricas de conversão para [!DNL Google Ads]
+# Carregar métricas de conversão rastreadas por Commerce, Social e Pesquisa para [!DNL Google Ads]
 
-*Anunciantes com [!DNL Google Ads] Contas Apenas*
+*Anunciantes com contas [!DNL Google Ads] e somente o rastreamento de conversão de Adobe Advertising*
 
 Search, Social e Commerce podem, opcionalmente, fazer upload para [!DNL Google Ads] todas as métricas de conversão que ele rastrear para [!DNL Google Ads] campanhas que usam o serviço de rastreamento de conversão de Adobe Advertising. Essa opção não disponibiliza as conversões para otimização híbrida. Se quiser usar suas conversões de Adobe para otimização híbrida, consulte &quot;[Habilitar carregamento de objetivos para redes de anúncios](objective-upload-to-networks.md)&quot;.
 

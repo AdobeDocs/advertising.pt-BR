@@ -3,7 +3,7 @@ title: Gerenciar anúncios
 description: Saiba mais sobre anúncios em Pesquisa, Social e Commerce, incluindo os tipos de anúncios disponíveis.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Você pode criar e gerenciar os tipos de anúncios suportados para grupos de an�
 
   Você pode controlar quais produtos serão exibidos com seus anúncios de compras do [!DNL Microsoft Advertising] configurando grupos de produtos separados para o grupo de anúncios, da exibição [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
-  Para obter mais informações sobre o fluxo de trabalho para anúncios de produtos/compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Para obter informações adicionais sobre anúncios de produtos, consulte a [documentação do Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Para obter mais informações sobre o fluxo de trabalho para anúncios de produtos/compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md).&quot;  Para obter informações adicionais sobre anúncios de produtos, consulte a [documentação do Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Anúncios de pesquisa responsivos para [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas na rede de pesquisa. A rede de publicidade monta dinamicamente anúncios de pesquisa responsivos baseados em texto a partir de um conjunto de títulos e descrições de anúncios, favorecendo combinações com bom desempenho juntas. O anúncio inclui até três títulos, duas descrições e um URL personalizável do URL base e campos opcionais de caminho 1 e caminho 2. Opcionalmente, é possível fixar títulos e descrições de anúncios em posições específicas.
 

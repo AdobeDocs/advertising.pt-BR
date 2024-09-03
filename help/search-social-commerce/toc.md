@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: a1e96400bb03fb327e9a8b25fb34fb690b4a5dfe
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -233,11 +233,12 @@ ht-degree: 2%
             + [Publicar dados de campanha gerados a partir de feeds para redes de anúncios](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [Interromper um trabalho de lançamento para dados de feed de estoque](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [Status dos dados gerados a partir dos feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + Implementando campanhas e anúncios com fluxos de trabalho exclusivos{#special-campaign-types}
-         + [Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
-         + [Implementar  [!DNL Google Ads] campanhas de desempenho máximo](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + Implementando campanhas, anúncios e conversões com fluxos de trabalho exclusivos{#special-workflows}
+         + [Implementar [!DNL Google Ads] conversões aprimoradas para clientes potenciais](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [Implementar  [!DNL Google Ads] campanhas de desempenho máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Sincronizar manualmente os dados da rede](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Atribuir campanhas a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [Remover campanhas de um portfólio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -383,7 +384,7 @@ ht-degree: 2%
       + [Decodificar um URL de rastreamento de cliques](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Gerar uma tag de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Carregando dados de conversão para redes de anúncios {#upload-ad-networks}
-      + [Carregar métricas de conversão para  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [Carregar métricas de conversão rastreadas por Commerce, Social e Pesquisa para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Habilitar carregamento de objetivos para redes de anúncios](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + Carregando métricas para [!DNL Naver] contas somente de rastreamento {#generic-tracking}
       + [Carregar métricas de tráfego e conversão para  [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
@@ -408,7 +409,10 @@ ht-degree: 2%
       + [Exibir as métricas de conversão rastreadas para um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Alterar o nome de exibição de uma métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Gerenciando Marcas de Conversão {#conversion-tags}
+      + Gerenciando marcas de conversão específicas da rede de publicidade e ações de conversão {#network-conversions}
          + [Criar uma marca de conversão para  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + Gerenciar ações de conversão {#conversion-actions}
+            + [Criar uma ação de conversão para uma  [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [Fazer upload de dados de conversão offline para conversões aprimoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Obter ajuda](get-help.md)
 + [Glossário](glossary.md)

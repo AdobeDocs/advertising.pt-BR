@@ -3,7 +3,7 @@ title: Sobre grupos de produtos de compras
 description: Saiba mais sobre grupos de produtos de compras em campanhas de compras.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Os grupos de produtos são configurados no nível do grupo de anúncios para det
 
 Quando o mesmo produto é incluído em mais de uma campanha, a rede de publicidade usa primeiro a prioridade de campanha para determinar qual campanha (e ofertas associadas) está qualificada para o leilão de anúncios. Quando todas as campanhas têm a mesma prioridade, a campanha com a maior oferta é qualificada.
 
-Para obter mais informações sobre [!DNL Google] campanhas de compras e anúncios, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; e a [documentação do Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Para obter mais informações sobre [!DNL Microsoft] campanhas de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; e a [[!DNL Microsoft Advertising] documentação](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+Para obter mais informações sobre [!DNL Google] campanhas de compras e anúncios, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot; e a [documentação do Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Para obter mais informações sobre [!DNL Microsoft] campanhas de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot; e a [[!DNL Microsoft Advertising] documentação](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ Você pode exibir dados sobre grupos de produtos em [o [!UICONTROL Product Group
 >
 >* [Gerenciar grupos de produtos de compras](product-group-manage.md)
 >* [[!DNL Google Ads] configurações do grupo de produtos](product-group-settings-google.md)
->* [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] configurações do grupo de produtos](product-group-settings-microsoft.md)
->* [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

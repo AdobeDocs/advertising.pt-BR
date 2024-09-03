@@ -3,9 +3,9 @@ title: Gerenciar credenciais para contas do gerenciador de rede de anúncios
 description: Saiba como fornecer credenciais para suas  [!DNL Google Ads] contas de gerente.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Depois de adicionar credenciais para uma conta de gerente, as configurações da
 >[!MORELIKETHIS]
 >
 >* [Habilitar carregamento de objetivos em redes de anúncios](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [Carregar métricas de conversão para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [Carregar métricas de conversão rastreadas por Pesquisa, Social e Commerce para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Editar suas configurações de notificação](/help/search-social-commerce/notifications/notification-edit.md)

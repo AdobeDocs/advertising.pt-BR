@@ -3,9 +3,9 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
+source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,9 @@ Para pacotes com fluxo personalizado, o intervalo de orçamento é sempre *[!UIC
 **[!UICONTROL Gross Budget]:** (Pacotes com ritmo no nível de pacote e gerenciamento dinâmico de margem apenas) O limite de orçamento bruto para a duração do pacote.
 
 **[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível de pacote somente) A meta de otimização do pacote. Consulte as descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
+
+
+**[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pacotes com ritmo no nível de pacote e com as metas de otimização &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot; somente) Usa dados de alcance doméstico de todas as disposições programáticas garantidas na campanha para otimizar o alcance incremental.
 
 **[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada pode incluir, opcionalmente, eventos ponderados adicionais de funil superior (como visitas a páginas e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 

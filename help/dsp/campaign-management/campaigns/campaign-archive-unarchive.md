@@ -3,16 +3,16 @@ title: Arquivar ou desarquivar uma campanha
 description: Saiba como arquivar ou desarquivar uma campanha.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # Arquivar ou desarquivar uma campanha
 
-Ocultar uma campanha que não está sendo usada ao arquivá-la. A única ação que você pode realizar em uma campanha arquivada é desarquivá-la. As campanhas arquivadas não são exibidas por padrão, mas ainda estão disponíveis para relatórios.
+Arquive uma campanha que não esteja sendo usada para pausar todos os gastos e arquivar todas as entidades associadas. A única ação que você pode realizar em uma campanha arquivada é desarquivá-la. As campanhas arquivadas não são exibidas por padrão, mas ainda estão disponíveis para relatórios.
 
 Você pode desarquivar uma campanha para restaurar seu status anterior a qualquer momento.
 

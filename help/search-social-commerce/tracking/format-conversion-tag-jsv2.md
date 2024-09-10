@@ -3,7 +3,7 @@ title: Formato das tags de rastreamento de conversão do JavaScript versão 2
 description: Consulte o formato das tags de rastreamento de conversão do JavaScript versão 2.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: f73e91c54fb58cbd165ddf4ca652033435fbbede
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -21,7 +21,7 @@ O formato a seguir é para sites que usam HTTPS. Para sites que usam HTTP, os UR
 ```
 <script language="javascript" src="https://www.everestjs.net/static/st.v2.js"></script>
 <script language="javascript">
-window.id5PartnerId=<Your_ID5_PartnerID>
+window.id5PartnerId=<ID5_PartnerID>
 var ef_event_type="transaction";
 var ef_transaction_properties = "ev_property name=<property name>&ev_transid=<transid>";
 /*
@@ -42,7 +42,7 @@ em que:
 
 * `<ef-userid>` é uma ID de usuário exclusiva e numérica que o Search, Social e Commerce atribui ao anunciante.
 
-* `<Your_ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais ](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` é a conversão a ser monitorada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>` e você precisará passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Observação:** o nome da propriedade não pode incluir caracteres especiais.
 

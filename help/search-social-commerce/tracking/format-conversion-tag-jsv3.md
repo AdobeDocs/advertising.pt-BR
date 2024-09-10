@@ -3,9 +3,9 @@ title: Formato das tags de rastreamento de conversão do JavaScript versão 3
 description: Consulte o formato das tags de rastreamento de conversão do JavaScript versão 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ O formato a seguir é para sites que usam HTTPS. Para sites que usam HTTP, os UR
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ O formato a seguir é para sites que usam HTTPS. Para sites que usam HTTP, os UR
 em que:
 
 * `<ef-userid>` é uma ID de usuário exclusiva e numérica que o Search, Social e Commerce atribui ao anunciante.
+
+* `<Your_ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` é a conversão a ser monitorada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>` e você precisará passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Observação:** o nome da propriedade não pode incluir caracteres especiais.
 

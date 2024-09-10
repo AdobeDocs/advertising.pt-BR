@@ -3,9 +3,9 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      Consulte &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; para obter o formato completo da marca.
 
    1. Use qualquer ferramenta de depuração de navegador para verificar se cada chamada foi iniciada para o domínio `lasteventf-tm.everesttech.net` e contém o parâmetro `_les_id5` com uma ID5 criptografada como seu valor.
 

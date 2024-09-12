@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre a conversão de Adobe Advertising e as tags de
 description: Consulte uma comparação das tags de rastreamento de conversão de Adobe Advertising e exibição de página.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O seguinte se aplica às tags de rastreamento de conversão Adobe Advertising e 
 | ---- | ---- | ---- | ---- | ---- |
 | Pode ser usado na mesma página da Web que outra versão do JS | — | — | — | n/d |
 | Permite o uso de várias tags com as mesmas IDs de usuário do anunciante na mesma página da Web | Sim | Sim | Sim | — |
-| Permite o uso de várias tags com diferentes IDs de usuário anunciante na mesma página da Web | Sim | Sim | Não | Não |
+| Permite o uso de várias tags com diferentes IDs de usuário anunciante na mesma página da Web | Sim | Sim | — | — |
 | Usado pela extensão Adobe Advertising para Adobe Experience Platform e compatível com outras tags geradas usando o Experience Platform | Sim | Sim | — | — |
 | Permite que todas as conversões originadas de [!DNL Apple Safari] e [!DNL Mozilla Firefox] sejam rastreadas quando usadas com a tag de mapeamento de conversão Adobe Advertising JavaScript | Sim | Sim | Sim | — |
 

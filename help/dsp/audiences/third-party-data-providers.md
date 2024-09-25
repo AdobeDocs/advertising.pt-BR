@@ -3,9 +3,9 @@ title: Provedores de dados de terceiros disponíveis no Advertising DSP
 description: Consulte uma lista de todos os provedores de dados de terceiros disponíveis.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ As categorias de dados e os segmentos para os seguintes provedores de dados de t
 A taxa para usar cada segmento é mostrada ao lado do nome do segmento em configurações de posicionamento e configurações de público-alvo salvas.
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)] (a terminar em 30 de setembro de 2024)
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])

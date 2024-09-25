@@ -2,9 +2,9 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Tipos de sites a serem bloqueados com base em tráfego fraudulento e atividades 
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) e [!DNL Integral Ad Science] para aplicar aos posicionamentos. Os padrões no nível do anunciante são selecionados para novos posicionamentos. Você pode substituir as configurações no nível do anunciante no [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
-
->[!NOTE]
->
->O [!DNL Oracle] encerrará seus negócios de publicidade até 30 de setembro de 2024, incluindo todos os serviços a partir de [!DNL MOAT].
+Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify] e [!DNL Integral Ad Science] para aplicar a posicionamentos. Os padrões no nível do anunciante são selecionados para novos posicionamentos. Você pode substituir as configurações no nível do anunciante no [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify], [!DNL Ora
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 Um filtro **[!UICONTROL Video Viewability Targets]** opcional e um filtro **[!UICONTROL Display Viewability Targets]** opcional. Taxas adicionais podem ser aplicadas.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-Um filtro **[!UICONTROL Video Viewability Standard]** opcional e um filtro **[!UICONTROL Display Viewability Standard]** opcional. Taxas adicionais podem ser aplicadas.
 
 #### [!UICONTROL Ads.text]
 

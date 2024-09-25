@@ -3,9 +3,9 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O Advertising DSP fornece um conjunto de recursos de proteção da marca para ga
 
 Nossa equipe de Vigilância de Fraudes trabalha em conjunto com parceiros líderes do setor, como o [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] e [!DNL WhiteOps], para preparar cuidadosamente o inventário em nossa plataforma. Por meio do gerenciamento pró-ativo de nosso suprimento, o DSP garante que todos os anunciantes na plataforma estejam protegidos contra tráfego não humano (bots, crawlers, tráfego de data center e fraude) e sejam entregues somente em contextos seguros para a marca.
 
-Além de fornecer um gerenciamento de qualidade central, acreditamos em capacitar os anunciantes a projetar os controles que se alinham à sua marca. O DSP oferece integrações com [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] e [!DNL Peer39], garantindo que cada anunciante possa escolher seu nível desejado de proteção contra fraude, filtragem contextual e direcionamento por palavras-chave.
+Além de fornecer um gerenciamento de qualidade central, acreditamos em capacitar os anunciantes a projetar os controles que se alinham à sua marca. O DSP oferece integrações com [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39], garantindo que cada anunciante possa escolher seu nível desejado de proteção contra fraude, filtragem contextual e direcionamento por palavras-chave.
 
 ## Iniciativas de qualidade
 
@@ -110,15 +110,11 @@ Para obter mais informações sobre a funcionalidade, entre em contato diretamen
 
 ### Visibilidade pré-oferta {#pre-bid-viewability}
 
-Os filtros de visibilidade pré-oferta viabilizados pelos nossos parceiros líderes do setor [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) e [!DNL Integral Ad Science] permitem que os anunciantes garantam que suas campanhas atendam às metas de desempenho de visibilidade desejadas no inventário de vídeo e exibição.
-
->[!NOTE]
->
->O [!DNL Oracle] encerrará seus negócios de publicidade até 30 de setembro de 2024, incluindo todos os serviços a partir de [!DNL MOAT].
+Os filtros de visibilidade pré-oferta viabilizados pelos nossos parceiros líderes do setor, o [!DNL DoubleVerify] e o [!DNL Integral Ad Science], permitem que os anunciantes garantam que suas campanhas atendam às metas de desempenho de visibilidade desejadas no inventário de vídeo e exibição.
 
 Você pode definir filtros de visibilidade padrão para cada anunciante<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> e, opcionalmente, [personalizar as configurações para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas quando você usar este recurso.
 
-![Logotipo do DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo do Oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logotipo Integral do Ad Science](/help/dsp/assets/ias-logo.png)
+![Logotipo do DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo Integral do Ad Science](/help/dsp/assets/ias-logo.png)
 
 ### Direcionamento de atenção e medição
 
@@ -132,17 +128,13 @@ Taxas adicionais se aplicam a cada recurso separado.
 
 ### Direcionamento de tópico
 
-O direcionamento de tópico do DSP permite direcionar ou bloquear listas de palavras-chave aproveitando nossos parceiros contextuais líderes do setor [!DNL Comscore] e [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]). O direcionamento de tópico ajuda a garantir que seus anúncios sejam sempre veiculados em um ambiente que se alinha à sua marca, seja bloqueando conteúdo prejudicial ou garantindo que sejam gastos em um contexto que garanta um resultado melhor.
-
->[!NOTE]
->
->O [!DNL Oracle] encerrará seu negócio de publicidade até 30 de setembro de 2024, incluindo todos os serviços do [!DNL Oracle Data Cloud] (antigo [!DNL Grapeshot]).
+O direcionamento de tópico do DSP permite direcionar ou bloquear listas de palavras-chave aproveitando nosso parceiro contextual líder do setor [!DNL Comscore]. O direcionamento de tópico ajuda a garantir que seus anúncios sejam sempre veiculados em um ambiente que se alinha à sua marca, seja bloqueando conteúdo prejudicial ou garantindo que sejam gastos em um contexto que garanta um resultado melhor.
 
 O direcionamento de tópico exige que você crie segmentos de tópico personalizados diretamente com a plataforma de parceiro. Depois que os segmentos forem criados, você poderá [direcionar ou excluir uma ID de segmento na seção [!UICONTROL Audience Targeting] para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). Taxas adicionais podem ser aplicadas para este recurso.
 
 Para criar uma conta do [!DNL Comscore] e segmentos de tópicos personalizados, você pode solicitar um logon para [!DNL Activation Segment Manager] em [https://agents.comscore.com](https://agents.comscore.com). Consulte a [[!DNL Comscore] central de ajuda](https://comscoreactivation.zendesk.com/hc/) para obter instruções completas sobre como configurar segmentos personalizados. As tarifas para segmentos personalizados estão visíveis em [!DNL Segment Manager] à medida que você os cria.
 
-![Logotipo do Comscore](/help/dsp/assets/comscore-logo.png) ![Logotipo da Grapeshot](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Logotipo da pontuação](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 

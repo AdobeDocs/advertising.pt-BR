@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ Ao selecionar IDs herdadas e IDs universais, a preferência de lances é dada à
    * Para selecionar manualmente um intervalo, clique dentro de uma célula e, como opção, arraste para selecionar o intervalo.
 1. Clique em **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Opcional; disponível para anunciantes configurados com [!DNL Proximic by Comscore] e [!DNL Oracle Data Cloud] segmentos) Nomes ou IDs de segmentos específicos de [!DNL Proximic by Comscore] e [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]) para incluir como destinos. Taxas adicionais podem ser aplicadas para este recurso. Para ativar esse recurso e configurar segmentos de tópico, entre em contato com a equipe de conta do Adobe.
-
-**Observação:** [!DNL Oracle] encerrará seu negócio de publicidade até 30 de setembro de 2024, incluindo todos os serviços de [!DNL Oracle Data Cloud] (antigo [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (Opcional; disponível para anunciantes configurados com [!DNL Proximic by Comscore] segmentos) Nomes ou IDs de segmento específicos de [!DNL Proximic by Comscore] para incluir como destinos. Taxas adicionais podem ser aplicadas para este recurso. Para ativar esse recurso e configurar segmentos de tópico, entre em contato com a equipe de conta do Adobe.
 
 Para especificar o direcionamento de tópico:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Especifique os segmentos a serem direcionados:
-   1. Na coluna à esquerda, selecione o parceiro (*[!UICONTROL Comscore]* ou *[!UICONTROL Grapeshot]*).
+   1. Na coluna à esquerda, selecione o parceiro: (*[!UICONTROL Comscore]*.
    1. No campo de entrada, digite os nomes ou IDs de segmento.
 1. (Opcional) Para baixar um arquivo CSV com as informações do tópico no local de Downloads do navegador, clique em **[!UICONTROL Export]**.
 1. Clique em **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ Para especificar o direcionamento de tópico:
 >
 >* O direcionamento de tópico limita o inventário no qual a disposição pode fazer ofertas. Portanto, use o direcionamento de tópico somente para uma pequena porcentagem da sua compra geral.
 >
->* Configure qualquer direcionamento negativo dentro do segmento em [!DNL Proximic by Comscore] ou [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]).
+>* Configure qualquer direcionamento negativo dentro do segmento em [!DNL Proximic by Comscore].
 
 **[!UICONTROL Device Targeting]:** (Opcional) Informações específicas do dispositivo, incluindo tipos de dispositivo, fabricantes, sistemas operacionais, navegadores e tipos de conectividade, a serem incluídas e excluídas como destinos. Os tipos variam de acordo com o tipo de posicionamento. Para especificar o direcionamento de dispositivo:
 
@@ -431,11 +429,7 @@ Para especificar o direcionamento de tópico:
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Quais filtros de visibilidade pré-oferta por [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) e [!DNL Integral Ad Science] se aplicam ao posicionamento. Os padrões no nível do anunciante são selecionados para novos posicionamentos, mas você pode alterar as configurações. Taxas adicionais podem ser aplicadas.
-
->[!NOTE]
->
->O [!DNL Oracle] encerrará seus negócios de publicidade até 30 de setembro de 2024, incluindo todos os serviços a partir de [!DNL MOAT].
+Quais filtros de visibilidade pré-oferta por [!DNL DoubleVerify] e [!DNL Integral Ad Science] para aplicar ao posicionamento. Os padrões no nível do anunciante são selecionados para novos posicionamentos, mas você pode alterar as configurações. Taxas adicionais podem ser aplicadas.
 
 **[!UICONTROL Ads.txt filtering]:**
 

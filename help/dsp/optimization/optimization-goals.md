@@ -3,9 +3,9 @@ title: Metas de otimização e como usá-las
 description: Referencie as metas de otimização disponíveis e veja quando usá-las.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: b40f016a02d99a3753358c9911e40ac63e83fd54
+source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Adobe - GroupM)] | Com a otimização no nível do pacote, a alocação de orçamento prioriza posicionamentos com os vCPMs mais baixos.<br><br>As avaliações de leilão priorizam o vCPM. as metas de gastos estão sendo cumpridas, então o DSP tenta equilibrar o abaixamento dos CPMs com o aumento da visibilidade. | Tipo de campanha: Marca<br><br>Parâmetro: CPM eficiente e vCPM mais alto<br><br>Tipos de anúncio: Pré-lançamento, Exibição<br><br><b>Observação:</b> use essa meta para obter o melhor vCPM possível.<br><br>Para garantir um CPM máximo, use-o como a Oferta Máxima para o posicionamento. |
 | [!UICONTROL Lowest vCPM (Adobe - MRC)] | Com a otimização no nível do pacote, a alocação de orçamento prioriza posicionamentos com os vCPMs mais baixos.<br><br>As avaliações de leilão priorizam o vCPM. as metas de gastos estão sendo cumpridas, então o DSP tenta equilibrar o abaixamento dos CPMs com o aumento da visibilidade. | Tipo de campanha: Marca<br><br>Parâmetro: CPM eficiente e vCPM mais alto<br><br>Tipos de anúncio: Pré-lançamento, Exibição<br><br><b>Observação:</b> use essa meta para obter o melhor vCPM possível.<br><br>Para garantir um CPM máximo, use-o como a Oferta Máxima para o posicionamento. |
 | [!UICONTROL Lowest vCPM (IAS - MRC)] | Com a otimização no nível do pacote, a alocação de orçamento prioriza posicionamentos com os vCPMs mais baixos.<br><br>As avaliações de leilão priorizam o vCPM. as metas de gastos estão sendo cumpridas, então o DSP tenta equilibrar o abaixamento dos CPMs com o aumento da visibilidade. | Tipo de campanha: Marca<br><br>Parâmetro: CPM eficiente e vCPM mais alto<br><br>Tipos de anúncio: Pré-lançamento, Exibição<br><br><b>Observação:</b> use essa meta para obter o melhor vCPM possível.<br><br>Para garantir um CPM máximo, use-o como a Oferta Máxima para o posicionamento.<br><br>Essa configuração funciona melhor quando dados de terceiros do IAS informam o algoritmo. Use essa meta somente quando tiver habilitado a integração do IAS para a campanha. |
-| [!UICONTROL Lowest vCPM (Moat - GroupM)] | Com a otimização no nível do pacote, a alocação de orçamento prioriza posicionamentos com os vCPMs mais baixos.<br><br>As avaliações de leilão priorizam o vCPM. as metas de gastos estão sendo cumpridas, então o DSP tenta equilibrar o abaixamento dos CPMs com o aumento da visibilidade. | Tipo de campanha: Marca<br><br>Parâmetro: CPM eficiente e vCPM mais alto<br><br>Tipos de anúncio: Pré-lançamento, Exibição<br><br><b>Observação:</b> use essa meta para obter o melhor vCPM possível.<br><br>Para garantir um CPM máximo, use-o como a Oferta Máxima para o posicionamento.<br><br>Essa configuração funciona melhor quando dados de terceiros de [!DNL Moat] estão informando o algoritmo. Use esta meta somente quando tiver habilitado a integração do [!DNL Moat] para a campanha. |
-| [!UICONTROL Lowest vCPM (Moat - MRC)] | Com a otimização no nível do pacote, a alocação de orçamento prioriza posicionamentos com os vCPMs mais baixos.<br><br>As avaliações de leilão priorizam o vCPM. as metas de gastos estão sendo cumpridas, então o DSP tenta equilibrar o abaixamento dos CPMs com o aumento da visibilidade. | Tipo de campanha: Marca<br><br>Parâmetro: CPM eficiente e vCPM mais alto<br><br>Tipos de anúncio: Pré-lançamento, Exibição<br><br><b>Observação:</b> use essa meta para obter o melhor vCPM possível.<br><br>Para garantir um CPM máximo, use-o como a Oferta Máxima para o posicionamento.<br><br>Essa configuração funciona melhor quando dados de terceiros de [!DNL Moat] estão informando o algoritmo. Use esta meta somente quando tiver habilitado a integração do [!DNL Moat] para a campanha. |
 
 {style="table-layout:auto"}
 

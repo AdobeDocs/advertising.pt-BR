@@ -3,9 +3,9 @@ title: Criar métricas de conversão do Adobe Analytics [!DNL eVars]  e props
 description: Configure métricas de evento bem-sucedidas personalizadas usando dados de nível  [!DNL eVar] e  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: db815958b039508b005f4be60561ddc4656da86e
+source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Ana
 
 Depois que a métrica estiver disponível, você poderá usá-la para criar um objetivo, que poderá ser atribuído a um portfólio de Pesquisa, Social e Commerce ou usar como uma [meta personalizada](/help/dsp/optimization/custom-goal.md) para um pacote DSP.
 
-consulte o capítulo do Guia de otimização em &quot;Objetivos&quot;, disponível no Search, Social e Commerce
+Para obter mais informações sobre como criar objetivos, consulte o capítulo do Guia de Otimização em &quot;Objetivos&quot;, disponível no Search, Social e Commerce
 
 >[!MORELIKETHIS]
 >

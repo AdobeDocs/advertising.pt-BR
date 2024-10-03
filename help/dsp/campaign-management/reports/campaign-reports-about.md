@@ -3,9 +3,9 @@ title: Tipos de relatórios de desempenho em visualizações do Campaign Managem
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Para exibir uma campanha com mais detalhes, clique no seu nome.
 
 #### Indicadores de alerta
 
-*recurso do Beta*
-
 Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir Alertas](campaign-alerts.md)&quot; para obter mais informações.
 
 ## Relatórios de campanha única {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Consulte a seção [&quot;Exibição de gráfico&quot; sobre métricas entre cam
 Em cada guia de entidade, cada linha inclui métricas de ritmo e entrega, por padrão, mas você pode [alterar a exibição de coluna](campaign-data-views-manage.md#column-view-change) ou até [criar uma exibição de coluna personalizada](campaign-data-views-manage.md#column-view-create) para aplicar em todas as subguias da campanha. Você pode [personalizar ainda mais as tabelas de dados](campaign-data-views-manage.md#data-tables-manage) de maneiras adicionais. Cada tabela de dados inclui uma linha [!UICONTROL Subtotals], que mostra a soma ou o valor médio de cada métrica em todas as linhas visíveis.
 
 #### Indicadores de alerta
-
-*recurso do Beta*
 
 Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando um pacote, posicionamento ou anúncio — ou qualquer entidade filha em um pacote ou posicionamento — tem um problema. Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir Alertas](campaign-alerts.md)&quot; para obter mais informações.
 

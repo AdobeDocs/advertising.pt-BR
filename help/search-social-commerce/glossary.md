@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **rastreamento de conversão:** o rastreamento de conversão usa cookies para rastrear a) cliques nos anúncios de um anunciante nas redes de anúncios e b) as transações resultantes no site do anunciante.
 
-**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto.
+**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo usados para otimização.
 
 **modelo de custo:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**meia-vida:** o tempo necessário para que uma quantidade diminua para metade de seu valor inicial. Para cada portfólio, é possível especificar meia-vida para indicar por quanto tempo os dados são relevantes para modelos de custo e de receita.
+Consulte &quot;meia-vida do modelo de custo&quot; e &quot;meia-vida do modelo de receita&quot;.
+
 ## I-J {#i-j}
 
 **impressão:** uma única exibição de um anúncio em uma página da Web, aplicativo móvel ou outra mídia de entrega. Um usuário não precisa visualizar ou clicar no anúncio para que ele conte como uma impressão.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **lance mínimo:** 1) O valor mínimo a ser pago por impressão ou por 1000 impressões. 2) Para palavras-chave de pesquisa, o lance mínimo necessário para uma determinada palavra-chave com base em sua pontuação de qualidade. O lance mínimo é geralmente o menor valor que você pode pagar por clique para que sua palavra-chave mostre anúncios.
 
+**precisão do modelo:** (Anunciantes com portfólios) A porcentagem de precisão dos modelos de custo e receita que são usados para otimizar ofertas, orçamentos e destinos de um portfólio. Consulte &quot;modelo de custo&quot;, &quot;precisão de custo&quot;, &quot;modelo de receita&quot; e &quot;precisão da receita&quot;.  [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo e receita.
+
 ## O-P {#o-p}
 
-**objetivo:** (anunciantes com portfólios) uma meta que um cliente define para atender ao seu objetivo comercial para um portfólio específico ou uma campanha de exibição, como maximizar lucros ou atingir uma meta de vendas específica. Um objetivo consiste nas métricas de conversão a serem rastreadas e otimizadas para o portfólio e nos pesos relativos dessas métricas.
+**objetivo:** (anunciantes com portfólios) uma meta que um cliente define para atender ao seu objetivo comercial para um portfólio específico ou uma campanha de exibição, como maximizar lucros ou atingir uma meta de vendas específica. Um objetivo consiste nas métricas de conversão a serem rastreadas e otimizadas para o portfólio e nos pesos relativos dessas métricas. O total das conversões ponderadas da carteira é calculado como &quot;valor objetivo&quot;.
 
 **valor do objetivo:** (anunciantes com portfólios) o total de conversões ponderadas, conforme calculado de acordo com o objetivo atual do portfólio, incluindo:
 
-* todas as conversões, tendo em conta a) os pesos atribuídos a cada conversão na função objetiva da carteira e, quando aplicável, b) o peso de view-through para view-throughs.
+* todas as conversões, tendo em conta a) os pesos atribuídos a cada conversão no objetivo do portfólio e, quando aplicável, b) o peso de view-through para view-throughs.
 
 * todos os cliques, que o recurso de otimização considera uma única conversão e é ponderado de acordo com o valor de clique do objetivo.
 
@@ -158,7 +163,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **retorno do investimento:** (ROI) Receita menos custos.
 
-**precisão da receita:** (anunciantes com portfólios) a receita real de um portfólio dividida pela receita prevista.
+**precisão da receita:** (anunciantes com portfólios) a receita real de um portfólio dividida pela receita prevista. [Relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de receita usados para otimização.
 
 **modelo de receita:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê a taxa de conversão e o retorno estimado para cada unidade de oferta, com base nos dados de clique (pesquisa e social) ou nos dados de impressão (exibição) e nos dados de conversão do anunciante.
 
@@ -195,6 +200,8 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 **peso de view-through:** (somente campanhas sociais e de exibição) uma configuração no nível do anunciante que especifica o peso a ser atribuído a uma conversão de view-through relativa ao peso atribuído a uma conversão baseada em cliques, como uma porcentagem.
 
 ## W-X {#w-x}
+
+**objetivo ponderado:** Consulte &quot;objetivo&quot;.
 
 **receita ponderada:** Consulte &quot;valor do objetivo&quot;.
 

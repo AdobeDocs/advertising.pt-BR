@@ -3,9 +3,9 @@ title: Sobre o Adobe Advertising Search, Social e Commerce
 description: Saiba mais sobre Pesquisa, Social e Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Como parte do Adobe Advertising, o Advertising Search, Social e Commerce combina
 
 ## Tecnologia orientada por IA para otimização de anúncios
 
-Search, Social, &amp; Commerce automatiza e otimiza o gerenciamento de ofertas e orçamentos para campanhas de anúncios em redes de anúncios dentro dos limites dos objetivos de negócios, métricas, orçamento e outras restrições comerciais de um anunciante. Ele rastreia o histórico de cliques, custos e conversões de cada palavra-chave e anúncio de um anunciante, bem como informações sobre o cenário de ofertas em cada canal de marketing. Usando uma abordagem de teoria do portfólio, o recurso de otimização compara todas as alocações possíveis do orçamento em um portfólio inteiro de campanhas para determinar os lances e orçamentos de campanha que produzirão o maior retorno possível sobre o investimento em anúncios e executa os lances e orçamentos de acordo. O recurso de otimização monitora constantemente as palavras-chave e os anúncios de um anunciante, ajustando dinamicamente ofertas e orçamentos à medida que o mercado muda.
+Search, Social, &amp; Commerce automatiza e otimiza o gerenciamento de ofertas e orçamentos para campanhas de anúncios em redes de anúncios dentro dos limites dos objetivos de negócios, métricas, orçamento e outras restrições comerciais de um anunciante. Ele rastreia o histórico de cliques, custos e conversões de cada palavra-chave e anúncio de um anunciante, bem como informações sobre o cenário de ofertas em cada canal de marketing. Usando uma abordagem de teoria do portfólio, o recurso de otimização compara todas as alocações possíveis do seu orçamento em um portfólio inteiro de campanhas para determinar os lances e orçamentos de campanha que produzirão o maior retorno possível sobre o investimento em anúncios e executa os lances, orçamentos e metas de estratégia de lance de acordo. O recurso de otimização monitora constantemente as palavras-chave e os anúncios de um anunciante, ajustando dinamicamente ofertas, orçamentos e públicos-alvo à medida que o mercado muda.
 
 Vários tipos de otimização estão disponíveis, permitindo Pesquisa, Social e Commerce e a rede de anúncios com vários graus de controle sobre a otimização de ofertas. Dependendo do tipo de otimização, você pode otimizar seus portfólios usando conversões controladas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] ou outros feeds corporativos primários.
 

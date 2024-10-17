@@ -3,9 +3,9 @@ title: Gerenciar anúncios
 description: Saiba como criar e gerenciar anúncios.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Você pode criar, editar e alterar o status de anúncios da exibição [!UICONTR
 >[!NOTE]
 >
 >* Os tipos de anúncios a seguir são *mutáveis*, o que significa que você pode alterar a cópia ou imagem do anúncio e manter a mesma ID de anúncio: todos os [!DNL Google Ads] tipos de anúncios, exceto anúncios de pesquisa dinâmica, e [!DNL Microsoft Advertising] anúncios de texto expandidos.
->* Todos os outros anúncios com suporte são *não mutáveis*, o que significa que alterar a cópia do anúncio ou a imagem excluirá o anúncio existente e criará um novo. O desempenho do novo anúncio pode ficar volátil por algumas semanas, enquanto o Search, Social e Commerce coleta dados suficientes para otimizar ofertas.
+>* Todos os outros anúncios com suporte são *não mutáveis*, o que significa que alterar a cópia do anúncio ou a imagem excluirá o anúncio existente e criará um novo. O desempenho do novo anúncio pode ficar volátil por algumas semanas, enquanto o Search, Social e Commerce coleta dados suficientes para otimização.
 >* Você não pode editar o conteúdo de um anúncio de produto, exceto para a linha de promoção para [!DNL Microsoft Advertising] anúncios de produto. No entanto, você pode pausar ou excluir um anúncio.
 
 >[!TIP]

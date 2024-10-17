@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | O nome do grupo de portfólio ao qual o portfólio pertence. |
 | [!UICONTROL Portfolio ID] | A ID numérica do portfólio. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) A estratégia de gastos do portfólio: <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> ou <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | O status do portfólio:<ul><li><i>[!UICONTROL Optimize]:</i> O recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes, modelando os dados para otimizar ofertas e/ou otimizando ofertas e/ou orçamentos de campanha (dependendo do tipo de otimização e das estratégias de oferta de campanha).</li><li><i>[!UICONTROL Active]:</i> o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes e está modelando os dados, mas não está otimizando ofertas ou orçamentos de campanha.</li><li><i>[!UICONTROL Inactive]:</i> o recurso de otimização está coletando dados de cliques para as campanhas relevantes para fins de relatório, mas não está modelando os dados nem otimizando ofertas ou orçamentos de campanha.</li></ul> |
+| [!UICONTROL Portfolio Status] | O status do portfólio:<ul><li><i>[!UICONTROL Optimize]:</i> O recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes, modelando os dados usados para otimização e otimizando ofertas, orçamentos de campanha e metas de estratégia de oferta de campanha (dependendo do tipo de otimização e das estratégias de oferta).</li><li><i>[!UICONTROL Active]:</i> o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes e está modelando os dados, mas não está otimizando ofertas ou orçamentos de campanha.</li><li><i>[!UICONTROL Inactive]:</i> o recurso de otimização está coletando dados de cliques para as campanhas relevantes para fins de relatório, mas não está modelando os dados nem otimizando ofertas ou orçamentos de campanha.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) O público alvo diário da estratégia de gastos do portfólio. Para estratégias diárias/mensais e de dia da semana/mês, o público alvo do dia atual é mostrado. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] campanhas) Se as configurações de anúncio dão preferência a <i>[!UICONTROL Mobile ads]</i> ou <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | A ID numérica que a rede de publicidade atribui ao grupo de produtos. |

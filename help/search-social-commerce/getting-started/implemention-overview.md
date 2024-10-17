@@ -3,7 +3,7 @@ title: Visão geral da implementação do Search, Social e Commerce
 description: Saiba mais
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Com
 
       >[!NOTE]
       >
-      >Search, Social e Commerce ainda rastreia e relata dados de campanhas que não são atribuídas a portfólios, mas não otimiza ofertas para eles.
+      >Search, Social e Commerce ainda rastreia e relata dados de campanhas que não são atribuídas a portfólios, mas não fornece otimização para eles.
 
    1. Depois que dados suficientes estiverem disponíveis para criar uma linha de base, a equipe do poderá iniciar o portfólio, permitindo que o Search, o Social e o Commerce otimizem ofertas e/ou orçamentos para o portfólio, com base no tipo de otimização.
 

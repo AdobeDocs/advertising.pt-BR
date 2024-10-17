@@ -3,9 +3,9 @@ title: Sobre contas de rede de publicidade
 description: Saiba mais sobre contas de rede de anúncios em Pesquisa, Social e Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social e Commerce podem rastrear qualquer conta de um anunciante em rede
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising] (antigo [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes*
 
-O Search, Social e Commerce sincroniza (*sincronizações*) com contas de rede de anúncios com suporte, para que você possa acompanhar, relatar e visualizar o desempenho de seus anúncios. Para todas as redes de anúncios, exceto para [!DNL Yahoo! Display Network], você pode opcionalmente gerenciar as campanhas para sua conta em Search, Social, &amp; Commerce; [!DNL Yahoo! Display Network], as campanhas são somente leitura. Para todas as redes de anúncios, você pode permitir o recurso de otimização para ofertas de anúncios em contas gerenciadas ao adicioná-las aos portfólios.
+O Search, Social e Commerce sincroniza (*sincronizações*) com contas de rede de anúncios com suporte, para que você possa acompanhar, relatar e visualizar o desempenho de seus anúncios. Para todas as redes de anúncios, exceto para [!DNL Yahoo! Display Network], você pode opcionalmente gerenciar as campanhas para sua conta em Search, Social, &amp; Commerce; [!DNL Yahoo! Display Network], as campanhas são somente leitura. Para todas as redes de anúncios, você pode permitir o recurso de otimização para ofertas, orçamentos de campanha e metas de estratégia de oferta de campanha para campanhas em contas gerenciadas, adicionando as campanhas aos portfólios.
 
 Para habilitar a sincronização de uma conta, o registro da conta deve conter as credenciais de acesso da conta e estar habilitado (ativo).
 

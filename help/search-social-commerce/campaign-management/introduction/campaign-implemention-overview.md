@@ -3,9 +3,9 @@ title: Visão geral da implementação de contas e campanhas de rede de anúncio
 description: Saiba mais sobre as tarefas envolvidas na configuração, sincronização e gerenciamento de suas contas de rede de anúncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
 1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que eles possam trocar dados.
 
-1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas e/ou orçamentos de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas, orçamentos de campanha e/ou alvos de estratégia de oferta de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Se o portfólio ainda não tiver sido iniciado (otimização de lances e/ou orçamentos), deixe o recurso de otimização coletar dados suficientes para criar modelos de custo e receita para que você possa estabelecer o desempenho da linha de base para o portfólio antes de iniciá-lo.
 

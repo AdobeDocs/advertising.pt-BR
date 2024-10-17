@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | A ID numérica do portfólio. |
 | [!UICONTROL Portfolio Name] | O portfólio. |
 | [!UICONTROL Portfolio Spend Strategy] | (Relatório Portfolio) A estratégia de gastos do portfólio: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* ou *[!UICONTROL Google Target ROAS]*. |
-| [!UICONTROL Portfolio Status] | O status do portfólio:<ul><li>*[!UICONTROL Optimize]*: o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes, modelando os dados para otimizar ofertas e/ou otimizando ofertas e/ou orçamentos de campanha (dependendo do tipo de otimização e das estratégias de oferta de campanha).</li><li>*[!UICONTROL Active]*: o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes e está modelando os dados, mas não está otimizando ofertas ou orçamentos de campanha.</li><li>*[!UICONTROL Inactive]*: o recurso de otimização está coletando dados de cliques para as campanhas relevantes para fins de relatório, mas não está modelando os dados nem otimizando ofertas ou orçamentos de campanha.</li></ul> |
+| [!UICONTROL Portfolio Status] | O status do portfólio:<ul><li>*[!UICONTROL Optimize]*: o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes, modelando os dados usados para otimização e otimizando ofertas, orçamentos de campanha e metas de estratégia de oferta de campanha (dependendo do tipo de otimização e das estratégias de oferta).</li><li>*[!UICONTROL Active]*: o recurso de otimização está coletando dados de cliques e receita para as campanhas relevantes e está modelando os dados, mas não está otimizando ofertas ou orçamentos de campanha.</li><li>*[!UICONTROL Inactive]*: o recurso de otimização está coletando dados de cliques para as campanhas relevantes para fins de relatório, mas não está modelando os dados nem otimizando ofertas ou orçamentos de campanha.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Por que o grupo de ativos está ou não servindo na capacidade total. Ele leva em conta o status do grupo de ativos, bem como outros sinais, como aprovações de política e qualidade. Os valores podem incluir *ELEGÍVEL,* *LIMITADO,* *NÃO_ELEGÍVEL,* *PAUSADO,* *PENDENTE,* *REMOVIDO,* *DESCONHECIDO,* ou *NÃO ESPECIFICADO.* |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Detalhes adicionais sobre o status principal do grupo de ativos. Os valores podem incluir *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *DESCONHECIDO,* ou *NÃO ESPECIFICADO.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) A ID do produto mostrada com o anúncio. <b>Observação:</b> a ID é capturada apenas quando a lista de produtos inclui o parâmetro de rastreamento `ev_plx=<GMC product ID>`, que você deve adicionar em [!DNL Google Merchant Center]. |

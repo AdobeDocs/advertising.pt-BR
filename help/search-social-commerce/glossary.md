@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **rastreamento de conversão:** o rastreamento de conversão usa cookies para rastrear a) cliques nos anúncios de um anunciante nas redes de anúncios e b) as transações resultantes no site do anunciante.
 
-**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo usados para otimização.
+**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo que são usados para otimização e o [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclui mais detalhes, além de recomendações para melhorar a precisão do modelo.
 
 **modelo de custo:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
 
@@ -123,7 +123,7 @@ Consulte &quot;meia-vida do modelo de custo&quot; e &quot;meia-vida do modelo de
 
 **lance mínimo:** 1) O valor mínimo a ser pago por impressão ou por 1000 impressões. 2) Para palavras-chave de pesquisa, o lance mínimo necessário para uma determinada palavra-chave com base em sua pontuação de qualidade. O lance mínimo é geralmente o menor valor que você pode pagar por clique para que sua palavra-chave mostre anúncios.
 
-**precisão do modelo:** (Anunciantes com portfólios) A porcentagem de precisão dos modelos de custo e receita que são usados para otimizar ofertas, orçamentos e destinos de um portfólio. Consulte &quot;modelo de custo&quot;, &quot;precisão de custo&quot;, &quot;modelo de receita&quot; e &quot;precisão da receita&quot;.  [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo e receita.
+**precisão do modelo:** (anunciantes com portfólios) a porcentagem de precisão dos modelos de custo e de receita usados para otimizar ofertas, orçamentos de campanha e metas de estratégia de oferta para um portfólio. Consulte &quot;modelo de custo&quot;, &quot;precisão de custo&quot;, &quot;modelo de receita&quot; e &quot;precisão da receita&quot;.  [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo e receita.
 
 ## O-P {#o-p}
 

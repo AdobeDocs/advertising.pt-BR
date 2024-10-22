@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Consulte &quot;meia-vida do modelo de custo&quot; e &quot;meia-vida do modelo de
 
 **lance mínimo:** 1) O valor mínimo a ser pago por impressão ou por 1000 impressões. 2) Para palavras-chave de pesquisa, o lance mínimo necessário para uma determinada palavra-chave com base em sua pontuação de qualidade. O lance mínimo é geralmente o menor valor que você pode pagar por clique para que sua palavra-chave mostre anúncios.
 
-**precisão do modelo:** (anunciantes com portfólios) a porcentagem de precisão dos modelos de custo e de receita usados para otimizar ofertas, orçamentos de campanha e metas de estratégia de oferta para um portfólio. Consulte &quot;modelo de custo&quot;, &quot;precisão de custo&quot;, &quot;modelo de receita&quot; e &quot;precisão da receita&quot;.  [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo e receita.
+**precisão do modelo:** (anunciantes com portfólios) a porcentagem de precisão dos modelos de custo e de receita usados para otimizar ofertas, orçamentos de campanha e metas de estratégia de oferta para um portfólio. Consulte &quot;modelo de custo&quot;, &quot;precisão de custo&quot;, &quot;modelo de receita&quot; e &quot;precisão da receita&quot;.
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **retorno do investimento:** (ROI) Receita menos custos.
 
-**precisão da receita:** (anunciantes com portfólios) a receita real de um portfólio dividida pela receita prevista. [Relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de receita usados para otimização.
+**precisão da receita:** (anunciantes com portfólios) a receita real de um portfólio dividida pela receita prevista. [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de receita usados para otimização e o [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclui mais detalhes, além de recomendações para melhorar a precisão do modelo.
 
 **modelo de receita:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê a taxa de conversão e o retorno estimado para cada unidade de oferta, com base nos dados de clique (pesquisa e social) ou nos dados de impressão (exibição) e nos dados de conversão do anunciante.
 

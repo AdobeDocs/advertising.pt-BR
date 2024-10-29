@@ -4,7 +4,7 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 4191ecdd67323cf30d42ad08fa30e72a489180ab
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -204,7 +204,7 @@ ht-degree: 3%
    + [Baixar um relatório personalizado](/help/dsp/reports/report-download.md)
    + [Configurações do relatório personalizado](/help/dsp/reports/report-settings.md)
    + [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
-   + [Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-household-report.md)
+   + [Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-reports.md)
    + Destinos do relatório {#report-destinations}
       + [Sobre o [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

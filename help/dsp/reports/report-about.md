@@ -3,7 +3,7 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
    * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+   * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-   * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+   * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Path to Conversion Beta]:** (recurso Beta) Use este relatório para identificar como otimizar orçamentos e personalizar anúncios com base em sequências de interação de anúncios de melhor desempenho. O relatório mostra a sequência de pontos de interação na mesma família que resultam em cada uma das métricas de conversão selecionadas no intervalo de dados especificado. O relatório usa um período de lookback especificado entre a primeira interação e uma conversão e pode incluir uma dimensão:
 
@@ -130,7 +130,7 @@ Você pode criar novos relatórios personalizados, editar relatórios existentes
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Perguntas Frequentes sobre Relatórios Domésticos](/help/dsp/reports/faq-household-report.md)
+>* [Perguntas Frequentes sobre Relatórios Domésticos](/help/dsp/reports/faq-reports.md)
 >* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

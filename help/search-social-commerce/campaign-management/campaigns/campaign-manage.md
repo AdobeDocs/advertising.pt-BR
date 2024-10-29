@@ -3,7 +3,7 @@ title: Gerenciar campanhas
 description: Saiba como criar e gerenciar campanhas de publicidade.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 821342d502dd253661cdc7ca62d16b0ae22624a0
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Você pode editar configurações para campanhas individuais. Você também pode
 
    Para várias campanhas, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options] e [!UICONTROL URL Options], dependendo das redes de anúncios. Você pode editar apenas os campos comuns a todas as campanhas selecionadas e suas alterações serão aplicadas a todas as campanhas selecionadas. Para alguns campos alfanuméricos, você tem opções para alterar os valores existentes para um valor especificado, substituir uma string existente por uma string especificada, adicionar um prefixo especificado ao início de cada valor ou anexar um sufixo ao final de cada valor. Para alguns campos monetários, você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 
-   Para campanhas únicas, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] e [!UICONTROL (Google) DSA Options]. Para definir configurações adicionais, quando disponíveis, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] ou [!UICONTROL Campaign Goals], clique em **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** ou **[!UICONTROL Set Campaign Goals]**, respectivamente.
+   Para campanhas únicas, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], [!UICONTROL (Google) DSA Options] e ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Para definir configurações adicionais, quando disponíveis, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] ou [!UICONTROL Campaign Goals], clique em **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** ou **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
 1. Salve os dados:
 

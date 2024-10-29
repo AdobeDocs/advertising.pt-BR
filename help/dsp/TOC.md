@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 4191ecdd67323cf30d42ad08fa30e72a489180ab
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [Arquivar ou desarquivar uma campanha](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Exibir o Log de Alterações de uma Campanha](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Configurações da campanha](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Lista de verificação de lançamento de campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Pacotes {#packages}
       + [Sobre o gerenciamento de pacotes](/help/dsp/campaign-management/packages/package-about.md)
       + [Criar um pacote](/help/dsp/campaign-management/packages/package-create.md)
-      + [Revisar e editar configurações de pacote usando planilhas](/help/dsp/campaign-management/packages/package-qa.md)
+      + [Revisar e editar configurações de pacote usando bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
       + [Editar um pacote](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicar um pacote](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Anexar um posicionamento a um pacote](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + Posicionamentos {#placements}
       + [Sobre o gerenciamento de posicionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Criar uma disposição](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Revisar e editar configurações de posicionamento usando planilhas](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Revisar e editar configurações de posicionamento usando bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Editar disposições](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicar um posicionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gerenciar multiplicadores de oferta para disposições](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)

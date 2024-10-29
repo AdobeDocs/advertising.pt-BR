@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referencie as configurações de  [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
 source-wordcount: '2576'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[Tela de criação da campanha\]
 
-**[!UICONTROL Campaign Type]:** (Disponível somente durante a criação da campanha) Onde colocar anúncios e quais tipos de anúncios
-a campanha pode conter:
+**[!UICONTROL Campaign Type]:** (Disponível somente durante a criação da campanha) Onde colocar anúncios e quais tipos de anúncios a campanha pode conter:
 
 * *[!UICONTROL Search Network Only]:* Mostra anúncios na rede de pesquisa, que inclui [!DNL Google] resultados de pesquisa e, opcionalmente, sites de parceiros de pesquisa. Você deve especificar palavras-chave para cada grupo de publicidade.
 
@@ -198,7 +197,7 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 ## [!UICONTROL Customer Acquisition Goals]
 
-**[!UICONTROL Customer Acquisition]:** (Desempenho máximo e campanhas de pesquisa somente) Como alocar ofertas para clientes novos e existentes:
+**[!UICONTROL Customer Acquisition]:** (Desempenho máximo e campanhas de pesquisa somente) Como alocar ofertas para novos clientes e clientes existentes:
 
 * *[!UICONTROL Bid equally for new and existing customers]*
 

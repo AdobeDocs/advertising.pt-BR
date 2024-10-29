@@ -3,9 +3,9 @@ title: Listar os posicionamentos e anúncios de uma oferta privada
 description: Saiba como abrir uma lista de posicionamentos e anúncios associados a uma negociação privada.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Você pode abrir uma lista de todos os posicionamentos e anúncios associados a 
 
 1. (Opcional) Siga qualquer um destes procedimentos:
 
+   * Para ver os motivos pelos quais um posicionamento não pôde dar lance na negociação privada, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL Non bid reasons]**.
+
    * Para editar as configurações de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL Edit]**. [Edite as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) e clique em **[!UICONTROL Update placement]**.
 
    * Para remover a oferta dos destinos de estoque de um posicionamento, mantenha o cursor sobre a linha de posicionamento e clique em **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
@@ -35,3 +37,4 @@ Você pode abrir uma lista de todos os posicionamentos e anúncios associados a 
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Especificar disposições e anúncios para uma ID de oferta](deal-id-attach-placements.md)
 >* [Exibir um Relatório Detalhado de um Acordo](deal-view-report.md)
+>* [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)

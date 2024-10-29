@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configurações da campanha'
 description: Referencie as configurações de  [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -196,6 +196,18 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:** (Desempenho máximo e campanhas de pesquisa somente) Como alocar ofertas para clientes novos e existentes:
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **Observação:** para usar esta configuração, você deve primeiro ativar a nova meta de aquisição de cliente para a conta [!DNL Google Ads] ou, se aplicável, para a conta de gerente. A meta define as listas de clientes existentes qualificados e o valor de conversão adicional para novos clientes nas configurações de conversão. Consulte as Etapas de 1 a 2 na ajuda do [!DNL Google Ads] &quot;[Ativar a nova meta de aquisição de clientes](https://support.google.com/google-ads/answer/14007601).&quot;
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +380,3 @@ Para criar uma meta de conversão personalizada, clique em **[!UICONTROL + Add c
 >[!MORELIKETHIS]
 >
 >* [Gerenciar campanhas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

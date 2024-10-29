@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Para aplicar um ou mais filtros, faça o seguinte:
 * Selecione uma dimensão, o operador (*é igual a* ou *não é igual a*) e o valor aplicável. Por exemplo, para retornar dados apenas para anúncios precedentes, especifique &quot;[!UICONTROL Ad Type equals Preroll]&quot;.
 * (Opcional) Adicione outros critérios ao filtro.
 * (Opcional) Adicione filtros adicionais, cada um com um ou mais critérios.
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** Inclui anúncios em Advertising Search, Social e Commerce nos resultados do relatório.
 
 ## Seção [!UICONTROL Build Your Report]
 

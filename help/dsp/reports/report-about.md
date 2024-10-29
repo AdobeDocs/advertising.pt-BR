@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,26 @@ Você pode gerar relatórios uma vez ou agendá-los para serem gerados diariamen
    * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-household-report.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+
+   * **[!UICONTROL Path to Conversion Beta]:** (recurso Beta) Use este relatório para ver a sequência de pontos de interação na mesma família que leva a cada uma das métricas de conversão selecionadas no intervalo de dados especificado, usando um período de pesquisa especificado entre a primeira interação e uma conversão. O relatório pode incluir uma dimensão:
+
+      * [!UICONTROL Channel Assist Type]: Mostra como os seguintes canais de marketing auxiliaram o processo de conversão: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] ou [!UICONTROL Video Impression].
+
+      * [!UICONTROL Campaign ID] ou [!UICONTROL Campaign Name]: mostra quais campanhas ajudaram no processo de conversão.
+
+      * [!UICONTROL Ad ID] ou [!UICONTROL Ad Name] mostra quais anúncios de DSP resultaram em conversões.
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)] ou [!UICONTROL Ad Name & Paid Keyword (SSC)] mostra quais palavras-chave do Search, Social e Commerce resultaram em conversões.
+
+     As colunas no relatório incluem de &quot;[!UICONTROL Event #1]&quot; a &quot;[!UICONTROL Event #10],&quot;[!UICONTROL Path Length],&quot; &quot;% \&lt;Nome da Métrica de Conversão 1\>,&quot; &quot;% \&lt;Nome da Métrica de Conversão 2\>&quot; e assim por diante.
+
+     Até os 10 pontos de interação mais recentes são incluídos. As linhas de caminho são ordenadas pelo número de conversões.
+
+   * **[!UICONTROL Path Length Beta]:** (recurso Beta) Use este relatório para ver o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio, etc. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
+
+     Os dados são exibidos para cada comprimento de caminho de até 10; os dados para comprimentos de caminho superiores a 10 são agrupados.
+
+   * **[!UICONTROL Time to Conversion Beta]:** (recurso Beta) Use este relatório para ver o número de conversões por duração em dias, desde a última interação (exposição ao anúncio ou clique) até a conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Relatório entre contas {#cross-account-reporting}
 

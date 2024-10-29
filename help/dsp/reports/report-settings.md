@@ -3,9 +3,9 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
 \* *[!UICONTROL Account]* está disponível somente para os seguintes tipos de relatório quando sua organização está configurada para [relatórios entre contas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Entre em contato com a equipe de conta do Adobe para obter mais informações sobre relatórios entre contas.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Caminho para Conversão, Extensão do Caminho e Tempo para Conversão somente) Inclui dados para cliques em anúncios de pesquisa do Advertising Search, Social e Commerce.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (Caminho para Conversão, Extensão do Caminho e Tempo para Conversão somente) Inclui dados para cliques em anúncios de pesquisa do Advertising Search, Social e Commerce. Ao selecionar essa opção, selecione as campanhas Search, Social e Commerce a serem incluídas.
 
 ## Seção [!UICONTROL Build Your Report]
 
@@ -137,7 +137,11 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 Consulte também &quot;[Como as regras de atribuição são calculadas para o Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-* **Pesquisa:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] relatórios somente com [!UICONTROL Conversion Metrics] colunas; anunciantes somente com rastreamento de conversão de Adobe Advertising) No relatório, o número máximo de dias após um evento de impressão <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports --> no qual um evento de conversão pode ser atribuído a ele. O padrão é *[!UICONTROL 30 days]*, e o máximo é de 92 dias.
+* **Pesquisa:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] relatórios somente com [!UICONTROL Conversion Metrics] colunas; anunciantes somente com rastreamento de conversão de Adobe Advertising) Dentro do relatório, o número máximo de dias após um evento de impressão ou um evento de clique (para relatórios [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) no qual um evento de conversão pode ser atribuído a ele. O padrão é *[!UICONTROL 30 days]*, e o máximo é de 92 dias.
+
+  >[!TIP]
+  >
+  >Se você usar [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), use a mesma janela de pesquisa que você usa em [!DNL Analytics].
 
 **[!UICONTROL Paths as Columns]:** (Todos os relatórios [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas) Quais tipos de conversões relatar quando eventos anteriores ocorreram no mesmo dispositivo. É possível incluir até três tipos. Para cada tipo selecionado, uma coluna separada é incluída para cada métrica de conversão e é anexada com o sufixo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)] ou [!UICONTROL (vt)]):
 

@@ -1,37 +1,62 @@
 ---
-title: Revisar e editar configurações de pacote usando planilhas
-description: Saiba como revisar e editar as principais configurações de pacote usando planilhas.
+title: Revisar e editar configurações de pacote usando bulksheets
+description: Saiba como revisar e editar as principais configurações de pacote em massa usando planilhas.
 feature: DSP Packages
-source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
+exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# Revisar e editar configurações de pacote usando planilhas
+# Revisar e editar configurações de pacote usando bulksheets
 
-É possível baixar as configurações de um ou mais pacotes no formato XLSX ([!DNL Microsoft Excel] planilha) para revisão. A planilha inclui uma guia separada com informações de voo. Em seguida, é possível fazer alterações em campos selecionados em ambas as guias e fazer upload dos dados de volta para o DSP de uma só vez. Os campos editáveis incluem a maioria das configurações que normalmente são editáveis.
+É possível baixar as configurações de um ou mais pacotes no formato XLSX ([!DNL Microsoft Excel] planilha) para revisão. A planilha inclui uma guia separada com informações de voo.
+
+Para atualizar várias configurações de uma só vez, siga um destes procedimentos:
+
+* Faça alterações nos campos selecionados, salve o arquivo e faça upload do arquivo de bulksheet editado de volta para DSP.
+
+* Para fazer alterações em pacotes adicionais e nas configurações para qualquer posicionamento ou anúncio, baixe um modelo de planilha em branco que inclua guias para cada tipo de componente da campanha, insira ou cole configurações novas ou atualizadas no arquivo de modelo e, em seguida, faça upload do arquivo para fazer as alterações. Para obter instruções, consulte &quot;[Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+
+Os campos editáveis incluem a maioria das configurações que normalmente são editáveis.
 
 >[!TIP]
 >
->Para editar mais campos para um ou mais pacotes, consulte &quot;[Editar Pacotes](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+>Para editar rapidamente mais campos para um ou mais pacotes, consulte &quot;[Editar Pacotes](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+
+## Configurações de download para todos os pacotes em uma campanha
+
+Ao baixar configurações para todos os pacotes em uma campanha, a planilha inclui guias separadas para as configurações do pacote e para as informações de voo. Opcionalmente, é possível incluir configurações para os posicionamentos e anúncios associados aos pacotes; guias adicionais são incluídas para configurações de posicionamento e anúncio.
+
+1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+
+1. Clique no nome da campanha.
+
+1. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
+
+1. Na caixa de diálogo [!UICONTROL QA Sheet Download], desmarque todos os componentes da campanha cujas configurações você deseja excluir do arquivo baixado e clique em **[!UICONTROL Download]**.
+
+Por padrão, as configurações para todos os posicionamentos e anúncios associados aos pacotes são selecionadas.
+
+Uma mensagem de notificação indica quando o arquivo está disponível para download.
+
+1. Para baixar o arquivo, siga um destes procedimentos:
+
+   * Na mensagem de notificação, clique em **[!UICONTROL Download].**
+
+   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+
+     O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+
+>[!NOTE]
+>
+>Você não pode editar e fazer upload novamente de planilhas de controle de qualidade no nível da campanha. Para fazer alterações nas configurações do componente de campanha nesses arquivos, baixe um modelo de bulksheet separado, insira ou cole linhas da folha de controle de qualidade no modelo de bulksheet e salve o arquivo e, em seguida, faça upload da bulksheet preenchida. Para obter instruções, consulte &quot;[Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 ## Configurações de download para um ou mais pacotes
 
-1. No menu principal, clique em **[!UICONTROL Campaigns]**.
-
-1. Clique no nome da campanha.
-
-1. No submenu, clique em **[!UICONTROL Packages]**.
-
-1. Marque a caixa de seleção ao lado de cada pacote cujas configurações você deseja baixar.
-
-1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
-
-O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quot;[Colunas do Pacote em Planilhas Baixadas/Carregadas](#qa-sheet-columns-packages)&quot; para obter uma lista das colunas incluídas.
-
-## Configurações de Carregamento de Um ou Mais Pacotes
+Ao baixar configurações para pacotes específicos, o arquivo de bulksheet inclui guias separadas para as configurações de pacote e para as informações de voo, e o arquivo é editável.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -39,11 +64,43 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 
 1. No submenu, clique em **[!UICONTROL Packages]**.
 
-1. Marque a caixa de seleção ao lado de cada pacote cujas configurações você deseja fazer upload.
+1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]**.
+   Uma mensagem de notificação indica quando o arquivo de bulksheet está disponível para download.
 
-1. No diálogo [!UICONTROL Edit in Excel]:
+1. Para baixar a bulksheet, siga um destes procedimentos:
+
+   * Na mensagem de notificação, clique em **[!UICONTROL Download].**
+
+   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+
+     O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+
+<!-- I don't think I need this here
+
+## Download a Bulksheet Template {#download-template}
+
+You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
+
+1. Click the name of the campaign.
+
+1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
+
+-->
+
+## Fazer upload de uma Bulksheet com configurações de pacote {#upload-bulksheet-package}
+
+Você pode fazer upload das configurações dos pacotes, incluindo os posicionamentos e anúncios associados aos pacotes, em um arquivo de bulksheet.
+
+1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+
+1. Clique no nome da campanha.
+
+1. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+1. No diálogo [!UICONTROL Upload Bulksheet]:
 
    1. Arraste e solte um arquivo na caixa ou clique dentro dela para selecionar um arquivo do seu dispositivo ou rede.
 
@@ -96,7 +153,7 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 | [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Disponível somente quando a opção [!UICONTROL Activate Custom Flighting] estiver habilitada) Determina se o orçamento restante do voo anterior deve ou não ser adicionado automaticamente ao orçamento existente para o próximo voo: *T* (true) ou *F* (false). | Sim |
 | [!UICONTROL Error] | [!UICONTROL Error] | Quaisquer erros relevantes. | — |
 
-### Guia [!UICONTROL Package_Flights]
+### Guia [!UICONTROL Package_Flights] {#qa-sheet-columns-package-flights}
 
 | Seção | Coluna | Descrição | Editável? |
 |---------|--------|-------------|-----------|
@@ -109,5 +166,6 @@ O arquivo é salvo automaticamente na pasta Download do navegador. Consulte &quo
 
 >[!MORELIKETHIS]
 >
+>* [Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Editar Pacotes](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)

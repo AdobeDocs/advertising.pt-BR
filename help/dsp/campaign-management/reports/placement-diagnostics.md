@@ -3,9 +3,9 @@ title: Exibir os Relatórios de Diagnóstico de Posicionamento
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
    * Para ver por que o DSP não deu lance na colocação:
 
       1. No canto superior direito, clique em **[!UICONTROL Non Bids]**.
+
+      1. (Opcional) Para filtrar o posicionamento por um target de negociação privada específico, selecione a negociação. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (Opcional) Para alterar o intervalo de datas, clique no campo de data e selecione uma data ou intervalo de datas diferente.
 

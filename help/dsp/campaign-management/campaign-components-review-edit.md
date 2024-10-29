@@ -1,42 +1,37 @@
 ---
-title: Revisar e editar configurações de posicionamento usando bulksheets
-description: Saiba como revisar e editar as configurações de posicionamento de chave em massa usando planilhas.
+title: Revisar e editar configurações do componente de campanha usando bulksheets
+description: Saiba como revisar e editar o pacote de chaves, a disposição e as configurações de anúncio em massa usando planilhas.
 feature: DSP Placements
-exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-# Revisar e editar configurações de posicionamento usando bulksheets
+# Revisar e editar configurações do componente de campanha usando bulksheets
 
-Você pode baixar as configurações para um ou mais posicionamentos, ou para todos os posicionamentos em uma campanha, no formato XLSX ([!DNL Microsoft Excel] planilha) para revisão. Use esse recurso para analisar rapidamente detalhes como:
+<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
 
-* O público alvo da campanha.
-* Quando os posicionamentos começam a entregar e quando param.
-* Quais anúncios são anexados aos posicionamentos.
+É possível baixar as configurações dos pacotes, posicionamentos e anúncios em uma única campanha no formato XLSX ([!DNL Microsoft Excel] planilha) para revisão. Por padrão, o arquivo baixado inclui guias separadas para configurações de pacote, informações de voo do pacote, configurações de posicionamento e agendamentos de anúncios de posicionamento. Opcionalmente, é possível excluir as configurações de alguns tipos de componentes da campanha.
 
-Para atualizar várias configurações de uma só vez, siga um destes procedimentos:
+Para atualizar várias configurações de uma só vez, carregue um arquivo de bulksheet válido com as alterações. Para criar a planilha em massa, você pode baixar um modelo de planilha em branco que inclui guias para cada tipo de componente da campanha, inserir ou colar configurações novas ou atualizadas no arquivo de modelo e salvar o arquivo para carregá-lo. Os campos editáveis incluem a maioria das configurações que normalmente são editáveis.
 
-* Faça alterações nos campos selecionados, salve o arquivo e faça upload do arquivo de bulksheet editado de volta para DSP.
-
-* Para fazer alterações em disposições adicionais e nas configurações de qualquer pacote, baixe um modelo de planilha em branco que inclua guias para cada tipo de componente da campanha, insira ou cole configurações novas ou atualizadas no arquivo de modelo e, em seguida, faça upload do arquivo para fazer as alterações. Para obter instruções, consulte &quot;[Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
-
-Os campos editáveis incluem nomes de posicionamento, status, lances, orçamentos, estratégias de ritmo e limites de frequência.
-
->[!TIP]
+>[!NOTE]
 >
->Para editar rapidamente mais campos para um ou mais posicionamentos, consulte &quot;[Editar Posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+>Também é possível baixar e editar as configurações somente para pacotes e disposições específicos. Consulte &quot;[Revisar e Editar Configurações de Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)&quot; e &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)&quot;.&quot;
 
-## Configurações de download para todos os posicionamentos em uma campanha
+## Configurações de download para pacotes, disposições e anúncios em uma campanha
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-1. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Setup Excel]**.
+1. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
 
-   Uma mensagem de notificação indica quando o arquivo está disponível para download.
+1. Na caixa de diálogo [!UICONTROL QA Sheet Download], desmarque todos os componentes da campanha cujas configurações você deseja excluir do arquivo baixado e clique em **[!UICONTROL Download]**.
+
+Por padrão, as configurações para todos os componentes da campanha são selecionadas.
+
+Uma mensagem de notificação indica quando o arquivo está disponível para download.
 
 1. Para baixar o arquivo, siga um destes procedimentos:
 
@@ -44,48 +39,31 @@ Os campos editáveis incluem nomes de posicionamento, status, lances, orçamento
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-   O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+     O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
-## Baixar configurações para uma ou mais disposições
+>[!NOTE]
+>
+>Você não pode editar e recarregar arquivos de controle de qualidade no nível da campanha. Para alterar as configurações do componente de campanha nesses arquivos, [baixe um arquivo de modelo de configurações separado (arquivo de configuração)](#download-template), insira ou cole linhas do arquivo de controle de qualidade no modelo e salve o arquivo e [carregue o arquivo de modelo preenchido](#upload-bulksheet-campaign-components).
 
-1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+## Baixar um modelo de bulksheet para uma campanha {#download-template}
+
+Baixe um modelo de bulksheet em branco que inclui guias para cada tipo de componente de campanha. Posteriormente, você pode adicionar linhas a qualquer guia no modelo e [carregar o arquivo editado](##upload-bulksheet-campaign-components) para fazer alterações nos componentes da campanha.
 
 1. Clique no nome da campanha.
 
-1. No submenu, clique em **[!UICONTROL Placements]**.
+1. No canto superior direito, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
-1. Marque a caixa de seleção ao lado de cada posicionamento cujas configurações você deseja baixar.
-
-1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   Uma mensagem de notificação indica quando o arquivo de bulksheet está disponível para download.
-
-1. Para baixar a bulksheet, siga um destes procedimentos:
-
-   * Na mensagem de notificação, clique em **[!UICONTROL Download].**
-
-   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+1. Na caixa de diálogo [!UICONTROL Upload Bulksheet], clique em **[!UICONTROL Bulksheet Template].**
 
    O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em planilhas baixadas/carregadas](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
+## Fazer upload de um Bulksheet com configurações de pacote, posicionamento e anúncios para uma campanha{#upload-bulksheet-campaign-components}
 
-<!-- I don't think I need this here
+Faça upload das configurações para pacotes, disposições e anúncios em uma única campanha, tudo de uma só vez em uma bulksheet preenchida.
 
-## Download a Bulksheet Template {#download-template}
+1. [Baixe um modelo de bulksheet](#download-template) se necessário, insira ou cole configurações de pacote, posicionamento e/ou anúncio nas guias relevantes de um modelo de bulksheet e salve o arquivo no seu dispositivo ou rede.
 
-Download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
-
-## Fazer upload de uma bulksheet com configurações de posicionamento {#upload-bulksheet-placement}
-
-Você pode fazer upload das configurações para suas inserções e para os anúncios e pacotes associados às inserções em um arquivo de bulksheet.
+   Consulte as configurações disponíveis abaixo.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -176,28 +154,7 @@ Você pode fazer upload das configurações para suas inserções e para os anú
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | Os nomes de quaisquer anúncios anexados ao posicionamento, ou *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | As IDs de anúncio exclusivas geradas pelo DSP de qualquer anúncio anexado ao posicionamento, separadas por ponto e vírgula. Para baixar uma lista de nomes de anúncios e IDs de Anúncios associadas da exibição [!UICONTROL Ads], crie uma exibição personalizada que inclua a métrica [!UICONTROL Ad ID] e [exporte os dados](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sim |
 
-### Bulksheets de nível de posicionamento
-
-| Coluna | Descrição | Editável? |
-|--------|-------------|-----------|
-| [!UICONTROL Placement ID] | A ID numérica do posicionamento. | — |
-| [!UICONTROL Placement Name] | O nome do posicionamento. | Sim |
-| [!UICONTROL Package Name] | O nome do pacote principal, quando aplicável. | — |
-| [!UICONTROL Start Date] | A data de início do posicionamento. | — |
-| [!UICONTROL End Date] | A data final do posicionamento. | — |
-| [!UICONTROL Status] | O status do posicionamento: *[!UICONTROL active]* ou *[!UICONTROL inactive]*. | — |
-| [!UICONTROL Max Bid] | O lance máximo para a inserção. | Sim |
-| [!UICONTROL Budget] | O orçamento de posicionamento, se houver. | Sim |
-| [!UICONTROL Budget Interval] | O intervalo de orçamento: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* ou *[!UICONTROL All Time]*. | Sim |
-| [!UICONTROL Primary Frequency Cap] | O limite de frequência primária para o posicionamento durante o [!UICONTROL Primary Frequency Cap Interval] especificado. | Sim |
-| [!UICONTROL Primary Frequency Cap Interval] | O intervalo para o limite de frequência primária: *[!UICONTROL Day]*, *[!UICONTROL Week]* ou *[!UICONTROL Month]*. | Sim |
-| [!UICONTROL Secondary Frequency Cap] | O limite de frequência secundário para o posicionamento durante o [!UICONTROL Secondary Frequency Cap Interval] especificado | Sim |
-| [!UICONTROL Secondary Frequency Cap Interval] | O tipo de intervalo para o limite de frequência secundário: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* ou *[!UICONTROL Minute]*. O número aplicável de semanas, dias, horas ou minutos é indicado pelo [!UICONTROL Secondary Frequency Cap Interval Value]. | Sim |
-| [!UICONTROL Secondary Frequency Cap Interval Value] | O número de semanas, dias, horas ou minutos aos quais o [!UICONTROL Secondary Frequency Cap] se aplica. Por exemplo, se o limite secundário for de três impressões a cada seis horas, o valor aqui será `6`. | Sim |
-| [!UICONTROL Attached Ad ID] | As IDs de anúncio exclusivas geradas pelo DSP de qualquer anúncio anexado ao posicionamento, separadas por ponto e vírgula. Para baixar uma lista de nomes de anúncios e IDs de Anúncios associadas da exibição [!UICONTROL Ads], crie uma exibição personalizada que inclua a métrica [!UICONTROL Ad ID] e [exporte os dados](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sim |
-
 >[!MORELIKETHIS]
 >
->* [Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Revisar e Editar Configurações do Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Revisar e Editar Configurações de Posicionamento Usando Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)

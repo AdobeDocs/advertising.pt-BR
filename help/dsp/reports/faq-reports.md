@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre relatórios personalizados, incluindo relatórios domésticos e relatórios de análise do caminho de conversão.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ O caso de uso ideal é usar o relatório [!UICONTROL Household] e os serviços d
 
 ## Relatórios de análise de caminho de conversão
 
-### Como o relatório Caminho para Conversão se compara aos relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics?
+### Como o relatório Caminho para conversão se compara aos relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace?
 
-| | Caminho para o relatório de conversão | Efeito de Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa | Relatórios do Adobe Analytics Workspace |
+| | Caminho para o relatório de conversão | Efeito de Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa | Relatórios no Analysis Workspace |
 | --- | --- | --- |---|
 | Valor para o cliente | Gerar um relatório personalizado de autoatendimento para entender quais caminhos da jornada de anúncios levaram a mais conversões para aumentar a otimização | Compreender a influência das táticas de TV conectada (CTV) nos cliques de pesquisa | Entenda a influência de seu investimento integral em Adobe Advertising, juntamente com outros canais de marketing, nos cliques de pesquisa |
 | Nível da família | Sim | Sim | Não |

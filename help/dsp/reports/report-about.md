@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      Até os 10 pontos de interação mais recentes são incluídos. As linhas de caminho são ordenadas pelo número de conversões.
 
-   * **[!UICONTROL Path Length Beta]:** (recurso Beta) Use este relatório para gerenciar a frequência dos anúncios com base no número de pontos de interação do usuário necessários para conversões. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
+     Para obter uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics, consulte &quot;[Perguntas frequentes sobre Relatórios Personalizados](/help/dsp/reports/faq-reports.md).&quot;
+
+   * **[!UICONTROL Path Length Beta]:** (recurso Beta) Use este relatório para      rastreie o número de pontos de interação do usuário necessários para conversões ao longo do tempo, para que você possa escolher a frequência de publicidade ideal. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
 
      Os dados são exibidos para cada comprimento de caminho de até 10; os dados para comprimentos de caminho superiores a 10 são agrupados.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (recurso Beta) Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar novas oportunidades de redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion Beta]:** (recurso Beta) Use este relatório para determinar a janela de retrospectiva de atribuição ideal e para identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Relatório entre contas {#cross-account-reporting}
 

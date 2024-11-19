@@ -2,9 +2,10 @@
 title: Implementar [!DNL Google Ads] conversões aprimoradas para clientes potenciais
 description: Saiba mais sobre o fluxo de trabalho para configurar [!DNL Google Ads] conversões avançadas para clientes potenciais.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 [[!DNL Google Ads] as conversões aprimoradas para clientes potenciais](https://support.google.com/google-ads/answer/9888656) permitem mapear usuários para conversões offline usando seus dados de conversão primários. Use conversões aprimoradas para clientes potenciais em ambientes em que as IDs de clique não estão disponíveis, como para rastrear vendas por telefone ou email resultantes de clientes potenciais do site.
 
-Em Pesquisa, Social e Commerce, você pode incluir suas conversões aprimoradas para leads como métricas nos relatórios e como métricas ponderadas nos objetivos de otimização. O Search, Social e Commerce sincroniza suas conversões aprimoradas existentes para leads diariamente às 05:00 no fuso horário do anunciante.
+No Search, Social e Commerce, você pode:
+
+* Exibir suas conversões aprimoradas existentes para clientes potenciais.
+
+  O Search, Social e Commerce sincroniza suas conversões aprimoradas existentes para leads diariamente às 05:00 no fuso horário do anunciante.
+
+* Criar conversões aprimoradas para clientes potenciais.
+
+* Fazer upload de dados de conversão originais e offline para mapear para suas conversões aprimoradas de clientes potenciais.
+
+* Inclua suas conversões aprimoradas para clientes potenciais como métricas nos relatórios e como métricas ponderadas nos objetivos de otimização.
 
 Para usar esse recurso, conclua as etapas a seguir. As etapas para criar tags de rastreamento de conversão e criar ações de conversão podem, opcionalmente, ser revertidas.
 

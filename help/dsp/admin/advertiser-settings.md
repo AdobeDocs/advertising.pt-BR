@@ -2,9 +2,9 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Configurações da conta do anunciante
 
 *Não disponível para usuários somente leitura*
+
+<!-- Not published -->
 
 ## Configurações de [!UICONTROL General]
 
@@ -166,11 +168,11 @@ Você pode substituir a configuração no nível do anunciante no [nível de pos
 
 **[!UICONTROL Enable Site Safety Block]:** Por padrão, habilita um filtro de pós-oferta em tempo real para garantir que os anúncios sejam veiculados nos sites para os quais o anunciante está direcionando. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] somente clientes; opcional) a ID do segmento de segurança da marca associada à conta [!DNL DoubleVerify] da organização.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Opcional) Por padrão, habilita a Segurança de Marca Autêntica do [!DNL DoubleVerify], que bloqueia impressões pós-oferta usando as regras personalizadas de segurança de marca configuradas para a ID de segmento especificada. O DSP fatura sua conta pelo uso da ID do segmento.
+**[!UICONTROL Enable Authentic Brand Suitability]:** (Opcional) Por padrão, habilita o [!DNL DoubleVerify Authentic Brand Safety], que bloqueia impressões pós-oferta usando as regras personalizadas de segurança da marca configuradas para a ID de segmento especificada. O DSP fatura sua conta pelo uso da ID do segmento.
 
 Você pode substituir a configuração no nível do anunciante no nível de posicionamento.
 

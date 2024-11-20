@@ -3,7 +3,7 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Para especificar o direcionamento de inventário:
 
 Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou recheados com conteúdo (na experiência nativa), em vez de anúncios de vídeo regulares em um reprodutor de vídeo.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** Os tipos de tráfego para direcionamento. As opções incluem **[!UICONTROL Websites]** e **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) A qualidade dos sites a serem direcionados. As camadas 1 a 3 são seguras para a marca e foram aprovadas pela equipe de mapeamento do DSP.
+**[!UICONTROL Tier]:** (Disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) A qualidade do tráfego para direcionamento. As camadas 1 a 3 são seguras para a marca e foram aprovadas pela equipe de mapeamento do DSP.
 
 * *[!UICONTROL Tier 1]:* sites e aplicativos Premium reconhecíveis nacionalmente.
 
@@ -227,7 +227,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 
 * *[!UICONTROL Tier 3]:* Direciona os níveis 1 e 2 além de sites e aplicativos legítimos e seguros para a marca, que atendem a um público-alvo de nicho. Use o Nível 3 para compras de alcance ou direcionamento de dados.
 
-* *[!UICONTROL All Sites]:* Direciona as Camadas 1 a 3 e o novo inventário que não foi filtrado ou categorizado, que você pode usar para alcance.
+* *[!UICONTROL All Sites or Apps]:* Direciona as Camadas 1 a 3 e o novo inventário que não foi filtrado ou categorizado, que você pode usar para alcance.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 >
 >Para campanhas de desempenho, a prática recomendada é selecionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Categorias de site nos níveis de site selecionados para incluir ou excluir (mas não ambos) como destinos. Escolha nas listas verticais de sites que o DSP mapeou com base no assunto:
+**[!UICONTROL Site or App Categories]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Categorias de site nos níveis de site selecionados para incluir ou excluir (mas não ambos) como destinos. Escolha nas listas verticais de sites que o DSP mapeou com base no assunto:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Especifique as categorias de site a serem incluídas ou excluídas:
@@ -250,7 +250,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 1. (Opcional) Para baixar um arquivo CSV com as informações de direcionamento para o local de Downloads do seu navegador, clique em **[!UICONTROL Export]**.
 1. Clique em **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Sites a serem excluídos. Você pode pesquisar e selecionar sites ou inserir ou colar nomes de domínio:
+**[!UICONTROL Exclude Sites or Apps]:** (Opcional; disponível quando **[!UICONTROL Paste list of targeted sites]** é *[!UICONTROL Off]*) Sites a serem excluídos. Você pode pesquisar e selecionar sites ou inserir ou colar nomes de domínio:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Especifique os sites:
@@ -273,7 +273,7 @@ Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou rech
 
 **[!UICONTROL Language]:** (Opcional) Um único idioma a ser escolhido.
 
-**[!UICONTROL Site List Preview]:** (Somente leitura) Todos os sites direcionados e bloqueados para o posicionamento.
+**[!UICONTROL Site or App List Preview]:** (Somente leitura) Todos os sites direcionados e bloqueados para o posicionamento.
 
 Como opção, é possível exportar a lista de sites direcionados e bloqueados como um arquivo de valores separados por vírgula (CSV). Para exportar a lista, clique em **[!UICONTROL Export full site list]** e abra ou salve o arquivo de acordo com o procedimento normal do navegador.
 
@@ -389,7 +389,7 @@ Para especificar o direcionamento de tópico:
 1. (Opcional) Para baixar um arquivo CSV com as informações de direcionamento do ISP para o local de Downloads do seu navegador, clique em **[!UICONTROL Export]**.
 1. Clique em **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** Tipos de filtros contextuais [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39] a serem aplicados. Os padrões no nível do anunciante são selecionados para novos posicionamentos, mas você pode alterar as configurações:
 

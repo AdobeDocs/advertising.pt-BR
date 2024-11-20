@@ -2,9 +2,9 @@
 title: Editar seu perfil de usuário
 description: Saiba como editar seu perfil de usuário.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: dea924e00aed1e6a8e778afb3112d9db85cef802
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ O perfil da conta inclui suas credenciais de logon e outras informações. Algum
 
       1. Clique em **[!UICONTROL Continue]**.
 
-   * Para editar o fuso horário padrão da conta de usuário:
+   * Para editar o fuso horário padrão da conta do usuário:
 
       1. Ao lado do **[!UICONTROL Default Timezone]** existente, clique em **[!UICONTROL Change]**.
 

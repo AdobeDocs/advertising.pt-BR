@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Yandex] configurações da campanha'
+title: Configurações de campanha de [!DNL Yandex]
 description: Referencie as configurações de  [!DNL Yandex] campanhas.
 exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management

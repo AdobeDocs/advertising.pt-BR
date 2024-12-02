@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Baidu] configurações da campanha'
+title: Configurações de campanha de [!DNL Baidu]
 description: Referencie as configurações de  [!DNL Baidu] campanhas.
 exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management

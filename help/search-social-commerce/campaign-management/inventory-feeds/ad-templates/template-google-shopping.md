@@ -1,5 +1,5 @@
 ---
-title: Configurações de modelo de anúncio de compra '[!DNL Google Ads]' para feeds de estoque
+title: '[!DNL Google Ads] configurações de modelo de anúncio de compra para feeds de inventário'
 description: Referencie as configurações de  [!DNL Google Ads] modelos de anúncios de compras para feeds de inventário.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds

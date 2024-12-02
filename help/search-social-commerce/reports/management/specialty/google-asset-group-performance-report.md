@@ -2,7 +2,8 @@
 title: '[!UICONTROL RSA Asset Report]'
 description: Saiba mais sobre o [!UICONTROL Google Asset Group Performance Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: cc01d2fa62d7e1f5bb07a1d1255f842165399673
+exl-id: a0e06c53-9ca2-4558-8092-49b9fc9d2b1b
+source-git-commit: f29d5173547a48ea818a93a0b931d5fb27e10044
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

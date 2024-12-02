@@ -1,5 +1,5 @@
 ---
-title: Configurações de anúncio de pesquisa responsiva '[!DNL Microsoft Advertising]'
+title: Configurações de anúncios de pesquisa responsiva [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios de pesquisa responsivos.
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management

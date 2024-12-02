@@ -1,5 +1,5 @@
 ---
-title: Configurações de palavra-chave '[!DNL Google Ads]'
+title: Configurações de palavra-chave [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] palavras-chave.
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management

@@ -1,5 +1,5 @@
 ---
-title: Configurações de palavra-chave '[!DNL Microsoft Advertising]'
+title: Configurações de palavra-chave [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] palavras-chave.
 exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management

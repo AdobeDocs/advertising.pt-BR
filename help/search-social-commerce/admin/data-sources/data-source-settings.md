@@ -1,5 +1,5 @@
 ---
-title: Configurações de fonte de dados '[!DNL Google Analytics]'
+title: Configurações da fonte de dados [!DNL Google Analytics]
 description: Referencie as configurações necessárias para  [!DNL Google Analytics] fontes de dados.
 role: User, Admin
 exl-id: 78422c2c-ed58-410e-8996-882759ed5556

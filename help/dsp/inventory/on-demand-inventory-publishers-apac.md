@@ -1,5 +1,5 @@
 ---
-title: '[!DNL On Demand] Publicadores de inventário Premium no Pacífico Asiático'
+title: '[!DNL On Demand] Editores de Inventário Premium no Pacífico Asiático'
 description: Consulte os  [!DNL On Demand] editores de inventário premium disponíveis na região do Pacífico Asiático.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f

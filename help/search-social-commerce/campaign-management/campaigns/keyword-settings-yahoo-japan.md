@@ -1,5 +1,5 @@
 ---
-title: Configurações de palavra-chave '[!DNL Yahoo! Japan Ads]'
+title: Configurações de palavra-chave [!DNL Yahoo! Japan Ads]
 description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] palavras-chave.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management

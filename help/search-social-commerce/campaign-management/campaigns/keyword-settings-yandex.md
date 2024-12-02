@@ -1,5 +1,5 @@
 ---
-title: Configurações de palavra-chave '[!DNL Yandex]'
+title: Configurações de palavra-chave [!DNL Yandex]
 description: Referencie as configurações de  [!DNL Yandex] palavras-chave.
 exl-id: 973be0df-9b3c-4f33-b48b-ef1db4ab35da
 feature: Search Campaign Management

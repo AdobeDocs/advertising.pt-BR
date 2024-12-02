@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] Configurações de oferta'
+title: Configurações de oferta do [!UICONTROL Simple Ad Serving]
 description: Saiba mais sobre as configurações disponíveis para [!UICONTROL Simple Ad Serving] ofertas.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d

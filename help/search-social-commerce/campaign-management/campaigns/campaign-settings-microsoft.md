@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Microsoft Advertising] configurações da campanha'
+title: Configurações de campanha de [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management

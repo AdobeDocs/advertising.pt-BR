@@ -1,5 +1,5 @@
 ---
-title: Configurações de palavra-chave '[!DNL Baidu]'
+title: Configurações de palavra-chave [!DNL Baidu]
 description: Referencie as configurações de  [!DNL Baidu] palavras-chave.
 exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management

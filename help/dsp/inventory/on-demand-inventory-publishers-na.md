@@ -1,5 +1,5 @@
 ---
-title: '[!DNL On Demand] Publicadores de Inventário Premium na América do Norte'
+title: '[!DNL On Demand] Publicadores de inventário Premium na América do Norte'
 description: Consulte os  [!DNL On Demand] editores de inventário premium disponíveis na América do Norte.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676

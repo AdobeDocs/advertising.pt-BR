@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Analytics] Dados em Adobe Advertising'
-description: '[!DNL Analytics] Dados em Adobe Advertising'
+title: '[!DNL Analytics] Dados no Adobe Advertising'
+description: '[!DNL Analytics] Dados no Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6

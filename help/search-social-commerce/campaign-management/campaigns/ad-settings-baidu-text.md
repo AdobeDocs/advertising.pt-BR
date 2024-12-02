@@ -1,5 +1,5 @@
 ---
-title: Configurações de anúncio de texto '[!DNL Baidu]'
+title: Configurações de anúncio de texto [!DNL Baidu]
 description: Referencie as configurações de  [!DNL Baidu] anúncios de texto.
 exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management

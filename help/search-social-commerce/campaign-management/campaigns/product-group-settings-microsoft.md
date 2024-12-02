@@ -1,5 +1,5 @@
 ---
-title: Configurações do grupo de produtos '[!DNL Microsoft Advertising]'
+title: Configurações do grupo de produtos [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] grupos de produtos de compras.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] configurações de anúncio de pesquisa dinâmica expandidas'
+title: '[!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica'
 description: Referencie as configurações de  [!DNL Google Ads] anúncios de pesquisa dinâmica expandidos.
 exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management

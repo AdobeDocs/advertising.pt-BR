@@ -1,5 +1,5 @@
 ---
-title: Configurações do grupo de anúncios '[!DNL Yandex]'
+title: Configurações do grupo de anúncios [!DNL Yandex]
 description: Referencie as configurações de  [!DNL Yandex] grupos de anúncios.
 exl-id: f580382a-ada8-4de3-91c4-d0c84e43234c
 feature: Search Campaign Management

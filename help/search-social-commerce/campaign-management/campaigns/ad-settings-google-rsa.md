@@ -1,5 +1,5 @@
 ---
-title: Configurações de anúncio de pesquisa responsiva '[!DNL Google Ads]'
+title: Configurações de anúncios de pesquisa responsiva [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] anúncios de pesquisa responsivos.
 exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management

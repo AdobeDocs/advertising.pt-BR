@@ -1,5 +1,5 @@
 ---
-title: Configurações de modelo de anúncio de compra '[!DNL Microsoft Ads]' para feeds de estoque
+title: '[!DNL Microsoft Ads] configurações de modelo de anúncio de compra para feeds de inventário'
 description: Referencie as configurações de  [!DNL Microsoft Ads] modelos de anúncios de compras para feeds de inventário.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds

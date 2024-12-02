@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] configurações da campanha'
+title: Configurações de campanha de [!DNL Yahoo! Japan Ads]
 description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] campanhas.
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management

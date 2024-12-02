@@ -1,6 +1,6 @@
 ---
-title: "Converter IDs de Usuário de  [!DNL ActionIQ] em IDs Universais"
-description: "Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários."
+title: Converter IDs de Usuário de  [!DNL ActionIQ]  em IDs Universais
+description: Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários.
 feature: DSP Audiences
 source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt

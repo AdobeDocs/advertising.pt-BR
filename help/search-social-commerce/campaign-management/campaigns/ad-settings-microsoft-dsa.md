@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Microsoft Advertising] configurações de anúncio de pesquisa dinâmica expandidas'
+title: '[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica'
 description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios de pesquisa dinâmica expandidos.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management

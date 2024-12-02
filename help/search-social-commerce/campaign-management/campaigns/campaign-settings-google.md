@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] configurações da campanha'
+title: Configurações de campanha de [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management

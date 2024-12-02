@@ -1,5 +1,5 @@
 ---
-title: Configurações do grupo de anúncios '[!DNL Microsoft Advertising]'
+title: Configurações do grupo de anúncios [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] grupos de anúncios.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management

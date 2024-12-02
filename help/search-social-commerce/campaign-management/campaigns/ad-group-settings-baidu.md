@@ -1,5 +1,5 @@
 ---
-title: Configurações do grupo de anúncios '[!DNL Baidu]'
+title: Configurações do grupo de anúncios [!DNL Baidu]
 description: Referencie as configurações de  [!DNL Baidu] grupos de anúncios.
 exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management

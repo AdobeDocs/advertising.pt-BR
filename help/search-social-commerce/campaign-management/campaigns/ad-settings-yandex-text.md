@@ -1,5 +1,5 @@
 ---
-title: Configurações de anúncio de texto '[!DNL Yandex]'
+title: Configurações de anúncio de texto [!DNL Yandex]
 description: Referencie as configurações de  [!DNL Yandex] anúncios de texto.
 exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management

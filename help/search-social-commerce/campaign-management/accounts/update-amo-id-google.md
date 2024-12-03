@@ -1,11 +1,11 @@
 ---
-title: Atualizar o código de rastreamento da ID do AMO (s_kwcid) para uma conta  [!DNL Google Ads]
+title: 'Atualizar o código de rastreamento da ID do AMO (s_kwcid) para uma conta  [!DNL Google Ads] '
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para uma conta do  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ O formato atual inclui parâmetros para a ID da campanha e a ID do grupo de publ
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-É possível alterar para o formato atual de qualquer uma ou todas as contas existentes, individualmente. Se você não tiver campanhas de desempenho máximo ou campanhas de rascunhos e experimentos, a migração para o novo formato é opcional.
+Para uma conta existente que usa o formato herdado, é possível alterar para o formato atual. Se você não tiver campanhas de desempenho máximo ou campanhas de rascunhos e experimentos, a migração para o novo formato é opcional.
 
 Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID AMO atual.
 
 >[!NOTE]
+>
+>Essa opção está disponível somente para contas que não usam o formato atual.
 >
 >Depois de migrar uma conta, todos os dados de clique, custo e impressão são relatados corretamente após a alteração, mas todos os click-throughs ocorridos antes da migração ainda são atribuídos aos dados de conversão com base no formato antigo da ID do AMO.
 
@@ -40,7 +42,7 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 
 1. Comece a migração:
 
-   1. Ao lado de **[!UICONTROL S_KWCID FORMAT]** , clique em **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+   1. Ao lado de **[!UICONTROL S_KWCID FORMAT]** nas configurações de [!UICONTROL Account Tracking], clique em **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
    1. Clique em **[!UICONTROL Migrate to new s_kwcid format]**.
 
@@ -58,7 +60,7 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 
    * Quando o recurso [!UICONTROL Auto Upload] está habilitado nas configurações de rastreamento, o Search, Social e Commerce atualiza automaticamente o código de rastreamento no Sufixo da página de aterrissagem desta conta e suas campanhas. Você não precisa fazer nada.
 
-   * Quando o recurso [!UICONTROL Auto Upload] não estiver habilitado e você não usar o [recurso de ID do AMO do lado do servidor](/help/integrations/analytics/ids.md#amo-id-formats), será necessário atualizar manualmente o parâmetro de ID do AMO nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos no nível da conta e da campanha manualmente nas configurações da conta e da campanha ou fazendo upload das alterações em uma bulksheet. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor [!DNL Google Ads].
+   * Quando o recurso [!UICONTROL Auto Upload] não estiver habilitado e você não usar o [recurso de ID do AMO do lado do servidor](/help/integrations/analytics/ids.md#amo-id-formats), será necessário atualizar manualmente o parâmetro de ID do AMO nas configurações de Sufixo da página de aterrissagem. Você pode alterar os sufixos de nível de conta e campanha manualmente nas [configurações de conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e [configurações de campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) ou ao [carregar alterações em uma bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor [!DNL Google Ads].
 
    * Se você incluir a ID do AMO na configuração de URL base para qualquer componente da campanha, mova-a para a configuração relevante Sufixo da página inicial.
 

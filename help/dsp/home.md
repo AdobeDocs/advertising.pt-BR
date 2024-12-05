@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: feb31bf2408d2e6045c410e5750854bd0cbd2113
+source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
 workflow-type: tm+mt
 source-wordcount: '4622'
 ht-degree: 0%
@@ -94,4 +94,4 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 |  | [!UICONTROL Ads] | (Usuários com permissão para incluir [!DNL Clearcast] clock numbers em seus anúncios) O DSP não exibe mais um erro ao usar um clock number anexado a outro anúncio. **Observação:** A prática recomendada é usar um clock number exclusivo para cada anúncio de vídeo. Caso contrário, o editor não aprovará todos os anúncios. | — |
 |  | [!UICONTROL Deal IDs] | As configurações de [!UICONTROL Deal ID] e outros locais na interface do usuário refletem a nova identidade visual para [!DNL Magnite] SSP:<br><ul><li>O SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) agora é &quot;[!DNL Magnite CTV]&quot;.</li><li>Nas próximas semanas, [!DNL Rubicon] mudará para &quot;[!DNL Magnite DV+]&quot;, onde [!DNL DV+] significa exibição, vídeo e outros formatos, como áudio.</li></ul> | Consulte &quot;[Parceiros SSP](/help/dsp/inventory/ssp-partners.md)&quot;. |
 |  | [!DNL Freewheel] ofertas programáticas garantidas | Agora você pode enviar anúncios e verificar o status dos anúncios de [!DNL Freewheel] ofertas programáticas garantidas da exibição [!UICONTROL Ads]. Anteriormente, só era possível fazer as duas a partir da exibição [!UICONTROL Deals]. | Consulte &quot;[Enviar um anúncio para uma oferta programática garantida para [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] ofertas programáticas garantidas](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 7 de outubro de 2021 | Ajuda | Toda [documentação de DSP e outras Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) sobre [!DNL Experience League] foi traduzida automaticamente para todos os idiomas disponíveis. Para alterar o idioma exibido, use o menu &quot;Alterar idioma&quot; na parte inferior esquerda de qualquer página.<br>![Alterar idioma](/help/dsp/assets/change-language.png) |
+| 7 de outubro de 2021 | Ajuda | Toda [documentação de DSP e outras Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising) sobre [!DNL Experience League] foi traduzida automaticamente para todos os idiomas disponíveis. Para alterar o idioma exibido, use o menu &quot;Alterar idioma&quot; na parte inferior esquerda de qualquer página.<br>![Alterar idioma](/help/dsp/assets/change-language.png) |

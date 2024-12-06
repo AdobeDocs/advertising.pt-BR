@@ -3,9 +3,9 @@ title: Implementar [!DNL Google Ads] conversões aprimoradas para clientes poten
 description: Saiba mais sobre o fluxo de trabalho para configurar [!DNL Google Ads] conversões avançadas para clientes potenciais.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ Para usar esse recurso, conclua as etapas a seguir. As etapas para criar tags de
 
    1. Selecione se deseja usar uma marca [!DNL Google] ou [!DNL Google Tag Manager] para criar a marca de conversão.
 
-
-1. Configure e implemente uma tag [!DNL Google] para a ação de conversão.
+1. Configure e implemente uma tag para rastrear a ação de conversão.
 
    Para obter instruções, consulte a ajuda do [!DNL Google Ads] para criar marcas para conversões aprimoradas de clientes potenciais [usando uma [!DNL Google] marca](https://support.google.com/google-ads/answer/11021502) ou [usando [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Crie uma ação de conversão para a conversão aprimorada de clientes potenciais no [Search, Social e Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) ou no [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
-   Para o **Tipo de Conversão,** selecione *Importar Conversão* ou *Importar.*
+   Se você criar a ação de conversão em Pesquisa, Social e Commerce, especifique o **Tipo de conversão** como *Importar conversão* ou *Importar.*
 
 1. Sempre que necessário, carregue dados primários, incluindo endereços de email com hash ou números de telefone, para atribuir à conversão de uma conta especificada. Você pode concluir esta etapa no [Search, Social e Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) ou usando o [!DNL Google Data Manager].
 

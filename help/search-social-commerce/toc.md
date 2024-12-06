@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [Implementar  [!DNL Google Ads] campanhas de desempenho máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementar [!DNL Microsoft Advertising] conversões aprimoradas para conversões offline](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Sincronizar manualmente os dados da rede](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Atribuir campanhas a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [Exibir as métricas de conversão rastreadas para um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Alterar o nome de exibição de uma métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Gerenciando marcas de conversão específicas da rede de publicidade e ações de conversão {#network-conversions}
+      + Gerenciando marcas de conversão específicas da rede de publicidade e ações/metas de conversão {#network-conversions}
          + [Criar uma marca de conversão para  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Gerenciar ações de conversão {#conversion-actions}
+         + Gerenciar ações e metas de conversão {#conversion-actions}
             + [Criar uma ação de conversão para uma  [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [Fazer upload de dados de conversão offline para conversões aprimoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Obter ajuda](get-help.md)

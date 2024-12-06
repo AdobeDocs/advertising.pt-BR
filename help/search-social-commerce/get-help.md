@@ -2,7 +2,7 @@
 title: Obter ajuda
 description: Saiba como visualizar a ajuda online e os recursos da comunidade e como obter suporte técnico.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Você pode abrir a ajuda online de qualquer página da interface. Se a ajuda on-
 
 ## Pergunte à comunidade do Adobe Advertising
 
-Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 
 ## Contato [!DNL Adobe]
 

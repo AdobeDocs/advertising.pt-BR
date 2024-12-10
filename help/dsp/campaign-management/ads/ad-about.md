@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de anúncios no Advertising DSP
 description: Saiba mais sobre o gerenciamento de anúncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ O DSP oferece suporte à entrega de anúncios por meio de tags de veiculação d
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Depois que seus anúncios forem configurados, anexe cada anúncio a um posicionamento, que inclui os parâmetros de direcionamento (como geografia, público-alvo, dispositivo e direcionamento de inventário) que controlam como sua campanha é veiculada. Você pode anexar um único anúncio a um ou vários posicionamentos.
+Depois que seus anúncios forem configurados, anexe cada anúncio a um ou mais posicionamentos, que incluem os parâmetros de direcionamento (como geografia, público-alvo, dispositivo e direcionamento de inventário) que controlam como sua campanha é veiculada. Você deve anexar um anúncio a um posicionamento para começar a executar o anúncio.
 
 ## Tipos de anúncios disponíveis {#ad-types}
 

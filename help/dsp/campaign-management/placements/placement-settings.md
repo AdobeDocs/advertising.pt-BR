@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ Para especificar o direcionamento de tópico:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Opcional; somente clientes [!DNL DoubleVerify]; disponível apenas para posicionamento de vídeo e exibição padrão e click-to-play na área de trabalho; sem suporte para [posicionamentos programáticos padrão garantidos para ofertas](/help/dsp/inventory/programmatic-guaranteed-about.md)) Uma ID de segmento [!DNL DoubleVerify Authentic Brand Safety] associada à conta [!DNL DoubleVerify] da organização para usar no posicionamento. Especificar uma ID bloqueia impressões pós-oferta usando as regras personalizadas de segurança da marca configuradas para a ID do segmento especificada. O DSP fatura sua conta pelo uso da ID do segmento.
+
+A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Por padrão, se uma ID de segmento for especificada nas configurações da conta do anunciante, a ID de nível do anunciante será inserida, mas você poderá alterar a ID para usar um segmento diferente ou excluí-la para desativar o recurso.
+
 **[!UICONTROL Contextual filtering]:** Tipos de filtros contextuais [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39] a serem aplicados. Os padrões no nível do anunciante são selecionados para novos posicionamentos, mas você pode alterar as configurações:
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]:
 
@@ -441,8 +449,6 @@ Qual nível de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtragem pré-o
 * *[!UICONTROL Ads.txt sellers only]*: para comprar o inventário somente de vendedores diretos autorizados de um domínio.
 
 **[!UICONTROL Attention Targeting]:** (Exibição, vídeo, dispositivos móveis e disposições padrão de TV conectada) Segmenta [!DNL Adelaide] segmentos pré-oferta com um nível de atenção específico (alto, médio ou baixo) com base no site, formato e tamanho de anúncio especificados. Os segmentos são atualizados semanalmente. **Observação:** o uso de [!DNL Adelaide] segmentos para direcionamento incorre em uma taxa de CPM para cada impressão entregue com [!DNL Adelaide] direcionamento de atenção; esta taxa é separada das taxas para [medição de atenção](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para inserções interativas antes da exibição, você é cobrado apenas por impressões VAST.
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Anunciantes configurados com a opção [!UICONTROL DoubleVerify Authentic Brand Safety]) Habilita [!DNL DoubleVerify Authentic Brand Safety], que bloqueia impressões pós-oferta usando as regras personalizadas de segurança da marca configuradas para a ID de segmento especificada. O DSP fatura sua conta pelo uso da ID de segmento especificada nas configurações do anunciante.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

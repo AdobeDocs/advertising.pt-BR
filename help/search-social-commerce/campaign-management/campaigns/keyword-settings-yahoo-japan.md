@@ -3,7 +3,7 @@ title: Configurações de palavra-chave [!DNL Yahoo! Japan Ads]
 description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] palavras-chave.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** As palavras-chave. O comprimento máximo é de 80 caracteres, incluindo qualquer [[!DNL Yahoo! Japan Ads] sintaxe de tipo de correspondência](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) para palavras-chave.
+**[!UICONTROL Keywords]:** As palavras-chave. O comprimento máximo é de 80 caracteres, incluindo qualquer [[!DNL Yahoo! Japan Ads] sintaxe de tipo de correspondência](https://ads-help.yahoo-net.jp/s/article/H000044997) para palavras-chave.
 
 Você pode inserir ou colar até 2000 palavras-chave. Separe várias palavras-chave com vírgulas ou insira-as em linhas separadas.
 

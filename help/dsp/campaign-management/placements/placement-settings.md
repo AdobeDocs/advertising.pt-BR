@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ Qual nível de [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtragem pré-o
 * *[!UICONTROL Ads.txt sellers only]*: para comprar o estoque somente de revendedores e vendedores diretos autorizados de um domínio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar o inventário somente de vendedores diretos autorizados de um domínio.
 
-**[!UICONTROL Attention Targeting]:** (Exibição, vídeo, dispositivos móveis e disposições padrão de TV conectada) Segmenta [!DNL Adelaide] segmentos pré-oferta com um nível de atenção específico (alto, médio ou baixo) com base no site, formato e tamanho de anúncio especificados. Os segmentos são atualizados semanalmente. **Observação:** o uso de [!DNL Adelaide] segmentos para direcionamento incorre em uma taxa de CPM para cada impressão entregue com [!DNL Adelaide] direcionamento de atenção; esta taxa é separada das taxas para [medição de atenção](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para inserções interativas antes da exibição, você é cobrado apenas por impressões VAST.
+**[!UICONTROL Attention Targeting]:** (Exibição, vídeo e posicionamentos padrão de TV conectada) Segmenta [!DNL Adelaide] segmentos pré-oferta com um nível de atenção específico (alto, médio ou baixo) com base no site, formato e tamanho de anúncio especificados. Os segmentos são atualizados semanalmente. **Observação:** o uso de [!DNL Adelaide] segmentos para direcionamento incorre em uma taxa do CPM para cada impressão entregue com [!DNL Adelaide] direcionamento de atenção; esta taxa é separada das taxas para [medição de atenção](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para inserções interativas antes da exibição, você é cobrado apenas por impressões VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

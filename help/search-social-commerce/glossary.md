@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo que são usados para otimização e o [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclui mais detalhes, além de recomendações para melhorar a precisão do modelo.
 
-**modelo de custo:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
+**modelo de custo:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou o CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
 
 **cobertura de modelo de custo:** (anunciantes com portfólios) o número e/ou a porcentagem de unidades de oferta em campanhas CPC ou eCPC que receberam pelo menos uma impressão nos últimos sete dias para que o recurso de otimização possa criar modelos de custo. Nem todas as unidades de oferta têm modelos de custo; as unidades de oferta com modelos de custo contam para a cobertura do modelo de custo.
 
 **meia-vida do modelo de custo:** (Anunciantes com portfólios) O número de dias antes da data atual para a qual os dados de custo são considerados mais recentes e, portanto, mais relevantes para modelos de custo.
 
-**custo por 1000 impressões:** (CPM) o custo de um anúncio para cada mil impressões. Os anunciantes que usam um modelo de preço CPM pagam por impressões em vez de cliques.
+**custo por 1000 impressões:** (CPM) o custo de um anúncio para cada mil impressões. Os anunciantes que usam um modelo de preços do CPM pagam por impressões em vez de cliques.
 
 **custo por aquisição:** (CPA) O custo de um anúncio dividido pelo número de conversões. Também chamado de custo por transação (CPT) ou custo por ordem (CPO).
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## E-F {#e-f}
 
-**eCPM:** o CPM efetivo ou o custo médio pago por 1000 impressões durante um intervalo de datas especificado. Os valores de eCPM podem ser calculados para campanhas de CPM ou CPC.
+**eCPM:** o CPM efetivo ou o custo médio pago por 1000 impressões durante um intervalo de datas especificado. Os valores de eCPM podem ser calculados para campanhas do CPM ou CPC.
 
 ## G-H {#g-h}
 
@@ -180,6 +180,8 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 **Estratégia de gastos:** (anunciantes com portfólios) a estratégia selecionada para otimizar ofertas de palavras-chave/anúncios para um portfólio.
 
 **`s_kwcid`:** Consulte &quot;ID do AMO&quot;.
+
+**modelo de rastreamento:** (contas somente com URLs finais) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final/avançada em um parâmetro. Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
 **URL de rastreamento:** Um modelo de rastreamento ou uma URL de destino com parâmetros extras adicionados para rastrear informações sobre cliques no anúncio. Ele pode incluir um URL de redirecionamento para enviar os usuários inicialmente para um servidor de rastreamento antes de redirecioná-los para a página de aterrissagem do anunciante.
 

@@ -3,9 +3,9 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
+source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * **[!UICONTROL CPM]:** O custo por 1000 impressões (CPM).
 
-* **[!UICONTROL Description]:** Uma descrição da taxa de CPM.
+* **[!UICONTROL Description]:** Uma descrição da taxa do CPM.
 
 >[!NOTE]
 >
@@ -58,11 +58,11 @@ Para pacotes com fluxo personalizado, o intervalo de orçamento é sempre *[!UIC
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pacotes com ritmo no nível de pacote e com as metas de otimização &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot; somente) Usa dados de alcance doméstico de todas as disposições programáticas garantidas na campanha para otimizar o alcance incremental.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada pode incluir, opcionalmente, eventos ponderados adicionais de funil superior (como visitas a páginas e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada deve incluir eventos ponderados adicionais de funil superior (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) Diz ao modelo de otimização para aprender somente a partir de conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
 
-**[!UICONTROL Conversion Metric]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) O evento de conversão final (como inscrições) ou o valor de evento de receita/venda (como compras e valores de compra) a serem usados para calcular o retorno sobre o gasto com anúncios ou o custo por aquisição. Selecione em uma lista de todos os eventos principais (&quot;métricas de meta&quot;) mapeados para a meta personalizada selecionada. Se a lista estiver vazia, edite a meta personalizada para incluir pelo menos um dos eventos subjacentes como uma métrica de meta.
+**[!UICONTROL Conversion Metric]:** (Pacotes somente com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) O evento de conversão final (como inscrições) ou o valor de evento de receita/venda (como compras e valores de compra) a serem usados para calcular o retorno sobre o gasto com anúncios ou o custo por aquisição. Selecione em uma lista de todos os eventos principais (&quot;métricas de meta&quot;) mapeados para a meta personalizada selecionada. Se a lista estiver vazia, edite a meta personalizada para incluir pelo menos um dos eventos subjacentes como uma métrica de meta.
 
 **[!UICONTROL Package Goal Type]:** (pacotes com metas de otimização personalizadas apenas) A finalidade do pacote. Esta configuração ajuda a determinar como otimizar o pacote:
 

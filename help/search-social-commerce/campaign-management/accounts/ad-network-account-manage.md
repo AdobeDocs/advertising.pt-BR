@@ -3,7 +3,7 @@ title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -261,7 +261,7 @@ Para obter instruções completas, consulte &quot;[Atualizar o código de rastre
 
 **Nomes dos conjuntos de relatórios:** (Para EF Redirect com token somente; anunciantes com integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, Social e Commerce enviam dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
 
-Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve ser habilitada. Além disso, a conta do Analytics do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
+Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; deve ser habilitada. Além disso, a conta do Analytics do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
 
 >[!MORELIKETHIS]
 >

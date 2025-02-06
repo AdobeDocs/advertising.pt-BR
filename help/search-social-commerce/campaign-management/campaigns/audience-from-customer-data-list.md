@@ -3,9 +3,9 @@ title: Gerenciar públicos-alvo de correspondência do cliente usando listas de 
 description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo de correspondência do cliente de suas listas de dados do cliente.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para contas do [!DNL Microsoft Advertising], o arquivo pode incluir endereços d
 
 1. Gere um arquivo com os dados do cliente no formato necessário.
 
-   O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a documentação de [!DNL Google Ads] em &quot;[Diretrizes de formatação para carregar dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista de campos e requisitos de informações de contato permitidos. Para públicos-alvo de [!DNL Microsoft Advertising], consulte a documentação de [!DNL Microsoft Advertising] em [preparando listas de correspondência de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Opcionalmente, você pode baixar um modelo [!DNL Microsoft Excel] para obter informações de contato.
+   O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a documentação de [!DNL Google Ads] em &quot;[Diretrizes de formatação para carregar dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista de campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft Advertising] públicos, consulte a documentação de [!DNL Microsoft Advertising] em [preparando listas de correspondência de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921). Opcionalmente, você pode baixar um modelo [!DNL Microsoft Excel] para obter informações de contato.
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -54,11 +54,11 @@ Para contas do [!DNL Microsoft Advertising], o arquivo pode incluir endereços d
 
          * ([!DNL Android™] aplicativos) O nome do pacote [!DNL Android™] em [!DNL Google Play], identificado por &quot;`id=<package_name>`.&quot;
 
-           Por exemplo, em https://play.google.com/store/apps/details?id=com.example.game, o nome do pacote é com.example.game.
+           Por exemplo, em `https://play.google.com/store/apps/details?id=com.example.game`, o nome do pacote é com.example.game.
 
          * ([!DNL iOS] aplicativos) A ID do aplicativo em [!DNL iTunes App Store], identificada por &quot;`<idNNNNNNNNN>`&quot; no final da URL. Ele também está disponível no [!DNL iOS Developer Console].
 
-           Por exemplo, em https://itunes.apple.com/us/app/id284882215, a ID é id284882215.
+           Por exemplo, em `https://itunes.apple.com/us/app/id284882215`, a ID é id284882215.
 
          Sua equipe de desenvolvimento tem acesso ao [!UICONTROL App ID] para a plataforma relevante.
 

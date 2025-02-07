@@ -1,0 +1,100 @@
+---
+title: Exportar e implementar uma tag de experiência de anúncio para uma experiência ao vivo
+description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
+feature: Creative Experiences
+source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 0%
+
+---
+
+# Exportar e implementar uma tag de experiência de anúncio para uma experiência ao vivo
+
+*Beta fechado*
+
+Quando uma tag de anúncio para um tamanho criativo específico estiver disponível para uma experiência de [live](experience-about.md#experience-statuses), você poderá gerar e copiar a tag no JavaScript e nos formatos iframe para implementação no Advertising DSP ou em outro DSP. As tags para DSP incluem todas as macros necessárias para DSP.
+
+Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags diretamente em uma campanha do Advertising DSP como anúncios.
+
+>[!NOTE]
+>
+>* Ao criar uma experiência com direcionamento de árvore decisória, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho criativo aplicável.
+>* Ao criar uma experiência sem definição de metas da árvore decisória, você deve [criar manualmente uma tag de anúncio](experience-tag-create-manually.md) para cada tamanho criativo aplicável.
+>* As tags de experiência são dinâmicas. Não é necessário atualizar as tags se você editar uma experiência.
+
+## Exportar uma tag de anúncio para uma experiência com direcionamento de árvore de decisão
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
+
+1. Siga um destes procedimentos:<!-- I see multiselect, but it's not actually working for me as of 2/3 so I don't know how exporting multiple tags works.-->
+
+   * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
+
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
+
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+
+<!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
+
+1. (Opcional) Na guia [!UICONTROL Macros], especifique até cinco macros personalizadas para serem incluídas na tag. Para cada macro a ser incluída:
+
+   1. Marque uma caixa de seleção.<!-- Explain more -->
+
+   1. Insira a macro personalizada.<!-- Explain more -->
+
+1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL Generate ad tags]** no menu esquerdo.
+
+1. Selecione o tipo de marca: ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
+
+1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
+
+   * *Adobe Advertising:* Para anúncios criados no Advertising DSP.
+
+   * *Genérico:* Para anúncios que você criará em outro DSP. **Observação:** talvez seja necessário incluir manualmente macros adicionais, conforme necessário.
+
+1. Clique em **[!UICONTROL Generate tags]**.
+
+1. Copie ou baixe as tags:
+
+   * Para copiar uma marca para um único tamanho de anúncio, expanda a linha de marcas, mantenha o cursor sobre a linha e clique em ![Copiar](/help/creative/assets/copy.png "Copiar") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+
+   * Para baixar todas as marcas geradas como um arquivo no local de download padrão do seu navegador, clique em ![Baixar marcas](/help/creative/assets/download.png "Baixar marcas").
+
+   É possível abrir o arquivo em um editor de texto para copiar cada tag. Para marcas JavaScript, a marca está entre `<script></script>` e `<noscript></noscript>`. Para marcas iframe, a marca está entre `<iframe></iframe>` marcas.
+
+1. Implemente as tags para o DSP relevante:
+
+   * Para DSP diferente do Advertising DSP, forneça as tags a quem quer que crie os anúncios dentro do DSP.
+
+   * Para o Advertising DSP:
+
+      1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL DSP link]** no menu esquerdo.
+
+      1. Selecione a campanha para a qual a tag de publicidade ficará disponível.
+
+      1. Clique em **[!UICONTROL Assign Tags]**.
+
+         O DSP abre para a visualização [!UICONTROL Ads] da campanha selecionada.
+
+      1. Na exibição [!UICONTROL Create ads], revise as marcas de anúncio, selecione cada marca para a qual deseja criar um anúncio e clique em **[!UICONTROL Create]**.
+
+         A exibição [!UICONTROL Ads] agora inclui os novos anúncios, que têm os mesmos nomes que as marcas de anúncio em [!DNL Creative]. Você pode [anexar os anúncios a qualquer posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) na campanha.
+
+<!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
+
+<!-- Add this info, with descriptions:
+
+## Ad tag formats
+
+### JavaScript
+
+### Iframe
+
+-->
+
+>[!MORELIKETHIS]
+>
+>* [Crie manualmente uma marca de anúncio para um tamanho criativo aplicável](experience-tag-create-manually.md)
+>* [Atribuir criações a uma marca de anúncio para experiências sem direcionamento](experience-tag-assign-creatives.md)
+>* [Renomear uma marca de anúncio](experience-tag-rename.md)

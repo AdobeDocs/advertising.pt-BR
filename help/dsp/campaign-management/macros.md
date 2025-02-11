@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Macros do Advertising DSP
 
-Uma macro é um comando curto ou abreviação para uma instrução e geralmente segue o formato `${MACRO_NAME}`. As macros incluídas no código criativo ou URLs de click-through se expandem em uma string de código mais longa que o servidor de publicidade pode entender. O servidor de anúncios DSP executa macros quando o anúncio é veiculado ou clicado.
+Uma macro é um comando curto ou abreviação para uma instrução e geralmente segue o formato `${MACRO_NAME}`. As macros incluídas no código criativo ou URLs de click-through se expandem em uma string de código mais longa que o servidor de publicidade pode entender. O servidor de anúncios do DSP executa macros quando o anúncio é veiculado ou clicado.
 
 As macros do servidor de anúncios são úteis para transmitir informações importantes ao DSP ou a servidores de anúncios de terceiros. As macros são usadas com mais frequência durante o tráfico de código criativo ou metadados de terceiros e personalizados (como pixels de terceiros).
 
-É possível inserir manualmente uma macro em qualquer lugar, como em uma tag VAST, em qualquer URL ou em um pixel de evento do DSP ou de terceiros. No entanto, cada cliente e parceiro do DSP tem um formato de tag de anúncio diferente, e as macros devem ser inseridas em pontos diferentes na tag de acordo. Cada vez que trabalhar com um novo cliente ou parceiro, peça a ele documentação sobre onde inserir as macros em suas tags de anúncio que o DSP trafica.
+É possível inserir manualmente uma macro em qualquer lugar, como em uma tag VAST, em qualquer URL ou em um pixel de evento do DSP ou de terceiros. No entanto, cada cliente e parceiro da DSP tem um formato de tag de anúncio diferente, e as macros devem ser inseridas em pontos diferentes na tag de acordo. Cada vez que trabalhar com um novo cliente ou parceiro, peça a ele documentação sobre onde inserir as macros em suas tags de anúncio que a DSP rastreia.
 
 ## Macros de rastreamento gerais
 
@@ -69,7 +69,7 @@ Use macros de rastreamento geral em todos os tipos de anúncios e tags para tran
 
 ## Clique em Macros para anúncios de exibição de terceiros
 
-Para rastrear com precisão os cliques de anúncios usando tags de exibição de terceiros, o DSP exige uma macro de clique de exibição. Somente uma versão da macro é necessária; a macro relevante depende do tipo de tag.
+Para rastrear com precisão os cliques em anúncios usando tags de exibição de terceiros, o DSP exige uma macro de clique de exibição. Somente uma versão da macro é necessária; a macro relevante depende do tipo de tag.
 
 | Macro | Descrição de Substituição | Tipo |
 | ----- | ----------------------- | ---- |
@@ -81,7 +81,7 @@ Para rastrear com precisão os cliques de anúncios usando tags de exibição de
 O DSP insere automaticamente macros de clique de exibição em uma tag de exibição de terceiros ao:
 
 * Exportar marcas de anúncio de um parceiro de servidor de publicidade <!-- [Needs PM confirmation.] -->
-* Carregar em massa [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] marcas de anúncio diretamente no DSP
+* Carregamento em massa de marcas de anúncio [!DNL Flashtalking] ou [!DNL Google DoubleClick for Advertisers] diretamente na DSP
 
 Se uma macro de clique estiver ausente ao criar um anúncio de exibição, o DSP exibirá uma mensagem de aviso solicitando que você insira manualmente a macro de clique de exibição apropriada na área correta da tag.
 

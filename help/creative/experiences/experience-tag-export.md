@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-Quando uma tag de anúncio para um tamanho criativo específico estiver disponível para uma experiência de [live](experience-about.md#experience-statuses), você poderá gerar e copiar a tag no JavaScript e nos formatos iframe para implementação no Advertising DSP ou em outro DSP. As tags para DSP incluem todas as macros necessárias para DSP.
+Quando uma marca de anúncio para um tamanho criativo específico estiver disponível para uma experiência do [live](experience-about.md#experience-statuses), você poderá gerar e copiar a marca nos formatos JavaScript e iframe para implementação no Advertising DSP ou em outros DSPs. As tags da DSP incluem todas as macros necessárias para o DSP.
 
 Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags diretamente em uma campanha do Advertising DSP como anúncios.
 
@@ -50,7 +50,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
    * *Adobe Advertising:* Para anúncios criados no Advertising DSP.
 
-   * *Genérico:* Para anúncios que você criará em outro DSP. **Observação:** talvez seja necessário incluir manualmente macros adicionais, conforme necessário.
+   * *Genérico:* Para anúncios criados em outros DSPs. **Observação:** talvez seja necessário incluir manualmente macros adicionais, conforme necessário.
 
 1. Clique em **[!UICONTROL Generate tags]**.
 
@@ -62,9 +62,9 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
    É possível abrir o arquivo em um editor de texto para copiar cada tag. Para marcas JavaScript, a marca está entre `<script></script>` e `<noscript></noscript>`. Para marcas iframe, a marca está entre `<iframe></iframe>` marcas.
 
-1. Implemente as tags para o DSP relevante:
+1. Implemente as tags para a DSP relevante:
 
-   * Para DSP diferente do Advertising DSP, forneça as tags a quem quer que crie os anúncios dentro do DSP.
+   * Para DSPs diferentes do Advertising DSP, forneça as tags a quem quer que crie os anúncios na DSP.
 
    * Para o Advertising DSP:
 

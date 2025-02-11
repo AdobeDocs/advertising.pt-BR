@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Guia do Advertising Creative 2.0 (Beta fechado) {#creative}
+# (Beta fechado) Guia do Advertising Creative 2.0 {#creative}
 
 + [Novidades](/help/creative/home.md)
 + Introdução {#introduction}
@@ -28,7 +28,7 @@ ht-degree: 0%
          + [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
          + [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [especificação criativa do HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
+         + [Especificação criativa do HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Pré-visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
       + [Anexar e desanexar criações de pacotes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicar criações](/help/creative/creative-libraries/creative-duplicate.md)

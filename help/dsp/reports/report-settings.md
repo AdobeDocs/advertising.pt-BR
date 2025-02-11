@@ -70,7 +70,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 * (Opcional) Adicione outros critérios ao filtro.
 * (Opcional) Adicione filtros adicionais, cada um com um ou mais critérios.
 
-\* *[!UICONTROL Account]* está disponível somente para os seguintes tipos de relatório quando sua organização está configurada para [relatórios entre contas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Entre em contato com a equipe de conta do Adobe para obter mais informações sobre relatórios entre contas.
+\* *[!UICONTROL Account]* está disponível somente para os seguintes tipos de relatório quando sua organização está configurada para [relatórios entre contas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre relatórios entre contas.
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** (Caminho para Conversão, Extensão do Caminho e Tempo para Conversão somente) Inclui dados para cliques em anúncios de pesquisa de campanhas Advertising Search, Social e Commerce especificadas. Ao selecionar essa opção:
 
@@ -113,13 +113,13 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Attribution Rule Settings]:** As configurações variam de acordo com o tipo de relatório:
 
-* **\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes somente com rastreamento de conversão de Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
+* **\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes somente com rastreamento de conversão do Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
 
    * *[!UICONTROL Unique]:* (padrão) Conta o número de vezes que um valor de dimensão (como um dispositivo ou posicionamento) estava no caminho para conversão.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
 
-* **\[Tipo de Regra\]:** (Todos os relatórios [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes somente com rastreamento de conversão de Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
+* **\[Tipo de Regra\]:** (Todos os relatórios [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes somente com rastreamento de conversão do Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
 
   >[!NOTE]
   >
@@ -137,13 +137,13 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
    * *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas fornece mais peso ao primeiro e ao último eventos, com peso sucessivamente menor para os eventos no meio do caminho de conversão.
 
-   * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
+   * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão do DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
 Consulte também &quot;[Como as regras de atribuição são calculadas para o Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-* **Pesquisa:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] relatórios somente com [!UICONTROL Conversion Metrics] colunas; anunciantes somente com rastreamento de conversão de Adobe Advertising) Dentro do relatório, o número máximo de dias após um evento de impressão ou um evento de clique (para relatórios [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) no qual um evento de conversão pode ser atribuído a ele. O padrão é *[!UICONTROL 30 days]*, e o máximo é de 92 dias.
+* **Pesquisa:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion] relatórios somente com [!UICONTROL Conversion Metrics] colunas; anunciantes somente com rastreamento de conversão do Adobe Advertising) No relatório, o número máximo de dias após um evento de impressão ou um evento de clique (para relatórios [!UICONTROL Path to Conversion], [!UICONTROL Path Length] ou [!UICONTROL Time to Conversion]) em que um evento de conversão pode ser atribuído a ele. O padrão é *[!UICONTROL 30 days]*, e o máximo é de 92 dias.
 
   >[!TIP]
   >

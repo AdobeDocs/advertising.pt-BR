@@ -107,13 +107,13 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
 **[!UICONTROL Attribution Rule Settings]:** As configurações variam de acordo com o tipo de relatório:
 
-* **\[Tipo de atribuição\]:** (anunciantes somente com rastreamento de conversão de Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
+* **\[Tipo de atribuição\]:** (somente anunciantes com rastreamento de conversão do Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
 
    * *[!UICONTROL Unique]:* (padrão) Conta o número de vezes que um valor de dimensão (como um dispositivo ou posicionamento) estava no caminho para conversão.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
 
-* **\[Tipo de regra\]:** (anunciantes somente com rastreamento de conversão de Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
+* **\[Tipo de regra\]:** (somente anunciantes com rastreamento de conversão do Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
 
   >[!NOTE]
   >
@@ -131,7 +131,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
    * *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas fornece mais peso ao primeiro e ao último eventos, com peso sucessivamente menor para os eventos no meio do caminho de conversão.
 
-   * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
+   * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão do DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
@@ -206,8 +206,8 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | A ID do criativo. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | O nome do posicionamento para o qual os anúncios foram executados. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | A ID de compra para o posicionamento de anúncio. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | A ID do DSP em que os anúncios foram executados. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | O nome do DSP no qual os anúncios foram veiculados. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | A ID da DSP em que os anúncios foram executados. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | O nome da DSP em que os anúncios foram executados. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | A ID do site em que os anúncios foram executados. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | O nome do site em que os anúncios foram executados. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | A ID do posicionamento para o qual os anúncios foram executados. |

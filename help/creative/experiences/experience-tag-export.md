@@ -2,9 +2,10 @@
 title: Exportar e implementar uma tag de experiência de anúncio para uma experiência ao vivo
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 >* Ao criar uma experiência com direcionamento de árvore decisória, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho criativo aplicável.
 >* Ao criar uma experiência sem definição de metas da árvore decisória, você deve [criar manualmente uma tag de anúncio](experience-tag-create-manually.md) para cada tamanho criativo aplicável.
 >* As tags de experiência são dinâmicas. Não é necessário atualizar as tags se você editar uma experiência.
-
-## Exportar uma tag de anúncio para uma experiência com direcionamento de árvore de decisão
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

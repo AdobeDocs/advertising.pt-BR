@@ -2,7 +2,8 @@
 title: Macros disponíveis para rastrear URLs
 description: Referencie as macros que você pode adicionar às URLs de rastreamento da sua página de aterrissagem e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,15 +39,15 @@ Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamen
 -->
 
 | Macro | Descrição | Automaticamente nas tags de experiência do Advertising DSP? |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | Rastreia e relata a ID da campanha do DSP | Sim |
-| `${TM_SITE_ID_NUM}` | Rastreia e relata a ID do site do DSP | Sim |
-| `${TM_PLACEMENT_ID_NUM}` | Rastreia e relata a ID de posicionamento do DSP | Sim |
-| `${TM_AD_ID_NUM}` | Rastreia e relata a ID do anúncio do DSP | Sim |
-| `${TM_CREATIVE_ID_NUM}` | Rastreia e relata a ID criativa do DSP | N/D |
-| `${TM_SESSION_ID}` | Rastreia e relata a ID de impressão do DSP. Se um valor não for retornado, o Advertising Creative gera um. | Sim |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Rastreia e relata a ID da campanha na DSP | Sim |
+| `${TM_SITE_ID_NUM}` | Rastreia e relata a ID do site da DSP | Sim |
+| `${TM_PLACEMENT_ID_NUM}` | Rastreia e relata a ID de posicionamento da DSP | Sim |
+| `${TM_AD_ID_NUM}` | Rastreia e relata a ID do anúncio da DSP | Sim |
+| `${TM_CREATIVE_ID_NUM}` | Rastreia e relata a ID de criação da DSP | N/D |
+| `${TM_SESSION_ID}` | Rastreia e relata a ID de impressão da DSP. Se um valor não for retornado, o Advertising Creative gera um. | Sim |
 | `${TM_ACC_EXPERIENCE_ID}` | Rastreia e relata a ID de experiência do Advertising Creative | — |
-| `${TM_ACC_CREATIVE_ID}` | Rastreia e relata a ID criativa do Advertising Creative | — |
+| `${TM_ACC_CREATIVE_ID}` | Rastreia e relata a ID de criação da Advertising Creative | — |
 | `${TM_RANDOM}` | Um número aleatório entre 1 e 1000000 | — |
 | `${TM_TIMESTAMP}` | O carimbo de data e hora Unix (em segundos) | — |
 | `${TM_CLICK_URL_URLENC}` | (Para anúncios de terceiros de fornecedores que exigem codificação de URL) O URL de redirecionamento de clique codificado, que permite que os servidores de publicidade rastreiem e contem cliques de anúncios. Quando o anúncio é veiculado e o usuário clica nele, a macro é ativada e o clique é registrado e contado para fins de relatório. | Sim |

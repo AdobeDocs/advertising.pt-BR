@@ -2,9 +2,10 @@
 title: Gerenciar pixels de redirecionamento
 description: Saiba como criar e implementar pixels de redirecionamento para usar como destinos para experiências de anúncio.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,9 +30,9 @@ Exemplo de pixel:
 
 >[!NOTE]
 >
-> * Atualmente, o [!DNL Creative] oferece suporte a IDs universais apenas para Advertising DSP. Uma versão futura oferecerá suporte a IDs universais para DSP de terceiros.<!-- Clarify this and reword as needed -->
+> * Atualmente, o [!DNL Creative] oferece suporte a IDs universais apenas para Advertising DSP. Uma versão futura oferecerá suporte a IDs universais para DSPs de terceiros.<!-- Clarify this and reword as needed -->
 >* Você também pode usar seus públicos-alvo primários da Adobe Audience Manager e da Adobe Analytics como [alvos criativos para suas experiências](/help/creative/experiences/experience-settings-targeting.md).
->* Ao usar uma experiência como um anúncio em uma inserção do Advertising DSP, você pode direcionar a inserção a todos os públicos-alvo disponíveis para você no DSP. Você também pode [criar tags personalizadas de segmento de público-alvo](/help/dsp/audiences/custom-segment-create.md) para rastrear todos os visitantes de páginas de aterrissagem específicas e, em seguida, usar esses segmentos como alvos criativos para um posicionamento.
+>* Ao usar uma experiência como um anúncio em um posicionamento do Advertising DSP, você pode direcionar o posicionamento para todos os públicos-alvo disponíveis no DSP. Você também pode [criar tags personalizadas de segmento de público-alvo](/help/dsp/audiences/custom-segment-create.md) para rastrear todos os visitantes de páginas de aterrissagem específicas e, em seguida, usar esses segmentos como alvos criativos para um posicionamento.
 >* Os visitantes do site que optaram por não ser rastreados para direcionamento de anúncios não recebem anúncios com conteúdo criativo personalizado com base no segmento de público-alvo ou no perfil de redirecionamento.
 
 ## Criar um pixel de redirecionamento
@@ -78,7 +79,7 @@ Exemplo de pixel:
 
    Se você adicionar outros atributos manualmente, deverá incluir a codificação do URL.
 
-   Por exemplo, se você incluiu os atributos &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e capturou IDs universais de ID5, a marca de pixel incluirá os seguintes parâmetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Para direcionar os usuários que selecionam sandálias vermelhas no tamanho 10, por exemplo, você alteraria os parâmetros da marca de imagem e da marca de script para `&ut1=--sandals--&ut2=--red--&ut3=--10--` e também inseriria sua ID de parceiro de ID5 na marca de script, como `&id5pid=--0123456789--`.&lt;!— Verifique a sintaxe final — deve ser apenas: &amp;ut1=sandals&amp;ut2=10&amp;ut2=red ? —>
+   Por exemplo, se você incluiu os atributos &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e capturou IDs universais de ID5, a marca de pixel incluirá os seguintes parâmetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Para direcionar os usuários que selecionam sandálias vermelhas no tamanho 10, por exemplo, você alteraria os parâmetros da marca de imagem e da marca de script para `&ut1=sandals&ut2=red&ut3=10` e também inseriria sua ID de parceiro de ID5 na marca de script, como `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ Ao direcionar experiências de anúncios para usuários expostos ao pixel, as co
 
 * *[!UICONTROL Ramp ID]:* A marca de pixel rastreia [!DNL Ramp IDs]. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
-Para usar esse recurso, você ou outro usuário na conta DSP deve aceitar os termos do contrato de serviço para usar IDs universais uma vez antes de usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta do Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **[!UICONTROL Terms of Service]**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
+Para usar esse recurso, você ou outro usuário na conta da DSP deve aceitar os termos do contrato de serviço para usar IDs universais uma vez antes de usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **[!UICONTROL Terms of Service]**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
 >[!MORELIKETHIS]
 >

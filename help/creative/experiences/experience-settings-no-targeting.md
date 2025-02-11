@@ -2,9 +2,10 @@
 title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Somente leitura para experiências existentes) O anunciante que oferecerá os elementos de criação incluídos na experiência. Depois de salvar a experiência, você não poderá alterar o anunciante.
 
-**[!UICONTROL Experience Name]:** Um nome exclusivo para a experiência. **Dica:** use um nome fácil de encontrar quando você usar a experiência como um anúncio no Advertising DSP ou em outro DSP.
+**[!UICONTROL Experience Name]:** Um nome exclusivo para a experiência. **Dica:** use um nome fácil de encontrar quando você usar a experiência como um anúncio no Advertising DSP ou em outra DSP.
 
 **[!UICONTROL Creative Library]:** (Somente leitura para experiências existentes) Uma única biblioteca criativa para usar na experiência. Depois de salvar a experiência, você não poderá alterar a biblioteca.
 
@@ -47,9 +48,9 @@ Para experiências sem direcionamento de árvore de decisão, você pode substit
 
 ## seção [!UICONTROL Advanced]
 
-**Data Pass:** (Experiências somente com anúncios dinâmicos; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, o editor ou o parceiro transmite em tempo real na impressão. Você pode especificar até cinco chaves de passagem de dados (parâmetros).<!-- May move this to just within the decision tree. -->
+**Data Pass:** (Experiências somente com anúncios dinâmicos; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão. Você pode especificar até cinco chaves de passagem de dados (parâmetros).<!-- May move this to just within the decision tree. -->
 
-Posteriormente, ao criar uma tag de experiência de anúncio para um tamanho criativo específico, cada chave especificada nesse campo é anexada como uma macro na tag. Você deve inserir o valor de cada par de valor-chave na tag antes de implementar a tag como um anúncio no DSP.
+Posteriormente, ao criar uma tag de experiência de anúncio para um tamanho criativo específico, cada chave especificada nesse campo é anexada como uma macro na tag. Você deve inserir o valor de cada par de valor-chave na tag antes de implementar a tag como um anúncio na DSP.
 
 **Raio:** (somente experiências com anúncios dinâmicos; opcional) Um raio de usuário para direcionamento. Selecione um raio de 0 a 200 milhas.<!-- Does this end up in the ad tag parameters? -->
 
@@ -67,7 +68,7 @@ Posteriormente, ao criar uma tag de experiência de anúncio para um tamanho cri
 
 **[!UICONTROL Impression Tracking URL]:** (opcional) uma URL de rastreamento de impressão de terceiros a ser anexada à URL da página de aterrissagem para qualquer anúncio criado a partir da experiência. É possível incluir até cinco URLs. Para adicionar uma URL adicional, clique em ![ícone](/help/creative/assets/create.png) **[!UICONTROL Add More] e insira a URL.
 
-Depois de inserir um URL, todas as macros disponíveis e os dados com os quais elas são substituídas são listados mais abaixo na página. Para inserir uma das macros na URL, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a macro sempre que desejar no campo URL.
+Depois de inserir uma URL, todas as [macros disponíveis](/help/creative/creative-macros.md) e os dados com os quais elas foram substituídas serão listados mais abaixo na página. Para inserir uma das macros na URL, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a macro sempre que desejar no campo URL.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ Depois de inserir um URL, todas as macros disponíveis e os dados com os quais e
 
 **[!UICONTROL Click Tracking URL]:** (Opcional) (Opcional) Uma URL de rastreamento de cliques de terceiros a ser anexada à URL da página de aterrissagem. É possível incluir até cinco URLs. Para adicionar uma URL adicional, clique no ![ícone](/help/creative/assets/create.png) **[!UICONTROL Add More]** e insira a URL.
 
-Depois de inserir um URL, todas as macros disponíveis e os dados com os quais elas são substituídas são listados mais abaixo na página. Para inserir uma das macros na URL, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a macro sempre que desejar no campo URL.
+Depois de inserir uma URL, todas as [macros disponíveis](/help/creative/creative-macros.md) e os dados com os quais elas foram substituídas serão listados mais abaixo na página. Para inserir uma das macros na URL, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a macro sempre que desejar no campo URL.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ Depois de inserir um URL, todas as macros disponíveis e os dados com os quais e
 >
 >* [Criar uma experiência sem definição de metas da árvore de decisão](experience-create-no-targeting.md)
 >* [Editar uma experiência sem definição de metas da árvore de decisão](experience-edit-no-targeting.md)
+>* [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 >* [Crie manualmente uma marca de anúncio para um tamanho criativo aplicável](experience-tag-create-manually.md)
 >* [Atribuir criações a uma marca de anúncio para experiências sem direcionamento](experience-tag-assign-creatives.md)
 >* [Personalizar as URLs de rastreamento para uma experiência sem direcionamento](experience-tracking-urls-no-targeting.md)

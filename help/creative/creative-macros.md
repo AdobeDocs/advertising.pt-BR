@@ -3,9 +3,9 @@ title: Macros disponíveis para rastrear URLs
 description: Referencie as macros que você pode adicionar às URLs de rastreamento da sua página de aterrissagem e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,6 @@ Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamen
 
 >[!MORELIKETHIS]
 >
->* 
+>* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* 

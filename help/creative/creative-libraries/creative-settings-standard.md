@@ -2,9 +2,10 @@
 title: Configurações de criação
 description: Saiba mais sobre xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ Para obter informações sobre atributos disponíveis em modelos predefinidos, c
 
 *Somente criações existentes*
 
-O arquivo de modelo flexível HTML5 para o criativo.
+O arquivo de modelo flexível do HTML5 para o criativo.
 
 Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usarão subsequentemente o layout do novo modelo.
 
@@ -83,7 +84,7 @@ Para substituir o modelo de publicidade existente:
 
    Consulte as [especificações flexíveis do anúncio](#flexible-ad-spec).
 
-1. Edite as novas [configurações flexíveis do anúncio de HTML](#flexible-ad-settings), conforme necessário.
+1. Edite as novas [configurações flexíveis de anúncios do HTML](#flexible-ad-settings), conforme necessário.
 
 1. Clique em **[!UICONTROL Edit]**
 
@@ -99,13 +100,13 @@ Para novas criações, as configurações a seguir não estão em uma guia nomea
 
 **Tamanho da Criação:** (Somente leitura para criações existentes) As dimensões da criação. Se qualquer imagem incluída no criativo for maior que o tamanho especificado, ela será redimensionada de acordo.
 
-**[!UICONTROL Click Tags]:** (somente criações de HTML5 estáticas) As variáveis que permitem redirecionamentos de rastreamento de cliques dos anúncios de banner incluídos. Os nomes das variáveis e os URLs da página de aterrissagem correspondentes são preenchidos na unidade de criação carregada, mas é possível alterar os URLs padrão. Para várias criações, é possível editar as tags de clique individuais.
+**[!UICONTROL Click Tags]:** (somente criações estáticas do HTML5) As variáveis que permitem redirecionamentos de rastreamento de cliques dos anúncios de banner incluídos. Os nomes das variáveis e os URLs da página de aterrissagem correspondentes são preenchidos na unidade de criação carregada, mas é possível alterar os URLs padrão. Para várias criações, é possível editar as tags de clique individuais.
 
 >[!NOTE]
 >
 >Ao incluir a criação em uma experiência, é possível substituir o valor padrão de qualquer uma das tags de clique por um URL de página de aterrissagem personalizado para gerar uma derivação da criação básica.
 
-**URL da página de aterrissagem:** (criações de HTML simples com apenas uma página de aterrissagem) a URL da página de aterrissagem padrão para cada anúncio ao qual você associa as criações. Deve ser um URL válido começando com http:// ou https://. Ele pode incluir parâmetros de rastreamento de terceiros ou [[!DNL Creative] macros](/help/creative/creative-macros.md) para seu próprio uso.
+**URL da página de aterrissagem:** (criações simples do HTML5 com apenas uma página de aterrissagem) A URL da página de aterrissagem padrão para cada anúncio ao qual você associa as criações. Deve ser um URL válido começando com http:// ou https://. Ele pode incluir parâmetros de rastreamento de terceiros ou [[!DNL Creative] macros](/help/creative/creative-macros.md) para seu próprio uso.
 
 Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é possível alterar o URL da página inicial, bem como adicionar URLs de rastreamento de impressões e cliques e JavaScript para cada criativo no pacote. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -121,9 +122,9 @@ Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é p
 
 ### Guia Modelo
 
-*Somente criações HTML5 estáticas existentes*
+*Somente criações estáticas HTML5 existentes*
 
-O arquivo de modelo HTML5 do criativo.
+O arquivo de modelo HTML5 para o criativo.
 
 Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usarão subsequentemente o layout do novo modelo.
 
@@ -141,9 +142,9 @@ Para substituir o modelo de publicidade existente:
 
    * Clique em **[!UICONTROL select a file]** para localizar o arquivo no dispositivo ou na rede.
 
-   Consulte as [especificações de anúncio de HTML](html5-creative-specification.md).
+   Consulte as [especificações de anúncios do HTML](html5-creative-specification.md).
 
-1. Edite as novas [configurações do anúncio HTML](#creative-settings-html5), conforme necessário.
+1. Edite as novas [configurações de anúncio do HTML5](#creative-settings-html5), conforme necessário.
 
 1. Clique em **[!UICONTROL Edit]**
 
@@ -173,9 +174,9 @@ Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é p
 
 **JavaScriptCode:** uma marca JavaScript (e, opcionalmente, uma marca alternativa para navegadores sem suporte a JavaScript) que aponta para o criativo no servidor de anúncios de terceiros. O script varia de acordo com o servidor de publicidade. Ao editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
-Todas as macros disponíveis e os dados com os quais elas são substituídas são listados abaixo do campo de entrada. Para inserir uma das macros na marca, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a imagem no local desejado dentro da marca.
+Todas as [macros disponíveis](/help/creative/creative-macros.md) e os dados com os quais elas foram substituídas estão listados abaixo do campo de entrada. Para inserir uma das macros na marca, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a imagem no local desejado dentro da marca.
 
-Ao incluir esse criativo em uma experiência que você implementa como um anúncio de um DSP, o DSP usa as informações nessa tag para exibir o anúncio e rastrear impressões e cliques nele, e então envia a tag para a troca de anúncios. Quando o anúncio é exibido e clicado, o servidor de anúncios, o DSP e [!DNL Creative] rastrearão os eventos.
+Ao incluir esse criativo em uma experiência que você implementa como um anúncio de uma DSP, a DSP usa as informações nessa tag para exibir o anúncio e rastrear impressões e cliques nele, e então envia a tag para a troca de anúncios. Quando o anúncio é exibido e clicado, o servidor de anúncios, o DSP e [!DNL Creative] rastrearão os eventos.
 
 **[!UICONTROL Advertiser]:** (Somente leitura) O anunciante para o qual a biblioteca está disponível.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)

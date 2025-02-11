@@ -2,9 +2,10 @@
 title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Adicione criativos às suas [bibliotecas criativas](creative-library-manage.md) 
 >
 > Você pode incluir criações individuais diretamente em experiências de anúncio que não têm metas de usuário definidas. Você também pode agrupar seus criadores em [pacotes](bundle-manage.md), que podem ser incluídos em experiências de anúncios direcionados.
 
-## Adicionar anúncios de HTML flexíveis a uma biblioteca criativa {#flexible-creative-add}
+## Adicionar anúncios flexíveis do HTML a uma biblioteca criativa {#flexible-creative-add}
 
 <!-- Later:
 You can do either of the following: 
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-Você pode fazer upload de várias unidades criativas flexíveis. As criações flexíveis devem estar no formato ZIP e podem ter até 2 MB. Para conhecer os requisitos do arquivo, consulte a [especificação criativa do HTML](html5-creative-specification.md).
+Você pode fazer upload de várias unidades criativas flexíveis. As criações flexíveis devem estar no formato ZIP e podem ter até 2 MB. Para conhecer os requisitos do arquivo, consulte a [especificação criativa do HTML5](html5-creative-specification.md).
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -58,7 +59,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
    * Para remover um arquivo, desmarque a caixa de seleção ao lado dele.
 
-1. Especifique as [configurações flexíveis de anúncio de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
+1. Especifique as [configurações flexíveis de anúncios HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Por padrão, todas as criações que você acabou de fazer upload são selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas; para algumas configurações, é possível especificar valores individuais. Para inserir configurações para criações específicas, desmarque a caixa de seleção ao lado de cada criação inaplicável.
 
@@ -101,9 +102,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 -->
 
-## Adicionar um criativo HTML5 a uma biblioteca criativa
+## Adicionar um criativo do HTML5 a uma biblioteca criativa
 
-<!-- verify -->É possível adicionar várias criações de HTML5 de um único tipo (simples ou estático) de cada vez.
+<!-- verify -->É possível adicionar várias criações HTML5 de um único tipo (simples ou estático) de cada vez.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->Você também pode [adicionar criativos flexíveis de HTML5](#flexible-creative-add), que são criativos de HTML5 com todos os seus atributos como tags de HTML padrão que você pode editar diretamente em [!DNL Creative].
+>Você também pode [adicionar criações flexíveis do HTML5](#flexible-creative-add), que são criativas do HTML5 com todos os seus atributos como tags padrão do HTML que você pode editar diretamente no [!DNL Creative].
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -137,9 +138,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Clique em **[!UICONTROL select a file]** para localizar o arquivo no dispositivo ou na rede.
 
-   Consulte a [especificação do anúncio HTML](/help/creative/creative-libraries/html5-creative-specification.md).
+   Consulte a [especificação de anúncio do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
-1. Especifique as [configurações do anúncio HTML](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
+1. Especifique as [configurações de anúncios do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
 Por padrão, todas as criações que você acabou de fazer upload são selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas; para algumas configurações, é possível especificar valores individuais. Para inserir configurações para criações específicas, desmarque a caixa de seleção ao lado de cada criação inaplicável.
 
@@ -147,7 +148,7 @@ Por padrão, todas as criações que você acabou de fazer upload são seleciona
 
 ## Adicionar um criativo de imagem a uma biblioteca criativa
 
-As criações de imagens podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -175,7 +176,7 @@ As criações de imagens podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho
 
 1. Clique em **[!UICONTROL Create]**
 
-## Adicionar um criativo de terceiros a uma biblioteca criativa
+## Adicionar um criativo de terceiros a uma biblioteca criativa {#creative-add-third-party}
 
 O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para criações hospedadas na maioria dos servidores de anúncios de terceiros.
 
@@ -187,9 +188,9 @@ O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para 
 
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Especifique a marca JavaScript e outras configurações para o criativo nas [configurações de criativo de terceiros].
+1. Especifique a marca JavaScript e outras configurações para o criativo nas [configurações de criativo de terceiros](#creative-settings-third-party).
 
-   Você pode copiar e colar qualquer uma das macros disponíveis na tag do JavaScript.
+   Você pode copiar e colar qualquer uma das [macros disponíveis](/help/creative/creative-macros.md) na tag do JavaScript.
 
 1. Clique em **[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para 
 >
 >* [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 >* [Tamanhos de criativo com suporte](/help/creative/creative-libraries/creative-sizes.md)
 >* [Visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Anexar e desanexar criações de conjuntos](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

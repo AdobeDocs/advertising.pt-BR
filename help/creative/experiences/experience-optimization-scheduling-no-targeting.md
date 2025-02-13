@@ -2,9 +2,10 @@
 title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
+source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
 1. Selecione o tipo de rotação criativa:
 
-   * ** *Ponderado* ** — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
+   * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
 
-   * ** *Algorítmico* ** — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
+   * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
 
-   * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -68,11 +69,11 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    1. Selecione o tipo de rotação criativa:
 
-      * ** *Ponderado* ** — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
+      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
 
-      * ** *Algorítmico* ** — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
+      * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
 
-      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Para cada agendamento adicional:
 
@@ -84,11 +85,11 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    1. Selecione o tipo de rotação criativa:
 
-      * ** *Ponderado* ** — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
+      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
 
-      * ** *Algorítmico* ** — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
+      * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações de forma algorítmica de acordo com uma meta de otimização especificada.
 
-      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Clique em **[!UICONTROL Save]**.
 

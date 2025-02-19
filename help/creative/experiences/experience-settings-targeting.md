@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
+source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Depois de salvar a experiência, você não poderá alterar essa configuração.
 Cada chave é anexada como uma macro na experiência de anúncio
 tag, que pode ser gerada para implementar como um anúncio na DSP.
 
-**Raio:** (somente experiências com anúncios dinâmicos; opcional) um raio de um código postal dos Estados Unidos especificado no arquivo de feed a ser direcionado; selecione um raio de 0 a 200 milhas. O arquivo de feed usado para criar os anúncios dinâmicos da experiência deve incluir uma [!UICONTROL ZIP] coluna<!-- or a user-named column mapped to a ZIP column --> com um valor para cada linha de produto no arquivo. Por exemplo, para um raio de 10 milhas, um anúncio de um produto disponível no 95110 pode ser exibido aos usuários dentro de 10 milhas de 95110.
+**Raio:** (somente experiências com anúncios dinâmicos; opcional) um raio de um código postal dos Estados Unidos especificado no arquivo de feed a ser direcionado; selecione um raio de 0 a 200 milhas. O arquivo de feed usado para criar os anúncios dinâmicos da experiência deve incluir uma [!UICONTROL ZIP] coluna<!-- or a user-named column mapped to a ZIP column --> com um valor para cada linha de produto no arquivo. Por exemplo, para um raio de 10 milhas, um anúncio de um produto disponível no 95110 pode ser exibido aos usuários dentro de 10 milhas de 95110 (determinado pelo endereço IP do usuário).
 
 **Pixel de RT:** (Somente leitura para experiências existentes; opcional) Um pixel de redirecionamento [!UICONTROL Creative] potencialmente direcionado. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT e especificar o pixel a ser direcionado para cada nó, bem como os valores necessários para os atributos de pixel que devem estar presentes para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel neste campo ao criar a experiência, ainda poderá especificar um na árvore de decisão.<!-- May move this to just within the decision tree. -->
 

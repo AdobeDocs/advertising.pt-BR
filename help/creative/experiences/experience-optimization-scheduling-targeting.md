@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
 1. Selecione o tipo de rotação criativa:
 
-   * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente as criações em cada pacote de acordo com os pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes devem somar 100.
+   * *[!UICONTROL Weighted]:* Gira manualmente as criações em cada pacote de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes devem somar 100.
 
-   * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações em cada pacote de forma algorítmica de acordo com uma meta de otimização especificada.
+   * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
       * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
@@ -57,9 +57,9 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
 
    1. Selecione o tipo de rotação criativa:
 
-      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente as criações em cada pacote de acordo com os pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar 100.
+      * *[!UICONTROL Weighted]:* Gira manualmente as criações em cada pacote de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar 100.
 
-      * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações em cada pacote de forma algorítmica de acordo com uma meta de otimização especificada.
+      * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
@@ -73,9 +73,9 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
 
    1. Selecione o tipo de rotação criativa:
 
-      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente as criações em cada pacote de acordo com os pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar 100.
+      * *[!UICONTROL Weighted]:* Gira manualmente as criações em cada pacote de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar 100.
 
-      * &amp;ast;&amp;ast; *Algorítmico* &amp;ast;&amp;ast; — Gira as criações em cada pacote de forma algorítmica de acordo com uma meta de otimização especificada.
+      * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 

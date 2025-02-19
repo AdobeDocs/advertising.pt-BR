@@ -3,9 +3,9 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Para experiências sem direcionamento de árvore de decisão, você pode substit
 
 Posteriormente, ao criar uma tag de experiência de anúncio para um tamanho criativo específico, cada chave especificada nesse campo é anexada como uma macro na tag. Você deve inserir o valor de cada par de valor-chave na tag antes de implementar a tag como um anúncio na DSP.
 
-**Raio:** (somente experiências com anúncios dinâmicos; opcional) Um raio de usuário para direcionamento. Selecione um raio de 0 a 200 milhas.<!-- Does this end up in the ad tag parameters? -->
+**Raio:** (somente experiências com anúncios dinâmicos; opcional) um raio de um código postal dos Estados Unidos especificado no arquivo de feed a ser direcionado; selecione um raio de 0 a 200 milhas. O arquivo de feed usado para criar os anúncios dinâmicos da experiência deve incluir uma [!UICONTROL ZIP] coluna<!-- or a user-named column mapped to a ZIP column --> com um valor para cada linha de produto no arquivo. Por exemplo, para um raio de 10 milhas, um anúncio de um produto disponível no 95110 pode ser exibido aos usuários dentro de 10 milhas de 95110.
 
 **Pixel de RT:** (Experiências somente com anúncios dinâmicos; opcional) Um pixel de redirecionamento [!UICONTROL Creative] para direcionamento potencial. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT e especificar o pixel a ser direcionado para cada nó, bem como os valores necessários para os atributos de pixel que devem estar presentes para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel nesse campo, ainda será possível especificar um na árvore de decisão.&lt;!— De R: &quot;o pixel de RT deve ser por meio da seleção de conteúdo na configuração do anúncio dinâmico&quot; — esclarecer. Eu vejo &quot;Datapass&quot; (uma palavra) nas configurações de anúncios dinâmicos, mas não tenho certeza de como essa configuração e este nível de experiência funcionam juntos. —>
 

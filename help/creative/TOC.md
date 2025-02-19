@@ -4,9 +4,9 @@ user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia de criação
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [O layout da árvore de decisão](/help/creative/experiences/experience-decision-tree.md)
       + [Criar uma experiência com direcionamento](/help/creative/experiences/experience-create-targeting.md)
       + [Editar uma experiência com direcionamento](/help/creative/experiences/experience-edit-targeting.md)
+      + [Configurações de experiência direcionada](/help/creative/experiences/experience-settings-targeting.md)
       + Subtarefas para criar e editar experiências {#subtasks}
          + Nós de destino {#nodes}
             + [Adicionar um nó de direcionamento ao nível final](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [Atribuir e cancelar atribuição de pacotes criativos a um nó final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalizar os URLs de rastreamento para criações](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizar otimização criativa e agendamento](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [Configurações de experiência direcionada](/help/creative/experiences/experience-settings-targeting.md)
    + Experiências sem direcionamento {#experience-nontargeted}
       + [Criar uma experiência sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md)
       + [Editar uma experiência sem direcionamento](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Criativos{#non-targeted-creatives}
+      + Marcas de publicidade e criação{#non-targeted-creatives}
          + [Criar manualmente uma tag de anúncio para um tamanho de criação aplicável](/help/creative/experiences/experience-tag-create-manually.md)
          + [Atribuir criativos a uma tag de anúncio para experiências sem direcionamento](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Personalizar os URLs de rastreamento para uma experiência sem direcionamento](/help/creative/experiences/experience-tracking-urls-no-targeting.md)

@@ -1,11 +1,11 @@
 ---
 title: Macros disponíveis para rastrear URLs
-description: Referencie as macros que você pode adicionar às URLs de rastreamento da sua página de aterrissagem e criações de terceiros.
+description: Referencie as macros que você pode adicionar aos URLs da sua página inicial, URLs de rastreamento e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamen
 | `${TM_ACC_EXPERIENCE_ID}` | Rastreia e relata a ID de experiência do Advertising Creative | — |
 | `${TM_ACC_CREATIVE_ID}` | Rastreia e relata a ID de criação da Advertising Creative | — |
 | `${TM_RANDOM}` | Um número aleatório entre 1 e 1000000 | — |
-| `${TM_TIMESTAMP}` | O carimbo de data e hora Unix (em segundos) | — |
-| `${TM_CLICK_URL_URLENC}` | (Para anúncios de terceiros de fornecedores que exigem codificação de URL) O URL de redirecionamento de clique codificado, que permite que os servidores de publicidade rastreiem e contem cliques de anúncios. Quando o anúncio é veiculado e o usuário clica nele, a macro é ativada e o clique é registrado e contado para fins de relatório. | Sim |
+| `${TM_TIMESTAMP}` | O carimbo de data e hora UNIX® (em segundos) | — |
+| `${TM_CLICK_URL_URLENC}` | (Para anúncios de terceiros de fornecedores que exigem codificação de URL) O URL de redirecionamento de clique codificado, que permite que os servidores de publicidade rastreiem e contem cliques de anúncios. Quando o usuário clica no anúncio, a macro é ativada e o clique é registrado e contado para fins de relatório. | Sim |
 
 >[!MORELIKETHIS]
 >
 >* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [Configurações de experiência direcionadas](/help/creative/experiences/experience-settings-targeting.md)
+>*[Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)

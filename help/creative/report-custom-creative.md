@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Saiba como gerar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
+source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | A receita total dos anúncios veiculados para um produto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | A receita total dos anúncios veiculados. |
 | [!UICONTROL Conversion Metrics] | [Agrupado pelo anunciante nas configurações do relatório] | [Conversão específica do anunciante] | O total de uma métrica de conversão específica do anunciante ou evento do Adobe Analytics. |
-| [!UICONTROL Custom Goals] | [Agrupado pelo anunciante nas configurações do relatório] | [Meta personalizada específica do anunciante] | A soma ponderada de todas as conversões incluídas na [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) especificada. |
+| [!UICONTROL Custom Goals] | [Agrupado pelo anunciante nas configurações do relatório] | [Meta personalizada específica do anunciante] | (Anunciantes com Advertising DSP) A soma ponderada de todas as conversões incluídas na [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) especificada. |
 
 {style="table-layout:auto"}
 

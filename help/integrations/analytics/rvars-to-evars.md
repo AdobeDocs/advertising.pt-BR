@@ -3,9 +3,9 @@ title: Coletar dados históricos para IDs AMO e IDs EF para uso no Adobe Custome
 description: Saiba como coletar dados históricos para suas variáveis reservadas no Adobe Analytics para uso futuro no Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Esta etapa é manual e deve ser concluída para cada conjunto de relatórios que
          1. Selecione **Parâmetro De Cadeia De Caracteres De Consulta**.
          1. Digite `ef_id`.
 
-        Exemplo: Substituir o valor de `rVar11` pelo Parâmetro da Cadeia de Caracteres de Consulta `ef_id`
+        Exemplo: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * Para o [!UICONTROL Reason for rule], use uma observação descritiva, como &quot;A ID do AMO e a ID do EF serão transportadas para o AEP pelo Conector do Adobe Analytics.&quot;
 

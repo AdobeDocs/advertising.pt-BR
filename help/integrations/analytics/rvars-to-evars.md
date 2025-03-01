@@ -3,9 +3,9 @@ title: Coletar dados históricos para IDs AMO e IDs EF para uso no Adobe Custome
 description: Saiba como coletar dados históricos para suas variáveis reservadas no Adobe Analytics para uso futuro no Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
+source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Esta etapa é manual e deve ser concluída para cada conjunto de relatórios que
          1. Selecione **Parâmetro De Cadeia De Caracteres De Consulta**.
          1. Digite `s_kwcid`.
 
-        Exemplo: &quot;Substituir o valor de `rVar10` pelo parâmetro da cadeia de caracteres de consulta `s_kwcid&quot;
+        Exemplo: ```Overwrite the value of rVar10 with Query String Parameter s_kwcid```
 
       * Para o `EF ID`:
 

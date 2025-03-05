@@ -2,9 +2,9 @@
 title: Sobre o Adobe Advertising Creative
 description: Saiba mais sobre  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Como parte do Adobe Advertising, o Advertising Creative é uma plataforma de aut
 
 ## Bibliotecas criativas personalizadas de criativos reutilizáveis
 
-Suas bibliotecas criativas permitem gerenciar todas as criações que você usará em suas experiências de anúncio. Você pode criar várias bibliotecas, cada uma com criações e grupos criativos individuais (chamados de *pacotes*). Você adicionará pacotes criativos às suas experiências de anúncio.
+Suas bibliotecas Creative permitem gerenciar os elementos de criação que você usará em suas experiências de anúncio. Você pode criar várias bibliotecas, cada uma com criações e grupos criativos individuais (chamados de *pacotes*). Você adicionará pacotes criativos às suas experiências de anúncio.
 
 ## Experiências baseadas em regras
 
@@ -27,7 +27,7 @@ Com o [!DNL Creative], você pode criar histórias usando um modelo de árvore d
 
 ### Implementação de experiências como anúncios
 
-Depois de criar uma experiência, você pode gerar uma tag JavaScript ou iframe para a experiência e implementar a tag como um anúncio de terceiros no Advertising DSP ou em qualquer outro DSP.<!-- Add any more info about integration with DSP? -->
+Depois de criar uma experiência, você pode gerar uma tag JavaScript ou iframe para a experiência e implementar a tag como um anúncio de terceiros na Advertising DSP ou em qualquer outro DSP.<!-- Add any more info about integration with DSP? -->
 
 <!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level REtargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
 
@@ -40,11 +40,11 @@ Opcionalmente, você pode permitir que o [!DNL Creative] otimize os elementos de
 
 ## Redirecionamento de pixels
 
-É possível criar pixels de redirecionamento para usar como direcionamento para criações em uma experiência de anúncio, de modo que você mostre os anúncios somente para usuários com atributos especificados que visitaram páginas da Web específicas anteriormente.
+Você pode criar pixels de redirecionamento para usar como targets para criações em uma experiência de anúncio. Os destinos mostram anúncios somente para usuários com atributos especificados que visitaram anteriormente páginas da Web específicas.
 
 ## Rastreamento de impressão, clique e conversão
 
-O [!DNL Creative] rastreia automaticamente todas as impressões e cliques de anúncios veiculados por uma experiência. Opcionalmente, também é possível adicionar URLs de rastreamento de impressões e de rastreamento de cliques de terceiros a criações em bibliotecas criativas, bem como URLs de rastreamento personalizados em uma experiência.
+O [!DNL Creative] rastreia automaticamente todas as impressões e cliques de anúncios veiculados por uma experiência. Opcionalmente, também é possível adicionar URLs de rastreamento de impressões e de rastreamento de cliques de terceiros a criações em bibliotecas do Creative, bem como URLs de rastreamento personalizados em uma experiência.
 
 [!DNL Creative] também rastreia conversões de anúncios veiculados a partir de suas experiências de anúncio.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
 
@@ -57,7 +57,7 @@ to the DSP.
 
 Você pode visualizar relatórios de desempenho detalhados no nível de experiência em Criativos > Experiências.
 
-Você também pode criar relatórios criativos personalizados em Relatórios > Relatórios personalizados para monitorar o desempenho no nível de experiência em suas experiências. Se você usar suas experiências do [!DNL Creative] como anúncios em campanhas DSP, os dados de desempenho para esses anúncios estarão disponíveis em relatórios personalizados adicionais, exatamente como os dados para seus outros anúncios DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Você também pode criar relatórios personalizados do Creative em Relatórios > Relatórios personalizados para monitorar o desempenho no nível de experiência em suas experiências. Se você usar suas experiências do [!DNL Creative] como anúncios nas campanhas do DSP, os dados de desempenho para esses anúncios estarão disponíveis em relatórios personalizados adicionais, da mesma forma que os dados para seus outros anúncios do DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 Você pode, opcionalmente, enviar seus relatórios personalizados para [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) especificados.
 

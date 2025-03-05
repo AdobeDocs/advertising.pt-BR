@@ -3,9 +3,9 @@ title: Gerenciar pixels de redirecionamento
 description: Saiba como criar e implementar pixels de redirecionamento para usar como destinos para experiências de anúncio.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Exemplo de pixel:
 
    Se você adicionar outros atributos manualmente, deverá incluir a codificação do URL.
 
-   Por exemplo, se você incluiu os atributos &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e capturou IDs universais de ID5, a marca de pixel incluirá os seguintes parâmetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Para direcionar os usuários que selecionam sandálias vermelhas no tamanho 10, por exemplo, você alteraria os parâmetros da marca de imagem e da marca de script para `&ut1=sandals&ut2=red&ut3=10` e também inseriria sua ID de parceiro de ID5 na marca de script, como `&id5pid=0123456789`.
+   Por exemplo, se você incluiu os atributos &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e capturou IDs universais de ID5, a marca de pixel incluirá os seguintes parâmetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Para direcionar os usuários que selecionam sandálias vermelhas no tamanho 10, por exemplo, altere os parâmetros da marca de imagem e da marca de script para `&ut1=sandals&ut2=red&ut3=10` e insira sua ID de parceiro de ID5 na marca de script, como `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ Exemplo de pixel:
 
 ## Configurações de pixel de redirecionamento {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** O nome do pixel. **Observação:** a marca de pixel incluirá a identificação de pixel (`pxId=<ID>`), não o nome do pixel.
+**[!UICONTROL Pixel Name]:** O nome do pixel. **Observação:** a marca de pixel inclui a identificação de pixel (`pxId=<ID>`), não o nome do pixel.
 
 **[!UICONTROL Advertiser]:** (Somente leitura para pixels existentes) O anunciante para o qual o pixel é rastreado.
 
 **[!UICONTROL Attribute 1]:** Um atributo a ser incluído na marca de pixel, como &quot;SKU&quot;, &quot;categoria&quot;, &quot;tamanho&quot; ou outros atributos da página ou do produto exibido na página. Especifique um valor para o atributo na tag de pixel antes de inseri-lo nas páginas da Web relevantes.
 
-Ao direcionar experiências de anúncios para usuários expostos ao pixel, as configurações de direcionamento especificarão os valores de atributo que devem estar presentes para mostrar as criações.
+Ao direcionar experiências de anúncios para usuários expostos ao pixel, as configurações de direcionamento especificam os valores de atributo que devem estar presentes para exibir as criações.
 
 **[!UICONTROL Attribute 2]**, **[!UICONTROL Attribute 3]**, **[!UICONTROL Attribute 4]**, **[!UICONTROL Attribute 5]:** (Opcional) Atributos adicionais a serem incluídos na marca de pixel. Especifique um valor para cada atributo adicional na tag de pixel antes de inseri-la nas páginas da Web relevantes.
 
-Ao direcionar experiências de anúncios para usuários expostos ao pixel, as configurações de direcionamento especificarão os valores de atributo que devem estar presentes para mostrar as criações.
+Ao direcionar experiências de anúncios para usuários expostos ao pixel, as configurações de direcionamento especificam os valores de atributo que devem estar presentes para exibir as criações.
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (recurso Beta; somente novos pixels; opcional) Tipos de IDs universais para a marca de pixel a ser rastreada:
 

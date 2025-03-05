@@ -1,10 +1,11 @@
 ---
 title: Sobre suas bibliotecas criativas
-description: Saiba mais sobre como gerenciar os recursos de criação que você usará nas suas experiências de anúncio.
+description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 *Recurso beta fechado*
 
-Suas bibliotecas criativas permitem gerenciar todos os elementos criativos que você usará em suas experiências de anúncio. Você pode criar várias bibliotecas, cada uma com um conjunto de criações e *pacotes criativos*, que são grupos de criações que você pode adicionar a uma experiência como uma unidade.
+Suas bibliotecas criativas permitem gerenciar os elementos criativos que você usará em suas experiências de anúncio. Você pode criar várias bibliotecas, cada uma com um conjunto de criações e *pacotes criativos*, que são grupos de criações que você pode adicionar a uma experiência como uma unidade.
 
 Suas bibliotecas podem incluir:
 
 * **Criações individuais:** você pode incluir criações individuais diretamente em experiências de anúncio que não têm destinos de usuário definidos. Você também pode usar suas criações para criar pacotes, que podem ser incluídos em [experiências de anúncios](/help/creative/experiences/experience-about.md) direcionadas.
 
-   * **Criações padrão**: você pode carregar e gerenciar criações em [vários formatos](#creative-creative-formats). Para cada criativo, você especificará o idioma padrão para cada anúncio ao qual associa o criativo, a página de aterrissagem padrão que abre quando um usuário clica em um anúncio que inclui o criativo e rótulos opcionais para usar como filtros em várias exibições no [!DNL Creative].
+   * **Criações padrão**: você pode carregar e gerenciar criações em [vários formatos](#creative-creative-formats). Para cada criativo, especifique o idioma padrão para cada anúncio ao qual você associa o criativo, a página de aterrissagem padrão que abre quando um usuário clica em um anúncio que inclui o criativo e os rótulos opcionais para usar como filtros em várias exibições no [!DNL Creative].
 
-   * **Criações dinâmicas:** (somente clientes do DCO do Adobe Advertising existentes) Os usuários administradores podem criar criações geradas dinamicamente, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. Todos os usuários podem visualizar, duplicar e excluir anúncios dinâmicos existentes.
+   * **Criações dinâmicas:** (somente clientes do Adobe Advertising DCO existentes) Os usuários administradores podem criar criações geradas dinamicamente, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. Todos os usuários podem visualizar, duplicar e excluir anúncios dinâmicos existentes.
 
 * **Pacotes de criação:** grupos de criação em pacotes para usar em várias experiências com destinos de usuário definidos. Você pode criar *pacotes padrão* que consistem em anúncios padrão e *pacotes dinâmicos* que consistem em anúncios gerados dinamicamente.
 
-## Formatos de criação compatíveis {#creative-creative-formats}
+## Formatos Creative compatíveis {#creative-creative-formats}
 
 ### Formatos para criações padrão
 
@@ -33,17 +34,17 @@ Você pode adicionar e gerenciar os seguintes tipos de criação nos [tamanhos d
 
 >[!IMPORTANT]
 >
->Mesmo que você pretenda usar HTMl5, Flexible HTML5 ou criações de terceiros para suas experiências de anúncio, você também deve adicionar criações de imagem para cada tamanho criativo que usar.
+>Mesmo que você pretenda usar o HTML5, o Flexible HTML5 ou criações de terceiros para suas experiências de anúncio, também é necessário adicionar criações de imagem para cada tamanho criativo usado.
 >
 >Cada experiência exige um criativo de imagem padrão para cada tamanho criativo atribuído à experiência. As criações de imagem padrão são usadas quando um navegador não está habilitado para JavaScript ou quando o servidor de publicidade não pode personalizar o anúncio devido a atrasos.
 
-#### HTML flexível5
+#### HTML5 flexível
 
-Criativos de HTML5 flexíveis são criativos de HTML5 com todas as suas imagens e outros atributos como tags de HTML padrão, que você pode editar diretamente em [!DNL Creative], em uma biblioteca criativa ou em uma experiência individual (o que cria uma variação do criativo original). As criações de HTML5 flexíveis usam o padrão do Laboratório de Tecnologia do Interative Advertising Bureau (IAB) para um [portfólio de anúncios](https://flexibleads.iabtechlab.com/), para o qual os tamanhos de formato de anúncio são flexíveis (em vez de fixos) e se baseiam na proporção e no intervalo de tamanho do anúncio, e para o qual os anúncios mantêm sua resolução em todos os dispositivos e sites do editor.
+Criativas HTML5 flexíveis são criativas HTML5 com todas as suas imagens e outros atributos como tags HTML padrão, que você pode editar diretamente em [!DNL Creative], em uma biblioteca criativa ou em uma experiência individual (o que cria uma variação do criativo original). As criações flexíveis do HTML5 usam o padrão do Laboratório de Tecnologia do Interative Advertising Bureau (IAB) para um [portfólio de anúncios](https://flexibleads.iabtechlab.com/), para o qual os tamanhos de formato de anúncio são flexíveis (em vez de fixos) e se baseiam na proporção e no intervalo de tamanho do anúncio, e para o qual os anúncios mantêm sua resolução em todos os dispositivos e sites do editor.
 
-Você pode <!-- either --> carregar criações flexíveis de HTML5 como arquivos ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulte as [especificações de criação de HTML5 flexível](html5-creative-specification.md).
+Você pode<!-- either --> carregar criações flexíveis do HTML5 como arquivos ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulte as [especificações de criações flexíveis do HTML5](html5-creative-specification.md).
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -53,11 +54,11 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
  -->
 
-Como opção, é possível alterar os valores padrão dos atributos especificados em uma criação de HTML flexível. Posteriormente, você pode especificar valores personalizados para os atributos em uma experiência específica, o que cria uma variação da criação principal.
+Opcionalmente, é possível alterar os valores padrão dos atributos especificados em uma criação flexível do HTML5. Posteriormente, você pode especificar valores personalizados para os atributos em uma experiência específica, o que cria uma variação da criação principal.
 
-#### Criativos do HTML5
+#### Criação do HTML5
 
-É possível carregar criações simples ou estáticas do HTML5, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, faça upload de um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações para criações de HTML5 simples e estáticas](html5-creative-specification.md).
+Você pode fazer upload de criações simples ou estáticas do HTML5, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, faça upload de um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações de criações simples e estáticas do HTML5](html5-creative-specification.md).
 
 #### Criação de imagens
 
@@ -75,7 +76,7 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 
 ### Formato para anúncios dinâmicos
 
-Os usuários administradores podem criar criações geradas dinamicamente no formato HTML5 estático e HTML5 dinâmico, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. Isso pode incluir criações de suas experiências herdadas do Adobe Advertising Dynamic Creative Optimization (DCO).
+Os usuários administradores podem gerar dinamicamente criações no formato estático HTML5 e HTML5, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. As criações dinâmicas podem incluir criações de suas experiências herdadas do Adobe Advertising Dynamic Creative Optimization (DCO).
 
 ## As [!UICONTROL Creative Libraries] visualizações
 
@@ -83,7 +84,7 @@ Consulte &quot;[Personalizar suas visualizações de dados](/help/creative/intro
 
 ### A visualização principal [!UICONTROL Creative Libraries]
 
-As principais exibições do [!UICONTROL Creative Libraries] mostram todas as suas bibliotecas criativas. Os dados de cada biblioteca incluem o número de experiências às quais os pacotes da biblioteca são atribuídos, o número de pacotes, o número de criativos, o número de tamanhos de criação, o número de alvos de idioma padrão, a data de criação e a data da última modificação para qualquer elemento da biblioteca. O modo de tabela também inclui uma coluna para o anunciante.
+A exibição principal do [!UICONTROL Creative Libraries] mostra todas as suas bibliotecas criativas. Os dados de cada biblioteca incluem o número de experiências às quais os pacotes da biblioteca são atribuídos, o número de pacotes, o número de criativos, o número de tamanhos de criação, o número de alvos de idioma padrão, a data de criação e a data da última modificação para qualquer elemento da biblioteca. O modo de tabela também inclui uma coluna para o anunciante.
 
 #### Ações disponíveis
 
@@ -137,7 +138,7 @@ Os dados de cada criativo incluem o tipo criativo, o tamanho criativo, o número
 
 ##### Ações disponíveis
 
-A capacidade de criar e editar criações dinâmicas está disponível no momento apenas na Equipe de conta do Adobe. No entanto, todos os usuários podem:
+A capacidade de criar e editar criações dinâmicas está disponível no momento somente na Equipe de conta da Adobe. No entanto, todos os usuários podem:
 
 * [Visualizar criações dinâmicas](creative-preview.md)
 

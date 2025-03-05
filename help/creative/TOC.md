@@ -4,9 +4,9 @@ user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia de criação
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
          + [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
          + [Especificação criativa do HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Pré-visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
-      + [Anexar e desanexar criações de pacotes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Anexar criações a pacotes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicar criações](/help/creative/creative-libraries/creative-duplicate.md)
       + [Baixar criações](/help/creative/creative-libraries/creative-download.md)
       + [Excluir criações](/help/creative/creative-libraries/creative-delete.md)
-   + Pacotes de criação {#bundles}
+   + Pacotes do Creative {#bundles}
       + [Gerenciar pacotes criativos](/help/creative/creative-libraries/bundle-manage.md)
 + Adicionar experiências {#creative-experiences}
    + [Sobre experiências no Advertising Creative](/help/creative/experiences/experience-about.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
    + [Excluir uma experiência](/help/creative/experiences/experience-delete.md)
 + Relatórios de desempenho {#reports}
    + [Relatórios de desempenho de nível de experiência](/help/creative/experiences/experience-performance-details.md)
-   + [Relatório de criação personalizado](/help/creative/report-custom-creative.md)
+   + [Relatório Creative personalizado](/help/creative/report-custom-creative.md)
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 + [Suporte ao cliente](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}

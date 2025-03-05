@@ -1,21 +1,22 @@
 ---
-title: especificação criativa do HTML5
-description: Consulte a especificação criativa de HTML para Advertising Creative.
+title: Especificação criativa do HTML5
+description: Consulte a especificação criativa do HTML5 para Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
 
-# especificação criativa do HTML para o Advertising Creative
+# Especificação criativa do HTML5 para Advertising Creative
 
-Este documento descreve os requisitos e o suporte de API para criações de HTML5 no [!DNL Creative]. A API permite o desenvolvimento de criativos HTML5 cujos atributos podem ser configurados no momento da entrega criativa.
+Este documento descreve os requisitos e o suporte à API para criações do HTML5 no [!DNL Creative]. A API permite o desenvolvimento de criativos HTML5 cujos atributos podem ser configurados no momento da entrega criativa.
 
 ## Escopo
 
-O [!DNL Creative] oferece suporte a banners HTML5 com criações de mídia não-avançada que aparecem dentro de bordas definidas em uma página. Você pode usar os seguintes tipos de criações de HTML5:
+O [!DNL Creative] oferece suporte a banners HTML5 com criações de mídia não-avançada que aparecem dentro de bordas definidas em uma página. Você pode usar os seguintes tipos de criação HTML5:
 
 <!--Remove to simplify:
 
@@ -27,7 +28,7 @@ O [!DNL Creative] oferece suporte a banners HTML5 com criações de mídia não-
 
 * **HTML5:** oferece suporte a até 5 URLs de página de aterrissagem que podem ser configuradas durante a criação criativa e o tráfico.
 
-* **HTML flexível5:** oferece suporte a até 5 URLs de página de aterrissagem que podem ser configuradas durante a criação criativa e o tráfico, além de permitir que atributos criativos sejam modificados durante a criação criativa e o tráfico.
+* **HTML flexível5:** oferece suporte a até cinco URLs de página de aterrissagem que podem ser configuradas durante a criação criativa e o tráfico, além de permitir que atributos criativos sejam modificados durante a criação criativa e o tráfico.
 
 ## Requisitos
 
@@ -35,15 +36,15 @@ O [!DNL Creative] oferece suporte a banners HTML5 com criações de mídia não-
 
 * O criativo deve ser empacotado em um arquivo ZIP (formato .ZIP). Arquivos ZIP aninhados não são suportados, portanto, não inclua uma pasta compactada dentro da pasta compactada externa.
 
-* O arquivo ZIP deve conter pelo menos um arquivo HTML — o arquivo de exibição do HTML principal — que inclui uma referência à biblioteca JavaScript [!DNL Creative]. O arquivo HTML principal pode estar na pasta raiz ou em uma subpasta.
+* O arquivo ZIP deve conter pelo menos um arquivo HTML — o arquivo de exibição principal do HTML — que inclui uma referência à biblioteca JavaScript [!DNL Creative]. O arquivo principal do HTML pode estar na pasta raiz ou em uma subpasta.
 
 * O arquivo HTML principal pode ser nomeado como qualquer coisa, desde que não inclua caracteres especiais, embora `index.html` seja recomendado.
 
 * Todos os ativos de suporte necessários para renderizar o criativo final devem estar na mesma pasta que o arquivo de exibição do HTML ou em subpastas na pasta principal.
 
-* Não inclua nenhum arquivo no criativo que não esteja referenciado para esse criativo.
+* Não inclua nenhum arquivo no criativo ao qual o criativo não faça referência.
 
-### Inclusão do arquivo Advertising Creative JavaScript
+### Inclusão do arquivo JavaScript do Advertising Creative
 
 O arquivo HTML principal — e nenhum outro arquivo — deve conter uma referência ao arquivo JavaScript `AMOLibrary.js`. Chame o arquivo na primeira linha da seção `<head>` usando este endereço:
 
@@ -75,17 +76,17 @@ var clickTag = “http://www.example.com”;
 ### Static HTML5 creative requirements
 -->
 
-### requisitos de criação do HTML5
+### Requisitos criativos do HTML5
 
-#### Suporte para URLs click-through no HTML estático 5
+#### Suporte para URLs de click-through no HTML5 estático
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra as URLs de click-through e o parâmetro associado usado para fazer referência a cada URL (conhecido como `clickTag`). Isso informa o servidor de publicidade [!DNL Creative] onde adicionar o rastreamento de cliques. Você pode usar essa API para registrar até cinco variáveis de tag de clique, cada uma com um URL de página inicial correspondente.
+Registra as URLs de click-through e o parâmetro associado usado para fazer referência a cada URL (conhecido como `clickTag`). Esta API informa ao servidor de publicidade [!DNL Creative] onde adicionar o rastreamento de cliques. Você pode usar essa API para registrar até cinco variáveis de tag de clique, cada uma com um URL de página inicial correspondente.
 
 >[!NOTE]
 >
->Os URLs estáticos incluídos no criativo do HTML5 são usados apenas para fins de teste local e serão substituídos. Ao carregar um criativo HTML5, você definirá a página de aterrissagem padrão para cada variável `clickTag`. Ao atribuir um criativo HTML5 carregado a uma experiência de anúncio, você pode, opcionalmente, substituir a página de aterrissagem padrão para cada variável `clickTag` e o [!DNL Creative] adiciona o rastreamento de cliques às URLs ao salvar a experiência.
+>Os URLs estáticos incluídos no criativo do HTML5 são usados apenas para fins de teste local e serão substituídos. Ao carregar um criativo do HTML5, você define a página de aterrissagem padrão para cada variável `clickTag`. Ao atribuir uma criação carregada do HTML5 a uma experiência de anúncio, você pode, opcionalmente, substituir a página de aterrissagem padrão para cada variável do `clickTag` e o [!DNL Creative] adiciona o rastreamento de cliques às URLs ao salvar a experiência.
 
 ###### Parâmetros
 
@@ -121,15 +122,15 @@ Chame `amo.onAdClick()` na seção `<body>` do arquivo HTML principal.
 
 ### Requisitos criativos flexíveis do HTML5
 
-#### Suporte para URLs click-through no HTML flexível5
+#### Suporte para URLs click-through no HTML5 flexível
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra as URLs de click-through e o parâmetro associado usado para fazer referência a cada URL (conhecido como `clickTag`). Isso informa o servidor de publicidade [!DNL Creative] onde adicionar o rastreamento de cliques. Você pode usar essa API para registrar até cinco variáveis de tag de clique, cada uma com um URL de página inicial correspondente.
+Registra as URLs de click-through e o parâmetro associado usado para fazer referência a cada URL (conhecido como `clickTag`). Esta API informa ao servidor de publicidade [!DNL Creative] onde adicionar o rastreamento de cliques. Você pode usar essa API para registrar até cinco variáveis de tag de clique, cada uma com um URL de página inicial correspondente.
 
 >[!NOTE]
 >
->Os URLs estáticos incluídos no criativo do HTML5 são usados apenas para fins de teste local e serão substituídos. Ao carregar um criativo HTML5, você definirá a página de aterrissagem padrão para cada variável `clickTag`. Ao atribuir um criativo HTML5 carregado a uma experiência de anúncio, você pode, opcionalmente, substituir a página de aterrissagem padrão para cada variável `clickTag` e o [!DNL Creative] adiciona o rastreamento de cliques às URLs ao salvar a experiência.
+>Os URLs estáticos incluídos no criativo do HTML5 são usados apenas para fins de teste local e serão substituídos. Ao carregar um criativo do HTML5, você define a página de aterrissagem padrão para cada variável `clickTag`. Ao atribuir uma criação carregada do HTML5 a uma experiência de anúncio, você pode, opcionalmente, substituir a página de aterrissagem padrão para cada variável do `clickTag` e o [!DNL Creative] adiciona o rastreamento de cliques às URLs ao salvar a experiência.
 
 ###### Parâmetros
 
@@ -187,11 +188,11 @@ Chame `amo.registerAttribute()` para registrar um atributo criativo, tipo e valo
 
 ##### `amo.attributes`
 
-Um objeto JSON para consultar os nomes e valores da variável do atributo criativo. As chaves do objeto serão os nomes dos atributos e os valores serão os valores desses atributos.
+Um objeto JSON para consultar os nomes e valores da variável do atributo criativo. As chaves de objeto são os nomes de atributos e os valores são os valores desses atributos.
 
 No modo de teste local, os pares de valores chave são os pares registrados pela API `amo.registerAttribute`. Para produção, os nomes e valores das variáveis do atributo criativo devem ser configurados no momento da criação criativa e do tráfico.
 
-### Requisitos de conteúdo criativo
+### Requisitos de conteúdo do Creative
 
 A maioria das trocas de exibição disponíveis no Advertising DSP tem os seguintes requisitos criativos:
 
@@ -201,7 +202,7 @@ A maioria das trocas de exibição disponíveis no Advertising DSP tem os seguin
 
 * A landing page deve abrir em uma nova janela.
 
-* O domínio da página de aterrissagem e seus subdomínios não podem ter mais de 35 caracteres. **Observação:** as URLs da página de aterrissagem final são definidas no DSP e não nos ativos HTML5 propriamente ditos.
+* O domínio da página de aterrissagem e seus subdomínios não podem ter mais de 35 caracteres. **Observação:** as URLs da página de aterrissagem final são definidas na DSP e não nos próprios ativos do HTML5.
 
 * Qualquer isenção de responsabilidade da oferta de um anúncio deve ser incluída no próprio anúncio e não apenas na landing page.
 
@@ -244,7 +245,7 @@ A maioria das trocas de exibição disponíveis no Advertising DSP tem os seguin
 ]
 ```
 
-## Exemplo de criação de HTML5
+## Exemplo de criação do HTML5
 
 ### Exemplo de estrutura de pasta (após a descompactação)
 
@@ -252,9 +253,9 @@ A maioria das trocas de exibição disponíveis no Advertising DSP tem os seguin
 
 * /assets (pasta)
 
-   * bg.jpg (JPG,, PNG, SVG ou imagem GIF)
+   * bg.jpg (imagem do JPG, PNG, SVG ou GIF)
 
-### Exemplo de arquivo HTML (index.html) para criações de HTML5 simples
+### Exemplo de arquivo do HTML (index.html) para criações simples do HTML5
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ A maioria das trocas de exibição disponíveis no Advertising DSP tem os seguin
 </html>
 ```
 
-### Exemplo de arquivo HTML (index.html) para criações de HTML 5 estáticas
+### Exemplo de arquivo do HTML (index.html) para criações estáticas do HTML5
 
 ```
 <!DOCTYPE html>

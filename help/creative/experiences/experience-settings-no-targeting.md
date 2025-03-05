@@ -3,7 +3,7 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Criações padrão especificadas\]:** As criações de imagem padrão a serem usadas quando um navegador não pode exibir criações atribuídas à experiência, como quando o navegador não está habilitado para JavaScript ou o servidor de anúncios não pode personalizar o anúncio devido a atrasos. Inclua um criativo de imagem por tamanho de anúncio ao qual a experiência se aplica. Suas opções determinam os tamanhos criativos que podem ser usados para a experiência. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-Para experiências sem direcionamento de árvore de decisão, você pode substituir os criativos padrão por criativos do mesmo tamanho em [!UICONTROL Tag Manager].<!-- verify -->
+Para experiências sem direcionamento de árvore de decisão, você pode substituir os criativos padrão por criativos do mesmo tamanho em [!UICONTROL Tag Manager].
 
 * Para adicionar um criativo padrão com dimensões diferentes, clique em **[!UICONTROL + Add Sizes]**, marque a caixa de seleção ao lado de cada criativo a ser adicionado do painel direito e clique em **[!UICONTROL Add Creatives]**.
 

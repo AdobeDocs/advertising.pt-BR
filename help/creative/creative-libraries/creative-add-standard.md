@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Adicionar um criativo do HTML5 a uma biblioteca criativa
 
-<!-- verify -->É possível adicionar várias criações HTML5 de um único tipo (simples ou estático) de cada vez.
+É possível adicionar várias criações HTML5 de um único tipo (simples ou estático) de cada vez.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para 
 >* [Tamanhos de criativo com suporte](/help/creative/creative-libraries/creative-sizes.md)
 >* [Visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Anexar e desanexar criações de conjuntos](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [Criações duplicadas](/help/creative/creative-libraries/creative-duplicate.md)
->* [Baixar criações](/help/creative/creative-libraries/creative-download.md)
->* [Excluir criações](/help/creative/creative-libraries/creative-delete.md)
 >* [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Gerenciar bibliotecas criativas](/help/creative/creative-libraries/creative-library-manage.md)

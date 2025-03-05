@@ -2,9 +2,10 @@
 title: Gerencie suas bibliotecas criativas
 description: Saiba como criar, renomear e excluir suas bibliotecas criativas.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-É possível criar várias bibliotecas criativas para cada anunciante. Posteriormente, você poderá preencher cada biblioteca com [criações padrão](creative-add-standard.md) <!-- , dynamic creatives, --> e [pacotes criativos](bundle-manage.md). Sua equipe de conta do Adobe também pode adicionar criações dinâmicas às suas bibliotecas.
+É possível criar várias bibliotecas criativas para cada anunciante. Posteriormente, você pode preencher cada biblioteca com [criações padrão](creative-add-standard.md)<!-- , dynamic creatives, --> e [pacotes criativos](bundle-manage.md). Sua equipe de conta da Adobe também pode adicionar criações dinâmicas às suas bibliotecas.
 
 ## Criar uma biblioteca criativa
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ## Excluir bibliotecas criativas
 
-É possível excluir bibliotecas com criações e pacotes que não estão atribuídos a uma experiência em tempo real.<!-- Add an x-ref?  --> Remova todos os grupos ou criações atribuídos a uma experiência ao vivo da árvore decisória para a experiência <!-- add x-ref --> antes de continuar.
+Você pode excluir bibliotecas com criações e pacotes que não estão atribuídos a uma experiência [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Para uma experiência direcionada ao vivo, [remova todos os elementos de criação ou pacotes da árvore de decisão](/help/creative/experiences/experience-target-node-delete.md) para a experiência antes de continuar.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
       * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
 
-   * Para excluir uma ou mais bibliotecas, marque a caixa de seleção para cada biblioteca que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete].
+   * Para excluir uma ou mais bibliotecas, marque a caixa de seleção para cada biblioteca que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete]**.
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
 

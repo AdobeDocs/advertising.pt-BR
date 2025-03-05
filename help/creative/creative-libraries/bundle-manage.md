@@ -2,9 +2,10 @@
 title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -103,11 +104,13 @@ As alterações no nome de um pacote são propagadas em todas as experiências a
 
 ## Anexar criações a um pacote
 
-Você pode anexar [criações padrão existentes](/help/creative/creative-libraries/creative-libraries-about.md) a um pacote padrão e anexar criações dinâmicas existentes <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size + language\].
+Você pode anexar [criações padrão existentes](/help/creative/creative-libraries/creative-libraries-about.md) a um pacote padrão e anexar criações dinâmicas existentes<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size + language\].
 
+<!--
 >[!NOTE]
 >
->Você também pode [anexar criações a pacotes a partir das exibições de Anúncios padrão e Anúncios dinâmicos](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Excluir pacotes
 
-Você pode excluir pacotes que não estão atribuídos a uma experiência em tempo real.<!-- Add an x-ref?  --> Se um pacote for atribuído a uma experiência ao vivo, remova o pacote da árvore decisória da experiência<!-- add x-ref --> antes de continuar.
+Você pode excluir pacotes que não estão atribuídos a uma experiência [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Se um pacote for atribuído a uma experiência ao vivo, [remova o pacote da árvore decisória](/help/creative/experiences/experience-target-node-delete.md) para a experiência antes de continuar.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -250,5 +253,6 @@ Você pode excluir pacotes que não estão atribuídos a uma experiência em tem
 >[!MORELIKETHIS]
 >
 >* [Atribuir e cancelar atribuição de pacotes criativos a um nó final em uma experiência](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gerenciar bibliotecas criativas](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)

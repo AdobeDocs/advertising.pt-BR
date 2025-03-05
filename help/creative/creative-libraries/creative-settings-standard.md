@@ -1,24 +1,24 @@
 ---
-title: Configurações de criação
+title: Configurações do Creative
 description: Saiba mais sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
 
-# Configurações de criação
+# Configurações do Creative
 
 *Beta fechado*
 
-A configuração varia de acordo com o tipo de criação.
+As configurações variam por tipo de criação.
 
 Ao editar várias criações ao mesmo tempo:
 
-* É possível editar as configurações de cada criativo ao mesmo tempo ou individualmente. Por padrão, todas as criações escolhidas são selecionadas e todas as configurações especificadas são aplicadas a todas as criações selecionadas. Para editar configurações de criações específicas, desmarque cada criação inaplicável antes de editar os campos; repita para criações adicionais, se necessário.
+* É possível editar as configurações de cada criativo ao mesmo tempo ou individualmente. Por padrão, todas as criações escolhidas são selecionadas, e todas as configurações especificadas são aplicadas a todas as criações selecionadas. Para editar configurações de criações específicas, desmarque cada criação inaplicável antes de editar os campos; repita para criações adicionais, se necessário.
 
 * Algumas configurações são aplicadas a todas as criações selecionadas.
 
@@ -26,7 +26,7 @@ Ao editar várias criações ao mesmo tempo:
 
 ### Guia Detalhes
 
-**Nome da Criação:** O nome da criação. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome fácil de encontrar ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
@@ -66,7 +66,7 @@ Para obter informações sobre atributos disponíveis em modelos predefinidos, c
 
 O arquivo de modelo flexível do HTML5 para o criativo.
 
-Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usarão subsequentemente o layout do novo modelo.
+Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usam subsequentemente o layout do novo modelo.
 
 Ao atualizar o modelo de um criativo principal com variações secundárias, as variações são atualizadas com todas as alterações no layout do modelo, mas os valores de atributo da variação não são alterados.
 
@@ -94,7 +94,7 @@ Para substituir o modelo de publicidade existente:
 
 Para novas criações, as configurações a seguir não estão em uma guia nomeada.
 
-**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome fácil de encontrar ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
@@ -126,7 +126,7 @@ Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é p
 
 O arquivo de modelo HTML5 para o criativo.
 
-Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usarão subsequentemente o layout do novo modelo.
+Opcionalmente, é possível substituir o modelo existente por um novo que tenha um layout diferente, mas tenha o mesmo conjunto de nomes de atributo que o modelo original. O novo modelo deve estar em formato ZIP com no máximo 2 MB. Quando o criativo está em um pacote, todas as experiências que usam o pacote usam subsequentemente o layout do novo modelo.
 
 Ao atualizar o modelo de um criativo principal com variações secundárias, as variações são atualizadas com todas as alterações no layout do modelo, mas os valores de atributo da variação não são alterados.
 
@@ -152,13 +152,13 @@ Para substituir o modelo de publicidade existente:
 
 **Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome fácil de encontrar ao incluir o criativo em uma experiência.
 
-**Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. O mesmo valor se aplica a todas as imagens selecionadas. &lt;!— VERIFIQUE SE ALGO PODE ACONTECER NO NÍVEL DO PACOTE e se as configurações da experiência estão somente no nível da experiência: ao incluir os elementos de criação em uma experiência, você pode, opcionalmente, personalizar as preferências de idioma da experiência.
+**Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. O mesmo valor se aplica a todas as imagens selecionadas. Ao incluir os elementos de criação em uma experiência, é possível personalizar as preferências de idioma da experiência.
 
 **Tamanho de Criação:** (Somente leitura) As dimensões das imagens carregadas.
 
 **URL da página de aterrissagem:** a URL da página de aterrissagem padrão para cada anúncio ao qual você associa as criações. O URL da página de aterrissagem deve ser um URL válido começando com http:// ou https://. Ele pode incluir parâmetros de rastreamento de terceiros ou [[!DNL Creative] macros](/help/creative/creative-macros.md) para seu próprio uso. O mesmo valor se aplica a todas as imagens selecionadas.
 
-Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é possível alterar o URL da página inicial, bem como adicionar URLs de rastreamento de impressões e cliques e JavaScript para cada criativo no pacote. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+Ao incluir um criativo em um pacote e, em seguida, atribuir o pacote a uma experiência, é possível alterar o URL da página inicial, bem como adicionar URLs de rastreamento de impressões e cliques e JavaScript para cada criativo no pacote. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative].
 
@@ -172,21 +172,21 @@ Ao incluir um criativo em um pacote e atribuir o pacote a uma experiência, é p
 
 ## Configurações de criação de terceiros {#creative-settings-third-party}
 
-**JavaScriptCode:** uma marca JavaScript (e, opcionalmente, uma marca alternativa para navegadores sem suporte a JavaScript) que aponta para o criativo no servidor de anúncios de terceiros. O script varia de acordo com o servidor de publicidade. Ao editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
+**JavaScriptCode:** uma marca JavaScript (e, opcionalmente, uma marca alternativa para navegadores sem suporte a JavaScript) que aponta para o criativo no servidor de anúncios de terceiros. O script pode variar por servidor de publicidade. Ao editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
 Todas as [macros disponíveis](/help/creative/creative-macros.md) e os dados com os quais elas foram substituídas estão listados abaixo do campo de entrada. Para inserir uma das macros na marca, mantenha o cursor sobre a descrição da macro e clique em ![Copiar para a área de transferência](/help/creative/assets/copy-to-clipboard.png "Copiar para a área de transferência") e cole a imagem no local desejado dentro da marca.
 
-Ao incluir esse criativo em uma experiência que você implementa como um anúncio de uma DSP, a DSP usa as informações nessa tag para exibir o anúncio e rastrear impressões e cliques nele, e então envia a tag para a troca de anúncios. Quando o anúncio é exibido e clicado, o servidor de anúncios, o DSP e [!DNL Creative] rastrearão os eventos.
+Ao incluir esse criativo em uma experiência que você implementa como um anúncio de uma DSP, a DSP usa as informações nessa tag para exibir o anúncio e rastrear impressões e cliques nele. A DSP envia a tag para a troca de anúncios. Quando o anúncio é exibido e clicado, o servidor de anúncios, o DSP e [!DNL Creative] rastreiam os eventos.
 
 **[!UICONTROL Advertiser]:** (Somente leitura) O anunciante para o qual a biblioteca está disponível.
 
 **Nome da Criação:** O nome da criação. **Dica:** use um nome fácil de encontrar ao incluir o criativo em uma experiência.
 
-**Tamanho da Criação:** (Somente leitura para anúncios existentes) As dimensões da criação. Para novas criações, selecione em uma lista de tamanhos de anúncio padrão.
+**Tamanho do Creative:** (Somente leitura para anúncios existentes) As dimensões do criativo. Para novas criações, selecione em uma lista de tamanhos de anúncio padrão.
 u
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações.
 
-**URL da página de aterrissagem:** a URL da página de aterrissagem usada para validar cada anúncio ao qual você associa as criações. A página de aterrissagem real de cada anúncio é determinada pelo servidor de anúncios de terceiros.
+**URL da página de aterrissagem:** a URL da página de aterrissagem usada para validar cada anúncio ao qual você associa as criações. O servidor de anúncios de terceiros determina a página de aterrissagem real de cada anúncio.
 
 **Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative].
 

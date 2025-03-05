@@ -3,7 +3,7 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -41,7 +41,11 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
      >
      >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertença a vários segmentos, somente um segmento faturável será creditado com a impressão.
 
-   * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão de Adobe Advertising. Este relatório inclui atribuição multitoque.
+   * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** Use este modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 
@@ -83,7 +87,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
       * [!UICONTROL Campaign ID] ou [!UICONTROL Campaign Name]: mostra quais campanhas ajudaram no processo de conversão.
 
-      * [!UICONTROL Ad ID] ou [!UICONTROL Ad Name] mostra quais anúncios de DSP resultaram em conversões.
+      * [!UICONTROL Ad ID] ou [!UICONTROL Ad Name] mostra quais anúncios do DSP resultaram em conversões.
 
       * [!UICONTROL Ad ID & Paid Keyword (SSC)] ou [!UICONTROL Ad Name & Paid Keyword (SSC)] mostra quais palavras-chave do Search, Social e Commerce resultaram em conversões.
 
@@ -91,7 +95,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      Até os 10 pontos de interação mais recentes são incluídos. As linhas de caminho são ordenadas pelo número de conversões.
 
-     Para obter uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics, consulte &quot;[Perguntas frequentes sobre Relatórios Personalizados](/help/dsp/reports/faq-reports.md).&quot;
+     Para uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e o Adobe Analytics, consulte &quot;[Perguntas frequentes sobre Relatórios Personalizados](/help/dsp/reports/faq-reports.md).&quot;
 
    * **[!UICONTROL Path Length Beta]:** (recurso Beta) Use este relatório para      rastreie o número de pontos de interação do usuário necessários para conversões ao longo do tempo, para que você possa escolher a frequência de publicidade ideal. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
 
@@ -101,7 +105,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
 ## Relatório entre contas {#cross-account-reporting}
 
-Qualquer organização com várias contas DSP pode, opcionalmente, ativar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder acesso à Conta A aos dados da Conta B e conceder acesso à Conta B aos dados da Conta C (mas não da Conta A). Para ativar e configurar esse recurso, entre em contato com a equipe de conta do Adobe.
+Qualquer organização com várias contas do DSP pode, opcionalmente, ativar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder acesso à Conta A aos dados da Conta B e conceder acesso à Conta B aos dados da Conta C (mas não da Conta A). Para habilitar e configurar esse recurso, entre em contato com a equipe de conta da Adobe.
 
 Depois que o recurso for habilitado para sua organização, você poderá [filtrar](report-settings.md) qualquer um dos seguintes tipos de relatório por conta: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion].
 
@@ -133,6 +137,6 @@ Você pode criar novos relatórios personalizados, editar relatórios existentes
 >* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
 >* [Perguntas Frequentes sobre Relatórios Domésticos](/help/dsp/reports/faq-reports.md)
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
 >* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

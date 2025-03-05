@@ -3,7 +3,7 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ Desanexar um criativo do pacote não exclui o criativo da guia Criativos na bibl
 
 ## Pré-visualização de um criativo em um pacote
 
-Você pode visualizar um criativo como os visualizadores o verão, com hiperlinks.
+Você pode visualizar um criativo como os visualizadores o verão, incluindo hiperlinks.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

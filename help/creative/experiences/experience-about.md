@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **Experiências com direcionamento de árvore de decisão:** [!DNL Creative] permite configurar experiências de anúncio personalizadas em toda a jornada do cliente usando um modelo de árvore de decisão. Você pode personalizar todos os elementos de anúncios — imagens, títulos, ofertas e páginas de aterrissagem — com base no público-alvo.
 
-  Por exemplo, você pode especificar o mesmo pacote criativo para as pessoas em Chicago e Nova York que estão em um segmento específico de público-alvo do Adobe Analytics, mas enviar as pessoas em Chicago que estão no mesmo segmento para páginas de aterrissagem diferentes de Nova York. Você também pode especificar um pacote diferente para as pessoas no segmento que vivem em qualquer lugar, exceto Chicago e Nova York, e um terceiro pacote para outras pessoas que não estão no segmento.
+  Por exemplo, você pode especificar o mesmo pacote criativo para as pessoas de Chicago e Nova York que estão em um segmento específico de público-alvo do Adobe Analytics, mas enviar as pessoas de Chicago para landing pages diferentes das de New Yorkers. Você também pode especificar um pacote diferente para as pessoas no segmento que vivem em qualquer lugar, exceto Chicago e Nova York, e um terceiro pacote para outras pessoas que não estão no segmento.
 
-  As opções de direcionamento incluem visualizadores em seus segmentos de público-alvo primários da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP; visualizadores em localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e CEPs; visualizadores para os quais pares de valores-chave específicos (alvos de transmissão de dados) são transmitidos pela DSP, publicador ou parceiro; visualizadores com [!DNL Creative] pixels de redirecionamento e valores de atributo especificados; e visualizadores com tipos de dispositivo, sistemas operacionais e navegadores específicos.
+  As opções de direcionamento incluem:
 
-  Você pode atribuir pacotes criativos a cada experiência, opcionalmente personalizando a otimização e o agendamento dos pacotes criativos e alterando as páginas de aterrissagem padrão e as URLs de rastreamento<!-- and any flexible attributes --> para criações individuais em cada pacote.
+   * Seus segmentos de público-alvo primários da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP
 
-* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Você especificará datas de início e término e algumas configurações padrão para cada experiência, mas grande parte do fluxo de trabalho não está diretamente dentro da experiência. Em vez de adicionar criações diretamente à experiência, você cria uma tag de anúncio para cada tamanho de anúncio da experiência e adiciona criações a ela, configura a otimização criativa e o agendamento e personaliza as páginas de aterrissagem e URLs de rastreamento de dentro do [!UICONTROL Tag Manager].
+   * Localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e códigos postais
+
+   * Visualizadores para os quais pares de valor-chave específicos (destinos de transmissão de dados) são transmitidos pelo DSP, editor ou parceiro
+
+   * [!DNL Creative] redirecionando pixels e valores de atributo especificados
+
+   * Tipos de dispositivos, sistemas operacionais e navegadores específicos
+
+  Você pode atribuir pacotes criativos a cada experiência. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- and any flexible attributes --> para criações individuais em cada pacote.
+
+* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, você usa o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento, além de personalizar as páginas de aterrissagem e URLs de rastreamento.
 
 ## Otimização de anúncios
 
@@ -37,7 +47,7 @@ O [!DNL Creative] otimiza os elementos de anúncio para qualquer experiência co
 
 ## Implementação e gerenciamento de experiências
 
-Depois de criar uma experiência ao vivo (com todos os elementos de anúncio necessários), você pode [gerar uma tag de JavaScript ou iframe para toda a experiência](experience-tag-export.md), que você pode, opcionalmente, carregar como um anúncio para uma campanha no Adobe Advertising DSP ou implementar como um anúncio em uma DSP de terceiros. [!DNL Creative] veicula anúncios para a experiência com base nas opções de direcionamento e rotação de anúncios, bem como no inventário de anúncios disponível.
+Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementar como um anúncio em uma DSP de terceiros. [!DNL Creative] veicula anúncios para a experiência com base nas opções de direcionamento e rotação de anúncios, bem como no inventário de anúncios disponível.
 
 ## Dados de desempenho para suas experiências
 
@@ -61,11 +71,11 @@ You can [view detailed performance data for any experience](experience-performan
 
 O status de uma experiência é definido automaticamente, exceto por *excluído*, que você definiu manualmente.
 
-*Ao vivo:* a experiência inclui todos os elementos necessários, de modo que você possa gerar uma marca de experiência para implementar como um anúncio em uma DSP. <!-- A live experience may be scheduled to start in the future -->
+*Ao vivo:* a experiência inclui todos os elementos necessários para que você possa gerar uma marca de experiência para implementar como um anúncio em uma DSP. <!-- A live experience may be scheduled to start in the future -->
 
 *Rascunho:* Todas as ramificações da experiência não recebem criações, portanto, a experiência está incompleta e você não pode gerar uma marca de experiência.
 
-*Processando:* uma experiência online anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda será disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão será disponibilizada usando a implementação de tag existente.
+*Processando:* uma experiência online anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda poderá ser disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão poderá ser disponibilizada usando a implementação de tag existente.
 
 *Excluída:* a experiência foi excluída de [!DNL Creative] e não está mais visível nos modos de exibição [!UICONTROL Experiences].
 

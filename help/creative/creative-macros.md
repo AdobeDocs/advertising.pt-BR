@@ -3,7 +3,7 @@ title: Macros disponíveis para rastrear URLs
 description: Referencie as macros que você pode adicionar aos URLs da sua página inicial, URLs de rastreamento e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Você pode incluir qualquer uma das seguintes macros em seus criativos de terceiros, em URLs de rastreamento de terceiros para suas experiências e em URLs de páginas de aterrissagem para seu próprio uso.
 

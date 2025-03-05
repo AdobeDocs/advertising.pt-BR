@@ -3,7 +3,7 @@ title: Gerenciar pixels de redirecionamento
 description: Saiba como criar e implementar pixels de redirecionamento para usar como destinos para experiências de anúncio.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Exemplo de pixel:
 
 >[!NOTE]
 >
-> * Atualmente, o [!DNL Creative] oferece suporte a IDs universais apenas para Advertising DSP. Uma versão futura oferecerá suporte a IDs universais para DSPs de terceiros.<!-- Clarify this and reword as needed -->
+> * Atualmente, o [!DNL Creative] oferece suporte a IDs universais apenas para Advertising DSP. Uma versão futura oferecerá suporte a IDs universais para DSPs de terceiros.<!-- Clarify this and reword as needed  -->
 >* Você também pode usar seus públicos-alvo primários da Adobe Audience Manager e da Adobe Analytics como [alvos criativos para suas experiências](/help/creative/experiences/experience-settings-targeting.md).
 >* Ao usar uma experiência como um anúncio em um posicionamento do Advertising DSP, você pode direcionar o posicionamento para todos os públicos-alvo disponíveis no DSP. Você também pode [criar tags personalizadas de segmento de público-alvo](/help/dsp/audiences/custom-segment-create.md) para rastrear todos os visitantes de páginas de aterrissagem específicas e, em seguida, usar esses segmentos como alvos criativos para um posicionamento.
 >* Os visitantes do site que optaram por não ser rastreados para direcionamento de anúncios não recebem anúncios com conteúdo criativo personalizado com base no segmento de público-alvo ou no perfil de redirecionamento.

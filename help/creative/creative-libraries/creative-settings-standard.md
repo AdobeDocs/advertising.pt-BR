@@ -3,9 +3,9 @@ title: Configurações do Creative
 description: Saiba mais sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Ao editar várias criações ao mesmo tempo:
 
 ### Guia Detalhes
 
-**Nome da Criação:** O nome da criação. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
@@ -94,7 +94,7 @@ Para substituir o modelo de publicidade existente:
 
 Para novas criações, as configurações a seguir não estão em uma guia nomeada.
 
-**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
@@ -150,7 +150,7 @@ Para substituir o modelo de publicidade existente:
 
 ## Configurações de criação da imagem {#creative-settings-image}
 
-**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. O mesmo valor se aplica a todas as imagens selecionadas. Ao incluir os elementos de criação em uma experiência, é possível personalizar as preferências de idioma da experiência.
 
@@ -180,7 +180,7 @@ Ao incluir esse criativo em uma experiência que você implementa como um anúnc
 
 **[!UICONTROL Advertiser]:** (Somente leitura) O anunciante para o qual a biblioteca está disponível.
 
-**Nome da Criação:** O nome da criação. **Dica:** use um nome fácil de encontrar ao incluir o criativo em uma experiência.
+**Nome da Criação:** O nome da criação. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Tamanho do Creative:** (Somente leitura para anúncios existentes) As dimensões do criativo. Para novas criações, selecione em uma lista de tamanhos de anúncio padrão.
 u

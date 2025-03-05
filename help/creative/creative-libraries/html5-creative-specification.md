@@ -3,7 +3,7 @@ title: Especificação criativa do HTML5
 description: Consulte a especificação criativa do HTML5 para Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Especificação criativa do HTML5 para Advertising Creative
 
-Este documento descreve os requisitos e o suporte à API para criações do HTML5 no [!DNL Creative]. A API permite o desenvolvimento de criativos HTML5 cujos atributos podem ser configurados no momento da entrega criativa.
+Este documento descreve os requisitos e o suporte à API para criações do HTML5 no [!DNL Creative]. A API oferece suporte ao desenvolvimento de criações do HTML5 cujos atributos podem ser configurados no momento da entrega criativa.
 
 ## Escopo
 

@@ -2,9 +2,10 @@
 title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ ht-degree: 0%
 
          * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
 
-      * Pacotes de criação:
+      * Pacotes do Creative:
 
          * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
 
-           Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para ser publicada, a experiência deve ser atribuída a pacotes ou usar os criativos padrão para todos os anúncios criados a partir dela.
+           Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
 
          * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 

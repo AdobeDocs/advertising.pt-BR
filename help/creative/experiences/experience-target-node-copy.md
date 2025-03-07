@@ -2,9 +2,10 @@
 title: Copiar nós filhos para outro nó de destino no mesmo nível
 description: Saiba como copiar todos os nós filhos de um nó de destino pai para outro nó de destino no mesmo nível
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Experiências somente com direcionamento de árvore de decisão*
 *Beta fechado*
 
-Você pode copiar todos os nós filhos de um nó de destino pai (incluindo todos os destinos filhos e os pacotes criativos atribuídos a eles) para outro nó de destino no mesmo nível, adicionando os nós copiados à estrutura existente ou substituindo completamente a estrutura existente. <!-- Give the main use case or an example to explain. -->
+Você pode copiar todos os nós filhos de um nó de destino pai (incluindo todos os destinos filhos e os pacotes criativos atribuídos a eles) para outro nó de destino no mesmo nível. Você pode copiar os nós a) adicionando os nós copiados à estrutura existente ou b) substituindo completamente a estrutura existente. <!-- Give the main use case or an example to explain. -->
 
 Esse recurso não afeta o destino especificado para o nó principal, afeta apenas os nós secundários.
 

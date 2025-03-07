@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Somente leitura para experiências existentes) O anunciante que fará lances nas combinações criativa e de destino incluídas na experiência. Depois de salvar a experiência, você não poderá alterar o anunciante.
 
-**[!UICONTROL Experience Name]:** Um nome exclusivo para a experiência. **Dica:** use um nome fácil de encontrar quando você usar a experiência como um anúncio no Advertising DSP ou em outra DSP.
+**[!UICONTROL Experience Name]:** Um nome exclusivo para a experiência. **Dica:** use um nome que possa ser facilmente encontrado ao usar a experiência como um anúncio no Advertising DSP ou em outra DSP.
 
 **[!UICONTROL Creative Library]:** (Somente leitura para experiências existentes) Uma única biblioteca criativa para usar na experiência. Depois de salvar a experiência, você não poderá alterar a biblioteca.
 
@@ -57,9 +57,9 @@ tag, que pode ser gerada para implementar como um anúncio na DSP.
 
 **Raio:** (somente experiências com anúncios dinâmicos; opcional) um raio de um código postal dos Estados Unidos especificado no arquivo de feed a ser direcionado; selecione um raio de 0 a 200 milhas. O arquivo de feed usado para criar os anúncios dinâmicos da experiência deve incluir uma [!UICONTROL ZIP] coluna<!-- or a user-named column mapped to a ZIP column --> com um valor para cada linha de produto no arquivo. Por exemplo, para um raio de 10 milhas, um anúncio de um produto disponível no 95110 pode ser exibido aos usuários dentro de 10 milhas de 95110 (determinado pelo endereço IP do usuário).
 
-**Pixel de RT:** (Somente leitura para experiências existentes; opcional) Um pixel de redirecionamento [!UICONTROL Creative] potencialmente direcionado. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT e especificar o pixel a ser direcionado para cada nó, bem como os valores necessários para os atributos de pixel que devem estar presentes para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel neste campo ao criar a experiência, ainda poderá especificar um na árvore de decisão.<!-- May move this to just within the decision tree. -->
+**Pixel de RT:** (Somente leitura para experiências existentes; opcional) Um pixel de redirecionamento [!UICONTROL Creative] potencialmente direcionado. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT. Para cada nó, você especificará o pixel a ser direcionado e os valores dos atributos de pixel necessários para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel neste campo ao criar a experiência, ainda poderá especificar um na árvore de decisão.<!-- May move this to just within the decision tree. -->
 
-**Rótulo:** <!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] para aplicar à experiência. Você pode filtrar experiências por rótulo na exibição Experiências<!-- sic -->.
+**Rótulo:**<!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] a serem aplicados à experiência. Você pode filtrar experiências por rótulo na exibição Experiências<!-- sic -->.
 
 * Para selecionar rótulos existentes, clique em ![Abaixo](/help/creative/assets/chevron-down.png "Abaixo") e marque a caixa de seleção ao lado de cada rótulo a ser aplicado.
 
@@ -77,7 +77,7 @@ Depois de inserir uma URL, todas as [macros disponíveis](/help/creative/creativ
 >
 >* [!DNL Creative] prefixa automaticamente suas próprias marcas de rastreamento de impressão à URL da página de aterrissagem.
 >* Você pode [substituir esta URL para qualquer criativo na experiência](experience-tracking-urls-targeting.md).
->* Você também pode inserir um código de rastreamento de impressão de terceiros no JavaScript no campo [!UICONTROL Client JS]
+>* Você também pode inserir código de rastreamento de impressão de terceiros no campo [!UICONTROL Client JS] do JavaScript
 
 **URL de Rastreamento de Cliques:** (Opcional) (Opcional) Uma URL de rastreamento de cliques de terceiros a ser anexada à URL da página inicial. É possível incluir até cinco URLs. Para adicionar uma URL adicional, clique em ![ícone](/help/creative/assets/create.png) **[!UICONTROL Add More] e insira a URL.
 

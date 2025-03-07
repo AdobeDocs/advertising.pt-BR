@@ -2,9 +2,10 @@
 title: Compartilhar um URL de demonstração para uma experiência
 description: Saiba como compartilhar um URL de demonstração de uma experiência.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ Você pode permitir que outras pessoas sem logon no [!DNL Creative] visualizem u
 1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar").
 
 1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
+
+>[!MORELIKETHIS]
+>
+>* [Visualizar uma experiência](/help/creative/experiences/experience-preview.md)

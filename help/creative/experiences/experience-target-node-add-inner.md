@@ -2,9 +2,10 @@
 title: Adicionar um nó de direcionamento entre nós em uma experiência
 description: Saiba como adicionar um nó de direcionamento entre os corpos de direcionamento em uma experiência de anúncio.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Ao inserir um nó de destino entre níveis existentes, o novo nó de destino retém todos os destinos e criações secundários existentes, e o novo nó é chamado inicialmente de &quot;Todos&quot;. Como opção, você pode manter o novo nó sem adicionar destinos mais específicos.
 
-Para definir um destino específico, adicione outro nó de destino irmão no mesmo nível, especifique o novo destino e atribua criações somente a esse destino. Isso cria o novo nó de destino e move todos os destinos e criações secundários que foram atribuídos anteriormente a &quot;Todos&quot; para um novo nó &quot;Todo mais&quot; no mesmo nível. Dessa forma, as ramificações secundárias existentes não serão afetadas pela adição do novo destino, pois somente o novo nó irmão inclui as novas informações de direcionamento.
+Para definir um destino específico, adicione outro nó de destino irmão no mesmo nível, especifique o novo destino e atribua criações somente a esse destino. Adicionar um nó de destino irmão cria o novo nó de destino e move todos os destinos e criações filhos anteriormente atribuídos a &quot;Todos&quot; para um novo nó &quot;Tudo mais&quot; no mesmo nível. Dessa forma, a adição do novo destino não afeta as ramificações secundárias existentes, pois somente o novo nó irmão inclui as novas informações de direcionamento.
 
 >[!NOTE]
 >
@@ -32,7 +33,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
       1. Selecione o tipo de destino e clique em **[!UICONTROL Apply]**:
 
-         * Para públicos-alvo do Adobe, selecione **[!UICONTROL Adobe Audience]**.
+         * Para Públicos-alvo da Adobe, selecione **[!UICONTROL Adobe Audience]**.
 
          * Para destinos geográficos, selecione uma única categoria geográfica (como [!UICONTROL Geo: Country]).
 
@@ -44,13 +45,13 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
    * Se os nós irmãos já existirem, faça o seguinte:
 
-      * Para públicos-alvo do Adobe, faça o seguinte:
+      * Para Públicos-alvo da Adobe, faça o seguinte:
 
          1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Opcional) Para criar vários nós de destino quando vários públicos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-            Isso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados.
+            Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados.
 
          1. Clique em **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
          1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-            Isso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
+            Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
 
          1. Clique em **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
         A chave do par chave-valor já está definida no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md).
 
-      * Para um destino de pixel de redirecionamento, selecione um único pixel de redirecionamento a ser usado e os valores necessários para qualquer atributo de pixel que deve estar presente para mostrar as criações e clique em **[!UICONTROL Apply]**.
+      * Para um destino de pixel de redirecionamento, selecione um único pixel de redirecionamento a ser usado e os valores de qualquer atributo de pixel necessário para mostrar as criações e clique em **[!UICONTROL Apply]**.
 
         Os atributos do pixel de redirecionamento estão configurados nas [configurações do pixel de redirecionamento](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -80,7 +81,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
          1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-            Isso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
+            Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
 
          1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
@@ -90,7 +91,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
    * (Opcional) [Atribuir criativos](experience-assign-creative-bundles.md) ao novo nó de destino e ao nó &quot;Todo Resto&quot;.
 
-   * (Opcional) [Adicione um nó de destino irmão](experience-target-node-add-sibling.md) que incluirá um destino do tipo especificado.
+   * (Opcional) [Adicione um nó de destino irmão](experience-target-node-add-sibling.md) do tipo de destino especificado.
 
    * (Opcional) Para salvar a experiência:
 

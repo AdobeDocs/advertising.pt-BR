@@ -3,9 +3,9 @@ title: Criar manualmente uma tag de anúncio para um tamanho de criação aplic�
 description: Saiba como criar uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 1. Insira um **[!UICONTROL Tag name]** exclusivo e selecione o **[!UICONTROL Tag size]**.
 
-   Os tamanhos criativos disponíveis são determinados pelos tamanhos das criações de imagem padrão para a experiência.
+   Os tamanhos das criações de imagem padrão para a experiência determinam os tamanhos de criação disponíveis.
 
    É possível criar várias marcas para o mesmo tamanho criativo.<!-- What are the implications? -->
 
 1. Clique em **[!UICONTROL Create]**.
 
-   É possível expandir a linha de tags para ver as criações incluídas.
+   É possível expandir a linha de tag para ver as criações incluídas.
 
 >[!MORELIKETHIS]
 >

@@ -2,9 +2,10 @@
 title: Adicionar um nó de direcionamento ao nível final em uma experiência
 description: Saiba como adicionar um nó de direcionamento ao nível de destino final de uma experiência de anúncio.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Experiências somente com direcionamento de árvore de decisão*
 *Beta fechado*
 
-Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó raiz &quot;Tudo&quot;, um nó específico do destino ou um nó &quot;Tudo mais&quot;, você define o destino diretamente, sem precisar criar um nó irmão. Isso cria o nó de destino e um nó adicional &quot;Everything Else&quot; no mesmo nível.
+Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó &quot;All&quot; raiz, um nó específico do destino ou um nó &quot;Everything Else&quot;, você define o destino diretamente e não precisa criar um nó irmão. Adicionar um nó de nível inferior cria o nó de destino e um nó &quot;Everything Else&quot; adicional no mesmo nível.
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
 1. Especifique os destinos:
 
-   * Para destinos de Público-alvo do Adobe, selecione **[!UICONTROL Adobe Audience]** e faça o seguinte:
+   * Para públicos-alvo da Adobe, selecione **[!UICONTROL Adobe Audience]** e faça o seguinte:
 
       1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Create]**.
 
       1. (Opcional) Para criar vários nós de destino quando vários públicos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-         Isso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados.
+         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados.
 
       1. Clique em **[!UICONTROL Apply]**.
 
@@ -44,7 +45,7 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
       1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-         Isso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
+         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
 
       1. Clique em **[!UICONTROL Apply]**.
 
@@ -52,7 +53,7 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
    A chave do par chave-valor já está definida no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md).
 
-   * Para um destino de pixel de redirecionamento, selecione **[!UICONTROL RT Pixel]**, selecione um único pixel de redirecionamento a ser usado e os valores necessários para qualquer atributo de pixel que deve estar presente para mostrar as criações, em seguida, clique em **[!UICONTROL Apply]**.
+   * Para um destino de pixel de redirecionamento, selecione **[!UICONTROL RT Pixel]**, selecione um único pixel de redirecionamento a ser usado e os valores de qualquer atributo de pixel necessário para mostrar as criações e clique em **[!UICONTROL Apply]**.
 
      Os atributos do pixel de redirecionamento estão configurados nas [configurações do pixel de redirecionamento](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -62,7 +63,7 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
       1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-         Isso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
+         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados.
 
       1. Clique em **[!UICONTROL Apply]**.
 

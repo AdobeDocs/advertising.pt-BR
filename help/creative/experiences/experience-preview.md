@@ -2,9 +2,10 @@
 title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
    * Para a rotação de anúncios algorítmicos, o criativo é selecionado com base na meta de otimização.
 
-   * Para uma rotação de anúncios ponderada, o criativo é selecionado com base nos pesos especificados (como uma chance de 80% de que o Creative A seja exibido e uma chance de 20% de que o Creative B seja exibido) a cada vez.
+   * Para uma rotação de anúncios ponderada, o criativo é selecionado com base nos pesos especificados (como uma chance de 80% de a Creative A ser exibida e uma chance de 20% de a Creative B ser exibida) cada vez.
 
-   * Para a rotação de anúncios agendada, você verá inicialmente o primeiro criativo no agendamento e poderá continuar atualizando a visualização para continuar pela sequência.<!-- Refresh isn't there as of 2/3 -->
+   * Para a rotação de anúncios programada, é exibida a primeira criação no agendamento. Você pode continuar atualizando a visualização para continuar pela sequência.<!-- Refresh isn't there as of 2/3 -->
 
 ## Pré-visualizar criações em uma experiência com direcionamento de árvore de decisão
 

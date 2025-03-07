@@ -3,7 +3,7 @@ title: Exportar e implementar uma tag de experiência de anúncio para uma exper
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
       1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL DSP link]** no menu esquerdo.
 
-      1. Selecione a campanha para a qual a tag de publicidade ficará disponível.
+      1. Selecione a campanha na qual deseja fazer upload da tag de publicidade.
 
       1. Clique em **[!UICONTROL Assign Tags]**.
 

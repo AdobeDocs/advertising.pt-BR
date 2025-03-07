@@ -3,9 +3,9 @@ title: Relatórios de desempenho de nível de experiência
 description: Saiba como visualizar relatórios de desempenho no nível da experiência.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ A visualização Relatório inclui os seguintes dados:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista dos <!-- NN --> principais dispositivos de criação atendidos com esse critério.
+      * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN --> principais criações fornecidas com esse critério.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ A visualização Relatório inclui os seguintes dados:
 
       * Para especificar um período predefinido, selecione o relatório: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* ou *[!UICONTROL Yesterday]*.
 
-      * Para especificar um intervalo de datas personalizado, especifique a data de início e a data de término <!-- in the format MM/DD/YYYY or M/D/YYYY,--> ou clique em ![ícone de calendário](/help/search-social-commerce/assets/calendar.png) ao lado de um campo e selecione uma data.
+      * Para especificar um intervalo de datas personalizado, especifique a data de início e a data de término<!-- in the format MM/DD/YYYY or M/D/YYYY,--> ou clique em ![ícone de calendário](/help/search-social-commerce/assets/calendar.png) ao lado de um campo e selecione uma data.
 
    * (Opcional) Para alterar a regra usada para atribuir dados de conversão em uma série de eventos que levam a uma conversão, clique em ![Configurações](/help/creative/assets/settings.png) e altere a **[!UICONTROL Attribution Rule]**.
 
-   * (Opcional) Para alterar as conversões relatadas, clique em ![Configurações](/help/creative/assets/settings.png) e selecione os nomes das conversões no menu **[!UICONTROL Conversions]**.&lt;!— Apenas um ou múltiplos? Verifique como elas são exibidas. Preciso ver um anunciante com várias conversões já configuradas.>
+     Para obter mais informações sobre regras de atribuição, consulte &quot;[Como as regras de atribuição são calculadas](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-     As colunas de conversão disponíveis incluem as conversões disponíveis no Advertising Search, Social e Commerce, independentemente de você ser ou não cliente do Search, Social e Commerce. Isso pode incluir métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics quando o anunciante tiver [uma [!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Para obter mais informações sobre a inclusão de conversões coletadas em relatórios, consulte o tópico do Guia de Pesquisa, Social e Commerce &quot;[Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot;
+   * (Opcional) Para alterar as conversões relatadas, clique em ![Configurações](/help/creative/assets/settings.png) e selecione os nomes das conversões no menu **[!UICONTROL Conversions]**.&lt;!— Apenas um ou múltiplos? Verifique como elas são exibidas. Preciso ver um anunciante com várias conversões configuradas. A partir de 6/3, vejo apenas &quot;Selecionar tudo&quot;. —>
+
+     As colunas de conversão disponíveis incluem as conversões disponíveis no Advertising Search, Social e Commerce, independentemente de você ser ou não cliente do Search, Social e Commerce. A lista pode incluir métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics quando o anunciante tiver [uma [!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Para obter mais informações sobre a inclusão de conversões coletadas em relatórios, consulte o tópico do Guia de Pesquisa, Social e Commerce &quot;[Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot;
 
 1. (Na guia [!UICONTROL Overview]):
 
@@ -136,7 +138,7 @@ A visualização Relatório inclui os seguintes dados:
 
       * Mantenha o cursor sobre o valor de qualquer categoria de dispositivo para ver os dados desse critério.
 
-      * Clique no valor de qualquer categoria de dispositivo para ver uma lista dos <!-- NN--> principais dispositivos de criação atendidos com esse critério.
+      * Clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN--> principais criações atendidas com esse critério.
 
 1. (Opcional) Para exibir dados por criativo e por pacote ou tag de anúncio, clique na guia **[!UICONTROL Creative Performance]**.
 
@@ -148,7 +150,7 @@ A visualização Relatório inclui os seguintes dados:
 
       * (Experiências somente com direcionamento de árvore de decisão; opcional) Para dividir o desempenho para cada direcionamento de anúncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
-1. Para exibir dados por pacote (experiências com direcionamento de árvore decisória) ou tag de anúncio (experiências sem direcionamento de árvore decisória), clique na subguia **[!UICONTROL Bundles]**. Você pode executar qualquer um dos seguintes procedimentos:
+1. Para exibir dados por conjunto (experiências com direcionamento de árvore decisória) ou tag de anúncio (experiências sem direcionamento de árvore decisória), clique na subguia **[!UICONTROL Bundles]**. Você pode executar qualquer um dos seguintes procedimentos:
 
    * (Opcional) Para alternar entre a exibição de gráfico e a exibição de grade, clique em ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") e ![Grade](/help/creative/assets/table-view-button.png "Grade"), respectivamente.
 
@@ -163,3 +165,5 @@ A visualização Relatório inclui os seguintes dados:
 >[!MORELIKETHIS]
 >
 >* [Relatório de criação personalizado](/help/creative/report-custom-creative.md)
+>* [Baixar todas as experiências no modo de exibição](/help/creative/experiences/experience-download-view.md)
+>* [Sobre experiências no Advertising Creative](/help/creative/experiences/experience-about.md)

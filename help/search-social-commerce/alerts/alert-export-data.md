@@ -3,7 +3,7 @@ title: Exportar dados para alertas personalizados
 description: Saiba como exportar dados de um alerta acionado para um arquivo.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 03475909ca942010e4380456079519f0c18adca3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Você pode exportar dados de um alerta disparado ou dados do alerta disparado ma
 
 1. Na coluna [!UICONTROL Export] ao lado do nome do modelo ou do relatório, clique no nome de um formato e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador:
 
-   * **[!UICONTROL XLS]** — Para uma pasta de trabalho [!DNL Excel] com uma única planilha (XLS). O relatório inclui uma planilha, rotulada na parte superior com os parâmetros, com uma linha para cada componente incluído quando os dados do componente estiverem disponíveis. Linhas sem dados são omitidas. Os relatórios básicos incluem um total para cada coluna numérica.
+   * **[!UICONTROL XLS]:** Para uma pasta de trabalho [!DNL Excel] com uma única planilha (XLS). O relatório inclui uma planilha, rotulada na parte superior com os parâmetros, com uma linha para cada componente incluído quando os dados do componente estiverem disponíveis. Linhas sem dados são omitidas. Os relatórios básicos incluem um total para cada coluna numérica.
 
-   * **[!UICONTROL TSV]** — Para um arquivo TSV. O relatório inclui os parâmetros e uma linha para cada componente incluído.
+   * **[!UICONTROL TSV]:** Para um arquivo TSV. O relatório inclui os parâmetros e uma linha para cada componente incluído.
 
-   * **[!UICONTROL CSV]** — Para um arquivo CSV. O relatório inclui os parâmetros e uma linha para cada componente incluído.
+   * **[!UICONTROL CSV]:** Para um arquivo CSV. O relatório inclui os parâmetros e uma linha para cada componente incluído.
 
 >[!MORELIKETHIS]
 >

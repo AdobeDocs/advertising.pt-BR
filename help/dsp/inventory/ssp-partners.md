@@ -3,9 +3,9 @@ title: Parceiros SSP
 description: Consulte uma lista de SSPs (Supply-Side Platform, plataforma do lado do suprimento) e parceiros de intercâmbio aberto disponíveis.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Uma plataforma do lado da oferta (SSP) é uma plataforma de tecnologia de public
 
 | SSP Listado | Empresa | ID de licença | Suporte programático garantido | Região | Moeda suportada | Inventário Suportado |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (anteriormente [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Global | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho e dispositivo móvel de vídeo |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Suporte PG | Global | USD, EUR, GBP | Desktop de áudio e dispositivos móveis |
 | [!DNL AppNexus] | [!DNL Xandr] | ID do assento de vídeo: 9094<br>ID do assento de vídeo: 3939 | — | Global | USD | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] ou Adobe Advertising | — | EUA + EMEA | USD, EUR | Exibir desktop e dispositivo móvel<br><br>Área de trabalho de vídeo, dispositivo móvel e CTV |

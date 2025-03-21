@@ -3,9 +3,9 @@ title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 * Ver as principais características de todas as recomendações compatíveis da que não foram implementadas em uma conta. As informações para cada entrada incluem o tipo de recomendação, a recomendação [!DNL Adobe], as métricas afetadas, a entidade afetada e um link para mais detalhes. Os aumentos previstos para as métricas são destacados em verde.
 
-  ![INTERFACE DO USUÁRIO DO Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "INTERFACE DO USUÁRIO DO Recommendations")
+  ![Interface do usuário do Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interface do usuário do Recommendations")
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
@@ -38,7 +38,7 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 >[!NOTE]
 >
->Embora as recomendações de rede de anúncios e os insights de desempenho ajudem a melhorar o desempenho da campanha, alguns podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação ou insight.
+>Embora as recomendações de rede de anúncios e os insights de desempenho ajudem a melhorar o desempenho da campanha, alguns podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a equipe de conta da Adobe antes de implementar qualquer recomendação ou insight.
 
 ## Tipos de recomendação com suporte para [!DNL Google Ads]
 
@@ -60,7 +60,6 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Upgrade local campaign to performance max] | Atualizar uma campanha local herdada para uma campanha de desempenho máximo |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Atualize uma campanha de compras inteligentes herdada para uma campanha de desempenho máximo |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Orçamento recomendado para uma campanha atualmente limitada pelo orçamento |
-| | [!UICONTROL Enhanced CPC opt in] | Lance com [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Orçamento recomendado para uma campanha que deve se tornar limitada pelo orçamento no futuro |
 | | [!UICONTROL Forecasting set Target CPA] | Definir um CPA de destino para campanhas sem um antes de um evento sazonal previsto para aumentar o tráfego |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumente o orçamento antes de um evento sazonal previsto para aumentar o tráfego e altere a estratégia de lances de [!UICONTROL Maximize Conversion Value] para [!UICONTROL Target ROAS] |

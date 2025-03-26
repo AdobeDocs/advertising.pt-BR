@@ -2,7 +2,8 @@
 title: Fazer logon no DSP
 description: Saiba como fazer logon no DSP.
 feature: DSP Introduction
-source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
+exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
+source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Fazer logon no Adobe Advertising DSP
 
-O Adobe Advertising DSP está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de Logon Único (SSO) a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Com a alteração:
+O Adobe Advertising DSP está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de logon único (SSO) a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Com a alteração:
 
 * Você pode usar um [!DNL Adobe ID] para entrar em [!DNL Adobe] produtos da página de entrada da Experience Cloud ou da página de entrada herdada do DSP. Seu [!DNL Adobe ID] fornece gerenciamento de perfil de usuário. Em uma versão futura, você poderá alterar a conta da DSP, a conta da organização IMS e o produto [!DNL Adobe] no menu superior.
 

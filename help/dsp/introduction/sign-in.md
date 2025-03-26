@@ -3,7 +3,7 @@ title: Fazer logon no DSP
 description: Saiba como fazer logon no DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
+source-git-commit: c8d33069eb2a97af76a32360348a7e44bce02f09
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Verifique com o administrador da organização IMS se o email usado foi adiciona
 
 Enquanto isso, você pode continuar usando suas credenciais herdadas do DSP.
 
-#### Fiz logon usando um endereço de email incorreto, que me conectou ao [!DNL Adobe], mas não fornece acesso ao DSP.
+#### Eu entrei usando um endereço de email incorreto, que me entrou no [!DNL Adobe], mas não fornece acesso ao DSP.
 
 1. Acesse [experience.adobe.com](https://experience.adobe.com) e saia.
 

@@ -3,7 +3,7 @@ title: Editar disposições
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Também é possível baixar as configurações de uma ou mais inserções, ou de todas as inserções em uma campanha, no formato XLSX (planilha do Excel); fazer alterações em um subconjunto limitado de campos principais; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](placement-qa.md)&quot;.
+>Você também pode baixar as configurações para uma ou mais disposições, ou para todas as disposições em uma campanha, no formato XLSX (planilha do Excel); fazer alterações na maioria dos campos; e carregá-las de volta para o DSP, todas de uma só vez. Consulte &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](placement-qa.md)&quot;.
 
 ## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Update placement]**.
 
-## Editar várias disposições {#edit-multiple-placements}
+## Fazer as mesmas alterações em várias disposições {#edit-multiple-placements}
 
 Use essa opção somente quando quiser aplicar as mesmas alterações a todas as disposições selecionadas.
 

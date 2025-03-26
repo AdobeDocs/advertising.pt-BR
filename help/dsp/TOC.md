@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
+source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '938'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 3%
 -->
 
 + [Novidades](/help/dsp/home.md)
++ [Fazer logon no Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introdução {#introduction}
    + [Introdução ao Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Principais Recursos {#features}
@@ -34,10 +35,10 @@ ht-degree: 3%
    + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluções de medição avançada](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
-   + [Visão geral da estrutura do Campaign Management](/help/dsp/campaign-management/campaign-management-overview.md)
++ Gerenciamento de Campanhas {#campaign-management}
+   + [Visão geral da estrutura de gerenciamento de campanhas](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campanhas {#campaigns}
-      + [Sobre o Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Sobre o gerenciamento de campanhas](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Criar uma campanha](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [Editar uma campanha](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicar uma campanha](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -96,9 +97,9 @@ ht-degree: 3%
          + [Configurações do anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificações para os tipos de anúncios suportados](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Relatórios de Desempenho em Exibições do Campaign Management {#campaign-reports}
-      + [Tipos de relatórios de desempenho em visualizações do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Exportar dados de uma visualização do Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
+   + Relatórios de Desempenho nas Exibições de Gerenciamento de Campanha {#campaign-reports}
+      + [Tipos de relatórios de desempenho em visualizações do gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Exportar Dados de uma Visualização de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Exibir os detalhes de sites, anúncios, frequência e inventário de uma disposição](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
@@ -106,7 +107,7 @@ ht-degree: 3%
       + [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + [Macros do DSP](/help/dsp/campaign-management/macros.md)
    + [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Perguntas frequentes sobre o gerenciamento de campanhas](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Perguntas frequentes sobre o Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 + Otimização {#optimization}
    + [Como [!DNL DSP] Otimiza Suas Campanhas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -212,7 +213,7 @@ ht-degree: 3%
       + [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [Configurações de [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Planejador {#planner}
-   + [Sobre a ferramenta Planejador DSP](/help/dsp/planner/planner-about.md)
+   + [Sobre a ferramenta DSP Planner](/help/dsp/planner/planner-about.md)
    + [Criar um plano de alcance de TV conectado](/help/dsp/planner/planner-create.md)
    + [Duplicar um plano de alcance de TV conectado](/help/dsp/planner/planner-duplicate.md)
    + [Editar um plano de alcance de TV conectado](/help/dsp/planner/planner-edit.md)

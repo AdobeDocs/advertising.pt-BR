@@ -2,9 +2,9 @@
 title: Fazer logon no DSP
 description: Saiba como fazer logon no DSP.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Para obter mais informações sobre a interface do Experience Cloud, incluindo o
 
 ### Solução de problemas
 
-Para problemas gerais de entrada, consulte também &quot;[Resolver problemas de entrada na conta da Adobe]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Para problemas gerais de entrada, consulte também &quot;[Resolver problemas de entrada na conta da Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Há algum pré-requisito para habilitar um novo logon de IMS do [!DNL Adobe]?
 
@@ -57,7 +57,7 @@ Para adicionar uma nova conta de logon, compartilhe o endereço de email com a e
 
 Enquanto isso, o usuário pode continuar usando suas credenciais herdadas do DSP.
 
-#### Depois de fazer logon usando uma conta do Adobe IMS, não sou redirecionado de volta para a página de logon adobe.advertising.com.
+#### Depois de fazer logon usando uma conta do Adobe IMS, não sou redirecionado de volta para adobe.advertising.com.
 
 Verifique com o administrador da organização IMS se o email usado foi adicionado à organização IMS.
 

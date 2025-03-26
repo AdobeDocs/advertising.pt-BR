@@ -2,7 +2,7 @@
 title: Fazer logon no DSP
 description: Saiba como fazer logon no DSP.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Enquanto isso, o usuário pode continuar usando suas credenciais herdadas do DSP
 
 #### Depois de fazer logon usando uma conta do Adobe IMS, não sou redirecionado de volta para adobe.advertising.com.
 
-Verifique com o administrador da organização IMS se o email usado foi adicionado à organização IMS.
-
-Se o administrador confirmar que você foi adicionado à organização IMS, peça à equipe de conta da Adobe para provisionar sua conta para usar o DSP.
+Verifique com o administrador da organização IMS se o email usado foi adicionado à organização IMS. Se o administrador confirmar que você foi adicionado à organização IMS, peça à equipe de conta da Adobe para provisionar sua conta para usar o DSP.
 
 Enquanto isso, você pode continuar usando suas credenciais herdadas do DSP.
 
@@ -69,7 +67,7 @@ Enquanto isso, você pode continuar usando suas credenciais herdadas do DSP.
 
 1. Acesse [experience.adobe.com](https://experience.adobe.com) e saia.
 
-Vá para [advertising.adobe.com](https://advertising.adobe.com) e entre com a ID de email correta.
+1. Vá para [advertising.adobe.com](https://advertising.adobe.com) e entre com a ID de email correta.
 
 #### Minha conta IMS do [!DNL Adobe] e minha conta da DSP estão registradas com emails diferentes. Como faço para entrar usando minha conta IMS do [!DNL Adobe]?
 

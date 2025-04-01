@@ -3,7 +3,7 @@ title: Formatos de rastreamento de cliques para  [!DNL Google Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Google Ads] .
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -72,13 +72,13 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
    * Contas do [!DNL Google Ads] que usam o [formato de ID do AMO](/help/integrations/analytics/ids.md#amo-id-formats) mais recente (começando com `s_kwcid`), que oferece suporte a relatórios de nível de campanha e grupo de anúncios para campanhas de desempenho máximo e campanhas de rascunhos e experimentos:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver habilitada, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente. Consulte &quot;[IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
+     Se a conta tiver uma implementação de ID do AMO do lado do servidor e a configuração de conta ou campanha &quot;[!UICONTROL Auto Upload]&quot; estiver habilitada, o parâmetro será adicionado automaticamente. Caso contrário, é necessário adicioná-lo manualmente. Consulte &quot;[Adobe Advertising IDs Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Todas as outras contas do [!DNL Google Ads]:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Quando o anunciante não tiver uma integração do Adobe Analytics, o sufixo deve incluir o seguinte:
 
@@ -92,5 +92,5 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

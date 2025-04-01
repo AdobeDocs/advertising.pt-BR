@@ -3,7 +3,7 @@ title: Formatos de rastreamento de cliques para  [!DNL Microsoft Advertising]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -86,7 +86,7 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir o seguinte:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * Quando o anunciante não tiver uma integração do Adobe Analytics, o sufixo deve incluir o seguinte:
 
@@ -98,7 +98,7 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir o seguinte:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * Quando o anunciante não tiver uma integração do Adobe Analytics, o sufixo deve incluir o seguinte:
 
@@ -106,5 +106,5 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)

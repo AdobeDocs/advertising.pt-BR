@@ -2,7 +2,7 @@
 title: Obter ajuda
 description: Saiba como visualizar a ajuda online e os recursos da comunidade e como obter suporte técnico.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Você pode abrir a ajuda online de qualquer página da interface. Se a ajuda on-
 
    * ![Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Ajuda") > **Guia de Otimização de Pesquisa, Social e Commerce**.
 
-## Pergunte à comunidade do Adobe Advertising
+## Pergunte à comunidade da Adobe Advertising
 
 Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 
@@ -33,10 +33,10 @@ Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertisi
 
 Para problemas de produto ou conta de Pesquisa, Social e Commerce, siga um destes procedimentos:
 
-* Entre em contato com a equipe de conta do Adobe.
+* Entre em contato com a equipe de conta da Adobe.
 
-* No menu superior, clique em ![Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Ajuda") > **[!UICONTROL Provide Feedback]**, insira sua mensagem e clique em **[!UICONTROL Send Feedback]**. |
+* No menu superior, clique em ![Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Ajuda") > **[!UICONTROL Provide Feedback]**, insira sua mensagem e clique em **[!UICONTROL Send Feedback]**.
 
-Forneça etapas detalhadas para reproduzir o problema, dados relevantes e informações sobre a solução de problemas preliminar realizada. Se você estiver relatando o problema para a sua equipe de conta do Adobe, inclua também o nome e a versão do navegador.
+Forneça etapas detalhadas para reproduzir o problema, dados relevantes e informações sobre a solução de problemas preliminar realizada. Caso esteja relatando o problema para a equipe de conta da Adobe, inclua também o nome e a versão do navegador.
 
 Para problemas de relatório, não exclua o relatório e forneça o nome e o URL do relatório.

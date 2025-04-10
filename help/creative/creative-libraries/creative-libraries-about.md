@@ -3,7 +3,7 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Você pode adicionar e gerenciar os seguintes tipos de criação nos [tamanhos d
 
 #### HTML5 flexível
 
-Criativas HTML5 flexíveis são criativas HTML5 com todas as suas imagens e outros atributos como tags HTML padrão, que você pode editar diretamente em [!DNL Creative], em uma biblioteca criativa ou em uma experiência individual (o que cria uma variação do criativo original). As criações flexíveis do HTML5 usam o padrão do Laboratório de Tecnologia do Interative Advertising Bureau (IAB) para um [portfólio de anúncios](https://flexibleads.iabtechlab.com/), para o qual os tamanhos de formato de anúncio são flexíveis (em vez de fixos) e se baseiam na proporção e no intervalo de tamanho do anúncio, e para o qual os anúncios mantêm sua resolução em todos os dispositivos e sites do editor.
+Criativas HTML5 flexíveis são criativas HTML5 com todas as suas imagens e outros atributos como tags HTML padrão, que você pode editar diretamente em [!DNL Creative], em uma biblioteca criativa ou em uma experiência individual (o que cria uma variação do criativo original). As criações flexíveis do HTML5 usam o padrão do Laboratório de Tecnologia do Interative Advertising Bureau (IAB) para um [portfólio de anúncios](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, para o qual os tamanhos de formato de anúncios são flexíveis (em vez de fixos) e se baseiam na proporção e no intervalo de tamanho do anúncio, e para o qual os anúncios mantêm sua resolução em todos os dispositivos e sites do editor.
 
 Você pode<!-- either --> carregar criações flexíveis do HTML5 como arquivos ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulte as [especificações de criações flexíveis do HTML5](html5-creative-specification.md).
 

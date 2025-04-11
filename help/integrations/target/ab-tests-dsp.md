@@ -2,9 +2,9 @@
 title: Configurar testes A/B para anúncios do Adobe Advertising DSP no Adobe Target
 description: Saiba como configurar um teste A/B no [!DNL Target] para seus anúncios do DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 4722d7c280eeb066bff5597d3956690d42044dcd
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Ao adicionar macros do DSP a uma URL de click-through (a URL exibida quando um u
 
 No Flash Talk ou Google Campaign Manager 360, atualize manualmente o URL de click-through para cada anúncio a fim de incluir as macros necessárias para capturar as variáveis de ID do AMO. As variáveis de ID do AMO são usadas para enviar dados de cliques para o Adobe Analytics e compartilhar chaves de posicionamento para testes A/B. Consulte as seguintes páginas para obter instruções:
 
-* [Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md). **Observação:** este procedimento não será necessário se sua organização tiver uma parceria direta com [!DNL Flashtalking] e você usar macros de passagem de dados de acordo com a documentação de suporte do [!DNL Flashtalking] em `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md). **Observação:** este procedimento não será necessário se sua organização tiver uma parceria direta com [!DNL Flashtalking] e você usar macros de passagem de dados para coletar dados de cliques de acordo com a documentação de suporte do [!DNL Flashtalking] em `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Acrescentar  [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio](/help/integrations/analytics/macros-google-campaign-manager.md)
 

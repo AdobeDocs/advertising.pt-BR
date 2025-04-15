@@ -3,9 +3,9 @@ title: Acrescentar  [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking
 description: Saiba por que e como adicionar  [!DNL Analytics for Advertising] macros às suas [!DNL Flashtalking] marcas de anúncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Se você usar as marcas de anúncio de [!DNL Flashtalking] para seus anúncios d
 
 >[!NOTE]
 >
->Se sua organização tiver uma parceria direta com [!DNL Flashtalking], esse procedimento não será necessário para você. Em vez disso, faça logon na conta do [!DNL Flashtalking] e siga a documentação de suporte do [!DNL Flashtalking] em `https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros` para usar macros de passagem de dados para rastrear os parâmetros de rastreamento do `s_kwcid` e do `ef_id`.
+>Se sua organização tiver uma parceria direta com [!DNL Flashtalking], esse procedimento não será necessário para você. Em vez disso, faça logon na conta do [!DNL Flashtalking] e siga a documentação de suporte do [!DNL Flashtalking] em [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) para usar macros de passagem de dados para rastrear os parâmetros de rastreamento do `s_kwcid` e do `ef_id`.
 
 Use macros para exibição e anúncios de vídeo do [!DNL Flashtalking] para os seguintes tipos de implementações do [!DNL Analytics for Advertising]:
 

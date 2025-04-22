@@ -2,14 +2,14 @@
 title: Sobre os insights de desempenho
 description: Saiba mais sobre os insights de desempenho de suas campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# Sobre insights de desempenho&lt;!— Título?—?>
+# Sobre os insights de desempenho
 
 *recurso do Beta*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)

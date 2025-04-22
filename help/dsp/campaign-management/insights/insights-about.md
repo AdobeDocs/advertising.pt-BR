@@ -2,9 +2,9 @@
 title: Sobre os insights de desempenho
 description: Saiba mais sobre os insights de desempenho de suas campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ A guia [!UICONTROL Household Reach] fornece métricas de alcance doméstico em t
 
 * Um gráfico <!-- ???? --> de [!UICONTROL Cost per Reach] e [!UICONTROL Net Spend] por pacote, editor ou site/aplicativo.
 
+## Abrir Insights de Desempenho
+
+* (Para abrir insights para todas as campanhas) No menu principal, clique em **[Insights BETA]**.
+
+* (Para abrir insights para uma campanha, pacote ou posicionamento específico) Ao lado do nome da entidade na exibição [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], clique em **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+## Aplicar filtros a uma guia
+
+1. Na barra de ferramentas na parte superior da guia,
+clique no ![botão Filtrar](/help/dsp/assets/filter.png).
+
+1. Na coluna da esquerda, selecione uma dimensão e, em seguida, selecione um ou mais valores na coluna da direita, conforme aplicável.
+
+   Você pode selecionar apenas um anunciante por vez.
+
+1. Clique em **[!UICONTROL Apply]**.
+
+1. (Opcional) Para restringir ainda mais os dados, selecione o tipo de entidade na barra de ferramentas e, em seguida, selecione um valor de entidade específico (uma única campanha, pacote ou posicionamento).
+
+## Alterar o Dimension reportado para uma Insight
+
+* No menu suspenso, à esquerda superior da insight, selecione a dimensão.
+
+## Alterar as métricas relatadas de uma Insight
+
+1. Na parte superior direita do insight, clique em ![Configurações de métrica](/help/dsp/assets/metric-settings.png "Configurações de métrica").
+
+1. Selecione as métricas e clique em **[!UICONTROL Apply]**.
+
 ## Baixar uma Insight
 
-* Acima da insight, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
+* No canto superior direito da insight, clique em ![Download](/help/creative/assets/download.png "Download").
 
   O arquivo é salvo na pasta de downloads padrão do navegador.
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >

@@ -2,9 +2,9 @@
 title: Sobre os insights de desempenho
 description: Saiba mais sobre os insights de desempenho de suas campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Insights de alto nível e desempenho com visualizações fornecem as informaçõ
 
 Para qualquer insight, você pode baixar um relatório, sem as visualizações, no formato de planilha do Microsoft Excel (XLSX).
 
-## Guia [!UICONTROL Home]
+## Tipos de insights
+
+### Guia [!UICONTROL Home]
 
 A guia [!UICONTROL Home] fornece as principais métricas padrão, de desempenho e de visibilidade em todas as campanhas de um anunciante<!-- active only? -->. Por padrão, os dados entre campanhas são exibidos. Opcionalmente, é possível configurar filtros para mostrar dados de um anunciante diferente ou dados somente de campanhas específicas<!-- active only? -->, pacotes<!-- active only? -->, metas personalizadas e posicionamentos<!-- active only? -->. Os insights incluem:
 
@@ -27,7 +29,7 @@ A guia [!UICONTROL Home] fornece as principais métricas padrão, de desempenho 
 
 * Um detalhamento dos dados de métricas específicas por três dimensões especificadas pelo cliente, como campanha, editor e tipo de mídia. Para cada detalhamento dimensional, você pode escolher uma métrica diferente.
 
-## Guia [!UICONTROL Household Reach]
+### Guia [!UICONTROL Household Reach]
 
 A guia [!UICONTROL Household Reach] fornece métricas de alcance doméstico em todas as campanhas de um anunciante<!-- active only? -->. Por padrão, os dados entre campanhas são exibidos. Opcionalmente, é possível configurar filtros para mostrar dados de um anunciante diferente ou dados somente de campanhas específicas<!-- active only? -->. Os insights incluem:
 

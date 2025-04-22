@@ -2,9 +2,10 @@
 title: Sobre os insights de desempenho
 description: Saiba mais sobre os insights de desempenho de suas campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Insights de alto nível e desempenho com visualizações fornecem as informações necessárias para otimizar eficientemente suas campanhas e descobrir novas oportunidades para dimensionar o desempenho.
+Insights de alto nível e desempenho com visualizações fornecem as informações necessárias para otimizar eficientemente suas campanhas e descobrir novas oportunidades para dimensionar o desempenho. Você pode visualizar dados em campanhas ou detalhar para um nível inferior.
 
-Para qualquer insight, você pode baixar um relatório, sem as visualizações, no formato de planilha do Microsoft Excel (XLSX).
+Use insights de desempenho para:
+
+* Acompanhe tendências de longo prazo para planejamento estratégico e tomada de decisões informadas.
+
+* Identificar oportunidades para alcançar melhores resultados.
+
+* Melhore a eficiência reduzindo o tempo entre a obtenção de dados brutos e a obtenção de insights acionáveis.
+
+É possível exportar todas as visualizações de uma guia para um arquivo do PDF ou baixar os dados de uma insight específica sem visualizações no formato de planilha do Microsoft Excel (XLSX).
+
+Você também pode [configurar a exibição e salvá-la como uma exibição personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), assim como pode fazer para exibições de gerenciamento de campanha.
 
 ## Tipos de insights
 
@@ -35,13 +46,15 @@ A guia [!UICONTROL Household Reach] fornece métricas de alcance doméstico em t
 
 * Um gráfico de tendências por dia ou por semana para três métricas especificadas pelo cliente (por padrão, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] e [!UICONTROL Net CPM]).
 
-* Um gráfico de pizza do alcance doméstico incremental por [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. O alcance incremental da família é definido como um agregado familiar alcançado exclusivamente por meio de uma única mídia, dispositivo ou tipo de inventário.
+* Um gráfico de rosca mostrando o alcance doméstico incremental por [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. O alcance incremental da família é definido como um agregado familiar alcançado exclusivamente por meio de uma única mídia, dispositivo ou tipo de inventário.
 
-* Um gráfico de barras que mostra [!UICONTROL Unique Reach] por [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type]. **Observação:** uma família atingida por vários tipos de mídia, dispositivo ou inventário é considerada sobreposta.
+* O alcance doméstico único incremental vs. alcance doméstico sobreposto por [!UICONTROL Media Type], [!UICONTROL Device Type] ou [!UICONTROL Inventory Type].
 
-* Uma lista das campanhas, disposições, pacotes, editores, sites/aplicativos, tipos de mídia, tipos de inventário ou tipos de dispositivo que mais gastam. As métricas incluem [!UICONTROL Unique Reach], [!UICONTROL Net Spend] e [!UICONTROL Cost per Reach].
+  O alcance incremental da família é definido como um agregado familiar alcançado exclusivamente por meio de uma única mídia, dispositivo ou tipo de inventário. Uma família atingida por vários tipos de mídia, dispositivo ou inventário é considerada sobreposta.
 
-* Um gráfico <!-- ???? --> de [!UICONTROL Cost per Reach] e [!UICONTROL Net Spend] por pacote, editor ou site/aplicativo.
+* As campanhas, posicionamentos, pacotes, editores, sites/aplicativos, tipos de mídia, tipos de inventário ou tipos de dispositivo com melhor desempenho por [!UICONTROL Unique Reach], [!UICONTROL Net Spend] e [!UICONTROL Cost per Reach].
+
+* O [!UICONTROL Cost per Reach] e [!UICONTROL Net Spend] por pacote, editor ou site/aplicativo. Use esta insight para ver quais pacotes, editores ou sites/aplicativos mostram o potencial para alcance incremental significativo.
 
 ## Abrir Insights de Desempenho
 
@@ -72,7 +85,13 @@ clique no ![botão Filtrar](/help/dsp/assets/filter.png).
 
 1. Selecione as métricas e clique em **[!UICONTROL Apply]**.
 
-## Baixar uma Insight
+## Exportar todas as visualizações de uma guia para um arquivo do PDF
+
+* Acima da guia, clique em **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+
+  O arquivo é salvo na pasta de downloads padrão do navegador.
+
+## Baixar um Insight específico em um arquivo XLSX
 
 * No canto superior direito da insight, clique em ![Download](/help/creative/assets/download.png "Download").
 

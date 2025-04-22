@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 + [Fazer logon no Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introdução {#introduction}
    + [Introdução ao Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Principais Recursos {#features}
+   + Principais recursos {#features}
       + [Otimização](/help/dsp/introduction/features/optimization.md)
       + [Segurança da marca e qualidade da mídia](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Soluções entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
@@ -35,7 +35,7 @@ ht-degree: 3%
    + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluções de medição avançada](/help/dsp/introduction/advanced-measurement-services.md)
-+ Gerenciamento de Campanhas {#campaign-management}
++ Gerenciamento de campanhas {#campaign-management}
    + [Visão geral da estrutura de gerenciamento de campanhas](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campanhas {#campaigns}
       + [Sobre o gerenciamento de campanhas](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -88,7 +88,7 @@ ht-degree: 3%
       + [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Arquivar ou desarquivar um anúncio](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
-      + Configurações de Anúncio {#ad-settings}
+      + Configurações do anúncio {#ad-settings}
          + [Configurações do anúncio de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
          + [Configurações da TV Conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [Configurações do anúncio de exibição](/help/dsp/campaign-management/ads/ad-settings-display.md)
@@ -97,7 +97,9 @@ ht-degree: 3%
          + [Configurações do anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificações para os tipos de anúncios suportados](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Relatórios de Desempenho nas Exibições de Gerenciamento de Campanha {#campaign-reports}
++ Insights de desempenho entre campanhas {#insights}
+   + [Sobre os insights de desempenho](/help/dsp/campaign-management/insights/insights-about.md)
+   + Relatórios de desempenho em visualizações do gerenciamento de campanhas {#campaign-reports}
       + [Tipos de relatórios de desempenho em visualizações do gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportar Dados de uma Visualização de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Exibir os detalhes de sites, anúncios, frequência e inventário de uma disposição](/help/dsp/campaign-management/reports/placement-details-view.md)
@@ -132,7 +134,7 @@ ht-degree: 3%
       + [Sintaxe da lógica do segmento de público-alvo](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Segmentos {#segments}
       + [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segmentos {#ccpa-opt-out-of-sale-segments}
+      + [!UICONTROL CCPA Opt-out-of-Sale] segmentos {#ccpa-opt-out-of-sale-segments}
          + [Cerca De [!UICONTROL CCPA Opt-out-of-Sale] Segmentos](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [Criar e implementar um segmento [!UICONTROL CCPA Opt-out-of-Sale]](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [Recuperar [!UICONTROL Consumer Opt-Out-of-Sale] Relatórios](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
@@ -140,9 +142,9 @@ ht-degree: 3%
       + [Compartilhar ou parar de compartilhar um segmento](/help/dsp/audiences/segment-share.md)
       + [Exibir pixels de rastreamento para um segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Excluir um segmento](/help/dsp/audiences/segment-delete.md)
-   + Fontes {#sources}
+   + Origens {#sources}
       + [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
-      + Fluxos de trabalho por Plataforma de Dados do Cliente {#sources-workflows}
+      + Workflows por plataforma de dados do cliente {#sources-workflows}
          + [Converter IDs de Usuário de  [!DNL Adobe Real-Time CDP]  em IDs Universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [Converter IDs de Usuário de  [!DNL Amperity]  em IDs Universais](/help/dsp/audiences/sources/source-amperity.md)
          + [Converter IDs de Usuário de  [!DNL Optimizely]  em IDs Universais](/help/dsp/audiences/sources/source-optimizely.md)
@@ -154,9 +156,9 @@ ht-degree: 3%
    + [Visão Geral dos Recursos do Inventário](/help/dsp/inventory/inventory-overview.md)
    + [Usando  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [Parceiros SSP](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] Inventário {#on-demand}
+   + Inventário de [!DNL On Demand] {#on-demand}
       + [Sobre o  [!DNL On Demand] Inventário Premium](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Editores de Inventário Premium [!DNL On Demand] Disponíveis {#publishers}
+      + Publicadores de inventário Premium [!DNL On Demand] disponíveis {#publishers}
          + [[!DNL On Demand] Editores de Inventário Premium no Pacífico Asiático](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] Editores de Inventário Premium na Austrália e Nova Zelândia](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] Editores de Inventário Premium na Europa, Oriente Médio e África](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
@@ -173,7 +175,7 @@ ht-degree: 3%
          + IDs de oferta inseridas manualmente {#manual}
             + [Criar Detalhes de [!UICONTROL Deal ID] Manualmente](/help/dsp/inventory/deal-id-create.md)
             + [Configurações manuais de [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-settings.md)
-         + Ofertas Programáticas Garantidas {#programmatic-guaranteed-deal}
+         + Ofertas programáticas garantidas {#programmatic-guaranteed-deal}
             + [Visão geral das ofertas programáticas garantidas](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Dicas para negociar um acordo programático garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Configurar um acordo programático garantido](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
@@ -227,10 +229,10 @@ ht-degree: 3%
       + [Convidar um novo usuário](/help/dsp/admin/user-invite.md)
       + [Reenviar um Convite de Usuário Pendente](/help/dsp/admin/user-resend-invite.md)
       + [Desconvidar um usuário pendente](/help/dsp/admin/user-uninvite.md)
-   + Sites Bloqueados {#sites}
+   + Sites bloqueados {#sites}
       + [Sobre Listas de Sites Bloqueadas no Nível da Conta e no Nível do Anunciante](/help/dsp/admin/blocked-sites-list-about.md)
       + [Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
-   + Notificações {#notifications}
+   + Notificação {#notifications}
       + [Sobre Assinaturas de Alerta](/help/dsp/admin/alerts-about.md)
       + [Gerenciar assinaturas de alerta](/help/dsp/admin/alerts-manage.md)
 + [Integrações com o Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->

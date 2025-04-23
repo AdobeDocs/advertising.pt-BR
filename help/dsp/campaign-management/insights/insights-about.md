@@ -1,9 +1,9 @@
 ---
 title: Sobre os insights de desempenho
-description: Saiba mais sobre os insights de desempenho de suas campanhas.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: Saiba mais sobre insights de desempenho com visualizações.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Insights de alto nível e desempenho com visualizações fornecem as informações necessárias para otimizar eficientemente suas campanhas e descobrir novas oportunidades para dimensionar o desempenho. Você pode visualizar dados em campanhas ou detalhar para um nível inferior.
+Insights de desempenho de alto nível com visualizações fornecem as informações necessárias para otimizar eficientemente suas campanhas e descobrir novas oportunidades para dimensionar o desempenho. Você pode visualizar dados em campanhas ou detalhar para um nível inferior.
 
 Use insights de desempenho para:
 
@@ -28,7 +28,7 @@ Use insights de desempenho para:
 
 É possível exportar todas as visualizações de uma guia para um arquivo do PDF ou baixar os dados de uma insight específica sem visualizações no formato de planilha do Microsoft Excel (XLSX).
 
-Você também pode [alterar o intervalo de datas, configurar o modo de exibição e salvar um modo de exibição personalizado](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), da mesma forma que pode para modos de exibição de gerenciamento de campanha.
+Você também pode [alterar o intervalo de datas, configurar o modo de exibição e salvar um modo de exibição personalizado](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) da mesma forma que pode para modos de exibição de gerenciamento de campanha.
 
 ## Tipos de insights
 

@@ -3,7 +3,7 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -163,6 +163,10 @@ As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho 
    * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
    * Clique em **[!UICONTROL select a file]** para localizar o arquivo no dispositivo ou na rede.
+<!--  Verify wording and workflow and add when available:
+
+   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
+-->
 
 1. Adicionar ou remover imagens:
 

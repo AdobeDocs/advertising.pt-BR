@@ -3,9 +3,9 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Você pode fazer upload de criações simples ou estáticas do HTML5, com todos 
 
 #### Criação de imagens
 
-É possível incluir criações de imagem no formato GIF, JPEG, JPG ou PNG. Você pode carregar <!--LATER:   images from your Adobe Experience Manager accounts or --> imagens do seu dispositivo ou rede.
+É possível incluir criações de imagem no formato GIF, JPEG, JPG ou PNG. Você pode carregar imagens de suas contas do Adobe Experience Manager ou imagens de seu dispositivo ou rede.
 
 Cada experiência de anúncio exige um criativo de imagem padrão para cada tamanho criativo atribuído à experiência.
 

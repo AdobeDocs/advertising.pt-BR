@@ -3,7 +3,7 @@ title: Gerenciar As Visualizações De Dados Do Campaign
 description: Saiba como personalizar suas visualizações de dados para campanhas, pacotes, posicionamentos e anúncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Cada nível de gerenciamento de campanha ([!UICONTROL Campaigns], [!UICONTROL Pa
 
 ![seletor de exibição de coluna](/help/dsp/assets/column-view-selector.png)
 
-O DSP salva a visualização mais recente como a visualização padrão para que, sempre que você retornar à página, sempre visualize as métricas pertinentes a você.
+O DSP salva sua visualização mais recente como a visualização padrão para que, sempre que você retornar à página, sempre visualize as métricas pertinentes a você.
 
 #### Alterar a Exibição de Coluna {#column-view-change}
 
@@ -142,7 +142,6 @@ Os filtros a seguir estão disponíveis para suas visualizações do [!UICONTROL
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### Alterar o intervalo de datas
 
 Altere o intervalo de datas usado em todas as exibições padrão e personalizadas usando o seletor de intervalo de datas acima de qualquer tabela de dados.
@@ -172,9 +171,9 @@ Na parte inferior direita de qualquer página, ao lado de **[!UICONTROL Items pe
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
 >* [Exibir os Sites, Anúncios e Detalhes de Frequência de um Posicionamento](placement-details-view.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](placement-diagnostics.md)
->* [Exportar Dados de um Modo de Exibição do Campaign Management](campaign-export-data.md)
+>* [Exportar Dados de uma Exibição de Gerenciamento de Campanha](campaign-export-data.md)
 >* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

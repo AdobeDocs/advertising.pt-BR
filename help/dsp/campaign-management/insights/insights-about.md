@@ -3,9 +3,9 @@ title: Sobre os insights de desempenho
 description: Saiba mais sobre os insights de desempenho de suas campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Use insights de desempenho para:
 
 É possível exportar todas as visualizações de uma guia para um arquivo do PDF ou baixar os dados de uma insight específica sem visualizações no formato de planilha do Microsoft Excel (XLSX).
 
-Você também pode [configurar a exibição e salvá-la como uma exibição personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), assim como pode fazer para exibições de gerenciamento de campanha.
+Você também pode [alterar o intervalo de datas, configurar o modo de exibição e salvar um modo de exibição personalizado](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), da mesma forma que pode para modos de exibição de gerenciamento de campanha.
 
 ## Tipos de insights
 
@@ -102,3 +102,4 @@ clique no ![botão Filtrar](/help/dsp/assets/filter.png).
 >* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
 >* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

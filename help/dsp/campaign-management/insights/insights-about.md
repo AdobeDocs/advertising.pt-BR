@@ -3,9 +3,9 @@ title: Sobre os insights de desempenho
 description: Saiba mais sobre insights de desempenho com visualizações.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Use insights de desempenho para:
 
 É possível exportar todas as visualizações de uma guia para um arquivo do PDF ou baixar os dados de uma insight específica sem visualizações no formato de planilha do Microsoft Excel (XLSX).
 
-Você também pode [alterar o intervalo de datas, configurar o modo de exibição e salvar um modo de exibição personalizado](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) da mesma forma que pode para modos de exibição de gerenciamento de campanha.
+Você também pode [alterar o intervalo de datas, configurar o modo de exibição e salvar um modo de exibição personalizado](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} da mesma forma que pode para modos de exibição de gerenciamento de campanha.
 
 ## Tipos de insights
 
@@ -58,7 +58,7 @@ A guia [!UICONTROL Household Reach] fornece métricas de alcance doméstico em t
 
 ## Abrir Insights de Desempenho
 
-* (Para abrir insights para todas as campanhas) No menu principal, clique em **[Insights BETA]**.
+* (Para abrir insights para todas as campanhas) No menu principal, clique em **[UICONTROL Insights BETA]**.
 
 * (Para abrir insights para uma campanha, pacote ou posicionamento específico) Ao lado do nome da entidade na exibição [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], clique em **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 

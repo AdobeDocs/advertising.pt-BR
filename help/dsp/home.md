@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 25 de abril de 2025 | [!UICONTROL Placements], Segurança da marca e qualidade da mídia | A DSP agora oferece [!DNL DoubleVerify] suporte ao bloqueio de fraude pré-oferta para disposições padrão de TV conectada. Novos posicionamentos herdam automaticamente as configurações de bloqueio de fraude no nível do anunciante. Para excluir uma configuração herdada, remova-a manualmente.<br><br>O suporte para posicionamento universal de vídeo estará disponível em uma versão futura. | Consulte &quot;[Configurações de Posicionamento](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)&quot;. |
 | 24 de abril de 2025 | Desempenho [!UICONTROL Insights] | (Recurso do Beta) Insights de desempenho de alto nível com visualizações fornecem as informações necessárias para otimizar eficientemente suas campanhas e descobrir novas oportunidades para dimensionar o desempenho. Você pode visualizar dados em campanhas ou detalhar para um nível inferior. | Consulte &quot;[Sobre Insights de Desempenho](/help/dsp/campaign-management/insights/insights-about.md)&quot;. |
 | 26 de março de 2025 | Logon | O DSP está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de logon único (SSO) a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Agora você pode usar um [!DNL Adobe ID] para entrar em [!DNL Adobe] produtos da página de entrada da Experience Cloud ou da página de entrada herdada do DSP. Suas credenciais atuais do DSP permanecerão ativas por 90 dias para que você possa se preparar para a alteração. | Consulte &quot;[Entrar na Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)&quot;.<br><br>Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot; |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | Os seguintes recursos de edição em massa estão disponíveis:<ul><li>Você pode editar e recarregar diretamente planilhas no nível da campanha que contêm configurações para pacotes, disposições e anúncios da campanha. Anteriormente, era necessário baixar um arquivo de modelo e inserir manualmente as alterações para fazer upload.</li><li>Os arquivos agora são chamados de &quot;*bulksheets*&quot; em todas as exibições de [!UICONTROL Campaigns], em vez de &quot;planilhas de controle de qualidade&quot;, e você seleciona opções para &quot;[!UICONTROL Download Bulksheet]&quot; e &quot;[!UICONTROL Upload Bulksheet]&quot;.&quot;</li><li>A maioria das configurações de posicionamento agora está disponível em bulksheets.</li></ul> | Consulte &quot;[Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.<br><br>Consulte também &quot;[Revisar e Editar Configurações de Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)&quot; e &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)&quot;.&quot; |

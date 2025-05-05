@@ -145,4 +145,4 @@ ht-degree: 0%
 >* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/340454)
+>* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)

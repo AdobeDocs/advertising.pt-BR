@@ -30,7 +30,7 @@ Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experiencel
 
 1. No Adobe Experience Platform, configure uma conexão de destino do Advertising DSP usando o [!UICONTROL Source Key] que foi gerado nas configurações de origem do DSP.
 
-   Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   Para obter instruções sobre como ativar a conexão de destino DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[conexão Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR).&quot;
 
    Os endereços de email de origem devem ser transformados em hash usando o algoritmo SHA -256.
 
@@ -50,7 +50,7 @@ Para solucionar problemas com o procedimento de conversão, entre em contato com
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
->* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
+>* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
 >* [Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)

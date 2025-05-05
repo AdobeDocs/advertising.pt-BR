@@ -64,6 +64,6 @@ A seguir estão as redes de anúncios, os tipos de campanha e os tipos de anúnc
 
 [^2]: consulte &quot;Tipos de portfólio qualificados por estratégia de oferta de campanha&quot; no Guia de Otimização, disponível em Pesquisa, Social e Commerce.
 
-[^3]: requer uma integração com o Adobe Analytics. Consulte &quot;[Visão geral do Analytics para Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)&quot;.
+[^3]: requer uma integração com o Adobe Analytics. Consulte &quot;[Visão geral do Analytics para Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR)&quot;.
 
 [^4]: os dados de [!DNL Analytics] são enviados para o Search, Social e Commerce usando o parâmetro de rastreamento de ID do AMO atualizado (começando com `s_kwcid`), independentemente do formato de ID do AMO que você normalmente usa para a conta. Se você normalmente usa a versão mais antiga da ID do AMO, recomendamos atualizar para o novo formato de ID do AMO para obter a melhor experiência. No entanto, mesmo que seus dados de clique/custo e receita sejam rastreados usando IDs AMO diferentes, ambos os conjuntos de dados são totalmente classificados e agregados na mesma campanha e conta.

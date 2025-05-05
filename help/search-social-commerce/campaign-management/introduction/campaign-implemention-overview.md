@@ -60,13 +60,13 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, isso pode envolver a adição de tags de rastreamento de conversão às páginas da Web do anunciante e/ou a configuração de uma queda de feed diária para dados de conversão que o anunciante coletou separadamente.
 
-      Se você usa o serviço de rastreamento de conversão de Adobe Advertising, é possível gerar as tags de rastreamento de conversão [no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [usando o Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Se você usa o serviço de rastreamento de conversão de Adobe Advertising, é possível gerar as tags de rastreamento de conversão [no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [usando o Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=pt-BR).
 
    1. Valide os dados que são rastreados.
 
    Para obter mais detalhes sobre como configurar o rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
-1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que eles possam trocar dados.
+1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) para que eles possam trocar dados.
 
 1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas, orçamentos de campanha e/ou alvos de estratégia de oferta de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

@@ -44,5 +44,5 @@ O mapeamento de segmentos e o upload de cada trabalho de importação podem leva
 >
 >* [Sobre fontes de público-alvo primárias](source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
->* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexão Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
 >* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)

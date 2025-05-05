@@ -27,7 +27,7 @@ O seguinte se aplica às tags de rastreamento de conversão Adobe Advertising e 
 >[!NOTE]
 >
 >* Todas as novas implementações usam o JavaScript versão 3.
->* A marca JavaScript com ECID usa o [Serviço da Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), bem como a ef_id e gsurferid herdadas para medir as conversões. Esta tag mais recente cria [cookies próprios s_ecid de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornece uma integração mais estreita com outros produtos de Experience Cloud.
+>* A marca JavaScript com ECID usa o [Serviço da Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR), bem como a ef_id e gsurferid herdadas para medir as conversões. Esta tag mais recente cria [cookies próprios s_ecid de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=pt-BR) e fornece uma integração mais estreita com outros produtos de Experience Cloud.
 >* Use as tags do JavaScript versão 2 somente quando elas já estiverem implementadas nas páginas da Web do anunciante.
 >* A prática recomendada é usar tags do JavaScript em vez de tags de imagem, a menos que o site tenha uma política contra sua utilização.
 >* As tags da JavaScript são necessárias para anunciantes que desejam direcionar públicos-alvo criados no Adobe Experience Cloud, criados no Adobe Audience Manager ou publicados no Adobe Experience Cloud a partir do Audience Manager ou do Adobe Analytics.

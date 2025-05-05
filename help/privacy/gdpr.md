@@ -61,7 +61,7 @@ Para fazer solicitações de acesso e exclusão de dados do Adobe Advertising, v
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
 
-1. Use a [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou a [Interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) para enviar solicitações de acesso e de exclusão ao Adobe Advertising em nome dos titulares de dados e para verificar o status das solicitações existentes.
+1. Use a [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=pt-BR) (para solicitações automatizadas) ou a [Interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) para enviar solicitações de acesso e de exclusão ao Adobe Advertising em nome dos titulares de dados e para verificar o status das solicitações existentes.
 
    Para anunciantes que têm um aplicativo móvel para interagir com titulares de dados e iniciar campanhas com o DSP, você deve baixar os SDKs móveis prontos para privacidade para o Experience Cloud. Os SDKs móveis permitem que controladores de dados definam sinalizadores de status de recusa, recuperem a ID de dispositivo do titular dos dados (ID de namespace: `deviceID`) e enviem solicitações para a API do Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
@@ -73,7 +73,7 @@ Para fazer solicitações de acesso e exclusão de dados do Adobe Advertising, v
    >
    >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas as etapas são necessárias para o Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte &quot;[visão geral do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+Todas as etapas são necessárias para o Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte &quot;[visão geral do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).&quot;
 
 ## Valores de campo obrigatórios em solicitações JSON do Adobe Advertising
 

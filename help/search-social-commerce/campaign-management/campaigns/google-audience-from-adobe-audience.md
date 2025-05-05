@@ -34,7 +34,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
    1. (Para criar públicos-alvo de lista de remarketing de ID de usuário) Um usuário administrador ou gerente de conta do [!DNL Adobe] deve selecionar a configuração no nível do anunciante para habilitar os públicos-alvo de correspondência do cliente.
 
-   1. Implemente o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) versão 2.0 ou superior.
+   1. Implemente o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) versão 2.0 ou superior.
 
    1. Implante a seguinte tag o mais alto possível nas páginas da Web do anunciante, a partir das quais o público-alvo deve ser rastreado
 

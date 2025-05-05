@@ -70,4 +70,4 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 >
 >* [Gerenciar contas de rede de publicidade](ad-network-account-manage.md)
 >* [IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Visão Geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Visão Geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=pt-BR){target="_blank"}

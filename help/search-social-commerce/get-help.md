@@ -27,7 +27,7 @@ Você pode abrir a ajuda online de qualquer página da interface. Se a ajuda on-
 
 ## Pergunte à comunidade da Adobe Advertising
 
-Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Procure respostas para suas perguntas nos [fóruns da comunidade Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=pt).
 
 ## Contato [!DNL Adobe]
 

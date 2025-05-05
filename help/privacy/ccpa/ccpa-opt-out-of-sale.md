@@ -67,7 +67,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
 
-1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
+1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=pt-BR) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
    Consulte o Apêndice abaixo para obter um exemplo de solicitação de recusa de venda.
 
@@ -75,7 +75,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).
 
 ## Recuperação de relatórios de consumidores que enviaram solicitações de recusa de venda
 
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica o espaço de cookies `AdCloud`, e o valor correspondente é a ID do cookie do cliente conforme recuperada de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que a solicitação se aplica ao produto Adobe Advertising

@@ -28,5 +28,5 @@ O Adobe Advertising DSP (DSP) eleva as estratégias de mídia dos anunciantes po
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introdução ao Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: Introdução ao Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=pt-BR)
+>* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=pt-BR)

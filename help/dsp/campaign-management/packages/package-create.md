@@ -32,4 +32,4 @@ Depois de criar um pacote, você pode atribuir disposições a ele.
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
 >* [Pausar ou Ativar um Pacote](package-pause-activate.md)
 >* [Configurações do pacote](package-settings.md)
->* [Vídeo: como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Vídeo: como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=pt-BR)

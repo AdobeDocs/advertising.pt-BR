@@ -20,7 +20,7 @@ Você pode exibir dados dos últimos 36 meses.
 >
 >* Relatórios por classificações de rótulo no nível de anúncio não estão disponíveis para [!DNL Microsoft Advertising] campanhas de anúncio de pesquisa dinâmica (DSA).
 >* Mais de uma classificação de etiqueta pode ser aplicada à mesma entidade, portanto, o total de cada métrica pode ser maior que o total real da entidade. Por exemplo, digamos que a palavra-chave &quot;sapatos de camurça&quot; tenha dois valores de etiqueta, &quot;camurça&quot; e &quot;calçado&quot;, e a palavra-chave recebeu 100 cliques. A coluna Clicks mostraria &quot;100&quot; para cada um desses valores de rótulo, portanto, o total para ambas as linhas seria &quot;200&quot;.
-* Quaisquer alterações feitas em classificações de rótulo e nos valores de rótulo filho de uma entidade serão visíveis em cerca de uma hora.
+>* Quaisquer alterações feitas em classificações de rótulo e nos valores de rótulo filho de uma entidade serão visíveis em cerca de uma hora.
 
 ## Colunas padrão
 

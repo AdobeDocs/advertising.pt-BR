@@ -26,7 +26,7 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
-* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
+>* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
 
 >[!MORELIKETHIS]
 >

@@ -27,7 +27,7 @@ Esse recurso não afeta o destino especificado para o nó principal, afeta apena
 
    * Para substituir todos os nós filhos e criações de um nó, clique no nó no qual você deseja colar as informações copiadas, clique em **...** e, em seguida, selecione a\) **[!UICONTROL Replace ctrl+shift+v]** ou b\) digite **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) no teclado.
 
-   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **...** e a\) selecione **[!UICONTROL Add ctrl+v]** ** ou b\) digite **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
+   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **...** e a\) selecione **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) digite &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

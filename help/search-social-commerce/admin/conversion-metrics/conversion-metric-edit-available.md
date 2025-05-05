@@ -26,7 +26,7 @@ A partir da lista de métricas de conversão disponíveis, cada usuário com ace
 
    * Para procurar um nome de métrica ou nome para exibição específico, clique em ![Pesquisar](/help/search-social-commerce/assets/search.png "Pesquisar"), digite a palavra ou a cadeia de caracteres no campo de entrada e pressione a tecla **[!DNL Enter]**.
 
-     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1}.](/help/search-social-commerce/glossary.md#c-d)
+     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1&rbrace;.](/help/search-social-commerce/glossary.md#c-d)
 
    * Para procurar métricas de conversão por sua disponibilidade em exibições de gerenciamento e relatórios, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") e selecione o filtro **[!UICONTROL Show in UI and Reports]**. Em seguida, selecione **[!UICONTROL Show]** (para exibir as métricas de conversão disponíveis para inclusão nos relatórios e exibições de gerenciamento) ou **[!UICONTROL Hide]** (para exibir as métricas de conversão não disponíveis nos relatórios e exibições de gerenciamento).
 

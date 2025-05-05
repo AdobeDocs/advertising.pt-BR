@@ -100,7 +100,7 @@ Use as seguintes práticas recomendadas para segmentos baseados em [!DNL RampID]
 
 ### Níveis aceitáveis de variação
 
-A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa pode indicar um problema. Consulte &quot;[Causas de variação](#universal-ids-data-variances-causes&quot; para obter possíveis explicações.
+A taxa de conversão de endereços de email com hash para IDs universais deve ser maior que 90%; a taxa de conversão para [!DNL RampIDs] em particular deve ser de 95% se todos os endereços de email com hash forem exclusivos. Por exemplo, se você enviar 100 endereços de email com hash da plataforma de dados do cliente, eles deverão ser traduzidos para pelo menos 95 [!DNL RampIDs] ou mais de 90 outros tipos de IDs universais. Uma taxa de tradução mais baixa pode indicar um problema. Consulte &quot;[Causas de variação] (#universal-ids-data-variances-causes&quot; para obter possíveis explicações.
 
 Para [!DNL RampIDs], entre em contato com a equipe de conta do Adobe para obter mais informações se as taxas de tradução forem inferiores a 70%.
 

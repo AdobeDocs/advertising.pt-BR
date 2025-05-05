@@ -24,8 +24,8 @@ Em relatórios, exibições padrão e personalizadas do Advertising Search, Soci
 >
 >* As regras de atribuição se aplicam a cliques em anúncios pagos em qualquer canal e a impressões em exibições e anúncios sociais. Elas não se aplicam a impressões para anúncios de pesquisa paga, que não podem ser rastreados no nível do evento.
 >* O Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* No Advertising DSP e no Advertising Creative, as definições entre dispositivos consideram somente o caminho de evento da regra de atribuição selecionada.<!-- cross-device attribution via LiveRamp only -->
-* Nas exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas o Adobe Advertising armazena valores mais precisos.
+>* No Advertising DSP e no Advertising Creative, as definições entre dispositivos consideram somente o caminho de evento da regra de atribuição selecionada.<!-- cross-device attribution via LiveRamp only -->
+>* Nas exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas o Adobe Advertising armazena valores mais precisos.
 
 ## Último evento (o padrão)
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os novos usuários devem executar as seguintes tarefas de configuração inicial:
 
-* Disponibilize as métricas de conversão que o Adobe Advertising está rastreando para um anunciante [para relatórios e outras exibições](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) e, opcionalmente, [renomeie qualquer uma das métricas de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md que são exibidas nos títulos das colunas para facilitar a leitura.
+* Disponibilize as métricas de conversão que o Adobe Advertising está rastreando para um anunciante [para relatórios e outras exibições](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) e, opcionalmente, [renomeie qualquer uma das métricas de conversão] (/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md que são exibidas nos títulos das colunas para facilitar a leitura.
 
   As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
 

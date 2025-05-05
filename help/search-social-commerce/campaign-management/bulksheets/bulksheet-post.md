@@ -35,7 +35,7 @@ Quando a tarefa for iniciada, o status e a data de postagem agendada para a linh
 >
 >* Grandes quantidades de dados demoram mais para serem postadas. Você pode acompanhar o progresso do arquivo na coluna [!UICONTROL Progress] na exibição [!UICONTROL Bulksheets].
 >* Todos os dados publicados estão sujeitos ao processo editorial da rede.
-* Antes da publicação do arquivo de bulksheet, você pode cancelar a publicação.
+>* Antes da publicação do arquivo de bulksheet, você pode cancelar a publicação.
 
 ## Configurações de publicação para bulksheets e arquivos de erro corrigidos {#bulksheet-post-settings}
 

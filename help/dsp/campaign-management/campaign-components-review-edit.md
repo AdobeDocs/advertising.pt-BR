@@ -3,9 +3,9 @@ title: Revisar e editar configurações do componente de campanha usando bulkshe
 description: Saiba como revisar e editar o pacote de chaves, a disposição e as configurações de anúncio em massa usando planilhas.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 É possível baixar as configurações dos pacotes, posicionamentos e anúncios em uma única campanha no formato XLSX ([!DNL Microsoft Excel] planilha) para revisar e editar as configurações. Por padrão, o arquivo baixado, denominado *bulksheet,* inclui guias separadas para configurações de pacote, informações de voo de pacote, configurações de posicionamento e agendamentos de anúncios de posicionamento. Opcionalmente, é possível excluir as configurações de alguns tipos de componentes da campanha.
 
-Para atualizar várias configurações de uma só vez, carregue um arquivo de bulksheet válido com as alterações. Para criar uma bulksheet, edite uma bulksheet baixada com as configurações existentes. Os campos editáveis incluem a maioria das configurações que normalmente são editáveis.
+Para atualizar várias configurações de uma só vez, carregue um arquivo de bulksheet válido com as alterações. Para criar uma bulksheet, edite uma bulksheet baixada com as configurações existentes. Os campos editáveis incluem a maioria das configurações que normalmente são editáveis. Os campos das configurações que não são usadas contêm valores em branco.
 
 >[!NOTE]
 >

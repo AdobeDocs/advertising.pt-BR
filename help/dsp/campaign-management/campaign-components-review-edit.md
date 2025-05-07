@@ -3,9 +3,9 @@ title: Revisar e editar configurações do componente de campanha usando bulkshe
 description: Saiba como revisar e editar o pacote de chaves, a disposição e as configurações de anúncio em massa usando planilhas.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
+source-git-commit: e4df27ec0e4864d5604920f3e8ebe427152187d9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
      O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações. Todas as colunas editáveis são destacadas em azul. Para usar o formato correto para um campo, selecione e copie o valor da configuração relevante do pacote ou da configuração de posicionamento. Para algumas configurações do target, como dayparting, metas personalizadas e métricas de conversão, uma opção de cópia está disponível na configuração.
+
+     >[!NOTE]
+     >
+     >Para algumas configurações de target, todas as opções são direcionadas por padrão, a menos que você restrinja a seleção a alvos específicos. Quando você não restringiu os destinos, o campo de bulksheet fica em branco, o que significa que todas as opções são direcionadas.
 
 ## Fazer upload de um Bulksheet com configurações de pacote, posicionamento e anúncios para uma campanha{#upload-bulksheet-campaign-components}
 
@@ -116,7 +120,6 @@ Quando qualquer atualização de configuração falhar, você pode baixar um arq
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |

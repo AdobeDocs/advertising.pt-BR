@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ Para especificar o direcionamento de inventário:
 >
 >Se você se inscreveu no inventário [!UICONTROL On Demand], mas não pode localizar os editores ou ofertas para o público-alvo, verifique o status das ofertas. Para obter mais informações sobre status, consulte [Sobre [!DNL On Demand] Inventário Premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (somente posicionamentos de vídeo) Exclui o tráfego externo.
+**[!UICONTROL Video targeting]:** Estoque de destino (mas não excluído) por atributos de inventário. Ao direcionar vários valores para o mesmo atributo de vídeo, qualquer um dos atributos selecionados pode ser direcionado (por exemplo, \[Tamanho do player = grande OU Tamanho do player = HD\]). Quando você direciona a vários atributos, cada um dos atributos especificados deve estar presente (por exemplo, \[Duração = 30-60 min] E \[Tamanho do player = grande OU Tamanho do player = HD\]).
 
-Anúncios de saída geralmente aparecem sobre o conteúdo como um pop-up ou recheados com conteúdo (na experiência nativa), em vez de anúncios de vídeo regulares em um reprodutor de vídeo.
+* **[!UICONTROL Player size]:** Direcionar (mas não excluir) inventário por tamanho de player. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os tamanhos são direcionados. Para restringir os destinos, selecione tamanhos de destino específicos e/ou *Desconhecido*.
+
+* **[!UICONTROL Playback mode]:** Inventário de destino (mas não excluído) de acordo com como a reprodução é iniciada. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os modos são direcionados. Para restringir os destinos, selecione modos de destino específicos e/ou *Desconhecido*.
+
+* **[!UICONTROL Skippability]:** Direcione (mas não exclua) o inventário de acordo com se ele pode ou não ser ignorado. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as opções são direcionadas. Para restringir os destinos, selecione destinos específicos e/ou *Desconhecido*.
+
+**[!UICONTROL Position targeting]:** Estoque de destino (mas não excluído) por posição de anúncio. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as posições são direcionadas. Para restringir os destinos, selecione posições de destino específicas e/ou *Desconhecido*.
 
 ## [!UICONTROL Site and App Targeting]
 

@@ -26,9 +26,9 @@ Você pode fazer logon na Pesquisa, no Social e no Commerce diretamente ou por m
 
 >[!NOTE]
 >
->Sua empresa deve ser provisionada na Adobe Experience Cloud e você deve ter [vinculado sua conta da Experience Cloud a uma conta do Search, Social e Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Sua empresa deve ser provisionada na Adobe Experience Cloud e você deve ter [vinculado sua conta da Experience Cloud a uma conta do Search, Social e Commerce](https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
 
-1. [Entrar no Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Entrar no Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#signin).
 
 1. No menu superior, selecione ![seletor de soluções](/help/search-social-commerce/assets/menu-icon.png "seletor de soluções").
 

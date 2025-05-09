@@ -3,7 +3,7 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,17 +42,17 @@ A opção [!UICONTROL Search] inclui os submenus a seguir. As opções disponív
 
 * ![Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta") Um painel que lista suas notificações de pesquisa, sociais e Commerce.
 
-  Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), este painel mostrará as notificações do Experience Cloud.
+  Quando você estiver [conectado por meio do Adobe Experience Cloud](sign-in.md), este painel mostrará as notificações da Experience Cloud.
 
 * ![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda") Um menu de ajuda que inclui links para a documentação e outras informações.
 
 * ![Alternador de soluções](/help/search-social-commerce/assets/menu-icon.png "Alternador de soluções") Uma lista de soluções e serviços da Adobe Experience Cloud para os quais você pode alternar.
 
-* ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") Um link para o seu perfil, a partir do qual você pode fazer logoff.
+* ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") Um link para o seu perfil, do qual você pode sair.
 
-  Quando você estiver [conectado por meio do Adobe Experience Cloud](log-in.md), também poderá editar seu perfil de Experience Cloud, incluindo sua senha de Experience Cloud e configurações de notificação.
+  Quando você estiver [conectado por meio do Adobe Experience Cloud](sign-in.md), também poderá editar seu perfil do Experience Cloud, incluindo sua senha do Experience Cloud e configurações de notificação.
 
 >[!MORELIKETHIS]
 >
->* [Fazer logon](log-in.md)
->* [Fazer logoff](log-out.md)
+>* [Entrar](sign-in.md)
+>* [Sair](sign-out.md)

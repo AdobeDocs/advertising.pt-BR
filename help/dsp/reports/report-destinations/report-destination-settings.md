@@ -3,7 +3,7 @@ title: Configurações de destino do relatório
 description: Veja os detalhes necessários para os destinos do seu relatório, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
+**[!UICONTROL Username]:** O nome de usuário para entrar no servidor.
 
-**[!UICONTROL Password]:** A senha para fazer logon no servidor.
+**[!UICONTROL Password]:** A senha para entrar no servidor.
 
 **[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 
@@ -50,9 +50,9 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
+**[!UICONTROL Username]:** O nome de usuário para entrar no servidor.
 
-**[!UICONTROL Password]:** A senha para fazer logon no servidor.
+**[!UICONTROL Password]:** A senha para entrar no servidor.
 
 **[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 
@@ -64,9 +64,9 @@ Os detalhes necessários para destinos que não são de relatório de email vari
 
 **[!UICONTROL Port]:** O número da porta a ser usada no servidor. O padrão é *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** O nome de usuário para fazer logon no servidor.
+**[!UICONTROL Username]:** O nome de usuário para entrar no servidor.
 
-**[!UICONTROL Password]:** A senha para fazer logon no servidor.
+**[!UICONTROL Password]:** A senha para entrar no servidor.
 
 **[!UICONTROL Path (Optional)]:** O caminho do servidor para o qual os arquivos são carregados.
 

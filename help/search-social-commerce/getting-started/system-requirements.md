@@ -3,7 +3,7 @@ title: Requisitos do sistema
 description: Saiba mais sobre os requisitos de software e conta.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Você precisa das seguintes informações de conta e software.
 
 ## Nome de usuário e senha
 
-Para fazer logon, você precisa de um nome de usuário e senha. Sua equipe de conta do Adobe configura sua conta de usuário e cria seu nome de usuário e senha.
+Para entrar, você precisa de um nome de usuário e senha. Sua equipe de conta da Adobe configura sua conta de usuário e cria seu nome de usuário e senha.
 
 ## Configurações do computador e do navegador
 

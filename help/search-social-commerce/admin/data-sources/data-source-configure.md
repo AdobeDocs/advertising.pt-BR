@@ -4,7 +4,7 @@ description: Saiba como configurar uma fonte de dados a partir de uma visualiza�
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Configurar uma visualização [!DNL Google Analytics] como fonte de dados
 
-*Somente Administradores de Agência, Gerentes de Conta de Agência, Gerentes de Conta de Adobe e Administradores*
+*Somente administradores de agências, gerentes de contas de agências, gerentes de contas da Adobe e administradores*
 
 Você pode criar uma fonte de dados por [!DNL Google Analytics] combinação de conta, propriedade e visualização.
 
@@ -27,7 +27,7 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
 
 1. Na caixa de diálogo [!UICONTROL Deployment Prerequisites], marque a caixa de seleção para confirmar se a dimensão personalizada necessária &quot;ef_id&quot; está implementada na conta [!DNL Google Analytics] e clique em **[!UICONTROL Continue]**.
 
-   Alguns pré-requisitos podem ter sido executados por outras funções em sua organização. Em caso de dúvidas sobre os pré-requisitos, entre em contato com a equipe de conta do Adobe.
+   Alguns pré-requisitos podem ter sido executados por outras funções em sua organização. Em caso de dúvidas sobre os pré-requisitos, entre em contato com a equipe de conta da Adobe.
 
 1. Insira as [configurações da fonte de dados](data-source-settings.md):
 
@@ -39,7 +39,7 @@ Para integrar métricas de várias propriedades ou de várias exibições de uma
 
          >[!TIP]
          >
-         >Para garantir que apenas propriedades e exibições específicas do [!DNL Google Analytics] estejam disponíveis no Adobe Advertising, faça logon usando um endereço de email que tenha acesso somente a essas propriedades e exibições.
+         >Para garantir que somente propriedades e exibições específicas do [!DNL Google Analytics] estejam disponíveis no Adobe Advertising, entre usando um endereço de email que tenha acesso somente a essas propriedades e exibições.
 
          >[!NOTE]
          >

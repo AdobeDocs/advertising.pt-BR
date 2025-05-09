@@ -3,7 +3,7 @@ title: Fazer logon no DSP
 description: Saiba como fazer logon no DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 7cfc6f263b16f34211ace1c89dc0fa672c65235d
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -36,21 +36,21 @@ Suas credenciais atuais do DSP permanecerão ativas até 26 de junho de 2025, pa
 
 1. Insira suas credenciais:
 
-   * Se você já usa uma conta do [!DNL Adobe], faça logon com suas credenciais existentes.
+   * Se você já usa uma conta do [!DNL Adobe], entre com as credenciais existentes.
 
    * Se você não tiver uma conta [!DNL Adobe], procure um email convidando você a criar uma conta [!DNL Adobe]. Você receberá um convite para cada uma de suas contas do DSP. Siga o link no email para configurar suas credenciais. Se você tiver várias contas do DSP, siga as instruções para vinculá-las.
 
 1. Escolha sua organização:
 
-   * Se solicitado, selecione **Conta pessoal&quot; ou &#x200B;** Conta da empresa ou escola**.
+   * Se solicitado, selecione **Conta pessoal&quot; ou **Conta da empresa ou escola**.
 
    * Se você tiver acesso a várias organizações IMS, selecione a correta.
 
-Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).&quot;
+Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ### Solução de problemas
 
-Para problemas gerais de entrada, consulte também &quot;[Resolver problemas de entrada na conta da Adobe](https://helpx.adobe.com/br/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Para problemas gerais de entrada, consulte também &quot;[Resolver problemas de entrada na conta da Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Há algum pré-requisito para habilitar um novo logon de IMS do [!DNL Adobe]?
 

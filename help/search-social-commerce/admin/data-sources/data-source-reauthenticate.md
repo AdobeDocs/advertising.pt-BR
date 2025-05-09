@@ -1,10 +1,10 @@
 ---
-title: Reautenticar uma fonte de dados  [!DNL Google Analytics]
+title: 'Reautenticar uma fonte de dados  [!DNL Google Analytics] '
 description: Saiba como autenticar novamente uma fonte de dados  [!DNL Google Analytics]  se você alterar a senha associada ou se o certificado expirar.
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Reautenticar uma fonte de dados [!DNL Google Analytics]
 
-*Somente Administradores de Agência, Gerentes de Conta de Agência, Gerentes de Conta de Adobe e Administradores*
+*Somente administradores de agências, gerentes de contas de agências, gerentes de contas da Adobe e administradores*
 
 Se você alterar a senha da conta de email usada para uma fonte de dados ou se o certificado [!DNL OAuth] da conta expirar, todas as conexões abertas com a conta de email serão fechadas e você deverá reautenticar para retomar a sincronização de dados.
 
@@ -31,7 +31,7 @@ Se você alterar a senha da conta de email usada para uma fonte de dados ou se o
 
          >[!TIP]
          >
-         >Para garantir que apenas propriedades e exibições específicas do [!DNL Google Analytics] estejam disponíveis no Search, Social e Commerce, faça logon usando um endereço de email que tenha acesso somente a essas propriedades e exibições.
+         >Para garantir que somente propriedades e exibições específicas do [!DNL Google Analytics] estejam disponíveis no Search, Social e Commerce, entre usando um endereço de email que tenha acesso somente a essas propriedades e exibições.
 
    1. Marque a caixa de seleção para autorizar o Search, Social e Commerce a acessar as métricas da conta.
 

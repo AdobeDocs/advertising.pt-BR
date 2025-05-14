@@ -3,9 +3,9 @@ title: Duplicar uma campanha
 description: Saiba como duplicar uma campanha.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
 * Pause a nova campanha até estar pronto para ativá-la.
 
-* Considere o seguinte e edite as novas configurações da campanha conforme necessário:
+* Considere o seguinte e edite a nova campanha conforme necessário:
 
    * A conta tem financiamento suficiente para acomodar o novo orçamento de campanha?
 

@@ -3,9 +3,9 @@ title: Duplicar disposições
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
 * Pause as novas disposições até estar pronto para ativá-las.
 
-* Considere o seguinte e edite as novas configurações de posicionamento conforme necessário:
+* Considere o seguinte e edite as novas disposições conforme necessário:
 
    * A conta tem financiamento suficiente para acomodar os novos orçamentos de posicionamento?
 

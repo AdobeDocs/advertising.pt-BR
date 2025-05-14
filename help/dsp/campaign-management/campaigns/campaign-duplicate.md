@@ -3,9 +3,9 @@ title: Duplicar uma campanha
 description: Saiba como duplicar uma campanha.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 Duplique uma campanha para criar uma nova campanha com configurações semelhantes. Você pode:
 
 * Duplique a campanha para o anunciante original ou para uma campanha diferente
+
 * Opcionalmente, duplicar os pacotes e posicionamentos originais
+
 * Modificar as datas de voo da nova campanha
 
 Consulte &quot;[O que não está duplicado](#campaign-not-duplicated)&quot; para obter uma lista de configurações de posicionamento que não estão duplicadas.
@@ -50,9 +52,36 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Anúncios
    * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
 
+## Práticas recomendadas para configurar a nova campanha
+
+>[!TIP]
+>
+>* Use bulksheets para [fazer alterações em vários componentes da campanha de uma só vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Use folhas de marcas de publicidade para [carregar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pause a nova campanha até estar pronto para ativá-la.
+
+* Considere o seguinte e edite as novas configurações da campanha conforme necessário:
+
+   * A conta tem financiamento suficiente para acomodar o novo orçamento de campanha?
+
+   * A nova campanha precisa de um orçamento diferente do orçamento da campanha anterior?
+
+   * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
+
+   * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
+
+   * Inclua destinos geográficos e segmentos de nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] conforme necessário para posicionamentos.
+
+   * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
+
+   * Crie novos posicionamentos para [!UICONTROL Simple Ad Serving] ofertas, conforme necessário.
+
+* Para campanhas de desempenho (ou seja, campanhas com pacotes que usam metas de otimização personalizadas), use a [[!UICONTROL Linked Package for Optimization Learnings Carryover] configuração](/help/dsp/campaign-management/packages/package-settings.md) de cada pacote para usar os dados do histórico da campanha anterior como entrada para otimizar o pacote.
+
 >[!MORELIKETHIS]
 >
->* [Sobre o Campaign Management](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)

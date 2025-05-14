@@ -3,9 +3,9 @@ title: Duplicar disposições
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Pixels de evento
    * Anúncios
    * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
+
+## Práticas recomendadas para configurar as novas disposições
+
+>[!TIP]
+>
+>* Use bulksheets para [fazer alterações em vários componentes da campanha de uma só vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Use folhas de marcas de publicidade para [carregar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pause as novas disposições até estar pronto para ativá-las.
+
+* Considere o seguinte e edite as novas configurações de posicionamento conforme necessário:
+
+   * A conta tem financiamento suficiente para acomodar os novos orçamentos de posicionamento?
+
+   * Os novos posicionamentos precisam de orçamentos diferentes dos posicionamentos anteriores?
+
+   * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
+
+   * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
+
+   * Inclua destinos geográficos e segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety], conforme necessário, nos posicionamentos.
+
+   * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
+
+   * Crie novos posicionamentos para [!UICONTROL Simple Ad Serving] ofertas, conforme necessário.
 
 >[!MORELIKETHIS]
 >

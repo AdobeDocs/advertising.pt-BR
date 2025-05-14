@@ -3,9 +3,9 @@ title: Duplicar um pacote
 description: Saiba como duplicar um pacote.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 Duplique um pacote para criar um pacote com configurações semelhantes. Você pode:
 
 * Duplicar o pacote no anunciante e na campanha originais ou em anúncios diferentes
+
 * Opcionalmente, duplicar os posicionamentos no pacote
+
 * (Para pacotes duplicados nas campanhas originais) Opcionalmente, duplique os anúncios originais e os pixels do evento no nível do posicionamento
+
 * Modificar as datas de início e término do novo pacote
 
 Consulte &quot;[O que não está duplicado](#package-not-duplicated)&quot; para obter uma lista de configurações de posicionamento que não estão duplicadas.
@@ -58,6 +61,33 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Pixels de evento
    * Anúncios
    * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
+
+## Práticas recomendadas para configurar o novo pacote
+
+>[!TIP]
+>
+>* Use bulksheets para [fazer alterações em vários componentes da campanha de uma só vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Use folhas de marcas de publicidade para [carregar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pause o novo pacote até estar pronto para ativá-lo.
+
+* Considere o seguinte e edite as novas configurações do pacote conforme necessário:
+
+   * A conta tem financiamento suficiente para acomodar o novo orçamento do pacote?
+
+   * O novo pacote precisa de um orçamento diferente do pacote anterior?
+
+   * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
+
+   * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
+
+   * Inclua destinos geográficos e segmentos de nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] conforme necessário para posicionamentos.
+
+   * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
+
+   * Crie novos posicionamentos para [!UICONTROL Simple Ad Serving] ofertas, conforme necessário.
+
+* Para pacotes que usam metas de otimização personalizadas, use a [[!UICONTROL Linked Package for Optimization Learnings Carryover] configuração](/help/dsp/campaign-management/packages/package-settings.md) para cada pacote para usar os dados do histórico da campanha anterior como entrada para otimizar o pacote.
 
 >[!MORELIKETHIS]
 >

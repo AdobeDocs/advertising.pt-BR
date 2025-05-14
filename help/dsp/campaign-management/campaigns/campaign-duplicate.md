@@ -57,7 +57,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 >[!TIP]
 >
 >* Use bulksheets para [fazer alterações em vários componentes da campanha de uma só vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Use folhas de marcas de publicidade para [carregar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Use folhas de marcas de publicidade para [carregar vários anúncios de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Pause a nova campanha até estar pronto para ativá-la.
 

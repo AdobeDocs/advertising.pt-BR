@@ -3,9 +3,9 @@ title: Duplicar disposições
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 Todas as configurações das disposições originais são duplicadas, exceto:
 
 * Configurações de experimento
+* Orçamentos mínimos no nível de posicionamento
 * (Se você alterar as datas de veiculação) Programação de anúncios personalizada
 * (Se você não anexar anúncios) Peso e agendamento personalizados de anúncios
 * Posicionamentos padrão para ofertas programáticas garantidas (PG) e posicionamentos para [!UICONTROL Simple Ad Serving] ofertas
@@ -82,7 +83,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
    * A conta tem financiamento suficiente para acomodar os novos orçamentos de posicionamento?
 
-   * Os novos posicionamentos precisam de orçamentos diferentes dos posicionamentos anteriores?
+   * Os novos posicionamentos precisam de orçamentos diferentes dos posicionamentos anteriores? Os orçamentos mínimos são necessários?
 
    * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
 

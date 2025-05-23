@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Desanexar um criativo do pacote não exclui o criativo da guia Criativos na bibl
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
 
-## Pré-visualização de um criativo em um pacote
+## Visualizar um único criativo em um pacote
 
 Você pode visualizar um criativo como os visualizadores o verão, incluindo hiperlinks.
 
@@ -186,6 +186,31 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 
    O arquivo é baixado de acordo com o procedimento normal do navegador.
 
+## Visualizar todos os elementos de criação em um pacote
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique no nome da biblioteca.
+
+1. Clique na guia **[!UICONTROL Bundles]**.
+
+1. Selecione o pacote:
+
+   * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Preview]**.
+
+   * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Preview]**.
+
+1. (Opcional) Para filtrar as criações por idioma, selecione uma opção na lista **[!UICONTROL Language]** e clique em **[!UICONTROL Preview]** no canto superior direito da visualização.
+
+1. (Opcional) Para filtrar as criações por tamanho, selecione uma opção na lista **[!UICONTROL Size]** e clique em **[!UICONTROL Preview]** no canto superior direito da visualização.
+
+1. (Opcional) Para redimensionar as imagens dentro da tela, selecione uma opção na lista **[!UICONTROL Zoom]**, de 10% a 100% do tamanho da imagem.
+
+1. (Opcional) Para compartilhar uma URL de demonstração para que outras pessoas sem login no [!DNL Creative] possam visualizar os elementos de criação:
+
+   1. Clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar") no canto superior direito da visualização.
+
+   1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Você pode excluir pacotes que não estão atribuídos a uma experiência [live]
 >[!MORELIKETHIS]
 >
 >* [Atribuir e cancelar atribuição de pacotes criativos a um nó final em uma experiência](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gerenciar bibliotecas criativas](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)

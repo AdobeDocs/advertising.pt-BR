@@ -3,9 +3,9 @@ title: Exportar e implementar uma tag de experiência de anúncio para uma exper
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
 
-1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,13 +44,15 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
 1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL Generate ad tags]** no menu esquerdo.
 
-1. Selecione o tipo de marca: ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Selecione o tipo de marca: ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
 1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
 
+   * *Genérico:* Para anúncios criados em outros DSPs. **Observação:** talvez seja necessário incluir manualmente [macros adicionais](/help/creative/creative-macros.md), conforme necessário.
+
    * *Adobe Advertising:* Para anúncios criados no Advertising DSP.
 
-   * *Genérico:* Para anúncios criados em outros DSPs. **Observação:** talvez seja necessário incluir manualmente macros adicionais, conforme necessário.
+   * *DCM do Google:* Para anúncios criados em [!DNL Google Campaign Manager 360]. **Observação:** talvez seja necessário incluir manualmente [macros adicionais](/help/creative/creative-macros.md), conforme necessário.
 
 1. Clique em **[!UICONTROL Generate tags]**.
 

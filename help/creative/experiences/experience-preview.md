@@ -3,9 +3,9 @@ title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
    1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 
-
 ## Visualizar criações em uma experiência sem direcionamento de árvore de decisão
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -97,11 +96,15 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
    Por padrão, criações de todos os tamanhos são listadas.
 
-1. Clique no nome de uma tag de anúncio para expandir a linha e visualizar o criativo.
+1. Clique no nome de uma tag de publicidade para expandir a linha e visualizar as criações.
+
+1. (Opcional) Para acessar a landing page de um criativo, clique no criativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para copiar uma URL de demonstração da experiência para compartilhar com outras pessoas sem login no [!DNL Creative]:
 
-   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar").
+   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share2.png "Compartilhar").
 
    1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 

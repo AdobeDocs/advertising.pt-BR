@@ -3,14 +3,14 @@ title: Anexar um criativo a pacotes criativos
 description: Saiba como anexar um criativo a um pacote criativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Anexar <!-- and detach --> criações a pacotes criativos
+# Anexar elementos de criação a pacotes criativos
 
 *Beta fechado*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Você pode<!-- also --> [anexar criações a pacotes e desanexar criações de pacotes da exibição de Pacotes](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Attach to Bundles]**.
 
    Cada pacote qualificado para o tipo criativo está listado no quadro correto. Os pacotes aos quais o criativo já está anexado são listados, mas não podem ser selecionados.
+
+1. (Opcional) Alterne entre a exibição de tabela padrão e uma exibição de cartão dos pacotes disponíveis clicando em ![Exibição de cartão](/help/creative/assets/card-view-button.png "Exibição de cartão") para abrir a exibição de cartão ou ![Exibição em tabela/lista](/help/creative/assets/table-view-button.png "Visualização em tabela") para retornar à exibição de tabela.
 
 1. No quadro direito, marque a caixa de seleção ao lado de cada pacote ao qual anexar o criativo e clique em **[!UICONTROL Attach Creative to Bundle]**.
 

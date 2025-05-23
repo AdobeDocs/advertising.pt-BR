@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ As alterações no nome de um pacote são propagadas em todas as experiências a
 
 Você pode anexar [criações padrão existentes](/help/creative/creative-libraries/creative-libraries-about.md) a um pacote padrão e anexar criações dinâmicas existentes<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size + language\].
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>Você também pode [anexar criações a pacotes a partir das exibições de Anúncios padrão e Anúncios dinâmicos](creative-attach-detach-bundles.md).
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -127,6 +125,8 @@ Você pode anexar [criações padrão existentes](/help/creative/creative-librar
    * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Attach Creatives]**.
 
    Cada criativo qualificado para o tipo de pacote está listado no quadro correto. As criações que já estão anexadas ao pacote são listadas, mas não podem ser selecionadas.
+
+1. (Opcional) Alterne entre a exibição de tabela padrão e uma exibição de cartão dos pacotes disponíveis clicando em ![Exibição de cartão](/help/creative/assets/card-view-button.png "Exibição de cartão") para abrir a exibição de cartão ou ![Exibição em tabela/lista](/help/creative/assets/table-view-button.png "Visualização em tabela") para retornar à exibição de tabela.
 
 1. No quadro direito, marque a caixa de seleção ao lado de cada criativo a ser anexado ao pacote e clique em **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Opcional) Para abrir a landing page do criativo, clique no criativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Opcional) Para baixar o criativo, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
 
    O arquivo é baixado de acordo com o procedimento normal do navegador.
@@ -205,6 +209,10 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 1. (Opcional) Para filtrar as criações por tamanho, selecione uma opção na lista **[!UICONTROL Size]** e clique em **[!UICONTROL Preview]** no canto superior direito da visualização.
 
 1. (Opcional) Para redimensionar as imagens dentro da tela, selecione uma opção na lista **[!UICONTROL Zoom]**, de 10% a 100% do tamanho da imagem.
+
+1. (Opcional) Para abrir a landing page de um criativo, clique no criativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para compartilhar uma URL de demonstração para que outras pessoas sem login no [!DNL Creative] possam visualizar os elementos de criação:
 

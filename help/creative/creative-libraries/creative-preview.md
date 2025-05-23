@@ -3,9 +3,9 @@ title: Pré-visualizar um criativo
 description: Saiba como abrir uma visualização de um criativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 1. (Opcional) Para redimensionar a imagem na tela, selecione uma opção na lista **[!UICONTROL Zoom]**, de 10% a 100% do tamanho da imagem.
 
 1. (Criações flexíveis do HTML5; opcional) Para rolar entre os quadros do criativo, clique em **\&lt;** e **\>**.
+
+1. (Opcional) Para abrir a landing page do criativo, clique no criativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para baixar o criativo, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
 

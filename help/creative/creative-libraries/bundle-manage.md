@@ -3,7 +3,7 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 
 1. (Opcional) Para abrir a landing page do criativo, clique no criativo.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para baixar o criativo, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
 
@@ -212,7 +212,7 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 
 1. (Opcional) Para abrir a landing page de um criativo, clique no criativo.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para compartilhar uma URL de demonstração para que outras pessoas sem login no [!DNL Creative] possam visualizar os elementos de criação:
 

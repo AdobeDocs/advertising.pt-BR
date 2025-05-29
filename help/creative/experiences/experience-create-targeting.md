@@ -3,9 +3,9 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
          * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+
+1. (Opcional) Alterne entre a árvore de decisão e as configurações gerais:
+
+   * Para abrir as configurações gerais na árvore decisória, clique em **[!UICONTROL Experience Form]** no canto superior direito.
+
+   * Para abrir a árvore decisória nas configurações gerais, clique em **[!UICONTROL Decision Tree]** no canto superior direito.
 
 1. Clique em **[!UICONTROL Save]** e faça o seguinte.
 

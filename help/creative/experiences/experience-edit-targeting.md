@@ -3,9 +3,9 @@ title: Editar uma experiência com direcionamento de árvore de decisão
 description: Saiba como editar as configurações de uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Edit]**.
 
-1. Edite as [configurações gerais de experiência](experience-settings-targeting.md).
+   A árvore de decisão é aberta por padrão.
 
-1. (Opcional) Para editar a árvore decisória, clique em **[!UICONTROL Decision Tree]** no canto superior direito e siga qualquer um destes procedimentos:
+1. (Opcional) Alterne entre a árvore de decisão e as configurações gerais conforme necessário:
+
+   * Para abrir as configurações gerais na árvore decisória, clique em **[!UICONTROL Experience Form]** no canto superior direito.
+
+   * Para abrir a árvore decisória nas configurações gerais, clique em **[!UICONTROL Decision Tree]** no canto superior direito.
+
+1. (Opcional) Para editar a árvore decisória, siga um destes procedimentos:
 
    * ([Processando](experience-about.md#experience-statuses) experiências) Siga um destes procedimentos:
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
          * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+
+1. (Opcional) Edite as [configurações gerais de experiência](experience-settings-targeting.md).
 
 1. Clique em **[!UICONTROL Save]** e faça o seguinte.
 

@@ -3,7 +3,7 @@ title: Gerencie suas bibliotecas criativas
 description: Saiba como criar, renomear e excluir suas bibliotecas criativas.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Você pode excluir bibliotecas com criações e pacotes que não estão atribuí
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
 
-1. Na mensagem de confirmação, clique em **[!UICONTROL Delete].** <!--Verify wording -->
+1. Na mensagem de confirmação, clique em **[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >

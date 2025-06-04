@@ -15,7 +15,7 @@ Você pode abrir a ajuda online de qualquer página da interface. Se a ajuda on-
 
 ## Abrir ajuda online
 
-Para abrir um conjunto de ajuda completo explicando como usar todos os recursos, clique em **[!UICONTROL Help]** no menu principal e abra o capítulo &quot;[DNL Creative]&quot;.
+Para abrir um conjunto de ajuda completo explicando como usar todos os recursos, clique em **[!UICONTROL Help]** no menu principal e abra o capítulo &quot;[!DNL Creative]&quot;.
 
 <!--
 ## Ask the Adobe Advertising community

@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
-breadcrumb-title: Guia de criação
+breadcrumb-title: Guia do Creative
 hide: true
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 + [Novidades](/help/creative/home.md)
 + Introdução {#introduction}
    + [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
-   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ Bibliotecas criativas {#creative-libraries}
+   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ Bibliotecas do Creative {#creative-libraries}
    + [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md)
    + [Gerenciar bibliotecas criativas](/help/creative/creative-libraries/creative-library-manage.md)
@@ -34,9 +34,9 @@ ht-degree: 0%
       + [Duplicar criações](/help/creative/creative-libraries/creative-duplicate.md)
       + [Baixar criações](/help/creative/creative-libraries/creative-download.md)
       + [Excluir criações](/help/creative/creative-libraries/creative-delete.md)
-   + Pacotes do Creative {#bundles}
+   + Pacotes Creative {#bundles}
       + [Gerenciar pacotes criativos](/help/creative/creative-libraries/bundle-manage.md)
-+ Adicionar experiências {#creative-experiences}
++ Experiências de anúncio {#creative-experiences}
    + [Sobre experiências no Advertising Creative](/help/creative/experiences/experience-about.md)
    + Experiências com direcionamento {#experience-targeted}
       + [O layout da árvore de decisão](/help/creative/experiences/experience-decision-tree.md)
@@ -44,13 +44,13 @@ ht-degree: 0%
       + [Editar uma experiência com direcionamento](/help/creative/experiences/experience-edit-targeting.md)
       + [Configurações de experiência direcionada](/help/creative/experiences/experience-settings-targeting.md)
       + Subtarefas para criar e editar experiências {#subtasks}
-         + Nós de destino {#nodes}
+         + Nós do Target {#nodes}
             + [Adicionar um nó de direcionamento ao nível final](/help/creative/experiences/experience-target-node-add-final.md)
             + [Inserir um nó de destino entre nós](/help/creative/experiences/experience-target-node-add-inner.md)
             + [Adicionar um nó de destino irmão](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Copiar nós filhos para outro nó no mesmo nível](/help/creative/experiences/experience-target-node-copy.md)
             + [Excluir um nó de destino ou nó folha criativo](/help/creative/experiences/experience-target-node-delete.md)
-         + Pacotes e criações criativas {#bundles}
+         + Pacotes e criações do Creative {#bundles}
             + [Atribuir e cancelar atribuição de pacotes criativos a um nó final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalizar os URLs de rastreamento para criações](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizar otimização criativa e agendamento](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
@@ -58,7 +58,7 @@ ht-degree: 0%
       + [Criar uma experiência sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md)
       + [Editar uma experiência sem direcionamento](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Marcas de publicidade e criação{#non-targeted-creatives}
+      + Tags de anúncios e criações{#non-targeted-creatives}
          + [Criar manualmente uma tag de anúncio para um tamanho de criação aplicável](/help/creative/experiences/experience-tag-create-manually.md)
          + [Atribuir criativos a uma tag de anúncio para experiências sem direcionamento](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Personalizar os URLs de rastreamento para uma experiência sem direcionamento](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [Relatório Creative personalizado](/help/creative/report-custom-creative.md)
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
-+ [Suporte ao cliente](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support){target="_blank"}
-+ [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target="_blank"}
++ [Obter ajuda](/help/creative/get-help.md)
++ [notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

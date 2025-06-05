@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Você pode anexar [criações padrão existentes](/help/creative/creative-librar
 >
 >Você também pode [anexar criações a pacotes a partir das exibições de Anúncios padrão e Anúncios dinâmicos](creative-attach-detach-bundles.md).
 
+### Anexar criações a um pacote da lista Pacotes
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
@@ -129,6 +131,24 @@ Você pode anexar [criações padrão existentes](/help/creative/creative-librar
 1. (Opcional) Alterne entre a exibição de tabela padrão e uma exibição de cartão dos pacotes disponíveis clicando em ![Exibição de cartão](/help/creative/assets/card-view-button.png "Exibição de cartão") para abrir a exibição de cartão ou ![Exibição em tabela/lista](/help/creative/assets/table-view-button.png "Visualização em tabela") para retornar à exibição de tabela.
 
 1. No quadro direito, marque a caixa de seleção ao lado de cada criativo a ser anexado ao pacote e clique em **[!UICONTROL Attach Creative to Bundle]**.
+
+### Anexar criações a um pacote da lista criativa do pacote
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Clique no nome da biblioteca.
+
+1. Clique na guia **[!UICONTROL Bundles]**.
+
+1. Clique no cartão ou na linha do pacote para exibir todas as criações no pacote.
+
+1. No canto superior direito, clique em **[!UICONTROL Attach Creatives]**.
+
+1. No painel direito, marque a caixa de seleção de cada criativo que deseja anexar.
+
+1. Clique em **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Desanexar criações de um pacote {#bundle-detach-creatives}
 

@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento ao nível final em uma experiência
 description: Saiba como adicionar um nó de direcionamento ao nível de destino final de uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
       1. Clique em **[!UICONTROL Apply]**.
 
-   * Para um destino de passagem de dados, selecione **[!UICONTROL Data Pass]**, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
+   * Para um destino de passagem de dados, selecione **[!UICONTROL Data Pass]**, como opção, personalize a chave de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
 
-   A chave do par chave-valor já está definida no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md).
+   Um valor padrão para a chave no par chave-valor já está definido no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md). Opcionalmente, é possível personalizar a chave.
 
    * Para um destino de pixel de redirecionamento, selecione **[!UICONTROL RT Pixel]**, selecione um único pixel de redirecionamento a ser usado e os valores de qualquer atributo de pixel necessário para mostrar as criações e clique em **[!UICONTROL Apply]**.
 

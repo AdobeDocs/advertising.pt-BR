@@ -3,9 +3,9 @@ title: Relatórios de desempenho de nível de experiência
 description: Saiba como visualizar relatórios de desempenho no nível da experiência.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ A visualização Relatório inclui os seguintes dados:
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **Guia Desempenho de criação***: uma visão geral de desempenho por criação e pacote ou marca de anúncio, incluindo:
+* **Guia Desempenho do Creative***: uma visão geral de desempenho por criativo e pacote ou tag de anúncio, incluindo:
 
    * Subguia **Criations**: o número total de impressões, cliques e CTR de cada criativo na experiência.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,12 +158,14 @@ A visualização Relatório inclui os seguintes dados:
 
    * (Experiências somente com direcionamento de árvore de decisão; opcional) Para dividir o desempenho para cada direcionamento de anúncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
-1. (Opcional) Para baixar os dados em um arquivo [!DNL Microsoft Excel] no formato de planilha (XLSX), clique em ![Download](/help/creative/assets/download.png "Baixar") na barra de ferramentas.
+## Baixar relatórios de desempenho para uma experiência
 
-   O arquivo é baixado de acordo com o procedimento normal do navegador.
+* Na barra de ferramentas na parte superior dos relatórios de desempenho, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
+
+  O arquivo é baixado em um arquivo [!DNL Microsoft Excel] no formato de planilha (XLSX), de acordo com o procedimento normal do navegador.
 
 >[!MORELIKETHIS]
 >
->* [Relatório de criação personalizado](/help/creative/report-custom-creative.md)
+>* [Relatório Creative personalizado](/help/creative/report-custom-creative.md)
 >* [Baixar todas as experiências no modo de exibição](/help/creative/experiences/experience-download-view.md)
 >* [Sobre experiências no Advertising Creative](/help/creative/experiences/experience-about.md)

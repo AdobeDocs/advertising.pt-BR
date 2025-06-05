@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ Depois de salvar a experiência, você não poderá alterar essa configuração.
 
 ## seção [!UICONTROL Advanced]
 
-**Data Pass:** (Somente leitura para experiências existentes; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão. É possível especificar até cinco chaves de passagem de dados (parâmetros). Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de dados para passar nós de destino e especificar os valores para direcionar para cada nó. Se você não especificar uma chave neste campo ao criar a experiência, ainda poderá especificar uma na árvore de decisão.<!-- May move this to just within the decision tree.  -->
+**Data Pass:** (Somente leitura para experiências existentes; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão. Você pode especificar até cinco chaves de passagem de dados padrão (parâmetros). Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de dados nos nós de destino, personalizar as chaves e especificar os valores de direcionamento para cada nó. Se não especificar nenhuma chave nesse campo ao criar a experiência, você ainda poderá especificá-las na árvore de decisão.
 
-Cada chave é anexada como uma macro na experiência de anúncio
-tag, que pode ser gerada para implementar como um anúncio na DSP.
+Cada chave é anexada como uma macro na tag de experiência de anúncio, que pode ser gerada para ser implementada como um anúncio na DSP.
 
 **Raio:** (somente experiências com anúncios dinâmicos; opcional) um raio de um código postal dos Estados Unidos especificado no arquivo de feed a ser direcionado; selecione um raio de 0 a 200 milhas. O arquivo de feed usado para criar os anúncios dinâmicos da experiência deve incluir uma [!UICONTROL ZIP] coluna<!-- or a user-named column mapped to a ZIP column --> com um valor para cada linha de produto no arquivo. Por exemplo, para um raio de 10 milhas, um anúncio de um produto disponível no 95110 pode ser exibido aos usuários dentro de 10 milhas de 95110 (determinado pelo endereço IP do usuário).
 

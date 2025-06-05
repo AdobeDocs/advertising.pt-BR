@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento entre nós em uma experiência
 description: Saiba como adicionar um nó de direcionamento entre os corpos de direcionamento em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
          1. Clique em **[!UICONTROL Apply]**.
 
-      * Para um destino de passagem de dados, insira um valor de passagem de dados único e clique em **[!UICONTROL Apply]**.
+      * Para um destino de passagem de dados, como opção, personalize a chave de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
 
-        A chave do par chave-valor já está definida no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md).
+        Um valor padrão para a chave no par chave-valor já está definido no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md). Opcionalmente, é possível personalizar a chave.
 
       * Para um destino de pixel de redirecionamento, selecione um único pixel de redirecionamento a ser usado e os valores de qualquer atributo de pixel necessário para mostrar as criações e clique em **[!UICONTROL Apply]**.
 

@@ -2,9 +2,10 @@
 title: Adicionar um nó de destino irmão entre nós em uma experiência
 description: Saiba como adicionar um nó irmão a qualquer nó que tenha um destino ou esteja no mesmo nível que um nó com um destino.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. Especifique os destinos:
 
-   * Para públicos-alvo do Adobe, faça o seguinte:
+   * Para Públicos-alvo da Adobe, faça o seguinte:
 
       1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Save]**.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. Clique em **[!UICONTROL Apply]**.
 
-   * Para destinos de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
+   * Para destinos de passagem de dados, como opção, personalize a chave de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
 
-   A chave do par chave-valor já está definida no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md), e você não pode adicionar outras chaves.
+     Um valor padrão para a chave no par chave-valor já está definido no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md). Opcionalmente, é possível personalizar a chave.
 
    * Para destinos de pixel de redirecionamento, selecione o pixel de redirecionamento a ser usado e os valores necessários para qualquer atributo de pixel que deve estar presente para mostrar as criações. Depois clique em **[!UICONTROL Apply]**.
 

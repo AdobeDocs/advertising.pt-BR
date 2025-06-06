@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 0%
 
 *Beta fechado*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 21 de maio de 2025 | [!UICONTROL Creative Libraries] | Agora é possível adicionar imagens da biblioteca de ativos da Adobe Experience Manager ao [!UICONTROL Creative Libraries] para usá-las em experiências de anúncio. | Consulte &quot;[Configurar acesso aos ativos de imagem do Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)&quot; e &quot;[Adicionar criativos padrão a uma biblioteca de criação](/help/creative/creative-libraries/creative-add-standard.md).&quot; |
 | 10 de fevereiro de 2025 | [!UICONTROL Creative Libraries] | Anteriormente, você tinha uma biblioteca criativa. Agora, você pode criar várias bibliotecas para cada anunciante. | Consulte &quot;[Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | A exibição [!UICONTROL Creatives] inclui guias para [!UICONTROL Standard Ads] e [!UICONTROL Dynamic Ads].<ul><li>A guia **[!UICONTROL Standard Ads]** permite carregar e gerenciar imagens, HTML5, HTML5 flexível e criações de terceiros.</li><li>A guia **[!UICONTROL Dynamic Ads]** permite gerenciar anúncios gerados dinamicamente que são criados a partir de arquivos de feed carregados usando modelos de anúncios definidos; anteriormente, os anúncios dinâmicos eram gerados em [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Atualmente, você pode visualizar, duplicar e excluir anúncios dinâmicos. Você também pode anexar anúncios dinâmicos a pacotes criativos para experiências de anúncios direcionados ou a tags de anúncios para experiências não direcionadas. Somente usuários administradores podem gerar anúncios dinamicamente.</li></ul> | Consulte &quot;[Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
-| | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Agrupe várias criações em um *pacote* para adicioná-las facilmente a uma experiência. Você pode criar pacotes de anúncios padrão e anexar criações padrão a eles. Da mesma forma, é possível criar pacotes de anúncios dinâmicos e anexar criações dinâmicas a eles. | Consulte &quot;[Gerenciar Pacotes de Criação](/help/creative/creative-libraries/bundle-manage.md)&quot;. |
+| | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Agrupe várias criações em um *pacote* para adicioná-las facilmente a uma experiência. Você pode criar pacotes de anúncios padrão e anexar criações padrão a eles. Da mesma forma, é possível criar pacotes de anúncios dinâmicos e anexar criações dinâmicas a eles. | Consulte &quot;[Gerenciar Pacotes do Creative](/help/creative/creative-libraries/bundle-manage.md)&quot;. |
 | | [!UICONTROL Experiences] | Nas novas configurações de experiência de anúncio, agora você especifica se a experiência usa ou não o direcionamento de árvore decisória e não é possível alterar a configuração depois de salvar a experiência. Os fluxos de trabalho das experiências com direcionamento de árvore de decisão e experiências sem direcionamento de árvore de decisão são diferentes. | Consulte &quot;[Criar uma experiência com direcionamento](/help/creative/experiences/experience-create-targeting.md)&quot; e &quot;[Criar uma experiência sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md).&quot; |
 | | [!UICONTROL Experiences] | Agora, você pode criar experiências direcionadas somente com pacotes criativos de uma única biblioteca criativa, não criativos individuais. Você ainda pode anexar criações individuais de uma única biblioteca a experiências não direcionadas sem direcionamento de árvore decisória.<br><br>Devido às mudanças estruturais, suas experiências herdadas serão descontinuadas no final deste ano. | Clientes de autoatendimento: recrie suas experiências na nova interface do usuário. Consulte &quot;[Criar uma experiência com direcionamento](/help/creative/experiences/experience-create-targeting.md).&quot;<br><br>Clientes do Managed Services: a equipe de contas da Adobe recriará as experiências na nova interface de usuário. |
 | | [!UICONTROL Experiences] | Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags diretamente em uma campanha do Advertising DSP como anúncios. | Consulte &quot;[Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](/help/creative/experiences/experience-tag-export.md)&quot; |

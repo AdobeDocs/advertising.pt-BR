@@ -3,9 +3,9 @@ title: Sobre o suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ As recomendações e os insights do [!DNL Google Ads] e do [!DNL Microsoft Adver
 
 * Cada recomendação do [!DNL Google Ads] fornece sugestões personalizadas sobre diferentes aspectos de desempenho de uma campanha, desde adicionar um ativo até aumentar o orçamento, com base no histórico de desempenho da conta, nas configurações da campanha e nas tendências do [!DNL Google Ads].
 
-* Cada insight e recomendação de desempenho do [!DNL Microsoft Advertising] sugere alterações para otimizar o desempenho da campanha com base em algoritmos de aprendizado de máquina e práticas recomendadas.
+* Cada recomendação e insight de desempenho do [!DNL Microsoft Advertising] sugere alterações para otimizar o desempenho da campanha com base em algoritmos de aprendizado de máquina e práticas recomendadas.
 
 ## A visualização [!UICONTROL Recommendations & Publisher Insights]
 
@@ -30,7 +30,7 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
   Os dados são disponibilizados em tempo real quando você abre a visualização. Para atualizar os dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png "Atualizar") na parte inferior esquerda da página.
 
-* Para contas do [!DNL Microsoft Advertising], veja as informações sobre cada insight de desempenho gerado nos últimos 30 dias para uma conta do [!DNL Microsoft Advertising]. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o editor [!DNL Microsoft Advertising], a partir do qual você pode agir com base no insight específico.
+* Para contas do [!DNL Microsoft Advertising], veja as principais características de cada insight de desempenho gerado nos últimos 30 dias para uma conta do [!DNL Microsoft Advertising]. Os insights fornecem informações semelhantes às recomendações, mas em um formato diferente. Cada insight inclui a data, uma descrição do problema, a entidade afetada, a causa raiz (que pode incluir links para mais detalhes) e a ação sugerida com um link para abrir o editor [!DNL Microsoft Advertising], a partir do qual você pode agir no insight específico.
 
 * Exibir detalhes sobre uma recomendação e aplicá-la diretamente ou descartá-la.
 
@@ -46,6 +46,7 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (agora chamado de &quot;[!DNL Ads and assets]&quot; em [!DNL Google Ads]) | [!UICONTROL Call extension] | Adicionar extensões de chamada a uma campanha |
 | | [!UICONTROL Callout extension] | Adicionar extensões de chamada a uma campanha |
+|  | [!UICONTROL Improve demand gen ad strength] | Sugestões para melhorar a intensidade do anúncio para um anúncio de geração de demanda |
 | | [!UICONTROL Optimize ad rotation] | Usar rotações de anúncios otimizadas |
 | | [!UICONTROL Responsive search ad] | Adicione um novo anúncio de pesquisa responsivo |
 | | [!UICONTROL Responsive search ad asset] | Adicionar ativos responsivos de publicidade de pesquisa a uma publicidade |
@@ -77,6 +78,7 @@ Em [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Target ROAS opt in] | Alteração na estratégia de lances [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Expandir alcance atualizando uma campanha para usar a expansão de exibição |
 | | [!UICONTROL Keyword] | Adicionar novas palavras-chave |
+|  | [!UICONTROL Refresh customer match list] | Atualize suas listas de correspondência do cliente para mostrar anúncios personalizados para clientes recentes |
 | | [!UICONTROL Search partners opt in] | Expandir alcance com [!DNL Google] parceiros de pesquisa |
 | | [!UICONTROL Use broad match keyword] | Use uma ampla correspondência para campanhas baseadas em conversão com ofertas totalmente automatizadas baseadas em conversão |
 

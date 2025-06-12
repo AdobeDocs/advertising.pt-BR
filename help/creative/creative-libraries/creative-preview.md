@@ -3,7 +3,7 @@ title: Pré-visualizar um criativo
 description: Saiba como abrir uma visualização de um criativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 
 # Pré-visualizar um criativo
 
-*Somente criações padrão*
 *Beta fechado*
 
 Você pode visualizar um criativo como os visualizadores o verão, incluindo hiperlinks.
@@ -21,7 +20,7 @@ Você pode visualizar um criativo como os visualizadores o verão, incluindo hip
 
 1. Clique no nome da biblioteca.
 
-1. Na guia **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**, selecione o criativo:
+1. Na guia **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** ou na guia **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]**, selecione o criativo:
 
    * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Preview]**.
 

@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
+source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Sobre as experiências no Advertising Creative 2.0
 
 *Beta fechado*
-
-<!-- Revisit Description metadata  -->
-
-<!-- MORE -->
 
 [!DNL Advertising Creative 2.0] fornece duas estruturas de experiência de anúncio diferentes para os anúncios em uma biblioteca criativa<!-- can use a single library only -->:
 
@@ -36,9 +32,9 @@ ht-degree: 0%
 
    * Tipos de dispositivos, sistemas operacionais e navegadores específicos
 
-  Você pode atribuir pacotes criativos a cada experiência. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- and any flexible attributes --> para criações individuais em cada pacote.
+  Depois de criar uma ramificação de público-alvo na árvore decisória, é possível emparelhar o público-alvo com possíveis criativos atribuindo pacotes criativos à ramificação. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- later: and any flexible attributes --> para criações individuais em cada pacote.
 
-* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, você usa o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento, além de personalizar as páginas de aterrissagem e URLs de rastreamento.
+* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público. Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, você usa o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento, além de personalizar as páginas de aterrissagem e URLs de rastreamento<!-- later: and any flexible attributes -->.
 
 ## Otimização de anúncios
 
@@ -47,35 +43,34 @@ O [!DNL Creative] otimiza os elementos de anúncio para qualquer experiência co
 
 ## Implementação e gerenciamento de experiências
 
-Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementar como um anúncio em uma DSP de terceiros. [!DNL Creative] veicula anúncios para a experiência com base nas opções de direcionamento e rotação de anúncios, bem como no inventário de anúncios disponível.
+Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementá-la como um anúncio em uma DSP de terceiros. [!DNL Creative] veicula anúncios próprios e aciona anúncios de terceiros para a experiência com base nas opções de direcionamento e rotação de anúncios, bem como no inventário de anúncios disponível.
 
 ## Dados de desempenho para suas experiências
 
-Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Creative] > [!UICONTROL Experiences], cada linha ou cartão de experiência indica o número de impressões e cliques recebidos pela experiência.
+Os seguintes dados de desempenho estão disponíveis:
 
-![Opção de métricas](/help/creative/assets/metrics-option.png "Opção de métricas")
+* Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Creative] > [!UICONTROL Experiences], cada linha ou cartão de experiência indica o número de impressões e cliques recebidos pela experiência.
 
-<!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
+  ![Opção de métricas](/help/creative/assets/metrics-option.png "Opção de métricas")
 
-<!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
+  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
 
-Você pode [exibir dados de desempenho detalhados para qualquer experiência](experience-performance-details.md) da exibição [!UICONTROL Experiences].
+  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Para monitorar o desempenho em suas experiências, crie um [Relatório Creative personalizado](/help/creative/report-custom-creative.md).
+* Você pode [exibir dados de desempenho detalhados para qualquer experiência](experience-performance-details.md) da exibição [!UICONTROL Experiences].
+
+* Para monitorar o desempenho em suas experiências, crie um [Relatório Creative personalizado](/help/creative/report-custom-creative.md).
 
 ## Status da experiência {#experience-statuses}
 
-<!-- verify that these are all still the same -->
+O status de uma experiência é definido automaticamente, exceto por *Excluído*, que você define manualmente.
 
-O status de uma experiência é definido automaticamente, exceto por *excluído*, que você definiu manualmente.
-
-*Ao vivo:* a experiência inclui todos os elementos necessários para que você possa gerar uma marca de experiência para implementar como um anúncio em uma DSP. <!-- A live experience may be scheduled to start in the future -->
-
-*Rascunho:* Todas as ramificações da experiência não recebem criações, portanto, a experiência está incompleta e você não pode gerar uma marca de experiência.
-
-*Processando:* uma experiência online anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda poderá ser disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão poderá ser disponibilizada usando a implementação de tag existente.
-
-*Excluída:* a experiência foi excluída de [!DNL Creative] e não está mais visível nos modos de exibição [!UICONTROL Experiences].
+| Status | Descrição |
+| ------ | ----------- |
+| [!UICONTROL Live] | A experiência inclui todos os elementos necessários para que você possa gerar uma tag de experiência para implementar o como um anúncio em uma DSP. Uma experiência ao vivo pode ser agendada para começar no futuro. |
+| [!UICONTROL Draft] | Nem todas as ramificações da experiência recebem criações, portanto, a experiência está incompleta e você não pode gerar uma tag de experiência. |
+| [!UICONTROL Processing] | Uma experiência anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda poderá ser disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão poderá ser disponibilizada usando a implementação de tag existente. |
+| [!UICONTROL Deleted] | A experiência foi excluída de [!DNL Creative] e não é mais visível nas exibições [!UICONTROL Experiences]. |
 
 >[!NOTE]
 >
@@ -85,33 +80,27 @@ O status de uma experiência é definido automaticamente, exceto por *excluído*
 
 A exibição [!UICONTROL Experiences] mostra todas as suas experiências de direcionamento e de não direcionamento. Você pode ver os nomes da experiência, o status, as datas de início e término, o número e as dimensões dos pacotes criativos ou criativos atribuídos e se a experiência inclui anúncios dinâmicos. Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Experiences], cada cartão ou linha de experiência indica o número de impressões e cliques recebidos pela experiência.
 
-Você pode criar e gerenciar suas experiências, incluindo otimização e atribuição de criativos e pacotes criativos às suas experiências. Você também pode criar e renomear tags de experiência de anúncio e exportar as tags nos formatos JavaScript e iframe para implementação em seus DSPs. Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags diretamente em uma campanha do Advertising DSP como anúncios.
+Você pode criar e gerenciar suas experiências, criar e renomear tags de experiência de anúncio e exportar as tags nos formatos JavaScript e iframe para implementação em seus DSPs. Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags de anúncio diretamente em uma campanha do Advertising DSP.
 
-<!--
-### Available actions
+### Ações disponíveis
 
-* [Download data within the view](experience-download-view.md)
+Estas são as ações principais disponíveis. Para obter uma lista completa, consulte o índice do capítulo Criativos > Experiências.
 
-        + [Assign and unassign creative bundles to a final node](/help/creative/experiences/experience-assign-creative-bundles.md)
-* Experiences with decision tree targeting: [Create](/help/creative/experiences/experience-create-targeting.md) and [edit](/help/creative/experiences/experience-edit-targeting.md) experiences, [assign and unassign creative bundles](/help/creative/experiences/experience-assign-creative-bundles.md), [customize creative optimization and scheduling](/help/creative/experiences/experience-optimization-scheduling-targeting.md), and [customize the tracking URLs for creatives](/help/creative/experiences/experience-tracking-urls-targeting.md)
+* [Baixar dados na exibição](experience-download-view.md)
 
-* Experiences without decision tree targeting: [Create](experience-create-no-targeting.md) and [edit](/help/creative/experiences/experience-edit-no-targeting.md)
+* [Crie](/help/creative/experiences/experience-create-targeting.md) e [edite](/help/creative/experiences/experience-edit-targeting.md) uma experiência com direcionamento
 
-* [Clone](experience-clone.md) an experience
+* [Crie](/help/creative/experiences/experience-create-no-targeting.md), [edite](/help/creative/experiences/experience-edit-no-targeting.md) e [crie manualmente uma marca de anúncio](/help/creative/experiences/experience-tag-create-manually.md) para uma experiência sem segmentação
 
-* [Preview](experience-preview.md) an experience
+* [Clonar](experience-clone.md) uma experiência
 
-* [Share a demo URL](experience-share-demo-url.md) for an experience
+* [Visualizar](experience-preview.md) uma experiência
 
-* [Export ad tags for an experience](experience-tag-export.md)
+* [Compartilhar uma URL de demonstração](experience-share-demo-url.md) para uma experiência
 
-* [Delete](experience-delete.md) an experience
+* [Exportar marcas de anúncio para uma experiência](experience-tag-export.md), incluindo, opcionalmente, o carregamento de marcas de anúncio diretamente para uma campanha do Advertising DSP
 
--->
-
-<!-- You can add or remove labels for your experiences.-->
-
-<!-- Add links to workflows once they're done -->
+* [Excluir](experience-delete.md) uma experiência
 
 >[!MORELIKETHIS]
 >

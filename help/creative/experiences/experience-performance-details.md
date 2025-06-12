@@ -3,7 +3,7 @@ title: Relatórios de desempenho de nível de experiência
 description: Saiba como visualizar relatórios de desempenho no nível da experiência.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ Você pode ver dados detalhados do desempenho de qualquer experiência do.
 
 A visualização Relatório inclui os seguintes dados:
 
-* Guia **Visão geral**: uma visão geral do desempenho em todas as métricas de conversão para toda a experiência, incluindo:
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* Guia **Visão geral**: uma visão geral do desempenho em todas as métricas de conversão para toda a experiência<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->, incluindo:
 
    * Seção **Desempenho Geral**:
 

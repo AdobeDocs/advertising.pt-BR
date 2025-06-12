@@ -3,7 +3,7 @@ title: Relatórios de desempenho de nível de experiência
 description: Saiba como visualizar relatórios de desempenho no nível da experiência.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ A visualização Relatório inclui os seguintes dados:
 
 * Guia **Visão geral**: uma visão geral do desempenho em todas as métricas de conversão para toda a experiência, incluindo:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* Seção **Desempenho Geral**:
+   * Seção **Desempenho Geral**:
 
-* **Desempenho Geral**: o total de impressões; cliques; taxa de cliques (CTR); e conversões de view-through e conversões de click-through.
+      * **Desempenho Geral**: o total de impressões; cliques; taxa de cliques (CTR); e conversões de view-through e conversões de click-through.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Taxa padrão**: (experiências somente com direcionamento de árvore decisória) o número de impressões resultantes de criações direcionadas, criações genéricas sem um destino ou direcionadas para &quot;Todos os outros&quot; e o criativo padrão da experiência.
+      * **Taxa padrão**: (experiências somente com direcionamento de árvore decisória) o número de impressões resultantes de criações direcionadas, criações genéricas sem um destino ou direcionadas para &quot;Todos os outros&quot; e o criativo padrão da experiência.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* Seção **Detalhamento do Desempenho**:
+   * Seção **Detalhamento do Desempenho**:
 
-   * **Desempenho regional:*: métricas individuais por localização geográfica.
+      * **Desempenho regional:*: métricas individuais por localização geográfica.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN --> principais criações fornecidas com esse critério.
+      * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN --> principais criações fornecidas com esse critério.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 

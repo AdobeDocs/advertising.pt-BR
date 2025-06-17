@@ -2,9 +2,10 @@
 title: Criar uma experiência sem definição de metas da árvore de decisão
 description: Saiba como criar uma experiência de anúncio sem direcionamento.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # Criar uma experiência sem definição de metas da árvore de decisão
 
 *Beta fechado*
+
+Crie uma experiência de anúncio sem direcionamento. Cada experiência pode usar anúncios de uma única biblioteca criativa.
+
+>[!NOTE]
+>
+> Depois de criar uma experiência não direcionada, você não pode alterá-la para uma experiência direcionada, que usa um fluxo de trabalho diferente.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [Crie manualmente uma marca de anúncio para um tamanho criativo aplicável](experience-tag-create-manually.md).
 
+     [!DNL Creative] não cria automaticamente tags de anúncio para experiências sem direcionamento.
+
    * [Atribuir criações a uma marca de anúncio](experience-tag-assign-creatives.md).
+
+     Atribua criações à tag do anúncio, não dentro das configurações de experiência.
 
    * [Personalizar os URLs de rastreamento](experience-tracking-urls-no-targeting.md)
 

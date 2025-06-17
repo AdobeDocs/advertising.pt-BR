@@ -3,9 +3,9 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Criar uma experiência com direcionamento de árvore de decisão
 
 *Beta fechado*
+
+Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Cada experiência usa anúncios de uma única biblioteca criativa.
+
+>[!NOTE]
+>
+> Depois de criar uma experiência direcionada, você não pode alterá-la para uma experiência não direcionada, que usa um fluxo de trabalho diferente.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

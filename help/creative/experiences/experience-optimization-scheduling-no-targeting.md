@@ -3,7 +3,7 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Experiências somente com criações existentes*
 *Beta fechado*
 
-Por padrão, a rotação criativa de uma tag de experiência de anúncio é determinada de forma algorítmica para otimizar a taxa geral de cliques, e as configurações de otimização criativa se aplicam a todas as criações atribuídas. Você pode personalizar a rotação criativa para executar manualmente as criações de acordo com pesos relativos ou otimizar de forma algorítmica para uma meta personalizada do Advertising DSP especificada. <!-- verify --> Você também pode agendar criações específicas para execução durante períodos de tempo sequenciais especificados e aplicar configurações personalizadas de rotação de criação para cada agendamento.
+Por padrão, a rotação criativa de uma tag de experiência de anúncio é determinada de forma algorítmica para otimizar a taxa geral de cliques, e as configurações de otimização criativa se aplicam a todas as criações atribuídas. Você pode personalizar a rotação criativa para executar manualmente as criações de acordo com pesos relativos ou otimizar de forma algorítmica para uma meta personalizada do Advertising DSP especificada. Você também pode programar criações específicas para serem executadas durante períodos de tempo sequenciais especificados e aplicar configurações de rotação de criação personalizadas para cada programação.
 
 ## Configurar otimização criativa sem programação
 
@@ -45,7 +45,7 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
 ## Configurar a otimização criativa com programação criativa
 
-Opcionalmente, é possível agendar criações específicas usadas para uma tag de experiência de anúncio para execução durante períodos de tempo sequenciais especificados entre as datas de início e término da experiência e aplicar configurações personalizadas de rotação criativa para cada agendamento. Por exemplo, você pode agendar a execução do Creative 1 durante as primeiras duas semanas para otimizar a taxa de cliques e o Creative 2 para execução durante as duas semanas seguintes para otimizar uma meta personalizada especificada.
+Opcionalmente, é possível agendar criações específicas usadas para uma tag de experiência de anúncio para execução durante períodos de tempo sequenciais especificados entre as datas de início e término da experiência e aplicar configurações personalizadas de rotação criativa para cada agendamento. Por exemplo, você pode agendar o Creative 1 para execução durante as duas primeiras semanas para otimizar a taxa de cliques e o Creative 2 para execução durante as duas semanas seguintes para otimizar uma meta personalizada especificada.
 
 Ao usar o agendamento, você deve agendar criações pela duração da experiência.
 

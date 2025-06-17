@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-[!DNL Advertising Creative 2.0] fornece duas estruturas de experiência de anúncio diferentes para os anúncios em uma biblioteca criativa<!-- can use a single library only -->:
+O [!DNL Advertising Creative 2.0] fornece duas estruturas diferentes de experiência de anúncio para os anúncios em uma única biblioteca criativa.
 
 * **Experiências com direcionamento de árvore de decisão:** [!DNL Creative] permite configurar experiências de anúncio personalizadas em toda a jornada do cliente usando um modelo de árvore de decisão. Você pode personalizar todos os elementos de anúncios — imagens, títulos, ofertas e páginas de aterrissagem — com base no público-alvo.
 
@@ -34,16 +34,32 @@ ht-degree: 0%
 
   Depois de criar uma ramificação de público-alvo na árvore decisória, é possível emparelhar o público-alvo com possíveis criativos atribuindo pacotes criativos à ramificação. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- later: and any flexible attributes --> para criações individuais em cada pacote.
 
-* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público. Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, você usa o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento, além de personalizar as páginas de aterrissagem e URLs de rastreamento<!-- later: and any flexible attributes -->.
+* **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público. Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, use o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento e personalizar as páginas de aterrissagem e URLs de rastreamento<!-- later: and any flexible attributes -->.
 
-## Otimização de anúncios
+>[!NOTE]
+>
+> Como os dois tipos de experiências têm workflows diferentes, você não pode alterar se usará ou não o direcionamento da árvore de decisão depois de salvar a experiência. Isso significa que você não pode alterar uma experiência não direcionada para uma experiência direcionada. Da mesma forma, não é possível alterar uma experiência direcionada para uma experiência não direcionada.
+
+## Veiculação e otimização de anúncios
 
 <!-- MORE -->
-O [!DNL Creative] otimiza os elementos de anúncio para qualquer experiência com base no desempenho. Para experiências direcionadas a públicos-alvo específicos, os anúncios podem ser otimizados com base no desempenho dos elementos de anúncios individuais para os conjuntos de públicos-alvo. Para experiências sem metas de público-alvo específicas, os elementos de anúncio são otimizados com base apenas no desempenho dos elementos de anúncio individuais.
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative] veicula anúncios próprios e aciona anúncios de terceiros para a experiência com base nas opções de meta de direcionamento (quando aplicável), agendamento, rotação de anúncios e otimização especificadas, bem como no inventário de anúncios disponível.
+
+* **Agendamento:** (opcional) agende criações específicas para serem executadas durante períodos sequenciais especificados.
+
+* **Rotação do anúncio:** Gire as criações manualmente de acordo com os pesos relativos ou de forma algorítmica de acordo com a meta de otimização especificada.
+
+* **Meta de otimização:** otimize os elementos de anúncio para a melhor taxa de cliques ou uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md)
+
+  O [!DNL Creative] otimiza as experiências de anúncios, dando compartilhamento de impressões aos ativos com melhor desempenho na experiência. Para experiências direcionadas a públicos-alvo específicos, os anúncios podem ser otimizados com base no desempenho dos elementos de anúncios individuais para os conjuntos de públicos-alvo. Para experiências sem metas de público-alvo específicas, os elementos de anúncio são otimizados exclusivamente com base no desempenho dos elementos de anúncio individuais.
+
+Por exemplo, você pode agendar o Creative 1 para execução durante as duas primeiras semanas para otimizar a taxa de cliques e o Creative 2 para execução durante as duas semanas seguintes para otimizar uma meta personalizada especificada.
 
 ## Implementação e gerenciamento de experiências
 
-Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementá-la como um anúncio em uma DSP de terceiros. [!DNL Creative] veicula anúncios próprios e aciona anúncios de terceiros para a experiência com base nas opções de direcionamento e rotação de anúncios, bem como no inventário de anúncios disponível.
+Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementá-la como um anúncio em uma DSP de terceiros.
 
 ## Dados de desempenho para suas experiências
 
@@ -69,7 +85,7 @@ O status de uma experiência é definido automaticamente, exceto por *Excluído*
 | ------ | ----------- |
 | [!UICONTROL Live] | A experiência inclui todos os elementos necessários para que você possa gerar uma tag de experiência para implementar o como um anúncio em uma DSP. Uma experiência ao vivo pode ser agendada para começar no futuro. |
 | [!UICONTROL Draft] | Nem todas as ramificações da experiência recebem criações, portanto, a experiência está incompleta e você não pode gerar uma tag de experiência. |
-| [!UICONTROL Processing] | Uma experiência anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda poderá ser disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão poderá ser disponibilizada usando a implementação de tag existente. |
+| [!UICONTROL Processing] | Uma experiência online anterior foi editada, mas agora está incompleta. Não é possível gerar uma tag de experiência para ela. **Observação:** se você já implementou uma marca de experiência para a experiência, a versão ativa anterior ainda poderá ser disponibilizada. Se posteriormente você concluir a experiência, tornando-a ativa novamente, a nova versão poderá ser disponibilizada usando a implementação de tag existente. |
 | [!UICONTROL Deleted] | A experiência foi excluída de [!DNL Creative] e não é mais visível nas exibições [!UICONTROL Experiences]. |
 
 >[!NOTE]

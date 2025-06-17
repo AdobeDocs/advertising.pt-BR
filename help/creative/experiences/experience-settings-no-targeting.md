@@ -3,9 +3,9 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Para experiências sem direcionamento de árvore de decisão, você pode substit
 
 ## seção [!UICONTROL Targeting]
 
-**[!UICONTROL Targeting]:** (Somente leitura para experiências existentes) Não aplicável quando você não habilita o direcionamento usando uma árvore de decisão; mantenha essa opção desabilitada.
+**[!UICONTROL Targeting]:** (Somente leitura para experiências existentes) Não aplicável quando você não habilita o direcionamento usando uma árvore de decisão; mantenha essa opção desabilitada. **Observação:** depois que você salva uma experiência sem segmentação, não é possível adicionar segmentação mais tarde.
 
 **[!UICONTROL Dynamic ads]:** (Somente leitura para experiências existentes) Indica que a experiência inclui anúncios dinâmicos. **Observação:** uma experiência pode incluir todos os anúncios padrão ou todos os anúncios dinâmicos.
 

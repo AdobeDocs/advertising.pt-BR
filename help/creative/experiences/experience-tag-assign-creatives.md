@@ -2,9 +2,10 @@
 title: Atribuir criativos a uma tag de anúncio para experiências sem direcionamento
 description: Saiba como atribuir criadores a uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Experiências sem direcionamento de árvore de decisão somente*
 *Beta fechado*
 
-Você pode atribuir criativos em tamanhos criativos aplicáveis a uma tag de anúncio usada para uma experiência. Para experiências de anúncio padrão, é possível atribuir somente criações padrão. Para experiências de anúncios dinâmicos, você pode atribuir somente criações dinâmicas.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+Você pode atribuir criativos em tamanhos criativos aplicáveis a uma tag de anúncio usada para uma experiência. Você pode usar criações da biblioteca criativa especificada nas configurações de experiência. Para experiências de anúncio padrão, é possível atribuir somente criações padrão. Para experiências de anúncios dinâmicos, você pode atribuir somente criações dinâmicas.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 Posteriormente, você poderá [personalizar as URLs de rastreamento](experience-tracking-urls-no-targeting.md) e [Personalizar a otimização criativa e o agendamento](experience-optimization-scheduling-no-targeting.md) para as criações usadas para a marca de anúncio.
 

@@ -3,7 +3,7 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ Esta seção determina as datas em que o relatório é executado. Para configura
 
 ## Seção [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (Opcional) Dimensões adicionais pelas quais filtrar os dados, sejam as dimensões incluídas como colunas no relatório ou não. Os filtros disponíveis variam por tipo de relatório e podem incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (Opcional) Dimensões adicionais pelas quais filtrar os dados, sejam as dimensões incluídas como colunas no relatório ou não. Os filtros disponíveis variam por tipo de relatório e podem incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 Para aplicar um ou mais filtros, faça o seguinte:
 
@@ -179,7 +183,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 

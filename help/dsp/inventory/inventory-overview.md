@@ -3,9 +3,9 @@ title: Visão geral dos recursos de inventário no Advertising DSP
 description: Saiba mais sobre os recursos de inventário disponíveis.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,25 @@ Depois de acessar ou identificar as ofertas de inventário no DSP, você pode us
 
 Os tipos de inventário disponíveis incluem:
 
-* **[!DNL On Demand]Inventário:** Explore ofertas pré-negociadas não garantidas que a Adobe fez com parceiros de editores premium.
+* **[!DNL On Demand]Inventário:** Explore ofertas pré-negociadas não garantidas que a Adobe preparou com parceiros de editores premium.
 
 * **Inventário Particular [!DNL Deal IDs]:** configure e gerencie ofertas de marketplace particular (PMPs) que você negociou diretamente 1:1 com o editor.
 
 * **[!DNL Simple Ad Serving]:** use a tecnologia otimizada para entrega e relatórios de anúncios garantidos e não decididos quando o editor não puder executar o negócio por meio de IDs de negócios.
 
-## A Visão de Ofertas
+## As Exibições de Ofertas
 
-Você pode exibir todas as suas ofertas existentes na exibição [!UICONTROL Inventory] > [!UICONTROL Deals]. Você pode personalizar ainda mais como os dados de negócios existentes são apresentados aplicando filtros, personalizando as colunas visíveis e, opcionalmente, salvando exibições personalizadas, classificando as colunas e exibindo os dados como gráficos.
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
-Você também pode criar e gerenciar configurações de negócios privados e [!DNL Simple Ad Serving] negócios na exibição [!UICONTROL Deals]. Para exibir e gerenciar o inventário do [!DNL On Demand], vá para [!UICONTROL Inventory] > [!UICONTROL On Demand].
+   * Exibir todas as suas ofertas existentes.
+
+   * Personalize ainda mais como os dados de negócios existentes são apresentados aplicando filtros, personalizando as colunas visíveis e, opcionalmente, salvando exibições personalizadas, classificando as colunas e exibindo os dados como gráficos.
+
+   * Crie e gerencie configurações de negócios particulares e [!DNL Simple Ad Serving] negócios.
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:** Exibir e gerenciar o inventário [!DNL On Demand].
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deal Lists]:** Agrupe suas ofertas privadas em listas para facilitar o direcionamento de posicionamento.
 
 >[!MORELIKETHIS]
 >

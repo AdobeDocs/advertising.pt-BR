@@ -3,7 +3,7 @@ title: Colunas de Relatório Disponíveis
 description: Consulte descrições de colunas disponíveis em relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
+source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -11,6 +11,12 @@ ht-degree: 0%
 ---
 
 # Colunas de Relatório Disponíveis
+
+<!-- Add when added:
+
+|[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
+
+-->
 
 | Tipo de métrica | Subtipo | Nome da coluna | Descrição |
 |-----------|-------|-----------|-----------|
@@ -42,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | A versão do sistema operacional no qual o anúncio foi exibido (como [!UICONTROL Windows 10] ou [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | O sistema operacional no qual o anúncio foi exibido (como [!UICONTROL Apple iOS] ou [!UICONTROL Android]). |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | O identificador exclusivo atribuído a uma transação por meio do parceiro de fornecimento externo. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | O nome atribuído pelo usuário para o negócio, conforme inserido em DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | O nome atribuído pelo usuário para o negócio, conforme inserido no DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | O parceiro de suprimento que fornece o inventário. Normalmente, é um editor, mas também pode ser um SSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | A classificação do inventário: *[!UICONTROL Private],* *[!UICONTROL On Demand],* ou *[!UICONTROL Public]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | O parceiro do lado da oferta (SSP) ao qual a mídia é atribuída. |
@@ -103,9 +109,9 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | O [!UICONTROL Total Spend] dividido por [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | A porcentagem estimada do universo doméstico alvo que recebeu uma exposição. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | O número médio de impressões mostradas para únicos. Para alguns inventários, os editores não transmitem um identificador de dispositivo e essas impressões não são incluídas nesse valor. Há uma métrica semelhante no relatório [!UICONTROL Frequency (by App/Site)], mas essa métrica não é estimada. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Incluído no relatório [!UICONTROL Frequency (by Impression)]) As impressões estimadas para uma determinada interrupção de frequência. As estimativas do DSP se baseiam em uma amostra de impressões. Para alguns inventários, os editores não transmitem um identificador de dispositivo e essas impressões não são incluídas nesse valor. Há uma métrica semelhante no relatório [!UICONTROL Frequency (by App/Site)], mas essa métrica não é estimada. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Incluído no relatório [!UICONTROL Frequency (by Impression)]) O número de navegadores ou dispositivos exclusivos gravados para uma determinada frequência. As estimativas do DSP se baseiam em uma amostra de impressões. Em alguns inventários, não transmita um identificador de dispositivo, e essas impressões não são incluídas nesse valor. Há uma métrica semelhante no relatório [!UICONTROL Frequency (by App/Site)], mas essa métrica não é estimada. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | A soma de famílias únicas que o DSP (leilões) viu dentro do intervalo de datas. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Incluído no relatório [!UICONTROL Frequency (by Impression)]) As impressões estimadas para uma determinada interrupção de frequência. As estimativas do DSP são baseadas em uma amostra de impressões. Para alguns inventários, os editores não transmitem um identificador de dispositivo e essas impressões não são incluídas nesse valor. Há uma métrica semelhante no relatório [!UICONTROL Frequency (by App/Site)], mas essa métrica não é estimada. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Incluído no relatório [!UICONTROL Frequency (by Impression)]) O número de navegadores ou dispositivos exclusivos gravados para uma determinada frequência. As estimativas do DSP são baseadas em uma amostra de impressões. Em alguns inventários, não transmita um identificador de dispositivo, e essas impressões não são incluídas nesse valor. Há uma métrica semelhante no relatório [!UICONTROL Frequency (by App/Site)], mas essa métrica não é estimada. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | A soma das famílias exclusivas que a DSP (leilões) viu dentro do intervalo de datas. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | O número total de impressões servidas como resultado do uso de um gráfico de dispositivos para direcionamento entre dispositivos com base em pessoas. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | A frequência das impressões por família. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | A frequência com que os agregados familiares chegam apenas através da dimensão comunicada, incluindo interseções de até três valores para a dimensão. Por exemplo, se você usar a dimensão [!UICONTROL Placement], poderá ver a frequência atingida por posicionamentos individuais, as frequências atingidas por uma combinação de dois posicionamentos quaisquer e as frequências atingidas por combinações de três posicionamentos quaisquer. |
@@ -137,20 +143,20 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | O custo líquido médio por exibição de vídeo concluída, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | O custo líquido médio por 1000 impressões, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | O custo líquido médio por visualização de vídeo, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | A porcentagem do total de lances que foram licitados no CPM Máximo. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | O número de usuários distintos para os quais o DSP solicita a inserção. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | O custo líquido total das taxas de dados do segmento de público-alvo faturadas por DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | O custo líquido total da mídia faturável, incluindo a taxa de tecnologia, faturado por DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | O custo total de outras taxas de serviço (parceiros de verificação de terceiros, veiculação de anúncios e assim por diante) cobradas por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | A porcentagem do total de lances que foram oferecidos no CPM máximo. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | O número de usuários distintos para os quais a DSP ofereceu a inserção. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | O custo líquido total das taxas de dados do segmento de público-alvo faturadas por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | O custo líquido total da mídia faturável, incluindo a taxa de tecnologia, faturado pela DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | O custo total de outras taxas de serviço (parceiros de verificação de terceiros, veiculação de anúncios etc.) cobradas pela DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | O imposto estimado sobre segmentos de público-alvo de terceiros e serviços de dados. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | O imposto estimado sobre a mídia, incluindo o imposto aplicado à tarifação de custos de mídia e serviços de taxa de tecnologia no DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | O imposto estimado sobre outras taxas de serviço (incluindo parceiros de verificação de terceiros, direcionamento de tópico e assim por diante) cobrado por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | O imposto estimado sobre a mídia, incluindo o imposto aplicado à tarifação de custos de mídia e serviços de taxa técnica na DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | O imposto estimado sobre outras taxas de serviço (incluindo parceiros de verificação de terceiros, direcionamento de tópico etc.) cobradas pela DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (Quando o gerenciamento de margem está ativado) A porcentagem de margem, que é calculada por <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | A soma do custo de mídia não faturável e faturável sem nenhuma taxa técnica. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | O custo líquido médio por 1000 impressões visualizáveis, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | O custo líquido total das taxas de dados de segmento de público-alvo não faturadas por DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | O custo líquido total da mídia não faturável, incluindo a taxa de tecnologia, não faturado por DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | O custo total de outras taxas de serviço (parceiros de verificação de terceiros, veiculação de anúncios e assim por diante) não cobradas por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | O custo líquido total das taxas de dados de segmento de público-alvo não faturadas por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | O custo líquido total da mídia não faturável, incluindo a taxa de tecnologia, não faturado por meio do DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | O custo total de outras taxas de serviço (parceiros de verificação de terceiros, veiculação de anúncios e assim por diante) não cobradas pela DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | A soma de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] e [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | O custo líquido médio dos dados por 1000 impressões, calculado por <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |

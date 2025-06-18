@@ -3,7 +3,7 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Ca
 
       * Metas:
 
-        *[Adicione um nó de destino ao nível final](experience-target-node-add-final.md) em uma experiência.
+         * [Adicione um nó de destino ao nível final](experience-target-node-add-final.md) em uma experiência.
 
          * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
 

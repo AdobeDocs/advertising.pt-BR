@@ -3,9 +3,9 @@ title: Configurações do Creative
 description: Saiba mais sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Ao editar várias criações ao mesmo tempo:
 
 ### Guia Detalhes
 
-**Nome da Criação:** O nome da criação. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
+**Nome do Creative:** O nome do criativo. O nome do modelo ou do arquivo carregado é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
-**Tamanho da Criação:** (Somente leitura para criações existentes) As dimensões da criação. Se qualquer imagem incluída no criativo for maior que o tamanho especificado, ela será redimensionada de acordo.
+**Tamanho do Creative:** (Somente leitura para criativos existentes) As dimensões do criativo. Se qualquer imagem incluída no criativo for maior que o tamanho especificado, ela será redimensionada de acordo.
 
 **[!UICONTROL Click Tags]:** As variáveis que permitem redirecionamentos de rastreamento de cliques dos anúncios de banner incluídos. Os nomes das variáveis e os URLs da página de aterrissagem correspondentes são preenchidos na unidade de criação carregada, mas é possível alterar os URLs padrão. Para várias criações, é possível editar as tags de clique individuais.
 
@@ -40,7 +40,7 @@ Ao editar várias criações ao mesmo tempo:
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative].
+**Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative] e incluir a dimensão [!UICONTROL Creative Label] em [!UICONTROL Custom Creative Report].
 
 * Para selecionar rótulos existentes, clique em ![Abaixo](/help/creative/assets/chevron-down.png "Abaixo") e marque a caixa de seleção ao lado de cada rótulo a ser aplicado.
 
@@ -94,11 +94,11 @@ Para substituir o modelo de publicidade existente:
 
 Para novas criações, as configurações a seguir não estão em uma guia nomeada.
 
-**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
+**Nome do Creative:** O nome do criativo. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para vários criadores, é possível editar os nomes criativos individuais. **Dica:** inclua o tamanho do anúncio no nome criativo e Use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. Ao fazer upload ou editar várias criações, o mesmo valor é aplicado a cada criação selecionada.
 
-**Tamanho da Criação:** (Somente leitura para criações existentes) As dimensões da criação. Se qualquer imagem incluída no criativo for maior que o tamanho especificado, ela será redimensionada de acordo.
+**Tamanho do Creative:** (Somente leitura para criativos existentes) As dimensões do criativo. Se qualquer imagem incluída no criativo for maior que o tamanho especificado, ela será redimensionada de acordo.
 
 **[!UICONTROL Click Tags]:** (somente criações estáticas do HTML5) As variáveis que permitem redirecionamentos de rastreamento de cliques dos anúncios de banner incluídos. Os nomes das variáveis e os URLs da página de aterrissagem correspondentes são preenchidos na unidade de criação carregada, mas é possível alterar os URLs padrão. Para várias criações, é possível editar as tags de clique individuais.
 
@@ -150,11 +150,11 @@ Para substituir o modelo de publicidade existente:
 
 ## Configurações de criação da imagem {#creative-settings-image}
 
-**Nome da Criação:** O nome da criação. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
+**Nome do Creative:** O nome do criativo. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. O mesmo valor se aplica a todas as imagens selecionadas. Ao incluir os elementos de criação em uma experiência, é possível personalizar as preferências de idioma da experiência.
 
-**Tamanho de Criação:** (Somente leitura) As dimensões das imagens carregadas.
+**Tamanho do Creative:** (Somente leitura) As dimensões das imagens carregadas.
 
 **URL da página de aterrissagem:** a URL da página de aterrissagem padrão para cada anúncio ao qual você associa as criações. O URL da página de aterrissagem deve ser um URL válido começando com http:// ou https://. Ele pode incluir parâmetros de rastreamento de terceiros ou [[!DNL Creative] macros](/help/creative/creative-macros.md) para seu próprio uso. O mesmo valor se aplica a todas as imagens selecionadas.
 
@@ -180,7 +180,7 @@ Ao incluir esse criativo em uma experiência que você implementa como um anúnc
 
 **[!UICONTROL Advertiser]:** (Somente leitura) O anunciante para o qual a biblioteca está disponível.
 
-**Nome da Criação:** O nome da criação. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
+**Nome do Creative:** O nome do criativo. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Tamanho do Creative:** (Somente leitura para anúncios existentes) As dimensões do criativo. Para novas criações, selecione em uma lista de tamanhos de anúncio padrão.
 u

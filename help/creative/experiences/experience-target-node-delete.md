@@ -3,9 +3,9 @@ title: Excluir um nó de destino ou nó folha criativo em uma experiência
 description: Saiba como excluir um nó em uma experiência.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Você pode excluir um nó de destino, incluindo todos os destinos secundários e
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. Mantenha o cursor sobre o nó de destino ou nó folha de criação clique em **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+1. Mantenha o cursor sobre o nó de destino ou nó folha de criação e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Delete Node]**.
 

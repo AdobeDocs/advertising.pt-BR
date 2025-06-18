@@ -3,9 +3,9 @@ title: Adicionar um nó de destino irmão entre nós em uma experiência
 description: Saiba como adicionar um nó irmão a qualquer nó que tenha um destino ou esteja no mesmo nível que um nó com um destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados (uma instrução [!DNL Boolean] `AND`).
 
       1. Clique em **[!UICONTROL Apply]**.
+
+1. (Opcional) Especifique um nome de ramificação personalizado para uma ramificação definida pelo usuário.
+
+   Por padrão, as ramificações definidas pelo usuário são rotuladas com os destinos aplicados.
+
+   Não é possível criar um nome de ramificação personalizado para uma ramificação &quot;Todos&quot; ou &quot;Todos os outros&quot;.
+
+   1. Mantenha o cursor sobre o nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Insira o **[!UICONTROL Node Name]** e clique em **[!UICONTROL Save]**.
 
 1. Siga um destes procedimentos:
 

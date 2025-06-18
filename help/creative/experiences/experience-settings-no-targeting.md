@@ -3,9 +3,9 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Ao criar uma tag de experiência de anúncio para um tamanho criativo específic
 
 **Pixel de RT:** (Experiências somente com anúncios dinâmicos; opcional) Um pixel de redirecionamento [!UICONTROL Creative] para direcionamento potencial. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT. Para cada nó, você especificará o pixel a ser direcionado e os valores dos atributos de pixel necessários para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel neste campo, ainda poderá especificar um na árvore de decisão.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] a serem aplicados à experiência. Você pode filtrar experiências por rótulo na exibição Experiências<!-- sic -->.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] a serem aplicados à experiência. Você pode filtrar experiências por rótulo na exibição Experiências e incluir a dimensão [!UICONTROL Experience Label] na [!UICONTROL Custom Creative Report].
 
 * Para selecionar rótulos existentes, clique em ![Abaixo](/help/creative/assets/chevron-down.png "Abaixo") e marque a caixa de seleção ao lado de cada rótulo a ser aplicado.
 

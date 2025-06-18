@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Cada chave é anexada como uma macro na tag de experiência de anúncio, que pod
 
 **Pixel de RT:** (Somente leitura para experiências existentes; opcional) Um pixel de redirecionamento [!UICONTROL Creative] potencialmente direcionado. Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de nós de destino de pixel de RT. Para cada nó, você especificará o pixel a ser direcionado e os valores dos atributos de pixel necessários para mostrar as criações nos pacotes criativos atribuídos. Se você não especificar um pixel neste campo ao criar a experiência, ainda poderá especificar um na árvore de decisão.<!-- May move this to just within the decision tree. -->
 
-**Rótulo:**<!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] a serem aplicados à experiência. Você pode filtrar experiências por rótulo na exibição Experiências<!-- sic -->.
+**Rótulo:**<!-- should be "Labels" --> (Opcional) Quaisquer rótulos específicos de [!DNL Creative] a serem aplicados à experiência. Você pode filtrar experiências por rótulo na exibição Experiências e incluir a dimensão [!UICONTROL Experience Label] na [!UICONTROL Custom Creative Report].
 
 * Para selecionar rótulos existentes, clique em ![Abaixo](/help/creative/assets/chevron-down.png "Abaixo") e marque a caixa de seleção ao lado de cada rótulo a ser aplicado.
 

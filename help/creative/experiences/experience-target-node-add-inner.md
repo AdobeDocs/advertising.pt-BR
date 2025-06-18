@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento entre nós em uma experiência
 description: Saiba como adicionar um nó de direcionamento entre os corpos de direcionamento em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
          1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
          1. Clique em **[!UICONTROL Apply]**.
+
+1. (Opcional) Especifique um nome de ramificação personalizado para uma ramificação definida pelo usuário.
+
+   Por padrão, as ramificações definidas pelo usuário são rotuladas com os destinos aplicados.
+
+   Não é possível criar um nome de ramificação personalizado para uma ramificação &quot;Todos&quot; ou &quot;Todos os outros&quot;.
+
+   1. Mantenha o cursor sobre o nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Insira o **[!UICONTROL Node Name]** e clique em **[!UICONTROL Save]**.
 
 1. Siga um destes procedimentos:
 

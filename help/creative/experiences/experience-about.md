@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ O status de uma experiência é definido automaticamente, exceto por *Excluído*
 
 ## A visualização [!UICONTROL Experiences]
 
-A exibição [!UICONTROL Experiences] mostra todas as suas experiências de direcionamento e de não direcionamento. Você pode ver os nomes da experiência, o status, as datas de início e término, o número e as dimensões dos pacotes criativos ou criativos atribuídos e se a experiência inclui anúncios dinâmicos. Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Experiences], cada cartão ou linha de experiência indica o número de impressões e cliques recebidos pela experiência.
+A exibição [!UICONTROL Experiences] mostra todas as suas experiências de direcionamento e de não direcionamento. Você pode ver os nomes da experiência, o status, as datas de início e término, o número e as dimensões dos pacotes criativos ou criativos atribuídos e se a experiência inclui anúncios dinâmicos. Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Experiences], cada cartão ou linha de experiência indica o número de impressões e cliques recebidos pela experiência. Quando estiver no modo de cartão, você pode rolar pelas criações em uma experiência com várias criações usando os botões &lt; e >.
 
 Você pode criar e gerenciar suas experiências, criar e renomear tags de experiência de anúncio e exportar as tags nos formatos JavaScript e iframe para implementação em seus DSPs. Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags de anúncio diretamente em uma campanha do Advertising DSP.
 

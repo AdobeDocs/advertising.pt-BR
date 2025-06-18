@@ -3,7 +3,7 @@ title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
 1. (Opcional) Para copiar uma URL de demonstração da experiência para compartilhar com outras pessoas sem login no [!DNL Creative]:
 
-   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share2.png "Compartilhar").
+   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar").
 
    1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 

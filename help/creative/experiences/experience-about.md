@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ O [!DNL Advertising Creative 2.0] fornece duas estruturas diferentes de experiê
 
    * Localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e códigos postais
 
-   * Visualizadores para os quais pares de valor-chave específicos (destinos de transmissão de dados) são transmitidos pelo DSP, editor ou parceiro
+   * Visualizadores para os quais pares de valor-chave específicos (destinos de transmissão de dados) são transmitidos pelo DSP, editor ou parceiro (como SKU=01234567890123 ou Carrinho=empty)
 
    * [!DNL Creative] redirecionando pixels e valores de atributo especificados
 
@@ -38,12 +38,12 @@ O [!DNL Advertising Creative 2.0] fornece duas estruturas diferentes de experiê
 
 >[!NOTE]
 >
-> Como os dois tipos de experiências têm workflows diferentes, você não pode alterar se usará ou não o direcionamento da árvore de decisão depois de salvar a experiência. Isso significa que você não pode alterar uma experiência não direcionada para uma experiência direcionada. Da mesma forma, não é possível alterar uma experiência direcionada para uma experiência não direcionada.
+> Como os dois tipos de experiências têm workflows diferentes, você não pode alterar uma experiência não direcionada para uma experiência direcionada, nem uma experiência direcionada para uma experiência não direcionada.
 
 ## Veiculação e otimização de anúncios
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] veicula anúncios próprios e aciona anúncios de terceiros para a experiência com base nas opções de meta de direcionamento (quando aplicável), agendamento, rotação de anúncios e otimização especificadas, bem como no inventário de anúncios disponível.
 
@@ -61,6 +61,10 @@ Por exemplo, você pode agendar o Creative 1 para execução durante as duas pri
 
 Depois de criar uma experiência em tempo real (com todos os elementos de anúncio necessários), você pode [gerar uma marca de JavaScript ou iframe para toda a experiência](experience-tag-export.md). Você pode fazer upload da tag de experiência como um anúncio para uma campanha no Adobe Advertising DSP ou implementá-la como um anúncio em uma DSP de terceiros.
 
+>[!NOTE]
+>
+>O comportamento hierárquico do direcionamento pode variar de acordo com a DSP. O Advertising DSP aplica o direcionamento no nível do anúncio, além do direcionamento no nível do posicionamento.
+
 ## Dados de desempenho para suas experiências
 
 Os seguintes dados de desempenho estão disponíveis:
@@ -68,10 +72,6 @@ Os seguintes dados de desempenho estão disponíveis:
 * Ao habilitar a opção [!UICONTROL Metrics] na exibição [!UICONTROL Creative] > [!UICONTROL Experiences], cada linha ou cartão de experiência indica o número de impressões e cliques recebidos pela experiência.
 
   ![Opção de métricas](/help/creative/assets/metrics-option.png "Opção de métricas")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Você pode [exibir dados de desempenho detalhados para qualquer experiência](experience-performance-details.md) da exibição [!UICONTROL Experiences].
 

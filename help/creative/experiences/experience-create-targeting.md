@@ -3,9 +3,9 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Ca
 
 >[!NOTE]
 >
-> Depois de criar uma experiência direcionada, você não pode alterá-la para uma experiência não direcionada, que usa um fluxo de trabalho diferente.
+>* Depois de criar uma experiência direcionada, você não pode alterá-la para uma experiência não direcionada, que usa um fluxo de trabalho diferente.
+>* Certifique-se de que suas experiências de anúncio incluam direcionamento compatível com as campanhas em que você o implementará. O comportamento hierárquico do direcionamento pode variar de acordo com a DSP. Ao fazer upload de uma tag de experiência de anúncio para o Advertising DSP e anexá-la a uma disposição, o direcionamento no nível do anúncio é aplicado sobre o direcionamento no nível do posicionamento (e não em vez dele). Por exemplo, se uma disposição for direcionada a usuários na Austrália e um anúncio for direcionado a usuários no Japão, o anúncio será direcionado à ramificação &quot;Todos os outros&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

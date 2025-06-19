@@ -3,9 +3,9 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para experiências sem direcionamento de árvore de decisão, você pode substit
 
 ## seção [!UICONTROL Advanced]
 
-**Data Pass:** (Experiências somente com anúncios dinâmicos; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão. Você pode especificar até cinco chaves de passagem de dados (parâmetros).<!-- May move this to just within the decision tree. -->
+**Data Pass:** (Experiências somente com anúncios dinâmicos; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão (como SKU=01234567890123 ou Cart=empty). Você pode especificar até cinco chaves de passagem de dados (parâmetros).<!-- May move this to just within the decision tree. -->
 
 Ao criar uma tag de experiência de anúncio para um tamanho criativo específico, cada chave especificada nesse campo é anexada como uma macro na tag. Insira o valor de cada par de valor-chave na tag antes de implementar a tag como um anúncio na DSP.
 

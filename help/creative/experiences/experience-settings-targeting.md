@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Depois de salvar a experiência, você não poderá alterar essa configuração.
 
 ## seção [!UICONTROL Advanced]
 
-**Data Pass:** (Somente leitura para experiências existentes; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, editor ou parceiro transmite em tempo real na impressão. Você pode especificar até cinco chaves de passagem de dados padrão (parâmetros). Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de dados nos nós de destino, personalizar as chaves e especificar os valores de direcionamento para cada nó. Se não especificar nenhuma chave nesse campo ao criar a experiência, você ainda poderá especificá-las na árvore de decisão.
+**Data Pass:** (Somente leitura para experiências existentes; opcional) Para direcionar usuários com base em pares de valores-chave específicos que o DSP, o editor ou o parceiro transmite em tempo real na impressão (como SKU=01234567890123 ou Cart=empty). Você pode especificar até cinco chaves de passagem de dados padrão (parâmetros). Ao configurar o direcionamento na árvore de decisão, você pode incluir um nível de dados nos nós de destino, personalizar as chaves e especificar os valores de direcionamento para cada nó. Se não especificar nenhuma chave nesse campo ao criar a experiência, você ainda poderá especificá-las na árvore de decisão.
 
 Cada chave é anexada como uma macro na tag de experiência de anúncio, que pode ser gerada para ser implementada como um anúncio na DSP.
 

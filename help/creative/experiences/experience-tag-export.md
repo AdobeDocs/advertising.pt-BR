@@ -3,9 +3,9 @@ title: Exportar e implementar uma tag de experiência de anúncio para uma exper
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 >* Ao criar uma experiência com direcionamento de árvore decisória, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho criativo aplicável.
 >* Ao criar uma experiência sem definição de metas da árvore decisória, você deve [criar manualmente uma tag de anúncio](experience-tag-create-manually.md) para cada tamanho criativo aplicável.
 >* As tags de experiência são dinâmicas. Não é necessário atualizar as tags se você editar uma experiência.
+>* Certifique-se de que as campanhas em que você implementará uma experiência de anúncio incluam direcionamento compatível com a experiência. O comportamento hierárquico do direcionamento pode variar de acordo com a DSP. No Advertising DSP, o direcionamento no nível do anúncio é aplicado após o direcionamento no nível do posicionamento e não substitui o direcionamento no nível do posicionamento. Por exemplo, se uma inserção do Advertising DSP for direcionada a usuários na Austrália e um anúncio for direcionado a usuários no Japão, o anúncio será direcionado à ramificação &quot;Todos os outros&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -32,7 +33,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
 
-1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,7 +45,7 @@ Como opção, os anunciantes com o Advertising DSP podem fazer upload de tags di
 
 1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL Generate ad tags]** no menu esquerdo.
 
-1. Selecione o tipo de marca: ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Selecione o tipo de marca: ** *JavaScript<!-- sic -->* ** ou ** *IFRAME* ** <!-- sic -->.
 
 1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
 

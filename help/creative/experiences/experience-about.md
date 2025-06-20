@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ O [!DNL Advertising Creative 2.0] fornece duas estruturas diferentes de experiê
 
   As opções de direcionamento incluem:
 
-   * Seus segmentos de público-alvo primários da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP
+   * Seus segmentos de público-alvo primários do Adobe Audience Manager, Adobe Analytics e Advertising DSP; seus segmentos personalizados do Advertising DSP; e segmentos de terceiros fornecidos pelo Advertising DSP
 
    * Localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e códigos postais
 

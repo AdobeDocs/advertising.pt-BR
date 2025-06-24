@@ -42,7 +42,7 @@ Suas credenciais atuais do DSP permanecerão ativas até 15 de julho de 2025, pa
 
 1. Escolha sua organização:
 
-   * Se solicitado, selecione **Conta pessoal&quot; ou **Conta da empresa ou escola**.
+   * Se solicitado, selecione **Conta pessoal&quot; ou &#x200B;** Conta da empresa ou escola**.
 
    * Se você tiver acesso a várias organizações IMS, selecione a correta.
 

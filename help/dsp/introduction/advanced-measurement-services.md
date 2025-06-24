@@ -2,16 +2,18 @@
 title: Soluções de medição avançada
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
+source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Soluções de medição avançada
 
-Os anunciantes muitas vezes têm dificuldades para entender onde o melhor dólar da mídia seguinte deve ser gasto, ou para quantificar o impacto de seus anúncios online. Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe do [!DNL Strategic Advertising Consulting] ajuda os parceiros de marca e agência a medir como elementos de suas conexões do [!DNL Adobe] ganham vida por meio de anúncios. Com ofertas robustas de medição de atribuição, a equipe ajuda a implantar estratégias de direcionamento com curadoria usando uma estrutura de medição sofisticada, facilitando para as marcas conectar suas decisões de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
+Os anunciantes geralmente têm dificuldades para entender como seus diferentes canais de mídia trabalham juntos, onde seu próximo dólar de mídia deve ser mais bem gasto ou como quantificar o impacto de seus anúncios online em relação aos objetivos comerciais principais.
+
+Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe de Avaliação e Estratégia Avançadas (AMS) ajuda os parceiros de marca e agência a medir como elementos de suas compras da Adobe Advertising, em conexão com suas integrações do [!DNL Adobe], geram resultados. Com ofertas robustas de medição de atribuição, o AMS pode implantar estratégias de direcionamento com curadoria usando estruturas de medição sofisticadas, facilitando para as marcas a conexão de seu dinheiro de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
 
 * Ativar estudos de medição em campanhas de mídia digital de funil completo
 
@@ -25,52 +27,27 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
 * **Conversões, Frequência e Alcance Baseados na Família**
 
-  Entenda o alcance total da campanha em um nível doméstico, bem como a contribuição de telas individuais. As opções de relatório incluem:
+  Entenda o alcance total da campanha a um nível doméstico, bem como a contribuição de telas individuais para o insight, sobre como a TV conectada (CTV) é parte integrante de um mix de mídia.
 
-   * Alcance, frequência e conversão entre IDs da família (sem cookies)
+* **Efeito Halo nos Relatórios de Pesquisa**
 
-     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
+  Quantifique o impacto da exposição a CTV e anúncios digitais na geração de cliques de pesquisa, conversões de pesquisa e ROAS no nível doméstico.
 
-     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
+* **Relatórios do X-Screen+**
 
-   * Tempo Médio para Conversão
-
-   * Frequência para conversão
-
-   * Relatórios de CTV
-
-   * Incrementalidade de aplicativo CTV
-
-   * Relatórios entre telas (Digital e CTV)
-
-   * Relatórios do Cross-Screen Plus (Digital, CTV e TV)
-
-   * Alcance e frequência do segmento interno digital
+  Entenda como a CTV e os canais digitais impulsionam o alcance doméstico incremental e exclusivo em relação à publicidade tradicional de TV linear.
 
 * **Conversões e alcance com base em pessoas**
 
   Entenda como os públicos-alvo e as táticas se sobrepõem no nível da pessoa, incluindo exposições em vários ambientes digitais, como desktop, dispositivo móvel, nativo e áudio.
 
-  <!-- Hide for now * **Cross-ID People-Based Reach**
-
-      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
-
-* **Efeito Halo nos Relatórios de Pesquisa**
-
-  Quantifique o impacto da CTV e exposições de anúncios digitais na geração de cliques de pesquisa, conversões de pesquisa e ROAS no nível doméstico em todos os níveis de aplicativo de CTV, palavra-chave de pesquisa, mecanismo de pesquisa e público-alvo e tática personalizados.
-
-
-* **[!DNL Dynata]Pesquisas com base em painel**
+* **Pesquisas com base em painel**
 
   Fazer pesquisas de controle/exposição para determinar o efeito da exposição dos anúncios em métricas como percepção, familiaridade e intenção.
 
 * **Tráfego de pé**
 
-  Entenda a incrementalidade orientada pela exposição ao anúncio e como o investimento em mídia está causando alteração no comportamento de compra e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
-
-* **Insights de transação**
-
-  Enriqueça sua estratégia de campanha com dados de vendas determinísticos de crédito e débito por meio de análises de segmento, mercado competitivo e comprador.
+  Entenda como a exposição do anúncio afeta visitas na loja e visitas incrementais com métricas como efeito de incrementalidade, custo por visita incremental e insights de visita.
 
 * **Medição da transação**
 
@@ -78,42 +55,34 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
 * **Experimentar o Designer (Teste A/B)**
 
-  Compare o comportamento e o sentimento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
+  Compare o comportamento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
 
 ## Encontrando o ajuste de medição perfeito: Soluções por vertical
 
-* **Qualquer Vertical:**
-
-   * Experimentar o Designer (teste A/B e placebo)
-
-   * Alcance e conversões com base em pessoas
-
-     Qualquer organização que busque medir em várias táticas digitais; organizações que buscam mostrar o valor do áudio
+* **Todos os Verticais:**
 
    * Medição de alcance, frequência e conversão com base na família
 
-     Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais
+   * Medição do efeito de halo
 
-   * Medição de alcance, frequência e conversão entre telas
+   * Medição de alcance, frequência e conversão da tela X
 
-     Qualquer cliente que queira entender alcance/alcance incremental e eficiências baseadas em custo e/ou métricas de conversão em várias táticas digitais relativas ao investimento linear em TV
+   * Alcance e conversões com base em pessoas
 
-   * Pesquisas com base em painel do Dynamic Data
+   * Pesquisas baseadas em painel
 
-     Qualquer cliente que busque medir a percepção e a percepção da marca em várias telas; mais adequado para públicos-alvo de nicho
+   * Experimentar o Designer (teste A/B e placebo)
 
-* **QSR, Varejo (Tijolo e Argamassa):**
+* **QSR, Varejo (Tijolo e Argamassa), Viagem:**
 
    * Medição da transação
 
    * Medição de tráfego de pé
 
-* **QSR, Varejo, Viagem:**
-
-   * Insights da transação
-
-     Qualquer cliente que queira alcançar um tipo específico de comprador para impulsionar as vendas on-line e na loja
-
 ## Mais Informações
 
 Para obter informações sobre todas as soluções avançadas de medição, descrevendo informações de preços, bem como formatos e regiões disponíveis para cada solução, entre em contato com a equipe de conta da Adobe. Estudos de caso específicos da solução também estão disponíveis mediante solicitação.
+
+>[!MORELIKETHIS]
+>
+>[Moedas com Suporte no Adobe Advertising](/help/dsp/currency.md)

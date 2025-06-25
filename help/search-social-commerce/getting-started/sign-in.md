@@ -3,18 +3,24 @@ title: Fazer logon
 description: Saiba mais sobre como fazer logon.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # Fazer logon
 
-Você pode fazer logon na Pesquisa, no Social e no Commerce diretamente ou por meio do Adobe Experience Cloud.
+<!-- update with new info -->
 
-## Fazer logon diretamente
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * Faça logon em um dos seguintes URLs:
 
@@ -22,20 +28,25 @@ Você pode fazer logon na Pesquisa, no Social e no Commerce diretamente ou por m
 
    * Usuários em todas as outras áreas: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Fazer logon pela Adobe Experience Cloud
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->Sua empresa deve ser provisionada na Adobe Experience Cloud e você deve ter [vinculado sua conta da Experience Cloud a uma conta do Search, Social e Commerce](https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Entrar no Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR#signin).
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. No menu superior, selecione ![Seletor de soluções](/help/search-social-commerce/assets/menu-icon.png "Seletor de soluções").
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. No submenu, selecione **[!UICONTROL Advertising Cloud]**.
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
+>* [Alternar entre as interfaces de usuário nova e herdada](ui-switch.md)
 >* [Sair](sign-out.md)
 >* [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)
 >* [Como a interface do usuário está organizada](user-interface.md)

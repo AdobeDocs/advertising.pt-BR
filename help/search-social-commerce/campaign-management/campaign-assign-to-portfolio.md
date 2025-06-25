@@ -3,7 +3,7 @@ title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Na tela [!UICONTROL Create Portfolio], especifique as [configurações do portfólio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+1. Na tela [!UICONTROL Create Portfolio], especifique as configurações do portfólio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
 
    As campanhas selecionadas anteriormente já estão atribuídas à campanha. Opcionalmente, é possível editar a lista de campanhas do portfólio.
 
@@ -48,7 +48,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 ## (Interface herdada) Atribua campanhas a um portfólio da exibição [!UICONTROL Campaigns]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Siga um destes procedimentos:
 
@@ -86,7 +86,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 ## (Interface herdada) Altere as campanhas em um portfólio da exibição [!UICONTROL Portfolios]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** e localize o portfólio.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** e localize o portfólio.
 
    Você pode filtrar a lista de portfólios no menu [!UICONTROL Portfolios] no painel esquerdo, selecionando um grupo de portfólios ou o nó [!UICONTROL Ungrouped Portfolios].
 

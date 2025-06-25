@@ -3,9 +3,9 @@ title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 Atribuir uma campanha a um portfólio otimizado permite que o Search, Social e Commerce otimize ofertas, orçamentos de campanha e metas de estratégia de ofertas para palavras-chave e anúncios na campanha. Você pode atribuir campanhas a um portfólio na exibição [!UICONTROL Campaigns], ao criar o portfólio ou editando as configurações de um portfólio.
 
-Nem todos os tipos de campanha e redes de anúncios estão qualificados para otimização. Consulte uma lista de [tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md) que você pode incluir em um portfólio. Além disso, verifique o suporte à otimização de cada estratégia de oferta de campanha consultando &quot;Tipos de Portfolio elegíveis por Estratégia de oferta de campanha&quot; no capítulo do Guia de otimização sobre &quot;Portfolio&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Nem todos os tipos de campanha e redes de anúncios estão qualificados para otimização. Consulte uma lista de [tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md) que você pode incluir em um portfólio. Além disso, verifique o suporte à otimização de cada estratégia de oferta de campanha consultando &quot;Tipos de Portfolio qualificados por Estratégia de Oferta de Campanha&quot; no capítulo do Guia de Otimização em &quot;Portfólios&quot;, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >Cada campanha pode ser atribuída a apenas um portfólio. Se você atribuir uma campanha que já está associada a outro portfólio para um novo portfólio, ela será removida do portfólio original.
 
-## Atribuir campanhas a um portfólio da exibição [!UICONTROL Campaigns]
+## (Nova interface) Atribuir campanhas a um portfólio existente a partir da visualização [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Marque a caixa de seleção ao lado de cada campanha para atribuir a um único portfólio.
+
+1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
+
+1. Selecione o portfólio.
+
+1. Clique em **[!UICONTROL Assign Now]**.
+
+## (Nova interface) Atribua campanhas a um novo portfólio a partir da exibição [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Marque a caixa de seleção ao lado de cada campanha para a qual deseja criar o novo portfólio.
+
+1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+
+1. Na tela [!UICONTROL Create Portfolio], especifique as [configurações do portfólio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+
+   As campanhas selecionadas anteriormente já estão atribuídas à campanha. Opcionalmente, é possível editar a lista de campanhas do portfólio.
+
+1. Clique em **[!UICONTROL Review and Save]**.
+
+## (Interface herdada) Atribua campanhas a um portfólio da exibição [!UICONTROL Campaigns]
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
@@ -58,7 +84,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Altere as campanhas em um portfólio da exibição [!UICONTROL Portfolios]
+## (Interface herdada) Altere as campanhas em um portfólio da exibição [!UICONTROL Portfolios]
 
 1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** e localize o portfólio.
 

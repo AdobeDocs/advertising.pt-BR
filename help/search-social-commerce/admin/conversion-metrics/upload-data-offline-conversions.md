@@ -67,5 +67,5 @@ Para obter mais instruções sobre como usar o modelo, consulte [https://help.ad
 >
 >* [Implementar [!DNL Google Ads] conversões aprimoradas para clientes potenciais](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementar [!DNL Microsoft Advertising] conversões offline aprimoradas](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Carregar métricas de conversão rastreadas por Pesquisa, Social e Commerce para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

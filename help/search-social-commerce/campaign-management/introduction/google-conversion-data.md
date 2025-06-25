@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] dados de conversão'
 description: Saiba mais sobre os tipos de dados de conversão  [!DNL Google Ads] rastreados disponíveis em Pesquisa, Social e Commerce.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Até três métricas para cada conversão [[!DNL Google Ads] rastreada](https://
 
 * `GGL_XD_CT*` — (Quando disponível para o tipo de conversão, ao rastreá-los) O número (contagem) de conversões entre dispositivos, conforme medido pelo Google, começando com o prefixo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).
 
-[!DNL Google Ads] registra cada conversão por [unidade de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data de clique (não a data de conversão). A atribuição é baseada na configuração de atribuição padrão para cada métrica em [!DNL Google Ads]; a atribuição Adobe Advertising não é fatorada porque os dados no nível do evento de clique não estão disponíveis.
+[!DNL Google Ads] registra cada conversão por [unidade de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data de clique (não a data de conversão). A atribuição é baseada na configuração de atribuição padrão para cada métrica em [!DNL Google Ads]. A atribuição do Adobe Advertising não é fatorada porque os dados no nível do evento de clique não estão disponíveis.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Gere o relatório das ações de conversão selecionadas por dia e inclua dados 
 
 Em Pesquisar, Social e Commerce, use a opção de exibição ou relatório para exibir conversões com base na data de clique (não na data da transação).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create Report]**, mantenha o cursor sobre **[!UICONTROL Basic Reports]** e clique em **[!UICONTROL Search Engine Account Report]**.
 

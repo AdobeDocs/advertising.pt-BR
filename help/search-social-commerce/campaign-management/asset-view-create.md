@@ -3,7 +3,7 @@ title: Exibir e criar ativos de publicidade de seu [!UICONTROL Asset Library]
 description: Saiba como exibir e criar ativos de imagem, vídeo e texto reutilizáveis para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Você pode usar qualquer um dos ativos das campanhas de desempenho máximo.
 
 ## Criar e carregar ativos
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
 1. No canto superior direito, selecione a rede de anúncios e a conta.
 

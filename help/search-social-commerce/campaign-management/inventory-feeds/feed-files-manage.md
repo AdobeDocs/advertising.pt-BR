@@ -3,7 +3,7 @@ title: Gerenciar arquivos de feed de dados de inventário
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Você pode fazer upload e processar arquivos de feed de dados de uma das seguint
 
 * **Usando o FTP automaticamente:** Você pode carregar arquivos diretamente em um diretório FTP; o serviço de feed verifica novos arquivos a cada duas horas. Depois de fazer upload de um arquivo pela primeira vez, você pode associá-lo a um modelo específico de rede de anúncios. Posteriormente, todos os arquivos carregados com o mesmo nome serão associados automaticamente ao mesmo modelo. Dependendo de como você [define as configurações dos dados de feed](feed-settings-manage.md), o Search, Social e Commerce poderá propagar automaticamente os dados de feed por meio de todos os modelos aplicáveis e, opcionalmente, postar os dados de campanha e anúncios resultantes nas redes de anúncios relevantes.
 
-  Para configurar um diretório FTP para depositar e processar automaticamente arquivos de dados, entre em contato com a equipe de conta do Adobe.
+  Para configurar um diretório FTP para depositar e processar automaticamente arquivos de dados, entre em contato com a equipe de conta da Adobe.
 
 * **Processamento Manual:** Você pode [carregar arquivos de feed](#feed-file-upload) manualmente da exibição [!UICONTROL Advanced] (ACM). Depois de associar um arquivo de feed a um ou mais [modelos](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) específicos da rede de anúncios, você pode gerar dados de campanha e anúncios [propagando os dados de feed por meio dos modelos](feed-data-propagate.md) de acordo com as [configurações de dados de feed](feed-settings-manage.md). Opcionalmente, é possível pré-visualizar os dados gerados nas exibições de hierarquia de campanha, gerar um arquivo de bulksheet para revisão ou gerar um arquivo de bulksheet para publicação imediata na rede de anúncios. Se você não postar os dados imediatamente, poderá [pré-visualizá-los](propagated-data-view.md) e [postá-los](propagated-data-post.md) mais tarde. Você pode [substituir o arquivo de feed existente por um novo arquivo](#feed-file-replace) sem perder nenhuma associação de modelo existente.
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 Você pode abrir ou baixar qualquer arquivo de feed que tenha sido carregado manualmente ou por FTP.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Localize o arquivo de feed:
 
@@ -101,7 +101,7 @@ Para obter mais informações, consulte a ajuda online do navegador.
 >[!NOTE]
 > Se você associar um modelo a um arquivo carregado manualmente, mas fizer upload via FTP de outro arquivo com o mesmo nome, extensão de arquivo e uso de letras maiúsculas e minúsculas, o arquivo FTP será usado ao propagar os dados pelo modelo. Por exemplo, myfile.csv substitui myfile.csv, mas Myfile.CSV não substitui.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Feeds]**.
 
@@ -117,7 +117,7 @@ Todos os campos no arquivo são validados. Não é possível postar itens com co
 
 Ao substituir um arquivo de feed — mesmo que o novo arquivo tenha um nome de arquivo ou extensão diferente — todas as associações de modelo existentes permanecem. O novo arquivo é usado quando você propaga dados por todos os modelos que foram originalmente associados ao arquivo anterior.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Siga um destes procedimentos:
 
@@ -141,7 +141,7 @@ Todos os campos no arquivo são validados. Não é possível postar itens com co
 
 Você pode excluir qualquer arquivo de feed que tenha sido carregado manualmente ou via FTP. Ao excluir um arquivo de feed, ele não é mais associado a nenhum modelo.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Feeds]**.
 

@@ -3,7 +3,7 @@ title: Exibir ou salvar um relatório
 description: Saiba como visualizar um relatório gerado ou salvar um relatório como um arquivo.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Você pode exibir um relatório no navegador da Web, abrir ou salvar os dados do
 
 >[!NOTE]
 >
->Os membros da Equipe da Conta do Adobe e os usuários administradores podem exibir relatórios criados por funções de cliente e de agência.
+>Os membros da Equipe de conta da Adobe e os usuários administradores podem exibir relatórios criados por funções de cliente e de agência.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
 
 1. Siga um destes procedimentos:
 

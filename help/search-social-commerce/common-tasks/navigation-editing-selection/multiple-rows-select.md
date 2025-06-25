@@ -3,7 +3,7 @@ title: Selecionar várias linhas
 description: Saiba como selecionar várias linhas para executar a mesma ação em todas elas.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Selecionar várias linhas
 
-Você pode selecionar várias linhas nas exibições [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints] das seguintes maneiras:
+Você pode selecionar várias linhas nas exibições [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints] das seguintes maneiras:
 
 * Atalhos de teclado:
 

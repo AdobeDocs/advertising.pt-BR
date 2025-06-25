@@ -3,7 +3,7 @@ title: Exibir ou salvar um arquivo de feed de relatório de planilha
 description: Saiba como visualizar um feed de planilha e salvá-lo em um arquivo.
 exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Você pode visualizar qualquer feed de planilha gerado ou salvá-lo em um arquivo. Os arquivos de feed de planilha estão no formato XLSX [!DNL Microsoft Excel].
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Clique em **[!UICONTROL XLSX]** ao lado do feed e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador.
 

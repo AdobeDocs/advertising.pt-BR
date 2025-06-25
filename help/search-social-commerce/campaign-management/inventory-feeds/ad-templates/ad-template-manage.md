@@ -3,7 +3,7 @@ title: Gerenciar modelos de anúncio para feeds de inventário
 description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos quais os dados de inventário podem ser processados para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Qualquer modelo pode ser ativado, pausado ou excluído. Os dados do feed podem s
 
 Crie modelos separados para texto e anúncios de texto expandidos/estendidos, anúncios de pesquisa responsivos, [!DNL Google Ads] anúncios de compras e [!DNL Microsoft Advertising] anúncios de compras.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Siga um destes procedimentos:
 
@@ -137,7 +137,7 @@ Você pode ativar qualquer modelo de feed de dados pausado ou pausar qualquer mo
 >
 >Você pode propagar dados manualmente por meio de um modelo pausado, mas os dados não são propagados automaticamente por meio dele.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Marque a caixa de seleção ao lado de cada modelo cujo status você deseja alterar.
 
@@ -145,7 +145,7 @@ Você pode ativar qualquer modelo de feed de dados pausado ou pausar qualquer mo
 
 ## Excluir modelos de feed
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Marque a caixa de seleção ao lado de cada modelo que deseja excluir.
 

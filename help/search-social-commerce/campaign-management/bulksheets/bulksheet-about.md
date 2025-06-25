@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de dados de campanha usando bulksheets
 description: Saiba mais sobre a funcionalidade de bulksheet disponível pela rede de anúncios, o fluxo de trabalho de bulksheet e a manipulação de erros.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Os arquivos de erro são automaticamente excluídos após 30 dias, a menos que v
 
 ## Informações sobre cada arquivo
 
-Todos os arquivos de dados baixados, arquivos carregados e arquivos de erro estão disponíveis em [!UICONTROL Search] > [!UICONTROL Bulksheets].
+Todos os arquivos de dados baixados, arquivos carregados e arquivos de erro estão disponíveis em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets].
 
 As informações para cada arquivo incluem o status da tarefa atual e a porcentagem da tarefa que está concluída, a data em que foi criada, (quando aplicável) a data em que foi ou será postada na rede de publicidade especificada, a data de exclusão programada e o nome de logon do usuário que iniciou a tarefa.
 

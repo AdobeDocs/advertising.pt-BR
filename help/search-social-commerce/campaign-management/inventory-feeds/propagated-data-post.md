@@ -3,7 +3,7 @@ title: Publicar dados de campanha gerados a partir de feeds para redes de anúnc
 description: Saiba como publicar dados gerados a partir de feeds de dados de inventário em redes de anúncios.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Para uma publicação bem-sucedida, todos os grupos de anúncios devem ser atrib
   >
   >Se você não validou suas páginas de aterrissagem anteriormente e deseja fazer isso, [propague os dados e visualize-os](feed-data-propagate.md) da exibição [!UICONTROL Bulksheets] em vez de postá-los na rede de publicidade. Você pode [validar as URLs](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) antes de postar manualmente o arquivo na rede de publicidade.
 
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
    1. Marque a caixa de seleção ao lado do modelo.
 
@@ -54,7 +54,7 @@ Para uma publicação bem-sucedida, todos os grupos de anúncios devem ser atrib
 
               Para especificar uma data, use o formato DD/MM/AAAA ou D/M/AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para alterar uma hora, insira a hora no formato de 24 horas HH/MM ou H/M ou selecione uma hora (em intervalos de 30 minutos) na lista.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Cria um arquivo de planilha em massa disponível na exibição [!UICONTROL Search] > [!UICONTROL Bulksheets]. É possível postar o arquivo a partir daí.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Cria um arquivo de planilha em massa disponível na exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. É possível postar o arquivo a partir daí.
 
            Quando o arquivo de bulksheet resultante tiver mais de 2 MB, o arquivo estará no formato ZIP. Não é necessário descompactar o arquivo para publicar.
 

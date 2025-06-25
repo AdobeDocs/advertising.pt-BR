@@ -3,7 +3,7 @@ title: Implementar [!DNL Naver] contas somente de rastreamento
 description: Saiba como configurar campanhas de rastreamento para suas contas do  [!DNL Naver] , de modo que você possa acompanhar, relatar e visualizar o desempenho dos anúncios comprados diretamente da rede de anúncios.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -64,11 +64,11 @@ Você pode rastrear métricas de desempenho em todas as suas campanhas e para qu
 
    Inclua a hierarquia de conta completa e qualquer métrica que desejar incluir. Search, Social e Commerce corresponde os dados carregados aos dados em campanhas existentes.
 
-1. (Opcional) Se você usar as tags de serviço de rastreamento de conversão de Adobe Advertising nas páginas da Web para rastrear conversões que não são rastreadas na rede de anúncios, envie arquivos de feed que contêm dados de conversão agregados diariamente para adicionar às campanhas de rastreamento.
+1. (Opcional) Se você usar as tags de serviço de rastreamento de conversão da Adobe Advertising em suas páginas da Web para rastrear conversões que não são rastreadas na rede de anúncios, envie arquivos de feed que contêm dados de conversão agregados diariamente para adicionar às suas campanhas de rastreamento.
 
    Para obter mais informações, entre em contato com a equipe de conta da Adobe.
 
-Todos os dados de rastreamento carregados estão disponíveis em [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nos modos de exibição [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] e [!UICONTROL Keywords]. Ele também está disponível para relatórios na visualização [!UICONTROL Insights & Reports].
+Todos os dados de rastreamento carregados estão disponíveis em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nos modos de exibição [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] e [!UICONTROL Keywords]. Ele também está disponível para relatórios na visualização [!UICONTROL Insights & Reports].
 
 >[!MORELIKETHIS]
 >

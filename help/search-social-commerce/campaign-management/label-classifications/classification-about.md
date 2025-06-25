@@ -3,7 +3,7 @@ title: Sobre as classificações de rótulo
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Cada entidade elegível pode ter valores de etiqueta para várias classificaçõ
 
 ## A exibição Classificações de etiquetas
 
-A exibição [!UICONTROL Labels Classifications] no menu [!UICONTROL Search] > [!UICONTROL Campaigns] inclui subexibições [!UICONTROL Classifications] e [!UICONTROL Label Values]. Você pode exibir dados para suas classificações de etiquetas, [criar](classification-create.md) e [excluir](classification-delete.md) classificações de etiquetas e exibir dados para seus valores de classificação de etiquetas. Por padrão, são exibidos dados para suas classificações e valores de etiqueta em nível de palavra-chave, mas é possível exibir dados para classificações e valores em nível de anúncio.
+A exibição [!UICONTROL Labels Classifications] no menu [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] inclui subexibições [!UICONTROL Classifications] e [!UICONTROL Label Values]. Você pode exibir dados para suas classificações de etiquetas, [criar](classification-create.md) e [excluir](classification-delete.md) classificações de etiquetas e exibir dados para seus valores de classificação de etiquetas. Por padrão, são exibidos dados para suas classificações e valores de etiqueta em nível de palavra-chave, mas é possível exibir dados para classificações e valores em nível de anúncio.
 
 >[!MORELIKETHIS]
 >

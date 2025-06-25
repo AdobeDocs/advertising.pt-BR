@@ -3,7 +3,7 @@ title: Configurar o rastreamento de cliques com base em cookies
 description: Saiba como configurar e validar tags de rastreamento de cliques.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Para que o Search, Social e Commerce rastreie cliques, os seguintes elementos devem ser configurados e validados.
 
-1. (Equipe de conta do Adobe) Configure o anunciante como um cliente pixel.
+1. (Equipe de conta da Adobe) Configure o anunciante como um cliente de pixel.
 
 1. [Especifique as opções de rastreamento corretas para cada uma das contas e campanhas da rede de anúncios do anunciante](#set-up-click-tracking-options).
 
@@ -28,7 +28,7 @@ Para que o Search, Social e Commerce rastreie cliques, os seguintes elementos de
 
 1. Para cada conta de rede de publicidade, faça o seguinte:
 
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Mantenha o cursor sobre o nome da conta, clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu") e selecione **[!UICONTROL Edit]**.
 
@@ -42,7 +42,7 @@ Para que o Search, Social e Commerce rastreie cliques, os seguintes elementos de
 
 1. Para cada campanha, faça o seguinte:
 
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Mantenha o cursor sobre o nome da campanha, clique em ![Ícone do menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Ícone do menu") e selecione **[!UICONTROL Edit]**.
 

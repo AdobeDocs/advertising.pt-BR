@@ -3,7 +3,7 @@ title: Excluir uma notificação
 description: Saiba como excluir uma notificação.
 exl-id: 242c30dc-7e53-42cb-a027-908f2e53998d
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Excluir uma notificação em [!UICONTROL Notification Center]
 
-1. (No Search, Social e Commerce) No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**.
+1. (No Search, Social e Commerce) No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**.
 
 1. (Opcional) Para filtrar suas notificações por tipo, clique em *[!UICONTROL Notices]*, *[!UICONTROL Recommendations]*, *[!UICONTROL Warnings]* ou *[!UICONTROL Issues]*.
 

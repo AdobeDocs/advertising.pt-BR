@@ -3,7 +3,7 @@ title: Alterar as métricas de conversão disponíveis em exibições de gerenci
 description: Saiba como disponibilizar métricas de conversão em suas visualizações de gerenciamento e relatórios.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Da mesma forma, é possível ocultar uma métrica de conversão dos objetivos do
 
 A partir da lista de métricas de conversão disponíveis, cada usuário com acesso aos dados do anunciante pode personalizar as métricas que visualizam para exibições de gerenciamento e relatórios, incluindo ou omitindo métricas específicas à sua escolha.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
    Todas as métricas de conversão coletadas para o anunciante e todos os nomes diferentes especificados para exibição são listados.
 
@@ -26,7 +26,7 @@ A partir da lista de métricas de conversão disponíveis, cada usuário com ace
 
    * Para procurar um nome de métrica ou nome para exibição específico, clique em ![Pesquisar](/help/search-social-commerce/assets/search.png "Pesquisar"), digite a palavra ou a cadeia de caracteres no campo de entrada e pressione a tecla **[!DNL Enter]**.
 
-     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1&rbrace;.](/help/search-social-commerce/glossary.md#c-d)
+     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1}.](/help/search-social-commerce/glossary.md#c-d)
 
    * Para procurar métricas de conversão por sua disponibilidade em exibições de gerenciamento e relatórios, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") e selecione o filtro **[!UICONTROL Show in UI and Reports]**. Em seguida, selecione **[!UICONTROL Show]** (para exibir as métricas de conversão disponíveis para inclusão nos relatórios e exibições de gerenciamento) ou **[!UICONTROL Hide]** (para exibir as métricas de conversão não disponíveis nos relatórios e exibições de gerenciamento).
 
@@ -50,7 +50,7 @@ A partir da lista de métricas de conversão disponíveis, cada usuário com ace
 
 >[!NOTE]
 >
->Se o Adobe Advertising coletar dados para novas métricas de conversão, as novas métricas — exceto para conversões rastreadas pelas tags de rastreamento de evento universal [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] — serão automaticamente excluídas das exibições e dos relatórios de gerenciamento até que você as inclua. Novas conversões controladas por [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] marcas de rastreamento de eventos universais estão sempre disponíveis automaticamente.
+>Se a Adobe Advertising coletar dados para novas métricas de conversão, as novas métricas — exceto para conversões rastreadas pelas tags de rastreamento de evento universal [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] — serão automaticamente excluídas das exibições de gerenciamento e dos relatórios até que você as inclua. Novas conversões controladas por [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] marcas de rastreamento de eventos universais estão sempre disponíveis automaticamente.
 
 >[!MORELIKETHIS]
 >

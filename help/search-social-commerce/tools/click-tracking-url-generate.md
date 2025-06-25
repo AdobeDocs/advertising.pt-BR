@@ -3,7 +3,7 @@ title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques do Search, Social e Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerar um URL de rastreamento de cliques do Search, Social e Commerce usando a ferramenta URLs de rastreamento
 
-*Anunciantes somente com rastreamento de conversão de Adobe Advertising*
+*Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
 Para obter informações sobre quando você deve gerar e implementar manualmente uma URL de rastreamento de cliques, consulte &quot;[Quando e como gerar URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -20,7 +20,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 >
 >Esse recurso não implementa o modelo de rastreamento ou a URL de destino na conta de anúncio relevante.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**.
 
 1. Selecione a conta da rede de publicidade na lista.
 

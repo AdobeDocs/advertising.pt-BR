@@ -3,7 +3,7 @@ title: Gerenciar campanhas
 description: Saiba como criar e gerenciar campanhas de publicidade.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Depois que você [tornar uma conta de rede de publicidade acessível](/help/sear
 >* Antes de criar uma campanha, [implemente as tags de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md) nas páginas da Web do anunciante.
 >* Para criar um grande número de campanhas ao mesmo tempo, use o [recurso de copiar e colar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) ou os [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -49,7 +49,7 @@ Você pode editar configurações para campanhas individuais. Você também pode
 >
 >Também é possível editar dados em massa usando o recurso copiar e colar ou bulksheets de campanha.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Siga um destes procedimentos:
 
@@ -83,7 +83,7 @@ Você pode pausar qualquer campanha de pesquisa ativa em uma rede de anúncios c
 
 Também é possível excluir qualquer campanha de pesquisa ativa ou pausada. As campanhas excluídas são excluídas da rede de anúncios. Elas ainda estarão visíveis ao serem incluídas no filtro de dados, mas não poderão ser alteradas.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. (Opcional) Filtre a lista para incluir campanhas específicas.
 

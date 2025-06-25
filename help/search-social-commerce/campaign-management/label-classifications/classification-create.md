@@ -3,7 +3,7 @@ title: Criar uma classificação de etiqueta
 description: Saiba como criar uma classificação de etiquetas para agrupar os componentes da conta.
 exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Cada anunciante pode ter até 30 classificações de etiquetas.
 
-1. Clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 

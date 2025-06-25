@@ -3,7 +3,7 @@ title: Fazer upload de dados de conversão offline para conversões aprimoradas
 description: Saiba como carregar dados de conversão offline próprios para mapear a [!DNL Google Ads] conversões avançadas para clientes potenciais e [!DNL Microsoft Advertising] conversões avançadas.
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: eb7320fdddce4895a689c32ec6fb1e44cb8f2705
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode carregar dados de conversão offline primários, incluindo endereços
 
 ## Carregar dados para conversões aprimoradas
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** e depois clique na guia **[!UICONTROL Upload]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** e depois clique na guia **[!UICONTROL Upload]**.
 
 1. Selecione a rede de publicidade e depois a conta.
 
@@ -67,5 +67,5 @@ Para obter mais instruções sobre como usar o modelo, consulte [https://help.ad
 >
 >* [Implementar [!DNL Google Ads] conversões aprimoradas para clientes potenciais](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementar [!DNL Microsoft Advertising] conversões offline aprimoradas](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only]) [Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only])[Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Carregar métricas de conversão rastreadas por Pesquisa, Social e Commerce para [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

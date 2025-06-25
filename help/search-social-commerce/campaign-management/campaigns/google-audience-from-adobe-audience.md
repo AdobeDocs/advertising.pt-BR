@@ -1,22 +1,22 @@
 ---
 title: Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos-alvo
-description: Saiba como criar [!DNL Google Ads] públicos-alvo de correspondência do cliente a partir dos públicos-alvo existentes da Adobe Analytics e do Audience Manager.
+description: Saiba como criar [!DNL Google Ads] públicos-alvo de correspondência do cliente a partir dos públicos-alvo existentes da Adobe Analytics e da Audience Manager.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente do Adobe Analytics e do Audience Manager
+# Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente dos públicos-alvo da Adobe Analytics e da Audience Manager
 
 *[!DNL Google Ads]contas qualificadas somente para correspondência de cliente*
 
-*Anunciantes somente com integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics*
+*Somente anunciantes com uma integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics*
 
-Os anunciantes aceitos podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de a) [!DNL Analytics] segmentos compartilhados com a Adobe Experience Cloud e b) segmentos Audience Manager que têm Search, Social e Commerce como destino, incluindo [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados com a Biblioteca de público-alvo da Adobe Experience Cloud. O Search, Social e Commerce envia automaticamente uma URL de rastreamento [!DNL Google] de volta para cada segmento [!DNL Analytics] ou Audience Manager, para que [!DNL Google] possa rastrear o público.
+Os anunciantes aceitos podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de a) [!DNL Analytics] segmentos compartilhados com a Adobe Experience Cloud e b) segmentos do Audience Manager que têm Search, Social e Commerce como destino, incluindo [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados com a Biblioteca de público-alvo da Adobe Experience Cloud. O Search, Social e Commerce envia automaticamente uma URL de rastreamento [!DNL Google] de volta para cada segmento [!DNL Analytics] ou Audience Manager para que [!DNL Google] possa rastrear o público.
 
 Cada público-alvo [!DNL Adobe] pode ser usado somente para um público-alvo [!DNL Google].
 
@@ -24,7 +24,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
 >[!TIP]
 >
->Para segmentação em tempo real, use públicos criados por Audience Manager. Segmentos criados no [!DNL Analytics] e sincronizados com o Adobe Experience Cloud podem ter populações menores, pois são sincronizados apenas diariamente. Um surfer que se qualifica para um segmento não pode ser incluído no segmento até o dia seguinte. Segmentos de [!DNL Analytics] têm uma fonte de dados de &quot;conjunto de relatórios - .&quot;
+>Para segmentação em tempo real, use públicos criados pela Audience Manager. Segmentos criados no [!DNL Analytics] e sincronizados com o Adobe Experience Cloud podem ter populações menores, pois são sincronizados apenas diariamente. Um surfer que se qualifica para um segmento não pode ser incluído no segmento até o dia seguinte. Segmentos de [!DNL Analytics] têm uma fonte de dados de &quot;conjunto de relatórios - .&quot;
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
    1. (Para criar públicos-alvo de lista de remarketing de ID de usuário) Um usuário administrador ou gerente de conta do [!DNL Adobe] deve selecionar a configuração no nível do anunciante para habilitar os públicos-alvo de correspondência do cliente.
 
-   1. Implemente o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) versão 2.0 ou superior.
+   1. Implemente o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) versão 2.0 ou superior.
 
    1. Implante a seguinte tag o mais alto possível nas páginas da Web do anunciante, a partir das quais o público-alvo deve ser rastreado
 
@@ -46,7 +46,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
    1. (Se ainda não tiver sido concluído) Um usuário autorizado deve configurar a conta do anunciante para [sincronizar com a conta da organização do anunciante no Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 

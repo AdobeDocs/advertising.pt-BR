@@ -3,7 +3,7 @@ title: Baixar dados de uma visualização de gerenciamento de campanha
 description: Saiba como baixar dados da maioria das exibições de gerenciamento de campanha.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Baixar dados de uma visualização de gerenciamento de campanha
 
-Você pode baixar dados das visualizações [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] exceto para as visualizações [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] e [!UICONTROL Extensions]. Você pode baixar:
+Você pode baixar dados das visualizações [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] exceto para as visualizações [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] e [!UICONTROL Extensions]. Você pode baixar:
 
 * Um relatório no formato [!DNL XLSM] (planilha habilitada para macro [!DNL Microsoft Excel]). Se você selecionar linhas específicas na exibição, o relatório incluirá uma linha para cada linha selecionada. Se você não selecionar nenhuma linha, uma linha será criada para cada linha na exibição.
 

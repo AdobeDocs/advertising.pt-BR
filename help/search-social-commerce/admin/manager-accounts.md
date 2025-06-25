@@ -3,7 +3,7 @@ title: Gerenciar credenciais para contas do gerenciador de rede de anúncios
 description: Saiba como fornecer credenciais para suas  [!DNL Google Ads] contas de gerente.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Depois de adicionar credenciais para uma conta de gerente, as configurações da
 
 ## Para adicionar credenciais de uma nova conta de gerente
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Selecione **[!UICONTROL Create new manager account]**.
 
@@ -40,7 +40,7 @@ Depois de adicionar credenciais para uma conta de gerente, as configurações da
 
 ## Para autenticar novamente uma conta de gerente existente
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Selecione **[!UICONTROL Reauthenticate existing manager account]**.
 

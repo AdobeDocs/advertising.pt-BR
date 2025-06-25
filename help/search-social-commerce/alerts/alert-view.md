@@ -3,7 +3,7 @@ title: Exibir alerta personalizado
 description: Saiba como listar instâncias de alerta.
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Se quiser editar as campanhas ou entidades de campanha identificadas em um alert
 
 ## Exibir alertas na exibição [!UICONTROL Triggered Alerts]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
 
 1. No submenu, clique em **[!UICONTROL Triggered Alerts]**.
 

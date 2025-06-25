@@ -3,7 +3,7 @@ title: Alterar o status de disposições e disposições negativas
 description: Saiba como alterar o status de posicionamentos e posicionamentos negativos de  [!DNL Google Ads].
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Você pode pausar uma disposição ativa e licitável para desativar a licitaç�
 
 Também é possível excluir uma disposição ativa ou pausada ou uma disposição negativa. Posicionamentos excluídos/posicionamentos negativos são excluídos da rede de anúncios. Elas ainda estão visíveis, mas não podem ser alteradas.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
 
 1. (Opcional) Filtre a lista para incluir disposições específicas ou disposições negativas.
 

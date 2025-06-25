@@ -3,7 +3,7 @@ title: Editar um modelo de alerta personalizado
 description: Saiba como editar um modelo para gerar alertas personalizados.
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar um modelo de alerta personalizado
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
 
 1. (Opcional) Filtre a exibição para incluir linha com nomes específicos, intervalo de dados a ser avaliado ou outros critérios.
 

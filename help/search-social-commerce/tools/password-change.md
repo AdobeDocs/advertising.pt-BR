@@ -3,7 +3,7 @@ title: Alterar sua senha
 description: Saiba como alterar a senha da conta.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Ao alterar sua senha, você será desconectado da sessão atual. Para continuar trabalhando, você deve entrar com a nova senha.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
 
 1. Insira informações nos campos e clique em **[!UICONTROL Submit]**.
 

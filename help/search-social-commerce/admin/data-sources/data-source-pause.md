@@ -4,7 +4,7 @@ description: Saiba como pausar uma fonte de dados para interromper a sincroniza�
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Pausar sincronização de uma fonte de dados
 
-*Somente Administradores de Agência (função base), Gerentes de Conta do Adobe e Administradores*
+*Somente administradores de agências (função base), Gerentes de contas da Adobe e Administradores*
 
 Pausar uma fonte de dados interrompe sincronizações futuras com a fonte de dados. Se o feed estiver sendo sincronizado no momento, o processo será concluído primeiro para que os dados no Adobe Advertising estejam atualizados.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Marque a caixa de seleção ao lado da fonte de dados que você deseja pausar.
 

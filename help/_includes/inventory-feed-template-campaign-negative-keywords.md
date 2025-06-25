@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para cada cadeia de caracteres, clique em **[!UICONTROL Add (Up to 3)]** e insir
    * Correspondência de frase negativa: `"keyword"`
    * Correspondência exata negativa: `[keyword]`
 
-A sintaxe usual para os tipos de frase e correspondência exata é usada no bulksheet gerado ao propagar dados de feed por meio do modelo. **Observação:** você não pode ver as palavras-chave negativas na guia [!UICONTROL Keywords] ou na exibição [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+A sintaxe usual para os tipos de frase e correspondência exata é usada no bulksheet gerado ao propagar dados de feed por meio do modelo. **Observação:** você não pode ver as palavras-chave negativas na guia [!UICONTROL Keywords] ou na exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
 **[!UICONTROL All other campaigns: Apply these negatives]:** (Todas as redes de anúncios, exceto [!DNL Yandex]; opcional) Quaisquer palavras-chave negativas estáticas em nível de campanha a serem adicionadas para campanhas cujo nome não corresponda a uma cadeia de caracteres especificada. Para especificar várias palavras-chave ou vários tipos de correspondência para a mesma palavra-chave, insira-os em linhas separadas. Use a sintaxe a seguir, sem um sinal de menos:
 
@@ -29,4 +29,4 @@ A sintaxe usual para os tipos de frase e correspondência exata é usada no bulk
 * Correspondência de frase negativa: `"keyword"`
 * Correspondência exata negativa: `[keyword]`
 
-A sintaxe usual para os tipos de frase e correspondência exata é usada no bulksheet gerado ao propagar dados de feed por meio do modelo. **Observação:** você não pode ver as palavras-chave negativas na guia [!UICONTROL Keywords] ou na exibição [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+A sintaxe usual para os tipos de frase e correspondência exata é usada no bulksheet gerado ao propagar dados de feed por meio do modelo. **Observação:** você não pode ver as palavras-chave negativas na guia [!UICONTROL Keywords] ou na exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].

@@ -3,7 +3,7 @@ title: Exportar um arquivo de bulksheet gerado ou carregado
 description: Saiba como baixar um arquivo de bulksheet, incluindo arquivos de erro e arquivos de validação de landing page.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Você pode baixar qualquer arquivo de bulksheet gerado ou carregado, incluindo arquivos de erro e arquivos de validação de página de aterrissagem, por 30 dias. Os arquivos são excluídos automaticamente 30 dias após serem carregados ou gerados.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. (Opcional) Acima da lista de bulksheets, [adicione filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar os arquivos listados.
 

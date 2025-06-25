@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Além disso, as [!DNL Google Ads] métricas de desempenho em nível de campanha 
 >
 >(Anunciantes com portfólios) Espere que o desempenho das novas combinações de palavras-chave e tipos de correspondência seja volátil, enquanto o Search, Social e Commerce reúne dados para criar modelos para elas.
 
-**Ações nas exibições [!UICONTROL Search] > [!UICONTROL Campaigns], no processo de postagem de bulksheet e no próprio editor de rede de anúncios:**
+**Ações nas exibições [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], no processo de postagem de bulksheet e no próprio editor de rede de anúncios:**
 
 A palavra-chave ou anúncio existente é excluído e outro é criado quando:
 
@@ -99,7 +99,7 @@ Em ambos os casos, as URLs de base com rastreamento de Search, Social e Commerce
 
 [!DNL Google Ads] métricas de desempenho em nível de campanha na rede de pesquisa do dia atual são extraídas às 08:00 e 16:00 no fuso horário do anunciante.
 
-Na guia [!UICONTROL Campaigns] da exibição [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e na exibição [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando você cria relatórios sobre [!UICONTROL Today] ou em um intervalo de datas personalizado que inclui o dia atual, os dados incluem os dados sincronizados mais recentemente.
+Na guia [!UICONTROL Campaigns] da exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e na exibição [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando você cria relatórios sobre [!UICONTROL Today] ou em um intervalo de datas personalizado que inclui o dia atual, os dados incluem os dados sincronizados mais recentemente.
 
 >[!NOTE]
 >

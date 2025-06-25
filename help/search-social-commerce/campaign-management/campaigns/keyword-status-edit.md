@@ -3,7 +3,7 @@ title: Alterar o status de palavras-chave e palavras-chave negativas
 description: Saiba como alterar o status de palavras-chave e palavras-chave negativas.
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Você pode pausar uma palavra-chave de pesquisa ativa e licitável para desativa
 
 Você também pode excluir palavras-chave de pesquisa ativas ou pausadas, ou palavras-chave negativas. Palavras-chave excluídas/palavras-chave negativas são excluídas da rede de publicidade. Elas ainda estão visíveis, mas não podem ser alteradas.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
 
 1. (Opcional) Filtre a lista para incluir palavras-chave específicas ou negativas.
 

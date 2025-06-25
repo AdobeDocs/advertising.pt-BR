@@ -3,7 +3,7 @@ title: Associar [!DNL Google Ads] extensões de texto explicativo compartilhadas
 description: Saiba como atribuir [!DNL Google Ads] extensões de texto explicativo compartilhado a campanhas ou grupos de anúncios.
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode criar e atribuir extensões de chamada a qualquer [campanha [!DNL Goo
 
 Atribua pelo menos duas chamadas por campanha ou grupo de publicidade para que seus anúncios sejam qualificados para serem exibidos com chamadas.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar") e selecione **[!UICONTROL Callout]**.
 

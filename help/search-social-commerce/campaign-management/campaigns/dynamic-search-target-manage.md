@@ -3,7 +3,7 @@ title: Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
 description: Saiba como criar e gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Você pode direcionar todos os critérios ou até três critérios individuais.
 >
 >Para criar muitos componentes da conta de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -52,7 +52,7 @@ Você pode editar o status ou o lance máximo para um público alvo de pesquisa 
 >
 >Para editar grandes quantidades de dados de uma só vez, use os [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada linha a ser editada.
 
@@ -76,7 +76,7 @@ Você pode pausar qualquer público alvo de pesquisa dinâmica ativo em um tipo 
 
 Também é possível excluir qualquer destino dinâmico.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. (Opcional) Filtre a lista para incluir destinos dinâmicos específicos.
 

@@ -3,7 +3,7 @@ title: Interromper um trabalho de bulksheet em andamento
 description: Saiba como interromper um trabalho de bulksheet enquanto ele estiver em processo.
 exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Você pode interromper qualquer trabalho de bulksheet, incluindo a publicação de um arquivo, enquanto ele ainda estiver em processo.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Marque a caixa de seleção ao lado de cada tarefa que deseja interromper.
 

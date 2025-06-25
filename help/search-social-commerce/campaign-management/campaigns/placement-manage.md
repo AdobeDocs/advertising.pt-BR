@@ -3,7 +3,7 @@ title: Gerenciar [!DNL Google Ads] posicionamentos
 description: Saiba como criar e gerenciar posicionamentos licitáveis para  [!DNL Google Ads] grupos de anúncios.
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Você pode criar e editar disposições para grupos de anúncios em [tipos de ca
 >
 >Para criar vários posicionamentos de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
-1. &#x200B;
+1. 
    1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
 1. Selecione a rede de publicidade, a conta, a campanha e o grupo de publicidade e clique em **[!UICONTROL Continue]**.
@@ -39,7 +39,7 @@ Você pode criar e editar disposições para grupos de anúncios em [tipos de ca
 >
 >Para editar vários posicionamentos de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Marque a caixa de seleção ao lado de cada linha a ser editada.
 

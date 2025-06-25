@@ -3,7 +3,7 @@ title: Definir configurações de dados de feed
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Você pode configurar como lidar com grupos de anúncios, palavras-chave e anúncios em arquivos de dados de feed, e como processar os dados em arquivos FTP especificamente, por meio das configurações de feed.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Settings]**.
 
@@ -104,7 +104,7 @@ Essa opção está desativada por padrão. Para ativar essa opção, marque a ca
 
 * *[!UICONTROL Immediately]* (o padrão): Publica os arquivos de planilha em massa nas redes de anúncios relevantes depois que os dados são propagados pelos modelos. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; Não postará os arquivos de bulksheet nas redes de anúncios relevantes, mas os listará na exibição [!UICONTROL Bulksheets], a partir da qual você poderá postá-los mais tarde. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias. Quando o arquivo de bulksheet tem mais de 10 MB, mas tem menos de 2 GB, ele está no formato ZIP; não é necessário descompactar o arquivo para publicá-lo. &#x200B;** Dica:** se você ainda não validou suas páginas de aterrissagem, use esta opção para validá-las na exibição [!UICONTROL Bulksheets] antes de postar os dados na rede de publicidade.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Não postará os arquivos de bulksheet nas redes de anúncios relevantes, mas os listará na exibição [!UICONTROL Bulksheets], a partir da qual você poderá postá-los mais tarde. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias. Quando o arquivo de bulksheet tem mais de 10 MB, mas tem menos de 2 GB, ele está no formato ZIP; não é necessário descompactar o arquivo para publicá-lo. **Dica:** se você ainda não validou suas páginas de aterrissagem, use esta opção para validá-las na exibição [!UICONTROL Bulksheets] antes de postar os dados na rede de publicidade.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Impede postar frases-chave com mais de um número especificado de palavras na rede de publicidade. Quando essa opção é selecionada, frases de palavras-chave com mais do que o número máximo de palavras são propagadas e listadas na guia [!UICONTROL Keywords], mas não são postadas quando você tenta postar os dados.
 

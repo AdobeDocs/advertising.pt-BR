@@ -3,7 +3,7 @@ title: Sobre alertas personalizados
 description: Saiba mais sobre alertas personalizados, incluindo como criar modelos de alertas e quando os alertas são acionados.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Quando uma instância de alerta é acionada para um modelo de alerta:
 
 * Os recipients especificados recebem um aviso por email. Quando o alerta contém até 1000 registros, o aviso de email inclui um arquivo [CSV](/help/search-social-commerce/glossary.md#c-d) com os dados de alerta, incluindo dados para todas as entidades que acionaram o alerta.
 
-* O alerta está listado na exibição [!UICONTROL Triggered Alerts] em [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Um relatório para download está disponível por dez dias após o acionamento do alerta.
+* O alerta está listado na exibição [!UICONTROL Triggered Alerts] em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Um relatório para download está disponível por dez dias após o acionamento do alerta.
 
 * O alerta está listado no centro [!UICONTROL Notifications] na exibição de entidade aplicável, que está disponível na barra de ferramentas direita. As notificações permanecem no centro [!UICONTROL Notifications], a menos que você as exclua ou marque como lidas.
 

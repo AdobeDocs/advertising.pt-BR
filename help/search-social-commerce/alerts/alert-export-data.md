@@ -3,7 +3,7 @@ title: Exportar dados para alertas personalizados
 description: Saiba como exportar dados de um alerta acionado para um arquivo.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Você pode exportar dados de um alerta disparado ou dados do alerta disparado ma
 
 1. Siga um destes procedimentos:
 
-   * (Para exportar dados do alerta disparado mais recentemente para um modelo de alerta) No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que abrirá o modo de exibição Modelos de Alerta.
+   * (Para exportar dados do alerta disparado mais recentemente para um modelo de alerta) No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que abrirá o modo de exibição Modelos de Alerta.
 
-   * (Para exportar dados para um alerta acionado específico) No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. No submenu, clique em **[!UICONTROL Triggered Alerts]**.
+   * (Para exportar dados para um alerta acionado específico) No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. No submenu, clique em **[!UICONTROL Triggered Alerts]**.
 
 1. Na coluna [!UICONTROL Export] ao lado do nome do modelo ou do relatório, clique no nome de um formato e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador:
 

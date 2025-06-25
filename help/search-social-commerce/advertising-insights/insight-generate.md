@@ -3,7 +3,7 @@ title: Gerar um  [!DNL Advertising Insight]
 description: Saiba como criar um  [!DNL Advertising Insight].
 exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Gerar um [!DNL Advertising Insight]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
 
-2. Clique no insight que deseja gerar.
+2. Clique na insight que deseja gerar.
 
-3. Especifique as configurações de insight:
+3. Especifique as configurações do insight:
 
-   1. (Alguns relatórios; opcional) especifique os intervalos de datas para o insight.
+   1. (Alguns relatórios; opcional) especifique os intervalos de datas para a insight.
 
    2. (A maioria dos insights) Selecione o portfólio a ser analisado.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    3. ([!UICONTROL Event Path Beta] somente insight) Faça o seguinte:
 
-      1. Selecione o **[!UICONTROL Operation]**: *[!UICONTROL Extract events]* (para carregar um [!UICONTROL Channel Assist Report] ou [!UICONTROL Campaign Assist Report] e classificar os eventos de usuário em grupos distintos para análise) ou *[!UICONTROL Analyze classified events]* (para carregar grupos de eventos e usá-los para gerar o insight).
+      1. Selecione o **[!UICONTROL Operation]**: *[!UICONTROL Extract events]* (para carregar um [!UICONTROL Channel Assist Report] ou [!UICONTROL Campaign Assist Report] e classificar os eventos de usuário em grupos distintos para análise) ou *[!UICONTROL Analyze classified events]* (para carregar grupos de eventos e usá-los para gerar a insight).
 
       1. Clique em **[!UICONTROL Select]** para localizar um arquivo no formato XLSX e ZIP (XLSX compactado) e clique em **[!UICONTROL Upload]**.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    6. ([!UICONTROL Normalized Sim (Combined)] somente insight) Faça o seguinte:
 
-      1. No campo **[!UICONTROL Step]**, especifique o número de níveis de gastos alvo, ou etapas, a serem incluídos no insight. O valor pode estar entre três (3) e 100.
+      1. No campo **[!UICONTROL Step]**, especifique o número de níveis de gastos pretendidos, ou etapas, a serem incluídos na insight. O valor pode estar entre três (3) e 100.
 
       1. No campo **[!UICONTROL Type]**, selecione o tipo de simulação:
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
          * *[!UICONTROL Individual Normalized]*: gera uma simulação individual para cada portfólio selecionado. Os portfólios podem ter objetivos e moedas diferentes.
 
-   7. ([!UICONTROL Portfolio Launch] somente insight; opcional) Para especificar uma data de inicialização no futuro, especifique uma data no campo **[!UICONTROL Optional Date]**.
+   7. ([!UICONTROL Portfolio Launch] somente insight; opcional) Para especificar uma data de lançamento no futuro, especifique uma data no campo **[!UICONTROL Optional Date]**.
 
    8. ([!UICONTROL Quality Score] somente insight) Selecione a rede de anúncios aplicável.
 
-   9. ([!UICONTROL Query Cross Matching] somente insight) No menu **[!UICONTROL Google Accounts]**, selecione a conta.
+   9. (Somente insight [!UICONTROL Query Cross Matching]) No menu **[!UICONTROL Google Accounts]**, selecione a conta.
 
 4. Clique em **[!UICONTROL Generate Insight]**.
 

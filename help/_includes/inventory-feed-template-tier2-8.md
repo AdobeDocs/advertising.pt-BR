@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* ([!DNL Google Ads] somente) Os valores possíveis para [!UICONTROL Channel] são &quot;[!UICONTROL Local]&quot; ou &quot;[!UICONTROL Online]&quot;, e os valores possíveis para [!UICONTROL ChannelExclusivity] são &quot;[!UICONTROL SingleChannel]&quot; e &quot;[!UICONTROL MultiChannel].&quot;
->* Ao criar um grupo de produtos de segunda camada (filho) para um grupo de anúncios na guia [!UICONTROL Product Groups] da exibição [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], outro grupo de produtos, chamado &quot;[!UICONTROL Everything Else]&quot;, é criado automaticamente usando a oferta padrão do grupo de anúncios. Usando modelos de feed de estoque, no entanto, &quot;[!UICONTROL Everything Else]&quot; grupos de produtos foram excluídos.
+>* Ao criar um grupo de produtos de segunda camada (filho) para um grupo de anúncios na guia [!UICONTROL Product Groups] da exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], outro grupo de produtos, chamado &quot;[!UICONTROL Everything Else]&quot;, é criado automaticamente usando a oferta padrão do grupo de anúncios. Usando modelos de feed de estoque, no entanto, &quot;[!UICONTROL Everything Else]&quot; grupos de produtos foram excluídos.
 >* Quando você inclui vários níveis e nenhum valor está disponível para o nível final (com a numeração mais alta), o próximo nível mais alto é usado como o grupo de produtos licitáveis. Por exemplo, se você incluir cinco níveis e nenhum valor estiver disponível para o Nível 5, o Nível 4 será usado como o grupo de produtos licitáveis (unidade). No entanto, se nenhum valor estiver disponível para uma camada intermediária, a linha será ignorada. Por exemplo, se você incluir cinco camadas e a Camada 5 tiver um valor, mas a Camada 4 não, a Linha 4 será ignorada.

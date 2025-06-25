@@ -3,7 +3,7 @@ title: Criar posicionamentos negativos
 description: Saiba como criar posicionamentos negativos para  [!DNL Google Ads] campanhas e grupos de anúncios.
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Você pode criar posicionamentos negativos para um grupo de anúncios [!DNL Goog
 >[!TIP]
 >Para criar muitos posicionamentos negativos de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar") e em **[!UICONTROL Campaign]** para criar posicionamentos negativos no nível da campanha ou **[!UICONTROL Ad Group]** para criar posicionamentos negativos no nível do grupo de anúncios.
 

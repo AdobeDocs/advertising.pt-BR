@@ -3,7 +3,7 @@ title: Excluir bulksheets e arquivos de erro enviados
 description: Saiba como excluir arquivos de bulksheet e arquivos de erro.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode excluir manualmente arquivos de bulksheet, arquivos de erro de valida
 >
 >Se você publicou um bulksheet, mas recebeu erros, não exclua o arquivo de erros até que todos os erros sejam resolvidos.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Marque a caixa de seleção ao lado de cada arquivo a ser excluído.
 

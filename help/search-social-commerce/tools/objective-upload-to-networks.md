@@ -3,7 +3,7 @@ title: Habilitar carregamento de objetivos para redes de anúncios
 description: Saiba como carregar objetivos para seus portfólios híbridos do  [!DNL Google Ads] and [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Os carregamentos para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso ho
 >
 >As conversões rastreadas pelo Google Ads e pela tag de rastreamento universal de eventos (UET) do Microsoft Advertising não são recarregadas nas redes de anúncios. Se você incluí-los em um objetivo, é necessário adicioná-los às metas da campanha no editor da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Marque a caixa de seleção ao lado de **[!UICONTROL Enable Objective Upload]**.
 
@@ -40,7 +40,7 @@ Os carregamentos para [!DNL Google Ads] ocorrem diariamente às 06:00 no fuso ho
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicionar credenciais para sua conta de gerente](/help/search-social-commerce/admin/manager-accounts.md) em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicionar credenciais para sua conta de gerente](/help/search-social-commerce/admin/manager-accounts.md) em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Verifique se cada objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — aparece dentro de dois dias na rede de publicidade.
 
@@ -67,7 +67,7 @@ GL_Lead não está incluído no cálculo/upload porque é uma métrica rastreada
 
 >[!TIP]
 >
->Você pode exibir dados para receita ponderada de Adobe Advertising nos relatórios da rede de publicidade. Como prática recomendada, compare a receita ponderada com a [!DNL Google Ads] &quot;Todas as conversões. (por conv. tempo)&quot; ou a métrica [!DNL Microsoft Advertising] &quot;Todas as conv. receita&quot;, segmentada para a métrica O_ACS_OBJ*.<!--clarify -->
+>Você pode exibir dados para a receita ponderada do Adobe Advertising nos relatórios da rede de publicidade. Como prática recomendada, compare a receita ponderada com a [!DNL Google Ads] &quot;Todas as conversões. (por conv. tempo)&quot; ou a métrica [!DNL Microsoft Advertising] &quot;Todas as conv. receita&quot;, segmentada para a métrica O_ACS_OBJ*.<!--clarify -->
 
 ## Solução de problemas de objetivos ausentes
 
@@ -75,7 +75,7 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 
 * ([!DNL Google Ads]) Verifique se as conversões devem ser carregadas no nível de conta ou de gerente. Caso seja necessário fazer upload deles no nível do gerente:
 
-   * Verifique se as credenciais da conta de gerente [!DNL Google Ads] são fornecidas em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/admin/manager-accounts.md).
+   * Verifique se as credenciais da conta de gerente [!DNL Google Ads] são fornecidas em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
 

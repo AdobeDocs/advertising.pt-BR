@@ -4,7 +4,7 @@ description: Saiba como autenticar novamente uma fonte de dados  [!DNL Google An
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se você alterar a senha da conta de email usada para uma fonte de dados ou se o certificado [!DNL OAuth] da conta expirar, todas as conexões abertas com a conta de email serão fechadas e você deverá reautenticar para retomar a sincronização de dados.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Marque a caixa de seleção ao lado da fonte de dados que você deseja autenticar novamente.
 

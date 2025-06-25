@@ -3,7 +3,7 @@ title: Carregar métricas de tráfego e conversão para  [!DNL Naver] contas som
 description: Saiba como carregar métricas de tráfego e conversão somente para rastreamento e relatórios de contas do  [!DNL Naver] .
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode carregar um arquivo TSV, CSV ou TXT de métricas de tráfego agregada
 
 O Search, Social e Commerce não sincroniza dados com a rede de publicidade, nem faz ofertas para a conta.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
 
 1. Selecione a rede de anúncios.
 

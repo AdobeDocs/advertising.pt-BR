@@ -3,7 +3,7 @@ title: Exibir o log de recomendações do editor de uma conta
 description: Saiba como exibir um log de cada recomendação que foi aplicada para uma conta [!DNL Google Ads] ou [!DNL Microsoft Advertising] de.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode exibir um log de cada recomendação que foi aplicada para uma conta 
 
 Recomendações descartadas não estão disponíveis na rede de anúncios.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. No canto superior direito, selecione a rede de anúncios e a conta.
 

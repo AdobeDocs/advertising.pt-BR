@@ -3,7 +3,7 @@ title: Gerenciar [!DNL Google Ads] extensões de texto explicativo
 description: Saiba como criar e gerenciar  [!DNL Google Ads] extensões de chamada.
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Crie e gerencie extensões de chamada compartilhadas no nível da conta para qua
 
 ## Criar um texto explicativo compartilhado [!DNL Google Ads]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -34,7 +34,7 @@ Depois de criar um sitelink, você pode [atribuí-lo a uma conta, campanha ou gr
 
 É possível editar uma chamada compartilhada de cada vez.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Marque a caixa de seleção ao lado da chamada a ser editada.
 
@@ -46,7 +46,7 @@ Depois de criar um sitelink, você pode [atribuí-lo a uma conta, campanha ou gr
 
 ## Excluir [!DNL Google Ads] chamadas compartilhadas
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Marque a caixa de seleção ao lado de cada texto explicativo compartilhado que você deseja excluir.
 

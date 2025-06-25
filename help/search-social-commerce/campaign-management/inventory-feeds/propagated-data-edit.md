@@ -3,7 +3,7 @@ title: Editar dados gerados a partir dos feeds
 description: Saiba como editar dados gerados a partir de feeds de dados de inventário.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Ao propagar dados do feed sem publicá-los simultaneamente na rede de anúncios,
 
   As exibições de hierarquia de campanha mostram apenas os dados gerados a partir do arquivo de feed, não os componentes de conta existentes. Depois que os dados de um componente e todos os seus subcomponentes são publicados na rede de anúncios, ele não é mais listado na hierarquia da campanha.
 
-   1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
    1. (Opcional) Para mostrar apenas componentes de campanha criados para um modelo específico:
 

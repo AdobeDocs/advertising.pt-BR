@@ -3,7 +3,7 @@ title: Remover dos componentes da conta os valores de classificação de etiquet
 description: Saiba como remover associações entre valores de classificação de etiquetas e componentes de conta.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Remover um valor de classificação remove a associação com o componente de co
 >
 >Para excluir um valor de uma classificação de etiqueta, consulte &quot;[Excluir valores de classificação de etiquetas](classification-values-delete.md)&quot;.
 
-1. Em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, selecione a exibição de entidade.
+1. Em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, selecione a exibição de entidade.
 
 1. Siga um destes procedimentos:
 

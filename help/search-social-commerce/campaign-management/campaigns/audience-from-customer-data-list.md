@@ -3,7 +3,7 @@ title: Gerenciar públicos-alvo de correspondência do cliente usando listas de 
 description: Saiba como criar e editar [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo de correspondência do cliente de suas listas de dados do cliente.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Para contas do [!DNL Microsoft Advertising], o arquivo pode incluir endereços d
 
    O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a documentação de [!DNL Google Ads] em &quot;[Diretrizes de formatação para carregar dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista de campos e requisitos de informações de contato permitidos. Para [!DNL Microsoft Advertising] públicos, consulte a documentação de [!DNL Microsoft Advertising] em [preparando listas de correspondência de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921). Opcionalmente, você pode baixar um modelo [!DNL Microsoft Excel] para obter informações de contato.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -91,9 +91,9 @@ Os dados devem ser do mesmo tipo da lista original de clientes (endereços de em
 
 1. Gere um arquivo com os dados do cliente no formato necessário para o tipo de dados existente.
 
-O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a documentação de [!DNL Google Ads] em &quot;[Diretrizes de formatação para carregar dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista de campos e requisitos de informações de contato permitidos. Para públicos-alvo de [!DNL Microsoft Advertising], consulte a documentação de [!DNL Microsoft Advertising] em [preparando listas de correspondência de clientes] (https://help.ads.microsoft.com/#apex/ads/en/56921. Opcionalmente, você pode baixar um modelo [!DNL Microsoft Excel] para obter informações de contato.
+O nome e o sobrenome, os endereços de email e os números de telefone devem ser atribuídos a hash usando o algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] públicos-alvo, consulte a documentação de [!DNL Google Ads] em &quot;[Diretrizes de formatação para carregar dados com hash](https://support.google.com/google-ads/answer/7476159)&quot; para obter uma lista de campos e requisitos de informações de contato permitidos. Para públicos-alvo de [!DNL Microsoft Advertising], consulte a documentação de [!DNL Microsoft Advertising] em [preparando listas de correspondência de clientes]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921. Opcionalmente, você pode baixar um modelo [!DNL Microsoft Excel] para obter informações de contato.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Marque a caixa de seleção ao lado do público-alvo para editar.
 

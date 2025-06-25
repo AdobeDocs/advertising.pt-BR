@@ -3,7 +3,7 @@ title: Gerenciar metas de público-alvo para campanhas e grupos de anúncios
 description: Saiba como configurar e gerenciar metas de público-alvo para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de anúncios.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Você pode configurar direcionamentos de público-alvo, editar os modificadores 
 
 ## Configurar públicos-alvo
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -70,7 +70,7 @@ Você pode alterar o modificador de oferta e o status das metas de público-alvo
 >
 >O Search, Social e Commerce otimiza automaticamente o modificador de oferta quando a campanha principal usa a estratégia de oferta CPC e está em um portfólio configurado para otimizar automaticamente os valores de ajuste de oferta para metas de público-alvo.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Siga um destes procedimentos:
 
@@ -106,7 +106,7 @@ Você pode pausar um público-alvo ativo para desativar a licitação. Posterior
 
 Você também pode excluir um público-alvo de pesquisa ativo ou pausado.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Opcional) Filtre a lista para incluir públicos-alvo específicos.
 

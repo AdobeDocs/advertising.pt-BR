@@ -3,7 +3,7 @@ title: Editar configurações do feed de relatório de planilha
 description: Saiba como editar as configurações para feeds de planilha.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Você pode alterar qual modelo de relatório, modelo de [!DNL Microsoft Excel] e
 >
 > Se você editar as colunas no modelo de relatório ou usar um modelo de relatório novo ou atualizado, será necessário atualizar o modelo [!DNL Excel] de acordo e carregá-lo novamente.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. (Opcional) Para atualizar o modelo de relatório ou o modelo [!DNL Excel] usado para o feed de planilhas:
 

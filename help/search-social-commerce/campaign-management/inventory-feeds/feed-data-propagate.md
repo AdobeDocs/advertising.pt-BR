@@ -3,7 +3,7 @@ title: Propagar dados de feed de estoque por meio de modelos
 description: Saiba mais sobre como propagar dados dos feeds de inventário por meio de modelos de anúncios para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Ao propagar dados, você pode, opcionalmente, visualizar os dados gerados em uma
 
 ## Propagar arquivos de feed da guia [!UICONTROL Templates]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Marque a caixa de seleção ao lado dos modelos a serem propagados.
 
@@ -44,7 +44,7 @@ Ao propagar dados, você pode, opcionalmente, visualizar os dados gerados em uma
 
 ## Propagar arquivos de feed da lista [!UICONTROL Feeds]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Feeds]**.
 
@@ -72,7 +72,7 @@ Quando cada ação de propagação é concluída, um resumo de propagação é a
 
 ## Exibir um resumo de propagação
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Clique na guia **[!UICONTROL Propagations]**.
 
@@ -82,7 +82,7 @@ Quando cada ação de propagação é concluída, um resumo de propagação é a
 
 Você pode interromper um trabalho de propagação para dados de feed de inventário enquanto o trabalho ainda estiver na fila.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
 1. Na coluna &quot;[!UICONTROL Last Prop. Status]&quot; ao lado do nome do modelo, clique em **[!UICONTROL Cancel]**.
 

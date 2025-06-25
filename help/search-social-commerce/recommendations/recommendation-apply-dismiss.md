@@ -3,7 +3,7 @@ title: Aplicar ou ignorar uma recomendação do editor
 description: Saiba como exibir, aplicar ou ignorar uma recomendação do editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 
 >[!NOTE]
 >
->Embora as recomendações ajudem a melhorar o desempenho da campanha, algumas podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a Equipe de conta do Adobe antes de implementar qualquer recomendação.
+>Embora as recomendações ajudem a melhorar o desempenho da campanha, algumas podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a equipe de conta da Adobe antes de implementar qualquer recomendação.
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. No canto superior direito, selecione a rede de anúncios e a conta.
 
@@ -30,7 +30,7 @@ Exibir as ações recomendadas e uma explicação de por que as ações seriam b
 
 1. Na coluna [!UICONTROL Actions] da linha de recomendação ou insight, clique em **[!UICONTROL View]**.
 
-1. (Recommendations com sub-recomendações) Clique em **[!UICONTROL View]** ao lado da sub-recomendação.
+1. (Recomendações com recomendações secundárias) Clique em **[!UICONTROL View]** ao lado da recomendação secundária.
 
 1. (Opcional) Siga um destes procedimentos:
 

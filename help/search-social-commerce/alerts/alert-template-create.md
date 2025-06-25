@@ -3,7 +3,7 @@ title: Criar um modelo de alerta personalizado
 description: Saiba como criar um modelo para gerar alertas personalizados.
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Você pode criar um modelo de alerta para portfólios, campanhas, grupos de anú
 
 ## Criar um modelo de alerta a partir da exibição [!UICONTROL Alert Templates]
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
 
 1. Na barra de ferramentas, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar") e selecione o tipo de entidade a ser avaliado ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] ou [!UICONTROL Product Group]).
 
@@ -32,9 +32,9 @@ Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quo
 >
 >Essa opção não está disponível para modelos de alerta no nível do portfólio.
 
-1. Na exibição **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra a subexibição de gerenciamento de campanha para o tipo de entidade a ser avaliado ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
+1. Na exibição **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra a subexibição de gerenciamento de campanha para o tipo de entidade a ser avaliado ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
 
-Por exemplo, para criar um modelo de alerta em nível de palavra-chave, vá para [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e selecione [!UICONTROL Keywords].
+Por exemplo, para criar um modelo de alerta em nível de palavra-chave, vá para [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e selecione [!UICONTROL Keywords].
 
 1. No lado direito da barra de ferramentas acima da tabela de dados, clique em ![Criar alerta](/help/search-social-commerce/assets/add-alert.png "Criar alerta").
 

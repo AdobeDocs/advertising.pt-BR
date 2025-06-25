@@ -1,10 +1,10 @@
 ---
-title: Editar uma fonte de dados  [!DNL Google Analytics]
+title: 'Editar uma fonte de dados  [!DNL Google Analytics] '
 description: Saiba como editar a configuração de uma fonte de dados  [!DNL Google Analytics] .
 role: User, Admin
 exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Editar uma fonte de dados [!DNL Google Analytics]
 
-*Somente Administradores de Agência (função base), Gerentes de Conta do Adobe e Administradores*
+*Somente administradores de agências (função base), Gerentes de contas da Adobe e Administradores*
 
-1. No menu principal, clique em **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Marque a caixa de seleção ao lado da fonte de dados que você deseja editar.
 

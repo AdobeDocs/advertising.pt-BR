@@ -24,7 +24,7 @@ Você pode permitir que o Search, Social e Commerce obtenha metadados, dados de 
 
 * Segmentos criados usando o Adobe Experience Cloud [!DNL Audience Library]
 
-Para ser elegível, o anunciante ou a agência devem implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) e fornecer sua ID da organização (anteriormente chamada de [!DNL IMS Org ID]).
+Para ser elegível, o anunciante ou a agência devem implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e fornecer sua ID da organização (anteriormente chamada de [!DNL IMS Org ID]).
 
 A sincronização inicial leva cerca de 24 horas. Depois disso, os dados são sincronizados em tempo real, com um atraso de um a dois segundos.
 

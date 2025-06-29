@@ -2,9 +2,9 @@
 title: Soluções de medição avançada
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
+source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Os anunciantes geralmente têm dificuldades para entender como seus diferentes canais de mídia trabalham juntos, onde seu próximo dólar de mídia pode ser mais bem gasto ou como quantificar o impacto de seus anúncios online em relação aos objetivos comerciais principais.
 
-Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe de Avaliação e Estratégia Avançadas (AMS) ajuda os parceiros de marca e agência a medir como elementos de suas compras da Adobe Advertising, em conexão com suas integrações do [!DNL Adobe], geram resultados. Com ofertas robustas de medição de atribuição, o AMS pode implantar estratégias de direcionamento com curadoria usando estruturas de medição sofisticadas, facilitando para as marcas a conexão de seu dinheiro de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
+Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe de Avaliação e estratégia avançadas (AMS) ajuda os parceiros de marca e agência a medir como os elementos de sua Adobe Advertising compram, juntamente com suas integrações do [!DNL Adobe], os resultados da busca. Com ofertas robustas de medição de atribuição, o AMS pode implantar estratégias de direcionamento com curadoria usando estruturas de medição sofisticadas, facilitando para as marcas a conexão de seu dinheiro de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
 
 * Ativar estudos de medição em campanhas de mídia digital de funil completo
 

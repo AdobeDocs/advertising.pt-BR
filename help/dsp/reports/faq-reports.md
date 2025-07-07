@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre relatórios personalizados, incluindo relatórios domésticos e relatórios de análise do caminho de conversão.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O relatório [!UICONTROL Household Reach & Frequency] mede o alcance, a impress�
 
 Por exemplo, mesmo que uma impressão seja transmitida a três dispositivos em uma família, a métrica Casa única atingida é uma.
 
-##### Dimension compatíveis
+##### Dimensões suportadas
 
 O relatório [!UICONTROL Household Reach & Frequency] oferece suporte às [seguintes dimensões](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; (que não fornece acesso a métricas de sobreposição), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot; e ao posicionamento criado pelo usuário &quot;[!UICONTROL Tags].&quot; |
 
@@ -83,17 +83,15 @@ Há suporte para dois tipos de métodos de atribuição:
 
 #### Como os relatórios de conversão doméstica diferem dos relatórios de view-through de CTV no Adobe Analytics?
 
-Os dados de view-through de CTV em [!DNL Analytics] são viabilizados pelo rastreamento de [!DNL Analytics], e os dados de conversão doméstica usam os dados coletados pelo rastreamento de conversão de Adobe Advertising. Além disso, a lógica de atribuição do DSP em [!DNL Analytics] usa apenas o último evento, mas os relatórios de conversão doméstica oferecem suporte a dois métodos de atribuição diferentes: Exclusivo e MTA.
+* Em [!DNL Analytics], o relatório [!DNL CTV View-Through Conversion] mostra o número de conversões para as quais uma impressão de CTV foi o último ponto de contato antes da conversão. Por outro lado, o relatório [!UICONTROL Household Conversions] do DSP mostra o número de famílias exclusivas que foram expostas a uma impressão de CTV em qualquer ponto dentro da janela de retrospectiva definida antes da conversão.
 
-#### É possível exibir dados de view-through de CTV em [!DNL Analytics for Advertising] e em relatórios personalizados?
+* Em [!DNL Analytics], a lógica de atribuição atribui conversões exclusivamente ao último ponto de contato do Adobe Advertising. Por outro lado, o relatório do DSP [!UICONTROL Household Conversions] dá suporte a modelos de atribuição adicionais, *[!UICONTROL Unique]* e *[!UICONTROL Multi-Touch Attribution (MTA)]*.
 
-Anunciantes sem [!DNL Analytics for Advertising] podem usar somente o Relatório de Conversão Doméstica para relatórios de conversão doméstica.
-
-Se sua organização tiver o [!DNL Analytics for Advertising], use os dois tipos de relatórios juntos. Embora os relatórios de view-through de CTV sejam adequados para uma análise mais ampla do canal, comportamento do site e assim por diante, os relatórios personalizados fornecem uma visualização granular (com dados divididos por tipo de mídia, editores e assim por diante) para indicar os fatores que impulsionam as taxas de conversão.
+* Os dados do relatório do [!DNL Analytics] são particularmente valiosos para serem analisados por canais de marketing, métricas de envolvimento com o site e assim por diante. O relatório [!UICONTROL Household Conversions] do DSP oferece insights mais granulares ao permitir que os dados de conversão sejam divididos por várias dimensões, como tipo de mídia e editor.
 
 ### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] Relatórios vs. Dados de [!DNL Advanced Measurement Services]
 
-Para relatórios avançados sobre alcance e frequência ou conversões domésticos, a [[!DNL Strategic Advertising Consulting] equipe](/help/dsp/introduction/advanced-measurement-services.md) pode fornecer relatórios altamente personalizáveis, juntamente com recomendações estratégicas holísticas. Para obter mais informações sobre [!DNL Advanced Measurement Services], contate a equipe de conta do Adobe.
+Para relatórios avançados sobre alcance e frequência ou conversões domésticos, a [[!DNL Strategic Advertising Consulting] equipe](/help/dsp/introduction/advanced-measurement-services.md) pode fornecer relatórios altamente personalizáveis, juntamente com recomendações estratégicas holísticas. Para obter mais informações sobre [!DNL Advanced Measurement Services], contate a equipe de conta da Adobe.
 
 #### Se eu já estiver usando o [!DNL Advanced Measurement Services], por que devo usar os relatórios [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions]?
 
@@ -109,15 +107,15 @@ O caso de uso ideal é usar o relatório [!UICONTROL Household] e os serviços d
 
 | | Caminho para o relatório de conversão | Efeito de Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa | Relatórios no Analysis Workspace |
 | --- | --- | --- |---|
-| Valor para o cliente | Gerar um relatório personalizado de autoatendimento para entender quais caminhos da jornada de anúncios levaram a mais conversões para aumentar a otimização | Compreender a influência das táticas de TV conectada (CTV) nos cliques de pesquisa | Entenda a influência de seu investimento integral em Adobe Advertising, juntamente com outros canais de marketing, nos cliques de pesquisa |
+| Valor para o cliente | Gerar um relatório personalizado de autoatendimento para entender quais caminhos da jornada de anúncios levaram a mais conversões para aumentar a otimização | Compreender a influência das táticas de TV conectada (CTV) nos cliques de pesquisa | Entenda a influência de seu investimento holístico em Adobe Advertising, juntamente com outros canais de marketing, nos cliques de pesquisa |
 | Nível da família | Sim | Sim | Não |
 | O CTV é compatível? | Sim | Sim | Sim |
 | Metodologia de atribuição | O evento de último toque (impressão ou clique) deve estar dentro da janela da pasta de pesquisa. | Únicos | Último contato |
 | | Pontos de interação mais de 30 dias antes do evento de último toque são considerados para o caminho de conversão. | (O CTV recebe crédito, independentemente de onde a exposição ao CTV ocorre no caminho para clicar do usuário) | (O CTV recebe crédito se a impressão for o último evento na janela de pesquisa E não houver clique pago de outros formatos antes ou depois da exposição do CTV) |
 | Nível de relatório | Granular | Granular | Amplo |
-| | (Tipo De Canal, Criativo/Anúncio, Palavra-Chave, Caminhos, Duração, Tempo Para Conversão) | (Tática de CTV, aplicativo/editor de CTV) | (Adobe Advertising e outros canais de marketing) |
-| Canais de marketing | DSP + Pesquisa (do Search, Social e Commerce) | DSP + Pesquisa (do Search, Social e Commerce) | Canais de marketing não rastreados pela ID EF de clickthrough do Adobe Advertising (como Pesquisa orgânica, Social orgânico, Email e Afiliado) |
-| Métricas de conversão compatíveis | Métricas rastreadas usando o pixel do evento Adobe Advertising (AMO ID) e o rastreamento do Adobe Analytics | Cliques (sem conversões) | Métricas rastreadas usando o rastreamento do Adobe Analytics |
+| | (Tipo De Canal, Creative/Ad, Palavra-Chave, Caminhos, Duração, Tempo Para Conversão) | (Tática de CTV, aplicativo/editor de CTV) | (Adobe Advertising e outros canais de marketing) |
+| Canais de marketing | DSP + Search (do Search, Social e Commerce) | DSP + Search (do Search, Social e Commerce) | Canais de marketing não rastreados pela ID EF de clickthrough do Adobe Advertising (como Pesquisa orgânica, Social orgânico, Email e Afiliado) |
+| Métricas de conversão compatíveis | Métricas rastreadas usando o pixel de evento do Adobe Advertising (AMO ID) e o rastreamento do Adobe Analytics | Cliques (sem conversões) | Métricas rastreadas usando o rastreamento do Adobe Analytics |
 
 Para obter mais informações sobre o Efeito Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa, consulte &quot;[Serviços de Medição Avançada](/help/dsp/introduction/advanced-measurement-services.md).&quot;
 

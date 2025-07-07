@@ -3,7 +3,7 @@ title: Sair
 description: Saiba onde fazer logoff.
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 1717795d835eb7970a10ba7cd254fd32ad98e6d2
+source-git-commit: e950cfabe87ec3225d7ce87c132e037989d4ef31
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -12,6 +12,10 @@ ht-degree: 0%
 
 # Sair
 
+## Sair da nova interface de usuário
+
+* Na parte superior direita de qualquer página, clique em ![Conta](/help/search-social-commerce/assets/account.png "Conta") e em **[!UICONTROL Sign Out]**.
+
 ## Sair da interface do usuário herdada
 
 >[!NOTE]
@@ -19,10 +23,6 @@ ht-degree: 0%
 >A sessão é encerrada automaticamente se a janela do navegador ficar ociosa por 30 minutos.
 
 * Na parte superior direita de qualquer página, clique em ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") e em **[!UICONTROL Sign Out]**.
-
-## Sair da nova interface de usuário
-
-* Na parte superior direita de qualquer página, clique em ![Conta](/help/search-social-commerce/assets/account.png "Conta") e em **[!UICONTROL Sign Out]**.
 
 >[!MORELIKETHIS]
 >

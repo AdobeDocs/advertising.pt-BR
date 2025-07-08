@@ -3,7 +3,7 @@ title: Gerenciar contas de comerciante
 description: Saiba como configurar e gerenciar detalhes de uma conta da central de comércio.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar contas de comerciante
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 O Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias para qualquer uma das contas do Google Merchant Center ou do Microsoft Merchant Center de um anunciante. Além disso, o Search, Social e Commerce pode automatizar a criação de anúncios com base no conteúdo da conta de comerciante.Para trabalhar diretamente com os dados do produto no Search, Social e Commerce, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com o acesso *habilitado*.
 
@@ -22,7 +22,7 @@ O Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias
 
 ## Criar detalhes da conta de comerciante {#create-merchant-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Para exibir dados do produto e gerar modelos de rastreamento para uma conta de comerciante, e para criar anúncios com base nos dados, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com acesso à conta *habilitada*.
 
@@ -30,7 +30,7 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
 >
 >Para criar uma conta real na rede do comerciante, vá para o site da rede.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, que abrirá a guia [!UICONTROL Accounts].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, que abrirá a guia [!UICONTROL Accounts].
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create Account]**.
 
@@ -66,7 +66,7 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
 
 ## Editar detalhes da conta de comerciante {#edit-merchant-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Se as credenciais da conta forem alteradas ou se você quiser parar de recuperar e usar dados de uma conta de comerciante, edite os detalhes da conta.
 
@@ -88,11 +88,11 @@ Se as credenciais da conta forem alteradas ou se você quiser parar de recuperar
 
 ## Desabilitar acesso a uma conta de comerciante {#disable-merchant-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Ao desativar uma conta de comerciante, o Search, o Social e o Commerce não fazem logon na conta e, portanto, não recuperam os dados atualizados do produto. Os dados coletados enquanto a conta estava habilitada ainda são armazenados e os anúncios existentes criados usando os dados do produto não são atualizados, pausados ou excluídos de acordo com o modelo de feed e as configurações de dados do feed.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , que abrirá a guia [!UICONTROL Accounts].
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , que abrirá a guia [!UICONTROL Accounts].
 
 1. Ao lado do nome da conta, clique em ![Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Exibir/editar configurações").
 

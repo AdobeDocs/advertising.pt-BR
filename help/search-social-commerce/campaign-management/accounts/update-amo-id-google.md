@@ -3,7 +3,7 @@ title: 'Atualizar o código de rastreamento da ID do AMO (s_kwcid) para uma cont
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para uma conta do  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Atualizar o código de rastreamento da ID do AMO (s_kwcid) para uma conta [!DNL Google Ads]
 
-*Somente anunciantes com integração Adobe Advertising-Adobe Analytics*
+*Somente anunciantes com uma integração Adobe Advertising-Adobe Analytics*
 
 *[!DNL Google Ads]somente contas*
 
@@ -34,7 +34,7 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 >
 >Depois de migrar uma conta, todos os dados de clique, custo e impressão são relatados corretamente após a alteração, mas todos os click-throughs ocorridos antes da migração ainda são atribuídos aos dados de conversão com base no formato antigo da ID do AMO.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenha o cursor sobre o nome da conta, clique em ![ícone de seta suspensa](/help/search-social-commerce/assets/arrow-dropdown-menu.png) e selecione **[!UICONTROL Edit]**.
 
@@ -69,5 +69,5 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 >[!MORELIKETHIS]
 >
 >* [Gerenciar contas de rede de publicidade](ad-network-account-manage.md)
->* [IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Visão Geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=pt-BR){target="_blank"}
+>* [Adobe Advertising IDs Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

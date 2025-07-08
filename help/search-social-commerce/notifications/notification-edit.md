@@ -3,7 +3,7 @@ title: Editar suas configurações de notificação
 description: Saiba como editar as configurações para suas notificações.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Opcionalmente, você pode assinar ou cancelar a assinatura de notificações da 
 
    * Na parte superior direita de qualquer página, clique em ![Notificações](/help/search-social-commerce/assets/notifications-panel.png "Notificações") para abrir o painel [!UICONTROL Notifications]. No canto superior direito, clique em ![Configurações](/help/search-social-commerce/assets/settings-nc.png "Configurações").
 
-   * No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. No menu esquerdo, clique em ![Configurações](/help/search-social-commerce/assets/settings-nc.png "Configurações").
+   * No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. No menu esquerdo, clique em ![Configurações](/help/search-social-commerce/assets/settings-nc.png "Configurações").
 
 1. Altere suas configurações para qualquer [categoria de notificação](notification-about.md):
 

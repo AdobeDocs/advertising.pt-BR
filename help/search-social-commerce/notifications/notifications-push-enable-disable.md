@@ -3,7 +3,7 @@ title: Habilitar e desabilitar notificações por push de [!UICONTROL Notificati
 description: Saiba como habilitar e desabilitar notificações por push de [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Você pode desativar as notificações por push de acordo com o procedimento pad
 
 ## Ativar notificações por push
 
-1. No menu principal, clique em **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 2. Na parte inferior direita, clique em ![Habilitar notificações por push](/help/search-social-commerce/assets/notifications-push.png "Habilitar notificações por push").
 

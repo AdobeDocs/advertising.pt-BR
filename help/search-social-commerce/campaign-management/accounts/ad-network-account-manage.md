@@ -3,7 +3,7 @@ title: Gerenciar contas de rede de publicidade
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 
 ## Criar detalhes da conta de rede de publicidade {#create-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Para habilitar a sincronização ou o rastreamento de uma conta, você deve criar um registro de conta correspondente contendo as credenciais de acesso e as opções de rastreamento da conta e com o status *ativo*.
 
@@ -33,7 +33,7 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
 >* Suporte indisponível para novas contas do [!DNL Baidu].
 >* Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar").
 
@@ -47,7 +47,7 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
 
       1. Insira o valor **[!UICONTROL Login]** para a conta, opcionalmente insira a senha e clique em **[!UICONTROL Authenticate]**.
 
-         A prática recomendada é usar o logon para acessar a conta pela API. Digite a senha quando quiser criptografá-la e salvá-la, para que a equipe da conta do Adobe possa atualizar os tokens conforme necessário.
+         A prática recomendada é usar o logon para acessar a conta pela API. Digite a senha quando quiser criptografá-la e salvá-la, para que a equipe de conta da Adobe possa atualizar os tokens conforme necessário.
 
       1. (Se você não tiver feito logon na conta do anunciante) Faça logon na conta de anúncios do anunciante. A prática recomendada é usar as credenciais para o acesso da API à conta.
 
@@ -65,7 +65,7 @@ Para habilitar a sincronização ou o rastreamento de uma conta, você deve cria
 
 ## Editar detalhes da conta de rede de publicidade {#edit-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Se as credenciais da conta forem alteradas, você desejará alterar os parâmetros de rastreamento padrão em uma conta, ou ativar ou desativar a atividade em uma conta e, em seguida, editar os detalhes da conta.
 
@@ -73,7 +73,7 @@ Se as credenciais da conta forem alteradas, você desejará alterar os parâmetr
 >
 >Para editar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenha o cursor sobre o nome da conta, clique em ![Mais](/help/search-social-commerce/assets/more-filters.png "Mais") e selecione **[!UICONTROL Edit]**.
 
@@ -91,15 +91,15 @@ Se as credenciais da conta forem alteradas, você desejará alterar os parâmetr
 
 ## Atualizar tokens de acesso oAuth para contas de pesquisa {#refresh-oauth-tokens}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Se o Search, Social e Commerce acessar a conta usando o [protocolo de autorização OAuth](https://oauth.net/2/) e as credenciais da conta forem alteradas, ou se for necessário acesso adicional para oferecer suporte a novos recursos no Search, Social e Commerce, você deverá obter um novo token de acesso para a conta.
 
-Sua equipe de conta do Adobe informará se novos recursos exigirem um novo token.
+A equipe de conta da Adobe informará se novos recursos exigirem um novo token.
 
 1. (Se você estiver conectado a outra conta para a mesma rede de anúncios no mesmo aplicativo do navegador) Faça logout de qualquer conta diferente da do anunciante.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenha o cursor sobre o nome da conta, clique em ![Mais](/help/search-social-commerce/assets/more-filters.png "Mais") e selecione **[!UICONTROL Edit]**.
 
@@ -117,11 +117,11 @@ Sua equipe de conta do Adobe informará se novos recursos exigirem um novo token
 
 ## Ativar ou desativar contas de rede de publicidade {#enable-disable-account}
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.Quando você desabilita uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
 
-1. No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. No submenu, clique em **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Siga um destes procedimentos:
 
@@ -153,7 +153,7 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
 >[!NOTE]
 >
->Se você tiver uma integração Search, Social e Commerce-Adobe Analytics e alterar o nome da conta de pesquisa, notifique a Equipe de conta do Adobe para que ela possa atualizar o mapeamento.
+>Se você tiver uma integração Search, Social e Commerce-Adobe Analytics e alterar o nome da conta de pesquisa, notifique a Equipe de conta da Adobe para que ela possa atualizar o mapeamento.
 
 **[!UICONTROL Login Details]: \[Tipo de Logon\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] somente) Se autorizar logons na conta usando:
 
@@ -177,7 +177,7 @@ Para contas do [!DNL Microsoft Advertising], somente logons autorizados do [!DNL
 
 Exemplo: `param1=value1&param2=value2`
 
-As contas que usam o rastreamento de cliques de Adobe Advertising devem incluir o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) no sufixo. Contas com uma integração do Adobe Analytics devem usar o parâmetro de ID AMO (começando com `s_kwcid`). Se a conta tiver uma implementação de ID do AMO do lado do servidor, o parâmetro será adicionado automaticamente quando um usuário clicar em um anúncio. Caso contrário, você deverá adicioná-lo manualmente aqui. Consulte os [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir o identificador de cliques da rede de publicidade (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) no sufixo. Contas com uma integração do Adobe Analytics devem usar o parâmetro de ID AMO (começando com `s_kwcid`). Se a conta tiver uma implementação de ID do AMO do lado do servidor, o parâmetro será adicionado automaticamente quando um usuário clicar em um anúncio. Caso contrário, você deverá adicioná-lo manualmente aqui. Consulte os [formatos de sufixo obrigatórios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formatos de sufixo obrigatórios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ As contas que usam o rastreamento de cliques de Adobe Advertising devem incluir 
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
@@ -207,7 +207,7 @@ As contas que usam o rastreamento de cliques de Adobe Advertising devem incluir 
 
 >[!NOTE]
 >
->* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
+>* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta da Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 >* O modelo de rastreamento no nível mais granular substitui os valores em todos os níveis superiores. Por exemplo, se as configurações da conta e as configurações de palavra-chave incluírem um valor, o valor da palavra-chave será aplicado.
 >* Se você atualizar um modelo de rastreamento no nível de anúncio, link do site ou palavra-chave, os anúncios relevantes serão reenviados para revisão. É possível atualizar os modelos de rastreamento nos níveis de conta, campanha ou grupo de anúncios sem reenviar os anúncios para aprovação.
 
@@ -249,9 +249,9 @@ As contas que usam o rastreamento de cliques de Adobe Advertising devem incluir 
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
+* **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que o Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](/help/integrations/analytics/ids.md#amo-id-formats) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](/help/integrations/analytics/ids.md#amo-id-formats) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -259,7 +259,7 @@ Se a conta precisar gerar relatórios nos níveis de campanha e grupo de anúnci
 
 Para obter instruções completas, consulte &quot;[Atualizar o código de rastreamento da ID do AMO para uma [!DNL Google Ads] conta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
-**Nomes dos conjuntos de relatórios:** (Para EF Redirect com token somente; anunciantes com integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, Social e Commerce enviam dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
+**Nomes dos Conjuntos de Relatórios:** (Para EF Redirect com token somente; anunciantes com uma integração Adobe Advertising-Adobe Analytics; opcional) Um ou mais conjuntos de relatórios do Analytics para os quais o Search, o Social e o Commerce enviam dados coletados da rede de anúncios, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
 
 Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; deve ser habilitada. Além disso, a conta do Analytics do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
 

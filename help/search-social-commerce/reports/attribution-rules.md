@@ -3,7 +3,7 @@ title: Como as regras de atribuição são calculadas
 description: Saiba como o Adobe Advertising calcula cada tipo de regra de atribuição.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Como as regras de atribuição são calculadas para o Adobe Advertising
 
-*Anunciantes somente com rastreamento de conversão de Adobe Advertising*
+*Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
 <!-- Verify statements about cross-device events -->
 
@@ -23,7 +23,7 @@ Em relatórios, exibições padrão e personalizadas do Advertising Search, Soci
 >[!NOTE]
 >
 >* As regras de atribuição se aplicam a cliques em anúncios pagos em qualquer canal e a impressões em exibições e anúncios sociais. Elas não se aplicam a impressões para anúncios de pesquisa paga, que não podem ser rastreados no nível do evento.
->* O Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* O Adobe Advertising sempre armazena os seguintes eventos para cada surfer na Web antes de uma conversão: a) o primeiro clique pago; b) até 10 cliques para cada canal (pesquisa, social ou exibição), incluindo o primeiro clique; e c) até 10 impressões de exibição.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* No Advertising DSP e no Advertising Creative, as definições entre dispositivos consideram somente o caminho de evento da regra de atribuição selecionada.<!-- cross-device attribution via LiveRamp only -->
 >* Nas exibições de relatórios e gerenciamento, o número de casas decimais exibidas para um valor depende da moeda, mas o Adobe Advertising armazena valores mais precisos.
 
@@ -118,11 +118,11 @@ Atribui a conversão a todos os eventos da série que ocorreram na [janela de re
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderada de acordo com a [configuração de peso view-through](/help/search-social-commerce/glossary.md#uv) do anunciante ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros de relatório, exibição ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
 
 * Em Search, Social, &amp; Commerce, o [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
-* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não leva os pesos de substituição de impressão em consideração para atribuição.
+* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não considera os pesos de substituição de impressão para atribuição.
 
 ![Pesar primeiro evento mais porcentagens de atribuição](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Pesar primeiro evento mais porcentagens de atribuição")
 
@@ -148,7 +148,7 @@ Como a série de eventos incluía impressões e cliques, o peso de substituiçã
 
 Atribuição: Impressão 1 = 8 USD, Clique 1 = 72 USD, Impressão 2 = 4 USD, Clique 2 = 36 USD (total de 120 USD)
 
-#### Usar (somente DSP) sem Peso de substituição de impressão ou (somente Pesquisa, Social e Commerce) um &quot;Peso de substituição de impressão&quot; de 0%
+#### Uso de (somente DSP) sem Peso de substituição de impressão ou (somente Search, Social e Commerce) com &quot;Peso de substituição de impressão&quot; de 0%
 
 Como a série de eventos inclui impressões e cliques, as impressões são ignoradas.
 
@@ -180,11 +180,11 @@ Atribui a conversão igualmente a cada evento da série que ocorreu na [janela d
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderada de acordo com a [configuração de peso view-through](/help/search-social-commerce/glossary.md#uv) do anunciante ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros de relatório, exibição ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
 
 * Em Search, Social, &amp; Commerce, o [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
-* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não leva os pesos de substituição de impressão em consideração para atribuição.
+* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não considera os pesos de substituição de impressão para atribuição.
 
 ![Até mesmo porcentagens de atribuição](/help/search-social-commerce/assets/attribution-percent-even.png "Mesmo porcentagens de atribuição")
 
@@ -212,7 +212,7 @@ Como a série de eventos incluía impressões e cliques, o peso de substituiçã
 
 Atribuição: Impressão 1 = 6 USD, Clique 1 = 54 USD, Impressão 2 = 6 USD, Clique 2 = 54 USD (total de 120 USD)
 
-#### Uso de (somente Adobe Advertising DSP) sem Peso de substituição de impressão ou (somente Pesquisa, Social e Commerce) com &quot;Peso de substituição de impressão&quot; de 0%
+#### Uso de (somente Adobe Advertising DSP) sem Peso de substituição de impressão ou (somente Search, Social e Commerce) com &quot;Peso de substituição de impressão&quot; de 0%
 
 Como a série de eventos inclui impressões e cliques, as impressões são ignoradas.
 
@@ -240,11 +240,11 @@ Atribui a conversão a todos os eventos da série que ocorreram na [janela de re
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderada de acordo com a [configuração de peso view-through](/help/search-social-commerce/glossary.md#uv) do anunciante ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros de relatório, exibição ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
 
 * Em Search, Social, &amp; Commerce, o [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
-* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não leva os pesos de substituição de impressão em consideração para atribuição.
+* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não considera os pesos de substituição de impressão para atribuição.
 
 ![Pesar mais porcentagens de atribuição no último evento](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Pesar mais porcentagens de atribuição no último evento")
 
@@ -270,7 +270,7 @@ Como a série de eventos incluía impressões e cliques, o peso de substituiçã
 
 Atribuição: Impressão 1 = 4 USD, Clique 1 = 36 USD, Impressão 2 = 8 USD, Clique 2 = 72 USD (total de 120 USD)
 
-#### Usar (somente DSP) sem Peso de substituição de impressão ou (somente Pesquisa, Social e Commerce) um &quot;Peso de substituição de impressão&quot; de 0%
+#### Uso de (somente DSP) sem Peso de substituição de impressão ou (somente Search, Social e Commerce) com &quot;Peso de substituição de impressão&quot; de 0%
 
 Como a série de eventos inclui impressões e cliques, as impressões são ignoradas.
 
@@ -298,11 +298,11 @@ Atribui a conversão a todos os eventos da série que ocorreram na [janela de re
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderada de acordo com a [configuração de peso view-through](/help/search-social-commerce/glossary.md#uv) do anunciante ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros de relatório, exibição ou simulação personalizada.
 
-Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por produtos Adobe Advertising diferentes:
+Quando o caminho de conversão inclui cliques pagos e impressões, as impressões são tratadas de forma diferente por diferentes produtos da Adobe Advertising:
 
 * Em Search, Social, &amp; Commerce, o [peso de substituição de impressão](/help/search-social-commerce/glossary.md#i-j) — que é especificado na configuração de peso de substituição de impressão do anunciante e nos parâmetros de relatório, exibição ou simulação personalizada — é aplicado pela primeira vez às impressões.
 
-* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não leva os pesos de substituição de impressão em consideração para atribuição.
+* No DSP, as impressões são ignoradas e somente os cliques são ponderados. O DSP não considera os pesos de substituição de impressão para atribuição.
 
 ![Porcentagens de atribuição em forma de U](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "Porcentagens de atribuição em forma de U")
 
@@ -328,7 +328,7 @@ Como a série de eventos incluía impressões e cliques, o peso de substituiçã
 
 Atribuição: Impressão 1 = 6 USD, Clique 1 = 54 USD, Impressão 2 = 6 USD, Clique 2 = 54 USD (total de 120 USD)
 
-#### Usar (somente DSP) sem sobreposição de peso de impressão ou (somente Pesquisa, Social e Commerce) um &quot;Peso de sobreposição de impressão&quot; de 0%
+#### Usar (somente DSP) peso de substituição de nenhuma impressão ou (somente Search, Social e Commerce) um &quot;Peso de substituição de impressão&quot; de 0%
 
 Como a série de eventos inclui impressões e cliques, as impressões são ignoradas.
 

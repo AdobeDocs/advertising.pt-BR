@@ -3,7 +3,7 @@ title: Gerenciar exibições padrão e personalizadas
 description: Saiba como personalizar exibições padrão e personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
+source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ As configurações padrão do sistema variam de acordo com a exibição de geren
 
    1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
-   1. Mantenha o cursor sobre o nome da exibição e clique em ![Reverter](/help/search-social-commerce/assets/revert-new.jpg).
+   1. Mantenha o cursor sobre o nome da exibição e clique em ![Reverter](/help/search-social-commerce/assets/revert-new.png).
 
 * Nas visualizações herdadas do gerenciamento de campanhas:
 

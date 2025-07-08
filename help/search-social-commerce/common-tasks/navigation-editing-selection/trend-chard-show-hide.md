@@ -3,16 +3,18 @@ title: Mostrar e ocultar um gráfico de tendências
 description: Saiba como visualizar e ocultar um gráfico de tendências para os dados em algumas exibições de gerenciamento de campanha.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # Mostrar e ocultar um gráfico de tendências
 
-Você pode exibir um gráfico de tendências para os dados nas visualizações [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] e [!UICONTROL Product Groups].
+*Somente interface de usuário herdada*
+
+Você pode exibir um gráfico de tendências para os dados nas visualizações [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] e [!UICONTROL Product Groups].
 
 Por padrão, o gráfico mostra o número de cliques em relação ao custo durante o intervalo de datas selecionado para contas que usam uma moeda especificada. Opcionalmente, é possível alterar as métricas para comparar e, quando você tem contas com várias moedas, alterar a moeda para a qual deseja incluir dados.
 

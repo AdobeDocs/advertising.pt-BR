@@ -3,9 +3,9 @@ title: Gerenciar exibições padrão e personalizadas
 description: Saiba como personalizar exibições padrão e personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Suas visualizações padrão e personalizadas permitem personalizar os dados de desempenho exibidos nas visualizações de dados da campanha de pesquisa. As configurações de exibição incluem as colunas a serem incluídas, os filtros, o intervalo de datas, as configurações de atribuição de conversão e outras configurações avançadas — e você pode aplicar as configurações temporariamente ou salvá-las. (Exceção: não é possível salvar filtros para exibições padrão.) Cada exibição personalizada padrão e regular é aplicável somente para uma exibição de entidade específica (como [!UICONTROL Campaigns]) e conta de anunciante específica. Cada exibição personalizada universal é aplicável em exibições de entidade para um anunciante específico e, portanto, não pode incluir colunas de propriedade (como nome da entidade ou status), que variam de acordo com o tipo de entidade.
+Suas visualizações padrão e personalizadas permitem personalizar os dados de desempenho exibidos nas visualizações de dados da campanha de pesquisa. As configurações de exibição incluem as colunas a serem incluídas, os filtros, o intervalo de datas, as configurações de atribuição de conversão e outras configurações avançadas — e você pode aplicar as configurações temporariamente ou salvá-las. (Exceção: não é possível salvar filtros para exibições padrão.) Cada exibição personalizada padrão e regular é aplicável somente para uma exibição específica (como [!UICONTROL Portfolios] ou [!UICONTROL Campaigns]) e apenas para uma conta de anunciante específica. Na interface do usuário herdada, cada exibição personalizada universal é aplicável em exibições de entidade para um anunciante específico e, portanto, não pode incluir colunas de propriedade (como nome da entidade ou status), que variam de acordo com o tipo de entidade.
 
-As exibições padrão são exibidas por padrão sempre que você faz logon. É possível criar exibições personalizadas adicionais e aplicá-las a qualquer momento. Como opção, é possível compartilhar qualquer visualização personalizada criada com todos os outros usuários que podem visualizar os dados do anunciante. Nas suas listas de exibição, cada exibição compartilhada por outra pessoa é em itálico, como &quot;*Campanhas com Melhor Desempenho*.&quot; Somente a pessoa que cria uma exibição personalizada pode excluí-la.
+As exibições padrão são exibidas por padrão sempre que você faz logon. É possível criar exibições personalizadas adicionais e aplicá-las a qualquer momento. Como opção, é possível compartilhar qualquer visualização personalizada criada com todos os outros usuários que podem visualizar os dados do anunciante.<!-- I no longer see this in the legacy CM views - why? --> Nas suas listas de exibição, cada exibição compartilhada por outra pessoa está em itálico, como &quot;*Campanhas com Melhor Desempenho*.&quot; Somente a pessoa que cria uma exibição personalizada pode excluí-la.
 
-Cada exibição está disponível como atalho na seção [!UICONTROL Custom Views] do painel esquerdo.
+Na interface herdada, cada exibição está disponível como atalho na seção [!UICONTROL Custom Views] do painel esquerdo.
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## Aplicar um modo de exibição padrão ou personalizado
 
-## (Interface herdada) Aplicar uma exibição padrão ou personalizada
+### (Nova interface de usuário) Aplicar uma exibição padrão ou personalizada a uma exibição de gerenciamento
+
+1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+
+1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
+
+1. Mantenha o cursor sobre o nome da exibição e clique em **[!UICONTROL Apply]**.
+
+### (Interface herdada) Aplicar uma exibição padrão ou personalizada a uma exibição de gerenciamento de campanha
 
 * (Exibições padrão) No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]** \> **\[tipo de entidade\]**.
 
@@ -43,6 +49,12 @@ Cada exibição está disponível como atalho na seção [!UICONTROL Custom View
       Se a exibição for universal ou se aplicar à entidade atual, a tabela de dados será exibida novamente de acordo com a configuração de exibição. Se a exibição se aplicar a uma entidade diferente, os dados da entidade aplicável serão exibidos de acordo com a configuração de exibição.
 
 ## Criar um modo de exibição personalizado {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## (Interface herdada) Criar uma exibição personalizada a partir das exibições de gerenciamento de campanha
 
 As exibições personalizadas se aplicam somente às exibições de gerenciamento de campanha.
 

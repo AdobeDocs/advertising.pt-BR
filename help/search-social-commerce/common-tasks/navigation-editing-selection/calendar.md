@@ -3,9 +3,9 @@ title: Especificar uma data usando o calendário
 description: Saiba como selecionar datas usando o calendário.
 exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,10 @@ ht-degree: 0%
 
    * Clique na data.
 
-   * (Para avançar ou retroceder um mês) Clique em **`<`** ou **`>`**, respectivamente.
+   * (Maioria das exibições) Para avançar ou retroceder um mês ou um ano, clique em **`<`** ou **`>`**, respectivamente.
 
-   * (Para selecionar outro mês ou ano) Clique no nome do mês ou ano e clique no mês ou ano.
+   * (Modo de exibição [!UICONTROL Portfolios] herdado) Para selecionar outro mês ou ano, clique no nome do mês ou do ano e, em seguida, clique no mês ou no ano.
 
-   (Para realçar a data atual) Clique em **[!UICONTROL Today]**.
+   * Para realçar a data atual, clique em **[!UICONTROL Today]**.
+
+1. Clique em **[!UICONTROL Apply]**.

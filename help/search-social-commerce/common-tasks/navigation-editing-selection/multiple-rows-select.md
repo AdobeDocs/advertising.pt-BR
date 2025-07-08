@@ -3,16 +3,16 @@ title: Selecionar várias linhas
 description: Saiba como selecionar várias linhas para executar a mesma ação em todas elas.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # Selecionar várias linhas
-
-Você pode selecionar várias linhas nas exibições [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints] das seguintes maneiras:
+i
+Você pode selecionar várias linhas na nova interface de usuário nas exibições de gerenciamento e na interface herdada de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Atalhos de teclado:
 
@@ -22,11 +22,11 @@ Você pode selecionar várias linhas nas exibições [!UICONTROL Search, Social,
 
 * Caixa de seleção global (![Caixa de seleção](/help/search-social-commerce/assets/check-box.png) &quot;Caixa de seleção&quot;) no cabeçalho de coluna superior esquerdo:
 
-   * Para selecionar todas as linhas na página atual, que pode incluir algumas ou todas as linhas disponíveis com os filtros aplicados, se você estiver visualizando 25 linhas, 50 linhas, 100 linhas, 200 linhas ou [!UICONTROL Continuous Scroll], marque a caixa de seleção global.
+   * Para selecionar todas as linhas na página atual, que pode incluir algumas ou todas as linhas disponíveis com os filtros aplicados, com base no fato de você estar visualizando 25 linhas, 50 linhas, 100 linhas, 200 linhas ou (somente exibições de gerenciamento de campanha herdadas) [!UICONTROL Continuous Scroll], marque a caixa de seleção global.
 
      Ao selecionar todas as linhas na página, você pode desmarcar linhas individuais.
 
-   * Para selecionar todas as linhas disponíveis com os filtros aplicados, marque a caixa de seleção global e clique em **[!DNL Select all N records?]**, onde *N* é o número de registros disponíveis.
+   * (Somente exibições de gerenciamento de campanha herdadas) Para selecionar todas as linhas disponíveis com os filtros aplicados, marque a caixa de seleção global e clique em **[!DNL Select all N records?]**, onde *N* é o número de registros disponíveis.
 
      Ao selecionar todas as linhas disponíveis, não é possível desmarcar linhas individuais.
 

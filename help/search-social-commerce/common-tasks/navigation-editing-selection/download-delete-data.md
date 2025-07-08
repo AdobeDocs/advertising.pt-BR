@@ -3,16 +3,16 @@ title: Excluir um relatório de dados de desempenho ou um arquivo de bulksheet d
 description: Saiba como excluir um relatório ou arquivo de bulksheet que você baixou em uma visualização de gerenciamento de campanha.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 # Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]
 
-<!-- Add info about new UI -->
+*Interface do usuário herdada*
 
 >[!NOTE]
 >

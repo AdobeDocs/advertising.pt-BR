@@ -3,7 +3,7 @@ title: Gerenciar exibições padrão e personalizadas
 description: Saiba como personalizar exibições padrão e personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ As exibições personalizadas se aplicam somente às exibições de gerenciament
    >
    >Use um nome que ajude a identificar a guia e as informações a que ela se aplica (como &quot;Campanhas pausadas&quot; ou &quot;Os 50 anúncios principais&quot;).
 
-## Editar um modo de exibição padrão ou personalizado
+## Editar um modo de exibição padrão ou personalizado {#view-edit}
 
 ### (Nova interface de usuário) Editar uma exibição padrão ou personalizada
 
@@ -132,7 +132,7 @@ As exibições personalizadas se aplicam somente às exibições de gerenciament
 
    * Para salvar as configurações em um novo modo de exibição personalizado, clique em **[!UICONTROL Save As]**. Na janela [!UICONTROL Enter New Custom View Name], digite o nome da nova exibição e clique em **[!UICONTROL Save]**.
 
-## (Nova interface) Clonar uma exibição padrão ou personalizada
+## (Nova interface) Clonar uma exibição padrão ou personalizada {#view-clone}
 
 *Disponível nas visualizações [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
 

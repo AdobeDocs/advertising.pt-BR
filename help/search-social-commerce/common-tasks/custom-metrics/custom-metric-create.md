@@ -3,9 +3,9 @@ title: Criar uma métrica personalizada
 description: Saiba como configurar métricas personalizadas, que são calculadas a partir das métricas padrão.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 1. Acima da tabela de dados, siga um destes procedimentos:
 
-   * Clique em ![Exibir seletor](/help/search-social-commerce/assets/view.png "Exibir seletor") \[O nome do modo de exibição padrão ou personalizado\] para abrir as configurações de modo de exibição. Exemplo: ![Exemplo de visualização](/help/search-social-commerce/assets/view-selector-example.png "Exemplo de visualização")
+   * Clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")). Mantenha o cursor sobre o nome de qualquer modo de exibição editável e clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") para abrir as configurações de modo.
+
+     A métrica personalizada que você criar ficará disponível em todas as suas exibições.
 
    * Clique em ![Colunas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Colunas personalizadas") para abrir as definições de configuração da coluna.
 

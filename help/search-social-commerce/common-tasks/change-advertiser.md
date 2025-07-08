@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
----
+&#x200B;---
 title: Exibir dados de outro anunciante
 description: Saiba como exibir dados de outro anunciante.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8

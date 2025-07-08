@@ -3,14 +3,18 @@ title: Edite o conjunto de colunas no menu de cabeçalho de coluna
 description: Saiba como mostrar e ocultar as colunas do cabeçalho da coluna.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Edite o conjunto de colunas no menu de cabeçalho de coluna
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+*Somente interface de usuário herdada*
 
 Você pode mostrar e ocultar temporariamente as colunas incluídas em qualquer uma das exibições de qualquer cabeçalho de coluna na exibição. As alterações são aplicadas somente até que você saia da exibição ou exiba dados de um anunciante diferente.
 

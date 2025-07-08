@@ -3,16 +3,20 @@ title: Editar e classificar o conjunto de colunas do ícone [!UICONTROL Custom C
 description: Saiba como alterar as colunas visíveis usando o personalizador de colunas.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Editar e classificar o conjunto de colunas do ícone [!UICONTROL Custom Columns]
 
-É possível alterar as colunas visíveis em qualquer uma das exibições na barra de ferramentas direita. As alterações são aplicadas somente até que você saia das exibições de gerenciamento de campanha ou visualize os dados de um anunciante diferente.
+<!-- The same in new UI and legacy CM views except for icon -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+É possível alterar as colunas visíveis em qualquer uma das exibições na barra de ferramentas direita. As alterações são aplicadas somente até que você saia das exibições aplicáveis ou exiba dados de um anunciante diferente.
 
 >[!NOTE]
 >
@@ -20,9 +24,9 @@ ht-degree: 0%
 >
 >Você pode salvar as alterações nas colunas incluídas para um anunciante específico editando o modo de exibição padrão ou [criando um modo de exibição personalizado](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. À direita da barra de ferramentas, clique em ![Colunas](/help/search-social-commerce/assets/custom-columns.png "Colunas").
+1. À direita da barra de ferramentas, clique em ![Colunas Personalizadas](/help/search-social-commerce/assets/custom-columns.png "Colunas Personalizadas") ou ![Colunas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Colunas personalizadas").
 
-1. (Opcional) [Crie uma métrica personalizada (derivada)](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) para incluir como uma coluna.
+1. (Opcional) [Crie uma métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) para incluir como uma coluna.
 
 1. Especifique as colunas a serem incluídas na exibição:
 
@@ -40,6 +44,10 @@ ht-degree: 0%
 
    * Especifique a coluna pela qual classificar as linhas.
 
-   * (Opcional) Mova o controle deslizante para classificar os valores da coluna selecionada na ordem **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+   * (Opcional) Especifique a ordem de classificação dos valores da coluna selecionada:
+
+      * (Nova interface do usuário) Selecione **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+
+      * (Interface herdada) Mova o controle deslizante para **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
 1. Clique em **[!UICONTROL Apply]**.

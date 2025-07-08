@@ -3,16 +3,18 @@ title: Filtrar dados por intervalo de datas
 description: Saiba como usar o filtro de intervalo de datas global.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Filtrar dados por intervalo de datas
 
-O mesmo filtro de intervalo de datas global é aplicado à maioria das visualizações de dados da campanha, em todos os anunciantes, exceto para exibições padrão e personalizadas para as quais você salvou intervalos de datas específicos. O intervalo de datas padrão do sistema para exibições de gerenciamento de campanha é &quot;Ontem&quot;.
+<!-- The same in new UI and legacy CM views -->
+
+O mesmo filtro de intervalo de datas global é aplicado à maioria das visualizações de dados, em todos os anunciantes, exceto para exibições padrão e personalizadas para as quais você salvou intervalos de datas específicos. O intervalo de datas padrão do sistema para exibições de gerenciamento de campanha é &quot;Ontem&quot;.
 
 Suas configurações de intervalo de datas são salvas em um cookie específico do navegador, de modo que quaisquer alterações no filtro de intervalo de datas são usadas para todos os anunciantes sempre que você entrar usando o mesmo aplicativo do navegador, até alterar o filtro ou excluir o cookie. Cada aplicativo de navegador usado armazena configurações de filtro de intervalo de datas em um cookie diferente.
 
@@ -38,7 +40,7 @@ Quando você salva um intervalo de datas específico para uma exibição padrão
 
 1. (Opcional) Comparar dados para o intervalo de datas especificado com dados para um segundo intervalo de datas:
 
-   1. Mova o controle deslizante de **[!UICONTROL Comparison]** para *[!UICONTROL On]*.
+   1. Mova o controle deslizante **[!UICONTROL Comparison]** para a posição &quot;ligado&quot;.
 
       Ao selecionar essa opção, duas colunas adicionais são adicionadas para cada coluna de dados regular. Por exemplo, em vez de incluir apenas uma coluna para &quot;[!UICONTROL Impressions]&quot;, a tabela inclui colunas para &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; e &quot;[!UICONTROL Impressions Diff]&quot;.  Se exportar os dados, as mesmas colunas serão grafadas como &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; e &quot;[!UICONTROL Impressions Difference]&quot;.
 

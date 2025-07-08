@@ -3,7 +3,7 @@ title: Remover um filtro de coluna
 description: Saiba como remover um filtro de coluna.
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Remover um filtro de coluna
+
+<!-- The same in new UI and legacy CM views -->
 
 >[!NOTE]
 >

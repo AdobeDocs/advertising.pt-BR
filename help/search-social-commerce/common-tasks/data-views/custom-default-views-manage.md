@@ -3,14 +3,16 @@ title: Gerenciar exibições padrão e personalizadas
 description: Saiba como personalizar exibições padrão e personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # Gerenciar exibições padrão e personalizadas
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 Suas visualizações padrão e personalizadas permitem personalizar os dados de desempenho exibidos nas visualizações de dados da campanha de pesquisa. As configurações de exibição incluem as colunas a serem incluídas, os filtros, o intervalo de datas, as configurações de atribuição de conversão e outras configurações avançadas — e você pode aplicar as configurações temporariamente ou salvá-las. (Exceção: não é possível salvar filtros para exibições padrão.) Cada exibição personalizada padrão e regular é aplicável somente para uma exibição de entidade específica (como [!UICONTROL Campaigns]) e conta de anunciante específica. Cada exibição personalizada universal é aplicável em exibições de entidade para um anunciante específico e, portanto, não pode incluir colunas de propriedade (como nome da entidade ou status), que variam de acordo com o tipo de entidade.
 
@@ -18,7 +20,11 @@ As exibições padrão são exibidas por padrão sempre que você faz logon. É 
 
 Cada exibição está disponível como atalho na seção [!UICONTROL Custom Views] do painel esquerdo.
 
-## Aplicar um modo de exibição padrão ou personalizado
+<!--
+## (New UI) Apply a default or custom view
+-->
+
+## (Interface herdada) Aplicar uma exibição padrão ou personalizada
 
 * (Exibições padrão) No menu principal, clique em **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]** \> **\[tipo de entidade\]**.
 

@@ -3,7 +3,7 @@ title: Sobre a personalização de dados em visualizações de gerenciamento de 
 description: Saiba mais sobre os tipos de dados que você pode personalizar nas visualizações de dados do Campaign.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 42495874f93f3af2d6aaec19148d007062fd3b9b
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Sobre a personalização de dados em visualizações de gerenciamento de campanha
+
+<!-- Add info about new UI -->
 
 Na maioria das visualizações de dados do Campaign, é possível personalizar os dados exibidos na tabela de dados. Você pode personalizar os dados das seguintes maneiras:
 

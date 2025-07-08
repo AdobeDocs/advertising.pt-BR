@@ -3,9 +3,9 @@ title: Excluir uma métrica personalizada
 description: Saiba como excluir métricas personalizadas, que são calculadas a partir das métricas padrão.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 Se a métrica personalizada for incluída como uma coluna na exibição atual, a exclusão de uma coluna a excluirá imediatamente. Se for incluída em outra exibição padrão ou personalizada, ou em um modelo de relatório, a alteração da coluna ficará visível na próxima vez que você atualizar a exibição ou exibir o modelo, respectivamente.
 
-## Excluir uma métrica personalizada de uma exibição de gerenciamento de campanha
+## (Nova interface de usuário) Excluir uma métrica personalizada de uma exibição de gerenciamento
+
+*Disponível nas visualizações [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
+
+1. Acima da tabela de dados, siga um destes procedimentos:
+
+   * Clique em ![Exibir seletor](/help/search-social-commerce/assets/view.png "Exibir seletor") \[O nome do modo de exibição padrão ou personalizado\] para abrir as configurações de modo de exibição. Exemplo: ![Exemplo de visualização](/help/search-social-commerce/assets/view-selector-example.png "Exemplo de visualização")
+
+   * Clique em ![Colunas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Colunas personalizadas") para abrir as definições de configuração da coluna.
+
+1. Mantenha o cursor sobre o nome da coluna e clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") ao lado do nome da coluna.
+
+1. Na mensagem de confirmação, clique em **[!UICONTROL Cpnfirm]**.
+
+## (Interface herdada) Excluir uma métrica personalizada de uma exibição de gerenciamento de campanha
 
 1. Acima da tabela de dados, siga um destes procedimentos:
 
@@ -26,7 +40,7 @@ Se a métrica personalizada for incluída como uma coluna na exibição atual, a
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL OK]**.
 
-## Excluir uma métrica personalizada de um relatório ou formulário de modelo de relatório
+## (Interface herdada) Excluir uma métrica personalizada de um relatório ou formulário de modelo de relatório
 
 1. Em um relatório ou formulário de modelo de relatório, vá para a guia **[!UICONTROL Columns]**.
 
@@ -34,7 +48,7 @@ Se a métrica personalizada for incluída como uma coluna na exibição atual, a
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-## Excluir uma métrica personalizada das [!UICONTROL Portfolios] exibições
+## (Interface herdada) Excluir uma métrica personalizada das [!UICONTROL Portfolios] exibições
 
 1. Acima da tabela de dados, clique em ![Editar Exibição Selecionada](/help/search-social-commerce/assets/view-settings.png "Editar Exibição Selecionada").
 

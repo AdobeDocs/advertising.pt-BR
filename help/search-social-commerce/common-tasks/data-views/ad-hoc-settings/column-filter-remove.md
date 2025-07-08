@@ -3,9 +3,9 @@ title: Remover um filtro de coluna
 description: Saiba como remover um filtro de coluna.
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 >
 >Você também pode remover vários filtros em um conjunto de filtros [editando o conjunto de filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
 
-1. (Se necessário) No conjunto de filtros acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more-filters.png "Mais") para expandir o conjunto de filtros.
+* (Quando disponível) Acima da tabela de dados, clique em **[!UICONTROL X]** na definição do filtro.
 
-1. Acima da tabela de dados, clique em **[!UICONTROL X]** na definição do filtro.
+>[!MORELIKETHIS]
+>
+>* [Aplicar um filtro de dados a partir de um menu de cabeçalho de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Aplicar filtros de dados na barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Editar filtros de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)

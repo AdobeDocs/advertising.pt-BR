@@ -3,9 +3,9 @@ title: Criar manualmente uma tag de anúncio para um tamanho de criação aplic�
 description: Saiba como criar uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
 
-   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Create Tag]**.
 
 1. Insira um **[!UICONTROL Tag name]** exclusivo e selecione o **[!UICONTROL Tag size]**.
 
-   Os tamanhos das criações de imagem padrão para a experiência determinam os tamanhos de criação disponíveis.
+   Os tamanhos dos elementos de criação padrão da experiência determinam os tamanhos de criação disponíveis.
 
    É possível criar várias marcas para o mesmo tamanho criativo.<!-- What are the implications? -->
 
@@ -41,10 +41,13 @@ ht-degree: 0%
 
    É possível expandir a linha de tag para ver as criações incluídas.
 
+   Para experiências de anúncio de vídeo, os recursos de criação de vídeo são transcodificados automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-los. Opcionalmente, é possível [aplicar a transcodificação específica do editor](experience-tag-video-transcoding.md).
+
 >[!MORELIKETHIS]
 >
 >* [Atribuir criações a uma marca de anúncio para experiências sem direcionamento](experience-tag-assign-creatives.md)
 >* [Personalizar as URLs de rastreamento para uma experiência sem direcionamento](experience-tracking-urls-no-targeting.md)
 >* [Personalize a otimização criativa e o agendamento de uma experiência sem direcionamento](experience-optimization-scheduling-no-targeting.md)
+>* [Personalizar opções de transcodificação para uma marca de experiência de anúncio de vídeo](experience-tag-video-transcoding.md)
 >* [Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](experience-tag-export.md)
 >* [Renomear uma marca de anúncio](experience-tag-rename.md)

@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Saiba como gerar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 
@@ -186,7 +186,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 | Tipo de métrica | Subtipo | Nome da coluna | Descrição |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | As dimensões do anúncio publicado. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Se o anúncio fornecido foi um anúncio de imagem padrão para a experiência. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Se o anúncio fornecido foi um anúncio de imagem ou anúncio de vídeo padrão para a experiência. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Se os anúncios foram girados de acordo com pesos relativos (*Ponderados*) ou algorítmicos (*Algorítmicos*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | A ID que [!UICONTROL Creative] atribuiu ao criativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | O nome do criativo. |

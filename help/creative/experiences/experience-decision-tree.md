@@ -3,9 +3,9 @@ title: O layout da árvore de decisão
 description: Saiba mais sobre o layout da árvore de decisão para obter experiências com direcionamento.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termos
 
@@ -38,7 +38,7 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 
 ## Metas em uma árvore de decisão
 
-Cada árvore decisória pode ter até cinco níveis de metas. Cada nível de destino pode incluir várias ramificações, cada uma com um ou mais nós com o mesmo tipo de destino (segmento de público-alvo, tipo de localização geográfica, valores para chaves de transmissão de dados especificadas, atributos para um pixel de redirecionamento especificado ou categoria de dispositivo). Você pode atribuir pacotes criativos em cada tamanho de anúncio para o qual especificou uma criação de imagem padrão para os nós de destino de nível mais baixo.
+Cada árvore decisória pode ter até cinco níveis de metas. Cada nível de destino pode incluir várias ramificações, cada uma com um ou mais nós com o mesmo tipo de destino (segmento de público-alvo, tipo de localização geográfica, valores para chaves de transmissão de dados especificadas, atributos para um pixel de redirecionamento especificado ou categoria de dispositivo). Você pode atribuir pacotes criativos em cada tamanho de anúncio para o qual especificou uma criação de imagem ou vídeo padrão para os nós de destino de nível mais baixo.
 
 ![Exemplo de uma árvore de decisão com destinos](/help/creative/assets/experience-decision-tree.png "Exemplo de uma árvore de decisão com destinos")
 

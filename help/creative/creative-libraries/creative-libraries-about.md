@@ -3,9 +3,9 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Suas bibliotecas podem incluir:
 
    * **Criações dinâmicas:** (somente clientes do Adobe Advertising DCO existentes) Os usuários administradores podem criar criações geradas dinamicamente, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. Todos os usuários podem visualizar, duplicar e excluir anúncios dinâmicos existentes.
 
-* **Pacotes de criação:** grupos de criação em pacotes para usar em várias experiências com destinos de usuário definidos. Você pode criar *pacotes padrão* que consistem em anúncios padrão e *pacotes dinâmicos* que consistem em anúncios gerados dinamicamente.
+* **Pacotes de criação:** grupos de criação em pacotes para usar em várias experiências com destinos de usuário definidos. Você pode criar *conjuntos de exibição padrão* que consistem em anúncios de exibição padrão, *conjuntos de vídeo padrão* que consistem em anúncios de vídeo padrão e *conjuntos de exibição dinâmicos* que consistem em anúncios de exibição gerados dinamicamente.
 
 ## Formatos Creative compatíveis {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ Você pode adicionar e gerenciar os seguintes tipos de criação nos [tamanhos d
 
 >[!IMPORTANT]
 >
->Mesmo que você pretenda usar o HTML5, o Flexible HTML5 ou criações de terceiros para suas experiências de anúncio, também é necessário adicionar criações de imagem para cada tamanho criativo usado.
->
->Cada experiência exige um criativo de imagem padrão para cada tamanho criativo atribuído à experiência. As criações de imagem padrão são usadas quando um navegador não está habilitado para JavaScript ou quando o servidor de publicidade não pode personalizar o anúncio devido a atrasos.
+>* Mesmo que você pretenda usar o HTML5, o Flexible HTML5 ou criações de terceiros para suas experiências de anúncio de exibição padrão, também é necessário adicionar criações de imagem para cada tamanho criativo usado.
+>* Cada experiência de exibição padrão requer uma criação de imagem padrão para cada tamanho criativo atribuído à experiência. As criações de imagem padrão são usadas quando um navegador não está habilitado para JavaScript ou quando o servidor de publicidade não pode personalizar o anúncio devido a atrasos.
+>* Cada experiência de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência.<!-- when is it used? -->
 
 #### HTML5 flexível
 
@@ -52,7 +52,7 @@ Você pode fazer upload de criações simples ou estáticas do HTML5, com todos 
 
 É possível incluir criações de imagem no formato GIF, JPEG, JPG ou PNG. Você pode fazer upload de imagens aprovadas de suas contas do Adobe Experience Manager ou imagens de seu dispositivo ou rede.
 
-Cada experiência de anúncio exige um criativo de imagem padrão para cada tamanho criativo atribuído à experiência.
+Cada experiência de anúncio de exibição padrão requer uma criação de imagem padrão para cada tamanho criativo atribuído à experiência.
 
 #### Criação de terceiros
 
@@ -61,6 +61,38 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### Criações de vídeo {#creative-video-specs}
+
+Você pode fazer upload de criações de vídeo do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência. Todas as criações de vídeo são transcodificadas automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do editor](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
+
+Consulte os seguintes requisitos de criação de vídeo.
+
+**Tipo de Arquivo:** .mov, .mp4, .webm
+
+**Tamanho do Arquivo:** Máximo de 512 MB
+
+**Taxa de proporção do vídeo:** 16:9, 4:3
+
+**Resolução de vídeo:** 640x360 para 360p, 1280x720 para 720p, 1920x1080 para 1080p
+
+**Duração do Vídeo:** Máximo de 90 segundos
+
+**Taxa de bits:** 600-1200 kbps para 360p, 1500-2500 kbps para 720p, 3000-5000+ kbps para 1080p
+
+**Taxa de quadros do vídeo:** 23,98 quadros/s. Taxas de quadros adicionais podem ser aceitas com base nos requisitos regionais ou do editor
+
+**Codec de vídeo:** H.264 (padrão do setor), AV1, H.265
+
+**Formato de Áudio:** ACC (padrão do setor/MP4), Opus (WebM/AV1)
+
+**Taxa de áudio:** 16-512 kbps
+
+**Taxa de Amostragem de Áudio:** 44100-48000 Hz
+
+**Taxa de Áudio:** 44,1kHz ou 48 kHz
+
+**Outro Áudio:** O arquivo carregado deve ser não entrelaçado, misturado e conter uma faixa de áudio. Pode não haver som, mas uma faixa de áudio precisa ser incluída no arquivo de vídeo.
 
 ### Formato para anúncios dinâmicos
 
@@ -102,7 +134,9 @@ A guia [!UICONTROL Standard Ads] mostra todas as criações padrão que você cr
 
 * [Pré-visualização de um criativo padrão](creative-preview.md)
 
-* [Adicionar criações padrão a pacotes padrão e remover criações padrão de um pacote padrão](creative-attach-detach-bundles.md)
+* [Adicionar criações padrão a conjuntos de exibições padrão e remover criações padrão de um conjunto de exibições padrão](creative-attach-detach-bundles.md)
+
+* [Adicionar criações de vídeo a pacotes de vídeo padrão e remover criações de vídeo de um pacote de vídeo padrão](creative-attach-detach-bundles.md)
 
 * [Duplicar criações padrão](creative-duplicate.md)
 
@@ -126,7 +160,7 @@ A capacidade de criar e editar criações dinâmicas está disponível no moment
 
 * [Visualizar criações dinâmicas](creative-preview.md)
 
-* [Adicionar criações dinâmicas a pacotes dinâmicos e remover criações dinâmicas de um pacote dinâmico](creative-attach-detach-bundles.md)
+* [Adicionar criações dinâmicas a conjuntos de exibição dinâmicos e remover criações dinâmicas de um conjunto de exibição dinâmico](creative-attach-detach-bundles.md)
 
 * [Duplicar criações dinâmicas](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ A exibição [!UICONTROL Bundles] mostra todos os seus contêineres de pacote pa
 
 #### Ações disponíveis
 
-* Adicionar pacotes padrão e dinâmicos a uma biblioteca
+* Adição de exibição padrão, vídeo padrão e pacotes de exibição dinâmicos a uma biblioteca
 
 * Listar e visualizar as criações em um pacote
 
 * Editar um nome de pacote
 
-* Adicionar criações padrão a pacotes padrão e remover criações padrão de um pacote padrão
+* Adicionar criações de exibição padrão a conjuntos de exibição padrão e remover criações de exibição padrão de um conjunto de exibição padrão
+
+* Adicionar criações de vídeo padrão a pacotes de vídeo padrão e remover criações de vídeo padrão de um pacote de vídeo padrão
 
 * Pacotes duplicados
 

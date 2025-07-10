@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
 
-   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
 1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
@@ -39,7 +39,7 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
 
-      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -55,7 +55,7 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
 
-   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
 1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
@@ -73,7 +73,7 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
       * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
 
-         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Para cada agendamento adicional:
 

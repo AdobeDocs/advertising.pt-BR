@@ -3,9 +3,9 @@ title: Personalizar os URLs de rastreamento para uma experiência
 description: Saiba como personalizar os URLs de rastreamento para cada criativo em uma experiência com direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ As URLs personalizadas são usadas apenas para anúncios criados a partir da exp
 
 1. Mantenha o cursor sobre a folha/pasta do pacote criativo abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   As guias [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] listam os nomes de todos os criadores nos tamanhos aplicáveis nos conjuntos atribuídos. Os tamanhos das criações de imagem padrão para a experiência determinam os tamanhos disponíveis.<!-- There's no distinct "Creative Sizes" setting. -->
+   As guias [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] listam os nomes de todos os criadores nos tamanhos aplicáveis nos conjuntos atribuídos. Os tamanhos dos criativos padrão da experiência determinam os tamanhos disponíveis.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Nas guias **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** e **[!UICONTROL Landing URLs]**, faça o seguinte para cada criativo, conforme necessário:
 

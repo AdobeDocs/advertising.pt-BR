@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
    * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
-   * Clique em **[!UICONTROL select a file]** para localizar os arquivos no dispositivo ou na rede.
+   * Clique em **[!UICONTROL Select a file]** para localizar os arquivos no dispositivo ou na rede.
 
    Consulte as [especificações flexíveis do anúncio](#flexible-ad-spec).
 
@@ -64,7 +64,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
-   * Clique em **[!UICONTROL select a file]** para localizar o arquivo no dispositivo ou na rede.
+   * Clique em **[!UICONTROL Select a file]** para localizar o arquivo no dispositivo ou na rede.
 
    Consulte a [especificação de anúncio do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -167,7 +167,7 @@ As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho 
 
       * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
-      * Clique em **[!UICONTROL select a file]** para localizar arquivos no dispositivo ou na rede.
+      * Clique em **[!UICONTROL Select a file]** para localizar arquivos no dispositivo ou na rede.
 
    * Para imagens aprovadas em uma [biblioteca do Adobe Experience Manager conectada à sua conta do DSP](/help/creative/creative-libraries/aem-assets-configure.md), faça o seguinte:
 
@@ -206,6 +206,30 @@ O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para 
 1. Especifique a marca JavaScript e outras configurações para o criativo nas [configurações de criativo de terceiros](#creative-settings-third-party).
 
    Você pode copiar e colar qualquer uma das [macros disponíveis](/help/creative/creative-macros.md) na tag do JavaScript.
+
+1. Clique em **[!UICONTROL Create]**
+
+## Adicionar um criativo de vídeo a uma biblioteca criativa
+
+Consulte as [especificações de criação de vídeo](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) e os [tamanhos de criação compatíveis](/help/creative/creative-libraries/creative-sizes.md).
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique no nome da biblioteca.
+
+1. Na guia **[!UICONTROL Creatives]**, clique na subguia **[!UICONTROL Standard Ads]**.
+
+1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+
+1. Especifique os arquivos de vídeo de uma das seguintes maneiras:
+
+   * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
+
+   * Clique em **[!UICONTROL Select a file]** para localizar arquivos no dispositivo ou na rede.
+
+1. Especifique as [configurações de criação de vídeo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+
+   Por padrão, o criativo que você acabou de carregar está selecionado e todas as configurações especificadas se aplicam ao criativo selecionado.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. Clique em **[!UICONTROL Create]**
 

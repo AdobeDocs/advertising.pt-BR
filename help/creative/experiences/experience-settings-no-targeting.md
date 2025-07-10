@@ -3,9 +3,9 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## seção [!UICONTROL Experience basics]
 
+**[!UICONTROL Ad Type]:** (Somente leitura para experiências existentes) O tipo de anúncios incluídos na experiência: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Depois de salvar a experiência, não é possível alterar o tipo de anúncio.
+
 **[!UICONTROL Advertiser]:** (Somente leitura para experiências existentes) O anunciante que oferecerá os elementos de criação incluídos na experiência. Depois de salvar a experiência, você não poderá alterar o anunciante.
 
 **[!UICONTROL Experience Name]:** Um nome exclusivo para a experiência. **Dica:** use um nome que possa ser facilmente encontrado ao usar a experiência como um anúncio no Advertising DSP ou em outra DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## seção [!UICONTROL Default creatives]
 
-**\[Criações padrão especificadas\]:** As criações de imagem padrão a serem usadas quando um navegador não pode exibir criações atribuídas à experiência, como quando o navegador não está habilitado para JavaScript ou o servidor de anúncios não pode personalizar o anúncio devido a atrasos. Inclua um criativo de imagem por tamanho de anúncio ao qual a experiência se aplica. Suas opções determinam os tamanhos criativos que podem ser usados para a experiência. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[Criações padrão especificadas\]:** As criações padrão a serem usadas quando um navegador não pode exibir criações atribuídas à experiência, como quando o navegador não está habilitado para JavaScript ou o servidor de anúncios não pode personalizar o anúncio devido a atrasos. Para experiências de exibição padrão, inclua um criativo de imagem por tamanho de anúncio ao qual a experiência se aplica. Para experiências de vídeo padrão, inclua um criativo de vídeo por tamanho de anúncio ao qual a experiência se aplica. Suas opções determinam os tamanhos criativos que podem ser usados para a experiência.
 
 Para experiências sem direcionamento de árvore de decisão, você pode substituir os criativos padrão por criativos do mesmo tamanho em [!UICONTROL Tag Manager].
 
@@ -39,8 +41,6 @@ Para experiências sem direcionamento de árvore de decisão, você pode substit
 ## seção [!UICONTROL Targeting]
 
 **[!UICONTROL Targeting]:** (Somente leitura para experiências existentes) Não aplicável quando você não habilita o direcionamento usando uma árvore de decisão; mantenha essa opção desabilitada. **Observação:** depois que você salva uma experiência sem segmentação, não é possível adicionar segmentação mais tarde.
-
-**[!UICONTROL Dynamic ads]:** (Somente leitura para experiências existentes) Indica que a experiência inclui anúncios dinâmicos. **Observação:** uma experiência pode incluir todos os anúncios padrão ou todos os anúncios dinâmicos.
 
 **[!UICONTROL Language Targeting]:** (Experiências somente com anúncios padrão; opcional; somente leitura para experiências existentes) Verifica as configurações de idioma do navegador do usuário e exibe um criativo no idioma especificado quando um criativo nesse idioma estiver disponível. Quando um criativo no idioma especificado pelo navegador não está disponível, a configuração [!UICONTROL Preferred language] é usada. Depois de salvar a experiência, você não poderá alterar essa configuração.
 

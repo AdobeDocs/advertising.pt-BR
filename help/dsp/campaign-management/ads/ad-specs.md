@@ -3,9 +3,9 @@ title: Especificações de publicidade
 description: Consulte as especificações gerais e específicas do editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Por padrão, os anúncios são entregues em dispositivos de desktop, móveis e T
 
 Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Para obter uma lista completa de fornecedores suportados, consulte &quot;[Parceiros de Veiculação de Anúncios Certificados](certified-ad-servers.md)&quot;.
 
-### Requisitos para Assets de vídeo de alta definição (obrigatório)
+### Requisitos para Assets de vídeo de alta definição
 
 **Tipo de Marca de Vídeo:** VPAID 2.0 JavaScript ou VAST (CTV). Todas as unidades de anúncios VPAID devem seguir a [especificação VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf), conforme definido pelo Interative Advertising Bureau (IAB).
 
@@ -82,13 +82,13 @@ Os anúncios são entregues por padrão em dispositivos móveis e desktop. O dir
 
 **Imagem:** GIF, JPG/JPEG, PNG
 
-**HTML5:** Tipos de arquivos de imagem: GIF, JPG/JPEG, PNG, SVG
+**HTML5:** Tipos de arquivo de imagem: GIF, JPG/JPEG, PNG, SVG
 
-### Requisitos para imagem Assets (obrigatório)
+### Requisitos para o Image Assets
 
 O Universal Display é compatível.
 
-**Tamanhos de anúncios recomendados:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 44 0 x 60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
+**Tamanhos de anúncios recomendados:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480 x 60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
 
 **Servidores de Publicidade de Terceiros com Suporte:** Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Para obter uma lista completa de fornecedores suportados, consulte &quot;[Parceiros de Veiculação de Anúncios Certificados](certified-ad-servers.md)&quot;.
 
@@ -102,7 +102,7 @@ Desktop, Mobile, Tablet, Alto-falantes inteligentes e TV conectada
 
 Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Para obter uma lista completa de fornecedores suportados, consulte &quot;[Parceiros de Veiculação de Anúncios Certificados](certified-ad-servers.md)&quot;.
 
-### Requisitos para Assets de áudio (obrigatório)
+### Requisitos para Assets de áudio
 
 **Tipo de arquivo:** MP3, OGG, AAC
 
@@ -156,31 +156,31 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 * **[!DNL iHeartRadio]:**
    * Tipo de arquivo: JPEG, JPG, PNG, GIF, SWF, HTML
    * Tamanho máximo do arquivo: 2,2 MB
-   * Dimension: 300x250
+   * Dimensões: 300 x 250
 
 * **[!DNL Pandora]:**
    * Tipo de arquivo: JPEG, GIF
    * Tamanho máximo do arquivo: Tamanho: 100 KB
-   * Dimension: 300x250 (móvel ou desktop) ou 500x500 (desktop)
+   * Dimensões: 300 x 250 (móvel ou desktop) ou 500 x 500 (desktop)
 
 * **[!DNL SoundCloud]:**
-   * Tipo de arquivo: JPG estático, PNG
+   * Tipo de arquivo: Static JPG, PNG
    * Tamanho máximo do arquivo: menos de 400 KB
-   * Dimension: 1024x1024
+   * Dimensões: 1024 x 1024
 
 * **[!DNL Spotify]:**
-   * Tipo de arquivo: JPG estático, PNG
+   * Tipo de arquivo: Static JPG, PNG
    * Tamanho máximo do arquivo: 200 KB
-   * Dimension: 300x250
+   * Dimensões: 300 x 250
 
 * **[!DNL TuneIn]:**
    * Tipo de arquivo: JPEG, JPG, PNG, GIF, HTML
    * Tamanho máximo do arquivo: 2 MB
-   * Dimension: 300x250
+   * Dimensões: 300 x 250
 
 ## Anúncios de exibição nativos
 
-Cada anúncio pode incluir uma imagem estática ou um GIF móvel (cinemgraph).
+Cada anúncio pode incluir uma imagem estática ou um GIF em movimento (cinemgraph).
 
 ### Screens compatível
 
@@ -192,7 +192,7 @@ Os anúncios são entregues por padrão em dispositivos móveis e desktop. O dir
 
 **Resolução:** Mínimo de 600x600px; Mínimo recomendado de 1200x627px
 
-**Tipo de arquivo:** JPEG (anúncio de imagem ou imagem de capa de anúncio de vídeo), GIF (cinemograph)
+**Tipo de arquivo:** JPEG (anúncio de imagem ou imagem de capa de anúncio de vídeo), GIF (cinemógrafo)
 
 **Tamanho do Arquivo:** Menos de 1 MB (A imagem deve estar sem texto.)
 
@@ -216,7 +216,7 @@ Os anúncios são entregues por padrão em dispositivos móveis e desktop. O dir
 
 **Patrocinado por:** Máximo de 200 caracteres; recomenda-se 30 caracteres
 
-**Chamada para ação (Somente MoPub):** Máximo de 15 caracteres
+**Call to action (Somente MoPub):** Máximo de 15 caracteres
 
 >[!NOTE]
 >

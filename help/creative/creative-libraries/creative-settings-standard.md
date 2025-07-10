@@ -3,9 +3,9 @@ title: Configurações do Creative
 description: Saiba mais sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -183,10 +183,32 @@ Ao incluir esse criativo em uma experiência que você implementa como um anúnc
 **Nome do Creative:** O nome do criativo. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
 
 **Tamanho do Creative:** (Somente leitura para anúncios existentes) As dimensões do criativo. Para novas criações, selecione em uma lista de tamanhos de anúncio padrão.
-u
+
 **Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações.
 
 **URL da página de aterrissagem:** a URL da página de aterrissagem usada para validar cada anúncio ao qual você associa as criações. O servidor de anúncios de terceiros determina a página de aterrissagem real de cada anúncio.
+
+**Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative].
+
+* Para selecionar rótulos existentes, clique em ![Abaixo](/help/creative/assets/chevron-down.png "Abaixo") e marque a caixa de seleção ao lado de cada rótulo a ser aplicado.
+
+* Para pesquisar rótulos existentes, comece inserindo uma cadeia de texto no nome do rótulo.
+
+* Para criar um novo rótulo para aplicar às criações, abra a lista, clique em **+ Adicionar Rótulo**, insira um novo nome de rótulo no campo [!UICONTROL Label] e clique em **Criar**.
+
+* Para remover um rótulo, desmarque a caixa de seleção ao lado do nome do rótulo.
+
+## Configurações de criação de vídeo {#creative-settings-video}
+
+**Nome do ativo do Creative:** O nome do criativo. Para um novo criativo, o nome do arquivo é usado por padrão, mas você pode alterar o nome. Para várias imagens, é possível editar os nomes criativos individuais. **Dica:** use um nome que possa ser facilmente encontrado ao incluir o criativo em uma experiência.
+
+**Duração:** (Somente leitura) A duração do vídeo, que é preenchido automaticamente.
+
+**Idioma:** o idioma padrão para cada anúncio ao qual você associa as criações. O mesmo valor se aplica a todas as imagens selecionadas. Ao incluir os elementos de criação em uma experiência, é possível personalizar as preferências de idioma da experiência.
+
+**URL da página de aterrissagem:** a URL da página de aterrissagem padrão para cada anúncio ao qual você associa as criações. O URL da página de aterrissagem deve ser um URL válido começando com http:// ou https://. Ele pode incluir parâmetros de rastreamento de terceiros ou [[!DNL Creative] macros](/help/creative/creative-macros.md) para seu próprio uso. O mesmo valor se aplica a todas as imagens selecionadas.
+
+Ao incluir um criativo em um pacote e, em seguida, atribuir o pacote a uma experiência, é possível alterar o URL da página inicial, bem como adicionar URLs de rastreamento de impressões e cliques e JavaScript para cada criativo no pacote. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Rótulo:** (opcional) quaisquer rótulos a serem aplicados a todas as criações selecionadas. Você pode filtrar criações por rótulo em várias exibições dentro de [!DNL Creative].
 

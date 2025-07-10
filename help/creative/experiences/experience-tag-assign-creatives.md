@@ -3,9 +3,9 @@ title: Atribuir criativos a uma tag de anúncio para experiências sem direciona
 description: Saiba como atribuir criadores a uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Posteriormente, você poderá [personalizar as URLs de rastreamento](experience-
 
    * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
 
-   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
 1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em **[!UICONTROL + Add Creatives]**. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ Posteriormente, você poderá [personalizar as URLs de rastreamento](experience-
 >* [Crie manualmente uma marca de anúncio para um tamanho criativo aplicável](experience-tag-create-manually.md)
 >* [Personalizar as URLs de rastreamento para as criações](experience-tracking-urls-no-targeting.md).
 >* [Personalizar a otimização criativa e o agendamento para as criações](experience-optimization-scheduling-no-targeting.md)
+>* [Personalizar opções de transcodificação para uma marca de experiência de anúncio de vídeo](experience-tag-video-transcoding.md)
 >* [Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](experience-tag-export.md)

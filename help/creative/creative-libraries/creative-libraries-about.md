@@ -3,9 +3,9 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 
 #### Criações de vídeo {#creative-video-specs}
 
-Você pode fazer upload de criações de vídeo do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência. Todas as criações de vídeo são transcodificadas automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do editor](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
+Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência. Todas as criações de vídeo são transcodificadas automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do editor](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
 
 Consulte os seguintes requisitos de criação de vídeo.
 

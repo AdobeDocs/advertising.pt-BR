@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Pacotes são grupos de criadores que podem ser adicionados a uma experiência co
 
 [!DNL Creative] gira pelas criações no pacote conforme especificado para cada experiência à qual o pacote é atribuído. Opcionalmente, você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência baseada em desempenho usando a rotação de anúncios algorítmica, que é viabilizada pelo Adobe Sensei.
 
-Para habilitar a otimização de elementos de anúncio em pacotes em uma experiência de anúncio, cada pacote pode incluir apenas uma de cada combinação \[creative size + language\]. Por exemplo, se um pacote incluir um criativo de 250x250 com um idioma padrão de &quot;Francês&quot;, você não poderá adicionar um segundo criativo de 250x250 com um idioma padrão de &quot;Francês&quot;. Se você tiver vários elementos de criação do mesmo tamanho no mesmo idioma, adicione-os separadamente à experiência.
+Para habilitar a otimização de elementos de anúncio em pacotes em uma experiência de anúncio, cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\]. Por exemplo, se um pacote incluir um criativo de 250x250 com um idioma padrão de &quot;Francês&quot;, você não poderá adicionar um segundo criativo de 250x250 com um idioma padrão de &quot;Francês&quot;. Se você tiver vários elementos de criação do mesmo tamanho no mesmo idioma, adicione-os separadamente à experiência.
 
 As criações anexadas aos pacotes ainda estão disponíveis como criações individuais. É possível adicionar um único criativo a vários pacotes. Se você editar qualquer configuração de um criativo que está anexado a um pacote, as alterações serão propagadas para o pacote. No entanto, qualquer página de aterrissagem personalizada, tag de rastreamento de impressão e tag de rastreamento de cliques configuradas para o criativo em uma experiência são sempre usadas para a experiência.
 
@@ -104,7 +104,7 @@ As alterações no nome de um pacote são propagadas em todas as experiências a
 
 ## Anexar criações a um pacote
 
-Você pode anexar criações de vídeo padrão existentes a um pacote de exibição padrão, criações de vídeo padrão a pacotes de vídeo padrão e criações de exibição dinâmica a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size + language\].
+Você pode anexar criações de vídeo padrão existentes a um pacote de exibição padrão, criações de vídeo padrão a pacotes de vídeo padrão e criações de exibição dinâmica a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\].
 
 >[!NOTE]
 >

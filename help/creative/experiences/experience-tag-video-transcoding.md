@@ -2,9 +2,10 @@
 title: Personalizar opções de transcodificação para uma tag de experiência de vídeo e anúncios
 description: Saiba como personalizar as opções de transcodificação para uma tag de anúncio de vídeo.
 feature: Creative Experiences
-source-git-commit: b67bb63fd5f87e6bd900aa5d957973d11355280c
+exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Beta fechado*
 
-Você pode personalizar as opções de transcodificação para uma experiência de anúncio de vídeo.
+É possível personalizar as opções de transcodificação para uma experiência de anúncio de vídeo para garantir uma reprodução rápida e controle de qualidade entre editores.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -28,4 +29,3 @@ Você pode personalizar as opções de transcodificação para uma experiência 
 1. Na lista de **[!UICONTROL Publisher specific transcodes]**, selecione o tipo de transcodificação.
 
 1. Clique em **[!UICONTROL Save Settings]**.
-

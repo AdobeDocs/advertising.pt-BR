@@ -3,9 +3,9 @@ title: Criar manualmente uma tag de anúncio para um tamanho de criação aplic�
 description: Saiba como criar uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Experiências sem direcionamento de árvore de decisão somente*
 *Beta fechado*
 
-É possível criar uma ou mais tags de anúncio para cada tamanho criativo usado para uma experiência. Posteriormente, você pode [atribuir criações à marca de anúncio](experience-tag-assign-creatives.md).
+É possível criar uma ou mais tags de anúncio por idioma para cada tamanho criativo ou duração do vídeo usado para uma experiência. Posteriormente, você pode [atribuir criações à marca de anúncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->Para experiências com direcionamento de árvore decisória, o [!DNL Creative] cria automaticamente uma tag para cada tamanho criativo aplicável.
+>Para experiências com direcionamento de árvore decisória, o [!DNL Creative] cria automaticamente uma tag por idioma para cada tamanho criativo ou duração de vídeo aplicável.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. No canto superior direito, clique em **[!UICONTROL Create Tag]**.
 
-1. Insira um **[!UICONTROL Tag name]** exclusivo e selecione o **[!UICONTROL Tag size]**.
+1. Insira um **[!UICONTROL Tag name]** exclusivo e selecione (anúncios de exibição padrão) o **[!UICONTROL Tag size]** ou (anúncios de vídeo padrão) o **[!UICONTROL Duration]**.
 
-   Os tamanhos dos elementos de criação padrão da experiência determinam os tamanhos de criação disponíveis.
+   Os tamanhos ou a duração dos elementos de criação padrão da experiência determinam os tamanhos de criação ou as durações de vídeo disponíveis.
 
-   É possível criar várias marcas para o mesmo tamanho criativo.<!-- What are the implications? -->
+   É possível criar várias marcas para o mesmo tamanho criativo ou duração.<!-- What are the implications? -->
 
 1. Clique em **[!UICONTROL Create]**.
 

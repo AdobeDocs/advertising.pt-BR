@@ -3,7 +3,7 @@ title: Personalizar opções de transcodificação para uma tag de experiência 
 description: Saiba como personalizar as opções de transcodificação para uma tag de anúncio de vídeo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 3d0d42d19c11276f13a4e003c382a2d2410ab037
+source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. Siga um destes procedimentos:
 
-* No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
+   * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Tag Manager]**.
 
-* Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
+   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
 1. Mantenha o cursor sobre a linha da marca de anúncio aplicável, clique em **[!UICONTROL More]** e em **[!UICONTROL Video Settings]**.
 

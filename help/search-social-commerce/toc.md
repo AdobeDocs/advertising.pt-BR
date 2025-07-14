@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integração com o Adobe Experience Cloud {#integrations}
       + [Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}
-      + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
-   + [Suporte para privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-   + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=pt-BR){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Suporte para privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Introdução {#getting-started}
    + [Visão geral da implementação](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisitos do sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Formatos de rastreamento de cliques para  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formatos de rastreamento de cliques para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=pt-BR){target="_blank"}
+      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [O parâmetro de rastreamento da ID do AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Rastreamento de conversão {#conversion-tracking}
       + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -352,7 +352,7 @@ ht-degree: 2%
             + [Configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [Acesso FTP a relatórios](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Como as regras de atribuição são calculadas](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Perguntas frequentes sobre relatórios personalizados](/help/search-social-commerce/reports/faqs-report.md)
+      + [Perguntas frequentes Sobre relatórios personalizados](/help/search-social-commerce/reports/faqs-report.md)
    + Notificação {#notifications}
       + [Sobre notificações](/help/search-social-commerce/notifications/notification-about.md)
       + [Exibir suas notificações](/help/search-social-commerce/notifications/notification-view.md)

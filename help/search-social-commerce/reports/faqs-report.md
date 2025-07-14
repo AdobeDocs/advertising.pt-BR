@@ -1,16 +1,16 @@
 ---
-title: Perguntas frequentes sobre relatórios personalizados
+title: Perguntas frequentes Sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre relatórios personalizados
+# Perguntas frequentes Sobre relatórios personalizados
 
 ## Perguntas gerais
 
@@ -54,9 +54,9 @@ Quando a linha inclui dados para campanhas de pesquisa habilitadas para conteúd
 +++
 
 +++Devido a alterações sazonais ou de mercado, meus relatórios mostram dados atípicos. Isso afeta os lances depois que as condições são alteradas?
-O recurso de otimização cria seus modelos de receita para cada unidade de oferta diariamente para garantir que ele identifique e responda imediatamente às tendências, e os modelos incorporam dados históricos de longo prazo para ajudar a prever o desempenho sazonal. A configuração de meia-vida do modelo de receita do portfólio <!-- add link to glossary? --> também determina o peso dos dados de receita recentes. A prática recomendada é reduzir a meia-vida durante um período de desempenho atípico, mas aumentá-la depois que o modelo de receita for ajustado. Em caso de dúvidas sobre a necessidade de ajustar a meia-vida, entre em contato com a equipe de conta do Adobe.
+O recurso de otimização cria seus modelos de receita para cada unidade de oferta diariamente para garantir que ele identifique e responda imediatamente às tendências, e os modelos incorporam dados históricos de longo prazo para ajudar a prever o desempenho sazonal. A configuração de meia-vida do modelo de receita do portfólio <!-- add link to glossary? --> também determina o peso dos dados de receita recentes. A prática recomendada é reduzir a meia-vida durante um período de desempenho atípico, mas aumentá-la depois que o modelo de receita for ajustado. Em caso de dúvidas sobre a necessidade de ajustar a meia-vida, entre em contato com a equipe de conta da Adobe.
 
-Se você não quiser que os dados do período afetem lances futuros, poderá optar por excluir essas datas do modelo. Entre em contato com a equipe da conta do Adobe para excluir as datas.
+Se você não quiser que os dados do período afetem lances futuros, poderá optar por excluir essas datas do modelo. Entre em contato com a equipe de conta da Adobe para excluir as datas.
 +++
 
 +++É possível criar um relatório sobre uma métrica de propriedade de conta específica, como [!UICONTROL Device] ou [!UICONTROL Objective Name]?
@@ -98,9 +98,9 @@ Essa situação pode ocorrer quando os formatos de métrica usam números inteir
 +++
 
 +++Quando os dados de clique ou receita estão ausentes, como evitar que afetem lances futuros?
-Problemas de dados de cliques ocorrem quando o Search, o Social e o Commerce estão fora de sincronia com a rede de anúncios. Entre em contato com a equipe da conta do Adobe para sincronizar manualmente a conta. Se os dados de cliques estiverem ausentes por um dia inteiro, peça à sua equipe de conta do Adobe para excluir esse dia dos modelos de custo.
+Problemas de dados de cliques ocorrem quando o Search, o Social e o Commerce estão fora de sincronia com a rede de anúncios. Entre em contato com a equipe de conta da Adobe para sincronizar manualmente a conta. Se os dados de cliques estiverem ausentes por um dia inteiro, peça à sua equipe de conta da Adobe para excluir esse dia dos modelos de custo.
 
-Problemas de dados de receita podem ocorrer devido a um problema de arquivo de rastreamento ou feed. Entre em contato com a equipe de conta do Adobe para investigar o problema. Se os dados de receita estiverem ausentes por um dia inteiro, peça à sua equipe de conta do Adobe para excluir esse dia dos modelos de receita.
+Problemas de dados de receita podem ocorrer devido a um problema de arquivo de rastreamento ou feed. Entre em contato com a equipe de conta da Adobe para investigar o problema. Se os dados de receita estiverem ausentes por um dia inteiro, peça à sua equipe de conta da Adobe para excluir esse dia dos modelos de receita.
 +++
 
 +++Os dados monetários são mostrados no formato incorreto.
@@ -122,13 +122,13 @@ Veja a seguir os motivos comuns para a falta de dados de cliques.
 
 | Causa | Detecção/análise | Resolução |
 |---|---|---|
-| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Entre em contato com a equipe de conta do Adobe.<br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe da conta do Adobe pode excluir as datas. |
-| Um problema de faturamento entre o anunciante e a rede de anúncios impede que a conta de anúncios seja gasta. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custos ou cliques. | Se você souber que uma conta publicitária não pôde gastar devido a um problema de faturamento, exclua essas datas das previsões de custo. A equipe da conta do Adobe pode excluir as datas. |
+| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Entre em contato com a equipe de conta da Adobe.<br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe de conta da Adobe pode excluir as datas. |
+| Um problema de faturamento entre o anunciante e a rede de anúncios impede que a conta de anúncios seja gasta. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custos ou cliques. | Se você souber que uma conta publicitária não pôde gastar devido a um problema de faturamento, exclua essas datas das previsões de custo. A equipe de conta da Adobe pode excluir as datas. |
 
 +++
 
 +++Os dados de desempenho são diferentes dos dados no editor de rede de anúncios.
-Quando a rede de publicidade envia atualizações para dados anteriores (geralmente porque atribuiu fraude de cliques a alguns cliques), o Search, Social e Commerce não atualiza os dados, a menos que haja mais de 5% de discrepância e a Equipe de conta do Adobe registre uma solicitação.
+Quando a rede de anúncios envia atualizações para dados anteriores (geralmente porque atribuíram fraude de cliques a alguns cliques), o Search, Social e Commerce não atualiza os dados, a menos que haja mais de 5% de discrepância e a Equipe de conta da Adobe registre uma solicitação.
 
 Além disso, ao comparar dados de compartilhamento de impressão agregados em um intervalo de datas, os dados que os relatórios de Pesquisa, Social e Commerce podem ser diferentes dos dados que a rede de publicidade relata. Essa diferença se deve à maneira como os dados são relatados pela API da rede de anúncios, que a Search, o Social e o Commerce usam para obter dados. Por exemplo, para dados [!DNL Google Ads]:
 
@@ -155,7 +155,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 +++A receita está ausente dos relatórios.
 
-**Anunciantes usando marcas de conversão de Adobe Advertising**
+**Anunciantes usando marcas de conversão do Adobe Advertising**
 
 *Causas possíveis:*
 
@@ -169,11 +169,11 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe devem [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta da Adobe devem [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
-1. Verifique se as tags de rastreamento de conversão corretas estão implementadas em todas as páginas da Web aplicáveis. Se necessário, peça à sua equipe de conta do Adobe para criar uma transação de teste para cada tag de rastreamento de conversão aplicável e capturar os detalhes da transação, como `transactionid` e detalhes do cookie (como `trackingid`, `clickid` e assim por diante).
+1. Verifique se as tags de rastreamento de conversão corretas estão implementadas em todas as páginas da Web aplicáveis. Se necessário, peça à sua equipe de conta da Adobe para criar uma transação de teste para cada tag de rastreamento de conversão aplicável e capturar os detalhes da transação, como `transactionid` e detalhes do cookie (como `trackingid`, `clickid` e assim por diante).
 
-1. Se a opção [!UICONTROL Auto Upload] estiver desabilitada para a campanha e você tiver adicionado palavras-chave ou anúncios, verifique se você gerou um modelo de rastreamento ou URL de destino que inclui o rastreamento de redirecionamento de cliques de Pesquisa, Social e Commerce para cada um. Sua equipe de conta do Adobe pode executar um relatório interno para ver se algum URL de rastreamento de cliques (modelos de rastreamento ou URLs de destino) está ausente ou malformado.
+1. Se a opção [!UICONTROL Auto Upload] estiver desabilitada para a campanha e você tiver adicionado palavras-chave ou anúncios, verifique se você gerou um modelo de rastreamento ou URL de destino que inclui o rastreamento de redirecionamento de cliques de Pesquisa, Social e Commerce para cada um. Sua equipe de conta da Adobe pode executar um relatório interno para ver se algum URL de rastreamento de cliques (modelos de rastreamento ou URLs de destino) está ausente ou malformado.
 
    Se necessário, gere o rastreamento criando um arquivo de bulksheet com as URLs corretas e publique o arquivo na conta apropriada usando a opção **Gerar URLs de rastreamento**.
 
@@ -197,7 +197,7 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 
 *Possível solução ou solução alternativa:*
 
-1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta do Adobe devem [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Verifique se as colunas corretas estão incluídas nos relatórios ou nas visualizações de dados. Se as colunas corretas não estiverem disponíveis para adição, você ou sua equipe de conta da Adobe devem [disponibilizar as métricas de conversão para os relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Execute o [!UICONTROL Portfolio Report]. Se estiver vazio, execute o [!UICONTROL Campaign Report] e o [!UICONTROL Search Engine Report] para ver se a receita aparece nesses relatórios. Se isso acontecer, as campanhas não poderão ser atribuídas ao portfólio apropriado.
 
@@ -211,12 +211,12 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
 +++
 
 +++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante.
-O [!UICONTROL Geo Distribution Report] e o [!UICONTROL Domain Referral Report] usam dados capturados pelo serviço de rastreamento de conversão de Adobe Advertising e só podem ser gerados para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão de Adobe Advertising.
+O [!UICONTROL Geo Distribution Report] e o [!UICONTROL Domain Referral Report] usam dados capturados pelo serviço de rastreamento de conversão da Adobe Advertising e só podem ser gerados para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão do Adobe Advertising.
 +++
 
 +++Os dados de receita são diferentes dos dados de receita do próprio anunciante.
 
-**Anunciantes usando marcas de conversão de Adobe Advertising**
+**Anunciantes usando marcas de conversão do Adobe Advertising**
 
 *Causas possíveis:*
 
@@ -230,7 +230,7 @@ O [!UICONTROL Geo Distribution Report] e o [!UICONTROL Domain Referral Report] u
 
 1. Vá para **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e gere um [!UICONTROL Transaction Report]. Compare as transações que o Search, Social e Commerce recebeu com os dados do anunciante.
 
-1. Se algumas transações estiverem incorretas ou ausentes, verifique se a tag de rastreamento de conversão relevante está implementada em todas as páginas da Web aplicáveis e não foi editada, a menos que a Equipe de conta do Adobe o aconselhe a fazê-lo. Uma tag pode estar ausente ou ter sido alterada se o site tiver sido atualizado recentemente.
+1. Se algumas transações estiverem incorretas ou ausentes, verifique se a tag de rastreamento de conversão relevante está implementada em todas as páginas da Web aplicáveis e não foi editada, a menos que a Equipe de conta da Adobe o aconselhe a fazê-lo. Uma tag pode estar ausente ou ter sido alterada se o site tiver sido atualizado recentemente.
 
    O Search, Social e Commerce espera URLs bem formadas (com parâmetros em pares nome-valor) dentro da variável `ef_transaction_properties` e dentro do elemento `src` da tag `img`.
 
@@ -294,7 +294,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 +++
 
 +++Os dados de receita são diferentes dos dados no Adobe Analytics
-Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR).<!-- change link URL to relative link -->
+Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Relatórios específicos
@@ -308,15 +308,15 @@ O [!UICONTROL Portfolio Report] mostra dados apenas para as campanhas atribuída
 +++
 
 +++Qual a diferença entre o [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] e o [!UICONTROL Model Accuracy Report] no nível de portfólio?
-(Somente para usuários de gerente de conta de agência, gerente de conta de Adobe e administrador) O [!UICONTROL Forecast Accuracy Report] disponível em [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fornece os mesmos dados que o [!UICONTROL Model Accuracy Report] de nível de portfólio, exceto que você pode executá-lo em vários portfólios e alterar a regra de atribuição. Você também pode executar e agendar o relatório usando parâmetros personalizados e pode usá-lo para criar feeds de planilha. Além disso, o [!UICONTROL Forecast Accuracy Report] é mais preciso que o relatório de nível de portfólio herdado, pois avalia a precisão da receita usando os objetivos históricos do portfólio, em vez do objetivo atual, e representa com mais precisão os dados do fuso horário aplicável.
+(Somente para usuários de gerente de conta de agência, gerente de conta da Adobe e administrador) O [!UICONTROL Forecast Accuracy Report] disponível em [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fornece os mesmos dados que o [!UICONTROL Model Accuracy Report] de nível de portfólio, exceto que você pode executá-lo em vários portfólios e alterar a regra de atribuição. Você também pode executar e agendar o relatório usando parâmetros personalizados e pode usá-lo para criar feeds de planilha. Além disso, o [!UICONTROL Forecast Accuracy Report] é mais preciso que o relatório de nível de portfólio herdado, pois avalia a precisão da receita usando os objetivos históricos do portfólio, em vez do objetivo atual, e representa com mais precisão os dados do fuso horário aplicável.
 +++
 
 +++Os dados no nível do anúncio não estão disponíveis para [!DNL Google Ads] anúncio de pesquisa dinâmica (DSA), desempenho máximo, compras inteligentes e [!DNL YouTube] campanhas.
 As redes de anúncios não fornecem o identificador necessário para atribuir receita a um anúncio individual dessas campanhas. Consequentemente, os dados de desempenho no nível do anúncio não estão disponíveis para esses tipos de campanha na visualização [!UICONTROL Ads] ou em [!UICONTROL Ad Variation Report]. Espere discrepâncias entre o total de dados de nível de anúncio de uma campanha e o total de dados da campanha.
 +++
 
-+++No [!UICONTROL Transaction Report], como sei qual métrica de conversão é de um feed de dados ou é rastreada pelo pixel de rastreamento de Adobe Advertising?
-Em um relatório de transações, é possível saber se uma métrica de conversão incluída foi rastreada pelo pixel de rastreamento de Adobe Advertising, caso você inclua a coluna personalizada &quot;[!UICONTROL Tracking URL]&quot;. URLs de rastreamento com o pixel de rastreamento de Adobe Advertising começam com &quot;`http://pixel.everesttech.net`&quot;.
++++No [!UICONTROL Transaction Report], como sei qual métrica de conversão é de um feed de dados ou é rastreada pelo pixel de rastreamento do Adobe Advertising?
+Em um relatório de transações, é possível saber se uma métrica de conversão incluída foi rastreada pelo pixel de rastreamento do Adobe Advertising ao incluir a coluna personalizada &quot;[!UICONTROL Tracking URL]&quot;. As URLs de rastreamento com o pixel de rastreamento Adobe Advertising começam com &quot;`http://pixel.everesttech.net`&quot;.
 +++
 
 +++Os dados em meu [!UICONTROL Transaction Report] não correspondem aos dados em meu [!UICONTROL Keyword Report].

@@ -294,7 +294,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 +++
 
 +++Os dados de receita são diferentes dos dados no Adobe Analytics
-Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR).<!-- change link URL to relative link -->
 +++
 
 ## Relatórios específicos

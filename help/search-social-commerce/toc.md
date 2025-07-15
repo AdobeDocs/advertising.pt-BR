@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+source-git-commit: 190f2e5bbf394de05e0d47b46090795d9ee19552
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1867'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integração com o Adobe Experience Cloud {#integrations}
       + [Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}
-      + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
-   + [Suporte para privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-   + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=pt-BR){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Suporte para privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Introdução {#getting-started}
    + [Visão geral da implementação](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisitos do sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -65,6 +65,41 @@ ht-degree: 2%
       + Baixar dados nas exibições de gerenciamento {#download-data-views}
          + [Baixar dados de uma visualização de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
++ (Beta) NOVA INTERFACE DO USUÁRIO {#new-ui}
+   + [Exibir seu painel de desempenho](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + Plano {#plan}
+      + Objetivos {#objectives}
+         + [Sobre objetivos](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
+         + [Criar um objetivo](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
+         + [Editar um objetivo](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
+         + [Excluir um objetivo](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
+         + [Aplicar recomendações de peso a um objetivo](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
+         + [Configurações de objetivo](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+      + Simulações {#simulations}
+         + [Sobre simulações](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [Executar ou executar novamente uma simulação personalizada](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [Baixar simulações](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + [Usando o [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+   + Gerenciar {#manage}
+      + Portfólios {#portfolios}
+         + [Sobre portfólios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [Criar um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [Duplicação de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [Editar detalhes do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [Editar configurações de portfólio em massa usando arquivos de bulksheet](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Configurações do Portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [Exibir detalhes de desempenho do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+      + Campanhas {#campaigns}
+         + [Sobre a exibição [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Remover campanhas de um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+      + Grupos de anúncios {#ad-groups}
+         + [Sobre a exibição [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 + Rastreamento {#tracking}
    + [Sobre o rastreamento](/help/search-social-commerce/tracking/tracking-about.md)
    + Rastreamento de cliques {#click-tracking}
@@ -81,7 +116,7 @@ ht-degree: 2%
             + [Formatos de rastreamento de cliques para  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formatos de rastreamento de cliques para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=pt-BR){target="_blank"}
+      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [O parâmetro de rastreamento da ID do AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Rastreamento de conversão {#conversion-tracking}
       + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -352,7 +387,7 @@ ht-degree: 2%
             + [Configurações do feed de relatório de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [Acesso FTP a relatórios](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Como as regras de atribuição são calculadas](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Perguntas frequentes Sobre relatórios personalizados](/help/search-social-commerce/reports/faqs-report.md)
+      + [Perguntas frequentes sobre relatórios personalizados](/help/search-social-commerce/reports/faqs-report.md)
    + Notificação {#notifications}
       + [Sobre notificações](/help/search-social-commerce/notifications/notification-about.md)
       + [Exibir suas notificações](/help/search-social-commerce/notifications/notification-view.md)

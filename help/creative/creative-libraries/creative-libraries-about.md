@@ -3,7 +3,7 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Você pode adicionar e gerenciar os seguintes tipos de criação nos [tamanhos d
 >
 >* Mesmo que você pretenda usar o HTML5, o Flexible HTML5 ou criações de terceiros para suas experiências de anúncio de exibição padrão, também é necessário adicionar criações de imagem para cada tamanho criativo usado.
 >* Cada experiência de exibição padrão requer uma criação de imagem padrão para cada tamanho criativo atribuído à experiência. As criações de imagem padrão são usadas quando um navegador não está habilitado para JavaScript ou quando o servidor de publicidade não pode personalizar o anúncio devido a atrasos.
->* Cada experiência de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência.<!-- when is it used? -->
+>* Cada experiência de vídeo padrão requer uma criação de vídeo padrão para cada duração de criação atribuída à experiência.<!-- when is it used? -->
 
 #### HTML5 flexível
 
@@ -64,7 +64,7 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 
 #### Criações de vídeo {#creative-video-specs}
 
-Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer um criativo de vídeo padrão para cada tamanho criativo atribuído à experiência. Todas as criações de vídeo são transcodificadas automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do editor](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
+Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer uma criação de vídeo padrão para cada duração de criação atribuída à experiência. Todas as criações de vídeo são transcodificadas automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do editor](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
 
 Consulte os seguintes requisitos de criação de vídeo.
 

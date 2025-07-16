@@ -3,7 +3,8 @@ title: (Nova interface do usuário) Exibir seu painel de desempenho
 description: Saiba mais sobre os dados disponíveis no seu painel de desempenho.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Nova interface do usuário) Exibir seu painel de desempenho
 
 *recurso do Beta*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 O [!UICONTROL Dashboard] personalizável permite monitorar o desempenho de todos os seus portfólios <!-- May later include other entity-level data --> para que você possa identificar possíveis problemas de desempenho a serem investigados e resolvidos. Você pode exibir dados diários, semanais ou mensais de qualquer período nos últimos 90 dias.
 
@@ -57,4 +56,3 @@ Seu [!UICONTROL Dashboard] inclui os seguintes relatórios visuais:
    * Alterar a métrica relatada ([!UICONTROL Cost] \[selecionada por padrão\], [!UICONTROL Clicks] ou [!UICONTROL Objective Value]).
 
    * Para abrir o modo de exibição [!UICONTROL Portfolios], clique em **[!UICONTROL View More]** na parte inferior direita do gráfico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-

@@ -3,9 +3,9 @@ title: Criar manualmente uma tag de anúncio para um tamanho de criação aplic�
 description: Saiba como criar uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Experiências sem direcionamento de árvore de decisão somente*
 *Beta fechado*
 
-É possível criar uma ou mais tags de anúncio por idioma para cada tamanho criativo ou duração do vídeo usado para uma experiência. Posteriormente, você pode [atribuir criações à marca de anúncio](experience-tag-assign-creatives.md).
+É possível criar uma ou mais tags de anúncio por idioma para cada tamanho criativo (criação não relacionada ao vídeo) ou duração do vídeo usado para uma experiência. Posteriormente, você pode [atribuir criações à marca de anúncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    É possível expandir a linha de tag para ver as criações incluídas.
 
-   Para experiências de anúncio de vídeo, os recursos de criação de vídeo são transcodificados automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-los. Opcionalmente, é possível [aplicar a transcodificação específica do editor](experience-tag-video-transcoding.md).
+   Para experiências de anúncios de vídeo, os recursos de criação de vídeo são transcodificados automaticamente usando a codificação do Adobe Advertising DSP como tags VAST 2.0 para que você possa visualizá-los. Opcionalmente, você pode [aplicar a transcodificação para uma DSP diferente](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

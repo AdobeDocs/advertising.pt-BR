@@ -3,9 +3,9 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Ca
 
 Quando a experiência é em tempo real, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho de criação ou duração de vídeo aplicável. Em seguida, você pode [exportar uma marca de anúncio e implementá-la em uma DSP](/help/creative/experiences/experience-tag-export.md).
 
-Para experiências de anúncio de vídeo, os recursos de criação de vídeo são transcodificados automaticamente pelo DSP como tags VAST 2.0 para que você possa visualizá-los. Opcionalmente, [aplique a transcodificação específica do editor](experience-tag-video-transcoding.md) a qualquer marca de experiência de anúncio de vídeo.
+Para experiências de anúncio de vídeo, os recursos de criação de vídeo são transcodificados automaticamente pelo Adobe Advertising DSP como tags VAST 2.0 para que você possa visualizá-los. Opcionalmente, [aplique a transcodificação de uma DSP](experience-tag-video-transcoding.md) diferente a qualquer marca de experiência de vídeo e anúncios.
 
 >[!MORELIKETHIS]
 >

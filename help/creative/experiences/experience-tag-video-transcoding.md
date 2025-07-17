@@ -3,9 +3,9 @@ title: Personalizar opções de transcodificação para uma tag de experiência 
 description: Saiba como personalizar as opções de transcodificação para uma tag de anúncio de vídeo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. Mantenha o cursor sobre a linha da marca de anúncio aplicável, clique em **[!UICONTROL More]** e em **[!UICONTROL Video Settings]**.
 
-1. Na lista de **[!UICONTROL Publisher specific transcodes]**, selecione o tipo de transcodificação.
+1. Na lista de **[!UICONTROL Publisher-specific transcodes]**, selecione a DSP cuja transcodificação você deseja aplicar.
 
 1. Clique em **[!UICONTROL Save Settings]**.
 

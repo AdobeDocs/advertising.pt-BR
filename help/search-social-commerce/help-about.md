@@ -3,9 +3,9 @@ title: Sobre este guia
 description: Saiba o que é abordado em cada capítulo deste guia.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 21d642ce63740c983d767e4829367673d68c69c9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ As informações sobre grupos específicos de tarefas e outras informações est
 
 * &quot;Tarefas comuns&quot; explica como configurar as várias visualizações de dados de desempenho com base nas suas necessidades e preferências de informações, como gerenciar métricas personalizadas, como gerenciar classificações de rótulos e restrições de lances e como executar outras tarefas comuns.
 
+* &quot;Nova interface&quot; explica as tarefas que você pode executar na nova interface do usuário: como gerenciar objetivos, executar simulações, gerenciar portfólios, atribuir e remover campanhas de portfólios e atribuir ou remover restrições a campanhas e grupos de anúncios. Consulte &quot;Nota&quot; abaixo.
+
 * &quot;Rastreamento&quot; explica como configurar o rastreamento de cliques e conversões para seus anúncios e palavras-chave.
 
 * &quot;Gerenciamento de campanhas&quot; explica como configurar e gerenciar componentes do Campaign para suas contas de rede de anúncios.
@@ -32,4 +34,4 @@ As informações sobre grupos específicos de tarefas e outras informações est
 
 >[!NOTE]
 >
->A ajuda sobre otimização, incluindo o uso de portfólios para lances, está disponível no menu [!UICONTROL Help] (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")), no canto superior direito de qualquer página, em Pesquisa, Social e Commerce.
+>A ajuda adicional sobre otimização, incluindo o uso de portfólios para licitação na interface do usuário herdada, está disponível no menu [!UICONTROL Help] (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")), no canto superior direito de qualquer página, em Pesquisa, Social e Commerce.

@@ -2,9 +2,9 @@
 title: Sobre a nova interface do usuário
 description: Saiba mais sobre a nova interface do usuário.
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Para obter mais informações sobre como a nova interface está organizada, cons
 >
 >* [Como a interface do usuário está organizada](/help/search-social-commerce/getting-started/user-interface.md)
 >* [Alternar entre as interfaces de usuário nova e herdada](/help/search-social-commerce/getting-started/ui-switch.md)
+>* Capítulo sobre &quot;Tarefas comuns&quot; para obter informações sobre o gerenciamento de exibições personalizadas e padrão, a exibição de dados para outro anunciante, a aplicação de filtros de dados e outras tarefas relacionadas à navegação e aos dados nas interfaces de usuário novas e herdadas

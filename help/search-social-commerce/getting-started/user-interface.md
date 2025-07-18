@@ -3,7 +3,7 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-![Interface do usuário](/help/search-social-commerce/assets/new-ui.png "Interface do usuário")
+![Interface do usuário](/help/search-social-commerce/assets/ui-new.png "Interface do usuário")
 
 Cada página inclui o menu principal e outros menus baseados em tarefas e informações.
 
@@ -34,7 +34,7 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Abre uma nova exibição [!UICONTROL Objectives], na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos. As configurações de objetivo são as mesmas da interface herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
 
-   * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
 * Submenu **[!UICONTROL Manage]**:
 

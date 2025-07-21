@@ -3,9 +3,10 @@ title: (Nova interface de usuário) Criar um objetivo
 description: Saiba como criar um objetivo.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Objectives]**.
 
-1. Na parte superior direita, clique em ![Adicionar](/help/search-social-commerce/assets/add-new.png "Adicionar").
+1. Na parte superior direita, clique em **[!UICONTROL Create Objective]** ou ![Adicionar](/help/search-social-commerce/assets/add-new.png "Adicionar").
+
+   O botão exibido depende da largura do navegador.
 
 1. Insira as configurações do objetivo.
 

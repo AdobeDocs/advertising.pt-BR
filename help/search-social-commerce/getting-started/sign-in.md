@@ -3,9 +3,9 @@ title: Fazer logon
 description: Saiba mais sobre como fazer logon.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
+source-git-commit: 5f1e8009620277884664d0cb88265b317de93393
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ O Search, Social e Commerce está fazendo a transição para o Adobe Identity Ma
 
 Suas credenciais atuais de Pesquisa, Social e Commerce permanecerão ativas até 21 de julho de 2025 para que você possa se preparar para a alteração.
 
-Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).&quot;
+Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Fazer logon na página herdada de logon do Search, Social e Commerce
 
@@ -40,7 +40,7 @@ Essa opção estará disponível até 15 de julho de 2025.
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **Conta Pessoal&quot; ou &#x200B;** Conta da Empresa ou Escola**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    A nova interface do usuário é aberta por padrão.
 
@@ -54,7 +54,7 @@ Essa opção estará disponível até 15 de julho de 2025.
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **Conta Pessoal&quot; ou &#x200B;** Conta da Empresa ou Escola**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Na seção [!UICONTROL Quick Access] da home page, clique em **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

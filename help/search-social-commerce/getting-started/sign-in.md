@@ -3,16 +3,16 @@ title: Fazer logon
 description: Saiba mais sobre como fazer logon.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
+source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Fazer logon
 
-O Search, Social e Commerce está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de logon único (SSO) a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Com a alteração:
+O Search, Social e Commerce está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de logon único (SSO) usando IDs federadas a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo o Real-Time Customer Data Platform, o Customer Journey Analytics, o Target e o Analytics. Com a alteração:
 
 * Você pode usar um [!DNL Adobe ID] para entrar em [!DNL Adobe] produtos da página de entrada da Experience Cloud ou da página de entrada herdada do Search, Social e Commerce. Seu [!DNL Adobe ID] fornece gerenciamento de perfil de usuário e a capacidade de alternar para um produto [!DNL Adobe] diferente no menu superior. Em uma versão futura, você poderá alterar a conta do Search, Social, &amp; Commerce e a conta da organização IMS no menu superior.
 
@@ -20,9 +20,9 @@ O Search, Social e Commerce está fazendo a transição para o Adobe Identity Ma
 
 * Você pode permanecer conectado por 24 horas.
 
-Suas credenciais atuais de Pesquisa, Social e Commerce permanecerão ativas até 21 de julho de 2025 para que você possa se preparar para a alteração.
+Suas credenciais atuais de Pesquisa, Social e Commerce permanecerão ativas por um curto período para que você possa se preparar para a alteração.
 
-Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).&quot;
+Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Fazer logon na página herdada de logon do Search, Social e Commerce
 
@@ -40,7 +40,7 @@ Essa opção está disponível por um curto período para que você possa se pre
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    A nova interface do usuário é aberta por padrão.
 
@@ -54,7 +54,7 @@ Essa opção está disponível por um curto período para que você possa se pre
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Na seção [!UICONTROL Quick Access] da home page, clique em **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

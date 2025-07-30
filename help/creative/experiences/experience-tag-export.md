@@ -3,7 +3,7 @@ title: Exportar e implementar uma tag de experiência de anúncio para uma exper
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
 1. Selecione o tipo de tag:
 
-   * (Experiências não relacionadas a vídeo) ** *JavaScript<!-- sic -->* **&#x200B; ou &#x200B;** *IFRAME* ** <!-- sic -->.
+   * (Experiências não relacionadas a vídeo) ** *JavaScript* ** ou ** *Iframe* **.
 
-   * (Experiências de vídeo) **&#x200B; *Vídeo* &#x200B;**.
+   * (Experiências de vídeo) ** *Vídeo* **.
 
 1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
 

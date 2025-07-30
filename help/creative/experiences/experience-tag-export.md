@@ -33,7 +33,7 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
 1. Selecione o tipo de tag:
 
-   * (Experiências não relacionadas a vídeo) ** *JavaScript* ** ou ** *Iframe* **.
+   * (Experiências não relacionadas a vídeo) **&#x200B; *JavaScript* &#x200B;** ou **&#x200B; *Iframe* &#x200B;**.
 
-   * (Experiências de vídeo) ** *Vídeo* **.
+   * (Experiências de vídeo) **&#x200B; *Vídeo* &#x200B;**.
 
 1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
 

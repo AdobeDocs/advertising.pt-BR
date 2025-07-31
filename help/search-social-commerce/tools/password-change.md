@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esse recurso é aplicável somente à sua conta herdada do Search, Social e Commerce. A maioria dos usuários agora está usando uma ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Esse recurso é aplicável somente à sua conta herdada do Search, Social e Commerce. A maioria dos usuários agora está usando uma ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 Ao alterar sua senha, você será desconectado da sessão atual. Para continuar trabalhando, você deve entrar com a nova senha.
 

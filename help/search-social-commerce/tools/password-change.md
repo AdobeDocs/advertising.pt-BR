@@ -3,18 +3,20 @@ title: Alterar sua senha
 description: Saiba como alterar a senha da conta.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
+source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # Alterar sua senha
 
+<!-- Replace this with just a link to the DX page once we remove the legacy option? -->
+
 >[!NOTE]
 >
->Esse recurso é aplicável somente à sua conta herdada do Search, Social e Commerce. A maioria dos usuários agora está usando uma ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Esse recurso é aplicável somente às suas credenciais de logon herdadas do Search, Social e Commerce. Em vez disso, a maioria dos usuários agora usa uma ID do [!DNL Adobe] para autenticação. Para alterar a senha da ID do [!DNL Adobe], consulte &quot;[Redefinir ou alterar a senha do Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;.
 
 Ao alterar sua senha, você será desconectado da sessão atual. Para continuar trabalhando, você deve entrar com a nova senha.
 

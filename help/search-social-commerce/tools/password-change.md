@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esse recurso é aplicável somente às suas credenciais de logon herdadas do Search, Social e Commerce. Em vez disso, a maioria dos usuários agora usa uma ID do [!DNL Adobe] para autenticação. Para alterar a senha da ID do [!DNL Adobe], consulte &quot;[Redefinir ou alterar a senha do Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;.
+>Esse recurso é aplicável somente às suas credenciais de logon herdadas do Search, Social e Commerce. Em vez disso, a maioria dos usuários agora usa uma ID do [!DNL Adobe] para autenticação. Para alterar a senha da ID do [!DNL Adobe], consulte &quot;[Redefinir ou alterar a senha do Adobe](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html)&quot;.
 
 Ao alterar sua senha, você será desconectado da sessão atual. Para continuar trabalhando, você deve entrar com a nova senha.
 

@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento entre nós em uma experiência
 description: Saiba como adicionar um nó de direcionamento entre os corpos de direcionamento em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
       1. Selecione o tipo de destino e clique em **[!UICONTROL Apply]**:
 
-         * Para Públicos-alvo da Adobe, selecione **[!UICONTROL Adobe Audience]**.
+         * Para públicos-alvo, selecione **[!UICONTROL Audience]**.
 
          * Para destinos geográficos, selecione uma única categoria geográfica (como [!UICONTROL Geo: Country]).
 
@@ -45,13 +45,15 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
    * Se os nós irmãos já existirem, faça o seguinte:
 
-      * Para Públicos-alvo da Adobe, faça o seguinte:
+      * Para públicos-alvo, faça o seguinte:
 
-         1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
+         1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e especificar um ou mais públicos-alvo do anunciante.
 
-         1. (Opcional) Para criar vários nós de destino quando vários públicos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
+         1. Na coluna à direita, selecione se deseja *[!UICONTROL Include any]* (o padrão) ou *[!UICONTROL Include all]* dos destinos especificados para o nó.
 
-            Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`).
+        Esta opção determina se o usuário deve pertencer a pelo menos um dos públicos especificados (uma instrução [!DNL Boolean] `OR`) ou a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`) para se qualificar para uma impressão.
+
+         1. Clique em **[!UICONTROL Create]**.
 
          1. Clique em **[!UICONTROL Apply]**.
 

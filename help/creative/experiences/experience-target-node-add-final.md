@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento ao nível final em uma experiência
 description: Saiba como adicionar um nó de direcionamento ao nível de destino final de uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,15 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
 1. Especifique os destinos:
 
-   * Para públicos-alvo da Adobe, selecione **[!UICONTROL Adobe Audience]** e faça o seguinte:
+   * Para públicos-alvo, selecione **[!UICONTROL Audience]** e faça o seguinte:
 
-      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Create]**.
+      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e especificar um ou mais públicos-alvo do anunciante.
 
-      1. (Opcional) Para criar vários nós de destino quando vários públicos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
+      1. Na coluna à direita, selecione se deseja *[!UICONTROL Include any]* (o padrão) ou *[!UICONTROL Include all]* dos destinos especificados para o nó.
 
-         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`).
+     Esta opção determina se o usuário deve pertencer a pelo menos um dos públicos especificados (uma instrução [!DNL Boolean] `OR`) ou a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`) para se qualificar para uma impressão.
+
+      1. Clique em **[!UICONTROL Create]**.
 
       1. Clique em **[!UICONTROL Apply]**.
 

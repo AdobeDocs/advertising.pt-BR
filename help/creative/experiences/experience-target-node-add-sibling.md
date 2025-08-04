@@ -3,9 +3,9 @@ title: Adicionar um nó de destino irmão entre nós em uma experiência
 description: Saiba como adicionar um nó irmão a qualquer nó que tenha um destino ou esteja no mesmo nível que um nó com um destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. Especifique os destinos:
 
-   * Para Públicos-alvo da Adobe, faça o seguinte:
+   * Para públicos-alvo, faça o seguinte:
 
-      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções do [!UICONTROL Audience Targeting], abra a guia **[!UICONTROL Adobe Segments]**, especifique um ou mais dos destinos de público-alvo [!DNL Adobe] do anunciante e clique em **[!UICONTROL Save]**.
+      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e especificar um ou mais públicos-alvo do anunciante.
 
-      1. (Opcional) Para criar vários nós de destino quando vários públicos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
+      1. Na coluna à direita, selecione se deseja *[!UICONTROL Include any]* (o padrão) ou *[!UICONTROL Include all]* dos destinos especificados para o nó.
 
-         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada público-alvo especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`).
+     Esta opção determina se o usuário deve pertencer a pelo menos um dos públicos especificados (uma instrução [!DNL Boolean] `OR`) ou a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`) para se qualificar para uma impressão.
+
+      1. Clique em **[!UICONTROL Create]**.
 
       1. Clique em **[!UICONTROL Apply]**.
 

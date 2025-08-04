@@ -3,9 +3,9 @@ title: Adicionar um nó de destino irmão entre nós em uma experiência
 description: Saiba como adicionar um nó irmão a qualquer nó que tenha um destino ou esteja no mesmo nível que um nó com um destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,31 @@ In an existing experience,
 
    * Para públicos-alvo, faça o seguinte:
 
-      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e especificar um ou mais públicos-alvo do anunciante.
+      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e faça o seguinte:
 
-      1. Na coluna à direita, selecione se deseja *[!UICONTROL Include any]* (o padrão) ou *[!UICONTROL Include all]* dos destinos especificados para o nó.
+         * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-     Esta opção determina se o usuário deve pertencer a pelo menos um dos públicos especificados (uma instrução [!DNL Boolean] `OR`) ou a todos os públicos especificados (uma instrução [!DNL Boolean] `AND`) para se qualificar para uma impressão.
+         * Para adicionar um segmento a um grupo de segmentos existente:
+
+            1. Clique no grupo de segmentos no painel direito.
+
+            1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+
+               *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, compile esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, exclua esse público-alvo quando adicioná-lo a um posicionamento no seu DSP.
+
+            1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+
+               O grupo de segmentos é atualizado automaticamente com o novo segmento.
+
+         * Para adicionar um novo grupo de segmentos:
+
+         1. Clique em **[!UICONTROL + New Group]** no painel direito.
+
+         1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
+
+         1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
+
+         1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
       1. Clique em **[!UICONTROL Create]**.
 

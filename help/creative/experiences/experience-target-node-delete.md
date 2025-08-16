@@ -3,9 +3,9 @@ title: Excluir um nó de destino ou nó folha criativo em uma experiência
 description: Saiba como excluir um nó em uma experiência.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Excluir um nó de destino ou nó folha criativo em uma experiência
 
 *Experiências somente com direcionamento de árvore de decisão*
-*Beta fechado*
 
 Você pode excluir um nó de destino, incluindo todos os destinos secundários e os pacotes criativos atribuídos a eles. Também é possível excluir um nó de folha criativo.
 

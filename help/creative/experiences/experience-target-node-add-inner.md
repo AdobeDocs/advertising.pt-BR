@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento entre nós em uma experiência
 description: Saiba como adicionar um nó de direcionamento entre os corpos de direcionamento em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Adicionar um nó de direcionamento entre nós em uma experiência
 
 *Experiências somente com direcionamento de árvore de decisão*
-*Beta fechado*
 
 Ao inserir um nó de destino entre níveis existentes, o novo nó de destino retém todos os destinos e criações secundários existentes, e o novo nó é chamado inicialmente de &quot;Todos&quot;. Como opção, você pode manter o novo nó sem adicionar destinos mais específicos.
 

@@ -3,9 +3,9 @@ title: Criar manualmente uma tag de anúncio para um tamanho de criação aplic�
 description: Saiba como criar uma tag de anúncio para um tamanho criativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Experiências sem direcionamento) Crie manualmente uma tag de anúncio para um tamanho criativo aplicável
 
 *Experiências sem direcionamento de árvore de decisão somente*
-*Beta fechado*
 
 É possível criar uma ou mais tags de anúncio por idioma para cada tamanho criativo (criação não relacionada ao vídeo) ou duração do vídeo usado para uma experiência. Posteriormente, você pode [atribuir criações à marca de anúncio](experience-tag-assign-creatives.md).
 

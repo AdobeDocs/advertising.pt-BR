@@ -3,9 +3,9 @@ title: Atribuir e cancelar atribuição de pacotes criativos a um nó final em u
 description: Saiba como atribuir elementos de criação a cada público-alvo em suas experiências de anúncio.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Atribuir e cancelar atribuição de pacotes criativos a um nó final em uma experiência
 
 *Experiências somente com direcionamento de árvore de decisão*
-*Beta fechado*
 
 Você pode atribuir pacotes criativos a um nó de direcionamento no nível mais inferior em uma árvore de decisão de experiência. Para experiências para as quais você não configurou alvos, o nível mais baixo está em &quot;Todos&quot;.
 

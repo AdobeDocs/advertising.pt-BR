@@ -3,16 +3,14 @@ title: Editar criações padrão em uma biblioteca criativa
 description: Saiba como alterar as configurações de criações padrão (não dinâmicas) em uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Editar criações padrão em uma biblioteca criativa
-
-*Beta fechado*
 
 É possível editar algumas configurações para cada tipo de criação padrão. Você pode editar várias criações<!-- or creative variations --> do mesmo tipo criativo (HTML5 simples com apenas uma página de aterrissagem, HTML5 estático com várias páginas de aterrissagem, HTML5 flexível, imagem ou terceiros<!-- , or dynamic -->) apenas.
 

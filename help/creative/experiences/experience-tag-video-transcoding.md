@@ -3,16 +3,14 @@ title: Personalizar opções de transcodificação para uma tag de experiência 
 description: Saiba como personalizar as opções de transcodificação para uma tag de anúncio de vídeo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Personalizar opções de transcodificação para uma tag de experiência de vídeo e anúncios
-
-*Beta fechado*
 
 É possível personalizar as opções de transcodificação para uma experiência de anúncio de vídeo para garantir uma reprodução rápida e controle de qualidade entre editores.
 

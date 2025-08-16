@@ -3,9 +3,9 @@ title: Adicionar um nó de direcionamento ao nível final em uma experiência
 description: Saiba como adicionar um nó de direcionamento ao nível de destino final de uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Adicionar um nó de direcionamento ao nível final em uma experiência
 
 *Experiências somente com direcionamento de árvore de decisão*
-*Beta fechado*
 
 Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó &quot;All&quot; raiz, um nó específico do destino ou um nó &quot;Everything Else&quot;, você define o destino diretamente e não precisa criar um nó irmão. Adicionar um nó de nível inferior cria o nó de destino e um nó &quot;Everything Else&quot; adicional no mesmo nível.
 

@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personalize a otimização criativa e o agendamento de uma experiência com direcionamento de árvore de decisão
 
 *Nós do Target somente com criações existentes*
-*Beta fechado*
 
 Por padrão, a rotação criativa de uma experiência é determinada de forma algorítmica para otimizar a taxa geral de cliques, e as configurações de otimização criativa se aplicam a todos os pacotes atribuídos. Você pode personalizar a rotação criativa para executar manualmente as criações em cada pacote de acordo com pesos relativos ou otimizar de forma algorítmica para uma meta personalizada do Advertising DSP especificada. Você também pode agendar pacotes criativos específicos para execução durante períodos de tempo sequenciais especificados e aplicar configurações de rotação criativa personalizadas para cada agendamento.
 

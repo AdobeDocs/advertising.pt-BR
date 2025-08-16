@@ -3,16 +3,14 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bc3309523572656362cebebab9b735530003a81c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # Adicionar criações padrão a uma biblioteca criativa
-
-*Beta fechado*
 
 Adicione criativos às suas [bibliotecas criativas](creative-library-manage.md) para usar com [experiências de anúncio](/help/creative/experiences/experience-about.md).
 
@@ -64,7 +62,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.

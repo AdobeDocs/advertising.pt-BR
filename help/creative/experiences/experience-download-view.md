@@ -3,16 +3,14 @@ title: Baixar dados da exibição [!UICONTROL Experiences]
 description: Saiba como
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # Baixar dados da exibição [!UICONTROL Experiences]
-
-*Beta fechado*
 
 Você pode exportar metadados sobre as experiências no modo de exibição [!UICONTROL Experiences] filtrado atual para um arquivo no formato de planilha do Microsoft Excel (XLSX).
 

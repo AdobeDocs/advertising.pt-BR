@@ -3,16 +3,14 @@ title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Visualizar uma experiência
-
-*Beta fechado*
 
 Você pode visualizar as criações com um tamanho de anúncio específico que os visualizadores do público-alvo verão para uma experiência, incluindo todos os hiperlinks. Para experiências com direcionamento de árvore de decisão, é possível visualizar um único criativo, os criativos de uma ramificação específica (tipo de destino) ou todos os criativos na experiência. Para experiências sem definição de metas da árvore de decisão, você pode visualizar um único criativo. <!-- verify -->
 

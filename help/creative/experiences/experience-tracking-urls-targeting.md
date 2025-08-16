@@ -3,9 +3,9 @@ title: Personalizar os URLs de rastreamento para uma experiência
 description: Saiba como personalizar os URLs de rastreamento para cada criativo em uma experiência com direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personalizar os URLs de rastreamento para criações em uma experiência com direcionamento de árvore de decisão
 
 *Nós do Target somente com criações existentes*
-*Beta fechado*
 
 Para experiências com direcionamento de árvore de decisão, é possível criar até cinco URLs de rastreamento de impressão personalizados, cinco URLs de rastreamento de cliques personalizados e um URL de página de aterrissagem personalizado para cada criativo individual usado para a experiência. Você pode personalizar os URLs de rastreamento na árvore de decisão.
 

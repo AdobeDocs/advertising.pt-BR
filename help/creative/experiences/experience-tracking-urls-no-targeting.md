@@ -3,16 +3,14 @@ title: Personalizar os URLs de rastreamento para uma experiência sem direcionam
 description: Saiba como personalizar os URLs de rastreamento para cada criativo em uma experiência sem definição de metas da árvore de decisão.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Personalizar os URLs de rastreamento para uma experiência sem o direcionamento da árvore de decisão
-
-*Beta fechado*
 
 Para experiências sem direcionamento de árvore de decisão, é possível criar até cinco URLs de rastreamento de impressão personalizados, cinco URLs de rastreamento de cliques personalizados e um URL de página de aterrissagem personalizado para cada criativo individual usado para a tag de experiência de anúncio. Você pode personalizar as URLs de rastreamento no [!UICONTROL Tag Manager].
 

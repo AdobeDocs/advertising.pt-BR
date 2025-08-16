@@ -3,16 +3,14 @@ title: Macros disponíveis para rastrear URLs
 description: Referencie as macros que você pode adicionar aos URLs da sua página inicial, URLs de rastreamento e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Macros disponíveis para rastrear URLs
-
-*Beta fechado*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamen
 >* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Configurações de experiência direcionadas](/help/creative/experiences/experience-settings-targeting.md)
->*[Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)

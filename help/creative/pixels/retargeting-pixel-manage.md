@@ -3,16 +3,14 @@ title: Gerenciar pixels de redirecionamento
 description: Saiba como criar e implementar pixels de redirecionamento para usar como destinos para experiências de anúncio.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Gerenciar pixels de redirecionamento
-
-*Beta fechado*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ Ao direcionar experiências de anúncios para usuários expostos ao pixel, as co
 
 Ao direcionar experiências de anúncios para usuários expostos ao pixel, as configurações de direcionamento especificam os valores de atributo que devem estar presentes para exibir as criações.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (recurso Beta; somente novos pixels; opcional) Tipos de IDs universais para a marca de pixel a ser rastreada:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Somente novos pixels; opcional) Tipos de IDs universais para a marca de pixel a ser rastreada:
 
 * *[!UICONTROL ID5]:* A marca de pixel rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 

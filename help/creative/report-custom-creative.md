@@ -3,7 +3,7 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Saiba como gerar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Custom Creative Report]
 
-*Beta fechado*
+*recurso do Beta*
 
 O [!UICONTROL Custom Creative Report] permite personalizar o conteúdo e a entrega de dados de relatório para todas as suas experiências de anúncio.
 
@@ -67,7 +67,7 @@ Esta seção determina as datas em que o relatório é executado. Para configura
   >
   >Você também pode [executar um relatório personalizado a qualquer momento](/help/dsp/reports/report-run-now.md) na exibição [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Executa o relatório em uma data especificada para conclusão às 09:00 no fuso horário da conta.
+* *[!UICONTROL On]\&lt;Date\>:* Executa o relatório em uma data especificada para conclusão até 09:00 no fuso horário da conta.
 
 * *[!UICONTROL Recurring]:* Executa o relatório de acordo com um agendamento durante um período de tempo especificado.
 
@@ -161,7 +161,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 

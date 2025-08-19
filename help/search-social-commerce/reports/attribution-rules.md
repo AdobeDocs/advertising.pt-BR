@@ -2,10 +2,10 @@
 title: Como as regras de atribuição são calculadas
 description: Saiba como o Adobe Advertising calcula cada tipo de regra de atribuição.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 A regra de atribuição no nível do anunciante é usada para atribuir dados de conversão — possivelmente em vários canais de anúncios — em uma série de eventos que levam a uma conversão.
 
-Em relatórios, exibições padrão e personalizadas do Advertising Search, Social, &amp; Commerce (Search, Social, &amp; Commerce) e (algumas funções de usuário) simulações em nível de portfólio para Search, Social, &amp; Commerce, a regra selecionada é usada somente para a exibição, relatório ou dados de simulação. As várias regras de atribuição são aplicadas da seguinte maneira:
+Você também pode selecionar uma regra de atribuição nos seguintes locais para aplicar a regra somente aos dados resultantes:
+
+* DSP
+
+   * Relatórios personalizados com atribuição multitoque
+
+* Pesquisa, Social e Commerce
+
+   * Relatórios personalizados
+
+   * Exibições padrão e personalizadas
+
+   * (Algumas funções de usuário) Simulações em nível de Portfolio.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Como as regras de atribuição são calculadas
 description: Saiba como o Adobe Advertising calcula cada tipo de regra de atribuição.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
+source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
 workflow-type: tm+mt
-source-wordcount: '2711'
+source-wordcount: '2707'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Você também pode selecionar uma regra de atribuição nos seguintes locais par
 
 * DSP
 
-   * Relatórios personalizados com atribuição multitoque
+   * Relatórios personalizados
 
 * Pesquisa, Social e Commerce
 
-   * Relatórios personalizados
+   * Relatórios
 
    * Exibições padrão e personalizadas
 

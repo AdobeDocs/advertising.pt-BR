@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Saiba como gerar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
+source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 O [!UICONTROL Custom Creative Report] permite personalizar o conteúdo e a entrega de dados de relatório para todas as suas experiências de anúncio.
 
-Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou mensalmente às 03:00 no fuso horário especificado, de acordo com os critérios especificados (como a cada 15 dias ou no primeiro dia de cada mês). Depois que um relatório é gerado, você pode baixá-lo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou dos [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
+Você pode gerar relatórios uma vez ou pode agendá-los diariamente, semanalmente ou mensalmente às 03:00 no fuso horário especificado, de acordo com os critérios especificados (como a cada 15 dias ou no primeiro dia de cada mês). Depois que um relatório é gerado, você pode baixá-lo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou dos [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -161,7 +161,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 

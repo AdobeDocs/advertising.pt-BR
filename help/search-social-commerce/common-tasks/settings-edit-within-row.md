@@ -3,7 +3,7 @@ title: Editar configurações diretamente em uma linha
 description: Saiba como editar dados em exibições de gerenciamento na linha.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 4b8e0a8338e17cbf4b3a48808f39492fc953f7e6
+source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## (Nova interface do usuário) Editar configurações em uma linha
 
-1. Clique dentro da célula para torná-la ativa ou mantenha o cursor sobre o valor e clique em [Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
+1. Clique dentro da célula para torná-la ativa ou mantenha o cursor sobre o valor e clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
 
 1. Altere o valor.
 

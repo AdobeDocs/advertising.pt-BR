@@ -3,9 +3,9 @@ title: Editar configurações diretamente em uma linha
 description: Saiba como editar dados em exibições de gerenciamento na linha.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## (Nova interface do usuário) Editar configurações em uma linha
 
-1. Clique dentro da célula para torná-la ativa ou mantenha o cursor sobre o valor e clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
+1. Clique dentro da célula para torná-la ativa ou mantenha o cursor sobre o valor.
 
-1. Altere o valor.
+1. Altere o valor:
 
-1. Clique em **Aplicar**.
+   * (Opções em uma lista) Selecione uma nova opção na lista.
 
-<!--
-1. Change the value:
+   * (Valores de forma livre) Clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar"), altere o valor e clique em **Aplicar**.
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## (Interface herdada) Editar configurações em uma linha
 

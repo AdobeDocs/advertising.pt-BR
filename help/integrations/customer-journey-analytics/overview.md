@@ -2,9 +2,10 @@
 title: Visão geral da integração entre o Adobe Advertising e o Adobe Customer Journey Analytics
 description: Saiba mais sobre as opções para integrar o Adobe Advertising ao Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: ed3c3b4331b743d0c40f04fb8543c535d80ca1d5
+exl-id: 57636259-f91a-404f-b972-994af67098b1
+source-git-commit: 37c0485189c9bf084d4051fec501a1b2128687ec
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,31 +16,29 @@ ht-degree: 0%
 
 *Anunciantes com o Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
-O Adobe Advertising é integrado ao Adobe Customer Journey Analytics para compartilhamento de dados bidirecional. Há duas opções para configurar a integração:
+O Adobe Advertising é integrado ao Adobe Customer Journey Analytics para compartilhamento e emissão de relatórios de dados bidirecionais. Há duas opções para configurar a integração:
 
 * Anunciantes com [!DNL Analytics for Advertising] e Customer Journey Analytics têm a mesma funcionalidade que têm até [!DNL Analytics for Advertising], com a adição de visualizações no Customer Journey Analytics.
 
   Você ainda rastreará eventos de click-through usando o Adobe Experience Platform Web SDK (`alloy.js`) ou o Adobe Experience Cloud Identity Service (`visitorAPI.js`). Os anunciantes com o Advertising DSP ainda usarão um trecho do JavaScript para rastrear eventos de view-through. Os dados disponíveis no Customer Journey Analytics incluem:
 
-   * Dados de desempenho da campanha do Adobe Advertising
+   * Dados de desempenho da campanha do Adobe Advertising no Customer Journey Analytics
 
-     **Observação:** dados de [!DNL Apple] e [!DNL Tiktok] não estão disponíveis.
+   * Atividade do site e conversões controladas por [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Meta] no Customer Journey Analytics
 
-   * Atividade do site e conversões controladas por [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Meta]
-
-   * Dados de atribuição de [!DNL Analytics], que podem ser usados para otimização e relatórios no Adobe Advertising
+   * Dados de atribuição de [!DNL Analytics] no Adobe Advertising, onde podem ser usados para otimização e relatórios
 
   Nesse caso de uso, não é necessário executar nenhuma etapa extra, exceto para [coletar opcionalmente dados históricos para IDs AMO e IDs EF para uso no Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 
 * (Recurso beta futuro) Os anunciantes com o Customer Journey Analytics, mas não com o [!DNL Analytics for Advertising], podem trocar nativamente os dados a seguir entre o Adobe Advertising e o Customer Journey Analytics rastreando eventos de click-through e view-through com o Adobe Experience Platform Web SDK (`alloy.js`). Os dados estão disponíveis nos níveis de campanha, grupo de publicidade, pacote, disposição e palavra-chave.
 
-   * Dados de desempenho da campanha do Adobe Advertising
+   * Dados de desempenho da campanha do Adobe Advertising no Customer Journey Analytics
 
      **Observação:** dados de [!DNL Apple] e [!DNL Tiktok] não estão disponíveis.
 
-   * Atividade do site e conversões controladas por [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Meta]
+   * Atividade do site e conversões controladas por [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Meta] no Customer Journey Analytics
 
-   * Dados de atribuição do Customer Journey Analytics, que podem ser usados para otimização e relatórios no Adobe Advertising
+   * Dados de atribuição do Customer Journey Analytics no Adobe Advertising, onde podem ser usados para otimização e relatórios
 
   **Observação:** ainda não há dados orgânicos disponíveis.<!-- Does that belong somewhere up above? -->
 

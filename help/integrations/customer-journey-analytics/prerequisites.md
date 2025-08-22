@@ -2,9 +2,9 @@
 title: Pré-requisitos para integração do Adobe Advertising com o Customer Journey Analytics
 description: Pré-requisitos para integração do Adobe Advertising com o Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: b93ea465edf98837bf7af693b6b5f5bbd4adea02
+source-git-commit: 199fc8f6784dbbb43eeb8fcfe9c6f0f35cfdad6b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 >[!MORELIKETHIS]
 >
 >* [Visão geral](overview.md)
+>* (Usuários do Adobe Analytics) [Coletar Dados Históricos para IDs AMO e IDs EF para Uso no Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).

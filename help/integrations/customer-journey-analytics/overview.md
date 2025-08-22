@@ -2,9 +2,9 @@
 title: Visão geral da integração entre o Adobe Advertising e o Adobe Customer Journey Analytics
 description: Saiba mais sobre as opções para integrar o Adobe Advertising ao Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 71653e59a22201e8b77ce07119053a11eac60a19
+source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,4 @@ Entre em contato com a equipe de conta da Adobe, que concluirá a configuração
 >[!MORELIKETHIS]
 >
 >* [Pré-requisitos](prerequisites.md)
+>* (Usuários do Adobe Analytics) [Coletar Dados Históricos para IDs AMO e IDs EF para Uso no Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).

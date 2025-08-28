@@ -3,9 +3,9 @@ title: Pré-requisitos para integração do Adobe Advertising com o Customer Jou
 description: Pré-requisitos para integração do Adobe Advertising com o Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: ba23ab97c916f829cf9d640669423dd8e72949c0
+source-git-commit: 194675147b64af37de6373116f246f1e61388a23
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Pré-requisitos para integração do Adobe Advertising com o Customer Journey Analytics
 
 *Anunciantes com o Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
-
-Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe Customer Journey Analytics.
-
-## Requisitos para relatórios de dados do Adobe Advertising no Customer Journey Analytics
 
 * Anunciantes com [!DNL Analytics for Advertising] e Customer Journey Analytics:
 
@@ -28,7 +24,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 
    * Biblioteca Adobe Experience Platform Web SDK: `alloy.js`
 
-     O [!DNL Org ID] usado para o Web SDK e para a conta de anunciante do Adobe Advertising deve ser o mesmo. Você pode encontrar essa ID na [guia Resumo do Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=pt-BR).
+     O [!DNL Org ID] usado para o Web SDK e para a conta de anunciante do Adobe Advertising deve ser o mesmo. Você pode encontrar essa ID na [guia Resumo do Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
      ![Tela Resumo do Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 

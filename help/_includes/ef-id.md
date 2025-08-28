@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8c36de7ffe73f86a4e78f11e38cd84fa59134833
+source-git-commit: 47b5d399d4a5daa8832456abc32fff68e694abe9
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## IDs EF do Adobe Advertising
 
-A ID de EF é um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição de cliques ou anúncios online. A ID EF é armazenada na dimensão [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=pt-BR) ou [!DNL rVar] (reservada [!DNL eVar]) (ID EF Adobe Advertising) e rastreia cada clique ou exposição de anúncio no nível de navegador ou dispositivo individual. As IDs de EF atuam principalmente como chaves para enviar dados do [!DNL Analytics] à Adobe Advertising para relatórios e otimização de oferta no Adobe Advertising.
+A ID de EF é um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição de cliques ou anúncios online. A ID EF é armazenada na dimensão [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou [!DNL rVar] (reservada [!DNL eVar]) (ID EF Adobe Advertising) e rastreia cada clique ou exposição de anúncio no nível de navegador ou dispositivo individual. As IDs de EF atuam principalmente como chaves para enviar dados do [!DNL Analytics] à Adobe Advertising para relatórios e otimização de oferta no Adobe Advertising.
 
-### Formato de ID EF
+### Formatos de ID EF {#ef-id-formats}
 
 >[!NOTE]
 >

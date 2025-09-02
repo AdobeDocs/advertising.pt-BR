@@ -2,9 +2,9 @@
 title: Métricas e dimensões do Adobe Advertising no Customer Journey Analytics
 description: Consulte as métricas e dimensões do Adobe Advertising disponíveis no Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
+source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ O Adobe Advertising transmite métricas e dimensões de tráfego para [!DNL Cust
 
 <!-- Verify column names -->
 
->[!NOTE]
->
->* &quot;Nome do campo XDM&quot; é o nome do campo no Adobe Experience Platform.
->* &quot;Nome de exibição do campo XDM&quot; indica o nome de exibição no Customer Journey Analytics.
+Na tabela a seguir:
+
+* &quot;Nome do campo XDM&quot; é o nome do campo no Adobe Experience Platform.
+
+* &quot;Nome de exibição do campo XDM&quot; indica o nome de exibição no Customer Journey Analytics.
 
 | Nome do campo Adobe Advertising | Nome do campo XDM | Nome de exibição do campo XDM | Source |
 |------------------------------|----------------|------------------------|--------|
@@ -59,10 +60,11 @@ O Adobe Advertising transmite métricas e dimensões de tráfego para [!DNL Cust
 
 ## Dimensões do Adobe Advertising
 
->[!NOTE]
->
->* &quot;Campo XDM&quot; é o nome do campo no Adobe Experience Platform.
->* &quot;Nome de exibição do campo XDM&quot; indica o nome de exibição no Customer Journey Analytics.
+Na tabela a seguir:
+
+* &quot;Nome do campo XDM&quot; é o nome do campo no Adobe Experience Platform.
+
+* &quot;Nome de exibição do campo XDM&quot; indica o nome de exibição no Customer Journey Analytics.
 
 | Nome do campo Adobe Advertising | Nome do campo XDM | Nome de exibição do campo XDM | Source |
 |------------------------------|----------------|------------------------|--------|

@@ -3,9 +3,9 @@ title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 É possível salvar e gerenciar públicos reutilizáveis, que são grupos de segmentos de público-alvo e até mesmo outros públicos salvos, que você pode usar como destinos ou exclusões para vários posicionamentos.
+
+>[!NOTE]
+>
+>(Anunciantes para os quais o DSP converte IDs de email com hash em segmentos LiveRamp RampID) Os segmentos primários RampID que não são anexados a uma inserção ativa, programada ou pausada são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 

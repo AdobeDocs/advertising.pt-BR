@@ -3,9 +3,9 @@ title: Editar um público-alvo reutilizável
 description: Saiba como editar um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Editar um público-alvo reutilizável
 
 Ao editar um público que é usado em qualquer posicionamento ou outro público reutilizável, as alterações são aplicadas imediatamente a esses posicionamentos e públicos.<!-- verify -->
+
+>[!NOTE]
+>
+>(Anunciantes para os quais o DSP converte IDs de email com hash em segmentos LiveRamp RampID) Os segmentos primários RampID que não são anexados a uma inserção ativa, programada ou pausada são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 

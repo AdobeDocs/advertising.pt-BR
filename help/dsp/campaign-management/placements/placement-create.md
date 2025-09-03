@@ -3,9 +3,9 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ ht-degree: 0%
 
       1. Restrinja o público. Isso inclui selecionar segmentos de público-alvo para direcionar na disposição.
 
-         Para [!DNL Roku] posicionamentos, você pode aproveitar a correspondência exclusiva de [público-alvo do DSP com [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluindo um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceito).
+         Para [!DNL Roku] posicionamentos, você pode aproveitar a correspondência do público-alvo exclusivo do [DSP com [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluindo um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceito).
+
+         Segmentos RampID primários que não são anexados a um posicionamento ativo, agendado ou pausado são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
       1. (Para campanhas com direcionamento entre dispositivos em nível de pessoas; opcional) Quando o posicionamento segmenta um ou mais públicos específicos, habilite o direcionamento entre dispositivos com base em pessoas para o posicionamento.
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)
+>* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/340454)

@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Como opção, é possível exportar a lista de sites direcionados e bloqueados c
 * Para selecionar um público existente, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences] e selecione o público.
 * Para criar uma audiência, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences] e selecione **[!UICONTROL + Create Audience]**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), a partir da Etapa 3.
 * Para selecionar segmentos específicos de público, clique em **[!UICONTROL Select segments for this placement only]**. Selecione a lógica do segmento. Para obter instruções, consulte a Etapa 6 em &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; Quando terminar, clique em **Salvar**.
+
+>[!NOTE]
+>
+>Segmentos RampID primários que não são anexados a um posicionamento ativo, agendado ou pausado são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
 **[!UICONTROL Excluded Audiences]:** Qualquer público-alvo a ser excluído para o posicionamento, incluindo públicos-alvo com [segmentos de terceiros, segmentos primários, segmentos do Adobe, segmentos personalizados e públicos-alvo salvos](/help/dsp/audiences/audience-settings.md). O tamanho total e ativo do público desduplicado em todos os públicos excluídos também é exibido. Você pode selecionar um público existente ou criar um novo público que poderá reutilizar posteriormente:
 

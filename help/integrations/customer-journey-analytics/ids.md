@@ -3,9 +3,9 @@ title: Adobe Advertising IDs usadas pelo Customer Journey Analytics
 description: Adobe Advertising IDs usadas pelo Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: 1026871782c257a70278c4f4bb4208d321bd8200
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -70,5 +70,5 @@ For any reporting or auditing within [!DNL Analytics], the best practice is to u
 >
 >* [Visão geral](overview.md)
 >* [Pré-requisitos](prerequisites.md)
+>* [Configurar a coleta de dados, a transferência de dados e os relatórios](set-up.md)
 >* [Métricas e dimensões do Adobe Advertising no Customer Journey Analytics](advertising-data-in-cja.md)
-

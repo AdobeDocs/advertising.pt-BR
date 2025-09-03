@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Creative Optimization]**.&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 
@@ -39,6 +39,16 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
    * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
 
       * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+
+   * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
+
+      1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+     Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+      1. Insira o número de impressões para cada sequência.
+
+      1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -56,7 +66,7 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
@@ -74,6 +84,16 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
+      * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
+
+         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+         1. Insira o número de impressões para cada sequência.
+
+         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+
 1. Para cada agendamento adicional:
 
    1. Clique em **[!UICONTROL + Add Schedule]**.
@@ -89,6 +109,16 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
       * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+
+      * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada, com um número total especificado de impressões em cada sequência de pacote. Ao habilitar o sequenciamento:
+
+         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+         1. Insira o número de impressões para cada sequência.
+
+         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Clique em **[!UICONTROL Save]**.
 

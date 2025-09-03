@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nós do Target somente com criações existentes*
 
-Por padrão, a rotação criativa de uma experiência é determinada de forma algorítmica para otimizar a taxa geral de cliques, e as configurações de otimização criativa se aplicam a todos os pacotes atribuídos. Você pode personalizar a rotação criativa para executar manualmente as criações em cada pacote de acordo com pesos relativos ou otimizar de forma algorítmica para uma meta personalizada do Advertising DSP especificada. Você também pode agendar pacotes criativos específicos para execução durante períodos de tempo sequenciais especificados e aplicar configurações de rotação criativa personalizadas para cada agendamento.
+Por padrão, a rotação criativa de uma experiência é determinada de forma algorítmica para otimizar a taxa geral de cliques, e as configurações de otimização criativa se aplicam a todos os pacotes atribuídos. Você pode personalizar a rotação criativa para executar manualmente as criações em cada pacote para otimizar de forma algorítmica para uma meta personalizada do Advertising DSP especificada; de acordo com uma sequência de pacotes especificada, com um número especificado de impressões em cada sequência de pacotes; ou de acordo com pesos relativos. Você também pode agendar pacotes criativos específicos para execução durante períodos de tempo sequenciais especificados e aplicar configurações de rotação criativa personalizadas para cada agendamento.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Por padrão, a rotação criativa de uma experiência é determinada de forma al
 
 Quando o agendamento criativo está desativado, as configurações de otimização criativa se aplicam a todas as criações atribuídas.
 
-1. Mantenha o cursor sobre o nó folha criativa abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Mantenha o cursor sobre o nó folha criativa abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 
@@ -36,6 +36,16 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
       * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
+   * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
+
+      1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+     Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+      1. Insira o número de impressões para cada sequência.
+
+      1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+
 1. Clique em **[!UICONTROL Save]**.
 
 ## Configurar a otimização criativa com programação criativa
@@ -44,7 +54,7 @@ Opcionalmente, é possível agendar pacotes de criação específicos para execu
 
 Ao usar o agendamento, você deve agendar pacotes pela duração da experiência.
 
-1. Mantenha o cursor sobre o nó folha criativa abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Mantenha o cursor sobre o nó folha criativa abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
@@ -62,6 +72,16 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
+      * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
+
+         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+         1. Insira o número de impressões para cada sequência.
+
+         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+
 1. Para cada agendamento adicional:
 
    1. Clique em **[!UICONTROL + Add Schedule]**.
@@ -77,6 +97,16 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
       * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
          * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+
+      * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada, com um número total especificado de impressões em cada sequência de pacote. Ao habilitar o sequenciamento:
+
+         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+
+            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+
+         1. Insira o número de impressões para cada sequência.
+
+         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Clique em **[!UICONTROL Save]**.
 

@@ -3,9 +3,9 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Cada experiência de anúncio pode incluir um tipo de anúncio (exibição padr�
 
 * **Agendamento:** (opcional) agende criações específicas para serem executadas durante períodos sequenciais especificados.
 
-* **Rotação do anúncio:** Gire as criações manualmente de acordo com os pesos relativos ou de forma algorítmica de acordo com a meta de otimização especificada.
+* **Rotação do anúncio:** Gire as criações de forma algorítmica, de acordo com a meta de otimização especificada, de acordo com uma sequência de pacotes especificada ou de acordo com pesos relativos.
 
 * **Meta de otimização:** otimize os elementos de anúncio para a melhor taxa de cliques ou uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md)
 

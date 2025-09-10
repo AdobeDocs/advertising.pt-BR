@@ -3,9 +3,9 @@ title: Adobe Advertising IDs Usadas por [!DNL Analytics]
 description: Adobe Advertising IDs Usadas por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: dbbba0bd75f3b1003325b665d06bce003c5ee054
+source-git-commit: 1d7f66dd2d4775231fb21e3d79a2e337f375679b
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -42,57 +42,9 @@ O Adobe Advertising faz a distinção entre uma entrada click-through ou view-th
 
 *Figura 2: Integração [!DNL Analytics] baseada em URLs de cliques do Adobe Advertising*
 
-## IDs EF do Adobe Advertising
+<!-- ## Adobe Advertising EF IDs -->
 
-A ID de EF é um token exclusivo que o Adobe Advertising usa para associar a atividade a uma exposição de cliques ou anúncios online. A ID EF é armazenada na dimensão [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=pt-BR) ou [!DNL rVar] (reservada [!DNL eVar]) (ID EF Adobe Advertising) e rastreia cada clique ou exposição de anúncio no nível de navegador ou dispositivo individual. As IDs de EF atuam principalmente como chaves para enviar dados do [!DNL Analytics] à Adobe Advertising para relatórios e otimização de oferta no Adobe Advertising.
-
-### Formato de ID EF
-
->[!NOTE]
->
->EF IDs fazem distinção entre maiúsculas e minúsculas. Se uma implementação [!DNL Analytics] forçar o rastreamento de URL em minúsculas, o Adobe Advertising não reconhecerá a ID de EF. Isso afeta os lances e os relatórios do Adobe Advertising, mas não afeta os relatórios do Adobe Advertising no [!DNL Analytics].
-
-#### [!DNL Google Ads] anúncios de pesquisa
-
-```
-{gclid}:G:s
-```
-
-em que:
-
-* `gclid` é o [!DNL Google Click ID] (GCLID).
-* `s` é o tipo de rede (s para pesquisa).
-
-#### [!DNL Microsoft Advertising] anúncios de pesquisa
-
-```
-{msclkid}:G:s
-```
-
-em que:
-
-* `msclkid` é o [!DNL Microsoft Click ID] (MSCLKID).
-* `s` é o tipo de rede (s para pesquisa).
-
-#### Exibir anúncios e anúncios de pesquisa em outros mecanismos de pesquisa
-
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
-
-em que:
-
-* &lt;*ID de visitante do Adobe Advertising*> é um identificador exclusivo por visitante (como UhKVaAAABCkJ0mDt). Também chamado de *ID do surfer*.
-
-* &lt;*carimbo de data/hora*> é a hora no formato AAAAMMDDHHMMSS (como 20190821192533 para Ano 2019, Mês 08, Dia 21, Hora 19:25:33).
-
-* &lt;*tipo de canal*> é o tipo de canal responsável pelo clique ou exposição:
-
-   * `d` para um clique em um anúncio de exibição do DSP (click-through de exibição)
-   * `i` para obter uma impressão de um anúncio de exibição do DSP (view-through)
-   * `s` para um clique em um anúncio de Pesquisa (click-through de pesquisa).
-
-Exemplo `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+{{$include /help/_includes/ef-id.md}}
 
 ### O Dimension da ID EF em [!DNL Analytics]
 
@@ -102,39 +54,9 @@ As IDs de EF estão sujeitas ao limite de identificador exclusivo de 500k no Ana
 
 ## IDs do Adobe Advertising AMO {#amo-id}
 
-A ID do AMO rastreia cada combinação única de anúncios em um nível menos granular e é usada para a classificação de dados do [!DNL Analytics] e a assimilação de métricas de publicidade (como impressões, cliques e custo) do Adobe Advertising. A ID do AMO está armazenada em uma [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=pt-BR) ou dimensão de rVar (ID do AMO) e é usada exclusivamente para relatórios em [!DNL Analytics].
+A ID do AMO rastreia cada combinação única de anúncios em um nível menos granular e é usada para a classificação de dados do [!DNL Analytics] e a assimilação de métricas de publicidade (como impressões, cliques e custo) do Adobe Advertising. A ID do AMO está armazenada em uma [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) ou dimensão de rVar (ID do AMO) e é usada exclusivamente para relatórios em [!DNL Analytics].
 
 A ID do AMO também é chamada de `s_kwcid`, que às vezes é pronunciado como &quot;[!DNL squid]&quot;.
-
-### Formas de implementação da ID do AMO {#amo-id-implement}
-
-O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneiras:
-
-* (Recomendado) Quando o recurso de inserção do lado do servidor é implementado.
-
-   * Clientes do DSP: o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final visualiza um anúncio de exibição com o pixel do Adobe Advertising.
-
-   * Clientes do Search, Social e Commerce:
-
-      * Para contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising] com a configuração [!UICONTROL Auto Upload] ativada para a conta ou campanha, o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final clica em um anúncio com o pixel do Adobe Advertising.
-
-      * Para outras redes de publicidade, ou contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising] com a configuração [!UICONTROL Auto Upload] desabilitada, adicione manualmente o parâmetro aos seus [parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que o anexam às suas URLs base.
-
-* Quando o recurso de inserção do lado do servidor não está implementado:
-
-   * Clientes do DSP: o [código JavaScript](javascript.md) registra automaticamente click-throughs e view-throughs. Quando um navegador não é compatível com cookies de terceiros, você ainda pode rastrear conversões baseadas em cliques para os seguintes tipos de anúncio:
-
-      * Para marcas de anúncio [!DNL Flashtalking], insira manualmente macros adicionais por &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md).&quot; **Observação:** este procedimento não será necessário se sua organização tiver uma parceria direta com [!DNL Flashtalking] e você usar macros de passagem de dados para rastrear os parâmetros de rastreamento `s_kwcid` e `ef_id` de acordo com a documentação de suporte do [!DNL Flashtalking] em [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
-
-      * Para marcas de anúncio [!DNL Google Campaign Manager 360], insira manualmente macros adicionais por &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
-
-   * Clientes do Search, Social e Commerce:
-
-      * Para os anúncios ([!DNL Google Ads] e [!DNL Microsoft Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem, idealmente no [nível de conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, a menos que seja necessário um rastreamento diferente para componentes de conta individuais.
-
-      * Para anúncios em todas as outras redes de anúncios, adicione manualmente o parâmetro da ID do AMO aos seus [parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que o anexam às suas URLs base.
-
-Para implementar o recurso de inserção do lado do servidor ou determinar a melhor opção para sua empresa, entre em contato com a equipe de conta da Adobe.
 
 ### Formatos de ID AMO {#amo-id-formats}
 
@@ -235,13 +157,13 @@ em que:
 >[!NOTE]
 >
 > Para contas com campanhas sem a opção de rastreamento [!UICONTROL Auto Upload] que ainda não foram migradas para o novo formato, atualize manualmente cada sufixo de página de aterrissagem para incluir o formato acima.
-> &#x200B;>Enquanto isso, os formatos herdados, como os seguintes, ainda funcionam:
+> >Enquanto isso, os formatos herdados, como os seguintes, ainda funcionam:
 >* Pesquisar campanhas:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campanhas de compras (usando [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campanhas de rede de público-alvo:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
@@ -264,6 +186,36 @@ em que:
 * `{source_type}` é o tipo de site no qual o anúncio foi exibido: *b* para pesquisa, *c* para contexto (conteúdo) ou *ct* para categoria.
 * `{phrase_id}` é a ID numérica da rede de publicidade para a palavra-chave.
 
+### Formas de implementação da ID do AMO {#amo-id-implement}
+
+O parâmetro é adicionado aos URLs de rastreamento de uma das seguintes maneiras:
+
+* (Recomendado) Quando o recurso de inserção do lado do servidor é implementado.
+
+   * Clientes do DSP: o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final visualiza um anúncio de exibição com o pixel do Adobe Advertising.
+
+   * Clientes do Search, Social e Commerce:
+
+      * Para contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising] com a configuração [!UICONTROL Auto Upload] ativada para a conta ou campanha, o servidor de pixels anexa automaticamente o parâmetro s_kwcid aos sufixos da página de aterrissagem quando um usuário final clica em um anúncio com o pixel do Adobe Advertising.
+
+      * Para outras redes de publicidade, ou contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising] com a configuração [!UICONTROL Auto Upload] desabilitada, adicione manualmente o parâmetro aos seus [parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que o anexam às suas URLs base.
+
+* Quando o recurso de inserção do lado do servidor não está implementado:
+
+   * Clientes do DSP: o [código JavaScript](javascript.md) registra automaticamente click-throughs e view-throughs. Quando um navegador não é compatível com cookies de terceiros, você ainda pode rastrear conversões baseadas em cliques para os seguintes tipos de anúncio:
+
+      * Para marcas de anúncio [!DNL Flashtalking], insira manualmente macros adicionais por &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Marcas de anúncio](/help/integrations/analytics/macros-flashtalking.md).&quot; **Observação:** este procedimento não será necessário se sua organização tiver uma parceria direta com [!DNL Flashtalking] e você usar macros de passagem de dados para rastrear os parâmetros de rastreamento `s_kwcid` e `ef_id` de acordo com a documentação de suporte do [!DNL Flashtalking] em [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
+
+      * Para marcas de anúncio [!DNL Google Campaign Manager 360], insira manualmente macros adicionais por &quot;[Acrescentar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Marcas de anúncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+   * Clientes do Search, Social e Commerce:
+
+      * Para os anúncios ([!DNL Google Ads] e [!DNL Microsoft Advertising]), adicione manualmente o parâmetro da ID do AMO aos sufixos da sua página de aterrissagem, idealmente no [nível de conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, a menos que seja necessário um rastreamento diferente para componentes de conta individuais.
+
+      * Para anúncios em todas as outras redes de anúncios, adicione manualmente o parâmetro da ID do AMO aos seus [parâmetros de acréscimo no nível da conta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que o anexam às suas URLs base.
+
+Para implementar o recurso de inserção do lado do servidor ou determinar a melhor opção para sua empresa, entre em contato com a equipe de conta da Adobe.
+
 ### DIMENSION de ID AMO em [!DNL Analytics]
 
 Nos relatórios do Analytics, você pode encontrar dados da ID do AMO pesquisando a dimensão [!UICONTROL AMO ID] e usando a métrica [!UICONTROL AMO ID Instances]. A dimensão [!UICONTROL AMO ID] hospeda todos os valores de ID do AMO capturados, enquanto a métrica [!UICONTROL AMO ID Instances] indica com que frequência um valor de ID do AMO foi capturado pelo site. Por exemplo, se o mesmo anúncio de pesquisa foi clicado quatro vezes, mas o Analytics rastreou sete entradas de site, então [!UICONTROL AMO ID Instances] seria sete (7) e [!UICONTROL Clicks] seriam quatro (4).
@@ -272,7 +224,7 @@ Para qualquer relatório ou auditoria em [!DNL Analytics], a prática recomendad
 
 ## Sobre as classificações do Analytics
 
-Em [!DNL Analytics], uma [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=pt-BR) é uma parte dos metadados de um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos do Adobe Advertising usando classificações para que você possa exibir os dados de diferentes maneiras (por exemplo, por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios do Adobe Advertising em [!DNL Analytics] e podem ser usadas com as métricas AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], bem como com eventos personalizados e padrão no site, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
+Em [!DNL Analytics], uma [classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) é uma parte dos metadados de um determinado código de rastreamento, como Conta, Campanha ou Anúncio. O Adobe Advertising categoriza dados brutos do Adobe Advertising usando classificações para que você possa exibir os dados de diferentes maneiras (por exemplo, por Tipo de anúncio ou Campanha) ao gerar relatórios. As classificações formam a base dos relatórios do Adobe Advertising em [!DNL Analytics] e podem ser usadas com as métricas AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], bem como com eventos personalizados e padrão no site, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

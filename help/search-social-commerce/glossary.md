@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Variação de anúncio:** qualquer anúncio dentro de um grupo de anúncios ou estratégia de publicidade.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** um código de rastreamento que permite ao Adobe Advertising compartilhar dados sobre campanhas com a Adobe Analytics. Começa com `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Um código de rastreamento que permite à Adobe Advertising compartilhar dados sobre campanhas com a Adobe Analytics e a Adobe Customer Journey Analytics. Começa com `s_kwcid=`.
 
 **unidade de oferta:** um termo de Pesquisa, Social e Commerce para uma unidade na qual são feitas ofertas.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **rastreamento de conversão:** o rastreamento de conversão usa cookies para rastrear a) cliques nos anúncios de um anunciante nas redes de anúncios e b) as transações resultantes no site do anunciante.
 
-**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Os relatórios de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo que são usados para otimização e o [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclui mais detalhes, além de recomendações para melhorar a precisão do modelo.
+**precisão de custo:** (Anunciantes com portfólios) O gasto real de um portfólio dividido pelo gasto previsto. [Relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicam a precisão dos modelos de custo que são usados para otimização e o [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) inclui mais detalhes, além de recomendações para melhorar a precisão do modelo.
 
 **modelo de custo:** (anunciantes com portfólios) Tecnologia de pesquisa, social e Commerce que prevê o volume de custo, a oferta necessária para ganhar cada posição ou posicionamento e o CPC (pesquisa) ou o CPM (exibição) para cada unidade de oferta usando dados históricos e técnicas de previsão matemática.
 
@@ -141,7 +141,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **transação órfã:** um evento de transação que não pode ser associado a uma palavra-chave ou anúncio específico.
 
-**pixel:** Uma imagem transparente, de um pixel por um pixel, inserida em uma página da Web para fins de rastreamento. As tags de rastreamento de conversão de Adobe Advertising incluem um pixel de imagem de HTML ou JavaScript para rastrear cliques e suas transações resultantes.
+**pixel:** Uma imagem transparente, de um pixel por um pixel, inserida em uma página da Web para fins de rastreamento. As tags de rastreamento de conversão do Adobe Advertising incluem um pixel de imagem do HTML ou o JavaScript para rastrear cliques e suas transações resultantes.
 
 **posicionamento:** um local em uma rede de exibição no qual seus anúncios podem aparecer. Pode ser um site inteiro, um subconjunto de um site ou uma posição de anúncio em uma página específica.
 
@@ -181,7 +181,7 @@ Ela tem o mesmo valor da coluna herdada &quot;Receita ponderada&quot;.
 
 **`s_kwcid`:** Consulte &quot;ID do AMO&quot;.
 
-**modelo de rastreamento:** (contas somente com URLs finais) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final/avançada em um parâmetro. Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
+**modelo de rastreamento:** (contas somente com URLs finais) O modelo de rastreamento ou a URL de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final/avançada em um parâmetro. Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio redirecionamento e código de rastreamento quando você salva o registro.
 
 **URL de rastreamento:** Um modelo de rastreamento ou uma URL de destino com parâmetros extras adicionados para rastrear informações sobre cliques no anúncio. Ele pode incluir um URL de redirecionamento para enviar os usuários inicialmente para um servidor de rastreamento antes de redirecioná-los para a página de aterrissagem do anunciante.
 

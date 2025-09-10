@@ -1,13 +1,11 @@
 ---
-source-git-commit: 4428fb626de79a98d6a37c36057a0d468ce23166
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-# IDs do Adobe Advertising AMO
-
-### Formatos de ID AMO {#amo-id-formats}
+# Formatos de ID AMO {#amo-id-formats}
 
 #### Formato de ID AMO para [!DNL DSP]
 
@@ -106,13 +104,13 @@ em que:
 >[!NOTE]
 >
 > Para contas com campanhas sem a opção de rastreamento [!UICONTROL Auto Upload] que ainda não foram migradas para o novo formato, atualize manualmente cada sufixo de página de aterrissagem para incluir o formato acima.
-> &#x200B;>Enquanto isso, os formatos herdados, como os seguintes, ainda funcionam:
+> >Enquanto isso, os formatos herdados, como os seguintes, ainda funcionam:
 >* Pesquisar campanhas:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campanhas de compras (usando [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campanhas de rede de público-alvo:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

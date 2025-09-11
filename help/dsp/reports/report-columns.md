@@ -3,9 +3,9 @@ title: Colunas de Relatório Disponíveis
 description: Consulte descrições de colunas disponíveis em relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
+source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | O identificador exclusivo da campanha no DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | O nome da campanha conforme atribuído pelo usuário. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | A primeira data da campanha. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | O título do conteúdo. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | O título do conteúdo/filme. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | A série de conteúdo. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | O gênero do conteúdo. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | A qualidade da produção, conforme definido pelo [Laboratório de Tecnologia do IAB](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Os valores podem `Unknown`, `Professionally Produced`, `Prosumer` ou `User Generated`. |

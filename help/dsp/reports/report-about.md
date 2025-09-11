@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -97,11 +97,13 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      Para uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e o Adobe Analytics, consulte &quot;[Perguntas frequentes sobre Relatórios Personalizados](/help/dsp/reports/faq-reports.md).&quot;
 
-   * **[!UICONTROL Path Length]:** Use este relatório para      rastreie o número de pontos de interação do usuário necessários para conversões ao longo do tempo, para que você possa escolher a frequência de publicidade ideal. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
+   * **[!UICONTROL Path Length]:** use este relatório para rastrear o número de pontos de interação do usuário necessários para conversões ao longo do tempo, para que você possa escolher a frequência de anúncio ideal. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
 
      Os dados são exibidos para cada comprimento de caminho de até 10; os dados para comprimentos de caminho superiores a 10 são agrupados.
 
    * **[!UICONTROL Time to Conversion]:** Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+
+   * **[!UICONTROL Content BETA]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
 
 ## Relatório entre contas {#cross-account-reporting}
 

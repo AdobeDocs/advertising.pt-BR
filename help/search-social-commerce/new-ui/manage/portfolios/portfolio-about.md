@@ -3,9 +3,10 @@ title: (Nova interface) Sobre portfólios
 description: Saiba mais sobre portfólios.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Você pode gerenciar suas campanhas publicitárias coletivamente usando portfól
 
 Algumas funções de usuário podem criar e configurar portfólios. Dependendo do tipo de portfólio, as configurações do portfólio podem incluir o objetivo do portfólio, as campanhas atribuídas, a estratégia de gastos, as restrições de lances no nível do portfólio e os parâmetros de modelagem e otimização. Quando estiver pronto para Search, Social e Commerce para iniciar a otimização de um portfólio, altere o status para &quot;otimizado&quot;.
 
-Opcionalmente, é possível agrupar portfólios em grupos de portfólios para exibir dados de cliques e receitas compostos para todo o grupo. Crie grupos de portfólios a partir da [interface herdada](/help/search-social-commerce/getting-started/ui-switch.md).
+Opcionalmente, é possível agrupar portfólios em [grupos de portfólios](portfolio-group-manage.md) para exibir dados compostos para todo o grupo.
 
 Dependendo da sua função, você poderá gerar simulações de desempenho, que usam modelagem preditiva para identificar o seu ponto de gasto ideal e relatórios detalhados de precisão de previsão.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 

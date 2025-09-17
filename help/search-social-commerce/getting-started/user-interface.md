@@ -3,9 +3,9 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
+source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
 * Submenu **[!UICONTROL Manage]**:
 
-   * **[!UICONTROL Portfolio Groups]:** Sai do novo site de interface do usuário e abre a [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] exibição > guia [!UICONTROL Portfolio Groups] herdada.
+<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
 
-   * **[!UICONTROL Portfolios]:** Abre uma nova exibição [!UICONTROL Portfolios] que lista todos os portfólios do anunciante. É possível gerenciar os portfólios nessa visualização. É possível abrir uma lista de restrições atribuídas e exibir detalhes de desempenho e composição de qualquer portfólio.
+* **[!UICONTROL Portfolios]:** Abre uma nova exibição [!UICONTROL Portfolios] que lista todos os portfólios do anunciante. É possível gerenciar os portfólios nessa visualização. É possível abrir uma lista de restrições atribuídas e exibir detalhes de desempenho e composição de qualquer portfólio.
 
-     As configurações do portfólio incluem guias para atribuir o objetivo e as campanhas, gerenciar gastos, gerenciar restrições e controlar a otimização. Somente usuários com a função &quot;otimização de especialista&quot; ou superior podem editar as configurações na guia [!UICONTROL Control Optimization].
+  As configurações do portfólio incluem guias para atribuir o objetivo e as campanhas, gerenciar gastos, gerenciar restrições e controlar a otimização. Somente usuários com a função &quot;otimização de especialista&quot; ou superior podem editar as configurações na guia [!UICONTROL Control Optimization].
 
-   * **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+* **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+  Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** Abre uma nova exibição [!UICONTROL Ad Groups], que mostra todos os grupos de anúncios do anunciante. Você pode gerenciar atribuições de restrição para grupos de anúncios selecionados. Você também pode baixar um relatório do conteúdo da tabela de dados.
 

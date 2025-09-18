@@ -3,7 +3,7 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. Restrinja o público. Isso inclui selecionar segmentos de público-alvo para direcionar na disposição.
 
-         Para [!DNL Roku] posicionamentos, você pode aproveitar a correspondência do público-alvo exclusivo do [DSP com [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluindo um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceito).
+         Para [!DNL Roku] posicionamentos, você pode aproveitar a correspondência exclusiva de [público-alvo do DSP com [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluindo um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceitação).
 
          Segmentos RampID primários que não são anexados a um posicionamento ativo, agendado ou pausado são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * Para anexar anúncios existentes na campanha:
 
-      1. Clique em **[!UICONTROL Select an Ad]**.
-
-      1. Siga um destes procedimentos:
-
-         * Para adicionar um anúncio por vez:
-
-            1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
-
-            1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach Another Ad]** e repita o processo.
-
-         * Para adicionar até 20 anúncios por vez:
-
-            1. Marque a caixa de seleção acima da lista de anúncios.
-
-            1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
-
-            1. Clique em **[!UICONTROL Attach]**.
-
-            1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select]**.
-
-      1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
-
-         1. Clique em **[!UICONTROL Custom Schedule Ads]**.
+         1. Clique em **[!UICONTROL Select an Ad]**.
 
          1. Siga um destes procedimentos:
 
-            * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data de início e a data de término.
+            * Para adicionar um anúncio por vez:
 
-            * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
+               1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
 
-            * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
+               1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach Another Ad]** e repita o processo.
 
-            * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
+            * Para adicionar até 20 anúncios por vez:
 
-              Os pesos totais devem ser iguais a 100.
+               1. Marque a caixa de seleção acima da lista de anúncios.
 
-         1. No canto superior direito, clique em **[!UICONTROL Continue]**.
+               1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
 
-         1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
+               1. Clique em **[!UICONTROL Attach]**.
+
+               1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select]**.
+
+         1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
+
+            1. Clique em **[!UICONTROL Custom Schedule Ads]**.
+
+            1. Siga um destes procedimentos:
+
+               * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data de início e a data de término.
+
+               * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
+
+               * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
+
+               * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
+
+                 Os pesos totais devem ser iguais a 100.
+
+            1. No canto superior direito, clique em **[!UICONTROL Continue]**.
+
+            1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [Editar posicionamentos](placement-edit.md)
 >* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
 >* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
->* [Pausar ou Ativar um Posicionamento](placement-pause-activate.md)
+>* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)
+>* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/340454)

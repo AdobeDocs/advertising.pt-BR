@@ -3,9 +3,9 @@ title: Sobre Insights
 description: Saiba mais sobre insights de desempenho com visualizações.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ A guia [!UICONTROL Household Conversion] fornece métricas de conversão domést
 * (Para abrir insights para todas as campanhas) No menu principal, clique em **[!UICONTROL Insights BETA]**.
 
 * (Para abrir insights para uma campanha, pacote ou posicionamento específico) Ao lado do nome da entidade na exibição [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], clique em **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+* (Para abrir insights para um posicionamento específico) Ao lado do nome da entidade no modo de exibição [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], clique em **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**.
 
 ## Aplicar filtros a uma guia
 

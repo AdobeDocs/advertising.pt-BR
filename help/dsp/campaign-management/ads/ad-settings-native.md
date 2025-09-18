@@ -3,9 +3,9 @@ title: Configurações do anúncio de exibição nativo
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de exibição nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (opcional) a etapa que os visualizadores devem realizar quando visualizarem este anúncio.
 
-**[!UICONTROL Advertiser Logo]:** (Opcional) Um logotipo de proporção 1:1 a ser incluído no anúncio para obter mais reconhecimento da marca. Clique em **[!UICONTROL Browse]**, localize o arquivo em seu dispositivo ou rede e clique em **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (Opcional) Um logotipo com proporção de 1:1 a ser incluído no anúncio para obter mais reconhecimento da marca. Clique em **[!UICONTROL Browse]**, localize o arquivo em seu dispositivo ou rede e clique em **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
+Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads).&quot;
 
 As configurações a seguir se aplicam a cada pixel criado ou editado.
 

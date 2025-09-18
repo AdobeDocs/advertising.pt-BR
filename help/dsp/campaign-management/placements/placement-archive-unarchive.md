@@ -3,7 +3,7 @@ title: Arquivar ou desarquivar um posicionamento
 description: Saiba como arquivar ou desarquivar um posicionamento.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ Você pode desarquivar um posicionamento para restaurar seu status anterior a qu
 
 >[!MORELIKETHIS]
 >
->* [Pausar ou Ativar um Posicionamento](placement-pause-activate.md)
+>* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
 >* [Editar posicionamentos](placement-edit.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)

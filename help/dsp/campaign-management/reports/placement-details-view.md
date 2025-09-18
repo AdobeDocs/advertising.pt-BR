@@ -3,9 +3,9 @@ title: Exibir os detalhes de sites, anúncios, frequência e inventário de uma 
 description: Saiba como visualizar os sites direcionados, anúncios, frequência e dados de inventário para um posicionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
 * **[!UICONTROL Ads]:** Todos os anúncios no posicionamento.
 
-  A guia [!UICONTROL Ads] inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada que estão disponíveis na página principal e botões de ação rápida em cada linha, como [!UICONTROL Pause] (para que você possa pausar um anúncio rapidamente).
+  A guia [!UICONTROL Ads] inclui recursos de pesquisa e filtragem, as mesmas opções de exibição de coluna padrão e personalizada que estão disponíveis na página principal e botões de ação rápida em cada linha, como [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** Dados para cada nível de frequência de anúncio para o posicionamento, incluindo:
    * o nível de frequência do anúncio (como &quot;1&quot; para todas as instâncias em que os usuários viram um anúncio uma vez)
@@ -36,7 +36,7 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
   A guia [!UICONTROL Inventory] permite a solução rápida de problemas ao mostrar estatísticas de desempenho, como [!UICONTROL Auctions], [!UICONTROL Bids] e [!UICONTROL Win Rate]. A guia inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada disponíveis na página principal, e botões de ação rápida em cada linha, incluindo [!UICONTROL Edit], [!UICONTROL View Report] e [[!UICONTROL Auction Insights] para solução de problemas adicional](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Abrir o [!UICONTROL Placement Inspector]
+## Abrir o [!UICONTROL Placement Inspector] {#inspector-open}
 
 1. Abra a exibição de disposições para a campanha ou o pacote principal:
 
@@ -58,21 +58,21 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
       1. Clique no nome do pacote pai.
 
-1. Mantenha o cursor sobre a linha de posicionamento, clique em **[!UICONTROL More]** e clique em uma opção:
-
-   * Para exibir todos os sites aos quais o posicionamento se destina, clique em **[!UICONTROL Sites]**.
-
-   * Para exibir todos os anúncios no posicionamento, clique em **[!UICONTROL Ads]**.
-
-   * Para exibir os dados de frequência do posicionamento, clique em **[!UICONTROL Frequency]**.
-
-   * Para exibir todas as ofertas que o posicionamento direciona, clique em **[!UICONTROL Inventory]**.
+1. Mantenha o cursor sobre a linha de posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
 1. (Opcional) [Altere a exibição de coluna](campaign-data-views-manage.md#column-view-change) conforme necessário para exibir as métricas necessárias.
 
 1. (Opcional) Para exportar os dados em qualquer guia, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") no canto superior direito e clique em **[!UICONTROL Export]**.
 
    Os dados são salvos na pasta de download padrão do navegador como um relatório no formato XLSM.
+
+## Remover um Anúncio de um Posicionamento de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+
+1. [Abra o [!UICONTROL Placement Inspector]](#inspector-open).
+
+1. Clique na guia **[!UICONTROL Ads]**.
+
+1. Ao lado do nome do anúncio, clique em **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
 ## Solução de problemas de inventário
 
@@ -90,5 +90,5 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
 >* [Gerenciar As Visualizações De Dados Do Campaign](campaign-data-views-manage.md)

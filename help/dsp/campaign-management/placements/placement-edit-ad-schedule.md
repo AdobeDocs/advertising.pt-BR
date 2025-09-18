@@ -3,7 +3,7 @@ title: Editar cronogramas de publicidade para inserções
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Você pode alterar as datas de veiculação programadas e a rotação de anúnci
 
 1. No submenu, clique em **[!UICONTROL Placements]**.
 
-1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
+1. Ao lado do nome do posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Ad schedule]**.
 
 1. Siga um destes procedimentos:
 

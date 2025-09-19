@@ -3,9 +3,9 @@ title: Gerenciar listas de negociações
 description: Saiba como criar e gerenciar listas de negócios para direcionamento de posicionamento.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Para ofertas privadas, filtre a lista por editor, SSP ou tipo de oferta (*[!UICONTROL Guaranteed]* ou *[!UICONTROL Non-Guaranteed]*); ou pesquise a lista por nome de oferta ou ID de oferta.
 
-   * Para ofertas de [!UICONTROL On Demand], filtre a lista por editor, região ou tipo de mídia ou pesquise a lista por nome de oferta.
+   * Para ofertas de [!UICONTROL On Demand], filtre a lista por editor, região ou tipo de mídia ou pesquise a lista por nome de oferta. A lista inclui apenas as [!DNL On Demand] ofertas que você assinou.
 
 1. Marque a caixa de seleção ao lado de cada negociação a ser incluída na lista.
 

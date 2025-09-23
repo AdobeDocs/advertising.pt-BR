@@ -3,7 +3,7 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Recommendations]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] herdada.
 
-* **[!UICONTROL Alerts & Notifications]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] herdada.
+   * **[!UICONTROL Alerts & Notifications]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] herdada.
 
 * Submenu **[!UICONTROL Goals]**:
 

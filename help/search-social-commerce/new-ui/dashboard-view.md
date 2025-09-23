@@ -4,7 +4,7 @@ description: Saiba mais sobre os dados disponíveis no seu painel de desempenho.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-O [!UICONTROL Dashboard] personalizável permite monitorar o desempenho de todos os seus portfólios <!-- May later include other entity-level data --> para que você possa identificar possíveis problemas de desempenho a serem investigados e resolvidos. Você pode exibir dados diários, semanais ou mensais de qualquer período nos últimos 90 dias.
+O [!UICONTROL Dashboard] > [!UICONTROL Overview] personalizável permite que você monitore o desempenho de todos os seus portfólios <!-- May later include other entity-level data --> para que você possa identificar possíveis problemas de desempenho a serem investigados e resolvidos. Você pode exibir dados diários, semanais ou mensais de qualquer período nos últimos 90 dias.
 
 Seu [!UICONTROL Dashboard] inclui os seguintes relatórios visuais:
 

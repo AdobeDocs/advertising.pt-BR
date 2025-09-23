@@ -3,9 +3,10 @@ title: Gerenciar atribuições de restrição para campanhas
 description: Saiba como atribuir restrições a campanhas.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 
 1. Marque a caixa de seleção ao lado de cada campanha à qual você atribuirá uma única restrição.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Selecione a restrição.
 
@@ -65,7 +66,7 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 
 1. Marque a caixa de seleção ao lado de cada campanha da qual você cancelará a atribuição de restrições.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/unassign.png "Cancelar atribuição") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Clique em **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 >[!MORELIKETHIS]
 >
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

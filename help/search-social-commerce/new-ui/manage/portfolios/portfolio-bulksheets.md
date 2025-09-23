@@ -3,9 +3,10 @@ title: Editar configurações de portfólio em massa usando arquivos de bulkshee
 description: Saiba como editar as configurações de vários portfólios usando um arquivo de bulksheet.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Um bulksheet de portfólio é um arquivo que contém configurações de portfól
 
 * Uma planilha [!UICONTROL Instructions] somente leitura com informações sobre a edição dos campos.
 
-* Uma guia [!UICONTROL Portfolio Settings Edit], com uma linha por portfólio incluído. Opcionalmente, é possível editar os campos conforme necessário, salvar o arquivo localmente e, em seguida, [carregar o arquivo editado](#portfolio-bulksheet-upload) para Search, Social e Commerce.
+* Uma guia [!UICONTROL Portfolio Settings Edit], com uma linha por portfólio incluído. Opcionalmente, é possível editar os campos conforme necessário, salvar o arquivo localmente e, em seguida, [carregar o arquivo editado](#portfolio-bulksheet-upload) para Search, Social e Commerce. Os campos editáveis são realçados em cores.
 
 ## Baixar um arquivo de bulksheet com configurações de portfólio
 

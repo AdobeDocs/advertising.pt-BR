@@ -3,9 +3,9 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ Por exemplo, suponha que três métricas de conversão sejam relevantes para um 
 
 Depois de [criar uma meta personalizada](#custom-goal-create), você pode [atribuí-la a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algoritmos usando o Adobe Sensei.
 
-As recomendações de peso são geradas automaticamente para métricas atribuídas pelo DSP em objetivos e podem aplicar todas as recomendações de peso com um clique. Todas as alterações de peso nos objetivos com o prefixo &quot;ADSP_&quot; são aplicadas de forma algorítmica no DSP dentro de dois dias. Para obter mais informações sobre recomendações de peso, consulte o capítulo do Guia de otimização em &quot;(Beta) Novos objetivos&quot;, que está disponível no Search, Social e Commerce.
+As recomendações de peso são geradas automaticamente para métricas atribuídas pelo DSP em objetivos e podem aplicar todas as recomendações de peso com um clique. Todas as alterações de peso nos objetivos com o prefixo &quot;ADSP_&quot; são aplicadas de forma algorítmica no DSP dentro de dois dias. Para obter mais informações sobre recomendações de peso, consulte o capítulo do Guia de otimização em &quot;Objetivos&quot;, que está disponível no Search, Social e Commerce.
 
 ## Criar uma meta personalizada {#custom-goal-create}
 
 Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma conta do [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe Experience Cloud, nas configurações de cliente do [!DNL Search, Social, & Commerce]. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a equipe de conta da Adobe.
 
-1. Entre no [!DNL Advertising Search, Social, & Commerce] em (usuários na América do Norte) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) ou (todos os outros usuários) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. [Entre no Advertising Search, Social e Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. Verifique se as métricas que você deseja incluir em sua meta foram rastreadas, estão disponíveis no produto e incluem um nome de exibição:
 
-   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. No menu principal, clique em **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**.
+
+      A visualização Conversões é aberta em um novo navegador ou guia do navegador.
 
    1. Localize a métrica e verifique se **[!UICONTROL Show in UI and Reports]** está habilitado para a métrica.
 
@@ -45,30 +47,24 @@ Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma con
 
    1. Se a métrica não tiver um valor na coluna **[!UICONTROL Display Name]**, clique na célula, digite o nome de exibição e clique em **[!UICONTROL Apply].**
 
-1. Criar a meta personalizada como um *objetivo*:
+1. [Criar a meta personalizada como um *objetivo*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Considere o seguinte:
 
-   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
+   * Para objetivos usados para pacotes do Advertising DSP, o nome do objetivo deve ter o prefixo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. O prefixo não diferencia maiúsculas de minúsculas.
 
-   1. Na barra de ferramentas, clique em ![Criar](/help/dsp/assets/create-search-ui.png "Criar").
+   * Incluir somente métricas atribuídas ao DSP. Qualquer métrica atribuída à Pesquisa, Social e Commerce ou a qualquer outra rede de anúncios é ignorada.
 
-   1. Insira as configurações do objetivo, incluindo as métricas associadas e seus pesos numéricos relativos para dispositivos não móveis, e salve o objetivo. Considere o seguinte:
+   * Pelo menos uma métrica deve ter o tipo de métrica *[!UICONTROL Goal]*.
 
-      * Para objetivos usados para pacotes do Advertising DSP, o nome do objetivo deve ter o prefixo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. O prefixo não diferencia maiúsculas de minúsculas.
+   * O DSP usa os pesos não móveis para todos os anúncios. Quaisquer pesos móveis especificados são ignorados.
 
-      * Incluir somente métricas atribuídas ao DSP. Qualquer métrica atribuída à Pesquisa, Social e Commerce ou a qualquer outra rede de anúncios é ignorada.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics] eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
+   >* [!DNL Analytics] dimensões e segmentos não estão disponíveis para otimização do Adobe Advertising.
 
-      * Pelo menos uma métrica deve ter o tipo de métrica *[!UICONTROL Goal]*.
-
-      * O DSP usa os pesos não móveis para todos os anúncios. Quaisquer pesos móveis especificados são ignorados.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] eventos personalizados seguem esta convenção de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exemplo: `custom_event_16_examplersid`
-      >* [!DNL Analytics] dimensões e segmentos não estão disponíveis para otimização do Adobe Advertising.
-
-      >[!TIP]
-      >
-      >Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para criar uma meta personalizada](#custom-goal-best-practices) para obter diretrizes.
+   >[!TIP]
+   >
+   >Para obter o desempenho ideal, as métricas combinadas na meta personalizada (objetivo) devem totalizar pelo menos dez conversões por dia. Caso contrário, a prática recomendada é adicionar outras métricas de conversão de suporte, como páginas de produtos ou inícios de aplicativos, ao objetivo. Consulte [Práticas recomendadas para criar uma meta personalizada](#custom-goal-best-practices) para obter diretrizes.
 
 Nas configurações de pacote do DSP para pacotes que usam a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, o nome do objetivo agora está incluído na lista [!UICONTROL Custom Goals]. Quando você seleciona o objetivo como meta personalizada para um pacote, a lista [!UICONTROL Conversion Metric] inclui todas as métricas de meta para o objetivo.
 

@@ -3,9 +3,10 @@ title: Gerenciar atribuições de restrição para grupos de anúncios
 description: Saiba como atribuir restrições a grupos de anúncios.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 
 1. Marque a caixa de seleção ao lado de cada grupo de publicidade ao qual você atribuirá uma única restrição.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Selecione a restrição.
 
@@ -58,7 +59,7 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 
 1. Marque a caixa de seleção ao lado de cada grupo de publicidade do qual você cancelará a atribuição de restrições.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/unassign.png "Cancelar atribuição") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Clique em **[!UICONTROL Confirm]**.
 

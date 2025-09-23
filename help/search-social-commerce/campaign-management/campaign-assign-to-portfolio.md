@@ -3,9 +3,9 @@ title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 1. Marque a caixa de seleção ao lado de cada campanha para atribuir a um único portfólio.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
+1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
 
 1. Selecione o portfólio.
 
@@ -38,7 +38,7 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
 1. Marque a caixa de seleção ao lado de cada campanha para a qual deseja criar o novo portfólio.
 
-1. Na barra de ferramentas, clique em ![Mais Ações](/help/search-social-commerce/assets/more-actions.png "Mais Ações") **[!UICONTROL More Actions]** > ![Atribuir](/help/search-social-commerce/assets/assign.png "Atribuir") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
 1. Na tela [!UICONTROL Create Portfolio], especifique as configurações do portfólio.
 

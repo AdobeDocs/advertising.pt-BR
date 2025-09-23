@@ -4,9 +4,9 @@ description: Saiba mais sobre os dados disponíveis no seu painel de desempenho.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Seu [!UICONTROL Dashboard] inclui os seguintes relatórios visuais:
 * **Maiores movimentadores - \[métrica selecionada\]:** os 10 portfólios com a maior alteração em uma métrica especificada em comparação ao período anterior.
 
 * **Distribuição de gastos:** A distribuição de gastos por rede de anúncios.
+
+## Exibir seu painel de desempenho
+
+* No menu principal, clique em **[!UICONTROL Dashboard]>[!UICONTROL Overview]**.
 
 ## Personalizar o painel de desempenho
 

@@ -2,9 +2,10 @@
 title: Usando o [!UICONTROL Spend Planner]
 description: Saiba como usar o [!UICONTROL Spend Planner] para identificar a distribuição de gastos ideal entre portfólios.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Os relatórios de recomendação de gastos incluem os seguintes dados:
 
 * Um gráfico de barras para cada um dos portfólios, mostrando o gasto diário recomendado (custo) e a distribuição de receita prevista ou a distribuição de cliques quando você mantém a meta de gasto diário total atual em todos os portfólios selecionados, ou para uma meta de gasto total proposta. Opcionalmente, é possível aplicar as metas de gastos recomendadas aos portfólios selecionados, o que afeta a licitação no próximo ciclo de execução de lances.
 
-## (Nova interface do usuário) Gerar um relatório [!UICONTROL Spend Planner] a partir da exibição [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Nova interface do usuário) Gerar um relatório [!UICONTROL Spend Planner]
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Siga um destes procedimentos:
 
-1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+   * No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Planejador de gastos](/help/search-social-commerce/assets/spend-planner-icon.png "Planejador de gastos").
+   * No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**. Na barra de ferramentas acima da tabela de dados, clique em ![Planejador de gastos](/help/search-social-commerce/assets/spend-planner-icon.png "Planejador de gastos").
 
    A ferramenta [!UICONTROL Spend Recommendation] é aberta na interface do usuário herdada.
 

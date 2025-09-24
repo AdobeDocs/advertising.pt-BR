@@ -2,9 +2,9 @@
 title: Configurações de criação dinâmicas
 description: Referencie as configurações de criações dinâmicas.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modelo de publicidade
 
-**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios.&lt;!— também é uma opção para carregar seu próprio modelo de anúncio — é necessário adicionar as especificações para isso —>
+**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** O número de ofertas que podem ser criadas para cada anúncio.&lt;!— Esclareça: esse é o limite de frequência (número máximo de vezes que um anúncio pode ser veiculado)? —>
+**[!UICONTROL Number of offers (Max 50)]:** O número de ofertas que podem ser criadas para cada anúncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catálogos
 
-**[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.&lt;!— também é uma opção para carregar seu próprio modelo de feed — é necessário adicionar as especificações para isso —>
+**[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catálogos\]**: um ou mais catálogos do anunciante especificado a partir dos quais os anúncios serão gerados.&lt;!— também é uma opção para fazer upload do seu próprio catálogo (Você não consegue encontrar o catálogo necessário? Baixe um modelo, crie o seu próprio modelo e faça upload dele a partir do seu dispositivo.) — é necessário adicionar as especificações para isso —>
+**\[Catálogos\]**: um ou mais catálogos do anunciante especificado a partir dos quais os anúncios serão gerados.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 

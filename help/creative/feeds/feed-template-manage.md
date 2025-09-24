@@ -2,9 +2,9 @@
 title: Gerenciar modelos de feed
 description: Saiba como gerenciar modelos de feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Você pode usar um modelo de feed com vários modelos de anúncio.
 
 1. Mantenha o cursor sobre a linha de modelo e clique em **[!UICONTROL Duplicate]**.
 
-1. Na tela [!UICONTROL Duplicate Template] e insira um **[!UICONTROL Template Name]** exclusivo. Se você estiver duplicando um modelo criado por outra pessoa, selecione o **[!UICONTROL Advertiser]**. Opcionalmente, edite outras [configurações do modelo de feed](#feed-template-settings), conforme necessário.
+1. Na tela [!UICONTROL Duplicate Template], digite um **[!UICONTROL Template Name]** exclusivo. Se você estiver duplicando um modelo criado por outra pessoa, selecione o **[!UICONTROL Advertiser]**. Opcionalmente, edite outras [configurações do modelo de feed](#feed-template-settings), conforme necessário.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -89,7 +89,7 @@ Os modelos de feed baixados estão no formato de planilha compactada do Microsof
 
 ### Configurações de [!UICONTROL Field Mapping]
 
-Mapeie cada campo no arquivo de feed para um campo no back-end do Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Você deve incluir pelo menos um campo de arquivo de feed marcado como &quot;[!UICONTROL Is Unique]&quot;. Para adicionar um mapeamento de campo, clique em **[!UICONTROL +]**. Para remover o último mapeamento de campo, clique em **[!UICONTROL +]**.
+Mapeie cada campo no arquivo de feed para um campo no back-end do Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Pelo menos um campo de arquivo de feed deve ser marcado como &quot;[!UICONTROL Is Unique]&quot;. Para adicionar um mapeamento de campo, clique em **[!UICONTROL +]**. Para remover o último mapeamento de campo, clique em **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** O campo no arquivo de feed.
 

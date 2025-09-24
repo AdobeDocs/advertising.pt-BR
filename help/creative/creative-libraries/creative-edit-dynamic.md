@@ -2,9 +2,9 @@
 title: Editar um criativo dinâmico em uma biblioteca criativa
 description: Saiba como editar um criativo dinâmico em uma biblioteca criativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Selecione os pacotes e clique em **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Para salvar os anúncios, clique em **[!UICONTROL Save]** e em **[!UICONTROL Save]** novamente.
+   * Para salvar os anúncios e sair da configuração, clique em **[!UICONTROL Save]** e em **[!UICONTROL Save]** novamente.
 
 >[!MORELIKETHIS]
 >

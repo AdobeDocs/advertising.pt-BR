@@ -2,9 +2,9 @@
 title: Fluxo de trabalho para anúncios dinâmicos
 description: Saiba mais sobre o fluxo de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [Crie conjuntos de anúncios dinâmicos](/help/creative/creative-libraries/bundle-manage.md) que você possa anexar todos de uma só vez a uma experiência de anúncio.
 
-1. Crie experiências de anúncio dinâmicas com [com direcionamento](/help/creative/experiences/experience-create-targeting.md) ou [sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md) e [atribua-as agrupadas às suas experiências de anúncio dinâmicas](/help/creative/experiences/experience-assign-creative-bundles.md).
+1. Crie experiências de anúncio dinâmicas [com direcionamento](/help/creative/experiences/experience-create-targeting.md) ou [sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md) e [atribua os pacotes criativos às experiências](/help/creative/experiences/experience-assign-creative-bundles.md).
 
 1. [Gerar e implementar marcas de experiência de anúncio](/help/creative/experiences/experience-tag-export.md) para executá-las como anúncios em sua DSP.
 

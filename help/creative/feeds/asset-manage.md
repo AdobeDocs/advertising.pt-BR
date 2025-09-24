@@ -2,7 +2,7 @@
 title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilh
 >[!NOTE]
 >
 > Você pode usar cada arquivo de feed somente para um catálogo.
-
 
 ## Requisitos de arquivo
 

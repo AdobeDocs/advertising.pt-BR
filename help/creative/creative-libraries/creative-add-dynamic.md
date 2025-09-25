@@ -2,9 +2,9 @@
 title: Adicionar criações dinâmicas a uma biblioteca criativa
 description: Saiba como adicionar criações dinâmicas a uma biblioteca criativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 
    1. Mapeie cada atributo (campo de anúncio dinâmico) no modelo de anúncio especificado para uma coluna no arquivo de feed especificado (rótulo do catálogo).
 
-   1. Clique em **[!UICONTROL Continue]** para visualizar as criações a serem geradas.
+   1. Clique em **[!UICONTROL Continue]** para visualizar as criações a serem geradas. Você pode executar qualquer um dos seguintes procedimentos na pré-visualização:
 
-      Para visualizar um criativo específico, marque a caixa de seleção da linha. Filtre as criações por catálogo, valor de filtro <!-- explain more--> e tamanho de anúncio, conforme necessário.
+      * Para filtrar as criações por catálogo, valor do filtro <!-- explain more--> e tamanho do anúncio, use os filtros acima da área de visualização.
+
+      * Para pesquisar um produto pelo seu identificador exclusivo no campo de pesquisa abaixo da área de pré-visualização.
+
+      * Para alterar as colunas exibidas, clique em ![Filtro de Coluna](/help/creative/assets/custom-columns. "Filtro de Coluna") abaixo da área de visualização.
+
+      * Para visualizar um criativo específico, marque a caixa de seleção da linha.
+
+      * Alterar o conteúdo:
+
+         * Para editar o valor de uma célula na tabela, clique dentro da célula e edite o valor. Clique fora da célula ou pressione a tecla **[!DNL Enter]** para salvar suas alterações.
+
+         * Para marcar um único produto como o padrão<!--Explain what this means. -->, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+         * (Quando o anúncio incluir mais de uma oferta) Para marcar vários produtos como padrão, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Set as Default]** na barra de ferramentas de ações em massa.
+
+      * Para excluir um produto do catálogo, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Quando o anúncio incluir mais de uma oferta) Para excluir vários produtos do catálogo, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Delete Row]** na barra de ferramentas de ações em massa.
 
 1. Salve os criativos:
 

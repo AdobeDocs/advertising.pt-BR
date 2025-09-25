@@ -2,9 +2,9 @@
 title: Configurações de criação dinâmicas
 description: Referencie as configurações de criações dinâmicas.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modelo de publicidade
 
-**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios. Selecione um modelo de anúncio existente ou carregue um novo modelo de anúncio.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** O número de ofertas que podem ser criadas para cada anúncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catálogos
 
-**[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.
 
-**\[Catálogos\]**: um ou mais catálogos do anunciante especificado a partir dos quais os anúncios serão gerados.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Catálogos\]**: um ou mais catálogos a partir dos quais os anúncios serão gerados. Selecione um catálogo existente ou crie um novo catálogo baixando um modelo de feed existente e criando e carregando o novo catálogo.<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Mapeie cada atributo (campo de anúncio dinâmico) no modelo de anúncio especif
 >
 >* [Adicionar criações dinâmicas a uma biblioteca criativa](creative-add-dynamic.md)
 >* [Editar criações dinâmicas em uma biblioteca criativa](creative-edit-dynamic.md)
->* [Fluxo de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)

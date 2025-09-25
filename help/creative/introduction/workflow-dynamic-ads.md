@@ -1,17 +1,43 @@
 ---
-title: Fluxo de trabalho para anúncios dinâmicos
-description: Saiba mais sobre o fluxo de trabalho para gerenciar anúncios dinâmicos.
+title: Fluxos de trabalho para anúncios dinâmicos
+description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Fluxo de trabalho para anúncios dinâmicos
+# Fluxos de trabalho para anúncios dinâmicos
 
-1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis
+Você pode configurar anúncios dinâmicos de duas maneiras:
+
+* Fluxo de trabalho 1: faça upload de um modelo de anúncio e catálogo de variação de anúncios diretamente nas configurações de anúncios dinâmicos ao adicionar anúncios dinâmicos a uma biblioteca criativa. Você pode baixar um modelo de feed existente para criar o catálogo.
+
+  Use esse fluxo de trabalho quando a mesma pessoa puder fornecer todas as informações (exceto o modelo de feed) para criar os anúncios. Os arquivos carregados permanecem disponíveis para uso futuro.
+
+* Fluxo de trabalho 2: configure um modelo de anúncio e catálogos de variação de anúncio em exibições separadas e adicione separadamente anúncios dinâmicos a um criativo usando o modelo de anúncio e os catálogos já disponíveis.
+
+  Use este fluxo de trabalho quando pessoas diferentes concluirão tarefas diferentes ou quando quiser concluir apenas uma tarefa por vez.
+
+## Fluxo de trabalho 1
+
+1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5, carregue um modelo de anúncio e catálogos.
+
+1. Use os recursos de criação dinâmicos para experiências de anúncio:
+
+   1. [Crie conjuntos de anúncios dinâmicos](/help/creative/creative-libraries/bundle-manage.md) que você possa anexar todos de uma só vez a uma experiência de anúncio.
+
+   1. Crie experiências de anúncio dinâmicas [com direcionamento](/help/creative/experiences/experience-create-targeting.md) ou [sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md) e [atribua os pacotes criativos às experiências](/help/creative/experiences/experience-assign-creative-bundles.md).
+
+   1. [Gerar e implementar marcas de experiência de anúncio](/help/creative/experiences/experience-tag-export.md) para executá-las como anúncios em sua DSP.
+
+      Para usar uma experiência de anúncio como um anúncio no Adobe Advertising DSP, faça upload da tag de experiência de anúncio para uma campanha do Advertising DSP. Para usar uma experiência de anúncio como um anúncio em uma DSP diferente, implemente a tag de experiência de anúncio nessa DSP.
+
+## Fluxo de trabalho 2
+
+1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis.
 
 1. Configure os elementos de publicidade:
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5, use um modelo de anúncio especificado e catálogos especificados.
 
-1. [Crie conjuntos de anúncios dinâmicos](/help/creative/creative-libraries/bundle-manage.md) que você possa anexar todos de uma só vez a uma experiência de anúncio.
+1. Use os recursos de criação dinâmicos para experiências de anúncio:
 
-1. Crie experiências de anúncio dinâmicas [com direcionamento](/help/creative/experiences/experience-create-targeting.md) ou [sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md) e [atribua os pacotes criativos às experiências](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. [Crie conjuntos de anúncios dinâmicos](/help/creative/creative-libraries/bundle-manage.md) que você possa anexar todos de uma só vez a uma experiência de anúncio.
 
-1. [Gerar e implementar marcas de experiência de anúncio](/help/creative/experiences/experience-tag-export.md) para executá-las como anúncios em sua DSP.
+   1. Crie experiências de anúncio dinâmicas [com direcionamento](/help/creative/experiences/experience-create-targeting.md) ou [sem direcionamento](/help/creative/experiences/experience-create-no-targeting.md) e [atribua os pacotes criativos às experiências](/help/creative/experiences/experience-assign-creative-bundles.md).
 
-   Para usar uma experiência de anúncio como um anúncio no Adobe Advertising DSP, faça upload da tag de experiência de anúncio para uma campanha do Advertising DSP. Para usar uma experiência de anúncio como um anúncio em uma DSP diferente, implemente a tag de experiência de anúncio nessa DSP.
+   1. [Gerar e implementar marcas de experiência de anúncio](/help/creative/experiences/experience-tag-export.md) para executá-las como anúncios em sua DSP.
+
+      Para usar uma experiência de anúncio como um anúncio no Adobe Advertising DSP, faça upload da tag de experiência de anúncio para uma campanha do Advertising DSP. Para usar uma experiência de anúncio como um anúncio em uma DSP diferente, implemente a tag de experiência de anúncio nessa DSP.

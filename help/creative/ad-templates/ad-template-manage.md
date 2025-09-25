@@ -2,9 +2,9 @@
 title: Gerenciar modelos de anúncios dinâmicos
 description: Saiba mais sobre xxxx.
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Crie um modelo de anúncio separado para cada combinação de tipo de anúncio (
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## Criar um modelo de anúncio dinâmico
+
+>[!NOTE]
+>
+>Você também pode carregar um modelo de anúncio dinâmico ao [adicionar criações dinâmicas a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md). Todos os modelos de anúncios criados lá ficam disponíveis no modo de exibição [!UICONTROL Ad Templates] para uso futuro.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -56,6 +60,10 @@ Crie um modelo de anúncio separado para cada combinação de tipo de anúncio (
 1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.<!-- Confirm -->
 
 ## Criar anúncios dinâmicos a partir de um modelo de anúncio
+
+>[!NOTE]
+>
+>Você também pode [adicionar criações dinâmicas a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md) de dentro de uma biblioteca criativa.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -113,7 +121,7 @@ Para carregar um arquivo:
 
 >[!MORELIKETHIS]
 >
->* [Fluxo de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gerenciar arquivos de ativos](/help/creative/feeds/asset-manage.md)
 >* [Gerenciar modelos de feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gerenciar catálogos](/help/creative/feeds/catalog-manage.md)

@@ -2,9 +2,9 @@
 title: Adicionar criações dinâmicas a uma biblioteca criativa
 description: Saiba como adicionar criações dinâmicas a uma biblioteca criativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 
    1. Selecione os critérios para os quais as linhas de catálogo devem ser usadas para criar anúncios.
 
-   1. Mapeie cada atributo (campo de anúncio dinâmico) no modelo de anúncio especificado para uma coluna no arquivo de feed especificado (rótulo do catálogo).
+   1. Mapeie cada atributo (campo de anúncio dinâmico) no modelo de anúncio especificado para uma coluna no arquivo de feed especificado (rótulo do catálogo) ou insira valores estáticos.
 
    1. Clique em **[!UICONTROL Continue]** para visualizar as criações a serem geradas. Você pode executar qualquer um dos seguintes procedimentos na pré-visualização:
 
@@ -75,7 +75,7 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 
       * Para pesquisar um produto pelo seu identificador exclusivo no campo de pesquisa abaixo da área de pré-visualização.
 
-      * Para alterar as colunas exibidas, clique em ![Filtro de Coluna](/help/creative/assets/custom-columns. "Filtro de Coluna") abaixo da área de visualização.
+      * Para alterar as colunas exibidas, clique em ![Filtro de Coluna](/help/creative/assets/custom-columns.png "Filtro de Coluna") abaixo da área de visualização.
 
       * Para visualizar um criativo específico, marque a caixa de seleção da linha.
 

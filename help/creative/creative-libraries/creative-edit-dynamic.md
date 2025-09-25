@@ -2,9 +2,9 @@
 title: Editar um criativo dinâmico em uma biblioteca criativa
 description: Saiba como editar um criativo dinâmico em uma biblioteca criativa.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 1. Mantenha o cursor sobre a linha criativa e clique em **[!UICONTROL Edit]**.
 
 1. Edite as [configurações de anúncios dinâmicos](creative-settings-dynamic.md).
+
+1. Clique em **[!UICONTROL Continue]** para visualizar as criações a serem geradas. Você pode executar qualquer um dos seguintes procedimentos na pré-visualização:
+
+   * Para filtrar as criações por catálogo, valor do filtro <!-- explain more--> e tamanho do anúncio, use os filtros acima da área de visualização.
+
+   * Para pesquisar um produto pelo seu identificador exclusivo no campo de pesquisa abaixo da área de pré-visualização.
+
+   * Para alterar as colunas exibidas, clique em ![Filtro de Coluna](/help/creative/assets/custom-columns.png "Filtro de Coluna") abaixo da área de visualização.
+
+   * Para visualizar um criativo específico, marque a caixa de seleção da linha.
+
+   * Alterar o conteúdo:
+
+      * Para editar o valor de uma célula na tabela, clique dentro da célula e edite o valor. Clique fora da célula ou pressione a tecla **[!DNL Enter]** para salvar suas alterações.
+
+      * Para marcar um único produto como o padrão<!--Explain what this means. -->, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+      * (Quando o anúncio incluir mais de uma oferta) Para marcar vários produtos como padrão, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Set as Default]** na barra de ferramentas de ações em massa.
+
+      * Para excluir um produto do catálogo, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Quando o anúncio incluir mais de uma oferta) Para excluir vários produtos do catálogo, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Delete Row]** na barra de ferramentas de ações em massa.
 
 1. Salve os criativos:
 

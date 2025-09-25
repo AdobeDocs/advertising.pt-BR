@@ -2,14 +2,16 @@
 title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # Fluxos de trabalho para anúncios dinâmicos
+
+*Usuários com permissões para criar anúncios dinâmicos*
 
 Você pode configurar anúncios dinâmicos de duas maneiras:
 
@@ -22,6 +24,11 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
   Use este fluxo de trabalho quando pessoas diferentes concluirão tarefas diferentes ou quando quiser concluir apenas uma tarefa por vez.
 
 ## Fluxo de trabalho 1
+
+>[!PREREQUISITES]
+>
+>* Modelos de anúncios no formato HTML5
+>* Catálogos de produtos no formato CSV, TSV ou planilha do Microsoft Excel (XLSX)
 
 1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5, carregue um modelo de anúncio e catálogos.
 

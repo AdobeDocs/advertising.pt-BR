@@ -2,9 +2,9 @@
 title: Gerenciar catálogos de feed
 description: Saiba como gerenciar catálogos de feed.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Os catálogos de feed processados são conjuntos de variações de anúncios potenciais criados a partir de um arquivo de feed especificado e um template de feed especificado. Os anúncios dinâmicos do HTML5, mas não os anúncios estáticos do HTML5, exigem um catálogo para criar anúncios dinâmicos.
 
-Antes de usar as variações de anúncios para [adicionar anúncios dinâmicos a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md), processe o catálogo.
+Antes de criar variações de anúncios e [adicionar anúncios dinâmicos a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md), processe o catálogo. Posteriormente, você pode atualizar o arquivo de feed e reprocessar o catálogo para criar um novo conjunto de variações de anúncios.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Criar um catálogo {#feed-catalog-create}
 

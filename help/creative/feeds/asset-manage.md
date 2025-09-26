@@ -2,7 +2,7 @@
 title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # Gerenciar arquivos de ativos
 
 Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem referenciados na planilha (exceto para referências de ativos do Adobe Experience Manager). Os anúncios estáticos HTML5 exigem apenas um único ativo de imagem por anúncio.
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilh
 
      Para imagens que você irá carregar, referencie a imagem usando o formato `images/image_name` (como `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+   * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
    * (Opcional) Ativos de vídeo no formato MP4 ou WEBM
 

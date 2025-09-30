@@ -2,9 +2,9 @@
 title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
    * (Para anúncios dinâmicos do HTML5) Crie catálogos dos elementos de anúncio:
 
-      1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem ou uma referência a uma Adobe Experience Manager em cada linha. Colete separadamente os ativos de imagem associados.
+      1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem em cada linha. Colete separadamente os ativos de imagem associados.
 
       1. [Carregar o arquivo de feed e os ativos de imagem](/help/creative/feeds/asset-manage.md).
 

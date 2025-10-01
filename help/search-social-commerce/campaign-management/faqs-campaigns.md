@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre campanhas
 description: Consulte respostas de perguntas sobre o gerenciamento de campanhas e visualizações de dados de campanha.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ## Informações gerais
 
-+++É possível mover campanhas e componentes de uma conta para outra?
++++Posso mover campanhas e componentes de uma conta para outra?
 
 Não mova ou copie um componente de campanha ou de campanha, que tem uma ID exclusiva, para uma conta com uma ID de conta diferente. Isso resulta em erros de dados.
 +++
 
-+++Quando os dados de cliques são atualizados pelas redes de anúncios?
++++Quando os dados de cliques são atualizados nas redes de anúncios?
 
 O processo de obtenção dos dados de cliques do dia anterior nos mecanismos de pesquisa começa às 06:00 no fuso horário do anunciante.
 
-Além disso, as [!DNL Google Ads] métricas de desempenho em nível de campanha na rede de pesquisa do dia atual são extraídas às 08:00 e 16:00 no fuso horário do anunciante.
+Além disso, [!DNL Google Ads] métricas de desempenho em nível de campanha na rede de pesquisa do dia atual são extraídas às 08:00 e 16:00 no fuso horário do anunciante.
 +++
 
 +++Que ações fazem com que palavras-chave e anúncios percam seu histórico?
@@ -65,7 +65,7 @@ Dependendo das [configurações de dados do feed](/help/search-social-commerce/c
 * O nível de estoque de um item cai abaixo de um mínimo especificado nas configurações de dados de feed.
 +++
 
-+++([!DNL Google Ads] campanhas) As alterações nos nomes para exibição das minhas [!DNL Google] conversões rastreadas foram revertidas.
++++([!DNL Google Ads] campanhas) As alterações nos nomes para exibição das minhas [!DNL Google] conversões controladas foram revertidas.
 
 Se você alterar os nomes para exibição das métricas de conversão em Pesquisa, Social e Commerce, suas alterações serão substituídas pelos nomes configurados em [!DNL Google Ads]. Faça qualquer alteração de nome em [!DNL Google Ads].
 +++
@@ -75,7 +75,7 @@ Se você alterar os nomes para exibição das métricas de conversão em Pesquis
 Para obter melhores resultados, não adicione campanhas do [!DNL Google Ads] a um orçamento compartilhado do [!DNL Google Ads] se elas estiverem em portfólios otimizados configurados como &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Se você fizer isso, [!DNL Google Ads] substituirá os orçamentos de campanha otimizados para Pesquisa, Social e Commerce, o que pode levar a ineficiências de oferta.
 +++
 
-+++([!DNL Google Ads] campanhas) Posso enviar usuários móveis e não móveis para diferentes páginas de aterrissagem?
++++([!DNL Google Ads] campanhas) É possível enviar usuários móveis e não móveis para páginas de aterrissagem diferentes?
 
 Você pode usar os [!DNL Google Ads] [!DNL ValueTrack] parâmetros `{ifmobile}` e `{ifnotmobile}` para determinar o nome de domínio da página de aterrissagem de uma das duas formas a seguir, conforme aplicável aos seus sites:
 
@@ -131,7 +131,7 @@ Ao carregar anúncios usando um [feed de inventário de produtos](/help/search-s
 
 ## Feeds de inventário
 
-+++(Feeds de inventário de produtos) Devo pausar ou excluir anúncios que estão obsoletos ou que são para um produto cujo nível de estoque está abaixo de um mínimo especificado?
++++(Feeds de inventário de produtos) Devo pausar ou excluir anúncios obsoletos ou que estejam relacionados a um produto cujo nível de estoque esteja abaixo de um mínimo especificado?
 
 Depende dos requisitos comerciais do anunciante.
 
@@ -145,7 +145,7 @@ Quando você exclui anúncios e os reenvia, novos anúncios são criados e os da
 Se o próximo arquivo de feed não tiver itens de linha e você não tiver lançado esses itens de linha do novo modelo por meio de um arquivo de feed anterior, os itens de linha ausentes não serão reconhecidos como &quot;ausentes&quot;, portanto, não serão criados. Para evitar isso, propague o arquivo de feed anterior por meio do novo modelo e publique os dados antes de propagar e publicar dados de um novo arquivo.
 +++
 
-+++(Feeds de inventário de produtos) É possível atualizar preços para meus produtos sem afetar a pontuação de qualidade de um anúncio?
++++(Feeds de inventário de produtos) É possível atualizar preços de meus produtos sem afetar a pontuação de qualidade de um anúncio?
 
 Para campanhas [!DNL Google Ads], sim: as variáveis [!DNL Google Ads] `{Param 1}` e `{Param 2}` permitem inserir dinamicamente valores numéricos em uma variação de anúncio sem excluir e recriar o anúncio e, portanto, sem afetar a pontuação de qualidade.
 
@@ -165,6 +165,6 @@ Se as [configurações de dados de feed](/help/search-social-commerce/campaign-m
 
 +++Algumas de minhas campanhas estão gastando mais ou menos do que os orçamentos da campanha.
 
-* Isso é normal em um portfólio otimizado configurado com a opção &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;. Quando esta opção está habilitada, você pode gastar até *N* vezes o orçamento de cada campanha, onde *N* é o valor da configuração &quot;[!UICONTROL Multiple]&quot;. Essa opção permite que o recurso de otimização ajuste os gastos de campanhas individuais, conforme necessário, enquanto orienta todo o portfólio a atender à sua meta.
+* Isso é normal em um portfólio otimizado configurado com a opção &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;. Quando esta opção está habilitada, você pode gastar até *N* vezes o orçamento de cada campanha, onde *N* é o valor da configuração &quot;[!UICONTROL Multiple]&quot;. Essa opção permite que o recurso de otimização ajuste os gastos de campanhas individuais, conforme necessário, enquanto orienta todo o portfólio a atender à sua meta.
 * Se as campanhas [!DNL Google Ads] usarem um orçamento compartilhado, o [!DNL Google Ads] ajustará os gastos de campanhas individuais conforme necessário para gastar todo o orçamento compartilhado.
 +++

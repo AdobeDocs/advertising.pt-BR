@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 
-1. Selecione o tipo de rotação criativa:
+1. Selecione o tipo de rotação criativa para variantes de anúncios nos pacotes associados:
 
-   * *[!UICONTROL Weighted]:* Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
+   * *[!UICONTROL Weighted]:* Mostra as variantes de anúncios nos pacotes criativos associados de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar até 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
+   * *[!UICONTROL Algorithmic]:* mostra as variantes de anúncios mais eficazes com mais frequência, com base em uma meta especificada.
 
-      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
-   * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
+   * *[!UICONTROL Sequencing]:* Mostra os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer uma das variantes de anúncios no Pacote 1 para três (3) impressões, em seguida, exibir qualquer variante de anúncios no Pacote 2 para uma (1) impressão, em seguida, exibir qualquer uma das variantes de anúncios no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as variantes de anúncios no Pacote 3 sejam exibidas, você pode continuar a exibir as variantes de anúncios no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
 
       1. Arraste e solte os pacotes atribuídos na ordem desejada.
 

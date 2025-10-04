@@ -3,9 +3,9 @@ title: Editar criações padrão em uma biblioteca criativa
 description: Saiba como alterar as configurações de criações padrão (não dinâmicas) em uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ Ao editar um criativo<!-- or creative variation --> incluído em um pacote, suas
 
    >[!NOTE]
    >
-   >* (Somente criações HTML5 flexíveis) É possível editar atributos somente para criações únicas.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Somente criações flexíveis do HTML5) É possível editar atributos somente para criações únicas.
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (Criações flexíveis do HTML5; opcional) Depois de fazer suas alterações, clique em ![Visualizar](/help/creative/assets/preview.png "Visualizar") acima da imagem para visualizar o novo criativo.
 
 1. Clique em **Salvar**.
 

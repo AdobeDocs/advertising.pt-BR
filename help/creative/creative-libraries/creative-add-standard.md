@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
    * Para remover um arquivo, desmarque a caixa de seleção ao lado dele.
 
+1. (Opcional) Para visualizar um criativo, clique em ![Visualizar](/help/creative/assets/preview.png "Visualizar") acima da imagem.
+
 1. Especifique as [configurações flexíveis de anúncios HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Por padrão, todas as criações que você acabou de fazer upload são selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas; para algumas configurações, é possível especificar valores individuais. Para inserir configurações para criações específicas, desmarque a caixa de seleção ao lado de cada criação inaplicável.
@@ -60,7 +62,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. (Opcional) Para visualizar o modelo, clique em **[!UICONTROL ...]** ao lado do nome do modelo e em **[!UICONTROL Preview]**.
 
-   Opcionalmente, é possível baixar o modelo
+   Opcionalmente, é possível baixar o modelo: clique em **[!UICONTROL ...]**, ao lado do nome do modelo, e clique em **[!UICONTROL Download]**.
 
 1. Ao lado do nome do modelo, clique em **[!UICONTROL ...]** e depois em **[!UICONTROL Use Selected]**.
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    O tamanho máximo do criativo, uma vez compactado, é de 2 MB.<!-- Still true? -->
 
+1. Adicione ou remova seus próprios arquivos criativos flexíveis:
+
+   * Para adicionar um arquivo do seu dispositivo ou rede, clique em ![Adicionar](/help/creative/assets/create.png "Adicionar") no canto superior esquerdo e localize o arquivo. Marque a caixa de seleção ao lado do criativo, desmarque a caixa de seleção ao lado dos outros criadores e edite as [configurações de criação flexíveis do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) para especificar o idioma e incluir suas próprias tags de clique, imagens e outros atributos.
+
+   * Para remover um arquivo, desmarque a caixa de seleção ao lado dele.
+
+1. (Opcional) Para visualizar um criativo, clique em ![Visualizar](/help/creative/assets/preview.png "Visualizar") acima da imagem.
+
 1. Clique em **[!UICONTROL Create]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## Adicionar um criativo do HTML5 a uma biblioteca criativa
 

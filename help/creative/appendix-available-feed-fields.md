@@ -1,8 +1,8 @@
 ---
 title: Campos disponíveis para arquivos de feed de anúncios dinâmicos
 description: Saiba mais sobre os campos que podem ser incluídos nos arquivos de feed usados para criar anúncios dinâmicos.
-feature: Creative Dynamic Ads
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+feature: Creative Dynamic Creatives
+source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

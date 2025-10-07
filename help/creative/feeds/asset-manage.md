@@ -2,16 +2,16 @@
 title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Gerenciar arquivos de ativos
 
-Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem referenciados na planilha (exceto para referências de ativos do Adobe Experience Manager). Os anúncios estáticos HTML5 exigem apenas um único ativo de imagem por anúncio.
+Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem referenciados na planilha. Os anúncios estáticos HTML5 exigem apenas um único ativo de imagem por anúncio.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilh
 
    * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Opcional) Ativos de vídeo no formato MP4 ou WEBM
-
-  Você pode carregar um único arquivo XLSX, uma única imagem ou arquivo de vídeo ou um único arquivo ZIP contendo qualquer combinação de XLSX, imagem e arquivos de vídeo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  Você pode carregar um único arquivo XLSX, um único arquivo de imagem ou um único arquivo ZIP contendo qualquer combinação de XLSX e arquivos de imagem.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anúncios estáticos do HTML5:
 

@@ -3,9 +3,9 @@ title: Sobre o Adobe Advertising Creative
 description: Saiba mais sobre  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
+source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Você pode usar os segmentos de público-alvo primários da Adobe Audience Manag
 
 ### Implementação de experiências como anúncios
 
-Depois de criar uma experiência, você pode gerar uma tag JavaScript ou iframe para a experiência e implementar a tag como um anúncio de exibição padrão de terceiros em uma campanha do Advertising DSP ou em qualquer outra DSP.<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
+Depois de criar uma experiência, você pode gerar uma tag JavaScript ou iframe para a experiência e implementar a tag como um anúncio de terceiros em uma campanha do Advertising DSP ou em qualquer outra DSP.
 
 ### Otimização dos elementos de publicidade
 

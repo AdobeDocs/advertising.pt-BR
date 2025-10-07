@@ -2,9 +2,9 @@
 title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilh
 
 * Anúncios dinâmicos do HTML5:
 
-   * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de imagem ou uma referência a uma Adobe Experience Manager em cada linha.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de imagem em cada linha usando o formato `images/image_name` (como `images/300x250_acme_logo.png`).
 
-     Para imagens que você irá carregar, referencie a imagem usando o formato `images/image_name` (como `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
 
    * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Todos os arquivos ZIP são descompactados automaticamente. Ao carregar um arquiv
 
 >[!MORELIKETHIS]
 >
+>* [Campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md)
 >* [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gerenciar modelos de feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gerenciar catálogos](/help/creative/feeds/catalog-manage.md)

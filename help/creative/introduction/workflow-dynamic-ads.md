@@ -2,9 +2,9 @@
 title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
 ## Fluxo de trabalho 2
 
-1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis.
+1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis. O modelo de anúncio inclui um arquivo HTML5 com o formato de anúncio desejado e (somente anúncios dinâmicos HTML5) um arquivo com os atributos de anúncio.
 
 1. Configure os elementos de publicidade:
 

@@ -3,9 +3,9 @@ title: O layout da árvore de decisão
 description: Saiba mais sobre o layout da árvore de decisão para obter experiências com direcionamento.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termos
 
@@ -50,7 +50,7 @@ Para todos os nós principais, você pode, opcionalmente, copiar todos os nós d
 
 Atribua pacotes criativos a cada nó final de direcionamento na experiência.
 
-Em cada nó com pacotes criativos, você pode, opcionalmente, girar as criações incluídas a) de acordo com pesos especificados ou b) de forma algorítmica para otimizar a taxa de cliques ou um objetivo personalizado. Opcionalmente, também é possível girar as criações em uma sequência de tempo especificada usando as mesmas opções.
+Em cada nó com pacotes criativos, você pode, opcionalmente, girar as criações incluídas a) de forma algorítmica para otimizar a taxa de cliques ou um objetivo personalizado, b) de acordo com pesos especificados ou c) em uma sequência específica. Opcionalmente, também é possível girar as criações em uma sequência de tempo especificada em qualquer combinação das mesmas opções.
 
 Opcionalmente, é possível personalizar os URLs da página inicial, os URLs de rastreamento de impressão e os URLs de rastreamento de cliques, conforme necessário para criações individuais. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 

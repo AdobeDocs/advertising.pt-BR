@@ -3,9 +3,9 @@ title: O layout da árvore de decisão
 description: Saiba mais sobre o layout da árvore de decisão para obter experiências com direcionamento.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termos
 
@@ -36,7 +36,9 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 
 ## Metas em uma árvore de decisão
 
-Cada árvore decisória pode ter até cinco níveis de metas. Cada nível de destino pode incluir várias ramificações, cada uma com um ou mais nós com o mesmo tipo de destino (segmento de público-alvo, tipo de localização geográfica, valores para chaves de transmissão de dados especificadas, atributos para um pixel de redirecionamento especificado ou categoria de dispositivo). Você pode atribuir pacotes criativos em cada tamanho de anúncio para o qual especificou uma criação de imagem ou vídeo padrão para os nós de destino de nível mais baixo.
+Cada árvore decisória pode ter até cinco níveis de metas. Os targets de nível de experiência são aplicados em conjunto com as opções de direcionamento do DSP; o comportamento hierárquico do direcionamento pode variar de acordo com o DSP. Certifique-se de que suas experiências de anúncio incluam direcionamento compatível com as campanhas em que você o implementará.
+
+Cada nível de destino pode incluir várias ramificações, cada uma com um ou mais nós com o mesmo tipo de destino (segmento de público-alvo, tipo de localização geográfica, valores para chaves de transmissão de dados especificadas, atributos para um pixel de redirecionamento especificado ou categoria de dispositivo). Você pode atribuir pacotes criativos em cada tamanho de anúncio para o qual especificou uma criação de imagem ou vídeo padrão para os nós de destino de nível mais baixo.
 
 ![Exemplo de uma árvore de decisão com destinos](/help/creative/assets/experience-decision-tree.png "Exemplo de uma árvore de decisão com destinos")
 

@@ -3,9 +3,9 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Para experiências com definição de metas da árvore de decisão, é possível
 * Para mostrar ou ocultar o painel Criativos à direita, clique em ![Mostrar/Ocultar](/help/creative/assets/hide-show-creatives.png "Mostrar/Ocultar") no canto superior direito do painel.
 
 ## seção [!UICONTROL Targeting]
+
+Os targets de nível de experiência são aplicados em conjunto com as opções de direcionamento do DSP; o comportamento hierárquico do direcionamento pode variar de acordo com o DSP. Por exemplo, o Adobe Advertising DSP aplica o direcionamento em nível de anúncio acima do direcionamento em nível de posicionamento (e não acima dele). Certifique-se de que suas experiências de anúncio incluam direcionamento compatível com as campanhas em que você o implementará.
 
 **[!UICONTROL Targeting]:** (Somente leitura para experiências existentes) Habilita o direcionamento criativo usando uma árvore de decisão e a criação automática de marca. Depois de salvar a experiência, você não poderá alterar essa configuração.
 

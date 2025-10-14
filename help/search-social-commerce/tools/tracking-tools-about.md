@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Se você usar o serviço de rastreamento de conversão do Adobe Advertising, poderá criar e decodificar tags de rastreamento usando as seguintes ferramentas:
 
-* A ferramenta [[!UICONTROL Conversion Tags] ](conversion-tag-generate.md) permite gerar manualmente tags de rastreamento de conversão de Adobe Advertising para adicionar às páginas de &quot;sucesso&quot; ou &quot;obrigado&quot; em seus sites.
+* A ferramenta [[!UICONTROL Conversion Tags] &#x200B;](conversion-tag-generate.md) permite gerar manualmente tags de rastreamento de conversão de Adobe Advertising para adicionar às páginas de &quot;sucesso&quot; ou &quot;obrigado&quot; em seus sites.
 
   >[!NOTE]
   >

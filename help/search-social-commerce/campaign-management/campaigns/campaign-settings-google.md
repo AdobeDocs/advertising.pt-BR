@@ -261,7 +261,7 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 **[!UICONTROL Final URL]:** A URL final para todos os anúncios criados a partir do grupo de ativos. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Até 15 imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem de retrato. Consulte as [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las em [!UICONTROL Asset Library], mas não ambas, na mesma operação.
+**[!UICONTROL Images]:** Até 15 imagens para o anúncio, incluindo os seguintes tamanhos: 1) pelo menos três imagens quadradas, 2) pelo menos três imagens de paisagem e 3) pelo menos uma imagem de retrato. Consulte as [[!DNL Google Ads] especificações da imagem](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las em [!UICONTROL Asset Library], mas não ambas, na mesma operação.
 
 * Para carregar imagens:
 
@@ -283,7 +283,7 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 * Para selecionar imagens de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
-**[!UICONTROL Logos]:** Pelo menos um logotipo quadrado (1:1) e um logotipo paisagem (4:1). É possível incluir até cinco de cada tamanho. Consulte as [[!DNL Google Ads] especificações do logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las em [!UICONTROL Asset Library], mas não ambas, na mesma operação.
+**[!UICONTROL Logos]:** Pelo menos um logotipo quadrado (1:1) e um logotipo paisagem (4:1). É possível incluir até cinco de cada tamanho. Consulte as [[!DNL Google Ads] especificações do logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Você pode carregar imagens ou selecioná-las em [!UICONTROL Asset Library], mas não ambas, na mesma operação.
 
 * Para carregar imagens:
 

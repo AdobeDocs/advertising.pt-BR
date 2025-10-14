@@ -100,7 +100,7 @@ Exemplo de um pixel de evento de impressão:
 
 Anexe um pixel de rastreamento de eventos de impressão a todos os anúncios nas campanhas do [!DNL DSP]. Você pode fazer isso em qualquer um dos seguintes locais:
 
-* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md).
+* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 * No nível do anúncio, que substitui quaisquer pixels de evento no nível de posicionamento. Nas configurações do anúncio, [crie um pixel de evento na [!UICONTROL Pixel] guia](/help/dsp/campaign-management/ads/ad-edit.md).
 

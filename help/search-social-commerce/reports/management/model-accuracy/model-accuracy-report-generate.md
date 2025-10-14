@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Create]**.
 
-Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] ](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
+Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] &#x200B;](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
 
 Se você tiver inserido endereços de email para notificação, cada destinatário receberá uma notificação quando o trabalho de relatório for concluído ou falhar, com base nas [configurações de notificação definidas pelo usuário](/help/search-social-commerce/notifications/notification-edit.md) para relatórios.
 

@@ -62,11 +62,11 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Abre uma nova exibição [!UICONTROL Ad Groups], que mostra todos os grupos de anúncios do anunciante. Você pode gerenciar atribuições de restrição para grupos de anúncios selecionados. Você também pode baixar um relatório do conteúdo da tabela de dados.
 
-     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ads]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
 

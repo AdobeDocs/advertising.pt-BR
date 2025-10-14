@@ -82,7 +82,7 @@ Você pode listar todos os trabalhos de importação, incluindo a conta de orige
 
      Por padrão, o modo de exibição é aberto na guia [!UICONTROL List of Import Jobs].
 
-   * Na guia [[!UICONTROL Import Logs] ](#campaign-import-log), clique na guia **[!UICONTROL List of Import Jobs]**.
+   * Na guia [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log), clique na guia **[!UICONTROL List of Import Jobs]**.
 
 ## Executar um trabalho de importação de campanha
 

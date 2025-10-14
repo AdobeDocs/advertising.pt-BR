@@ -42,7 +42,7 @@ em que:
 
 * `<ef-userid>` é uma ID de usuário exclusiva e numérica que o Search, Social e Commerce atribui ao anunciante.
 
-* `<ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais ](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais &#x200B;](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` é a conversão a ser monitorada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>` e você precisará passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Observação:** o nome da propriedade não pode incluir caracteres especiais.
 

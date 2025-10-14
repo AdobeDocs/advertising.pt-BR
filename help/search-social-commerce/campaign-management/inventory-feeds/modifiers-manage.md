@@ -66,7 +66,7 @@ Cada grupo de modificadores pode incluir quantos modificadores desejar. Cada mod
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-1. (Se necessário) [Remova referências ao modificador ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
+1. (Se necessário) [Remova referências ao modificador &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
 
 >[!MORELIKETHIS]
 >

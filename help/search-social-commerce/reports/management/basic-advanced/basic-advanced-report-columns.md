@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
+source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
 workflow-type: tm+mt
-source-wordcount: '3745'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | Coluna | Descrição |
 | ---- | ---- |
-| \[Métricas personalizadas (derivadas) específicas do anunciante\] | O valor de uma [métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) que é calculada a partir das métricas existentes. |
+| \[Métricas personalizadas (derivadas) específicas do anunciante\] | O valor de uma [métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) que foi criada com base nas métricas existentes. |
 | \[Classificações de rótulo específicas do anunciante\] | Qualquer classificação de etiqueta atualmente aplicada à entidade, no nível da entidade. Várias classificações de rótulo são separadas por vírgulas (,). |
 | \[Métricas de conversão específicas do anunciante\] | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
 | \[conversões rastreadas pelo Google\] | Consulte a entrada para &quot;GGL\*, GGL_CT\*, and GGL_XD_CT\*&quot;. |
@@ -38,13 +38,16 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | As dimensões do anúncio. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anúncios de pesquisa responsivos) A eficácia do anúncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] campanhas) O ajuste de oferta móvel de nível de grupo de anúncios atual, que determina como as ofertas são ajustadas quando o anúncio é exibido em um dispositivo móvel. |
+| [!UICONTROL AI Max Bundling Required] | (Campanhas que segmentam somente a rede de pesquisa; campanhas com o recurso Máximo de IA habilitado; somente leitura) Se o agrupamento é necessário: *[!UICONTROL NOT_REQUIRED]* ou nulo. |
+| [!UICONTROL AI Max Enabled] | Se o recurso [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) está habilitado: *[!UICONTROL false]* ou é nulo. |
+| [!UICONTROL AI Max Search Term Matching] | (Campanhas que direcionam a rede de pesquisa e para as quais o [recurso Máximo de IA](https://support.google.com/google-ads/answer/15910366) e o recurso de correspondência de termos de pesquisa no nível da campanha estão habilitados; somente leitura) Se a correspondência de termos de pesquisa no nível do grupo de anúncios está habilitada: *[!UICONTROL true]* ou nula. |
 | [!UICONTROL Advertiser] | O nome do anunciante. |
 | [!UICONTROL Advertiser ID] | A ID numérica da conta Search, Social, &amp; Commerce do anunciante. |
 | [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para campanhas de [!DNL Google Ads] e [!DNL Yahoo! Japan Ads], esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft Advertising], esses dados estarão disponíveis somente até 22 de janeiro de 2021. |
 | [!UICONTROL Base URL] | O URL base da palavra-chave, incluindo quaisquer parâmetros de acréscimo configurados para a campanha ou conta. Ela não inclui nenhum código de rastreamento e redirecionamento de Pesquisa, Social e Commerce. |
-| [!UICONTROL Bid Strategy] | (A maioria das redes de anúncios) Para campanhas ou componentes de campanha, essa é a estratégia de oferta da campanha. Para contas de rede de anúncios vinculadas a uma conta de gerente, essa é a estratégia de oferta entre contas. Os valores disponíveis variam de acordo com a rede de anúncios. |
+| [!UICONTROL Bid Strategy] | (A maioria das redes de anúncios) Para campanhas ou componentes de campanha, esta é a estratégia de oferta da campanha. Para contas de rede de anúncios vinculadas a uma conta de gerente, essa é a estratégia de oferta entre contas. Os valores disponíveis variam de acordo com a rede de anúncios. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] anúncios responsivos) O nome comercial. |
-| [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] anúncios responsivos e multimídia) A chamada para ação incluída no anúncio. |
+| [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] anúncios responsivos e multimídia) A call to action incluída no anúncio. |
 | [!UICONTROL Campaign] | A campanha. |
 | [!UICONTROL Campaign Budget] | O orçamento da campanha. |
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] campanhas) O ajuste de oferta móvel no nível da campanha atual, que determina como as ofertas são ajustadas quando o anúncio é exibido em um dispositivo móvel. |
@@ -78,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | O URL final ou o URL de destino (incluindo quaisquer parâmetros de rastreamento) do anúncio. |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan] somente) O nome da imagem do anúncio. |
 | [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | Os títulos ou títulos do anúncio. Diferentes tipos de criação têm números diferentes de linhas de título obrigatórias e opcionais. Para ver colunas [!UICONTROL Creative Title4] e superiores em [!DNL Microsoft Advertising] anúncios responsivos ou anúncios multimídia, inclua a coluna &quot;[!UICONTROL Creative Titles]&quot; nas configurações do relatório. |
-| [!UICONTROL Creative Titles] | (Somente para anúncios de pesquisa multimídia e responsivos) Adiciona uma coluna para cada um dos títulos curtos do anúncio (&quot;[!UICONTROL Creative Title]&quot; até &quot;[!UICONTROL Creative Title15]&quot;). Ao incluir essa coluna, você não precisa incluir as outras colunas [!UICONTROL Creative Title], mas editar a seção [!UICONTROL Order Results/Limit Rows By] para classificar por [!UICONTROL Creative Titles] em vez de [!UICONTROL Creative Title]. |
+| [!UICONTROL Creative Titles] | (Somente para anúncios de pesquisa multimídia e responsivos) Adiciona uma coluna para cada título curto do anúncio (&quot;[!UICONTROL Creative Title]&quot; até &quot;[!UICONTROL Creative Title15]&quot;). Ao incluir essa coluna, você não precisa incluir as outras colunas [!UICONTROL Creative Title], mas editar a seção [!UICONTROL Order Results/Limit Rows By] para classificar por [!UICONTROL Creative Titles] em vez de [!UICONTROL Creative Title]. |
 | [!UICONTROL Creative Type] | O formato do anúncio. Estes são valores possíveis: <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Demand Gen Carousel Ad]</i> (anúncios do carrossel de várias imagens), <i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>, <i>[!UICONTROL Demand Gen Product Ad]</i> e <i>[!UICONTROL Demand Gen Video Ad]</i>, <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> ou <i>[!UICONTROL Text Ad]</i>. |
 | [!UICONTROL CTR] | A taxa de cliques, que é o número de cliques dividido pelo número de impressões para os anúncios incluídos. |
 | [!UICONTROL Currency] | O tipo de moeda aplicável (como &quot;USD&quot; ou &quot;GBP&quot;).<br><br><b>Observação:</b> se o relatório incluir dados para contas com moedas diferentes, qualquer valor monetário &quot;[!UICONTROL Total]&quot; será simplesmente a soma de todos os números da coluna, independentemente da moeda. |
@@ -123,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] e [!UICONTROL Label Value Report]) A classificação de etiqueta. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] e [!UICONTROL Label Value Report]) Um valor para a classificação de etiqueta. |
 | [!UICONTROL Language] | (Campanhas de exibição) Os idiomas do público-alvo. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente; os dados estão disponíveis somente quando a regra de atribuição especificada para o relatório é &quot;Último evento&quot;) Quando a linha relata uma conversão resultante de um clique em uma extensão de anúncio (em vez do próprio anúncio) ou em um anúncio de produto/compra, esta coluna mostra o tipo e o título de um link que foi clicado:<ul><li>`pla:*` — Anúncios de produtos são listados como `pla:<product ID>`, como &quot;pla:8525822&quot;.</li><li>`sl:*` — Os sitelinks estão listados como `sl:<Sitelink text>`, como &quot;sl:See Current Offers&quot;.</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente; os dados estão disponíveis somente quando a regra de atribuição especificada para o relatório é &quot;Último evento&quot;) Quando a linha relata uma conversão resultante de um clique em uma extensão de anúncio (em vez do próprio anúncio) ou em um anúncio de produto/compra, esta coluna mostra o tipo e o título de um link que foi clicado:<ul><li>`pla:*` — Anúncios de produtos são listados como `pla:<product ID>`, como &quot;pla:8525822.&quot;</li><li>`sl:*` — Os sitelinks estão listados como `sl:<Sitelink text>`, como &quot;sl:See Ofertas Atuais&quot;.</li></ul> |
 | [!UICONTROL Listing Match Type] | O tipo de correspondência de palavra-chave para a lista de anúncios, <i>[!UICONTROL Content]</i> para um anúncio em uma campanha direcionada por conteúdo ou <i>[!UICONTROL Sitecpc]</i> para uma inserção em uma campanha direcionada por site. Para palavras-chave [!DNL Microsoft Advertising], isso pode incluir vários tipos de correspondência (como &quot;[!UICONTROL Broad],[!UICONTROL Exact]&quot;). |
 | [!UICONTROL Location] | (Exibir campanhas) Os locais do público-alvo. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (Em linhas de relatório concluídas para [!DNL Microsoft Advertising] anúncios responsivos e multimídia) Os títulos longos do anúncio. Para ver essas colunas, inclua a coluna &quot;[!UICONTROL Long Creative Titles]&quot; nas configurações do relatório. |

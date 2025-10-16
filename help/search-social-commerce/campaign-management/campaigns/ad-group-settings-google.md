@@ -3,9 +3,9 @@ title: Configurações do grupo de anúncios [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] grupos de anúncios.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Se a campanha usar uma estratégia de oferta de Oferta Inteligente (como [!UICON
 >* Ao fazer uma oferta por palavra-chave, crie modelos de rastreamento no nível da palavra-chave. Da mesma forma, ao fazer uma oferta por posicionamento, crie modelos de rastreamento no nível de posicionamento. Para todas as outras dimensões, crie modelos de rastreamento no nível do anúncio.
 >* Quando você faz lances por Idade, Gênero, Interesse e Lista ou Vertical para campanhas em portfólios, o recurso de otimização não otimiza lances para a dimensão. Além disso, todas as atribuições são aplicadas ao grupo de anúncios.
 >* Anúncios na rede de pesquisa sempre usam ofertas de palavra-chave.
+
+**[!UICONTROL AI Max Search Term Matching]:** (Campanhas que direcionam a rede de pesquisa e para as quais o [recurso Máximo de IA](https://support.google.com/google-ads/answer/15910366) e o recurso de correspondência de termos de pesquisa no nível da campanha estão habilitados; somente leitura) Se a correspondência de termos de pesquisa no nível do grupo de anúncios está habilitada: *[!UICONTROL Disabled]* ou *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

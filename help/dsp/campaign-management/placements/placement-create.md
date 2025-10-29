@@ -3,9 +3,9 @@ title: Criar uma disposição
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       Para a maioria dos tipos de posicionamento, todos os tipos de inventário e todas as origens para cada tipo são incluídos por padrão. Para [!DNL Roku] posicionamentos, você deve especificar o tipo de inventário e as fontes.
 
-   1. (Opcional) Na seção [!UICONTROL Site Targeting], restrinja os sites que deseja direcionar e especifique os sites que deseja excluir.
+   1. (Opcional) Na seção [!UICONTROL Site or app And Keyword Targeting], restrinja os sites e aplicativos que deseja direcionar e excluir.
 
    1. (Opcional) Na seção [!UICONTROL Audience Targeting]:
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)
+>* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/340454)

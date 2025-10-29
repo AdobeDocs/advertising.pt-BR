@@ -3,9 +3,9 @@ title: Configurações do anúncio antes da exibição
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios precedentes.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -68,19 +68,9 @@ Este campo é igual ao campo **[!UICONTROL Width]**.
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads).&quot;
+<!-- **[!UICONTROL Pixel]:** -->
 
-As configurações a seguir se aplicam a cada pixel criado ou editado.
-
-**[!UICONTROL Integration Event]:** O evento que aciona o pixel. Para este tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
-
-**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem de 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
-
-**[!UICONTROL Pixel URL or Code]:** A URL da imagem de pixel, no formato apropriado para o [!UICONTROL Pixel Type] especificado.
-
-**[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
-
-**[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >

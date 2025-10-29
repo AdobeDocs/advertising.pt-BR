@@ -3,9 +3,9 @@ title: Configurações de Anúncio de Vídeo Universal
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de vídeo universais.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **[!UICONTROL Wmode]:** O modo de janela: *[!UICONTROL window]*, *[!UICONTROL transparent]* ou *[!UICONTROL opaque]*. Se esta configuração não for aplicável, deixe-a em branco.
 
-**[!UICONTROL Video Format]:** O formato do player de anúncio para inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A visibilidade sempre é medida para [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] inclui um inventário que não permite a medição de visibilidade. Considere essa distinção se as métricas de visibilidade forem importantes para a campanha.
+**[!UICONTROL Video Format]:** O formato do player de anúncio para inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A visibilidade sempre é medida para [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] inclui inventário que não permite a medição de visibilidade. Considere essa distinção se as métricas de visibilidade forem importantes para a campanha.
 
 Use o [!UICONTROL VAST], que não permite a medição da visibilidade, quando você direciona uma TV conectada ou um inventário que exige estritamente apenas o formato VAST (geralmente de fontes de fornecimento como o Google Ad Manager, Appnexus, SpotX e Freewheel). Use essa opção também para inventário anteriormente compatível com inserções/anúncios VAST (Standard Pre-roll) ou VAST (Phone + Tablet Standard Pre-roll).
 
@@ -58,19 +58,9 @@ Use o [!UICONTROL VAST], que não permite a medição da visibilidade, quando vo
 
 ### [!UICONTROL Pixel]
 
-Todos os pixels de rastreamento de evento existentes para o posicionamento são anexados automaticamente. Você pode desanexar pixels existentes e criar novos pixels conforme necessário, com base nas necessidades de rastreamento do anúncio individual. **Dica:** para editar os pixels de rastreamento de terceiros para vários anúncios em um posicionamento de uma só vez usando a exibição [!UICONTROL Ad Tools], consulte &quot;[Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads).&quot;
+<!-- **[!UICONTROL Pixel]:** -->
 
-As configurações a seguir se aplicam a cada pixel criado ou editado.
-
-**[!UICONTROL Integration Event]:** O evento que aciona o pixel. Para este tipo de anúncio, use pixels que são acionados no *[!UICONTROL Impression]* ou *[!UICONTROL Click-through]*.
-
-**[!UICONTROL Pixel Type]:** Se o pixel é um *[!UICONTROL IMG URL]* (arquivo de imagem de 1x1 pixels), *[!UICONTROL HTML]* ou *[!UICONTROL JavaScript URL]*.
-
-**[!UICONTROL Pixel URL or Code]:** A URL da imagem de pixel, no formato apropriado para o [!UICONTROL Pixel Type] especificado.
-
-**[!UICONTROL Pixel Name]:** O nome do pixel. Use um nome que ajude a identificar facilmente o pixel.
-
-**[!UICONTROL Pixel Provider]:** O provedor de pixels: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* ou *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >

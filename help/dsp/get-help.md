@@ -21,14 +21,14 @@ Para abrir um conjunto de ajuda completo explicando como usar todos os recursos,
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=pt).
 -->
 
 ## Contato [!DNL Adobe]
 
 Para problemas de produto ou conta, faça o seguinte:
 
-* (Anunciantes com contratos de autoatendimento) Abra um tíquete para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Anunciantes com contratos de autoatendimento) Abra um tíquete para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
 
   Para o produto, selecione &quot;[!UICONTROL Advertising - DSP].&quot;
 

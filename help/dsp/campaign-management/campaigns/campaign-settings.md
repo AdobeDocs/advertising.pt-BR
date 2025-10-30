@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** Se deseja gerenciar margens para a campanha: *[!UICONTROL Yes]* ou *[!UICONTROL No]* (o padrão).
+**[!UICONTROL Margin Management]:** (Contas de autoatendimento atendidas por agências que usam margens) Opções para gerenciamento de margem:
 
-Quando você escolher *[!UICONTROL Yes],* especifique o tipo e o valor da margem:
+* **[!UICONTROL Would you like to manage margins for this campaign?]:** Se deseja gerenciar margens para a campanha: *[!UICONTROL Yes]* ou *[!UICONTROL No]* (o padrão). Ao escolher *[!UICONTROL Yes],* especifique as configurações adicionais. Depois de habilitar o gerenciamento de margem e salvar a campanha, você não poderá desabilitá-lo.
 
-* **[!UICONTROL Margin Type]:** O tipo de margem. Não é possível alterar o tipo de margem depois de habilitar o gerenciamento de margem e salvar a campanha.
+* **[!UICONTROL How would you like to compute agency fees?]:** (Campanhas somente com gerenciamento de margem) Como calcular taxas de agência:
 
-   * *[!UICONTROL Fixed]:* (o padrão) Permite que o DSP calcule e automaticamente e limite o gasto com base em uma porcentagem de margem fixa de [!UICONTROL Gross Budget].
+   * *[!UICONTROL Margin % of Total Budget]:* (padrão) Calcula taxas como uma porcentagem de [!UICONTROL Gross Budget]. Especifique o [!UICONTROL Agency Fee Type] (fixo ou composto) e o [!UICONTROL Margin %] ou [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Dynamic]:* Permite gerenciar margens até o nível de posicionamento especificando um [!UICONTROL Budget Reserve %] e [!UICONTROL Gross Budget] separados para cada pacote e posicionamento na campanha. O DSP otimiza com base na eficiência financeira de cada posicionamento, sem garantir uma margem específica. Use esta opção para ordens de inserção que consistem em vários itens de linha para os quais você concordou em distribuir uma quantia fixa de unidades ou tipos de unidade a uma taxa fixa.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Adiciona uma porcentagem especificada de [!UICONTROL Gross Budget] ao custo de mídia, dados e outros custos e/ou taxas técnicas de [!DNL Adobe]. Especifique o [!UICONTROL Markup %] e selecione os componentes nos quais aplicar a marcação.
 
-* **[!UICONTROL Fixed Margin %]:** (Campanhas somente com margens fixas) A marcação padrão para cada ordem de inserção <!-- impression? -->, como uma porcentagem. Esse valor é deduzido de [!UICONTROL Gross Budget] para definir o orçamento líquido da campanha.
+* **[!UICONTROL Agency Fee Type]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget]) O tipo de taxa da agência.
 
-* **[!UICONTROL Budget Reserve %]:** (Campanhas somente com margens fixas; opcional) Reserva uma porcentagem especificada de [!UICONTROL Gross Budget] como salvaguarda. Esse valor é deduzido de [!UICONTROL Gross Budget] para definir o orçamento líquido da campanha.
+   * *[!UICONTROL Fixed]:* (padrão) Permite que o DSP calcule e limite gastos automaticamente com base em uma porcentagem fixa de [!UICONTROL Gross Budget]. Especifique o [!UICONTROL Margin %].
+
+   * *[!UICONTROL Composite]:* permite que a DSP calcule e limite gastos automaticamente com base em uma porcentagem de [!UICONTROL Gross Budget], usando a porcentagem composta de taxas de agência e [!DNL Adobe] taxas técnicas. Especifique o [!UICONTROL Composite Margin %].
+
+* **[!UICONTROL Margin %]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget] com margens fixas) A marcação padrão para cada ordem de inserção <!-- impression? -->, como uma porcentagem. Esse valor é deduzido de [!UICONTROL Gross Budget] para definir o orçamento líquido da campanha. A margem não é aplicada ao [!UICONTROL Estimated Tax Withholding] no [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Composite Margin %]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget] com margens compostas) A soma das taxas de agência e das taxas técnicas [!DNL Adobe], como uma porcentagem. Esse valor é deduzido de [!UICONTROL Gross Budget] para definir o orçamento líquido da campanha. A margem não é aplicada ao [!UICONTROL Estimated Tax Withholding] no [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Markup %]:** (Campanhas que usam [!UICONTROL Apply Markup % on top of individual cost components]) A porcentagem de [!UICONTROL Gross Budget] a ser adicionada aos componentes de custo especificados.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (Campanhas que usam [!UICONTROL Apply Markup % on top of individual cost components]) Os componentes de custo aos quais [!UICONTROL Markup %] é aplicado. Selecione todos os componentes aplicáveis: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* e/ou *[!UICONTROL Adobe tech fees]*.
 
 **[!UICONTROL Gross Budget]:** (Campanhas somente com gerenciamento de margem) O orçamento bruto da campanha, antes da aplicação dos ajustes marginais especificados.
-
-Opcionalmente, você pode adicionar um orçamento bruto diário, semanal ou mensal adicional:
-
-1. Clique em **[!UICONTROL Add an additional Gross Budget]**.
-
-1. Insira o **[!UICONTROL Gross Budget]** e selecione o intervalo de orçamento: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly]*.
-
-O orçamento líquido total, que é o limite de gastos da campanha, é calculado automaticamente com base nas configurações de margem e é indicado abaixo desse valor.
 
 **[!UICONTROL Budget]:** (Campanhas sem gerenciamento de margem) O orçamento geral da campanha.
 
@@ -78,11 +80,11 @@ Para estimar impostos a reter:
 >
 >* Você também pode configurar esses valores nas configurações de taxa da conta.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Somente leitura para campanhas existentes criadas desde 22 de junho de 2020; não disponível para campanhas criadas antes de 22 de junho de 2020) O nível no qual o DSP direciona anúncios e aplica limites de frequência: *Mesmo dispositivo* para direcionar um dispositivo ou *Pessoas* para direcionar uma pessoa em todos os seus dispositivos conhecidos. **Observação:** o suporte entre dispositivos não está disponível para posicionamentos que direcionem IDs universais.
+**[!UICONTROL Cross Device Level]:** (Somente leitura para campanhas existentes criadas desde 22 de junho de 2020; não disponível para campanhas criadas antes de 22 de junho de 2020) O nível no qual a DSP direciona anúncios e aplica limites de frequência: *Mesmo dispositivo* para direcionar um dispositivo ou *Pessoas* para direcionar uma pessoa em todos os seus dispositivos conhecidos. **Observação:** o suporte entre dispositivos não está disponível para posicionamentos que direcionem IDs universais.
 
 **[!UICONTROL Device Graph]:** (Somente leitura para campanhas existentes; campanhas com segmentação entre dispositivos com base em pessoas apenas) O gráfico de dispositivos a ser usado para segmentação entre dispositivos e gerenciamento de frequência:
 
-* *[!UICONTROL LiveRamp - U.S. only]:* Disponível a todos os anunciantes para direcionamento entre dispositivos a US$ 0,35 para impressões fornecidas usando o gráfico de dispositivos [!DNL LiveRamp] (ou seja, para dispositivos não encontrados nos segmentos de público-alvo direcionados). Você pode configurar o direcionamento entre dispositivos no nível do posicionamento.
+* *[!UICONTROL LiveRamp - U.S. only]:* Disponível a todos os anunciantes para direcionamento entre dispositivos a US$ 0,35 no CPM para impressões que são fornecidas usando o gráfico de dispositivos [!DNL LiveRamp] (ou seja, para dispositivos não encontrados nos segmentos de público-alvo direcionados). Você pode configurar o direcionamento entre dispositivos no nível do posicionamento.
 
   Essa opção também está disponível para todos os anunciantes, sem taxas, para gestão de frequência e medição de atribuição.
 
@@ -120,7 +122,7 @@ Para estimar impostos a reter:
 
 #### Verificação de público-alvo
 
-**[!UICONTROL Comscore Campaign Ratings]:** (Opcional) Habilita a medição e o relatório [!DNL Campaign Ratings] validados por [!DNL Comscore] da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
+**[!UICONTROL Comscore Campaign Ratings]:** (Opcional) Habilita a medição e o relatório [!DNL Comscore] validados por [!DNL Campaign Ratings] da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
 * **[!UICONTROL Target Gender]:** Sexo a ser direcionado: *[!UICONTROL Both]* (padrão), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
 
@@ -130,7 +132,7 @@ Para estimar impostos a reter:
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Habilita o rastreamento para a métrica [!UICONTROL Attention Score] de nível de posicionamento (o número médio ponderado de [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; em impressões). As métricas estão disponíveis para todos os tipos de posicionamento, exceto para [!DNL Roku] TV conectada, pré-implantação somente VPAID e áudio que não é um podcast. O DSP anexa automaticamente uma marca JavaScript a todas as criações associadas e [!DNL Adelaide] rastreia os dados de exposição e os envia para o DSP diariamente. Você pode usar a data para otimizar manualmente seus gastos com táticas de posicionamento com melhores pontuações de atenção.
+**[!UICONTROL Adelaide]:** Habilita o rastreamento para a métrica [!UICONTROL Attention Score] de nível de posicionamento (o número médio ponderado de [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; em impressões). As métricas estão disponíveis para todos os tipos de posicionamento, exceto para [!DNL Roku] TV conectada, pré-implantação somente VPAID e áudio que não é um podcast. O DSP anexa automaticamente uma marca JavaScript a todas as criações associadas, e o [!DNL Adelaide] rastreia os dados de exposição e os envia para o DSP diariamente. Você pode usar a data para otimizar manualmente seus gastos com táticas de posicionamento com melhores pontuações de atenção.
 
 O campo [!UICONTROL Attention Score] está disponível na seção [!UICONTROL Metrics] dos relatórios; nos modos de exibição [!UICONTROL Campaigns], [!UICONTROL Packages] e [!UICONTROL Placements]; e nas guias [!UICONTROL Sites], [!UICONTROL Ads] e [!UICONTROL Inventory] da [exibição de detalhes de posicionamento](/help/dsp/campaign-management/reports/placement-details-view.md).
 
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Campaign Management](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
 >* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)

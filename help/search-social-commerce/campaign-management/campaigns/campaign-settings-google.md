@@ -3,9 +3,9 @@ title: Configurações de campanha de [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
+source-git-commit: 4612b0022c6f4a2014409a546da07e4f5efe6e78
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ ht-degree: 0%
 <!-- **[!UICONTROL Budget]:** -->
 
 {{$include /help/_includes/budget.md}}
+
+**[!UICONTROL Google Recommended Budget]:** (Opcional; aplicável para campanhas com todas as configurações necessárias e que incluem apenas grupos de anúncios) Clique em **[!UICONTROL Show Recommendation]** para exibir o orçamento recomendado por [!DNL Google Ads]. Para campanhas complexas, a recomendação pode levar até 40 segundos para ser gerada.
+
+Para campanhas de desempenho máximo e de pesquisa, as seguintes configurações são necessárias para o Recommendations:
+
+* tipo de estratégia de oferta
+* URL final
+* grupos de ativos
+
+Para campanhas de pesquisa, as seguintes configurações adicionais também são necessárias para as recomendações:
+
+* meta da estratégia de oferta
+* país
+* idioma
+* um local incluído ou excluído
+* palavras-chave
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 

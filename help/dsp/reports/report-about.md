@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
+source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
    * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
 
-  <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
-    -->
+   * **[!UICONTROL Custom Creative Report]:** (Anunciantes com Advertising Creative; recurso beta) Use este relatório para monitorar o desempenho em suas experiências de anúncios do Advertising Creative.
 
    * **[!UICONTROL Device]:** Use este modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 

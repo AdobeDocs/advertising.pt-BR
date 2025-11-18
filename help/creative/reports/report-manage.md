@@ -2,7 +2,7 @@
 title: Gerenciar relatórios personalizados
 description: Saiba como gerar e gerenciar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
-source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
+source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Duplique um relatório personalizado para criar um novo relatório com configura
 
 1. Clique em **[!UICONTROL Edit Custom Report]**.
 
-## Executar um relatório personalizado &lbrace;report-run-now&rbrace;
+## Executar um relatório personalizado {#report-run-now}
 
 Você pode executar qualquer relatório que não tenha expirado e não esteja em execução no momento.
 
@@ -207,7 +207,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 

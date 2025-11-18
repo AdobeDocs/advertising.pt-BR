@@ -3,9 +3,9 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,19 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
 * Modelos de relatório pré-configurados
 
+   * **[!UICONTROL All-in Cost BETA]**: (anunciantes somente com Advertising Creative e Advertising DSP; recurso beta) Use este relatório para ver quanto o Advertising DSP gastou foi atribuído à veiculação de anúncios do Adobe Creative. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio.
+
    * **[!UICONTROL Billing]:** use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
      >[!NOTE]
      >
      >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertença a vários segmentos, somente um segmento faturável será creditado com a impressão.
 
+   * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
+
    * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
 
-   * **[!UICONTROL Custom Creative Report]:** (Anunciantes com Advertising Creative; recurso beta) Use este relatório para monitorar o desempenho em suas experiências de anúncios do Advertising Creative.
+   * **[!UICONTROL Custom Creative]:** (Somente anunciantes com o Advertising Creative) Use este relatório para monitorar o desempenho em suas experiências de anúncios do Advertising Creative.
 
    * **[!UICONTROL Device]:** Use este modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 
@@ -64,20 +68,11 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
    * **[!UICONTROL Geo]**: use este modelo pré-preenchido para ver as métricas principais por dimensões geográficas.
 
-   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
-
-   * **[!UICONTROL Segment]:** Use este modelo pré-preenchido para ver as métricas principais por segmento.
-
-     >[!NOTE]
-     >
-     >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos direcionados, este relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
-     >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis a partir de 1 de junho de 2018.
-
-   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
+   * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-   * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Path to Conversion]:** use este relatório para identificar como otimizar orçamentos e personalizar anúncios com base em sequências de interação de anúncios de melhor desempenho. O relatório mostra a sequência de pontos de interação na mesma família que resultam em cada uma das métricas de conversão selecionadas no intervalo de dados especificado. O relatório usa um período de lookback especificado entre a primeira interação e uma conversão e pode incluir uma dimensão:
 
@@ -99,9 +94,16 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      Os dados são exibidos para cada comprimento de caminho de até 10; os dados para comprimentos de caminho superiores a 10 são agrupados.
 
-   * **[!UICONTROL Time to Conversion]:** Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+   * **[!UICONTROL Segment]:** Use este modelo pré-preenchido para ver as métricas principais por segmento.
 
-   * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
+     >[!NOTE]
+     >
+     >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos direcionados, este relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
+     >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis a partir de 1 de junho de 2018.
+
+   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
+
+   * **[!UICONTROL Time to Conversion]:** Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Relatório entre contas {#cross-account-reporting}
 

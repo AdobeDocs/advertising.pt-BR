@@ -3,9 +3,10 @@ title: Baixar simulações
 description: Saiba como baixar simulações em um arquivo de planilha.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Você também pode [personalizar a [!UICONTROL Simulations] visualização](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) para incluir colunas para muitas métricas adicionais e a maioria das configurações de simulação. Consulte a seção &quot;Ações disponíveis&quot; em &quot;[Sobre simulações](simulation-about.md#simulations-actions)&quot; para obter mais informações sobre as colunas que você pode incluir.
+>* Você também pode [exibir os resultados da simulação na tela](simulation-view.md).
+>* Você pode [personalizar a [!UICONTROL Simulations] visualização](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) para incluir colunas para muitas métricas adicionais e a maioria das configurações de simulação. Consulte a seção &quot;Ações disponíveis&quot; em &quot;[Sobre simulações](simulation-about.md#simulations-actions)&quot; para obter mais informações sobre as colunas que você pode incluir.
 
 1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
@@ -32,3 +34,4 @@ ht-degree: 0%
 >
 >* [Sobre simulações](simulation-about.md)
 >* [Executar ou executar novamente uma simulação](simulation-create.md)
+>* [Exibir detalhes da simulação](simulation-view.md)

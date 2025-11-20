@@ -14,8 +14,8 @@ ht-degree: 56%
 
 # Suporte da Adobe Advertising para privacidade do consumidor {#privacy}
 
-+ [Sobre o suporte do Adobe Advertising para a privacidade do consumidor](/help/privacy/home.md)
++ [Sobre o suporte da Adobe Advertising para privacidade do consumidor](/help/privacy/home.md)
 + [Suporte ao GDPR](/help/privacy/gdpr.md)
 + Suporte para CCPA {#ccpa}
    + [Suporte para CCPA: acesso e exclusão de dados do consumidor](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(Somente DSP) Suporte para CCPA: cancelamento de venda por parte do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [(Somente DSP) Suporte para CCPA: cancelamento de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)

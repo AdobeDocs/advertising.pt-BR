@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # Políticas e diretrizes da Adobe Advertising {#policies}
 
-+ [Sobre Políticas e Diretrizes do Adobe Advertising](/help/policies/home.md)
++ [Sobre as Políticas e Diretrizes do Adobe Advertising](/help/policies/home.md)
 + [Política de requisitos de anúncios](/help/policies/ad-requirements-policy.md)
 + [Política de requisitos de ID universal](/help/policies/universal-id-policy.md)
 + [Diretrizes de segmento de integridade aceitável](/help/policies/health-segment-guidelines.md)

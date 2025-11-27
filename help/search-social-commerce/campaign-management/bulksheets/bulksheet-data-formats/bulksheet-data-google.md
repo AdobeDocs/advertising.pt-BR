@@ -239,7 +239,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 
 ### Anúncio de pesquisa dinâmica expandido
 
-Este tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; em [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;.
+Este tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; em [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=pt-BR)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 
@@ -264,7 +264,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 
 ### Lista de produtos/campos de anúncios de compras
 
-Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;.
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=pt-BR)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 

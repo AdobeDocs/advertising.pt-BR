@@ -3,9 +3,9 @@ title: Configurações do modelo de alerta personalizado
 description: Saiba mais sobre as configurações para modelos de alerta personalizados.
 exl-id: c9cff26b-e6be-4dad-ac3a-b5a53387c4e6
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | (Disponível quando o alerta rastreia aumentos ou reduções em uma ou mais colunas de métrica; somente leitura) Os dois intervalos de datas para os quais os dados são comparados. |
 |  | [!UICONTROL Date Comparison Format] | (Disponível quando o alerta rastreia aumentos ou reduções em uma ou mais colunas de métrica) Como expressar a diferença entre dados nos dois intervalos de datas:<ul><li><p><i>[!UICONTROL Variance]</i> (o padrão) — Mostra a diferença como um valor numérico.</p></li><li><p><i>[!UICONTROL % Change]</i> — Mostra a diferença como uma porcentagem.</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | O nome do alerta. Deve incluir pelo menos cinco caracteres. |
-|  | [!UICONTROL Trigger this Alert] [quando] | Com que frequência o alerta verifica os filtros de condição especificados e, quando todas as condições são atendidas, envia notificações por email:<ul><li><p>[!UICONTROL Daily at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AM|PM]]</p></li></ul>**Observação:** esse valor não afeta o período de avaliação. |
+|  | [!UICONTROL Trigger this Alert] [quando] | Com que frequência o alerta verifica os filtros de condição especificados e, quando todas as condições são atendidas, envia notificações por email:<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*Dia da Semana*> às &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*Dia NN*> em &lt;*NN*> `[AM\|PM]`]</p></li></ul>**Observação:** esse valor não afeta o período de avaliação. |
 |  | [!UICONTROL Email Recipients] | (Editável somente pelo criador do modelo de alerta; somente leitura para todos os outros) Endereços de email nos quais enviar notificações quando um alerta for gerado. Por padrão, o endereço do criador do template é inserido.<br><br>Para adicionar um endereço, insira o endereço e clique em **[!UICONTROL Add]**. Para especificar vários endereços, separe-os com vírgulas ou espaços, ou adicione-os separadamente.<br><br>Quando o alerta inclui até 1000 registros, uma versão CSV do alerta é anexada à mensagem de email. |
 
 >[!MORELIKETHIS]

@@ -3,9 +3,9 @@ title: Dados de bulksheet necessários para  [!DNL Microsoft Advertising] contas
 description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Microsoft Advertising] .
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '6928'
+source-wordcount: '6895'
 ht-degree: 0%
 
 ---
@@ -131,8 +131,8 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | Campo | Obrigatório? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obrigatório, a menos que cada linha inclua um &quot;[!UICONTROL AMO ID]&quot; para a entidade. |
-| [!UICONTROL Campaign Name] | Obrigatório. O nome exclusivo que identifica uma campanha para uma conta. |
-| [!UICONTROL Campaign Budget] | Obrigatório para criar uma campanha. Um limite de gastos diário para a campanha, com ou sem símbolos e pontuação monetários. Este valor substitui mas não pode exceder o orçamento da conta. |
+| [!UICONTROL Campaign Name] | Obrigatório. |
+| [!UICONTROL Campaign Budget] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Channel Type] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Delivery Method] | Opcional |
 | [!UICONTROL Campaign Priority] | Obrigatório para criar uma campanha de compras. |
@@ -225,12 +225,12 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&amp;rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&amp;rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
 | [!UICONTROL AMO ID] | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>O Search, Social e Commerce usa o valor para determinar a identidade correta a ser editada, mas não publica a ID na rede de anúncios. |
 
 ### Campos de anúncio de produto (compras)
 
-Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=pt-BR)&quot;.
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 

@@ -3,10 +3,10 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Campaign Assist Report].
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -47,8 +47,8 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL EF Campaign ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à campanha. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
 | [!UICONTROL EF Search Engine ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
-| [!UICONTROL Portfolio ID] | A ID numérica do portfólio. |  |
-| [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade. |  |
+| [!UICONTROL Portfolio ID] | Personalizado | A ID numérica do portfólio. |
+| [!UICONTROL User SE Account ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade. |
 
 >[!MORELIKETHIS]
 >

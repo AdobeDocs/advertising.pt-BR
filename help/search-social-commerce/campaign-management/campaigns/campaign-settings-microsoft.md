@@ -3,9 +3,9 @@ title: Configurações de campanha de [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ a campanha pode conter:
 
 * *[!UICONTROL Audience Video]:* mostra anúncios de vídeo padrão na rede de público-alvo.
 
-* *[!UICONTROL Performance Max]:* Mostra vários tipos de anúncios em todas as redes usando a oferta inteligente [!DNL Microsoft Advertising]. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, uma chamada para ação opcional e sinais de público-alvo. A rede de anúncios combina automaticamente os ativos para veicular anúncios com base no canal.
+* *[!UICONTROL Performance Max]:* Mostra vários tipos de anúncios em todas as redes usando a oferta inteligente [!DNL Microsoft Advertising]. Nas configurações da campanha, você deve especificar um ou mais grupos de ativos, que incluem imagens, logotipos, títulos, descrições, um call to action opcional e sinais de público-alvo. A rede de anúncios combina automaticamente os ativos para veicular anúncios com base no canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ a campanha pode conter:
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]:**(Aplicável a campanhas direcionadas a públicos na União Europeia (UE)) Se a campanha contém ou não anúncios políticos de acordo com os requisitos para anúncios veiculados na União Europeia nos termos do Regulamento UE 2024/90: *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -282,7 +284,7 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
-**[!UICONTROL Call to Action]:** O plano de ação a ser incluído no anúncio. Por padrão, *[!UICONTROL Act Now]* está selecionado.
+**[!UICONTROL Call to Action]:** A call to action a ser incluída no anúncio. Por padrão, *[!UICONTROL Act Now]* está selecionado.
 
 **[!UICONTROL Business Name]:** O nome da empresa, com no máximo 25 caracteres. Ele não pode conter scripts, HTML ou outro idioma de marcação.
 

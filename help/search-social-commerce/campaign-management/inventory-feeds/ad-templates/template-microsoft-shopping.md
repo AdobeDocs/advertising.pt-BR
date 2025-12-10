@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Ads] configurações de modelo de anúncio de compra par
 description: Referencie as configurações de  [!DNL Microsoft Ads] modelos de anúncios de compras para feeds de inventário.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 >[!NOTE]
 >
 >* Os seguintes caracteres são reservados para designar nomes de coluna e nomes de modificadores no modelo e, portanto, são proibidos como texto em todos os campos de atributo: `[ ] < > `
-
 
 ## \[Acima de todas as guias\]
 
@@ -59,7 +58,7 @@ Use modelos de anúncios de compras para configurar esses anúncios.
 
 **[!UICONTROL Campaign Tracking Template]:** (opcional para modelos para arquivos de feed de cliente) O modelo de rastreamento de nível de campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
 
-* Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, siga um destes procedimentos:
+* Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, siga um destes procedimentos:
 
    * (Recomendado) Use o [formato de modelo de rastreamento para campanhas de compras do Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se a conta inteira for dedicada a anúncios de compras, você poderá definir um modelo de rastreamento no nível da conta.
 
@@ -106,6 +105,8 @@ a prioridade da campanha primeiro para determinar qual campanha (e lances associ
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente; aplicável a campanhas direcionadas a públicos na União Europeia (UE)) Se a campanha contém ou não anúncios políticos de acordo com os requisitos para anúncios veiculados na União Europeia nos termos do Regulamento UE 2024/90: *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -122,7 +123,7 @@ a prioridade da campanha primeiro para determinar qual campanha (e lances associ
 
 **[!UICONTROL Ad Group Tracking Template]:** (opcional) um modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da aterrissagem e incorpora a URL final em um parâmetro. Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares substituem esse valor.
 
-Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
+Para o rastreamento de conversão do Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
@@ -155,7 +156,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor.
 **[!UICONTROL Tracking Template]:** (Unidades sem grupos de produtos filho; opcional) O modelo de rastreamento do produto
 grupo, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro [!DNL ValueTrack]. Esse template substitui templates em níveis superiores.
 
-Para o rastreamento de conversão de Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
+Para o rastreamento de conversão do Adobe Advertising, não é necessário inserir um valor. O valor no nível da campanha é suficiente.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor.
 

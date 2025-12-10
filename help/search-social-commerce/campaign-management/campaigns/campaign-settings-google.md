@@ -3,9 +3,9 @@ title: Configurações de campanha de [!DNL Google Ads]
 description: Referencie as configurações de  [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]:** Um nome de campanha exclusivo dentro da conta.
+
+**[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
+
+<!-- **[!UICONTROL End Date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Search Partners]:** (Campanhas direcionadas somente à rede de pesquisa, incluindo campanhas de compras) Mostra seus anúncios nas redes de parceiros de pesquisa da rede de anúncios. Por padrão, esta opção é *[!UICONTROL Off]*.
 
 **[!UICONTROL Audience Target Method]:**(Campanhas Gmail somente leitura existentes) Se:
 
@@ -50,13 +60,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid Only]:* Para mostrar anúncios até mesmo para pessoas que não estão associadas a públicos-alvo de direcionamento, desde que atendam a outros alvos de nível de grupo de anúncios. No entanto, você pode aumentar as chances de os anúncios serem exibidos para públicos-alvo específicos, definindo ofertas mais altas para esses públicos-alvo.
 
-**[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
-
-<!-- **[!UICONTROL End Date]:** -->
-
-{{$include /help/_includes/end-date.md}}
-
-**[!UICONTROL Search Partners]:** (Campanhas direcionadas somente à rede de pesquisa, incluindo campanhas de compras) Mostra seus anúncios nas redes de parceiros de pesquisa da rede de anúncios. Por padrão, esta opção é *[!UICONTROL Off]*.
+**[!UICONTROL Contains EU Political Ads]:**(Aplicável a campanhas direcionadas a públicos na União Europeia (UE)) Se a campanha contém ou não anúncios políticos de acordo com os requisitos para anúncios veiculados na União Europeia nos termos do Regulamento UE 2024/90: *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
 
 **[!UICONTROL AI Max Enabled]:** (Campanhas somente para rede de pesquisa; somente leitura) Se o recurso [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) está habilitado: *[!UICONTROL On]* ou *[!UICONTROL Off]*.
 

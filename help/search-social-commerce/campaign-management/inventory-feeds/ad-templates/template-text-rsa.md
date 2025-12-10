@@ -3,15 +3,14 @@ title: Anúncio de texto e configurações responsivas de modelo de anúncio de 
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # Anúncio de texto e configurações responsivas de modelo de anúncio de pesquisa para feeds de inventário
-
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
 
@@ -66,11 +65,11 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 **[!UICONTROL Campaign Tracking Template]:** (Contas somente com URLs finais/avançadas; opcional) O modelo de rastreamento de nível de campanha, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da aterrissagem e incorpora a URL final em um parâmetro. Esse valor substitui a configuração no nível da conta, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como o mais granular) substituem esse valor.
 
-* Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+* Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799/2) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Use o parâmetro `!{unescapedurl}` para indicar a URL da página de aterrissagem.
 
@@ -120,6 +119,8 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente; aplicável a campanhas direcionadas a públicos na União Europeia (UE)) Se a campanha contém ou não anúncios políticos de acordo com os requisitos para anúncios veiculados na União Europeia nos termos do Regulamento UE 2024/90: *[!UICONTROL Yes]* ou *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -136,7 +137,7 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 **[!UICONTROL Ad Group Tracking Template]:** (Contas somente com URLs finais/avançadas) O modelo de rastreamento de nível de grupo de anúncios, que especifica todos os redirecionamentos e parâmetros de rastreamento de domínio fora da aterrissagem e incorpora a URL final em um parâmetro.
 
-Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indicar o URL da landing page:
 
@@ -178,7 +179,7 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
    * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
 
-   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) específica de [!DNL Yandex] para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
+   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [[!DNL Yandex] específica de ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
 
 >[!NOTE]
 >
@@ -196,17 +197,17 @@ Se você usar um feed [!DNL Google Merchant Center] e incluir este valor na colu
 >[!NOTE]
 >
 >* Se você gerar URLs de rastreamento ao publicar dados propagados por meio do modelo, os parâmetros de rastreamento serão anexados a esse valor com base nas configurações de rastreamento da conta.
->* (Contas do [!DNL Google Ads]) Evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
+>* (Contas do [!DNL Google Ads]) Evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta da Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
 **[!UICONTROL Keyword Tracking Template]:** (Contas com URLs finais/avançadas; opcional) O modelo de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro. O modelo de rastreamento no nível mais granular (com a palavra-chave como mais granular) substitui os valores em todos os outros níveis.
 
-* Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+* Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
 
 * Opcionalmente, é possível informar redirecionamentos e rastreamento de terceiros.
 
 * Para indicar o URL da landing page:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
@@ -228,7 +229,7 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
    * O valor pode ser precedido ou anexado com um símbolo ou código de moeda. Por exemplo, £2.000,00 e 2000GBP são válidos.
 
-   * O valor pode incluir vírgula (,) ou ponto (.) como separador, com ponto opcional (.) ou vírgula (,) para valores fracionais. Por exemplo, 1.000,00 e 2.000,10 são válidos.
+   * O valor pode incluir uma vírgula (,) ou ponto (.) como separador, com um ponto opcional (.) ou vírgula (,) para valores fracionais. Por exemplo, 1.000,00 e 2.000,10 são válidos.
 
    * O valor pode ser prefixado ou anexado com um sinal de porcentagem (%), sinal de adição (+) ou sinal de subtração (-). Por exemplo, 20%, 208+ e -42,32 são válidos.
 
@@ -238,7 +239,7 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
 **[!UICONTROL Param 3]:** (somente modelos [!DNL Microsoft Advertising]) A cadeia de caracteres a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a cadeia de caracteres de substituição dinâmica `{Param3}`. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 
@@ -318,7 +319,7 @@ Para anúncios de pesquisa responsivos, insira um personalizador de anúncios us
 
 [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] substituíram a criação e a edição de anúncios de texto padrão.
 
-**[!UICONTROL Base URL]:** (Contas somente com URLs de destino) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] e a adição de rastreamento no nível do anúncio, Search, Social e Commerce adicionarão automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
+**[!UICONTROL Base URL]:** (Contas somente com URLs de destino) A página para a qual os usuários são levados. Ele pode incluir redirecionamento e código de rastreamento de terceiros. Se você usar o serviço de rastreamento de conversão da Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] e a adição de rastreamento no nível do anúncio, o Search, Social e Commerce adicionarão automaticamente seu próprio redirecionamento e código de rastreamento ao anúncio.
 
 Para inserir um nome de coluna ou grupo de modificadores como um parâmetro dinâmico, clique no campo de entrada e, em seguida, clique em um nome de coluna na lista de colunas ou em um [nome do modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) na lista [!UICONTROL Modifiers].
 
@@ -329,11 +330,11 @@ Se você usar um feed do Centro [!DNL Google Merchant] e incluir este valor na c
 >[!NOTE]
 >
 >* Se você gerar URLs de rastreamento ao publicar dados propagados por meio do modelo, os parâmetros de rastreamento serão anexados a esse valor com base nas configurações de rastreamento da conta.
->* ([!DNL Google Ads] contas ) Evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta do Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
+>* ([!DNL Google Ads] contas ) Evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta da Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 
 **[!UICONTROL Tracking Template]:** (Contas com URLs finais/avançadas; opcional) O modelo de rastreamento, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e incorpora a URL final em um parâmetro. O modelo de rastreamento no nível mais granular (com a palavra-chave como mais granular) substitui os valores em todos os outros níveis.
 
-Para o rastreamento de conversão de Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
+Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce anexa automaticamente o redirecionamento e o código de rastreamento quando você salva o registro.
 
 Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indicar o URL da landing page:
 

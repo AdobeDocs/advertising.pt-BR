@@ -227,7 +227,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&amp;rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&amp;rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
 | [!UICONTROL AMO ID] | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>O Search, Social e Commerce usa o valor para determinar a identidade correta a ser editada, mas não publica a ID na rede de anúncios. |
 
 ### Campos de anúncio de produto (compras)

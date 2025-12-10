@@ -4,9 +4,9 @@ description: Saiba como editar as configurações de vários portfólios usando 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ As notificações também são adicionadas à Central de Notificações, e você
 
 ## Requisitos em matéria de dados para os ficheiros de bulksheet carregados
 
-Consulte a guia [!UICONTROL Instructions] no arquivo de bulksheet baixado.
+Todos os arquivos de bulksheet devem incluir a coluna [!UICONTROL Portfolio ID], e cada linha de dados deve incluir um valor para que [!UICONTROL Portfolio ID] seja acionável. Para obter mais informações sobre os requisitos de dados, consulte a guia [!UICONTROL Instructions] no arquivo de bulksheet baixado.
 
 Para obter explicações sobre as colunas de configuração do portfólio na guia [!UICONTROL Portfolio Settings Edit], consulte o Guia de Otimização, que está disponível no Search, Social e Commerce.
 

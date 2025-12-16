@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 4dbde8463a3c536fe282e3dbffb8e0225e53601a
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 26 de novembro de 2025 | Relatórios de custos do Advertising Creative | (Anunciantes somente com Advertising Creative e Advertising DSP; recurso beta) O novo relatório [!UICONTROL All-in Cost] está fora da versão beta e está disponível de modo geral. | Consulte &quot;[Sobre relatórios personalizados](/help/creative/reports/reports-about.md)&quot; e &quot;[Gerenciar relatórios personalizados](/help/creative/reports/report-manage.md).&quot; |
 | 17 de novembro de 2025 | Relatórios de custos do Advertising Creative | (Anunciantes somente com o Advertising Creative e o Advertising DSP; recurso beta) O novo relatório [!UICONTROL All-in Cost BETA] mostra quanto o gasto foi atribuído à veiculação de anúncios do Adobe Creative. As métricas de gastos para o relatório incluem [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] e [!UICONTROL Estimated Tax on Creative]. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio. | Consulte &quot;[Sobre relatórios personalizados](/help/creative/reports/reports-about.md)&quot; e &quot;[Gerenciar relatórios personalizados](/help/creative/reports/report-manage.md).&quot; |
 | 24 de setembro de 2025 | Criações dinâmicas | Um fluxo de trabalho de autoatendimento mais simples agora está disponível para gerar anúncios dinâmicos usando dados de um catálogo de variação de anúncios que é transmitido por um modelo de anúncio. | Consulte &quot;[Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md).&quot; |
 | 3 de setembro de 2025 | Otimização e agendamento do Creative para [!DNL experiences] | A opção de menu ou botão para configurar a otimização criativa e o agendamento agora é chamado de &quot;[!UICONTROL Creative Optimization]&quot; em vez de &quot;[!UICONTROL Edit Schedules]&quot; ou &quot;[!UICONTROL Add Schedules]&quot;. | Consulte &quot;[Personalizar a otimização criativa e o agendamento de uma experiência direcionada](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; e &quot;[Personalizar a otimização criativa e o agendamento de uma experiência sem direcionamento](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |

@@ -2,16 +2,16 @@
 title: Exibir alertas
 description: Saiba como exibir alertas e resoluções recomendadas para suas experiências.
 feature: Creative Experiences
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Exibir alertas
 
-O [!DNL Creative] ajuda você a identificar quando uma de suas experiências, incluindo os elementos de criação dentro da experiência, tem problemas. Para cada problema, o [!DNL Creative] emite um alerta com um carimbo de data e hora e a ação recomendada para resolver o problema. Alguns motivos para alertas incluem experiências expiradas, alto delivery em anúncios padrão em vez de anúncios direcionados e erros de link. Os alertas estão disponíveis no nível da experiência.
+O [!DNL Creative] ajuda você a identificar quando uma de suas experiências, incluindo os elementos de criação dentro da experiência, tem problemas. Para cada problema, o [!DNL Creative] emite um alerta com um carimbo de data e hora e a ação recomendada para resolver o problema. Os motivos para alertas incluem experiências expiradas e alto nível de entrega de anúncios padrão em vez de anúncios direcionados. Os alertas estão disponíveis no nível da experiência.
 
 Você pode abrir a experiência relevante para qualquer alerta, para poder editá-la conforme necessário para resolver o problema. Você também pode optar por ignorar um alerta individual, o que o remove do painel [!UICONTROL Pulse].
 

@@ -3,16 +3,16 @@ title: Exibir alertas
 description: Saiba como visualizar alertas e resoluções recomendadas para suas campanhas e componentes da campanha.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Exibir alertas
 
-O DSP ajuda a identificar quando qualquer uma de suas campanhas ou componentes da campanha tem problemas. Para cada problema, o DSP cria um alerta com um carimbo de data e hora e a ação recomendada para resolver o problema. Os motivos para os alertas incluem problemas de configuração (por exemplo, quando nenhum anúncio está anexado a um posicionamento ou quando um negócio é configurado incorretamente), rejeição de anúncios e problemas de integridade da campanha (como baixa entrega de anúncios ou desempenho). Os alertas estão disponíveis nos níveis de campanha, pacote, posicionamento, anúncio e negociação.
+O DSP ajuda a identificar quando qualquer uma das campanhas ou componentes da campanha tem problemas. Para cada problema, o DSP cria um alerta com um carimbo de data e hora e a ação recomendada para resolver o problema. Os motivos para os alertas incluem problemas de configuração (por exemplo, quando nenhum anúncio está anexado a um posicionamento ou quando um negócio é configurado incorretamente), rejeição de anúncios e problemas de integridade da campanha (como baixa entrega de anúncios ou desempenho). Os alertas estão disponíveis nos níveis de campanha, pacote, posicionamento, anúncio e negociação.
 
 Os alertas estão disponíveis nos seguintes locais:
 
@@ -50,7 +50,7 @@ Os alertas e indicadores de alerta desaparecem automaticamente quando os problem
 
 1. Para exibir uma lista de todos os componentes afetados da campanha para um tipo de alerta específico, clique no nome do alerta, como &quot;[!UICONTROL Package: No Active Placement (*N*)]&quot;. Para exibir os detalhes de cada componente afetado, incluindo a ação recomendada, clique em [!UICONTROL EXPAND ALL] ou clique no nome do componente. Para abrir o modo de exibição de gerenciamento de campanha relevante para qualquer componente afetado, de modo que você possa fazer as alterações recomendadas, mantenha o cursor sobre o nome do componente e clique em ![Ir para o modo de exibição](/help/dsp/assets/go-to-view.png "Ir para o modo de exibição").
 
-1. (Opcional) Para ignorar (ocultar) um alerta, mantenha o cursor sobre o nome do componente e clique em ![Ignorar](/help/dsp/assets/alert-ignore.png "Ignorar") e em **[!UICONTROL Ignore indefinitely]**. <!-- **[!UICONTROL Ignore alert for three days]**, **[!UICONTROL Ignore alert until next check]**, or **[!UICONTROL Ignore indefinitely] -->
+1. (Opcional) Para ignorar (ocultar) um alerta, mantenha o cursor sobre o nome do componente e clique em ![Ignorar](/help/dsp/assets/alert-ignore.png "Ignorar") e em **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** ou **[!UICONTROL Ignore indefinitely]**.
 
 Você tem alguns segundos após ignorar um alerta para desfazer a ação. Depois que a mensagem de opção é fechada, você não pode cancelar a ação.
 
@@ -62,4 +62,4 @@ Você tem alguns segundos após ignorar um alerta para desfazer a ação. Depois
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)

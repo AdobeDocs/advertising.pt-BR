@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 237d05e2ca97325aa45c2ed64665079e785acb68
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
-| 17 de dezembro de 2025 | Alertas | Um ícone do [!UICONTROL Pulse Panel] no modo de exibição [!UICONTROL Experiences] indica se há alertas disponíveis para suas experiências. Você pode abrir o painel para exibir cada alerta e, opcionalmente, abrir a experiência aplicável para editá-la conforme necessário para resolver o problema. Opcionalmente, também é possível ignorar qualquer alerta.<br><br>Para anunciantes com o Advertising DSP, os alertas sobre posicionamentos do DSP criados a partir de [!DNL Creative] experiências estão disponíveis no nível da campanha no DSP. | Consulte &quot;[Exibir alertas](/help/creative/reports/alerts-view.md)&quot;. |
+| 17 de dezembro de 2025 | Alertas | Um ícone do [!UICONTROL Pulse Panel] no modo de exibição [!UICONTROL Experiences] indica se há alertas disponíveis para suas experiências. Abra o painel para exibir cada alerta e, como opção, abra a experiência ou o criativo aplicável para poder editá-lo conforme necessário para resolver o problema. Opcionalmente, também é possível ignorar qualquer alerta.<br><br>Para anunciantes com o Advertising DSP, os alertas sobre posicionamentos do DSP criados a partir de [!DNL Creative] experiências estão disponíveis no nível da campanha no DSP. | Consulte &quot;[Exibir alertas](/help/creative/reports/alerts-view.md)&quot;. |
 | 26 de novembro de 2025 | Relatórios de custos do Advertising Creative | (Anunciantes somente com Advertising Creative e Advertising DSP; recurso beta) O novo relatório [!UICONTROL All-in Cost] está fora da versão beta e está disponível de modo geral. | Consulte &quot;[Sobre relatórios personalizados](/help/creative/reports/reports-about.md)&quot; e &quot;[Gerenciar relatórios personalizados](/help/creative/reports/report-manage.md).&quot; |
 | 17 de novembro de 2025 | Relatórios de custos do Advertising Creative | (Anunciantes somente com o Advertising Creative e o Advertising DSP; recurso beta) O novo relatório [!UICONTROL All-in Cost BETA] mostra quanto o gasto foi atribuído à veiculação de anúncios do Adobe Creative. As métricas de gastos para o relatório incluem [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] e [!UICONTROL Estimated Tax on Creative]. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio. | Consulte &quot;[Sobre relatórios personalizados](/help/creative/reports/reports-about.md)&quot; e &quot;[Gerenciar relatórios personalizados](/help/creative/reports/report-manage.md).&quot; |
 | 24 de setembro de 2025 | Criações dinâmicas | Um fluxo de trabalho de autoatendimento mais simples agora está disponível para gerar anúncios dinâmicos usando dados de um catálogo de variação de anúncios que é transmitido por um modelo de anúncio. | Consulte &quot;[Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md).&quot; |

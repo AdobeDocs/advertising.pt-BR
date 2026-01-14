@@ -3,9 +3,9 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Cada meta personalizada (objetivo) consiste em uma ou mais métricas de convers�
 
 Por exemplo, suponha que três métricas de conversão sejam relevantes para um pacote específico em uma de suas campanhas: &quot;Download do PDF&quot; avaliado em 20 USD, &quot;Inscrição em email&quot; avaliado em 30 USD e &quot;Confirmação de pedido&quot; avaliado em 40 USD. Se você quiser atribuir peso de acordo com o valor monetário único da ação do cliente, os pesos relativos das métricas serão 1, 1,5 e 2.
 
-Depois de [criar uma meta personalizada](#custom-goal-create), você pode [atribuí-la a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algoritmos usando o Adobe Sensei.
+Depois de [criar uma meta personalizada](#custom-goal-create), você pode [atribuí-la a um pacote](/help/dsp/campaign-management/packages/package-settings.md) para otimização de relatórios e algoritmos usando o [!DNL Adobe AI].
 
 As recomendações de peso são geradas automaticamente para métricas atribuídas pelo DSP em objetivos e podem aplicar todas as recomendações de peso com um clique. Todas as alterações de peso nos objetivos com o prefixo &quot;ADSP_&quot; são aplicadas de forma algorítmica no DSP dentro de dois dias. Para obter mais informações sobre recomendações de peso, consulte o capítulo do Guia de otimização em &quot;Objetivos&quot;, que está disponível no Search, Social e Commerce.
 
@@ -106,7 +106,7 @@ Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apen
 
 Há dois cenários nos quais você usaria várias métricas em uma meta personalizada:
 
-* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download do PDF, Fale Conosco e Cadastro por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), o algoritmo [!DNL Adobe Sensei] tratará cada uma das métricas e tipos de dispositivos de usuário com igual importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
+* Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download do PDF, Fale Conosco e Cadastro por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), o algoritmo equipado com [!DNL Adobe AI] tratará cada uma das métricas e tipos de dispositivos de usuário com igual importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ Há dois cenários nos quais você usaria várias métricas em uma meta personal
 
 * A única métrica de conversão em sua meta personalizada não está atingindo o mínimo de 10 conversões por dia necessárias para o desempenho otimizado. Isso pode ocorrer devido ao gasto diário mínimo do pacote ou a um número limitado de conversões naturais. Adicionar métricas de suporte adicionais à meta personalizada pode ajudar você a alcançar o limite de 10 conversões por dia. Dez eventos de suporte podem ajudar um pacote a atingir o limite de 10 dias, mesmo quando cada um de seus pesos estiver abaixo de um (1). Mas talvez não seja necessário adicionar tantos eventos.
 
-  Ao adicionar métricas de suporte a uma meta personalizada, avalie-as de acordo com sua importância relativa para o evento bem-sucedido principal e lembre-se da quantidade de pontos de dados. Isso permite que o algoritmo do Adobe Sensei equilibre várias métricas e otimize em direção à sua meta.
+  Ao adicionar métricas de suporte a uma meta personalizada, avalie-as de acordo com sua importância relativa para o evento bem-sucedido principal e lembre-se da quantidade de pontos de dados. Isso permite que o algoritmo [!DNL Adobe AI] equilibre várias métricas e otimize em direção à sua meta.
 
   O exemplo de objetivo a seguir inclui três métricas, cada uma com um peso não móvel diferente: Envio de aplicativo = 1, Início do aplicativo = 0.1 e Página de aterrissagem do anunciante = 0.01. Isso significa que cada conversão de envio de aplicativo tem o mesmo valor para sua empresa como uma média de 10 conversões de início de aplicativo e 100 conversões de página de aterrissagem de anunciante.
 

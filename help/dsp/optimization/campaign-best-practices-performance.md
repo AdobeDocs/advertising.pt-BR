@@ -3,16 +3,16 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
 # Práticas recomendadas para configurar campanhas de desempenho
 
-O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as seguintes práticas recomendadas para campanhas de desempenho:
+O DSP pode otimizar suas campanhas focadas em desempenho. Consulte as seguintes práticas recomendadas para campanhas de desempenho:
 
 * Etapa 1 - Definir a meta
 * Etapa 2 - Definir a estratégia
@@ -26,13 +26,13 @@ O DSP pode otimizar suas campanhas voltadas para o desempenho. Consulte as segui
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
-Você também precisa determinar os eventos bem-sucedidos que levam à meta geral e criar metas personalizadas de acordo. Para cada pacote, especifique uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe Sensei]. Para obter mais informações sobre como criar metas personalizadas, incluindo práticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
+Você também precisa determinar os eventos bem-sucedidos que levam à meta geral e criar metas personalizadas de acordo. Para cada pacote, especifique uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe AI]. Para obter mais informações sobre como criar metas personalizadas, incluindo práticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
 
 ## Etapa 2 - Definir a estratégia
 
 ### Estratégias de prospecção
 
-Os pacotes de funil superior incluem disposições com direcionamento muito amplo para alcançar novos consumidores líquidos.
+Os pacotes superiores do funnel incluem disposições com direcionamento muito amplo para alcançar novos consumidores líquidos.
 
 #### Estratégias de posicionamento recomendadas para clientes potenciais
 
@@ -43,11 +43,11 @@ Os pacotes de funil superior incluem disposições com direcionamento muito ampl
    * Direcionamento contextual.
    * Direcionamento de site/categoria.
 
-* Uso do direcionamento de execução da rede (RON): é importante incluir um fluxo de posicionamento da rede sem direcionamento de público-alvo e com direcionamento amplo de inventário. Isso permite que o algoritmo [!DNL Adobe Sensei] encontre usuários valiosos que podem ter cookies mais recentes que ainda não foram categorizados em um público-alvo.
+* Usar o direcionamento de execução da rede (RON): é importante incluir um fluxo de posicionamento da rede sem direcionamento de público-alvo e com direcionamento amplo de inventário. Isso permite que o algoritmo habilitado para [!DNL Adobe AI] encontre usuários valiosos que podem ter cookies mais recentes que ainda não foram categorizados em um público-alvo.
 
 ### Estratégias de redirecionamento
 
-Os pacotes de funil mais baixos incluem posicionamentos que direcionam os usuários que já estiveram na página da Web do anunciante ou para os quais o anunciante tem dados de CRM.
+Os pacotes inferiores do funnel incluem posicionamentos que direcionam os usuários que já estiveram na página da Web do anunciante ou para os quais o anunciante tem dados de CRM.
 
 #### Estratégias de posicionamento recomendadas para redirecionamento
 
@@ -57,7 +57,7 @@ Os pacotes de funil mais baixos incluem posicionamentos que direcionam os usuár
 
 ## Etapa 3 - Criar pacotes
 
-A prática recomendada é criar pacotes separados para prospecção de funil superior e para redirecionamento de funil inferior. A otimização ocorre no nível do pacote, de modo que os dados de desempenho de todos os posicionamentos em um pacote sejam agrupados. Portanto, agrupe inserções em pacotes com desempenho esperado semelhante.
+A prática recomendada é criar pacotes separados para prospecção superior do funnel e para redirecionamento inferior do funnel. A otimização ocorre no nível do pacote, de modo que os dados de desempenho de todos os posicionamentos em um pacote sejam agrupados. Portanto, agrupe inserções em pacotes com desempenho esperado semelhante.
 
 ![exemplo de pacotes separados para prospecção e redirecionamento](/help/dsp/assets/p-r.png)
 
@@ -140,7 +140,7 @@ Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventár
 
 * **[!UICONTROL Device Targeting]**:
    * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
-   * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Entre em contato com a equipe de conta do Adobe para obter mais detalhes sobre o suporte do [!DNL Adobe] para [!DNL Safari ITP].
+   * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Contate a equipe de conta da Adobe para obter mais detalhes sobre o suporte do [!DNL Adobe] para o [!DNL Safari ITP].
    * Se você direcionar o tráfego de web para dispositivos móveis, desabilite todos os navegadores móveis, exceto [!UICONTROL Chrome] e [!UICONTROL Edge].
 
 ### Segurança da marca e qualidade da mídia
@@ -157,7 +157,7 @@ O uso de filtragem contextual, bloqueio de fraude pré-oferta e/ou filtragem de 
 >
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Como o DSP Otimiza Suas Campanhas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Como a DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Filtros de pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
 >* [Lista de Verificação de Inicialização da Campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)

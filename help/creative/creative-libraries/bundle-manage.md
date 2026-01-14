@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba mais sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Pacotes são grupos de criadores que podem ser adicionados a uma experiência como uma unidade. Depois de criar um contêiner de pacote, é possível anexar criações ao pacote. Os pacotes de exibição padrão podem conter apenas anúncios de exibição padrão, os pacotes de vídeo padrão podem conter apenas anúncios de vídeo padrão e os pacotes de exibição dinâmicos podem conter apenas anúncios de exibição dinâmicos. Você pode substituir as páginas de aterrissagem, tags de rastreamento de impressão e tags de rastreamento de cliques para todas as criações em um pacote atribuído a uma experiência da árvore de decisão de experiência, sem afetar as criações básicas.
 
-[!DNL Creative] gira pelas criações no pacote conforme especificado para cada experiência à qual o pacote é atribuído. Opcionalmente, você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência baseada em desempenho usando a rotação de anúncios algorítmica, que é viabilizada pelo Adobe Sensei.
+[!DNL Creative] gira pelas criações no pacote conforme especificado para cada experiência à qual o pacote é atribuído. Você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência com base no desempenho usando a rotação de anúncios algorítmica, que é viabilizada pelo [!DNL Adobe AI].
 
 Para habilitar a otimização de elementos de anúncio em pacotes em uma experiência de anúncio, cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\]. Por exemplo, se um pacote incluir um criativo de 250x250 com um idioma padrão de &quot;Francês&quot;, você não poderá adicionar um segundo criativo de 250x250 com um idioma padrão de &quot;Francês&quot;. Se você tiver vários elementos de criação do mesmo tamanho no mesmo idioma, adicione-os separadamente à experiência.
 

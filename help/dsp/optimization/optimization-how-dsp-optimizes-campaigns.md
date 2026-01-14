@@ -1,9 +1,9 @@
 ---
 title: Como o DSP otimiza suas campanhas
-description: Saiba como o DSP otimiza os pacotes em suas campanhas.
+description: Saiba como a DSP otimiza os pacotes em suas campanhas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Como o Advertising DSP otimiza suas campanhas
 
-Esta página descreve como o mecanismo de otimização para DSP, que é acionado pelo [!DNL Adobe Sensei], otimiza os pacotes em suas campanhas. Para obter dicas e truques sobre como otimizar manualmente suas campanhas, entre em contato com a equipe de conta do Adobe. <!-- add link to trading playbook if we add it to help -->
+Esta página descreve como o mecanismo de otimização do DSP, que é acionado pelo [!DNL Adobe AI], otimiza os pacotes em suas campanhas. Para obter dicas e truques sobre como otimizar manualmente suas campanhas, entre em contato com a equipe de conta da Adobe. <!-- add link to trading playbook if we add it to help -->
 
 As metas de otimização de pacotes operam em dois níveis:
 
 * Para cada pacote: o DSP aloca orçamento para cada posicionamento no pacote com base no desempenho do posicionamento em relação ao KPI selecionado.
 
-* Para cada posicionamento/leilão no pacote: O DSP calcula o valor do KPI econômico em tempo real para cada leilão por posicionamento e, em seguida, usa esse valor para determinar o lance.
+* Para cada colocação/leilão do pacote: o DSP calcula o valor do KPI econômico em tempo real para cada leilão por colocação e usa esse valor para determinar o lance.
 
   >[!NOTE]
   >
@@ -26,7 +26,7 @@ As metas de otimização de pacotes operam em dois níveis:
 
 ## Otimização de pacote
 
-O DSP pode otimizar sua entrega de duas maneiras fundamentais, com 20 variações disponíveis para se alinhar a sua meta específica de desempenho. Você pode optar por:
+O DSP pode otimizar sua entrega de duas maneiras fundamentais, com 20 variações disponíveis para se alinhar à sua meta específica de desempenho. Você pode optar por:
 
 * Priorizar a taxa de desempenho
 
@@ -36,7 +36,7 @@ Consulte [Metas de otimização e como usá-las](optimization-goals.md) para det
 
 ### Pacotes que priorizam a taxa de desempenho
 
-Para metas de otimização que priorizam a taxa de desempenho, o DSP prevê o desempenho de cada leilão e sempre dá lances no Lance máximo. Exemplos de metas de otimização aplicáveis incluem [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] e assim por diante.
+Para metas de otimização que priorizam a taxa de desempenho, a DSP prevê o desempenho de cada leilão e sempre dá lances no Lance máximo. Exemplos de metas de otimização aplicáveis incluem [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] e assim por diante.
 
 Esse modo de otimização funciona bem se:
 
@@ -58,15 +58,15 @@ Depois de executar a lógica de ritmo, o DSP executa a oferta proposta por meio 
 
 ### Pacotes que priorizam o equilíbrio da eficiência de custos com a taxa de desempenho
 
-Para algumas metas de otimização, o DSP prevê o desempenho de cada leilão e ajusta os preços de compra automaticamente, nunca excedendo o [!UICONTROL Max Bid] de uma disposição. Exemplos de metas de otimização aplicáveis incluem [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] e assim por diante.
+Para algumas metas de otimização, a DSP prevê o desempenho de cada leilão e ajusta os preços de compra automaticamente, nunca excedendo o [!UICONTROL Max Bid] de uma disposição. Exemplos de metas de otimização aplicáveis incluem [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] e assim por diante.
 
 #### Lógica de ritmo {#pacing-logic-balanced}
 
-* Se os gastos estiverem no ritmo, o DSP se torna mais sensível ao preço, oferecendo valores menores para trocar a taxa de ganho com o plano de ritmo.
+* Se os gastos estiverem no ritmo, o DSP se tornará mais sensível ao preço, oferecendo valores menores para trocar a taxa de ganho com o plano de ritmo.
 
 * Se uma métrica de desempenho também estiver sendo balanceada (todas as metas exceto [!UICONTROL Lowest CPM]), o KPI previsto será mesclado à quantidade oferecida. Portanto, você faz lances mais altos para leilões que se prevê terem melhor desempenho com base no &quot;custo por&quot;.
 
-* Se os gastos estiverem atrasados, o DSP se torna menos sensível ao preço e oferece valores mais altos, até [!UICONTROL Max Bid], para trocar a taxa de ganho com o plano de ritmo.
+* Se os gastos estiverem atrasados, a DSP se tornará menos sensível ao preço e oferecerá valores mais altos, até [!UICONTROL Max Bid], para trocar a taxa de ganhos com o plano de ritmo.
 
 #### Limpando o Sombreamento de Preço/Oferta {#clearing-price-balanced}
 

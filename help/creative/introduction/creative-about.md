@@ -3,9 +3,9 @@ title: Sobre o Adobe Advertising Creative
 description: Saiba mais sobre  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Depois de criar uma experiência, você pode gerar uma tag JavaScript ou iframe 
 
 ### Otimização dos elementos de publicidade
 
-Opcionalmente, você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência com base no desempenho, independentemente de você definir metas específicas de público-alvo, usando a rotação de anúncios ponderada e otimizada, viabilizada pelo Adobe Sensei.
+Opcionalmente, você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência com base no desempenho, independentemente de você definir metas específicas de público-alvo, usando a rotação de anúncios ponderada e otimizada, viabilizada pelo [!DNL Adobe AI].
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 

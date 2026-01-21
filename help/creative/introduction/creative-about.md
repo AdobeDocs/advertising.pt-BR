@@ -71,7 +71,7 @@ Você pode visualização relatórios de desempenho detalhados e de nível exper
 
 Também é possível criar relatórios de Creative personalizados em Relatórios > Relatórios personalizados para monitor desempenho em nível experiência nas experiências. Se você usar suas [!DNL Creative] experiências como anúncios em campanhas DSP, os dados de desempenho desses anúncios estarão disponíveis em relatórios personalizados adicionais, apenas curtir dados para seus outros anúncios DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-Como opção, você pode entregar seus relatórios personalizados para destinos de relatórios especificados[](/help/dsp/reports/report-destinations/report-destination-about.md).
+Como opção, você pode entregar seus relatórios personalizados para destinos de relatórios especificados[&#128279;](/help/dsp/reports/report-destinations/report-destination-about.md).
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)

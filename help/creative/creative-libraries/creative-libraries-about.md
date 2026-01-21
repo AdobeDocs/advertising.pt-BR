@@ -16,7 +16,7 @@ Seu criativo bibliotecas permitir que você gerenciar os criativos que usará em
 
 Seu bibliotecas pode incluir:
 
-* **Criativos individuais:** você pode incluir anúncios individuais diretamente em publicidade experiências que não tenham definido usuário metas. Você também pode usar seus anúncios para criar pacotes, que podem ser incluídos nas experiências de publicidade direcionadas[](/help/creative/experiences/experience-about.md).
+* **Criativos individuais:** você pode incluir anúncios individuais diretamente em publicidade experiências que não tenham definido usuário metas. Você também pode usar seus anúncios para criar pacotes, que podem ser incluídos nas experiências de publicidade direcionadas[&#128279;](/help/creative/experiences/experience-about.md).
 
    * **Anúncios padrão:** você pode upload e gerenciar anúncios em [vários formatos](#creative-creative-formats). Para cada criativo, especifique o idioma padrão para cada publicidade com a qual você associa os criativo e os landing page padrão que são abertos quando um usuário clica em uma publicidade que inclui o criativo. Como opção, você pode especificar rótulos para usar como filtros em várias exibições dentro [!DNL Creative] e como valores de coluna ao incluir o [!UICONTROL Custom Creative Report] uso da [!UICONTROL Creative Label] dimensão.
 

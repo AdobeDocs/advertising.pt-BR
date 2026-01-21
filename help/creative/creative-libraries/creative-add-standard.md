@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -98,9 +98,13 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Clique em **[!UICONTROL Create]**.
 
-## Adicionar um criativo do HTML5 a uma biblioteca criativa
+## Adicionar um criativo de exibição padrão a uma biblioteca criativa
 
-É possível adicionar várias criações HTML5 de um único tipo (simples ou estático) de cada vez.
+As criações de exibição padrão incluem criações de imagem e HTML5, incluindo criações importadas da Adobe Experience Manager e do Adobe GenStudio for Performance Marketing.
+
+* As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+
+* Você pode adicionar vários ativos do Experience Manager, várias experiências do GenStudio ou várias criações locais do HTML5 de um único tipo (simples ou estático) de cada vez. Para criações do HTML5, consulte a [especificação de anúncios do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -114,71 +118,49 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Clique no nome da biblioteca.
 
-1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
+1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Standard Display]**.
 
-<!-- Not an option as of 3/4:
+1. Especifique as criações:
 
-1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
-
-   The ZIP file is downloaded according to your browser's normal procedure, usually to the folder that is specified for downloads. 
-   
-   To create your own HTML5 creative using the sample, unzip the file and edit the contents to include your own ad images and attributes. Then, rename the folder and zip it, and continue below.
-
--->
-
-1. Especifique os arquivos de uma das seguintes maneiras:
-
-   * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
-
-   * Clique em **[!UICONTROL Select a file]** para localizar o arquivo no dispositivo ou na rede.
-
-   Consulte a [especificação de anúncio do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
-
-1. Especifique as [configurações de anúncios do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
-
-Por padrão, todas as criações que você acabou de fazer upload são selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas; para algumas configurações, é possível especificar valores individuais. Para inserir configurações para criações específicas, desmarque a caixa de seleção ao lado de cada criação inaplicável.
-
-1. Clique em **[!UICONTROL Create]**
-
-## Adicionar um criativo de imagem a uma biblioteca criativa
-
-As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
-
-1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
-
-1. Clique no nome da biblioteca.
-
-1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
-
-1. Especifique as imagens:
-
-   * Para ativos de imagem local, siga um destes procedimentos:
+   * Para ativos de imagem local ou HTML5, siga um destes procedimentos:
 
       * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
       * Clique em **[!UICONTROL Select a file]** para localizar arquivos no dispositivo ou na rede.
 
-   * Para imagens aprovadas em uma [biblioteca do Adobe Experience Manager conectada à sua conta do DSP](/help/creative/creative-libraries/aem-assets-configure.md), faça o seguinte:
+   * Para imagens aprovadas em uma [biblioteca do Experience Manager conectada à sua conta do DSP](/help/creative/creative-libraries/aem-assets-configure.md), faça o seguinte:
 
       1. Clique em **[!UICONTROL AEM Asset Library]**.
 
-      1. Faça logon em sua conta da Experience Manager.
+      1. (Se você ainda não estiver conectado à sua conta da Experience Manager) Faça logon na sua conta da Experience Manager.
 
       1. Localize e selecione os arquivos nas visualizações [!UICONTROL Assets] ou [!UICONTROL Collections] e clique em **[!UICONTROL Select]** no canto superior direito.
 
          <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
-1. Adicionar ou remover imagens:
+   * Para obter experiências com o GenStudio, faça o seguinte:
+
+      1. Clique em **[!UICONTROL GenStudio Library]**.
+
+      1. (Se você ainda não estiver conectado à sua conta da GenStudio) Faça logon na sua conta da GenStudio.
+
+         Suas experiências de anúncio de exibição são exibidas por padrão. Opcionalmente, filtre suas experiências por campanha ou outros atributos, conforme necessário.
+
+      1. Localize e selecione as experiências de anúncio de exibição e clique em **[!UICONTROL Select]** no canto superior direito.
+
+         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+
+1. Adicionar ou remover criações:
 
    * Para adicionar uma imagem, clique em ![Adicionar](/help/creative/assets/create.png "Adicionar") no canto superior esquerdo e localize o arquivo em seu dispositivo ou rede.
 
    * Para remover uma imagem, desmarque a caixa de seleção ao lado dela.
 
-1. Especifique as [configurações de criação da imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
+1. Especifique as [configurações de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou as [configurações de criação de imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
    Por padrão, todas as criações que você acabou de fazer upload são selecionadas, e todas as configurações especificadas são aplicadas a todas as criações selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas. Para inserir configurações para criações específicas, desmarque cada criação inaplicável.
 
-1. Clique em **[!UICONTROL Create]**
+1. Clique em **[!UICONTROL Create]** ou **[!UICONTROL Import]**.
 
 ## Adicionar um criativo de terceiros a uma biblioteca criativa {#creative-add-third-party}
 

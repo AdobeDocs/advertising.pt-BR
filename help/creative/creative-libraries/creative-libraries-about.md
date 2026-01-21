@@ -3,9 +3,9 @@ title: Sobre suas bibliotecas criativas
 description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,24 @@ Criativas HTML5 flexíveis são criativas HTML5 com todas as suas imagens e outr
 
 Você pode fazer upload de criações flexíveis do HTML5 como arquivos ZIP ou usar um dos modelos disponíveis em sua conta como ponto de partida. Consulte as [especificações de criações flexíveis do HTML5](html5-creative-specification.md).
 
-#### Criação do HTML5
+#### Criações de exibição padrão
 
-Você pode fazer upload de criações simples ou estáticas do HTML5, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, faça upload de um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações de criações simples e estáticas do HTML5](html5-creative-specification.md).
+Os anúncios de exibição padrão incluem:
 
-#### Criação de imagens
+* Criação de HTML5 carregada localmente ou do Adobe GenStudio for Performance Marketing.
+* Arquivos de imagem carregados localmente ou do Adobe Experience Manager.
+
+##### Criação do HTML5
+
+* **Experiências do GenStudio:** você pode importar todas as variantes de anúncios de uma [experiência de anúncio de exibição](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) no [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) como um criativo do HTML5. Links externos são convertidos em referências locais. O conteúdo do HTML pode ser de até 20 MB e imagens individuais de até 50 MB.
+
+  Para usar esse recurso, a conta do GenStudio e a conta do Advertising Creative devem usar a mesma ID da organização, e o usuário deve ter permissões para acessar o GenStudio.
+
+  Depois de importar uma experiência do GenStudio, você pode editar os metadados (nome, idioma, tags) do criativo importado, mas não do conteúdo criativo. Se você editar a experiência do GenStudio no GenStudio, reimporte a experiência no [!DNL Creative] para usar a versão mais recente.
+
+* **Arquivos carregados:** também é possível carregar criações simples ou estáticas do HTML5, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, faça upload de um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações de criações simples e estáticas do HTML5](html5-creative-specification.md).
+
+##### Criação de imagens
 
 É possível incluir criações de imagem no formato GIF, JPEG, JPG ou PNG. Você pode fazer upload de imagens aprovadas de suas contas do Adobe Experience Manager ou imagens de seu dispositivo ou rede.
 
@@ -64,7 +77,7 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 
 Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer uma criação de vídeo padrão para cada duração de criação atribuída à experiência. O DSP transcodifica automaticamente todas as criações de vídeo como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
 
-Consulte os seguintes requisitos de criação de vídeo. **Observação:** para carregar experiências com vídeo para a Advertising DSP, consulte também os [Requisitos para Assets com Vídeo de Alta Definição](https://experienceleague.adobe.com/pt-br/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) da DSP, que podem ser mais limitados.
+Consulte os seguintes requisitos de criação de vídeo. **Observação:** para carregar experiências com vídeo para a Advertising DSP, consulte também os [Requisitos para Assets com Vídeo de Alta Definição](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) da DSP, que podem ser mais limitados.
 
 **Tipo de Arquivo:** .mov, .mp4, .webm
 

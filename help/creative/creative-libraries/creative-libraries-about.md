@@ -1,209 +1,211 @@
 ---
-title: Sobre suas bibliotecas criativas
-description: Saiba mais sobre como gerenciar os elementos de criação para suas experiências de anúncio.
+title: Sobre o bibliotecas do criativo
+description: Aprenda a gerenciar os criativos de suas experiências de publicidade.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: 8d549853be10ebfbb71b14e013b04178466e87fe
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
 
 ---
 
-# Sobre suas bibliotecas criativas
+# Sobre o bibliotecas do criativo
 
-Suas bibliotecas criativas permitem gerenciar os elementos criativos que você usará em suas experiências de anúncio. Você pode criar várias bibliotecas, cada uma com um conjunto de criações e *pacotes criativos*, que são grupos de criações que você pode adicionar a uma experiência como uma unidade.
+Seu criativo bibliotecas permitir que você gerenciar os criativos que usará em suas experiências publicidade. Você pode criar várias bibliotecas, cada uma com um conjunto de anúncios e *pacotes* de criativo, que são grupos de criativos que você pode adicionar a um experiência como uma unidade.
 
-Suas bibliotecas podem incluir:
+Seu bibliotecas pode incluir:
 
-* **Criações individuais:** você pode incluir criações individuais diretamente em experiências de anúncio que não têm destinos de usuário definidos. Você também pode usar suas criações para criar pacotes, que podem ser incluídos em [experiências de anúncios](/help/creative/experiences/experience-about.md) direcionadas.
+* **Criativos individuais:** você pode incluir anúncios individuais diretamente em publicidade experiências que não tenham definido usuário metas. Você também pode usar seus anúncios para criar pacotes, que podem ser incluídos nas experiências de publicidade direcionadas[](/help/creative/experiences/experience-about.md).
 
-   * **Criações padrão**: você pode carregar e gerenciar criações em [vários formatos](#creative-creative-formats). Para cada criativo, especifique o idioma padrão para cada anúncio ao qual você associa o criativo e a landing page padrão que abre quando um usuário clica em um anúncio que inclui o criativo. Opcionalmente, é possível especificar rótulos para usar como filtros em várias exibições em [!DNL Creative] e como valores de coluna em [!UICONTROL Custom Creative Report] ao incluir o uso da dimensão [!UICONTROL Creative Label].
+   * **Anúncios padrão:** você pode upload e gerenciar anúncios em [vários formatos](#creative-creative-formats). Para cada criativo, especifique o idioma padrão para cada publicidade com a qual você associa os criativo e os landing page padrão que são abertos quando um usuário clica em uma publicidade que inclui o criativo. Como opção, você pode especificar rótulos para usar como filtros em várias exibições dentro [!DNL Creative] e como valores de coluna ao incluir o [!UICONTROL Custom Creative Report] uso da [!UICONTROL Creative Label] dimensão.
 
-   * **Criações dinâmicas:** você pode criar criações geradas dinamicamente, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. Todos os usuários podem visualizar, duplicar e excluir anúncios dinâmicos existentes.
+   * **Anúncios dinâmicos:** você pode criar anúncios gerados dinamicamente mapeando variáveis dinâmicas em um publicidade modelo a valores em um arquivo de feed. Todos os usuários podem pré-visualização, duplicado e excluir anúncios dinâmicos existentes.
 
-* **Pacotes de criação:** grupos de criação em pacotes para usar em várias experiências com destinos de usuário definidos. Você pode criar *conjuntos de exibição padrão* que consistem em anúncios de exibição padrão, *conjuntos de vídeo padrão* que consistem em anúncios de vídeo padrão e *conjuntos de exibição dinâmicos* que consistem em anúncios de exibição gerados dinamicamente.
+* **Pacotes de criativos:** agrupe anúncios em pacotes para usar em várias experiências com metas de usuário definidas. É possível criar *pacotes de exibição padrão que consistem em anúncios* de exibição padrão, *pacotes de vídeo padrão que consistem em anúncios* de vídeo padrão e *pacotes de exibição dinâmicos que consistem em anúncios de exibição gerados* dinamicamente.
 
-## Formatos Creative compatíveis {#creative-creative-formats}
+## Formatos de Creative suportados {#creative-creative-formats}
 
-### Formatos para criações padrão
+### Formatos para anúncios padrão
 
-Você pode adicionar e gerenciar os seguintes tipos de criação nos [tamanhos de criação suportados](creative-sizes.md).
+É possível adicionar e gerenciar os seguintes tipos de criativo nos [tamanhos](creative-sizes.md) de criativo suportados.
 
 >[!IMPORTANT]
 >
->* Mesmo que você pretenda usar o HTML5, o Flexible HTML5 ou criações de terceiros para suas experiências de anúncio de exibição padrão, também é necessário adicionar criações de imagem para cada tamanho criativo usado.
->* Cada experiência de exibição padrão requer uma criação de imagem padrão para cada tamanho criativo atribuído à experiência. As criações de imagem padrão são usadas quando um navegador não está habilitado para JavaScript ou quando o servidor de publicidade não pode personalizar o anúncio devido a atrasos.
->* Cada experiência de vídeo padrão requer uma criação de vídeo padrão para cada duração de criação atribuída à experiência.<!-- when is it used? -->
+>* Mesmo se você pretende usar HTML5, HTML5 flexível ou anúncios de terceiros para suas experiências de anúncio de exibição padrão, você também deve adicionar anúncios de imagem para cada tamanho criativo usado.
+>* Cada experiência de exibição padrão requer uma criativo de imagem padrão para cada criativo tamanho atribuído à experiência. Os anúncios de imagem padrão são usados quando um navegador não é JavaScript habilitado ou quando os servidor de publicidade não podem personalizar o publicidade por causa de atrasos.
+>* Cada experiência de vídeo padrão requer uma criativo de vídeo padrão para cada criativo duração atribuída à experiência.<!-- when is it used? -->
 
 #### HTML5 flexível
 
-Criativas HTML5 flexíveis são criativas HTML5 com todas as suas imagens e outros atributos como tags HTML padrão, que você pode editar diretamente em [!DNL Creative], em uma biblioteca criativa ou em uma experiência individual (o que cria uma variação do criativo original). No DSP, as criações flexíveis do HTML5 são para um único tamanho de anúncio específico (em pixels). Opcionalmente, é possível alterar os valores padrão dos atributos especificados em uma criação flexível do HTML5. Posteriormente, você pode especificar valores personalizados para os atributos em uma experiência específica, o que cria uma variação da criação principal.
+Os criativos HTML5 flexíveis são criativos em HTML5 com todas as suas imagens e outros atributos como tags HTML padrão, que você pode editar diretamente dentro [!DNL Creative], dentro de uma criativo biblioteca ou dentro de um experiência individual (que cria uma variação do criativo original). No DSP, anúncios HTML5 flexíveis são para um único tamanho de publicidade específico (em pixels). Como opção, você pode alterar os valores padrão dos atributos especificados em uma criativo HTML5 flexível. Posteriormente, é possível especificar valores personalizados para os atributos em um experiência específico, o que cria uma variação do criativo pai.
 
-Você pode fazer upload de criações flexíveis do HTML5 como arquivos ZIP ou usar um dos modelos disponíveis em sua conta como ponto de partida. Consulte as [especificações de criações flexíveis do HTML5](html5-creative-specification.md).
+Você pode upload anúncios HTML5 flexíveis como arquivos ZIP ou usar um dos modelos disponíveis para suas conta como ponto de partida. Consulte as [especificações para anúncios](html5-creative-specification.md) HTML5 flexíveis.
 
-#### Criações de exibição padrão
+#### Anúncios de exibição padrão
 
-Os anúncios de exibição padrão incluem:
+Anúncios de exibição padrão incluem:
 
-* Criação de HTML5 carregada localmente ou do Adobe GenStudio for Performance Marketing.
-* Arquivos de imagem carregados localmente ou do Adobe Experience Manager.
+* Anúncios HTML5 carregados localmente ou a partir do Adobe Systems GenStudio para Marketing de desempenho.
+* Imagem arquivos carregados localmente ou a partir de Adobe Experience Manager.
 
-##### Criação do HTML5
+##### Criativos de HTML5
 
-* **Experiências do GenStudio:** você pode importar todas as variantes de anúncios de uma [experiência de anúncio de exibição](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) no [GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/home) como um criativo do HTML5. Links externos são convertidos em referências locais. O conteúdo do HTML pode ser de até 20 MB e imagens individuais de até 50 MB.
+* **Experiências GenStudio:** você pode importar todas as publicidade variantes de um [experiência de anúncio de exibição](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) no [GenStudio para Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) de desempenho como um criativo HTML5. Links externos são convertidos em referências locais. O conteúdo HTML pode ter até 20 MB, e as imagens individuais podem ter até 50 MB.
 
-  Para usar esse recurso, a conta do GenStudio e a conta do Advertising Creative devem usar a mesma ID da organização, e o usuário deve ter permissões para acessar o GenStudio.
+  Depois de importar uma experiência GenStudio, você pode editar as metadados (nome, idioma, tags) para as criativo importadas, mas não as criativo conteúdo. Se você editar o experiência GenStudio no GenStudio, re importe os experiência [!DNL Creative] para usar a versão mais recente.
 
-  Depois de importar uma experiência do GenStudio, você pode editar os metadados (nome, idioma, tags) do criativo importado, mas não do conteúdo criativo. Se você editar a experiência do GenStudio no GenStudio, reimporte a experiência no [!DNL Creative] para usar a versão mais recente.
+  >[!NOTE]
+  >
+  >Para usar esse recurso, o GenStudio conta e o Advertising Creative conta devem usar a mesma ID da organização e o usuário deve ter permissões para acessar o GenStudio.
 
-* **Arquivos carregados:** também é possível carregar criações simples ou estáticas do HTML5, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, faça upload de um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações de criações simples e estáticas do HTML5](html5-creative-specification.md).
+* **Arquivos carregados:** você também pode upload anúncios HTML5 simples ou estáticos, com todos os atributos e imagens especificados, como arquivos ZIP. Não é possível editar atributos ou adicionar imagens; em vez disso, upload um novo arquivo ZIP para adicionar um novo criativo. Consulte as [especificações para anúncios HTML5 simples e estáticos](html5-creative-specification.md).
 
-##### Criação de imagens
+##### anúncios do Imagem
 
-É possível incluir criações de imagem no formato GIF, JPEG, JPG ou PNG. Você pode fazer upload de imagens aprovadas de suas contas do Adobe Experience Manager ou imagens de seu dispositivo ou rede.
+Você pode incluir anúncios de imagem no formato GIF, JPEG, JPG ou PNG. Você pode upload imagens aprovadas de suas contas do Adobe Experience Manager ou imagens de seu dispositivo ou rede.
 
-Cada experiência de anúncio de exibição padrão requer uma criação de imagem padrão para cada tamanho criativo atribuído à experiência.
+Cada anúncio de exibição padrão experiência requer uma criativo de imagem padrão para cada criativo tamanho atribuído à experiência.
 
-#### Criação de terceiros
+#### Anúncios de terceiros
 
-Insira tags de rastreamento do JavaScript para criadores hospedados em servidores de publicidade de terceiros. O script varia de acordo com o servidor de publicidade; veja a seguir um exemplo:
+Insira JavaScript tags rastreamento de anúncios hospedadas em servidores publicidade de terceiros. O script varia de acordo com servidor de publicidade; este é um exemplo:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
 
-#### Criações de vídeo {#creative-video-specs}
+#### anúncios do Vídeo {#creative-video-specs}
 
-Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo padrão requer uma criação de vídeo padrão para cada duração de criação atribuída à experiência. O DSP transcodifica automaticamente todas as criações de vídeo como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
+Você pode upload anúncios de vídeo primários para TV web, móveis ou conectados de sua dispositivo ou rede. Cada publicidade de vídeo padrão experiência requer uma criativo de vídeo padrão para cada duração criativo atribuída ao experiência. DSP transcodifica automaticamente todos os anúncios de vídeo como tags VAST 2.0 para que você possa pré-visualização-los. Em [!UICONTROL Tag Manager], opcionalmente [, é possível aplicar transcodificação](/help/creative/experiences/experience-tag-video-transcoding.md) específica DSP a qualquer publicidade de vídeo experiência tag.
 
-Consulte os seguintes requisitos de criação de vídeo. **Observação:** para carregar experiências com vídeo para a Advertising DSP, consulte também os [Requisitos para Assets com Vídeo de Alta Definição](https://experienceleague.adobe.com/pt-br/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) da DSP, que podem ser mais limitados.
+Consulte os requisitos de criativo do vídeo a seguir. **Observação:** se você upload experiências de vídeo para o Advertising DSP, consulte também os Requisitos de [alta definição DSP Vídeo Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que podem ser mais limitados.
 
-**Tipo de Arquivo:** .mov, .mp4, .webm
+**Arquivo Tipo:** .mov, .mp4, .webm
 
-**Tamanho do Arquivo:** Máximo de 512 MB
+**Arquivo tamanho:** máximo de 512 MB
 
-**Taxa de proporção do vídeo:** 16:9, 4:3
+**Taxa de proporção do Vídeo:** 16:9, 4:3
 
-**Resolução de vídeo:** 640x360 para 360p, 1280x720 para 720p, 1920x1080 para 1080p
+**Resolução Vídeo:** 640x360 para 360p, 1280x720 para 720p, 1920x1080 por 1080p
 
-**Duração do Vídeo:** Máximo de 90 segundos
+**Vídeo:** máximo de 90 segundos
 
 **Taxa de bits:** 600-1200 kbps para 360p, 1500-2500 kbps para 720p, 3000-5000+ kbps para 1080p
 
-**Taxa de quadros do vídeo:** 23,98 quadros/s. Taxas de quadros adicionais podem ser aceitas com base nos requisitos regionais ou do editor
+**Vídeo Taxa de quadros:** 23,98 FPS. Taxas de quadros adicionais podem ser aceitas com base em requisitos regionais ou editor
 
-**Codec de vídeo:** H.264 (padrão do setor), AV1, H.265
+**Vídeo Codec:** H.264 (padrão do setor), AV1, H.265
 
-**Formato de Áudio:** ACC (padrão do setor/MP4), Opus (WebM/AV1)
+**Formato Áudio:** ACC (industry standard/MP4), Opus (WebM/AV1)
 
-**Taxa de áudio:** 16-512 kbps
+**taxa de bits Áudio:** 16-512 kbps
 
-**Taxa de Amostragem de Áudio:** 44100-48000 Hz
+**Áudio Taxa de Amostra:** 44100-48000 Hz
 
 **Taxa de Áudio:** 44,1kHz ou 48 kHz
 
-**Outro Áudio:** O arquivo carregado deve ser não entrelaçado, misturado e conter uma faixa de áudio. Pode não haver som, mas uma faixa de áudio precisa ser incluída no arquivo de vídeo.
+**Áudio Outros:** o arquivo carregado deve estar não entrelaçado, misturado e conter uma áudio faixa. Pode não haver som, mas uma áudio faixa deve ser incluída no arquivo de vídeo.
 
 ### Formato para anúncios dinâmicos
 
-Você pode gerar dinamicamente criações no formato estático HTML5 e HTML5, mapeando variáveis dinâmicas em um modelo de anúncio para valores em um arquivo de feed. As criações dinâmicas podem incluir criações que foram migradas de suas experiências herdadas do Adobe Advertising Dynamic Creative Optimization (DCO).
+Você pode gerar anúncios dinamicamente em formato HTML5 estático e HTML5 dinâmico mapeando variáveis dinâmicas em um publicidade modelo a valores em um arquivo de feed. Os anúncios dinâmicos podem incluir anúncios migrados de suas experiências herdadas Adobe Systems Advertising Dynamic Creative Optimization (DCO).
 
-## As [!UICONTROL Creative Libraries] visualizações
+## As [!UICONTROL Creative Libraries] exibições
 
-Consulte &quot;[Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)&quot; para obter mais informações sobre como personalizar cada visualização.
+Consulte &quot;[Personalizar suas visualizações](/help/creative/introduction/customize-data-views.md) de dados&quot; para obter mais informações sobre como personalizar cada visualização.
 
-### A visualização principal [!UICONTROL Creative Libraries]
+### O [!UICONTROL Creative Libraries] visualização principal
 
-A exibição principal do [!UICONTROL Creative Libraries] mostra todas as suas bibliotecas criativas. Os dados de cada biblioteca incluem o número de experiências às quais os pacotes da biblioteca são atribuídos, o número de pacotes, o número de criativos, o número de tamanhos de criação, o número de alvos de idioma padrão, a data de criação e a data da última modificação para qualquer elemento da biblioteca. O modo de tabela também inclui uma coluna para o anunciante.
+A [!UICONTROL Creative Libraries] visualização principal mostra todos os bibliotecas de criativo. Os dados para cada biblioteca inclui o número de experiências às quais os pacotes do biblioteca são atribuídos, o número de pacotes, o número de criativos, o número de tamanhos de criativo, o número de metas de idioma padrão, a data de criação e a última data de modificação para qualquer elemento do biblioteca. O modo de tabela também inclui uma coluna para o anunciante.
 
-Quando estiver no modo de cartão, você pode rolar pelas imagens em uma biblioteca com várias criações usando os botões &lt; e >.
+Quando você está no cartão modo, você pode percorrer as imagens em um biblioteca com vários anúncios usando os &lt; and > botões.
 
 #### Ações disponíveis
 
-* [Criar uma nova biblioteca](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [Criar um novo biblioteca](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
-* Para cada biblioteca criativa:
+* Para cada biblioteca de criativo:
 
-   * [Editar um nome de biblioteca](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+   * [Editar um nome biblioteca](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [Abrir uma biblioteca para exibir os elementos de criação e os pacotes atribuídos à biblioteca](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+   * [Abra uma biblioteca para visualização os anúncios e pacotes atribuídos ao biblioteca](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [Excluir bibliotecas](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+   * [bibliotecas de Excluir](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### As [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] visualizações
 
 #### [!UICONTROL Standard Ads]
 
-A guia [!UICONTROL Standard Ads] mostra todas as criações padrão que você criou. Os dados de cada criativo incluem o tamanho do criativo, o tipo de criativo e a data de criação. O modo de tabela também inclui colunas para o idioma padrão e a landing page padrão.
+A [!UICONTROL Standard Ads] guia mostra todos os anúncios padrão criados por você. Os dados para cada criativo inclui o tamanho da criativo, o tipo de criativo e a data de criação. O modo de tabela também inclui colunas para o idioma padrão e o landing page padrão.
 
 ##### Ações disponíveis
 
-* [Adicionar criações padrão a uma biblioteca](creative-add-standard.md)
+* [Adicionar anúncios padrão a um biblioteca](creative-add-standard.md)
 
 * [Editar um criativo padrão](creative-edit-standard.md)
 
-* [Pré-visualização de um criativo padrão](creative-preview.md)
+* [Visualização um criativo padrão](creative-preview.md)
 
-* [Adicionar criações padrão a conjuntos de exibições padrão e remover criações padrão de um conjunto de exibições padrão](creative-attach-detach-bundles.md)
+* [Adicione anúncios padrão a pacotes de exibição padrão e remova anúncios padrão de uma exibição padrão pacote](creative-attach-detach-bundles.md)
 
-* [Adicionar criações de vídeo a pacotes de vídeo padrão e remover criações de vídeo de um pacote de vídeo padrão](creative-attach-detach-bundles.md)
+* [Adicione anúncios de vídeo a pacotes de vídeo padrão e remova os anúncios de vídeo de um pacote de vídeo padrão](creative-attach-detach-bundles.md)
 
-* [Duplicar criações padrão](creative-duplicate.md)
+* [Duplicar anúncios padrão](creative-duplicate.md)
 
-* [Baixar criações padrão](creative-download.md)
+* [Fazer download de anúncios padrão](creative-download.md)
 
-* [Excluir criações padrão](creative-delete.md)
+* [Excluir anúncios padrão](creative-delete.md)
 
 #### [!UICONTROL Dynamic Ads]
 
-A guia [!UICONTROL Dynamic Ads] mostra todas as criações dinâmicas que foram criadas dinamicamente para seus catálogos criativos, exceto todas as criações dinâmicas que você [excluiu manualmente](creative-delete.md) da guia [!UICONTROL Dynamic Ads]. Se você [duplicou manualmente](creative-duplicate.md) quaisquer criações dinâmicas<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, a lista de criações para esse catálogo também incluirá as criações duplicadas.
+A [!UICONTROL Dynamic Ads] guia mostra todos os anúncios dinâmicos criados dinamicamente para seus catálogos de criativo, exceto por qualquer anúncio dinâmico que você [excluiu](creative-delete.md) manualmente do [!UICONTROL Dynamic Ads] guia. Se você [duplicasse](creative-duplicate.md) manualmente qualquer anúncio<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed --> dinâmico, o lista de anúncios desse catálogo também inclui os anúncios duplicado.
 
-Os dados de cada criativo incluem o tipo criativo, o tamanho criativo, o número de catálogos aos quais o criativo pertence e a data de criação. O modo de tabela também inclui colunas para o modelo de anúncio pelo qual a criação foi gerada e a contagem da oferta.
+Os dados para cada criativo inclui o tipo de criativo, o tamanho da criativo, o número de catálogos aos quais a criativo pertence e a data de criação. O modo de tabela também inclui colunas para a publicidade modelo pela qual a criativo foi gerada e a contagem oferta.
 
 >[!NOTE]
 >
->Cada vez que um catálogo é processado, os dados são atualizados para os elementos de criação dinâmicos existentes para esse catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+>Cada vez que um catálogo é processado, os dados são atualizados para os anúncios dinâmicos existentes para esse catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Ações disponíveis
 
-* [Adicionar criações dinâmicas a uma biblioteca](creative-add-dynamic.md)
+* [Adicionar anúncios dinâmicos a um biblioteca](creative-add-dynamic.md)
 
 * [Editar um criativo dinâmico](creative-edit-dynamic.md)
 
-* [Visualizar criações dinâmicas](creative-preview.md)
+* [Visualização anúncios dinâmicos](creative-preview.md)
 
-* [Adicionar criações dinâmicas a conjuntos de exibição dinâmicos e remover criações dinâmicas de um conjunto de exibição dinâmico](creative-attach-detach-bundles.md)
+* [Adicione anúncios dinâmicos a pacotes de exibição dinâmicos e remova anúncios dinâmicos de uma exibição dinâmica pacote](creative-attach-detach-bundles.md)
 
-* [Duplicar criações dinâmicas](creative-duplicate.md)
+* [Duplicar anúncios dinâmicos](creative-duplicate.md)
 
-* [Excluir criações dinâmicas](creative-delete.md)
+* [Excluir anúncios dinâmicos](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
-### A visualização [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
+### O [!UICONTROL Creative Libraries] visualização do > [!UICONTROL Bundles]
 
-A exibição [!UICONTROL Bundles] mostra todos os seus contêineres de pacote padrão e dinâmicos. Você pode ver os nomes criativos, tamanhos criativos e idiomas dos criadores incluídos em cada pacote. Quando estiver no modo de cartão, você pode rolar pelas imagens em um pacote com várias criações usando os botões &lt; e >.
+A [!UICONTROL Bundles] visualização mostra todos os contêineres de pacote padrão e dinâmicos. Você pode ver os criativo nomes, tamanhos de criativo e idiomas para os anúncios incluídos em cada pacote. Quando você está no cartão modo, você pode percorrer as imagens em um pacote com vários anúncios usando os &lt; and > botões.
 
 #### Ações disponíveis
 
-* Adição de exibição padrão, vídeo padrão e pacotes de exibição dinâmicos a uma biblioteca
+* Adicione pacotes de exibição padrão, vídeo padrão e exibição dinâmica a uma biblioteca
 
-* Listar e visualizar as criações em um pacote
+* Lista e pré-visualização os criativos em um pacote
 
-* Editar um nome de pacote
+* Editar um nome pacote
 
-* Adicionar criações de exibição padrão a conjuntos de exibição padrão e remover criações de exibição padrão de um conjunto de exibição padrão
+* Adicione anúncios de exibição padrão a pacotes de exibição padrão e remova anúncios de exibição padrão de uma exibição padrão pacote
 
-* Adicionar criações de vídeo padrão a pacotes de vídeo padrão e remover criações de vídeo padrão de um pacote de vídeo padrão
+* Adicione anúncios de vídeo padrão a pacotes de vídeo padrão e remova anúncios de vídeo padrão de um pacote de vídeo padrão
 
-* Pacotes duplicados
+* Duplicar pacotes
 
-* Excluir pacotes
+* Pacotes de Excluir
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar bibliotecas criativas](/help/creative/creative-libraries/creative-library-manage.md)
->* [Adicionar criações padrão a uma biblioteca criativa](creative-add-standard.md)
->* [Gerenciar pacotes criativos](bundle-manage.md)
->* [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
+>* [Gerenciar bibliotecas de criativo](/help/creative/creative-libraries/creative-library-manage.md)
+>* [Adicionar anúncios padrão a um biblioteca de criativo](creative-add-standard.md)
+>* [Gerenciar pacotes de criativo](bundle-manage.md)
+>* [Personalizar suas exibições de dados](/help/creative/introduction/customize-data-views.md)

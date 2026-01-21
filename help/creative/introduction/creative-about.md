@@ -3,9 +3,9 @@ title: Sobre o Adobe Systems Advertising Creative
 description: Saiba mais sobre [!DNL Creative] isso.
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 18fdc262aedcb7d4292b4691931a79a8366b4dca
+source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ As Bibliotecas Creative permitem que você gerenciar os criativos que você usar
 
 ### [!DNL Adobe] Integrações ativo
 
-[!DNL Creative] é diretamente integrado com Adobe Experience Manager, permitindo que você upload facilmente a [!DNL Adobe] imagem ativos que seu design equipe cria e aprova para anúncios de imagem padrão.
+[!DNL Creative] está diretamente integrado aos seguintes [!DNL Adobe] produtos, permitindo importar ativos para seus bibliotecas de criativo:
+
+* **Adobe Experience Manager:** faça o upload da [!DNL Adobe] ativos de imagem que seu design equipe cria e aprove para anúncios de imagem padrão.
+
+* **Adobe Systems GenStudio para Marketing de desempenho:** Importar todas as publicidade variantes das suas experiências anúncio de exibição como criativos de HTML5.
 
 ## Experiências baseadas em regras e não direcionadas
 
@@ -32,9 +36,7 @@ As Bibliotecas Creative permitem que você gerenciar os criativos que você usar
 
 ### [!DNL Adobe] integrações de dados
 
-* Importar anúncio de exibição experiências da Adobe Systems GenStudio para Marketing de desempenho e ativos de imagem de Adobe Experience Manager ao seu bibliotecas de criativo, onde estão disponíveis para suas [!DNL Creative] experiências publicidade.
-
-* Use seus segmentos de público-alvo primários de Adobe Audience Manager e Adobe Analytics — bem como segmentos público-alvo personalizados que você cria em Advertising DSP e redefinição de pixels que você cria usando [!DNL Creative] - como direcionamentos de anúncios específicos em um publicidade experiência. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Use seus segmentos de público-alvo primários de Adobe Audience Manager e Adobe Analytics — bem como segmentos público-alvo personalizados que você cria em Advertising DSP e redefinição de pixels que você cria usando [!DNL Creative] - como direcionamentos de anúncios específicos em um publicidade experiência. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementação de experiências como anúncios
 
@@ -69,7 +71,7 @@ Você pode visualização relatórios de desempenho detalhados e de nível exper
 
 Também é possível criar relatórios de Creative personalizados em Relatórios > Relatórios personalizados para monitor desempenho em nível experiência nas experiências. Se você usar suas [!DNL Creative] experiências como anúncios em campanhas DSP, os dados de desempenho desses anúncios estarão disponíveis em relatórios personalizados adicionais, apenas curtir dados para seus outros anúncios DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
-Como opção, você pode entregar seus relatórios personalizados para destinos de relatórios especificados[&#128279;](/help/dsp/reports/report-destinations/report-destination-about.md).
+Como opção, você pode entregar seus relatórios personalizados para destinos de relatórios especificados[](/help/dsp/reports/report-destinations/report-destination-about.md).
 
 <!--
 >* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)

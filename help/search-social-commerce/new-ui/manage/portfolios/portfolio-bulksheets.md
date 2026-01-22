@@ -4,9 +4,9 @@ description: Saiba como editar as configurações de vários portfólios usando 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Um bulksheet de portfólio é um arquivo que contém configurações de portfól
 
 ## Baixar um arquivo de bulksheet com configurações de portfólio
 
-1. Marque a caixa de seleção ao lado de cada portfólio a ser incluído na planilha em massa.
+1. (Opcional) Marque a caixa de seleção ao lado de cada portfólio a ser incluído na planilha em massa.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
+   Se você não selecionar portfólios específicos, será possível baixar as configurações de todos os portfólios.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em:
+
+   * (Para todos os portfólios) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (Para portfólios selecionados) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. Insira o nome do arquivo de bulksheet a ser criado e clique em **[!UICONTROL Export Now]**.
 

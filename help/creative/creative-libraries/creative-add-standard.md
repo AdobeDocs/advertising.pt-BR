@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Localize e selecione as experiências de anúncio de exibição e clique em **[!UICONTROL Select]** no canto superior direito.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     Cada variante criativa em uma experiência selecionada será importada como uma criação separada do HTML5.
 
 1. Adicionar ou remover criações:
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Especifique as [configurações de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) ou as [configurações de criação de imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   Por padrão, todas as criações que você acabou de fazer upload são selecionadas, e todas as configurações especificadas são aplicadas a todas as criações selecionadas. Todas as configurações com apenas um valor se aplicam a todas as criações selecionadas. Para inserir configurações para criações específicas, desmarque cada criação inaplicável.
+   Por padrão, todas as criações ou experiências do GenStudio que você acabou de carregar são selecionadas, e todas as configurações especificadas se aplicam a todos os itens selecionados. Todas as configurações com apenas um valor se aplicam a todos os itens selecionados. Para inserir configurações para criações ou experiências do GenStudio específicas, desmarque cada criação ou experiência inaplicável.
 
-1. Clique em **[!UICONTROL Create]** ou **[!UICONTROL Import]**.
+1. Clique em **[!UICONTROL Create]**.
 
 ## Adicionar um criativo de terceiros a uma biblioteca criativa {#creative-add-third-party}
 

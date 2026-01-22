@@ -4,9 +4,9 @@ description: Saiba como editar as configurações de vários portfólios usando 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,15 @@ Um bulksheet de portfólio é um arquivo que contém configurações de portfól
 
 O arquivo deve estar no formato XLSX.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**. &lt;!— Deve ser &quot;Importar configurações do Portfolio&quot; — &quot;Detalhes&quot; podem ser muito vagos e sugerem que podem incluir algo diferente. —>
+1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**.
 
-1. Na caixa de diálogo [!UICONTROL Import Portfolio Details File]:<!-- reword if we change the name of the operation -->
+1. No diálogo [!UICONTROL Import Portfolio Details File]:
 
-   1. Arraste e solte um arquivo na caixa ou clique em **[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->para selecionar um arquivo do seu dispositivo ou rede.
+   1. Arraste e solte um arquivo na caixa ou clique em **[!UICONTROL Browse File]** para selecionar um arquivo do seu dispositivo ou rede.
 
    1. Clique em **[!UICONTROL Import]**.
 
-Você pode verificar o status do carregamento usando o botão [!UICONTROL Global Sync Status] (![Status de Sincronização Global](/help/search-social-commerce/assets/global-sync-status.png "Status de Sincronização Global")) ao lado do seletor de intervalo de datas.<!-- icon similar to Refresh -->. Se qualquer uma das alterações não tiver sido bem-sucedida, você poderá baixar um arquivo de erro mostrando o que falhou.
+Você pode verificar o status do carregamento usando o botão [!UICONTROL Global Sync Status] (![Status de Sincronização Global](/help/search-social-commerce/assets/global-sync-status.png "Status de Sincronização Global")) ao lado do seletor de intervalo de datas. Se qualquer uma das alterações não tiver sido bem-sucedida, você poderá baixar um arquivo de erro mostrando o que falhou.
 
 As notificações também são adicionadas à Central de Notificações, e você pode abrir o painel Notificações no ícone ![Notificações](/help/search-social-commerce/assets/notifications-new.png "Notificações") ao lado do botão [!UICONTROL Global Sync Status] (![Status da sincronização global](/help/search-social-commerce/assets/global-sync-status.png "Status da sincronização global")).
 

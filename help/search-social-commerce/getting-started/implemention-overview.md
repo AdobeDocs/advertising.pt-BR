@@ -1,11 +1,11 @@
 ---
 title: Visão geral da implementação do Search, Social e Commerce
-description: Saiba mais
+description: Saiba mais sobre o fluxo de trabalho geral para iniciar e manter um portfólio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Com
 
    * Se as contas ainda não tiverem dados de campanha, adicione campanhas, grupos de anúncios, palavras-chave, anúncios e posicionamentos no Search, Social e Commerce ou na rede de anúncios.
 
-     Para obter detalhes sobre como configurar campanhas de pesquisa, consulte o capítulo de ajuda em &quot;Campaign Management&quot;.
+     Para obter detalhes sobre como configurar campanhas de pesquisa, consulte o capítulo de ajuda em &quot;Gerenciamento de campanha&quot;.
 
 1. Configure o rastreamento de todos os anúncios para os quais você deseja que o Adobe Advertising rastreie conversões:
 
    1. (Se necessário) Configure o rastreamento de cliques para anúncios e, opcionalmente, para palavras-chave, [!DNL Google Ads] inserções e [!DNL Google Ads] extensões, gerando e carregando URLs de rastreamento de cliques.
 
-      As URLs de rastreamento de cliques dos anunciantes com o serviço de rastreamento de conversão baseado em pixel de Adobe Advertising incluem um redirecionamento para os servidores [!DNL Adobe].
+      As URLs de rastreamento de cliques para anunciantes com o serviço de rastreamento de conversão baseado em pixel da Adobe Advertising incluem um redirecionamento para os servidores [!DNL Adobe].
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, pode envolver a adição de tags de rastreamento de conversão às páginas da Web apropriadas e/ou a configuração de uma queda diária de feed para os dados de conversão coletados usando seu próprio método.
 
@@ -58,7 +58,7 @@ Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Com
 
 1. Configurar integrações com produtos adicionais:
 
-   1. (Anunciantes com Adobe Analytics e/ou Adobe Audience Manager) Configure integrações entre as várias contas para que o Adobe Advertising possa trocar dados com elas.
+   1. (Anunciantes com o Adobe Analytics e/ou Adobe Audience Manager) Configure integrações entre as várias contas para que o Adobe Advertising possa trocar dados com elas.
 
       Consulte o guia em &quot;[Integrações com o Experience Cloud](/help/integrations/home.md)&quot;.
 
@@ -108,4 +108,4 @@ Após a primeira inicialização, as seguintes tarefas contínuas serão necess�
 
    * Adicione novos portfólios.
 
-Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfolio&quot; > &quot;Monitoramento e gerenciamento de desempenho&quot;, disponível no menu [!UICONTROL Help] (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")) no canto superior direito de qualquer página em Pesquisa, Social e Commerce.
+Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfólios&quot; > &quot;Monitoramento e Gerenciamento de Desempenho&quot;, que está disponível no menu [!UICONTROL Help] (![menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "menu Ajuda")) no canto superior direito de qualquer página em Pesquisa, Social e Commerce.

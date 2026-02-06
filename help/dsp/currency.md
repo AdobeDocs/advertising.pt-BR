@@ -3,7 +3,7 @@ title: Moedas suportadas
 description: Consulte uma lista das moedas suportadas.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -12,14 +12,13 @@ ht-degree: 0%
 
 # Moedas suportadas no Adobe Advertising
 
-O Adobe Advertising suporta as seguintes moedas.
-
+O Adobe Advertising oferece suporte às seguintes moedas.
 
 >[!NOTE]
 >
->O Adobe Analytics oferece suporte a [um conjunto maior de moedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=pt-BR).
+>O Adobe Analytics oferece suporte a [um conjunto maior de moedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
-## DSP e Creative
+## DSP e CREATIVE
 
 | Código | Nome da moeda |
 | ------ | -------------- |

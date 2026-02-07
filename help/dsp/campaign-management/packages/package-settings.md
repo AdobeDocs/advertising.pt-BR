@@ -3,7 +3,7 @@ title: Configurações do pacote
 description: Consulte descrições das configurações de pacote disponíveis.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
+source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -55,10 +55,9 @@ Para pacotes com fluxo personalizado, o intervalo de orçamento é sempre *[!UIC
 
 **[!UICONTROL Optimization Goal]:** (Pacotes com ritmo no nível de pacote somente) A meta de otimização do pacote. Consulte as descrições de cada meta de otimização em [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md).
 
-
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pacotes com ritmo no nível de pacote e com as metas de otimização &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot; somente) Usa dados de alcance doméstico de todas as disposições programáticas garantidas na campanha para otimizar o alcance incremental.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada deve incluir eventos ponderados adicionais de funil superior (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada deve incluir eventos ponderados adicionais do funnel superior (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas Personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas Recomendadas para Configurar Campanhas de Desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) Diz ao modelo de otimização para aprender somente a partir de conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
 
@@ -133,4 +132,4 @@ Para pacotes existentes sem a opção &quot;[!UICONTROL Automatically rollover r
 >* [Editar um pacote](package-edit.md)
 >* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
 >* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
->* [Perguntas frequentes sobre o Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Perguntas frequentes sobre o gerenciamento de campanhas](/help/dsp/campaign-management/faq-campaign-management.md)

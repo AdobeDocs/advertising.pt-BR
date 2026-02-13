@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: b0eb55e27f32af0c1ceed0980dbfdaa7497db226
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '964'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Soluções entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiamento da conta](/help/dsp/introduction/billing/account-funding.md)
    + [Moedas suportadas](/help/dsp/currency.md)
-   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
-   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
+   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluções de medição avançada](/help/dsp/introduction/advanced-measurement-services.md)
 + Gerenciamento de campanhas {#campaign-management}
    + [Visão geral da estrutura de gerenciamento de campanhas](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -76,7 +76,7 @@ ht-degree: 3%
       + [Analise os detalhes do anúncio usando planilhas](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar um anúncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar um anúncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Anexar e remover anúncios de posicionamentos](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=pt-BR)
+      + [Anexar e remover anúncios de posicionamentos](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Listar as disposições associadas a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -116,6 +116,7 @@ ht-degree: 3%
    + [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
    + Públicos-alvo reutilizáveis {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
+      + [Criar um público-alvo reutilizável usando IA gerativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
       + [Exibir detalhes sobre um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-view-details.md)
@@ -231,9 +232,9 @@ ht-degree: 3%
    + Notificação {#notifications}
       + [Sobre Assinaturas de Alerta](/help/dsp/admin/alerts-about.md)
       + [Gerenciar assinaturas de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integrações com o Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=pt-BR)
++ [Integrações com o Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obter ajuda](/help/dsp/get-help.md)
-+ [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)
++ [Notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:

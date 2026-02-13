@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ Você também pode ignorar a solicitação e continuar a especificar critérios 
 
 #### Resposta do agente de IA solicitando que você escolha entre várias opções
 
-&grave;Deseja:
-1) Continue com essa expressão,
-2) Obtenha alternativas de alcance máximo, ou
-3) Modificar a expressão manualmente?&grave;
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
 

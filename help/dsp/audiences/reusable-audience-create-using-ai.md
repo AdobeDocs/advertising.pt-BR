@@ -43,7 +43,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 1. Crie o público-alvo:
 
-   <!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
+   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
 
    1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 

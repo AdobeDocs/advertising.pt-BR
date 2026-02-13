@@ -4,7 +4,7 @@ description: Saiba como criar públicos-alvo reutilizáveis no Adobe Advertising
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 1. Crie o público-alvo:
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
+   Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
 
    1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 

@@ -4,9 +4,10 @@ description: Saiba como criar públicos-alvo reutilizáveis no Adobe Advertising
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: f479bfab76f254749982aaa3ee64a20b56e0b7b8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 >[!NOTE]
 >
 >Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de criar o público-alvo e usá-lo para suas inserções.
+
+## Criar um público-alvo reutilizável usando IA gerativa
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -57,7 +60,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
       Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
 
-1. (Se necessário) Especifique critérios adicionais. Quando o agente de IA apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de IA para prosseguir com a montagem do público-alvo.
+   1. (Se necessário) Especifique critérios adicionais. Quando o agente de IA apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de IA para prosseguir com a montagem do público-alvo.
 
 1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
 
@@ -65,7 +68,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
    >
    >Não é possível editar o público posteriormente usando o agente de IA. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Escrevendo Prompts {#writing-prompts}
+## Noções básicas de gravação de prompts {#writing-prompts}
 
 ### O que um prompt deve incluir?
 
@@ -119,12 +122,10 @@ Você também pode ignorar a solicitação e continuar a especificar critérios 
 
 #### Resposta do agente de IA solicitando que você escolha entre várias opções
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Deseja:
+1) Continue com essa expressão,
+2) Obtenha alternativas de alcance máximo, ou
+3) Modificar a expressão manualmente?`
 
 Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
 
@@ -136,9 +137,7 @@ Um resumo de público-alvo é um writeup estratégico que define o público-alvo
 
 ### Componentes essenciais de um resumo de público-alvo eficiente
 
-#### Atributos de público
-
-Inclua quantos tipos de atributos forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
+Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
 
 <!-- What about these:
 

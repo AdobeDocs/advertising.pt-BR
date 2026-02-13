@@ -122,10 +122,10 @@ Você também pode ignorar a solicitação e continuar a especificar critérios 
 
 #### Resposta do agente de IA solicitando que você escolha entre várias opções
 
-`Deseja:
+&grave;Deseja:
 1) Continue com essa expressão,
 2) Obtenha alternativas de alcance máximo, ou
-3) Modificar a expressão manualmente?`
+3) Modificar a expressão manualmente?&grave;
 
 Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
 

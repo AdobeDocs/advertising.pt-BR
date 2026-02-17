@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
       Para obter mais informações, consulte &quot;[Escrevendo Prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
-      À medida que o agente de IA encontra segmentos relevantes, ele cria uma expressão de público-alvo com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
+      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
 
       Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
 
-   1. Quando o agente de IA apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de IA para continuar com a montagem do público-alvo.
+   1. Quando o agente de público-alvo apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
 
       Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
 
-   1. (Se necessário) Especifique critérios adicionais. Quando o agente de IA apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de IA para prosseguir com a montagem do público-alvo.
+   1. (Se necessário) Especifique critérios adicionais. Quando o agente de público-alvo apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
+
+      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
 
 1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
 
    >[!NOTE]
    >
-   >Não é possível editar o público posteriormente usando o agente de IA. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+   >Não é possível editar o público-alvo posteriormente usando o agente de público-alvo. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Noções básicas de gravação de prompts {#writing-prompts}
 
@@ -74,7 +76,11 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 * Use uma linguagem clara e descritiva para descrever o público-alvo.
 
-  Em geral, os prompts não diferenciam maiúsculas de minúsculas, e a pontuação não é necessária, exceto para fornecer clareza.
+   * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+
+   * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
+
+   * O agente de público-alvo reconhece os sinônimos mais comuns.
 
 * Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
 
@@ -83,6 +89,8 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 * Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
 
 * Saiba mais sobre o prompt por meio da experimentação.
+
+  Se o prompt não estiver claro, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
 
   O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * Texto em idiomas além do inglês.
 
-### Exemplos de respostas do agente de IA e como responder
+### Exemplos de respostas do agente de público-alvo e como responder
 
-Quando o agente de IA precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando termos comuns equivalentes.
+Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
 
-#### Resposta do agente de IA fazendo uma pergunta
+#### Agente de público-alvo fazendo uma pergunta
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&qu
 
 Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
-#### Resposta do agente de IA solicitando que você escolha entre várias opções
+#### Agente de público-alvo solicitando que você escolha entre várias opções
 
 `Would you like to:`
 `1) Proceed with this expression,`

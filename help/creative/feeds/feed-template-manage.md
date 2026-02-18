@@ -2,9 +2,10 @@
 title: Gerenciar modelos de feed
 description: Saiba como gerenciar modelos de feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Os modelos de feed mapeiam campos em seus arquivos/catálogos de feed com campos no back-end do Advertising Creative. Os anúncios dinâmicos do HTML5, mas não os anúncios estáticos do HTML5, exigem um modelo de feed para criar anúncios dinâmicos.
+Os modelos de feed mapeiam campos em seus arquivos/catálogos de feed com campos no back-end do Advertising Creative. Os anúncios dinâmicos do HTML5 e de vídeo, mas não os anúncios estáticos do HTML5, exigem um modelo de feed para criar anúncios dinâmicos. Opcionalmente, é possível baixar e preencher modelos de feed mestre ([!UICONTROL Retail] e [!UICONTROL Adobe Creative Template]).
 
 Você pode usar um modelo de feed com vários modelos de anúncio.
+
+>[!TIP]
+>
+>Para todas as contas com vídeos dinâmicos, a prática recomendada é [baixar o modelo de feed mestre [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mapear cada campo no arquivo de ativo para um campo no back-end do Advertising Creative e, em seguida, renomear e carregar o modelo de feed. Use o novo modelo de feed, juntamente com o arquivo de ativo, para [criar um catálogo](catalog-manage.md).
 
 ## Criar um modelo de feed
 

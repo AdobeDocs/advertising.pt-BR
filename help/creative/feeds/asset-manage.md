@@ -2,17 +2,21 @@
 title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
+exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Gerenciar arquivos de ativos
 
-Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem referenciados na planilha. Os anúncios estáticos HTML5 exigem apenas um único ativo de imagem por anúncio.
+* Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem reais referenciados na planilha.
 
+* Os anúncios estáticos HTML5 exigem apenas um único ativo de imagem por anúncio.
+
+* Os anúncios de vídeo exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de vídeo reais referenciados na planilha.
 
 >[!NOTE]
 >
@@ -35,6 +39,18 @@ Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilh
    * Um ativo de imagem por anúncio em formato GIF, JPG, JPEG ou PNG.
 
      Você pode carregar uma única imagem ou várias imagens em um arquivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+
+* Anúncios de vídeo dinâmicos:
+
+   * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de vídeo em cada linha usando o formato `videos/image_name` (como `videos/300x250_acme_logo.png`). O arquivo ZIP pode ter no máximo 512 MB com no máximo 500 linhas.
+
+     Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
+
+     Para todas as contas com vídeos dinâmicos, a prática recomendada é [criar um catálogo](catalog-manage.md) usando o arquivo de ativo junto com uma cópia do [modelo de feed mestre [!UICONTROL Adobe Creative Template]](feed-template-manage.md), no qual você mapeia cada campo do arquivo de ativo para um campo no back-end do Advertising Creative.
+
+   * Os ativos de vídeo associados em formato MP4, MOV ou WEBM. Os modelos de anúncios suportados incluem o cartão de início, o cartão de fim, a sobreposição superior, a sobreposição inferior ou em forma de L. A duração de cada vídeo deve ser de 1 a 90 segundos. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+
+  Você pode carregar um único arquivo XLSX, um único arquivo de imagem ou um único arquivo ZIP contendo qualquer combinação de arquivos XLSX e de vídeo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Fazer upload de um arquivo de ativo
 

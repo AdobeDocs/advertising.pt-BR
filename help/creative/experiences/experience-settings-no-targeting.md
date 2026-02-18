@@ -3,7 +3,7 @@ title: Configurações para experiências não direcionadas
 description: Consulte descrições de todas as configurações para experiências de anúncio sem direcionamento de árvore decisória.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## seção [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Somente leitura para experiências existentes) O tipo de anúncios incluídos na experiência: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Depois de salvar a experiência, não é possível alterar o tipo de anúncio.
+**[!UICONTROL Ad Type]:** (Somente leitura para experiências existentes) O tipo de anúncios incluídos na experiência: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* ou *[!UICONTROL Display Video]*. Depois de salvar a experiência, não é possível alterar o tipo de anúncio.
 
 **[!UICONTROL Advertiser]:** (Somente leitura para experiências existentes) O anunciante que oferecerá os elementos de criação incluídos na experiência. Depois de salvar a experiência, você não poderá alterar o anunciante.
 

@@ -2,9 +2,10 @@
 title: Configurações de criação dinâmicas
 description: Referencie as configurações de criações dinâmicas.
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## Configurações de anúncios dinâmicos<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### Detalhes básicos
 
-**[!UICONTROL Dynamic Ad Name]:** Um nome exclusivo para o criativo.
+**[!UICONTROL Creative Type]:** Se o criativo é um anúncio *[!UICONTROL Display]* (HTML5) ou um anúncio *[!UICONTROL Video]*.
 
-**[!UICONTROL Advertiser]:** O anunciante para o qual criar os anúncios.
+**[!UICONTROL Dynamic Display Ad Name]** ou **[!UICONTROL Dynamic Video Ad Name]:** Um nome exclusivo para o criativo.
+
+**[!UICONTROL Advertiser]:** O anunciante para o qual criar os anúncios. Se você estiver criando os anúncios de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], o anunciante já está selecionado e é somente leitura.
 
 **[!UICONTROL Library]:** A biblioteca criativa na qual criar os anúncios. Se você estiver criando os anúncios de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], o nome da biblioteca já está selecionado como somente leitura.
 
-**[!UICONTROL Ad Template Size]:** As [dimensões de anúncios](/help/creative/creative-libraries/creative-sizes.md) do modelo de anúncio a partir do qual o anúncio será criado. Se você selecionar um [!UICONTROL Ad Template] específico pela primeira vez, esse valor será selecionado automaticamente.
+**[!UICONTROL Ad Template Size]:** (somente anúncios de exibição dinâmicos) as [dimensões de anúncio](/help/creative/creative-libraries/creative-sizes.md) do modelo de anúncio a partir do qual o anúncio será criado. Se você selecionar um [!UICONTROL Ad Template] específico pela primeira vez, esse valor será selecionado automaticamente.
 
 ## Modelo de publicidade
 
-**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios. Selecione um modelo de anúncio existente ou carregue um novo modelo de anúncio e selecione o tipo de modelo (*Estático* ou *Dinâmico*). Um modelo carregado deve estar em formato ZIP e conter arquivos HTML5 e o arquivo de definição de modelo (template.TDF). <!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios. Selecione um modelo de anúncio existente ou carregue um novo modelo de anúncio e selecione o tipo de modelo (*Estático* ou *Dinâmico*). O modelo deve estar em formato ZIP e conter:<!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]:** O número de produtos a serem exibidos em um carrossel.
+* Exibir criativos: arquivos HTML5 com o formato de anúncio desejado e (somente anúncios dinâmicos HTML5) um arquivo com os atributos de anúncio (.tdf)
+
+* Criação de vídeo: um arquivo .scene com o formato de anúncio desejado. O arquivo ZIP pode ter no máximo 512 MB.
+
+Para continuar, clique em **[!UICONTROL Select Ad Template]**.
+
+**[!UICONTROL Card Count (Max 50)]:** (Exibir somente anúncios) O número de produtos a serem exibidos em um carrossel.
+
+**[!UICONTROL Duration]:** (Somente anúncios de vídeo; somente leitura) A duração do vídeo derivada do modelo de anúncio selecionado. A duração de cada vídeo deve ser de 1 a 90 segundos.
 
 ## Catálogos
 
 **[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.
 
-**\[Catálogos\]**: um ou mais catálogos a partir dos quais os anúncios serão gerados. Selecione um catálogo existente ou crie um novo catálogo baixando um modelo de feed existente e criando e carregando o novo catálogo.
+**\[Catálogos\]**: um ou mais catálogos a partir dos quais os anúncios serão gerados. Selecione um catálogo existente ou crie um novo catálogo baixando um modelo de feed existente e criando e carregando o novo catálogo. Clique em **[!UICONTROL Select Catalog]**.
 
 Os catálogos carregados devem estar em formato ZIP e conter o seguinte:
 
-* Um ou mais arquivos de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX). O tamanho máximo do arquivo é 512 MB.<!-- Need to add more specs for the feed files -->
+* (Exibição dinâmica e anúncios de vídeo) Um ou mais arquivos de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX). O tamanho máximo do arquivo é 512 MB.<!-- Need to add more specs for the feed files -->
 
-* Ativos de imagem no formato GIF, JPEG, JPG ou PNG
+* (Exibir anúncios) Ativos de imagem no formato GIF, JPEG, JPG ou PNG
+
+* (Anúncios de vídeo) Ativos de vídeo nos formatos MP4, MOV ou WEBM. Os modelos de anúncios suportados incluem o cartão de início, o cartão de fim, a sobreposição superior, a sobreposição inferior ou em forma de L. A duração de cada vídeo deve ser de 1 a 90 segundos.
 
 ### [!UICONTROL Attributes Mapping]
 

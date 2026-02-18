@@ -3,7 +3,7 @@ title: Configurações de experiência direcionada
 description: Consulte descrições de todas as configurações para experiências de anúncios direcionados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## seção [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Somente leitura para experiências existentes) O tipo de anúncios incluídos na experiência: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* ou *[!UICONTROL Video]*. Depois de salvar a experiência, não é possível alterar o tipo de anúncio.
+**[!UICONTROL Ad Type]:** (Somente leitura para experiências existentes) O tipo de anúncios incluídos na experiência: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* ou *[!UICONTROL Display Video]*. Depois de salvar a experiência, não é possível alterar o tipo de anúncio.
 
 **[!UICONTROL Advertiser]:** (Somente leitura para experiências existentes) O anunciante que fará lances nas combinações criativa e de destino incluídas na experiência. Depois de salvar a experiência, você não poderá alterar o anunciante.
 

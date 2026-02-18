@@ -2,9 +2,10 @@
 title: Adicionar criações dinâmicas a uma biblioteca criativa
 description: Saiba como adicionar criações dinâmicas a uma biblioteca criativa.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 
 1. Especifique as [configurações de anúncios dinâmicos](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
-   1. Especifique os detalhes básicos do anúncio.
+   1. Especifique os detalhes básicos do anúncio, incluindo o tipo de criação.
 
    1. Selecione o modelo de anúncio a ser usado nas criações.
+
+      Use um modelo de anúncio do HTML5 para anúncios de exibição e um modelo de anúncio de vídeo para anúncios de vídeo.
 
    1. Selecione o catálogo a partir do qual os anúncios serão criados.
 

@@ -3,9 +3,9 @@ title: Anexar um criativo a pacotes criativos
 description: Saiba como anexar um criativo a um pacote criativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-Você pode anexar criações de exibição padrão a conjuntos de exibição padrão, criações de vídeo padrão a conjuntos de vídeo padrão e criações de exibição dinâmica a conjuntos de exibição dinâmica para poder adicioná-las a [experiências de anúncio](/help/creative/experiences/experience-about.md). Cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\].
+Você pode anexar criações de vídeo padrão a pacotes de vídeo padrão, criações de vídeo padrão a pacotes de vídeo padrão, criações de vídeo dinâmico a pacotes de exibição dinâmicos e criações de vídeo dinâmico a pacotes de vídeo dinâmicos para poder adicioná-los a [experiências de anúncio](/help/creative/experiences/experience-about.md). Cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\].
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

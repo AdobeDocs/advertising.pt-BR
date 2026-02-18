@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba como gerenciar e usar grupos de criadores.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Pacotes são grupos de criadores que podem ser adicionados a uma experiência como uma unidade. Depois de criar um contêiner de pacote, é possível anexar criações ao pacote. Os pacotes de exibição padrão podem conter apenas anúncios de exibição padrão, os pacotes de vídeo padrão podem conter apenas anúncios de vídeo padrão e os pacotes de exibição dinâmicos podem conter apenas anúncios de exibição dinâmicos. Você pode substituir as páginas de aterrissagem, tags de rastreamento de impressão e tags de rastreamento de cliques para todas as criações em um pacote atribuído a uma experiência da árvore de decisão de experiência, sem afetar as criações básicas.
+Pacotes são grupos de criadores que podem ser adicionados a uma experiência como uma unidade. Depois de criar um contêiner de pacote, é possível anexar criações ao pacote. Os pacotes de exibição padrão podem conter apenas anúncios de exibição padrão, os pacotes de vídeo padrão podem conter apenas anúncios de vídeo padrão, os pacotes de exibição dinâmicos podem conter apenas anúncios de exibição dinâmicos e os pacotes de vídeo dinâmicos podem conter apenas anúncios de vídeo dinâmicos. Você pode substituir as páginas de aterrissagem, tags de rastreamento de impressão e tags de rastreamento de cliques para todas as criações em um pacote atribuído a uma experiência da árvore de decisão de experiência, sem afetar as criações básicas.
 
 [!DNL Creative] gira pelas criações no pacote conforme especificado para cada experiência à qual o pacote é atribuído. Você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência com base no desempenho usando a rotação de anúncios algorítmica, que é viabilizada pelo [!DNL Adobe AI].
 
@@ -38,7 +38,7 @@ Você pode anexar um criativo a vários pacotes.
 
 1. Na parte superior direita, clique em **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Insira um **[!UICONTROL Bundle Name]** exclusivo e o **[!UICONTROL Bundle Type]:** *Vídeo Padrão* (para criações de vídeo padrão), *Vídeo Dinâmico* (para criações de vídeo dinâmico), *Vídeo Padrão* (para criações de vídeo padrão).
+1. Insira um **[!UICONTROL Bundle Name]** exclusivo e o **[!UICONTROL Bundle Type]:** *Vídeo Padrão* (para criações de vídeo padrão), *Vídeo Dinâmico* (para criações de vídeo dinâmico), *Vídeo Padrão* (para criações de vídeo padrão) ou *Dynamic Video* (para criações de vídeo dinâmico).
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -102,7 +102,7 @@ As alterações no nome de um pacote são propagadas em todas as experiências a
 
 ## Anexar criações a um pacote
 
-Você pode anexar criações de vídeo padrão existentes a um pacote de exibição padrão, criações de vídeo padrão a pacotes de vídeo padrão e criações de exibição dinâmica a um pacote dinâmico. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\].
+Você pode anexar criações de vídeo padrão existentes a um pacote de vídeo padrão, criações de vídeo padrão a pacotes de vídeo padrão, criações de vídeo dinâmico a um pacote dinâmico e criações de vídeo dinâmico a um pacote de vídeo. Anexar um criativo a um pacote disponibiliza o criativo em todas as experiências às quais o pacote é atribuído. Cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\].
 
 >[!NOTE]
 >

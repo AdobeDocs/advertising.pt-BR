@@ -2,18 +2,25 @@
 title: Gerenciar catálogos de feed
 description: Saiba como gerenciar catálogos de feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Gerenciar catálogos de feed
 
-Os catálogos de feed processados são conjuntos de variações de anúncios potenciais criados a partir de um arquivo de feed especificado e um template de feed especificado. Os anúncios dinâmicos do HTML5, mas não os anúncios estáticos do HTML5, exigem um catálogo para criar anúncios dinâmicos.
+Os catálogos de feed processados são conjuntos de variações de anúncios potenciais criados a partir de um arquivo de feed especificado e um template de feed especificado. O Dynamic HTML5 e os anúncios de vídeo, mas não os anúncios estáticos do HTML5, exigem um catálogo para criar anúncios dinâmicos.
 
 Antes de criar variações de anúncios e [adicionar anúncios dinâmicos a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md), processe o catálogo. Posteriormente, você pode atualizar o arquivo de feed e reprocessar o catálogo para criar um novo conjunto de variações de anúncios.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+Cada arquivo de feed pode processar até 500 linhas com ativos de vídeo.
+
+>[!TIP]
+>
+>Para todas as contas com vídeos dinâmicos, a prática recomendada é [baixar o modelo de feed mestre [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mapear cada campo no arquivo de ativo para um campo no back-end do Advertising Creative e, em seguida, renomear e carregar o modelo de feed. Use o novo modelo de feed, juntamente com o arquivo de ativo, para criar um catálogo.
 
 ## Criar um catálogo {#feed-catalog-create}
 

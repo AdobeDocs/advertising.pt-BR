@@ -2,9 +2,10 @@
 title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
 >[!PREREQUISITES]
 >
->* Modelos de anúncios no formato HTML5
+>* Modelos de anúncios: um modelo de anúncio de exibição (um arquivo ZIP com arquivos HTML5) ou um modelo de anúncio de vídeo (um arquivo ZIP com um arquivo .scene)
 >* Catálogos de produtos no formato CSV, TSV ou planilha do Microsoft Excel (XLSX)
 
-1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5, carregue um modelo de anúncio e catálogos.
+1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5 e de vídeo, carregue ou selecione um modelo e catálogo de anúncios existentes.
 
 1. Use os recursos de criação dinâmicos para experiências de anúncio:
 
@@ -44,19 +45,23 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
 ## Fluxo de trabalho 2
 
-1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis. O modelo de anúncio inclui um arquivo HTML5 com o formato de anúncio desejado e (somente anúncios dinâmicos HTML5) um arquivo com os atributos de anúncio.
+1. [Crie um modelo de anúncio](/help/creative/ad-templates/ad-template-manage.md) para seus anúncios dinâmicos com base nos ativos disponíveis. O modelo de anúncio deve estar em formato ZIP e conter:<!-- Need to add more specs for templates -->
+
+* Exibir criativos: arquivos HTML5 com o formato de anúncio desejado e (somente anúncios dinâmicos HTML5) um arquivo com os atributos de anúncio (.tdf)
+
+* Criação de vídeo: um arquivo .scene com o formato de anúncio desejado e um arquivo com os atributos de anúncio (.tdf)
 
 1. Configure os elementos de publicidade:
 
    * (Para anúncios estáticos únicos do HTML5) Colete e [carregue os ativos de imagem](/help/creative/feeds/asset-manage.md) para seus anúncios.
 
-   * (Para anúncios dinâmicos do HTML5) Crie catálogos dos elementos de anúncio:
+   * (Para anúncios dinâmicos do HTML5 e de vídeo) Crie catálogos dos elementos de anúncio:
 
-      1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem em cada linha. Colete separadamente os ativos de imagem associados.
+      1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem ou vídeo em cada linha. Colete separadamente os ativos de imagem e vídeo associados.
 
-      1. [Carregar o arquivo de feed e os ativos de imagem](/help/creative/feeds/asset-manage.md).
+      1. [Carregar o arquivo de feed e os ativos](/help/creative/feeds/asset-manage.md).
 
-      1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative.
+      1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative. Como opção, você pode baixar e preencher modelos de feed mestre com campos relevantes para varejo<!-- and what is the creative template?-->.
 
       1. [Crie um catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) de um arquivo de feed especificado e um modelo de feed especificado e [processe o catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) para ver as variações de anúncios que podem ser criadas a partir dele.
 

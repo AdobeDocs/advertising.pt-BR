@@ -3,7 +3,7 @@ title: Gerenciar catálogos de feed
 description: Saiba como gerenciar catálogos de feed.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Cada arquivo de feed pode processar até 500 linhas com ativos de vídeo.
 
 >[!TIP]
 >
->Para todas as contas com vídeos dinâmicos, a prática recomendada é [baixar o modelo de feed mestre [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mapear cada campo no arquivo de ativo para um campo no back-end do Advertising Creative e, em seguida, renomear e carregar o modelo de feed. Use o novo modelo de feed, juntamente com o arquivo de ativo, para criar um catálogo.
+>Para todas as contas com vídeos dinâmicos, a prática recomendada é [baixar o modelo de feed universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mapear cada campo no arquivo de ativo para um campo no back-end do Advertising Creative e, em seguida, renomear e carregar o modelo de feed. Use o novo modelo de feed, juntamente com o arquivo de ativo, para criar um catálogo.
 
 ## Criar um catálogo {#feed-catalog-create}
 

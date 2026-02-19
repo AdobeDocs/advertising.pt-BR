@@ -3,9 +3,9 @@ title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
       1. [Carregar o arquivo de feed e os ativos](/help/creative/feeds/asset-manage.md).
 
-      1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative. Como opção, você pode baixar e preencher modelos de feed mestre com campos relevantes para varejo<!-- and what is the creative template?-->.
+      1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative. Opcionalmente, é possível baixar e preencher um template de feed universal com campos relevantes para qualquer tipo de campanha.
 
       1. [Crie um catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) de um arquivo de feed especificado e um modelo de feed especificado e [processe o catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) para ver as variações de anúncios que podem ser criadas a partir dele.
 

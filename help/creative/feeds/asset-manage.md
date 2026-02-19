@@ -3,7 +3,7 @@ title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
 
-     Para todas as contas com vídeos dinâmicos, a prática recomendada é [criar um catálogo](catalog-manage.md) usando o arquivo de ativo junto com uma cópia do [modelo de feed mestre [!UICONTROL Adobe Creative Template]](feed-template-manage.md), no qual você mapeia cada campo do arquivo de ativo para um campo no back-end do Advertising Creative.
+     Para todas as contas com vídeos dinâmicos, a prática recomendada é [criar um catálogo](catalog-manage.md) usando o arquivo de ativo junto com uma cópia do [modelo de feed universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), no qual você mapeia cada campo do arquivo de ativo para um campo no back-end do Advertising Creative.
 
    * Os ativos de vídeo associados em formato MP4, MOV ou WEBM. Os modelos de anúncios suportados incluem o cartão de início, o cartão de fim, a sobreposição superior, a sobreposição inferior ou em forma de L. A duração de cada vídeo deve ser de 1 a 90 segundos. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 

@@ -3,9 +3,10 @@ title: (Nova interface de usuário) Exibir detalhes de desempenho do portfólio
 description: Saiba como visualizar detalhes do desempenho do portfólio, incluindo métricas reais e previstas no nível de portfólio e para cada campanha atribuída.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
 
    * Para ver os dados de qualquer ponto no gráfico, mantenha o cursor sobre esse ponto.
 
+1. Clique em **[!UICONTROL Download report]**.
+
 ## Listar as campanhas no portfólio
 
 * Clique na guia **[!UICONTROL Campaigns]**.
@@ -103,6 +106,14 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
    * Para editar configurações visíveis do portfólio, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar") ao lado da seção de configuração e [editar as configurações do portfólio](portfolio-edit.md).
 
 Para obter mais informações sobre as configurações do portfólio, consulte o Guia de otimização, disponível no Search, Social e Commerce.
+
+## Baixe relatórios de desempenho do portfólio e listas dos componentes do portfólio
+
+1. Na barra de ferramentas, clique em **[!UICONTROL Download report]**.
+
+1. Marque a caixa de seleção ao lado de cada relatório de desempenho e tipo de componente de portfólio a ser incluído.
+
+   Para alguns relatórios de desempenho, você pode escolher se deseja baixar os dados como um carrinho ou uma tabela.
 
 >[!MORELIKETHIS]
 >

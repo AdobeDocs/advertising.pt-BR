@@ -4,9 +4,9 @@ description: Saiba como visualizar detalhes do desempenho do portfólio, incluin
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,23 @@ Para obter mais informações sobre as configurações do portfólio, consulte o
 
 ## Baixe relatórios de desempenho do portfólio e listas dos componentes do portfólio
 
-1. Na barra de ferramentas, clique em **[!UICONTROL Download report]**.
+* Para baixar todos os relatórios:
 
-1. Marque a caixa de seleção ao lado de cada relatório de desempenho e tipo de componente de portfólio a ser incluído.
+   1. Na barra de ferramentas, clique em **[!UICONTROL Download report]**.
 
-   Para alguns relatórios de desempenho, você pode escolher se deseja baixar os dados como um carrinho ou uma tabela.
+   1. Marque a caixa de seleção ao lado de cada relatório de desempenho e tipo de componente de portfólio a ser incluído.
+
+      Para alguns relatórios de desempenho, você pode escolher se deseja baixar os dados como um gráfico ou uma tabela.
+
+   1. Clique em **[!UICONTROL Download report]**.
+
+* Para baixar um relatório [!DNL model accuracy] com tipos específicos de dados:
+
+   1. Na barra de ferramentas do relatório, clique em **[!UICONTROL Download report]**.
+
+   1. Marque a caixa de seleção ao lado de cada tipo de dados a serem incluídos e como detalhar os dados (por unidade de oferta e/ou por volume de cliques).
+
+   1. Clique em **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >

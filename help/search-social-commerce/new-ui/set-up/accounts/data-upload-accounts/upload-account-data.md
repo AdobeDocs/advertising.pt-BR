@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Clique em **[!UICONTROL Save]**.
 
-# Carregar dados da conta para um bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+&#x200B;# Carregar dados da conta para um bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 É possível preencher uma conta com dados de conteúdo e custo da campanha, cliques e conversão carregando os dados em uma pasta atribuída pela Search, Social e Commerce em um bucket do [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 

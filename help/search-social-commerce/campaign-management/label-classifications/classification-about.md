@@ -3,9 +3,9 @@ title: Sobre as classificações de rótulo
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Cada entidade elegível pode ter valores de etiqueta para várias classificaçõ
 
 ## A exibição Classificações de etiquetas
 
-A exibição [!UICONTROL Labels Classifications] no menu [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] inclui subexibições [!UICONTROL Classifications] e [!UICONTROL Label Values]. Você pode exibir dados para suas classificações de etiquetas, [criar](classification-create.md) e [excluir](classification-delete.md) classificações de etiquetas e exibir dados para seus valores de classificação de etiquetas. Por padrão, são exibidos dados para suas classificações e valores de etiqueta em nível de palavra-chave, mas é possível exibir dados para classificações e valores em nível de anúncio.
+Na interface herdada, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Na nova interface, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+
+A exibição [!UICONTROL Labels Classifications] inclui subexibições [!UICONTROL Classifications] e [!UICONTROL Label Values]. Você pode exibir dados para suas classificações de etiquetas, [criar](classification-create.md) e [excluir](classification-delete.md) classificações de etiquetas e exibir dados para seus valores de classificação de etiquetas. Por padrão, são exibidos dados para suas classificações e valores de etiqueta em nível de palavra-chave, mas é possível exibir dados para classificações e valores em nível de anúncio.
+
+Na nova interface do usuário,
 
 >[!MORELIKETHIS]
 >

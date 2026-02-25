@@ -3,9 +3,9 @@ title: Excluir valores de classificação de etiqueta
 description: Saiba como excluir valores de classificações de rótulo.
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ A exclusão dos valores de classificação de etiqueta os torna indisponíveis p
 >[!NOTE]
 >
 >Para simplesmente desassociar um valor de classificação de um componente da conta, consulte &quot;[Remover valores de classificação de componentes da campanha](classification-values-remove.md)&quot;.
+
+## (Nova interface do usuário) Excluir valores de classificação de etiquetas
+
+1. Clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+
+1. Clique na guia **[!UICONTROL Label Values]**.
+
+1. (Opcional) Filtre a lista para incluir valores de rótulo específicos.
+
+1. Marque a caixa de seleção ao lado de cada valor de rótulo a ser excluído.
+
+   É possível excluir até 200 linhas por vez.
+
+   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir").
+
+1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
+
+## (Interface herdada) Excluir valores de classificação de etiquetas
 
 1. Clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 

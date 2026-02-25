@@ -3,7 +3,7 @@ title: Atribuir valores de classificação aos componentes da conta usando bulks
 description: Saiba como usar bulksheets para atribuir valores de classificação a componentes de conta.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
    Além de adicionar valores, também é possível excluir valores existentes, removendo-os das linhas relevantes. Para remover valores de uma entidade pai e de suas entidades filho, a) inclua somente a linha de entidade pai e remova o valor de classificação existente ou b) inclua a entidade pai e suas entidades filho e remova o valor de classificação existente de todas as linhas pai e filho.
 
-1. [Carregue o arquivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para criar as associações.
+1. [Carregue o arquivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para criar as associações.<!-- Update once the new bulksheet UI is GA -->
 
 Os valores de etiqueta enviados estão visíveis nas visualizações de entidade relevantes.
 

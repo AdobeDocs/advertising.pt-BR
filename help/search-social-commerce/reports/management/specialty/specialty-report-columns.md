@@ -3,9 +3,9 @@ title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 6080412a58466d8a87924b27ac038991a287b849
 workflow-type: tm+mt
-source-wordcount: '2922'
+source-wordcount: '3140'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ ht-degree: 0%
 | [!UICONTROL Advertiser] | O nome do anunciante. |
 | [!UICONTROL Advertiser ID] | A ID numérica da conta Search, Social, &amp; Commerce do anunciante. |
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] relatórios) A taxa de conversão como uma porcentagem. |
-| [!UICONTROL All Conversions] | ([!UICONTROL MSA Ad Extension] relatórios) O número de conversões. |
+| [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] e [!UICONTROL MSA Ad Extension] relatórios) O número total de conversões. Para o [!UICONTROL Google AI Max Search Term Combination Report], esse valor inclui ações de conversão que não estão incluídas na sua coluna principal de Conversões. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] relatórios) O número de conversões. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])O valor de todas as conversões. |
+| [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões dividido pelo custo total das interações do anúncio (como cliques ou visualizações de vídeo). |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) O custo por conversão. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total dividida por gasto, expressa como uma porcentagem. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) A receita por conversão. |
@@ -53,6 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Impression Share Percent] | A porcentagem estimada de impressões no [!DNL Microsoft Audience Network] dividida pelo total de impressões disponíveis que você poderia ter recebido. |
 | [!UICONTROL Audience Status] | O status do público. |
 | [!UICONTROL Average CPC] | O custo médio por clique. |
+| [!UICONTROL Average CPM] | O custo médio por mil (mil) impressões. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para campanhas de [!DNL Google Ads] e [!DNL Yahoo! Japan Ads], esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft Advertising], esses dados estarão disponíveis somente até 22 de janeiro de 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de correspondência associado à palavra-chave que foi licitada. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) O orçamento da campanha. |
@@ -68,15 +71,18 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) O número de impressões que você recebeu para anúncios na rede de exibição/público-alvo dividido pelo número estimado de impressões que você estava qualificado a receber. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) A porcentagem estimada de impressões que seus anúncios na rede de exibição/público-alvo não receberam porque seu orçamento diário ou mensal era muito baixo. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) A porcentagem estimada de impressões que seus anúncios na rede de exibição/público-alvo não foram exibidos devido a uma classificação de anúncios ruim. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
-| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) A soma dos custos por clique (CPC) e custo por mil impressões (CPM) durante o período especificado. |
 | [!UICONTROL Conversion Rate] | O número de conversões dividido pelo número total de cliques. |
 | [!UICONTROL Conversion Type] | O tipo de conversão definido pelo usuário que foi rastreado no site do anunciante. |
-| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] e [!UICONTROL Google Asset Group Performance] relatórios) O valor das conversões do período especificado. Para [!UICONTROL MSA Ad Extension], este é o número de cliques que resultaram em uma venda ou outra medida de sucesso. |
+| [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] e [!UICONTROL MSA Ad Extension] relatórios) O total de conversões do período especificado. Para o relatório [!UICONTROL MSA Ad Extension], este é o número de cliques que resultaram em uma venda ou outra medida de sucesso. Para o relatório [!UICONTROL Google AI Max Search Term Combination], esse é o número total de conversões das ações de conversão para as quais a opção &quot;Incluir em conversões&quot; está habilitada |
 | [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report]) O número de conversões de interações de anúncio dividido pelo número de interações de anúncio. Este valor considera somente as ações de conversão para as quais o atributo `include_in_conversions_metric` está definido como `true`. |
 | [!UICONTROL Conversions Qualified] | ([!UICONTROL MSA Ad Extension] relatórios) O número de conversões. |
+| [!UICONTROL Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões de ações de conversão para as quais &quot;Incluir em conversões&quot; está habilitado. |
+| [!UICONTROL Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões dividido pelo custo total das interações do anúncio (como cliques ou visualizações de vídeo). Inclui somente conversões de ações de conversão para as quais a opção &quot;Incluir em conversões&quot; está ativada. |
 | [!UICONTROL Cost] | O custo total de anúncios durante o intervalo de datas especificado. |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) A soma dos custos por clique (CPC) e custo por mil impressões (CPM) durante o período especificado. |
+| [!UICONTROL Cost Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) O custo das interações de anúncios dividido por todas as conversões. |
 | [!UICONTROL Cost Per Assist] | ([!UICONTROL MSA Ad Extension] relatórios) O custo total por assistência. |
-| [!UICONTROL Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) O custo total por conversão. |
+| [!UICONTROL Cost Per Conversion] | ([!UICONTROL Google AI Max Search Term Combination Report] e [!UICONTROL MSA Ad Extension] relatórios) O custo das interações de anúncios dividido por conversões. Para Google Ads, isso inclui apenas conversões de ações de conversão para as quais a opção &quot;Incluir em conversões&quot; está ativada. |
 | [!UICONTROL Country] | ([!UICONTROL AdWords Geo Report] e [!UICONTROL Bing Ads Geo Report]) Um país de onde os cliques se originaram. É determinado pelo endereço IP do usuário. |
 | [!UICONTROL CPC] | O custo por clique (CPC) para anúncios durante o intervalo de datas especificado. |
 | [!UICONTROL Creative Description 1], [!UICONTROL Creative Description 2] | A primeira e a segunda linhas do anúncio. |
@@ -85,6 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] relatórios) O status do anúncio. |
 | [!UICONTROL Creative Name] | (Relatório de Transações; somente [!DNL Yahoo! Japan]) O nome da imagem do anúncio. |
 | [!UICONTROL Creative Title] | O título ou título do anúncio. |
+| [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversões que resultam quando um usuário clica em e em um dispositivo e depois se converte em um dispositivo ou navegador diferente. As conversões entre dispositivos estão incluídas em Todas as conversões. |
 | [!UICONTROL CTR] | A taxa de cliques, que é o número de cliques dividido pelo número de impressões para os anúncios incluídos. |
 | [!UICONTROL Current Quality Score] | ([!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente) A pontuação de qualidade atual para a palavra-chave ou unidade de oferta, conforme designado pela rede de publicidade. Ele varia de 1 (baixo) a 10 (perfeito). Para uma única combinação de palavra-chave e tipo de correspondência, esse valor é a pontuação atual para essa combinação. Quando a mesma combinação de palavra-chave e tipo de correspondência é usada em várias campanhas, esse valor é a pontuação máxima atual entre todas as instâncias.<br><br>As redes de anúncios usam a pontuação de qualidade para determinar preços de compra e posição de anúncio. Ele é calculado de acordo com muitos fatores, incluindo a relevância da palavra-chave para seu anúncio associado e para a consulta de pesquisa do usuário e a qualidade da página inicial. Para palavras-chave em [!DNL Google Ads], a taxa de cliques da palavra-chave também é considerada, e para palavras-chave em [!DNL Microsoft Advertising], a experiência do usuário fornecida pela página de aterrissagem também é considerada. |
 | [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de correspondência que a rede de publicidade usou para entregar o anúncio. |
@@ -104,6 +111,8 @@ ht-degree: 0%
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] relatórios, [!UICONTROL MSA Network Performance Report]) O tipo de meta de conversão. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) O número de conversões online rastreadas por [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; descontinuado em 2016) O número de cliques que resultaram em uma ou mais conversões. |
+| [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report]) O primeiro título do anúncio. |
+| [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report]) O segundo título do anúncio. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] somente; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de suas impressões de anúncios que foram mostradas como o primeiro anúncio acima dos resultados da pesquisa orgânica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] somente; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de suas impressões de anúncios mostradas acima dos resultados da pesquisa orgânica. |
 | [!UICONTROL Impression Lost To Budget Percent] | A porcentagem de tempo estimada em que seus anúncios não foram exibidos porque o orçamento diário ou mensal era muito baixo. |
@@ -116,6 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O atributo de versão da extensão de anúncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O tipo de extensão de anúncio. |
 | [!UICONTROL Keyword Status] | O status da palavra-chave correspondente ao termo de pesquisa: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*ou[!UICONTROL Disapproved]*. |
+| [!UICONTROL Landing Page] | ([!UICONTROL Google AI Max Search Term Combination Report]) A página de aterrissagem do anúncio. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) O idioma de destino. |
 | [!UICONTROL Language and Region] | ([!UICONTROL Bing Ads Geo Report]) O idioma e mercado de destino do grupo de publicidade (como inglês-Reino Unido). |
 | [!UICONTROL Location] | ([!UICONTROL Campaign Daily Impression Share Report]) O local do público-alvo. |
@@ -167,7 +177,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (rank)] | ([!DNL Google Ads] somente; [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de tempo em que seus anúncios não foram exibidos devido a uma classificação de anúncio ruim. Porcentagens acima de 90% são indicadas como &quot;`>90%`&quot; ou &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost top IS (budget)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de tempo em que seus anúncios não foram mostrados acima dos resultados de pesquisa orgânica porque seu orçamento diário ou mensal era muito baixo. Para campanhas de [!DNL Google Ads], porcentagens acima de 90% são indicadas como &quot;`>90%`&quot; ou &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost top IS (rank)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]) A porcentagem de tempo em que seus anúncios não foram mostrados acima dos resultados da pesquisa orgânica por causa de uma classificação de anúncios ruim. Para campanhas de [!DNL Google Ads], porcentagens acima de 90% são indicadas como &quot;`>90%`&quot; ou &quot;`0.9001`&quot;. |
-| [!UICONTROL Search Term] | (Relatório de consulta de pesquisa do AdWords e Relatório de consulta de pesquisa do Bing Ads) Um termo de pesquisa de usuário do qual os cliques se originaram. |
+| [!UICONTROL Search Term] | ([!UICONTROL AdWords Search Query Report], [!UICONTROL Bing Ads Search Query Report] e [!UICONTROL Google AI Max Search Term Combination Report]) Um termo de pesquisa de usuário a partir do qual os cliques se originaram. |
 | [!UICONTROL Start Date] | O primeiro dia reportado. |
 | [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) O status do grupo de ativos. |
 | [!UICONTROL Store ID] | A ID da rede de anúncios que foi usada para o armazenamento do centro de comércio. |
@@ -182,6 +192,8 @@ ht-degree: 0%
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] relatórios) A posição de seu anúncio na página de resultados da pesquisa. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] relatórios) O número de cliques quando o elemento de anúncio estava presente na cópia de anúncio, quer tenha ou não sido clicado. |
 | [!UICONTROL User SE Account ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade. |
+| [!UICONTROL Value Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões dividido pelo número de todas as conversões. |
+| [!UICONTROL Value Per Conversion] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor das conversões dividido pelo número de conversões. Inclui somente conversões de ações de conversão para as quais a opção &quot;Incluir em conversões&quot; está ativada. |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]; anúncios na rede de público-alvo) O número de conversões que resultaram de uma ou mais impressões, mas sem cliques. |
 
 >[!MORELIKETHIS]

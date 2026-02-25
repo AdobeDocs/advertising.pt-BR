@@ -4,9 +4,9 @@ description: Saiba mais sobre portfólios.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Um portfólio pode ter os seguintes status:
 
 A exibição [!UICONTROL Portfolios] lista seus portfólios existentes, com dados de desempenho personalizáveis. Você pode [personalizar as colunas na exibição](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrar dados para incluir portfólios específicos [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou do [cabeçalho da coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
+Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado.
+
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
 ### Ações disponíveis
@@ -77,6 +79,8 @@ A exibição [!UICONTROL Portfolios] lista seus portfólios existentes, com dado
 * [Editar configurações do portfólio](portfolio-edit.md)
 
 * [Editar configurações de portfólio em massa usando arquivos de bulksheet](portfolio-bulksheets.md)
+
+* [Exibir um gráfico de desempenho em todos os portfólios na exibição](portfolio-view-performance-graph.md)
 
 * [Exibir detalhes de desempenho do portfólio](portfolio-details.md)
 

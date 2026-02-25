@@ -3,9 +3,9 @@ title: Remover dos componentes da conta os valores de classificação de etiquet
 description: Saiba como remover associações entre valores de classificação de etiquetas e componentes de conta.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ Remover um valor de classificação remove a associação com o componente de co
 >[!NOTE]
 >
 >Para excluir um valor de uma classificação de etiqueta, consulte &quot;[Excluir valores de classificação de etiquetas](classification-values-delete.md)&quot;.
+
+## (Nova interface do usuário) Remoção dos valores de classificação de etiquetas dos componentes da conta
+
+É possível remover valores de classificação de qualquer componente de conta aplicável que esteja disponível na nova interface.
+
+1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]**.
+
+1. Marque a caixa de seleção ao lado de cada linha relevante.
+
+   Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+
+1. Marque a caixa de seleção ao lado de cada valor de classificação a ser removido das entidades selecionadas.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Para selecionar todos os valores atribuídos, clique em **[!UICONTROL Select All]**. Para desmarcar todos os valores atribuídos, clique em **[!UICONTROL Deselect All]**.
+
+1. Clique em **[!UICONTROL Unassign Selected]**.
+
+## (Interface herdada) Remover valores de classificação de etiquetas dos componentes da conta
 
 1. Em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, selecione a exibição de entidade.
 

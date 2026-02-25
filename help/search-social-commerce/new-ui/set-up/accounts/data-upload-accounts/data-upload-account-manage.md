@@ -2,9 +2,10 @@
 title: Configurar contas de rede de publicidade para upload de dados
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 
    1. Na guia **[!UICONTROL Account Details]**, edite os detalhes da conta.
 
-   1. (Anunciantes com integração [[!DNL Adobe Analytics for Advertising]] (/help/integrations/analytics/overview.md)) Clique na guia **[!UICONTROL Set up Adobe Analytics]** e edite os conjuntos de relatórios [!DNL Analytics] para usar no rastreamento e na atividade de campanha de relatórios.
+   1. (Anunciantes com uma [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md)) Clique na guia **[!UICONTROL Set up Adobe Analytics]** e edite os conjuntos de relatórios [!DNL Analytics] para usar no rastreamento e na atividade de campanha de relatórios.
 
    1. (Opcional) Na guia **[!UICONTROL Upload File]**, carregue arquivos de dados da conta.
 

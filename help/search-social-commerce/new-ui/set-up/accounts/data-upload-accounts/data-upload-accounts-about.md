@@ -49,7 +49,7 @@ O rastreamento de cliques de Search, Social e Commerce e o rastreamento de conve
 
 Os dados devem seguir os requisitos de dados da rede de anúncios, de modo que os campos de dados de cada entidade possam variar de acordo com a rede de anúncios.
 
-1. <!-- For all ad networks (excluding DSP), -->Faça upload dos dados iniciais de uma única conta de uma das seguintes maneiras:
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Faça upload dos dados iniciais de uma única conta de uma das seguintes maneiras:
 
 * Faça upload manual de um arquivo do seu dispositivo ou rede.
 

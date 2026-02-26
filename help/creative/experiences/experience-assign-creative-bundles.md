@@ -3,9 +3,9 @@ title: Atribuir e cancelar atribuição de pacotes criativos a um nó final em u
 description: Saiba como atribuir elementos de criação a cada público-alvo em suas experiências de anúncio.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Para experiências de anúncio padrão, é possível atribuir somente pacotes cr
 
 1. Siga um destes procedimentos:
 
-   * (Nós finais sem criações) No nó, clique em ![Adicionar](/help/creative/assets/add.png "Adicionar") e selecione **[!UICONTROL Assign Bundles]**.
+   * (Nós finais sem criações) No nó, clique em **[!UICONTROL Assign Bundles]**.
 
-   * (Nós com criações existentes) Mantenha o cursor sobre a caixa do pacote criativo abaixo do nó de destino <!-- wording???? --> e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Nós com criações existentes) Mantenha o cursor sobre a caixa do pacote criativo abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Marque a caixa de seleção ao lado de cada pacote a ser atribuído ao nó de destino e desmarque a caixa de seleção ao lado de cada pacote a ser desatribuído.
 
    Somente os pacotes do tipo de pacote relevante para a experiência (padrão ou dinâmica) são listados.
 
-1. Clique em **[!UICONTROL Attach to Bundles]**.
-
-1. (Opcional) [Personalizar as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
+1. Clique em **[!UICONTROL Save]**.
 
 1. (Opcional) [Personalizar a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+
+1. (Opcional) [Personalizar as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

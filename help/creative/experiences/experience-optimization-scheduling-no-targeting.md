@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como configurar a otimização e o agendamento de anúncios para experiências sem direcionamento.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Creative Optimization]**.&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**.&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 
 1. Selecione o tipo de rotação criativa para variantes de anúncios nos pacotes associados:
 
-   * *[!UICONTROL Weighted]:* Mostra as variantes de anúncios nos pacotes criativos associados de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Os pesos de todos os pacotes selecionados devem somar até 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Mostra as variantes de anúncios nos pacotes criativos associados de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Para aplicar pesos iguais a todos os pacotes associados, clique em (![Aplicar peso igual](/help/creative/assets/apply-equal-weight.png "Aplicar peso igual")). Os pesos de todos os pacotes selecionados devem somar até 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* mostra as variantes de anúncios mais eficazes com mais frequência, com base em uma meta especificada.
 
@@ -66,7 +66,7 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Agendamento de anúncios](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
@@ -74,11 +74,11 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    1. Na coluna à esquerda, marque a caixa de seleção ao lado de cada criação a ser adicionada à primeira programação.
 
-   1. Especifique as datas de início e término do cronograma.
+   1. Especifique a data e hora de início e a data e hora de término para o cronograma.
 
    1. Selecione o tipo de rotação criativa:
 
-      * *[!UICONTROL Weighted]:* Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Os pesos de todas as criações selecionadas devem somar 100.
+      * *[!UICONTROL Weighted]:* Gira as criações manualmente de acordo com os pesos relativos. Insira o peso de cada criação como uma porcentagem. Para aplicar pesos iguais a todos os pacotes no agendamento, clique em (![Aplicar peso igual](/help/creative/assets/apply-equal-weight.png "Aplicar peso igual")). Os pesos de todas as criações selecionadas devem somar 100.
 
       * *[!UICONTROL Algorithmic]:* Gira as criações de forma algorítmica, de acordo com uma meta de otimização especificada.
 

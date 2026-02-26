@@ -173,7 +173,7 @@ ht-degree: 2%
       + Adicionar contas de rede {#ad-network-accounts}
          + [Sobre contas de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gerenciar contas de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Atualizar o código de rastreamento da ID do AMO para uma conta  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [Atualizar o código de rastreamento da ID do AMO para uma conta  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gerenciar contas do centro de comércio](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gerenciar campanhas {#management}
@@ -462,11 +462,11 @@ ht-degree: 2%
    + [Sincronizar [!DNL Adobe] audiências](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Configurando origens de dados {#data-sources}
       + [Sobre a sincronização de  [!DNL Google Analytics] métricas de conversão](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-      + [Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+      + [Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Configurar uma exibição [!DNL Google Analytics] como fonte de dados](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Editar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Editar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Pausar sincronização de uma fonte de dados](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-      + [Reautenticar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+      + [Reautenticar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [Configurações da fonte de dados [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Apêndice - Métricas [!DNL Google Analytics]  disponíveis](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Gerenciamento das métricas de conversão de um anunciante{#conversion-metrics}

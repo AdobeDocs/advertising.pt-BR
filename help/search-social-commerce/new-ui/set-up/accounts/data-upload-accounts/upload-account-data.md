@@ -1,7 +1,7 @@
 ---
 title: Carregar dados da conta offline para relatórios e simulações
 description: Saiba como carregar dados de conta offline manualmente ou em um bucket do  [!DNL Amazon] [!DNL S3] para suporte a relatórios e simulações. Os arquivos de log acompanham o progresso dos trabalhos de upload.
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Clique em **[!UICONTROL Save]**.
 
-&#x200B;# Carregar dados da conta para um bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+## Carregar dados da conta para um bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 É possível preencher uma conta com dados de conteúdo e custo da campanha, cliques e conversão carregando os dados em uma pasta atribuída pela Search, Social e Commerce em um bucket do [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 

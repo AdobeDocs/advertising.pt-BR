@@ -3,9 +3,9 @@ title: Configurações de criação dinâmicas
 description: Referencie as configurações de criações dinâmicas.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** A biblioteca criativa na qual criar os anúncios. Se você estiver criando os anúncios de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], o nome da biblioteca já está selecionado como somente leitura.
 
-**[!UICONTROL Ad Template Size]:** (somente anúncios de exibição dinâmicos) as [dimensões de anúncio](/help/creative/creative-libraries/creative-sizes.md) do modelo de anúncio a partir do qual o anúncio será criado. Se você selecionar um [!UICONTROL Ad Template] específico pela primeira vez, esse valor será selecionado automaticamente.
-
 ## Modelo de publicidade
 
 **[!UICONTROL Ad Template]:** O modelo de anúncio a partir do qual criar os anúncios. Selecione um modelo de anúncio existente ou carregue um novo modelo de anúncio e selecione o tipo de modelo (*Estático* ou *Dinâmico*). O modelo deve estar em formato ZIP e conter:<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Para continuar, clique em **[!UICONTROL Select Ad Template]**.
 
+**[!UICONTROL Size]:** (Somente anúncios de exibição dinâmicos; somente leitura) as [dimensões de anúncio](/help/creative/creative-libraries/creative-sizes.md) do modelo de anúncio selecionado, que são usadas para criar os anúncios.
+
 **[!UICONTROL Card Count (Max 50)]:** (Exibir somente anúncios) O número de produtos a serem exibidos em um carrossel.
 
 **[!UICONTROL Duration]:** (Somente anúncios de vídeo; somente leitura) A duração do vídeo derivada do modelo de anúncio selecionado. A duração de cada vídeo deve ser de 1 a 90 segundos.
 
 ## Catálogos
-
-**[!UICONTROL Template]:** O modelo de feed a ser usado para criar os anúncios.
 
 **\[Catálogos\]**: um ou mais catálogos a partir dos quais os anúncios serão gerados. Selecione um catálogo existente ou crie um novo catálogo baixando um modelo de feed existente e criando e carregando o novo catálogo. Clique em **[!UICONTROL Select Catalog]**.
 

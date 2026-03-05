@@ -3,9 +3,9 @@ title: Gerenciar atribuições de restrição para palavras-chave
 description: Saiba como atribuir restrições a palavras-chave.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,4 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)

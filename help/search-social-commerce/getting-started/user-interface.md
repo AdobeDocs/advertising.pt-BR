@@ -3,9 +3,9 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
      Para criar, editar e excluir palavras-chave e palavras-chave negativas, use as visualizações [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdadas. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Placements]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Placements]** Abre uma nova visualização [!UICONTROL Placements], que mostra posicionamentos existentes e posicionamentos negativos para o anunciante. Você pode gerenciar atribuições de restrição para disposições selecionadas.
+
+     Para criar, editar e excluir disposições e disposições negativas, use as [!UICONTROL Campaigns] > [!UICONTROL Campaigns] exibições herdadas. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenu **[!UICONTROL Assets]**:
 

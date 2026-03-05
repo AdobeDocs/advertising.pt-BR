@@ -1,17 +1,16 @@
 ---
-title: Gerenciar atribuições de restrição para grupos de anúncios
-description: Saiba como atribuir restrições a grupos de anúncios.
+title: Gerenciar atribuições de restrição para anúncios
+description: Saiba como atribuir restrições a anúncios.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
-# (Nova interface) Gerenciar atribuições de restrições para grupos de anúncios
+# (Nova interface) Gerenciar atribuições de restrição para anúncios
 
 *recurso do Beta*
 
@@ -21,11 +20,18 @@ As restrições são herdadas por entidades filhas, portanto, não é necessári
 
 Desfazer a atribuição de uma restrição remove a associação com os componentes da conta e todos os seus componentes filhos, e os dados do relatório para a restrição não estão mais disponíveis para esses componentes. Desatribuir uma restrição não exclui a restrição nem os próprios componentes da conta.
 
-## Atribuir uma restrição aos grupos de anúncios selecionados da nova exibição [!UICONTROL Ad Groups]
+>[!NOTE]
+>
+>* Posteriormente, se você editar uma palavra-chave ou a cópia de um anúncio — criando assim uma nova palavra-chave ou anúncio — a restrição não será atribuída à nova entidade.
+>* As restrições ativas restringem os lances somente para unidades de lance atribuídas em portfólios de nível de palavra-chave herdada otimizados. Elas são ignoradas para unidades de oferta que estão em portfólios ativos, estão em portfólios híbridos ou não estão em portfólios.
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Atribuir uma restrição aos anúncios selecionados da nova exibição [!UICONTROL Ads]
 
-1. Marque a caixa de seleção ao lado de cada grupo de publicidade ao qual você atribuirá uma única restrição.
+Você pode atribuir uma única restrição a uma ou mais campanhas.
+
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
+
+1. Marque a caixa de seleção ao lado de cada anúncio ao qual você atribuirá uma única restrição.
 
 1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -53,11 +59,11 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Desatribuir restrições dos grupos de anúncios selecionados da nova visualização [!UICONTROL Ad Groups]
+## Desatribuir restrições de campanhas selecionadas da nova visualização [!UICONTROL Ads]
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Marque a caixa de seleção ao lado de cada grupo de publicidade do qual você cancelará a atribuição de restrições.
+1. Marque a caixa de seleção ao lado de cada anúncio do qual você cancelará a atribuição de restrições.
 
 1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -82,4 +88,4 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 >[!MORELIKETHIS]
 >
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)

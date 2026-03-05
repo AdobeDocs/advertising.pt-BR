@@ -4,9 +4,9 @@ description: Saiba mais sobre portfólios.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Um portfólio pode ter os seguintes status:
 
 ## A visualização [!UICONTROL Portfolios]
 
-A exibição [!UICONTROL Portfolios] lista seus portfólios existentes, com dados de desempenho personalizáveis. Você pode [personalizar as colunas na exibição](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrar dados para incluir portfólios específicos [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou do [cabeçalho da coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+A exibição [!UICONTROL Portfolios] lista todos os portfólios existentes na exibição filtrada, com dados de desempenho personalizáveis. Você pode [personalizar as colunas na exibição](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrar dados para incluir portfólios específicos [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou do [cabeçalho da coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado.
 

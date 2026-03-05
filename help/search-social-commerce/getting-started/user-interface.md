@@ -3,9 +3,9 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
 * Submenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada.
+   * **[!UICONTROL Audience]**: Abre uma nova visualização [!UICONTROL Audiences], que mostra todos os públicos existentes para o anunciante. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Keywords]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Keywords]** Abre uma nova visualização [!UICONTROL Keywords], que mostra palavras-chave existentes e palavras-chave negativas para o anunciante. Você pode gerenciar atribuições de restrição para palavras-chave selecionadas.
+
+     Para criar, editar e excluir palavras-chave e palavras-chave negativas, use as visualizações [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdadas. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Placements]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
 

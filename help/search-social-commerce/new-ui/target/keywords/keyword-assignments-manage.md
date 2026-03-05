@@ -1,17 +1,16 @@
 ---
-title: Gerenciar atribuições de restrição para anúncios
-description: Saiba como atribuir restrições a anúncios.
+title: Gerenciar atribuições de restrição para palavras-chave
+description: Saiba como atribuir restrições a palavras-chave.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: 9755abb2-a62f-4292-a6b4-314b49de3edd
-source-git-commit: aed5f6db36b1aab4d7b4f7d40812a361f0363440
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# (Nova interface) Gerenciar atribuições de restrição para anúncios
+# (Nova interface de usuário) Gerenciar atribuições de restrição para palavras-chave
 
 *recurso do Beta*
 
@@ -26,13 +25,13 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 >* Posteriormente, se você editar uma palavra-chave ou a cópia de um anúncio — criando assim uma nova palavra-chave ou anúncio — a restrição não será atribuída à nova entidade.
 >* As restrições ativas restringem os lances somente para unidades de lance atribuídas em portfólios de nível de palavra-chave herdada otimizados. Elas são ignoradas para unidades de oferta que estão em portfólios ativos, estão em portfólios híbridos ou não estão em portfólios.
 
-## Atribuir uma restrição aos anúncios selecionados da nova exibição [!UICONTROL Ads]
+## Atribuir uma restrição aos anúncios selecionados da nova exibição [!UICONTROL Keywords]
 
 Você pode atribuir uma única restrição a uma ou mais campanhas.
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
+1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 
-1. Marque a caixa de seleção ao lado de cada anúncio ao qual você atribuirá uma única restrição.
+1. Na guia **[!UICONTROL Keywords]**, marque a caixa de seleção ao lado de cada palavra-chave à qual você atribuirá uma única restrição.
 
 1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -62,9 +61,9 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 
 ## Desatribuir restrições de campanhas selecionadas da nova visualização [!UICONTROL Ads]
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
+1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 
-1. Marque a caixa de seleção ao lado de cada anúncio do qual você cancelará a atribuição de restrições.
+1. Na guia **[!UICONTROL Keywords]**, marque a caixa de seleção ao lado de cada palavra-chave da qual você cancelará a atribuição de restrições.
 
 1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -90,4 +89,4 @@ Você pode atribuir uma única restrição a uma ou mais campanhas.
 >
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-[Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)

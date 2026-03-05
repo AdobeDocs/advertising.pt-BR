@@ -3,9 +3,9 @@ title: Como a interface do usuário é organizada
 description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Sai do novo site e abre a visualização [!UICONTROL Admin] > [!UICONTROL Conversions] herdada.
 
-   * **[!UICONTROL Conversion Value Rules]** Abre exibições somente leitura das regras de valor de conversão no nível da campanha e da conta. Para gerenciar suas regras de valor de conversão, use a visualização [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] herdada.
+   * **[!UICONTROL Conversion Value Rules]** Abre exibições somente leitura das regras de valor de conversão no nível da campanha e da conta. Para gerenciar suas regras de valor de conversão, use a visualização [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Constraints]** Sai do novo site e abre a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada.
 
@@ -62,13 +62,15 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para criar, editar e excluir campanhas, retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Abre uma nova exibição [!UICONTROL Ad Groups], que mostra todos os grupos de anúncios do anunciante. Você pode gerenciar atribuições de restrição para grupos de anúncios selecionados. Você também pode baixar um relatório do conteúdo da tabela de dados.
 
-     Para criar, editar e excluir campanhas, retorne à interface herdada clicando em **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** no menu principal ou no botão [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para criar, editar e excluir campanhas, retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Ads]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Ads]** Abre uma nova visualização [!UICONTROL Ads], que mostra todos os anúncios para o anunciante. É possível gerenciar atribuições de restrição para anúncios selecionados.
+
+     Para criar, editar e excluir anúncios, retorne à interface do usuário herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenu **[!UICONTROL Reports]**:
 
@@ -94,7 +96,7 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Creatives]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
 
-   * **[!UICONTROL Extensions]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Extensions]** Abre exibições somente leitura de suas extensões de anúncios existentes. Para gerenciar suas extensões, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Shopping]** Sai do novo site e abre a exibição [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.<!-- Should this go to Campaigns > Products? -->
 

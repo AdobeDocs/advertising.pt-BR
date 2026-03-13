@@ -3,9 +3,9 @@ title: Duplicar criações
 description: Saiba como duplicar criativos em uma biblioteca criativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ Duplique criações para adicionar novas criações com as mesmas configuraçõe
 >* [Adicionar criações padrão a uma biblioteca criativa](creative-add-standard.md)
 >* [Editar criações padrão](creative-edit-standard.md)
 >* [Configurações de criação padrão](creative-settings-standard.md)
+>* [Exibir o log de alterações para um criativo](/help/creative/creative-libraries/creative-view-change-log.md)

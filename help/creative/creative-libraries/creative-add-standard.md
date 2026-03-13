@@ -3,9 +3,9 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ Adicione criações padrão às suas [bibliotecas de criação](creative-library
 
 >[!NOTE]
 >
-> Você pode incluir criações individuais diretamente em experiências de anúncio que não têm metas de usuário definidas. Você também pode agrupar seus criadores em [pacotes](bundle-manage.md), que podem ser incluídos em experiências de anúncios direcionados.
+> Você pode incluir criações individuais diretamente em experiências de anúncio que não têm metas de usuário definidas. Você também pode agrupar seus criativos em [pacotes](bundle-manage.md), que podem ser incluídos em experiências de anúncios direcionados.
 
-## Adicionar anúncios flexíveis do HTML a uma biblioteca criativa {#flexible-creative-add}
+## Adicionar anúncios de HTML flexíveis a uma biblioteca de criação {#flexible-creative-add}
 
-Você pode executar um dos seguintes procedimentos:
+É possível fazer o seguinte:
 
-* Fazer upload de seus próprios criativos flexíveis em arquivos ZIP.
+* Faça upload de seus próprios criativos flexíveis em arquivos ZIP.
 
 * Use qualquer um dos modelos de criação flexíveis predefinidos carregados em sua conta como ponto de partida para sua própria criação flexível.
 
-### Fazer upload de suas próprias criações flexíveis {#flexible-creative-upload}
+### Faça upload de suas próprias criações flexíveis {#flexible-creative-upload}
 
 Você pode fazer upload de várias unidades criativas flexíveis. As criações flexíveis devem estar no formato ZIP e podem ter até 2 MB. Para conhecer os requisitos do arquivo, consulte a [especificação criativa do HTML5](html5-creative-specification.md).
 
@@ -62,7 +62,7 @@ Você pode fazer upload de várias unidades criativas flexíveis. As criações 
 
 ### Adicionar criações flexíveis usando um modelo {#flexible-creative-use-template}
 
-Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo] (flexible-creative-upload).>
+Você pode usar qualquer um dos modelos criativos flexíveis carregados em sua conta para criar anúncios de um tamanho predefinido. Após selecionar um modelo a ser usado, você editará as tags e os atributos de clique.&lt;!— Substitua a última frase por esta se adicionarmos o recurso de download do modelo de volta: Você pode a\) selecionar um modelo para usar e editar as tags e os atributos de clique; ou b\) [baixar um modelo como um arquivo ZIP](#download-flexible-creative-template), editar o conteúdo offline para criar seu próprio criativo e [carregar o arquivo editado como um novo criativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,9 +78,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Clique em **[!UICONTROL Browse System Flexible Templates]**.
 
-1. (Opcional) Para visualizar o modelo, clique em **[!UICONTROL ...]** ao lado do nome do modelo e em **[!UICONTROL Preview]**.
+1. (Opcional) Para visualizar o modelo, clique em **[!UICONTROL ...]** ao lado do nome do modelo e, em seguida, clique em **[!UICONTROL Preview]**.
 
-   Opcionalmente, é possível baixar o modelo: clique em **[!UICONTROL ...]**, ao lado do nome do modelo, e clique em **[!UICONTROL Download]**.
+   Você também pode baixar o modelo: clique em **[!UICONTROL ...]** ao lado do nome do modelo e, em seguida, clique em **[!UICONTROL Download]**.
 
 1. Ao lado do nome do modelo, clique em **[!UICONTROL ...]** e depois em **[!UICONTROL Use Selected]**.
 
@@ -102,9 +102,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 As criações de exibição padrão incluem criações de imagem e HTML5, incluindo criações importadas da Adobe Experience Manager e do Adobe GenStudio for Performance Marketing.
 
-* As criações de imagem podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+* Os criativos de imagens podem estar no formato GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é de 2 (dois) MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
-* Você pode adicionar vários ativos do Experience Manager, várias experiências do GenStudio ou várias criações locais do HTML5 de um único tipo (simples ou estático) de cada vez. Para criações do HTML5, consulte a [especificação de anúncios do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
+* Você pode adicionar vários ativos de Experience Manager, várias experiências do GenStudio ou várias criativas de HTML 5 locais de um único tipo (simples ou estático) por vez. Para criações do HTML5, consulte a [especificação de anúncios do HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -112,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->Você também pode [adicionar criações flexíveis do HTML5](#flexible-creative-add), que são criativas do HTML5 com todos os seus atributos como tags padrão do HTML que você pode editar diretamente no [!DNL Creative].
+>Você também pode [adicionar criativos de HTML5 flexíveis](#flexible-creative-add), que são criativos de HTML com todos os seus atributos como tags de HTML padrão que você pode editar diretamente em [!DNL Creative].
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -142,13 +142,13 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Clique em **[!UICONTROL GenStudio Library]**.
 
-      1. (Se você ainda não estiver conectado à sua conta da GenStudio) Faça logon na sua conta da GenStudio.
+      1. (Se você ainda não estiver conectado à sua conta GenStudio) Faça logon na sua conta GenStudio.
 
-         Suas experiências de anúncio de exibição são exibidas por padrão. Opcionalmente, filtre suas experiências por campanha ou outros atributos, conforme necessário.
+         Suas experiências com anúncios de exibição são exibidas por padrão. Opcionalmente, filtre suas experiências por campanha ou outros atributos conforme necessário.
 
-      1. Localize e selecione as experiências de anúncio de exibição e clique em **[!UICONTROL Select]** no canto superior direito.
+      1. Localize e selecione a exibição e experiências e clique em **[!UICONTROL Select]** no canto superior direito.
 
-     Cada variante criativa em uma experiência selecionada será importada como uma criação separada do HTML5.
+     Cada variante criativa em uma experiência selecionada será importada como uma criativa HTML5 separada.
 
 1. Adicionar ou remover criações:
 
@@ -196,14 +196,15 @@ Consulte as [especificações de criação de vídeo](/help/creative/creative-li
 
 1. Especifique as [configurações de criação de vídeo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
 
-   Por padrão, o criativo que você acabou de carregar está selecionado e todas as configurações especificadas se aplicam ao criativo selecionado.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
+   Por padrão, a criação que você acabou de enviar está selecionada, e todas as configurações especificadas se aplicam à criação selecionada.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. Clique em **[!UICONTROL Create]**
 
 >[!MORELIKETHIS]
 >
->* [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Editar criativos padrão](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Exibir o log de alterações para um criativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 >* [Tamanhos de criativo com suporte](/help/creative/creative-libraries/creative-sizes.md)
 >* [Visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)

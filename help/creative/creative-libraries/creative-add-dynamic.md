@@ -3,9 +3,9 @@ title: Adicionar criações dinâmicas a uma biblioteca criativa
 description: Saiba como adicionar criações dinâmicas a uma biblioteca criativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -110,4 +110,5 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 >
 >* [Configurações dinâmicas de criação](creative-settings-dynamic.md)
 >* [Editar um criativo dinâmico em uma biblioteca criativa](creative-edit-dynamic.md)
+>* [Exibir o log de alterações para um criativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)

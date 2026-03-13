@@ -3,9 +3,9 @@ title: Baixar criações
 description: Saiba como baixar um arquivo criativo como ZIP.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ Baixe todos os elementos de criação selecionados em um arquivo no formato ZIP 
 >
 >* [Adicionar criações padrão a uma biblioteca criativa](creative-add-standard.md)
 >* [Visualizar um criativo](creative-preview.md)
+>* [Exibir o log de alterações para um criativo](/help/creative/creative-libraries/creative-view-change-log.md)

@@ -3,9 +3,9 @@ title: Baixar dados da exibição [!UICONTROL Experiences]
 description: Saiba como exportar metadados da exibição [!UICONTROL Experiences].
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ Cada linha no arquivo inclui detalhes sobre uma experiência, incluindo: o nome 
 
 >[!MORELIKETHIS]
 >* [Sobre experiências no Advertising Creative](/help/creative/experiences/experience-about.md)
+>* [Exibir o log de alterações para uma experiência](/help/creative/experiences/experience-view-change-log.md)

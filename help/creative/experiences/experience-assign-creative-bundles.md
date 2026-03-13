@@ -3,9 +3,9 @@ title: Atribuir e cancelar atribuição de pacotes criativos a um nó final em u
 description: Saiba como atribuir elementos de criação a cada público-alvo em suas experiências de anúncio.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Editar uma experiência com direcionamento de árvore de decisão](experience-edit-targeting.md)
 >* [Configurações de experiência direcionadas](experience-settings-targeting.md)
 >* [Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](experience-tag-export.md)
+>* [Exibir o log de alterações para uma experiência](/help/creative/experiences/experience-view-change-log.md)

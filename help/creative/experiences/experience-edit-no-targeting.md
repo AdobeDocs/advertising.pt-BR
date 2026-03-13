@@ -3,9 +3,9 @@ title: Editar uma experiência sem direcionamento de árvore de decisão
 description: Saiba como editar as configurações de uma experiência de anúncio sem direcionamento.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Personalize a otimização criativa e o agendamento de uma experiência sem direcionamento](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](/help/creative/experiences/experience-tag-export.md)
 >* [Criar uma experiência sem definição de metas da árvore de decisão](experience-create-no-targeting.md)
+>* [Exibir o log de alterações para uma experiência](/help/creative/experiences/experience-view-change-log.md)

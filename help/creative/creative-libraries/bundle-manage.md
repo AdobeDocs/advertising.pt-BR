@@ -3,9 +3,9 @@ title: Gerenciar pacotes criativos
 description: Saiba como gerenciar e usar grupos de criadores.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Pacotes são grupos de criadores que podem ser adicionados a uma experiência co
 
 [!DNL Creative] gira pelas criações no pacote conforme especificado para cada experiência à qual o pacote é atribuído. Você pode permitir que o [!DNL Creative] otimize os elementos de anúncios para qualquer experiência com base no desempenho usando a rotação de anúncios algorítmica, que é viabilizada pelo [!DNL Adobe AI].
 
-Para habilitar a otimização de elementos de anúncio em pacotes em uma experiência de anúncio, cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\]. Por exemplo, se um pacote incluir um criativo de 250x250 com um idioma padrão de &quot;Francês&quot;, você não poderá adicionar um segundo criativo de 250x250 com um idioma padrão de &quot;Francês&quot;. Se você tiver vários elementos de criação do mesmo tamanho no mesmo idioma, adicione-os separadamente à experiência.
+Para habilitar a otimização de elementos de anúncio em pacotes em uma experiência de anúncio, cada pacote pode incluir apenas uma de cada combinação \[creative size ou duration + language\]. Por exemplo, se um pacote incluir um criativo de 250x250 com um idioma padrão de &quot;Francês&quot;, você não poderá adicionar um segundo criativo de 250x250 com um idioma padrão de &quot;Francês&quot;. Se você tiver vários criativos do mesmo tamanho no mesmo idioma, adicione-os separadamente à experiência.
 
-As criações anexadas aos pacotes ainda estão disponíveis como criações individuais. É possível adicionar um único criativo a vários pacotes. Se você editar qualquer configuração de um criativo que está anexado a um pacote, as alterações serão propagadas para o pacote. No entanto, qualquer página de aterrissagem personalizada, tag de rastreamento de impressão e tag de rastreamento de cliques configuradas para o criativo em uma experiência são sempre usadas para a experiência.
+As criações anexadas aos pacotes ainda estão disponíveis como criações individuais. É possível adicionar uma única criação a vários pacotes. Se você editar qualquer configuração de um criativo que está anexado a um pacote, as alterações serão propagadas para o pacote. No entanto, qualquer página de aterrissagem personalizada, tag de rastreamento de impressão e tag de rastreamento de cliques configuradas para o criativo em uma experiência são sempre usadas para a experiência.
 
 <!-- multiselect only to duplicate and delete -->
 
@@ -36,9 +36,9 @@ Você pode anexar um criativo a vários pacotes.
 
 1. Clique na guia **[!UICONTROL Bundles]**.
 
-1. Na parte superior direita, clique em **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
+1. No canto superior direito, clique em **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Insira um **[!UICONTROL Bundle Name]** exclusivo e o **[!UICONTROL Bundle Type]:** *Vídeo Padrão* (para criações de vídeo padrão), *Vídeo Dinâmico* (para criações de vídeo dinâmico), *Vídeo Padrão* (para criações de vídeo padrão) ou *Dynamic Video* (para criações de vídeo dinâmico).
+1. Insira um **[!UICONTROL Bundle Name]** exclusivo e o **[!UICONTROL Bundle Type]:** *Vídeo padrão* (para criativos de exibição padrão), *Vídeo dinâmico* (para criativos de exibição dinâmica), *Vídeo padrão* (para criativos de vídeo padrão) ou *Vídeo dinâmico* (para criativos de vídeo dinâmico).
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -124,7 +124,7 @@ Você pode anexar criações de vídeo padrão existentes a um pacote de vídeo 
 
    * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Attach Creatives]**.
 
-   Cada criativo qualificado para o tipo de pacote está listado no quadro correto. As criações que já estão anexadas ao pacote são listadas, mas não podem ser selecionadas.
+   Cada criativo qualificado para o tipo de pacote está listado no quadro correto. Os criativos que já estão anexados ao pacote são listados, mas não selecionáveis.
 
 1. (Opcional) Alterne entre a exibição de tabela padrão e uma exibição de cartão dos pacotes disponíveis clicando em ![Exibição de cartão](/help/creative/assets/card-view-button.png "Exibição de cartão") para abrir a exibição de cartão ou ![Exibição em tabela/lista](/help/creative/assets/table-view-button.png "Visualização em tabela") para retornar à exibição de tabela.
 
@@ -148,15 +148,15 @@ Você pode anexar criações de vídeo padrão existentes a um pacote de vídeo 
 
 1. Clique em **[!UICONTROL Attach Creatives to Bundle]**.
 
-## Desanexar criações de um pacote {#bundle-detach-creatives}
+## Destacar criativos de um pacote {#bundle-detach-creatives}
 
-Desconectar um criativo de um pacote remove a associação entre os dois, para que o criativo não seja mais usado para experiências que direcionam o pacote.
+Desanexar um criativo de um pacote remove a associação entre os dois, de modo que o criativo não é mais usado para experiências direcionadas ao pacote.
 
-Desanexar um criativo do pacote não exclui o criativo da guia Criativos na biblioteca criativa.
+Desanexar um criativo do pacote não exclui o criativo da guia Criativos na sua biblioteca de criação.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+1. (Opcional) [Personalize o modo de exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
 1. Clique no nome da biblioteca.
 
@@ -270,9 +270,31 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
  -->
 
+## Exibir o log de alterações de um pacote
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Clique no nome da biblioteca.
+
+1. Clique na guia **[!UICONTROL Bundles]**.
+
+1. Selecione o pacote:
+
+   * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do lote e, em seguida, clique em **[!UICONTROL Change Log]**.
+
+   * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
+
+1. (Opcional) Altere o intervalo de tempo reportado.
+
+1. (Opcional) Para adicionar uma observação, mantenha o cursor sobre a linha e clique em **[!UICONTROL Add Notes]**. Insira a observação e clique em **[!UICONTROL Save]**.
+
+1. (Opcional) Para exibir a entrada do log de alterações, incluindo quaisquer notas adicionadas, mantenha o cursor sobre a linha e clique em **[!UICONTROL View Details]**.
+
 ## Excluir pacotes
 
-Você pode excluir pacotes que não estão atribuídos a uma experiência [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Se um pacote for atribuído a uma experiência ao vivo, [remova o pacote da árvore decisória](/help/creative/experiences/experience-target-node-delete.md) para a experiência antes de continuar.
+Você pode excluir pacotes que não estão atribuídos a uma experiência do [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Se um pacote for atribuído a uma experiência em tempo real, [remova o pacote da árvore de decisão](/help/creative/experiences/experience-target-node-delete.md) da experiência antes de continuar.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -286,11 +308,11 @@ Você pode excluir pacotes que não estão atribuídos a uma experiência [live]
 
    * Para excluir um único pacote:
 
-      * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Delete]**.
+      * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do lote e, em seguida, clique em **[!UICONTROL Delete]**.
 
-      * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
+      * Na exibição da tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
 
-   * Para excluir um ou mais pacotes, marque a caixa de seleção para cada pacote que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete].**
+   * Para excluir um ou mais pacotes, marque a caixa de seleção de cada pacote que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete].**
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
 

@@ -3,9 +3,9 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -95,3 +95,4 @@ Para experiências de anúncio de vídeo, os recursos de criação de vídeo sã
 >* [Personalizar otimização criativa e agendamento](experience-optimization-scheduling-targeting.md)
 >* [Exportar e implementar uma marca de experiência de anúncio para uma experiência ao vivo](/help/creative/experiences/experience-tag-export.md)
 >* [Editar uma experiência com direcionamento de árvore de decisão](experience-edit-targeting.md)
+>* [Exibir o log de alterações para uma experiência](/help/creative/experiences/experience-view-change-log.md)

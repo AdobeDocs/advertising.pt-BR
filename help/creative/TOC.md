@@ -3,10 +3,10 @@ role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia do Criative
-source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 6%
+source-wordcount: '392'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Sobre o Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
    + [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+   + [Suporte para a Privacidade do Consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Bibliotecas do Creative {#creative-libraries}
    + [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md)
@@ -39,6 +39,7 @@ ht-degree: 6%
       + [Anexar criações a pacotes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicar criações](/help/creative/creative-libraries/creative-duplicate.md)
       + [Baixar criações](/help/creative/creative-libraries/creative-download.md)
+      + [Exibir o log de alterações de um criativo](/help/creative/creative-libraries/creative-view-change-log.md)
       + [Excluir criações](/help/creative/creative-libraries/creative-delete.md)
    + Pacotes Creative {#bundles}
       + [Gerenciar pacotes criativos](/help/creative/creative-libraries/bundle-manage.md)
@@ -76,6 +77,7 @@ ht-degree: 6%
    + [Compartilhar um URL de demonstração para uma experiência](/help/creative/experiences/experience-share-demo-url.md)
    + [Baixar dados da exibição [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Renomear uma tag de publicidade](/help/creative/experiences/experience-tag-rename.md)
+   + [Exibir o log de alterações de uma experiência](/help/creative/experiences/experience-view-change-log.md)
    + [Excluir uma experiência](/help/creative/experiences/experience-delete.md)
 + Feeds {#feeds}
    + [Gerenciar arquivos de ativos](/help/creative/feeds/asset-manage.md)
@@ -93,4 +95,4 @@ ht-degree: 6%
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 + [Obter ajuda](/help/creative/get-help.md)
-+ [notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target="_blank"}
++ [notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

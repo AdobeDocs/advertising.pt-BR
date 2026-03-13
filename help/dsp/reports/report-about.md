@@ -3,22 +3,22 @@ title: Sobre Relatórios Personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
+source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # Sobre Relatórios Personalizados
 
-Relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados de relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou geografia) e as métricas mais importantes para você. Você pode:
+Os relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados do relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou locais) e as métricas que mais importam para você. Você pode:
 
-* Configure completamente relatórios de desempenho de campanha em nível detalhado.
+* Configurar completamente relatórios de desempenho de campanha em um nível granular.
 
-* Escolha entre modelos de relatório pré-configurados e, como opção, personalize-os ainda mais.
+* Escolha um dos modelos de relatório pré-configurados e, opcionalmente, personalize-os ainda mais.
 
-Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou mensalmente às 03:00 no fuso horário especificado, de acordo com os critérios especificados (como a cada 15 dias ou no primeiro dia de cada mês). Depois que um relatório é gerado, você pode baixá-lo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou dos [destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
+Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou mensalmente às 03:00 no fuso horário especificado, de acordo com os critérios especificados (como a cada 15 dias ou no primeiro dia de cada mês). Depois que um relatório for gerado, você poderá baixá-lo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] ou de [destinos de relatório](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados dos seguintes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -35,7 +35,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
 * Modelos de relatório pré-configurados
 
-   * **[!UICONTROL All-in Cost BETA]**: (anunciantes somente com Advertising Creative e Advertising DSP; recurso beta) Use este relatório para ver quanto o Advertising DSP gastou foi atribuído à veiculação de anúncios do Adobe Creative. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio.
+   * **[!UICONTROL All-in Cost]**: (anunciantes somente com o Advertising Creative e o Advertising DSP) Use este relatório para ver quanto o Advertising DSP gastou foi atribuído à veiculação de anúncios do Adobe Creative. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio.
 
    * **[!UICONTROL Billing]:** use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
@@ -59,12 +59,12 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
      >* A frequência é estimada com base em uma amostra de dados.
      >* Para alguns inventários, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência. Este relatório inclui somente impressões para as quais um identificador de dispositivo estava disponível.
 
-   * **[!UICONTROL Frequency (by App/Site)]:** Use este relatório para entender quantos usuários únicos seus anúncios atingiram por aplicativo ou por site. Você também pode ver quantos usuários únicos seus anúncios atingiram por meio de apenas um aplicativo ou site específico (&quot;usuários únicos distintos&quot;).
+   * **[!UICONTROL Frequency (by App/Site)]:** Use este relatório para entender quantos usuários exclusivos seus anúncios foram acessados por aplicativo ou por site. Você também pode ver quantos usuários exclusivos seus anúncios atingiram apenas por meio de um aplicativo ou site específico (”usuários exclusivos distintos”).
 
      >[!NOTE]
      >
-     >* Os dados estarão disponíveis após 15 de novembro de 2018.
-     >* Para alguns inventários privados, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência.
+     >* Os dados estão disponíveis após 15 de novembro de 2018.
+     >* Para alguns inventários privados, os editores não transmitem um identificador de dispositivo, o que impede o controle de frequência.
 
    * **[!UICONTROL Geo]**: use este modelo pré-preenchido para ver as métricas principais por dimensões geográficas.
 
@@ -72,7 +72,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
    * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre Relatórios do Agregado Doméstico](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+   * **[!UICONTROL Margin]:** Use este relatório para ver as principais métricas, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
    * **[!UICONTROL Path to Conversion]:** use este relatório para identificar como otimizar orçamentos e personalizar anúncios com base em sequências de interação de anúncios de melhor desempenho. O relatório mostra a sequência de pontos de interação na mesma família que resultam em cada uma das métricas de conversão selecionadas no intervalo de dados especificado. O relatório usa um período de lookback especificado entre a primeira interação e uma conversão e pode incluir uma dimensão:
 
@@ -86,9 +86,9 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      As colunas no relatório incluem de &quot;[!UICONTROL Event #1]&quot; a &quot;[!UICONTROL Event #10],&quot;[!UICONTROL Path Length],&quot; &quot;% \&lt;Nome da Métrica de Conversão 1\>,&quot; &quot;% \&lt;Nome da Métrica de Conversão 2\>&quot; e assim por diante.
 
-     Até os 10 pontos de interação mais recentes são incluídos. As linhas de caminho são ordenadas pelo número de conversões.
+     Até os 10 pontos de interação mais recentes estão incluídos. As linhas de caminho são ordenadas pelo número de conversões.
 
-     Para uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e o Adobe Analytics, consulte &quot;[Perguntas frequentes sobre Relatórios Personalizados](/help/dsp/reports/faq-reports.md).&quot;
+     Para obter uma comparação deste relatório com relatórios criados por [!DNL Advanced Measurement Services] e pelo Adobe Analytic, consulte “[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md).”
 
    * **[!UICONTROL Path Length]:** use este relatório para rastrear o número de pontos de interação do usuário necessários para conversões ao longo do tempo, para que você possa escolher a frequência de anúncio ideal. O relatório mostra o número de conversões por comprimento de caminho (pontos de interação), por exemplo, quantas conversões ocorreram depois que os usuários tinham apenas uma interação de anúncio, duas interações de anúncio e assim por diante. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante.
 
@@ -98,18 +98,18 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
      >[!NOTE]
      >
-     >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos direcionados, este relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
+     >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos de destino, esse relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
      >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis a partir de 1 de junho de 2018.
 
    * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
 
-   * **[!UICONTROL Time to Conversion]:** Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados de várias métricas de conversão e usa um período de pesquisa especificado entre a primeira interação e uma conversão. As colunas no relatório incluem &quot;[!UICONTROL Time Taken (in days)],&quot; &quot;[!UICONTROL Number of] \&lt;Nome da métrica de conversão 1\>,&quot; &quot;% \&lt;Nome da métrica de conversão 1\>,&quot; \&lt;Nome da métrica de conversão 2\>,&quot; &quot;% \&lt;Nome da métrica de conversão 2\>&quot; e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer são agrupadas em uma linha com o valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion]:** Use este relatório para determinar a janela de retrospectiva de atribuição ideal e identificar campanhas com tempos mais longos de conversão, que podem se beneficiar do redirecionamento. O relatório mostra o número de conversões por duração em dias da última interação (exposição do anúncio ou clique) para conversão. O relatório pode incluir dados para várias métricas de conversão e usa um período de lookback especificado entre a primeira interação e uma conversão. As colunas no relatório incluem “[!UICONTROL Time Taken (in days)],” “[!UICONTROL Number of] \&lt;Nome da Métrica de Conversão 1\>,” “% \&lt;Nome da Métrica de Conversão 1\>,” \&lt;Nome da Métrica de Conversão 2\>,” “% \&lt;Nome da Métrica de Conversão 2\>,” e assim por diante. As conversões que demoram mais do que o período de lookback são agrupadas em uma linha (por exemplo, se o relatório usar um período de lookback de 30 dias, todas as conversões que demoram mais de 30 dias para ocorrer serão agrupadas em uma linha com um valor “[!UICONTROL Time Taken (in days)]” de “30+”).
 
-## Relatório entre contas {#cross-account-reporting}
+## Emissão de Relatórios entre Contas {#cross-account-reporting}
 
-Qualquer organização com várias contas do DSP pode, opcionalmente, ativar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder acesso à Conta A aos dados da Conta B e conceder acesso à Conta B aos dados da Conta C (mas não da Conta A). Para habilitar e configurar esse recurso, entre em contato com a equipe de conta da Adobe.
+Qualquer organização com várias contas DSP pode, opcionalmente, ativar dados entre contas em relatórios personalizados, de acordo com as necessidades da organização. Por exemplo, você pode conceder à Conta A acesso aos dados da Conta B e conceder à Conta B acesso aos dados da Conta C (mas não da Conta A). Para ativar e configurar esse recurso, entre em contato com a Equipe de conta do Adobe.
 
-Depois que o recurso for habilitado para sua organização, você poderá [filtrar](report-settings.md) qualquer um dos seguintes tipos de relatório por conta: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion].
+Depois que o recurso estiver habilitado para sua organização, você poderá [filtrar](report-settings.md) qualquer um dos seguintes tipos de relatório por conta: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion].
 
 As configurações da sua conta em [!UICONTROL Settings] > [!UICONTROL Account] indicam a) as outras contas cujos dados estão disponíveis para a sua conta e b) as outras contas que podem acessar os dados da sua conta.
 

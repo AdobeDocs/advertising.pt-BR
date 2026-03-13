@@ -3,9 +3,9 @@ title: Exibir detalhes sobre um público-alvo reutilizável
 description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público reutilizável.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
+source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Mantenha o cursor sobre a linha de público e clique em **[!UICONTROL View Details]**.
 
-1. (Opcional) Para ver o número de membros ativos ou totais do público-alvo por tipo de dispositivo (para IDs baseadas em cookies) e por tipo de ID universal, clique em ![Detalhamento do dispositivo](/help/dsp/assets/device-breakdown.png) ao lado do tamanho do público **[!UICONTROL Active]** ou **[!UICONTROL Total]**.
+1. (Opcional) Para ver o número de membros ativos do público-alvo por tipo de dispositivo (para IDs baseadas em cookies) e por tipo de ID universal, clique em ![Detalhamento do dispositivo](/help/dsp/assets/device-breakdown.png) ao lado do tamanho do público-alvo.
 
 1. (Opcional) Para editar as configurações de público, clique em **[!UICONTROL Edit Audience]** e [editar o nome e a configuração do público-alvo](reusable-audience-edit.md).
 

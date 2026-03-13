@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use a interface de bate-papo do AI para pesquisar conteúdo conceitual e de instruções no [Guia de DSP de Publicidade](/help/dsp/home.md) e (anunciantes com Advertising Creative) no [Guia de Advertising Creative](/help/creative/home.md). As respostas são baseadas somente no que está documentado para esses produtos em [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
+Use a interface de bate-papo do AI para pesquisar conteúdo conceitual e de instruções no [Guia de DSP de Publicidade](/help/dsp/home.md) e (anunciantes com Advertising Creative) no [Guia de Advertising Creative](/help/creative/home.md). As respostas são baseadas somente no que está documentado para esses produtos em [Experience League](https://experienceleague.adobe.com/pt-br/docs/advertising).
 
 As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudá-lo a refinar sua consulta e encontrar mais informações. Seu histórico de bate-papo é mantido e suas consultas não são compartilhadas com outros usuários.
 

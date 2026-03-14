@@ -3,16 +3,16 @@ title: Exportar detalhes sobre um público-alvo reutilizável
 description: Saiba como visualizar a configuração, o tamanho do público-alvo e os posicionamentos direcionados para um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1e573c443cff2db2cd59ad8a77ab47a3cdd93e07
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # Exportar detalhes sobre um público-alvo reutilizável
 
-Você pode baixar um arquivo de planilha [!DNL Microsoft Excel] com a regra de configuração de público-alvo, o número de membros ativos e totais do público-alvo por tipo de dispositivo, detalhes sobre cada segmento no público-alvo e todos os posicionamentos direcionados ao público-alvo.
+Você pode baixar um arquivo de planilha [!DNL Microsoft Excel] com a regra de configuração de público-alvo, o número de membros ativos do público-alvo por tipo de dispositivo, detalhes sobre cada segmento no público-alvo e todos os posicionamentos direcionados ao público-alvo.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 

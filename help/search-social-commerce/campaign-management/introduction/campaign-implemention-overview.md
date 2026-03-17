@@ -3,9 +3,9 @@ title: Visão geral da implementação de contas e campanhas de rede de anúncio
 description: Saiba mais sobre as tarefas envolvidas na configuração, sincronização e gerenciamento de suas contas de rede de anúncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O Adobe trabalha com cada anunciante para configurar suas contas e campanhas de rede de anúncios. Isso inclui configurar o Search, Social e Commerce para se conectar e sincronizar com as contas do anunciante, criar novas campanhas e componentes de campanha conforme necessário, configurar o rastreamento para os anúncios de componentes, adicionar opcionalmente as campanhas aos portfólios para permitir que o Search, Social e Commerce otimizem ofertas nos anúncios e validar os dados iniciais de custo, clique e receita.
 
-Depois que uma campanha é ativada e opcionalmente adicionada a um portfólio, a equipe de gerenciamento de contas do Adobe, a equipe da agência ou o anunciante (dependendo dos termos do contrato de nível de serviço) precisarão monitorar cada campanha e alterar os componentes e as configurações relevantes, conforme necessário, para atender às metas do anunciante.
+Depois que uma campanha é ativada e opcionalmente adicionada a um portfólio, a equipe de gerenciamento de conta da Adobe, a equipe da agência ou o anunciante (dependendo dos termos da service level agreement) precisarão monitorar cada campanha e alterar os componentes e as configurações relevantes, conforme necessário, para atender às metas do anunciante.
 
 Esta página inclui informações sobre todos os tipos de conta, incluindo como configurar a estrutura de campanha para contas sincronizadas. Para obter instruções adicionais sobre como configurar contas somente de rastreamento para [!DNL Naver], consulte &quot;[Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)&quot;.
 
@@ -52,7 +52,7 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
 1. Configure o rastreamento de todos os anúncios para os quais o Adobe Advertising rastreará conversões:
 
-   1. (Anunciantes com o serviço de rastreamento de conversão de Adobe Advertising) Se necessário, [configure o rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para anúncios e, opcionalmente, para palavras-chave, inserções e extensões de anúncios, gerando e carregando URLs de rastreamento de cliques de Pesquisa, Social e Commerce.
+   1. (Anunciantes com o serviço de rastreamento de conversão da Adobe Advertising) Se necessário, [configure o rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para anúncios e, opcionalmente, para palavras-chave, inserções e extensões de anúncios, gerando e carregando URLs de rastreamento de cliques de Pesquisa, Social e Commerce.
 
       Para campanhas de desempenho máximo de [!DNL Google Ads], configure todo o rastreamento nas [configurações de rastreamento da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -60,13 +60,13 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, isso pode envolver a adição de tags de rastreamento de conversão às páginas da Web do anunciante e/ou a configuração de uma queda de feed diária para dados de conversão que o anunciante coletou separadamente.
 
-      Se você usa o serviço de rastreamento de conversão de Adobe Advertising, é possível gerar as tags de rastreamento de conversão [no Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) ou [usando o Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=pt-BR).
+      Se você usa o serviço de rastreamento de conversão da Adobe Advertising, é possível [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar [tags da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conhecida como Adobe Experience Platform Launch).
 
    1. Valide os dados que são rastreados.
 
    Para obter mais detalhes sobre como configurar o rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
-1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) para que eles possam trocar dados.
+1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que eles possam trocar dados.
 
 1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas, orçamentos de campanha e/ou alvos de estratégia de oferta de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

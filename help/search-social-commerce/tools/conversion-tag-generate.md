@@ -1,24 +1,26 @@
 ---
-title: Gerar uma tag de rastreamento de conversão do Adobe Advertising
+title: Gerar e implementar uma tag de rastreamento de conversão do Adobe Advertising
 description: Saiba como criar uma tag de conversão do Adobe Advertising para rastrear seus eventos de conversão.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Gerar uma tag de rastreamento de conversão do Adobe Advertising
+# Gerar e implementar uma tag de rastreamento de conversão do Adobe Advertising
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
-Crie uma tag de conversão separada para cada conjunto de métricas que deseja rastrear e forneça as tags ao anunciante ou à agência uma lista de páginas da Web nas quais inserir cada uma.
+Crie uma tag de conversão separada para cada conjunto de métricas que você deseja rastrear.
+
+## Gerar e implementar uma tag de rastreamento de conversão no Search, Social e Commerce
 
 >[!NOTE]
 >
->Este recurso não adiciona marcas de imagem nem [!DNL JavaScript] marcas às páginas da Web do anunciante. As tags devem ser adicionadas de acordo com o procedimento normal do anunciante para atualização de páginas da Web.
+>Este recurso não adiciona marcas de imagem nem [!DNL JavaScript] marcas às páginas da Web do anunciante. Forneça as tags ao anunciante ou à agência uma lista de páginas da Web nas quais inserir cada uma. As tags devem ser adicionadas de acordo com o procedimento normal do anunciante para atualização de páginas da Web.
 
 1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**.
 
@@ -36,7 +38,7 @@ Crie uma tag de conversão separada para cada conjunto de métricas que deseja r
 >
 >Cada métrica na nova marca de conversão é listada automaticamente em [!UICONTROL Admin] > [!UICONTROL Conversions], mesmo que não esteja implementada ou que as páginas da Web em que está não tenham recebido nenhum clique. Esse comportamento é diferente do comportamento das métricas em tags criadas manualmente ou em outro lugar, que não são listadas em [!UICONTROL Admin] > [!UICONTROL Conversions] até que uma das páginas da Web em que está tenha recebido um clique. No entanto, em todos os casos, cada métrica é inicialmente excluída dos objetivos de portfólio, relatórios e exibições até que você as disponibilize explicitamente. No entanto, antes de adicionar as métricas aos objetivos do portfólio, considere primeiro disponibilizar as métricas e adicioná-las aos relatórios para verificar quando recebem cliques.
 
-## Configurações da tag de conversão do Adobe Advertising {#conversion-tag-settings}
+### Configurações da tag de conversão do Adobe Advertising {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** O tipo de marca a ser criada:
 
@@ -71,6 +73,72 @@ Se os dados não incluírem um identificador exclusivo por transação, o Adobe 
 **[!UICONTROL JS Version]:** (somente marcas [!DNL JavaScript]) Qual versão da marca [!DNL JavaScript] criar: *[!UICONTROL v2]* (padrão) ou *[!UICONTROL v3]*.
 
 Consulte &quot;[Perguntas frequentes sobre a conversão do Adobe Advertising e as tags de rastreamento de exibição de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; para obter mais informações sobre as diferenças.
+
+## Implementar tags de rastreamento de conversão usando tags do Adobe Experience Platform
+
+Você pode configurar o rastreamento de conversão para o Search, Social e Commerce usando tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch). As tags estão disponíveis para clientes do Adobe Experience Cloud como um recurso incluso de valor agregado.
+
+As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).&quot;
+
+>[!PREREQUISITES]
+>
+>Para instalar a extensão de tag necessária, peça ao administrador da organização acesso aos recursos de Coleção de Dados na interface do usuário, incluindo a permissão `manage_properties`.
+
+1. Na [Interface da Coleção de Dados](https://experience.adobe.com/#/data-collection/), instale a [Extensão](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) do Adobe Advertising:
+
+   1. Na propriedade aplicável, abra o catálogo de extensões e selecione **Adobe Advertising**.
+
+   1. No menu suspenso, selecione **SSC** (para Search, Social e Commerce).
+
+   1. No campo **ID de Usuário do SSC**, digite a ID de usuário numérica para a conta de Pesquisa, Social e Commerce da sua organização.
+
+      Se você não souber sua ID de usuário, entre em contato com a equipe de conta da Adobe.
+
+   1. Clique em **Salvar**.
+
+1. Crie uma nova regra (por exemplo, &quot;form_completes&quot;) para acionar a tag de conversão do Search, Social e Commerce:
+
+   1. Na seção Configuração do evento:
+
+      1. Selecione os seguintes valores:
+
+         **Extensão:** `Core`
+
+         **Tipo de evento:** `Library Loaded (Page Top)`
+
+      1. Clique em **Manter alterações**.
+
+   1. Na seção Configuração de condição:
+
+      1. Especifique os seguintes valores:
+
+         **Tipo lógico:** `Regular`
+
+         **Extensão:** `Core`
+
+         **Tipo de Condição:** `Path Without Query String`
+
+         **Retornará true se o caminho for igual a:** O caminho onde a conversão deve ser rastreada (por exemplo, `/form_complete`).
+
+      1. Clique em **Manter alterações**.
+
+   1. Na seção Configuração de ação:
+
+      1. Especifique os seguintes valores:
+
+         **Extensão:** `Adobe Advertising`
+
+         **Tipo de ação:** `AMO Measurement`
+
+         **Nome da Propriedade de Conversão:** O nome da propriedade de conversão (por exemplo, `form_completes`).
+
+         **Valor:** O valor numérico da propriedade de conversão (por exemplo, `1` para rastrear formulários_completes) ou escolha um [elemento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
+
+      1. Clique em **Manter alterações**.
+
+   1. Salve a regra.
+
+1. Publique as alterações.
 
 >[!MORELIKETHIS]
 >

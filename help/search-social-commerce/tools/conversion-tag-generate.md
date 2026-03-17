@@ -78,13 +78,13 @@ Consulte &quot;[Perguntas frequentes sobre a conversão do Adobe Advertising e a
 
 Você pode configurar o rastreamento de conversão para o Search, Social e Commerce usando tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch). As tags estão disponíveis para clientes do Adobe Experience Cloud como um recurso incluso de valor agregado.
 
-As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).&quot;
+As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/get-started/quick-start).&quot;
 
 >[!PREREQUISITES]
 >
 >Para instalar a extensão de tag necessária, peça ao administrador da organização acesso aos recursos de Coleção de Dados na interface do usuário, incluindo a permissão `manage_properties`.
 
-1. Na [Interface da Coleção de Dados](https://experience.adobe.com/#/data-collection/), instale a [Extensão](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) do Adobe Advertising:
+1. Na [Interface da Coleção de Dados](https://experience.adobe.com/#/data-collection/), instale a [Extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/extensions/overview) do Adobe Advertising:
 
    1. Na propriedade aplicável, abra o catálogo de extensões e selecione **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ As seguintes tarefas são necessárias para configurar tags de rastreamento de c
 
          **Nome da Propriedade de Conversão:** O nome da propriedade de conversão (por exemplo, `form_completes`).
 
-         **Valor:** O valor numérico da propriedade de conversão (por exemplo, `1` para rastrear formulários_completes) ou escolha um [elemento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
+         **Valor:** O valor numérico da propriedade de conversão (por exemplo, `1` para rastrear formulários_completes) ou escolha um [elemento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/data-elements) existente.
 
       1. Clique em **Manter alterações**.
 

@@ -3,14 +3,14 @@ title: Exibir um log de alterações da campanha
 description: Saiba como visualizar as alterações feitas na campanha.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# Exibir o Log de Alterações de uma Campanha
+# Exibir o log de alterações de uma campanha
 
 Os logs de alterações mostram as alterações feitas na campanha durante o intervalo de datas selecionado, incluindo o nome da campanha, o tipo de entidade (Campanha), o tipo de alteração, os valores novos e antigos, o usuário que fez a alteração e a data. Opcionalmente, é possível adicionar notas a qualquer entrada.
 
@@ -30,7 +30,7 @@ Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Val
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Campaign Management](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
 >* [Configurações da campanha](campaign-settings.md)

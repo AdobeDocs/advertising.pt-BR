@@ -1,16 +1,16 @@
 ---
-title: Exibir Insights de Leilão para uma Negociação Privada
+title: Exibir insights do leilão para uma negociação privada
 description: Saiba como usar insights de leilão para analisar a composição de negócios de negócios privados.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# Exibir Insights de Leilão para uma Negociação Privada
+# Exibir insights do leilão para uma negociação privada
 
 O Auction Insights é uma ferramenta de solução de problemas que permite analisar a composição de negócios de ofertas privadas garantidas e não garantidas. Usando visualizações de dados, essa ferramenta mostra a tendência e as proporções relativas dos valores recebidos para [atributos principais do leilão](#auction-attributes) em um período específico.
 
@@ -22,7 +22,7 @@ O Auction Insights é uma ferramenta de solução de problemas que permite anali
 >
 >Os Insights do leilão também estão disponíveis por meio da ferramenta de posicionamento [!UICONTROL Inspector]. Para abri-los, [abra o posicionamento [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) para o [!UICONTROL Inventory tab] e clique em **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** na linha de negócios.
 
-## Atributos do Leilão {#auction-attributes}
+## Atributos do leilão {#auction-attributes}
 
 Os gráficos de área estão disponíveis para os seguintes atributos de leilão:
 
@@ -51,4 +51,4 @@ Os gráficos de área estão disponíveis para os seguintes atributos de leilão
 >* [Sobre Inventário Privado](private-inventory-about.md)
 >* [Especificar disposições e anúncios para uma ID de oferta](deal-id-attach-placements.md)
 >* [Exibir um Relatório Detalhado de um Acordo](deal-view-report.md)
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)

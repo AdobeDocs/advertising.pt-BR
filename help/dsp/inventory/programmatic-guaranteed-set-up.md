@@ -1,16 +1,16 @@
 ---
-title: Configurar um acordo programático garantido
+title: Configurar um contrato programático garantido
 description: Saiba como configurar um contrato programático garantido (PG) que você negociou com um editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# Configurar um acordo programático garantido
+# Configurar um contrato programático garantido
 
 *[Somente plataformas do lado do suprimento com suporte](programmatic-guaranteed-about.md)*
 
@@ -18,11 +18,11 @@ Depois de negociar um contrato programático garantido (PG) com um editor suport
 
 >[!NOTE]
 >
-> Para ofertas PG, o editor lida com todo o ritmo do orçamento, limite de orçamento e direcionamento. Todos os SSPs que permitem PG por meio de DSP confirmam que o editor pode configurar limite de orçamento.
+> Para ofertas PG, o editor lida com todo o ritmo do orçamento, limite de orçamento e direcionamento. Todos os SSPs que permitem PG por meio do DSP confirmam que o editor pode configurar limite de orçamento.
 >
 > A configuração de ofertas programáticas garantidas com editores em [!DNL FreeWheel] requer permissões e etapas adicionais. Consulte &quot;[Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL FreeWheel]](freewheel-overview.md)&quot; para obter mais informações.
 
-## Configure um Acordo Programático Garantido Usando o [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
+## Configurar um negócio programático garantido usando o [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
 O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Google Authorized Buyers] e [!DNL Magnite DV+].
 
@@ -42,7 +42,7 @@ O método a seguir é o procedimento preferido para [!DNL FreeWheel], [!DNL Goog
 
    Uma oferta pode visar vários posicionamentos que suportam qualquer combinação de tipos de mídia (como TV conectada, desktop e áudio).
 
-## Configurar manualmente uma oferta programática garantida
+## Configurar manualmente um contrato programático garantido
 
 Use este método para todos os outros SSPs.
 

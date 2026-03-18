@@ -1,16 +1,16 @@
 ---
-title: Inscrever-se e solicitar acesso a [!DNL On Demand] Contratos de inventário Premium
+title: Inscrever-se e solicitar acesso a  [!DNL On Demand] ofertas de estoque premium
 description: Saiba como assinar e solicitar acesso a ofertas do [!DNL On Demand].
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Inscrever-se e solicitar acesso às ofertas de inventário do [!DNL On Demand] Premium
+# Inscreva-se e solicite acesso a [!DNL On Demand] ofertas de inventário premium
 
 *Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]; e revendedores*
 
@@ -46,7 +46,7 @@ Assim que uma negociação for [aprovada](/help/dsp/inventory/on-demand-inventor
 
    * (Para assinar qualquer editor) Clique em **[!UICONTROL Subscription view]**, mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL Subscribe]**.
 
-## Solicitar Acesso a Contratos Individuais
+## Solicitar acesso a negócios individuais
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 

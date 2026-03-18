@@ -3,7 +3,7 @@ title: Arquivar ou desarquivar um negócio privado
 description: Saiba como arquivar ou desarquivar um negócio privado.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Você pode desarquivar um negócio para restaurar seu status anterior a qualquer
 >[!NOTE]
 >
 >* Você não pode arquivar [!UICONTROL On Demand] ofertas.
->* Para desativar uma negociação no lado do publicador, entre em contato com o publicador ou com o SSP. Depois que eles desativarem o negócio, você pode arquivá-lo no DSP para ocultá-lo.
+>* Para desativar uma negociação no lado do publicador, entre em contato com o publicador ou com o SSP. Depois que eles desativarem o negócio, você poderá arquivá-lo no DSP para ocultá-lo.
 
-## Arquivar um contrato privado
+## Arquivar um negócio privado
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Na linha de negócios, clique em **[!UICONTROL ...]** > **[!UICONTROL Archive]**.

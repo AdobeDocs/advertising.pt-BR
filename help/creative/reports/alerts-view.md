@@ -2,7 +2,8 @@
 title: Exibir alertas
 description: Saiba como exibir alertas e resoluções recomendadas para suas experiências.
 feature: Creative Experiences
-source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
+exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Os alertas e indicadores de alerta desaparecem automaticamente quando os problem
 >
 >No Advertising DSP, [alertas sobre posicionamentos criados a partir de [!DNL Creative] experiências](/help/dsp/campaign-management/reports/campaign-alerts.md) estão disponíveis no nível da campanha.
 
-## Exibir Alertas no [!UICONTROL Pulse Panel]
+## Exibir alertas no [!UICONTROL Pulse Panel]
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

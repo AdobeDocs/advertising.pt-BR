@@ -3,7 +3,7 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: ace6005869ea4102878091c4799259961aeecb63
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -73,11 +73,11 @@ Os seguintes dados de desempenho estão disponíveis:
 
 * Você pode [exibir dados de desempenho detalhados para qualquer experiência](experience-performance-details.md) da exibição [!UICONTROL Experiences].
 
-* Para monitorar o desempenho em suas experiências, crie um [Relatório Creative personalizado](/help/creative/reports/report-manage.md).
+* Para monitorar o desempenho em suas experiências, crie um [Relatório criativo personalizado](/help/creative/reports/report-manage.md).
 
 ## Indicadores de alerta
 
-Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma experiência, ou qualquer criança que tenha uma criação sob ela, tem um problema. Um ícone do [!UICONTROL Pulse Panel] à direita da barra de ferramentas indica se há alertas disponíveis para a experiência, incluindo qualquer um dos elementos de criação secundários. Consulte &quot;[Exibir Alertas](/help/creative/reports/alerts-view.md)&quot; para obter mais informações.
+Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma experiência, ou qualquer criança que tenha uma criação sob ela, tem um problema. Um ícone do [!UICONTROL Pulse Panel] à direita da barra de ferramentas indica se há alertas disponíveis para a experiência, incluindo qualquer um dos elementos de criação secundários. Consulte &quot;[Exibir alertas](/help/creative/reports/alerts-view.md)&quot; para obter mais informações.
 
 ## Status da experiência {#experience-statuses}
 

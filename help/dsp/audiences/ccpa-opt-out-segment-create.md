@@ -1,16 +1,16 @@
 ---
-title: Criar e implementar um segmento de cancelamento de venda da CCPA
+title: Criar e implementar um segmento de cancelamento de venda do CCPA
 description: Saiba como criar e implementar um segmento para rastrear IDs de usuários a partir de solicitações de cancelamento de venda do consumidor.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Criar e implementar um segmento de cancelamento de venda da CCPA
+# Criar e implementar um segmento de cancelamento de venda do CCPA
 
 Você pode criar um segmento para rastrear IDs de usuários a partir de solicitações de cancelamento de venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA). Os usuários permanecem em segmentos de cancelamento de venda do CCPA indefinidamente.
 
@@ -18,7 +18,7 @@ Depois que a tag de pixel de segmento é implementada, o Adobe Advertising come�
 
 >[!NOTE]
 >
->* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA ao Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=pt-BR).
+>* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA ao Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Para rastrear usuários que visitam páginas da Web para fins não relacionados ao rastreamento de eventos de não participação de venda do CCPA, bem como usuários expostos a anúncios de dispositivos de desktop, móveis e CTV, crie um [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 1. Crie o segmento:
@@ -60,8 +60,8 @@ Depois que a tag de pixel de segmento é implementada, o Adobe Advertising come�
 
 >[!MORELIKETHIS]
 >
->* [Suporte Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Suporte do Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e Relatórios](ccpa-opt-out-about.md)
->* [Recuperar Relatórios de Cancelamento de Venda do Consumidor](ccpa-opt-out-segment-report-retrieve.md)
+>* [Recuperar relatórios de cancelamento de venda do consumidor](ccpa-opt-out-segment-report-retrieve.md)
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
 >* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)

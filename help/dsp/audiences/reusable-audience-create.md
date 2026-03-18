@@ -3,7 +3,7 @@ title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
-   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para os usuários com os quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público que contém segmentos do Adobe Analytics com um anunciante que não está mapeado para a mesma conta do [!DNL Analytics], o segmento não será visualizado nesse público para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público.
+   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para a mesma conta [!DNL Analytics], o segmento não será visualizado nesse público para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Conforme você cria a audiência, os [dados detalhados sobre o tamanho dela](audience-about.md) são atualizados no painel à direita
+   >À medida que você cria o público-alvo, os [dados detalhados sobre o tamanho do público-alvo](audience-about.md) são atualizados no painel direito
 
-   * Para criar manualmente a lógica de segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
+   * Para criar manualmente a lógica do segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
 
-      * (Opcional) Procure um nome de segmento, uma descrição ou um caminho.
+      * (Opcional) Procure um nome, uma descrição ou um caminho de segmento.
 
-        Os resultados da pesquisa incluem segmentos baseados nos termos exatos que você usa. Quando você informa vários termos, todos os termos devem ser localizados para um segmento.
+        Os resultados da pesquisa incluem segmentos com base nos termos exatos que você usa. Quando você insere vários termos, todos os termos devem ser encontrados para um segmento.
 
       * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
@@ -70,28 +70,28 @@ ht-degree: 0%
 
    * Para usar a lógica de segmento de um público-alvo existente:
 
-      1. Copie a lógica de segmento do público existente de qualquer uma das seguintes maneiras:
+      1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todas as Audiências, mantenha o cursor sobre a linha de audiência e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações do público existente, na parte superior do painel de lógica de segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+         * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md) e copie-a para a área de transferência.
+         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
 
       1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
-         >Se o público já inclui qualquer lógica de segmento, a colagem na nova lógica de segmento sobregrava a lógica existente.
+         >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
 
 1. Clique em **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento do Público-Alvo](audience-about.md)
+>* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
 >* [Configurações de público-alvo](audience-settings.md)
->* [Sintaxe da Lógica do Segmento de Audiência](audience-segment-logic-syntax.md)
->* [Provedores de Dados de Terceiros Disponíveis](third-party-data-providers.md)
+>* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)
+>* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
 >* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

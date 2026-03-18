@@ -1,16 +1,16 @@
 ---
-title: Configurações do anúncio antes da exibição
+title: Configurações de anúncio antes da exibição
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios precedentes.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
-# Configurações do anúncio antes da exibição
+# Configurações de anúncio antes da exibição
 
 ## [!UICONTROL Insert Ad Tag]
 

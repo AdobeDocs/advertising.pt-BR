@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -22,37 +22,37 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
-Use o agente de público assistido por IA para gerar novos públicos reutilizáveis usando todos os segmentos de terceiros disponíveis para você, de acordo com seus requisitos declarados. Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
+Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos de terceiros disponíveis para você, de acordo com seus requisitos declarados. Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 >[!NOTE]
 >
->Este recurso está no modo beta e está sujeito a alterações. Certifique-se de que a expressão de público gerado represente o público que você deseja antes de criar o público e usá-lo para seus posicionamentos.
+>Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de criar o público-alvo e usá-lo para suas inserções.
 
-## Crie um público reutilizável usando IA generativa
+## Criar um público-alvo reutilizável usando IA gerativa
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
-1. Above the data table, click **[!UICONTROL Create]**.
+1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
 
-1. Enter a unique **[!UICONTROL Audience Name]**.
+1. Digite um **[!UICONTROL Audience Name]** exclusivo.
 
-1. (Optional) Deselect the option to **[!UICONTROL Share with all advertisers in my account]**.
+1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
 
-   When you share an audience, the audience becomes available as a target or exclusion to all advertisers within the account. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para os usuários com os quais os segmentos são compartilhados.
+   Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados.
 
 1. Clique em **[!UICONTROL Save]**.
 
 1. Crie o público-alvo:
 
-   For users with beta permissions, the AI option is the default. To [assemble the audience yourself](/help/dsp/audiences/reusable-audience-create.md), click the &quot;Switch to manual mode&quot; button at the bottom.
+   Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
 
-   1. Enter one or more prompts to describe the audience characteristics you want to include and exclude. To submit each prompt, click ![Submit prompt](/help/dsp/assets/submit-prompt.png "Submit prompt").
+   1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
-      For more information, see &quot;[Writing Prompts](#writing-prompts)&quot; and &quot;[Best Practices for Creating an Audience Brief](#audience-brief-best-practices).&quot;
+      Para obter mais informações, consulte &quot;[Escrevendo Prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
-      À medida que o agente de audiência encontra segmentos relevantes, ele cria uma expressão de audiência com base nos seus critérios. Ele também solicita sua aprovação antes de procurar segmentos correspondentes para reunir o público.
+      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
 
       Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
 
@@ -62,37 +62,37 @@ Use o agente de público assistido por IA para gerar novos públicos reutilizáv
 
    1. (Se necessário) Especifique critérios adicionais. Quando o agente de público-alvo apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
 
-      Para reunir o público, digite “prosseguir”, “ok”, “sim”, ou outra palavra similar.
+      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
 
-1. Quando estiver satisfeito com a audiência reunida, clique em **[!UICONTROL Create]** para criar a audiência especificada.
+1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
 
    >[!NOTE]
    >
-   >Não será possível editar posteriormente a audiência usando o agente de audiência. Em vez disso, [edite manualmente a expressão de audiência](/help/dsp/audiences/reusable-audience-edit.md).
+   >Não é possível editar o público-alvo posteriormente usando o agente de público-alvo. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Noções básicas de escrever prompts {#writing-prompts}
+## Noções básicas de gravação de prompts {#writing-prompts}
 
 ### O que um prompt deve incluir?
 
-* Use clear, descriptive language to describe the target audience.
+* Use uma linguagem clara e descritiva para descrever o público-alvo.
 
-   * You can enter either complete sentences or just a string of characteristics. Punctuation isn&#39;t required except when necessary for clarity.
+   * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
 
-   * In general, prompts are case-insensitive.
+   * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
 
-   * The audience agent recognizes most common synonyms.
+   * O agente de público-alvo reconhece os sinônimos mais comuns.
 
-* Be specific and provide details about all audience characteristics that you want to include and any characteristics that you specifically want to exclude. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
+* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
 
-* Identify locations, device types, and data providers to include or to exclude.
+* Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
 
-* Iteratively provide details to refine your criteria and the generated audience expression before you save the audience.
+* Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
 
-* Learn about prompting through experimentation.
+* Saiba mais sobre o prompt por meio da experimentação.
 
-  If your prompt isn&#39;t clear, the audience agent will just request another prompt, so you can try again.
+  Se o prompt não estiver claro, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
 
-  The audience agent won&#39;t automatically save a generated audience expression as an audience. Você só pode salvar uma audiência clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
+  O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
 
 Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
 
@@ -118,17 +118,17 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 ### Exemplos de respostas do agente de público-alvo e como responder
 
-When the audience agent needs a response from you, you can reply using keywords in the request or using common synonyms.
+Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
 
-#### Audience agent asking you a question
+#### Agente de público-alvo fazendo uma pergunta
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-Your affirmative replies:  &quot;proceed,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes&quot;, or another similar word
+Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra semelhante
 
-You can also ignore the request and continue to specify additional audience criteria instead.
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
-#### Audience agent asking you to choose from multiple options
+#### Agente de público-alvo solicitando que você escolha entre várias opções
 
 `Would you like to:`
 `1) Proceed with this expression,`
@@ -137,15 +137,15 @@ You can also ignore the request and continue to specify additional audience crit
 
 Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
 
-You can also ignore the request and continue to specify additional audience criteria instead.
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
-## Best Practices for Creating an Audience Brief {#audience-brief-best-practices}
+## Práticas recomendadas para criar um resumo de público-alvo {#audience-brief-best-practices}
 
-An audience brief is a strategic writeup that defines the target audience for a campaign. A well-crafted brief helps the DSP audience agent identify the most relevant segments to assemble your targetable audience.
+Um resumo de público-alvo é um writeup estratégico que define o público-alvo de uma campanha. Um resumo bem elaborado ajuda o agente de público-alvo da DSP a identificar os segmentos mais relevantes para montar seu público-alvo direcionável.
 
-### Essential Components of an Effective Audience Brief
+### Componentes essenciais de um resumo de público-alvo eficiente
 
-Inclua no seu resumo o máximo possível de tipos de atributo de público da lista a seguir. Seja específico sobre os atributos que deseja excluir.
+Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
 
 <!-- What about these:
 
@@ -166,40 +166,40 @@ Inclua no seu resumo o máximo possível de tipos de atributo de público da lis
 
 * **Parâmetros Geográficos**
 
-  Define o escopo do local incluindo país/países, região (EMEA, APAC, NA), densidade populacional (urbana/suburbana/rural).
+  Define o escopo de localização incluindo país/países, região (EMEA, APAC, NA), densidade populacional (urbana/suburbana/rural).
 
 * **Interesses e afinidades**
 
-  Identifica paixões e preferências, como hobbies (esportes, artes, atividades ao ar livre), padrões de consumo de mídia, afinidades de marca e atividades de estilo de vida (viagens, restaurantes, entretenimento).
+  Identifica paixões e preferências como hobbies (esportes, artes, atividades ao ar livre), padrões de consumo de mídia, afinidades de marca e atividades de estilo de vida (viagens, restaurantes, entretenimento).
 
 * **Psicografia**
 
-  Captura a mentalidade e os valores, incluindo aspirações (busca de status, autoaperfeiçoamento), valores fundamentais (sustentabilidade, inovação, tradição), traços de personalidade (assumidores de riscos, primeiros usuários) e motivações de compra.
+  Captura a mentalidade e os valores, incluindo aspirações (busca de status, autoaprimoramento), valores principais (sustentabilidade, inovação, tradição), traços de personalidade (assumidores de riscos, primeiros adeptos) e motivações de compra.
 
-* **Behavioral Signals**
+* **Sinais comportamentais**
 
-  Observable actions including purchase behavior (shopping frequency, channel preferences, brand loyalty), online behavior (website visits, content engagement, social media activity), and offline behavior (store visits, event attendance, memberships).
+  Ações observáveis, incluindo comportamento de compra (frequência de compras, preferências de canal, fidelidade à marca), comportamento online (visitas a sites, engajamento de conteúdo, atividade de redes sociais) e comportamento offline (visitas a lojas, presença em eventos, associações).
 
-* **In-Market Intent**
+* **Intenção no Mercado**
 
-  Identifies purchase readiness through product/service categories being researched, purchase timeline (immediate, near-term, long-term), and relevant life events triggering purchase decisions.
+  Identifica a prontidão da compra por meio de categorias de produto/serviço sendo pesquisadas, cronograma de compra (imediato, curto prazo, longo prazo) e eventos de vida relevantes que acionam decisões de compra.
 
-* **Life Stage**
+* **Estágio da vida**
 
-  Current phase understanding including career stage (student, entry-level, mid-career, executive, retired), family stage (newlyweds, new parents, empty nesters), and major life transitions.
+  Compreensão da fase atual incluindo estágio de carreira (estudante, nível de entrada, meio de carreira, executivo, aposentado), estágio de família (recém-casados, novos pais, ninhos vazios) e transições de vida principal.
 
-### Example of a Well-Structured Audience Brief for a Prospecting Campaign
+### Exemplo de um resumo de público bem estruturado para uma campanha de prospecção
 
-The following is an example of a strong audience brief for a campaign to drive awareness and trial for a premium meal kit subscription service:
+Este é um exemplo de um forte resumo de público-alvo de uma campanha para impulsionar a conscientização e a avaliação de um serviço de assinatura premium do kit de refeição:
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >
->* [Duplicar uma Audiência Reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
->* [Editar um Público Reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
->* [View Details About a Reusable Audience](/help/dsp/audiences/reusable-audience-view-details.md)
->* [Compartilhar um Público Reutilizável](/help/dsp/audiences/reusable-audience-share.md)
+>* [Duplicar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
+>* [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
+>* [Exibir detalhes sobre um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-view-details.md)
+>* [Compartilhar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-export.md)
 >* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](/help/dsp/audiences/reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-delete.md)

@@ -1,22 +1,22 @@
 ---
-title: Configurações de público
+title: Configurações de público-alvo
 description: Consulte descrições das configurações de público disponíveis.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Configurações de público
+# Configurações de público-alvo
 
 ## Segmentos de terceiros
 
 (Opcional) Qualquer segmento padrão que esteja disponível por meio da taxonomia de dados de terceiros do Adobe Advertising, para incluir na configuração do público-alvo.
 
-## Segmentos próprios
+## Segmentos primários
 
 (Opcional) Quaisquer segmentos primários importados e/ou segmentos personalizados importados para a conta, a serem incluídos na configuração do público-alvo.
 

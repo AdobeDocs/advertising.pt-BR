@@ -3,7 +3,7 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Criar e implementar um segmento personalizado
 
-Você pode coletar seus próprios dados de público-alvo primários criando e implementando um segmento DSP personalizado. Você pode usar o segmento para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. Posteriormente, você pode redirecionar os usuários no segmento com anúncios adicionais ou impedir que eles recebam anúncios adicionais.
+Você pode coletar seus próprios dados de público-alvo primários criando e implementando um segmento personalizado do DSP. Você pode usar o segmento para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. Posteriormente, você pode redirecionar os usuários no segmento com anúncios adicionais ou impedir que eles recebam anúncios adicionais.
 
 >[!NOTE]
 >
 >Para rastrear as IDs de usuários a partir de solicitações de cancelamento de venda em seu site, de acordo com a California Consumer Privacy Act (CCPA), crie um [segmento de cancelamento de venda da CCPA](ccpa-opt-out-segment-create.md).
 
-## Pré-requisitos para que os segmentos rastreiem IDs ID5
+## Pré-requisitos para que os segmentos rastreiem IDs de ID5
 
 *recurso do Beta*
 
-* Antes de gerar um segmento para rastrear usuários associados a IDs ID5, assine um contrato com [!DNL ID5] e obtenha a ID de parceiro da sua organização. Entre em contato com a equipe de conta do Adobe para obter instruções.
+* Antes de gerar um segmento para rastrear usuários associados a IDs ID5, assine um contrato com [!DNL ID5] e obtenha a ID de parceiro da sua organização. Entre em contato com a equipe de conta da Adobe para obter instruções.
 
 * Para a medição no Adobe Analytics, você deve:
 
@@ -71,7 +71,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
          * *[!UICONTROL ID5]:* A marca de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
-        **[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta do DSP deve aceitar os termos uma vez antes que você possa usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta do Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta da DSP deve aceitar os termos uma vez antes de usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
    1. Clique em **[!UICONTROL Save]**.
 
@@ -95,7 +95,7 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            Sua organização recebeu a ID de parceiro quando assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta do Adobe.
+            Sua organização recebeu a ID de parceiro quando assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta da Adobe.
 
             Esta etapa não é necessária para que as marcas rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
 

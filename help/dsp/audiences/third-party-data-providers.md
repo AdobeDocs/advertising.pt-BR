@@ -3,7 +3,7 @@ title: Provedores de dados de terceiros disponíveis no Advertising DSP
 description: Consulte uma lista de todos os provedores de dados de terceiros disponíveis.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -39,7 +39,7 @@ A taxa para usar cada segmento é mostrada ao lado do nome do segmento em config
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
-Para obter mais informações sobre como importar segmentos personalizados de terceiros para sua conta, entre em contato com a equipe de conta do Adobe.
+Para obter mais informações sobre como importar segmentos personalizados de terceiros para sua conta, entre em contato com a equipe de conta da Adobe.
 
 >[!MORELIKETHIS]
 >

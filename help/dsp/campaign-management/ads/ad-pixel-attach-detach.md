@@ -1,19 +1,20 @@
 ---
-title: Anexar e remover pixels de anúncios
+title: Anexar e remover pixels dos anúncios
 description: Saiba como anexar e remover pixels de rastreamento de terceiros dos anúncios.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
-# Anexar e remover pixels de anúncios
+# Anexar e remover pixels dos anúncios
 
 Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
-## Abrir a Exibição [!UICONTROL Ad Tools] {#ad-tools-open}
+## Abrir a visualização [!UICONTROL Ad Tools] {#ad-tools-open}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -27,7 +28,7 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 ## Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento {#attach-pixels-ads}
 
-1. [Abra a exibição [!UICONTROL Ad Tools] de &#x200B;](#ad-tools-open).
+1. [Abra a exibição [!UICONTROL Ad Tools] de ](#ad-tools-open).
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 
@@ -69,7 +70,7 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 ## Desanexar pixels de rastreamento de terceiros de anúncios em um posicionamento {#detach-pixels-ads}
 
-1. [Abra a exibição [!UICONTROL Ad Tools] de &#x200B;](#ad-tools-open).
+1. [Abra a exibição [!UICONTROL Ad Tools] de ](#ad-tools-open).
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 
@@ -91,9 +92,9 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 1. (Opcional) Para retornar às exibições de detalhes da campanha, clique em ![Retornar à pasta](/help/dsp/assets/breadcrumb-return.png "Retornar à pasta") à esquerda de [!UICONTROL Ad Tools] e selecione o nome da campanha.
 
-## Visualizar pixels anexados a anúncios {#view-pixels-ads}
+## Exibir pixels anexados a anúncios {#view-pixels-ads}
 
-1. [Abra a exibição [!UICONTROL Ad Tools] de &#x200B;](#ad-tools-open).
+1. [Abra a exibição [!UICONTROL Ad Tools] de ](#ad-tools-open).
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 
@@ -119,4 +120,3 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 >* [Listar os Posicionamentos Associados a um Anúncio](ad-list-placements.md)
 >* [Editar os Cronogramas de Anúncios para Posicionamentos](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
-

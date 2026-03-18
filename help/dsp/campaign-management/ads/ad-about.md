@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de anúncios no Advertising DSP
 description: Saiba mais sobre o gerenciamento de anúncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-O DSP oferece suporte à entrega de anúncios por meio de tags de veiculação de anúncios de terceiros (como Google, Flashtalk ou Sizmek) para vários tipos de anúncios e ao upload direto de ativos para anúncios de exibição nativos. É possível fazer upload de tags de terceiros individualmente ou em massa. Os uploads em massa usam folhas de tags de parceiros ou um modelo de tag em massa.
+O DSP é compatível com a entrega de anúncios por meio de tags de veiculação de anúncios de terceiros (como Google, Flashtalk ou Sizmek) para vários tipos de anúncios e o upload direto de ativos para anúncios de exibição nativos. É possível fazer upload de tags de terceiros individualmente ou em massa. Os uploads em massa usam folhas de tags de parceiros ou um modelo de tag em massa.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -27,7 +27,7 @@ Todos os tipos de anúncios a seguir estão disponíveis no DSP. Para obter as e
 
 * **Anúncios de Áudio (somente de terceiros)**: os anúncios de áudio são reproduzidos entre conteúdos em sites de editores digitais e podem ser executados de forma independente como arquivos de áudio ou junto com banners complementares. O áudio é mais adequado para impulsionar a percepção da marca e o engajamento com o público em movimento. Os principais indicadores de desempenho para áudio incluem [!UICONTROL Completion Rate] e [!UICONTROL Cost per Completion].
 
-* **Exibir anúncios (somente de terceiros)**: os anúncios exibidos são imagens animadas ou estáticas exibidas em navegadores da Web ou em aplicativos. Clicar na unidade de anúncio leva o usuário a um site de marca ou microsite. A exibição é melhor usada para impulsionar CPMs eficientes, aumentar a associação de mensagens, adicionar pontos de contato de marca ou produto adicionais e impulsionar os usuários pelo funil de compra. Os principais indicadores de desempenho para exibição incluem [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] e [!UICONTROL Cost per Conversion]. O DSP é compatível com uma grande variedade de tamanhos de banners de exibição.
+* **Exibir anúncios (somente de terceiros)**: os anúncios exibidos são imagens animadas ou estáticas exibidas em navegadores da Web ou em aplicativos. Clicar na unidade de anúncio leva o usuário a um site de marca ou microsite. A exibição é melhor usada para impulsionar CPMs eficientes, aumentar a associação de mensagens, adicionar pontos de contato de marca ou produto adicionais e impulsionar os usuários a comprar o funnel. Os principais indicadores de desempenho para exibição incluem [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] e [!UICONTROL Cost per Conversion]. O DSP oferece suporte a uma grande variedade de tamanhos de banners de exibição.
 
 * **Anúncios móveis (somente de terceiros)**: os anúncios móveis podem estar em vídeo antes da exibição (VAST, MRAID) ou no formato de exibição padrão. O vídeo móvel antes da exibição pode ser reproduzido automaticamente ou com clique para reproduzir, sendo mais adequado para alcançar visualizadores em várias telas. A exibição padrão móvel é uma imagem estática exibida em navegadores da Web móveis ou em aplicativos e é mais adequada para complementar compras de vídeo digital, associação de mensagens de unidade e adicionar pontos de contato de marca ou produto adicionais. Os anúncios móveis também podem funcionar como aquisições em tela cheia ou como intersticiais móveis, que são anúncios móveis em tela cheia e de alto impacto, usados com mais eficiência para desenvolver a percepção da marca para públicos móveis e gerar conversões.
 
@@ -43,9 +43,9 @@ Todos os tipos de anúncios a seguir estão disponíveis no DSP. Para obter as e
 
   Consulte &quot;[Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
 
-## Aprovações de anúncios DSP
+## Aprovações de anúncios do DSP
 
-Ao criar um anúncio, o DSP o revisa em busca de categorias confidenciais, clique na funcionalidade de URL e na renderização de visualização.
+Ao criar um anúncio, a DSP o revisa em busca de categorias confidenciais, clique na funcionalidade URL e pré-visualize a renderização.
 
 Inicialmente, a coluna [!UICONTROL Status] do anúncio exibe um ponto vermelho. O processo de revisão normalmente leva de 24 a 48 horas. Entretanto, um anúncio interrompido pode ter um status pendente por mais de 48 horas, portanto, você tem tempo para corrigir erros antes que o anúncio seja rejeitado. Os anúncios rejeitados incluem um motivo para a rejeição.
 
@@ -55,7 +55,7 @@ Quando o DSP aprova um anúncio, a coluna Status do anúncio exibe um ponto verd
 
 >[!NOTE]
 >
->Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+>Seu anúncio poderá ser veiculado somente se a DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >

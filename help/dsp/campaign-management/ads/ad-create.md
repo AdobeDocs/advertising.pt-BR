@@ -1,16 +1,16 @@
 ---
-title: Crie um único anúncio
+title: Criar um único anúncio
 description: Saiba como criar um único anúncio de terceiros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
-# Crie um único anúncio
+# Criar um único anúncio
 
 Você pode criar um anúncio de exibição nativo individual ou um anúncio de terceiros em vários [tipos de anúncios](ad-about.md#ad-types).
 
@@ -42,11 +42,11 @@ Para criar vários anúncios de terceiros de cada vez, consulte [Criar vários a
 
 1. Quando o anúncio estiver concluído, clique em **[!UICONTROL Save & Submit for Review]**.
 
-   A [revisão de anúncio](ad-about.md) leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A coluna Status indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   A [revisão de anúncio](ad-about.md) leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de clique e renderização de visualização. A coluna Status indica se a DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
 
    >[!NOTE]
    >
-   >Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+   >Seu anúncio poderá ser veiculado somente se a DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >

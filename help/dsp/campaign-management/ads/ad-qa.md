@@ -3,7 +3,7 @@ title: Revisar e editar detalhes do anúncio usando bulksheets
 description: Saiba como revisar as configurações de anúncios em massa usando planilhas.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%

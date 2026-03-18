@@ -3,7 +3,7 @@ title: Anexar e remover anúncios de posicionamentos
 description: Saiba como anexar anúncios a inserções e remover anúncios de inserções.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode anexar e remover anúncios de disposições.
 >
 >Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-## Anexar Anúncios a Posicionamentos da Exibição [!UICONTROL Placements] {#attach-ads-placement}
+## Anexar anúncios a posicionamentos da exibição [!UICONTROL Placements] {#attach-ads-placement}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -36,7 +36,7 @@ Você pode anexar e remover anúncios de disposições.
 
 1. Clique em **[!UICONTROL Attach Selected Ads]**.
 
-## Anexar um anúncio a Posicionamentos da Exibição [!UICONTROL Ads] {#attach-ads}
+## Anexar um anúncio a posicionamentos da exibição [!UICONTROL Ads] {#attach-ads}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -72,7 +72,7 @@ Você pode anexar e remover anúncios de disposições.
 
       1. Clique em **[!UICONTROL I'm done for now]**.
 
-## Remover Anúncios dos Posicionamentos da Exibição [!UICONTROL Placements] {#remove-ads-placement}
+## Remover anúncios de posicionamentos da exibição [!UICONTROL Placements] {#remove-ads-placement}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -90,7 +90,7 @@ Você pode anexar e remover anúncios de disposições.
 
 1. Clique em **[!UICONTROL Detach Selected Ads]**.
 
-## Remover um Anúncio de um Posicionamento de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Remover um anúncio de um posicionamento de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 

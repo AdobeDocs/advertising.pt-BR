@@ -3,7 +3,7 @@ title: Editar um anúncio
 description: Saiba como editar um anúncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Save and Close]**.
 
-   O anúncio editado passa por uma nova [revisão de anúncio](ad-about.md), que leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de cliques e renderização de visualização. A coluna [!UICONTROL Status] indica se o DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
+   O anúncio editado passa por uma nova [revisão de anúncio](ad-about.md), que leva de 24 a 48 horas e inclui verificações de categorias confidenciais, funcionalidade de URL de cliques e renderização de visualização. A coluna [!UICONTROL Status] indica se a DSP aprovou o anúncio. Os anúncios quebrados podem ter um status pendente por mais de 24 a 48 horas, portanto, você tem tempo para corrigir erros antes que sejam rejeitados.
 
    >[!NOTE]
    >
-   >Seu anúncio só poderá ser veiculado se o DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
+   >Seu anúncio poderá ser veiculado somente se a DSP e o SSP tiverem aprovado o criativo. Cada SSP tem suas próprias exigências e processos de aprovação.
 
 >[!MORELIKETHIS]
 >

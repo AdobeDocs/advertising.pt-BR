@@ -1,26 +1,26 @@
 ---
-title: Perguntas frequentes sobre o Campaign Management
+title: Perguntas frequentes sobre o gerenciamento de campanhas
 description: Saiba mais sobre o gerenciamento de campanhas, incluindo o período de latência das alterações e o que acontece quando você faz alterações de orçamento durante uma veiculação.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre o Campaign Management
+# Perguntas frequentes sobre o gerenciamento de campanhas
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
-## Latência das Alterações de Configuração
+## Latência das alterações de configuração
 
 * Quando você altera uma configuração de posicionamento ou pacote, quando a alteração entra em vigor?
 
   As alterações nas configurações geralmente têm efeito imediatamente, mas podem levar até 12 horas.
 
-  Se for o último dia do delivery, faça alterações no início do dia, portanto, o DSP tem muito tempo para recalibrar o pacote com base nas alterações. Por exemplo, se você mudar de ritmo par para ritmo de carregamento prévio, o DSP precisa reavaliar como distribuir os gastos durante o restante do voo. Não faça esse tipo de mudança se você só tiver uma hora para entregar no último dia do voo.
+  Se for o último dia do delivery, faça alterações no início do dia, para que o DSP tenha tempo de sobra para recalibrar o pacote com base nas alterações. Por exemplo, se você alterar o ritmo de evento para o ritmo de carregamento prévio, o DSP precisará reavaliar como distribuir os gastos durante o restante do voo. Não faça esse tipo de mudança se você só tiver uma hora para entregar no último dia do voo.
 
 ## Atualizações de orçamento no meio do voo
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   A alocação de orçamento se baseia no desempenho de posicionamento, que é avaliado usando uma média de 14 dias. As alterações em um posicionamento resultam em alterações na alocação de orçamento somente quando causam alterações no desempenho durante a média de 14 dias.
 
-  Quando ocorrem alterações de desempenho, o DSP realoca o orçamento do pacote entre os posicionamentos de acordo durante o próximo ciclo de otimização do orçamento, que ocorre por volta da meia-noite (00:00) no fuso horário da campanha.
+  Quando ocorrem alterações de desempenho, o DSP realoca o orçamento do pacote entre os posicionamentos adequadamente durante o próximo ciclo de otimização de orçamento, que ocorre por volta da meia-noite (00:00) no fuso horário da campanha.
 
 * Como o orçamento é realocado quando um posicionamento é removido de um pacote e adicionado a outro pacote?
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * Como o ritmo do pacote muda no último dia de um voo?
 
-  No último dia de um voo, o dia é encurtado de 24 horas para 23 horas para que o orçamento do pacote não seja excedido. Além disso, a estratégia de preenchimento de ritmo do pacote muda automaticamente para &quot;[!UICONTROL Frontload]&quot;, mesmo que esteja definida como &quot;[!UICONTROL even]&quot;. Isso significa que 65% do orçamento diário deve ser entregue até às 11h30 EST.
+  No último dia de um voo, o dia é encurtado de 24 horas para 23 horas para que o orçamento do pacote não seja excedido. Além disso, a estratégia de preenchimento de ritmo do pacote muda automaticamente para &quot;[!UICONTROL Frontload]&quot;, mesmo que esteja definida como &quot;[!UICONTROL even]&quot;. Isso significa que 65% do orçamento diário deve ser entregue até às 11h00 EST.:30
 
 >[!MORELIKETHIS]
 >

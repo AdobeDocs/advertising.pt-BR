@@ -3,7 +3,7 @@ title: Criar manualmente detalhes da ID do contrato
 description: Saiba como inserir detalhes manualmente para uma ID de acordo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. Insira o nome da disposição.
 
-      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é preenchida automaticamente com o valor CPM da oferta; a alteração do intervalo de datas; ou a anexação de mais anúncios.
+      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é automaticamente preenchida com o valor de CPM da oferta, a alteração do intervalo de datas ou a anexação de mais anúncios.
 
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 

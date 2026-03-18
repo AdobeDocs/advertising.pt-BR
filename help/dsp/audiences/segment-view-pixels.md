@@ -3,7 +3,7 @@ title: Exibir pixels de rastreamento para um segmento
 description: Saiba como visualizar os pixels de rastreamento para um segmento de recusa de venda personalizado ou CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Mantenha o cursor sobre a linha de segmento e clique em **[!UICONTROL Get Pixel]**.
 
-   * A marca de rastreamento de exibição de página, que rastreia visitantes móveis e de desktop em uma página da Web, é rotulada como &quot;[!UICONTROL Desktop or mobile websites]&quot;. Para segmentos que rastreiam [!DNL ID5] IDs, substitua `ID5_PARTNER_ID` na marca copiada pela ID do parceiro que [!DNL ID5] atribuiu à sua organização quando ela assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta do Adobe.
+   * A marca de rastreamento de exibição de página, que rastreia visitantes móveis e de desktop em uma página da Web, é rotulada como &quot;[!UICONTROL Desktop or mobile websites]&quot;. Para segmentos que rastreiam [!DNL ID5] IDs, substitua `ID5_PARTNER_ID` na marca copiada pela ID do parceiro que [!DNL ID5] atribuiu à sua organização quando ela assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta da Adobe.
 
      Adicione a tag às páginas cujas visualizações você deseja rastrear.
 

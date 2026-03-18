@@ -3,9 +3,9 @@ title: Soluções entre dispositivos
 description: Saiba mais sobre os recursos entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ao usar um gráfico de dispositivos com base em pessoas compatível, você pode:
 * Equilíbrio e exposição por meio da compreensão e limitação de frequência entre indivíduos.
 * Estratégias de teste que expõem versus convertem públicos em canais ou dispositivos.
 
-## Benefícios do Gráfico de dispositivos [!DNL LiveRamp]
+## Benefícios do gráfico de dispositivos [!DNL LiveRamp]
 
 * Fornece um pool de dados determinístico, incluindo dados offline do cliente
 
@@ -30,7 +30,7 @@ Ao usar um gráfico de dispositivos com base em pessoas compatível, você pode:
 
 * É livre para medição de limite de frequência e atribuição
 
-* Com preço de US$ 0,35 CPM para impressões estendidas (impressões fornecidas exclusivamente usando o gráfico de dispositivos [!DNL LiveRamp], em vez de dispositivos encontrados nos segmentos de público-alvo direcionados)
+* Com preço de US$ 0,35 no CPM para impressões estendidas (impressões que são fornecidas exclusivamente usando o gráfico de dispositivos [!DNL LiveRamp], em vez de dispositivos encontrados nos segmentos de público-alvo direcionados)
 
   A taxa é refletida no seu cartão de taxa de conta.
 
@@ -38,7 +38,7 @@ Ao usar um gráfico de dispositivos com base em pessoas compatível, você pode:
 
 O gerenciamento de frequência com base em pessoas permite especificar limites de frequência no nível da pessoa, em vez do nível do dispositivo, para um verdadeiro controle de exposição da mídia.
 
-### Ativar o Gerenciamento de frequência com base em pessoas
+### Ativar gerenciamento de frequência com base em pessoas
 
 * **Campanhas:** ao criar uma nova campanha, você pode especificar uma configuração [!UICONTROL Cross-Device Level]. Habilite &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selecione um gráfico de dispositivos. O gráfico de dispositivos especificado é usado para direcionamento entre dispositivos no nível de posicionamento e para gerenciamento de frequência com base em pessoas no nível de campanha, pacote e posicionamento. Os limites de frequência se aplicam a todos os dispositivos conhecidos de uma pessoa.
 
@@ -50,11 +50,11 @@ Depois de salvar uma campanha, você não poderá alterar sua configuração [!U
 
 * **Posicionamentos:** você pode, opcionalmente, definir limites de frequência adicionais no nível de posicionamento. O DSP respeita o limite de frequência mais rigoroso na hierarquia de campanha.
 
-## Direcionamento com base em pessoas
+## Segmentação com base em pessoas
 
 O direcionamento com base em pessoas permite encontrar clientes no desktop e nos dispositivos móveis.
 
-### Ativar o direcionamento com base em pessoas
+### Ativar segmentação com base em pessoas
 
 * **Campanhas:** ao criar uma nova campanha, você pode especificar uma configuração [!UICONTROL Cross-Device Level]. Habilite &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selecione um gráfico de dispositivos. O gráfico de dispositivos especificado é usado para direcionamento entre dispositivos no nível de posicionamento e para gerenciamento de frequência com base em pessoas.
 
@@ -62,7 +62,7 @@ Para obter mais informações, consulte [Configurações da campanha](/help/dsp/
 
 * **Posicionamentos:** ao selecionar destinos de público-alvo para um posicionamento em uma campanha com um gráfico de dispositivos especificado, uma opção [!UICONTROL Cross-Device Targeting] permite estender seu direcionamento para todos os dispositivos conhecidos de uma pessoa (de acordo com o gráfico de dispositivos especificado nas configurações da campanha), até mesmo dispositivos que não estão nos segmentos especificados.
 
-### Configurar relatórios para direcionamento com base em pessoas
+### Configurar relatórios para segmentação com base em pessoas
 
 Você pode incluir as seguintes métricas nos relatórios personalizados:
 
@@ -74,19 +74,19 @@ Você pode incluir as seguintes métricas nos relatórios personalizados:
 
 * **Gráfico de dispositivos:** (na seção [!UICONTROL Build Your Report] em [!UICONTROL Dimensions] > [!UICONTROL Campaign]) O gráfico de dispositivos selecionado para uma campanha, um pacote ou um posicionamento específico.
 
-## Medição de atribuição com base em pessoas
+## Medição de atribuição baseada em pessoas
 
-*Anunciantes com Rastreamento de Conversão de Adobe Advertising Somente*
+*Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
-Com a atribuição baseada em pessoas, você pode atribuir conversões que ocorreram em um dispositivo diferente do dispositivo no qual ocorreu a exposição da mídia. A medição de atribuição baseada em pessoas está disponível por DSP, [!DNL Adobe Advertising Creative] e [!DNL Adobe Advertising Search, Social, & Commerce] para anunciantes que implementaram pixels de conversão de Adobe Advertising em seus sites.
+Com a atribuição baseada em pessoas, você pode atribuir conversões que ocorreram em um dispositivo diferente do dispositivo no qual ocorreu a exposição da mídia. A medição de atribuição com base em pessoas está disponível no DSP, [!DNL Adobe Advertising Creative] e [!DNL Adobe Advertising Search, Social, & Commerce] para anunciantes que implementaram pixels de conversão do Adobe Advertising em seus sites.
 
-### Ativar medição de atribuição com base em pessoas
+### Habilitar medição de atribuição baseada em pessoas
 
-Se você quiser ativar a medição de atribuição entre dispositivos, entre em contato com a equipe de conta do Adobe.
+Se quiser ativar a medição de atribuição entre dispositivos, entre em contato com a equipe de conta da Adobe.
 
-### Configurar relatórios de conversão para atribuição de conversão entre dispositivos
+### Configurar relatórios do [!UICONTROL Conversion] para atribuição de conversão entre dispositivos
 
-#### Configurações do relatório de conversão
+#### Configurações do relatório de [!UICONTROL Conversion]
 
 Quando um gráfico de dispositivos é habilitado para medição de atribuição, o Relatório [!UICONTROL Conversion] inclui uma configuração [!UICONTROL Cross-Device Breakout], que permite incluir até três colunas separadas para cada métrica de conversão, incluindo:
 
@@ -96,7 +96,7 @@ Quando um gráfico de dispositivos é habilitado para medição de atribuição,
 
 * &lt;*Conversion*>[!UICONTROL (xd)]: (opcional) inclui somente conversões para as quais mais de um dispositivo foi rastreado no caminho de conversão. No relatório, &quot;[!UICONTROL (xd)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(xd)).
 
-#### Como interpretar o relatório de conversão
+#### Como interpretar o relatório [!UICONTROL Conversion]
 
 Classifique a porcentagem do total de conversões entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de alto a baixo para entender o que está gerando conversões entre dispositivos acima da média. Você pode usá-lo para informar sua estratégia criativa ou de direcionamento para corresponder o investimento em mensagens e canais ao comportamento do usuário.
 

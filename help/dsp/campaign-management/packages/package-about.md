@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de pacotes no Advertising DSP
 description: Saiba mais sobre gerenciamento de pacotes.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Sobre o gerenciamento de pacotes no Advertising DSP
 
-Use pacotes para agrupar disposições para entrega em um orçamento definido, meta de desempenho e estratégia de ritmo personalizada. O DSP otimiza os pacotes, transferindo os orçamentos para os posicionamentos de melhor desempenho no pacote. Você pode organizar pacotes por formato de posicionamento, tipo de inventário, provedor de dados, persona ou outras características distinguíveis. Os pacotes são opcionais.
+Use pacotes para agrupar disposições para entrega em um orçamento definido, meta de desempenho e estratégia de ritmo personalizada. A DSP otimiza os pacotes, transferindo os orçamentos para os posicionamentos de melhor desempenho no pacote. Você pode organizar pacotes por formato de posicionamento, tipo de inventário, provedor de dados, persona ou outras características distinguíveis. Os pacotes são opcionais.
 
 É possível criar pacotes manualmente ou duplicando pacotes existentes. Também é possível editar e anexar disposições a qualquer pacote.
 
-## O Painel [!UICONTROL Packages]
+## O painel [!UICONTROL Packages]
 
 O painel [!UICONTROL Packages] centraliza o desempenho e os relatórios econômicos em todas as estratégias de pacote, fornecendo instantâneos rápidos do desempenho de seus pacotes durante um intervalo de datas especificado.
 

@@ -1,16 +1,16 @@
 ---
-title: Sobre Assinaturas de Alerta
+title: Sobre assinaturas de alerta
 description: Saiba mais sobre alertas automáticos de email.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# Sobre Assinaturas de Alerta
+# Sobre assinaturas de alerta
 
 Você pode criar grupos de alertas de email automáticos, chamados de assinaturas, que enviam notificações por email quando parâmetros de negócios de conta, campanha, anúncio e inventário privado especificados são atendidos.
 

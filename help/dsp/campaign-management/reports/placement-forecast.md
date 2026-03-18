@@ -1,16 +1,16 @@
 ---
-title: Exibir o Relatório de Previsão de Posicionamento
+title: Exibir o relatório de previsão de posicionamento
 description: Consulte o número de impressões, gastos e lance máximo ideal previstos para uma estratégia de direcionamento específica para uma inserção.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Exibir o Relatório de Previsão de Posicionamento
+# Exibir o relatório de previsão de posicionamento
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -21,7 +21,7 @@ A ferramenta de previsão de posicionamento mostra o número previsto de impress
 >* Os códigos postais não são considerados nos cálculos de previsão de posicionamento.
 >* Nenhuma previsão é gerada para inserções com direcionamento apenas programático garantido (PG), pois a disponibilidade e os gastos são determinísticos.
 
-## Informações na Previsão
+## Informações na previsão
 
 A previsão inclui as seguintes informações:
 
@@ -39,7 +39,7 @@ A previsão inclui as seguintes informações:
 
 * **[!UICONTROL Message]:** Fornece informações sobre a saída prevista, incluindo cenários nos quais a previsão não pôde ser gerada. Também destaca as configurações de direcionamento analisadas, mas não consideradas nesse cenário devido à falta de dados.
 
-### Cálculo de Orçamento
+### Cálculo de orçamento
 
 * Para inserções não atribuídas a um pacote, o orçamento de inserção é usado para cálculos. Dentro de um voo, o mesmo orçamento geral é calculado.
 
@@ -65,7 +65,7 @@ A previsão inclui as seguintes informações:
 
      Uma inserção geralmente é uma coleção de vários modelos de anúncio, conforme definido pelas plataformas do lado da oferta. Portanto, mesmo que o posicionamento já exista há muito tempo, se o modelo de anúncio subjacente for novo, a ferramenta de previsão não poderá criar uma previsão.
 
-## Abrir o Relatório de Previsão de Posicionamento
+## Abrir o relatório de previsão de posicionamento
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -81,6 +81,6 @@ A previsão inclui as seguintes informações:
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

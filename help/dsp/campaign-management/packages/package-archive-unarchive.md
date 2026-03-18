@@ -3,7 +3,7 @@ title: Arquivar ou desarquivar um pacote
 description: Saiba como arquivar ou desarquivar um pacote.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

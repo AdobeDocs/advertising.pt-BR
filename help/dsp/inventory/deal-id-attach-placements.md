@@ -1,16 +1,16 @@
 ---
-title: Especificar disposições e anúncios para um acordo privado
+title: Especificar posicionamentos e anúncios para um negócio privado
 description: Saiba como usar uma negociação privada com posicionamentos e anúncios adicionais.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-# Especificar disposições e anúncios para um acordo privado
+# Especificar posicionamentos e anúncios para um negócio privado
 
 Para ofertas não garantidas, você pode especificar a oferta como um destino de inventário para novos posicionamentos na exibição [!UICONTROL Placements].
 
@@ -18,11 +18,11 @@ Para ofertas programáticas garantidas (PG), você pode criar inserções com an
 
 Você também pode [anexar anúncios a inserções](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associadas a ofertas PG e não garantidas a qualquer momento.
 
-## Especificar uma Negociação Não Garantida como um Destino de Inventário para uma Colocação
+## Especificar uma negociação não garantida como um destino de estoque para uma inserção
 
 * [Criar um posicionamento a partir da [!UICONTROL Placements] exibição](/help/dsp/campaign-management/placements/placement-create.md). Nas configurações de [!UICONTROL Inventory Targeting], selecione a oferta privada.
 
-## Anexar inserções e anúncios a um contrato de PG
+## Anexar posicionamentos e anúncios a um contrato PG
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -40,7 +40,7 @@ Você também pode [anexar anúncios a inserções](/help/dsp/campaign-managemen
 
       1. Insira o nome da disposição.
 
-      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é preenchida automaticamente com o valor CPM da oferta; a alteração do intervalo de datas; ou a anexação de mais anúncios.
+      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é automaticamente preenchida com o valor de CPM da oferta, a alteração do intervalo de datas ou a anexação de mais anúncios.
 
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 

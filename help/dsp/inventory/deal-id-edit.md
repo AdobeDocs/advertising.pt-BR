@@ -1,16 +1,16 @@
 ---
-title: Editar configurações de oferta privada
+title: Editar configurações de negociação privada
 description: Saiba como editar detalhes de uma negociação privada.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# Editar configurações de oferta privada
+# Editar configurações de negociação privada
 
 As alterações em uma transação aceita não são sincronizadas do SSP. Se você aceitou uma oferta, mas o editor enviou alterações, você pode editar alguns elementos das configurações da oferta de [!UICONTROL Inventory] > [!UICONTROL Deals]. Você também pode renomear uma transação a qualquer momento.
 

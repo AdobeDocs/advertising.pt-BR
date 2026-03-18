@@ -1,18 +1,18 @@
 ---
-title: Sobre Listas de Sites Bloqueadas no Nível da Conta e no Nível do Anunciante
+title: Sobre listas de sites bloqueados no nível da conta e do anunciante
 description: Saiba mais sobre a lista de sites bloqueados de uma conta ou anunciante.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Sobre Listas de Sites Bloqueadas no Nível da Conta e no Nível do Anunciante
+# Sobre listas de sites bloqueados no nível da conta e do anunciante
 
-É possível editar a lista de sites bloqueados usada para toda a conta DSP e listas adicionais para anunciantes individuais na conta.
+É possível editar a lista de sites bloqueados usada para toda a conta do DSP e listas adicionais para anunciantes individuais na conta.
 
 As listas de sites bloqueados definem conjuntos de destinos a serem excluídos para suas inserções. Cada lista pode consistir em domínios de site de nível superior e em qualquer nível de subdomínios (como example.com, my.example.com ou my.new.example.com) e IDs de aplicativo móvel ou nomes de pacote (como com.example.app123).
 

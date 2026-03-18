@@ -1,27 +1,27 @@
 ---
-title: Soluções de medição avançada
+title: Soluções avançadas de medição
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# Soluções de medição avançada
+# Soluções avançadas de medição
 
 Os anunciantes geralmente têm dificuldades para entender como seus diferentes canais de mídia trabalham juntos, onde seu próximo dólar de mídia pode ser mais bem gasto ou como quantificar o impacto de seus anúncios online em relação aos objetivos comerciais principais.
 
 Em um cenário de mídia orientado por dados, a medição de atribuição fornece uma solução para esse desafio. A equipe de Avaliação e estratégia avançadas (AMS) ajuda os parceiros de marca e agência a medir como os elementos de sua Adobe Advertising compram, juntamente com suas integrações do [!DNL Adobe], os resultados da busca. Com ofertas robustas de medição de atribuição, o AMS pode implantar estratégias de direcionamento com curadoria usando estruturas de medição sofisticadas, facilitando para as marcas a conexão de seu dinheiro de mídia aos resultados do mundo real que impulsionam seus negócios. A equipe pode ajudá-lo a:
 
-* Ativar estudos de medição em campanhas de mídia digital de funil completo
+* Ativar estudos de medição em campanhas de mídia digital completas do funnel
 
 * Amplie sua narrativa de campanha com soluções de relatórios em pacotes
 
 * Evolua sua prática de publicidade aprendendo e melhorando a eficácia da campanha ao longo do tempo
 
-## Pacotes de soluções
+## Pacotes de solução
 
 Os seguintes pacotes de solução de medição estão disponíveis para validar o sucesso de suas campanhas de publicidade:
 
@@ -57,7 +57,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
   Compare o comportamento de grupos de amostra aleatórios e mutuamente exclusivos com testes A/B simples e limpos.
 
-## Encontrando o ajuste de medição perfeito: Soluções por vertical
+## Encontrando a medida perfeita: soluções por vertical
 
 * **Todos os Verticais:**
 
@@ -79,7 +79,7 @@ Os seguintes pacotes de solução de medição estão disponíveis para validar 
 
    * Medição de tráfego de pé
 
-## Mais Informações
+## Mais informações
 
 Para obter informações sobre todas as soluções avançadas de medição, descrevendo informações de preços, bem como formatos e regiões disponíveis para cada solução, entre em contato com a equipe de conta da Adobe. Estudos de caso específicos da solução também estão disponíveis mediante solicitação.
 

@@ -1,16 +1,16 @@
 ---
-title: Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante
+title: Editar uma lista de sites bloqueados no nível da conta ou do anunciante
 description: Saiba como gerenciar a lista de sites bloqueados para uma conta ou anunciante.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante
+# Editar uma lista de sites bloqueados no nível da conta ou do anunciante
 
 1. No menu principal, clique em **Configurações > Sites.**
 

@@ -3,7 +3,7 @@ title: Anexar um posicionamento a um pacote
 description: Saiba como anexar uma disposição a um pacote.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Anexar um posicionamento a um pacote
 
-## Anexar um Novo Posicionamento da Exibição [!UICONTROL Placements]
+## Anexar um novo posicionamento da exibição [!UICONTROL Placements]
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. Insira as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) restantes e clique em **[!UICONTROL Create Placement]**.
 
-## Anexar um Posicionamento Novo ou Existente da Exibição [!UICONTROL Packages]
+## Anexar um posicionamento novo ou existente da exibição [!UICONTROL Packages]
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 

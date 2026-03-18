@@ -1,32 +1,32 @@
 ---
-title: Política de requisitos de anúncio de Adobe Advertising
+title: Política de requisitos de anúncios do Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
 
 ---
 
-# Política de requisitos de anúncio de Adobe Advertising
+# Política de requisitos de anúncios do Adobe Advertising
 
 *Última atualização da política: 17 de julho de 2024<!-- (except for formatting changes unrelated to content)-->*
 
 *Para Adobe Advertising DSP e Adobe Advertising Search, Social e Commerce*
 
-Esta Política de requisitos de anúncios (&quot;Política&quot;) estabelece os requisitos para anúncios distribuídos através dos [!DNL Adobe’s] Serviços sob demanda para o Adobe Advertising (&quot;Serviços&quot;). Esta Política é incorporada por referência ao Contrato entre [!DNL Adobe] e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
+Esta Política de requisitos de anúncios (&quot;Política&quot;) define os requisitos para anúncios distribuídos pelos [!DNL Adobe’s] Serviços sob demanda para a Adobe Advertising (&quot;Serviços&quot;). Esta Política é incorporada por referência ao Contrato entre [!DNL Adobe] e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
 
 [!DNL Adobe] reserva-se o direito de determinar, em seu julgamento único, se um Anúncio, ou os sites para os quais o Anúncio redireciona ou vincula, viola os requisitos desta Política, em cujo evento [!DNL Adobe] pode rejeitar tal Anúncio e/ou encerrar ou suspender o acesso aos Serviços com base nisso.
 
 Além dos requisitos estabelecidos abaixo e no Contrato, você deve estar em conformidade com os requisitos impostos por cada fonte de mídia na qual você coloca seus Anúncios, bem como aqueles impostos por qualquer plataforma do lado do suprimento (SSP) ou outra plataforma usada para entregar qualquer um de seus Anúncios. É sua responsabilidade entender e cumprir as políticas dos editores e plataformas por meio das quais você fornece os anúncios.
 
-## Requisitos do conteúdo de publicidade
+## Requisitos de conteúdo de anúncio
 
-### Requisitos criativos
+### Requisitos do Creative
 
-Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de publicidade contidas nas Especificações de anúncios do Adobe Advertising, conforme revisto periodicamente por [!DNL Adobe].
+Todos os anúncios transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda devem ser consistentes com as especificações de anúncios contidas nas Especificações de anúncios do Adobe Advertising, conforme revisto ocasionalmente por [!DNL Adobe].
 
 ### Anúncios proibidos
 
@@ -129,10 +129,10 @@ Os Serviços não podem ser usados para direcionar anúncios para usuários ou e
 
 * **Direcionamento Relacionado À Integridade**. Você não pode usar os Serviços para coletar dados sensíveis relacionados à saúde ou para deduzir sobre a saúde sensível dos usuários ou tratamentos médicos. Em particular, você não pode usar os Serviços para direcionar anúncios para qualquer um dos seguintes: qualquer forma de câncer, doenças relacionadas à saúde mental ou doenças sexualmente transmissíveis. A publicidade pode ser direcionada para condições de saúde não sensíveis, incluindo acne, alergias, odontologia, visão, azia, frio e gripe, seio, cefaleia, dor nas costas, primeiros socorros, dor de garganta, administração de açúcar no sangue, dieta e fitness, remoção de cabelo e vitaminas e suplementos.
 
-## Sem Discriminação
+## Sem discriminação
 
 Você não pode usar os Serviços para se envolver em discriminação em violação da lei, incluindo direcionar ilegalmente grupos específicos de pessoas para publicidade, excluir ilegalmente grupos específicos de pessoas de ver anúncios ou apresentar conteúdo discriminatório em anúncios. Você é responsável por usar os Serviços de forma responsável para evitar a discriminação contra classes protegidas, incluindo, mas não se limitando a, garantir que seus anúncios não tenham um impacto diferente nas classes protegidas.
 
 >[!MORELIKETHIS]
 >
->* [Diretrizes de Segmento de Integridade Aceitáveis](/help/policies/health-segment-guidelines.md)
+>* [Diretrizes de segmento de integridade aceitáveis](/help/policies/health-segment-guidelines.md)

@@ -1,17 +1,17 @@
 ---
-title: Suporte da Adobe Advertising para a California Consumer Privacy Act &#58; Suporte ao cancelamento de venda do consumidor
+title: Suporte do Adobe Advertising para a California Consumer Privacy Act &#58; Suporte ao cancelamento de venda do consumidor
 description: Saiba mais sobre o suporte para capturar solicitações de cancelamento de venda do consumidor.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor
+# Suporte do Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor
 
 *Para Adobe Advertising Demand Side Platform (DSP)*
 
@@ -27,7 +27,7 @@ Como seu provedor de serviços, a Adobe Advertising fornece suporte para que sua
 
 Este documento descreve como o Adobe Advertising Demand Side Platform (DSP), como provedor de serviços, oferece suporte ao direito do consumidor de recusar a &quot;venda&quot; de &quot;informações pessoais&quot;, pois cada termo é definido pela CCPA. Ele inclui informações sobre como comunicar solicitações de cancelamento de venda ao Adobe Advertising e como recuperar relatórios de solicitações de cancelamento de venda de sua organização.
 
-Para obter informações sobre como o [!DNL Advertising Search, Social, & Commerce], o Advertising Creative e o [!DNL Advertising DCO] oferecem suporte aos direitos de acesso e exclusão de informações pessoais dos consumidores, consulte o [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Data Access and Delete Support](/help/privacy/ccpa/ccpa-access-delete.md).
+Para obter informações sobre como o [!DNL Advertising Search, Social, & Commerce], o Advertising Creative e o [!DNL Advertising DCO] oferecem suporte aos direitos de acesso e exclusão de informações pessoais dos consumidores, consulte o [Suporte da Adobe Advertising para a California Consumer Privacy Act: acesso aos dados do consumidor e suporte à exclusão](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Para obter mais informações sobre os serviços de privacidade da Adobe para CCPA, consulte o [Centro de Privacidade da Adobe](https://www.adobe.com/privacy/ccpa.html).
 
@@ -68,7 +68,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
 
-1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=pt-BR) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
+1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
    Consulte o Apêndice abaixo para obter um exemplo de solicitação de recusa de venda.
 
@@ -76,21 +76,21 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).
+Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## Recuperação de relatórios de consumidores que enviaram solicitações de recusa de venda
+## Recuperação de relatórios de consumidores que enviaram solicitações de não participação na venda
 
 O Adobe Advertising gera relatórios mensais de IDs que os clientes enviaram para solicitações de recusa de venda para a conta. Cada relatório está disponível como um arquivo de texto separado por tabulação e compactado no formato GZIP. Os dados consolidam solicitações capturadas usando segmentos de cancelamento de venda do CCPA que foram criados no Advertising DSP e quaisquer envios feitos por meio da API do Privacy Service. As IDs de usuário capturadas nos segmentos de cancelamento de venda do CCPA são identificadas por segmento e pelo anunciante. Os relatórios são gerados no primeiro dia de cada mês do mês anterior. Por exemplo, a lista mensal de usuários de junho está disponível em 1º de julho.
 
 Você pode recuperar links para os relatórios mensais criados nos três meses anteriores, no Advertising DSP ou usando o Advertising DSP [!DNL Trafficking API]. Cada link é válido por sete dias, mas é atualizado sempre que um cliente tenta recuperar um.
 
-### Método 1: Recuperar relatórios de cancelamento de venda do consumidor no Advertising DSP
+### Método 1: recuperar relatórios de cancelamento de venda do consumidor no Advertising DSP
 
 1. Entre na conta do anunciante no Advertising DSP em [https://advertising.adobe.com/](https://advertising.adobe.com/).
 
 1. [Recupere os relatórios](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
-### Método 2: Recuperar Relatórios de Cancelamento de Venda do Consumidor Usando o Advertising DSP [!DNL Trafficking API]
+### Método 2: recuperar relatórios de cancelamento de venda do consumidor usando o Advertising DSP [!DNL Trafficking API]
 
 Este recurso está disponível para organizações que usam o [!DNL Trafficking API]. Consulte a documentação de [!DNL Trafficking API] para obter mais informações.<!-- Add link to API doc once it's published. -->
 
@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix):
+onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica o espaço de cookies `AdCloud`, e o valor correspondente é a ID do cookie do cliente conforme recuperada de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que a solicitação se aplica ao produto Adobe Advertising

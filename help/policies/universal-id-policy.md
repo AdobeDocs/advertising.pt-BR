@@ -1,16 +1,16 @@
 ---
-title: Política de requisitos de ID universal do Adobe Advertising
+title: Política de requisitos do Adobe Advertising Universal ID
 description: Consulte a política para o uso de Universal IDs.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Política de requisitos de ID universal do Adobe Advertising
+# Política de requisitos do Adobe Advertising Universal ID
 
 Última atualização: 29 de fevereiro de 2024
 
@@ -36,15 +36,15 @@ Ao optar por usar as Universal IDs disponibilizadas pelos Serviços, você conco
 
 * Se você receber uma opção de não participação após a Data efetiva do contrato, não será mais utilizado o Universal ID desse usuário que se recusou a participar.
 
-### UID2 Países proibidos
+### Países proibidos pela UID2
 
-Ao optar por usar UID2 Universal IDs por meio dos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda para tal uso em conexão com UID2 Universal IDs não estejam relacionados a nenhum indivíduo que seja residente de qualquer um dos [Países UID2 proibidos listados no Anexo A](#prohibited-countries-uid2) deste documento.
+Ao optar por usar as UID2 Universal IDs por meio dos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda para tal uso em conexão com as UID2 Universal IDs não estejam relacionados a nenhuma pessoa que seja residente de qualquer um dos [Países proibidos da UID2 listados no Anexo A](#prohibited-countries-uid2) deste documento.
 
-## Sem Discriminação
+## Sem discriminação
 
 Você não pode usar os Serviços para se envolver em discriminação em violação da lei, incluindo direcionar ilegalmente grupos específicos de pessoas para publicidade, excluir ilegalmente grupos específicos de pessoas de ver anúncios ou apresentar conteúdo discriminatório em anúncios. Você é responsável por usar os Serviços de forma responsável para evitar a discriminação contra classes protegidas, incluindo, mas não se limitando a, garantir que seus anúncios não tenham um impacto diferente nas classes protegidas.
 
-## Anexo A: UID2 Países proibidos {#prohibited-countries-uid2}
+## Anexo A: países proibidos pela UID2 {#prohibited-countries-uid2}
 
 ### Países da UE
 

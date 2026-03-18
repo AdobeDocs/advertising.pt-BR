@@ -1,18 +1,18 @@
 ---
-title: Suporte da Adobe Advertising para privacidade do consumidor
+title: Suporte do Adobe Advertising para a privacidade do consumidor
 description: O Adobe Advertising fornece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir as leis de privacidade do consumidor.
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 1f9b2866-c0c6-4733-a687-d72eb4014598
-source-git-commit: e0f1f7619429492af01d6b67bf56de5ed9894147
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
-# Suporte da Adobe Advertising para privacidade do consumidor
+# Suporte do Adobe Advertising para a privacidade do consumidor
 
 O Adobe Advertising fornece controles de segurança e privacidade para ajudar os clientes anunciantes a cumprir as seguintes leis de privacidade do consumidor:
 

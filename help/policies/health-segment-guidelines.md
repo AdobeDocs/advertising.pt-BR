@@ -3,14 +3,14 @@ title: Segmentos de integridade aceitáveis do Adobe Advertising
 description: Consulte as diretrizes sobre segmentos de público-alvo e táticas aceitáveis relacionadas à saúde a serem usadas como alternativas para segmentar segmentos de público-alvo relacionados à saúde.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Diretrizes de segmento de integridade aceitável do Adobe Advertising
+# Diretrizes de segmento de integridade aceitáveis do Adobe Advertising
 
 *Para Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
@@ -18,19 +18,19 @@ As diretrizes a seguir descrevem segmentos de público-alvo aceitáveis e relaci
 
 Essas diretrizes são resumidas a partir do [!DNL Network Advertising Alliance (NAI)].
 
-Consulte também [Política de requisitos de anúncios de Adobe Advertising](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado à integridade pode ser usado pela política de direcionamento de Adobe Advertising.
+Consulte também [política de requisitos de anúncios do Adobe Advertising](/help/policies/ad-requirements-policy.md) para determinar se um segmento de público-alvo relacionado à integridade pode ser usado pela política de direcionamento do Adobe Advertising.
 
 ## Segmentos de integridade que não devem ser usados
 
 * Segmentos que dependem de informações médicas protegidas (PHI)\*, registros médicos no nível do usuário, receitas farmacêuticas ou fontes médicas ou de saúde semelhantes que fornecem conhecimento real sobre a condição ou o tratamento desse usuário.
 
-  \* Adobe Advertising não é uma solução pronta para [!DNL HIPAA].
+  \* O Adobe Advertising não é uma solução pronta para [!DNL HIPAA].
 
 * Segmentos direcionados a condições de saúde (ou tratamentos relacionados), como qualquer forma de câncer, saúde mental, dependência de drogas, doenças sexualmente transmissíveis, condições que afetam predominantemente crianças ou outras condições de saúde sensíveis que não podem ser tratadas com medicamentos de venda livre (por exemplo, diabetes, psoríase, artrite reumatoide ou doenças fibromialgia).
 
 * Segmentos que dependem de uma atividade anterior da Web, do uso do aplicativo ou da atividade de conteúdo visualizada de um usuário ou dispositivo que expressem interesse em uma condição ou tratamento médico ou de saúde sensível (conforme descrito no bloco acima).
 
-## Segmentos De Integridade Que Podem Ser Usados
+## Segmentos de integridade que podem ser usados
 
 Todos os itens a seguir devem ser verdadeiros:
 

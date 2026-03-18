@@ -3,9 +3,9 @@ title: Recuperar relatórios de cancelamento de venda do consumidor
 description: Saiba como recuperar relatórios de IDs enviados para solicitações de recusa de venda.
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Você pode recuperar relatórios mensais de IDs que os clientes enviaram para so
 
 >[!NOTE]
 >
->Como opção, você pode recuperar relatórios de cancelamento de venda do consumidor usando o DSP [!DNL Trafficking API]. Para obter instruções, consulte a documentação do [!DNL Trafficking API]. Se a sua organização não usa o [!DNL Trafficking API], mas está interessada em obter mais informações, contate a equipe de conta do Adobe.
+>Como opção, você pode recuperar relatórios de cancelamento de venda do consumidor usando o DSP [!DNL Trafficking API]. Para obter instruções, consulte a documentação do [!DNL Trafficking API]. Se a sua organização não usar o [!DNL Trafficking API], mas estiver interessada em obter mais informações, contate a equipe de conta da Adobe.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. Acima da lista de segmentos, clique em **[!UICONTROL Access CCPA Reports]**.
@@ -24,7 +24,7 @@ Você pode recuperar relatórios mensais de IDs que os clientes enviaram para so
 
 >[!MORELIKETHIS]
 >
->* [Suporte Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Suporte do Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Sobre [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e Relatórios](ccpa-opt-out-about.md)
 >* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
 >* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)

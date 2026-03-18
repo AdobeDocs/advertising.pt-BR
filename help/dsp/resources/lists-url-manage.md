@@ -2,7 +2,8 @@
 title: Gerenciar listas de URLs
 description: Saiba como criar e gerenciar listas de URLs para direcionamento de posicionamento.
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -161,7 +162,7 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
       1. Clique em **[!UICONTROL Remove]**.
 
-## Exportar uma lista de URLs
+## Exportar uma lista de URLS
 
 1. No menu principal, clique em **[!UICONTROL Resources]** > **[!UICONTROL URL Lists]**.
 

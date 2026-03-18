@@ -2,7 +2,8 @@
 title: Baixar um relatório personalizado
 description: Saiba como baixar um relatório personalizado imediatamente.
 feature: DSP Custom Reports
-source-git-commit: 02d670231e1362f902aeb8bc358986e8381512f4
+exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

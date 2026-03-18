@@ -3,7 +3,7 @@ title: Editar um relatório personalizado
 description: Saiba como editar configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [Executar um Relatório Personalizado](/help/dsp/reports/report-run-now.md)
 >* [Excluir um relatório personalizado](/help/dsp/reports/report-delete.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)

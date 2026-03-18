@@ -3,7 +3,7 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das configurações de relatório personalizadas.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]:** O tipo de relatório: *[!UICONTROL Custom]* (que inclui a maioria das opções disponíveis), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, **, *[!UICONTROL Path Length]* ou *[!UICONTROL Time to Conversion]*.
 
-## Seção [!UICONTROL Report Range]
+## seção [!UICONTROL Report Range]
 
 Esta seção determina os dados incluídos no relatório. Para configurar datas para o agendamento do relatório, consulte a seção &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -32,7 +32,7 @@ Esta seção determina os dados incluídos no relatório. Para configurar datas 
 
 * **[!UICONTROL Custom Range]:** Inclui dados entre datas de início e término específicas. Para relatar dados até o dia anterior, selecione **[!UICONTROL Present]**.
 
-## Seção [!UICONTROL Report Run schedule]
+## seção [!UICONTROL Report Run schedule]
 
 Esta seção determina as datas em que o relatório é executado. Para configurar as datas nas quais incluir dados de relatório, consulte a seção &quot;[!UICONTROL Report range]&quot;.
 
@@ -60,7 +60,7 @@ Esta seção determina as datas em que o relatório é executado. Para configura
 
    * **Até**: a data de expiração do relatório, que pode ser de até quatro meses. Antes de um relatório expirar, todos os destinos de email especificados recebem um alerta por email sete dias e um dia antes da data de expiração. Para manter o relatório por mais tempo, altere esta data.
 
-## Seção [!UICONTROL Apply Filters]
+## seção [!UICONTROL Apply Filters]
 
 **[!UICONTROL Filter by]:** (Opcional) Dimensões adicionais pelas quais filtrar os dados, sejam as dimensões incluídas como colunas no relatório ou não. Os filtros disponíveis variam por tipo de relatório e podem incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
 
@@ -84,7 +84,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
    Para selecionar várias campanhas, clique em **[!UICONTROL Add Criteria]** para a segunda campanha e as campanhas subsequentes.
 
-## Seção [!UICONTROL Build Your Report]
+## seção [!UICONTROL Build Your Report]
 
 **[!UICONTROL Select To Add As Report Headers]:** As colunas de dados, ou cabeçalhos, a serem incluídos no relatório. Para adicionar uma coluna, expanda a categoria e marque a caixa de seleção ao lado do nome da coluna. As colunas disponíveis variam de acordo com o relatório e todas as métricas indisponíveis são desativadas. As categorias de dados disponíveis podem incluir:
 
@@ -113,7 +113,7 @@ Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; par
 
 **[!UICONTROL Headers]:** Se deseja *[!UICONTROL Include]* ou *[!UICONTROL Do Not Include]* cabeçalhos de coluna.
 
-## Seção [!UICONTROL Multi-Touch Conversion Options]
+## seção [!UICONTROL Multi-Touch Conversion Options]
 
 **[!UICONTROL Attribution Rule Settings]:** As configurações variam de acordo com o tipo de relatório:
 
@@ -167,7 +167,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL Event Timestamp]:* As conversões são relatadas com base na data da impressão ou clique que causou a conversão, conforme determinado pelo [!UICONTROL Attribution Rule Settings] especificado.
 
-## Seção [!UICONTROL Add Report Destinations]
+## seção [!UICONTROL Add Report Destinations]
 
 **[!UICONTROL Destination Type]:** Onde entregar os relatórios concluídos e as notificações de erro. Não é possível alterar o tipo de destino depois de salvar o relatório.
 
@@ -183,7 +183,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 

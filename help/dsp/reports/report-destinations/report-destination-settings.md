@@ -3,7 +3,7 @@ title: Configurações de destino do relatório
 description: Veja os detalhes necessários para os destinos do seu relatório, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

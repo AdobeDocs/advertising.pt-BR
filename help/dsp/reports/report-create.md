@@ -3,7 +3,7 @@ title: Criar um relatório personalizado
 description: Saiba como criar um relatório personalizado.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [Executar um Relatório Personalizado](/help/dsp/reports/report-run-now.md)
 >* [Excluir um relatório personalizado](/help/dsp/reports/report-delete.md)
 >* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)

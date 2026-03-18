@@ -3,14 +3,14 @@ title: Exibir um log de alterações do pacote
 description: Saiba como visualizar as alterações feitas no pacote.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Exibir o Log de Alterações de um Pacote
+# Exibir o log de alterações de um pacote
 
 Os logs de alterações mostram as alterações feitas no pacote durante o intervalo de datas selecionado, incluindo o nome do pacote, o tipo de entidade (Pacote), o tipo de alteração, os valores novos e antigos, o usuário que fez a alteração e a data. Opcionalmente, é possível adicionar notas a qualquer entrada.
 

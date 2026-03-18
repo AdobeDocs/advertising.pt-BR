@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre relatórios personalizados, incluindo relatórios domésticos e relatórios de análise do caminho de conversão.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Perguntas frequentes sobre relatórios personalizados
 
-## Relatórios do Agregado
+## Relatórios do agregado
 
-### O Relatório [!UICONTROL Household Reach & Frequency]
+### O relatório [!UICONTROL Household Reach & Frequency]
 
 #### Qual a diferença entre os relatórios do [!UICONTROL Household Reach & Frequency] e de outros relatórios personalizados?
 
@@ -25,7 +25,7 @@ Por exemplo, mesmo que uma impressão seja transmitida a três dispositivos em u
 
 O relatório [!UICONTROL Household Reach & Frequency] oferece suporte às [seguintes dimensões](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; (que não fornece acesso a métricas de sobreposição), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot; e ao posicionamento criado pelo usuário &quot;[!UICONTROL Tags].&quot; |
 
-##### Métricas suportadas
+##### Métricas compatíveis
 
 As [métricas disponíveis](/help/dsp/reports/report-columns.md) incluem:
 
@@ -71,7 +71,7 @@ Para criar marcas para o posicionamento, [abra as configurações de posicioname
 
 Quando um posicionamento inclui várias tags, o relatório considera a string inteira como uma tag. O relatório inclui uma linha para cada sequência exclusiva.
 
-### O Relatório [!UICONTROL Household Conversions]
+### O relatório [!UICONTROL Household Conversions]
 
 #### Quais métodos de atribuição são suportados no relatório [!UICONTROL Household Conversions]?
 
@@ -101,7 +101,7 @@ Os relatórios [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household 
 
 O caso de uso ideal é usar o relatório [!UICONTROL Household] e os serviços de relatórios e consultoria [!DNL Advanced Measurement Services] juntos. Considere o relatório [!UICONTROL Household] como transacional, destinado a informar otimizações diárias, e [!DNL Advanced Measurement Services] como mais estratégico, destinado a informar aprendizados holísticos e vantagens vinculados a objetivos comerciais abrangentes.
 
-## Relatórios de análise de caminho de conversão
+## Relatórios de análise do caminho de conversão
 
 ### Como o relatório Caminho para conversão se compara aos relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace?
 

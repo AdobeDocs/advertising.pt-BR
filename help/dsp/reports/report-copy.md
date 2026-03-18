@@ -1,16 +1,16 @@
 ---
-title: Duplicar um relatório personalizado
+title: Duplicação de um relatório personalizado
 description: Saiba como criar um relatório personalizado duplicando um relatório existente.
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Duplicar um relatório personalizado
+# Duplicação de um relatório personalizado
 
 Duplique um relatório personalizado para criar um novo relatório com configurações semelhantes.
 

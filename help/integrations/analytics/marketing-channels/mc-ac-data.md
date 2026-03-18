@@ -55,5 +55,5 @@ Agora você pode ver como os Inícios de Aplicações restantes são atribuídos
 >* [Fundamentos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Usando Adobe Advertising IDs para criar [!DNL Marketing Channels] regras de processamento](mc-ids.md)
 >* [Por que os dados do canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para Relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vídeo: Usando [!DNL Marketing Channels] para Relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR)
 >* [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -1,16 +1,16 @@
 ---
-title: Sobre o Gerenciamento de público-alvo no Advertising DSP
+title: Sobre o gerenciamento de público-alvo no Advertising DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
 
-# Sobre o Gerenciamento de público-alvo no Advertising DSP
+# Sobre o gerenciamento de público-alvo no Advertising DSP
 
 No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de público-alvo, que podem ser usados como alvos para seus posicionamentos:
 
@@ -20,7 +20,7 @@ No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de p
 
    * [Segmentos de não participação na venda da CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear as IDs de usuários a partir de solicitações de não participação na venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA). Você pode recuperar relatórios mensais das IDs de usuário de solicitações de recusa de venda.
 
-     Para obter mais informações sobre o suporte da Adobe Advertising para solicitações de cancelamento de venda do CCPA, consulte [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Para obter mais informações sobre o suporte da Adobe Advertising para solicitações de cancelamento de venda do CCPA, consulte [Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (Recurso do Beta) [Obter e usar IDs universais para direcionamento sem cookies](/help/dsp/audiences/universal-ids.md):
 
@@ -36,7 +36,7 @@ No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de p
 
 Outros tipos de público-alvo também estão disponíveis para o direcionamento de posicionamento.
 
-## Importação de segmentos de dados próprios e de terceiros
+## Importação de segmentos de dados primários e de terceiros
 
 Você tem muitas opções para importar segmentos de dados primários e de terceiros para o DSP, usando a interface do usuário do DSP e/ou por meio de serviços de importação personalizados.
 
@@ -50,7 +50,7 @@ Você tem muitas opções para importar segmentos de dados primários e de terce
 
 Entre em contato com a equipe de conta da Adobe para obter mais informações.
 
-## Públicos-alvo disponíveis como alvos de posicionamento
+## Públicos disponíveis como destinos de posicionamento
 
 Você pode direcionar seus posicionamentos para todos os tipos de público a seguir.
 
@@ -84,7 +84,7 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
   >[!NOTE]
   >
-  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=pt-BR) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
+  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
 
 ## Dados de tamanho do público
 
@@ -106,7 +106,7 @@ Você também pode ver dados detalhados sobre o tamanho do público-alvo:
 
   ![o segmento individual ou os detalhes do público-alvo salvo](/help/dsp/assets/audience-size-segment-details.png)
 
-## As Visualizações de Públicos-alvo
+## As visualizações de Públicos-alvo
 
 ### A visualização Todos os públicos-alvo
 
@@ -134,7 +134,7 @@ A exibição [!UICONTROL Segments] também lista os seguintes tipos de segmento:
 
   Não é possível editar ou compartilhar segmentos de terceiros que foram compartilhados com você. Entre em contato com a equipe de conta da Adobe se precisar compartilhar segmentos de terceiros com usuários adicionais.
 
-### A Visão de Fontes
+### A visualização Fontes
 
 No modo de exibição [!UICONTROL Sources], é possível configurar fontes para segmentos primários em plataformas de dados do cliente com suporte que você deseja converter em segmentos que contêm tipos de ID universal especificados. As configurações de origem incluem uma chave de origem gerada automaticamente, que você fornecerá à plataforma de dados do cliente para estabelecer a conexão.
 

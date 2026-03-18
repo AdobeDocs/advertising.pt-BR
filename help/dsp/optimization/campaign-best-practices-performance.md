@@ -3,7 +3,7 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -20,7 +20,7 @@ O DSP pode otimizar suas campanhas focadas em desempenho. Consulte as seguintes 
 * Etapa 4 - Criar estrutura de posicionamento
 * Etapa 5 - Usar o Creative Assets correto
 
-## Etapa 1 - Definir A Meta
+## Etapa 1 - Definir a meta
 
 É importante entender o objetivo da campanha, como obter o ROAS mais alto possível ou o CPA mais baixo possível. As campanhas de desempenho têm [metas de otimização](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;. Para cada pacote na campanha, especifique a meta de otimização de acordo.
 
@@ -34,7 +34,7 @@ Você também precisa determinar os eventos bem-sucedidos que levam à meta gera
 
 Os pacotes superiores do funnel incluem disposições com direcionamento muito amplo para alcançar novos consumidores líquidos.
 
-#### Estratégias de posicionamento recomendadas para clientes potenciais
+#### Estratégias recomendadas de posicionamento para prospecção
 
 * Encontre novos públicos-alvo que provavelmente serão convertidos usando as seguintes táticas:
 
@@ -113,7 +113,7 @@ Consulte descrições de quando usar cada filtro de pré-oferta em [Filtros de p
 
 Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventário do [!UICONTROL On Demand].
 
-### Direcionamento de site
+### Direcionamento do site
 
 * **[!UICONTROL Traffic Type]**: [!UICONTROL Websites] somente
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
@@ -147,7 +147,7 @@ Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventár
 
 O uso de filtragem contextual, bloqueio de fraude pré-oferta e/ou filtragem de [!UICONTROL Ads.txt] limita a escala de suas inserções, mas as usa se necessário.
 
-## Etapa 5 - Usar o Creative Assets correto
+## Etapa 5 - Usar os ativos criativos certos
 
 * A prática recomendada é incluir o máximo possível de tamanhos de anúncio únicos para maximizar o alcance. O modelo de exibição universal permite fazer upload de qualquer tamanho de anúncio de exibição padrão.
 * Verifique se todos os posicionamentos contêm *pelo menos* todos os tamanhos de anúncios de exibição primários (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).

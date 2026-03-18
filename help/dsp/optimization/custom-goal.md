@@ -3,7 +3,7 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Nas configurações de pacote do DSP para pacotes que usam a meta de otimizaçã
 
 Os exemplos a seguir mostram como você pode configurar metas que têm como alvo uma única métrica de conversão.
 
-#### Exemplo de uma Campanha com a Meta de Otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
+#### Exemplo de campanha com a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
 Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e a receita de todos os tipos de dispositivos for igualmente importante para você, inclua a métrica &quot;[!UICONTROL Revenue]&quot; com um peso não móvel de um (1); o peso móvel será ignorado. Selecione o tipo de métrica *[!UICONTROL Goal]*.
 
@@ -88,7 +88,7 @@ Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)
 >
 > Um peso não móvel de um (1) equivale a um valor de um (1) para cada US$ 1 da receita rastreada para anúncios de exibição em qualquer dispositivo. Por exemplo, uma conversão de $250 com um peso não móvel de um (1) é relatada como $250 para conversões. Se for atribuído um peso não móvel de 0,5 à métrica de conversão, a conversão de US$ 250 será relatada como US$ 125 no Adobe Advertising (conversão de US$ 250 * 0,5 [!UICONTROL Non-mobile Weight] = US$ 125).
 
-#### Exemplo de uma Campanha com a Meta de Otimização &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
+#### Exemplo de campanha com a meta de otimização &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
 Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido (como &quot;Envio de aplicativo&quot;), inclua essa métrica e especifique o tipo de métrica como *[!UICONTROL Goal]*. A prática recomendada é definir o peso não móvel como um (1); o peso móvel é ignorado.
 

@@ -1,16 +1,16 @@
 ---
-title: Regenerar a Previsão para um Plano de Alcance de TV Conectada
+title: Gerar novamente a previsão para um plano de alcance de TV conectado
 description: Saiba como criar uma nova previsão para um plano de alcance de TV conectado.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Regenerar a Previsão para um Plano de Alcance de TV Conectada
+# Gerar novamente a previsão para um plano de alcance de TV conectado
 
 Você pode gerar novamente a previsão para um plano de alcance de TV conectado com base nos dados observados mais recentes.
 
@@ -18,11 +18,11 @@ Você pode gerar novamente a previsão para um plano de alcance de TV conectado 
 
 1. Mantenha o cursor sobre a linha do plano e clique em **[!UICONTROL Forecast]**.
 
-1. (Opcional) Para exportar a previsão [!UICONTROL Budget vs Reach] para uma planilha [!DNL Microsoft Excel]&#x200B;**, clique em &#x200B;** [!UICONTROL ...] **&#x200B; no canto superior direito e, em seguida, clique em &#x200B;** [!UICONTROL Export]**.
+1. (Opcional) Para exportar a previsão [!UICONTROL Budget vs Reach] para uma planilha [!DNL Microsoft Excel]**, clique em **[!UICONTROL ...]** no canto superior direito e, em seguida, clique em **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre a Ferramenta de Planejamento DSP](planner-about.md)
+>* [Sobre a Ferramenta do Planejador do DSP](planner-about.md)
 >* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
 >* [Duplicar um Plano de Alcance de TV Conectado](planner-duplicate.md)
 >* [Editar um Plano de Alcance de TV Conectado](planner-edit.md)

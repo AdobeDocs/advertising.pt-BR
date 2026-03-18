@@ -3,7 +3,7 @@ title: Como o DSP otimiza suas campanhas
 description: Saiba como a DSP otimiza os pacotes em suas campanhas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -52,11 +52,11 @@ Esse modo de otimização funciona bem se:
 
 * Se os gastos estiverem atrasados, a licitação se torna menos seletiva para que você lance em leilões previstos com taxas de desempenho mais baixas a fim de alcançar a meta de ritmo.
 
-#### Limpando o Sombreamento de Preço/Oferta {#clearing-price-performance}
+#### Limpando o sombreamento de preço/oferta {#clearing-price-performance}
 
 Depois de executar a lógica de ritmo, o DSP executa a oferta proposta por meio de um modelo de previsão de preço de compensação. Se a previsão indicar que a oferta pode ser reduzida com uma diminuição mínima da taxa de vitória, então a oferta é diminuída de acordo com a previsão.
 
-### Pacotes que priorizam o equilíbrio da eficiência de custos com a taxa de desempenho
+### Pacotes que priorizam o equilíbrio entre a eficiência de custos e a taxa de desempenho
 
 Para algumas metas de otimização, a DSP prevê o desempenho de cada leilão e ajusta os preços de compra automaticamente, nunca excedendo o [!UICONTROL Max Bid] de uma disposição. Exemplos de metas de otimização aplicáveis incluem [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] e assim por diante.
 
@@ -68,7 +68,7 @@ Para algumas metas de otimização, a DSP prevê o desempenho de cada leilão e 
 
 * Se os gastos estiverem atrasados, a DSP se tornará menos sensível ao preço e oferecerá valores mais altos, até [!UICONTROL Max Bid], para trocar a taxa de ganhos com o plano de ritmo.
 
-#### Limpando o Sombreamento de Preço/Oferta {#clearing-price-balanced}
+#### Limpando o sombreamento de preço/oferta {#clearing-price-balanced}
 
 Depois de executar a lógica de ritmo, o DSP executa a oferta proposta por meio de um modelo de previsão de preço de compensação. Se a previsão indicar que a oferta pode ser reduzida com uma diminuição mínima da taxa de vitória, então a oferta é diminuída de acordo com a previsão.
 

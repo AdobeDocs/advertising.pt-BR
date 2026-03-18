@@ -3,16 +3,16 @@ title: Visão geral dos recursos de inventário no Advertising DSP
 description: Saiba mais sobre os recursos de inventário disponíveis.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Visão geral dos recursos de inventário no Advertising DSP
 
-O DSP pode atender às suas necessidades de inventário, seja para encontrar escala com inventário público, encontrar escala entre editores premium com [!DNL On Demand] ou configurar um negócio de mercado privado (PMP) 1:1 com um editor para ativar em relação a públicos ou sites específicos. Os objetivos da campanha ajudam a determinar qual tipo de inventário é mais adequado às necessidades de desempenho da campanha. As integrações com as plataformas do lado da fonte superior (SSPs) permitem a configuração e ativação ininterruptas dos PMPs.
+A DSP pode atender às suas necessidades de inventário, seja para encontrar uma escala com o inventário público, encontrar uma escala entre os editores premium com [!DNL On Demand] ou configurar um negócio de mercado privado (PMP) de 1:1 com um editor para ativar em relação a públicos ou sites específicos. Os objetivos da campanha ajudam a determinar que tipo de inventário é mais adequado às necessidades de desempenho da campanha. As integrações com as plataformas do lado da fonte superior (SSPs) permitem a configuração e ativação ininterruptas dos PMPs.
 
 Depois de acessar ou identificar as ofertas de inventário no DSP, você pode usá-las como alvos de posicionamento para suas campanhas.
 
@@ -20,11 +20,11 @@ Os tipos de inventário disponíveis incluem:
 
 * **[!DNL On Demand]Inventário:** Explore ofertas pré-negociadas não garantidas que a Adobe preparou com parceiros de editores premium.
 
-* **Inventário Particular [!DNL Deal IDs]:** configure e gerencie ofertas de marketplace particular (PMPs) que você negociou diretamente 1:1 com o editor.
+* **Inventário Particular [!DNL Deal IDs]:** configure e gerencie ofertas de marketplace particular (PMPs) que você negociou diretamente com o editor em 1:1.
 
 * **[!DNL Simple Ad Serving]:** use a tecnologia otimizada para entrega e relatórios de anúncios garantidos e não decididos quando o editor não puder executar o negócio por meio de IDs de negócios.
 
-## As Exibições de Ofertas
+## As [!UICONTROL Deals] visualizações
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 

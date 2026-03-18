@@ -3,20 +3,20 @@ title: Visão geral da configuração de ofertas PG no  [!DNL Freewheel]
 description: Saiba mais sobre os pré-requisitos e as etapas extras necessárias para executar anúncios de ofertas programáticas garantidas com editores no  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL Freewheel]
+# Visão geral da configuração de ofertas programáticas garantidas no [!DNL Freewheel]
 
 A configuração de ofertas programáticas garantidas com editores em [!DNL Freewheel] requer permissões e etapas adicionais.
 
 >[!PREREQUISITES]
 >
->Trabalhe com a equipe de conta do Adobe para garantir que a conta do [!DNL DSP] tenha as seguintes permissões:
+>Trabalhe com a equipe de conta da Adobe para garantir que a conta do [!DNL DSP] tenha as seguintes permissões:
 >
 >* Permissão para usar o fluxo de trabalho programático garantido [!DNL FreeWheel], que é necessário para enviar um anúncio para uma oferta programática garantida para [!DNL FreeWheel].
 >

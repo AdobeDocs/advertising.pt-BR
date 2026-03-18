@@ -1,16 +1,16 @@
 ---
-title: Gerenciar listas de negociações
+title: Gerenciar listas de negócios
 description: Saiba como criar e gerenciar listas de negócios para direcionamento de posicionamento.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-# Gerenciar listas de negociações
+# Gerenciar listas de negócios
 
 Você pode criar e gerenciar listas de ofertas privadas e [!DNL On Demand] ofertas para direcionamento de posicionamento. Direcione ou exclua listas de negociação privadas específicas nas configurações de posicionamento.
 
@@ -18,13 +18,13 @@ Você pode criar e gerenciar listas de ofertas privadas e [!DNL On Demand] ofert
 In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
-## Exibir uma lista de negociações
+## Exibir uma lista de negócios
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 
 1. Clique no nome da lista.
 
-## Criar uma lista de negociações
+## Criar uma lista de negócios
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 
@@ -44,7 +44,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
 1. Clique em **[!UICONTROL Add Selected Deals]**.
 
-## Editar uma lista de negociações
+## Editar uma lista de negócios
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 

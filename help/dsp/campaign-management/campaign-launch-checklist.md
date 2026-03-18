@@ -1,20 +1,20 @@
 ---
-title: Lista de verificação de lançamento de campanha
+title: Lista de verificação de inicialização da campanha
 description: Saiba o que é necessário fazer antes de iniciar uma campanha.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Lista de verificação de lançamento de campanha
+# Lista de verificação de inicialização da campanha
 
 ## Financiamento da conta
 
-Verifique se sua conta tem crédito suficiente para executar toda a campanha. Você pode verificar e recarregar fundos de conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a Equipe de Conta do Adobe.
+Verifique se sua conta tem crédito suficiente para executar toda a campanha. Você pode verificar e recarregar fundos de conta em [!UICONTROL Settings] > [!UICONTROL Account] ou entrando em contato com a equipe de conta da Adobe.
 
 ## Status da campanha
 

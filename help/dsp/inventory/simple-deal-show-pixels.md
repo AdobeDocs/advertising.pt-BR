@@ -1,15 +1,15 @@
 ---
-title: Exibir Pixels de Evento para um Acordo de [!UICONTROL Simple Ad Serving]
+title: Exibir pixels de evento para uma oferta de [!UICONTROL Simple Ad Serving]
 description: Saiba como obter uma cópia dos pixels de rastreamento de eventos para uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# Exibir Pixels de rastreamento de eventos para uma oferta de [!UICONTROL Simple Ad Serving]
+# Exibir pixels de rastreamento de eventos para uma oferta de [!UICONTROL Simple Ad Serving]
 
 Você pode obter uma cópia dos pixels de rastreamento de eventos para uma oferta do [!UICONTROL Simple Ad Serving] a ser enviada ao editor para implementação. Os pixels se aplicam a todos os anúncios no posicionamento gerado pela negociação.
 

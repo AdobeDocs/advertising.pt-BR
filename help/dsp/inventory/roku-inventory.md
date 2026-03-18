@@ -1,26 +1,26 @@
 ---
-title: Usando o  [!DNL Roku] Inventário
-description: Saiba mais sobre a parceria do DSP com o  [!DNL Roku], incluindo opções de inventário, fornecedores de rastreamento de terceiros aprovados e práticas recomendadas para posicionamentos específicos do  [!DNL Roku].
+title: 'Usando o inventário  [!DNL Roku] '
+description: Saiba mais sobre a parceria da DSP com o  [!DNL Roku], incluindo opções de inventário, fornecedores de rastreamento de terceiros aprovados e práticas recomendadas para posicionamentos específicos do  [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
-# Usando o Inventário [!DNL Roku]
+# Usando o inventário [!DNL Roku]
 
 O Advertising DSP fornece recursos para publicidade em [!DNL Roku].
 
 ## Correspondência de público
 
-A parceria do [!DNL Roku] e do DSP corresponde seus públicos do [!DNL DSP] a [!DNL Roku] IDs para direcionamento de público determinístico 1:1 no inventário [!DNL Roku].
+A parceria do [!DNL Roku] e da DSP corresponde seus públicos do [!DNL DSP] a [!DNL Roku] IDs para o direcionamento determinístico de 1:1 públicos no inventário [!DNL Roku].
 
-## [!DNL Roku] Opções de inventário
+## [!DNL Roku] opções de inventário
 
-Você pode a) configurar IDs de negócios privadas diretamente com [!DNL Roku] e inserir os dados da ID de negócios no DSP ou b) visitar a Galeria [!DNL On Demand] para assinar [!DNL Roku] perfis:
+Você pode a) configurar IDs de negócios privadas diretamente com [!DNL Roku] e inserir os dados da ID de negócios na DSP ou b) visitar a Galeria [!DNL On Demand] para assinar [!DNL Roku] perfis:
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ As ofertas privadas permitem personalizar os parâmetros da negociação de acor
 
 * incluir na lista de bloqueios **[!DNL Roku]Direcionamento de conteúdo:** As ofertas privadas podem direcionar aplicativos por gênero, aplicação da pesquisa de aplicativo, eventos sazonais e de tipoes e apresentações somente no [!DNL The Roku Channel].
 
-## [!DNL Roku] Posicionamentos
+## [!DNL Roku] posicionamentos
 
-Em campanhas DSP, [crie [!DNL Roku] posicionamentos específicos](/help/dsp/campaign-management/placements/placement-create.md) usando o tipo de posicionamento &quot;[!UICONTROL Connected TV (Roku)].&quot; Incluir [!DNL Roku] posicionamentos em [!DNL Roku] pacotes específicos com metas definidas.
+Em campanhas do DSP, [crie [!DNL Roku] disposições específicas](/help/dsp/campaign-management/placements/placement-create.md) usando o tipo de disposição &quot;[!UICONTROL Connected TV (Roku)].&quot; Incluir [!DNL Roku] posicionamentos em [!DNL Roku] pacotes específicos com metas definidas.
 
-Cada posicionamento de [!DNL Roku] deve ter como alvo pelo menos um negócio ou origem de [!DNL Roku]. Para usar a correspondência de público-alvo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que possam ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceitação).
+Cada posicionamento de [!DNL Roku] deve ter como alvo pelo menos um negócio ou origem de [!DNL Roku]. Para usar a correspondência de público-alvo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceito).
 
-### [!DNL Roku]-Aprovados Fornecedores De Rastreamento De Terceiros
+### [!DNL Roku] fornecedores de rastreamento de terceiros aprovados
 
 [!DNL Roku] posicionamentos podem incluir pixels de eventos de terceiros e pixels de conversão dos seguintes fornecedores: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] e [!DNL Research Now].
 

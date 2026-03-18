@@ -3,7 +3,7 @@ title: Especificações de publicidade
 description: Consulte as especificações gerais e específicas do editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Especificações para os tipos de anúncios suportados
 
-## Anúncios de vídeo (pré-lançamento, CTV e vídeo universal)
+## Anúncios de vídeo (antes da exibição, CTV e vídeo universal)
 
-### Screens compatível
+### Telas suportadas
 
 Por padrão, os anúncios são entregues em dispositivos de desktop, móveis e TV conectada. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
@@ -22,7 +22,7 @@ Por padrão, os anúncios são entregues em dispositivos de desktop, móveis e T
 
 Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Para obter uma lista completa de fornecedores suportados, consulte &quot;[Parceiros de Veiculação de Anúncios Certificados](certified-ad-servers.md)&quot;.
 
-### Requisitos para Assets de vídeo de alta definição
+### Requisitos para ativos de vídeo de alta definição
 
 **Tipo de Marca de Vídeo:** VPAID 2.0 JavaScript ou VAST (CTV). Todas as unidades de anúncios VPAID devem seguir a [especificação VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf), conforme definido pelo Interative Advertising Bureau (IAB).
 
@@ -74,17 +74,17 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
 ## Exibir anúncios
 
-### Screens compatível
+### Telas suportadas
 
 Os anúncios são entregues por padrão em dispositivos móveis e desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
-### Tipos de arquivo suportados
+### Tipos de arquivo compatíveis
 
 **Imagem:** GIF, JPG/JPEG, PNG
 
 **HTML5:** Tipos de arquivo de imagem: GIF, JPG/JPEG, PNG, SVG
 
-### Requisitos para o Image Assets
+### Requisitos para ativos de imagem
 
 O Universal Display é compatível.
 
@@ -94,7 +94,7 @@ O Universal Display é compatível.
 
 ## Anúncios de áudio
 
-### Screens compatível
+### Telas suportadas
 
 Desktop, Mobile, Tablet, Alto-falantes inteligentes e TV conectada
 
@@ -102,7 +102,7 @@ Desktop, Mobile, Tablet, Alto-falantes inteligentes e TV conectada
 
 Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Para obter uma lista completa de fornecedores suportados, consulte &quot;[Parceiros de Veiculação de Anúncios Certificados](certified-ad-servers.md)&quot;.
 
-### Requisitos para Assets de áudio
+### Requisitos para ativos de áudio
 
 **Tipo de arquivo:** MP3, OGG, AAC
 
@@ -147,7 +147,7 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
    * Tipo de arquivo: MP3, OGG
    * Volume: 44,1 kHz
 
-### Requisitos para os anúncios de banner de companhia (opcional)
+### Requisitos para anúncios de banner complementares (opcional)
 
 **Tamanhos com suporte:** 300x250, 500x500, 640x640, 1024x1024
 
@@ -182,11 +182,11 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
 Cada anúncio pode incluir uma imagem estática ou um GIF em movimento (cinemgraph).
 
-### Screens compatível
+### Telas suportadas
 
 Os anúncios são entregues por padrão em dispositivos móveis e desktop. O direcionamento de dispositivo está disponível para ajustar o delivery.
 
-### Assets necessário para todos os formatos nativos no feed
+### Ativos necessários para todos os formatos nativos no feed
 
 #### Ativo de imagem
 

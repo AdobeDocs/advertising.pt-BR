@@ -1,9 +1,9 @@
 ---
-title: Enviar um anúncio para um contrato PG para  [!DNL FreeWheel]
+title: Enviar um anúncio de um contrato PG para  [!DNL FreeWheel]
 description: Saiba como solicitar aprovação para um anúncio para um negócio programático garantido com um editor em  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Depois de [aceitar um contrato programático garantido com um editor no FreeWhee
 
 >[!PREREQUISITES]
 >
->Trabalhe com a equipe de conta do Adobe para garantir que a conta [!DNL DSP] tenha permissão para usar o fluxo de trabalho programático garantido [!DNL FreeWheel].
+>Trabalhe com a equipe de conta da Adobe para garantir que a conta [!DNL DSP] tenha permissão para usar o fluxo de trabalho programático garantido [!DNL FreeWheel].
 
 1. Copie a chave do anúncio para o anúncio usado com a oferta [!DNL Freewheel]:
 

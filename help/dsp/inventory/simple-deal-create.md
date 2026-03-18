@@ -1,16 +1,16 @@
 ---
-title: Criar um contrato de [!UICONTROL Simple Ad Serving]
+title: Criar uma oferta de [!UICONTROL Simple Ad Serving]
 description: Saiba como criar um pixel de rastreamento para uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-# Criar um contrato de [!UICONTROL Simple Ad Serving]
+# Criar uma oferta de [!UICONTROL Simple Ad Serving]
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -29,7 +29,7 @@ ht-degree: 0%
          * Para novos anúncios, crie um proxy [anúncio de terceiros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
       >[!NOTE]
-      > O DSP não veicula os anúncios que você especifica. O editor serve o anúncio.
+      > A DSP não veicula os anúncios especificados. O editor serve o anúncio.
 
       1. Clique em **[!UICONTROL Next]**.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    * (Opcional) Na tela [!UICONTROL Activate Tag with Publisher], envie a tag de negócios para o editor.
 
-     Quando você conclui as etapas anteriores, o DSP gera uma mensagem de email que pode ser enviada ao editor. A mensagem inclui os detalhes do contrato, um link a partir do qual a tag de contrato será recuperada e um código de autorização para o link.
+     Ao concluir as etapas anteriores, o DSP gera uma mensagem de email que você pode enviar ao editor. A mensagem inclui os detalhes do contrato, um link a partir do qual a tag de contrato será recuperada e um código de autorização para o link.
 
       1. Analise os detalhes do negócio e siga um destes procedimentos:
 

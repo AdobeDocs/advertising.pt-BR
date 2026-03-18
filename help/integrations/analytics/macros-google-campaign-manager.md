@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Aplicável somente ao Advertising DSP*
 
-Se você usar marcas de anúncio de [!DNL Google Campaign Manager 360] para seus anúncios Advertising DSP, anexe [!DNL Analytics for Advertising] parâmetros às URLs da sua página de aterrissagem usando a macro [`%p` ](https://support.google.com/campaignmanager/table/6096962). Os parâmetros registram os parâmetros AMO ID (`s_kwcid`) e `ef_id` da cadeia de caracteres de consulta na URL da página de aterrissagem, permitindo que o Adobe Advertising envie dados de cliques para os anúncios para o Adobe Analytics.
+Se você usar marcas de anúncio de [!DNL Google Campaign Manager 360] para seus anúncios Advertising DSP, anexe [!DNL Analytics for Advertising] parâmetros às URLs da sua página de aterrissagem usando a macro [`%p` &#x200B;](https://support.google.com/campaignmanager/table/6096962). Os parâmetros registram os parâmetros AMO ID (`s_kwcid`) e `ef_id` da cadeia de caracteres de consulta na URL da página de aterrissagem, permitindo que o Adobe Advertising envie dados de cliques para os anúncios para o Adobe Analytics.
 
 Use macros para exibição e anúncios de vídeo do [!DNL Campaign Manager 360] para os seguintes tipos de implementações do [!DNL Analytics for Advertising]:
 
@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Se a URL da página de aterrissagem incluir um símbolo de hash (#), o que não é comum, coloque o parâmetro `amo` antes do símbolo de hash.
+>&#x200B;>* Se a URL da página de aterrissagem incluir um símbolo de hash (#), o que não é comum, coloque o parâmetro `amo` antes do símbolo de hash.
 >* Se nenhum outro parâmetro for incluído após o parâmetro `amo`, adicione um parâmetro (por exemplo, &amp;a=b) depois dele. Exemplo: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurar o sufixo do URL da página de aterrissagem no nível do anunciante

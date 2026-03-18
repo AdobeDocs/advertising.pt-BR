@@ -1,16 +1,16 @@
 ---
-title: Por que os dados de canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]
+title: Por que os dados do canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]
 description: Saiba por que os dados de canal rastreados pela ID do AMO podem variar dos dados de canal rastreados pelo  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# Por que os dados de canal podem variar entre o Adobe Advertising e o [!DNL Marketing Channels]
+# Por que os dados do canal podem variar entre o Adobe Advertising e o [!DNL Marketing Channels]
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
@@ -30,8 +30,8 @@ Para obter mais informações sobre possíveis variações de dados entre dados 
 
 >[!MORELIKETHIS]
 >
->* [Variações de Dados Esperadas Entre [!DNL Analytics] e Adobe Advertising](/help/integrations/analytics/data-variances.md)
+>* [Variações de dados esperadas entre [!DNL Analytics] e Adobe Advertising](/help/integrations/analytics/data-variances.md)
 >* [Fundamentos de [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Usando Adobe Advertising IDs para Criar [!DNL Marketing Channels] Regras de Processamento](mc-ids.md)
->* [Usando [!DNL Analytics Marketing Channels] com Dados do Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para Relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR)
+>* [Usando Adobe Advertising IDs para criar [!DNL Marketing Channels] regras de processamento](mc-ids.md)
+>* [Usando [!DNL Analytics Marketing Channels] com dados do Adobe Advertising](mc-ac-data.md)
+>* [Vídeo: Usando [!DNL Marketing Channels] para Relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

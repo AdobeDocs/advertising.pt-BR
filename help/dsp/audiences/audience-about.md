@@ -3,18 +3,18 @@ title: Sobre o Gerenciamento de público-alvo no Advertising DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%
 
 ---
 
-# Sobre o Gerenciamento de Público no Advertising DSP
+# Sobre o Gerenciamento de público-alvo no Advertising DSP
 
-No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de público-alvo, que podem ser usados como alvos para suas colocações:
+No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de público-alvo, que podem ser usados como alvos para seus posicionamentos:
 
-* Colete seus próprios dados de público ao criar e implementar segmentos de DSP. Posteriormente, você pode redirecionar os usuários no segmento com anúncios ou impedir que eles recebam anúncios. Você pode criar os seguintes tipos de segmentos:
+* Colete seus próprios dados de público-alvo primários criando e implementando segmentos do DSP. Posteriormente, você pode redirecionar os usuários no segmento com anúncios ou impedir que eles recebam anúncios. Você pode criar os seguintes tipos de segmentos:
 
    * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. A tag de rastreamento pode rastrear usuários baseados em cookies ou usuários associados a IDs universais de ID5.
 
@@ -40,7 +40,7 @@ Outros tipos de público-alvo também estão disponíveis para o direcionamento 
 
 Você tem muitas opções para importar segmentos de dados primários e de terceiros para o DSP, usando a interface do usuário do DSP e/ou por meio de serviços de importação personalizados.
 
-* A DSP pode obter seus públicos-alvo da Adobe Audience Manager e de outros [!DNL Adobe] para direcionamento. Para obter os pré-requisitos e as instruções, consulte &quot;[Importar segmentos do Adobe Audience Manager para direcionamento de anúncios](/help/integrations/audience-manager/import-audiences.md).
+* A DSP pode obter seus públicos-alvo da Adobe Audience Manager e de outros [!DNL Adobe] para direcionamento. Para obter os pré-requisitos e as instruções, consulte &quot;[Importar segmentos do Adobe Audience Manager para o direcionamento de anúncios](/help/integrations/audience-manager/import-audiences.md).
 
 * O DSP pode traduzir segmentos de dados primários de plataformas de dados de clientes com suporte para segmentos com IDs universais usando o [recurso Fontes](/help/dsp/audiences/sources/source-about.md). Você também pode [enviar manualmente seus segmentos [!DNL LiveRamp] [!DNL RampID] autenticados diretamente para o DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
@@ -54,25 +54,25 @@ Entre em contato com a equipe de conta da Adobe para obter mais informações.
 
 Você pode direcionar seus posicionamentos para todos os tipos de público a seguir.
 
-* Todos os conjuntos de público criados pelo usuário que foram salvos em DSP.
+* Todos os conjuntos de públicos-alvo criados pelo usuário que foram salvos no DSP.
 
-* Todos os segmentos de público criados pelo usuário que foram criados no DSP:
+* Todos os segmentos de público-alvo criados pelo usuário que foram criados no DSP:
 
    * Segmentos personalizados para usuários que visitaram páginas da Web específicas e usuários expostos a impressões de anúncios específicos.
 
-     Nenhuma taxa é incorrida por impressões entregues para IDs universais.
+     Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
-   * Segmentos de público-alvo de cancelamento de venda do CCPA para usuários que enviaram solicitações de cancelamento de venda em seu site, de acordo com a Lei de Privacidade do Consumidor da Califórnia (CCPA).
+   * Segmentos de público-alvo de não participação na venda do CCPA para usuários que enviaram solicitações de não participação na venda em seu site, de acordo com a California Consumer Privacy Act (CCPA).
 
 * Todos os segmentos de dados primários importados, incluindo segmentos que foram traduzidos para IDs universais.
 
-  Taxas adicionais são cobradas por impressões entregues a IDs universais. Consulte “[Sobre Fontes de Audiência Primárias](/help/dsp/audiences/sources/source-about.md)” para obter as taxas.
+  Taxas adicionais são cobradas por impressões entregues a IDs universais. Consulte &quot;[Sobre fontes de público-alvo primários](/help/dsp/audiences/sources/source-about.md)&quot; para obter taxas.
 
 * Todos os seus segmentos de dados personalizados de terceiros importados.
 
-* (Posicionamentos voltados somente para os EUA) [Todos os segmentos de dados de terceiros disponíveis para clientes DSP de mais de 30 provedores](/help/dsp/audiences/third-party-data-providers.md), incluindo [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar] e muitos outros.
+* (Posicionamentos direcionados somente aos EUA) [Todos os segmentos de dados de terceiros disponíveis para clientes do DSP de mais de 30 provedores](/help/dsp/audiences/third-party-data-providers.md), incluindo [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar] e muitos outros.
 
-  Você pode segmentar segmentos específicos, que são direcionados aos usuários com base nos dados do público-alvo (por exemplo, usuários com dados demográficos, interesses ou propósitos específicos e/ou perfis comportamentais). Você pode procurar por provedor de dados e categoria, procurar segmentos por nome ou ID de segmento ou filtrar os resultados por provedor de dados, tamanho do segmento ativo, contagem do navegador da Web ou contagem de dispositivos.
+  Você pode direcionar segmentos específicos, que direcionam usuários com base nos dados do público-alvo (por exemplo, usuários com demografia, interesses ou intenções específicos e/ou perfis comportamentais). Você pode procurar por provedor de dados e categoria, procurar segmentos por nome ou ID de segmento, ou filtrar os resultados por provedor de dados, tamanho do segmento ativo, contagem de navegadores da Web ou contagem de dispositivos.
 
   Os segmentos de terceiros incorrem em taxas adicionais, que são indicadas ao lado de cada nome de segmento.
 
@@ -84,17 +84,17 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
   >[!NOTE]
   >
-  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=pt-BR) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
+  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
 
-## Dados de Tamanho do Público-Alvo
+## Dados de tamanho do público
 
-Em Audiências > Todos os públicos e na seção Direcionamento de público das configurações de posicionamento, você pode filtrar cada lista de segmentos por intervalo de tamanho, incluindo intervalos separados para tipos de dispositivo específicos ou tipos de ID universal.
+Em Públicos-alvo > Todos os públicos-alvo e na seção Direcionamento de público das configurações de posicionamento, você pode filtrar cada lista de segmentos por intervalo de tamanho, incluindo intervalos separados para tipos de dispositivo específicos ou tipos de ID universal.
 
-![filtrar por tamanho de audiência](/help/dsp/assets/audience-size-filter.png)
+![filtrar por tamanho de público](/help/dsp/assets/audience-size-filter.png)
 
-Você também pode ver dados detalhados sobre o tamanho do público:
+Você também pode ver dados detalhados sobre o tamanho do público-alvo:
 
-* O tamanho do público desduplicado ativo em todos os segmentos selecionados e públicos salvos é exibido, e você pode exibir detalhes por tipo de dispositivo (navegador, celular ou TV conectada).
+* O tamanho do público-alvo desduplicado ativo em todos os segmentos selecionados e os públicos-alvo salvos é exibido e você pode exibir detalhes por tipo de dispositivo (navegador, celular ou TV conectada).
 
   ![o tamanho combinado do público-alvo](/help/dsp/assets/audience-size.png)
 
@@ -102,9 +102,9 @@ Você também pode ver dados detalhados sobre o tamanho do público:
 
   ![o tamanho de segmento individual](/help/dsp/assets/audience-size-segment.png)
 
-* Você pode exibir mais detalhes sobre um segmento individual ou público salvo, incluindo o tamanho por navegador, dispositivo móvel, TV conectada e parceiro de tipo de ID universal. Para os públicos salvos, o tamanho total do público ativo é o total desduplicado.
+* Você pode ver mais detalhes sobre um segmento individual ou público-alvo salvo, incluindo o tamanho por navegador, celular, TV conectada e parceiro de tipo de ID universal. Para públicos salvos, o tamanho total do público ativo é o total desduplicado.
 
-  ![o segmento individual ou detalhes de público salvo](/help/dsp/assets/audience-size-segment-details.png)
+  ![o segmento individual ou os detalhes do público-alvo salvo](/help/dsp/assets/audience-size-segment-details.png)
 
 ## As Visualizações de Públicos-alvo
 
@@ -116,7 +116,7 @@ Você pode editar, clonar, excluir, exportar ou compartilhar qualquer público-a
 
 ### A visualização Segmentos
 
-No modo de exibição [!UICONTROL Segments], todos os usuários podem criar segmentos personalizados adicionais.
+Na visualização [!UICONTROL Segments], todos os usuários podem criar segmentos personalizados adicionais.
 
 A exibição [!UICONTROL Segments] também lista os seguintes tipos de segmento:
 

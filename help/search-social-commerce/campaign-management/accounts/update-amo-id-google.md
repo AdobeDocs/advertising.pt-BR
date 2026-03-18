@@ -3,7 +3,7 @@ title: 'Atualizar o código de rastreamento da ID do AMO (s_kwcid) para uma cont
 description: Saiba como alternar para o código de rastreamento de ID do AMO mais recente para uma conta do  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -69,5 +69,5 @@ Todas as novas contas do [!DNL Google Ads] usam automaticamente o formato de ID 
 >[!MORELIKETHIS]
 >
 >* [Gerenciar contas de rede de publicidade](ad-network-account-manage.md)
->* [Adobe Advertising IDs Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=pt-BR){target="_blank"}
+>* [Adobe Advertising IDs usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

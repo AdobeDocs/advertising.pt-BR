@@ -3,7 +3,7 @@ title: Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica
 description: Saiba mais sobre o fluxo de trabalho para configurar [!DNL Google Ads] anúncios de pesquisa dinâmicos.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Você pode configurar anúncios de pesquisa dinâmica individualmente ou usando 
 
    1. (Opcional) Configure um modelo de rastreamento de nível de campanha, que substitui o modelo de rastreamento de nível de conta, mas pode ser substituído nos níveis inferiores.
 
-      (Anunciantes com Adobe Analytics sem rastreamento do lado do servidor) Quando quiser incluir o rastreamento do feed reverso do Search, Social e Commerce para o Analytics, adicione o código de rastreamento da ID do AMO aos parâmetros de acréscimo no nível da conta, que adicionam o código ao URL final. Consulte &quot;[IDs de Adobe Advertising Usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md)&quot;.
+      (Anunciantes com Adobe Analytics sem rastreamento do lado do servidor) Quando quiser incluir o rastreamento do feed reverso do Search, Social e Commerce para o Analytics, adicione o código de rastreamento da ID do AMO aos parâmetros de acréscimo no nível da conta, que adicionam o código ao URL final. Consulte &quot;[Adobe Advertising IDs usadas por [!DNL Analytics]](/help/integrations/analytics/ids.md).&quot;
 
 1. [Crie um grupo de anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dentro da campanha, incluindo as seguintes etapas:
 

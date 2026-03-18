@@ -3,7 +3,7 @@ title: Exibir detalhes sobre um público-alvo reutilizável
 description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público reutilizável.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Duplicar um público-alvo reutilizável](reusable-audience-duplicate.md)
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)

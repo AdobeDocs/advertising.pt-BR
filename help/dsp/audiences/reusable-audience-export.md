@@ -3,7 +3,7 @@ title: Exportar detalhes sobre um público-alvo reutilizável
 description: Saiba como visualizar a configuração, o tamanho do público-alvo e os posicionamentos direcionados para um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Você pode baixar um arquivo de planilha [!DNL Microsoft Excel] com a regra de c
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Duplicar um público-alvo reutilizável](reusable-audience-duplicate.md)
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)

@@ -3,7 +3,7 @@ title: Sintaxe da lógica do segmento de público-alvo
 description: Faça referência à sintaxe que pode ser usada para definir a lógica dos segmentos de público-alvo.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -43,7 +43,7 @@ significa (em inglês simples)
 >[!MORELIKETHIS]
 >
 >* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](reusable-audience-clipboard.md)
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Configurações de público-alvo](audience-settings.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)

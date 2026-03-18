@@ -3,7 +3,7 @@ title: Editar informações do segmento
 description: Saiba como editar informações sobre um segmento de recusa de venda personalizado ou do CCPA.
 feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Você pode editar o nome e a janela de lookback de um segmento personalizado ou 
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Excluir um segmento](segment-delete.md)
 >* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)

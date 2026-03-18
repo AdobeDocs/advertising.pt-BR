@@ -3,7 +3,7 @@ title: Compartilhar ou parar de compartilhar um segmento
 description: Saiba como compartilhar ou parar de compartilhar um segmento de recusa de venda personalizado ou do CCPA com outras contas de usuário do DSP.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Compartilhar ou parar de compartilhar um segmento
 
-Você pode compartilhar seus segmentos personalizados e segmentos de recusa de venda da CCPA com contas de usuário DSP adicionais. O compartilhamento de um segmento o torna disponível em [!UICONTROL Audiences] > [!UICONTROL Segments] e na guia [!UICONTROL Custom Segments] nos posicionamentos dos usuários especificados e públicos reutilizáveis.
+Você pode compartilhar seus segmentos personalizados e segmentos de recusa de venda da CCPA com contas de usuário adicionais da DSP. O compartilhamento de um segmento o torna disponível em [!UICONTROL Audiences] > [!UICONTROL Segments] e na guia [!UICONTROL Custom Segments] nos posicionamentos dos usuários especificados e públicos reutilizáveis.
 
 Também é possível interromper o compartilhamento de um segmento com outras contas de usuário do DSP.
 
@@ -24,7 +24,7 @@ Também é possível interromper o compartilhamento de um segmento com outras co
 
    * Para compartilhar o segmento:
 
-      1. Insira o **[!UICONTROL E-mail Address]** para o usuário DSP e clique em **[!UICONTROL +]**.
+      1. Insira o **[!UICONTROL E-mail Address]** para o usuário do DSP e clique em **[!UICONTROL +]**.
 
       1. (Opcional) Para cada usuário adicional, insira outro **[!UICONTROL E-mail Address]** e clique em **[!UICONTROL +]**.
 
@@ -32,7 +32,7 @@ Também é possível interromper o compartilhamento de um segmento com outras co
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Editar informações do segmento](segment-edit.md)
 >* [Excluir um segmento](segment-delete.md)

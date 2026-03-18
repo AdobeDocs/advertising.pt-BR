@@ -1,16 +1,16 @@
 ---
-title: Duplicar um público-alvo reutilizável
+title: Duplicação de um público-alvo reutilizável
 description: Saiba como duplicar um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-# Duplicar um público-alvo reutilizável
+# Duplicação de um público-alvo reutilizável
 
 Você pode criar um público-alvo duplicando um público-alvo existente.
 
@@ -28,7 +28,7 @@ Você pode criar um público-alvo duplicando um público-alvo existente.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)

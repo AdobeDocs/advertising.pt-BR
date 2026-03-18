@@ -132,19 +132,19 @@ Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify] e [!DNL In
 
 ###### Vídeo
 
-** **[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
 
-** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
 
-** **[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
 
-** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Exibir
 
-** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

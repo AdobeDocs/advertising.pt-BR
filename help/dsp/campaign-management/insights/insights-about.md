@@ -1,16 +1,16 @@
 ---
-title: Sobre Insights
+title: Sobre insights
 description: Saiba mais sobre insights de desempenho com visualizações.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Sobre Insights
+# Sobre insights
 
 *recurso do Beta*
 
@@ -84,7 +84,7 @@ A guia [!UICONTROL Household Conversion] fornece métricas de conversão domést
    * **Impacto moderado**
    * **Impacto limitado:** requer atenção
 
-## Abrir Insights de Desempenho
+## Abrir insights de desempenho
 
 * (Para abrir insights para todas as campanhas) No menu principal, clique em **[!UICONTROL Insights BETA]**.
 
@@ -104,11 +104,11 @@ A guia [!UICONTROL Household Conversion] fornece métricas de conversão domést
 
 1. (Opcional) Para restringir ainda mais os dados, selecione o tipo de entidade na barra de ferramentas e, em seguida, selecione um valor de entidade específico (uma única campanha, pacote ou posicionamento).
 
-## Alterar o Dimension reportado para uma Insight
+## Alterar a dimensão relatada para uma insight
 
 * No menu suspenso, à esquerda superior da insight, selecione a dimensão.
 
-## Alterar as métricas relatadas de uma Insight
+## Alterar as métricas relatadas para uma insight
 
 Para métricas de conversão, há suporte disponível para conversões rastreadas por Adobe Advertising e Adobe Analytics.
 
@@ -122,7 +122,7 @@ Para métricas de conversão, há suporte disponível para conversões rastreada
 
   O arquivo é salvo na pasta de downloads padrão do navegador.
 
-## Baixar um Insight específico em um arquivo XLSX
+## Baixar uma insight específica em um arquivo XLSX
 
 * No canto superior direito da insight, clique em ![Download](/help/creative/assets/download.png "Download").
 
@@ -130,7 +130,7 @@ Para métricas de conversão, há suporte disponível para conversões rastreada
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
->* [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)
+>* [Gerenciar suas visualizações de dados de campanha](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

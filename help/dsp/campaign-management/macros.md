@@ -3,7 +3,7 @@ title: Macros do Advertising DSP
 description: Consulte as macros disponíveis para rastreamento geral e para rastrear cliques em anúncios de exibição de terceiros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Use macros de rastreamento geral em todos os tipos de anúncios e tags para tran
 
 {style="table-layout:auto"}
 
-## Clique em Macros para anúncios de exibição de terceiros
+## Clique em macros para anúncios de exibição de terceiros
 
 Para rastrear com precisão os cliques em anúncios usando tags de exibição de terceiros, o DSP exige uma macro de clique de exibição. Somente uma versão da macro é necessária; a macro relevante depende do tipo de tag.
 

@@ -1,16 +1,16 @@
 ---
-title: Gerenciar multiplicadores de oferta para disposições
+title: Gerenciar multiplicadores de oferta para inserções
 description: Saiba como criar e editar multiplicadores de oferta para seus alvos de posicionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Gerenciar multiplicadores de oferta para disposições
+# Gerenciar multiplicadores de oferta para inserções
 
 Você pode criar e gerenciar multiplicadores de oferta, pelos quais uma oferta calculada de forma algorítmica é multiplicada para aumentar ou diminuir a oferta, para seus destinos de posicionamento existentes de [tipos de destino qualificados](#bid-multiplier-by-target). Você pode editar manualmente os valores do multiplicador de oferta para uma disposição ou fazer upload de uma planilha com valores para uma ou mais disposições.
 
@@ -60,7 +60,7 @@ Você pode editar valores manualmente ou fazer upload de uma planilha para uma �
 
       1. Verifique os dados carregados na seção [!UICONTROL Review & Submit] e clique em **[!UICONTROL Save]**.
 
-## Fazer upload de multiplicadores de oferta para uma ou mais disposições
+## Fazer upload de multiplicadores de oferta para uma ou mais inserções
 
 Faça upload de uma planilha para aplicar os mesmos valores a todas as disposições selecionadas.
 
@@ -90,7 +90,7 @@ Faça upload de uma planilha para aplicar os mesmos valores a todas as disposiç
 
    1. Verifique os dados carregados na seção [!UICONTROL Review & Submit] e clique em **[!UICONTROL Save]**.
 
-## Tipos de Alvo Qualificados para Multiplicadores de Lance {#bid-multiplier-by-target}
+## Tipos de alvo qualificados para multiplicadores de oferta {#bid-multiplier-by-target}
 
 Você pode configurar modificadores de lances somente para alvos incluídos, não alvos excluídos.
 
@@ -104,7 +104,7 @@ Você pode configurar modificadores de lances somente para alvos incluídos, nã
 
 * **destinos do ads.txt:** (Quando você recusa o ads.txt, o que permite comprar o inventário de todos os vendedores) somente vendedores do ads.txt, vendedores diretos do ads.txt e vendedores do ads.txt mais sites sem ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
-## Número Máximo de Multiplicadores de Oferta por Tipo de Meta {#bid-multiplier-limits-by-target}
+## Número máximo de multiplicadores de oferta por tipo de meta {#bid-multiplier-limits-by-target}
 
 É possível definir multiplicadores de oferta (com valores diferentes de 1,00) para um número limitado de públicos-alvos. Por exemplo, você pode definir multiplicadores de lance para até 20 metas de país. O número máximo de alvos para cada tipo de alvo que pode ter multiplicadores de lance está listado abaixo.
 

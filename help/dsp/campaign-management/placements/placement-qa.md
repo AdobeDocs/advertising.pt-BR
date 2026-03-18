@@ -3,7 +3,7 @@ title: Revisar e editar configurações de posicionamento usando bulksheets
 description: Saiba como revisar e editar as configurações de posicionamento de chave em massa usando planilhas.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Você pode fazer upload das configurações para suas inserções e para os anú
 Quando qualquer atualização de configuração falhar, você pode baixar um arquivo de erro de bulksheet com codificação de cores para mostrar quais configurações (linhas) foram salvas e quais falharam, com um motivo para cada falha. Você pode então resolver os problemas no mesmo arquivo e carregá-lo novamente para processar as informações corrigidas.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

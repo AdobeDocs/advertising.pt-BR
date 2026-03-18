@@ -3,7 +3,7 @@ title: Editar rapidamente as configurações de posicionamento de chaves
 description: Saiba como alterar rapidamente as configurações de posicionamento de chaves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -38,4 +38,4 @@ ht-degree: 0%
 >* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
 >* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=pt-BR)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

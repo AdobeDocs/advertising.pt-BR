@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de posicionamento no Advertising DSP
 description: Saiba mais sobre gerenciamento de posicionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -21,14 +21,14 @@ Depois de atribuir uma inserção ativa a um pacote ou campanha ativa, todos os 
 ## Tipos de posicionamento disponíveis
 
 * Antes da exibição
-* Dispositivo móvel
+* Dispositivos móveis
 * Exibir
 * Nativo
 * Áudio
 * TV conectada
 * Vídeo universal
 
-## O Painel [!UICONTROL Placements]
+## O painel [!UICONTROL Placements]
 
 O painel [!UICONTROL Placements] centraliza o desempenho e os relatórios econômicos em todos os seus posicionamentos, fornecendo instantâneos rápidos do desempenho de seus posicionamentos durante um intervalo de datas especificado.
 

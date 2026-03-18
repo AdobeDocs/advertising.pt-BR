@@ -1,16 +1,16 @@
 ---
-title: Exibir um Log de Alterações de Posicionamento
+title: Exibir um log de alterações de posicionamento
 description: Saiba como visualizar as alterações feitas no posicionamento.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# Exibir o Log de Alterações para um Posicionamento
+# Exibir o log de alterações para um posicionamento
 
 Os logs de alterações mostram as alterações feitas no posicionamento durante o intervalo de datas selecionado, incluindo o tipo de alteração, os valores novos e antigos, o usuário que fez a alteração e a data. Opcionalmente, é possível adicionar notas a qualquer entrada.
 

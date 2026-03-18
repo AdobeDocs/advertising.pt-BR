@@ -3,7 +3,7 @@ title: Exibir alertas
 description: Saiba como visualizar alertas e resoluções recomendadas para suas campanhas e componentes da campanha.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Você também pode optar por ignorar um alerta individual, o que o remove do pai
 
 Os alertas e indicadores de alerta desaparecem automaticamente quando os problemas subjacentes são resolvidos.
 
-## Exibir Alertas no [!UICONTROL Pulse Panel]
+## Exibir alertas no [!UICONTROL Pulse Panel]
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 

@@ -1,16 +1,16 @@
 ---
-title: Gerenciar As Visualizações De Dados Do Campaign
+title: Gerencie suas visualizações de dados de campanha
 description: Saiba como personalizar suas visualizações de dados para campanhas, pacotes, posicionamentos e anúncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
-# Gerenciar As Visualizações De Dados Do Campaign
+# Gerencie suas visualizações de dados de campanha
 
 Você pode personalizar os dados que aparecem nas suas visualizações de gerenciamento de campanhas ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]).
 
@@ -32,7 +32,7 @@ Você pode personalizar os dados que aparecem nas suas visualizações de gerenc
 
 * Na parte superior direita da visualização de dados, clique na opção [!UICONTROL Overlay] (![Sobrepor opção](/help/dsp/assets/overlay.png)) para alternar entre o modo de sobreposição (todos os gráficos sobrepostos) e o modo de gráfico de lista de distribuição (três gráficos separados).
 
-## Gerenciar Tabelas de Dados {#data-tables-manage}
+## Gerenciar tabelas de dados {#data-tables-manage}
 
 Em todas as exibições de gerenciamento de campanha ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]), você pode personalizar os dados que aparecem na tabela de dados.
 
@@ -176,4 +176,4 @@ Na parte inferior direita de qualquer página, ao lado de **[!UICONTROL Items pe
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Exibir os Relatórios de Diagnóstico de Posicionamento](placement-diagnostics.md)
 >* [Exportar Dados de uma Exibição de Gerenciamento de Campanha](campaign-export-data.md)
->* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=pt-BR)
+>* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

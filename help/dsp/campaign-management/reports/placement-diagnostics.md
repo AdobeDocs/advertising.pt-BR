@@ -1,32 +1,32 @@
 ---
-title: Exibir os Relatórios de Diagnóstico de Posicionamento
+title: Exibir o relatório de posicionamento [!UICONTROL Diagnostics]
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Exibir os Relatórios de Diagnóstico de Posicionamento
+# Exibir o relatório de posicionamento [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configuração e o ritmo da inserção assim que a campanha estiver ativa.
 
-## Informações nos Relatórios de Diagnóstico de Posicionamento
+## Informações no relatório de posicionamento [!UICONTROL Diagnostics]
 
 * **[!UICONTROL Change Log]:** Mostra as alterações nas configurações de posicionamento de chaves, como nome, status e lance máximo. Cada entrada inclui a data e o nome de usuário da pessoa que fez a alteração.
 
 * **[!UICONTROL Ad Approvals]:** Mostra se os anúncios foram aprovados ou rejeitados pelos provedores de estoque. Como opção, é possível alterar o status de qualquer anúncio (por exemplo, pausar um anúncio rejeitado) ou abrir as configurações do anúncio.
 
-* **[!UICONTROL Non Bids]:** Mostra por que o DSP não deu lance no posicionamento.
+* **[!UICONTROL Non Bids]:** Mostra por que a DSP não ofereceu o posicionamento.
 
-## Abra os Relatórios de diagnóstico de posicionamento
+## Abrir o relatório de posicionamento [!UICONTROL Diagnostics]
 
-1. Abra o relatório Diagnósticos:
+1. Abra o relatório [!UICONTROL Diagnostics]:
 
    1. Abra as configurações de posicionamento:
 
@@ -60,7 +60,7 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
       1. (Opcional) Para abrir as configurações de um anúncio, clique em **[!UICONTROL View Ad]** ao lado do anúncio.
 
-   * Para ver por que o DSP não deu lance na colocação:
+   * Para ver por que a DSP não ofereceu a inserção:
 
       1. No canto superior direito, clique em **[!UICONTROL Non Bids]**.
 
@@ -72,6 +72,6 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](campaign-reports-about.md)
+>* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
 >* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

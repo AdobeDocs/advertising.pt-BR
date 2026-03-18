@@ -1,20 +1,20 @@
 ---
-title: Tipos de relatórios de desempenho em visualizações do Campaign Management
+title: Tipos de relatórios de desempenho em exibições de gerenciamento de campanha
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Tipos de relatórios de desempenho em visualizações do Campaign Management
+# Tipos de relatórios de desempenho em exibições de gerenciamento de campanha
 
 As visualizações de gerenciamento de campanha incluem dados de relatório abrangentes. Os relatórios disponíveis ajudam a identificar os pacotes e posicionamentos que estão apresentando um bom desempenho e aqueles que precisam de sua atenção. Os botões de ação rápida também tornam você mais produtivo.
 
-## Visualização de todas as campanhas
+## Exibição de todas as campanhas
 
 A visualização do [!UICONTROL Campaigns] é aberta para um conjunto de gráficos de dados de desempenho e uma lista de todas as campanhas em sua conta.
 
@@ -42,7 +42,7 @@ Para exibir uma campanha com mais detalhes, clique no seu nome.
 
 Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir Alertas](campaign-alerts.md)&quot; para obter mais informações.
 
-## Relatórios de campanha única {#single-campaign-reporting}
+## Relatório de campanha única {#single-campaign-reporting}
 
 Em uma campanha, você pode filtrar dados com base na entidade da campanha: [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]. Você pode [filtrar mais os dados visíveis](campaign-data-views-manage.md#filter-data-tables) para incluir apenas os pacotes, posicionamentos ou anúncios que deseja ver.
 
@@ -87,6 +87,6 @@ Para outros detalhamentos de dados, exiba [as páginas de relatórios no nível 
 >
 >* [Exibir os Sites, Anúncios e Detalhes de Frequência de um Posicionamento](placement-details-view.md)
 >* [Gerenciar As Visualizações De Dados Do Campaign](campaign-data-views-manage.md)
->* [Exportar Dados de um Modo de Exibição do Campaign Management](campaign-export-data.md)
+>* [Exportar Dados de uma Exibição de Gerenciamento de Campanha](campaign-export-data.md)
 >* [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Exibir Alertas](campaign-alerts.md)

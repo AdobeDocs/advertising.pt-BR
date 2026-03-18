@@ -3,7 +3,7 @@ title: Revisar e editar configurações do componente de campanha usando bulkshe
 description: Saiba como revisar e editar o pacote de chaves, a disposição e as configurações de anúncio em massa usando planilhas.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
      >
      >Para algumas configurações de target, todas as opções são direcionadas por padrão, a menos que você restrinja a seleção a alvos específicos. Quando você não restringiu os destinos, o campo de bulksheet fica em branco, o que significa que todas as opções são direcionadas.
 
-## Fazer upload de um Bulksheet com configurações de pacote, posicionamento e anúncios para uma campanha{#upload-bulksheet-campaign-components}
+## Fazer upload de uma bulksheet com configurações de pacote, posicionamento e anúncio para uma campanha{#upload-bulksheet-campaign-components}
 
 Faça upload das configurações para pacotes, disposições e anúncios em uma única campanha, tudo de uma só vez em uma bulksheet preenchida.
 
@@ -74,13 +74,13 @@ Quando qualquer atualização de configuração falhar, você pode baixar um arq
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

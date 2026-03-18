@@ -3,7 +3,7 @@ title: Revisar e editar configurações de pacote usando bulksheets
 description: Saiba como revisar e editar as principais configurações de pacote em massa usando planilhas.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Ao baixar configurações para pacotes específicos, o arquivo de bulksheet incl
 
      Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações. Todas as colunas editáveis são destacadas em azul. Para usar o formato correto para um campo, selecione e copie o valor da configuração relevante do pacote ou da configuração de posicionamento. Para algumas configurações do target, como dayparting, metas personalizadas e métricas de conversão, uma opção de cópia está disponível na configuração.
 
-## Fazer upload de uma Bulksheet com configurações de pacote {#upload-bulksheet-package}
+## Fazer upload de uma bulksheet com configurações de pacote {#upload-bulksheet-package}
 
 Você pode fazer upload das configurações dos pacotes, incluindo os posicionamentos e anúncios associados aos pacotes, em um arquivo de bulksheet.
 
@@ -107,7 +107,7 @@ Você pode fazer upload das configurações dos pacotes, incluindo os posicionam
 Quando qualquer atualização de configuração falhar, você pode baixar um arquivo de erro de bulksheet com codificação de cores para mostrar quais configurações (linhas) foram salvas e quais falharam, com um motivo para cada falha. Você pode então resolver os problemas no mesmo arquivo e carregá-lo novamente para processar as informações corrigidas.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

@@ -1,16 +1,16 @@
 ---
-title: Exibir os detalhes de sites, anúncios, frequência e inventário de uma disposição
+title: Exibir os detalhes de sites, anúncios, frequência e estoque de uma disposição
 description: Saiba como visualizar os sites direcionados, anúncios, frequência e dados de inventário para um posicionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Exibir os detalhes de sites, anúncios, frequência e inventário de uma disposição
+# Exibir os detalhes de sites, anúncios, frequência e estoque de uma disposição
 
 Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONTROL Inspector])](placement-details-view.md), que lista todos os sites, anúncios e ofertas direcionados em um posicionamento. Também inclui dados de frequência para o posicionamento. Opcionalmente, é possível exportar os dados de qualquer guia.
 

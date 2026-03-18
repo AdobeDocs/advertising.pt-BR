@@ -3,7 +3,7 @@ title: Exibir um relatório detalhado de um anúncio
 description: Saiba como abrir um relatório de nível de anúncio com dados de Visão geral, Geografia e Visualização.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -21,7 +21,7 @@ O relatório de nível de anúncio <!--legacy --> inclui dados de [!UICONTROL Ov
 
 >[!MORELIKETHIS]
 >
->* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Exibir um relatório detalhado para um posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Tipos de Relatórios de Desempenho em Exibições do Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)

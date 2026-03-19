@@ -3,7 +3,7 @@ title: Dicas para negociar um acordo programático garantido
 description: Obtenha dicas para negociar um contrato programático garantido (PG) e listas das responsabilidades do comprador e do editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -45,6 +45,6 @@ Ao negociar um contrato programático garantido, o comprador e o editor devem di
 
 >[!MORELIKETHIS]
 >
->* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
+>* [Sobre ofertas programáticas garantidas](programmatic-guaranteed-about.md)
 >* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)
 >* [Parceiros SSP](ssp-partners.md)

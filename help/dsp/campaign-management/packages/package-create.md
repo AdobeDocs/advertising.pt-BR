@@ -3,9 +3,9 @@ title: Criar um pacote
 description: Saiba como criar um pacote.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ Depois de criar um pacote, você pode atribuir disposições a ele.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Pacotes](package-about.md)
+>* [Sobre o gerenciamento de pacotes no Advertising DSP](package-about.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
->* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
->* [Pausar ou Ativar um Pacote](package-pause-activate.md)
+>* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Exibir o log de alterações de um pacote](package-change-log.md)
+>* [Pausar ou ativar um pacote](package-pause-activate.md)
 >* [Configurações do pacote](package-settings.md)
->* [Vídeo: como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=pt-BR)
+>* [Vídeo: como criar um pacote](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

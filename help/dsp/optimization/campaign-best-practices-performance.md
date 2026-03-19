@@ -3,7 +3,7 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Você deve configurar a otimização de CPA ou ROAS no nível do pacote (consult
 
    * Considere definir filtros de pré-oferta menos rigorosos nos casos em que o direcionamento adicional (como público-alvo, geografia e direcionamento de site) é aplicado.
 
-Consulte descrições de quando usar cada filtro de pré-oferta em [Filtros de pré-oferta no nível de posicionamento e Como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Consulte descrições de quando usar cada filtro pré-oferta em [Filtros pré-oferta de nível de posicionamento e como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventário
 
@@ -157,7 +157,7 @@ O uso de filtragem contextual, bloqueio de fraude pré-oferta e/ou filtragem de 
 >
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Como a DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)
+>* [Como a DSP otimiza suas campanhas](optimization-how-dsp-optimizes-campaigns.md)
 >* [Metas de otimização e como usá-las](optimization-goals.md)
 >* [Filtros de pré-oferta no nível de posicionamento e como usá-los](optimization-pre-bid-filters.md)
->* [Lista de Verificação de Inicialização da Campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Lista de verificação de inicialização da campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)

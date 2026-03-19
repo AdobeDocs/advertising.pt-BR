@@ -3,9 +3,9 @@ title: Criar uma inserção
 description: Saiba como criar uma disposição.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,15 +136,15 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Editar posicionamentos](placement-edit.md)
 >* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
->* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
->* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Editar os agendamentos de anúncios para posicionamentos](placement-edit-ad-schedule.md)
+>* [Desativar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Exibir o relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)
+>* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/340454)

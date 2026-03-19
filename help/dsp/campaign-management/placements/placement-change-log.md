@@ -3,9 +3,9 @@ title: Exibir um log de alterações de posicionamento
 description: Saiba como visualizar as alterações feitas no posicionamento.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Você pode classificar os dados pela coluna Tipo, Modificado por ou Data de Modi
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Criar um posicionamento](placement-create.md)
 >* [Editar posicionamentos](placement-edit.md)
->* [Duplicar um Posicionamento](placement-duplicate.md)
->* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
->* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
+>* [Duplicar um posicionamento](placement-duplicate.md)
+>* [Editar os agendamentos de anúncios para posicionamentos](placement-edit-ad-schedule.md)
+>* [Desativar ou ativar um posicionamento](placement-pause-activate.md)
 >* [Configurações de posicionamento](placement-settings.md)

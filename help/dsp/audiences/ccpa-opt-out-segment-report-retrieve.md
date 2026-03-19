@@ -3,7 +3,7 @@ title: Recuperar relatórios de cancelamento de venda do consumidor
 description: Saiba como recuperar relatórios de IDs enviados para solicitações de recusa de venda.
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

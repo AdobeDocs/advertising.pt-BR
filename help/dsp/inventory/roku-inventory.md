@@ -3,7 +3,7 @@ title: 'Usando o inventário  [!DNL Roku] '
 description: Saiba mais sobre a parceria da DSP com o  [!DNL Roku], incluindo opções de inventário, fornecedores de rastreamento de terceiros aprovados e práticas recomendadas para posicionamentos específicos do  [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -78,6 +78,6 @@ Para escala máxima:
 
 >[!MORELIKETHIS]
 >
->* [Criar manualmente os detalhes da ID do contrato](/help/dsp/inventory/deal-id-create.md)
-> * [Assinar e solicitar acesso a [!DNL On Demand] Contratos de Inventário Premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [Criar manualmente os detalhes da ID de negócios](/help/dsp/inventory/deal-id-create.md)
+> * [Assinar e solicitar acesso a [!DNL On Demand] ofertas de inventário premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [Criar um posicionamento](/help/dsp/campaign-management/placements/placement-create.md)

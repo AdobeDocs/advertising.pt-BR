@@ -3,7 +3,7 @@ title: Configurar um contrato programático garantido
 description: Saiba como configurar um contrato programático garantido (PG) que você negociou com um editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[Somente plataformas do lado do suprimento com suporte](programmatic-guaranteed-about.md)*
 
-Depois de negociar um contrato programático garantido (PG) com um editor suportado, você pode configurar o contrato no DSP usando o [!DNL Deal ID inbox] ou inserindo manualmente os detalhes do contrato.
+Depois de negociar um contrato programático garantido (PG) com um editor suportado, você pode configurar o contrato no DSP usando o [!DNL Deal ID Inbox] ou inserindo manualmente os detalhes do contrato.
 
 >[!NOTE]
 >
 > Para ofertas PG, o editor lida com todo o ritmo do orçamento, limite de orçamento e direcionamento. Todos os SSPs que permitem PG por meio do DSP confirmam que o editor pode configurar limite de orçamento.
 >
-> A configuração de ofertas programáticas garantidas com editores em [!DNL FreeWheel] requer permissões e etapas adicionais. Consulte &quot;[Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL FreeWheel]](freewheel-overview.md)&quot; para obter mais informações.
+> A configuração de ofertas programáticas garantidas com editores em [!DNL FreeWheel] requer permissões e etapas adicionais. Consulte &quot;[Visão geral da configuração de ofertas programáticas garantidas no [!DNL FreeWheel]](freewheel-overview.md)&quot; para obter mais informações.
 
 ## Configurar um negócio programático garantido usando o [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
@@ -58,10 +58,10 @@ Use este método para todos os outros SSPs.
 
 >[!MORELIKETHIS]
 >
->* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
->* [Dicas para Negociar um Acordo Programático Garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Enviar um anúncio para uma oferta programática garantida com o  [!DNL FreeWheel]](freewheel-submit.md)
->* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
->* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)
+>* [Sobre ofertas programáticas garantidas](programmatic-guaranteed-about.md)
+>* [Dicas para negociar um contrato programático garantido](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Enviar um anúncio para um contrato programático garantido com o  [!DNL FreeWheel]](freewheel-submit.md)
+>* [Aceitar um contrato no [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Criar manualmente os detalhes da ID de negócios](deal-id-create.md)
 >* [Parceiros SSP](ssp-partners.md)
->* [Visão Geral dos Recursos de Inventário](inventory-overview.md)
+>* [Visão geral dos recursos de inventário no Advertising DSP](inventory-overview.md)

@@ -3,7 +3,7 @@ title: Como o DSP otimiza suas campanhas
 description: Saiba como a DSP otimiza os pacotes em suas campanhas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Os filtros de pré-oferta de posicionamento são a maneira mais rigorosa de gara
 >
 >Os filtros de pré-oferta disponíveis variam de acordo com o tipo de anúncio. Por exemplo, para um posicionamento de exibição padrão, é possível filtrar por taxa de cliques e visibilidade, mas não por taxa de conclusão.
 
-Consulte [Filtros de Pré-oferta de nível de posicionamento e Como Usá-los](optimization-pre-bid-filters.md) para determinar qual filtro de pré-oferta pode ajudá-lo a obter seus KPIs.
+Consulte [Filtros de pré-oferta de nível de posicionamento e como usá-los](optimization-pre-bid-filters.md) para determinar qual filtro de pré-oferta pode ajudar a obter seus KPIs.
 
 >[!MORELIKETHIS]
 >

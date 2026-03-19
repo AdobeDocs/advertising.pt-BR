@@ -2,7 +2,7 @@
 title: Exibir pixels de evento para uma oferta de [!UICONTROL Simple Ad Serving]
 description: Saiba como obter uma cópia dos pixels de rastreamento de eventos para uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Os pixels do evento incluem um [!UICONTROL Clickthrough] pixel e um [!UICONTROL 
 >[!MORELIKETHIS]
 >
 >* [Sobre [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Criar um Contrato [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
->* [Editar [!UICONTROL Simple Ad Serving] Configurações de oferta](simple-deal-edit.md)
->* [[!UICONTROL Simple Ad Serving] Configurações](simple-deal-settings.md)
->* [Exibir um Relatório Detalhado de um Acordo](/help/dsp/inventory/deal-view-report.md)
+>* [Criar um negócio [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
+>* [Editar [!UICONTROL Simple Ad Serving] configurações do negócio](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] configurações](simple-deal-settings.md)
+>* [Exibir um relatório detalhado de um negócio](/help/dsp/inventory/deal-view-report.md)

@@ -3,16 +3,16 @@ title: Editar agendamentos de anúncios para posicionamentos
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Editar agendamentos de anúncios para posicionamentos
 
-## Editar os cronogramas de publicidade para uma ou mais disposições
+## Editar os agendamentos de anúncios para um ou mais posicionamentos
 
 Você pode alterar as datas de veiculação programadas e a rotação de anúncios para os anúncios anexados a vários posicionamentos usando uma planilha do [!DNL Microsoft Excel]. Cada anúncio pode estar ativo durante vários voos.
 
@@ -46,7 +46,7 @@ Você pode alterar as datas de veiculação programadas e a rotação de anúnci
 
    1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** e especifique o arquivo a ser carregado.
 
-## Editar a programação de anúncios para um único posicionamento
+## Editar a programação de anúncios para uma única disposição
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -78,7 +78,7 @@ Você pode alterar as datas de veiculação programadas e a rotação de anúnci
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Editar posicionamentos](placement-edit.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

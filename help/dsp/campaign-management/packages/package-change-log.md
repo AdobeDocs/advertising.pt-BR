@@ -3,9 +3,9 @@ title: Exibir um log de alterações do pacote
 description: Saiba como visualizar as alterações feitas no pacote.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Val
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Pacotes](package-about.md)
+>* [Sobre o gerenciamento de pacotes no Advertising DSP](package-about.md)
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
+>* [Anexar um posicionamento a um pacote](package-attach-placement.md)
 >* [Configurações do pacote](package-settings.md)

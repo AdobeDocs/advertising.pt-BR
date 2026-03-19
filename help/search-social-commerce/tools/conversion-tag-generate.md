@@ -3,9 +3,9 @@ title: Gerar e implementar uma tag de rastreamento de conversão do Adobe Advert
 description: Saiba como criar uma tag de conversão do Adobe Advertising para rastrear seus eventos de conversão.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 74e5c13d4cd904f3e9741757d162d635ee6f793c
+source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
-Crie uma tag de conversão separada para cada conjunto de métricas que você deseja rastrear. Você pode gerar tags na Search, Social e Commerce ou usar tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch).
+Crie uma tag de conversão separada para cada conjunto de métricas que você deseja rastrear. Você pode gerar tags na Search, Social e Commerce ou usando tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch) com a extensão do Adobe Advertising.
 
 ## Gerar e implementar uma tag de rastreamento de conversão no Search, Social e Commerce
 
@@ -78,13 +78,13 @@ Consulte &quot;[Perguntas frequentes sobre a conversão do Adobe Advertising e a
 
 Você pode configurar o rastreamento de conversão para o Search, Social e Commerce usando tags na Adobe Experience Platform. As tags estão disponíveis para clientes do Adobe Experience Cloud como um recurso incluso de valor agregado.
 
-As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/get-started/quick-start).&quot;
+As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).&quot;
 
 >[!PREREQUISITES]
 >
 >Para instalar a extensão de tag necessária, peça ao administrador da organização acesso aos recursos de Coleção de Dados na interface do usuário, incluindo a permissão `manage_properties`.
 
-1. Na [Interface da Coleção de Dados](https://experience.adobe.com/#/data-collection/), instale a [Extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/extensions/overview) do Adobe Advertising:
+1. Na [Interface da Coleção de Dados](https://experience.adobe.com/#/data-collection/), instale a [Extensão](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) do Adobe Advertising:
 
    1. Na propriedade aplicável, abra o catálogo de extensões e selecione **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ As seguintes tarefas são necessárias para configurar tags de rastreamento de c
 
          **Nome da Propriedade de Conversão:** O nome da propriedade de conversão (por exemplo, `form_completes`).
 
-         **Valor:** O valor numérico da propriedade de conversão (por exemplo, `1` para rastrear formulários_completes) ou escolha um [elemento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/data-elements) existente.
+         **Valor:** O valor numérico da propriedade de conversão (por exemplo, `1` para rastrear formulários_completes) ou escolha um [elemento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
 
       1. Clique em **Manter alterações**.
 

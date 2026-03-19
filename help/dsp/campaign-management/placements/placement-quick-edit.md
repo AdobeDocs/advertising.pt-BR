@@ -38,4 +38,4 @@ ht-degree: 0%
 >* [Desativar ou ativar um posicionamento](placement-pause-activate.md)
 >* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=pt-BR)

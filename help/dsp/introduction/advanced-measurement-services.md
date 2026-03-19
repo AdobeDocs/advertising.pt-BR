@@ -2,7 +2,7 @@
 title: Soluções avançadas de medição
 description: Consulte uma lista de soluções disponíveis para medição avançada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -85,4 +85,4 @@ Para obter informações sobre todas as soluções avançadas de medição, desc
 
 >[!MORELIKETHIS]
 >
->[Moedas com Suporte no Adobe Advertising](/help/dsp/currency.md)
+>[Moedas com suporte no Adobe Advertising](/help/dsp/currency.md)

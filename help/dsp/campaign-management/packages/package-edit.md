@@ -3,9 +3,9 @@ title: Edição de um pacote
 description: Saiba como editar um pacote.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Você também pode baixar as configurações de um ou mais pacotes no formato XLSX (planilha do Excel); fazer alterações na maioria dos campos; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e Editar Configurações de Pacote Usando Bulksheets](package-qa.md).&quot;
+>Você também pode baixar as configurações de um ou mais pacotes no formato XLSX (planilha do Excel); fazer alterações na maioria dos campos; e carregá-las de volta para o DSP de uma só vez. Consulte &quot;[Revisar e editar configurações de pacote usando bulksheets](package-qa.md).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha para abrir a exibição [!UICONTROL Packages].
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Pacotes](package-about.md)
->* [Revisar e Editar Configurações do Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Sobre o gerenciamento de pacotes no Advertising DSP](package-about.md)
+>* [Revisar e editar configurações de pacote usando bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Criar um pacote](package-create.md)
->* [Duplicar um Pacote](package-duplicate.md)
->* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
->* [Pausar ou Ativar um Pacote](package-pause-activate.md)
+>* [Duplicar um pacote](package-duplicate.md)
+>* [Exibir o log de alterações de um pacote](package-change-log.md)
+>* [Pausar ou ativar um pacote](package-pause-activate.md)
 >* [Configurações do pacote](package-settings.md)

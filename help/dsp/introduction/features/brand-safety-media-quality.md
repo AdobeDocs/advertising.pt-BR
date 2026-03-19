@@ -3,7 +3,7 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: Posicionamentos duplicados
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,8 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Criar um posicionamento](placement-create.md)
 >* [Editar posicionamentos](placement-edit.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

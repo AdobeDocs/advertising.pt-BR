@@ -3,7 +3,7 @@ title: Configurar contas de rede de publicidade para upload de dados
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** O Search, Social e Commerce permite a busca automatizada de dados para um bucket do S3 especificado.
 
-## Guia [!UICONTROL Setup Analytics]
+### Guia [!UICONTROL Setup Analytics]
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Anunciantes com [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md); opcional) Um ou mais conjuntos de relatórios do Analytics para os quais Search, Social e Commerce enviam dados carregados para a rede de publicidade, incluindo classificações de entidade e dados de cliques da conta.
 

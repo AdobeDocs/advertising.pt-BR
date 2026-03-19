@@ -3,7 +3,7 @@ title: Copiar a chave do segmento para um público-alvo reutilizável na área d
 description: Saiba como visualizar a configuração e o tamanho do público-alvo para um público reutilizável.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

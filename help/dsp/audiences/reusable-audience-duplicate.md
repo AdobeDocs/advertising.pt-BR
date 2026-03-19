@@ -3,7 +3,7 @@ title: Duplicação de um público-alvo reutilizável
 description: Saiba como duplicar um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Você pode criar um público-alvo duplicando um público-alvo existente.
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Compartilhar um público-alvo reutilizável](reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
 >* [Configurações de público-alvo](audience-settings.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)

@@ -2,7 +2,7 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -132,19 +132,19 @@ Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify] e [!DNL In
 
 ###### Vídeo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Exibir
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -178,6 +178,6 @@ A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Você pode a
 
 >[!MORELIKETHIS]
 >
->* [Criar uma Conta de Anunciante](/help/dsp/admin/advertiser-create.md)
+>* [Criar uma conta de anunciante](/help/dsp/admin/advertiser-create.md)
 
-<!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->
+<!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

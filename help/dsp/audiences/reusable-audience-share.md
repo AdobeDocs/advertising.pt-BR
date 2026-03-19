@@ -3,7 +3,7 @@ title: Compartilhar um público-alvo reutilizável
 description: Saiba como compartilhar um público-alvo reutilizável com outros anunciantes disponíveis em sua conta.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Depois de compartilhar um público, você não pode parar de compartilhá-lo.
 >* [Editar um público-alvo reutilizável](reusable-audience-edit.md)
 >* [Exibir detalhes sobre um público-alvo reutilizável](reusable-audience-view-details.md)
 >* [Exportar um público-alvo reutilizável](reusable-audience-export.md)
->* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](reusable-audience-delete.md)
 >* [Configurações de público-alvo](audience-settings.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)

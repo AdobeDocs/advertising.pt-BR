@@ -3,7 +3,7 @@ title: Compartilhar ou parar de compartilhar um segmento
 description: Saiba como compartilhar ou parar de compartilhar um segmento de recusa de venda personalizado ou do CCPA com outras contas de usuário do DSP.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -36,4 +36,4 @@ Também é possível interromper o compartilhamento de um segmento com outras co
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Editar informações do segmento](segment-edit.md)
 >* [Excluir um segmento](segment-delete.md)
->* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)
+>* [Exibir os pixels de rastreamento de um segmento](segment-view-pixels.md)

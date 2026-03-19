@@ -1,11 +1,11 @@
 ---
 title: Configurações do relatório personalizado
-description: Consulte descrições das configurações de relatório personalizadas.
+description: Consulte descrições das Configurações personalizadas do relatório.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
 \* *[!UICONTROL Account]* está disponível somente para os seguintes tipos de relatório quando sua organização está configurada para [relatórios entre contas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre relatórios entre contas.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Caminho para Conversão, Extensão do Caminho e Tempo para Conversão somente) Inclui dados para cliques em anúncios de pesquisa de campanhas Advertising Search, Social e Commerce especificadas. Ao selecionar essa opção:
+**[!UICONTROL Include data from Adobe Advertising SSC]:** ([!UICONTROL Path to Conversion], [!UICONTROL Path Length] e [!UICONTROL Time to Conversion] relatórios somente) Inclui dados para cliques em anúncios de pesquisa de campanhas Advertising Search, Social e Commerce especificadas. Ao selecionar essa opção:
 
 1. Selecione a conta de Pesquisa, Social e Commerce usando o filtro **Filtrar por[!UICONTROL SSC Account]**.
 
@@ -105,7 +105,7 @@ Para aplicar um ou mais filtros, faça o seguinte:
 
 * [!UICONTROL Custom Goals] (classificado pelo anunciante)
 
-Consulte &quot;[Colunas de Relatório Disponíveis](report-columns.md)&quot; para obter descrições de todas as opções.
+Consulte &quot;[Colunas do relatório disponíveis](report-columns.md)&quot; para obter descrições de todas as opções.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** A ordem dos cabeçalhos de coluna. Você pode arrastar e soltar qualquer coluna para personalizar a ordem.
 
@@ -183,7 +183,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 
@@ -205,12 +205,12 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
->* [Duplicar um Relatório Personalizado](/help/dsp/reports/report-copy.md)
+>* [Duplicar um relatório personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
->* [Executar um Relatório Personalizado](/help/dsp/reports/report-run-now.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Sobre Destinos de Relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Baixar um relatório personalizado](/help/dsp/reports/report-download.md)
+>* [Executar um relatório personalizado](/help/dsp/reports/report-run-now.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Sobre destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)

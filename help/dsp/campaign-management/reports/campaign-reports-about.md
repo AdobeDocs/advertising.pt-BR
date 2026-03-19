@@ -3,7 +3,7 @@ title: Tipos de relatórios de desempenho em exibições de gerenciamento de cam
 description: Saiba mais sobre os dados do relatório incluídos nas visualizações de gerenciamento de campanha.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Como opção, também é possível sobrepor as três métricas para facilitar a 
 
 ![gráfico de tendências com sobreposição](/help/dsp/assets/trend-chart.png)
 
-### Exibição de tabela
+### Visualização em tabela
 
 ![Lista de campanhas](/help/dsp/assets/campaigns-list.png)
 
@@ -40,7 +40,7 @@ Para exibir uma campanha com mais detalhes, clique no seu nome.
 
 #### Indicadores de alerta
 
-Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir Alertas](campaign-alerts.md)&quot; para obter mais informações.
+Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir alertas](campaign-alerts.md)&quot; para obter mais informações.
 
 ## Relatório de campanha única {#single-campaign-reporting}
 
@@ -54,19 +54,19 @@ Para cada campanha, você pode [personalizar os gráficos de tendência de séri
 
 Consulte a seção [&quot;Exibição de gráfico&quot; sobre métricas entre campanhas](#chart-view) para obter mais informações.
 
-### Exibição de tabela
+### Visualização em tabela
 
 Em cada guia de entidade, cada linha inclui métricas de ritmo e entrega, por padrão, mas você pode [alterar a exibição de coluna](campaign-data-views-manage.md#column-view-change) ou até [criar uma exibição de coluna personalizada](campaign-data-views-manage.md#column-view-create) para aplicar em todas as subguias da campanha. Você pode [personalizar ainda mais as tabelas de dados](campaign-data-views-manage.md#data-tables-manage) de maneiras adicionais. Cada tabela de dados inclui uma linha [!UICONTROL Subtotals], que mostra a soma ou o valor médio de cada métrica em todas as linhas visíveis.
 
 #### Indicadores de alerta
 
-Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando um pacote, posicionamento ou anúncio — ou qualquer entidade filha em um pacote ou posicionamento — tem um problema. Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir Alertas](campaign-alerts.md)&quot; para obter mais informações.
+Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando um pacote, posicionamento ou anúncio — ou qualquer entidade filha em um pacote ou posicionamento — tem um problema. Uma coluna &quot;[!UICONTROL Alerts]&quot; indica quando uma campanha ou qualquer entidade filha abaixo dela tem um problema. Um ícone [!UICONTROL Pulse Panel] à direita da barra de ferramentas também indica se há alertas disponíveis para as entidades listadas. Consulte &quot;[Exibir alertas](campaign-alerts.md)&quot; para obter mais informações.
 
 ### Outros tipos de relatórios no nível da campanha
 
 Para outros data breakouts, visualize [as páginas de relatórios no nível da campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md). O relatório inclui seções nos dados [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] e [!UICONTROL Audience Performance].
 
-### Outros tipos de relatórios de nível de posicionamento
+### Outros tipos de relatórios em nível de posicionamento
 
 Para outros detalhamentos de dados, exiba [as páginas de relatórios no nível de posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md). O relatório inclui seções nos dados [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] e [!UICONTROL Ads].
 
@@ -85,8 +85,8 @@ Para outros detalhamentos de dados, exiba [as páginas de relatórios no nível 
 
 >[!MORELIKETHIS]
 >
->* [Exibir os Sites, Anúncios e Detalhes de Frequência de um Posicionamento](placement-details-view.md)
->* [Gerenciar As Visualizações De Dados Do Campaign](campaign-data-views-manage.md)
->* [Exportar Dados de uma Exibição de Gerenciamento de Campanha](campaign-export-data.md)
+>* [Exibir os sites, anúncios e detalhes de frequência de um posicionamento](placement-details-view.md)
+>* [Gerenciar suas visualizações de dados de campanha](campaign-data-views-manage.md)
+>* [Exportar dados de uma exibição de gerenciamento de campanha](campaign-export-data.md)
 >* [Exibir um relatório detalhado de uma campanha](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Exibir Alertas](campaign-alerts.md)
+>* [Exibir alertas](campaign-alerts.md)

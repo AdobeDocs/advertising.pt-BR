@@ -1,9 +1,9 @@
 ---
 title: Exibir um relatório detalhado de um anúncio
-description: Saiba como abrir um relatório de nível de anúncio com dados de Visão geral, Geografia e Visualização.
+description: Saiba como abrir um relatório de nível de anúncio com dados de visão geral, geografia e visibilidade.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 41be6988fdc3f824f5f838c109c608e2b3f3afee
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%

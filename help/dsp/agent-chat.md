@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Procure a documentação do produto usando uma interface de bate-papo assistida por IA
 
-*Recurso beta*
+*recurso do Beta*
 
 *Suporte somente para inglês*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use a interface de bate-papo do AI para pesquisar conteúdo conceitual e de instruções no [Guia de DSP de Publicidade](/help/dsp/home.md) e (anunciantes com Advertising Creative) no [Guia de Advertising Creative](/help/creative/home.md). As respostas são baseadas somente no que está documentado para esses produtos em [Experience League](https://experienceleague.adobe.com/pt-br/docs/advertising).
+Use a interface de chat do AI para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md). As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
-As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudá-lo a refinar sua consulta e encontrar mais informações. Seu histórico de bate-papo é mantido e suas consultas não são compartilhadas com outros usuários.
+As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações. Seu histórico do chat é mantido e suas consultas não são compartilhadas com outros usuários.
 
 >[!NOTE]
 >
->As consultas não retornam dados sobre sua conta, como configurações de campanha, negociação ou audiência, status ou desempenho. Eles também não ajudam a solucionar problemas.
+>As consultas não retornam dados sobre sua conta, como configurações, status ou desempenho de campanha, negócios ou público-alvo. Elas também não ajudam a solucionar problemas.
 
 ![Exemplo de consulta e resposta](/help/dsp/assets/agent-chat-response.png "Exemplo de consulta e resposta")
 
@@ -38,15 +38,15 @@ As respostas incluem citações, além de prompts adicionais e perguntas de acom
 
 Você pode fazer perguntas sobre gerenciamento de campanha, otimização, gerenciamento de público-alvo, ofertas, relatórios e outros recursos do produto. Veja a seguir alguns exemplos:
 
-* Como anexar um anúncio a um posicionamento?
+* Como anexar um anúncio a uma disposição?
 
-* Quais são as consequências do uso de diferentes opções de posicionamento nas configurações de posicionamento?
+* Quais são as consequências do uso de diferentes opções de ritmo nas configurações de posicionamento?
 
 * Quando devo usar cada tipo de meta de otimização?
 
-* Por que as colocações garantidas programáticas (PG) não servem impressões?
+* Por que os posicionamentos programáticos garantidos (PG) não servem impressões?
 
-* Quais relatórios incluem dados de nível doméstico?
+* Quais relatórios incluem dados domésticos?
 
 * Qual é a diferença entre uma experiência direcionada e uma experiência não direcionada no [!DNL Creative]?
 
@@ -60,9 +60,9 @@ Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por
 
 1. Insira sua consulta e clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
-   Para obter mais informações, consulte “[Escrevendo Prompts](#writing-prompts).”
+   Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot;.
 
-   A resposta inclui citações embutidas e uma lista **[!UICONTROL Documentation Sources]** na parte inferior. Perguntas e sugestões de acompanhamento também podem ser exibidas.
+   A resposta inclui citações embutidas e uma lista **[!UICONTROL Documentation Sources]** na parte inferior. Perguntas e sugestões de acompanhamento também podem aparecer.
 
 1. (Opcional) Para abrir uma página usada como fonte de dados, siga um destes procedimentos:
 
@@ -82,12 +82,12 @@ Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por
 
 ## Noções básicas para escrever prompts {#writing-prompts}
 
-* **Seja claro e específico.** Use perguntas completas (”Como assino o inventário por demanda?”), frases de tarefa (”Assine o inventário por demanda”) ou frases de tópico (”Inventário por demanda”).
+* **Seja claro e específico.** Use perguntas completas (&quot;Como eu me inscrevo no inventário sob demanda?&quot;), frases de tarefas (&quot;assinar o inventário sob demanda&quot;) ou frases de tópicos (&quot;Inventário sob demanda&quot;).
 
-* **Corresponda os termos da interface do usuário** quando possível para recursos do produto (como “campanhas” ou “ofertas”).
+* **Corresponder termos da interface** quando possível para recursos do produto (como &quot;campanhas&quot; ou &quot;ofertas&quot;).
 
-  Para ações comuns (como “adicionar”, “anexar” ou “atribuir”), você pode usar sinônimos.
+  Para ações comuns (como &quot;adicionar&quot;, &quot;anexar&quot; ou &quot;atribuir&quot;), é possível usar sinônimos.
 
-* **Adicione detalhes** para restringir ou ampliar os resultados. Refine com perguntas de acompanhamento conforme necessário.
+* **Adicionar detalhes** para restringir ou ampliar resultados. Refine com perguntas de acompanhamento, conforme necessário.
 
 * **Não se preocupe com pontuação e maiúsculas**, exceto quando afetarem o significado.

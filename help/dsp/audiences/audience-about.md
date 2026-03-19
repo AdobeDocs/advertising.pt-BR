@@ -3,9 +3,9 @@ title: Sobre o gerenciamento de público-alvo no Advertising DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
   >[!NOTE]
   >
-  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=pt-BR) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
+  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
 
 ## Dados de tamanho do público
 
@@ -106,15 +106,15 @@ Você também pode ver dados detalhados sobre o tamanho do público-alvo:
 
   ![o segmento individual ou os detalhes do público-alvo salvo](/help/dsp/assets/audience-size-segment-details.png)
 
-## As visualizações de Públicos-alvo
+## As [!UICONTROL Audiences] visualizações
 
-### A visualização Todos os públicos-alvo
+### A visualização [!UICONTROL All Audiences]
 
 Na exibição [!UICONTROL All Audiences] ou Biblioteca de público-alvo, você pode salvar e gerenciar públicos-alvo reutilizáveis, que incluem grupos de segmentos de público-alvo e até mesmo outros públicos-alvo salvos. Você pode usar públicos-alvo como destinos para vários posicionamentos. O número de disposições em que cada público-alvo é usado é indicado ao lado do nome da disposição.
 
 Você pode editar, clonar, excluir, exportar ou compartilhar qualquer público-alvo.
 
-### A visualização Segmentos
+### A visualização [!UICONTROL Segments]
 
 Na visualização [!UICONTROL Segments], todos os usuários podem criar segmentos personalizados adicionais.
 
@@ -134,22 +134,22 @@ A exibição [!UICONTROL Segments] também lista os seguintes tipos de segmento:
 
   Não é possível editar ou compartilhar segmentos de terceiros que foram compartilhados com você. Entre em contato com a equipe de conta da Adobe se precisar compartilhar segmentos de terceiros com usuários adicionais.
 
-### A visualização Fontes
+### A visualização [!UICONTROL Sources]
 
 No modo de exibição [!UICONTROL Sources], é possível configurar fontes para segmentos primários em plataformas de dados do cliente com suporte que você deseja converter em segmentos que contêm tipos de ID universal especificados. As configurações de origem incluem uma chave de origem gerada automaticamente, que você fornecerá à plataforma de dados do cliente para estabelecer a conexão.
 
-Para obter mais informações sobre as plataformas de dados do cliente com suporte, os tipos de ID universal com suporte e os fluxos de trabalho para configurar conexões com cada plataforma de dados do cliente, consulte &quot;[Sobre Fontes](/help/dsp/audiences/sources/source-about.md).&quot;
+Para obter mais informações sobre as plataformas de dados do cliente com suporte, os tipos de ID universal com suporte e os fluxos de trabalho para configurar conexões com cada plataforma de dados do cliente, consulte &quot;[Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md).&quot;
 
 Os segmentos traduzidos estão disponíveis para inclusão em públicos reutilizáveis e em configurações de posicionamento para direcionamento sem cookies.
 
 >[!MORELIKETHIS]
 >
->* [Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)
+>* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Criar e implementar um segmento personalizado](custom-segment-create.md)
 >* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md)
->* [Importar manualmente os segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](/help/dsp/audiences/sources/source-manage.md)
+>* [Importar segmentos autenticados manualmente de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

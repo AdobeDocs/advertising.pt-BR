@@ -3,9 +3,9 @@ title: Editar disposições
 description: Saiba como editar uma disposição.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Você também pode baixar as configurações para uma ou mais disposições, ou para todas as disposições em uma campanha, no formato XLSX (planilha do Excel); fazer alterações na maioria dos campos; e carregá-las de volta para o DSP, todas de uma só vez. Consulte &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](placement-qa.md)&quot;.
+>Você também pode baixar as configurações para uma ou mais disposições, ou para todas as disposições em uma campanha, no formato XLSX (planilha do Excel); fazer alterações na maioria dos campos; e carregá-las de volta para o DSP, todas de uma só vez. Consulte &quot;[Revisar e editar configurações de posicionamento usando bulksheets](placement-qa.md)&quot;.
 
 ## Editar rapidamente as configurações de posicionamento de chaves {#placement-quick-edit}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Para editar apenas o nome do posicionamento, o status, a oferta máxima e o orçamento, consulte &quot;[Editar configurações de posicionamento de chaves](#placement-quick-edit) rapidamente&quot;.
+> Para editar apenas o nome do posicionamento, o status, a oferta máxima e o orçamento, consulte &quot;[Editar rapidamente as configurações de posicionamento de chaves](#placement-quick-edit)&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Update placement]**.
 
-## Fazer as mesmas alterações em várias disposições {#edit-multiple-placements}
+## Fazer as mesmas alterações em vários posicionamentos {#edit-multiple-placements}
 
 Use essa opção somente quando quiser aplicar as mesmas alterações a todas as disposições selecionadas.
 
@@ -91,15 +91,15 @@ Use essa opção somente quando quiser aplicar as mesmas alterações a todas as
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
->* [Revisar e Editar Configurações de Posicionamento Usando Bulksheets](placement-qa.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
+>* [Revisar e editar configurações de posicionamento usando bulksheets](placement-qa.md)
 >* [Criar um posicionamento](placement-create.md)
->* [Duplicar um Posicionamento](placement-duplicate.md)
+>* [Duplicar um posicionamento](placement-duplicate.md)
 >* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
->* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
->* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Editar os agendamentos de anúncios para posicionamentos](placement-edit-ad-schedule.md)
+>* [Desativar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Exibir o relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=pt-BR)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -3,7 +3,7 @@ title: Sobre fontes de público-alvo primárias
 description: Saiba mais sobre como converter outros identificadores de usuário em seus segmentos primários em IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -74,7 +74,7 @@ O DSP também pode se conectar a qualquer CDP adicional usando compartilhamento 
 
 O DSP é um *destino* integrado para [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte da Adobe Experience Platform.
 
-No [!DNL Real-Time CDP], os destinos são conexões com plataformas de dados externas que permitem ativação de dados sem interrupção. Você pode usar destinos para ativar seus endereços de email com hash para publicidade direcionada no DSP. Para obter mais informações sobre destinos, consulte o [Guia de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR) do Experience Platform, incluindo uma visão geral do produto, instruções para [criar espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=pt-BR) e [criar conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=pt-BR) e [ativar dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=pt-BR).
+No [!DNL Real-Time CDP], os destinos são conexões com plataformas de dados externas que permitem ativação de dados sem interrupção. Você pode usar destinos para ativar seus endereços de email com hash para publicidade direcionada no DSP. Para obter mais informações sobre destinos, consulte o [Guia de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) do Experience Platform, incluindo uma visão geral do produto, instruções para [criar espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [criar conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) e [ativar dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Para permitir que o DSP assimile segmentos primários do [!DNL Adobe] [!DNL Real-time CDP] e converta seus endereços de email com hash em IDs universais, consulte &quot;[Converter IDs de usuários do [!DNL Adobe Real-Time CDP] em IDs universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
@@ -84,11 +84,11 @@ Você pode compartilhar os dados primários de sua organização da plataforma d
 
 ### [!DNL Amperity]
 
-Você pode compartilhar os dados primários de sua organização da plataforma de dados do cliente [!DNL Amperity] com a DSP para converter seus endereços de email com hash em IDs universais para publicidade direcionada no DSP. Para obter mais informações, consulte &quot;[Converter IDs de usuário de [!DNL Amperity] em IDs universais](/help/dsp/audiences/sources/source-amperity.md).&quot;
+Você pode compartilhar os dados primários de sua organização da plataforma de dados do cliente [!DNL Amperity] com a DSP para converter seus endereços de email com hash em IDs universais para publicidade direcionada no DSP. Para obter mais informações, consulte &quot;[Converter IDs de usuário de [!DNL Amperity] para IDs universais](/help/dsp/audiences/sources/source-amperity.md).&quot;
 
 ### [!DNL Optimizely]
 
-Você pode compartilhar os dados primários de sua organização da plataforma de dados do cliente [!DNL Optimizely] com a DSP para converter seus endereços de email com hash em IDs universais para publicidade direcionada no DSP. Para obter mais informações, consulte &quot;[Converter IDs de usuário de [!DNL Optimizely] em IDs universais](/help/dsp/audiences/sources/source-optimizely.md).&quot;
+Você pode compartilhar os dados primários de sua organização da plataforma de dados do cliente [!DNL Optimizely] com a DSP para converter seus endereços de email com hash em IDs universais para publicidade direcionada no DSP. Para obter mais informações, consulte &quot;[Converter IDs de usuário de [!DNL Optimizely] para IDs universais](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -96,11 +96,11 @@ Você pode compartilhar os dados primários da sua organização na plataforma d
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
->* [Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)
->* [Converter IDs de Usuário de [!DNL Adobe Real-Time CDP] em IDs Universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Converter IDs de Usuário de [!DNL Amperity] em IDs Universais](/help/dsp/audiences/sources/source-amperity.md)
->* [Converter IDs de Usuário de [!DNL Optimizely] em IDs Universais](/help/dsp/audiences/sources/source-optimizely.md)
->* [Converter IDs de Usuário de [!DNL Tealium] em IDs Universais](/help/dsp/audiences/sources/source-tealium.md)
->* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
+>* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
+>* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] em IDs universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converter IDs de usuário de [!DNL Amperity] em IDs universais](/help/dsp/audiences/sources/source-amperity.md)
+>* [Converter IDs de usuário de [!DNL Optimizely] em IDs universais](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Converter IDs de usuário de [!DNL Tealium] em IDs universais](/help/dsp/audiences/sources/source-tealium.md)
+>* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de anúncios no Advertising DSP
 description: Saiba mais sobre o gerenciamento de anúncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Todos os tipos de anúncios a seguir estão disponíveis no DSP. Para obter as e
 
   Anúncios de vídeo universais podem ser anexados somente a inserções de vídeo universais.
 
-  Consulte &quot;[Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
+  Consulte &quot;[Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obter mais informações sobre anúncios de vídeo universais.
 
 ## Aprovações de anúncios do DSP
 

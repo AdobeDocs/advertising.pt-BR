@@ -3,7 +3,7 @@ title: Editar uma lista de sites bloqueados no nível da conta ou do anunciante
 description: Saiba como gerenciar a lista de sites bloqueados para uma conta ou anunciante.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -40,6 +40,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre Listas de Sites Bloqueadas no Nível da Conta e do Anunciante](/help/dsp/admin/blocked-sites-list-about.md)
+>* [Sobre listas de sites bloqueados no nível da conta e do anunciante](/help/dsp/admin/blocked-sites-list-about.md)
 > [Segurança da marca e qualidade da mídia](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Exibir os detalhes de sites, anúncios, frequência e estoque de uma disp
 description: Saiba como visualizar os sites direcionados, anúncios, frequência e dados de inventário para um posicionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
 ![Inspetor de posicionamento](/help/dsp/assets/placement-inspector.png)
 
-## Informações no Posicionamento [!UICONTROL Inspector] {#placement-inspector}
+## Informações no posicionamento [!UICONTROL Inspector] {#placement-inspector}
 
 * **[!UICONTROL Sites]:** Todos os sites nos quais o posicionamento teve impressões.
 
@@ -36,7 +36,7 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
   A guia [!UICONTROL Inventory] permite a solução rápida de problemas ao mostrar estatísticas de desempenho, como [!UICONTROL Auctions], [!UICONTROL Bids] e [!UICONTROL Win Rate]. A guia inclui recursos de pesquisa e filtro, as mesmas opções de exibição de coluna padrão e personalizada disponíveis na página principal, e botões de ação rápida em cada linha, incluindo [!UICONTROL Edit], [!UICONTROL View Report] e [[!UICONTROL Auction Insights] para solução de problemas adicional](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Abrir o [!UICONTROL Placement Inspector] {#inspector-open}
+## Abrir o posicionamento [!UICONTROL Inspector] {#inspector-open}
 
 1. Abra a exibição de disposições para a campanha ou o pacote principal:
 
@@ -66,9 +66,9 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
    Os dados são salvos na pasta de download padrão do navegador como um relatório no formato XLSM.
 
-## Remover um Anúncio de um Posicionamento de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Remover um anúncio de um posicionamento de [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Abra o [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Abra o posicionamento [!UICONTROL Inspector]](#inspector-open).
 
 1. Clique na guia **[!UICONTROL Ads]**.
 
@@ -90,5 +90,5 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
->* [Gerenciar As Visualizações De Dados Do Campaign](campaign-data-views-manage.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](campaign-reports-about.md)
+>* [Gerenciar suas visualizações de dados de campanha](campaign-data-views-manage.md)

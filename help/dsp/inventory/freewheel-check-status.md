@@ -3,9 +3,9 @@ title: Verificar o status dos anúncios de um acordo  [!DNL FreeWheel] PG
 description: Saiba como encontrar o status de anúncios de  [!DNL Freewheel] ofertas programáticas garantidas.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Em caso de dúvidas ou problemas adicionais no reenvio, entre em contato com a e
 
 1. Siga um destes procedimentos:
 
-   * Em [!UICONTROL Deal ID inbox], clique em **[!UICONTROL View Freewheel creative status]**.
+   * Em [!UICONTROL Deal ID Inbox], clique em **[!UICONTROL View Freewheel creative status]**.
 
    * Em qualquer linha de negócios, clique em ![Menu de opções](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
 
@@ -42,13 +42,13 @@ Em caso de dúvidas ou problemas adicionais no reenvio, entre em contato com a e
 
    A coluna [!UICONTROL Submission Status] indica se o anúncio foi enviado e aprovado.
 
-   Para envios com falha, a coluna Resposta [!UICONTROL API] indica o erro. Para obter uma lista completa dos códigos de erro para envios com falha e as próximas etapas para corrigi-los, consulte &quot;[Códigos de erro para [!DNL FreeWheel] Envios de anúncios](freewheel-error-codes.md).&quot;
+   Para envios com falha, a coluna Resposta [!UICONTROL API] indica o erro. Para obter uma lista completa dos códigos de erro para envios com falha e as próximas etapas para corrigi-los, consulte &quot;[Códigos de erro para [!DNL FreeWheel] envios de anúncios](freewheel-error-codes.md)&quot;.
 
 1. (Opcional) Para reenviar um anúncio para aprovação, mantenha o cursor sobre a linha de anúncio e clique em **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >
->* [Visão Geral da Configuração de Ofertas Programáticas Garantidas no [!DNL Freewheel]](freewheel-overview.md)
+>* [Visão geral da configuração de ofertas programáticas garantidas no [!DNL Freewheel]](freewheel-overview.md)
 >* [Enviar um anúncio para uma oferta programática garantida para [!DNL Freewheel]](freewheel-submit.md)
->* [Códigos de erro para [!DNL Freewheel] Envio de anúncios](freewheel-error-codes.md)
->* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
+>* [Códigos de erro para [!DNL FreeWheel] envios de anúncios](freewheel-error-codes.md)
+>* [Aceitar um contrato no [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)

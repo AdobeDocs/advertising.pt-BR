@@ -3,7 +3,7 @@ title: Sobre o gerenciamento de pacotes no Advertising DSP
 description: Saiba mais sobre gerenciamento de pacotes.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Para ver todos os posicionamentos em um pacote e as datas de início e término 
 >
 >* [Criar um pacote](package-create.md)
 >* [Editar um pacote](package-edit.md)
->* [Anexar um Posicionamento a um Pacote](package-attach-placement.md)
->* [Exibir o Log de Alterações de um Pacote](package-change-log.md)
+>* [Anexar um posicionamento a um pacote](package-attach-placement.md)
+>* [Exibir o log de alterações de um pacote](package-change-log.md)
 >* [Configurações do pacote](package-settings.md)

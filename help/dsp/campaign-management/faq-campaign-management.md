@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre o gerenciamento de campanhas
 description: Saiba mais sobre o gerenciamento de campanhas, incluindo o período de latência das alterações e o que acontece quando você faz alterações de orçamento durante uma veiculação.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

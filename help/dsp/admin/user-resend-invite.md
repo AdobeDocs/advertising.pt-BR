@@ -3,7 +3,7 @@ title: Reenviar um convite de usuário pendente
 description: Saiba como reenviar um convite de usuário pendente.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Os usuários administradores podem reenviar um convite para um usuário com um c
 
 >[!MORELIKETHIS]
 >
->* [Convidar um Novo Usuário para a Conta da Organização](user-invite.md)
->* [Desconvidar um Usuário Pendente](user-uninvite.md)
+>* [Convidar um novo usuário para sua conta da organização](user-invite.md)
+>* [Desconvidar um usuário pendente](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

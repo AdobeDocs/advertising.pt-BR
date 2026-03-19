@@ -3,7 +3,7 @@ title: Revisar e editar configurações de pacote usando bulksheets
 description: Saiba como revisar e editar as principais configurações de pacote em massa usando planilhas.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Para atualizar várias configurações de uma só vez, siga um destes procedimen
 
 * Faça alterações nos campos selecionados, salve o arquivo e faça upload do arquivo de bulksheet editado novamente no DSP.
 
-* Para fazer alterações em pacotes, disposições ou anúncios adicionais na campanha, baixe uma bulksheet para a campanha. Insira ou cole as configurações atualizadas no arquivo e, em seguida, faça upload do arquivo para fazer as alterações. Para obter instruções, consulte &quot;[Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+* Para fazer alterações em pacotes, disposições ou anúncios adicionais na campanha, baixe uma bulksheet para a campanha. Insira ou cole as configurações atualizadas no arquivo e, em seguida, faça upload do arquivo para fazer as alterações. Para obter instruções, consulte &quot;[Revisar e editar configurações do componente da campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 Os campos editáveis incluem a maioria das configurações que normalmente são editáveis.
 
 >[!TIP]
 >
->Para editar rapidamente mais campos para um ou mais pacotes, consulte &quot;[Editar Pacotes](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+>Para editar rapidamente mais campos para um ou mais pacotes, consulte &quot;[Editar pacotes](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
 
 ## Configurações de download para todos os pacotes em uma campanha
 
@@ -50,7 +50,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-     O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações. Todas as colunas editáveis são destacadas em azul.
 
@@ -76,7 +76,7 @@ Ao baixar configurações para pacotes específicos, o arquivo de bulksheet incl
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-     O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de Posicionamento em Bulksheets Baixados/Carregados](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
+     O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em bulksheets baixados/carregados](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
      Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações. Todas as colunas editáveis são destacadas em azul. Para usar o formato correto para um campo, selecione e copie o valor da configuração relevante do pacote ou da configuração de posicionamento. Para algumas configurações do target, como dayparting, metas personalizadas e métricas de conversão, uma opção de cópia está disponível na configuração.
 
@@ -166,6 +166,6 @@ Quando qualquer atualização de configuração falhar, você pode baixar um arq
 
 >[!MORELIKETHIS]
 >
->* [Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [Editar Pacotes](/help/dsp/campaign-management/packages/package-edit.md)
+>* [Revise e edite as configurações do componente da campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Editar pacotes](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)

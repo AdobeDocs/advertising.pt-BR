@@ -1,16 +1,16 @@
 ---
-title: Sobre a ferramenta DSP Planner
+title: Sobre a ferramenta [!UICONTROL Planner] do DSP
 description: Saiba mais sobre a ferramenta de planejamento para prever o alcance exclusivo de inserções de TV conectada (CTV) de acordo com o orçamento e os critérios de direcionamento especificados.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Sobre a ferramenta DSP Planner
+# Sobre a ferramenta [!UICONTROL Planner] do DSP
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -33,7 +33,7 @@ A saída da previsão também inclui uma seção [!UICONTROL Inventory Breakdown
 >* A seção [!UICONTROL Inventory Breakdown] exibe dados somente para o inventário privado e [!UICONTROL On Demand].
 >* O alcance exclusivo estimado mostrado para dois editores pode estar sobreposto.
 
-## A visualização Planejador
+## A visualização do planejador
 
 Na exibição [!UICONTROL Planner], você pode exibir seus planos de alcance de CTV existentes e criar novos.
 
@@ -73,11 +73,11 @@ Sim, você pode exportar uma previsão para uma planilha do [!DNL Microsoft Exce
 
 >[!MORELIKETHIS]
 >
->* [Sobre a Ferramenta do Planejador do DSP](planner-about.md)
->* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
->* [Duplicar um Plano de Alcance de TV Conectado](planner-duplicate.md)
->* [Editar um Plano de Alcance de TV Conectado](planner-edit.md)
->* [Exportar um Plano de Alcance de TV Conectada](planner-export.md)
->* [Regenerar a Previsão para um Plano de Alcance de TV Conectada](planner-forecast.md)
->* [Arquivar um Plano de Alcance de TV Conectada](planner-archive.md)
->* [Configurações para Planos de Alcance de TV Conectados](planner-settings.md)
+>* [Sobre a ferramenta [!UICONTROL Planner] do DSP](planner-about.md)
+>* [Criar um plano de alcance de TV conectado](planner-create.md)
+>* [Duplicar um plano de alcance de TV conectado](planner-duplicate.md)
+>* [Editar um plano de alcance de TV conectado](planner-edit.md)
+>* [Exportar um plano de alcance de TV conectado](planner-export.md)
+>* [Regenerar a previsão para um plano de alcance de TV conectado](planner-forecast.md)
+>* [Arquivar um plano de alcance de TV conectado](planner-archive.md)
+>* [Configurações para planos de alcance de TV conectados](planner-settings.md)

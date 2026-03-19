@@ -3,7 +3,7 @@ title: Sobre listas de sites bloqueados no nível da conta e do anunciante
 description: Saiba mais sobre a lista de sites bloqueados de uma conta ou anunciante.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -26,6 +26,6 @@ As listas no nível do anunciante substituem as listas no nível da conta.
 
 >[!MORELIKETHIS]
 >
->* [Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Editar uma lista de sites bloqueados no nível da conta ou do anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Segurança da marca e qualidade da mídia](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

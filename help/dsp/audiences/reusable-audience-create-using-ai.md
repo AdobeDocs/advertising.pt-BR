@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
    1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
-      Para obter mais informações, consulte &quot;[Escrevendo Prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
+      Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
       À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
 
@@ -70,7 +70,7 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
    >
    >Não é possível editar o público-alvo posteriormente usando o agente de público-alvo. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Noções básicas de gravação de prompts {#writing-prompts}
+## Noções básicas para escrever prompts {#writing-prompts}
 
 ### O que um prompt deve incluir?
 
@@ -201,5 +201,5 @@ Este é um exemplo de um forte resumo de público-alvo de uma campanha para impu
 >* [Exibir detalhes sobre um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-view-details.md)
 >* [Compartilhar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-share.md)
 >* [Exportar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-export.md)
->* [Copiar a Chave do Segmento de um Público-alvo reutilizável para a Área de Transferência](/help/dsp/audiences/reusable-audience-clipboard.md)
+>* [Copiar a chave de segmento de um público-alvo reutilizável para a área de transferência](/help/dsp/audiences/reusable-audience-clipboard.md)
 >* [Excluir um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-delete.md)

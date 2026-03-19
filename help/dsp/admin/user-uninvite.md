@@ -3,7 +3,7 @@ title: Desconvidar um usuário pendente
 description: Saiba como rescindir um convite de usuário pendente.
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Usuários administradores podem desconvidar um usuário com um convite pendente.
 
 >[!MORELIKETHIS]
 >
->* [Convidar um Novo Usuário para a Conta da Organização](user-invite.md)
->* [Reenviar um Convite de Usuário Pendente](user-resend-invite.md)
+>* [Convidar um novo usuário para sua conta da organização](user-invite.md)
+>* [Reenviar um convite de usuário pendente](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

@@ -3,9 +3,9 @@ title: Anexar e remover anúncios de posicionamentos
 description: Saiba como anexar anúncios a inserções e remover anúncios de inserções.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Você pode anexar e remover anúncios de disposições.
 
 1. Clique em **[!UICONTROL Detach Selected Ads]**.
 
-## Remover um anúncio de um posicionamento de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Remover um anúncio de um posicionamento do posicionamento [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
@@ -106,11 +106,11 @@ Você pode anexar e remover anúncios de disposições.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Anúncios](ad-about.md)
->* [Anexar e Remover Pixels de Anúncios](ad-pixel-attach-detach.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
+>* [Anexar e remover pixels dos anúncios](ad-pixel-attach-detach.md)
 >* [Criar um único anúncio](ad-create.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Editar um anúncio](ad-edit.md)
->* [Listar os Posicionamentos Associados a um Anúncio](ad-list-placements.md)
->* [Editar os Cronogramas de Anúncios para Posicionamentos](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [Perguntas Frequentes sobre Vídeo Universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Listar os posicionamentos associados a um anúncio](ad-list-placements.md)
+>* [Editar os agendamentos de anúncios para posicionamentos](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

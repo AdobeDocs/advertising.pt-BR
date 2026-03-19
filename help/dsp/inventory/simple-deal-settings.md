@@ -3,7 +3,7 @@ title: Configurações de negócios do [!UICONTROL Simple Ad Serving]
 description: Saiba mais sobre as configurações disponíveis para [!UICONTROL Simple Ad Serving] ofertas.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 <!-- 
-## Existing Simple Ad Serving Deals
+## Existing [!UICONTROL Simple Ad Serving] deals
 
 Changes aren't applied retroactively.
 -->
@@ -81,10 +81,10 @@ But I see:
 >[!MORELIKETHIS]
 >
 >* [Sobre [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Criar um Contrato [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
->* [Editar [!UICONTROL Simple Ad Serving] Configurações de oferta](simple-deal-edit.md)
->* [Exibir um Relatório Detalhado de um Acordo](/help/dsp/inventory/deal-view-report.md)
+>* [Criar um negócio [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
+>* [Editar [!UICONTROL Simple Ad Serving] configurações do negócio](simple-deal-edit.md)
+>* [Exibir um relatório detalhado de um negócio](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

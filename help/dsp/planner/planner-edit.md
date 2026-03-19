@@ -3,9 +3,9 @@ title: Editar um plano de alcance de TV conectado
 description: Saiba como editar as configurações de um plano de alcance de TV conectado.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ Editar as configurações do plano gera uma nova previsão.
 
    Depois de salvar o plano, a saída prevista é mostrada.
 
-1. (Opcional) Para exportar a previsão [!UICONTROL Budget vs Reach] para uma planilha [!DNL Microsoft Excel]&#x200B;**, clique em &#x200B;** [!UICONTROL ...] **&#x200B; no canto superior direito e, em seguida, clique em &#x200B;** [!UICONTROL Export]**.
+1. (Opcional) Para exportar a previsão [!UICONTROL Budget vs Reach] para uma planilha [!DNL Microsoft Excel]**, clique em **[!UICONTROL ...]** no canto superior direito e, em seguida, clique em **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre a Ferramenta do Planejador do DSP](planner-about.md)
->* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
->* [Duplicar um Plano de Alcance de TV Conectado](planner-duplicate.md)
->* [Exportar um Plano de Alcance de TV Conectada](planner-export.md)
->* [Regenerar a Previsão para um Plano de Alcance de TV Conectada](planner-forecast.md)
->* [Arquivar um Plano de Alcance de TV Conectada](planner-archive.md)
->* [Configurações para Planos de Alcance de TV Conectados](planner-settings.md)
+>* [Sobre a ferramenta [!UICONTROL Planner] do DSP](planner-about.md)
+>* [Criar um plano de alcance de TV conectado](planner-create.md)
+>* [Duplicar um plano de alcance de TV conectado](planner-duplicate.md)
+>* [Exportar um plano de alcance de TV conectado](planner-export.md)
+>* [Regenerar a previsão para um plano de alcance de TV conectado](planner-forecast.md)
+>* [Arquivar um plano de alcance de TV conectado](planner-archive.md)
+>* [Configurações para planos de alcance de TV conectados](planner-settings.md)

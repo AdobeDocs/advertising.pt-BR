@@ -3,7 +3,7 @@ title: Gerenciar listas de URLs
 description: Saiba como criar e gerenciar listas de URLs para direcionamento de posicionamento.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -175,5 +175,5 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 >[!MORELIKETHIS]
 >
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Sobre Listas de Sites Bloqueadas no Nível da Conta e do Anunciante](/help/dsp/admin/blocked-sites-list-about.md)
->* [Editar uma Lista de Sites Bloqueados no Nível da Conta ou do Anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Sobre listas de sites bloqueados no nível da conta e do anunciante](/help/dsp/admin/blocked-sites-list-about.md)
+>* [Editar uma lista de sites bloqueados no nível da conta ou do anunciante](/help/dsp/admin/blocked-sites-list-edit.md)

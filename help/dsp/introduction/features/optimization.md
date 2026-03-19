@@ -3,7 +3,7 @@ title: Otimização
 description: Saiba mais sobre os recursos de otimização.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para cada um dos posicionamentos e pacotes, você pode escolher uma meta de otim
 
 >[!MORELIKETHIS]
 >
-> * [Como o DSP Otimiza Suas Campanhas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+> * [Como a DSP otimiza suas campanhas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
 >* [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,7 +3,7 @@ title: Revisar e editar configurações de posicionamento usando bulksheets
 description: Saiba como revisar e editar as configurações de posicionamento de chave em massa usando planilhas.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Para atualizar várias configurações de uma só vez, você pode fazer alteraç
 
 >[!TIP]
 >
->Para editar rapidamente mais campos para um ou mais posicionamentos, consulte &quot;[Editar Posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+>Para editar rapidamente mais campos para um ou mais posicionamentos, consulte &quot;[Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 ## Configurações de download para todos os posicionamentos em uma campanha
 
@@ -46,7 +46,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-   O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## Configurações de download para disposições específicas
 
@@ -68,7 +68,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-   O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações.  Todas as colunas editáveis são destacadas em azul. Para usar o formato correto para um campo, selecione e copie o valor da configuração relevante do pacote ou da configuração de posicionamento. Para algumas configurações do target, como dayparting, metas personalizadas e métricas de conversão, uma opção de cópia está disponível na configuração.
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Revisar e editar configurações do componente de campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Revise e edite as configurações do componente da campanha usando bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

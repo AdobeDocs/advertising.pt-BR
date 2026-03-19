@@ -3,9 +3,9 @@ title: Configurações para planos de alcance de TV conectada
 description: Consulte descrições das configurações para planos de alcance de TV conectada.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre a Ferramenta do Planejador do DSP](planner-about.md)
->* [Criar um Plano de Alcance de TV Conectado](planner-create.md)
->* [Duplicar um Plano de Alcance de TV Conectado](planner-duplicate.md)
->* [Editar um Plano de Alcance de TV Conectado](planner-edit.md)
->* [Exportar um Plano de Alcance de TV Conectada](planner-export.md)
->* [Regenerar a Previsão para um Plano de Alcance de TV Conectada](planner-forecast.md)
->* [Arquivar um Plano de Alcance de TV Conectada](planner-archive.md)
+>* [Sobre a ferramenta [!UICONTROL Planner] do DSP](planner-about.md)
+>* [Criar um plano de alcance de TV conectado](planner-create.md)
+>* [Duplicar um plano de alcance de TV conectado](planner-duplicate.md)
+>* [Editar um plano de alcance de TV conectado](planner-edit.md)
+>* [Exportar um plano de alcance de TV conectado](planner-export.md)
+>* [Regenerar a previsão para um plano de alcance de TV conectado](planner-forecast.md)
+>* [Arquivar um plano de alcance de TV conectado](planner-archive.md)

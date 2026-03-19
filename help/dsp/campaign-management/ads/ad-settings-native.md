@@ -3,9 +3,9 @@ title: Configurações de anúncio de exibição nativo
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de exibição nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
 >* [Criar um único anúncio](ad-create.md)
->* [Listar os Posicionamentos Associados a um Anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Listar os posicionamentos associados a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificações do anúncio](ad-specs.md)
 >* [Macros do DSP](/help/dsp/campaign-management/macros.md)

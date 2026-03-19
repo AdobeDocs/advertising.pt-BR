@@ -3,9 +3,9 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Para estimar impostos a reter:
 
 **[!UICONTROL Packages]:** Os [pacotes](/help/dsp/campaign-management/packages/package-about.md) a serem incluídos na campanha. Selecione pacotes existentes e/ou crie pacotes para incluir. Se você criar pacotes, consulte as descrições sobre as [configurações de pacote](/help/dsp/campaign-management/packages/package-settings.md) para obter mais informações.
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Para estimar impostos a reter:
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]:** (Opcional) Habilita a medição e o relatório [!DNL IAS] de visibilidade, fraude, segurança da marca e verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
@@ -130,7 +130,7 @@ Para estimar impostos a reter:
 
 * **[!UICONTROL IAS Team ID]:** (Anunciantes com suas próprias contas [!DNL IAS]; opcional) a identificação de equipe para a conta [!DNL IAS] da organização, que [!DNL IAS] cobrará diretamente pelo uso. <!-- verify -->
 
-#### Verificação de público-alvo
+#### Verificação de público
 
 **[!UICONTROL Comscore Campaign Ratings]:** (Opcional) Habilita a medição e o relatório [!DNL Comscore] validados por [!DNL Campaign Ratings] da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de campanhas](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas no Advertising DSP](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
->* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
+>* [Exibir o log de alterações para uma campanha](campaign-change-log.md)

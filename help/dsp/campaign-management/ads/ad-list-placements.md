@@ -3,9 +3,9 @@ title: Listar os posicionamentos associados a um anúncio
 description: Saiba como ver os posicionamentos associados a um anúncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Exiba uma lista de posicionamentos associados a um anúncio para ver os dados de
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
 >* [Editar um anúncio](ad-edit.md)
 >* [Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Exibir um relatório detalhado para um posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)

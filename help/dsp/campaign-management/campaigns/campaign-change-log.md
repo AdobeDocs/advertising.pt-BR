@@ -3,9 +3,9 @@ title: Exibir um log de alterações da campanha
 description: Saiba como visualizar as alterações feitas na campanha.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Você pode classificar os dados por qualquer coluna, exceto por Novo valor e Val
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de campanhas](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas no Advertising DSP](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
 >* [Configurações da campanha](campaign-settings.md)

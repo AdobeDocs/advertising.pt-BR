@@ -3,9 +3,9 @@ title: Configurações do anúncio de exibição
 description: Consulte descrições das configurações de anúncios disponíveis para exibir anúncios.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ As configurações a seguir são para anúncios de exibição padrão.
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
 >* [Criar um único anúncio](ad-create.md)
->* [Listar os Posicionamentos Associados a um Anúncio](ad-list-placements.md)
+>* [Listar os posicionamentos associados a um anúncio](ad-list-placements.md)
 >* [Especificações do anúncio](ad-specs.md)
 >* [Macros do DSP](/help/dsp/campaign-management/macros.md)

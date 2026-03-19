@@ -3,7 +3,7 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 O DSP oferece suporte a IDs universais com base em pessoas para direcionamento em dispositivos únicos (não entre dispositivos) sem cookies em formatos digitais compatíveis com o DSP.
 
-* Você pode enviar manualmente seu [[!DNL LiveRamp] [!DNL RampIDs]] autenticado diretamente para a DSP usando o painel [!DNL LiveRamp] [!DNL Connect]. Consulte &quot;[Importar manualmente segmentos autenticados do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
+* Você pode enviar manualmente seu [[!DNL LiveRamp] [!DNL RampIDs]] autenticado diretamente para a DSP usando o painel [!DNL LiveRamp] [!DNL Connect]. Consulte &quot;[Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* O DSP pode assimilar seus segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de Dados do Cliente) e convertê-los em [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] IDs. Para obter mais informações sobre as plataformas de dados do cliente com suporte, os recursos disponíveis para cada tipo de ID universal com suporte e os fluxos de trabalho relacionados, consulte &quot;[Sobre Fontes de Público-Alvo Primárias](/help/dsp/audiences/sources/source-about.md).&quot;
+* O DSP pode assimilar seus segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de Dados do Cliente) e convertê-los em [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] IDs. Para obter mais informações sobre as plataformas de dados do cliente com suporte, os recursos disponíveis para cada tipo de ID universal com suporte e os fluxos de trabalho relacionados, consulte &quot;[Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md).&quot;
 
-* Você pode criar segmentos personalizados que rastreiam usuários associados a IDs universais de ID5 que estão expostos a anúncios de dispositivos móveis e desktop e que visitam páginas da Web específicas. A ID5 usa um modelo probabilístico para atribuir uma ID derivada de vários sinais do usuário e do navegador. Para obter instruções, consulte &quot;[Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot;.
+* Você pode criar segmentos personalizados que rastreiam usuários associados a IDs universais de ID5 que estão expostos a anúncios de dispositivos móveis e desktop e que visitam páginas da Web específicas. A ID5 usa um modelo probabilístico para atribuir uma ID derivada de vários sinais do usuário e do navegador. Para obter instruções, consulte &quot;[Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md).&quot;
 
 * Segmentos de terceiros de alguns fornecedores podem incluir IDs universais automaticamente, além de usuários rastreados por cookies ou IDs de dispositivo. Por exemplo, os segmentos de [!DNL Eyeota] podem incluir IDs ID5 automaticamente e os segmentos de [!DNL Lotame] podem incluir IDs UID2.0. Os detalhes do segmento incluem o tamanho de cada tipo. A taxa de uso normal para cada segmento, que é declarada ao lado do nome do segmento, se aplica; nenhuma taxa adicional é cobrada para as IDs ID5.
 
-## Relatório por tipo de Universal ID
+## Relatório por tipo de ID universal
 
 * **Relatórios personalizados:** dados de custo, impressão, clique, conversão e frequência por tipo de ID universal estão disponíveis em relatórios personalizados.
 
@@ -66,7 +66,7 @@ Em um posicionamento novo, agendado ou pausado, faça o seguinte:
 
          Antes de converter os dados em um novo tipo de ID, um usuário na conta da DSP deve aceitar os termos do contrato de serviço. Os termos devem ser aceitos apenas uma vez por tipo de ID, por conta.
 
-Consulte &quot;[Configurações de Posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)&quot;.
+Consulte &quot;[Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)&quot;.
 
 ## Práticas recomendadas para teste e validação de dados
 
@@ -137,8 +137,8 @@ Se você não conseguir resolver o problema, entre em contato com a equipe de co
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](/help/dsp/audiences/sources/source-manage.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](/help/dsp/audiences/sources/source-manage.md)
 >* [Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
->* [Importar manualmente os segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)
+>* [Importar segmentos autenticados manualmente de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

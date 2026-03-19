@@ -3,9 +3,9 @@ title: Duplicar uma campanha
 description: Saiba como duplicar uma campanha.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -84,8 +84,8 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de campanhas](campaign-about.md)
+>* [Sobre o gerenciamento de campanhas no Advertising DSP](campaign-about.md)
 >* [Criar uma campanha](campaign-create.md)
 >* [Editar uma campanha](campaign-edit.md)
->* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
+>* [Exibir o log de alterações para uma campanha](campaign-change-log.md)
 >* [Configurações da campanha](campaign-settings.md)

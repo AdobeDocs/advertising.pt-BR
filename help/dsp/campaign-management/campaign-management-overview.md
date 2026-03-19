@@ -3,9 +3,9 @@ title: Visão geral do gerenciamento de campanhas no Advertising DSP
 description: Saiba mais sobre a hierarquia e os componentes do gerenciamento de campanhas.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ Todos os anúncios ativos e aprovados em uma disposição ativa em uma campanha 
 
 >[!MORELIKETHIS]
 >
->* [Sobre o gerenciamento de campanhas](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [Sobre o Gerenciamento de Pacotes](/help/dsp/campaign-management/packages/package-about.md)
->* [Sobre o Gerenciamento de Posicionamento](/help/dsp/campaign-management/placements/placement-about.md)
->* [Sobre o Gerenciamento de Anúncios](/help/dsp/campaign-management/ads/ad-about.md)
->* [Lista de Verificação de Inicialização da Campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Sobre o gerenciamento de campanhas no Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Sobre o gerenciamento de pacotes no Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
+>* [Lista de verificação de inicialização da campanha](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Gerenciar As Visualizações De Dados Do Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=pt-BR)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Gerenciar suas visualizações de dados de campanha](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Vídeo: estrutura de conta e interface de usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

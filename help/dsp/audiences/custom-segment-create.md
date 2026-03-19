@@ -3,7 +3,7 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 7cf17457ba777d2dfe9fc1607f9891a340da9031
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -120,8 +120,8 @@ Depois que uma tag de rastreamento é implementada, você pode usar o segmento n
 >* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Editar informações do segmento](segment-edit.md)
 >* [Excluir um segmento](segment-delete.md)
->* [Exibir Pixels de Rastreamento de um Segmento](segment-view-pixels.md)
->* [Compartilhar ou Parar de Compartilhar um Segmento](segment-share.md)
+>* [Exibir os pixels de rastreamento de um segmento](segment-view-pixels.md)
+>* [Compartilhar ou parar de compartilhar um segmento](segment-share.md)
 >* [Criar e implementar um [!UICONTROL CCPA Opt-Out-of-Sale] segmento](ccpa-opt-out-segment-create.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)

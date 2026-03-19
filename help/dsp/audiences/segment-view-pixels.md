@@ -3,7 +3,7 @@ title: Exibir pixels de rastreamento para um segmento
 description: Saiba como visualizar os pixels de rastreamento para um segmento de recusa de venda personalizado ou CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -26,8 +26,8 @@ Depois que uma tag de rastreamento é implementada, você pode usar o segmento n
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um segmento personalizado](custom-segment-create.md)
 >* [Editar informações do segmento](segment-edit.md)
 >* [Excluir um segmento](segment-delete.md)
->* [Compartilhar ou Parar de Compartilhar um Segmento](segment-share.md)
+>* [Compartilhar ou parar de compartilhar um segmento](segment-share.md)

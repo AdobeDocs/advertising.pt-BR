@@ -3,7 +3,7 @@ title: Converter IDs de usuário de  [!DNL Amperity]  em IDs universais
 description: Saiba como habilitar o DSP para assimilar seus [!DNL Amperity] segmentos primários.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -86,13 +86,13 @@ Na biblioteca de público-alvo (que está disponível quando você cria ou edita
 
 ## Solução de problemas
 
-Para solucionar problemas de taxa de conversão e contagem de usuários, consulte &quot;[Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)&quot;.
+Para solucionar problemas de taxa de conversão e contagem de usuários, consulte &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Para solucionar problemas com o procedimento de conversão, entre em contato com sua equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
->* [Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)
->* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
+>* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
+>* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

@@ -3,7 +3,7 @@ title: Configurações de público-alvo
 description: Consulte descrições das configurações de público disponíveis.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Sintaxe da lógica do segmento de público-alvo](audience-segment-logic-syntax.md)

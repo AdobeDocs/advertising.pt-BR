@@ -3,7 +3,7 @@ title: Arquivar ou desarquivar uma campanha
 description: Saiba como arquivar ou desarquivar uma campanha.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -35,5 +35,5 @@ Você pode desarquivar uma campanha para restaurar seu status anterior a qualque
 >[!MORELIKETHIS]
 >
 >* [Editar uma campanha](campaign-edit.md)
->* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
+>* [Exibir o log de alterações para uma campanha](campaign-change-log.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)

@@ -2,9 +2,9 @@
 title: Especificações do anúncio específicas do editor
 description: Consulte as especificações de anúncios para editores compatíveis.
 feature: DSP Ads
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Os links a seguir levam às especificações de anúncios de alguns dos editores
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Anúncios](ad-about.md)
+>* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
 >* [Criar vários anúncios de terceiros](ad-create-multiple.md)
 >* [Especificações do anúncio](/help/dsp/campaign-management/ads/ad-specs.md)

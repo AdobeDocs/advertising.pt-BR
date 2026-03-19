@@ -3,7 +3,7 @@ title: Provedores de dados de terceiros disponíveis no Advertising DSP
 description: Consulte uma lista de todos os provedores de dados de terceiros disponíveis.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -43,6 +43,6 @@ Para obter mais informações sobre como importar segmentos personalizados de te
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Público-Alvo](audience-about.md)
+>* [Sobre o gerenciamento de público-alvo](audience-about.md)
 >* [Criar um público-alvo reutilizável](reusable-audience-create.md)
 >* [Configurações de público-alvo](audience-settings.md)

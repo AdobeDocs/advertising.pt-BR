@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre relatórios personalizados
 description: Saiba mais sobre relatórios personalizados, incluindo relatórios domésticos e relatórios de análise do caminho de conversão.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Essas métricas nos relatórios [!UICONTROL Household] são calculadas com a con
 
 #### Como configurar o relatório para a dimensão [!UICONTROL Placement Tags]?
 
-Para criar marcas para o posicionamento, [abra as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-edit.md) e insira valores no [campo Marcas de Posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+Para criar marcas para o posicionamento, [abra as configurações de posicionamento](/help/dsp/campaign-management/placements/placement-edit.md) e insira valores no campo [[!UICONTROL Placement Tags]](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Quando um posicionamento inclui várias tags, o relatório considera a string inteira como uma tag. O relatório inclui uma linha para cada sequência exclusiva.
 
@@ -89,7 +89,7 @@ Há suporte para dois tipos de métodos de atribuição:
 
 * Os dados do relatório do [!DNL Analytics] são particularmente valiosos para serem analisados por canais de marketing, métricas de envolvimento com o site e assim por diante. O relatório [!UICONTROL Household Conversions] do DSP oferece insights mais granulares ao permitir que os dados de conversão sejam divididos por várias dimensões, como tipo de mídia e editor.
 
-### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] Relatórios vs. Dados de [!DNL Advanced Measurement Services]
+### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] relatórios vs. dados de [!DNL Advanced Measurement Services]
 
 Para relatórios avançados sobre alcance e frequência ou conversões domésticos, a [[!DNL Strategic Advertising Consulting] equipe](/help/dsp/introduction/advanced-measurement-services.md) pode fornecer relatórios altamente personalizáveis, juntamente com recomendações estratégicas holísticas. Para obter mais informações sobre [!DNL Advanced Measurement Services], contate a equipe de conta da Adobe.
 
@@ -103,9 +103,9 @@ O caso de uso ideal é usar o relatório [!UICONTROL Household] e os serviços d
 
 ## Relatórios de análise do caminho de conversão
 
-### Como o relatório Caminho para conversão se compara aos relatórios criados por [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace?
+### Como o relatório [!UICONTROL Path to Conversion] se compara aos relatórios criados por [!DNL Advanced Measurement Services] e pelo Adobe Analytics Analysis Workspace?
 
-| | Caminho para o relatório de conversão | Efeito de Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa | Relatórios no Analysis Workspace |
+| | Relatório de [!UICONTROL Path to Conversion] | Efeito de Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa | Relatórios no Analysis Workspace |
 | --- | --- | --- |---|
 | Valor para o cliente | Gerar um relatório personalizado de autoatendimento para entender quais caminhos da jornada de anúncios levaram a mais conversões para aumentar a otimização | Compreender a influência das táticas de TV conectada (CTV) nos cliques de pesquisa | Entenda a influência de seu investimento holístico em Adobe Advertising, juntamente com outros canais de marketing, nos cliques de pesquisa |
 | Nível da família | Sim | Sim | Não |
@@ -117,12 +117,12 @@ O caso de uso ideal é usar o relatório [!UICONTROL Household] e os serviços d
 | Canais de marketing | DSP + Search (do Search, Social e Commerce) | DSP + Search (do Search, Social e Commerce) | Canais de marketing não rastreados pela ID EF de clickthrough do Adobe Advertising (como Pesquisa orgânica, Social orgânico, Email e Afiliado) |
 | Métricas de conversão compatíveis | Métricas rastreadas usando o pixel de evento do Adobe Advertising (AMO ID) e o rastreamento do Adobe Analytics | Cliques (sem conversões) | Métricas rastreadas usando o rastreamento do Adobe Analytics |
 
-Para obter mais informações sobre o Efeito Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa, consulte &quot;[Serviços de Medição Avançada](/help/dsp/introduction/advanced-measurement-services.md).&quot;
+Para obter mais informações sobre o Efeito Halo dos Serviços de Medição Avançados nos Relatórios de Pesquisa, consulte &quot;[Soluções de medição avançadas](/help/dsp/introduction/advanced-measurement-services.md)&quot;.
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)

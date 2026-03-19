@@ -1,9 +1,9 @@
 ---
 title: Exibir um relatório detalhado de uma campanha
-description: Saiba como abrir um relatório de nível de campanha com seções sobre geografia, dispositivo, visibilidade e dados de desempenho do público-alvo.
+description: Saiba como abrir relatórios no nível da campanha com seções sobre geografia, dispositivo, visibilidade e dados de desempenho do público-alvo.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,9 +21,9 @@ O relatório de nível de campanha <!--legacy --> inclui uma visão geral e seç
 
 >[!MORELIKETHIS]
 >
->* [Exibir um Relatório Detalhado para um Posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Exibir um relatório detalhado para um posicionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
->* [Exibir o Log de Alterações de uma Campanha](campaign-change-log.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
+>* [Exibir o log de alterações para uma campanha](campaign-change-log.md)
 >* [Pausar ou ativar uma campanha](campaign-pause-activate.md)

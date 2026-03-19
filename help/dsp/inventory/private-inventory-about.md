@@ -1,11 +1,11 @@
 ---
 title: Sobre o estoque privado
-description: Sobre Inventário Privado
+description: Sobre o estoque privado
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Todas as suas ofertas privadas com uma ID de negócios são financiadas e fatura
 
 Você pode usar IDs de negócios de uma das seguintes maneiras:
 
-* (Recurso opcional que requer ativação) No [!UICONTROL Deal ID Inbox], você pode revisar e aceitar rapidamente suas ofertas de estoque privado garantidas e não garantidas acordadas de editores nas seguintes plataformas do lado da oferta (SSPs): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]) do [!UICONTROL Deal ID inbox].
+* (Recurso opcional que requer ativação) No [!UICONTROL Deal ID Inbox], você pode revisar e aceitar rapidamente suas ofertas de estoque privado garantidas e não garantidas acordadas de editores nas seguintes plataformas do lado da oferta (SSPs): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]) do [!UICONTROL Deal ID Inbox].
 
   Para obter mais informações, consulte &quot;[Sobre o [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)&quot;.
 
@@ -47,8 +47,8 @@ Na exibição [!UICONTROL Inventory] > [!UICONTROL Deal Lists], você pode agrup
 
 >[!MORELIKETHIS]
 >
->* [Visão Geral dos Recursos de Inventário](/help/dsp/inventory/inventory-overview.md)
+>* [Visão geral dos recursos de inventário](/help/dsp/inventory/inventory-overview.md)
 >* [Sobre o [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [Aceitar um acordo na Caixa de Entrada da ID do acordo](deal-id-inbox-accept.md)
->* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)
->* [Gerenciar Listas de Negociações](/help/dsp/inventory/lists-deals-manage.md)
+>* [Aceitar um contrato no [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Criar manualmente os detalhes da ID de negócios](deal-id-create.md)
+>* [Gerenciar listas de negócios](/help/dsp/inventory/lists-deals-manage.md)

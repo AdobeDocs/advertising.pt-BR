@@ -1,8 +1,8 @@
 ---
-title: Converter IDs de Usuário de  [!DNL ActionIQ]  em IDs Universais
+title: Converter IDs de usuário de  [!DNL ActionIQ]  em IDs universais
 description: Saiba como habilitar o DSP para assimilar seus [!DNL ActionIQ] segmentos primários.
 feature: DSP Audiences
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -39,14 +39,14 @@ Os segmentos são atualizados a cada 24 horas.
 
 ## Solução de problemas
 
-Para solucionar problemas de taxa de conversão e contagem de usuários, consulte &quot;[Suporte para Ativação de Universal IDs](/help/dsp/audiences/universal-ids.md)&quot;.
+Para solucionar problemas de taxa de conversão e contagem de usuários, consulte &quot;[Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Para solucionar problemas com o procedimento de conversão, entre em contato com sua equipe de conta da Adobe ou `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
->* [Gerenciar fontes de público-alvo para ativar públicos-alvo da Universal ID](source-manage.md)
->* [Converter IDs de Usuário de [!DNL Adobe Real-Time CDP] em IDs Universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Converter IDs de Usuário de [!DNL Tealium] em IDs Universais](/help/dsp/audiences/sources/source-tealium.md)
->* [Sobre o Gerenciamento de Público-Alvo](/help/dsp/audiences/audience-about.md)
+>* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
+>* [Converter IDs de usuário de [!DNL Adobe Real-Time CDP] em IDs universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converter IDs de usuário de [!DNL Tealium] em IDs universais](/help/dsp/audiences/sources/source-tealium.md)
+>* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

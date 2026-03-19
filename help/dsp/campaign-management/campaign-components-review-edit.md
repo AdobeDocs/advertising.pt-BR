@@ -3,7 +3,7 @@ title: Revisar e editar configurações do componente de campanha usando bulkshe
 description: Saiba como revisar e editar o pacote de chaves, a disposição e as configurações de anúncio em massa usando planilhas.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Para atualizar várias configurações de uma só vez, carregue um arquivo de bu
 
 >[!NOTE]
 >
->Também é possível baixar e editar as configurações somente para pacotes e disposições específicos. Consulte &quot;[Revisar e Editar Configurações de Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)&quot; e &quot;[Revisar e Editar Configurações de Posicionamento Usando Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)&quot;.&quot;
+>Também é possível baixar e editar as configurações somente para pacotes e disposições específicos. Consulte &quot;[Revisar e editar configurações de pacote usando bulksheets](/help/dsp/campaign-management/packages/package-qa.md)&quot; e &quot;[Revisar e editar configurações de posicionamento usando bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)&quot;.&quot;
 
 ## Configurações de download para pacotes, disposições e anúncios em uma campanha {#download-bulksheet-campaign}
 
@@ -42,7 +42,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-     O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Para editar qualquer uma das configurações, edite o arquivo diretamente e faça upload das alterações. Todas as colunas editáveis são destacadas em azul. Para usar o formato correto para um campo, selecione e copie o valor da configuração relevante do pacote ou da configuração de posicionamento. Para algumas configurações do target, como dayparting, metas personalizadas e métricas de conversão, uma opção de cópia está disponível na configuração.
 
@@ -151,14 +151,14 @@ Quando qualquer atualização de configuração falhar, você pode baixar um arq
 
 >[!MORELIKETHIS]
 >
->* [Revisar e Editar Configurações do Pacote Usando Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Revisar e editar configurações de pacote usando bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Configurações do pacote](/help/dsp/campaign-management/packages/package-settings.md)
->* [Revisar e Editar Configurações de Posicionamento Usando Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)
+>* [Revisar e editar configurações de posicionamento usando bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Configurações de Anúncio de Áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Configurações de TV Conectadas](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Exibir configurações do anúncio](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Configurações de Anúncios Móveis](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Configurações Nativas do Anúncio de Exibição](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Configurações de Anúncio antes da exibição](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [Configurações de anúncio de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Configurações de TV Conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Configurações de exibição de anúncios](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Configurações de anúncios móveis](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Configurações de anúncio de exibição nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Configurações de anúncios precedentes](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Configurações de anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

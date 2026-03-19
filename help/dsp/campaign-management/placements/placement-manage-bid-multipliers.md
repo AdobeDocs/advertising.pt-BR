@@ -3,9 +3,9 @@ title: Gerenciar multiplicadores de oferta para inserções
 description: Saiba como criar e editar multiplicadores de oferta para seus alvos de posicionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ Por padrão, o multiplicador de oferta para uma meta é 1,00, o que significa qu
 
 Você pode definir multiplicadores de oferta (com valores diferentes de 1,00) para um [número limitado de targets](#bid-multiplier-limits-by-target).
 
-Esse recurso funciona com seus destinos de posicionamento existentes. Para alterar os destinos selecionados para seus posicionamentos, consulte &quot;[Editar Posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+Esse recurso funciona com seus destinos de posicionamento existentes. Para alterar os destinos selecionados para seus posicionamentos, consulte &quot;[Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
-## Gerenciar os Multiplicadores de Oferta para uma Única Colocação
+## Gerenciar os multiplicadores de oferta para uma única inserção
 
 Você pode editar valores manualmente ou fazer upload de uma planilha para uma única disposição.
 
@@ -125,7 +125,7 @@ Você pode configurar modificadores de lances somente para alvos incluídos, nã
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Editar posicionamentos](placement-edit.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)

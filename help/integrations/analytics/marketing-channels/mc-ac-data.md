@@ -3,7 +3,7 @@ title: Usando  [!DNL Marketing Channels] com dados do Adobe Advertising
 description: Saiba como usar os dados do Adobe Advertising no [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Usando os relatórios do Adobe Advertising e do [!DNL Analytics Marketing Channe
 
 <!-- from video: By using Marketing Channels with your Adobe Advertising data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-A ilustração a seguir mostra como o Adobe Advertising e o [!DNL Marketing Channels] rastreiam as visitas individuais que compõem a jornada de um visitante. Os relatórios do Adobe Advertising em [!DNL Analytics] estão limitados apenas à publicidade de canais de exibição, pesquisa, redes sociais e comércio paga traficada pela Adobe Advertising, usando a AMO ID. No entanto, o [!DNL Marketing Channels] rastreia todos os canais configurados nas [!DNL Marketing Channels] Regras de Processamento.
+A ilustração a seguir mostra como o Adobe Advertising e o [!DNL Marketing Channels] rastreiam as visitas individuais que compõem a jornada de um visitante. Os relatórios do Adobe Advertising em [!DNL Analytics] estão limitados apenas à publicidade de canais de exibição, pesquisa, redes sociais e comércio paga traficada pela Adobe Advertising, usando a AMO ID. No entanto, [!DNL Marketing Channels] rastreia todos os canais configurados nas [!DNL Marketing Channels] regras de processamento.
 
 ![Como o Adobe Advertising e o [!DNL Marketing Channels] rastreiam as visitas individuais na jornada de um visitante](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
@@ -55,5 +55,5 @@ Agora você pode ver como os Inícios de Aplicações restantes são atribuídos
 >* [Fundamentos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Usando Adobe Advertising IDs para criar [!DNL Marketing Channels] regras de processamento](mc-ids.md)
 >* [Por que os dados do canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para Relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR)
+>* [Vídeo: Usando [!DNL Marketing Channels] para relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

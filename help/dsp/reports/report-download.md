@@ -3,7 +3,7 @@ title: Baixar um relatório personalizado
 description: Saiba como baixar um relatório personalizado imediatamente.
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -30,10 +30,10 @@ Você pode baixar qualquer instância de relatório concluída dos últimos quat
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
->* [Duplicar um Relatório Personalizado](/help/dsp/reports/report-copy.md)
+>* [Duplicar um relatório personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Executar um Relatório Personalizado](/help/dsp/reports/report-run-now.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Executar um relatório personalizado](/help/dsp/reports/report-run-now.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)

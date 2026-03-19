@@ -3,7 +3,7 @@ title: Criar um relatório personalizado
 description: Saiba como criar um relatório personalizado.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
->* [Duplicar um Relatório Personalizado](/help/dsp/reports/report-copy.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
+>* [Duplicar um relatório personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
->* [Executar um Relatório Personalizado](/help/dsp/reports/report-run-now.md)
+>* [Baixar um relatório personalizado](/help/dsp/reports/report-download.md)
+>* [Executar um relatório personalizado](/help/dsp/reports/report-run-now.md)
 >* [Excluir um relatório personalizado](/help/dsp/reports/report-delete.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)

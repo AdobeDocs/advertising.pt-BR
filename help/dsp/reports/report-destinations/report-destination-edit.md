@@ -3,9 +3,9 @@ title: Editar um destino de relatório
 description: Saiba como editar um destino de relatório.
 feature: DSP Custom Reports
 exl-id: 33c011a5-c207-455d-8112-360098024eaa
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ As alterações em um destino de relatório afetam o delivery de todos os relat�
 
 >[!MORELIKETHIS]
 >
->* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Criar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Sobre destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Criar um destino de relatório](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Excluir um destino de relatório](/help/dsp/reports/report-destinations/report-destination-delete.md)

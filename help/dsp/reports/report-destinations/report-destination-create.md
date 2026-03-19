@@ -3,9 +3,9 @@ title: Criar um destino de relatório
 description: Saiba como criar um destino para a entrega de relatórios personalizados.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Se o relatório estiver configurado para entrega em qualquer tipo de local FTP ou [!DNL Amazon S3], você não receberá notificações se o relatório for cancelado devido a erros. Se você não receber os relatórios esperados, entre em contato com a equipe de conta do Adobe para descobrir o motivo.
+> Se o relatório estiver configurado para entrega em qualquer tipo de local FTP ou [!DNL Amazon S3], você não receberá notificações se o relatório for cancelado devido a erros. Se você não receber os relatórios esperados, entre em contato com a equipe de conta da Adobe para descobrir o motivo.
 
 >[!MORELIKETHIS]
 >
->* [Sobre [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination] Configurações](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Sobre destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Excluir um [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Excluir um destino de relatório](/help/dsp/reports/report-destinations/report-destination-delete.md)

@@ -3,7 +3,7 @@ title: Duplicação de um relatório personalizado
 description: Saiba como criar um relatório personalizado duplicando um relatório existente.
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Duplique um relatório personalizado para criar um novo relatório com configura
 
 >[!MORELIKETHIS]
 >
->* [Sobre Relatórios Personalizados](/help/dsp/reports/report-about.md)
+>* [Sobre relatórios personalizados](/help/dsp/reports/report-about.md)
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Editar um relatório personalizado](/help/dsp/reports/report-edit.md)
->* [Baixar um Relatório Personalizado](/help/dsp/reports/report-download.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
+>* [Baixar um relatório personalizado](/help/dsp/reports/report-download.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)

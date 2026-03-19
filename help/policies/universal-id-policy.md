@@ -1,9 +1,9 @@
 ---
 title: Política de requisitos do Adobe Advertising Universal ID
-description: Consulte a política para o uso de Universal IDs.
+description: Consulte a política para o uso de IDs universais.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Última atualização: 29 de fevereiro de 2024
 
-Esta Política de Requisitos da Universal ID (&quot;Política&quot;) estabelece os requisitos para o uso de Universal IDs em conexão com Anúncios distribuídos pelo [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Serviços&quot;). Esta Política é incorporada por referência ao Contrato entre [!DNL Adobe] e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
+Esta Política de Requisitos da Universal ID (&quot;Política&quot;) define os requisitos para o uso de IDs universais em conexão com anúncios distribuídos pelos [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Serviços&quot;). Esta Política é incorporada por referência ao Contrato entre [!DNL Adobe] e o Cliente (&quot;você&quot;) usando os Serviços por demanda. Os termos em maiúsculas usados nesta Política, mas não definidos aqui, terão o significado estabelecido nesse Contrato.
 
 [!DNL Adobe] reserva-se o direito de determinar, em seu julgamento único, se um Anúncio ou os sites para os quais o Anúncio redireciona ou vincula violam os requisitos desta Política, caso em que [!DNL Adobe] poderá rejeitar tal Anúncio e/ou encerrar ou suspender o acesso aos Serviços com base nisso.
 
@@ -24,7 +24,7 @@ Além dos requisitos estabelecidos abaixo e no Contrato, você deve estar em con
 
 ### Dados proibidos
 
-Ao optar por usar as Universal IDs disponibilizadas pelos Serviços, você concorda em garantir que todos os Dados do Cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você através dos Serviços sob demanda sejam consistentes com as seguintes especificações da Universal ID e com quaisquer outros requisitos desta Política, que podem ser revisados por [!DNL Adobe] ocasionalmente.
+Ao optar por usar as IDs universais disponibilizadas pelos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda sejam consistentes com as seguintes especificações da ID universal e com quaisquer outros requisitos desta Política, que podem ser revisados por [!DNL Adobe] ocasionalmente.
 
 * Os dados do cliente foram coletados por você diretamente de usuários ou licenciados por você de outra parte que (i) coletou os dados do cliente diretamente dos usuários aos quais esses dados se relacionam ou (ii) obteve os dados do cliente por meio de intermediários que obtiveram os dados de outra parte que coletou esses dados do usuário, desde que você possa identificar a parte original que coletou os dados do cliente dos usuários aos quais os dados se relacionam.
 
@@ -38,7 +38,7 @@ Ao optar por usar as Universal IDs disponibilizadas pelos Serviços, você conco
 
 ### Países proibidos pela UID2
 
-Ao optar por usar as UID2 Universal IDs por meio dos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda para tal uso em conexão com as UID2 Universal IDs não estejam relacionados a nenhuma pessoa que seja residente de qualquer um dos [Países proibidos da UID2 listados no Anexo A](#prohibited-countries-uid2) deste documento.
+Ao optar por usar as IDs universais da UID2 por meio dos Serviços, você concorda em garantir que todos os Dados do cliente transmitidos, armazenados, exibidos, distribuídos ou de outra forma disponibilizados por você por meio dos Serviços sob demanda para uso em conexão com as IDs universais da UID2 não estejam relacionados a nenhuma pessoa residente de qualquer um dos [Países proibidos da UID2 listados no Anexo A](#prohibited-countries-uid2) deste documento.
 
 ## Sem discriminação
 

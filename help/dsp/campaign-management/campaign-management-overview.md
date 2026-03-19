@@ -56,4 +56,4 @@ Todos os anúncios ativos e aprovados em uma disposição ativa em uma campanha 
 >* [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gerenciar suas visualizações de dados de campanha](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vídeo: estrutura de conta e interface de usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: estrutura de conta e interface de usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=pt-BR)

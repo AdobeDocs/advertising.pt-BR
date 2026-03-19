@@ -77,5 +77,5 @@ Você pode carregar as folhas de marcas [!DNL DoubleClick] e [!DNL Flashtalking]
 >* [Sobre o gerenciamento de anúncios no Advertising DSP](ad-about.md)
 >* [Especificações do anúncio](ad-specs.md)
 >* [Criar um único anúncio](ad-create.md)
->* [Vídeo: como carregar em massa tags de anúncios de terceiros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Vídeo: como carregar em massa tags de anúncios de terceiros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=pt-BR)
 >* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

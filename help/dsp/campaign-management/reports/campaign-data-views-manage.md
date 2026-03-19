@@ -3,7 +3,7 @@ title: Gerencie suas visualizações de dados de campanha
 description: Saiba como personalizar suas visualizações de dados para campanhas, pacotes, posicionamentos e anúncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Você pode personalizar os dados que aparecem nas suas visualizações de gerenc
 
 É possível alterar as métricas e o modo de gráfico para todas as visualizações de dados em campanhas ou para uma única campanha. As alterações em uma única campanha são aplicadas em todas as visualizações de dados da campanha, incluindo aquelas nas visualizações [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads].
 
-### Alterar as métricas para uma visualização de dados
+### Alterar as métricas de uma visualização de dados
 
 1. No canto superior direito da visualização de dados, clique em ![Configurações](/help/dsp/assets/settings-chart.png).
 
@@ -36,7 +36,7 @@ Você pode personalizar os dados que aparecem nas suas visualizações de gerenc
 
 Em todas as exibições de gerenciamento de campanha ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]), você pode personalizar os dados que aparecem na tabela de dados.
 
-### Gerenciar Exibições de Coluna {#column-views-manage}
+### Gerenciar exibições de coluna {#column-views-manage}
 
 Cada nível de gerenciamento de campanha ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]) inclui exibições [!UICONTROL Pacing] e [!UICONTROL Performance] internas que incluem métricas relevantes para essa entidade. Por padrão, a exibição [!UICONTROL Pacing] é mostrada para que você possa identificar campanhas e componentes da campanha com baixo desempenho rapidamente. Opcionalmente, é possível criar e editar conjuntos de colunas personalizados.
 
@@ -44,11 +44,11 @@ Cada nível de gerenciamento de campanha ([!UICONTROL Campaigns], [!UICONTROL Pa
 
 O DSP salva sua visualização mais recente como a visualização padrão para que, sempre que você retornar à página, sempre visualize as métricas pertinentes a você.
 
-#### Alterar a Exibição de Coluna {#column-view-change}
+#### Alterar a exibição de coluna {#column-view-change}
 
 * No seletor de Exibição, clique em ![seta para baixo](/help/dsp/assets/chevron-down.png) e clique no nome da exibição de coluna desejada.
 
-#### Criar uma Exibição de coluna personalizada {#column-view-create}
+#### Criar uma exibição de coluna personalizada {#column-view-create}
 
 1. No seletor de Exibição, clique na ![seta para baixo](/help/dsp/assets/chevron-down.png) e clique em **[!UICONTROL Create View]**.
 
@@ -68,7 +68,7 @@ O DSP salva sua visualização mais recente como a visualização padrão para q
 
    * Para salvar as configurações em um novo modo de exibição de coluna personalizado, clique em **[!UICONTROL Save As]**. Na janela [!UICONTROL Save View], digite o nome da nova exibição e clique em **[!UICONTROL Save]**.
 
-#### Editar uma Exibição de Coluna {#column-view-edit}
+#### Editar uma exibição de coluna {#column-view-edit}
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Os filtros a seguir estão disponíveis para suas visualizações do [!UICONTROL
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-### Alterar o intervalo de datas
+### Alterar intervalo de datas
 
 Altere o intervalo de datas usado em todas as exibições padrão e personalizadas usando o seletor de intervalo de datas acima de qualquer tabela de dados.
 
@@ -158,22 +158,22 @@ Altere o intervalo de datas usado em todas as exibições padrão e personalizad
 
      Você pode inserir valores numéricos (de M-D-AA a MM-DD-AAAA) e/ou nomes de meses ou abreviações (como Jan ou Janeiro).
 
-### Classificar uma Coluna de Dados
+### Classificar uma coluna de dados
 
 Você pode classificar qualquer coluna de dados em ordem crescente (A a Z ou 1 a 10) ou decrescente (Z a A ou 10 a 1).
 
 * Clique no cabeçalho da coluna para alternar entre ordem crescente e decrescente.
 
 
-### Especificar o Número de Linhas de Dados
+### Especificar o número de linhas de dados
 
 Na parte inferior direita de qualquer página, ao lado de **[!UICONTROL Items per page]** , selecione *[!UICONTROL 25]*, *[!UICONTROL 50]* ou *[!UICONTROL 100]*.
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
->* [Exibir os Sites, Anúncios e Detalhes de Frequência de um Posicionamento](placement-details-view.md)
->* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Exibir os Relatórios de Diagnóstico de Posicionamento](placement-diagnostics.md)
->* [Exportar Dados de uma Exibição de Gerenciamento de Campanha](campaign-export-data.md)
->* [Vídeo: Estrutura de Conta e Interface de Usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=pt-BR)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](campaign-reports-about.md)
+>* [Exibir os sites, anúncios e detalhes de frequência de um posicionamento](placement-details-view.md)
+>* [Exibir o relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Exibir os relatórios de diagnóstico de posicionamento](placement-diagnostics.md)
+>* [Exportar dados de uma exibição de gerenciamento de campanha](campaign-export-data.md)
+>* [Vídeo: estrutura de conta e interface de usuário do DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

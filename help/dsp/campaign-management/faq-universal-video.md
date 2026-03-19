@@ -1,16 +1,16 @@
 ---
-title: Perguntas frequentes sobre Universal Video
+title: Perguntas frequentes sobre vídeo universal
 description: Saiba mais sobre anúncios de vídeo universais.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre Universal Video
+# Perguntas frequentes sobre vídeo universal
 
 [Anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-about.md#ad-types) permitem direcionar o inventário de vídeo de ambientes de desktop, dispositivos móveis e TV conectada para o inventário VPAID e VAST usando um único posicionamento de vídeo.
 
@@ -38,11 +38,11 @@ Crie inserções e anúncios de vídeo universais de forma semelhante à criaç�
    * **[!UICONTROL VPAID & VAST (Default)]:** Inclui inventário que não permite a medição de visibilidade.
    * **[!UICONTROL VAST]** - Adequado para inventário de TV conectada.
 
-   Consulte &quot;[Configurações de Anúncio de Vídeo Universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; para obter mais informações.
+   Consulte &quot;[Configurações de anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; para obter mais informações.
 
 1. [Anexe os novos anúncios de vídeo universal](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) ao posicionamento de vídeo universal.
 
-## Por que algumas metas e pacotes de otimização ficam indisponíveis quando o ambiente de TV conectada é selecionado para uma inserção universal de vídeo?
+## Por que algumas metas e pacotes de otimização ficam indisponíveis quando o ambiente de TV conectado é selecionado para uma inserção de vídeo universal?
 
 Metas incompatíveis com disposições padrão de TV conectada, como Menor custo por clique, não são compatíveis com o ambiente de TV conectada em disposições de vídeo universal. Da mesma forma, pacotes com metas de otimização incompatíveis também não estão disponíveis para seleção.
 

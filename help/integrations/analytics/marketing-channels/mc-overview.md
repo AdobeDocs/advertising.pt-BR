@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Esta página explica as principais informações sobre [!DNL Analytics Marketing Channels] que [!DNL Analytics for Advertising] usuários precisam entender.
 
-Para obter a documentação completa sobre [!DNL Marketing Channels], consulte &quot;[Introdução a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
+Para obter a documentação completa sobre [!DNL Marketing Channels], consulte &quot;[Introdução a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=pt-BR).&quot;
 
 ## Visão geral do [!DNL Marketing Channels]
 
@@ -43,5 +43,5 @@ Para entender como o Adobe Advertising pode contribuir para os sinais necessári
 >* [Usando Adobe Advertising IDs para criar [!DNL Marketing Channels] regras de processamento](mc-ids.md)
 >* [Por que os dados do canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] com dados do Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vídeo: Usando [!DNL Marketing Channels] para relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR)
 >* [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -3,9 +3,9 @@ title: Editar rapidamente as configurações de posicionamento de chaves
 description: Saiba como alterar rapidamente as configurações de posicionamento de chaves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar Posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+> Para editar qualquer configuração de posicionamento, consulte &quot;[Editar posicionamentos](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 1. Clique no nome da campanha.
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Criar um posicionamento](placement-create.md)
 >* [Editar posicionamentos](placement-edit.md)
->* [Duplicar um Posicionamento](placement-duplicate.md)
+>* [Duplicar um posicionamento](placement-duplicate.md)
 >* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
->* [Editar os Cronogramas de Anúncios para Posicionamentos](placement-edit-ad-schedule.md)
->* [Desativar ou Ativar um Posicionamento](placement-pause-activate.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Editar os agendamentos de anúncios para posicionamentos](placement-edit-ad-schedule.md)
+>* [Desativar ou ativar um posicionamento](placement-pause-activate.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Configurações de posicionamento](placement-settings.md)
->* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=pt-BR)
+>* [Vídeo: como editar disposições usando ferramentas de edição em massa](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -3,9 +3,9 @@ title: Visão geral dos recursos de inventário no Advertising DSP
 description: Saiba mais sobre os recursos de inventário disponíveis.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Os tipos de inventário disponíveis incluem:
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Inventário por Demanda](on-demand-inventory-about.md)
->* [Sobre a Caixa de Entrada da ID do Acordo](deal-id-inbox-about.md)
->* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
+>* [Sobre o inventário sob demanda](on-demand-inventory-about.md)
+>* [Sobre a caixa de entrada da ID de negócios](deal-id-inbox-about.md)
+>* [Sobre ofertas programáticas garantidas](programmatic-guaranteed-about.md)
 >* [Parceiros SSP](ssp-partners.md)
->* [Sobre Inventário Privado](private-inventory-about.md)
+>* [Sobre o inventário privado](private-inventory-about.md)

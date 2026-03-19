@@ -3,7 +3,7 @@ title: Editar os anunciantes com acesso a uma oferta privada
 description: Saiba como especificar quais anunciantes podem acessar uma oferta privada.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -25,6 +25,6 @@ ht-degree: 0%
 1. Clique em **[!UICONTROL Save]** para salvar as configurações do contrato.
 
 >[!MORELIKETHIS]
->* [Sobre Inventário Privado](private-inventory-about.md)
->* [Editar as contas com acesso a uma ID de oferta](/help/dsp/inventory/deal-id-share.md)
->* [Configurações manuais de ID do contrato](deal-id-settings.md)
+>* [Sobre o inventário privado](private-inventory-about.md)
+>* [Editar as contas com acesso a uma negociação privada](/help/dsp/inventory/deal-id-share.md)
+>* [Configurações manuais de ID de negócios](deal-id-settings.md)

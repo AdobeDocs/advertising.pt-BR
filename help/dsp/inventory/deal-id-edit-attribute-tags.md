@@ -1,15 +1,15 @@
 ---
-title: Editar as tags de atributo para uma ID de oferta
+title: Editar as tags de atributo para uma ID de negócios
 description: Saiba como criar e editar as tags de atributo para uma ID de negócios.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Editar as tags de atributo para uma ID de oferta
+# Editar as tags de atributo para uma ID de negócios
 
 Você pode criar e atribuir tags às IDs de negócios para agrupar negócios semelhantes. Ao criar ou editar uma disposição, é possível pesquisar o inventário disponível por nome da etiqueta.
 
@@ -29,5 +29,5 @@ Você pode criar e atribuir tags às IDs de negócios para agrupar negócios sem
 
 >[!MORELIKETHIS]
 >
->* [Sobre Inventário Privado](private-inventory-about.md)
->* [Editar configurações de oferta privada](/help/dsp/inventory/deal-id-edit.md)
+>* [Sobre o inventário privado](private-inventory-about.md)
+>* [Editar configurações de negócio privado](/help/dsp/inventory/deal-id-edit.md)

@@ -3,9 +3,9 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4439'
 ht-degree: 0%
 
 ---
@@ -89,15 +89,15 @@ As datas do pacote (quando aplicável) ou da campanha são preenchidas automatic
    * Para remover um filtro, clique em **[!UICONTROL X]** na linha de filtro.
 1. Clique em **[!UICONTROL Save]**.
 
-Consulte as descrições de cada filtro de pré-oferta em &quot;[Filtros de pré-oferta no nível de posicionamento e Como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
+Consulte as descrições de cada filtro de pré-oferta em &quot;[Filtros de pré-oferta no nível de posicionamento e como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
 
-### Todas as outras disposições
+### Todos os outros posicionamentos
 
 **[!UICONTROL Budget Goal]:** O limite de orçamento bruto e o intervalo de orçamento (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
 **[!UICONTROL Gross Budget Goal]:** (Posicionamentos em campanhas somente com gerenciamento de margem) O limite de orçamento bruto e o intervalo de orçamento (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** A meta de otimização do pacote. Consulte as descrições de cada meta de otimização em &quot;[Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)&quot;.
+**[!UICONTROL Optimization Goal]:** A meta de otimização do pacote. Consulte descrições de cada meta de otimização em &quot;[Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)&quot;.
 
 **[!UICONTROL Target Goal]:** A meta de destino, que é usada para monitorar o desempenho.
 
@@ -218,7 +218,7 @@ Para especificar o direcionamento de inventário:
 
 >[!TIP]
 >
->Se você se inscreveu no inventário [!UICONTROL On Demand], mas não pode localizar os editores ou ofertas para o público-alvo, verifique o status das ofertas. Para obter mais informações sobre status, consulte [Sobre [!DNL On Demand] Inventário Premium](/help/dsp/inventory/on-demand-inventory-about.md).
+>Se você se inscreveu no inventário [!UICONTROL On Demand], mas não pode localizar os editores ou ofertas para o público-alvo, verifique o status das ofertas. Para obter mais informações sobre status, consulte [Sobre [!DNL On Demand] inventário premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
 **[!UICONTROL Video targeting]:** Estoque de destino (mas não excluído) por atributos de inventário. Ao direcionar vários valores para o mesmo atributo de vídeo, qualquer um dos atributos selecionados pode ser direcionado (por exemplo, \[Tamanho do player = grande OU Tamanho do player = HD\]). Quando você direciona a vários atributos, cada um dos atributos especificados deve estar presente (por exemplo, \[Duração = 30-60 min] E \[Tamanho do player = grande OU Tamanho do player = HD\]).
 
@@ -314,7 +314,7 @@ Como opção, é possível exportar a lista de sites direcionados e bloqueados c
 
 * Para selecionar um público existente, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences] e selecione o público.
 * Para criar uma audiência, clique em ![Selecionar](/help/dsp/assets/chevron-down.png) ao lado de [!UICONTROL Included Audiences] e selecione **[!UICONTROL + Create Audience]**. Para obter instruções, consulte [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md), a partir da Etapa 3.
-* Para selecionar segmentos específicos de público, clique em **[!UICONTROL Select segments for this placement only]**. Selecione a lógica do segmento. Para obter instruções, consulte a Etapa 6 em &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; Quando terminar, clique em **Salvar**.
+* Para selecionar segmentos específicos de público, clique em **[!UICONTROL Select segments for this placement only]**. Selecione a lógica do segmento. Para obter instruções, consulte Etapa 6 em &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; Quando terminar, clique em **Salvar**.
 
 >[!NOTE]
 >
@@ -512,10 +512,10 @@ A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Por padrão,
 
 >[!MORELIKETHIS]
 >
->* [Sobre o Gerenciamento de Posicionamento](placement-about.md)
+>* [Sobre o gerenciamento de posicionamento no Advertising DSP](placement-about.md)
 >* [Criar um posicionamento](placement-create.md)
 >* [Editar posicionamentos](placement-edit.md)
 >* [Gerenciar multiplicadores de oferta para posicionamentos](placement-manage-bid-multipliers.md)
->* [Exibir o Log de Alterações para um Posicionamento](placement-change-log.md)
+>* [Exibir o log de alterações para um posicionamento](placement-change-log.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Perguntas frequentes sobre o gerenciamento de campanhas](/help/dsp/campaign-management/faq-campaign-management.md)

@@ -3,7 +3,7 @@ title: Gerenciar listas de negócios
 description: Saiba como criar e gerenciar listas de negócios para direcionamento de posicionamento.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -73,6 +73,6 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 >[!MORELIKETHIS]
 >
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Configurações de Relatório Personalizado](/help/dsp/reports/report-settings.md)
->* [Colunas de Relatório Disponíveis](/help/dsp/reports/report-columns.md)
->* [Sobre Inventário Privado](/help/dsp/inventory/private-inventory-about.md)
+>* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
+>* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)
+>* [Sobre o inventário privado](/help/dsp/inventory/private-inventory-about.md)

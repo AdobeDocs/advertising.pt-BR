@@ -1,16 +1,16 @@
 ---
-title: Criar manualmente detalhes da ID do contrato
-description: Saiba como inserir detalhes manualmente para uma ID de acordo.
+title: Criar detalhes da ID de negócios manualmente
+description: Saiba como inserir detalhes manualmente para uma ID de negócios.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Criar manualmente detalhes da ID do contrato
+# Criar detalhes da ID de negócios manualmente
 
 1. No menu principal, clique em **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -66,8 +66,8 @@ Depois de criar a negociação, você pode usá-la como uma meta de inventário 
 
 >[!MORELIKETHIS]
 >
->* [Configurações manuais de ID do contrato](deal-id-settings.md)
+>* [Configurações manuais de ID de negócios](deal-id-settings.md)
 >* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)
->* [Enviar um anúncio para uma oferta programática garantida com o  [!DNL FreeWheel]](freewheel-submit.md)
->* [Sobre Ofertas Programáticas Garantidas](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+>* [Enviar um anúncio para um contrato programático garantido com o  [!DNL FreeWheel]](freewheel-submit.md)
+>* [Sobre ofertas programáticas garantidas](programmatic-guaranteed-about.md)
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

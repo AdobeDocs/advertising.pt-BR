@@ -3,7 +3,7 @@ title: Especificar posicionamentos e anúncios para um negócio privado
 description: Saiba como usar uma negociação privada com posicionamentos e anúncios adicionais.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -54,8 +54,8 @@ O posicionamento começa a ser executado depois que o editor ativa a ID de contr
 
 >[!MORELIKETHIS]
 >
->* [Sobre Inventário Privado](private-inventory-about.md)
->* [Listar os Posicionamentos e Anúncios de um Contrato Privado](/help/dsp/inventory/private-deal-view-placements.md)
->* [Criar manualmente os detalhes da ID do contrato](deal-id-create.md)
->* [Configurações manuais de ID do contrato](deal-id-settings.md)
+>* [Sobre o inventário privado](private-inventory-about.md)
+>* [Listar os posicionamentos e anúncios de uma negociação privada](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Criar manualmente os detalhes da ID de negócios](deal-id-create.md)
+>* [Configurações manuais de ID de negócios](deal-id-settings.md)
 >* [Configurar um contrato programático garantido](programmatic-guaranteed-set-up.md)

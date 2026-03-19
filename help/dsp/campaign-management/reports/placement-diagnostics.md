@@ -3,7 +3,7 @@ title: Exibir o relatório de posicionamento [!UICONTROL Diagnostics]
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -72,6 +72,6 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
 >[!MORELIKETHIS]
 >
->* [Tipos de Relatórios de Desempenho em Exibições de Gerenciamento de Campanha](campaign-reports-about.md)
->* [Exibir o Relatório de Previsão de Posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](campaign-reports-about.md)
+>* [Exibir o relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

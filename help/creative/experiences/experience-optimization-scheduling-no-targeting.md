@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como configurar a otimização e o agendamento de anúncios para experiências sem direcionamento.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,18 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**.&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**.&lt;!—
+O Gerenciador de tags tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 
 1. Selecione o tipo de rotação criativa para variantes de anúncios nos pacotes associados:
 
-   * *[!UICONTROL Weighted]:* Mostra as variantes de anúncios nos pacotes criativos associados de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Para aplicar pesos iguais a todos os pacotes associados, clique em (![Aplicar peso igual](/help/creative/assets/apply-equal-weight.png "Aplicar peso igual")). Os pesos de todos os pacotes selecionados devem somar até 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Mostra as variantes de anúncios nos pacotes criativos associados de acordo com pesos relativos. Insira o peso de cada pacote como uma porcentagem. Para aplicar pesos iguais a todos os pacotes associados, clique em (![Aplicar peso igual](/help/creative/assets/apply-equal-weight.png "Aplicar peso igual")). Os pesos de todos os pacotes selecionados devem somar 100.
+
+   <!-- 
+   For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. 
+   -->
 
    * *[!UICONTROL Algorithmic]:* mostra as variantes de anúncios mais eficazes com mais frequência, com base em uma meta especificada.
 
@@ -66,7 +71,7 @@ Ao usar o agendamento, você deve agendar criações pela duração da experiên
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. Habilitar **[!UICONTROL Schedule]**.
 

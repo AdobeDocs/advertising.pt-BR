@@ -29,7 +29,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanh
 
 * Exclua ou altere o status de uma campanha dentro da linha.
 
-* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Atribuir restrições a campanhas e cancelar atribuição de restrições a campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -37,7 +37,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanh
 
 >[!MORELIKETHIS]
 >
->* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gerenciar atribuições de restrição para campanhas](campaign-constraint-assignments-manage.md)
 >* [Baixar dados da [!UICONTROL Campaigns] exibição](campaign-view-report.md)

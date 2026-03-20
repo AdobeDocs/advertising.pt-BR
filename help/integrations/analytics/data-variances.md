@@ -86,7 +86,7 @@ Considere essas diferenças ao comparar conversões de view-through entre o Adob
 >
 >Para evitar confusão, [!DNL Analytics] torna os dados históricos indisponíveis na interface de relatórios. Você pode visualizar os dados históricos se alterar a [!DNL eVar] de volta para a configuração de alocação inicial, embora não deva alterar as configurações de alocação de [!DNL eVar] simplesmente para acessar os dados históricos. A Adobe recomenda usar um novo [!DNL eVar] quando você quiser aplicar uma nova configuração de alocação para dados que já estão sendo registrados, em vez de alterar as configurações de alocação para um [!DNL eVar] que já tem uma quantidade significativa de dados históricos.
 
-Consulte uma lista de modelos de atribuição [!DNL Analytics] e suas definições em [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
+Consulte uma lista de modelos de atribuição [!DNL Analytics] e suas definições em [https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Se você estiver conectado ao [!DNL Search, Social, & Commerce], poderá encontrar uma lista
 
@@ -102,11 +102,11 @@ No Adobe Advertising, você pode relatar os dados de conversão pela data de cli
 
 ## Atribuição em [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] relatórios](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) permite configurar regras para identificar diferentes canais de marketing com base em aspectos distintos das informações de ocorrência. Você pode rastrear canais rastreados pela Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] e [!UICONTROL Paid Search]) como [!DNL Marketing Channels] usando o parâmetro de cadeia de caracteres de consulta `ef_id` para identificar o canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> No entanto, mesmo que os relatórios do [!DNL Marketing Channels] possam rastrear canais da Adobe Advertising, os dados podem não corresponder aos relatórios do Adobe Advertising por vários motivos. Consulte as seções a seguir para obter mais informações.
+[[!DNL Analytics Marketing Channels] relatórios](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=pt-BR) permite configurar regras para identificar diferentes canais de marketing com base em aspectos distintos das informações de ocorrência. Você pode rastrear canais rastreados pela Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] e [!UICONTROL Paid Search]) como [!DNL Marketing Channels] usando o parâmetro de cadeia de caracteres de consulta `ef_id` para identificar o canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> No entanto, mesmo que os relatórios do [!DNL Marketing Channels] possam rastrear canais da Adobe Advertising, os dados podem não corresponder aos relatórios do Adobe Advertising por vários motivos. Consulte as seções a seguir para obter mais informações.
 
 >[!NOTE]
 >
-> Os conceitos principais a seguir também se aplicam a qualquer rastreamento de vários canais que envolva campanhas não rastreadas no Adobe Advertising, como a variável [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (também conhecida como dimensão &quot;Código de rastreamento&quot; ou &quot;[!DNL eVar] 0&quot;) e rastreamento [!DNL eVar] personalizado.
+> Os conceitos principais a seguir também se aplicam a qualquer rastreamento de vários canais que envolva campanhas não rastreadas no Adobe Advertising, como a variável [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=pt-BR) (também conhecida como dimensão &quot;Código de rastreamento&quot; ou &quot;[!DNL eVar] 0&quot;) e rastreamento [!DNL eVar] personalizado.
 
 ### Modelos de atribuição potencialmente diferentes em [!DNL Marketing Channels]
 
@@ -130,7 +130,7 @@ Para obter mais explicações sobre por que as métricas podem variar, consulte 
 
 ## Diferenças de dados no Adobe Analytics [!DNL Paid Search Detection]
 
-O recurso [legado [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) em [!DNL Analytics] permite que as empresas [definam regras para rastrear o tráfego de pesquisa orgânica e paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) de mecanismos de pesquisa especificados. As regras [!DNL Paid Search Detection] usam uma sequência de consulta e o domínio referenciador para identificar o tráfego de pesquisa natural e pago. Os relatórios [!DNL Paid Search Detection] fazem parte de um grupo maior de relatórios [Métodos de descoberta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), que expiram quando ocorre um evento especificado (como uma Finalização de carrinho) ou quando a visita termina.
+O recurso [legado [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=pt-BR) em [!DNL Analytics] permite que as empresas [definam regras para rastrear o tráfego de pesquisa orgânica e paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=pt-BR) de mecanismos de pesquisa especificados. As regras [!DNL Paid Search Detection] usam uma sequência de consulta e o domínio referenciador para identificar o tráfego de pesquisa natural e pago. Os relatórios [!DNL Paid Search Detection] fazem parte de um grupo maior de relatórios [Métodos de descoberta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=pt-BR), que expiram quando ocorre um evento especificado (como uma Finalização de carrinho) ou quando a visita termina.
 
 Esta é a interface para criar um conjunto de regras [!DNL Paid Search Detection]:
 
@@ -148,7 +148,7 @@ Observe as duas limitações a seguir com dados em [!DNL Paid Search Detection] 
 
 ### Por que configurar o [!DNL Paid Search Detection]?
 
-Os relatórios [!DNL Paid Search Detection] permitem identificar o tráfego de pesquisa natural nos [[!DNL Analytics Marketing Channels] relatórios](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). Separar o tráfego de pesquisa paga do tráfego de pesquisa natural é uma ótima maneira de entender o valor que a pesquisa natural traz para o ecossistema de marketing completo.
+Os relatórios [!DNL Paid Search Detection] permitem identificar o tráfego de pesquisa natural nos [[!DNL Analytics Marketing Channels] relatórios](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=pt-BR). Separar o tráfego de pesquisa paga do tráfego de pesquisa natural é uma ótima maneira de entender o valor que a pesquisa natural traz para o ecossistema de marketing completo.
 
 ## Validação de dados de click-through para [!DNL Analytics for Advertising] {#data-validation}
 
@@ -238,7 +238,7 @@ Parecem análogos, mas os cliques e as visitas representam dados diferentes:
 
 * **Clique em:** [!DNL DSP] ou o mecanismo de pesquisa registra um clique quando um visitante clica em um anúncio no site de um editor.
 
-* **A Visita** [!DNL Analytics] define uma [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) como uma série de exibições de página por um usuário, terminando de acordo com um de vários critérios, como 30 minutos de inatividade.
+* **A Visita** [!DNL Analytics] define uma [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=pt-BR) como uma série de exibições de página por um usuário, terminando de acordo com um de vários critérios, como 30 minutos de inatividade.
 
 Por definição, um clique pode levar a várias visitas.
 

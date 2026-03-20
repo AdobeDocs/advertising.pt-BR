@@ -30,7 +30,7 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 * *[!DNL RampID]:* Para converter PII em [!DNL RampID]. Você pode usar [!DNL RampIDs] para redirecionar usuários de logon e para [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) medição.
 
-* *[!DNL Unified ID2.0](Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
+* *[!DNL Unified ID2.0] (Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
 
 <!--
  Later

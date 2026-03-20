@@ -181,7 +181,7 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
    * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
 
-   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [[!DNL Yandex] específica de ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
+   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [[!DNL Yandex] específica de &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
 
 >[!NOTE]
 >
@@ -241,7 +241,7 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
 **[!UICONTROL Param 3]:** (somente modelos [!DNL Microsoft Advertising]) A cadeia de caracteres a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a cadeia de caracteres de substituição dinâmica `{Param3}`. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 

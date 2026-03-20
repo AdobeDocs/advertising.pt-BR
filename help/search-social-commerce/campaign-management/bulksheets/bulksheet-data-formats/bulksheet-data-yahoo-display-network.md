@@ -3,7 +3,7 @@ title: Dados de bulksheet para  [!DNL Yahoo! Display Network] contas
 description: Referencie os campos de cabeçalho e de dados em bulksheets baixados para  [!DNL Yahoo! Display Network] contas.
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -17,16 +17,6 @@ ht-degree: 0%
 -->
 
 Você pode baixar dados de contas do [!DNL Yahoo! Display Network] em massa, mas não pode carregar ou postar bulksheets na rede de publicidade.
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-The following example shows data in comma-delimited values. If you're using tab-separated values, then the data looks different.
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Line 1,Description Line 2,Base URL/Final URL,Destination URL,[Advertiser-specific Label Classification],Bid Rules,Constraints,Campaign Status,Ad Group Status,Ad Status,Campaign ID,Ad Group ID,Ad ID,AMO ID,EF Error Message
-
--->
 
 ## Campos de dados disponíveis
 
@@ -50,7 +40,7 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Campaign ID] | Se incluído | Se incluído | Se incluído | A ID exclusiva que identifica uma campanha existente. |
 | [!UICONTROL Ad Group ID] | n/d | Se incluído | Se incluído | O identificador exclusivo que identifica um grupo de anúncios existente. |
 | [!UICONTROL Keyword ID] | n/d | n/d | Se incluído | A ID exclusiva que identifica uma palavra-chave existente. |
-| [!UICONTROL AMO ID] | n/d | n/d | n/d | (Em bulksheets gerados) Um identificador exclusivo gerado por Adobe para uma entidade sincronizada. |
+| [!UICONTROL AMO ID] | n/d | n/d | n/d | (Em bulksheets gerados) Um identificador exclusivo gerado pela Adobe para uma entidade sincronizada. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluído nos bulksheets gerados para fins informativos) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce relacionadas aos dados na linha; as mensagens de erro estão incluídas nos arquivos [!UICONTROL EF Errors]. |
 
 >[!MORELIKETHIS]

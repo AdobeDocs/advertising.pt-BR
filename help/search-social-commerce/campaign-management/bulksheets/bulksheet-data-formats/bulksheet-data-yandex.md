@@ -3,7 +3,7 @@ title: Dados de bulksheet necessários para  [!DNL Yandex] contas
 description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Yandex] .
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Para criar e atualizar dados de campanha do [!DNL Yandex] em massa, você pode usar os arquivos de bulksheet do Search, Social e Commerce formatados especificamente para contas do [!DNL Yandex]. Você pode a) [gerar arquivos de planilha em massa para contas existentes](../bulksheet-download.md) no formato de arquivo necessário ou b) criá-los manualmente (consulte &quot;[Formatos de Arquivo de Planilha em Massa com Suporte](bulksheet-file-formats.md)&quot; para obter informações gerais sobre os formatos de arquivo com suporte).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Campos de dados disponíveis
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | n/d | n/d | O status de exibição do grupo de anúncios: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (pausado). O padrão para novos grupos de anúncios é <i>[!UICONTROL active]</i>.<br><br><b>Notas:</b><ul></li>Se um grupo de publicidade já esteve ativo, não é possível excluí-lo. Em vez disso, arquive-o.</li><li>Você não pode definir manualmente o status para <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status.</li></ul> |
 | [!UICONTROL Ad Status] | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | O status de exibição do banner (anúncio): <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (pausado). O padrão para novos banners é <i>[!UICONTROL active]</i>.<br><br><b>Observação: você não pode definir manualmente o status como <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status. |
 | [!UICONTROL Keyword Status] | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | n/d | O status de exibição da frase (palavra-chave): <i>[!UICONTROL active]</i>. O padrão para novas frases é <i>[!UICONTROL active]</i>.<br><br><b>Observação: você não pode definir manualmente o status como <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status. |
-| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | Status de exibição do sitelink: <i>[!UICONTROL * Ativo]</i> ou <i>[!UICONTROL * Pausado]</i>. O padrão para novos sitelinks é <i>[!UICONTROL * Ativo]</i>. |
+| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | Status de exibição do sitelink: <i>[*UICONTROL Ativo]</i> ou <i>[*UICONTROL Pausado]</i>. O padrão para novos sitelinks é <i>[*UICONTROL Ativo]</i>. |
 | [!UICONTROL Campaign ID] | n/a: Criar<br>Obrigatório/Opcional: Editar<br>Opcional: Excluir | Opcional | Opcional | Opcional | Opcional | A ID exclusiva que identifica uma campanha existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente quando você altera o nome da campanha, a menos que a linha inclua uma ID do AMO para a campanha. |
 | [!UICONTROL Ad Group ID] | n/d | n/a: Criar<br>Obrigatório/Opcional: Editar<br>Opcional: Excluir | Opcional | Opcional | n/d | O identificador exclusivo que identifica um grupo de anúncios existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente quando você altera o nome do grupo de anúncios, a menos que a linha inclua uma ID AMO para o grupo de anúncios. |
 | [!UICONTROL Ad ID] | n/d | n/d | n/d | n/a: Criar<br>Obrigatório/Opcional: Editar ou excluir | n/d | A ID exclusiva que identifica uma palavra-chave existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente ao alterar o nome da palavra-chave, a menos que a linha inclua a) colunas de propriedade suficientes para identificar a palavra-chave ou b) uma ID AMO. |

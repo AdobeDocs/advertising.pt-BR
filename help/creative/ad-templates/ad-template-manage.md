@@ -2,9 +2,10 @@
 title: Gerenciar modelos de anúncios dinâmicos
 description: Saiba como gerenciar modelos de anúncios dinâmicos e criar anúncios com base neles.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Crie um modelo de anúncio separado para cada combinação de tipo de anúncio (
 
 1. Mantenha o cursor sobre a linha do modelo de anúncio e clique em **[!UICONTROL Delete]**.
 
-1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.<!-- Confirm -->
+1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
 ## Criar anúncios dinâmicos a partir de um modelo de anúncio
 
@@ -87,13 +88,9 @@ Crie um modelo de anúncio separado para cada combinação de tipo de anúncio (
 
 **[!UICONTROL Description]**: (Opcional) Informações que são úteis para qualquer pessoa que use o modelo de anúncio.
 
-<!-- I don't see this on 9/24:
+### (Modelos de anúncios estáticos HTML5) Tags de clique
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Parâmetro de Marca de Clique\]**: Os parâmetros de marca de clique para permitir redirecionamentos de rastreamento de cliques de anúncios criados usando o modelo de anúncio. Para adicionar um parâmetro, clique em **[!UICONTROL + Add More]** e insira um parâmetro adicional. É possível incluir até cinco parâmetros.
 
 ### zip HTML5
 
@@ -109,9 +106,7 @@ Para carregar um arquivo:
 
 ### (Modelos de anúncios dinâmicos do HTML5) Arquivo de atributos
 
-<!-- EXPLAIN -->Um arquivo que contém atributos para o modelo de anúncio. Se você já tiver carregado um arquivo, o nome do arquivo será listado.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->Um arquivo que contém atributos para o modelo de anúncio. Se você já tiver carregado um arquivo, o nome do arquivo será listado.
 
 Para carregar um arquivo:
 
@@ -126,4 +121,3 @@ Para carregar um arquivo:
 >* [Gerenciar modelos de feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gerenciar catálogos](/help/creative/feeds/catalog-manage.md)
 >* [Adicionar criações dinâmicas a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-

@@ -3,7 +3,7 @@ title: Editar criações padrão em uma biblioteca criativa
 description: Saiba como alterar as configurações de criações padrão (não dinâmicas) em uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Editar criações padrão em uma biblioteca criativa
 
-É possível editar algumas configurações para cada tipo de criação padrão. Você pode editar várias criações<!-- or creative variations --> do mesmo tipo criativo (HTML5 simples com apenas uma página de aterrissagem, HTML5 estático com várias páginas de aterrissagem, HTML5 flexível, imagem ou terceiros<!-- , or dynamic -->) apenas.
+É possível editar algumas configurações para cada tipo de criação padrão. Você pode editar várias criações do mesmo tipo criativo (HTML5 simples com apenas uma página de aterrissagem, HTML5 estático com várias páginas de aterrissagem, HTML5 flexível, imagem ou terceiros) somente.
 
 Para criações flexíveis de HTML5 e HTML5 estáticas, você pode fazer upload de um novo arquivo de modelo com um layout diferente, mas o mesmo conjunto de nomes de atributo. Para criações simples do HTML5, você pode editar quaisquer atributos ou adicionar imagens fazendo upload de um novo modelo com os novos atributos ou imagens. Em todos os casos, o modelo deve ser um arquivo local em formato ZIP com no máximo 2 MB.
 
-Ao editar um criativo<!-- or creative variation --> incluído em um pacote, suas alterações são automaticamente aplicadas em todas as experiências que incluem o pacote, exceto que qualquer página de aterrissagem personalizada e URLs de rastreamento especificadas no nível de experiência permanecem aplicáveis ao pacote anexado a essa experiência.
+Ao editar um criativo que está incluído em um pacote, as alterações são aplicadas automaticamente em todas as experiências que incluem o pacote, exceto que qualquer página de aterrissagem personalizada e URLs de rastreamento especificados no nível da experiência permanecem aplicáveis ao pacote anexado a essa experiência.
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -38,7 +38,7 @@ Ao editar um criativo<!-- or creative variation --> incluído em um pacote, suas
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
 
-1. Edite as [configurações de criação da imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), as [configurações de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), as [configurações flexíveis de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou as [configurações de criação de terceiros](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Edite as [configurações de criação da imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), as [configurações de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), as [configurações flexíveis de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou as [configurações de criação de terceiros](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party).
 
    Ao editar várias criações ao mesmo tempo:
 
@@ -53,10 +53,6 @@ Ao editar um criativo<!-- or creative variation --> incluído em um pacote, suas
 1. (Criações flexíveis do HTML5; opcional) Depois de fazer suas alterações, clique em ![Visualizar](/help/creative/assets/preview.png "Visualizar") acima da imagem para visualizar o novo criativo.
 
 1. Clique em **Salvar**.
-
-<!-- Not there as of 1/16/25. If we do add it, add back in:
-1. (Flexible HTML5 or third-party creatives; optional) Regenerate the thumbnail within the table view or cards view if the change isn't visible immediately.
--->
 
 >[!MORELIKETHIS]
 >

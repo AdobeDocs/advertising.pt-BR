@@ -3,7 +3,7 @@ title: Sobre fontes de público-alvo primárias
 description: Saiba mais sobre como converter outros identificadores de usuário em seus segmentos primários em IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,13 +14,14 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-O DSP pode assimilar segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de dados do cliente) e convertê-los em segmentos compostos de IDs universais. Cada ID resultante é baseada em pessoas, e limites de frequência de anúncio são aplicados no nível de ID<!-- Move that info. to somewhere else? -->.
+O DSP pode assimilar segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de dados do cliente) e convertê-los em segmentos compostos de IDs universais. Cada ID resultante é baseada em pessoas, e limites de frequência de anúncio são aplicados no nível de ID<!-- Add that info. somewhere else too? -->.
 
 Os detalhes do segmento incluem o tamanho de cada tipo de ID universal, bem como o tamanho de cada tipo de dispositivo rastreado por cookies ou IDs de dispositivo.
 
 ## Tipos de ID universal {#universal-id-types}
 
-<!--  Replace below with this once ID5 sources are possible 
+<!--
+  Replace below with this once ID5 sources are possible 
 
 Using your first-party data, you can create segments with IDs from the following universal ID partners.
 
@@ -48,7 +49,8 @@ Você pode traduzir segmentos primários para segmentos com IDs autenticadas (de
 
      As taxas são de US$ 0,15 por impressão de anúncio de exibição entregue e US$ 0,25 por impressão de anúncio de vídeo entregue.
 
-<!-- Not yet
+<!--
+ Not yet
 
 * Probabilistic (unauthenticated) IDs using hashed email addresses:
 
@@ -56,7 +58,8 @@ Você pode traduzir segmentos primários para segmentos com IDs autenticadas (de
 
     ID5 creates an ID by stitching together user signals (hashed email address) with various browser signals (such as IP address and timestamp).
 
-    [!DNL Analytics] measurement requires all [prerequisites for implementing [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) and the [AMO ID and EF ID in your tracking URLs](/help/integrations/analytics/ids.md). You also must sign an agreement with [!DNL ID5] and set a parameter within your existing JavaScript tracking tags. <!-- Contact your Adobe Account Team for instructions. -->
+    [!DNL Analytics] measurement requires all [prerequisites for implementing [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) and the [AMO ID and EF ID in your tracking URLs](/help/integrations/analytics/ids.md). You also must sign an agreement with [!DNL ID5] and set a parameter within your existing JavaScript tracking tags. Contact your Adobe Account Team for instructions.
+-->
 
 <!--
     >[!NOTE]
@@ -74,7 +77,7 @@ O DSP também pode se conectar a qualquer CDP adicional usando compartilhamento 
 
 O DSP é um *destino* integrado para [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte da Adobe Experience Platform.
 
-No [!DNL Real-Time CDP], os destinos são conexões com plataformas de dados externas que permitem ativação de dados sem interrupção. Você pode usar destinos para ativar seus endereços de email com hash para publicidade direcionada no DSP. Para obter mais informações sobre destinos, consulte o [Guia de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR) do Experience Platform, incluindo uma visão geral do produto, instruções para [criar espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=pt-BR) e [criar conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=pt-BR) e [ativar dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=pt-BR).
+No [!DNL Real-Time CDP], os destinos são conexões com plataformas de dados externas que permitem ativação de dados sem interrupção. Você pode usar destinos para ativar seus endereços de email com hash para publicidade direcionada no DSP. Para obter mais informações sobre destinos, consulte o [Guia de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) do Experience Platform, incluindo uma visão geral do produto, instruções para [criar espaços de trabalho de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [criar conexões de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) e [ativar dados para destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Para permitir que o DSP assimile segmentos primários do [!DNL Adobe] [!DNL Real-time CDP] e converta seus endereços de email com hash em IDs universais, consulte &quot;[Converter IDs de usuários do [!DNL Adobe Real-Time CDP] em IDs universais](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 

@@ -3,7 +3,7 @@ title: Configurações de origem do público-alvo
 description: Saiba mais sobre as configurações para fontes de público-alvo.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -30,9 +30,10 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 * *[!DNL RampID]:* Para converter PII em [!DNL RampID]. Você pode usar [!DNL RampIDs] para redirecionar usuários de logon e para [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) medição.
 
-* *[!DNL Unified ID2.0] (Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
+* *[!DNL Unified ID2.0](Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
@@ -46,5 +47,5 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
 >* [Sobre fontes de público-alvo primárias](source-about.md)
 >* [Importar segmentos autenticados manualmente de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

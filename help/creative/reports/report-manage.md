@@ -3,7 +3,7 @@ title: Gerenciar relatórios personalizados
 description: Saiba como gerar e gerenciar a experiência cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 
@@ -229,7 +229,8 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
       O novo destino agora está disponível na lista de destinos existentes, e você pode adicioná-lo ao relatório.
 
 
-<!-- This needs a lot of updating for new report:
+<!--
+ This needs a lot of updating for new report:
 
 ## Available report columns {#report-custom-creative-columns}
 

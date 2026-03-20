@@ -3,7 +3,7 @@ title: O layout da árvore de decisão
 description: Saiba mais sobre o layout da árvore de decisão para obter experiências com direcionamento.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 8a163cfd950d7388817425cde122105846604283
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -23,8 +23,9 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 <!--
 >[!NOTE]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+>You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.-->
+
+<!-- Explain the diff and why to choose the other option. -->
 
 ## Termos
 

@@ -3,7 +3,7 @@ title: Campos disponíveis para arquivos de feed de anúncios dinâmicos
 description: Saiba mais sobre os campos que podem ser incluídos nos arquivos de feed usados para criar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ Os seguintes campos de feed estão disponíveis no back-end do Advertising Creat
 
 O único campo que deve ter um equivalente em seu arquivo de feed é `PART_NUM`.
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

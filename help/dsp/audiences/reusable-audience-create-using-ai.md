@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ Um resumo de público-alvo é um writeup estratégico que define o público-alvo
 
 Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

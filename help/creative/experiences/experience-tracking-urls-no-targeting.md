@@ -3,9 +3,9 @@ title: Personalizar os URLs de rastreamento para uma experiência sem direcionam
 description: Saiba como personalizar os URLs de rastreamento para cada criativo em uma experiência sem definição de metas da árvore de decisão.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ As URLs personalizadas são usadas apenas para anúncios criados a partir da tag
 
    1. Clique em **[!UICONTROL Create]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar URLs de rastreamento](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— O Tag Manager tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar URLs de rastreamento](/help/creative/assets/edit-gray.png "Editar URLs de rastreamento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    As guias [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] listam os nomes de todos os criadores nos tamanhos aplicáveis nos conjuntos atribuídos. Os tamanhos dos criativos padrão da experiência determinam os tamanhos disponíveis.<!-- There's no distinct "Creative Sizes" setting. -->
 

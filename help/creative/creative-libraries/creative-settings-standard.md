@@ -3,7 +3,7 @@ title: Configurações de criação padrão
 description: Referencie as configurações para criações padrão.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -32,7 +32,8 @@ Ao editar várias criações ao mesmo tempo:
 
 **[!UICONTROL Click Tags]:** As variáveis que permitem redirecionamentos de rastreamento de cliques dos anúncios de banner incluídos. Os nomes das variáveis e os URLs da página de aterrissagem correspondentes são preenchidos na unidade de criação carregada, mas é possível alterar os URLs padrão. Para várias criações, é possível editar as tags de clique individuais.
 
-<!-- I don't see this as of 1/30. I do see the option to create one custom LP per creative (for any creative type), not one per click tag for flexible HTML5 creatives.
+<!--
+ I don't see this as of 1/30. I do see the option to create one custom LP per creative (for any creative type), not one per click tag for flexible HTML5 creatives.
 >[!NOTE]
 >
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.

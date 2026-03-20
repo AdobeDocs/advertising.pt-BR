@@ -3,7 +3,7 @@ title: Configurações de posicionamento
 description: Consulte descrições das configurações de posicionamento disponíveis.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '4439'
 ht-degree: 0%
@@ -412,7 +412,8 @@ A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Por padrão,
 
 **[!UICONTROL Contextual filtering]:** (Aplicável para exibição na Web móvel e desktop, anúncios nativos e de vídeo) Tipos de filtros contextuais [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39] a serem aplicados. Os padrões no nível do anunciante são selecionados para novos posicionamentos, mas você pode alterar as configurações:
 
-<!-- Looks like we didn't rename this:
+<!--
+ Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 

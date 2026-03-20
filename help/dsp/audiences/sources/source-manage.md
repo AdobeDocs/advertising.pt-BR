@@ -3,7 +3,7 @@ title: Gerenciar fontes de público-alvo para ativar públicos-alvo da ID univer
 description: Saiba como criar e gerenciar uma fonte para importar públicos da plataforma de dados do cliente e convertê-los em segmentos que contêm IDs universais.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -22,7 +22,8 @@ Você também pode excluir uma origem.
 
 ## Criar uma fonte de público-alvo
 
-<!-- Not sure about this
+<!--
+ Not sure about this
 
 You can create one source for each combination of universal ID partner and data visibility level.
 
@@ -58,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Alterar os tipos de ID para uma origem de público-alvo
 
-<!-- Clarify this:
+<!--
+ Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
 
 OR 
@@ -121,9 +123,10 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 * *[!DNL RampID]:* Para converter PII em [!DNL RampID]. Você pode usar [!DNL RampIDs] para redirecionar usuários de logon e para [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) medição.
 
-* *[!DNL Unified ID2.0] (Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
+* *[!DNL Unified ID2.0](Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->

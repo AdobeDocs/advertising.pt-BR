@@ -3,7 +3,7 @@ title: Metas personalizadas
 description: Saiba mais sobre as metas personalizadas para definir seus eventos de sucesso em pacotes otimizados para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 As metas personalizadas definem os eventos de sucesso que um anunciante precisa para atender aos seus objetivos de negócios. Cada pacote que usa a meta de otimização &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] ou &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve incluir uma meta personalizada para ajudar a alcançar a meta de otimização geral. Você pode criar metas personalizadas como *objetivos* em [!DNL Advertising Search, Social, & Commerce]. O nome de cada objetivo do DSP deve receber o prefixo &quot;ADSP_&quot;.
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -78,7 +79,8 @@ Os exemplos a seguir mostram como você pode configurar metas que têm como alvo
 
 Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e a receita de todos os tipos de dispositivos for igualmente importante para você, inclua a métrica &quot;[!UICONTROL Revenue]&quot; com um peso não móvel de um (1); o peso móvel será ignorado. Selecione o tipo de métrica *[!UICONTROL Goal]*.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ Se a meta da campanha for receita ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 Se a meta da campanha for o custo mais baixo por aquisição (CPA) e exigir apenas um evento bem-sucedido (como &quot;Envio de aplicativo&quot;), inclua essa métrica e especifique o tipo de métrica como *[!UICONTROL Goal]*. A prática recomendada é definir o peso não móvel como um (1); o peso móvel é ignorado.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ Há dois cenários nos quais você usaria várias métricas em uma meta personal
 
 * Sua meta de campanha tem vários eventos de sucesso. Por exemplo, talvez você esteja anunciando mais de uma ação no site (Download do PDF, Fale Conosco e Cadastro por email) e todas as ações contribuem para sua meta de CPA. Se o objetivo incluir as três métricas separadas, cada uma com pesos não móveis de um (1), o algoritmo equipado com [!DNL Adobe AI] tratará cada uma das métricas e tipos de dispositivos de usuário com igual importância. Se as diferentes métricas tiverem custos ou importância variáveis, você ajustará seus pesos relativos de acordo.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ Há dois cenários nos quais você usaria várias métricas em uma meta personal
 
   O exemplo de objetivo a seguir inclui três métricas, cada uma com um peso não móvel diferente: Envio de aplicativo = 1, Início do aplicativo = 0.1 e Página de aterrissagem do anunciante = 0.01. Isso significa que cada conversão de envio de aplicativo tem o mesmo valor para sua empresa como uma média de 10 conversões de início de aplicativo e 100 conversões de página de aterrissagem de anunciante.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

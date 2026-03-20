@@ -3,7 +3,7 @@ title: Adicionar criações dinâmicas a uma biblioteca criativa
 description: Saiba como adicionar criações dinâmicas a uma biblioteca criativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Adicione criações dinâmicas às suas [bibliotecas criativas](creative-library
 >
 >Antes de adicionar criações dinâmicas a uma biblioteca criativa, você deve concluir outras etapas — incluindo a criação do modelo de anúncio, o upload de ativos e a criação (anúncios dinâmicos do HTML5) de um modelo e catálogo de feed. Consulte &quot;[Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md).&quot;
 
-<!-- This does't work for me 9/24 -- I still have to select a catalog:
+<!--
+ This does't work for me 9/24 -- I still have to select a catalog:
 
 ## Add dynamic creatives using a static HTML5 ad template
 

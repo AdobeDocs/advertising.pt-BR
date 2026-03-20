@@ -3,7 +3,7 @@ title: Macros disponíveis para rastrear URLs
 description: Referencie as macros que você pode adicionar aos URLs da sua página inicial, URLs de rastreamento e criações de terceiros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Você pode incluir qualquer uma das seguintes macros em seus criativos de tercei
 
 Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamente nas tags de experiência.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ Algumas macros disponíveis, ou suas equivalentes, são incluídas automaticamen
 >* [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Configurações de experiência direcionadas](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[Configurações de experiência não direcionadas](/help/creative/experiences/experience-settings-no-targeting.md)

@@ -2,7 +2,8 @@
 title: Rastrear o status dos trabalhos de processamento do catálogo
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,7 +14,8 @@ ht-degree: 0%
 
 Veja o status dos trabalhos de processamento de catálogo. Se ocorrer algum erro durante o processamento, a coluna [!UICONTROL Failed Count] indicará quantas linhas tiveram um problema.
 
-<!-- Validate and reword:
+<!--
+ Validate and reword:
 
 By clicking on "View Failure" on the right, you can see further details about the error. The most common errors are "Image processing error" where there is a missing image asset, or "Duplicate partnum" where the unique column has a non-unique name that is referenced in another feed or within the same feed file.
 

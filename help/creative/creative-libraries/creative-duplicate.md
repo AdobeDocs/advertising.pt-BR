@@ -3,7 +3,7 @@ title: Duplicar criações
 description: Saiba como duplicar criativos em uma biblioteca criativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ Duplique criações para adicionar novas criações com as mesmas configuraçõe
 
    Os novos criadores são nomeados como `<original name> (copy) # 1` (ou o próximo número na sequência). Por exemplo, se você fizer duas duplicatas de &quot;Imagem de teste&quot;, elas serão nomeadas como &quot;Imagem de teste (cópia) nº 1&quot; e &quot;Imagem de teste (cópia) nº 2&quot;.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

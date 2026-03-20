@@ -3,7 +3,7 @@ title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -52,7 +52,8 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
       1. Selecione o tamanho do anúncio.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
    * Para visualizar todas as criações na experiência, clique em **[!UICONTROL Entire Tree]**.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

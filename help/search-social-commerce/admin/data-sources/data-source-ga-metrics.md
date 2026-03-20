@@ -4,9 +4,9 @@ description: Referencie as  [!DNL Google Analytics]  métricas disponíveis para
 role: User, Admin
 exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 0%
 
 As seguintes métricas, com exceção das exclusões anotadas, estão disponíveis quando são habilitadas na implementação do cliente em [!DNL Google Analytics].
 
-<!-- Notes as FYI to self:
+<!--
+ Notes as FYI to self:
 >[!NOTE]
 >
 >* For some of these metrics, [!DNL Google] assigns the friendly name, and the name is consistent. For some metrics, the advertiser assigns the friendly name in [!DNL Google Analytics], and the name has a dynamic value.
@@ -25,16 +26,16 @@ As seguintes métricas, com exceção das exclusões anotadas, estão disponíve
 | Categoria | Excluído | Comentários |
 | ---- | ---- | ---- |
 | \[Todos\] | Métricas com um tipo de dados de &quot;PERCENTUAL&quot; | As métricas apresentadas como uma porcentagem são sempre excluídas. |
-| Usuário | ga:1diaUsuários, ga:7diaUsuários, ga:14diaUsuários, ga:28diaUsuários, ga:sessõesPorUsuário | — |
+| Usuário | ga:1dayUsers, ga:7dayUsers, ga:14dayUsers, ga:28dayUsers, ga:sessionsPerUser | — |
 | Session | ga:uniqueDimensionCombinations | — |
 | Conversões de metas | — | — |
-| Rastreamento de página | ga:entradas, ga:horaNaPágina, ga:saídas | — |
+| Rastreamento de página | ga:entrances, ga:timeOnPage, ga:exits | — |
 | Pesquisa interna | — | Os nomes amigáveis de todas as métricas da Pesquisa interna são anexados ao valor &quot;Pesquisa interna: &quot; |
 | Rastreamento de eventos | — | — |
 | Comércio eletrônico | — | — |
 | Interações sociais | — | — |
 | Exceções | — | — |
-| Variáveis ou colunas personalizadas | ga:calcMetric_* | As métricas calculadas são sempre excluídas. |
+| Variáveis ou colunas personalizadas | ga :calcMetric_* | As métricas calculadas são sempre excluídas. |
 
 >[!MORELIKETHIS]
 >

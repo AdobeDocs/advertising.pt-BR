@@ -3,7 +3,7 @@ title: Editar configurações de negócios do [!UICONTROL Simple Ad Serving]
 description: Saiba como editar as configurações de uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Você pode editar algumas configurações para uma oferta de [!UICONTROL Simple 
 >* [[!UICONTROL Simple Ad Serving] configurações](simple-deal-settings.md)
 >* [Exibir um relatório detalhado de um negócio](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

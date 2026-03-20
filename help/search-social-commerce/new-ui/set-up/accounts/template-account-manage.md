@@ -2,7 +2,8 @@
 title: (Nova interface do usuário) Gerenciar  [!DNL Naver] contas somente para rastreamento
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface do usuário para uma conta  [!DNL Naver] .
 feature: Search Campaign Management
-source-git-commit: 0de2a01905727314ca6c0792c5efaf6450548293
+exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -65,7 +66,8 @@ Para alterar o nome da conta, o status da conta ou os conjuntos de relatórios [
 
 1. Clique em **[!UICONTROL Save]**.
 
-<!-- What does this do?
+<!--
+ What does this do?
 
 ## Enable or disable ad network accounts {#enable-disable-account}
 

@@ -3,7 +3,7 @@ title: Criar uma oferta de [!UICONTROL Simple Ad Serving]
 description: Saiba como criar um pixel de rastreamento para uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -65,6 +65,7 @@ ht-degree: 0%
 >* [[!UICONTROL Simple Ad Serving] configurações](simple-deal-settings.md)
 >* [Exibir um relatório detalhado de um negócio](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

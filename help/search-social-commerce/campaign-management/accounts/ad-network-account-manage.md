@@ -251,7 +251,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

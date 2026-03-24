@@ -3,9 +3,9 @@ title: Glossário
 description: Consulte as definições de termos principais.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Variação de anúncio:** qualquer anúncio dentro de um grupo de anúncios ou estratégia de publicidade.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Um código de rastreamento que permite à Adobe Advertising compartilhar dados sobre campanhas com a Adobe Analytics e a Adobe Customer Journey Analytics. Começa com `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Um código de rastreamento que permite à Adobe Advertising compartilhar dados sobre campanhas com a Adobe Analytics e a Adobe Customer Journey Analytics. Começa com `s_kwcid=`.
 
 **unidade de oferta:** um termo de Pesquisa, Social e Commerce para uma unidade na qual são feitas ofertas.
 
@@ -87,6 +87,8 @@ ht-degree: 0%
 ## E-F {#e-f}
 
 **eCPM:** o CPM efetivo ou o custo médio pago por 1000 impressões durante um intervalo de datas especificado. Os valores de eCPM podem ser calculados para campanhas do CPM ou CPC.
+
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Um código de rastreamento que permite que o Adobe Advertising associe atividades a uma exposição online a cliques ou anúncios e compartilhe dados sobre campanhas com o Adobe Analytics e o Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 

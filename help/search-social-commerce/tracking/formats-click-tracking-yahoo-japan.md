@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para  [!DNL Yahoo! Japan Ads]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yahoo! Japan Ads] .
 exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,5 @@ Exemplo:
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

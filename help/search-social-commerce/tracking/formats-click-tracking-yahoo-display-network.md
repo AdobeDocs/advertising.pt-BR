@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para  [!DNL Yahoo! Display Network]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yahoo! Display Network] .
 exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,5 @@ Exemplo:
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

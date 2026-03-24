@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para  [!DNL Baidu]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Baidu] .
 exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ Exemplo:
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

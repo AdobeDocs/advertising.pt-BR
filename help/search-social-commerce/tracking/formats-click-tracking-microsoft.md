@@ -3,9 +3,9 @@ title: Formatos de rastreamento de cliques para  [!DNL Microsoft Advertising]
 description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; somente para palavra-chave).
 
 ### Sitelinks
 
@@ -48,7 +48,7 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; somente para palavra-chave).
 >
 >* `{adextensionid}` não está em uso.
 >
@@ -70,7 +70,7 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; para uma palavra-chave somente).
+>* `{TargetId}` representa a ID de a) a palavra-chave ou b) a palavra-chave e a lista de remarketing (público-alvo) que acionou o anúncio (por exemplo, &quot;kwd-123:aud-456&quot; para uma palavra-chave e uma lista de remarketing ou &quot;kwd-123&quot; somente para palavra-chave).
 >
 >* (Opcional) Em vez de inserir modelos de rastreamento no nível da conta, campanha, grupo de anúncios ou grupo de produtos, você pode adicionar a URL de rastreamento aos dados do produto na conta [!DNL Microsoft Merchant Center]. Para fazer isso, inclua a URL de rastreamento junto com o valor no campo &quot;`link`&quot; ou &quot;`mobile_link`&quot;, conforme apropriado, em uma coluna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; no feed do produto. O valor no campo &quot;`bingads_redirect`&quot; substitui os valores nos campos &quot;`link`&quot; e &quot;`mobile_link`&quot;. Os URLs gerados usando esse método não incluem nenhum parâmetro de rastreamento especificado nas configurações de pesquisa, social e conta da Commerce ou da campanha.
 
@@ -107,4 +107,4 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

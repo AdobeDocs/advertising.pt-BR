@@ -3,7 +3,7 @@ title: Configurações de negócios do [!UICONTROL Simple Ad Serving]
 description: Saiba mais sobre as configurações disponíveis para [!UICONTROL Simple Ad Serving] ofertas.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | O tipo de mídia desta oferta: *[!UICONTROL Video],* *[!UICONTROL Display],* ou *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | O nome do publicador que está vendendo este estoque. Procure um editor inserindo pelo menos os dois primeiros caracteres no nome. Para adicionar um editor que não esteja listado, entre em contato com a equipe de conta da Adobe. |
 | **[!UICONTROL Advertiser]** | Um único anunciante na conta que pode acessar esta oferta. Selecione também a campanha e (opcionalmente) o pacote no qual o contrato está disponível. |
-| **[!UICONTROL Media Quality Assessment?]** | (Alguns usuários) Permite que o anúncio seja executado em outro DSP para verificação de terceiros. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (Alguns usuários) Permite que o anúncio seja executado em outro DSP para verificação de terceiros. |
 | **[!UICONTROL Ad Source]** | A única opção é *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Somente novas ofertas) Se deseja:<ul><li>*[!UICONTROL Create New]:* Para criar um anúncio para esta oferta.</li><li>*[!UICONTROL Select Ads]:* Para usar um anúncio existente para esta oferta.</li></ul> |
 | **[!UICONTROL Ad Type]** | O tipo de anúncio para esta oferta. Se você for criar anúncios para o negócio, inclua o tamanho ou a duração do anúncio, conforme solicitado. As opções disponíveis variam de acordo com o tipo de mídia. |

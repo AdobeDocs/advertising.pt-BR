@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre vídeo universal
 description: Saiba mais sobre anúncios de vídeo universais.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Metas incompatíveis com disposições padrão de TV conectada, como Menor custo
 Use **[!UICONTROL VAST]** em qualquer um dos cenários a seguir:
 
 * O posicionamento é direcionado ao inventário de TV conectado.
-* O posicionamento é direcionado ao inventário de vídeo do Google Ad Manager, Appnexus, SpotX ou Freewheel. Esses SSPs não oferecem suporte ao formato de vídeo VPAID &amp; VAST.
+* O posicionamento é direcionado ao inventário de vídeo do Google Ad Manager, Appnexus, SpotX ou FreeWheel. Esses SSPs não oferecem suporte ao formato de vídeo VPAID &amp; VAST.
 
 ## É possível anexar vários anúncios de vídeo universal à mesma disposição de vídeo universal?
 

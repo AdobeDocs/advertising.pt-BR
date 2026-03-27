@@ -3,7 +3,7 @@ title: Sobre relatórios personalizados
 description: Saiba mais sobre as opções para criar relatórios personalizados manualmente ou usar modelos de relatório pré-configurados.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
      >
      >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertença a vários segmentos, somente um segmento faturável será creditado com a impressão.
 
-   * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
+   * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
 
    * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
 

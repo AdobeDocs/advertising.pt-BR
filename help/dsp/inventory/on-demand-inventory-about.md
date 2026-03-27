@@ -3,7 +3,7 @@ title: Cerca de [!DNL On Demand] estoque premium
 description: Saiba mais sobre as negociações que a DSP pré-negociou com parceiros de editores premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]; e revendedores*
 
-A Galeria [!DNL On Demand] é uma ferramenta de descoberta de inventário premium para explorar negócios pré-negociados que a DSP preparou com parceiros de publicação premium. Ele permite acessar o estoque não garantido dos editores de nível superior na região sem a necessidade de 1:1 negociações ou contratos. Você pode solicitar ofertas individuais e assinar um editor para solicitar todas as ofertas do editor de uma só vez.
+A galeria [!DNL On Demand] é uma ferramenta de descoberta de inventário premium para explorar negócios pré-negociados que a DSP preparou com parceiros de publicação premium. Ele permite acessar o estoque não garantido dos editores de nível superior na região sem a necessidade de 1:1 negociações ou contratos. Você pode solicitar ofertas individuais e assinar um editor para solicitar todas as ofertas do editor de uma só vez.
 
 O DSP premium marketplace permite:
 

@@ -3,7 +3,7 @@ title: Configurações de anúncio de vídeo universal
 description: Consulte descrições das configurações de anúncios disponíveis para anúncios de vídeo universais.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** O formato do player de anúncio para inventário potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* ou *[!UICONTROL VAST]*. A visibilidade sempre é medida para [!UICONTROL VPAID], mas [!UICONTROL VPAID & VAST] inclui inventário que não permite a medição de visibilidade. Considere essa distinção se as métricas de visibilidade forem importantes para a campanha.
 
-Use o [!UICONTROL VAST], que não permite a medição da visibilidade, quando você direciona uma TV conectada ou um inventário que exige estritamente apenas o formato VAST (geralmente de fontes de fornecimento como o Google Ad Manager, Appnexus, SpotX e Freewheel). Use essa opção também para inventário anteriormente compatível com inserções/anúncios VAST (Standard Pre-roll) ou VAST (Phone + Tablet Standard Pre-roll).
+Use o [!UICONTROL VAST], que não permite a medição da visibilidade, quando você direciona uma TV conectada ou um inventário que exige estritamente apenas o formato VAST (geralmente de fontes de fornecimento como Google Ad Manager, Appnexus, SpotX e FreeWheel). Use essa opção também para inventário anteriormente compatível com inserções/anúncios VAST (Standard Pre-roll) ou VAST (Phone + Tablet Standard Pre-roll).
 
 **[!UICONTROL Clock Number]**: (usado somente no Reino Unido; disponível somente para usuários com permissão) um identificador exclusivo usado para garantir que o anúncio correto seja transmitido. Se esta configuração não for aplicável, deixe-a em branco.
 

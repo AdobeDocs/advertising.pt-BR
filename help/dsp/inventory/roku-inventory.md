@@ -3,9 +3,9 @@ title: 'Usando o inventário  [!DNL Roku] '
 description: Saiba mais sobre a parceria da DSP com o  [!DNL Roku], incluindo opções de inventário, fornecedores de rastreamento de terceiros aprovados e práticas recomendadas para posicionamentos específicos do  [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ A parceria do [!DNL Roku] e da DSP corresponde seus públicos do [!DNL DSP] a [!
 
 ## [!DNL Roku] opções de inventário
 
-Você pode a) configurar IDs de negócios privadas diretamente com [!DNL Roku] e inserir os dados da ID de negócios na DSP ou b) visitar a Galeria [!DNL On Demand] para assinar [!DNL Roku] perfis:
+Você pode:
+
+* Configure IDs de negócios privadas diretamente com [!DNL Roku] e insira os dados da ID de negócios no DSP.
+
+* Visite a galeria [!DNL On Demand] para assinar [!DNL Roku] perfis:
 
 >[!NOTE]
 >
@@ -28,9 +32,10 @@ Você pode a) configurar IDs de negócios privadas diretamente com [!DNL Roku] e
 
 * Para suas ofertas privadas, [configure informações sobre as IDs de negócios no DSP](/help/dsp/inventory/deal-id-create.md) e direcione &quot;[!UICONTROL Roku Network - Audience]&quot; e &quot;[!UICONTROL The Roku Channel - Audience]&quot; em [!DNL Roku] posicionamentos.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* Você pode [assinar o seguinte [!DNL Roku] inventário na [!DNL On Demand] Galeria](/help/dsp/inventory/on-demand-inventory-subscribe.md) e depois direcionar qualquer oferta aprovada em [!DNL Roku] posicionamentos:
+* Você pode [assinar o seguinte [!DNL Roku] inventário na [!DNL On Demand] galeria](/help/dsp/inventory/on-demand-inventory-subscribe.md) e depois direcionar qualquer uma das ofertas aprovadas em [!DNL Roku] posicionamentos:
 
    * &quot;[!UICONTROL Roku Network - Audience]&quot; para inventário no ecossistema [!DNL Roku] com parceiros de conteúdo premium, como [!DNL The CW], [!DNL ABC] e [!DNL ESPN].
+
    * &quot;[!UICONTROL The Roku Channel - Audience]&quot; para [!DNL Roku] conteúdo de aplicativo (O&amp;O) próprio e operado.
 
 ### Vantagens de personalizar mercados privados com o [!DNL Roku]
@@ -45,13 +50,13 @@ As ofertas privadas permitem personalizar os parâmetros da negociação de acor
 
 * **[!DNL Roku]Direcionamento de Dados:** [!DNL Roku] públicos-alvo são criados a partir de [!DNL Roku] sinais de dispositivo e de TV, dados rastreados por [!DNL The Roku Channel] (como afinidade de gênero de TV, comportamento de transmissão de TV e status de assinatura de cabo) e dados adicionais do [!DNL Roku] sistema de CRM (relacionamento com o cliente).
 
-* incluir na lista de bloqueios **[!DNL Roku]Direcionamento de conteúdo:** As ofertas privadas podem direcionar aplicativos por gênero, aplicação da pesquisa de aplicativo, eventos sazonais e de tipoes e apresentações somente no [!DNL The Roku Channel].
+* **[!DNL Roku]Direcionamento de conteúdo:** As ofertas privadas podem direcionar aplicativos por gênero, aplicação da pesquisa de aplicativo, eventos sazonais e de tipoes e apresentações somente no [!DNL The Roku Channel].
 
 ## [!DNL Roku] posicionamentos
 
 Em campanhas do DSP, [crie [!DNL Roku] disposições específicas](/help/dsp/campaign-management/placements/placement-create.md) usando o tipo de disposição &quot;[!UICONTROL Connected TV (Roku)].&quot; Incluir [!DNL Roku] posicionamentos em [!DNL Roku] pacotes específicos com metas definidas.
 
-Cada posicionamento de [!DNL Roku] deve ter como alvo pelo menos um negócio ou origem de [!DNL Roku]. Para usar a correspondência de público-alvo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceito).
+Cada posicionamento de [!DNL Roku] deve ter como alvo pelo menos um negócio ou origem de [!DNL Roku]. Para usar a correspondência de público-alvo do DSP com [!DNL Roku], inclua um ou mais segmentos de público-alvo que podem ser comparados com o conjunto de dados determinísticos [!DNL Roku] (aceitação).
 
 ### [!DNL Roku] fornecedores de rastreamento de terceiros aprovados
 

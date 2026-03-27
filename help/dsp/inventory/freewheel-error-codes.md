@@ -3,16 +3,16 @@ title: Códigos de erro para  [!DNL FreeWheel] envios de anúncios
 description: Referencie os códigos de erro retornados para envio de anúncios a  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
 # Códigos de erro para [!DNL FreeWheel] envios de anúncios
 
-As mensagens de erro para envio de anúncios com falha podem vir do Advertising DSP ou do [!DNL FreeWheel]. Mensagens de erro são mostradas na coluna [!UICONTROL API Response] na caixa de diálogo [[!UICONTROL Freewheel Status]](freewheel-check-status.md).
+As mensagens de erro para envio de anúncios com falha podem vir do Advertising DSP ou do [!DNL FreeWheel]. Localizar mensagens de erro na coluna [!UICONTROL API Response] na caixa de diálogo [[!UICONTROL FreeWheel Status]](freewheel-check-status.md).
 
 ## Erros internos do Advertising DSP
 
@@ -29,7 +29,7 @@ As mensagens de erro para envio de anúncios com falha podem vir do Advertising 
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] erros de API
+## [!DNL FreeWheel] erros de API
 
 | Código | Significado | Descrição | Próximas etapas |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ As mensagens de erro para envio de anúncios com falha podem vir do Advertising 
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] Erros de API 422 {#freewheel-422-errors}
+## [!DNL FreeWheel] Erros de API 422 {#freewheel-422-errors}
 
 | Código | Código HTTP | Descrição |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ As mensagens de erro para envio de anúncios com falha podem vir do Advertising 
 
 >[!MORELIKETHIS]
 >
->* [Visão geral da configuração de ofertas programáticas garantidas no [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Visão geral da configuração de ofertas programáticas garantidas no [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [Aceitar um contrato no [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
->* [Enviar um anúncio para uma oferta programática garantida para [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Enviar um anúncio para uma oferta programática garantida para [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [Verificar o status dos anúncios de um [!DNL FreeWheel] PG_deal](/help/dsp/inventory/freewheel-check-status.md)

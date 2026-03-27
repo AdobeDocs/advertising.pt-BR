@@ -3,9 +3,9 @@ title: Criar uma oferta de [!UICONTROL Simple Ad Serving]
 description: Saiba como criar um pixel de rastreamento para uma oferta do [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * Para colar as informações em uma mensagem de email em um aplicativo de email no seu dispositivo, clique em **[!UICONTROL Email & Done]** e selecione o aplicativo de email. O campo [!UICONTROL CC:] é pré-preenchido com um endereço de suporte [!DNL Adobe]. Em seguida, você pode enviar a mensagem para o contato apropriado do editor.
 
-         * Para copiar as informações para a área de transferência, clique em **[!UICONTROL Copy Email].** Em seguida, você pode colar manualmente o conteúdo em uma mensagem de email e enviá-lo ao contato apropriado do editor. Você deve incluir uma cópia (CC:) para `publisher-support-global@adobe.com`. Quando terminar de copiar a mensagem, clique em **[!UICONTROL Email & Done]**.
+         * Para copiar as informações para a área de transferência, clique em **[!UICONTROL Copy Email].** Em seguida, você pode colar manualmente o conteúdo em uma mensagem de email e enviá-lo ao contato apropriado do editor. Incluir uma cópia (CC:) em `publisher-support-global@adobe.com`. Quando terminar de copiar a mensagem, clique em **[!UICONTROL Email & Done]**.
 
       1. (Se necessário) Acompanhe o editor para ver se a tag inclui as macros apropriadas para que a tag funcione com o servidor de anúncios do editor.
 

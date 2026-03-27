@@ -3,9 +3,9 @@ title: Sobre o estoque privado
 description: Sobre o estoque privado
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Os anunciantes que procuram além do RTB podem usar o inventário privado para f
 ## IDs de oferta
 
 
-Se você tiver relações diretas com editores, poderá simplificar seu processo de compra de mídia e fluxo de trabalho usando suas próprias ofertas privadas, com inventário e preços negociados, em seus posicionamentos do Advertising DSP. O DSP integra-se a todos os editores ao configurar uma conta. Se desejar obter acesso a editores adicionais posteriormente, entre em contato com a equipe de conta da Adobe para configurar o acesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Se você tiver relações diretas com editores, poderá simplificar seu processo de compra de mídia e fluxo de trabalho usando suas próprias ofertas privadas, que apresentam inventário e preços negociados, em seus posicionamentos do Advertising DSP. O DSP integra-se a todos os editores ao configurar uma conta. Se desejar obter acesso a editores adicionais posteriormente, entre em contato com a equipe de conta da Adobe para configurar o acesso.
 
 Todas as suas ofertas privadas com uma ID de negócios são financiadas e faturadas por [!DNL Adobe].
 
@@ -35,11 +35,11 @@ Você pode usar cada negociação privada como um direcionamento de posicionamen
 
 ## A visualização [!UICONTROL Deals]
 
-Na exibição [!UICONTROL Inventory] > [!UICONTROL Deals], você pode criar configurações de negociação privada. Você também pode editar algumas configurações de negócios, listar os posicionamentos e anúncios, e anexar posicionamentos e anúncios adicionais, a um negócio privado, editar os anunciantes e as contas que podem acessar um negócio privado, exibir um relatório de desempenho de um negócio, exibir insights de leilão para um negócio privado ou arquivar ou desarquivar um negócio.<!-- ; or edit the attribute tags for a deal -->
+Na exibição [!UICONTROL Inventory] > [!UICONTROL Deals], você pode criar configurações de negociação privada. Você também pode editar algumas configurações de negócios, listar os posicionamentos e anúncios, e anexar posicionamentos e anúncios adicionais, a uma negociação privada; editar os anunciantes e as contas que podem acessar uma negociação privada; exibir um relatório de desempenho de uma negociação; exibir insights de leilão para uma negociação privada; ou arquivar ou desarquivar uma negociação.<!-- ; or edit the attribute tags for a deal -->
 
 A coluna &quot;Integridade da transação&quot; indica o status de integridade de cada transação privada: &quot;Sucesso&quot;, &quot;Aviso&quot;, &quot;Crítico&quot; ou &quot;Indisponível&quot;. Você pode clicar no status para ver mais detalhes, incluindo por que uma transação não está funcionando ou gastando conforme o esperado e as etapas para solucionar possíveis problemas.
 
-Você pode personalizar como os dados de negócios existentes são apresentados aplicando filtros, personalizando as colunas visíveis e, opcionalmente, salvando exibições personalizadas, classificando as colunas e exibindo os dados como gráficos.
+Você pode personalizar os dados de negócios visíveis aplicando filtros, personalizando as colunas visíveis e, opcionalmente, salvando exibições personalizadas, classificando as colunas e exibindo os dados como gráficos.
 
 ## A visualização [!UICONTROL Deal Lists]
 

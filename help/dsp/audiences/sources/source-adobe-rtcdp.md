@@ -32,11 +32,11 @@ Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experiencel
 
    Os endereços de email devem ser transformados em hash usando o algoritmo SHA -256.
 
-   Para obter instruções sobre como ativar a conexão de destino do DSP, ativar públicos-alvo e validar a exportação de dados, consulte &quot;[conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   Para obter instruções sobre como ativar a conexão de destino do DSP, ativar públicos-alvo e validar a exportação de dados, consulte &quot;[conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR).&quot;
 
    >[!NOTE]
    >
-   >A conexão herdada, que inclui suporte somente para endereços de email com hash, agora é chamada de &quot;[Conexão herdada do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se você já usa a conexão herdada, não é necessário fazer alterações imediatamente. No entanto, a conexão herdada acabará sendo removida.
+   >A conexão herdada, que inclui suporte somente para endereços de email com hash, agora é chamada de &quot;[Conexão herdada do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se você já usa a conexão herdada, não é necessário fazer alterações imediatamente. No entanto, a conexão herdada acabará sendo removida.
 
 1. Verifique na biblioteca de público-alvo (que está disponível quando você cria ou edita um público-alvo a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está sendo preenchido e compare o número de IDs universais com o número de IDs de usuários originais.
 
@@ -54,7 +54,7 @@ Para solucionar problemas com o procedimento de conversão, entre em contato com
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

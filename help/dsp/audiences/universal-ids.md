@@ -3,9 +3,9 @@ title: Suporte para ativação de IDs universais
 description: Saiba mais sobre o suporte para importar segmentos de ID universal, criar segmentos personalizados para rastrear IDs universais e converter outros identificadores de usuário em seus segmentos primários para IDs universais para direcionamento sem cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O DSP oferece suporte a IDs universais com base em pessoas para direcionamento e
 
 * Você pode enviar manualmente seu [[!DNL LiveRamp] [!DNL RampIDs]] autenticado diretamente para a DSP usando o painel [!DNL LiveRamp] [!DNL Connect]. Consulte &quot;[Importar segmentos autenticados manualmente do [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* O DSP pode assimilar seus segmentos primários compostos de IDs de email com hash criadas na CDP (Plataforma de Dados do Cliente) e convertê-los em [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] IDs. Para obter mais informações sobre as plataformas de dados do cliente com suporte, os recursos disponíveis para cada tipo de ID universal com suporte e os fluxos de trabalho relacionados, consulte &quot;[Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md).&quot;
+* A DSP pode assimilar seus segmentos primários criados em sua CDP (Plataforma de Dados do Cliente) e convertê-los em [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] IDs. Para obter mais informações sobre as plataformas de dados do cliente e os tipos de identificadores de usuário compatíveis, os recursos disponíveis para cada tipo de ID universal compatível e os fluxos de trabalho relacionados, consulte &quot;[Sobre Fontes de Público-Alvo Primárias](/help/dsp/audiences/sources/source-about.md).&quot;
 
 * Você pode criar segmentos personalizados que rastreiam usuários associados a IDs universais de ID5 que estão expostos a anúncios de dispositivos móveis e desktop e que visitam páginas da Web específicas. A ID5 usa um modelo probabilístico para atribuir uma ID derivada de vários sinais do usuário e do navegador. Para obter instruções, consulte &quot;[Criar e implementar um segmento personalizado](/help/dsp/audiences/custom-segment-create.md).&quot;
 
@@ -97,6 +97,8 @@ Use as seguintes práticas recomendadas para segmentos baseados em [!DNL RampID]
 * Lembre-se de que o alcance para segmentos de público-alvo autenticados é naturalmente menor do que o alcance para segmentos baseados em cookies, e que o uso de opções adicionais de direcionamento diminui ainda mais o alcance. Seja criterioso em usar o direcionamento granular, especialmente ao unir vários targets com instruções AND.
 
 ## Variações de dados entre IDs de email e IDs universais {#universal-ids-data-variances}
+
+Esta seção se aplica somente às IDs de email traduzidas para IDs universais.
 
 ### Níveis aceitáveis de variação
 

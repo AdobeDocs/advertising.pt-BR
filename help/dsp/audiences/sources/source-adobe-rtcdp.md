@@ -3,9 +3,9 @@ title: Usando a integração do DSP com o  [!DNL Adobe] [!DNL Real-time CDP]
 description: Saiba como habilitar o DSP para assimilar seus  [!DNL Adobe] [!DNL Real-time CDP] segmentos primários.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte da Adobe Experience Platform, para converter seus endereços de email com hash em IDs universais para publicidade direcionada.
+Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte da Adobe Experience Platform, para converter suas IDs de usuário (incluindo endereços de email com hash, cookies e IDs de anúncios móveis) em IDs universais para publicidade direcionada.
 
-1. (Para converter endereços de email para [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurar rastreamento para medição de [!DNL Analytics]:
+1. (Para converter IDs de usuário em [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurar rastreamento para medição de [!DNL Analytics]:
 
    1. (Se ainda não tiver feito isso) Conclua todos os [pré-requisitos para implementar o [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e a [ID do AMO e a ID do EF nas URLs de rastreamento](/help/integrations/analytics/ids.md).
 
@@ -30,11 +30,15 @@ Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experiencel
 
 1. No Adobe Experience Platform, configure uma conexão de destino do Advertising DSP usando o [!UICONTROL Source Key] que foi gerado nas configurações de origem do DSP.
 
-   Para obter instruções sobre como ativar a conexão de destino do DSP, selecionar segmentos e acessar permissões de controle, consulte &quot;[Conexão do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR).&quot;
+   Os endereços de email devem ser transformados em hash usando o algoritmo SHA -256.
 
-   Os endereços de email de origem devem ser transformados em hash usando o algoritmo SHA -256.
+   Para obter instruções sobre como ativar a conexão de destino do DSP, ativar públicos-alvo e validar a exportação de dados, consulte &quot;[conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
-1. Verifique na biblioteca de público-alvo (que está disponível quando você cria ou edita um público a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está preenchendo e compare o número de IDs universais com o número de endereços de email com hash originais.
+   >[!NOTE]
+   >
+   >A conexão herdada, que inclui suporte somente para endereços de email com hash, agora é chamada de &quot;[Conexão herdada do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se você já usa a conexão herdada, não é necessário fazer alterações imediatamente. No entanto, a conexão herdada acabará sendo removida.
+
+1. Verifique na biblioteca de público-alvo (que está disponível quando você cria ou edita um público-alvo a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está sendo preenchido e compare o número de IDs universais com o número de IDs de usuários originais.
 
    Os segmentos devem estar disponíveis no DSP em 24 horas. Depois que a DSP receber os dados do segmento, o contagem de público-alvo deverá ficar visível dentro de nove (9) horas. Para obter informações sobre taxas de conversão de ID aceitáveis e por que a contagem de segmentos pode variar, consulte &quot;[Variações de dados entre IDs de email e IDs universais](#universal-ids-data-variances)&quot;.
 
@@ -50,7 +54,7 @@ Para solucionar problemas com o procedimento de conversão, entre em contato com
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

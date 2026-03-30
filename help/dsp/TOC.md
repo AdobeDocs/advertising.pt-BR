@@ -4,7 +4,7 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
    + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
    + [Soluções avançadas de medição](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Procure a documentação do produto usando o bate-papo assistido por IA](/help/dsp/agent-chat.md)
++ {hide-from-toc}[Procure a documentação do produto usando o chat assistido por IA](/help/dsp/agent-chat.md)
 + Gerenciamento de campanhas {#campaign-management}
    + [Visão geral do gerenciamento de campanhas no Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campanhas {#campaigns}
@@ -117,7 +117,7 @@ ht-degree: 4%
    + [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
    + Públicos-alvo reutilizáveis {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
-      + [Criar um público-alvo reutilizável usando IA gerativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + {hide-from-toc}[Criar um público-alvo reutilizável usando IA gerativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicação de um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
       + [Exibir detalhes sobre um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-view-details.md)

@@ -3,9 +3,9 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como configurar a otimização e o agendamento de anúncios para experiências sem direcionamento.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**.&lt;!—
-O Gerenciador de tags tem apenas uma visualização de lista, mas nenhuma visualização de cartão, a partir de 2/2. >
+1. Mantenha o cursor sobre a linha da tag de publicidade aplicável e clique em ![Editar otimização criativa](/help/creative/assets/edit-gray.png "Editar otimização criativa") **[!UICONTROL Creative Optimization]**.
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. Desabilitar **[!UICONTROL Schedule]**.
 

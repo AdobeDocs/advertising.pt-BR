@@ -3,9 +3,12 @@ title: Dados de bulksheet necessários para  [!DNL Yandex] contas
 description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Yandex] .
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/yargzmjV5ZvOef--zrF6oSNq-gVcu1z3UXSovFDcMwo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: 1940
 ht-degree: 0%
 
 ---
@@ -52,7 +55,7 @@ Para criar e atualizar dados de campanha do [!DNL Yandex] em massa, você pode u
 | [!UICONTROL Ad Group Status] | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | n/d | n/d | O status de exibição do grupo de anúncios: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (pausado). O padrão para novos grupos de anúncios é <i>[!UICONTROL active]</i>.<br><br><b>Notas:</b><ul></li>Se um grupo de publicidade já esteve ativo, não é possível excluí-lo. Em vez disso, arquive-o.</li><li>Você não pode definir manualmente o status para <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status.</li></ul> |
 | [!UICONTROL Ad Status] | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | O status de exibição do banner (anúncio): <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> ou <i>[!UICONTROL stop]</i> (pausado). O padrão para novos banners é <i>[!UICONTROL active]</i>.<br><br><b>Observação: você não pode definir manualmente o status como <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status. |
 | [!UICONTROL Keyword Status] | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | n/d | n/d | O status de exibição da frase (palavra-chave): <i>[!UICONTROL active]</i>. O padrão para novas frases é <i>[!UICONTROL active]</i>.<br><br><b>Observação: você não pode definir manualmente o status como <i>[!UICONTROL disapproved]</i> ou <i>[!UICONTROL pending]</i>, nem alterar esses status. |
-| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | Status de exibição do sitelink: <i>[!UICONTROL * Ativo]</i> ou <i>[!UICONTROL * Pausado]</i>. O padrão para novos sitelinks é <i>[!UICONTROL * Ativo]</i>. |
+| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Opcional: Criar ou editar<br>Obrigatório: Excluir | Status de exibição do sitelink: <i>[*UICONTROL Ativo]</i> ou <i>[*UICONTROL Pausado]</i>. O padrão para novos sitelinks é <i>[*UICONTROL Ativo]</i>. |
 | [!UICONTROL Campaign ID] | n/a: Criar<br>Obrigatório/Opcional: Editar<br>Opcional: Excluir | Opcional | Opcional | Opcional | Opcional | A ID exclusiva que identifica uma campanha existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente quando você altera o nome da campanha, a menos que a linha inclua uma ID do AMO para a campanha. |
 | [!UICONTROL Ad Group ID] | n/d | n/a: Criar<br>Obrigatório/Opcional: Editar<br>Opcional: Excluir | Opcional | Opcional | n/d | O identificador exclusivo que identifica um grupo de anúncios existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente quando você altera o nome do grupo de anúncios, a menos que a linha inclua uma ID AMO para o grupo de anúncios. |
 | [!UICONTROL Ad ID] | n/d | n/d | n/d | n/a: Criar<br>Obrigatório/Opcional: Editar ou excluir | n/d | A ID exclusiva que identifica uma palavra-chave existente. Em arquivos CSV e TSV, ele deve ser precedido por uma aspa simples (&#39;).[^1] Necessário somente ao alterar o nome da palavra-chave, a menos que a linha inclua a) colunas de propriedade suficientes para identificar a palavra-chave ou b) uma ID AMO. |

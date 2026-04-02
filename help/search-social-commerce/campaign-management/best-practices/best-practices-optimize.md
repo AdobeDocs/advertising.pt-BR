@@ -3,9 +3,13 @@ title: Otimizar as páginas de aterrissagem do site
 description: Saiba mais sobre as práticas recomendadas para otimizar as landing pages do seu site.
 exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/W-jWR37BWiSfwdR-CozewBAEbaIOGIRd-S4CLsPATVI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 724
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ Para melhorar a experiência do usuário e as taxas de conversão, é importante
 
 >[!TIP]
 >
->Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar portfólios > Práticas recomendadas para portfólios, que está disponível na Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Criar páginas de aterrissagem eficazes
 

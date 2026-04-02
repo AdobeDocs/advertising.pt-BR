@@ -3,16 +3,20 @@ title: Sobre contas de rede de publicidade
 description: Saiba mais sobre contas de rede de anúncios em Pesquisa, Social e Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
 # Sobre contas de rede de publicidade
 
-*Somente funções de gerente de conta de agência, gerente de conta de Adobe e administrador de usuário*
+*Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
 Search, Social e Commerce podem rastrear qualquer conta de um anunciante em redes de anúncios compatíveis. Para habilitar o rastreamento de uma conta, você deve criar um registro de conta correspondente. Você deve configurar os detalhes de qualquer tipo de conta, seja Pesquisa, Social e Commerce sincronizados ou otimizados lances e orçamentos em seus anúncios.
 
@@ -26,7 +30,7 @@ Para habilitar a sincronização de uma conta, o registro da conta deve conter a
 
 Durante a sincronização, a Pesquisa, o Social e o Commerce extrai as estruturas de campanha do anunciante e as entidades de campanha compatíveis, incluindo a maioria de seus atributos gerenciados ou relatados na Pesquisa, no Social e no Commerce. Ela não inclui dados de cliques, nem lances e modificadores de lances inseridos fora da Pesquisa, Social e Commerce, que são coletados separadamente. O Search, Social e Commerce sincroniza automaticamente com suas contas de rede de anúncios uma vez por dia e sempre que detecta uma nova campanha em uma de suas redes de anúncios. Além disso, envia imediatamente todas as alterações nos dados da campanha feitas no Search, Social e Commerce para a rede de anúncios. Opcionalmente, você pode solicitar uma sincronização manual quando necessário.
 
-Para obter mais informações sobre como criar e editar campanhas sincronizadas, consulte o capítulo sobre &quot;Campaign Management&quot;.
+Para obter mais informações sobre como criar e editar campanhas sincronizadas, consulte o capítulo sobre &quot;Gerenciamento de campanhas&quot;.
 
 ## Contas somente de rastreamento
 

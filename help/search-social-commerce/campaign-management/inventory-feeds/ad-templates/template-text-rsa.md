@@ -3,9 +3,13 @@ title: Anúncio de texto e configurações responsivas de modelo de anúncio de 
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: 3360
 ht-degree: 0%
 
 ---
@@ -181,7 +185,7 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
    * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
 
-   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [[!DNL Yandex] específica de &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
+   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [[!DNL Yandex] específica de ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
 
 >[!NOTE]
 >
@@ -241,7 +245,7 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
 **[!UICONTROL Param 3]:** (somente modelos [!DNL Microsoft Advertising]) A cadeia de caracteres a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a cadeia de caracteres de substituição dinâmica `{Param3}`. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 

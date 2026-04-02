@@ -3,9 +3,13 @@ title: Sobre extensões do sitelink
 description: Saiba mais sobre extensões do sitelink.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ Na exibição [!UICONTROL Extensions] > [!UICONTROL Associations], é possível 
 
 ## Dados de desempenho para sitelinks
 
-Search, Social e Commerce mapeia os cliques em uma extensão de anúncio e a conversão resultante para a palavra-chave associada ao anúncio no qual a extensão está incluída. Dados de custo ou clique inexistentes no nível da extensão estão disponíveis em Search, Social e Commerce. No entanto, em [the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), você pode saber se uma transação resultou de um sitelink (em vez do próprio anúncio) quando o valor na coluna Tipo de Link é listado como `sl:<Sitelink text>`, como sl:See Current Offers.
+Search, Social e Commerce mapeia os cliques em uma extensão de anúncio e a conversão resultante para a palavra-chave associada ao anúncio no qual a extensão está incluída. Dados de custo ou clique inexistentes no nível da extensão estão disponíveis em Search, Social e Commerce. No entanto, em [the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), você pode saber se uma transação resultou de um sitelink (em vez do próprio anúncio) quando o valor na coluna Tipo de link está listado como `sl:<Sitelink text>`, como sl:See Ofertas atuais.
 
 Em [!DNL Google Ads] e [!DNL Microsoft Advertising], você pode ver os dados de custo e clique na guia [!DNL Ad Extensions].
 

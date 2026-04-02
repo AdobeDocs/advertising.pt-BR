@@ -3,9 +3,13 @@ title: Editar configurações do feed de relatório de planilha
 description: Saiba como editar as configurações para feeds de planilha.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xsq7qkYTc5p7Q4Q-LKHeCX7-W8DRW80ET6ylOWocYG0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -46,7 +50,7 @@ Você pode alterar qual modelo de relatório, modelo de [!DNL Microsoft Excel] e
      >
      > Se o modelo de relatório associado ao feed for excluído posteriormente, o feed também será excluído.
 
-     Os feeds de planilha são atualizados automaticamente às 08:00 cada dia no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
+     Os feeds de planilha são atualizados automaticamente às 08:00, todos os dias, no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
 
 >[!MORELIKETHIS]
 >

@@ -3,10 +3,13 @@ title: Erros de bulksheet
 description: Faça referência aos possíveis motivos para cada erro de bulksheet.
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 0%
+source-wordcount: 1137
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ Os seguintes erros podem ser incluídos na coluna [!UICONTROL EF Error] em [!UIC
 
 | Categoria | Mensagem | Descrição |
 |----|----|----|
-| Geral | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | A operação falhou completamente devido a um erro sem categoria ou sem tratamento. Se o problema persistir, entre em contato com a equipe da conta do Adobe para investigar a causa. |
+| Geral | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | A operação falhou completamente devido a um erro sem categoria ou sem tratamento. Se o problema persistir, entre em contato com a equipe de conta da Adobe para investigar a causa. |
 | | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | O Search, Social e Commerce não pôde sincronizar com a rede de anúncios antes de criar o bulksheet, portanto, nenhum bulksheet foi criado. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 
 ### Erros de upload
@@ -45,8 +48,8 @@ Os seguintes erros podem ser incluídos na coluna [!UICONTROL EF Error] em [!UIC
 | Geral | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | A operação falhou completamente. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 | Todas as entidades | [!UICONTROL Invalid Fields.] \[campos inválidos e erro\] | Os dados especificados estão ausentes ou são inválidos. |
 |  | [!UICONTROL Invalid Reference Given] | A ID da entidade na rede de publicidade ou a ID de uma entidade principal (como a ID da conta) não corresponde a uma entidade no Search, Social e Commerce. Isso pode ocorrer ao editar a ID na bulksheet. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | A entidade expirou ou foi excluída, e você não pode alterar suas propriedades. A entidade pode ser excluída quando alguém editou manualmente o status. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Novas entidades) Uma nova entidade só pode ser &quot;Ativa&quot; ou &quot;Pausada&quot;. |
+|  | [!UICONTROL <Entity> is deleted or expired] | A entidade expirou ou foi excluída, e você não pode alterar suas propriedades. A entidade pode ser excluída quando alguém editou manualmente o status. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Novas entidades) Uma nova entidade só pode ser &quot;Ativa&quot; ou &quot;Pausada&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Várias linhas são incluídas para a mesma entidade, com atributos diferentes em cada linha. Consolidar as alterações em uma linha. |
 |  | [!UICONTROL Invalid AMO ID given] | A ID do AMO da linha não existe. Isso pode ocorrer se você editou a ID na bulksheet. |
 |  | [!UICONTROL Invalid row given] | A linha não inclui informações suficientes para determinar o tipo de entidade. Edite a linha para incluir todos os campos obrigatórios para o tipo de entidade. |
@@ -62,7 +65,7 @@ Os seguintes erros podem ser incluídos na coluna [!UICONTROL EF Error] em [!UIC
 | Todos os componentes do grupo de anúncios | [!UICONTROL Adgroup creation failed] | O grupo pai de anúncios não foi criado, portanto, essa entidade não pôde ser criada. Isso pode ocorrer devido a um erro nos campos do grupo de publicidade ou porque a campanha principal falhou. Verifique se todas as entidades principais contêm todos os campos obrigatórios. |
 |  | [!UICONTROL Adgroup Row Missing] | O grupo de anúncios pai especificado não existe, portanto, a entidade não pôde ser criada. Crie o grupo pai de anúncios em uma nova linha. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | O campo &quot;[!UICONTROL Tracking Template]&quot; é somente para contas que usam URLs finais/avançadas. Remova o valor até ter migrado a conta para usar URLs finais/avançados. |
-| Anúncio | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Tipos de anúncio diferentes de texto, texto expandido, produto, instalação de aplicativo e pesquisa dinâmica) Você pode editar somente o status e o URL desse tipo de anúncio. |
+| Anúncio | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Tipos de anúncio diferentes de texto, texto expandido, produto, instalação de aplicativo e pesquisa dinâmica) Você pode editar somente o status e o URL desse tipo de anúncio. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Cada grupo de anúncios pode incluir até 50 anúncios, e essa planilha abrangente inclui mais de 50. Reduza o número de anúncios. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | O anúncio está em uma entidade pai expirada ou excluída, portanto, não é possível editá-lo. |
 | Palavra-chave | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | A campanha ou o grupo de publicidade principal foi excluído ou expirou, portanto, você não pode alterar a entidade. |
@@ -85,7 +88,7 @@ Os seguintes erros ocorrem somente em [!UICONTROL EF Errors] arquivos. A maioria
 |----|----|----|
 | Geral | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | A operação falhou completamente. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 | Todas as entidades | [!UICONTROL Entity] foi postado na rede de publicidade | A entidade foi postada na rede de publicidade, mas não foi sincronizada com o Search, Social e Commerce ao mesmo tempo, portanto, os dados da entidade não estão imediatamente disponíveis no Search, Social e Commerce. O processo de sincronização é acionado automaticamente agora.<br><br>Quando grandes quantidades de dados são sincronizadas, eles podem não estar disponíveis em Search, Social e Commerce por várias horas ou mais. |
-| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Não foi possível criar a entidade pai, portanto, essa entidade filho não foi criada. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Não foi possível criar a entidade pai, portanto, essa entidade filho não foi criada. |
 
 >[!MORELIKETHIS]
 >

@@ -3,16 +3,20 @@ title: Rastreamento de conversão usando um feed de ID de transação
 description: Saiba mais sobre como usar um feed de ID de transação para dados de rastreamento de conversão.
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # Rastreamento de conversão usando um feed de ID de transação
 
-Quando um anunciante tem transações online e offline, o Adobe Advertising pode rastrear as transações online por meio do pixel de rastreamento de conversão de Adobe Advertising, e o anunciante pode rastrear as transações offline usando uma ID de transação e entregá-las por meio de um feed:
+Quando um anunciante tem transações online e offline, o Adobe Advertising pode rastrear as transações online por meio do pixel de rastreamento de conversão do Adobe Advertising, e o anunciante pode rastrear as transações offline usando uma ID de transação e entregá-las por meio de um feed:
 
 * Para as transações online, o Adobe Advertising rastreia os cliques nos anúncios e as transações resultantes no site.
 
@@ -24,13 +28,13 @@ Quando um anunciante tem transações online e offline, o Adobe Advertising pode
 
 1. Use as opções de rastreamento de conta ou campanha &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot; para gerar automaticamente uma URL de destino ou uma URL final para cada palavra-chave (para rastreamento em nível de palavra-chave) ou anúncio (para rastreamento em nível de anúncio) na conta ou campanha.
 
-1. Configurar o rastreamento de conversão de Adobe Advertising para as conversões online. Esse processo é o mesmo para anunciantes com rastreamento de conversão baseado em pixel de Adobe Advertising. É importante gerar marcas de conversão que incluam um parâmetro para uma ID de transação exclusiva (`ev_transid=<transid>`).
+1. Configure o rastreamento de conversão do Adobe Advertising para as conversões online. Esse processo é igual ao dos anunciantes com rastreamento de conversão baseado em pixel do Adobe Advertising. É importante gerar marcas de conversão que incluam um parâmetro para uma ID de transação exclusiva (`ev_transid=<transid>`).
 
 1. Para a parte offline de cada transação, o anunciante gera a mesma ID de transação que foi usada na parte online da transação para incluir no arquivo de feed.
 
 1. O anunciante carrega um arquivo com os [dados de conversão necessários](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) no local do servidor designado.
 
-1. Os Serviços técnicos analisam os dados de conversão nos arquivos carregados e, em seguida, fazem o upload dos dados no Adobe Advertising. O Adobe Advertising rastreia os dados em relação a palavras-chave, anúncios e posicionamentos individuais e cria uma previsão de receita para cada um.
+1. Os Serviços técnicos analisam os dados de conversão nos arquivos carregados e, em seguida, fazem o upload dos dados no Adobe Advertising. Em seguida, o Adobe Advertising rastreia os dados em relação a palavras-chave, anúncios e posicionamentos individuais e cria uma previsão de receita para cada um.
 
 1. Os Serviços técnicos validam os dados processados em relação aos dados de feed e verificam se há [transações órfãs](/help/search-social-commerce/glossary.md#o-p).
 

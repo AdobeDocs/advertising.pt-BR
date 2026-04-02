@@ -3,9 +3,14 @@ title: Usando  [!DNL Marketing Channels] com dados do Adobe Advertising
 description: Saiba como usar os dados do Adobe Advertising no [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
+TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: 713
 ht-degree: 0%
 
 ---
@@ -55,5 +60,5 @@ Agora você pode ver como os Inícios de Aplicações restantes são atribuídos
 >* [Fundamentos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Usando Adobe Advertising IDs para criar [!DNL Marketing Channels] regras de processamento](mc-ids.md)
 >* [Por que os dados do canal podem variar entre o Adobe Advertising e o  [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR)
+>* [Vídeo: Usando [!DNL Marketing Channels] para relatórios do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

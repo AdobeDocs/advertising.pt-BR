@@ -3,9 +3,14 @@ title: Sobre o Adobe Advertising Search, Social e Commerce
 description: Saiba mais sobre Pesquisa, Social e Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 0%
 
 ---
@@ -14,17 +19,17 @@ ht-degree: 0%
 
 O [!DNL Adobe] é o líder de mercado e de tecnologia em soluções de experiência do cliente. O Adobe Advertising simplifica a entrega de campanhas de publicidade entre canais para o gerenciamento de campanhas de marca e desempenho em qualquer tela, em qualquer formato. O Adobe Advertising consiste em três subsoluções: Advertising Search, Social, &amp; Commerce para canais máximos de pesquisa, compras, social, rede de público-alvo e desempenho; Advertising DSP (Demand Side Platform) para canais de exibição; e Advertising Creative para criar experiências de usuário final para seus anúncios de exibição.
 
-Como parte do Adobe Advertising, o Advertising Search, Social e Commerce combina o melhor gerenciamento de anúncios baseado em portfólio com previsão inteligente de campanhas e entrega de anúncios direcionada para publicidade otimizada por dados.
+Como parte da Adobe Advertising, o Advertising Search, Social e Commerce combina o melhor gerenciamento de anúncios baseado em portfólio com previsão inteligente de campanhas e entrega de anúncios direcionada para publicidade otimizada por dados.
 
 ## Tecnologia orientada por IA para otimização de anúncios
 
 Search, Social, &amp; Commerce automatiza e otimiza o gerenciamento de ofertas e orçamentos para campanhas de anúncios em redes de anúncios dentro dos limites dos objetivos de negócios, métricas, orçamento e outras restrições comerciais de um anunciante. Ele rastreia o histórico de cliques, custos e conversões de cada palavra-chave e anúncio de um anunciante, bem como informações sobre o cenário de ofertas em cada canal de marketing. Usando uma abordagem de teoria do portfólio, o recurso de otimização compara todas as alocações possíveis do seu orçamento em um portfólio inteiro de campanhas para determinar os lances e orçamentos de campanha que produzirão o maior retorno possível sobre o investimento em anúncios e executa os lances, orçamentos e metas de estratégia de lance de acordo. O recurso de otimização monitora constantemente as palavras-chave e os anúncios de um anunciante, ajustando dinamicamente ofertas, orçamentos e públicos-alvo à medida que o mercado muda.
 
-Vários tipos de otimização estão disponíveis, permitindo Pesquisa, Social e Commerce e a rede de anúncios com vários graus de controle sobre a otimização de ofertas. Dependendo do tipo de otimização, você pode otimizar seus portfólios usando conversões controladas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] ou outros feeds corporativos primários.
+Vários tipos de otimização estão disponíveis, permitindo Pesquisa, Social e Commerce e a rede de anúncios com vários graus de controle sobre a otimização de ofertas. Dependendo do tipo de otimização, você pode otimizar seus portfólios usando conversões controladas pelo Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] ou outros feeds corporativos primários.
 
 Dependendo da sua função, talvez você possa exibir simulações de desempenho do portfólio, que usam modelagem preditiva para identificar o ponto de gasto ideal, e relatórios detalhados de precisão de previsão. Todos os usuários podem usar a Ferramenta de recomendação de gastos para identificar a distribuição de orçamento ideal entre portfólios.
 
-Para obter mais informações, consulte o capítulo de Portfolio no Guia de otimização, que está disponível no Search, Social e Commerce.
+Para obter mais informações, consulte o capítulo Portfólios no Guia de otimização, que está disponível em Pesquisa, Social e Commerce.
 
 ## A interface de gestão de anúncios
 
@@ -50,11 +55,11 @@ Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction
 
 As integrações nativas com o Adobe Analytics e o Adobe Audience Manager permitem conectar seus segmentos de dados e público-alvo para direcionamento de anúncios, criação de público-alvo do [!DNL Google Ads], otimização e relatórios/análises.
 
-Para obter mais informações sobre integrações com esses e outros produtos Adobe, consulte &quot;[Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
+Para obter mais informações sobre integrações com esses e outros produtos da Adobe, consulte &quot;[Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
 
 ## Rastreamento de conversão
 
-Adobe Advertising fornece, opcionalmente, um serviço de rastreamento de conversão proprietário, baseado em pixel, para rastrear conversões online de anúncios que vinculam aos seus sites. Quando você usa o serviço de rastreamento de pixels, o Adobe Advertising rastreia os cliques em seus anúncios e as transações/conversões resultantes em seus sites, mapeando com precisão cada sequência de cliques e impressões para conversões. Você pode usar as conversões rastreadas para otimização de oferta e orçamento.
+Como opção, a Adobe Advertising fornece um serviço de rastreamento de conversão proprietário baseado em pixel para rastrear conversões online de anúncios que vinculam aos seus sites. Quando você usa o serviço de rastreamento de pixels, o Adobe Advertising rastreia os cliques em seus anúncios e as transações/conversões resultantes em seus sites, mapeando com precisão cada sequência de cliques e impressões para conversões. Você pode usar as conversões rastreadas para otimização de oferta e orçamento.
 
 O serviço permite otimizar para diferentes regras de atribuição de dados para os eventos que levam a uma conversão (como atribuir conversões ao último evento relacionado ou pesar mais o último evento). Ele também fornece acesso a relatórios avançados que podem ser usados para melhorar as taxas de conversão, a visibilidade das assistências a cliques e a análise de tendências diárias e intradiárias.
 

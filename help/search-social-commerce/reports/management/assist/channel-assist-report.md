@@ -3,16 +3,21 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Channel Assist Report].
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
+TQID: https://experienceleague.adobe.com/G2KcySAZVdf-J14CxQS2Hk5av6KHlpyFehwfMcZYj78
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 0%
 
 ---
 
 # O [!UICONTROL Channel Assist Report]
 
-*Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão do Adobe Advertising, Adobe Analytics (com uma integração [!DNL Analytics]) ou fornecidos em feeds usando apenas um token (`ef_id`)*
+*Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão da Adobe Advertising, Adobe Analytics (com uma integração [!DNL Analytics]) ou fornecidos em feeds usando apenas um token (`ef_id`)*
 
 O [!UICONTROL Channel Assist Report] indica como vários canais de marketing (pesquisa ou social do Search, Social, &amp; Commerce; ou exibição ou vídeo do Advertising DSP) ajudaram no processo de conversão. O relatório mostra como cada padrão de tipos de evento que levou a uma ou mais conversões contribuiu para suas conversões gerais. Por exemplo, você veria quantas conversões ocorreram quando os usuários viram pela primeira vez uma impressão de anúncio de exibição, clicaram em um anúncio de pesquisa e colocaram um pedido ou quantas conversões ocorreram depois que os usuários interagiram com mais de 10 anúncios. Os tipos de evento incluem cliques de pesquisa, impressões e cliques de exibição, impressões e cliques de vídeo e outras impressões e outros cliques. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 

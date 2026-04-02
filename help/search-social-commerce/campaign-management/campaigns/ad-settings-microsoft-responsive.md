@@ -3,9 +3,12 @@ title: Configurações de anúncios responsivos do [!DNL Microsoft Advertising]
 description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios responsivos.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ O formato de anúncio responsivo está disponível para anúncios de público-al
 >
 >A rede de publicidade cria automaticamente anúncios para campanhas de público vinculadas a uma loja do centro de comércio usando as informações do produto da loja e o direcionamento do usuário no nível do grupo de anúncios. Não é necessário criar anúncios manualmente.
 
-**[!UICONTROL Images]:** Até 15 imagens JPEG ou PNG para o anúncio. Inclua pelo menos uma imagem com uma proporção de 1,91:1. Consulte as proporções e dimensões permitidas para [imagens de anúncios de público-alvo](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
+**[!UICONTROL Images]:** Até 15 imagens JPEG ou PNG para o anúncio. Inclua pelo menos uma imagem com uma taxa de proporção de 1,91:1. Consulte as proporções e dimensões permitidas para [imagens de anúncios de público-alvo](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
 Para anúncios de público-alvo, o [!DNL Microsoft Advertising] recorta automaticamente essa imagem para todas as taxas de proporções possíveis.
 

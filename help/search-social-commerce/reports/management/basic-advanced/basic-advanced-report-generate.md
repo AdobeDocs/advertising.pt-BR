@@ -3,9 +3,13 @@ title: Gerar um relatório básico ou avançado
 description: Saiba como gerar um relatório básico ou avançado personalizado.
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xYP-ycQv4SzdOS4tLyOEsQQdwSw38yXS0JYqHk7GJR8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Create]**.
 
-Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] &#x200B;](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
+Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] ](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
 
 Se você tiver inserido endereços de email para notificação, cada destinatário receberá uma notificação quando o trabalho de relatório for concluído ou falhar, com base nas [configurações de notificação definidas pelo usuário](/help/search-social-commerce/notifications/notification-edit.md) para relatórios.
 

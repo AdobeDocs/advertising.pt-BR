@@ -3,9 +3,13 @@ title: Perguntas frequentes sobre a conversão do Adobe Advertising e as tags de
 description: Consulte uma comparação das tags de rastreamento de conversão e exibição de página do Adobe Advertising.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 307
 ht-degree: 0%
 
 ---
@@ -27,7 +31,7 @@ O seguinte se aplica às tags de rastreamento de conversão do Adobe Advertising
 >[!NOTE]
 >
 >* Todas as novas implementações usam o JavaScript versão 3.
->* A marca JavaScript com ECID usa o [Serviço da Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=pt-BR), bem como a ef_id e gsurferid herdadas para medir as conversões. Esta tag mais recente cria [cookies próprios s_ecid da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=pt-BR) e fornece uma integração mais estreita com outros produtos da Experience Cloud.
+>* A marca JavaScript com ECID usa o [Serviço da Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), bem como a ef_id e gsurferid herdadas para medir as conversões. Esta tag mais recente cria [cookies próprios s_ecid da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornece uma integração mais estreita com outros produtos da Experience Cloud.
 >* Use as tags do JavaScript versão 2 somente quando elas já estiverem implementadas nas páginas da Web do anunciante.
 >* A prática recomendada é usar tags do JavaScript em vez de tags de imagem, a menos que o site tenha uma política contra sua utilização.
 >* As tags da JavaScript são necessárias para anunciantes que desejam direcionar públicos-alvo criados na Adobe Experience Cloud, criados na Adobe Audience Manager ou publicados na Adobe Experience Cloud a partir da Audience Manager ou da Adobe Analytics.

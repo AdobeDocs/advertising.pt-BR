@@ -3,18 +3,21 @@ title: A tag de mapeamento de conversão do Adobe Advertising
 description: Saiba mais sobre a tag de mapeamento de conversão baseada em JavaScript para ITP 2.2, que permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # A tag de mapeamento de conversão do Adobe Advertising JavaScript
 
-*Anunciantes somente com rastreamento de conversão de Adobe Advertising*
+*Somente anunciantes com rastreamento de conversão do Adobe Advertising*
 
-A tag de mapeamento de conversão baseada em JavaScript do Adobe Advertising, quando usada além da tag de rastreamento de conversão do Adobe Advertising JavaScript v2 ou v3, permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial. A solução ITP 2.2 armazena o cookie de um usuário no armazenamento local em um iFrame de propriedade do anunciante. O armazenamento local pode manter o valor do cookie do downstream de clique para a página de conversão.
+A tag de mapeamento de conversão baseada no Adobe Advertising JavaScript, quando usada além da tag de rastreamento de conversão do Adobe Advertising JavaScript v2 ou v3, permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial. A solução ITP 2.2 armazena o cookie de um usuário no armazenamento local em um iFrame de propriedade do anunciante. O armazenamento local pode manter o valor do cookie do downstream de clique para a página de conversão.
 
 Use a tag de mapeamento de conversão para garantir que o Adobe Advertising possa rastrear todas as conversões que ocorrem nos navegadores Apple Safari e Mozilla Firefox, que limitam a persistência de cookies primários. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
@@ -79,7 +82,7 @@ Para usar a tag de mapeamento de conversão:
 
       * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
-Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte à equipe de conta do Adobe.
+Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte à equipe de conta da Adobe.
 
 ### Exemplos
 
@@ -188,4 +191,4 @@ Exemplo:
 
 ## Validar a implantação de tags {#validate-conversion-mapping}
 
-Peça ajuda à sua equipe de conta do Adobe para validar a tag de mapeamento de conversão e a tag de conversão regular (se você a atualizou).
+Peça ajuda à equipe de conta da Adobe para validar a tag de mapeamento de conversão e a tag de conversão regular (se você a atualizou).

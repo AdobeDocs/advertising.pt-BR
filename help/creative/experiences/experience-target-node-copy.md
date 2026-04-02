@@ -3,9 +3,12 @@ title: Copiar nós filhos para outro nó de destino no mesmo nível
 description: Saiba como copiar todos os nós filhos de um nó de destino pai para outro nó de destino no mesmo nível
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Esse recurso não afeta o destino especificado para o nó principal, afeta apena
 
    * Para substituir todos os nós filhos e criações de um nó, clique no nó no qual você deseja colar as informações copiadas, clique em **...** e, em seguida, selecione a\) **[!UICONTROL Replace ctrl+shift+v]** ou b\) digite **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) no teclado.
 
-   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **...** e a\) selecione **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) digite &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
+   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **...** e a\) selecione **[!UICONTROL Add ctrl+v]** ** ou b\) digite **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

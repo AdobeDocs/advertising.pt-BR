@@ -3,9 +3,13 @@ title: Criar um público-alvo de correspondência do cliente  [!DNL Google Ads] 
 description: Saiba como criar um público-alvo de correspondência do cliente  [!DNL Google Ads]  de uma lista de email existente do Adobe Campaign.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 669
 ht-degree: 0%
 
 ---
@@ -16,13 +20,13 @@ ht-degree: 0%
 
 Você pode criar um público-alvo de correspondência do cliente [!DNL Google Ads] a partir de uma lista de email no Adobe Campaign configurando um link de conta e um fluxo de trabalho no [!DNL Campaign].
 
-Para fazer isso, você precisa acessar sua instância [!DNL Campaign] e um arquivo XML que contém o fluxo de trabalho necessário, que a equipe de conta do Adobe fornecerá. As instruções podem variar para diferentes versões do [!DNL Campaign]. Se necessário, sua equipe de conta do Adobe pode ajudá-lo a configurar o fluxo de trabalho no [!DNL Campaign].
+Para fazer isso, você precisa acessar sua instância [!DNL Campaign] e um arquivo XML que contém o fluxo de trabalho necessário, que será fornecido pela sua equipe de conta da Adobe. As instruções podem variar para diferentes versões do [!DNL Campaign]. Se necessário, a equipe de conta da Adobe pode ajudá-lo a configurar o fluxo de trabalho no [!DNL Campaign].
 
 1. Obtenha credenciais para uma conta SFTP fornecida pela Advertising Search, Social e Commerce.
 
 1. Em [!DNL Campaign], configure a entrega da lista de email para o Advertising Search, Social e Commerce:
 
-   1. Crie uma [conta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=pt-BR) para vincular à sua conta SFTP fornecida pela Search, Social e Commerce:
+   1. Crie uma [conta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) para vincular à sua conta SFTP fornecida pela Search, Social e Commerce:
 
       1. No menu esquerdo, vá para **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 
@@ -92,11 +96,11 @@ Para fazer isso, você precisa acessar sua instância [!DNL Campaign] e um arqui
 
          * (Opcional) Na guia **[!UICONTROL Schedule]**, especifique um agendamento diferente para a transferência de arquivos.
 
-           Por padrão, o workflow é executado às 00:00 (meia-noite), o que garante que todos os registros sejam processados. Para minimizar a latência, agende o workflow para ser executado até as 18:00.
+           Por padrão, o fluxo de trabalho é executado às 00:00 (meia-noite), o que garante que todos os registros sejam processados. Para minimizar a latência, agende o fluxo de trabalho para execução até 18:00.
 
          * Clique em **[!UICONTROL Ok]**.
 
-Search, Social, &amp; Commerce verifica o diretório a cada 30 minutos (às NN:30 e NN:59 no fuso horário do anunciante) e move todos os arquivos encontrados para outro local, em seguida, cria automaticamente um público-alvo dos dados e o envia para o Google às 22:00 (22:00). O Search, Social e Commerce continua a verificar atualizações (adições e subtrações) na lista de email a cada 30 minutos e atualiza o público-alvo no [!DNL Google Ads] de acordo às 22h diariamente.
+Search, Social, &amp; Commerce verifica o diretório a cada 30 minutos (às NN:30 e NN:59 no fuso horário do anunciante) e move quaisquer arquivos que encontrar para outro local, em seguida, cria automaticamente um público-alvo a partir dos dados e o envia para o Google às 22:00 (22:00). A Pesquisa, o Social e o Commerce continuam a verificar atualizações (adições e subtrações) para a lista de email a cada 30 minutos e atualizam o público-alvo em [!DNL Google Ads] adequadamente em 22:00 diariamente.
 
 >[!NOTE]
 >

@@ -3,9 +3,13 @@ title: Formato das tags de rastreamento de conversão do JavaScript versão 2
 description: Consulte o formato das tags de rastreamento de conversão do JavaScript versão 2.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+TQID: https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 305
 ht-degree: 0%
 
 ---
@@ -42,7 +46,7 @@ em que:
 
 * `<ef-userid>` é uma ID de usuário exclusiva e numérica que o Search, Social e Commerce atribui ao anunciante.
 
-* `<ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais &#x200B;](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` é a ID de parceiro ID5 da organização, que a organização recebe após assinar um contrato com [!DNL ID5]. Inclua esta variável somente quando a organização usar o DSP e tiver [segmentos personalizados que rastreiam usuários associados a IDs universais ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` é a conversão a ser monitorada. Por exemplo, se você estiver rastreando uma conversão chamada &quot;registro&quot;, a tag incluirá o parâmetro `ev_registration=<registration>` e você precisará passar a receita real para cada transação (como `ev_registration=1`). Quando várias propriedades são rastreadas, elas são unidas por um E comercial (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por exemplo, `ev_registration=1&ev_sale=12.99`). **Observação:** o nome da propriedade não pode incluir caracteres especiais.
 
@@ -54,8 +58,8 @@ em que:
 
 >[!MORELIKETHIS]
 >
->* [Sobre as marcas de rastreamento de conversão de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Gerar uma marca de conversão de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Sobre as marcas de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Gerar uma marca de conversão do Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Perguntas frequentes sobre tags de rastreamento de conversão e exibição de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Formato das marcas de rastreamento de conversão do JavaScript versão 2](format-conversion-tag-jsv2.md)
 >* [Formato das marcas de rastreamento de conversão do JavaScript versão 3](format-conversion-tag-jsv3.md)

@@ -4,10 +4,14 @@ description: Saiba como exportar uma tag de experiência de anúncio e, opcional
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
 TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 635
@@ -36,7 +40,7 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
    * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Tag Manager]**.
 
-1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Mantenha o cursor sobre a linha da marca de anúncio aplicável e clique em ![Exportar marcas de anúncio](/help/creative/assets/export.png "Exportar marcas de anúncio") **[!UICONTROL Export ad tags]** ou **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -54,9 +58,9 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
 1. Selecione o tipo de tag:
 
-   * (Experiências não relacionadas a vídeo) ** *JavaScript* ** ou ** *Iframe* **.
+   * (Experiências não relacionadas a vídeo) **&#x200B; *JavaScript* &#x200B;** ou **&#x200B; *Iframe* &#x200B;**.
 
-   * (Experiências de vídeo) ** *Vídeo* **.
+   * (Experiências de vídeo) **&#x200B; *Vídeo* &#x200B;**.
 
 1. Na lista [!UICONTROL Destinations], selecione onde você criará anúncios para a experiência.
 

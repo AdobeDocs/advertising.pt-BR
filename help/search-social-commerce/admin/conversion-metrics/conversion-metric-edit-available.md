@@ -4,8 +4,10 @@ description: Saiba como disponibilizar métricas de conversão em suas visualiza
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
 TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 506
@@ -29,7 +31,7 @@ A partir da lista de métricas de conversão disponíveis, cada usuário com ace
 
    * Para procurar um nome de métrica ou nome para exibição específico, clique em ![Pesquisar](/help/search-social-commerce/assets/search.png "Pesquisar"), digite a palavra ou a cadeia de caracteres no campo de entrada e pressione a tecla **[!DNL Enter]**.
 
-     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1}.](/help/search-social-commerce/glossary.md#c-d)
+     Você pode pesquisar cadeias de caracteres que apareçam em qualquer lugar dentro da frase (como a primeira letra ou as três últimas letras), e os termos de pesquisa não diferenciam maiúsculas de minúsculas[1&rbrace;.](/help/search-social-commerce/glossary.md#c-d)
 
    * Para procurar métricas de conversão por sua disponibilidade em exibições de gerenciamento e relatórios, clique em ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") e selecione o filtro **[!UICONTROL Show in UI and Reports]**. Em seguida, selecione **[!UICONTROL Show]** (para exibir as métricas de conversão disponíveis para inclusão nos relatórios e exibições de gerenciamento) ou **[!UICONTROL Hide]** (para exibir as métricas de conversão não disponíveis nos relatórios e exibições de gerenciamento).
 

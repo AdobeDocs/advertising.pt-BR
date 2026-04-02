@@ -4,11 +4,22 @@ description: Saiba como capturar eventos de impressões e cliques baseados em co
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 997
@@ -106,7 +117,7 @@ Exemplo de um pixel de evento de impressão:
 
 Anexe um pixel de rastreamento de eventos de impressão a todos os anúncios nas campanhas do [!DNL DSP]. Você pode fazer isso em qualquer um dos seguintes locais:
 
-* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md).
+* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 * No nível do anúncio, que substitui quaisquer pixels de evento no nível de posicionamento. Nas configurações do anúncio, [crie um pixel de evento na [!UICONTROL Pixel] guia](/help/dsp/campaign-management/ads/ad-edit.md).
 

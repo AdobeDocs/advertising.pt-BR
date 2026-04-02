@@ -4,8 +4,10 @@ description: Saiba como criar e gerenciar grupos de anúncios.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/sG5cWODyLzoKVIsQG2kGd68ozScBB3mTRCAWnAmuRiY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 677
@@ -33,7 +35,7 @@ Você pode criar grupos de anúncios no Search, Social e Commerce para um [tipo 
 
 1. Selecione a rede de publicidade, a conta e a campanha e clique em **[!UICONTROL Continue]**.
 
-1. Insira o [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Configurações de grupos de anúncios do Japão ](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md).
+1. Insira o [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Configurações de grupos de anúncios do Japão &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md).
 
    Dependendo da rede de publicidade, as configurações podem ser agrupadas em [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] e [!UICONTROL URL Options]. Para definir as configurações para [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], quando estiverem disponíveis, clique em **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** ou **[!UICONTROL Add Negative Websites]**, respectivamente.
 
@@ -63,7 +65,7 @@ Posteriormente, é possível substituir os lances de nível de grupo de anúncio
 
       * Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite o [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Configurações de grupos de anúncios do Japão ](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md).
+1. Edite o [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Configurações de grupos de anúncios do Japão &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md).
 
    Para vários grupos de anúncios, as configurações podem ser agrupadas em [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] e [!UICONTROL URL Options], dependendo da rede de anúncios. Você pode editar apenas os campos comuns a todos os grupos de anúncios selecionados e suas alterações serão aplicadas a todos os grupos de anúncios selecionados. Para alguns campos alfanuméricos, você tem opções para alterar os valores existentes para um valor especificado, substituir uma string existente por uma string especificada, adicionar um prefixo especificado ao início de cada valor ou anexar um sufixo ao final de cada valor. Para alguns campos monetários, você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 

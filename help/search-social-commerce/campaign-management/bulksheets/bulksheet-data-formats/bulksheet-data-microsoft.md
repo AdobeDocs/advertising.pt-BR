@@ -4,9 +4,12 @@ description: Referencie os campos de cabeçalho e de dados necessários em bulks
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 6934
@@ -231,7 +234,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&amp;rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&amp;rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| [!UICONTROL Ad ID] | Obrigatório somente quando você altera o status do anúncio, a menos que a linha inclua a&rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
 | [!UICONTROL AMO ID] | Obrigatório para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>O Search, Social e Commerce usa o valor para determinar a identidade correta a ser editada, mas não publica a ID na rede de anúncios. |
 
 ### Campos de anúncio de produto (compras)

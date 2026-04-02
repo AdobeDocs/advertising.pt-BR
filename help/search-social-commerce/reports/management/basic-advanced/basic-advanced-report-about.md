@@ -3,9 +3,17 @@ title: Sobre relatórios básicos e avançados
 description: Saiba mais sobre relatórios básicos e avançados personalizáveis.
 exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/zKPVAfyStkc6bjL552SSoCc4dEmhyzHThTXqylslMFg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: 373
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ Relatórios básicos mostram o custo real e os dados de cliques de portfólios (
 
 ### Tipos de relatórios básicos
 
-#### Relatórios de entidade de rede de Portfolio e anúncios
+#### Relatórios de entidade de rede de anúncios e Portfolio
 
 * [O [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
 
@@ -58,7 +66,7 @@ Relatórios básicos mostram o custo real e os dados de cliques de portfólios (
 
 Relatórios avançados podem ajudá-lo a tomar decisões estratégicas sobre sua estratégia de publicidade, identificando onde você se beneficiaria ao redefinir a segmentação geográfica ou as configurações de rede. Eles também podem ajudar a validar os dados de conversão disponíveis em Pesquisa, Social e Commerce em relação aos dados de rastreamento de conversão interna do anunciante.
 
-Todos os usuários podem gerar o [!UICONTROL Transaction Report], que mostra transações individuais por palavra-chave. Todos os outros relatórios avançados usam dados capturados pelo serviço de rastreamento de conversão de Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço.
+Todos os usuários podem gerar o [!UICONTROL Transaction Report], que mostra transações individuais por palavra-chave. Todos os outros relatórios avançados usam dados capturados pelo serviço de rastreamento de conversão da Adobe Advertising e podem ser gerados apenas para anunciantes com o serviço.
 
 Todos os relatórios avançados podem incluir, opcionalmente, dados de conversão ou qualquer outra métrica criada. Relatórios avançados gerados pelo portfólio, em vez de pela rede de anúncios, mostram dados para campanhas que estão mapeadas atualmente para os portfólios especificados. Os relatórios
 não inclua dados para campanhas que estavam nos portfólios durante o intervalo de datas, mas ainda não estão lá.

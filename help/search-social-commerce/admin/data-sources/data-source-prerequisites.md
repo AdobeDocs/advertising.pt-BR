@@ -1,12 +1,22 @@
 ---
-title: Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics]
+title: 'Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics] '
 description: Saiba mais sobre as etapas que devem ser concluídas antes de configurar uma fonte de dados  [!DNL Google Analytics] .
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -23,7 +33,7 @@ Em cada clique de pesquisa paga para as campanhas relevantes, um `ef_id` exclusi
 
 Para contas e campanhas existentes, a ef_id provavelmente já está implementada.
 
-Se a ef_id não for incluída, peça ajuda à sua equipe de conta do Adobe.
+Se a ef_id não for incluída, peça ajuda à sua equipe de conta da Adobe.
 
 Quando todos os pré-requisitos forem concluídos, o `ef_id` será usado como chave primária para transmitir dados do [!DNL Google Analytics] para o Search, Social e Commerce.
 

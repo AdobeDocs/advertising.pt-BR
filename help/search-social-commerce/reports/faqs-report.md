@@ -3,9 +3,20 @@ title: Perguntas frequentes Sobre relatórios personalizados
 description: Saiba mais sobre respostas a perguntas comuns sobre relatórios de desempenho, incluindo solução de problemas de dados.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -14,7 +25,7 @@ ht-degree: 0%
 
 ## Perguntas gerais
 
-+++E se o intervalo de datas do relatório começar antes dos dados do relatório estarem disponíveis?
++++E se o intervalo de datas do relatório começar antes que os dados do relatório estejam disponíveis?
 O relatório é gerado, mas inclui apenas dados para as datas em que os dados estão disponíveis. Para obter mais informações sobre quando os dados estão disponíveis para cada tipo de relatório, consulte &quot;[Os dados usados para os relatórios](data-used-for-reports.md)&quot;.
 +++
 
@@ -34,7 +45,7 @@ A [janela de retrospectiva de cliques](/help/search-social-commerce/glossary.md#
 **Prática recomendada:** verifique se as janelas de retrospectiva são mais longas do que os tempos de clique para receita e exibição de impressão para receita para a maioria de suas palavras-chave ou anúncios. Quando são mais curtas, algumas conversões não são associadas ao clique ou impressão inicial.
 +++
 
-+++Como sei quais conversões resultaram de uma extensão de anúncio [!DNL Google Ads] ou lista de produtos?
++++Como sei quais conversões resultaram de uma extensão de anúncio [!DNL Google Ads] ou de uma lista de produtos?
 Você pode ver quais conversões resultaram de um clique em uma extensão de anúncio [!DNL Google Ads] (em vez do anúncio propriamente dito) ou em uma lista de produtos gerando um [!UICONTROL Transaction Report]. O valor da coluna [!UICONTROL Link Type] mostra o tipo e o título de um link que foi clicado:
 
 * As listas de produtos estão listadas como `pla:<product ID>`, como `pla:8525822`.
@@ -49,17 +60,17 @@ Você pode ver quais conversões resultaram de um clique em uma extensão de an�
 
 +++
 
-+++A coluna &quot;[!UICONTROL Keyword]&quot; no meu relatório inclui um valor &quot;(conteúdo adgroup) &lt;*nome do grupo de anúncios*>.&quot;
++++A coluna &quot;[!UICONTROL Keyword]&quot; no meu relatório inclui um valor &quot;(adgroup content) &lt;*ad group name*>.&quot;
 Quando a linha inclui dados para campanhas de pesquisa habilitadas para conteúdo, campanhas de exibição ou campanhas sociais — que não incluem palavras-chave — a coluna [!UICONTROL Keyword] mostra o nome do grupo de anúncios aplicável.
 +++
 
-+++Devido a alterações sazonais ou de mercado, meus relatórios mostram dados atípicos. Isso afeta os lances depois que as condições são alteradas?
++++Devido a mudanças sazonais ou de mercado, meus relatórios mostram dados atípicos. Isso afeta os lances depois que as condições são alteradas?
 O recurso de otimização cria seus modelos de receita para cada unidade de oferta diariamente para garantir que ele identifique e responda imediatamente às tendências, e os modelos incorporam dados históricos de longo prazo para ajudar a prever o desempenho sazonal. A configuração de meia-vida do modelo de receita do portfólio <!-- add link to glossary? --> também determina o peso dos dados de receita recentes. A prática recomendada é reduzir a meia-vida durante um período de desempenho atípico, mas aumentá-la depois que o modelo de receita for ajustado. Em caso de dúvidas sobre a necessidade de ajustar a meia-vida, entre em contato com a equipe de conta da Adobe.
 
 Se você não quiser que os dados do período afetem lances futuros, poderá optar por excluir essas datas do modelo. Entre em contato com a equipe de conta da Adobe para excluir as datas.
 +++
 
-+++É possível criar um relatório sobre uma métrica de propriedade de conta específica, como [!UICONTROL Device] ou [!UICONTROL Objective Name]?
++++Posso criar um relatório sobre uma métrica de propriedade de conta específica, como [!UICONTROL Device] ou [!UICONTROL Objective Name]?
 Para relatórios de entidade de campanha ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report] e [!UICONTROL Product Group Report]), os dados de métrica são agregados dinamicamente pelas colunas de propriedade incluídas no relatório. Opcionalmente, é possível remover a coluna principal do relatório e incluir apenas as colunas de propriedade para as quais deseja agregar dados.
 
 Por exemplo, se você gerar uma [!UICONTROL Keyword Report] que inclua as colunas Dispositivo [!UICONTROL Ad Group] e , então, por padrão, o relatório agrega métricas para cada palavra-chave por grupo de anúncios e tipo de dispositivo. No entanto, se você remover a coluna [!UICONTROL Keyword] antes de gerar o relatório, ele gera dinamicamente métricas para os grupos de anúncios especificados por tipo de dispositivo.
@@ -97,13 +108,13 @@ Essa situação pode ocorrer quando os formatos de métrica usam números inteir
 * Da mesma forma, se você tiver uma métrica de receita enviada como um número inteiro, ocorrerá o mesmo problema. (O formato de receita é controlado pela tag de conversão que envia os dados.) Para resolver o problema, [crie uma métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) que consista exclusivamente na métrica de receita e com o formato *Número para 2 Pontos Decimais*, e inclua-a em exibições e relatórios em vez da métrica original.
 +++
 
-+++Quando os dados de clique ou receita estão ausentes, como evitar que afetem lances futuros?
++++Quando os dados de clique ou receita estiverem ausentes, como evitar que afetem lances futuros?
 Problemas de dados de cliques ocorrem quando o Search, o Social e o Commerce estão fora de sincronia com a rede de anúncios. Entre em contato com a equipe de conta da Adobe para sincronizar manualmente a conta. Se os dados de cliques estiverem ausentes por um dia inteiro, peça à sua equipe de conta da Adobe para excluir esse dia dos modelos de custo.
 
 Problemas de dados de receita podem ocorrer devido a um problema de arquivo de rastreamento ou feed. Entre em contato com a equipe de conta da Adobe para investigar o problema. Se os dados de receita estiverem ausentes por um dia inteiro, peça à sua equipe de conta da Adobe para excluir esse dia dos modelos de receita.
 +++
 
-+++Os dados monetários são mostrados no formato incorreto.
++++Os dados monetários são exibidos no formato incorreto.
 Por padrão, todos os dados monetários nos relatórios são mostrados no formato para dólares americanos (como 1.000,00). Para exibir o valor no formato de moeda correto (mas sem símbolos de moeda nos formatos CSV e TSV), adicione a coluna &quot;[!UICONTROL Currency]&quot; ao relatório. Se o relatório incluir dados para contas com moedas diferentes, qualquer valor monetário &quot;[!UICONTROL Total]&quot; será simplesmente a soma de todos os números na coluna, independentemente da moeda.
 +++
 
@@ -137,7 +148,7 @@ Além disso, ao comparar dados de compartilhamento de impressão agregados em um
 * Quando há uma combinação de dados limitados e não limitados no intervalo de datas, a impressão dos agregados do Search, Social e Commerce compartilha dados usando os valores enviados na API como estão, usando 0,0999 para linhas com &lt;10% e 0,9001 para linhas com >90%. Esta agregação pode resultar em uma variação dos dados pré-agregados de [!DNL Google Ads], pois [!DNL Google Ads] pode usar valores percentuais reais, como 7% ou 97%.
 +++
 
-+++Os dados de desempenho em relatórios são diferentes dos dados em [!DNL Google Analytics].
++++Os dados de desempenho nos relatórios são diferentes dos dados no [!DNL Google Analytics].
 Os dois sistemas medem dados diferentes, portanto, você deve esperar ver dados diferentes. Por exemplo:
 
 * Pesquisa, Social e Commerce (e Google Ads) monitoram cliques, enquanto [!DNL Google Analytics] monitoram visitas por sessão de navegador de 30 minutos. Por exemplo, se um usuário clicar em seu anúncio uma vez, clicar no botão Voltar e clicar no anúncio novamente, então Pesquisar, Social e Commerce registrará dois cliques, mas [!DNL Google Analytics] registrará uma visita.
@@ -210,11 +221,11 @@ O relatório pode não incluir métricas de conversão para as quais ocorreram c
    O Atendimento ao cliente verificará se o arquivo foi recebido e analisado. Se o arquivo foi processado sem erros, eles verificam transações órfãs.
 +++
 
-+++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante.
++++Alguns relatórios avançados não incluem dados de conversão fornecidos por um feed de anunciante. 
 O [!UICONTROL Geo Distribution Report] e o [!UICONTROL Domain Referral Report] usam dados capturados pelo serviço de rastreamento de conversão da Adobe Advertising e só podem ser gerados para anunciantes com o serviço. Os relatórios não incluem dados de conversão que são rastreados fora do sistema de rastreamento de conversão do Adobe Advertising.
 +++
 
-+++Os dados de receita são diferentes dos dados de receita do próprio anunciante.
++++Os dados de receita são diferentes dos dados de receita próprios do anunciante.
 
 **Anunciantes usando marcas de conversão do Adobe Advertising**
 
@@ -294,7 +305,7 @@ Veja as possíveis causas e soluções para implementações de pixel acima.
 +++
 
 +++Os dados de receita são diferentes dos dados no Adobe Analytics
-Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=pt-BR).<!-- change link URL to relative link -->
+Consulte [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Relatórios específicos
@@ -315,7 +326,7 @@ O [!UICONTROL Portfolio Report] mostra dados apenas para as campanhas atribuída
 As redes de anúncios não fornecem o identificador necessário para atribuir receita a um anúncio individual dessas campanhas. Consequentemente, os dados de desempenho no nível do anúncio não estão disponíveis para esses tipos de campanha na visualização [!UICONTROL Ads] ou em [!UICONTROL Ad Variation Report]. Espere discrepâncias entre o total de dados de nível de anúncio de uma campanha e o total de dados da campanha.
 +++
 
-+++No [!UICONTROL Transaction Report], como sei qual métrica de conversão é de um feed de dados ou é rastreada pelo pixel de rastreamento do Adobe Advertising?
++++No [!UICONTROL Transaction Report], como saber qual métrica de conversão é de um feed de dados ou é rastreada pelo pixel de rastreamento do Adobe Advertising?
 Em um relatório de transações, é possível saber se uma métrica de conversão incluída foi rastreada pelo pixel de rastreamento do Adobe Advertising ao incluir a coluna personalizada &quot;[!UICONTROL Tracking URL]&quot;. As URLs de rastreamento com o pixel de rastreamento Adobe Advertising começam com &quot;`http://pixel.everesttech.net`&quot;.
 +++
 
@@ -331,7 +342,7 @@ Você poderá ver intervalos de datas diferentes se o feed agregar dados usando 
 Para resolver o problema, atualize o feed da planilha para incluir dados agregados diariamente. Esta tarefa inclui a atualização do modelo de relatório, a geração de um relatório usando o modelo, a criação de um modelo [!DNL Microsoft Excel] personalizado usando o relatório e a atualização das configurações do feed para incluir o novo modelo do Excel. Para obter mais informações, consulte &quot;[Editar configurações do feed de relatório da planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;.
 +++
 
-+++O feed de planilha resulta em um Erro interno.
++++Um feed de planilha resulta em um Erro interno.
 Este erro poderá ocorrer se você alterar as colunas no modelo de relatório, mas não atualizar o modelo [!DNL Microsoft Excel] adequadamente.
 
 Para resolver o problema, atualize o feed da planilha para incluir as novas colunas. Esta tarefa inclui a atualização do modelo de relatório, a geração de um relatório usando o modelo, a criação de um modelo [!DNL Excel] personalizado usando o relatório e a atualização das configurações do feed para incluir o novo modelo do Excel. Para obter mais informações, consulte &quot;[Editar configurações do feed de relatório da planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;.

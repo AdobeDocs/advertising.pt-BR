@@ -3,9 +3,18 @@ title: Visão geral da implementação de contas e campanhas de rede de anúncio
 description: Saiba mais sobre as tarefas envolvidas na configuração, sincronização e gerenciamento de suas contas de rede de anúncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
@@ -60,13 +69,13 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, isso pode envolver a adição de tags de rastreamento de conversão às páginas da Web do anunciante e/ou a configuração de uma queda de feed diária para dados de conversão que o anunciante coletou separadamente.
 
-      Se você usa o serviço de rastreamento de conversão da Adobe Advertising, é possível [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar [tags da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=pt-BR) (anteriormente conhecida como Adobe Experience Platform Launch).
+      Se você usa o serviço de rastreamento de conversão da Adobe Advertising, é possível [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar [tags da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conhecida como Adobe Experience Platform Launch).
 
    1. Valide os dados que são rastreados.
 
    Para obter mais detalhes sobre como configurar o rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
-1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) para que eles possam trocar dados.
+1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que eles possam trocar dados.
 
 1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas, orçamentos de campanha e/ou alvos de estratégia de oferta de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

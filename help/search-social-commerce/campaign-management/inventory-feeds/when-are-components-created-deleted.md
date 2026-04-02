@@ -3,9 +3,14 @@ title: Quando os componentes da conta são criados ou excluídos pelos feeds de 
 description: Saiba quais situações criam e excluem componentes da conta ao lançar feeds de inventário.
 exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/lo1FGJlZyyrO49IVCt308TaH65Eq-ZgRTafKSMTomHI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ Quando um arquivo de feed de inventário é propagado por meio de um modelo, os 
 |----|----|----|
 | Os dados do feed incluem um novo valor para uma coluna usada em um nome de campanha, nome de grupo de anúncios, palavra-chave ou grupo de produtos. | Arquivos anteriores:<br>Campaign=Hats<br>Campaign=Gloves<br><br>Novo arquivo:<br>Campaign=Shoes | Uma nova campanha, grupo de publicidade, palavra-chave ou grupo de produtos será criada se não existir na rede de publicidade. |
 | Os dados do feed contêm um novo valor para uma coluna usada em um anúncio. | Arquivo anterior: um anúncio incluiu price=20<br><br>Novo arquivo: Para o mesmo anúncio, price=10 | Quando a cópia de anúncio de [!DNL Microsoft Advertising] anúncios de texto expandidos, [!DNL Yahoo! Japan ads] ou [!DNL Yandex] anúncios é alterada, o anúncio existente é excluído e um novo é criado.<br><br>Quando uma cópia do anúncio é alterada para outros tipos de anúncio ou quando a coluna aplicável é usada para um parâmetro de anúncio [!DNL Google Ads] ({param1} ou {param2}) em um anúncio, o anúncio existente é atualizado. |
-| As configurações do modelo para a campanha, grupo de publicidade, palavra-chave ou grupo de produtos foram alteradas desde a última propagação. | Configuração anterior:Keyword=[Palavra-chave]<br><br>Nova configuração: Palavra-chave=&lt;Cor>[Palavra-chave] | Uma nova campanha, grupo de publicidade, palavra-chave ou grupo de produtos será criada se não existir na rede de publicidade. |
+| As configurações do modelo para a campanha, grupo de publicidade, palavra-chave ou grupo de produtos foram alteradas desde a última propagação. | Configuração anterior:Keyword=[Palavra-chave]<br><br>Nova configuração: Palavra-chave=&lt;Color>[Palavra-chave] | Uma nova campanha, grupo de publicidade, palavra-chave ou grupo de produtos será criada se não existir na rede de publicidade. |
 | As configurações do modelo para um anúncio foram alteradas desde a última propagação. | Configuração anterior: Ad description=&quot;Comprar [categoria] agora.&quot;<br><br>Nova configuração: Ad description=&quot;Comprar [marca] agora.&quot; | Quando a cópia de anúncio de [!DNL Microsoft Advertising] anúncios de texto expandidos, [!DNL Yahoo! Japan ads] ou [!DNL Yandex] anúncios é alterada, o anúncio existente é excluído e um novo é criado.<br><br>Quando uma cópia de anúncio é alterada para outros tipos de anúncio ou quando a alteração reflete uma alteração na coluna usada para um único parâmetro de anúncio [!DNL Google Ads] ({param1} ou {param2}) em um anúncio, o anúncio existente é atualizado. |
 | Os novos dados de feed não incluem uma linha para uma campanha ou grupo de anúncios existente. | n/d | As campanhas e grupos de anúncios existentes permanecem como estão. |
 | Os novos dados de feed não incluem uma linha para um grupo de anúncios, anúncio, palavra-chave ou grupo de produtos existente. | n/d | O grupo de anúncios, anúncio, palavra-chave ou grupo de produtos existente permanece como está, está pausado ou foi excluído de acordo com as [configurações de dados de feed](feed-settings-manage.md#feed-data-settings). |

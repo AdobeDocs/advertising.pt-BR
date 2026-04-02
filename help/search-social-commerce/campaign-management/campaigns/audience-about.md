@@ -3,9 +3,16 @@ title: Sobre públicos
 description: Saiba mais sobre as opções para rastrear, criar e gerenciar públicos-alvo de  [!DNL Google Ads]  e  [!DNL Microsoft Advertising] .
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 528
 ht-degree: 0%
 
 ---
@@ -18,17 +25,17 @@ A Biblioteca de Públicos-alvo lista todos os seus públicos-alvo do [!DNL Googl
 
 Você também pode criar e gerenciar públicos-alvo usando segmentos ou listas de email de seus públicos-alvo existentes da Adobe Experience Cloud e de vários tipos de dados do cliente de seu sistema de gerenciamento de relacionamento com o cliente (CRM):
 
-* **Segmentos de público-alvo do Adobe:** anunciantes com contas Adobe Audience Manager ou Adobe Analytics aceitas podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente a partir de seus [!DNL Adobe] segmentos:
+* **Segmentos de público-alvo da Adobe:** anunciantes com contas Adobe Audience Manager ou Adobe Analytics aceitas podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente a partir de seus [!DNL Adobe] segmentos:
 
    * (Anunciantes com contas do [!DNL Analytics] que também não têm o Audience Manager) Você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de [!DNL Analytics] segmentos que são compartilhados com o Adobe Experience Cloud.
 
-   * (Anunciantes com contas Audience Manager) Você pode criar [!DNL Google Ads] públicos-alvo de correspondência de clientes usando IDs de usuários dos segmentos Audience Manager que têm Pesquisa, Social e Commerce como destino. Isso pode incluir segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud.
+   * (Anunciantes com contas do Audience Manager) Você pode criar públicos-alvo de correspondência do cliente do [!DNL Google Ads] usando IDs de usuário de segmentos do Audience Manager que têm Pesquisa, Social e Commerce como destino. Isso pode incluir segmentos do Adobe Analytics publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud.
 
   Para criar públicos-alvo de correspondência do cliente, a conta [!DNL Google Ads] do anunciante deve ser [qualificada para correspondência personalizada](https://support.google.com/adspolicy/answer/6299717) e aceita a inclusão de [segmentos de ID de usuário](https://support.google.com/google-ads/answer/9199250). Além disso, a conta do anunciante em Search, Social e Commerce deve ser configurada para permitir a criação de públicos-alvo de correspondência do cliente.
 
   [!DNL Adobe] dados de segmento e arquivos de sincronização de cookies para públicos com base em dados do cliente são sincronizados com [!DNL Google Ads] diariamente.
 
-* **Listas de email do Adobe Campaign:** A sua equipe de conta do Adobe pode ajudá-lo a configurar um fluxo de trabalho para criar e atualizar uma audiência de correspondência com o cliente [!DNL Google Ads] de uma lista de email no [!DNL Campaign].
+* **Listas de email do Adobe Campaign:** sua equipe de conta da Adobe pode ajudá-lo a configurar um fluxo de trabalho para criar e atualizar um público-alvo de correspondência do cliente [!DNL Google Ads] de uma lista de email no [!DNL Campaign].
 
 * **Listas de dados do cliente:** anunciantes com contas [!DNL Google Ads] ou [!DNL Microsoft Advertising] qualificados para correspondência do cliente podem criar e atualizar um público-alvo baseado em dados do cliente específico da rede de anúncios &lt;!— ou público de remarketing dinâmico — incluído no público com base em dados do cliente, pelo menos para [!DNL Google Ads]?—> carregando um arquivo CSV com identificadores primários.
 

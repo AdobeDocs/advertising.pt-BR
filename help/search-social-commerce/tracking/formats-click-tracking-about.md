@@ -1,26 +1,31 @@
 ---
-title: Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising
+title: Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising
 description: Saiba mais sobre os formatos de rastreamento de cliques para redes de anúncios compatíveis.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
-# Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising
+# Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising
 
-Os templates de rastreamento, sufixos de landing page (sufixos de URL final) e URLs de destino para contas de anúncio e campanhas que usam o serviço de rastreamento de conversão de Adobe Advertising têm o seguinte formato:
+Os templates de rastreamento, sufixos de landing page (sufixos de URL final) e URLs de destino para contas de anúncio e campanhas que usam o serviço de rastreamento de conversão do Adobe Advertising têm o seguinte formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
 em que:
 
-* `http://pixel.everesttech.net` redireciona o usuário para os servidores de pixels Adobe Advertising.
+* `http://pixel.everesttech.net` redireciona o usuário para os servidores de pixels da Adobe Advertising.
 
-* `<advertiser_ID>` é uma variável para o identificador de usuário único atribuído ao anunciante no Adobe Advertising.
+* `<advertiser_ID>` é uma variável para a ID de usuário exclusiva atribuída ao anunciante no Adobe Advertising.
 
 * `<token passing parameter>` é uma variável para um dos seguintes:
 
@@ -28,7 +33,7 @@ em que:
 
    * `c?` ou `r` indica que a passagem do token está desabilitada.
 
-* `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], 22&rbrace;94 *para [!DNL Yahoo! Japan Ads],* 105 *para [!DNL Yahoo Native] (obsoleto) ou* 106 *para [!DNL Pinterest] (obsoleto).*
+* `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
 
 * `<tracking ID>` é uma variável de uma cadeia de caracteres de ID de rastreamento gerada pelo sistema que identifica uma palavra-chave, anúncio ou posicionamento exclusivo na conta. A string varia de acordo com a rede de anúncios.
 

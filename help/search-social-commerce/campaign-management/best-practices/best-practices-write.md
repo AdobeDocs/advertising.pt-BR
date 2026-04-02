@@ -3,9 +3,16 @@ title: Escrever texto efetivo e copiar
 description: Saiba mais sobre as práticas recomendadas para escrever uma cópia de anúncio eficiente.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar Portfolio > Práticas recomendadas para Portfolio, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obter mais práticas recomendadas específicas para campanhas em portfólios, consulte também a seção Guia de otimização > Gerenciar portfólios > Práticas recomendadas para portfólios, que está disponível na Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisitos gerais para todas as redes de publicidade
 
@@ -40,7 +47,7 @@ ht-degree: 0%
 
 * Língua inadequada é proibida.
 
-## Recommendations para anúncios eficazes
+## Recomendações para anúncios eficazes
 
 * Escreva manchetes poderosas para atrair clientes em potencial.
 
@@ -62,7 +69,7 @@ ht-degree: 0%
 
 * Se possível, use a palavra-chave no título/título e em ambas as linhas da descrição/corpo. [1]
 
-* Sempre inclua uma chamada para ação no texto, como &quot;Exibir&quot;, &quot;Fazer check-out&quot;, &quot;Solicitar&quot; ou &quot;Inscrever-se&quot;, para aumentar a taxa de cliques. Para anúncios de imagem, inclua o chamado para ação em um botão vinculado ao seu site; para anúncios de mídia avançada, inclua o chamado para ação em uma estrutura inicial.
+* Sempre inclua uma call to action no texto, como &quot;Exibir&quot;, &quot;Fazer check-out&quot;, &quot;Solicitar&quot; ou &quot;Inscrever-se&quot;, para aumentar a taxa de cliques. Para anúncios de imagem, inclua a call to action em um botão que vincula ao seu site; para anúncios de mídia avançada, inclua a call to action em um quadro inicial.
 
 * Seja sensível à forma como o anunciante deseja que sua marca seja percebida. Por exemplo, um anunciante pode não querer que a palavra &quot;barato&quot; apareça em seus anúncios.
 

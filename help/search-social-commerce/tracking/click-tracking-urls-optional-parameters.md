@@ -3,9 +3,14 @@ title: Parâmetros de rastreamento opcionais para URLs de rastreamento de clique
 description: Saiba mais sobre os parâmetros opcionais de rastreamento de Pesquisa, Social e Commerce e adicione parâmetros de rastreamento específicos à rede que você pode adicionar aos URLs de rastreamento de cliques.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: f633f2af545f034b08b378653b4b967710402a03
+TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: 1074
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ Em vez de usar apenas os parâmetros de rastreamento padrão para um URL final o
 
 * Você pode anexar parâmetros específicos da rede de Adobe Advertising e anúncios nos URLs base da conta/campanha para rastrear mais dados:
 
-   * Os parâmetros de Adobe Advertising são semiestáticos. o Adobe Advertising insere um valor de dados quando carrega o URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` ao URL base, o Adobe Advertising substitui `{ef_campaign}` pelo nome real da campanha (como &quot;Back-to-school-Campaign&quot;) quando carrega o URL.
+   * Os parâmetros do Adobe Advertising são semiestáticos. O Adobe Advertising insere um valor de dados ao fazer upload do URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` à URL base, o Adobe Advertising substitui `{ef_campaign}` pelo nome real da campanha (como &quot;Campanha de volta à escola&quot;) quando carrega a URL.
 
      **Observação:** depois que os valores são inseridos, eles permanecem estáticos. Se você mover uma palavra-chave ou anúncio para um grupo de anúncios diferente, ou mover o grupo de anúncios para uma campanha diferente, o parâmetro {ef_adgroup} ou {ef_campaign} não será atualizado automaticamente, portanto, você deve gerar manualmente uma nova URL de destino ou URL de base (final).
 
@@ -46,7 +51,7 @@ Todos os parâmetros a seguir devem ser especificados como um par de valores cha
 | ---- | ---- |
 | <code>{custom_code}</code> | Para inserir dados da coluna &quot;Parâmetro de URL personalizado&quot; em um arquivo de bulksheet carregado no URL de rastreamento. {custom_code} pode ser usado somente no final do valor de um ou mais pares de chave-valor na URL de rastreamento. Exemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Observação:</b> para inserir o valor personalizado do arquivo de bulksheet na URL de rastreamento, carregue o arquivo de bulksheet usando a opção &quot;Gerar URLs de Rastreamento&quot;. Para obter mais informações sobre como usar arquivos de bulksheet, consulte &quot;[Sobre como gerenciar dados de campanha usando bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Para inserir o identificador exclusivo criado pelo Adobe Advertising. Adicionado automaticamente quando o método de rastreamento é &quot;EF Redirect&quot;. |
-| <code>{ef_userid}</code> | Para inserir o identificador de usuário único que o Adobe Advertising atribui ao anunciante. |
+| <code>{ef_userid}</code> | Para inserir a ID de usuário exclusiva que o Adobe Advertising atribui ao anunciante. |
 | <code>{ef_sid}</code> | Para inserir a ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | <code>{ef_searchengine}</code> | Para inserir o nome da rede de publicidade. |
 | <code>{ef_campaign}</code> | Para inserir o nome da campanha. |
@@ -76,4 +81,4 @@ Consulte [https://yandex.com/support/direct/statistics/url-tags.html](https://ya
 
 >[!MORELIKETHIS]
 >
->* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)

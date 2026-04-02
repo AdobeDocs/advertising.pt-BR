@@ -4,9 +4,20 @@ description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+TQID: https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1041
 ht-degree: 0%
 
 ---
@@ -65,7 +76,7 @@ Para fazer solicitações de acesso e exclusão de informações pessoais do con
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
 
-1. Use a [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=pt-BR) (para solicitações automatizadas) ou a [Interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) para enviar solicitações para acessar e excluir informações pessoais para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
+1. Use a [API do Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitações automatizadas) ou a [Interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (para solicitações ad-hoc) para enviar solicitações para acessar e excluir informações pessoais para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
    Para anunciantes que têm um aplicativo móvel para interagir com os clientes e iniciar campanhas com o [!DNL DSP], você deve baixar os SDKs móveis prontos para privacidade para Experience Cloud. Os SDKs móveis permitem que as empresas definam sinalizadores de status de recusa, recuperem a ID de dispositivo do consumidor (ID de namespace: `deviceID`) e enviem solicitações para a API do Privacy Service. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
@@ -77,28 +88,28 @@ Para fazer solicitações de acesso e exclusão de informações pessoais do con
    >
    >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas as etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).
+Todas as etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Valores de campo obrigatórios em solicitações JSON do Adobe Advertising
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*ID da organização da Experience Cloud*>
+* `"value":` &lt;*sua ID da organização da Experience Cloud*>
 
 &quot;users&quot;:
 
-* `"key":` &lt;*normalmente é o nome do cliente*>
+* `"key":` &lt;*geralmente o nome do cliente*>
 
 * `"action":` `**access**` ou `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (que indica o [[!DNL AdCloud] espaço de cookies](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (que indica o [[!DNL AdCloud] espaço de cookies](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
-   * `"value":` &lt;*o valor real da ID do cookie do cliente foi recuperado de`AdobePrivacy.js`*>
+   * `"value":` &lt;*o valor real da ID do cookie do cliente, conforme recuperado de`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (que é o [[!DNL Adobe] produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix) que se aplica à solicitação)
+* `"include": **adCloud**` (que é o [[!DNL Adobe] produto](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) que se aplica à solicitação)
 
 * `"regulation": **ccpa**` (que é o regulamento de privacidade que se aplica à solicitação)
 

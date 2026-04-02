@@ -3,9 +3,14 @@ title: Sobre a automatização do gerenciamento de anúncios usando feeds de inv
 description: Saiba mais sobre o gerenciamento avançado de campanhas, que permite gerenciar automaticamente a estrutura da conta e fornecer anúncios dinâmicos com base em dados sobre o inventário de produtos ou serviços.
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Para configurar seus anúncios, crie modelos de feed de estoque contendo variáv
 
 | Seção do modelo [!UICONTROL Ad Variation] | Modificadores no Search, Social e Commerce | Conteúdos do feed | Anúncios resultantes |
 |----|----|----|----|
-| Título: Compre produtos avançados \{<i>Categoria do produto</i>\} &lt;<i>CheapList</i>>.<br><br>Descrição 1: enorme inventário de \{<i>Nome do produto</i>\}.<br><br>Descrição 2: Disponível em \{<i>Porcentagem de desconto</i>\}% de desconto. | Valores para o grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;para barato&quot;<br><br>&quot;com desconto&quot; | Categoria do produto,Nome do produto,Porcentagem de desconto<br>eletrônicos,iPods,10<br><br>vestuário,Camisas,15<br><br><b>Observação:</b> é possível separar valores com vírgulas ou guias. | <u>Compre eletrônicos sofisticados por um preço baixo.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre eletrônicos sofisticados com desconto.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre roupas de alta qualidade a preços acessíveis.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto.<br><br><u>Compre roupas sofisticadas com desconto.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto. |
+| Título: Compre uma lista avançada \{<i>Categoria do produto</i>\} &lt;<i>CheapList</i>>.<br><br>Descrição 1: enorme inventário de \{<i>Nome do produto</i>\}.<br><br>Descrição 2: Disponível em \{<i>Porcentagem de desconto</i>\}% de desconto. | Valores para o grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;para barato&quot;<br><br>&quot;com desconto&quot; | Categoria do produto,Nome do produto,Porcentagem de desconto<br>eletrônicos,iPods,10<br><br>vestuário,Camisas,15<br><br><b>Observação:</b> é possível separar valores com vírgulas ou guias. | <u>Compre eletrônicos sofisticados por um preço baixo.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre eletrônicos sofisticados com desconto.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre roupas de alta qualidade a preços acessíveis.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto.<br><br><u>Compre roupas sofisticadas com desconto.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto. |
 
 Depois de gerar os anúncios, você pode, opcionalmente, revisá-los e, em seguida, publicá-los na rede de anúncios.
 
@@ -39,7 +44,7 @@ Depois de gerar os anúncios, você pode, opcionalmente, revisá-los e, em segui
 
 Inicialmente, teste pelo menos um arquivo de feed ou conta e, em seguida, você pode automatizar totalmente o processo ou continuar a controlá-lo em cada etapa:
 
-1. (Opcional) Entre em contato com a equipe de conta do Adobe para configurar um diretório FTP para depósito de arquivos de dados.
+1. (Opcional) Entre em contato com a equipe de conta da Adobe para configurar um diretório FTP para depositar arquivos de dados.
 
    Se você usar o diretório FTP, o serviço de feed verificará se há novos arquivos a cada duas horas.
 

@@ -3,9 +3,16 @@ title: Dados de bulksheet necessários para  [!DNL Microsoft Advertising] contas
 description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Microsoft Advertising] .
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -232,7 +239,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 
 ### Campos de anúncio de produto (compras)
 
-Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=pt-BR)&quot;.
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 

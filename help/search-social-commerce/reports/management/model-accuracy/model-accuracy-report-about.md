@@ -3,9 +3,18 @@ title: Sobre relatórios de precisão de modelo
 description: Saiba mais sobre os relatórios que indicam a precisão dos modelos de custo e receita usados para otimizar um portfólio.
 exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/0BKAZrYptU0H9WFukiJ33Jw0JdqvpyOQluPPMl5VR3o
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 128
 ht-degree: 0%
 
 ---
@@ -14,7 +23,7 @@ ht-degree: 0%
 
 Os relatórios de precisão do modelo indicam a precisão dos modelos de custo e receita usados para otimizar lances, orçamentos de campanha e metas de estratégia de lance para um portfólio, conforme apropriado para o tipo de otimização e estratégia de lance de campanha.
 
-Imprecisões podem indicar problemas de desempenho, e pode ser necessário ajustar as configurações do portfólio. Para obter mais informações sobre como solucionar problemas de imprecisões de previsão, consulte &quot;Perguntas frequentes sobre Portfolio&quot; na seção Portfolio do Guia de Otimização, que está disponível no Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Imprecisões podem indicar problemas de desempenho, e pode ser necessário ajustar as configurações do portfólio. Para obter mais informações sobre como solucionar problemas de imprecisões de previsão, consulte &quot;Perguntas Frequentes sobre Portfólios&quot; na seção Portfólios do Guia de Otimização, que está disponível em Pesquisa, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Tipos de relatórios de precisão de modelo
 

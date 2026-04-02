@@ -3,9 +3,16 @@ title: '[!UICONTROL AdWords Search Query Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Search Query Report].
 exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: 186
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ O [!UICONTROL AdWords Search Query Report] inclui dados de custo, clique, impres
 
 >[!NOTE]
 >
->Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) de cada dia. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho às 23:00.
+>Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23:00 em 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho em 23:00.
 
 ## Colunas padrão
 

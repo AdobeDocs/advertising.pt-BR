@@ -3,9 +3,16 @@ title: Os dados usados para os relatórios
 description: Saiba mais sobre os diferentes tipos de dados disponíveis em visualizações de dados e relatórios personalizados.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de cliques e conversão. Você pode ver dados básicos de desempenho para os vários componentes de um portfólio ou conta publicitária das visualizações [!UICONTROL Portfolios] e [!UICONTROL Campaigns], bem como gerar vários relatórios básicos e avançados.
 
-Os anunciantes que usam o serviço de rastreamento de conversão de Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice geral de conversão e a distribuição de conversões para uma única [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe da conta do Adobe tem acesso a todos os relatórios.
+Os anunciantes que usam o serviço de rastreamento de conversão da Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice geral de conversão e a distribuição de conversões para uma única [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe de conta da Adobe tem acesso a todos os relatórios.
 
 A maioria dos relatórios pode ser personalizada para exibir apenas as informações que você deseja ver. As seguintes métricas padrão estão disponíveis na maioria dos relatórios e são calculadas no nível do anúncio:
 
@@ -30,7 +37,7 @@ A maioria dos relatórios pode ser personalizada para exibir apenas as informaç
 
    * **[!UICONTROL Average Position]:** (quando aplicável) a posição média de um anúncio que foi colocado, ponderada pelo número de impressões.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados de anunciantes somente com o serviço de rastreamento de conversão de Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
+   * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados de anunciantes somente com o serviço de rastreamento de conversão da Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
 
 * **Métricas de conversão:** o número total de conversões de cada métrica de conversão do anunciante ou dados de transação rastreados em direção a uma métrica de conversão. Isso pode incluir métricas de conversão e envolvimento do site, mas não métricas calculadas e métricas calculadas avançadas, que são sincronizadas do Adobe Analytics.
 

@@ -3,9 +3,24 @@ title: Visão geral de  [!DNL Analytics for Advertising]
 description: Visão geral de  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1223
 ht-degree: 0%
 
 ---
@@ -96,7 +111,7 @@ Para obter mais informações sobre o serviço Experience Cloud Audiences, consu
 
 ### Uso de dados do Adobe Advertising no Analysis Workspace
 
-Para saber como você pode usar os dados do Adobe Advertising para criar relatórios visuais no Analysis Workspace, assista ao vídeo &quot;[Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=pt-BR).&quot;
+Para saber como você pode usar os dados do Adobe Advertising para criar relatórios visuais no Analysis Workspace, assista ao vídeo &quot;[Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 #### Uso de conversões de view-through de TV conectada em relatórios
 
@@ -136,7 +151,7 @@ Para saber como você pode acompanhar seus dados do Adobe Advertising em relaç�
 
 ### Uso da Adobe Advertising ID para análise de entrada de site
 
-Para saber como criar um relatório de entrada de site do Adobe Advertising para monitorar influências de dia da semana, hora do dia, navegador e geográficas, assista ao vídeo &quot;[Criar relatórios de entrada de site do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=pt-BR).&quot;
+Para saber como criar um relatório de entrada de site do Adobe Advertising para monitorar influências de dia da semana, hora do dia, navegador e geográficas, assista ao vídeo &quot;[Criar relatórios de entrada de site do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 ## Como iniciar uma implementação do [!DNL Analytics for Advertising]
 
@@ -144,7 +159,7 @@ Entre em contato com a equipe de conta da Adobe, que concluirá a configuração
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introdução a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=pt-BR)
+>* [Vídeo: Introdução a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [Pré-requisitos e informações-chave para implementação [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising IDs usadas pelo Analytics](ids.md)
 >* [Código JavaScript do Analytics para Advertising](/help/integrations/analytics/javascript.md)

@@ -3,9 +3,14 @@ title: '[!DNL Microsoft Advertising] configurações de anúncios multimídia'
 description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios multimídia.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -36,9 +41,9 @@ Consulte as taxas de proporção e dimensões permitidas para [anúncios multim�
 
 **[!UICONTROL Ad Text]:** Pelo menos duas e até quatro descrições com pelo menos uma palavra e no máximo 90 caracteres cada.
 
-**[!UICONTROL Call to Action]:** O plano de ação a ser incluído no anúncio. Por padrão, a opção Automatizado está selecionada e a rede de anúncios seleciona o plano de ação. Como opção, você pode escolher uma ação diferente.
+**[!UICONTROL Call to Action]:** A call to action a ser incluída no anúncio. Por padrão, a opção Automatizado está selecionada e a rede de anúncios seleciona a call to action. Como opção, você pode escolher uma ação diferente.
 
-**[!UICONTROL Call to Action Language]:** O idioma para as opções de chamada para ação.
+**[!UICONTROL Call to Action Language]:** O idioma das opções do call to action.
 
 ## [!UICONTROL Tracking URLs]
 

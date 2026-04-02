@@ -3,9 +3,16 @@ title: Configurações do feed de relatório de planilha
 description: Saiba mais sobre as configurações para feeds de planilha.
 exl-id: 88836c15-81fe-4fe7-8321-2c984b4dcb5d
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/4JPflN5lVXkNf2nWszh-LznW2xNaMkQMGPOxo6Ac2WU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: 513
 ht-degree: 0%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Back Fill From] | A data inicial para a qual os dados existentes na guia [!UICONTROL RAW] são atualizados, representada por um número de dias no passado. Insira um valor de até 90 dias; o padrão é sete (7) dias.<br><br>Por exemplo, se o valor for 7 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] que começam com 1º de março serão atualizados (até a data final especificada pelo parâmetro [!UICONTROL Back Fill Until]). As linhas de dados existentes para datas anteriores a 1º de março não são excluídas, mas não são atualizadas. |
 | [!UICONTROL Back Fill Until] | A data final para a qual os dados existentes na guia [!UICONTROL RAW] são atualizados, representada por um número de dias no passado. O valor padrão é um (1) dia.<br><br>Por exemplo, se esse valor for 1 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] serão atualizados até 6 de março (e começando com a data de início especificada pelo parâmetro [!UICONTROL Back Fill From]). Se esse valor for 1, o parâmetro [!UICONTROL Back Fill Until] for 7 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] serão atualizados de 1º de março a 6 de março. Em ambos os exemplos, as linhas de dados existentes para datas após 6 de março não são excluídas, mas não são atualizadas. |
 | [!UICONTROL Email Recipients] | Endereços de email nos quais enviar notificações sempre que o relatório for atualizado ou sempre que o relatório for executado quando o modelo incluir um agendamento. Por padrão, o endereço da conta de usuário é inserido. Para especificar vários endereços, separe-os com vírgulas, espaços ou novas linhas. |
-| [!UICONTROL Schedule Time] | A hora em que os feeds de planilha são atualizados: às 08:00 ou a qualquer hora entre 10:00 e 23:00 no fuso horário do anunciante. O padrão para novos feeds de planilha é 10h.<br><br><b>Observação:</b> por motivos de desempenho, você não pode atualizar os feeds de planilha às 9:00, quando outros relatórios forem gerados. |
+| [!UICONTROL Schedule Time] | A hora em que os feeds de planilha são atualizados: às 08:00 ou a qualquer hora entre 10:00 e 23:00 no fuso horário do anunciante. O padrão para novos feeds de planilha é 10:00.<br><br><b>Observação:</b> por motivos de desempenho, você não pode atualizar os feeds de planilha à(s) 09:00 quando outros relatórios são gerados. |
 | [!UICONTROL Email Notification] | (Quando Destinatários de email são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>Anexar feed</i> — Para enviar uma cópia do relatório concluído no formato XLSX. Se o arquivo tiver mais de 10 MB, a notificação não incluirá um anexo.</li><li><i>Somente notificação</i> (o padrão) — Para enviar apenas uma notificação da conclusão ou falha do relatório, com um link para o relatório.</li></ul> |
 
 >[!MORELIKETHIS]

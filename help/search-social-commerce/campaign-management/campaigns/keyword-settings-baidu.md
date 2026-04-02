@@ -3,9 +3,16 @@ title: Configurações de palavra-chave [!DNL Baidu]
 description: Referencie as configurações de  [!DNL Baidu] palavras-chave.
 exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/uMU0oAkL8rmsOIMXYR8qgp9-upe2qWIK-ev1YtPQUb4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 230
 ht-degree: 0%
 
 ---
@@ -43,7 +50,7 @@ redirecionamento e código de rastreamento de terceiros. Se você inserir um val
 
 Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscimo configurados para a campanha ou conta.
 
-Se você usar o serviço de rastreamento de conversão de Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] e a adição de rastreamento no nível de palavra-chave, Search, Social e Commerce adicionarão automaticamente seu próprio código de rastreamento de cliques.
+Se você usar o serviço de rastreamento de conversão da Adobe Advertising e as configurações da campanha incluírem o uso de [!UICONTROL EF Redirect] e a adição de rastreamento no nível da palavra-chave, o Search, o Social e o Commerce adicionarão automaticamente seu próprio código de rastreamento de cliques.
 
 >[!MORELIKETHIS]
 >

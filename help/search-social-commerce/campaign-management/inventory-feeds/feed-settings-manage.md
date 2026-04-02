@@ -3,9 +3,14 @@ title: Definir configurações de dados de feed
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ O nível de estoque para cada item de linha vem de uma coluna no arquivo de feed
 >[!NOTE]
 >
 >* Para arquivos FTP, o serviço de feed verifica se há atualizações no diretório FTP a cada duas horas (horas pares no fuso horário PST). Essa opção processa todos os arquivos que foram carregados desde a última verificação.
->* Para contas do centro do comerciante, o Search, Social e Commerce sincroniza com a conta diariamente às 6:00, aproximadamente, no fuso horário do anunciante. Essa opção processa todos os dados atualizados desde a última sincronização.
+>* Para contas do centro do comerciante, o Search, Social e Commerce sincroniza com a conta diariamente às 06:00, aproximadamente, no fuso horário do anunciante. Essa opção processa todos os dados atualizados desde a última sincronização.
 >* Os dados propagados ficam disponíveis nas guias [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] até que os dados sejam postados na rede de publicidade ou na exibição [!UICONTROL Bulksheets].
 
 **[!UICONTROL Post to the SE]:** (Anunciantes carregando arquivos de dados via FTP ou uma conta do centro de comércio) Cria automaticamente arquivos de bulksheet nos formatos corretos para as redes de anúncios relevantes depois que novos dados são propagados pelos modelos aplicáveis. Essa opção também remove os dados das guias [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads], a menos que qualquer subcomponente tenha erros.

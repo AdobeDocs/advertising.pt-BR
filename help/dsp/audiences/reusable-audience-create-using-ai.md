@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *recurso do Beta*
 
 *Suporte somente para inglês*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
       Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
-      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
+      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo booleana com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
 
       Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
 
    1. Quando o agente de público-alvo apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
 
-      Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
+      Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Expanda qualquer característica para ver detalhes sobre os segmentos individuais sugeridos para aquela característica.
 
    1. (Se necessário) Especifique critérios adicionais. Quando o agente de público-alvo apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
 
-      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante.
+      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Expanda qualquer característica para ver detalhes sobre os segmentos individuais sugeridos para aquela característica.
 
 1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
 

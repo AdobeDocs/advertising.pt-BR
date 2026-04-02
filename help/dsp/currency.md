@@ -29,7 +29,7 @@ O Adobe Advertising oferece suporte às seguintes moedas.
 
 >[!NOTE]
 >
->O Adobe Analytics oferece suporte a [um conjunto maior de moedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>O Adobe Analytics oferece suporte a [um conjunto maior de moedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=pt-BR).
 
 ## DSP e CREATIVE
 

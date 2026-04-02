@@ -49,7 +49,7 @@ Principais benefícios:
 
 >[!TIP]
 >
-> Assista a uma [introdução de vídeo [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Assista a uma [introdução de vídeo [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=pt-BR#analytics).
 
 ## Utilização do Analytics para relatórios de mídia paga
 
@@ -101,11 +101,11 @@ Consulte &quot;[Métricas do Analytics no Adobe Advertising](analytics-data-in-a
 
 O Adobe Advertising pode assimilar [!DNL Analytics] segmentos para fins de remarketing para o Advertising DSP e [!DNL Search, Social, & Commerce] anúncios usando a integração nativa de Públicos da Experience Cloud entre o [!DNL Analytics] e o Experience Cloud.
 
-Para acessar os segmentos [!DNL Analytics], uma conta de anunciante deve habilitar o [Serviço de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). Quando o Serviço de ID está habilitado, todos os segmentos do Experience Cloud (incluindo segmentos criados em [!DNL Analytics] e publicados na Experience Cloud, segmentos criados no Adobe Audience Manager, segmentos criados no Experience Cloud usando o [!DNL People core service] e segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising via Audience Manager) ficam disponíveis no Adobe Advertising assim que são processados.
+Para acessar os segmentos [!DNL Analytics], uma conta de anunciante deve habilitar o [Serviço de Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Quando o Serviço de ID está habilitado, todos os segmentos do Experience Cloud (incluindo segmentos criados em [!DNL Analytics] e publicados na Experience Cloud, segmentos criados no Adobe Audience Manager, segmentos criados no Experience Cloud usando o [!DNL People core service] e segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising via Audience Manager) ficam disponíveis no Adobe Advertising assim que são processados.
 
 [!DNL Analytics] segmentos estão disponíveis em 24 horas e são atualizados diariamente.
 
-Para obter mais informações sobre o serviço Experience Cloud Audiences, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Para obter mais informações sobre o serviço Experience Cloud Audiences, consulte [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR).
 
 ## Exemplos de como usar a integração do {#integration-examples}
 
@@ -147,7 +147,7 @@ Uso da exibição Canal de marketing:
 
 ### Criação de painéis do Adobe Advertising
 
-Para saber como você pode acompanhar seus dados do Adobe Advertising em relação às suas metas no Analysis Workspace, assista ao vídeo &quot;[Criar painéis do Adobe Advertising com o Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)&quot;.
+Para saber como você pode acompanhar seus dados do Adobe Advertising em relação às suas metas no Analysis Workspace, assista ao vídeo &quot;[Criar painéis do Adobe Advertising com o Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=pt-BR)&quot;.
 
 ### Uso da Adobe Advertising ID para análise de entrada de site
 

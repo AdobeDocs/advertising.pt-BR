@@ -62,7 +62,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso de P
 
 1. [Entrar no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR):
 
    1. No campo **[!UICONTROL Enter Activity URL]**, insira a URL da página de aterrissagem do teste.
 
@@ -93,7 +93,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso de P
 
    1. Salve a atividade.
 
-1. Use o [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para fazer alterações de design no modelo de página de aterrissagem de teste A/B.
+1. Use o [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR) para fazer alterações de design no modelo de página de aterrissagem de teste A/B.
 
    * Experiência A: não edite porque é a experiência padrão/de controle da página de aterrissagem sem personalização.
 

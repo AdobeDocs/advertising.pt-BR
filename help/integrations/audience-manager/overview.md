@@ -69,6 +69,6 @@ Consulte &quot;[Visão geral do envio de dados de exposição de mídia do DSP p
 
 ## Obtenha insights mais avançados sobre a atividade do site com o Audience Analytics
 
-Os clientes do Adobe Advertising com [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) podem enviar dados rastreados pela Adobe Advertising e segmentos do Audience Manager para o [!DNL Analytics] para obter insights enriquecidos sobre a atividade do site.
+Os clientes do Adobe Advertising com [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=pt-BR) podem enviar dados rastreados pela Adobe Advertising e segmentos do Audience Manager para o [!DNL Analytics] para obter insights enriquecidos sobre a atividade do site.
 
 Para obter mais informações, consulte &quot;[[!DNL Adobe Audience Analytics] para clientes do Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md)&quot;.

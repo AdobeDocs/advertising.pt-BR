@@ -87,7 +87,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).
 
 ## Recuperação de relatórios de consumidores que enviaram solicitações de não participação na venda
 
@@ -144,7 +144,7 @@ curl -X POST \
 }'
 ```
 
-onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica o espaço de cookies `AdCloud`, e o valor correspondente é a ID do cookie do cliente conforme recuperada de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que a solicitação se aplica ao produto Adobe Advertising

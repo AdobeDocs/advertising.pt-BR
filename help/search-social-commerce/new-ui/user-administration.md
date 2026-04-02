@@ -130,7 +130,7 @@ Siga este fluxo de trabalho para cada instância de cliente do Search, Social e 
 
 1. [Entre no Adobe Admin Console e abra-o no Search, Social e Commerce](#open-admin-console).
 
-1. Conforme necessário, crie usuários finais [individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) ou [em massa](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+1. Conforme necessário, crie usuários finais [individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou [em massa](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
 1. (Opcional) Crie [grupos de usuários](https://helpx.adobe.com/enterprise/using/user-groups.html) para a instância e atribua usuários a cada grupo de usuários.
 

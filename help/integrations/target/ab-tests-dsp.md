@@ -96,7 +96,7 @@ Ao adicionar um pixel de evento de impressão do Audience Manager em suas tags d
 
       1. [Procure o sinal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) para o [par de valores-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) que determina em qual nível os usuários do segmento são agrupados.
 
-         Use uma [chave com suporte](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) com um valor que corresponda a uma macro adicionada ao pixel de evento de impressão do Audience Manager.
+         Use uma [chave com suporte](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=pt-BR) com um valor que corresponda a uma macro adicionada ao pixel de evento de impressão do Audience Manager.
 
          Por exemplo, para agrupar usuários para um posicionamento específico, use a chave `d_placement`. Para o valor, use uma ID de posicionamento numérico real (como 2501853) capturada pela macro do DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
@@ -120,7 +120,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso do D
 
 1. [Entrar no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR):
 
    1. No campo **[!UICONTROL Enter Activity URL]**, insira a URL da página de aterrissagem do teste.
 
@@ -152,7 +152,7 @@ As instruções a seguir destacam informações relacionadas ao caso de uso do D
 
    1. Salve a atividade.
 
-1. Use o [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para fazer alterações de design no modelo de página de aterrissagem de teste A/B.
+1. Use o [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR) para fazer alterações de design no modelo de página de aterrissagem de teste A/B.
 
    * Experiência A: não edite porque é a experiência padrão/de controle da página de aterrissagem sem personalização.
 
@@ -210,10 +210,10 @@ No Analysis Workspace, se você notar que os dados de atividade e experiências 
 
 ## Leitura adicional
 
-* [Integrar o Target ao Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explica como configurar relatórios do [!DNL Target] no Analysis Workspace.
-* [Visão geral do teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Descreve as atividades do teste A/B, que você pode usar com anúncios do DSP.
+* [Integrar o Target ao Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=pt-BR) - Explica como configurar relatórios do [!DNL Target] no Analysis Workspace.
+* [Visão geral do teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=pt-BR) - Descreve as atividades do teste A/B, que você pode usar com anúncios do DSP.
 * [Experiências e ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Explica as ferramentas [!DNL Target] para determinar o conteúdo no site ao qual os usuários de teste do DSP estão expostos.
-* [Sinais, Características e Segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Define algumas das ferramentas do Audience Manager que podem ajudar no teste view-through do DSP.
+* [Sinais, Características e Segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=pt-BR) - Define algumas das ferramentas do Audience Manager que podem ajudar no teste view-through do DSP.
 * [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Apresenta o [!DNL Analytics for Advertising], que permite rastrear interações de site click-through e view-through nas instâncias do Analytics.
 
 >[!MORELIKETHIS]

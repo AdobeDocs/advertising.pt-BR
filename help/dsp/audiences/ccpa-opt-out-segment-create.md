@@ -30,7 +30,7 @@ Depois que a tag de pixel de segmento é implementada, o Adobe Advertising come�
 
 >[!NOTE]
 >
->* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA ao Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
+>* Para obter informações sobre como comunicar solicitações de cancelamento de venda do CCPA ao Adobe Advertising usando a API do Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=pt-BR).
 >* Para rastrear usuários que visitam páginas da Web para fins não relacionados ao rastreamento de eventos de não participação de venda do CCPA, bem como usuários expostos a anúncios de dispositivos de desktop, móveis e CTV, crie um [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 1. Crie o segmento:

@@ -34,7 +34,7 @@ Você pode usar as métricas de evento de sucesso para otimizar pacotes do DSP e
 
 A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Analytics] ou outro usuário. Se precisar de assistência, entre em contato com a equipe de conta da Adobe.
 
-1. Em [!DNL Analytics], [crie um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. Em [!DNL Analytics], [crie um evento bem-sucedido de espaço reservado](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Use os seguintes parâmetros adicionais:
 
@@ -56,7 +56,7 @@ A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Ana
    >
    >Somente administradores de conta do [!DNL Analytics] podem criar regras de processamento, a menos que tenham concedido permissão para não administradores.
 
-   1. [Criar uma regra de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), usando esta configuração:
+   1. [Criar uma regra de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=pt-BR), usando esta configuração:
 
       * Para a condição que deve ser atendida, especifique o(s) [!DNL eVars] ou [!DNL props] necessário(s).
 
@@ -68,7 +68,7 @@ A maioria das tarefas a seguir deve ser executada por um administrador [!DNL Ana
 
       * Para a ação, selecione **Definir Evento** e selecione o evento de espaço reservado.
 
-   1. Em [!DNL Analytics] [!DNL Analysis Workspace], [crie um projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e coloque o novo evento em uma tabela de forma livre para garantir que os dados sejam preenchidos para a métrica [!DNL eVar] ou [!DNL prop].
+   1. Em [!DNL Analytics] [!DNL Analysis Workspace], [crie um projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) e coloque o novo evento em uma tabela de forma livre para garantir que os dados sejam preenchidos para a métrica [!DNL eVar] ou [!DNL prop].
 
 1. Entre em contato com a equipe de conta da Adobe para sincronizar a nova métrica com o Adobe Advertising.
 

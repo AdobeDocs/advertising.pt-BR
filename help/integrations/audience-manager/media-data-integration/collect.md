@@ -4,25 +4,14 @@ description: Saiba como capturar eventos de impressões e cliques baseados em co
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -39,7 +28,7 @@ Os pixels do evento não capturam eventos que ocorrem em ambientes sem cookies, 
 
 ## Etapa 1: configurar uma fonte de dados no Audience Manager {#set-up-data-source}
 
-No Audience Manager, crie uma [fonte de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=pt-BR) para a impressão do DSP e clique em dados. Inclua a ID da fonte de dados [em cada marca de evento](#implement-dsp-pixels) para que todos os eventos rastreados sejam atribuídos à fonte de dados.
+No Audience Manager, crie uma [fonte de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) para a impressão do DSP e clique em dados. Inclua a ID da fonte de dados [em cada marca de evento](#implement-dsp-pixels) para que todos os eventos rastreados sejam atribuídos à fonte de dados.
 
 >[!NOTE]
 > É possível coletar todos os dados de impressão e cliques para campanhas de publicidade executadas em vários DSPs em uma única fonte de dados.
@@ -50,7 +39,7 @@ Os anunciantes podem criar e implementar tags de evento para suas próprias marc
 
 >[!NOTE]
 >
->Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR).
+>Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Sintaxe de pixel
 
@@ -84,21 +73,21 @@ Onde:
 
 **Formato:** `d_parameter=parameter_id`
 
-    onde:
-    
-    * o parâmetro tem o prefixo `&amp;`
-    
-    * `parameter` e é substituído pelo par de valores chave para o novo campo
-    
-    Exemplo: `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
+em que:
+
+* o parâmetro tem o prefixo `&`
+
+* `parameter` é substituído pelo par chave-valor para o novo campo
+
+*Exemplo:* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 Ambos os tipos de pixel podem conter parâmetros adicionais, como *pares de valores-chave*, para coletar características ou fornecer metadados de campanha (como um nome de posicionamento ou de campanha) para outros relatórios. Um par chave-valor consiste em dois elementos relacionados: uma *chave*, que é uma constante que define o conjunto de dados, e um *valor*, que é uma variável que pertence ao conjunto.
 
 No par de valores chave, a variável valor pode ser uma ID embutida em código ou uma *macro*, que é uma pequena unidade de código independente substituída dinamicamente pelos valores correspondentes quando a tag de anúncio é carregada para rastreamento de campanha e usuário. Para parâmetros relacionados à campanha, você pode usar [macros do DSP](/help/dsp/campaign-management/macros.md) em vez das macros do Audience Manager para enviar atributos de campanha junto com a impressão correspondente ou dados de cliques para a Audience Manager, usando um único pixel em todos os anúncios. As macros do DSP inseridas nos pixels do evento devem ser valores apropriados para os pares de valores chave incluídos nos pixels. Por exemplo, para a chave `d_placement`, você usaria a macro do DSP `${TM_PLACEMENT_ID_NUM}` como o valor para capturar IDs de posicionamento geradas pela macro do Adobe Advertising.
 
-Para obter uma lista de macros compatíveis com o Audience Manager para pixels de evento de impressão, consulte &quot;[Capturando dados de impressão da campanha por meio de chamadas de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=pt-BR#supported-key-value-pairs)&quot;.
+Para obter uma lista de macros compatíveis com o Audience Manager para pixels de evento de impressão, consulte &quot;[Capturando dados de impressão da campanha por meio de chamadas de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;.
 
-Para obter uma lista de macros compatíveis com pixels de evento de clique no Audience Manager, consulte &quot;[Capturando dados de clique da campanha por meio de chamadas de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=pt-BR)&quot;.
+Para obter uma lista de macros compatíveis com pixels de evento de clique no Audience Manager, consulte &quot;[Capturando dados de clique da campanha por meio de chamadas de pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;.
 
 >[!TIP]
 >
@@ -117,7 +106,7 @@ Exemplo de um pixel de evento de impressão:
 
 Anexe um pixel de rastreamento de eventos de impressão a todos os anúncios nas campanhas do [!DNL DSP]. Você pode fazer isso em qualquer um dos seguintes locais:
 
-* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+* No nível de posicionamento, que aplica o pixel por padrão a todos os anúncios no posicionamento. Na seção Rastreamento das configurações de posicionamento, adicione o pixel no campo [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 * No nível do anúncio, que substitui quaisquer pixels de evento no nível de posicionamento. Nas configurações do anúncio, [crie um pixel de evento na [!UICONTROL Pixel] guia](/help/dsp/campaign-management/ads/ad-edit.md).
 
@@ -133,11 +122,11 @@ Depois que as tags de evento são implementadas, os dados fluem para os servidor
 
 ### Criar um bucket e uma fonte de dados do [!DNL Amazon S3]
 
-Quando os dados estiverem nos servidores Audience Manager, você deverá criar um bucket do [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e, em seguida, uma fonte de dados para a qual todos os dados de pixels serão enviados. Entre em contato com seu consultor da Audience Manager ou com o [Atendimento ao cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=pt-BR) se precisar de suporte.
+Quando os dados estiverem nos servidores Audience Manager, você deverá criar um bucket do [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e, em seguida, uma fonte de dados para a qual todos os dados de pixels serão enviados. Entre em contato com seu consultor da Audience Manager ou com o [Atendimento ao cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) se precisar de suporte.
 
 ### Criar características e segmentos do Audience Manager
 
-Seus dados de evento fluem para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=pt-BR). Crie manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=pt-BR) a partir dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=pt-BR) usando essas características, antes de poder usar os dados nos relatórios.
+Seus dados de evento fluem para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Crie manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) a partir dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) usando essas características, antes de poder usar os dados nos relatórios.
 
 Exemplo de característica que preenche dados no nível do usuário para usuários expostos a um criativo específico no DSP:
 

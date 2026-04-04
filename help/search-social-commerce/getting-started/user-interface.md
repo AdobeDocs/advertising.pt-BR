@@ -4,16 +4,12 @@ description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +44,17 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Abre uma nova exibição [!UICONTROL Objectives], na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos.
 
-   * **[!UICONTROL Conversions]** Sai do novo site e abre a visualização [!UICONTROL Admin] > [!UICONTROL Conversions] herdada.
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** Abre exibições somente leitura das regras de valor de conversão no nível da campanha e da conta. Para gerenciar suas regras de valor de conversão, use a visualização [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** Abre exibições somente leitura das regras de valor de conversão no nível da campanha e da conta. Para gerenciar suas regras de valor de conversão, use a visualização [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Constraints]** Sai do novo site e abre a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada.
+* **[!UICONTROL Constraints]** Abre uma exibição somente leitura de suas restrições existentes. Para gerenciar suas restrições, use a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenu **[!UICONTROL Plan]**:
 
    * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sai do novo site e abre a visualização [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] herdada.
-
-   * **[!UICONTROL Label Classification]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Label Classifications] herdada.
 
 * Submenu **[!UICONTROL Manage]**:
 
@@ -90,9 +84,15 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
    * **[!UICONTROL History Logs]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Change History] herdada.
 
+   * **[!UICONTROL Label Classification]** Abre uma nova visualização [!UICONTROL Label Classifications]. É possível gerenciar classificações e atribuir/cancelar atribuição de valores de classificação a qualquer componente de conta aplicável que esteja disponível na nova interface do usuário.
+
+   * **[!UICONTROL Bulksheets]**: Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] herdada.
+
 * Submenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: Abre uma nova visualização [!UICONTROL Audiences], que mostra todos os públicos existentes para o anunciante. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: abre uma nova visualização [!UICONTROL Audiences], que mostra todos os públicos existentes para o anunciante, todos os destinos de público e todas as exclusões de público. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+
+   * **[!UICONTROL Auto Targets]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
 
    * **[!UICONTROL Keywords]** Abre uma nova visualização [!UICONTROL Keywords], que mostra palavras-chave existentes e palavras-chave negativas para o anunciante. Você pode gerenciar atribuições de restrição para palavras-chave selecionadas.
 
@@ -104,8 +104,6 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
 * Submenu **[!UICONTROL Assets]**:
 
-   * **[!UICONTROL Auto Targets]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
-
    * **[!UICONTROL Creatives]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
 
    * **[!UICONTROL Extensions]** Abre exibições somente leitura de suas extensões de anúncios existentes. Para gerenciar suas extensões, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
@@ -114,13 +112,15 @@ Sua função determina as opções disponíveis:<!-- add link when available -->
 
 * Submenu **[!UICONTROL Set Up]**:
 
-   * **[!UICONTROL Accounts]**: Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Manager Accounts]**: Sai do novo site e abre a visualização [!UICONTROL Admin] > [!UICONTROL Manager Accounts] herdada.
+
+   * **[!UICONTROL Accounts]**: Abre uma nova visualização [!UICONTROL Accounts]. Você pode gerenciar contas de rede de publicidade sincronizadas por meio de uma conexão de API ou configuradas por meio de upload de dados. Você também pode gerenciar contas existentes do [!UICONTROL Naver].
+
+   * **[!UICONTROL Import Campaigns]**: Sai do novo site e abre a visualização [!UICONTROL Tools] > [!UICONTROL Import Campaigns] herdada.
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +128,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

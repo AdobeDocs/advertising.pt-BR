@@ -4,11 +4,9 @@ description: Saiba mais sobre como usar as classificações de etiquetas para ag
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +29,7 @@ Cada entidade elegível pode ter valores de etiqueta para várias classificaçõ
 
 ## A exibição Classificações de etiquetas
 
-Na interface herdada, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Na nova interface, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+Na nova interface, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. Na interface herdada, a exibição [!UICONTROL Labels Classifications] está em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 A exibição [!UICONTROL Labels Classifications] inclui subexibições [!UICONTROL Classifications] e [!UICONTROL Label Values]. Você pode exibir dados para suas classificações de etiquetas, [criar](classification-create.md) e [excluir](classification-delete.md) classificações de etiquetas e exibir dados para seus valores de classificação de etiquetas. Por padrão, são exibidos dados para suas classificações e valores de etiqueta em nível de palavra-chave, mas é possível exibir dados para classificações e valores em nível de anúncio.
 

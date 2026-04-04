@@ -69,7 +69,7 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    1. Configurar o rastreamento de conversão. Dependendo da implementação, isso pode envolver a adição de tags de rastreamento de conversão às páginas da Web do anunciante e/ou a configuração de uma queda de feed diária para dados de conversão que o anunciante coletou separadamente.
 
-      Se você usa o serviço de rastreamento de conversão da Adobe Advertising, é possível [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar [tags da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conhecida como Adobe Experience Platform Launch).
+      Se você usa o serviço de rastreamento de conversão da Adobe Advertising, é possível [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar [tags da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=pt-BR) (anteriormente conhecida como Adobe Experience Platform Launch).
 
    1. Valide os dados que são rastreados.
 

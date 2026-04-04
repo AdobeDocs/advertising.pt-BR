@@ -44,7 +44,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 Para problemas de produto ou conta, faça o seguinte:
 
-* (Anunciantes com contratos de autoatendimento) Abra um tíquete para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Anunciantes com contratos de autoatendimento) Abra um tíquete para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
 
   Para o produto, selecione &quot;[!UICONTROL Advertising - Search, Social, & Commerce].&quot;
 

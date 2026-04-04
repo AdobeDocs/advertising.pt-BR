@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Os pixels do evento não capturam eventos que ocorrem em ambientes sem cookies, 
 
 ## Etapa 1: configurar uma fonte de dados no Audience Manager {#set-up-data-source}
 
-No Audience Manager, crie uma [fonte de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) para a impressão do DSP e clique em dados. Inclua a ID da fonte de dados [em cada marca de evento](#implement-dsp-pixels) para que todos os eventos rastreados sejam atribuídos à fonte de dados.
+No Audience Manager, crie uma [fonte de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=pt-BR) para a impressão do DSP e clique em dados. Inclua a ID da fonte de dados [em cada marca de evento](#implement-dsp-pixels) para que todos os eventos rastreados sejam atribuídos à fonte de dados.
 
 >[!NOTE]
 > É possível coletar todos os dados de impressão e cliques para campanhas de publicidade executadas em vários DSPs em uma única fonte de dados.
@@ -84,13 +84,13 @@ Onde:
 
 **Formato:** `d_parameter=parameter_id`
 
-    onde:
-    
-    * o parâmetro tem o prefixo `&amp;`
-    
-    * `parameter` e é substituído pelo par de valores chave para o novo campo
-    
-    Exemplo: `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
+em que:
+
+* o parâmetro tem o prefixo `&`
+
+* `parameter` é substituído pelo par chave-valor para o novo campo
+
+*Exemplo:* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 Ambos os tipos de pixel podem conter parâmetros adicionais, como *pares de valores-chave*, para coletar características ou fornecer metadados de campanha (como um nome de posicionamento ou de campanha) para outros relatórios. Um par chave-valor consiste em dois elementos relacionados: uma *chave*, que é uma constante que define o conjunto de dados, e um *valor*, que é uma variável que pertence ao conjunto.
 
@@ -133,11 +133,11 @@ Depois que as tags de evento são implementadas, os dados fluem para os servidor
 
 ### Criar um bucket e uma fonte de dados do [!DNL Amazon S3]
 
-Quando os dados estiverem nos servidores Audience Manager, você deverá criar um bucket do [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e, em seguida, uma fonte de dados para a qual todos os dados de pixels serão enviados. Entre em contato com seu consultor da Audience Manager ou com o [Atendimento ao cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) se precisar de suporte.
+Quando os dados estiverem nos servidores Audience Manager, você deverá criar um bucket do [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e, em seguida, uma fonte de dados para a qual todos os dados de pixels serão enviados. Entre em contato com seu consultor da Audience Manager ou com o [Atendimento ao cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=pt-BR) se precisar de suporte.
 
 ### Criar características e segmentos do Audience Manager
 
-Seus dados de evento fluem para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=pt-BR). Crie manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) a partir dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=pt-BR) usando essas características, antes de poder usar os dados nos relatórios.
+Seus dados de evento fluem para o Audience Manager como [sinais não utilizados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=pt-BR). Crie manualmente [características com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=pt-BR) a partir dos dados assimilados e, em seguida, crie [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=pt-BR) usando essas características, antes de poder usar os dados nos relatórios.
 
 Exemplo de característica que preenche dados no nível do usuário para usuários expostos a um criativo específico no DSP:
 

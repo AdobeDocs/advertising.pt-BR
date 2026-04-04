@@ -13,9 +13,9 @@ subfeature_v2:
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +40,21 @@ Você também pode [anexar anúncios a inserções](/help/dsp/campaign-managemen
 
 1. Nas configurações de [!UICONTROL Ad & Campaign Selection], selecione os anúncios a serem usados para o posicionamento:
 
-       1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
-       
-       1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio a ser usado para a negociação.
-       
-       1. Clique em **[!UICONTROL Apply]**.
-   
-   1. Na tela de configurações de posicionamento:
+   1. Selecione o anunciante, a campanha e o tipo de anúncio. Opcionalmente, selecione um status de anúncio pelo qual filtrar os anúncios.
 
-      1. Insira o nome da disposição.
+   1. Na lista de anúncios disponíveis, marque a caixa de seleção ao lado de cada anúncio a ser usado para a negociação.
 
-      1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é automaticamente preenchida com o valor de CPM da oferta, a alteração do intervalo de datas ou a anexação de mais anúncios.
+   1. Clique em **[!UICONTROL Apply]**.
+
+1. Na tela de configurações de posicionamento:
+
+   1. Insira o nome da disposição.
+
+   1. (Opcional) Edite as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md), incluindo a substituição da oferta padrão, que é automaticamente preenchida com o valor de CPM da oferta, a alteração do intervalo de datas ou a anexação de mais anúncios.
 
       A negociação é direcionada automaticamente na seção Metas de Inventário. Todas as outras opções de direcionamento são inaplicáveis.
 
-      1. Clique em **[!UICONTROL Create placement]**.
+   1. Clique em **[!UICONTROL Create placement]**.
 
 O posicionamento começa a ser executado depois que o editor ativa a ID de contrato PG.
 

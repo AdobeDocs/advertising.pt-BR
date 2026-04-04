@@ -63,7 +63,7 @@ O Audience Manager rastreia cliques de forma semelhante às impressões, exceto 
 
 >[!NOTE]
 >
->Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR).
 
 >[!MORELIKETHIS]
 >

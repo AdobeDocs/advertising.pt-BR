@@ -102,7 +102,7 @@ Não defina o valor do canal para a ID do AMO. Em vez disso, defina-o como algo 
 
 ### Regra de pesquisa natural
 
-Para [!UICONTROL Natural Search], verifique se suas [[!UICONTROL Paid Search] regras de detecção](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluem os parâmetros de cadeia de caracteres de consulta `ef_id` e `s_kwcid`. (Normalmente, isso é configurado automaticamente quando o Advertising Search, Social e Commerce é integrado ao [!DNL Analytics], mas verifique se um administrador do [!DNL Analytics] alterou a lógica após a configuração da integração.)
+Para [!UICONTROL Natural Search], verifique se suas [[!UICONTROL Paid Search] regras de detecção](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluem os parâmetros de cadeia de caracteres de consulta `ef_id` e `s_kwcid`. (Normalmente, isso é configurado automaticamente quando o Advertising Search, Social e Commerce é integrado ao [!DNL Analytics], mas verifique se um administrador do [!DNL Analytics] alterou a lógica após a configuração da integração.)
 
 Defina a regra como &quot;Corresponde às regras de detecção de pesquisa natural&quot; (que geralmente é a configuração padrão desse canal).
 

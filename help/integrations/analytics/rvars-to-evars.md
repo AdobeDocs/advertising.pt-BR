@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-Se você usar variáveis reservadas para capturar a [ID AMO e a EF ID](ids.md) da integração do [!DNL Analytics for Advertising], será possível preparar seus dados para a integração entre o Adobe Advertising e o [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), que é a solução [!DNL analytics] da próxima geração da Adobe, copiando suas variáveis reservadas para a AMO ID e a EF ID no [standard [!DNL eVars]](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/evar) assim que possível. Isso permitirá a coleta de dados históricos para as IDs AMO e EF assim que você concluir a tarefa. A equipe de conta da Adobe informará se você usa variáveis reservadas e precisará concluir essa tarefa.
+Se você usar variáveis reservadas para capturar a [ID AMO e a EF ID](ids.md) da integração do [!DNL Analytics for Advertising], será possível preparar seus dados para a integração entre o Adobe Advertising e o [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), que é a solução [!DNL analytics] da próxima geração da Adobe, copiando suas variáveis reservadas para a AMO ID e a EF ID no [standard [!DNL eVars]](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/evar) assim que possível. Isso permitirá a coleta de dados históricos para as IDs AMO e EF assim que você concluir a tarefa. A equipe de conta da Adobe informará se você usa variáveis reservadas e precisará concluir essa tarefa.
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -42,7 +42,7 @@ O Customer Journey Analytics permite sincronizar dados do Adobe Experience Platf
 
 A Adobe Advertising está criando uma solução para enviar automaticamente os dados ao Customer Journey Analytics. Quando a solução for lançada, a Adobe Advertising começará a enviar dados para sua ID AMO e ID EF para uso no Customer Journey Analytics, mas não existirão dados históricos anteriores à data de lançamento.
 
-No entanto, você pode começar a coletar dados para suas IDs AMO e EF IDs mais cedo criando uma [[!DNL Analytics] regra de processamento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) simples para copiar suas IDs AMO e EF IDs para o [!DNL eVars] agora. Depois de criar a regra de processamento, você começará a acumular dados para suas IDs AMO e IDs EF assim que eles rastrearem novos eventos. Os dados históricos estarão disponíveis na Customer Journey Analytics assim que a solução estiver disponível.
+No entanto, você pode começar a coletar dados para suas IDs AMO e EF IDs mais cedo criando uma [[!DNL Analytics] regra de processamento](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) simples para copiar suas IDs AMO e EF IDs para o [!DNL eVars] agora. Depois de criar a regra de processamento, você começará a acumular dados para suas IDs AMO e IDs EF assim que eles rastrearem novos eventos. Os dados históricos estarão disponíveis na Customer Journey Analytics assim que a solução estiver disponível.
 
 >[!NOTE]
 >

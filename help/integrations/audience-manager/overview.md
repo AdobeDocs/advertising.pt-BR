@@ -57,7 +57,7 @@ Depois de criar os públicos, você pode usá-los em [!DNL Google Ads] campanhas
 
 >[!NOTE]
 >
->Para obter mais informações sobre como criar públicos-alvo nas interfaces do [!DNL Audience Library] do Audience Manager e do Experience Cloud, e casos de uso comuns para diferentes tipos de público-alvo, consulte &quot;[Opções de criação de público-alvo](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html).&quot;
+>Para obter mais informações sobre como criar públicos-alvo nas interfaces do [!DNL Audience Library] do Audience Manager e do Experience Cloud, e casos de uso comuns para diferentes tipos de público-alvo, consulte &quot;[Opções de criação de público-alvo](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=pt-BR).&quot;
 
 ## Enviar dados de exposição da mídia do DSP para o Audience Manager
 

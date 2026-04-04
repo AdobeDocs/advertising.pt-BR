@@ -79,7 +79,7 @@ Quando os dados de impressão da campanha e cliques estiverem disponíveis no Au
 
 ## [!DNL Audience Optimization Reports]
 
-Você pode aproveitar a [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) para identificar oportunidades de desempenho em potencial para segmentos em suas campanhas. Esses relatórios combinam dados de impressão da campanha, cliques e conversão com métricas de segmento para informar otimizações centradas em segmentos e uma combinação eficaz de canais.
+Você pode aproveitar a [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=pt-BR) para identificar oportunidades de desempenho em potencial para segmentos em suas campanhas. Esses relatórios combinam dados de impressão da campanha, cliques e conversão com métricas de segmento para informar otimizações centradas em segmentos e uma combinação eficaz de canais.
 
 ### Tipos de relatórios relevantes do Audience Optimization
 
@@ -88,7 +88,7 @@ Você pode aproveitar a [Audience Manager [!DNL Audience Optimization Reports]](
 | [[!UICONTROL Segment Performance] Relatório](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=pt-BR) | Compara segmentos mapeados e não mapeados por impressões e taxas de conversão. |
 | [[!UICONTROL Trend Analysis and Volume Analysis] Relatórios]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | Retorne dados sobre impressões, taxas de click-through e conversões para uma grande variedade de dimensões de publicidade. |
 | [[!UICONTROL Optimal Frequency] Relatório](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=pt-BR) | Ajuda a descobrir o equilíbrio ideal entre o número de impressões e conversões fornecidas. Ela permite ajustar o número de impressões a serem exibidas antes de começar a ver retornos decrescentes. |
-| [[!UICONTROL Unique User Reach] Relatório](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | Um gráfico de bolhas, no qual cada bolha é dimensionada em proporção direta ao número de usuários únicos para a dimensão selecionada. |
+| [[!UICONTROL Unique User Reach] Relatório](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=pt-BR) | Um gráfico de bolhas, no qual cada bolha é dimensionada em proporção direta ao número de usuários únicos para a dimensão selecionada. |
 
 ### Considerações
 

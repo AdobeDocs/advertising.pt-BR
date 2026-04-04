@@ -79,7 +79,7 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
 
-1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
+1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=pt-BR) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
    Consulte o Apêndice abaixo para obter um exemplo de solicitação de recusa de venda.
 

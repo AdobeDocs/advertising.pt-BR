@@ -151,7 +151,7 @@ Para saber como você pode acompanhar seus dados do Adobe Advertising em relaç�
 
 ### Uso da Adobe Advertising ID para análise de entrada de site
 
-Para saber como criar um relatório de entrada de site do Adobe Advertising para monitorar influências de dia da semana, hora do dia, navegador e geográficas, assista ao vídeo &quot;[Criar relatórios de entrada de site do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Para saber como criar um relatório de entrada de site do Adobe Advertising para monitorar influências de dia da semana, hora do dia, navegador e geográficas, assista ao vídeo &quot;[Criar relatórios de entrada de site do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=pt-BR).&quot;
 
 ## Como iniciar uma implementação do [!DNL Analytics for Advertising]
 
@@ -159,7 +159,7 @@ Entre em contato com a equipe de conta da Adobe, que concluirá a configuração
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introdução a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Vídeo: Introdução a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=pt-BR)
 >* [Pré-requisitos e informações-chave para implementação [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising IDs usadas pelo Analytics](ids.md)
 >* [Código JavaScript do Analytics para Advertising](/help/integrations/analytics/javascript.md)

@@ -44,7 +44,7 @@ Para acessar [!DNL Adobe] públicos-alvo no DSP ou [!DNL Creative], você deve i
 
 ## Pré-requisitos
 
-* O anunciante deve implementar [o [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) versão 2.0 ou superior. O [!DNL Identity Service] fornece uma ID persistente e universal que identifica os visitantes em todas as soluções na Experience Cloud.
+* O anunciante deve implementar [o [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/pt-br/docs/id-service/using/intro/overview) versão 2.0 ou superior. O [!DNL Identity Service] fornece uma ID persistente e universal que identifica os visitantes em todas as soluções na Experience Cloud.
 
   A implementação inclui a adição do código [!DNL Identity service] a cada página da Web nos sites do anunciante.
 

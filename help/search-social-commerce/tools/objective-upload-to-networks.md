@@ -4,16 +4,12 @@ description: Saiba como carregar objetivos para seus portfólios híbridos do  [
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -38,7 +34,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 >[!IMPORTANT]
 >
->As conversões rastreadas pelo Google Ads e pela tag de rastreamento universal de eventos (UET) do Microsoft Advertising não são recarregadas nas redes de anúncios. Se você incluí-los em um objetivo, é necessário adicioná-los às metas da campanha no editor da rede de publicidade.
+>As conversões rastreadas por [!DNL Google Ads] e pela tag de rastreamento universal de eventos (UET) [!DNL Microsoft Advertising] não são recarregadas nas redes de anúncios. Se você incluí-los em um objetivo, é necessário adicioná-los às metas da campanha no editor da rede de publicidade.
 
 1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

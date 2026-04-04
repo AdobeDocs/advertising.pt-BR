@@ -4,16 +4,12 @@ description: Referencie as configurações de  [!DNL Google Ads] grupos de anún
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]:** Com que frequência o [!DNL Google Ads] fornece seus anúncios ativos em relação uns aos outros no grupo de publicidade:
 
-* *[!UICONTROL Optimize]:* O Google Ads favorece anúncios com desempenho melhor do que outros anúncios no grupo de anúncios. Esses anúncios entram no leilão com mais frequência e, com o tempo, um único anúncio é favorecido. Isso pode ser inconsistente com seus objetivos de negócios e otimização.
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] favorece anúncios que espera ter um desempenho melhor do que outros anúncios no grupo de anúncios. Esses anúncios entram no leilão com mais frequência e, com o tempo, um único anúncio é favorecido. Isso pode ser inconsistente com seus objetivos de negócios e otimização.
 
 * *[!UICONTROL Rotate forever]:*   Cada um de seus anúncios entra no leilão de anúncios um número mais uniforme de vezes, o que permite que o Search, Social e Commerce marquem seus anúncios não apenas na taxa de click-through, mas também em conversões.
 

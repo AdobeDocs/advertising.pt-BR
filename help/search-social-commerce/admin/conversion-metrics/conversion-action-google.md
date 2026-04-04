@@ -4,15 +4,12 @@ description: Saiba como criar uma ação de conversão  [!DNL Google Ads]  para 
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +48,7 @@ Depois de criar a ação de conversão e implementar uma tag de rastreamento de 
 
 ## Configurações da ação de conversão {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** A conta do Google Ads aplicável.
+**[!UICONTROL Select an Account]:** A conta [!DNL Google Ads] aplicável.
 
 **[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreada: Selecione *[!UICONTROL Import conversion]*. Todos os outros tipos são usados para criar tags de rastreamento de conversão (não ações de conversão) para outros tipos de conversões.
 

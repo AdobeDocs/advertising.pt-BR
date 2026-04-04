@@ -4,15 +4,12 @@ description: Saiba como criar uma tag de conversão  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
 TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +44,7 @@ Depois que você adicionar as tags ao seu site e elas começarem a disparar, [!D
 
 ## Configurações da tag de conversão {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** A conta do Google Ads aplicável.
+**[!UICONTROL Select an Account]:** A conta [!DNL Google Ads] aplicável.
 
 **[!UICONTROL Type of Conversion]:** O tipo de conversão a ser rastreada: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* ou *[!UICONTROL Clicks to your number on your mobile website]*. **Observação:** *[!UICONTROL Import conversion]* é usado para uma finalidade diferente; consulte &quot;[Criar uma ação de conversão para uma [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md).&quot;
 

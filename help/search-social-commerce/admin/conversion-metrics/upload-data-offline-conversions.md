@@ -4,15 +4,12 @@ description: Saiba como carregar dados de conversão offline próprios para mape
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
 TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +38,7 @@ Você pode carregar dados de conversão offline primários, incluindo endereços
 
 `Parameters:TimeZone=insert_timezone`
 
-Insira o fuso horário da conta neste local ou na coluna &quot;[!UICONTROL Conversion Time]&quot; para cada linha. Use a\) ([!DNL Google Ads only]) o [formato de ID de fuso horário com suporte](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) o deslocamento GMT, conforme indicado por + ou - e a diferença de tempo de 4 dígitos (como -0500 para Nova York, +0100 para Berlim ou +0000 para o Horário de Greenwich).
+Insira o fuso horário da conta neste local ou na coluna &quot;[!UICONTROL Conversion Time]&quot; para cada linha. Use a\) ([!DNL [!DNL Google Ads] somente]) o [formato de ID de fuso horário com suporte](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) ou b\) o deslocamento GMT, conforme indicado por + ou - e a diferença de tempo de 4 dígitos (como -0500 para Nova York, +0100 para Berlim ou +0000 para o Horário de Greenwich).
 
 ### Colunas e valores de tabela para [!DNL Google Ads]
 

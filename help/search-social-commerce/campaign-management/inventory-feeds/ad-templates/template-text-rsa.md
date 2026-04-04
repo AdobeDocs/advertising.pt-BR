@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para contas do Microsoft Advertising e do Google Ads, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para os parâmetros disponíveis para contas [!DNL Microsoft Advertising] e [!DNL Google Ads], consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 Esse valor substitui as configurações no nível da conta e da campanha, mas os modelos de rastreamento em níveis mais granulares (com a palavra-chave como a mais granular) substituem esse valor.
 
@@ -350,7 +350,7 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
 * Para o Yahoo! Contas do Japan Ads, use o parâmetro {lpurl}.
 
-* Para obter os parâmetros disponíveis para contas do Microsoft Advertising e do Google Ads, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+* Para os parâmetros disponíveis para contas [!DNL Microsoft Advertising] e [!DNL Google Ads], consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campos de anúncio alternativos abaixo dos campos de anúncio originais\]:** (Opcional) Um conjunto alternativo de cópias de anúncio para um anúncio, que pode ser usado se qualquer uma das linhas no anúncio original exceder o comprimento máximo permitido, uma vez que quaisquer parâmetros dinâmicos forem preenchidos com dados durante a propagação.
 

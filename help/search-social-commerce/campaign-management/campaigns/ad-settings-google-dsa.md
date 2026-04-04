@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os anúncios de pesquisa dinâmica (DSAs) estão disponíveis apenas para [!DNL Google Ads] grupos de anúncios dinâmicos de pesquisa em campanhas somente pesquisa. A rede de publicidade gera dinamicamente o título, escolhe a página de aterrissagem e o URL de exibição para um anúncio de pesquisa dinâmica e gera automaticamente o URL final.
 
-Consulte a ajuda do Google Ads para [limites de anúncios por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
+Consulte a ajuda do [!DNL Google Ads] para [limites de anúncios por conta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 >[!NOTE]
 >

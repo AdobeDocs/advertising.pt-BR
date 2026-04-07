@@ -5,24 +5,22 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
 # Procure a documentação do produto usando uma interface de bate-papo assistida por IA
 
-*recurso do Beta*
-
 *Suporte somente para inglês*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use a interface de chat do AI para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md). As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/pt-br/docs/advertising).
+Use a interface de chat do AI para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md). As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
-As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações. Seu histórico do chat é mantido e suas consultas não são compartilhadas com outros usuários.
+As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações. Seu histórico de chat é mantido durante uma sessão e suas consultas não são compartilhadas com outros usuários.
 
 >[!NOTE]
 >

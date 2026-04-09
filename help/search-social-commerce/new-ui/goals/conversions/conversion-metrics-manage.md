@@ -2,20 +2,20 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # Gerenciar as métricas de conversão de um anunciante
 
-As métricas de [conversão](/help/search-social-commerce/glossary.md#c-d) de um anunciante são usadas em toda a Pesquisa, Social, &amp; Commerce e Advertising DSP:
+As métricas de [conversão](/help/search-social-commerce/glossary.md#c-d) de um anunciante são usadas em todo o Adobe Advertising:
 
 * Em Pesquisa, Social e Commerce, os dados para as métricas de conversão podem ser exibidos em colunas nas visualizações de gerenciamento de campanha, portfólio e objetivo e nos relatórios. Os usuários com privilégios de acesso suficientes também podem usar métricas de conversão para criar objetivos, que são usados para otimizar portfólios.
 
-* No Advertising DSP, você pode usar as métricas de conversão para criar [metas personalizadas](/help/dsp/optimization/custom-goal.md), que são usadas para otimizar pacotes.
+* (Anunciantes com o Advertising DSP) No DSP, você pode incluir métricas de conversão em exibições de gerenciamento de campanha, objetivos personalizados e relatórios personalizados. Você também pode usar as métricas de conversão para criar [metas personalizadas](/help/dsp/optimization/custom-goal.md), que são usadas para otimizar pacotes.
 
 As métricas disponíveis incluem:
 
@@ -23,19 +23,21 @@ As métricas disponíveis incluem:
 
 * [Métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md).
 
+* [Eventos do site sincronizados do Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).
+
 * Conversões rastreadas por [!DNL Google Ads] e conversões rastreadas por [!DNL Microsoft Advertising] marcas de rastreamento de evento universal.
 
 * (Quando [você configurou uma  [!DNL Google Analytics] combinação específica de conta, propriedade e exibição](/help/search-social-commerce/admin/data-sources/data-source-about.md) para Pesquisa, Social e Commerce) Conversões rastreadas por [!DNL Google Analytics].
 
-A partir da lista de métricas de conversão disponíveis, cada usuário com acesso aos dados do anunciante pode personalizar as métricas que vê disponíveis para exibições de gerenciamento e relatórios, incluindo ou omitindo métricas específicas à sua escolha.
+* Conversões de feeds personalizados.
+
+A partir da lista de métricas de conversão disponíveis, cada usuário com acesso aos dados do anunciante pode personalizar as métricas que vê disponíveis para exibições de gerenciamento e relatórios, incluindo ou omitindo métricas específicas à sua escolha. Você pode usar um nome de métrica exatamente como está escrito nos dados recuperados ou alterar o nome mostrado nos cabeçalhos da coluna para facilitar a leitura.
 
 >[!IMPORTANT]
 >
 >Por padrão, nenhuma das métricas de conversão de um anunciante — exceto as conversões rastreadas pelas tags de rastreamento de evento universal [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] — está disponível para inclusão em exibições de gerenciamento de campanhas e portfólios, objetivos e relatórios. Para disponibilizar uma métrica de conversão, você deve disponibilizá-la explicitamente.
 >
 >Novas conversões controladas por [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] marcas de rastreamento de eventos universais estão sempre disponíveis automaticamente.
-
-Você pode usar um nome de métrica exatamente como está escrito nos dados recuperados ou alterar o nome mostrado nos cabeçalhos da coluna para facilitar a leitura.
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ Não é possível excluir um nome para exibição existente.
 
    Os nomes para exibição devem ser exclusivos e não podem incluir os seguintes caracteres especiais: `\"<'>&`
 
-## Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios {#conversion-metrics-change-available}
+## Alterar as métricas de conversão disponíveis em exibições de gerenciamento, objetivos e relatórios {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
@@ -93,4 +95,4 @@ Não é possível excluir um nome para exibição existente.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 

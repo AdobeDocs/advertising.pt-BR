@@ -4,13 +4,10 @@ description: Saiba mais sobre os formatos de rastreamento de cliques para contas
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
 workflow-type: tm+mt
 source-wordcount: 579
 ht-degree: 0%
@@ -93,7 +90,7 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 
 * Quando o anunciante tiver uma integração do Adobe Analytics, o sufixo deverá incluir o seguinte:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
+  `AL!{user}!10!{ad id}!!!!{keyword/order item id}!!{campaign id}!{ad group id}`
 
 * Quando o anunciante não tiver uma integração do Adobe Analytics, o sufixo deve incluir o seguinte:
 
@@ -114,4 +111,4 @@ As contas que usam o rastreamento de conversão de Adobe Advertising devem inclu
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

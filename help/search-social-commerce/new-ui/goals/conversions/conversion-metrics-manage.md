@@ -2,9 +2,9 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Não é possível excluir um nome para exibição existente.
 
 1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
+1. Filtre a lista [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou de um cabeçalho de [coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
 1. Na coluna **[!UICONTROL Conversion Display Name]** da métrica, mantenha o cursor sobre o nome da métrica e clique em **...** > **[!UICONTROL Rename]**.
 
 1. Insira o nome que deve ser exibido e clique em **[!UICONTROL Apply]**.
@@ -95,4 +97,4 @@ Não é possível excluir um nome para exibição existente.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 

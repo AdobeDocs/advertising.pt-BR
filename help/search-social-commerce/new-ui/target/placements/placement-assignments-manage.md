@@ -3,9 +3,10 @@ title: Gerenciar atribuições de restrição para disposições
 description: Saiba como atribuir restrições a inserções.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
+source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -89,5 +90,4 @@ Você pode atribuir uma única restrição a uma ou mais disposições.
 >
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

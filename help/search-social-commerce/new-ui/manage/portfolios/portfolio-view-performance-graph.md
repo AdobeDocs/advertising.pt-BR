@@ -2,9 +2,10 @@
 title: (Nova interface) Exibir um gráfico de desempenho na exibição [!UICONTROL Portfolios]
 description: Saiba como abrir e configurar um gráfico de desempenho na exibição [!UICONTROL Portfolios].
 feature: Search Campaign Management
-source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
+exl-id: 5b83d052-acef-451c-8492-70465ded23f4
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -28,4 +29,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Sobre o [!UICONTROL Portfolios view]](portfolio-about.md)
->* [Baixar dados da [!UICONTROL Portfolios] exibição](portfolio-view-report.md)
+>* [Gerenciar relatórios de exibição de dados da [!UICONTROL Portfolios] exibição](portfolio-view-report.md)

@@ -4,9 +4,9 @@ description: Saiba como atribuir restrições a inserções.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 
 >[!NOTE]
 >
->* Posteriormente, se você editar uma palavra-chave ou a cópia de um anúncio — criando assim uma nova palavra-chave ou anúncio — a restrição não será atribuída à nova entidade.
+>* Posteriormente, se você editar uma palavra-chave ou a cópia de anúncio para um anúncio não mutável, criando assim uma nova palavra-chave ou anúncio, a restrição não será atribuída à nova entidade.
 >* As restrições ativas restringem os lances somente para unidades de lance atribuídas em portfólios de nível de palavra-chave herdada otimizados. Elas são ignoradas para unidades de oferta que estão em portfólios ativos, estão em portfólios híbridos ou não estão em portfólios.
 
 ## Atribuir uma restrição aos posicionamentos selecionados da nova exibição [!UICONTROL Placements]

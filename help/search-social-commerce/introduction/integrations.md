@@ -37,7 +37,7 @@ O Advertising Search, Social e Commerce está integrado aos seguintes produtos d
 
    * O Adobe Advertising e o [!DNL Analytics] compartilham dados facilmente. O [!DNL Analytics] pode enviar dados de conversão e participação do site diariamente para o Search, Social e Commerce, em que os dados estão disponíveis para otimização de anúncios e relatórios. Além disso, o Adobe Advertising pode enviar dados de tráfego de anúncios — incluindo impressões, cliques e custos — de suas redes de anúncios diariamente para o [!DNL Analytics], em que os dados estão disponíveis em todas as ferramentas de relatório.
 
-     Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre o suporte de [!DNL Analytics] para cada rede de publicidade e tipo de publicidade. Consulte também &quot;[Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; para obter mais informações sobre a troca de dados.
+     Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre o suporte de [!DNL Analytics] para cada rede de publicidade e tipo de publicidade. Consulte também &quot;[Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}&quot; para obter mais informações sobre a troca de dados.
 
      Para trocar dados, o Adobe Advertising e o [!DNL Analytics] devem estar configurados inicialmente. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre a configuração inicial.
 
@@ -49,7 +49,7 @@ O Advertising Search, Social e Commerce está integrado aos seguintes produtos d
 
 * Segmentos do Adobe Audience Manager — (recurso de aceitação) Você pode [criar [!DNL Google Ads] públicos-alvo de correspondência do cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) de segmentos do Audience Manager que têm o Search, o Social e o Commerce como destino. Isso pode incluir [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados usando a Biblioteca de público-alvo da Adobe Experience Cloud. Você pode então usar os públicos em [!DNL Google Ads] campanhas como [alvos](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusões](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) de nível de campanha ou de grupo de anúncios.
 
-  Consulte &quot;[Integrações do Adobe Advertising com o Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)&quot; para obter mais informações.
+  Consulte &quot;[Integrações do Adobe Advertising com o Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR)&quot; para obter mais informações.
 
 * Adobe Target — Você pode implementar o compartilhamento de sinal de click-through entre o Search, Social, &amp; Commerce e [!DNL Target], configurar uma atividade de teste A/B no [!DNL Target] para seus anúncios e usar o Analysis Workspace [!DNL Analytics] para exibir os dados de teste.
 

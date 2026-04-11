@@ -111,7 +111,7 @@ Para obter mais informações sobre o serviço Experience Cloud Audiences, consu
 
 ### Uso de dados do Adobe Advertising no Analysis Workspace
 
-Para saber como você pode usar os dados do Adobe Advertising para criar relatórios visuais no Analysis Workspace, assista ao vídeo &quot;[Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Para saber como você pode usar os dados do Adobe Advertising para criar relatórios visuais no Analysis Workspace, assista ao vídeo &quot;[Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=pt-BR).&quot;
 
 #### Uso de conversões de view-through de TV conectada em relatórios
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]somente contas*
 
-O formato herdado (anterior a outubro de 2019) do [código de rastreamento da ID do AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) para contas [!DNL Google Ads] existentes não oferece suporte a alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para campanhas de desempenho máximo do [!DNL Google Ads], campanhas de rascunhos e experimentos e outros casos de uso nos quais a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
+O formato herdado (anterior a outubro de 2019) do [código de rastreamento da ID do AMO](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) para contas [!DNL Google Ads] existentes não oferece suporte a alguns recursos no Analytics, como relatórios nos níveis de campanha e grupo de anúncios para campanhas de desempenho máximo do [!DNL Google Ads], campanhas de rascunhos e experimentos e outros casos de uso nos quais a mesma combinação de tipo anúncio+palavra-chave+correspondência existe em várias campanhas.
 
 O formato atual inclui parâmetros para a ID da campanha e a ID do grupo de publicidade:
 

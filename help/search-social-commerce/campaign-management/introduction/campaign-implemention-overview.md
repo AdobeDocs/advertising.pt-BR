@@ -75,7 +75,7 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
    Para obter mais detalhes sobre como configurar o rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
-1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que eles possam trocar dados.
+1. (Anunciantes com o Adobe Analytics) [Integre o Adobe Advertising e o Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) para que eles possam trocar dados.
 
 1. (Para permitir que o Search, Social e &amp; Commerce otimizem ofertas, orçamentos de campanha e/ou alvos de estratégia de oferta de campanha; [somente tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md)) [Atribua a campanha a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

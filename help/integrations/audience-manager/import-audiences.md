@@ -48,7 +48,7 @@ Para acessar [!DNL Adobe] públicos-alvo no DSP ou [!DNL Creative], você deve i
 
   A implementação inclui a adição do código [!DNL Identity service] a cada página da Web nos sites do anunciante.
 
-* A organização deve ser [habilitada para serviços da Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview) e ter um Experience Cloud [!DNL Organization ID] (anteriormente chamado de [!DNL IMS org ID]).
+* A organização deve ser [habilitada para serviços da Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/overview) e ter um Experience Cloud [!DNL Organization ID] (anteriormente chamado de [!DNL IMS org ID]).
 
   O [!UICONTROL Organization ID] permite que organizações com vários produtos da Adobe Experience Cloud compartilhem dados entre alguns dos produtos.
 
@@ -56,7 +56,7 @@ Para acessar [!DNL Adobe] públicos-alvo no DSP ou [!DNL Creative], você deve i
 
 * Os visitantes do site do anunciante não incluem um grande volume de [!DNL Apple Safari] usuários.
 
-* (Recomendado quando o anunciante usa o Audience Manager e o [!DNL Analytics]) Para reduzir as chamadas para cada página da Web, remova o código existente do Audience Manager [!DNL Data Integration Library] para coleta de dados e ative o encaminhamento pelo lado do servidor para cada conjunto de relatórios [!DNL Analytics]. Para obter mais informações, consulte &quot;[Visão geral do encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
+* (Recomendado quando o anunciante usa o Audience Manager e o [!DNL Analytics]) Para reduzir as chamadas para cada página da Web, remova o código existente do Audience Manager [!DNL Data Integration Library] para coleta de dados e ative o encaminhamento pelo lado do servidor para cada conjunto de relatórios [!DNL Analytics]. Para obter mais informações, consulte &quot;[Visão geral do encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * (Recomendado) Para taxas de correspondência mais altas, envie somente dados de sites primários para a Adobe Advertising. Se o anunciante agrupar dados de terceiros ou dados offline de um sistema de gerenciamento de relacionamento com o cliente, o vazamento de dados pode reduzir as taxas de correspondência.
 

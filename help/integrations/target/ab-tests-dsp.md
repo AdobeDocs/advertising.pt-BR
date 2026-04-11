@@ -102,7 +102,7 @@ Ao adicionar um pixel de evento de impressão do Audience Manager em suas tags d
 
          Se os resultados da pesquisa mostrarem contagens de usuários para o par de valores chave, o que indica que o pixel foi colocado corretamente e os dados estão fluindo, continue para a próxima etapa.
 
-   1. [Crie uma característica com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para a criação de segmentos no Audience Manager.
+   1. [Crie uma característica com base em regras](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=pt-BR) para a criação de segmentos no Audience Manager.
 
       * Nomeie a característica para que seja facilmente identificável nas atividades de teste. Armazene a característica na pasta que preferir.
 
@@ -110,7 +110,7 @@ Ao adicionar um pixel de evento de impressão do Audience Manager em suas tags d
 
       * Para a expressão de característica, use `d_event` como **[!UICONTROL Key]** e `imp` como **[!UICONTROL Value]**.
 
-   1. [Configurar um segmento de teste](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) para a nova característica no Audience Manager, selecionando `Ad Cloud` como **[!UICONTROL Data Source]**.
+   1. [Configurar um segmento de teste](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=pt-BR) para a nova característica no Audience Manager, selecionando `Ad Cloud` como **[!UICONTROL Data Source]**.
 
       O Audience Manager divide automaticamente o segmento em um grupo de controle que recebe a experiência padrão de página de aterrissagem e um grupo de teste que recebeu uma experiência personalizada no local.
 
@@ -118,7 +118,7 @@ Ao adicionar um pixel de evento de impressão do Audience Manager em suas tags d
 
 As instruções a seguir destacam informações relacionadas ao caso de uso do DSP.
 
-1. [Entrar no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Entrar no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=pt-BR).
 
 1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR):
 

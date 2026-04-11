@@ -89,7 +89,7 @@ As tarefas a seguir são necessárias para configurar a coleta de dados no Exper
 
      Não use a extensão do Adobe Advertising.
 
-   * Criar uma [compilação personalizada do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
+   * Criar uma [compilação personalizada do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
 
       * Na seção [!UICONTROL Custom build components], habilite o componente **Advertising**.
 
@@ -223,4 +223,4 @@ No Customer Journey Analytics Workspace, siga estas etapas para configurar relat
 >* [Métricas e dimensões do Adobe Advertising no Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Coletar dados históricos para IDs AMO e IDs EF para uso no Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 >* [Guia do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing)
->* [Guia do usuário do Customer Journey Analytics para usuários do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Guia do usuário do Customer Journey Analytics para usuários do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

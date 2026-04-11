@@ -140,5 +140,5 @@ Cada regra inclui até duas condições, bem como o ajuste do valor de conversã
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
 

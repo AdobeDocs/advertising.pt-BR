@@ -3,7 +3,7 @@ title: (Nova interface do usuário) Gerenciar relatórios de visualização de d
 description: Saiba como gerar, baixar e excluir relatórios que contêm as linhas de dados de um ou mais anúncios na exibição [!UICONTROL Ads] de um relatório.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

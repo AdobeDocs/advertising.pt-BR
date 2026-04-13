@@ -2,10 +2,8 @@
 title: Procure a documentação do produto usando o bate-papo assistido por IA
 description: Saiba como pesquisar no Adobe Advertising DSP e na  [!DNL Creative] documentação usando o bate-papo assistido por IA. Obtenha respostas com citações e sugestões de prompts de acompanhamento.
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use a interface de chat do AI para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md). As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/pt-br/docs/advertising).
+Use a interface de chat do AI para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md). As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 As respostas incluem citações, além de prompts adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações. Seu histórico de chat é mantido durante uma sessão e suas consultas não são compartilhadas com outros usuários.
 

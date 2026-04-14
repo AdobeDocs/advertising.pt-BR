@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Os insights incluem:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Uma tabela de série temporal diária que mostra como seu público-alvo se restringe do pool total disponível para a impressão real ganha após a aplicação de todos os filtros de direcionamento e qualificação. Os dados são mostrados para o dia anterior. O funnel inclui as seguintes métricas, da mais ampla à mais estreita:
 
-   * **[!UICONTROL Audience Segment Size]:** O número total de usuários únicos na audiência agregada.
+   * **[!UICONTROL Total Target Audience]:** O número total de usuários únicos na audiência agregada.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** O número de usuários do público-alvo que estavam ativos no fluxo de oferta durante o período de 24 horas anterior. Essa contagem inclui todos os usuários no escopo, independentemente da oferta de posicionamento sobre eles. Uma diminuição de [!UICONTROL Total Target Audience] para [!UICONTROL Reachable Audience] reflete a parte do público que não estava ativa no fluxo de ofertas durante o período do relatório, o que não é um reflexo do desempenho das ofertas.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** O número de usuários do público-alvo que estavam ativos no fluxo de oferta durante o período de 24 horas anterior. Essa contagem inclui todos os usuários no escopo, independentemente da oferta de posicionamento sobre eles. Uma diminuição de [!UICONTROL Total Target Audience] para [!UICONTROL Reachable Audience] reflete a parte do público que não estava ativa no fluxo de ofertas durante o período do relatório, o que não é um reflexo do desempenho das ofertas.
 
-   * **[!UICONTROL Eligible cookies]:** O subconjunto de usuários acessíveis que permanecem após a aplicação de filtros geográficos, de tipo de dispositivo, de sistema operacional e de navegador. Se esse número for significativamente menor que [!UICONTROL Reachable Audience], considere verificar se o direcionamento geográfico ou de tipo de dispositivo é muito restritivo.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** O subconjunto de usuários acessíveis que permanecem após a aplicação de filtros geográficos, de tipo de dispositivo, de sistema operacional e de navegador. Se esse número for significativamente menor que [!UICONTROL Reachable Audience], considere verificar se o direcionamento geográfico ou de tipo de dispositivo é muito restritivo.
 
-  **[!UICONTROL Cookies Bid On]:** O número de oportunidades qualificadas para as quais o posicionamento enviou uma oferta. Uma queda acentuada nesta fase pode indicar restrições de orçamento ou ritmo que limitam o volume de ofertas.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** O número de oportunidades qualificadas para as quais o posicionamento enviou uma oferta. Uma queda acentuada nesta fase pode indicar restrições de orçamento ou ritmo que limitam o volume de ofertas.
 
    * **[!UICONTROL Impression Wins]:** O número de oportunidades para as quais o posicionamento ganhou uma impressão. Se os ganhos forem muito inferiores aos lances, o preço de compra poderá estar abaixo da taxa de mercado prevalecente para o inventário de destino.
 

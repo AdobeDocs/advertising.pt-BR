@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # Sobre insights
-
-*recurso do Beta*
 
 Insights de desempenho de alto nível com visualizações fornecem as informações necessárias para otimizar suas campanhas com eficiência e descobrir novas oportunidades para dimensionar o desempenho. Você pode visualizar dados em campanhas para um anunciante especificado ou detalhar para um nível inferior.
 
@@ -125,7 +123,7 @@ Os insights incluem:
 
 1. Abra um conjunto de insights:
 
-   * (Para abrir insights para todas as campanhas) No menu principal, clique em **[!UICONTROL Insights BETA]**.
+   * (Para abrir insights para todas as campanhas) No menu principal, clique em **[!UICONTROL Insights]**.
 
    * (Para abrir insights para uma campanha, pacote ou posicionamento específico) Ao lado do nome da entidade na exibição [!UICONTROL Campaigns], [!UICONTROL Packages] ou [!UICONTROL Placements], clique em **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 

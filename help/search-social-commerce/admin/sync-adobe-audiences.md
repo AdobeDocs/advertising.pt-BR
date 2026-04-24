@@ -4,17 +4,13 @@ description: Saiba como sincronizar metadados, dados de hierarquia e dados de p�
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
 TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -29,21 +25,21 @@ Você pode permitir que o Search, Social e Commerce obtenha metadados, dados de 
 
 * Segmentos do Adobe Audience Manager
 
-* Segmentos do Adobe Analytics publicados no Adobe Experience Cloud
+* Segmentos do Adobe Analytics publicados no Adobe CX Enterprise
 
-* Segmentos criados usando o Adobe Experience Cloud [!DNL Audience Library]
+* Segmentos criados usando o Adobe CX Enterprise [!DNL Audience Library]
 
-Para ser elegível, o anunciante ou a agência devem implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e fornecer sua ID da organização (anteriormente chamada de [!DNL IMS Org ID]).
+Para ser elegível, o anunciante ou a agência devem implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) e fornecer sua ID da organização (anteriormente chamada de [!DNL IMS Org ID]).
 
 A sincronização inicial leva cerca de 24 horas. Depois disso, os dados são sincronizados em tempo real, com um atraso de um a dois segundos.
 
 1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
 
-1. Insira o identificador exclusivo da organização para a conta da Adobe Experience Cloud do anunciante e clique em **[!UICONTROL Submit]**.
+1. Insira o identificador exclusivo da organização para a conta da Adobe CX Enterprise do anunciante e clique em **[!UICONTROL Submit]**.
 
    Se você não souber a ID da organização do anunciante, procure-a no campo **[!UICONTROL IMS Org ID]** nas configurações do anunciante em [!UICONTROL Admin] > [!UICONTROL Manage Client].
 
 >[!MORELIKETHIS]
 >
 >* [Sobre públicos-alvo](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [Integração com soluções e serviços da Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
+>* [Integração com soluções e serviços da Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)

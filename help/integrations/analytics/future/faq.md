@@ -1,9 +1,9 @@
 ---
 title: Perguntas frequentes
 description: xxx
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 ## título
 
 https://adobeadcloud.zendesk.com/agent/tickets/14214
-Por padrão, o Adobe Analytics relata todos os eventos capturados em cada relatório. &quot;[!UICONTROL Unspecified]&quot; eventos representam eventos de conclusão de formulário que não foram conectados ao Adobe Advertising. Por exemplo, no relatório da Plataforma de publicidade, as conversões orgânicas ou as conversões orientadas por uma campanha de email se encaixariam em &quot;não especificadas&quot;.
+Por padrão, o Adobe Analytics relata todos os eventos capturados em cada relatório. "[!UICONTROL Unspecified]" eventos representam eventos de conclusão de formulário que não foram conectados ao Adobe Advertising. Por exemplo, no relatório da Plataforma de publicidade, as conversões orgânicas ou as conversões orientadas por uma campanha de email se encaixariam em "não especificadas".
 
 Você pode usar o filtro para remover eventos não especificados de relatórios removendo a marca de seleção da opção &quot;Incluir não especificado (nenhum)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
@@ -32,7 +32,7 @@ A integração em questão ocorre entre o AdCloud e o Adobe Audience Manager. Es
 
 Nosso auditor está solicitando a desativação desse recurso. O que acontece se bloquearmos essas solicitações de rede?
 
-R: Verificamos com nosso produto e eles mencionaram que os pixels em questão são para aumentar as taxas de correspondência de cookies entre o Ad Cloud, parceiros específicos de inventário/SSP (com relação ao DSP) e AAM.  Se forem removidos, o cliente poderá observar algum nível de diminuição da taxa de correspondência entre AAC/AAM e os parceiros de inventário para os quais os respectivos pixels são destinados, mas não esperaria que isso fosse substancial.
+R: Verificamos com nosso produto e mencionamos que os pixels em questão são para aumentar as taxas de correspondência de cookies entre o Ad Cloud, parceiros específicos de inventário/SSP (em relação ao DSP) e o AAM.  Se forem removidos, o cliente poderá observar algum nível de redução na taxa de correspondência entre o AAC/AAM e os parceiros de inventário para os quais os respectivos pixels são destinados, mas não esperaria que fosse substancial.
 
-Para o Ad Cloud Search, vemos que a ID de organização do Experience Cloud do anunciante está configurada para o Mathworks, mas nossa equipe de produtos não vê a configuração do Mathworks para ativar públicos no Ad Cloud. Você está usando o Adobe Audience Manager para enviar Públicos-alvo para o Ad Cloud Search? Caso contrário, a remoção desses itens não terá impacto no fluxo de trabalho atual. O Atendimento ao cliente do AAM pode ajudar na remoção desses pixels se você não quiser que eles sejam acionados.
+Para o Ad Cloud Search, vemos que a ID da organização da CX Enterprise do anunciante está configurada para o Mathworks, mas nossa equipe de produtos não vê a configuração do Mathworks para ativar públicos no Ad Cloud. Você está usando o Adobe Audience Manager para enviar Públicos-alvo para o Ad Cloud Search? If not, removing these doesn&#39;t have an impact on current workflow. AAM Customer Care can assist with the removal of these pixels if you don’t want them to be fired.
 

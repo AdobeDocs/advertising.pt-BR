@@ -4,16 +4,12 @@ description: Dados do [!DNL Analytics] no Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## Segmentos do Analytics
 
-Todos os segmentos criados em [!DNL Analytics] e publicados no Experience Cloud.
+Todos os segmentos criados em [!DNL Analytics] e publicados no Adobe CX Enterprise (antigo Adobe) Experience Cloud).
 
 Os novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising. As atualizações de segmentos existentes são sincronizadas em cerca de oito horas.
 
@@ -41,8 +37,8 @@ Os novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertisi
 * [!UICONTROL Timespent_secs_total]: o número total de segundos gastos no site em todas as visitas na janela de retrospectiva de cliques.
 * [!UICONTROL Pageviews_1stvisit]: o número de exibições de página no site durante a primeira visita.
 * [!UICONTROL Pageviews_total]: o número total de exibições de página no site em todas as visitas na janela de retrospectiva de cliques.
-* [[!UICONTROL Bounces] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=pt-BR)
-* [[!UICONTROL Visits] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=pt-BR)
+* [[!UICONTROL Bounces] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: O número de vezes que [!DNL Analytics] coletou um [!UICONTROL EF ID].
 
 ## Métricas de conversão
@@ -51,14 +47,14 @@ Os novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertisi
 
 ### Métricas de conversão padrão
 
-* [[!UICONTROL Revenue] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=pt-BR)
-* [[!UICONTROL Orders] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=pt-BR)
-* [[!UICONTROL Units] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=pt-BR)
-* [[!UICONTROL Carts] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=pt-BR)
-* [[!UICONTROL Cart Views] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=pt-BR)
-* [[!UICONTROL Checkouts] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=pt-BR)
-* [[!UICONTROL Cart Additions] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=pt-BR)
-* [[!UICONTROL Cart Removals] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=pt-BR)
+* [[!UICONTROL Revenue] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### Métricas de conversão personalizadas
 

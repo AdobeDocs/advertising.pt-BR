@@ -5,19 +5,13 @@ feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
 TQID: https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: 1101
 ht-degree: 0%
 
 ---
@@ -32,7 +26,7 @@ ht-degree: 0%
 
 A California Consumer Privacy Act (CCPA) é a nova lei de privacidade da Califórnia, que entrou em vigor em 1º de janeiro de 2020. A CCPA fornece aos residentes da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades que realizam negócios na Califórnia. A CCPA dá aos consumidores o direito de acessar e apagar seus dados, bem como o direito de recusar certas atividades qualificadas como &quot;venda&quot; de informações pessoais a terceiros.
 
-Como empresa, você determinará os dados pessoais que a Adobe Experience Cloud processa e armazena em seu nome.
+Como empresa, você determinará os dados pessoais que a Adobe CX Enterprise processa e armazena em seu nome.
 
 Como seu provedor de serviços, a Adobe Advertising fornece suporte para que sua empresa cumpra as obrigações da CCPA aplicáveis ao uso de produtos e serviços da Adobe Advertising, incluindo o gerenciamento de solicitações do cliente para acessar e excluir informações pessoais e o gerenciamento de solicitações do cliente para recusar a venda de informações pessoais.
 
@@ -61,33 +55,33 @@ Você pode comunicar solicitações de cancelamento de venda do cliente usando:
 
 ### Método 2: comunicar solicitações de cancelamento de venda do CCPA usando a API do Adobe Experience Platform Privacy Service
 
-*Somente ID de organização da Adobe Experience Cloud atribuída aos anunciantes*
+*Somente ID de organização da Adobe CX Enterprise atribuída aos anunciantes*
 
-1. Implante uma biblioteca do JavaScript para recuperar os cookies do cliente. A mesma biblioteca, `AdobePrivacy.js`, é usada para todas as soluções da Adobe Experience Cloud.
+1. Implante uma biblioteca do JavaScript para recuperar os cookies do cliente. A mesma biblioteca, `AdobePrivacy.js`, é usada para todas as soluções da Adobe CX Enterprise.
 
    >[!IMPORTANT]
    >
-   >As solicitações para algumas soluções da Adobe Experience Cloud não exigem a biblioteca da JavaScript, mas as solicitações para a Adobe Advertising exigem.
+   >As solicitações para algumas soluções da Adobe CX Enterprise não exigem a biblioteca da JavaScript, mas as solicitações para a Adobe Advertising exigem.
 
    Você deve implantar a biblioteca na página da Web a partir da qual seus clientes podem enviar solicitações de cancelamento de venda, como o portal de privacidade da sua empresa. A biblioteca ajuda a recuperar os cookies do Adobe (ID do namespace: `gsurferID`) para que você possa enviar essas identidades como parte de solicitações de recusa de venda por meio da API do Adobe Experience Platform Privacy Service.
 
-1. Identifique a ID da organização da Experience Cloud e verifique se ela está vinculada às suas contas da Adobe Advertising.
+1. Identifique a ID da organização da CX Enterprise e verifique se ela está vinculada às suas contas da Adobe Advertising.
 
-   Uma ID de organização da Experience Cloud é uma sequência de 24 caracteres alfanuméricos anexada com &quot;@AdobeOrg&quot;. A maioria dos clientes do Experience Cloud recebeu uma ID de organização. Se a sua equipe de marketing ou o administrador interno do sistema da Adobe não souber a ID da organização ou não tiver certeza se ela foi provisionada, entre em contato com a equipe de conta da Adobe. Você precisará da ID da organização para enviar solicitações à API de privacidade usando o namespace `imsOrgID`.
+   Uma ID de organização da CX Enterprise é uma sequência de 24 caracteres alfanuméricos anexada com &quot;@AdobeOrg&quot;. A maioria dos clientes do CX Enterprise recebeu uma ID de organização. Se a sua equipe de marketing ou o administrador interno do sistema da Adobe não souber a ID da organização ou não tiver certeza se ela foi provisionada, entre em contato com a equipe de conta da Adobe. Você precisará da ID da organização para enviar solicitações à API de privacidade usando o namespace `imsOrgID`.
 
    >[!IMPORTANT]
    >
-   >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da Experience Cloud.
+   >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da CX Enterprise.
 
-1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=pt-BR) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
+1. Use a API do Adobe Experience Platform Privacy Service para [enviar solicitações de não participação na venda](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) para a Adobe Advertising em nome dos consumidores e para verificar o status das solicitações existentes.
 
    Consulte o Apêndice abaixo para obter um exemplo de solicitação de recusa de venda.
 
    >[!NOTE]
    >
-   >Se sua empresa tiver várias IDs de organização da Experience Cloud, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
+   >Se sua empresa tiver várias IDs de organização da CX Enterprise, você deverá enviar solicitações de API separadas para cada uma. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).
+Todas essas etapas são necessárias para receber suporte do Adobe Advertising. Para obter mais informações sobre essas e outras tarefas relacionadas que você precisa executar usando a Adobe Experience Platform Privacy Service e onde encontrar os itens necessários, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperação de relatórios de consumidores que enviaram solicitações de não participação na venda
 
@@ -144,7 +138,7 @@ curl -X POST \
 }'
 ```
 
-onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix):
+onde, de acordo com as [especificações da API Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica o espaço de cookies `AdCloud`, e o valor correspondente é a ID do cookie do cliente conforme recuperada de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que a solicitação se aplica ao produto Adobe Advertising

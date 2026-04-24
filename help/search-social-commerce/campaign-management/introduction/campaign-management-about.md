@@ -4,16 +4,12 @@ description: Saiba mais sobre os recursos de gerenciamento de campanhas em Pesqu
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -58,7 +54,7 @@ As visualizações de gerenciamento de campanhas permitem monitorar e gerenciar 
 
 * **[!UICONTROL Bulksheets]** — Use o modo de exibição [!UICONTROL Bulksheets] para criar [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contendo quantos dados você desejar para uma conta em uma [rede de anúncios com suporte](/help/search-social-commerce/introduction/supported-inventory.md) e, em seguida, publique-os na rede de anúncios.
 
-* **[!UICONTROL Audiences]** — [As [!UICONTROL Audiences] exibições](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) listam todos os seus públicos-alvo [!DNL Google Ads] e [!DNL Microsoft Advertising] gerados de vários tipos de listas de usuários. Você pode criar [!DNL Google Ads] públicos-alvo a partir dos seus públicos-alvo existentes da Adobe Experience Cloud e das suas listas de email de clientes. Você também pode visualizar e gerenciar destinos e exclusões de públicos-alvo para seus anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [As [!UICONTROL Audiences] exibições](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) listam todos os seus públicos-alvo [!DNL Google Ads] e [!DNL Microsoft Advertising] gerados de vários tipos de listas de usuários. Você pode criar [!DNL Google Ads] públicos-alvo a partir dos seus públicos-alvo existentes da Adobe CX Enterprise e das suas listas de email de clientes. Você também pode visualizar e gerenciar destinos e exclusões de públicos-alvo para seus anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** — Use esta exibição para criar e excluir [classificações de rótulo](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), o que pode ajudá-lo a agrupar seus rótulos em conjuntos significativos.
 

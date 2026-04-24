@@ -1,85 +1,80 @@
 ---
-title: Fazer logon no DSP
-description: Saiba como fazer logon no DSP.
+title: Sign in to DSP
+description: Learn how to sign in to DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
 TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 535
 ht-degree: 0%
 
 ---
 
-# Fazer logon no Adobe Advertising DSP
+# Sign in to Adobe Advertising DSP
 
-O Adobe Advertising DSP está fazendo a transição para o Adobe Identity Management Service (IMS) para autenticação de logon. O IMS fornece acesso de logon único (SSO) usando IDs federadas a todos os produtos do [!DNL Adobe] que oferecem suporte ao IMS, incluindo Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] e [!DNL Analytics]. Com a alteração:
+Adobe Advertising DSP is transitioning to the Adobe Identity Management Service (IMS) for login authentication. IMS provides single sign-on (SSO) access using federated IDs to all [!DNL Adobe] products that support IMS, including Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target], and [!DNL Analytics]. Com a alteração:
 
-* Você pode usar um [!DNL Adobe ID] para entrar em [!DNL Adobe] produtos da página de entrada da Experience Cloud ou da página de entrada herdada do DSP. Seu [!DNL Adobe ID] fornece gerenciamento de perfil de usuário. Em uma versão futura, você poderá alterar a conta da DSP, a conta da organização IMS e o produto [!DNL Adobe] no menu superior.
+* You can use one [!DNL Adobe ID] to sign in across [!DNL Adobe] products from either the Adobe CX Enterprise (formerly Adobe Experience Cloud) sign-in page or the legacy DSP sign-in page. Your [!DNL Adobe ID] provides user profile management. In a future release, you&#39;ll be able to change the DSP account, IMS organization account, and [!DNL Adobe] product from the top menu.
 
 * Há suporte para a autenticação corporativa.
 
-* Você pode permanecer conectado por 24 horas em vez de fazer logon a cada hora.
+* You can stay logged in for 24 hours instead of logging in every hour.
 
-Suas credenciais atuais do DSP permanecerão ativas por um curto período para que você possa se preparar para a alteração.
+Your current DSP credentials will remain active for a short time so that you can prepare for the change.
 
-## Usar um logon herdado do DSP para autenticação
+## Use a legacy DSP login for authentication
 
-* Vá para [advertising.adobe.com](https://advertising.adobe.com) e entre usando suas credenciais herdadas do DSP.
+* Go to [advertising.adobe.com](https://advertising.adobe.com), and sign in using your legacy DSP credentials.
 
 ## Usar um [!DNL Adobe ID] para autenticação
 
-1. Abra uma das seguintes telas de logon:
+1. Open either of the following sign-in screens:
 
-   * Vá para [advertising.adobe.com](https://advertising.adobe.com). Em &quot;[!UICONTROL Sign in with the Adobe Experience Cloud account]&quot;, clique em **[!UICONTROL Continue]**.
+   * Go to [advertising.adobe.com](https://advertising.adobe.com). Under &quot;[!UICONTROL Sign in with the Adobe Experience Cloud account],&quot; click **[!UICONTROL Continue]**.
 
    * Vá para [experience.adobe.com](https://experience.adobe.com).
 
-1. Insira suas credenciais:
+1. Enter your credentials:
 
-   * Se você já usa uma conta do [!DNL Adobe], entre com as credenciais existentes.
+   * If you already use an [!DNL Adobe] account, then sign in with your existing credentials.
 
-   * Se você não tiver uma conta [!DNL Adobe], procure um email convidando você a criar uma conta [!DNL Adobe]. Você receberá um convite para cada uma de suas contas do DSP. Siga o link no email para configurar suas credenciais. Se você tiver várias contas do DSP, siga as instruções para vinculá-las.
+   * If you don&#39;t have an [!DNL Adobe] account, then look for an email inviting you to create an [!DNL Adobe] account. You&#39;ll receive one invitation for each of your DSP accounts. Follow the link in the email to set up your credentials. If you have multiple DSP accounts, follow the instructions to link them.
 
-1. Escolha sua organização:
+1. Choose your organization:
 
-   * Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.
+   * If prompted, select either **[!UICONTROL Personal Account]&quot; or **[!UICONTROL Company or School Account]**.
 
-   * Se você tiver acesso a várias organizações IMS, selecione a correta.
+   * If you have access to multiple IMS organizations, select the correct one.
 
-Para obter mais informações sobre a interface do Experience Cloud, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).&quot;
+Para obter mais informações sobre a interface do CX Enterprise, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ### Solução de problemas
 
-Para problemas gerais de entrada, consulte também &quot;[Resolver problemas de entrada na conta da Adobe](https://helpx.adobe.com/br/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
-#### Há algum pré-requisito para habilitar um novo logon de IMS do [!DNL Adobe]?
+#### Are there any prerequisites to enable a new [!DNL Adobe] IMS login?
 
-Para adicionar uma nova conta de logon, compartilhe o endereço de email com a equipe de conta da Adobe. A equipe adicionará seu endereço à lista de usuários da organização IMS para a qual o DSP foi provisionado.
+To add a new login account, share the email address with your Adobe Account Team. The team will add your address to the user list for the IMS organization to which DSP has been provisioned.
 
-Enquanto isso, o usuário pode continuar usando suas credenciais herdadas do DSP.
+In the meanwhile, the user can continue to use their legacy DSP credentials.
 
-#### Depois de fazer logon usando uma conta do Adobe IMS, sou redirecionado de volta para a página de logon adobe.advertising.com.
+#### After signing in using an Adobe IMS account, I&#39;m redirected back to the adobe.advertising.com login page.
 
-Verifique com o administrador da organização IMS se o email usado foi adicionado à organização IMS. Se o administrador confirmar que você foi adicionado à organização IMS, peça à equipe de conta da Adobe para provisionar sua conta para usar o DSP.
+Check with your IMS organization administrator that the email you are using was added to the IMS organization. If the administrator confirms that you are added to the IMS organization, then ask your Adobe Account Team to provision your account to use DSP.
 
-Enquanto isso, você pode continuar usando suas credenciais herdadas do DSP.
+In the meanwhile, you can continue to use your legacy DSP credentials.
 
-#### Eu entrei usando um endereço de email incorreto, que me entrou no [!DNL Adobe], mas não fornece acesso ao DSP.
+#### I signed in using an incorrect email address, which signed me into [!DNL Adobe] but doesn&#39;t provide DSP access.
 
-1. Acesse [experience.adobe.com](https://experience.adobe.com) e saia.
+1. Go to [experience.adobe.com](https://experience.adobe.com) and sign out.
 
-1. Vá para [advertising.adobe.com](https://advertising.adobe.com) e entre com a ID de email correta.
+1. Go to [advertising.adobe.com](https://advertising.adobe.com) and sign in with the correct email ID.
 
-#### Minha conta IMS do [!DNL Adobe] e minha conta da DSP estão registradas com emails diferentes. Como faço para entrar usando minha conta IMS do [!DNL Adobe]?
+#### My [!DNL Adobe] IMS account and DSP account are registered with different emails. How do I sign in using my [!DNL Adobe] IMS account?
 
 Peça à sua equipe de conta da Adobe para provisionar sua conta IMS do [!DNL Adobe] existente para usar o DSP.

@@ -4,10 +4,10 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1054'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 4%
       + [Soluções entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiamento da conta](/help/dsp/introduction/billing/account-funding.md)
    + [Moedas suportadas](/help/dsp/currency.md)
-   + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
-   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR)
+   + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluções avançadas de medição](/help/dsp/introduction/advanced-measurement-services.md)
 + [Procure a documentação do produto usando o bate-papo assistido por IA](/help/dsp/agent-chat.md)
 + Gerenciamento de campanhas {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [Revisar e editar detalhes do anúncio usando bulksheets](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar um anúncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar um anúncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Anexar e remover anúncios de posicionamentos](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=pt-BR)
+      + [Anexar e remover anúncios de posicionamentos](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Listar os posicionamentos associados a um anúncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Exibir um relatório detalhado de um anúncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar ou ativar um anúncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notificações {#notifications}
       + [Sobre assinaturas de alerta](/help/dsp/admin/alerts-about.md)
       + [Gerenciar assinaturas de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integrações com o Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=pt-BR)
++ [Integrações com o Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obter ajuda](/help/dsp/get-help.md)
-+ [notas de versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR)
++ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

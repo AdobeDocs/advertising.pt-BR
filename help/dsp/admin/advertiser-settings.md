@@ -2,9 +2,9 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Os anunciantes com produtos adicionais da Adobe Experience Cloud podem compartilhar dados entre alguns produtos usando a ID exclusiva da organização para o Experience Cloud. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
+Os anunciantes com produtos adicionais da Adobe CX Enterprise podem compartilhar dados entre alguns produtos usando a ID exclusiva da organização para o CX Enterprise. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos Experience Cloud adicionais que são licenciados por meio de uma conta da Experience Cloud com vários anunciantes; opcional) a ID da organização da Experience Cloud do anunciante.
+**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos CX Enterprise adicionais que são licenciados por meio de uma conta da CX Enterprise com vários anunciantes; opcional) a ID da organização da CX Enterprise do anunciante.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos adicionais da Experience Cloud; opcional) a ID da organização da Experience Cloud do anunciante.
+**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos adicionais da CX Enterprise; opcional) a ID da organização da CX Enterprise do anunciante.
 
 ### [!UICONTROL Integrations]
 
-(Opcional) Produtos adicionais da Experience Cloud vinculados à conta da DSP. Os produtos devem ser associados à mesma ID de organização da Experience Cloud fornecida na seção [!UICONTROL Adobe IMS IDs].
+(Opcional) Produtos adicionais da CX Enterprise vinculados à conta da DSP. Os produtos devem ser associados à mesma ID de organização da CX Enterprise fornecida na seção [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes com [!DNL Advertising Search, Social, & Commerce] ou que usam pixels de conversão de Adobe Advertising) Uma conta [!DNL Search, Social, & Commerce] com a qual a DSP troca dados de atribuição.
 
@@ -56,8 +56,8 @@ Para obter mais informações sobre a integração com [!DNL Analytics], consult
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes com Adobe Audience Manager ou Adobe Analytics; opcional) uma conta do Audience Manager ou [!DNL Analytics] da qual o DSP obtém metadados de segmento, dados de hierarquia e dados de público-alvo exclusivos para todos os públicos-alvo do Adobe do anunciante. Isso inclui dados para:
 
 * Segmentos do Audience Manager
-* [!DNL Analytics] segmentos publicados no Adobe Experience Cloud
-* Segmentos criados usando o Adobe Experience Cloud [!DNL Audience Library]
+* [!DNL Analytics] segmentos publicados no Adobe CX Enterprise
+* Segmentos criados usando o Adobe CX Enterprise [!DNL Audience Library]
 * Segmentos criados no Adobe Experience Platform e enviados para o Adobe Advertising via Audience Manager
 
 A sincronização inicial leva cerca de 24 horas. Depois disso, os dados são sincronizados em tempo real, com um atraso de um a dois segundos.
@@ -159,26 +159,26 @@ Um filtro **[!UICONTROL Video Viewability Targets]** opcional e um filtro **[!UI
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** Por padrão, qual nível de [[!DNL Ads.txt] filtragem pré-oferta](https://iabtechlab.com/ads-txt-about/) usar ao aproveitar cada lista [!DNL Authorized Digital Sellers] de editor:
-* *[!UICONTROL Opt out of ads.txt (default)]*: Para comprar inventário de todos os vendedores.
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: priorizar a compra de estoque dos revendedores e vendedores diretos autorizados de um domínio.
-* *[!UICONTROL Ads.txt sellers only]*: para comprar o estoque somente de revendedores e vendedores diretos autorizados de um domínio.
-* *[!UICONTROL Ads.txt sellers only]*: para comprar o inventário somente de vendedores diretos autorizados de um domínio.
+**[!UICONTROL Ads.txt Filtering]:** By default, which level of [[!DNL Ads.txt] pre-bid filtering](https://iabtechlab.com/ads-txt-about/) to use by leveraging each publisher&#39;s [!DNL Authorized Digital Sellers] list:
+* *[!UICONTROL Opt out of ads.txt (default)]*: To buy inventory from all sellers.
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: To prioritize buying inventory from a domain&#39;s authorized direct sellers and resellers.
+* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers and resellers.
+* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers.
 
-Você pode substituir a configuração no nível do anunciante no [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+You can override the advertiser-level setting at the [placement level](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
-**[!UICONTROL Enable Site Safety Block]:** Por padrão, habilita um filtro de pós-oferta em tempo real para garantir que os anúncios sejam veiculados nos sites para os quais o anunciante está direcionando. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
+**[!UICONTROL Enable Site Safety Block]:** By default, enables a real-time, post-bid filter to ensure that ads serve on the sites that the advertiser is targeting. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clientes somente; opcional) Uma ID de segmento [!DNL DoubleVerify Authentic Brand Safety] associada à conta [!DNL DoubleVerify] da organização para ser usada como padrão para todos os posicionamentos. Especificar uma ID bloqueia impressões pós-oferta usando as regras personalizadas de segurança da marca configuradas para a ID do segmento especificada. A DSP fatura sua conta pelo uso da ID de segmento.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] customers only; optional) A [!DNL DoubleVerify Authentic Brand Safety] segment ID associated with the organization&#39;s [!DNL DoubleVerify] account to use by default for all placements. Specifying an ID blocks impressions post-bid using the custom brand safety rules configured for the specified segment ID. DSP bills your account for usage for the segment ID.
 
-A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Você pode alterar ou excluir a ID no nível do anunciante no nível de posicionamento.
+The ID must begin with &quot;51&quot; and consist of eight digits. You can change or delete the advertiser-level ID at the placement level.
 
 >[!MORELIKETHIS]
 >
->* [Criar uma conta de anunciante](/help/dsp/admin/advertiser-create.md)
+>* [Create an advertiser account](/help/dsp/admin/advertiser-create.md)
 
 <!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

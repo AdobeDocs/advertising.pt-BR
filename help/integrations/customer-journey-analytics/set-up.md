@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1792
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ As tarefas a seguir são necessárias para configurar a coleta de dados no Exper
 
    * Para sua propriedade, [instale a extensão &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) do catálogo de extensões.
 
-     Essa extensão envia dados de suas propriedades da Web para o Experience Cloud por meio do Experience Platform Edge Network.
+     Essa extensão envia dados de suas propriedades da Web para o Adobe CX Enterprise por meio do Experience Platform Edge Network.
 
      Não use a extensão do Adobe Advertising.
 
@@ -113,49 +113,49 @@ As tarefas a seguir são necessárias para configurar a coleta de dados no Exper
 
    * Crie [elementos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/data-elements) conforme necessário para mapear variáveis no seu site para a estrutura do esquema XDM criado anteriormente.
 
-1. [Publique a marca](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/publishing-flow) em um ambiente de teste no qual você possa iterar o desenvolvimento de marcas.
+1. [Publish the tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/publishing-flow) to a test environment in which you can iterate on the development of tags.
 
-1. Valide a entrega dos conjuntos de dados e [publique a tag no seu ambiente de produção em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/publishing-flow).
+1. Validate delivery of the datasets, and then [publish the tag to your live production environment](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/publishing-flow).
 
-   O departamento de TI de sua organização ou outro grupo pode precisar agendar ou ser informado sobre a implantação da tag.
+   Your organization&#39;s IT department or other group may need to schedule, or be informed about, the tag deployment.
 
-## Criar uma conexão com seus conjuntos de dados do Experience Platform no Customer Journey Analytics {#dataset-connection}
+## Create a connection to your Experience Platform datasets in Customer Journey Analytics {#dataset-connection}
 
-Siga estas etapas para extrair dados do Adobe Advertising dos conjuntos de dados do Experience Platform para a Customer Journey Analytics. O administrador do site da sua organização para o Customer Journey Analytics pode executar essas tarefas.
+Follow these steps to pull Adobe Advertising data from your Experience Platform datasets into Customer Journey Analytics. Your organization&#39;s site administrator for Customer Journey Analytics can perform these tasks.
 
-1. No Customer Journey Analytics, [crie uma conexão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/create-connection) que inclua seus conjuntos de dados e esquema do Experience Platform.
+1. In Customer Journey Analytics, [create a connection](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/create-connection) that includes your Experience Platform datasets and schema.
 
-   **Observação:** Atualmente, você deve enviar dados de todas as contas do DSP e do Search, Social e Commerce para uma única instância e sandbox da Experience Platform.
+   **Note:** Currently, you must send data for all DSP and Search, Social, &amp; Commerce accounts to a single Experience Platform instance and sandbox.
 
-   * Adicione seu conjunto de dados de evento (métricas), resumo (métricas) do Experience Platform e conjunto de dados de dimensões (classificações/metadados) do.
+   * Add your Experience Platform event (metrics) dataset, summary (metrics) dataset, and dimensions (classifications/metadata) dataset.
 
-     Sua equipe criou o conjunto de dados do evento, e a Adobe Advertising criou os conjuntos de dados de resumo e dimensões com base em seu conjunto de dados de evento.
+     Your team created the event dataset, and Adobe Advertising created the summary and dimensions datasets based on your event dataset.
 
-     Opcionalmente, é possível incluir conjuntos de dados adicionais, conforme necessário.
+     You can optionally include additional datasets as needed.
 
-   * Mapeie o conjunto de dados de dimensões para o conjunto de dados de eventos:
+   * Map the dimensions dataset to the events dataset:
 
-      1. Abra as configurações do conjunto de dados da dimensão.
+      1. Open the settings for the dimension dataset.
 
-         O cabeçalho na página de configurações é &quot;[!UICONTROL Lookup Dataset]&quot;, que indica que você pode unir seu conjunto de dados de dimensões a um de seus conjuntos de dados específicos de métrica.
+         The heading on the settings page is &quot;[!UICONTROL Lookup Dataset],&quot; which indicates that you can join your dimensions dataset with one of your metric-specific datasets.
 
-      1. Na seção [!UICONTROL Adobe Advertising Dimensions], mapeie o conjunto de dados de dimensões para o conjunto de dados de eventos:
+      1. In the [!UICONTROL Adobe Advertising Dimensions] section, map the dimensions dataset to the events dataset:
 
-         1. Para o campo [!UICONTROL Key], selecione o campo a ser usado como a chave para o conjunto de dados de dimensões: `Adobe Advertising ID` (que é o mesmo que o campo `trackingCode` no esquema).
+         1. For the [!UICONTROL Key] field, select the field to use as the key for the dimensions dataset: `Adobe Advertising ID` (which is same as the `trackingCode` field in the schema).
 
-         1. Para o campo [!UICONTROL Matching key], selecione o campo a ser usado como a chave correspondente para o conjunto de dados de eventos. Os nomes de campos disponíveis incluem o nome do conjunto de dados entre parênteses. Por exemplo, se estiver mapeando o conjunto de dados de dimensões para o conjunto de dados de eventos, selecione `Tracking Code (Event datasets)`.
+         1. For the [!UICONTROL Matching key] field, select the field to use as the matching key for the events dataset. The available field names include the dataset name in parentheses. For example, if you&#39;re mapping your dimensions dataset to your events dataset, select `Tracking Code (Event datasets)`.
 
-         Posteriormente, você também mapeará o conjunto de dados de eventos para o conjunto de dados de resumo ao configurar a visualização de dados (#cja-data-views).
+         Later, you&#39;ll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).
 
-1. Após algumas horas, verifique se os dados estão disponíveis no Customer Journey Analytics.
+1. After a couple of hours, verify that the data is available in Customer Journey Analytics.
 
-   1. No Customer Journey Analytics, vá para **[!UICONTROL Connections]** e selecione sua conexão.
+   1. In Customer Journey Analytics, go to **[!UICONTROL Connections]** and select your connection.
 
-   1. Na lista de conjuntos de dados exibidos, verifique se o relatório &quot;[!UICONTROL Number of Records]&quot; mostra que os dados foram adicionados.
+   1. In the list of data sets displayed, verify that the &quot;[!UICONTROL Number of Records]&quot; report shows that data was added.
 
-## Configurar visualizações de dados no Customer Journey Analytics {#cja-data-views}
+## Set up data views in Customer Journey Analytics {#cja-data-views}
 
-No Customer Journey Analytics, crie uma ou mais visualizações de dados para definir as métricas e dimensões para os relatórios. Um analista da Web pode executar essas tarefas.
+In Customer Journey Analytics, create one or more data views to define the metrics and dimensions for reporting. Um analista da Web pode executar essas tarefas.
 
 1. No Customer Journey Analytics, [crie uma visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview).
 

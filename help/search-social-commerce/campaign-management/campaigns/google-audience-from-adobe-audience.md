@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 *Somente anunciantes com uma integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics*
 
-Os anunciantes aceitos podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de a) [!DNL Analytics] segmentos compartilhados com a Adobe Experience Cloud e b) segmentos do Audience Manager que têm Search, Social e Commerce como destino, incluindo [!DNL Analytics] segmentos publicados na Adobe Experience Cloud e segmentos criados com a Biblioteca de público-alvo da Adobe Experience Cloud. O Search, Social e Commerce envia automaticamente uma URL de rastreamento [!DNL Google] de volta para cada segmento [!DNL Analytics] ou Audience Manager para que [!DNL Google] possa rastrear o público.
+Os anunciantes aceitos podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de a) [!DNL Analytics] segmentos compartilhados com a Adobe CX Enterprise e b) segmentos do Audience Manager que têm Search, Social e Commerce como destino, incluindo [!DNL Analytics] segmentos publicados na Adobe CX Enterprise e segmentos criados com a Biblioteca de público-alvo da Adobe CX Enterprise. O Search, Social e Commerce envia automaticamente uma URL de rastreamento [!DNL Google] de volta para cada segmento [!DNL Analytics] ou Audience Manager para que [!DNL Google] possa rastrear o público.
 
 Cada público-alvo [!DNL Adobe] pode ser usado somente para um público-alvo [!DNL Google].
 
@@ -33,7 +33,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
 >[!TIP]
 >
->Para segmentação em tempo real, use públicos criados pela Audience Manager. Segmentos criados no [!DNL Analytics] e sincronizados com o Adobe Experience Cloud podem ter populações menores, pois são sincronizados apenas diariamente. Um surfer que se qualifica para um segmento não pode ser incluído no segmento até o dia seguinte. Segmentos de [!DNL Analytics] têm uma fonte de dados de &quot;conjunto de relatórios - .&quot;
+>Para segmentação em tempo real, use públicos criados pela Audience Manager. Segmentos criados no [!DNL Analytics] e sincronizados com o Adobe CX Enterprise podem ter populações menores, pois são sincronizados apenas diariamente. Um surfer que se qualifica para um segmento não pode ser incluído no segmento até o dia seguinte. Segmentos de [!DNL Analytics] têm uma fonte de dados de &quot;conjunto de relatórios - .&quot;
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Cada novo público-alvo de [!DNL Google] tem o mesmo nome que o público-alvo or
 
       Exemplo: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Se ainda não tiver sido concluído) Um usuário autorizado deve configurar a conta do anunciante para [sincronizar com a conta da organização do anunciante no Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (Se ainda não tiver sido concluído) Um usuário autorizado deve configurar a conta do anunciante para [sincronizar com a conta da organização do anunciante no Adobe CX Enterprise](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
 1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nos submenus, clique em **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

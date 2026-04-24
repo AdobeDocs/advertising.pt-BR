@@ -3,9 +3,9 @@ title: Integrações do Adobe Advertising com o Adobe Analytics
 description: Saiba mais sobre como o Adobe Advertising pode trocar dados com o Adobe Analytics e como você pode usar os dados no Search, Social e Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e o DSP pull in:
 
-* **[!DNL Analytics]segmentos:** Metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os segmentos de um anunciante ou de uma agência criados em [!DNL Analytics] e publicados na Experience Cloud.
+* **[!DNL Analytics]segmentos:** Metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os segmentos de um anunciante ou de uma agência criados em [!DNL Analytics] e publicados na Adobe CX Enterprise.
 
 * **[!DNL Analytics]métricas de envolvimento do site**
 
@@ -42,7 +42,7 @@ Com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 <!-- Verify all -->
 
-No [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente do Google a partir de IDs de usuário usando seus [!DNL Analytics] segmentos existentes. Isso inclui segmentos do Adobe Analytics publicados no Adobe Experience Cloud e segmentos criados com o Adobe Experience Cloud [!DNL Audience Library]. Para obter mais informações, consulte &quot;[Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos-alvo](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
+No [!DNL Search, Social, & Commerce], você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente do Google a partir de IDs de usuário usando seus [!DNL Analytics] segmentos existentes. Isso inclui segmentos do Adobe Analytics publicados no Adobe CX Enterprise e segmentos criados com o Adobe CX Enterprise [!DNL Audience Library]. Para obter mais informações, consulte &quot;[Criar [!DNL Google Ads] públicos-alvo de correspondência do cliente de [!DNL Adobe] públicos-alvo](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [Os públicos-alvo de correspondência do cliente das IDs de usuário](https://support.google.com/google-ads/answer/9199250) funcionam como públicos-alvo baseados em marcas de site, mas uma ID que não seja uma PII é atribuída a membros de público-alvo exclusivos para benefícios distintos em relação aos públicos-alvo padrão baseados em marcas de site e correspondência do cliente.
 

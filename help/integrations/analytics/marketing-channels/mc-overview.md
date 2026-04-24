@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obter a documentação completa sobre [!DNL Marketing Channels], consulte &
 
 [!DNL Marketing Channels] são um recurso importante do Adobe Analytics. Os relatórios do [!DNL Marketing Channels] mostram como os clientes chegam ao seu site pela janela de relatórios e como cada canal afeta a receita ou o comportamento no site.
 
-Considere o exemplo a seguir de uma jornada entre visitas. Cada visita ao seu site é indicada pelo canal de marketing do qual o visitante entrou. A primeira visita, também chamada de Canal de primeiro contato, é email. Exibir na visita dois é um canal participante e a Pesquisa natural é considerada o Canal de último contato. Se você usar [!UICONTROL Last Touch Attribution] em [!UICONTROL Attribution IQ], a Pesquisa natural receberá crédito total pelo evento de conversão de US$ 250. Usando o Serviço da Experience Cloud ID, é possível unir essas visitas individuais para revelar uma jornada por um único visitante.
+Considere o exemplo a seguir de uma jornada entre visitas. Cada visita ao seu site é indicada pelo canal de marketing do qual o visitante entrou. A primeira visita, também chamada de Canal de primeiro contato, é email. Exibir na visita dois é um canal participante e a Pesquisa natural é considerada o Canal de último contato. Se você usar [!UICONTROL Last Touch Attribution] em [!UICONTROL Attribution IQ], a Pesquisa natural receberá crédito total pelo evento de conversão de US$ 250. Usando o Serviço da Adobe CX Enterprise ID, é possível unir essas visitas individuais para revelar uma jornada por um único visitante.
 
 ![Exemplo de jornada de conversão entre visitas em Canais de marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Configurar testes A/B para anúncios do Adobe Advertising DSP no Adobe Target
-description: Saiba como configurar um teste A/B no [!DNL Target] para seus anúncios do DSP.
+title: Configure A/B tests for Adobe Advertising DSP ads in Adobe Target
+description: Learn how to set up an A/B test in [!DNL Target] for your DSP ads.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
 TQID: https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs
 product_v2:
@@ -19,18 +19,18 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1645
 ht-degree: 0%
 
 ---
 
-# Configurar testes A/B no Adobe Target para anúncios do Advertising DSP
+# Configure A/B tests in Adobe Target for Advertising DSP ads
 
-*Somente anunciantes com o Advertising DSP*
+*Advertisers with Advertising DSP only*
 
-O Adobe Advertising e o Adobe Target tornam ainda mais fácil para os profissionais de marketing fornecer uma experiência personalizada e conectada em mídia paga e mensagens no site. Ao compartilhar sinais entre os produtos, você pode:
+Adobe Advertising and Adobe Target make it even easier for marketers to deliver a personalized and connected experience across paid media and on-site messaging. By sharing signals between the products, you can:
 
 * Diminuir as taxas de fallthrough do site, vinculando a exposição de anúncios dos clientes das campanhas do DSP às suas experiências no site.
 
@@ -196,17 +196,17 @@ As seguintes dimensões pertencem a [!DNL Analytics for Target]:
 
 No Analysis Workspace, se você notar que os dados de atividade e experiências são mínimos ou não são preenchidos, faça o seguinte:
 
-* Verifique se o mesmo [!UICONTROL Supplemental Data ID] (SDID) é usado para [!DNL Target] e [!DNL Analytics]. Você pode verificar os valores SDID usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=pt-BR) na página de aterrissagem para a qual a campanha está direcionando usuários.
+* Verifique se o mesmo [!UICONTROL Supplemental Data ID] (SDID) é usado para [!DNL Target] e [!DNL Analytics]. Você pode verificar os valores SDID usando a [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=pt-BR) na página de aterrissagem para a qual a campanha está direcionando usuários.
 
-[Valores da ID de dados complementares (SDID) no Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Valores da ID de dados complementares (SDID) no Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
 * Na mesma página de aterrissagem, verifique se a) o [!UICONTROL Hostname] exibido no Adobe Debugger em [!UICONTROL Solutions] > [!UICONTROL Target] corresponde b) o [!UICONTROL Tracking Server] exibido em [!DNL Target] para a atividade (em [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] requer que um servidor de rastreamento [!DNL Analytics] seja enviado em chamadas de [!DNL Target] para o servidor de coleta de dados [!DNL Modstats] do Analytics.<!-- just "to Analytics?"-->
 
-[Valor do nome do host no Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Valor do nome do host no Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Valor do servidor de rastreamento no Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Valor do servidor de rastreamento no Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## Leitura adicional
 

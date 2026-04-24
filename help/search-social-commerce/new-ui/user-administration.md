@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ A nova interface de usuário do Search, Social &amp; Commerce tem os seguintes p
 
 1. Acesse https://adminconsole.adobe.com/enterprise/.
 
-1. (Se você não estiver conectado ao Experience Cloud) Faça logon no Experience Cloud:
+1. (Se você não estiver conectado ao CX Enterprise) Faça logon no CX Enterprise:
 
    1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
    1. Selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Selecione a organização da Experience Cloud aplicável.
+   1. Selecione a organização da CX Enterprise aplicável.
 
       O Admin Console abre na guia [!UICONTROL Overview].
 

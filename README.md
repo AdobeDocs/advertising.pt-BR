@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3148634061d8d705608f9686da936d0b5b79e4c4
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 # Contribuir com o artigo
@@ -11,7 +11,7 @@ Agradecemos as contribuições de nossa comunidade e de funcionários da Adobe d
 
 ## Código de conduta do Adobe Open Source
 
-Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md) ou o [Código de conduta do .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
+Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
 
 ## Sobre suas contribuições para o conteúdo do Adobe
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Grandes mudanças dos funcionários da Adobe
 
-Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos de uma solução da Adobe Experience Cloud e seu trabalho for contribuir com ou criar artigos técnicos, deverá usar o repositório privado em `https://git.corp.adobe.com/AdobeDocs`.
+Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos de uma solução da Adobe CX Enterprise e seu trabalho for contribuir com ou criar artigos técnicos, deverá usar o repositório privado em `https://github.com/Adobe-Enterprise-Docs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

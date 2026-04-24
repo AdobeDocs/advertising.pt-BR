@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Depois de criar uma fonte para sua plataforma de dados do cliente, você deve concluir as etapas adicionais para importar seu público. Veja o [fluxo de trabalho para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> o [fluxo de trabalho para [!DNL Amperity]](source-amperity.md), o [fluxo de trabalho para [!DNL Optimizely]](source-optimizely.md) e o [fluxo de trabalho para [!DNL Tealium]](source-tealium.md).
+>After you create a source for your customer data platform, you must complete additional steps to import your audience. See the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> the [workflow for [!DNL Amperity]](source-amperity.md), the [workflow for [!DNL Optimizely]](source-optimizely.md), and the [workflow for [!DNL Tealium]](source-tealium.md).
 
-## Alterar os tipos de ID para uma origem de público-alvo
+## Change the ID types for an audience source
 
 <!-- 
 Clarify this:
@@ -79,39 +79,39 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Edit]**.
+1. Hold the cursor over the source row and click **[!UICONTROL Edit]**.
 
-1. Alterar as [IDs selecionadas para a origem](#source-settings).
+1. Change the [IDs selected for the source](#source-settings).
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Excluir uma origem de público-alvo
+## Delete an audience source
 
-Excluir uma origem remove os segmentos convertidos pela origem.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
+Deleting a source removes the segments translated through the source.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Delete]**.
+1. Hold the cursor over the source row and click **[!UICONTROL Delete]**.
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
-## Exibir o log de alterações para uma origem de público-alvo
+## View the change log for an audience source
 
-Você pode exibir detalhes sobre alterações em um registro de origem de público-alvo e, opcionalmente, anexar observações ao log.
+You can view details about changes to an audience source record and optionally attach notes to the log.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Change log]**.
+1. Hold the cursor over the source row and click **[!UICONTROL Change log]**.
 
-1. (Opcional) Para anexar uma nota ao log de alterações:
+1. (Optional) To attach a note to the change log:
 
-   1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Add Notes]**.
+   1. Hold the cursor over the source row and click **[!UICONTROL Add Notes]**.
 
-   1. Insira a observação e clique em **[!UICONTROL Save]**.
+   1. Enter the note, and then click **[!UICONTROL Save]**.
 
-      O comprimento máximo é de 256 caracteres.
+      The maximum length is 256 characters.
 
-1. (Opcional) Para abrir o log em uma tela de detalhes maior, mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL View Details]**.
+1. (Optional) To open the log in a larger detail screen, hold the cursor over the source row and click **[!UICONTROL View Details]**.
 
 ## Configurações de origem do público-alvo {#source-settings}
 
@@ -119,7 +119,7 @@ Você pode exibir detalhes sobre alterações em um registro de origem de públi
 
 **[!UICONTROL Advertiser]:** (somente visibilidade no nível do anunciante) O anunciante para o qual os segmentos estão disponíveis. Selecione um na lista de anunciantes com acesso à conta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe Experience Cloud para a conta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe CX Enterprise para a conta [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** Os tipos de ID para os quais você converterá suas informações de identificação pessoal (PII). Se você selecionar vários tipos, o segmento gerado será preenchido com valores para cada tipo de ID selecionado (como [!DNL RampID] e [!DNL Unified ID2.0] para cada endereço de email). Os encargos de dados são aplicados de acordo.
 

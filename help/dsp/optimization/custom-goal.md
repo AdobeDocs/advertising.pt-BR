@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ As recomendações de peso são geradas automaticamente para métricas atribuíd
 
 ## Criar uma meta personalizada {#custom-goal-create}
 
-Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma conta do [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe Experience Cloud, nas configurações de cliente do [!DNL Search, Social, & Commerce]. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a equipe de conta da Adobe.
+Para criar uma meta personalizada, a conta do DSP deve estar vinculada a uma conta do [!DNL Search, Social, & Commerce] com a mesma ID de organização da Adobe CX Enterprise, nas configurações de cliente do [!DNL Search, Social, & Commerce]. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a equipe de conta da Adobe.
 
 1. [Entre no Advertising Search, Social e Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 

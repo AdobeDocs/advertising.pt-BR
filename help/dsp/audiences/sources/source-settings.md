@@ -3,9 +3,9 @@ title: Configurações de origem do público-alvo
 description: Saiba mais sobre as configurações para fontes de público-alvo.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (somente visibilidade no nível do anunciante) O anunciante para o qual os segmentos estão disponíveis. Selecione um na lista de anunciantes com acesso à conta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe Experience Cloud para a conta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe CX Enterprise para a conta [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** Os tipos de ID para os quais você converterá suas informações de identificação pessoal (PII). Se você selecionar vários tipos, o segmento gerado será preenchido com valores para cada tipo de ID selecionado (como [!DNL RampID] e [!DNL Unified ID2.0] para cada endereço de email). Os encargos de dados são aplicados de acordo.
 

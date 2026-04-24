@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Segmentos do Analytics
 
-Todos os segmentos criados em [!DNL Analytics] e publicados no Experience Cloud.
+Todos os segmentos criados em [!DNL Analytics] e publicados no Adobe CX Enterprise (antigo Adobe) Experience Cloud).
 
 Os novos segmentos levam de 24 a 48 horas para serem exibidos no Adobe Advertising. As atualizações de segmentos existentes são sincronizadas em cerca de oito horas.
 

@@ -2,12 +2,11 @@
 title: Criar um público-alvo reutilizável usando IA gerativa
 description: Saiba como criar públicos-alvo reutilizáveis no Adobe Advertising DSP usando o agente de público-alvo assistido por IA. Descreva seu público-alvo em prompts em linguagem natural; o agente sugere segmentos de terceiros e cria expressões de público para usar como alvos ou exclusões.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *Suporte somente para inglês*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos de terceiros disponíveis para você, de acordo com seus requisitos declarados. Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
+Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos primários e de terceiros disponíveis para você, de acordo com seus requisitos declarados. Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 >Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de criar o público-alvo e usá-lo para suas inserções.
 
 ## Criar um público-alvo reutilizável usando IA gerativa
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -70,6 +81,8 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 ## Noções básicas para escrever prompts {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### O que um prompt deve incluir?
 
 * Use uma linguagem clara e descritiva para descrever o público-alvo.
@@ -95,17 +108,11 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ Quando o agente de público-alvo precisar de uma resposta sua, você poderá res
 
 #### Agente de público-alvo fazendo uma pergunta
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra semelhante
 

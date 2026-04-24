@@ -72,7 +72,7 @@ To make requests to access and delete data for Adobe Advertising, you must:
    >
    >Entre em contato com o representante da Adobe Advertising de sua empresa para confirmar se todas as contas da Adobe Advertising de sua organização — incluindo contas do [!DNL DSP] ou anunciantes, contas do [!DNL Search, Social, & Commerce] e contas do [!DNL Creative] ou do [!DNL DCO] — estão vinculadas à sua ID da organização da CX Enterprise.
 
-1. Use either the [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (for automated requests) or the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (for ad-hoc requests) to submit access and delete requests to Adobe Advertising on behalf of the data subjects, and to check the status of existing requests.
+1. Use either the [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=pt-BR) (for automated requests) or the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR) (for ad-hoc requests) to submit access and delete requests to Adobe Advertising on behalf of the data subjects, and to check the status of existing requests.
 
    For advertisers who have a mobile app to interact with data subjects and launch campaigns with DSP, you must download the Privacy-ready Mobile SDKs for CX Enterprise. The Mobile SDKs allow data controllers to set opt-out status flags, retrieve the data subject&#39;s device ID (namespace ID: `deviceID`), and submit requests to the Privacy Service API. Seu aplicativo móvel exigirá um SDK versão 4.15.0 ou superior.
 
@@ -84,7 +84,7 @@ To make requests to access and delete data for Adobe Advertising, you must:
    >
    >If your company has multiple CX Enterprise organization IDs, then you must send separate API requests for each. No entanto, você pode fazer uma solicitação de API para várias subsoluções da Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), com uma conta por subsolução.
 
-All steps are necessary for Adobe Advertising. For more information about these and other related tasks you need to perform using the Adobe Experience Platform Privacy Service, and where to find the necessary items, see &quot;[Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+All steps are necessary for Adobe Advertising. For more information about these and other related tasks you need to perform using the Adobe Experience Platform Privacy Service, and where to find the necessary items, see &quot;[Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR).&quot;
 
 ## Valores de campo obrigatórios em solicitações JSON do Adobe Advertising
 

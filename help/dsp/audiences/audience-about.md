@@ -99,7 +99,7 @@ You can target your placements to all of the following types of audiences.
 
   >[!NOTE]
   >
-  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
+  >Consulte a documentação do [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=pt-BR), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=pt-BR) para obter informações sobre como configurar e coletar dados para segmentos nessas soluções.
 
 ## Dados de tamanho do público
 

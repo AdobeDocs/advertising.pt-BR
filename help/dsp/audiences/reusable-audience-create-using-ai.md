@@ -4,9 +4,9 @@ description: Saiba como criar públicos-alvo reutilizáveis no Adobe Advertising
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos primários e de terceiros disponíveis para você, de acordo com seus requisitos declarados. Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
+Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos primários e de terceiros disponíveis para você, de acordo com seus requisitos declarados. Quando aplicável, o agente sugere filtros de segmento adicionais para ajudar você a criar um resumo de público-alvo mais eficiente.
+
+Você pode usar seus públicos-alvo como destinos ou exclusões para vários posicionamentos.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo r
 
 1. Crie o público-alvo:
 
-   Para usuários com permissões beta, a opção AI é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
+   A opção IA é o padrão. Para [reunir o próprio público](/help/dsp/audiences/reusable-audience-create.md), clique no botão &quot;Alternar para modo manual&quot; na parte inferior.
 
    1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
       Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
-      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo booleana com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo.
+      Quando aplicável, o agente sugere filtros de segmento adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
 
-      Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
+      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo booleana com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo. Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
 
    1. Quando o agente de público-alvo apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
 

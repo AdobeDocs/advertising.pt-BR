@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1063'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 3%
    + [Como o Advertising DSP otimiza suas campanhas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)
    + [Filtros pré-oferta no nível de posicionamento e como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + [Metas personalizadas](/help/dsp/optimization/custom-goal.md)
+   + [Práticas recomendadas para metas personalizadas](/help/dsp/optimization/custom-goal.md)
    + [Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 + Públicos-alvo {#audiences}
@@ -221,12 +221,14 @@ ht-degree: 3%
    + [Arquivar um plano de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
 + Recursos {#resources}
    + [Gerenciar listas de URLs](/help/dsp/resources/lists-url-manage.md)
-+ Administração {#admin}
++ Configurações/administração {#admin}
    + [Editar seu perfil de usuário](/help/dsp/admin/user-own-profile-edit.md)
    + Usuários {#users}
       + [Convidar um novo usuário para a conta da organização](/help/dsp/admin/user-invite.md)
       + [Reenviar um convite de usuário pendente](/help/dsp/admin/user-resend-invite.md)
       + [Desconvidar um usuário pendente](/help/dsp/admin/user-uninvite.md)
+   + [Gerenciar conversões](/help/dsp/admin/conversion-metrics-manage.md)
+   + [Gerenciar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md)
    + Sites bloqueados {#sites}
       + [Sobre listas de sites bloqueados no nível da conta e do anunciante](/help/dsp/admin/blocked-sites-list-about.md)
       + [Editar uma lista de sites bloqueados no nível da conta ou do anunciante](/help/dsp/admin/blocked-sites-list-edit.md)

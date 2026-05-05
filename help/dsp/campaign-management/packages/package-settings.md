@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para pacotes com fluxo personalizado, o intervalo de orçamento é sempre *[!UIC
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pacotes com ritmo no nível de pacote e com as metas de otimização &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot; somente) Usa dados de alcance doméstico de todas as disposições programáticas garantidas na campanha para otimizar o alcance incremental.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma [meta personalizada](/help/dsp/optimization/custom-goal.md) que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada deve incluir eventos ponderados adicionais do funnel superior (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, incluindo as práticas recomendadas de criação de metas personalizadas e campanhas que as utilizam, consulte &quot;[Metas personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas recomendadas de configuração de campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Pacotes com apenas as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Uma meta personalizada que inclui os eventos de receita ou conversão usados para calcular a métrica de CPA ou ROAS. A meta personalizada deve incluir eventos ponderados adicionais do funnel superior (como visitas de página e adições ao carrinho de compras) a serem usados além da métrica de CPA ou ROAS para otimização de pacote. Para obter mais informações sobre metas personalizadas, consulte &quot;[Gerenciar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md),&quot; &quot;[Práticas recomendadas para metas personalizadas](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Práticas recomendadas para configurar campanhas de desempenho](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; pacotes com as metas de otimização &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; somente) Diz ao modelo de otimização para aprender somente a partir de conversões baseadas em cliques. Caso contrário, o modelo de otimização aprende com conversões baseadas em cliques e impressões.
 

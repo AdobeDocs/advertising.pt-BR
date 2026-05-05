@@ -20,9 +20,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1289
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ O DSP pode otimizar suas campanhas focadas em desempenho. Consulte as seguintes 
 
 ![meta de otimização](/help/dsp/assets/optimization-goals.png)
 
-Você também precisa determinar os eventos bem-sucedidos que levam à meta geral e criar metas personalizadas de acordo. Para cada pacote, especifique uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe AI]. Para obter mais informações sobre como criar metas personalizadas, incluindo práticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
+Você também precisa determinar os eventos bem-sucedidos que levam à meta geral e criar metas personalizadas de acordo. Para cada pacote, especifique uma meta personalizada a ser usada com a meta de otimização geral para relatórios e otimização algorítmica usando o [!DNL Adobe AI]. Para obter mais informações sobre metas personalizadas, consulte &quot;[Gerenciar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md)&quot; e &quot;[Práticas recomendadas para metas personalizadas](custom-goal.md).&quot;
 
 ## Etapa 2 - Definir a estratégia
 

@@ -2,9 +2,9 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ As métricas de [conversão](/help/search-social-commerce/glossary.md#c-d) de um
 
 * Em Pesquisa, Social e Commerce, os dados para as métricas de conversão podem ser exibidos em colunas nas visualizações de gerenciamento de campanha, portfólio e objetivo e nos relatórios. Os usuários com privilégios de acesso suficientes também podem usar métricas de conversão para criar objetivos, que são usados para otimizar portfólios.
 
-* (Anunciantes com o Advertising DSP) No DSP, você pode incluir métricas de conversão em exibições de gerenciamento de campanha, objetivos personalizados e relatórios personalizados. Você também pode usar as métricas de conversão para criar [metas personalizadas](/help/dsp/optimization/custom-goal.md), que são usadas para otimizar pacotes.
+* (Anunciantes com o Advertising DSP) No DSP, você pode incluir métricas de conversão em exibições de gerenciamento de campanha, objetivos personalizados e relatórios personalizados. Você também pode usar as métricas de conversão para criar [objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md), que são usados para otimizar pacotes.
 
 As métricas disponíveis incluem:
 
@@ -95,6 +95,8 @@ Não é possível excluir um nome para exibição existente.
 
       1. (Para ocultar métricas) Na mensagem de confirmação, clique em **[!UICONTROL Confirm]** para ocultar as métricas, incluindo a remoção delas de qualquer métrica derivada que contenha as métricas.
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

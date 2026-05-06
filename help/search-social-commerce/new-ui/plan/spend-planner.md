@@ -4,14 +4,10 @@ description: Saiba como gerar, baixar e aplicar recomendações de orçamento de
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: c3664a71f39c9a45fad739fdf4805c9862c69915
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 0%
@@ -154,7 +150,7 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Aplicar recomendações de gastos {#spend-recommendations-apply-legacy}
+## <!--(Legacy UI) -->Aplicar recomendações de gastos {#spend-recommendations-apply-legacy}
 
 *Portfólios com orçamentos diários apenas*
 
@@ -185,7 +181,9 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## &#x200B;<!--(Legacy UI) -->Abrir ou salvar dados como um [!DNL Microsoft Excel] arquivo de pasta de trabalho {#spend-recommendations-download-legacy}
+<!--(Legacy UI) -->
+
+## Abrir ou salvar dados como um arquivo de pasta de trabalho [!DNL Microsoft Excel] {#spend-recommendations-download-legacy}
 
 1. Gerar um relatório de recomendações de gastos para portfólios selecionados.
 

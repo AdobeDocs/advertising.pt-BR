@@ -3,7 +3,7 @@ title: (Nova interface do usuário) Gerenciar relatórios de visualização de d
 description: Saiba como gerar, baixar e excluir relatórios que contêm as linhas de dados de um ou mais anúncios na exibição [!UICONTROL Ads] de um relatório.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Consulte também &quot;[(Interface herdada) Baixar dados de uma exibição de ge
 
    * Para baixar dados para todos os anúncios, não é necessário marcar nenhuma caixa de seleção. Todos os anúncios são incluídos por padrão.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Report]**.
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
 
 1. Nas configurações de [!UICONTROL Grid Reports], insira um nome de relatório exclusivo e clique em **[!UICONTROL Generate]**.
 
@@ -46,7 +46,7 @@ Consulte também &quot;[(Interface herdada) Baixar dados de uma exibição de ge
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Report]**.
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
 
 1. Na lista [!UICONTROL Recently Generated] da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") ao lado do nome do arquivo.
 
@@ -56,7 +56,7 @@ Consulte também &quot;[(Interface herdada) Baixar dados de uma exibição de ge
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Report]**.
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
 
 1. Na lista [!UICONTROL Recently Generated] da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") ao lado do nome do arquivo.
 

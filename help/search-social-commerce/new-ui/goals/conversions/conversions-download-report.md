@@ -1,29 +1,26 @@
 ---
-title: (Nova interface do usuário) Baixar dados de desempenho para objetivos
-description: Saiba como baixar objetivos em um arquivo de planilha.
+title: (Nova interface do usuário) Baixar dados de desempenho para conversões
+description: Saiba como baixar dados sobre suas conversões rastreadas em um arquivo de planilha.
 feature: Search Optimization, Search Portfolios
 hide: true
-exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
 source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# (Nova interface do usuário) Baixar dados de desempenho para objetivos
+# (Nova interface do usuário) Baixar dados de desempenho para conversões
 
 *recurso do Beta*
 
-<!-- EDIT ALL -->
-
-É possível baixar o número de portfólios associados, o valor de clique, os cliques, o custo, o custo por impressão (CPC) e as impressões de vários objetivos por vez em um arquivo no formato de pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX).
+Você pode baixar as seguintes informações sobre suas conversões rastreadas: o nome da métrica sincronizada, o nome de exibição da métrica nas exibições e relatórios de gerenciamento de Pesquisa, Social e Commerce, se a métrica está visível nas exibições e relatórios de gerenciamento, a ID de conversão e a origem da métrica. Baixe os dados para um arquivo no formato da pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX).
 
 ## Gerar um relatório com as linhas de dados filtradas
 
-1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
-1. Especifique os objetivos cujos dados você deseja baixar:
+1. Especifique as conversões cujos dados você deseja baixar:
 
    * Para baixar dados de objetivos específicos, marque as caixas de seleção ao lado dos objetivos.
 
@@ -33,7 +30,7 @@ ht-degree: 0%
 
 1. Nas configurações de [!UICONTROL Grid Reports], insira um nome de relatório exclusivo e clique em **[!UICONTROL Generate]**.
 
-   Por padrão, o arquivo é nomeado como &quot;objetive_YYYMMDD_NNNN&quot;, onde &quot;NNNN&quot; é o número sequencial do trabalho (como &quot;objetive_20250402_1326).
+   Por padrão, o arquivo é nomeado como &quot;converssionsReport_YYYMMDD_NNNN&quot;, onde &quot;NNNN&quot; é o número sequencial do trabalho (como &quot;converssionsReport_20260402_1326).
 
    O arquivo foi adicionado à lista [!UICONTROL Recently Generated].
 
@@ -43,7 +40,7 @@ ht-degree: 0%
 
 ## Baixar um relatório concluído
 
-No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
 
@@ -53,14 +50,28 @@ No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
 ## Excluir um relatório concluído
 
-1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Reports]**.
 
 1. Na lista [!UICONTROL Recently Generated] da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") ao lado do nome do arquivo.
 
+<!--
+
 >[!MORELIKETHIS]
 >
->* [Sobre objetivos](objective-about.md)
->* [Criar um objetivo](objective-create.md)
->* [Excluir um objetivo](objective-delete.md)
+>* 
+>* 
+
+-->
+
+
+## Baixe relatórios de desempenho do portfólio e listas dos componentes do portfólio
+
+* Para baixar todos os relatórios:
+
+   1. Na barra de ferramentas, clique em **[!UICONTROL Download report]**.
+
+   1. Marque a caixa de seleção ao lado de cada relatório de desempenho e tipo de componente de portfólio a ser incluído.
+
+      Para alguns relatórios de desempenho, você pode escolher se deseja baixar os dados como um gráfico ou uma tabela.

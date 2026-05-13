@@ -2,20 +2,18 @@
 title: Gerenciar restrições para pesquisar unidades de oferta
 description: Saiba mais sobre as restrições para restringir ofertas de unidades de oferta em campanhas CPC em portfólios herdados de nível de palavra-chave.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 327f2214d601849008a3e6c8b804ea0f109b53d0
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # Gerenciar restrições para pesquisar unidades de oferta
 
-<!-- Read through all and edit as appropriate -->
-
 *Aplicável para unidades de oferta em campanhas CPC somente em portfólios de nível de palavra-chave herdados*
 
-As restrições de unidade de oferta são regras que restringem ofertas otimizadas para todas as [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=pt-BR) com modelos de custo e receita associados à restrição.
+As restrições de unidade de oferta são regras que restringem ofertas otimizadas para todas as [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) com modelos de custo e receita associados à restrição.
 
 ## Sobre restrições
 
@@ -58,11 +56,11 @@ Alguns motivos para restringir as unidades de oferta incluem:
 
 * Para oferecer termos específicos que são fundamentais para sua marca ou durante promoções.
 
-### Onde exibir informações sobre restrições na interface do usuário<!-- wording? -->
+### Onde exibir informações sobre restrições na interface
 
 Além de abrir a [[!UICONTROL Constraints] visualização](#constraints-view), você também pode ver informações relacionadas às suas restrições das seguintes maneiras:
 
-* Todas as suas restrições são valores de etiquetas para uma única [classificação de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=pt-BR) chamada &quot;[!UICONTROL Constraints]&quot;.
+* Todas as suas restrições são valores de etiquetas para uma única [classificação de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) chamada &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; está incluído na lista &quot;[!UICONTROL Classifications]&quot; nas configurações de exibição padrão e personalizada e nos relatórios agendados. Você pode adicionar a coluna sempre que quiser ver as restrições atribuídas às entidades relevantes.
 
@@ -80,11 +78,9 @@ A exibição [!UICONTROL Goals] > [!UICONTROL Constraints] lista todas as suas r
 >
 >Os dados de desempenho de uma linha na exibição [!UICONTROL Constraints] podem não corresponder aos dados de desempenho da entidade de nível superior à qual a restrição está atribuída. Como uma restrição atribuída no nível inferior sempre substitui uma restrição atribuída em um nível principal, uma restrição atribuída a uma campanha ou grupo de anúncios pode não permanecer atribuída aos grupos de anúncios secundários e palavras-chave. Por exemplo, se a Campanha A receber a Restrição A, todos os grupos de anúncios e palavras-chave na Campanha A herdarão automaticamente a Restrição A. No entanto, esses grupos de anúncios e palavras-chave poderiam ser posteriormente atribuídos a outras restrições, como a Restrição B, e eles perderiam sua associação com a Restrição A.
 
-Você pode criar, editar e alterar o status de restrições da exibição [!UICONTROL Constraints].
-
 >[!NOTE]
 >
->Você pode atribuir restrições a unidades de oferta e cancelá-las, da exibição de gerenciamento de entidade relevante (como da exibição [!UICONTROL Campaigns] para restrições no nível da campanha).
+>Atribuir restrições a unidades de oferta e cancelá-las, da exibição de gerenciamento de entidade relevante (como da exibição [!UICONTROL Campaigns] para restrições no nível da campanha).
 
 #### Ações disponíveis
 
@@ -170,7 +166,7 @@ Também é possível excluir uma restrição, o que remove todas as associaçõe
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] restrições) Usa o lance mínimo necessário para mostrar uma unidade de lance na primeira página dos resultados de pesquisa no Google ([!UICONTROL Google First Page CPC]). Opcionalmente, insira um valor **[!UICONTROL Min Bid]** e/ou um valor **[!UICONTROL Max Bid]** para definir o intervalo de ofertas qualificadas para a restrição. Por exemplo, se você especificar um [!UICONTROL Min Bid] de US$ 2,50 e um [!UICONTROL Max Bid] de US$ 4, você não fará uma oferta na unidade de oferta se o lance da primeira página de [!DNL Google Ads] estiver abaixo de US$ 2,50 ou acima de US$ 4. |
 | | [!UICONTROL Set constraint options for Impression Share] | (Somente restrições [!UICONTROL Impression Share]) As configurações incluem:<ul><li>**[!UICONTROL Min Bid]** (Opcional) A oferta básica mínima para unidades de oferta associadas.</li><li>**[!UICONTROL Max Bid]:** (Opcional) A oferta básica máxima para unidades de oferta associadas.</li><li>**[!UICONTROL Min Impression Share]:** O compartilhamento de impressão mais baixo, como uma porcentagem, que disparará a restrição para as unidades de oferta aplicáveis. Deve estar entre 10 e 90. **Observação:** quando a restrição não é econômica, o recurso de otimização pode substituí-la.</li><li>**[!UICONTROL Max Impression Share]:** O compartilhamento de impressão mais alto, como uma porcentagem, que disparará a restrição para as unidades de oferta aplicáveis. Deve estar entre 10 e 90.**Observação:** quando a restrição não é econômica, o recurso de otimização pode substituí-la.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | Se aplicar condições à restrição:<ul><li>*[!UICONTROL No Condition]:* (padrão) A restrição é aplicada incondicionalmente durante o intervalo de datas especificado.</li><li>*[!UICONTROL Satisfy]:* A restrição é aplicada somente quando as condições especificadas são atendidas durante um período de avaliação de dados especificado.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (Quando as condições são definidas) O período para o qual os dados dos critérios especificados devem ser avaliados. Se você selecionar *[!UICONTROL Custom date range],**&#x200B; especifique o &#x200B;** [!UICONTROL Start Date] **&#x200B; e o &#x200B;** [!UICONTROL End Date]** inserindo cada data no formato `MM-DD-YYYY` (como 03-29-2026 para 29 de março de 2026) ou clicando no ![botão Calendário](/help/search-social-commerce/assets/calendar-new.png "botão Calendário") para abrir o calendário e selecionar cada data. |
+| | [!UICONTROL Data Evaluation Period] | (Quando as condições são definidas) O período para o qual os dados dos critérios especificados devem ser avaliados. Se você selecionar *[!UICONTROL Custom date range],** especifique o **[!UICONTROL Start Date]** e o **[!UICONTROL End Date]** inserindo cada data no formato `MM-DD-YYYY` (como 03-29-2026 para 29 de março de 2026) ou clicando no ![botão Calendário](/help/search-social-commerce/assets/calendar-new.png "botão Calendário") para abrir o calendário e selecionar cada data. |
 | | [!UICONTROL When to Apply Constraints] | (Quando as condições são definidas) Quantas condições de filtro devem ser atendidas para aplicar a restrição:<ul><li>*[!UICONTROL Match All Filters]:* Aplica a restrição quando cada condição de filtro especificada é atendida.</li><li>*[!UICONTROL Match Any Filters]:* Aplica a restrição quando pelo menos uma das condições de filtro especificadas é atendida.</li></ul> |
 | | [!UICONTROL Filters] | (Quando as condições são definidas) Um ou mais critérios que devem ser atendidos. Para criar um filtro, selecione uma propriedade ou métrica na lista. Para propriedades (como [!UICONTROL Channel Type]), selecione os valores aplicáveis na lista. Para métricas (como [!UICONTROL Clicks]), selecione um operador e insira o valor aplicável. Por exemplo, para retornar apenas unidades de oferta com mais de 100 cliques, selecione **Cliques**, selecione **maior que** e digite `100` no campo de entrada.</li></ul> |
 

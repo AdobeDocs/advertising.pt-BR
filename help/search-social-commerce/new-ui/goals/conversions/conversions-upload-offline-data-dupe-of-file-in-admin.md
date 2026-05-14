@@ -2,9 +2,9 @@
 title: Fazer upload de dados de conversão offline para conversões aprimoradas
 description: Saiba como carregar dados de conversão offline próprios para mapear a [!DNL Google Ads] conversões avançadas para clientes potenciais e [!DNL Microsoft Advertising] conversões avançadas.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,15 @@ ht-degree: 0%
 
 <!-- Renamed file to start with "conversions-"-->
 
-<!-- Update to add procedure in new UI -->
+<!-- Added procedure in new UI, which isn't available to all yet -->
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas apenas*
 
 Você pode carregar dados de conversão offline primários, incluindo endereços de email com hash e números de telefone, para mapear para suas [[!DNL Google Ads] conversões avançadas](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) e [[!DNL Microsoft Advertising] conversões avançadas](https://help.ads.microsoft.com/#apex/ads/en/60178) existentes. Todos os dados carregados são sincronizados em tempo real com a rede de publicidade.
 
 ## (Nova interface de usuário) Fazer upload de dados para conversões aprimoradas
+
+*recurso do Beta*
 
 1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 

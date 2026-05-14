@@ -5,16 +5,12 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 505
 ht-degree: 0%
 
 ---
@@ -25,23 +21,35 @@ ht-degree: 0%
 
 Você pode gerar uma simulação personalizada para um portfólio [otimizado ou ativo](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). Você também pode alterar os parâmetros de uma simulação existente e gerar novamente a simulação ou executar uma simulação existente com os parâmetros existentes.
 
+<!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
+
 [!UICONTROL Admin] e [!UICONTROL Account Manager] usuários podem ver simulações criadas por outros usuários. Todos os outros usuários podem ver somente as simulações personalizadas que criam.
 
 ## Criar uma nova simulação
 
-1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+1. Siga um destes procedimentos:
 
-1. Acima da tabela de dados, clique em **[!UICONTROL Run Simulation]**.
+* Na exibição [!UICONTROL Simulations]:
 
-1. Selecione o portfólio:
+   1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Clique em **[!UICONTROL Select Portfolio]**.
+   1. Acima da tabela de dados, clique em **[!UICONTROL Run Simulation]**.
 
-   1. Selecione o portfólio.
+   1. Selecione o portfólio:
 
-      Para pesquisar portfólios que incluem uma sequência de texto específica, comece inserindo a sequência de texto no campo de pesquisa. Os valores não diferenciam maiúsculas de minúsculas.
+      1. Clique em **[!UICONTROL Select Portfolio]**.
 
-   1. Clique em **[!UICONTROL Proceed]**.
+      1. Selecione o portfólio.
+
+         Para pesquisar portfólios que incluem uma sequência de texto específica, comece inserindo a sequência de texto no campo de pesquisa. Os valores não diferenciam maiúsculas de minúsculas.
+
+      1. Clique em **[!UICONTROL Proceed]**.
+
+* Na exibição [!UICONTROL Portfolios]:
+
+   1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+   1. Mantenha o cursor sobre a linha do portfólio. Ao lado do nome do portfólio, clique em **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
 1. Especifique as [configurações personalizadas da simulação](#custom-simulation-settings):
 

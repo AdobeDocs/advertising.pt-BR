@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Na exibição [!UICONTROL Goals] > [!UICONTROL Conversions], você pode fazer o seguinte:
 
-* [Gerar uma marca de rastreamento de conversão do Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Gerar uma marca de rastreamento de conversão do Adobe Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Para todas as métricas de conversão rastreadas para um anunciante:
 

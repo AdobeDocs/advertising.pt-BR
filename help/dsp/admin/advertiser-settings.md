@@ -2,7 +2,7 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Os anunciantes com produtos adicionais da Adobe CX Enterprise podem compartilhar dados entre alguns produtos usando a ID exclusiva da organização para o CX Enterprise. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
+Os anunciantes com produtos Adobe CX Enterprise adicionais podem compartilhar dados entre alguns produtos usando o identificador exclusivo da organização para o CX Enterprise. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos CX Enterprise adicionais que são licenciados por meio de uma conta da CX Enterprise com vários anunciantes; opcional) a ID da organização da CX Enterprise do anunciante.
+**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos CX Enterprise adicionais que são licenciados por meio de uma conta da CX Enterprise com vários anunciantes; opcional) a ID de organização da CX Enterprise do anunciante.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos adicionais da CX Enterprise; opcional) a ID da organização da CX Enterprise do anunciante.
+**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos CX Enterprise adicionais; opcional) a ID de organização da CX Enterprise do anunciante.
 
 ### [!UICONTROL Integrations]
 
-(Opcional) Produtos adicionais da CX Enterprise vinculados à conta da DSP. Os produtos devem ser associados à mesma ID de organização da CX Enterprise fornecida na seção [!UICONTROL Adobe IMS IDs].
+(Opcional) Produtos CX Enterprise adicionais vinculados à conta da DSP. Os produtos devem ser associados à mesma CX Enterprise ID fornecida na seção [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes com [!DNL Advertising Search, Social, & Commerce] ou que usam pixels de conversão de Adobe Advertising) Uma conta [!DNL Search, Social, & Commerce] com a qual a DSP troca dados de atribuição.
 
@@ -133,19 +133,19 @@ Filtros opcionais de visibilidade pré-oferta por [!DNL DoubleVerify] e [!DNL In
 
 ###### Vídeo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Com essa opção, selecione os critérios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Exibir
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Com essa opção, selecione os critérios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -159,26 +159,26 @@ Um filtro **[!UICONTROL Video Viewability Targets]** opcional e um filtro **[!UI
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** By default, which level of [[!DNL Ads.txt] pre-bid filtering](https://iabtechlab.com/ads-txt-about/) to use by leveraging each publisher&#39;s [!DNL Authorized Digital Sellers] list:
-* *[!UICONTROL Opt out of ads.txt (default)]*: To buy inventory from all sellers.
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: To prioritize buying inventory from a domain&#39;s authorized direct sellers and resellers.
-* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers and resellers.
-* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers.
+**[!UICONTROL Ads.txt Filtering]:** Por padrão, qual nível de [[!DNL Ads.txt] filtragem pré-oferta](https://iabtechlab.com/ads-txt-about/) usar ao aproveitar cada lista [!DNL Authorized Digital Sellers] de editor:
+* *[!UICONTROL Opt out of ads.txt (default)]*: Para comprar inventário de todos os vendedores.
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: priorizar a compra de estoque dos revendedores e vendedores diretos autorizados de um domínio.
+* *[!UICONTROL Ads.txt sellers only]*: para comprar o estoque somente de revendedores e vendedores diretos autorizados de um domínio.
+* *[!UICONTROL Ads.txt sellers only]*: para comprar o inventário somente de vendedores diretos autorizados de um domínio.
 
-You can override the advertiser-level setting at the [placement level](/help/dsp/campaign-management/placements/placement-settings.md).
+Você pode substituir a configuração no nível do anunciante no [nível de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
-**[!UICONTROL Enable Site Safety Block]:** By default, enables a real-time, post-bid filter to ensure that ads serve on the sites that the advertiser is targeting. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
+**[!UICONTROL Enable Site Safety Block]:** Por padrão, habilita um filtro de pós-oferta em tempo real para garantir que os anúncios sejam veiculados nos sites para os quais o anunciante está direcionando. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] customers only; optional) A [!DNL DoubleVerify Authentic Brand Safety] segment ID associated with the organization&#39;s [!DNL DoubleVerify] account to use by default for all placements. Specifying an ID blocks impressions post-bid using the custom brand safety rules configured for the specified segment ID. DSP bills your account for usage for the segment ID.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clientes somente; opcional) Uma ID de segmento [!DNL DoubleVerify Authentic Brand Suitability] associada à conta [!DNL DoubleVerify] da organização para ser usada como padrão para todos os posicionamentos. A especificação de uma ID bloqueia impressões pós-oferta usando as regras de adequação da marca personalizada configuradas para a ID de segmento especificada. A DSP fatura sua conta pelo uso da ID de segmento.
 
-The ID must begin with &quot;51&quot; and consist of eight digits. You can change or delete the advertiser-level ID at the placement level.
+A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Você pode alterar ou excluir a ID no nível do anunciante no nível de posicionamento.
 
 >[!MORELIKETHIS]
 >
->* [Create an advertiser account](/help/dsp/admin/advertiser-create.md)
+>* [Criar uma conta de anunciante](/help/dsp/admin/advertiser-create.md)
 
 <!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

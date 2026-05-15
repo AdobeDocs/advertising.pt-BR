@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 433b4d40-de83-46ec-8859-44c8bc36f060
 TQID: https://experienceleague.adobe.com/8U2Z7EU4miPXfpgKmoPg2M8zRmY7sKVLzU0V0VtOSzY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +23,11 @@ Duplique um portfólio para criar um novo portfólio com as mesmas configuraçõ
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Marque a caixa de seleção ao lado do portfólio.
+1. Siga um destes procedimentos:
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Duplicar](/help/search-social-commerce/assets/duplicate.png "Duplicar") **[!UICONTROL Duplicate]**.
+   * Mantenha o cursor sobre a linha do portfólio e clique em **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Marque a caixa de seleção ao lado do portfólio. Na barra de ferramentas de ações em massa, clique em ![Duplicar](/help/search-social-commerce/assets/duplicate.png "Duplicar") **[!UICONTROL Duplicate]**.
 
 1. Edite as configurações do portfólio.
 

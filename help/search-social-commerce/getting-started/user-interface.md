@@ -4,16 +4,12 @@ description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +30,13 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
 ### Opções do menu principal
 
-Sua função determina as opções disponíveis:<!-- add link when available -->
+Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina as opções disponíveis:
 
 * Submenu **[!UICONTROL Dashboard]**:
 
    * **[!UICONTROL Overview]** Abre uma visualização [!UICONTROL Dashboard] configurável com visualizações de desempenho para todos os seus portfólios.
 
-   * **[!UICONTROL Recommendations]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] herdada.
+   * **[!UICONTROL Recommendations]**: Abre uma exibição somente leitura das recomendações do editor de [!DNL Google Ads] e [!DNL Microsoft Advertising] e dos insights do editor de [!DNL Microsoft Advertising.] Para exibir e responder às suas recomendações e insights, use a exibição herdada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Alerts & Notifications]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] herdada.
 
@@ -150,15 +146,15 @@ Use o campo de pesquisa acima do menu principal para procurar opções de menu e
 
 ### Linha superior: menu CX Enterprise
 
-* Uma lista selecionável de organizações da CX Enterprise às quais você tem acesso.
+* Uma lista selecionável de organizações CX Enterprise às quais você tem acesso.
 
 * ![Centro de ajuda](/help/search-social-commerce/assets/help-main-menu.png "Centro de ajuda") Um menu de ajuda que inclui links para a documentação e outras informações.
 
-* ![Notificações](/help/search-social-commerce/assets/notifications-aec.png "Notificações") Um painel que lista solicitações, notificações e anúncios da CX Enterprise.
+* ![Notificações](/help/search-social-commerce/assets/notifications-aec.png "Notificações") Um painel que lista solicitações, notificações e anúncios do CX Enterprise.
 
-* ![Aplicativos](/help/search-social-commerce/assets/apps.png "Aplicativos") Uma lista de soluções e serviços da Adobe CX Enterprise para os quais você pode alternar.
+* ![Aplicativos](/help/search-social-commerce/assets/apps.png "Aplicativos") Uma lista de soluções e serviços Adobe CX Enterprise para os quais você pode alternar.
 
-* ![Conta](/help/search-social-commerce/assets/account.png "Conta") Informações sobre o perfil da sua conta da CX Enterprise, a partir da qual você pode editar suas preferências e sair.
+* ![Conta](/help/search-social-commerce/assets/account.png "Conta") Informações sobre o perfil da sua conta da CX Enterprise, da qual você pode editar suas preferências e sair.
 
 ### Segunda linha: menu adicional de Pesquisa, Social e Commerce
 
@@ -208,15 +204,15 @@ A opção [!UICONTROL Search] inclui os submenus a seguir. Sua função determin
 
 * ![Notificações de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificações de alerta") Um painel que lista suas notificações de pesquisa, sociais e Commerce.
 
-  Quando você estiver [conectado por meio do Adobe CX Enterprise](sign-in.md), este painel mostrará as notificações da CX Enterprise.
+  Quando você estiver [conectado por meio do Adobe CX Enterprise](sign-in.md), este painel mostrará suas notificações do CX Enterprise.
 
 * ![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda") Um menu de ajuda que inclui links para a documentação e outras informações.
 
-* ![Alternador de soluções](/help/search-social-commerce/assets/menu-icon.png "Alternador de soluções") Uma lista de soluções e serviços da Adobe CX Enterprise para os quais você pode alternar.
+* ![Alternador de soluções](/help/search-social-commerce/assets/menu-icon.png "Alternador de soluções") Uma lista de soluções e serviços Adobe CX Enterprise para os quais você pode alternar.
 
 * ![Perfil de usuário](/help/search-social-commerce/assets/user-profile.png "Perfil de usuário") Um link para o seu perfil, do qual você pode sair.
 
-  Quando você estiver [conectado por meio do Adobe CX Enterprise](sign-in.md), também poderá editar seu perfil do CX Enterprise, incluindo sua senha do CX Enterprise e configurações de notificação.
+  Quando você está [conectado por meio do Adobe CX Enterprise](sign-in.md), também é possível editar seu perfil do CX Enterprise, incluindo sua senha do CX Enterprise e suas configurações de notificação.
 
 >[!MORELIKETHIS]
 >

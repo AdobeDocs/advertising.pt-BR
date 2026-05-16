@@ -1,11 +1,11 @@
 ---
 title: (Nova interface) Alterar o status de um portfólio
-description: Saiba como alterar o status de um portfólio ou excluir um portfólio inativo.
+description: Saiba como alterar o status de um portfólio ou excluir um portfólio inativo sem abrir as configurações do portfólio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,7 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-O status de um portfólio pode ser um dos seguintes:
-
-* **Inativo:** o recurso de otimização está coletando dados de custo/clique/impressão para as campanhas relevantes para fins de relatório, mas não está modelando os dados nem otimizando orçamentos e ofertas de campanha.
-
-* **Ativo:** o recurso de otimização está coletando dados de custo/clique/impressão e dados de receita para as campanhas relevantes e está modelando os dados, mas não está otimizando orçamentos de campanha ou lances. Ative um portfólio inativo para começar a modelar dados ou faça downgrade de um portfólio otimizado para o estado ativo para interromper a otimização.
-
-* **Otimizado:** o recurso de otimização está coletando dados de custo/clique/impressão e dados de receita para as campanhas relevantes, modelando os dados e otimizando orçamentos e ofertas de campanha (quando relevante) na data de início do portfólio designada. Alterar o status para otimizado também é chamado de lançamento do portfólio.
+Você pode alterar rapidamente o [status do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) sem abrir as configurações completas do portfólio.
 
 Para interromper a coleta de dados de custo/clique/impressão e dados de receita para as campanhas relevantes, exclua o portfólio. A exclusão de um portfólio o torna indisponível no Search, Social e Commerce.
 
@@ -42,12 +36,12 @@ Todas as alterações no status do portfólio são registradas no histórico de 
 
      >[!NOTE]
      >
-     >* Você só poderá iniciar um portfólio se ele já estiver ativo e contiver pelo menos uma campanha ativa com pelo menos um anúncio ativo e palavra-chave/posicionamento.
-     >* Antes de iniciar um portfólio, você deve implementar as tags de rastreamento de conversão nas páginas da Web do anunciante.
-     >* Antes de iniciar um portfólio, a prática recomendada é executar uma análise de linha de base.
-     >* Se você estiver lançando um novo portfólio, verifique se a data de início é hoje ou posterior.>* Evite alterar o portfólio na primeira semana após o lançamento, mesmo que o desempenho seja volátil.
-     >* Depois que a Pesquisa, o Social e o Commerce começarem a otimizar um portfólio, você deverá permitir que ele gerencie todas as alterações de oferta futuras (quando aplicável). Search, Social e Commerce substituirão todas as alterações feitas na rede de anúncios.
-     >* Depois de iniciar um portfólio, você pode definir lances manuais temporariamente para qualquer campanha CPC no portfólio, criando e publicando bulksheets de campanha. Quaisquer alterações de lance resultantes dos dados publicados são aplicáveis por um dia. Depois disso, o Search, Social e Commerce retoma a definição de ofertas de acordo com sua própria estratégia de otimização.
+     >* Você pode alterar o status para otimizado somente se o portfólio já estiver ativo e contiver pelo menos uma campanha ativa com pelo menos um anúncio ativo e palavra-chave/posicionamento.
+     >* Antes de alterar o status para otimizado, você deve implementar as tags de rastreamento de conversão nas páginas da Web do anunciante. Além disso, a prática recomendada é executar uma análise de linha de base.
+     >* Ao iniciar um novo portfólio, verifique se a data de início é hoje ou posterior.
+     >* Evite alterar o portfólio na primeira semana após a otimização, mesmo que o desempenho seja volátil.
+     >* Quando a Search, Social e Commerce começar a otimizar um portfólio, permita que ele gerencie todo o orçamento de campanha futura e (quando aplicável) as alterações de oferta (quando aplicável). Search, Social e Commerce substituirão todas as alterações feitas na rede de anúncios.
+     >* Você pode definir lances manuais temporariamente para qualquer campanha CPC otimizada no portfólio, criando e publicando bulksheets de campanha. Quaisquer alterações de lance resultantes dos dados publicados são aplicáveis por um dia. Depois disso, o Search, Social e Commerce retoma a definição de ofertas de acordo com sua própria estratégia de otimização.
 
 ## Excluir um portfólio inativo
 

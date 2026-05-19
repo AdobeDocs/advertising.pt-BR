@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
-source-wordcount: 3359
+source-wordcount: 3528
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
-Anunciantes com a integração do [!DNL Analytics for Advertising] <!-- (A4AdC) --> rastreiam anúncios pagos por meio da Adobe Advertising e da Adobe Analytics. Ao rastrear mídia, campanhas e canais por meio de vários sistemas, os mesmos conjuntos de dados de sistemas diferentes raramente correspondem completamente. Este documento explica como você deve esperar que os dados da mídia que é traficada pelo Adobe Advertising sejam comparados aos dados nos diferentes sistemas nos quais a mídia é rastreada no [!DNL Analytics].
+Anunciantes com a integração do [!DNL Analytics for Advertising] rastreiam anúncios pagos por meio do Adobe Advertising e do Adobe Analytics. Ao rastrear mídia, campanhas e canais por meio de vários sistemas, os mesmos conjuntos de dados de sistemas diferentes raramente correspondem completamente. Este documento explica como você deve esperar que os dados da mídia que é traficada pelo Adobe Advertising sejam comparados aos dados nos diferentes sistemas nos quais a mídia é rastreada no [!DNL Analytics].
 
 >[!NOTE]
 >

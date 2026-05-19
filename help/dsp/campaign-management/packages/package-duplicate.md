@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Destinos geográficos
    * Pixels de evento
    * Anúncios
-   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
+   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability] (que substituem os segmentos no nível do anunciante)
 
 ## Práticas recomendadas para configurar o novo pacote
 
@@ -95,7 +95,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
    * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
 
-   * Inclua destinos geográficos e segmentos de nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] conforme necessário para posicionamentos.
+   * Inclua destinos geográficos e segmentos de nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability] conforme necessário para posicionamentos.
 
    * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
 

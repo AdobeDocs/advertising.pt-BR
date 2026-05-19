@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
    + Públicos-alvo reutilizáveis {#reusable-audiences}
       + [Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[Criar um público-alvo reutilizável usando IA gerativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicação de um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-edit.md)
       + [Exibir detalhes sobre um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-view-details.md)

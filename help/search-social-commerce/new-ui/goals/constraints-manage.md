@@ -2,16 +2,14 @@
 title: Gerenciar restrições para pesquisar unidades de oferta
 description: Saiba mais sobre as restrições para restringir ofertas de unidades de oferta em campanhas CPC em portfólios herdados de nível de palavra-chave.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 327f2214d601849008a3e6c8b804ea0f109b53d0
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # Gerenciar restrições para pesquisar unidades de oferta
-
-<!-- Read through all and edit as appropriate -->
 
 *Aplicável para unidades de oferta em campanhas CPC somente em portfólios de nível de palavra-chave herdados*
 
@@ -58,7 +56,7 @@ Alguns motivos para restringir as unidades de oferta incluem:
 
 * Para oferecer termos específicos que são fundamentais para sua marca ou durante promoções.
 
-### Onde exibir informações sobre restrições na interface do usuário<!-- wording? -->
+### Onde exibir informações sobre restrições na interface
 
 Além de abrir a [[!UICONTROL Constraints] visualização](#constraints-view), você também pode ver informações relacionadas às suas restrições das seguintes maneiras:
 
@@ -80,11 +78,9 @@ A exibição [!UICONTROL Goals] > [!UICONTROL Constraints] lista todas as suas r
 >
 >Os dados de desempenho de uma linha na exibição [!UICONTROL Constraints] podem não corresponder aos dados de desempenho da entidade de nível superior à qual a restrição está atribuída. Como uma restrição atribuída no nível inferior sempre substitui uma restrição atribuída em um nível principal, uma restrição atribuída a uma campanha ou grupo de anúncios pode não permanecer atribuída aos grupos de anúncios secundários e palavras-chave. Por exemplo, se a Campanha A receber a Restrição A, todos os grupos de anúncios e palavras-chave na Campanha A herdarão automaticamente a Restrição A. No entanto, esses grupos de anúncios e palavras-chave poderiam ser posteriormente atribuídos a outras restrições, como a Restrição B, e eles perderiam sua associação com a Restrição A.
 
-Você pode criar, editar e alterar o status de restrições da exibição [!UICONTROL Constraints].
-
 >[!NOTE]
 >
->Você pode atribuir restrições a unidades de oferta e cancelá-las, da exibição de gerenciamento de entidade relevante (como da exibição [!UICONTROL Campaigns] para restrições no nível da campanha).
+>Atribuir restrições a unidades de oferta e cancelá-las, da exibição de gerenciamento de entidade relevante (como da exibição [!UICONTROL Campaigns] para restrições no nível da campanha).
 
 #### Ações disponíveis
 

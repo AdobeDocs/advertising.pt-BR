@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2224'
 ht-degree: 2%
 
 ---
@@ -16,58 +16,58 @@ ht-degree: 2%
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
 
 + [Novidades](home.md)
-+ [About this guide](help-about.md)
++ [Sobre este guia](help-about.md)
 + Introdução {#intro}
    + [Sobre o Adobe Advertising Search, Social e Commerce](/help/search-social-commerce/introduction/about.md)
-   + [Supported inventory](/help/search-social-commerce/introduction/supported-inventory.md)
-   + Integration with Adobe CX Enterprise {#integrations}
-      + [Integração com soluções e serviços da Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
+   + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
+   + Integração com o Adobe CX Enterprise {#integrations}
+      + [Integração com as soluções e os serviços corporativos Adobe CX](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}
-      + [Integration with Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
-   + [Support for consumer privacy (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-   + [Policies and guidelines (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=pt-BR){target="_blank"}
-+ Getting started {#getting-started}
-   + [Implementation overview](/help/search-social-commerce/getting-started/implemention-overview.md)
+      + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
+   + [Suporte para a privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+   + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=pt-BR){target="_blank"}
++ Introdução {#getting-started}
+   + [Visão geral da implementação](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisitos do sistema](/help/search-social-commerce/getting-started/system-requirements.md)
    + [Fazer logon](/help/search-social-commerce/getting-started/sign-in.md)
    + [Como a interface do usuário é organizada](/help/search-social-commerce/getting-started/user-interface.md)
-   + [Switch between the new and legacy user interfaces](/help/search-social-commerce/getting-started/ui-switch.md)
-   + [Sign out](/help/search-social-commerce/getting-started/sign-out.md)
-+ Common tasks {#common-tasks}
-   + [View data for another advertiser](/help/search-social-commerce/common-tasks/change-advertiser.md)
-   + [Edit settings directly within a row](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
-   + Customize data views {#data-views}
-      + [About customizing data in campaign management views](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)
-      + [Manage default and custom views](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
-      + Ad hoc view settings {#ad-hoc-settings}
-         + [Edit the column set from the column heading menu](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-         + [Edit and sort the column set from the [!UICONTROL Custom Columns] icon](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
-         + [Lock and unlock a column configuration in campaign views](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
-         + [Re-sort a column](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
-         + [Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
-         + [Filter data using the left navigation panel](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)
-         + Filter data by column values {#filter-column-values}
-            + [Apply a data filter from a column heading menu](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
-            + [Apply data filters from the toolbar](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
-            + [Edit column filters](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
-            + [Remove a column filter](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
-   + Manage custom metrics {#custom-metrics}
-      + [About custom metrics](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
-      + [Create a custom metric](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
-      + [Edit a custom metric](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)
-      + [Delete a custom metric](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)
-      + [Custom metric settings](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-settings.md)
-   + Common navigation, editing, and selection tasks {#navigation-editing-selection}
-      + [Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)
-      + [Specify a date using the calendar](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
-      + [Show and hide a trend chart](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
-      + [Refresh data in management views](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
+   + [Alternar entre as interfaces de usuário novas e herdadas](/help/search-social-commerce/getting-started/ui-switch.md)
+   + [Sair](/help/search-social-commerce/getting-started/sign-out.md)
++ Tarefas comuns {#common-tasks}
+   + [Exibir dados de outro anunciante](/help/search-social-commerce/common-tasks/change-advertiser.md)
+   + [Editar configurações diretamente em uma linha](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
+   + Personalizar visualizações de dados {#data-views}
+      + [Sobre a personalização de dados em visualizações de gerenciamento de campanha](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)
+      + [Gerenciar exibições padrão e personalizadas](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
+      + Configurações de exibição ad hoc {#ad-hoc-settings}
+         + [Edite o conjunto de colunas no menu de cabeçalho de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
+         + [Editar e classificar o conjunto de colunas do ícone [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+         + [Bloquear e desbloquear uma configuração de coluna nas exibições de campanha](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
+         + [Reclassificar uma coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
+         + [Filtrar dados por intervalo de datas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
+         + [Filtrar dados usando o painel de navegação esquerdo](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)
+         + Filtrar dados por valores de coluna {#filter-column-values}
+            + [Aplicar um filtro de dados a partir de um menu de cabeçalho de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+            + [Aplicar filtros de dados na barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+            + [Editar filtros de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
+            + [Remover um filtro de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
+   + Gerenciar métricas personalizadas {#custom-metrics}
+      + [Sobre métricas personalizadas](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
+      + [Criar uma métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
+      + [Editar uma métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)
+      + [Excluir uma métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)
+      + [Configurações de métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-settings.md)
+   + Tarefas comuns de navegação, edição e seleção {#navigation-editing-selection}
+      + [Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)
+      + [Especificar uma data usando o calendário](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
+      + [Mostrar e ocultar um gráfico de tendências](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
+      + [Atualizar dados nas exibições de gerenciamento](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
       + Baixar dados nas exibições de gerenciamento {#download-data-views}
          + [Baixar dados de uma visualização de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta) NOVA INTERFACE DO USUÁRIO {#new-ui}
    + [Sobre a nova interface do usuário](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [Exibir seu painel de desempenho](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + [Exibir seu painel de desempenho](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
    + Plano {#plan}
       + Objetivos {#objectives}
          + [Sobre objetivos](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -87,30 +87,38 @@ ht-degree: 2%
       + Portfólios {#portfolios}
          + [Sobre portfólios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
          + [Gerenciar grupos de portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)
-         + [Create a portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
-         + [Duplicate a portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
-         + [Edit portfolio details](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
-         + [Bulk edit portfolio settings using bulksheet files](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
-         + [Portfolio settings](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-         + [View a performance graph in the [!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
-         + [View portfolio performance details](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-         + [Manage data view reports from the [!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+         + [Criar um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [Duplicação de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [Editar detalhes do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [Editar configurações de portfólio em massa usando arquivos de bulksheet](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Renomear um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
+         + [Alterar o status de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
+         + [Configurações do Portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [Executar uma simulação personalizada a partir da exibição [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+         + [Exibir um gráfico de desempenho na exibição [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
+         + [Exibir detalhes de desempenho do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [Exibir o histórico de alterações de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campanhas {#campaigns}
-         + [About the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Assign campaigns to a portfolio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Remove campaigns from a portfolio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
-         + [Manage constraint assignments for campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-         + [Manage data view reports from the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + Ad Groups {#ad-groups}
-         + [About the [!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-         + [Manage constraint assignments for ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-         + [Manage data view reports from the [!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + Ads {#ads}
-         + [About the [!UICONTROL Ads] view](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [Manage data view reports from the [!UICONTROL Ads] view](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+         + [Sobre a exibição [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Remover campanhas de um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+         + [Alterar o status de uma campanha](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
+         + [Renomear uma campanha](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + Grupos de anúncios {#ad-groups}
+         + [Sobre a exibição [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+         + [Alterar o status de um grupo de publicidade](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
+         + [Renomear um grupo de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + Anúncios {#ads}
+         + [Sobre a exibição [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
+         + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Relatórios {#reports}
-      + Label classifications {#label-classifications}
-         + [About label classifications](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+      + Classificações de rótulo {#label-classifications}
+         + [Sobre as classificações de rótulo](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
          + [Criar uma classificação de etiqueta](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
          + [Atribuir valores de classificação aos componentes da conta das exibições de gerenciamento de campanha](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
          + [Atribuir valores de classificação aos componentes da conta usando bulksheets](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
@@ -283,56 +291,56 @@ ht-degree: 2%
             + [Dados de bulksheet necessários para  [!DNL Google Ads] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
             + [Dados de bulksheet necessários para  [!DNL Microsoft Advertising] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [Dados de bulksheet necessários para  [!DNL Naver] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Bulksheet data for [!DNL Yahoo! Display Network] accounts](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Bulksheet data for [!DNL Yahoo! Japan] accounts](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Dados de bulksheet para  [!DNL Yahoo! Display Network] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Dados de bulksheet para  [!DNL Yahoo! Japan] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [Dados de bulksheet necessários para  [!DNL Yandex] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
-      + Automating campaign data using inventory feeds {#inventory-feeds}
-         + [About automating ad management using inventory feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [When are account components created or deleted by inventory feeds?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
-         + [Configure feed data settings](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
-         + [Manage feed files](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-         + [Manage modifiers](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
-         + Templates {#feed-templates}
-            + [Manage ad templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-            + [Text ad and responsive search ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
-            + [[!DNL Google Ads] shopping ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
-            + [[!DNL Microsoft Advertising] shopping ad template settings](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
-         + [Propagate feed data through templates](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
-         + Working with campaign data created from feeds {#propagated-data}
-            + [View data generated from feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
-            + [Edit data generated from feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
-            + [Post campaign data generated from feeds to ad networks](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
-            + [Stop a posting job for inventory feed data](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
+      + Automatização de dados de campanha usando feeds de inventário {#inventory-feeds}
+         + [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+         + [Quando os componentes da conta são criados ou excluídos pelos feeds de inventário?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
+         + [Definir configurações de dados de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
+         + [Gerenciar arquivos de feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+         + [Gerenciar modificadores](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)
+         + Modelos {#feed-templates}
+            + [Gerenciar modelos de anúncios](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+            + [Anúncio de texto e configurações responsivas de modelo de pesquisa de anúncio](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md)
+            + [[!DNL Google Ads] configurações de modelo de anúncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
+            + [[!DNL Microsoft Advertising] configurações de modelo de anúncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
+         + [Propagar dados do feed por meio de modelos](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
+         + Trabalhar com dados de campanha criados de feeds {#propagated-data}
+            + [Exibir dados gerados de feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
+            + [Editar dados gerados a partir dos feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
+            + [Publicar dados de campanha gerados a partir de feeds para redes de anúncios](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
+            + [Interromper um trabalho de lançamento para dados de feed de estoque](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [Status dos dados gerados a partir dos feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + Implementing campaigns, ads, and conversions with unique workflows{#special-workflows}
-         + [Implement [!DNL Google Ads] enhanced conversions for leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
-         + [Implement [!DNL Google Ads] dynamic search ads](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
-         + [Implement [!DNL Google Ads] performance max campaigns](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
-         + [Implement [!DNL Google Ads] shopping campaigns](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
-         + [Implement [!DNL Microsoft Advertising] enhanced conversions for offline conversions](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
-         + [Implement [!DNL Microsoft Advertising] shopping campaigns](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
-      + [Manually synchronize ad network data](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
-   + [Assign campaigns to a portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
-   + [Remove campaigns from a portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-   + Managing label classifications {#label-classifications}
-      + [About label classifications](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)
+      + Implementar campanhas, anúncios e conversões com workflows exclusivos{#special-workflows}
+         + [Implementar [!DNL Google Ads] conversões aprimoradas para clientes potenciais](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [Implementar  [!DNL Google Ads] campanhas de desempenho máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [Implementar [!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementar [!DNL Microsoft Advertising] conversões aprimoradas para conversões offline](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
+         + [Implementar [!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+      + [Sincronizar manualmente os dados da rede](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
+   + [Atribuir campanhas a um portfólio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
+   + [Remover campanhas de um portfólio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
+   + Gerenciamento de classificações de etiquetas {#label-classifications}
+      + [Sobre as classificações de rótulo](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)
       + [Criar uma classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-create.md)
       + [Atribuir valores de classificação aos componentes da conta das exibições de gerenciamento de campanha](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)
       + [Atribuir valores de classificação aos componentes da conta usando bulksheets](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets.md)
       + [Remover dos componentes da conta os valores de classificação de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Excluir valores de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Excluir classificações de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + [View and create ad assets](/help/search-social-commerce/campaign-management/asset-view-create.md)
-   + Best practices for search campaigns {#best-practices-search}
+   + [Exibir e criar ativos de publicidade](/help/search-social-commerce/campaign-management/asset-view-create.md)
+   + Práticas recomendadas para campanhas de pesquisa {#best-practices-search}
       + [Analise relatórios para refinar suas palavras-chave e configurações de campanha](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
-      + [Write effective text ad copy](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
-      + [Optimize the website landing pages](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
-   + [Maximum number of objects per ad network account](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
-   + [FAQs about campaign management](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
-+ Insights and reports {#insights-reports}
+      + [Escrever texto efetivo e copiar](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
+      + [Otimizar as páginas de aterrissagem do site](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + [Número máximo de objetos por conta de rede de publicidade](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
+   + [Perguntas frequentes sobre o gerenciamento de campanhas](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
++ Insights e relatórios {#insights-reports}
    + Advertising Insights {#insights}
-      + [About [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
-      + [Generate an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
+      + [Sobre o [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
+      + [Gerar um  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
       + [Exibir ou salvar um  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-view-save.md)
       + [Excluir um  [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
    + Relatórios {#reports}
@@ -485,9 +493,9 @@ ht-degree: 2%
       + [Alterar as métricas de conversão disponíveis em exibições de gerenciamento e relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Alterar o nome de exibição de uma métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
       + Gerenciamento de tags de conversão específicas da rede de publicidade e ações/metas de conversão {#network-conversions}
-         + [Create a conversion tag for [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Managing conversion actions and goals {#conversion-actions}
-            + [Create a conversion action for a [!DNL Google Ads] enhanced conversion for leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
-            + [Upload offline conversion data for enhanced conversions](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
-+ [Get help](get-help.md)
-+ [Glossary](glossary.md)
+         + [Criar uma marca de conversão para  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + Gerenciamento de ações e metas de conversão {#conversion-actions}
+            + [Criar uma ação de conversão para uma  [!DNL Google Ads] conversão aprimorada para clientes potenciais](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [Fazer upload de dados de conversão offline para conversões aprimoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
++ [Obter ajuda](get-help.md)
++ [Glossário](glossary.md)

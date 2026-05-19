@@ -2,14 +2,16 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# Gerenciar as métricas de conversão de um anunciante
+# (Nova interface do usuário) Gerencie e visualize dados de desempenho das métricas de conversão de um anunciante
+
+*recurso do Beta*
 
 As métricas de [conversão](/help/search-social-commerce/glossary.md#c-d) de um anunciante são usadas em todo o Adobe Advertising:
 
@@ -94,6 +96,50 @@ Não é possível excluir um nome para exibição existente.
       1. Na barra de ferramentas de ações em massa, clique em ![Visibilidade](/help/search-social-commerce/assets/visible.png "Visibilidade") para mostrar as métricas ou ![Visibilidade desativada](/help/search-social-commerce/assets/visibility-off.png "Visibilidade desativada") para ocultar as métricas.
 
       1. (Para ocultar métricas) Na mensagem de confirmação, clique em **[!UICONTROL Confirm]** para ocultar as métricas, incluindo a remoção delas de qualquer métrica derivada que contenha as métricas.
+
+## Gerenciar relatórios de dados de desempenho para conversões
+
+Você pode baixar as seguintes informações sobre suas conversões rastreadas: o nome da métrica sincronizada, o nome de exibição da métrica nas exibições e relatórios de gerenciamento de Pesquisa, Social e Commerce, se a métrica está visível nas exibições e relatórios de gerenciamento, a ID de conversão e a origem da métrica. Baixe os dados para um arquivo no formato da pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX).
+
+### Gerar um relatório com as linhas de dados filtradas
+
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Especifique as conversões cujos dados você deseja baixar:
+
+   * Para baixar dados de linhas específicas, marque as caixas de seleção ao lado das linhas.
+
+   * Para baixar dados para todas as linhas, não é necessário marcar nenhuma caixa de seleção. Todas as linhas são incluídas por padrão.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+
+1. Nas configurações de [!UICONTROL Grid Reports], insira um nome de relatório exclusivo e clique em **[!UICONTROL Generate]**.
+
+   Por padrão, o arquivo é nomeado como &quot;converssionsReport_YYYMMDD_NNNN&quot;, onde &quot;NNNN&quot; é o número sequencial do trabalho (como &quot;converssionsReport_20260402_1326).
+
+   O arquivo foi adicionado à lista [!UICONTROL Recently Generated].
+
+1. (Opcional) Para baixar o arquivo após sua conclusão, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") ao lado do nome do arquivo.
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+### Baixar um relatório concluído
+
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+
+1. Na lista [!UICONTROL Recently Generated] da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") ao lado do nome do arquivo.
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+### Excluir um relatório concluído
+
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Reports]**.
+
+1. Na lista [!UICONTROL Recently Generated] da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") ao lado do nome do arquivo.
 
 <!--
 >[!MORELIKETHIS]

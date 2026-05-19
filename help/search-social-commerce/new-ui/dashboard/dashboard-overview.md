@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 375
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Seu [!UICONTROL Dashboard] inclui os seguintes relatórios visuais:
 
    1. (Opcional) Ao lado de **[!UICONTROL Select by]**, escolha como selecionar os portfólios:
 
-      * *[!UICONTROL All Portfolios]* (o padrão): Relatório em portfólios especificados. Opcionalmente, é possível filtrar a lista de portfólios alterando a **[!UICONTROL Currency]especificada.** Por padrão, todos os portfólios que usam USD são selecionados.
+      * *[!UICONTROL All Portfolios]* (o padrão): Relatório em portfólios especificados. Opcionalmente, você pode filtrar a lista de portfólios alterando o **[!UICONTROL Currency]especificado.** Por padrão, todos os portfólios que usam USD são selecionados.
 
-      * *[!UICONTROL Portfolio Groups]:* Relatório sobre portfólios especificados em um **[!UICONTROL Portfolio Group]especificado.** Opcionalmente, você pode filtrar a lista de portfólios alterando a **[!UICONTROL Currency]especificada.** Por padrão, todos os portfólios que usam USD no grupo de portfólios especificado são selecionados.
+      * *[!UICONTROL Portfolio Groups]:* Relatório sobre portfólios especificados em um **[!UICONTROL Portfolio Group]especificado.** Opcionalmente, você pode filtrar a lista de portfólios alterando o **[!UICONTROL Currency]especificado.** Por padrão, todos os portfólios que usam USD no grupo de portfólios especificado são selecionados.
 
-      * *[!UICONTROL Objectives]:* Relatório sobre portfólios especificados com um **[!UICONTROL Objective]especificado.**. Opcionalmente, é possível restringir a lista de portfólios alterando a **[!UICONTROL Currency]especificada.** Por padrão, todos os portfólios que usam USD com o objetivo especificado são selecionados.
+      * *[!UICONTROL Objectives]:* Relatório sobre portfólios especificados com um **[!UICONTROL Objective].** especificado . Opcionalmente, é possível restringir a lista de portfólios alterando o **[!UICONTROL Currency]especificado.** Por padrão, todos os portfólios que usam USD com o objetivo especificado são selecionados.
 
    1. Marque e desmarque as caixas de seleção ao lado dos portfólios, conforme necessário, até que a seção [!UICONTROL Selected Portfolios] liste os portfólios sobre os quais deseja criar o relatório.
 

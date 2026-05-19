@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 
    Por padrão, as novas inserções são para o tipo de anúncio original, são atribuídas aos anunciantes e campanhas originais, têm programações de voo que começam no dia atual, são pausadas e não incluem os anúncios originais.
 
-   Ao criar várias inserções, os novos nomes de inserção são anexados com um número, em sequência, usando a convenção &lt;*original_placement_name #N*>, como &quot;Minha inserção #2&quot;.
+   Ao criar vários posicionamentos, os novos nomes de posicionamento são anexados com um número, em sequência, usando a convenção &lt;*original_placement_name #N*>, como &quot;Meu Posicionamento #2&quot;.
 
 1. Clique em **[!UICONTROL Submit]**.
 
@@ -77,7 +77,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
    * Destinos geográficos
    * Pixels de evento
    * Anúncios
-   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety] (que substituem os segmentos no nível do anunciante)
+   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability] (que substituem os segmentos no nível do anunciante)
 
 ## Práticas recomendadas para configurar as novas disposições
 
@@ -98,7 +98,7 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
    * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
 
-   * Inclua destinos geográficos e segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Safety], conforme necessário, nos posicionamentos.
+   * Inclua destinos geográficos e segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability], conforme necessário, nos posicionamentos.
 
    * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
 

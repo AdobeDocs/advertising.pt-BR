@@ -1,9 +1,10 @@
 ---
 title: (Nova interface do usuário) Gerenciar [!DNL Google Ads] regras de valor de conversão
 description: Saiba como visualizar e gerenciar  [!DNL Google Ads] as regras de valor de conversão do Search, Social e Commerce.
-source-git-commit: ef9ed1031152857719e1691e50a57628d51505de
+feature: Conversions
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Cada regra inclui até duas condições, bem como o ajuste do valor de conversã
 
    Você deve configurar uma condição primária e um ajuste de valor. Como opção, você pode configurar uma condição secundária.
 
-   Dentro de uma condição, vários targets ou exclusões são unidos usando o operador booleano OR, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador booleano ALL, para que ambas as condições sejam atendidas para iniciar um ajuste de valor. Exemplo: se \[O local é Argélia OU Tunísia\] E \[O dispositivo é móvel OU tablet\], adicione 1.5.
+   Em uma condição, vários destinos ou exclusões são unidos usando o operador Booleano `OR`, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador Booleano `ALL`, de modo que ambas as condições devem ser atendidas para iniciar um ajuste de valor. Exemplo: se \[O local é Argélia OU Tunísia\] E \[O dispositivo é móvel OU tablet\], adicione 1.5.
 
    **Observação:** todas as regras em uma conta devem usar o mesmo tipo de condições primárias e secundárias (opcionais). Por exemplo, se a Regra 1 incluir a condição principal &quot;Público-alvo&quot; e a condição secundária &quot;Localização&quot;, todas as outras regras na conta deverão ter a condição principal &quot;Público-alvo&quot;. Quando as outras regras incluírem uma condição secundária, ela deverá ser &quot;Localização&quot;.
 
@@ -80,9 +81,7 @@ Cada regra inclui até duas condições, bem como o ajuste do valor de conversã
 
 1. Marque a caixa de seleção ao lado da regra.
 
-1. Na barra de ferramentas de ações em massa,
-
-   * Para ativar (habilitar) as regras pausadas, clique em (/help/search-social-commerce/assets/edit-new.png &quot;Editar).
+1. Na barra de ferramentas de ações em massa, clique em (/help/search-social-commerce/assets/edit-new.png &quot;Editar).
 
 1. Edite as [configurações da regra de conversão](#google-ads-conversion-value-rule-settings).
 
@@ -90,7 +89,7 @@ Cada regra inclui até duas condições, bem como o ajuste do valor de conversã
 
    Você deve configurar uma condição primária e um ajuste de valor. Como opção, você pode configurar uma condição secundária.
 
-   **Observação:** se você adicionar uma condição secundária, ela deverá ser do mesmo tipo de condição que as outras regras da conta. Por exemplo, se a Regra 1, outras regras na conta tiverem a condição secundária &quot;Local&quot;, quando outras regras incluírem uma condição secundária, a condição secundária deverá ser &quot;Local&quot;. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador booleano ALL, para que ambas as condições sejam atendidas para iniciar um ajuste de valor.
+   **Observação:** se você adicionar uma condição secundária, ela deverá ser do mesmo tipo de condição que as outras regras da conta. Por exemplo, se a Regra 1, outras regras na conta tiverem a condição secundária &quot;Local&quot;, quando outras regras incluírem uma condição secundária, a condição secundária deverá ser &quot;Local&quot;. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador Booleano `ALL`, de modo que ambas as condições devem ser atendidas para iniciar um ajuste de valor.
 
 1. Clique em **[!UICONTROL Review and Save]** para examinar as configurações.
 
@@ -120,25 +119,20 @@ Cada regra inclui até duas condições, bem como o ajuste do valor de conversã
 
 ## [!DNL Google Ads] configurações da regra de valor de conversão {#google-conversion-value-rule-settings}
 
-<!-- Go through all -->
-
 | Seção | Parâmetro | Descrição |
 |---|---|---|
 | [!UICONTROL Select Campaign] | [!UICONTROL Network] | A rede de publicidade. |
 | | [!UICONTROL Account] | A conta da rede de publicidade. |
-| | [!UICONTROL Campaign] | A campanha publicitária. |
-| [!UICONTROL Conditions] > [!UICONTROL Primary Condition] | \[Tipo de condição\] | (Somente leitura para regras existentes) O tipo de condição que deve ser atendida para acionar um ajuste de valor:<ul><li>**Dispositivo:** Para direcionar todos os tipos de dispositivos ou tipos específicos.</li><li>**Local:** Para direcionar todos os países e territórios ou direcionar e excluir locais específicos.</li><li>**Públicos-alvo:** Para direcionar todos os públicos-alvo ou públicos-alvo específicos</li></ul>**Observação:** todas as regras em uma conta devem usar o mesmo tipo de condições primárias e secundárias (opcionais). Por exemplo, se a Regra 1 incluir a condição principal &quot;Público-alvo&quot; e a condição secundária &quot;Localização&quot;, todas as outras regras na conta deverão ter a condição principal &quot;Público-alvo&quot;. Quando as outras regras incluírem uma condição secundária, ela deverá ser &quot;Localização&quot;. |
-| | Tipo de condição > Dispositivo | (Somente condições do dispositivo) Qual dispositivo deve ser direcionado:<ul><li>**Todos os dispositivos** — Para direcionar todos os tipos de dispositivos.</li><li>**Selecionar dispositivos** — Para especificar um ou mais tipos de dispositivos a serem direcionados: **Área de Trabalho**, **Celular** e **Tablet**.</li></ul>Em uma condição, vários destinos são unidos usando o operador booleano OR, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: se \[O dispositivo é móvel OU tablet\], Adicionar 1.5. |
-| | Tipo de condição > Local | (Somente condições de localização) Os públicos-alvos e exclusões de localização:<ul><li>**Todos os países e territórios** — Para direcionar todos os países e locais ou direcionar e excluir locais específicos.</li><li>**Insira um local** — Para direcionar e excluir locais específicos.</li></ul><ul><li>Para expandir um local ou sublocal, clique em > depois do nome.</li><li>Para adicionar um destino, selecione-o uma vez para mostrar uma marca de seleção verde.</li><li>Para excluir um destino, selecione o destino uma segunda vez para mostrar um **[!UICONTROL X]** vermelho.</li><li>Para remover um target ou uma exclusão, siga um destes procedimentos:<ul><li>Clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir") ao lado do item na coluna [!UICONTROL Selections].</li><li>Selecione o destino até que nenhuma marca de seleção ou [!UICONTROL X] seja exibida.</li></ul></li></ul>Dentro de uma condição, vários targets ou exclusões são unidos usando o operador booleano OR, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: Se \[O local é Argélia OU Tunísia\], então Adicione 1,5. |
-| | Tipo de condição > Público | (Somente condições do público-alvo) O público-alvo direciona:<ul><li>**Todos os segmentos de público-alvo** — Para direcionar todos os [!DNL Google Ads] segmentos de público-alvo.</li><li>**Insira os segmentos de público-alvo** — Para segmentar segmentos de público-alvo [!DNL Google Ads] específicos.</li></ul><ul><li>Para expandir uma categoria ou subcategoria em seus segmentos, clique em > depois do nome.</li><li>Para adicionar um target, selecione o target.</li><li>Para remover um destino, desmarque-o ou clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir") ao lado do item na coluna Seleção.</li></ul>Dentro de uma condição, vários targets ou exclusões são unidos usando o operador booleano OR, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: Se \[O público-alvo é de viagens de negócios OU de férias em família\], Adicionar 1.5.<br><br>**Observação:** depois de salvar um público-alvo, você poderá adicionar outros públicos-alvo, mas não poderá removê-los fora do editor [!DNL Google Ads]. Se você precisar remover um público-alvo, faça logon diretamente no [!DNL Google Ads] e use o editor [!DNL Google Ads]. |
-| Condições > Condição Secundária | | (Opcional; somente leitura para regras existentes) O tipo de condição que deve ser atendida para acionar um ajuste de valor. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador booleano ALL, para que ambas as condições sejam atendidas para iniciar um ajuste de valor. Exemplo: Se \[O local é Argélia OU Tunísia\] AND \[O dispositivo é móvel OU tablet\], então Adicione 1.5.<br><br>Consulte as entradas de Condição primária para obter descrições.<br><br>**Observação:** todas as regras em uma conta devem usar o mesmo tipo de condições primárias e secundárias (opcionais). Por exemplo, se a Regra 1 incluir a condição principal &quot;Público-alvo&quot; e a condição secundária &quot;Localização&quot;, todas as outras regras na conta deverão ter a condição principal &quot;Público-alvo&quot;. Quando as outras regras incluírem uma condição secundária, ela deverá ser &quot;Localização&quot;. |
-| Ajuste de Valor | Valor | Especifique o tipo de ajuste e insira um valor positivo:<ul><li>**Adicionar** — Adiciona o valor especificado ao valor de conversão passado. O valor deve ser maior que zero (0).</li><li>**Multiplicar** — Multiplica o valor de conversão passado pelo valor especificado. O valor deve ser de 0,5 a 10.</li></ul> |
+| | [!UICONTROL Campaign] | (Somente regras de valor de conversão no nível da campanha) A campanha publicitária. |
+| [!UICONTROL Conditions] > [!UICONTROL Primary Condition] | \[Tipo de condição\] | (Somente leitura para regras existentes) O tipo de condição que deve ser atendida para acionar um ajuste de valor:<ul><li>*[!UICONTROL Device]:* Para direcionar todos os tipos de dispositivos ou tipos específicos.</li><li>*[!UICONTROL Location]:* Direcionar todos os países e territórios ou direcionar e excluir locais específicos.</li><li>*[!UICONTROL Audiences]:* Para direcionar todos os públicos ou públicos específicos</li></ul>**Observação:** todas as regras em uma conta devem usar o mesmo tipo de condições primárias e secundárias (opcionais). Por exemplo, se a Regra 1 incluir a condição principal &quot;Público-alvo&quot; e a condição secundária &quot;Localização&quot;, todas as outras regras na conta deverão ter a condição principal &quot;Público-alvo&quot;. Quando as outras regras incluírem uma condição secundária, ela deverá ser &quot;Localização&quot;. |
+| | \[Tipo de condição\] > [!UICONTROL Device] e [!UICONTROL Device Level] | (Somente condições do dispositivo) Qual dispositivo deve ser direcionado:<ul><li>*[!UICONTROL All devices]:** Para direcionar todos os tipos de dispositivo.</li><li>*[!UICONTROL Select devices]:* Para especificar um ou mais tipos de dispositivo para destino: *[!UICONTROL Desktop]:*, *[!UICONTROL Mobile]* e *[!UICONTROL Tablet]:*.</li></ul>Em uma condição, vários destinos são unidos usando o operador booleano `OR`, de modo que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: se \[O dispositivo é móvel OU tablet\], Adicionar 1.5. |
+| | \[Tipo de condição\] > [!UICONTROL Location] e [!UICONTROL Location Level] | (Somente condições de localização) Os públicos-alvos e exclusões de localização:<ul><li>*[!UICONTROL All countries and territories]:* Para direcionar todos os países e locais ou direcionar e excluir locais específicos.</li><li>*[!UICONTROL Enter a location]:* Para direcionar e excluir locais específicos.</li></ul><ul><li>Para expandir um local ou sublocal, clique em `>` depois do nome.</li><li>Para adicionar um destino, selecione-o uma vez para mostrar uma marca de seleção verde.</li><li>Para excluir um destino, selecione o destino uma segunda vez para mostrar um **[!UICONTROL X]** vermelho.</li><li>Para remover um target ou uma exclusão, siga um destes procedimentos:<ul><li>Clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir") ao lado do item na coluna [!UICONTROL Selections].</li><li>Selecione o destino até que nenhuma marca de seleção ou [!UICONTROL X] seja exibida.</li></ul></li></ul>Em uma condição, vários destinos ou exclusões são unidos usando o operador Booleano `OR`, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: Se \[O local é Argélia OU Tunísia\], então Adicione 1,5. |
+| | \[Tipo de condição\] > [!UICONTROL Audience] e [!UICONTROL Audience Level] | (Somente condições do público-alvo) O público-alvo direciona:<ul><li>*[!UICONTROL All audience segments]:* Para direcionar todos os [!DNL Google Ads] segmentos de público-alvo.</li><li>*[!UICONTROL Enter audience segments]:* Para segmentar segmentos de público-alvo específicos de [!DNL Google Ads].</li></ul><ul><li>Para expandir uma categoria ou subcategoria em seus segmentos, clique em `>` depois do nome.</li><li>Para adicionar um target, selecione o target.</li><li>Para remover um destino, desmarque-o ou clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir") ao lado do item na coluna [!UICONTROL Selection].</li></ul>Dentro de uma condição, vários targets ou exclusões são unidos usando o operador booleano OR, para que qualquer opção possa ser atendida para iniciar um ajuste de valor. Exemplo: Se \[O público-alvo é de viagens de negócios OU de férias em família\], Adicionar 1.5.<br><br>**Observação:** depois de salvar um público-alvo, você poderá adicionar outros públicos-alvo, mas não poderá removê-los fora do editor [!DNL Google Ads]. Se você precisar remover um público-alvo, faça logon diretamente no [!DNL Google Ads] e use o editor [!DNL Google Ads]. |
+| [!UICONTROL Conditions] > [!UICONTROL Secondary Condition] | \[Tipo de condição\] | (Opcional; somente leitura para regras existentes) O tipo de condição que deve ser atendida para acionar um ajuste de valor. Quando você inclui uma condição secundária, a condição secundária é unida à condição primária usando o operador Booleano `ALL`, de modo que ambas as condições devem ser atendidas para iniciar um ajuste de valor. Exemplo: Se \[O local é Argélia OU Tunísia\] E \[O dispositivo é móvel OU tablet\], então Adicione 1.5.<br><br>Consulte as entradas das condições primárias para obter descrições.<br><br>**Observação:** todas as regras de uma conta devem usar o mesmo tipo de condições primárias e (opcionais) secundárias. Por exemplo, se a Regra 1 incluir a condição principal &quot;Público-alvo&quot; e a condição secundária &quot;Localização&quot;, todas as outras regras na conta deverão ter a condição principal &quot;Público-alvo&quot;. Quando as outras regras incluírem uma condição secundária, ela deverá ser &quot;Localização&quot;. |
+| [!UICONTROL Value Adjustment] | [!UICONTROL Adjustment Operation] e [!UICONTROL Adjustment Value] | Especifique o tipo de ajuste e insira um valor positivo:<ul><li>*[!UICONTROL Add]:* Adiciona o valor especificado ao valor de conversão passado. O valor deve ser maior que zero (0).</li><li>*[!UICONTROL Multiply]:* Multiplica o valor de conversão passado pelo valor especificado. O valor deve ser de 0,5 a 10.</li></ul> |
 
-
-
-
-
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
-
+>* 
+-->

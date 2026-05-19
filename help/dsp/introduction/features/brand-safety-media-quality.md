@@ -14,9 +14,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -147,13 +147,13 @@ Para criar uma conta do [!DNL Comscore] e segmentos de tópicos personalizados, 
 
 ![Logotipo da pontuação](/help/dsp/assets/comscore-logo.png)
 
-### [!DNL DoubleVerify Authentic Brand Safety]
+### [!DNL DoubleVerify Authentic Brand Suitability]
 
-A DSP fez parceria com a [!DNL DoubleVerify] para oferecer a solução de direcionamento [!DNL Authentic Brand Safety], que permite criar um conjunto centralizado de requisitos de segurança da marca para segmentar todas as suas plataformas de compra por consistência.
+A DSP fez parceria com a [!DNL DoubleVerify] para oferecer a solução de direcionamento [!DNL Authentic Brand Suitability], que permite criar um conjunto centralizado de requisitos de adequação da marca para segmentar em todas as suas plataformas de compra por consistência.
 
-Depois de criar um segmento de segurança da marca [!DNL DoubleVerify] com o direcionamento necessário, você pode usá-lo no DSP para replicar suas regras de bloqueio pós-oferta com pré-oferta em ambientes da Web.
+Depois de criar um segmento [!DNL DoubleVerify] com o direcionamento necessário, você pode usá-lo no DSP para replicar suas regras de bloqueio pós-oferta com pré-oferta em ambientes da Web.
 
-Você pode especificar uma ID de segmento [!DNL DoubleVerify] para cada anunciante<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> e, opcionalmente, [habilitar ou desabilitar [!UICONTROL Authentic Brand Safety] para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). A DSP fatura sua conta pelo uso da ID de segmento.
+Você pode especificar uma ID de segmento [!DNL DoubleVerify] para cada anunciante e, opcionalmente, [habilitar ou desabilitar [!UICONTROL Authentic Brand Suitability] para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md). A DSP fatura sua conta pelo uso da ID de segmento.
 
 Para obter mais informações sobre a funcionalidade, contate o [!DNL DoubleVerify] diretamente ou a Equipe de Conta da Adobe.
 

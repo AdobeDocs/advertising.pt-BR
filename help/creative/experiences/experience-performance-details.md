@@ -4,13 +4,10 @@ description: Saiba como visualizar relatórios de desempenho no nível da experi
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
 TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9376767ebde74e1e8edbc8617ecb72bfd49c8a3d
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
 source-wordcount: 791
 ht-degree: 0%
@@ -31,29 +28,29 @@ A visualização Relatório inclui os seguintes dados:
 
       * **Desempenho Geral**: o total de impressões; cliques; taxa de cliques (CTR); e conversões de view-through e conversões de click-through.
 
-        <!--
+     <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Taxa padrão**: (experiências somente com direcionamento de árvore decisória) o número de impressões resultantes de criações direcionadas, criações genéricas sem um destino ou direcionadas para &quot;Todos os outros&quot; e o criativo padrão da experiência.
 
-        <!--
+     <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
-      -->
+     -->
 
    * Seção **Detalhamento do Desempenho**:
 
-      * **Desempenho regional:*: métricas individuais por localização geográfica.
+      * **Desempenho regional:**: métricas individuais por localização geográfica.
 
-        <!--
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das 10 principais criações atendidas com esse critério.
 
-        <!--
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Guia Desempenho do Creative***: uma visão geral de desempenho por criativo e pacote ou tag de anúncio, incluindo:
 

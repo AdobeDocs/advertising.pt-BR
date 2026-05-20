@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 20 de maio de 2026 | Fontes de público-alvo primárias, IDs universais, [!UICONTROL Placements] | Os anunciantes na Austrália agora podem importar [!DNL AdFixus] IDs universais com mapeamentos de segmentos para publicidade direcionada. O DSP importa segmentos primários de [!DNL AdFixus] como estão, sem convertê-los em outros tipos de ID. O processo inclui a criação de uma fonte de público-alvo e o compartilhamento de uma chave gerada automaticamente com a equipe do [!DNL AdFixus]. | Consulte &quot;[Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md),&quot; &quot;[Sobre fontes de público-alvo primários](/help/dsp/audiences/sources/source-about.md),&quot; e &quot;[Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 11 de maio de 2026 | Reutilizável [!UICONTROL Audiences] | (Recurso do Beta) Agora é possível criar públicos-alvo reutilizáveis usando um agente de público-alvo assistido por IA. Descreva seu público-alvo em prompts em linguagem natural, e o agente sugere segmentos de terceiros e cria expressões de público para usar como alvos ou exclusões. | Consulte &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; |
 | 29 de abril de 2026 | [!UICONTROL Conversions] | Agora é possível gerenciar todas as métricas de conversão que o Adobe Advertising rastreia para sua organização na DSP. As métricas ainda estão disponíveis no Advertising Search, Social e Commerce para serem usadas em relatórios e otimização. | Consulte &quot;[Gerenciar conversões](/help/dsp/admin/conversion-metrics-manage.md)&quot;. |
 | | [!UICONTROL Custom Objectives] | Agora é possível criar e gerenciar os objetivos usados para suas metas personalizadas no DSP. | Consulte &quot;[Gerenciar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md)&quot;. |

@@ -3,7 +3,7 @@ title: (Nova interface do usuário) Visualização do histórico de alterações
 description: Saiba como visualizar o histórico de alterações de um portfólio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ As informações para cada alteração incluem a data, o nome de usuário da pes
    * Clique em ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro") para filtrar os dados por tipo de alteração.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * Clique em ![Classificar](/help/search-social-commerce/assets/sort.png "Classificar") para classificar a lista por data em ordem crescente ou decrescente.
-
 
 ## Gerenciar relatórios de dados de desempenho para históricos de alterações
 

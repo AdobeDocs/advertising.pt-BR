@@ -4,22 +4,14 @@ description: Consulte descrições das configurações de posicionamento dispon�
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 4499
+source-wordcount: 4518
 ht-degree: 0%
 
 ---
@@ -346,15 +338,17 @@ Ao selecionar IDs herdadas e IDs universais, a preferência de lances é dada à
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (padrão) é direcionado a usuários com base em cookies, IDs de anúncios móveis ou IDs de TV conectada. As IDs são selecionadas com base no inventário do navegador, no aplicativo ou CTV.
 
-* *[!UICONTROL Universal ID Beta]*: segmenta as IDs focadas na privacidade do usuário; selecione um tipo de ID. As opções disponíveis são determinadas pelos destinos geográficos selecionados na seção [!UICONTROL Geo-Targeting]. Use com [[!DNL RampID] segmentos importados diretamente para o DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmentos para os quais o DSP converte suas PIIs em IDs universais](/help/dsp/audiences/sources/source-about.md) ou [segmentos personalizados que rastreia IDs universais](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID]*: segmenta as IDs focadas na privacidade do usuário; selecione um tipo de ID. As opções disponíveis são determinadas pelos destinos geográficos selecionados na seção [!UICONTROL Geo-Targeting]. Use com [[!DNL RampID] segmentos importados diretamente para o DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmentos para os quais o DSP converte suas PIIs em IDs universais](/help/dsp/audiences/sources/source-about.md), [segmentos próprios [!DNL AdFixus] segmentos transmitidos para o DSP](/help/dsp/audiences/sources/source-adfixus.md) ou [segmentos personalizados que rastreiam IDs universais](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]*: Destinos [!DNL ID5] IDs criados probabilisticamente a partir de endereços de email e outros sinais.<!-- What countries/geos are these available for? Everywhere?--> IDs IDs IDs estão disponíveis gratuitamente. **Observação:** segmentos de terceiros de [!DNL Eyeota] podem incluir IDs ID5.
+   * *[!UICONTROL AdFixus]*: Destinos [!DNL AdFixus] IDs importados para o Advertising DSP.
 
-   * *[!UICONTROL RampID]*: Destina-se a [!DNL LiveRamp] [!DNL RampIDs] usuários conectados ao seu site usando seus endereços de email.<!-- Verify --> [!DNL RampIDs] estão disponíveis para usuários na América do Norte, Austrália e Nova Zelândia.
+   * *[!UICONTROL ID5]*: [!DNL ID5] IDs de Públicos-alvo criadas probabilisticamente a partir de endereços de email e outros sinais. IDs IDs IDs estão disponíveis gratuitamente. **Observação:** segmentos de terceiros de [!DNL Eyeota] podem incluir IDs ID5.
 
-   * *[!UICONTROL Unified ID2.0]*: Destina [!DNL Unified ID2.0] (UID2) IDs de usuários conectados ao seu site usando seus endereços de email.<!-- Verify -->[!DNL UID2 IDs] não estão disponíveis para usuários no Espaço Econômico Europeu e em alguns países adicionais. Consulte a [lista de países proibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL RampID]*: Destina-se a [!DNL LiveRamp] [!DNL RampIDs] usuários conectados ao seu site usando seus endereços de email. [!DNL RampIDs] estão disponíveis para usuários na América do Norte, Austrália e Nova Zelândia.
 
-  **[!UICONTROL Terms of service]**: os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta do DSP deve aceitar os termos uma vez antes de converter os dados em um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
+   * *[!UICONTROL Unified ID2.0]*: Destina [!DNL Unified ID2.0] (UID2) IDs de usuários conectados ao seu site usando seus endereços de email. [!DNL UID2 IDs] não está disponível para usuários no Espaço Econômico Europeu e em alguns outros países. Consulte a [lista de países proibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta da DSP deve aceitar os termos uma vez antes de importar IDs, converter dados em um novo tipo de ID ou direcionar um tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (Disponível quando a [campanha está configurada para segmentação entre dispositivos com base em pessoas](/help/dsp/campaign-management/campaigns/campaign-settings.md), você só segmenta IDs herdadas (não IDs universais) e seleciona pelo menos um segmento ou público. Permite estender o direcionamento em todos os dispositivos conhecidos de uma pessoa (de acordo com o gráfico de dispositivos especificado nas configurações da campanha), até mesmo dispositivos que não estão nos segmentos especificados. As tarifas podem ser aplicadas dependendo do gráfico especificado para a campanha. Os dados do gráfico de dispositivos estão disponíveis somente na América do Norte.
 
@@ -480,7 +474,7 @@ A ID deve começar com &quot;51&quot; e consistir em oito dígitos. Por padrão,
 
 >[!NOTE]
 >
->([!DNL Roku] posicionamentos) Os fornecedores de rastreamento de terceiros aprovados por [!DNL Roku] incluem [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] e [!DNL Research Now].
+>([!DNL Roku] posicionamentos) Os fornecedores de rastreamento de terceiros aprovados por [!DNL Roku] incluem [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now] e [!DNL TransUnion].
 
 **[!UICONTROL Event Pixels]:** (opcional) pixels de rastreamento de eventos de terceiros a serem anexados por padrão a todos os novos anúncios no posicionamento. Para especificar pixels de evento:
 

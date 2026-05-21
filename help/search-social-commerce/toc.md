@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [Sobre a exibição [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Relatórios {#reports}
-      + [Gerenciar feeds de relatório de planilha](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + Relatórios agendados {#scheduled}
+         + [Sobre relatórios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [As tarefas de configuração iniciais para relatórios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [Os dados usados para os relatórios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + Gerenciamento de relatórios {#report-management}
+         + Automação {#automation}
+            + [Gerenciar modelos de relatório](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [Gerenciar feeds de relatório de planilha](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [Acesso FTP a relatórios](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [Como as regras de atribuição são calculadas](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [Perguntas frequentes sobre relatórios personalizados](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [Exibir o relatório [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gerenciar classificações de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}

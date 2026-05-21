@@ -18,9 +18,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de p
 
      Para obter mais informações sobre o suporte da Adobe Advertising para solicitações de cancelamento de venda do CCPA, consulte [Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Recurso do Beta) [Obter e usar IDs universais para direcionamento sem cookies](/help/dsp/audiences/universal-ids.md):
+* [Obter e usar IDs universais para direcionamento sem cookies](/help/dsp/audiences/universal-ids.md):
 
    * Envie manualmente os segmentos autenticados do [!DNL LiveRamp] [!DNL RampID] diretamente para a DSP.
 
    * Permitir que o DSP importe segmentos primários da sua plataforma de dados do cliente e traduza-os para tipos de ID universal compatíveis.
+
+   * Importar segmentos [!DNL AdFixus] primários que contêm [!DNL AdFixus] IDs universais (somente Austrália). Em seguida, você pode direcionar posicionamentos para [!DNL AdFixus] IDs, adicionar esses segmentos a [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md) e usar os relatórios descritos em &quot;[Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).&quot;
 
    * Inclua segmentos de terceiros que contenham IDs universais em seus destinos de posicionamento sem etapas extras.
 
@@ -49,53 +51,57 @@ No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de p
 
   Públicos-alvo salvos permitem que os planejadores de mídia agrupem públicos-alvo conforme necessário, incluindo e excluindo vários segmentos que utilizam lógica booleana complexa. O tamanho (direcionável) de cada segmento individual e o tamanho geral do público-alvo ativo são indicados à medida que você cria um público-alvo. Os executores de campanha podem simplesmente selecionar um ou mais públicos-alvo salvos como alvos de posicionamento, em vez de configurar manualmente os alvos de público-alvo para cada posicionamento.
 
-Additional audience types are also available for placement targeting.
+Outros tipos de público-alvo também estão disponíveis para o direcionamento de posicionamento.
 
-## Importing first-party and third-party data segments
+## Importação de segmentos de dados primários e de terceiros
 
-You have many options to import first-party and third-party data segments into DSP, using the DSP user interface and/or through custom import services.
+Você tem muitas opções para importar segmentos de dados primários e de terceiros para o DSP, usando a interface do usuário do DSP e/ou por meio de serviços de importação personalizados.
 
-* DSP can pull in your Adobe Audience Manager and other [!DNL Adobe] audiences for targeting. For prerequisites and instructions, see &quot;[Import Adobe Audience Manager segments for ad targeting](/help/integrations/audience-manager/import-audiences.md).
+* A DSP pode obter seus públicos-alvo da Adobe Audience Manager e de outros [!DNL Adobe] para direcionamento. Para obter os pré-requisitos e as instruções, consulte &quot;[Importar segmentos do Adobe Audience Manager para o direcionamento de anúncios](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP can translate first-party data segments from supported customer data platforms to segments with universal IDs using the [Sources feature](/help/dsp/audiences/sources/source-about.md). You can also [manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* O DSP pode traduzir segmentos de dados primários de plataformas de dados de clientes com suporte para segmentos com IDs universais usando o [recurso Fontes](/help/dsp/audiences/sources/source-about.md).
 
-* DSP can import your other first-party data segments directly from your data management platform (DMP) and provide them to any set of advertisers, as needed.
+* Os anunciantes australianos podem importar [!DNL AdFixus] segmentos primários usando o [recurso Fontes](/help/dsp/audiences/sources/source-about.md) sem traduzir as suas [!DNL AdFixus] IDs universais para outros tipos de ID.
 
-* DSP can import custom third-party segments, including complex combinations of third-party segments. You can provide the segments to any set of advertisers, as needed.
+* O DSP é uma plataforma de destino para [!DNL LiveRamp], portanto você pode [enviar manualmente seus segmentos [!DNL LiveRamp] [!DNL RampID] autenticados diretamente para o DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+
+* A DSP pode importar outros segmentos de dados primários diretamente da sua plataforma de gerenciamento de dados (DMP) e fornecê-los a qualquer conjunto de anunciantes, conforme necessário.
+
+* O DSP pode importar segmentos personalizados de terceiros, incluindo combinações complexas de segmentos de terceiros. Você pode fornecer os segmentos a qualquer conjunto de anunciantes, conforme necessário.
 
 Entre em contato com a equipe de conta da Adobe para obter mais informações.
 
-## Audiences available as placement targets
+## Públicos disponíveis como destinos de posicionamento
 
-You can target your placements to all of the following types of audiences.
+Você pode direcionar seus posicionamentos para todos os tipos de público a seguir.
 
-* All user-created audience sets that were saved in DSP.
+* Todos os conjuntos de públicos-alvo criados pelo usuário que foram salvos no DSP.
 
-* All user-created audience segments that were created in DSP:
+* Todos os segmentos de público-alvo criados pelo usuário que foram criados no DSP:
 
-   * Custom segments for users who visited specific webpages and users exposed to impressions of specific ads.
+   * Segmentos personalizados para usuários que visitaram páginas da Web específicas e usuários expostos a impressões de anúncios específicos.
 
-     No fees are incurred for impressions delivered to universal IDs.
+     Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
-   * CCPA opt-out-of-sale audience segments for users who submitted opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA).
+   * Segmentos de público-alvo de não participação na venda do CCPA para usuários que enviaram solicitações de não participação na venda em seu site, de acordo com a California Consumer Privacy Act (CCPA).
 
-* All of your imported first-party data segments, including segments that were translated to universal IDs.
+* Todos os segmentos de dados primários importados, incluindo segmentos que foram traduzidos em IDs universais e segmentos que contêm [!DNL AdFixus] IDs universais importadas.
 
-  Additional fees are charged for impressions delivered to universal IDs. See &quot;[About first-party audience sources](/help/dsp/audiences/sources/source-about.md)&quot; for rates.
+  Taxas adicionais são cobradas por impressões entregues a IDs universais. Consulte &quot;[Sobre fontes de público-alvo primários](/help/dsp/audiences/sources/source-about.md)&quot; para obter taxas.
 
-* All of your imported custom third-party data segments.
+* Todos os seus segmentos de dados personalizados de terceiros importados.
 
-* (Placements targeting the U.S. only) [All third-party data segments available to DSP customers from over 30 providers](/help/dsp/audiences/third-party-data-providers.md), including [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], and many more.
+* (Posicionamentos direcionados somente aos EUA) [Todos os segmentos de dados de terceiros disponíveis para clientes do DSP de mais de 30 provedores](/help/dsp/audiences/third-party-data-providers.md), incluindo [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL TransUnion] e muitos outros.
 
-  You can target specific segments, which target users based on audience data (for example, users with specific demographics, interests or intents, and/or behavioral profiles). You can browse by data provider and category, search for segments by name or segment ID, or filter the results by data provider, active segment size, web browser count, or devices count.
+  Você pode direcionar segmentos específicos, que direcionam usuários com base nos dados do público-alvo (por exemplo, usuários com demografia, interesses ou intenções específicos e/ou perfis comportamentais). Você pode procurar por provedor de dados e categoria, procurar segmentos por nome ou ID de segmento, ou filtrar os resultados por provedor de dados, tamanho do segmento ativo, contagem de navegadores da Web ou contagem de dispositivos.
 
   Os segmentos de terceiros incorrem em taxas adicionais, que são indicadas ao lado de cada nome de segmento.
 
-* (Anunciantes com Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics que usam somente as tags de conversão do Adobe Advertising JavaScript) Todos os seus segmentos de público-alvo primários, secundários ou de terceiros disponíveis criados em [!DNL Real-Time CDP], criados no Audience Manager ou publicados no Adobe CX Enterprise a partir da Audience Manager ou [!DNL Analytics].
+* (Anunciantes com Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics que usam somente as tags de conversão do Adobe Advertising JavaScript) Todos os seus segmentos de público-alvo primários, secundários ou de terceiros disponíveis criados em [!DNL Real-Time CDP], criados no Audience Manager ou publicados no Adobe CX Enterprise a partir do Audience Manager ou [!DNL Analytics].
 
   Os preços para o uso dos segmentos são pré-negociados e não estão visíveis no DSP.
 
-  Segmentos do [!DNL Analytics] estão disponíveis cerca de uma hora depois de você criá-los ou publicá-los como públicos do CX Enterprise. Segmentos provenientes diretamente da Audience Manager ou do [!DNL Real-Time CDP] estão disponíveis em 24 horas após serem compartilhados.
+  Segmentos do [!DNL Analytics] ficam disponíveis cerca de uma hora depois de você criá-los ou publicá-los como públicos do CX Enterprise. Segmentos provenientes diretamente da Audience Manager ou do [!DNL Real-Time CDP] estão disponíveis em 24 horas após serem compartilhados.
 
   >[!NOTE]
   >
@@ -151,11 +157,11 @@ A exibição [!UICONTROL Segments] também lista os seguintes tipos de segmento:
 
 ### A visualização [!UICONTROL Sources]
 
-No modo de exibição [!UICONTROL Sources], é possível configurar fontes para segmentos primários em plataformas de dados do cliente com suporte que você deseja converter em segmentos que contêm tipos de ID universal especificados. As configurações de origem incluem uma chave de origem gerada automaticamente, que você fornecerá à plataforma de dados do cliente para estabelecer a conexão.
+No modo de exibição [!UICONTROL Sources], é possível configurar fontes para segmentos primários a partir de plataformas de dados de clientes com suporte que você deseja converter em segmentos que contêm tipos de ID universal especificados. Você também pode configurar [!UICONTROL AdFixus ID] fontes para importar segmentos com [!DNL AdFixus] IDs universais (somente Austrália). As configurações de origem incluem uma chave de origem gerada automaticamente para compartilhar com a CDP ou a equipe [!DNL AdFixus].
 
-Para obter mais informações sobre as plataformas de dados do cliente com suporte, os tipos de ID universal com suporte e os fluxos de trabalho para configurar conexões com cada plataforma de dados do cliente, consulte &quot;[Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md).&quot;
+Para obter mais informações sobre plataformas com suporte, tipos de ID universal com suporte e fluxos de trabalho de configuração, consulte &quot;[Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md).&quot;
 
-Os segmentos traduzidos estão disponíveis para inclusão em públicos reutilizáveis e em configurações de posicionamento para direcionamento sem cookies.
+Segmentos importados por meio do [!UICONTROL Sources] estão disponíveis para públicos-alvo reutilizáveis e [!UICONTROL Universal ID] para direcionamento nas configurações de posicionamento, quando aplicável.
 
 >[!MORELIKETHIS]
 >
@@ -166,5 +172,6 @@ Os segmentos traduzidos estão disponíveis para inclusão em públicos reutiliz
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](/help/dsp/audiences/sources/source-manage.md)
 >* [Importar segmentos autenticados manualmente de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Provedores de dados de terceiros disponíveis](third-party-data-providers.md)
 >* [Configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md)

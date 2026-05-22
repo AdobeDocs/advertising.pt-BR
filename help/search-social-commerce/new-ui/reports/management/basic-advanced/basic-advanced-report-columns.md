@@ -2,7 +2,7 @@
 title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 0%

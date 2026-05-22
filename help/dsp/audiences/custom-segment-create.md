@@ -4,20 +4,14 @@ description: Saiba como criar e implementar um segmento personalizado para rastr
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
 TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: c193c532-b70e-4556-bde7-857186cbe140
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +25,6 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 >Para rastrear as IDs de usuários a partir de solicitações de cancelamento de venda em seu site, de acordo com a California Consumer Privacy Act (CCPA), crie um [segmento de cancelamento de venda da CCPA](ccpa-opt-out-segment-create.md).
 
 ## Pré-requisitos para que os segmentos rastreiem IDs de ID5
-
-*recurso do Beta*
 
 * Antes de gerar um segmento para rastrear usuários associados a IDs ID5, assine um contrato com [!DNL ID5] e obtenha a ID de parceiro da sua organização. Entre em contato com a equipe de conta da Adobe para obter instruções.
 
@@ -77,9 +69,11 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
    1. Clique em **[!UICONTROL Advanced]** para expandir as configurações avançadas e selecione os tipos de identificadores de usuário que a marca de segmento rastreia:
 
-      * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* A marca de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 

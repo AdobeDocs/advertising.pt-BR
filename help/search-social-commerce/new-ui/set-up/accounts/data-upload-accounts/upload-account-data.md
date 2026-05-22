@@ -1,9 +1,9 @@
 ---
 title: Carregar dados da conta offline para relatórios e simulações
 description: Saiba como carregar dados de conta offline manualmente ou em um bucket do  [!DNL Amazon] [!DNL S3] para suporte a relatórios e simulações. Os arquivos de log acompanham o progresso dos trabalhos de upload.
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

@@ -2,7 +2,7 @@
 title: Gerenciar restrições para pesquisar unidades de oferta
 description: Saiba mais sobre as restrições para restringir ofertas de unidades de oferta em campanhas CPC em portfólios herdados de nível de palavra-chave.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Além de abrir a [[!UICONTROL Constraints] visualização](#constraints-view), v
 
   A classificação [!UICONTROL Constraints] não está incluída na exibição [!UICONTROL Label Classifications] — a exibição [!UICONTROL Constraints] é separada. A classificação [!UICONTROL Constraints] também não está incluída no limite de classificação de 30 rótulos.
 
-* [A [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md) inclui dados de custo, clique e conversão (opcionalmente) para restrições que usam a arquitetura de classificação de etiquetas.
+* [A [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md) inclui dados de custo, clique e conversão (opcionalmente) para restrições que usam a arquitetura de classificação de etiquetas.
 
 ### A visualização [!UICONTROL Constraints] {#constraints-view}
 
@@ -216,4 +216,4 @@ Cada entidade pode ter apenas uma restrição. É possível atribuir uma única 
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [O [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [O [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

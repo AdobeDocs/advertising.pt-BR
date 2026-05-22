@@ -2,9 +2,9 @@
 title: (Nova interface do usuário) Gerenciar modelos de relatório
 description: Saiba como criar, exibir, editar e excluir modelos de relatório reutilizáveis para relatórios agendados e por demanda.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ Os modelos de relatório são layouts predefinidos de relatório que podem ser r
 
 1. Siga um destes procedimentos:
 
-* Para criar um modelo do zero na guia [!UICONTROL Latest Reports] ou na guia [!UICONTROL Templates], crie um relatório, habilitando a configuração **[!UICONTROL Save as Template]**.
+   * Para criar um modelo do zero na guia [!UICONTROL Latest Reports] ou na guia [!UICONTROL Templates], crie um relatório, habilitando a configuração **[!UICONTROL Save as Template]**.
 
-* Para criar um modelo com base em um modelo existente:
+   * Para criar um modelo com base em um modelo existente:
 
-   1. Clique na guia **[!UICONTROL Templates]**.
+      1. Clique na guia **[!UICONTROL Templates]**.
 
-   1. Marque a caixa de seleção ao lado do modelo existente.
+      1. Siga um destes procedimentos:
 
-   1. Na barra de ferramentas de ações em massa, clique em [Duplicar](/help/search-social-commerce/assets/duplicate.png).
+         * Mantenha o cursor sobre a linha de modelo e clique em **...** > **[!UICONTROL Duplicate]**.
 
-   1. (Opcional) Renomeie o modelo e edite as configurações do relatório, se necessário.
+         * Marque a caixa de seleção ao lado do modelo existente. Na barra de ferramentas de ações em massa, clique em [Duplicar](/help/search-social-commerce/assets/duplicate.png).
 
-      Clique em **[!UICONTROL Next]** para mover entre as seções de configuração.
+      1. (Opcional) Renomeie o modelo e edite as configurações do relatório, se necessário.
 
-   1. Habilite a configuração **[!UICONTROL Save as Template]**.
+         Clique em **[!UICONTROL Next]** para mover entre as seções de configuração.
 
-   1. Clique em **[!UICONTROL Create]**.
+1. Habilite a configuração **[!UICONTROL Save as Template]**.
+
+1. Clique em **[!UICONTROL Create]**.
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 

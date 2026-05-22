@@ -1,15 +1,15 @@
 ---
-title: Sobre o suporte a recomendações e insights do editor
+title: Suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# Sobre o suporte a recomendações e insights do editor
+# Suporte a recomendações e insights do editor
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
 

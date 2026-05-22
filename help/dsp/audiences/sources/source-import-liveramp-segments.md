@@ -12,16 +12,14 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: 169
 ht-degree: 0%
 
 ---
 
 # Importar segmentos autenticados manualmente de [!DNL LiveRamp]
-
-*recurso do Beta*
 
 Você pode enviar segmentos [!DNL LiveRamp] autenticados manualmente para a DSP usando o painel [!DNL LiveRamp] [!DNL Connect]. Você pode usar segmentos importados para direcionamento de posicionamento. Para segmentos primários, as taxas são de US$ 0,15 por impressão de anúncio de exibição entregue e US$ 0,25 por impressão de anúncio de vídeo entregue.
 
@@ -56,3 +54,4 @@ Is this first step relevant for this process?
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
 >* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)
+>* [Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)

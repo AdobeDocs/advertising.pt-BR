@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 >Para rastrear as IDs de usuários a partir de solicitações de cancelamento de venda em seu site, de acordo com a California Consumer Privacy Act (CCPA), crie um [segmento de cancelamento de venda da CCPA](ccpa-opt-out-segment-create.md).
 
 ## Pré-requisitos para que os segmentos rastreiem IDs de ID5
-
-*recurso do Beta*
 
 * Antes de gerar um segmento para rastrear usuários associados a IDs ID5, assine um contrato com [!DNL ID5] e obtenha a ID de parceiro da sua organização. Entre em contato com a equipe de conta da Adobe para obter instruções.
 
@@ -77,9 +75,11 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
    1. Clique em **[!UICONTROL Advanced]** para expandir as configurações avançadas e selecione os tipos de identificadores de usuário que a marca de segmento rastreia:
 
-      * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* A marca de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 

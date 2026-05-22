@@ -14,31 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Gerenciar fontes de público-alvo para ativar públicos-alvo da ID universal
 
-*recurso do Beta*
+Crie uma fonte no DSP para cada público-alvo primário na plataforma de dados do cliente que você deseja importar ou converter em segmentos que contêm tipos de ID universal especificados. Você pode importar os segmentos para a conta da DSP de sua organização ou para uma conta de anunciante. Ao converter públicos em IDs universais, são aplicadas taxas com base nos tipos de ID universal selecionados. Depois de criar uma origem, etapas adicionais são necessárias para transmitir os públicos-alvo de origem de cada plataforma de dados do cliente. Consulte a nota no final do procedimento para criar uma origem.
 
-Crie uma fonte no DSP para cada público-alvo primário na plataforma de dados do cliente que você deseja converter em segmentos que contêm tipos de ID universal especificados. Você pode importar os segmentos para a conta da DSP de sua organização ou para uma conta de anunciante. Os encargos de dados são aplicados com base nos tipos de ID universal selecionados. Depois de criar uma origem, etapas adicionais são necessárias para assimilar os públicos-alvo de cada plataforma de dados do cliente. Consulte a nota no final do procedimento para criar uma origem.
-
-Posteriormente, você pode alterar os tipos de ID universal para os quais o público-alvo de origem é traduzido e exibir um log das alterações.
+Para todas as plataformas de dados do cliente, exceto [!DNL AdFixus], é possível alterar posteriormente os tipos de ID universal para os quais o público-alvo de origem é convertido e exibir um log das alterações.
 
 Você também pode excluir uma origem.
 
 ## Criar uma fonte de público-alvo
 
-<!--
- Not sure about this
-
-You can create one source for each combination of universal ID partner and data visibility level.
-
--->
+Você pode criar uma fonte para cada combinação de parceiro de ID universal e conta ou anunciante individual. Por exemplo, você pode ter uma origem [!UICONTROL RT-CDP] para a conta, uma origem [!UICONTROL RT-CDP] para o Anunciante 1 e uma origem [!UICONTROL RT-CDP] para o Anunciante 2.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -47,6 +40,8 @@ You can create one source for each combination of universal ID partner and data 
 1. No menu [!UICONTROL Select a Type], selecione sua [plataforma de dados do cliente](source-about.md):
 
    * *[!UICONTROL RT-CDP]*: O [!DNL Adobe Real-Time CDP].
+
+   * *[!UICONTROL AdFixus ID]*: A plataforma de dados do cliente [!DNL AdFixus]. Aplicável somente a anunciantes na Austrália.
 
    * *[!UICONTROL ActionIQ]*: A plataforma de dados do cliente [!DNL ActionIQ].
 
@@ -66,9 +61,13 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->After you create a source for your customer data platform, you must complete additional steps to import your audience. See the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> the [workflow for [!DNL Amperity]](source-amperity.md), the [workflow for [!DNL Optimizely]](source-optimizely.md), and the [workflow for [!DNL Tealium]](source-tealium.md).
+>Depois de criar uma fonte para sua plataforma de dados do cliente, você deve concluir as etapas adicionais para importar seu público:
+>* Para [!DNL ActionIQ] fontes, trabalhe com sua equipe de conta da Adobe.
+>* Para outros tipos de origem, consulte<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> o [fluxo de trabalho para [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), o [fluxo de trabalho para [!DNL Amperity]](source-amperity.md), o [fluxo de trabalho para [!DNL Optimizely]](source-optimizely.md) e o [fluxo de trabalho para [!DNL Tealium]](source-tealium.md).
 
-## Change the ID types for an audience source
+## Alterar os tipos de ID para uma origem de público-alvo
+
+*Disponível para todas as plataformas de dados de clientes com suporte, exceto para[!DNL AdFixus]*
 
 <!-- 
 Clarify this:
@@ -79,39 +78,39 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Hold the cursor over the source row and click **[!UICONTROL Edit]**.
+1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Edit]**.
 
-1. Change the [IDs selected for the source](#source-settings).
+1. Alterar as [IDs selecionadas para a origem](#source-settings).
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Delete an audience source
+## Excluir uma origem de público-alvo
 
-Deleting a source removes the segments translated through the source.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
+Excluir uma origem remove os segmentos importados por meio dela, incluindo todas as IDs traduzidas.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Hold the cursor over the source row and click **[!UICONTROL Delete]**.
+1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Delete]**.
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
-## View the change log for an audience source
+## Exibir o log de alterações para uma origem de público-alvo
 
-You can view details about changes to an audience source record and optionally attach notes to the log.
+Você pode exibir detalhes sobre alterações em um registro de origem de público-alvo e, opcionalmente, anexar observações ao log.
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Hold the cursor over the source row and click **[!UICONTROL Change log]**.
+1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Change log]**.
 
-1. (Optional) To attach a note to the change log:
+1. (Opcional) Para anexar uma nota ao log de alterações:
 
-   1. Hold the cursor over the source row and click **[!UICONTROL Add Notes]**.
+   1. Mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL Add Notes]**.
 
-   1. Enter the note, and then click **[!UICONTROL Save]**.
+   1. Insira a observação e clique em **[!UICONTROL Save]**.
 
-      The maximum length is 256 characters.
+      O comprimento máximo é de 256 caracteres.
 
-1. (Optional) To open the log in a larger detail screen, hold the cursor over the source row and click **[!UICONTROL View Details]**.
+1. (Opcional) Para abrir o log em uma tela de detalhes maior, mantenha o cursor sobre a linha de origem e clique em **[!UICONTROL View Details]**.
 
 ## Configurações de origem do público-alvo {#source-settings}
 
@@ -119,9 +118,9 @@ You can view details about changes to an audience source record and optionally a
 
 **[!UICONTROL Advertiser]:** (somente visibilidade no nível do anunciante) O anunciante para o qual os segmentos estão disponíveis. Selecione um na lista de anunciantes com acesso à conta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe CX Enterprise para a conta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID de organização corporativa do Adobe CX para a conta [!DNL Adobe Experience Platform].
 
-**[!UICONTROL Convert PII to the following IDs]:** Os tipos de ID para os quais você converterá suas informações de identificação pessoal (PII). Se você selecionar vários tipos, o segmento gerado será preenchido com valores para cada tipo de ID selecionado (como [!DNL RampID] e [!DNL Unified ID2.0] para cada endereço de email). Os encargos de dados são aplicados de acordo.
+**[!UICONTROL Convert PII to the following IDs]:** (Disponível para todas as plataformas de dados de clientes com suporte, exceto para [!DNL AdFixus]) Os tipos de ID para os quais você converterá suas informações de identificação pessoal (PII). Se você selecionar vários tipos, o segmento gerado será preenchido com valores para cada tipo de ID selecionado (como [!DNL RampID] e [!DNL Unified ID2.0] para cada endereço de email). Os encargos de dados são aplicados de acordo.
 
 Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço de email para ver se uma ID já existe e traduz o endereço para uma ID correspondente quando disponível. Se não houver uma ID para o endereço, ela criará uma nova ID.
 
@@ -131,7 +130,7 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 * *[!DNL RampID]:* Para converter PII em [!DNL RampID]. Você pode usar [!DNL RampIDs] para redirecionar usuários de logon e para [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) medição.
 
-* *[!DNL Unified ID2.0] (Beta):* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
+* *[!DNL Unified ID2.0]:* Para converter PII em uma ID [Unified ID 2.0](https://unifiedid.com) para redirecionar usuários de logon.
 
 <!--
  Later
@@ -139,9 +138,9 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 
 -->
 
-**[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para converter PII em IDs universais. Você ou outro usuário na conta do DSP deve aceitar os termos uma vez antes de converter os dados em um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obtém o consentimento e aceita os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para converter PII em IDs universais. Você ou outro usuário na conta da DSP deve aceitar os termos uma vez antes de importar IDs, converter dados em um novo tipo de ID ou direcionar um tipo de ID Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obtém o consentimento e aceita os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (Somente leitura; gerada automaticamente) A chave de origem que você pode usar para criar uma conexão de destino na plataforma de dados do cliente para enviar públicos para a Advertising DSP. Você pode copiar o valor para a área de transferência para colar nas configurações de conexão de destino ou em um arquivo.
+**[!UICONTROL Source Key]:** (Somente leitura; gerada automaticamente) A chave de origem que você pode usar para criar uma conexão de destino na plataforma de dados do cliente para enviar públicos para a Advertising DSP. Você pode copiar o valor para a área de transferência para colar nas configurações de conexão de destino ou em um arquivo. Compartilhe o valor com a equipe que transmitirá os públicos para a DSP.
 
 >[!MORELIKETHIS]
 >
@@ -151,4 +150,5 @@ Para [!DNL RampID] e [!DNL Unified ID2.0], o fornecedor pesquisa cada endereço 
 >* [Converter IDs de usuário de [!DNL Amperity] em IDs universais](/help/dsp/audiences/sources/source-amperity.md)
 >* [Converter IDs de usuário de [!DNL Optimizely] em IDs universais](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Converter IDs de usuário de [!DNL Tealium] em IDs universais](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

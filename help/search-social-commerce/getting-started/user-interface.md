@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +28,19 @@ ht-degree: 0%
 
 Cada página inclui o menu principal e outros menus baseados em tarefas e informações.
 
+O [perfil de produto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina as opções disponíveis, incluindo a funcionalidade disponível em cada exibição.
+
 ## O menu principal
 
-A nova interface de usuário do apresenta um novo menu principal à esquerda, que organiza as tarefas por estágio de trabalho. Submenus e opções adicionais da interface do usuário herdada serão adicionados posteriormente.
+A nova interface de usuário do apresenta um novo menu principal à esquerda, que organiza as tarefas por estágio de trabalho.
 
 ### Opções do menu principal
-
-Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina as opções disponíveis:
 
 * Submenu **[!UICONTROL Dashboard]**:
 
    * **[!UICONTROL Overview]** Abre uma visualização [!UICONTROL Dashboard] configurável com visualizações de desempenho para todos os seus portfólios.
 
    * **[!UICONTROL Recommendations]**: Abre uma exibição somente leitura das recomendações do editor de [!DNL Google Ads] e [!DNL Microsoft Advertising] e dos insights do editor de [!DNL Microsoft Advertising.] Para exibir e responder às suas recomendações e insights, use a exibição herdada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
-
-   * **[!UICONTROL Alerts & Notifications]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] herdada.
 
 * Submenu **[!UICONTROL Goals]**:
 
@@ -64,7 +62,7 @@ Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.
 
    * **[!UICONTROL Portfolios]:** Abre uma nova exibição [!UICONTROL Portfolios] que lista todos os portfólios do anunciante. É possível gerenciar os portfólios nessa visualização. É possível abrir uma lista de restrições atribuídas e exibir detalhes de desempenho e composição de qualquer portfólio.
 
-     As configurações do portfólio incluem guias para atribuir o objetivo e as campanhas, gerenciar gastos, gerenciar restrições e controlar a otimização. Somente usuários com a função &quot;otimização de especialista&quot; ou superior podem editar as configurações na guia [!UICONTROL Control Optimization].
+     As configurações do portfólio incluem guias para atribuir o objetivo e as campanhas, gerenciar gastos, gerenciar restrições e controlar a otimização. Somente usuários com o perfil de &quot;otimização de especialista&quot; ou superior podem editar as configurações na guia [!UICONTROL Control Optimization].
 
    * **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +80,19 @@ Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.
 
    * **[!UICONTROL Insights]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Insights] herdada.
 
-   * **[!UICONTROL Scheduled Reports]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Reports] herdada.
+   * **[!UICONTROL Scheduled Reports]**: abre uma nova visualização [!UICONTROL Scheduled Reports], que permite gerar e gerenciar relatórios agendados.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets] herdada.
+   * **[!UICONTROL Spreadsheet Feeds]**: Abre uma nova visualização [!UICONTROL Spreadsheets Feeds], a partir da qual você pode configurar feeds de relatório para serem atualizados diariamente.
 
-   * **[!UICONTROL History Logs]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Change History] herdada.
+   * **[!UICONTROL History Logs]**: Abre uma nova visualização [!UICONTROL History Logs] com detalhes sobre alterações recentes na conta do anunciante.
 
    * **[!UICONTROL Label Classification]** Abre uma nova visualização [!UICONTROL Label Classifications]. É possível gerenciar classificações e atribuir/cancelar atribuição de valores de classificação a qualquer componente de conta aplicável que esteja disponível na nova interface do usuário.
 
-   * **[!UICONTROL Bulksheets]**: Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] herdada.
-
 * Submenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audiences]**: abre uma nova visualização [!UICONTROL Audiences], que mostra todos os públicos existentes para o anunciante, todos os destinos de público e todas as exclusões de público. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: abre um novo modo de exibição que mostra todos os públicos existentes para o anunciante, todos os públicos-alvo e todas as exclusões de público. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Auto Targets]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição, que mostra todos os destinos automáticos existentes para o anunciante. Para gerenciar seus destinos automáticos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Keywords]** Abre uma nova visualização [!UICONTROL Keywords], que mostra palavras-chave existentes e palavras-chave negativas para o anunciante. Você pode gerenciar atribuições de restrição para palavras-chave selecionadas.
 
@@ -108,7 +104,7 @@ Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.
 
 * Submenu **[!UICONTROL Assets]**:
 
-   * **[!UICONTROL Creatives]** Sai do novo site e abre a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.
+   * **[!UICONTROL Creatives]** Abre uma nova exibição, que lista seus ativos criativos existentes. Você pode visualizar cada criativo. Para gerenciar sua biblioteca de ativos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Asset Library] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Extensions]** Abre exibições somente leitura de suas extensões de anúncios existentes. Para gerenciar suas extensões, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
@@ -116,23 +112,19 @@ Seu [perfil de produto](/help/search-social-commerce/new-ui/user-administration.
 
 * Submenu **[!UICONTROL Set Up]**:
 
-   * **[!UICONTROL Manager Accounts]**: Sai do novo site e abre a visualização [!UICONTROL Admin] > [!UICONTROL Manager Accounts] herdada.
+   * **[!UICONTROL Manager Accounts]**: Abre uma nova exibição de suas contas de gerente existentes e de suas redes de anúncios. Para gerenciar suas contas de gerente, use a visualização [!UICONTROL Admin] > [!UICONTROL Manager Accounts] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Accounts]**: Abre uma nova visualização [!UICONTROL Accounts]. Você pode gerenciar contas de rede de publicidade sincronizadas por meio de uma conexão de API ou configuradas por meio de upload de dados. Você também pode gerenciar contas existentes do [!UICONTROL Naver].
 
-   * **[!UICONTROL Import Campaigns]**: Sai do novo site e abre a visualização [!UICONTROL Tools] > [!UICONTROL Import Campaigns] herdada.
+   * **[!UICONTROL Import Campaigns]**: abre uma nova visualização, da qual você pode importar dados de campanha.
+
+   * **[!UICONTROL Bulksheets]**: Abre uma nova visualização [!UICONTROL Bulksheets].
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +160,13 @@ Use o campo de pesquisa acima do menu principal para procurar opções de menu e
 
 * O intervalo de datas configurável para a exibição atual
 
-* ![Fazer um tour pela interface](/help/search-social-commerce/assets/take-ui-tour.png "Fazer um tour pela interface") Um link para um tour pela nova interface do usuário.
-
 * ![Alternar para a interface antiga](/help/search-social-commerce/assets/switch-to-old-ui.png "Alternar para a interface antiga") Abre a interface herdada em uma nova guia ou janela.
+
+* ![Alerta personalizado](/help/search-social-commerce/assets/custom-alert.png "Alerta personalizado") Permite criar ou exibir alertas personalizados em um painel.
 
 * ![Status de sincronização global](/help/search-social-commerce/assets/global-sync-status.png "Status de sincronização global") Abre uma lista de <!--what kind --> trabalhos de operação em massa.
 
-* ![Notificações](/help/search-social-commerce/assets/notifications.png "Notificações") Abre um painel listando suas notificações de Pesquisa, Social e Commerce.
+* ![Notificações](/help/search-social-commerce/assets/notifications.png "Notificações") Abre um painel listando suas notificações de Pesquisa, Social e Commerce. Você pode filtrar a lista, editar suas configurações de notificação ou abrir o [!UICONTROL Notification Center].m
 
 ## Interface do usuário herdada
 

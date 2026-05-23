@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ Ajudar formatos de relatório {#assist-report-formats}
          + [Como as regras de atribuição são calculadas](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Perguntas frequentes sobre relatórios personalizados](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Gerenciar feeds de relatório de planilha](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [Exibir o relatório [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Exibir logs do histórico de alterações](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gerenciar classificações de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Palavras-chave {#keywords}
@@ -208,6 +208,8 @@ Ajudar formatos de relatório {#assist-report-formats}
          + Contas de upload de dados {#data-upload}
             + [Gerenciar contas de rede de publicidade para uploads de dados](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gerenciar  [!DNL Naver] contas apenas para rastreamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Gerenciar alertas personalizados](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [Gerenciar notificações](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Administração de usuários](/help/search-social-commerce/new-ui/user-administration.md)
 + Rastreamento {#tracking}
    + [Sobre o rastreamento](/help/search-social-commerce/tracking/tracking-about.md)

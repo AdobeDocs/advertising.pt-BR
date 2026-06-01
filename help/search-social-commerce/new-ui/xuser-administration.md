@@ -3,25 +3,24 @@ title: (Nova interface do usuário) Administração de usuários
 description: Saiba como gerenciar o acesso de usuários.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
+TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
 
 # (Nova interface de usuário) Administração de usuários para pesquisa, redes sociais e comércio
 
-Alguns usuários podem gerenciar o acesso à nova interface do Search, Social e Commerce usando a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), que é o local central para gerenciar todos os direitos e o gerenciamento de usuários da Adobe. Os usuários são categorizados como usuários finais ou administradores. Sua equipe de conta da Adobe o notifica se você é um administrador. Se você for um administrador, consulte as seguintes seções para identificar suas permissões e fluxos de trabalho para gerenciar usuários.
+Alguns usuários podem gerenciar o acesso à nova interface do Search, Social e Commerce usando a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), que é o local central para gerenciar todos os direitos e o gerenciamento de usuários da Adobe. Os usuários são categorizados como usuários finais ou administradores. Sua equipe de conta da Adobe vai notificá-lo se você for um administrador. Se você for um administrador, consulte as seguintes seções para identificar suas permissões e fluxos de trabalho para gerenciar usuários.
 
 ## Tipos de administradores
 
@@ -43,95 +42,53 @@ Os perfis de produto, que são semelhantes a funções, habilitam os usuários c
 
 A nova interface de usuário do Search, Social &amp; Commerce tem os seguintes perfis de produto padrão, que fornecem diferentes subconjuntos de recursos e serviços. Não é possível editar as permissões de produto para os perfis de produto padrão ou excluir os perfis de produto padrão. No entanto, administradores de produtos, administradores de perfis de produtos e administradores de sistemas podem criar e gerenciar perfis de produtos adicionais com diferentes subconjuntos de permissões disponíveis, conforme necessário.
 
-* **[!UICONTROL Basic Optimization]:** Para usuários que precisam de recursos de planejamento e gerenciamento de portfólio padrão com acesso às configurações básicas.
+* **[!UICONTROL Basic Optimization]:** Este perfil fornece a seguinte funcionalidade:
 
-* **[!UICONTROL Expert Optimization]:** Para usuários avançados que precisam de acesso total às configurações do portfólio, incluindo controles avançados de nível de especialista. Inclui todas as permissões de planejamento de desempenho, objetivo, campanha, configuração e gerenciamento de relatórios.
+   * [!UICONTROL Objectives]: Acesso total
 
-* **[!UICONTROL Read-Only Optimization]:** Para usuários que precisam de visibilidade de portfólios, simulações e campanhas sem qualquer recurso de edição ou criação.
+   * [!UICONTROL Simulations]: Acesso total
 
-* **[!UICONTROL \[Optimization\] Admin]:** Concede acesso total a todas as funcionalidades disponíveis e permite que os usuários criem novas instâncias do cliente (o mesmo que contas de anunciante herdadas, com uma ou mais instâncias por ID de organização). Não atribua esse direito a ninguém a menos que você tenha uma justificativa de negócios apropriada.
+   * [!UICONTROL Portfolio Groups]: Acesso total
 
-### Funcionalidade por perfil de produto
+   * [!UICONTROL Portfolios]: Criar/editar acesso às configurações do portfólio para [!UICONTROL Objectives], [!UICONTROL Campaigns] e Gastos [!UICONTROL Management]; acesso somente leitura às configurações restantes do portfólio.
 
-<!-- These don't correspond exactly to the GUI menu -->
+   * [!UICONTROL Campaigns]: Acesso somente leitura às configurações da campanha (nenhum recurso criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
 
-Uma marca de seleção (✓) indica que a permissão está incluída no perfil do produto.
+   * [!UICONTROL Ad Groups]: Acesso somente leitura às configurações do grupo de anúncios (nenhum recurso para criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
 
-**Gerenciamento do Portfolio**
+  Esse nível de acesso é preferido para usuários que ainda estão aprendendo a usar o Search, Social e Commerce.
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir Portfólios | ✓ | ✓ | ✓ | ✓ |
-| Exibir configurações do Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Exibir Detalhes de Desempenho do Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Exibir grupos do Portfolio | ✓ | ✓ | ✓ | ✓ |
-| Editar grupos do Portfolio | ✓ | ✓ | | ✓ |
-| Editar configurações básicas do Portfolio | ✓ | | | |
-| Editar configurações de especialistas do Portfolio | | ✓ | | ✓ |
+* **[!UICONTROL Expert Optimization]:** Este perfil fornece a seguinte funcionalidade:
 
-<!--
-Noone has permissions as of 6/1; spelling [sic]:
-| Edit Advance Portfolio Settings | | | | |
--->
+   * [!UICONTROL Objectives]: Acesso total
 
-**Gerenciamento do Planejamento de Desempenho**
+   * [!UICONTROL Simulations]: Acesso total
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir simulação | ✓ | ✓ | ✓ | ✓ |
-| Criar simulação | ✓ | ✓ | | ✓ |
-| Exibir recomendações de gastos | | ✓ | | ✓ |
-| Aplicar recomendações de gastos | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups]: Acesso total
 
-**Gerenciamento de Objetivos**
+   * [!UICONTROL Portfolios]: Acesso total
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir Objetivo | ✓ | ✓ | ✓ | ✓ |
-| Editar Objetivo | ✓ | ✓ | | ✓ |
-| Exibir Regras de Valor de Conversão | ✓ | ✓ | ✓ | ✓ |
-| Editar regras de valor de conversão | | ✓ | | ✓ |
-| Exibir conversões | | ✓ | | ✓ |
-| Editar conversões | | ✓ | | ✓ |
-| Visualizar visibilidade de conversões | | ✓ | | ✓ |
+   * [!UICONTROL Campaigns]: Acesso somente leitura à lista de campanhas (nenhum recurso de criação, edição ou exclusão de campanha está disponível); acesso total a atribuições de portfólio e restrições
 
-**Gerenciamento de campanhas**
+   * [!UICONTROL Ad Groups]: Acesso somente leitura à lista de grupos de anúncios (nenhum recurso de criação, edição ou exclusão de campanha está disponível ainda); acesso total a atribuições de restrição e portfólio
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir campanhas | ✓ | ✓ | ✓ | ✓ |
-| Editar campanhas | ✓ | ✓ | | ✓ |
-| Exibir grupos de anúncios | ✓ | ✓ | ✓ | ✓ |
-| Editar grupos de publicidade | ✓ | ✓ | | ✓ |
-| Exibição de anúncios | ✓ | ✓ | ✓ | ✓ |
-| Anúncios Editar | | ✓ | | ✓ |
-| Exibição de palavras-chave | ✓ | ✓ | ✓ | ✓ |
-| Exibição de públicos | ✓ | ✓ | ✓ | ✓ |
-| Exibição de direcionamentos automáticos | ✓ | ✓ | ✓ | ✓ |
-| Exibição de criação | ✓ | ✓ | ✓ | ✓ |
-| Visualização de extensões | ✓ | ✓ | ✓ | ✓ |
-| Exibição de classificações de etiquetas | ✓ | ✓ | ✓ | ✓ |
-| Exibição de disposições | ✓ | ✓ | ✓ | ✓ |
-| Exibição do Recommendations | ✓ | ✓ | ✓ | ✓ |
-| Exibir Bulksheets | | ✓ | | ✓ |
-| Editar Bulksheets | ✓ | ✓ | ✓ | ✓ |
+  Esse nível de acesso é recomendado para usuários especialistas de Search, Social e Commerce.
 
-**Gerenciamento de Relatórios**
+* **[!UICONTROL Read-Only]:** Este perfil fornece a seguinte funcionalidade:
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir registros do histórico | ✓ | ✓ | ✓ | ✓ |
-| Visualizar Relatórios Agendados | ✓ | ✓ | ✓ | ✓ |
-| Editar Relatórios Agendados | | ✓ | | ✓ |
+   * [!UICONTROL Objectives]: Acesso somente leitura
 
-**Gerenciamento da Instalação**
+   * [!UICONTROL Simulations]: Acesso somente leitura
 
-| Permissão | Básico | Especialista | Somente leitura | Admin |
-|---|---|---|---|---|
-| Exibir conta | ✓ | ✓ | ✓ | ✓ |
-| Editar conta | | ✓ | | ✓ |
-| Exibir Contas MCC | ✓ | ✓ | ✓ | ✓ |
-| Editar contas MCC | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups]: Acesso somente leitura
+
+   * [!UICONTROL Portfolios]: Acesso somente leitura
+
+   * [!UICONTROL Campaigns]: Acesso somente leitura
+
+   * [!UICONTROL Ad Groups]: Acesso somente leitura
+
+* **[!UICONTROL Admin]:** Este perfil concede acesso total a todas as funcionalidades disponíveis e permite que os usuários criem novas instâncias do cliente (o mesmo que contas de anunciante herdadas, com uma ou mais instâncias por ID de organização). Não atribua esse direito a ninguém a menos que você tenha uma justificativa de negócios apropriada.
 
 ## Tarefas para administradores
 

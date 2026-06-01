@@ -4,9 +4,15 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -82,6 +88,10 @@ ht-degree: 2%
          + [Aplicar recomendações de peso a um objetivo](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [Baixar métricas de desempenho para objetivos](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [Configurações de objetivo](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+         + [Habilitar carregamento de objetivos para redes de anúncios](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+      + Conversões {#conversions}
+         + [Gerenciar e exibir dados de desempenho das métricas de conversão de um anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + [Gerenciar  [!DNL Google Ads] regras de valor de conversão](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + Plano {#plan}
       + [Sobre simulações](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [Executar ou executar novamente uma simulação personalizada](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -204,6 +214,7 @@ Ajudar formatos de relatório {#assist-report-formats}
          + [Sobre contas de rede de publicidade](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
          + Contas de conexão de API {#api}
             + [Gerenciar contas de rede de publicidade por meio da conexão de API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [Gerenciar credenciais para  [!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
             + [Sincronizar manualmente e dados de rede por meio da conexão da API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + Contas de upload de dados {#data-upload}
             + [Gerenciar contas de rede de publicidade para uploads de dados](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)

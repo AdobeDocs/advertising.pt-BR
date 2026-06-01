@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [Sobre a nova interface do usuário](/help/search-social-commerce/new-ui/new-ui-about.md)
    + Painel {#dashboard}
       + [Exibir seu painel de desempenho](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [Suporte a recomendações e insights do editor](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + Metas {#goals}
       + Objetivos {#objectives}
          + [Sobre objetivos](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Relatórios {#reports}
       + Relatórios agendados {#scheduled}
-         + [As tarefas de configuração iniciais para relatórios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [Os dados usados para os relatórios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [Sobre relatórios agendados](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [As tarefas de configuração iniciais para relatórios](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [Os dados usados para os relatórios](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [Gerenciar relatórios agendados](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + Tipos de relatório agendados {#report-types}
             + Relatórios básicos e avançados {#basic-advanced-reports}

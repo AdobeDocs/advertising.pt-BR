@@ -2,7 +2,7 @@
 title: Suporte a recomendações e insights do editor
 description: Saiba mais sobre o suporte para exibir e gerenciar recomendações e insights do editor.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ Recomendações descartadas não estão disponíveis na rede de anúncios.
 | [!UICONTROL Measurement] | Recomendações para rastreamento e certificação de conversão | Não disponível em Search, Social e Commerce. | Essas recomendações podem afetar o desempenho. Consulte sua equipe de conta da Adobe para discutir os prós e contras de qualquer recomendação antes de aplicá-la. |
 | [!UICONTROL Repairs] | Recomendações diversas para melhorar problemas de conta | Não disponível em Search, Social e Commerce. | Revisar periodicamente as recomendações de reparo manualmente em [!DNL Google Ads]. Esse tipo de recomendação é uma boa maneira de identificar anúncios não aprovados, problemas de feed, problemas de rastreamento e assim por diante. |
 | [!UICONTROL Other] | Recomendação para usar o aplicativo móvel [!DNL Google Ads] | Não disponível em Search, Social e Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->

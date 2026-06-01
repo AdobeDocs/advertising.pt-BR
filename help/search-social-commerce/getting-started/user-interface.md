@@ -4,16 +4,12 @@ description: Saiba onde acessar diferentes funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +42,11 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
    * **[!UICONTROL Objectives]** Abre uma nova exibição [!UICONTROL Objectives], na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** Abre um novo modo de exibição, no qual você pode exibir as métricas de conversão de um anunciante e personalizar as métricas disponíveis para modos de exibição de gerenciamento e relatórios.
 
-* **[!UICONTROL Conversion Value Rules]** Abre exibições somente leitura das regras de valor de conversão no nível da campanha e da conta. Para gerenciar suas regras de valor de conversão, use a visualização [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Abre uma nova exibição para exibir e gerenciar regras de valor de conversão no nível da campanha e da conta para contas do [!DNL Google Ads].
 
-* **[!UICONTROL Constraints]** Abre uma exibição somente leitura de suas restrições existentes. Para gerenciar suas restrições, use a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Abre uma exibição somente leitura de suas restrições existentes. Para gerenciar suas restrições, use a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenu **[!UICONTROL Plan]**:
 

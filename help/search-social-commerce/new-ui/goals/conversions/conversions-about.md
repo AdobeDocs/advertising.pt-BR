@@ -1,19 +1,19 @@
 ---
-title: Recursos disponíveis para gerenciar métricas de conversão
+title: (Nova interface do usuário) Recursos disponíveis para gerenciar métricas de conversão
 description: Saiba mais sobre os diferentes recursos disponíveis para gerenciar métricas de conversão.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Recursos disponíveis para gerenciar métricas de conversão
+# (Nova interface do usuário) Recursos disponíveis para gerenciar métricas de conversão
 
 Na exibição [!UICONTROL Goals] > [!UICONTROL Conversions], você pode fazer o seguinte:
 
-* [Gerar uma marca de rastreamento de conversão do Adobe Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Gerar uma marca de rastreamento de conversão do Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Para todas as métricas de conversão rastreadas para um anunciante:
 

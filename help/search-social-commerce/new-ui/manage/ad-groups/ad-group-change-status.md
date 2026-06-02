@@ -3,9 +3,12 @@ title: (Nova interface) Alterar o status de um grupo de anúncios
 description: Saiba como alterar o status de um grupo de anúncios sem abrir as configurações do grupo de anúncios.
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 201
 ht-degree: 0%
 
 ---
@@ -42,8 +45,8 @@ Você também pode excluir qualquer grupo de anúncios ativo ou pausado. Os grup
 
    * Mantenha o cursor sobre a linha do grupo de anúncios e clique em **[!UICONTROL ...]>[!UICONTROL Delete]**.
 
-   * Mantenha o cursor sobre a linha do grupo de campanha e clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar") ao lado da coluna [!UICONTROL Status]. Selecione **[!UICONTROL Deleted]**.
+   * Mantenha o cursor sobre a linha do grupo de anúncios e clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar") ao lado da coluna [!UICONTROL Status]. Selecione **[!UICONTROL Deleted]**.
 
 >[!MORELIKETHIS]
 >
->* [Sobre a exibição [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [Sobre a exibição [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)

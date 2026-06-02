@@ -1,11 +1,14 @@
 ---
 title: (Nova interface do usuário) Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ads]
-description: Saiba como gerar, baixar e excluir relatórios que contêm as linhas de dados de um ou mais anúncios na exibição [!UICONTROL Ads] de um relatório.
+description: Saiba como gerar, baixar e excluir relatórios que contenham as linhas de dados de um ou mais anúncios na exibição [!UICONTROL Ads].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -62,6 +65,5 @@ Consulte também &quot;[(Interface herdada) Baixar dados de uma exibição de ge
 
 >[!MORELIKETHIS]
 >
->* [Sobre o [!UICONTROL Ads view]](ad-view-about.md)
->* [(Interface herdada) Baixar dados de uma exibição de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(Interface herdada) Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Nova interface do usuário) Sobre o [!UICONTROL Ads view]](ad-view-about.md)
+>* [(Nova interface do usuário) Alterar o status de um anúncio](ad-change-status.md)

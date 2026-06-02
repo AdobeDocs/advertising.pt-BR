@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Aplicável para unidades de oferta em campanhas CPC somente em portfólios de nível de palavra-chave herdados*
 
-As restrições de unidade de oferta são regras que restringem ofertas otimizadas para todas as [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) com modelos de custo e receita associados à restrição.
+As restrições de unidade de oferta são regras que restringem ofertas otimizadas para todas as [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=pt-BR) com modelos de custo e receita associados à restrição.
 
 ## Sobre restrições
 
@@ -60,7 +60,7 @@ Alguns motivos para restringir as unidades de oferta incluem:
 
 Além de abrir a [[!UICONTROL Constraints] visualização](#constraints-view), você também pode ver informações relacionadas às suas restrições das seguintes maneiras:
 
-* Todas as suas restrições são valores de etiquetas para uma única [classificação de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) chamada &quot;[!UICONTROL Constraints]&quot;.
+* Todas as suas restrições são valores de etiquetas para uma única [classificação de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=pt-BR) chamada &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; está incluído na lista &quot;[!UICONTROL Classifications]&quot; nas configurações de exibição padrão e personalizada e nos relatórios agendados. Você pode adicionar a coluna sempre que quiser ver as restrições atribuídas às entidades relevantes.
 

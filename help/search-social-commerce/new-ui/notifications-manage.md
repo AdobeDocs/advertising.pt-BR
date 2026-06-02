@@ -2,9 +2,9 @@
 title: (Nova interface do usuário) Gerenciar notificações
 description: Saiba como visualizar, configurar e gerenciar notificações de Pesquisa, Redes sociais e Commerce, incluindo notificações por push e o aplicativo web da Central de notificações.
 feature: Search Notifications
-source-git-commit: 000ed245b2ea3381e4ca8fcbdd2d6075d50f4b09
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
    * **[!UICONTROL Manager Account Missing]**: as notificações de que a Pesquisa, o Social e o Commerce não têm as credenciais de uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessárias para a configuração correta de funções críticas.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**: Notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [trabalhos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, trabalhos de edição em massa na tabela de dados ou usando a barra de ferramentas, trabalhos de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a qualquer entidade, atribuir uma campanha a um portfólio e atribuir ou desatribuir uma restrição a um portfólio.
+   * **[!UICONTROL UI Actions]**: Notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [trabalhos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, trabalhos de edição em massa na tabela de dados ou usando a barra de ferramentas, trabalhos de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a qualquer entidade, atribuir uma campanha a um portfólio e [atribuir ou desatribuir uma restrição de oferta a uma entidade](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
    * [!UICONTROL Data Upload]
 

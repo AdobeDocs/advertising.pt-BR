@@ -4,9 +4,12 @@ user-guide-title: Advertising Search, Social & Commerce
 user-guide-description: Este manual explica os principais recursos, tarefas, configurações e outros recursos necessários para gerenciar, rastrear e gerar relatórios sobre suas campanhas de anúncios de pesquisa, redes sociais e comerciais.
 breadcrumb-title: Advertising Search, Social & Commerce
 index: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: 2354
@@ -277,7 +280,7 @@ Ajudar formatos de relatório {#assist-report-formats}
       + Adicionar contas de rede {#ad-network-accounts}
          + [Sobre contas de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gerenciar contas de rede de publicidade](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Atualizar o código de rastreamento da ID do AMO para uma conta  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [Atualizar o código de rastreamento da ID do AMO para uma conta  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gerenciar contas do centro de comércio](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gerenciar campanhas {#management}
@@ -566,11 +569,11 @@ Ajudar formatos de relatório {#assist-report-formats}
    + [Sincronizar [!DNL Adobe] públicos-alvo](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Configurar fontes de dados {#data-sources}
       + [Sobre a sincronização de  [!DNL Google Analytics] métricas de conversão](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-      + [Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+      + [Pré-requisitos para configurar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Configurar uma visualização  [!DNL Google Analytics]  como fonte de dados](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Editar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Editar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Pausar sincronização de uma fonte de dados](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-      + [Reautenticar uma fonte de dados  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+      + [Reautenticar uma fonte de dados  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [Configurações da fonte de dados [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Apêndice - Métricas [!DNL Google Analytics]  disponíveis](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Gerenciamento das métricas de conversão de um anunciante{#conversion-metrics}

@@ -18,16 +18,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # Pré-requisitos e informações-chave para implementar o [!DNL Analytics for Advertising]
 
-*Anunciantes com o Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
+*Anunciantes com Advertising Creative, Advertising DSP e Advertising Search, Social e Commerce*
 
 Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe Analytics.
 
@@ -35,7 +35,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 
 * Qualquer uma das seguintes opções:
    * Adobe Experience Platform Web SDK: `alloy.js`
-   * Serviço de Identidade da Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
+   * Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
 * Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
 * (Clientes do Advertising DSP) Um [trecho do Advertising DSP JavaScript](javascript.md) implantado em suas páginas da Web para rastrear visitas de view-through.
@@ -46,7 +46,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 
 ## Requisitos para compartilhar segmentos do Analytics com a Adobe Advertising
 
-* Experience Cloud Identity Service: `visitorAPI.js` versão 2.1 ou superior
+* Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.1 ou superior
 * Adobe Analytics: `appMeasurement.js` versão 1.8 ou superior
 
 ## Requisitos para relatórios de dados do [!DNL Analytics] no Adobe Advertising
@@ -54,7 +54,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 Forneça o seguinte à equipe de implementação do Adobe Advertising:
 
 * A ID do conjunto de relatórios [!DNL Analytics] a ser usada para relatórios sobre atividades de mídia paga e para alimentar atividades do site com otimização e relatórios no Adobe Advertising
-* A ID da organização (ID da organização) da CX Enterprise da empresa.
+* A CX Enterprise Organization ID (ID da organização) da empresa.
 
 Você pode encontrar ambas as IDs na [guia Resumo do Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=pt-BR).
 
@@ -120,7 +120,7 @@ Entre em contato com a equipe de conta da Adobe para obter os ambientes de anún
 
 ### ID suplementar
 
-Depois que o Serviço de Identidade da Experience Cloud é implementado para um site, as ocorrências que contêm dados de [!DNL Analytics] ou do Adobe Advertising contêm uma ID complementar.
+Depois que o Serviço de Identidade da Experience Cloud é implementado para um site, as ocorrências que contêm dados do [!DNL Analytics] ou do Adobe Advertising contêm uma ID complementar.
 
 Exemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 

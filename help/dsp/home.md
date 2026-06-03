@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 7340
+source-wordcount: 7432
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 3 de junho de 2026 | [!DNL Adobe Analytics for Advertising] | Anunciantes com o Advertising Creative e [!DNL Adobe Analytics for Advertising] agora podem exibir dados de nível de variante e ramificação no Adobe Analytics. Os dados são mostrados independentemente da DSP usada para executar anúncios de suas experiências do [!DNL Creative]. Se você executar os anúncios a partir de uma disposição do Advertising DSP, também verá os dados de nível de campanha e posicionamento, bem como as métricas relacionadas ao custo.<br><br>Nenhuma configuração adicional é necessária. | Consulte as [métricas de tráfego](https://experienceleague.adobe.com/pt-br/docs/analytics/components/metrics/amo-metrics) e [classificações](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#classifications) do Advertising Creative visíveis em [!DNL Analytics]. |
 | 20 de maio de 2026 | Fontes de público-alvo primárias, IDs universais, [!UICONTROL Placements] | Os anunciantes na Austrália agora podem importar [!DNL AdFixus] IDs universais com mapeamentos de segmentos para publicidade direcionada. O DSP importa segmentos primários de [!DNL AdFixus] como estão, sem convertê-los em outros tipos de ID. O processo inclui a criação de uma fonte de público-alvo e o compartilhamento de uma chave gerada automaticamente com a equipe do [!DNL AdFixus]. | Consulte &quot;[Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md),&quot; &quot;[Sobre fontes de público-alvo primários](/help/dsp/audiences/sources/source-about.md),&quot; e &quot;[Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 11 de maio de 2026 | Reutilizável [!UICONTROL Audiences] | (Recurso do Beta) Agora é possível criar públicos-alvo reutilizáveis usando um agente de público-alvo assistido por IA. Descreva seu público-alvo em prompts em linguagem natural, e o agente sugere segmentos de terceiros e cria expressões de público para usar como alvos ou exclusões. | Consulte &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; |
 | 29 de abril de 2026 | [!UICONTROL Conversions] | Agora é possível gerenciar todas as métricas de conversão que o Adobe Advertising rastreia para sua organização na DSP. As métricas ainda estão disponíveis no Advertising Search, Social e Commerce para serem usadas em relatórios e otimização. | Consulte &quot;[Gerenciar conversões](/help/dsp/admin/conversion-metrics-manage.md)&quot;. |

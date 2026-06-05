@@ -2,8 +2,10 @@
 title: (Nova interface) As tarefas de configuração iniciais para relatórios
 description: Saiba como disponibilizar métricas em relatórios e como automatizar relatórios.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
 source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
 source-wordcount: 352

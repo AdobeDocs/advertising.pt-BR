@@ -2,9 +2,9 @@
 title: (Nova interface do usuário) Gerar e implementar uma tag de rastreamento de conversão do Adobe Advertising
 description: Saiba como criar uma tag de conversão do Adobe Advertising para rastrear seus eventos de conversão.
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Crie uma tag de conversão separada para cada conjunto de métricas que você deseja rastrear. Você pode gerar tags na Search, Social e Commerce ou usando tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch) com a extensão do Adobe Advertising.
 
-## Gerar e implementar uma tag de rastreamento de conversão no Search, Social e Commerce
+## Gerar uma tag de rastreamento de conversão no Search, Social e Commerce
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ As seguintes tarefas são necessárias para configurar tags de rastreamento de c
 
    1. No campo **ID de Usuário do SSC**, digite a ID de usuário numérica para a conta de Pesquisa, Social e Commerce da sua organização.
 
-      Se você não souber sua ID de usuário, entre em contato com a equipe de conta da Adobe.
+      Caso não saiba a ID de usuário, entre em contato com a equipe de conta da Adobe.
 
    1. Clique em **Salvar**.
 

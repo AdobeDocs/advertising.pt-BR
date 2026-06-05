@@ -12,9 +12,9 @@ subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a33b121ebf568ae6b95a64a7392672d74603fe60
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -45,7 +45,8 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Suspensão no slot: 21x21; Vídeo móvel de suspensão no slot: 22x22; Desktop de suspensão no slot: 24x24; Hoverboard no slot: 25x25; Velocidade no slot: 26x26; Super Skin: 29x29; Canto expansível na tela: 20x20 |
+| [!DNL GumGum] | | X | X | | Suspensão no slot: 21x21; Vídeo móvel de suspensão no slot: 22x22; Desktop de suspensão no slot: 24x24; Hoverboard no slot: 25x25; Velocidade no slot: 26x26; Super Skin: 29x29; Canto expansível na tela: 20x20 |
+| [!DNL Gum Gum via Celtra] | | X | X | | Na tela: 17x17; Expansão na tela: 18x18; Vídeo expansível na tela: 19x19; Quadro na tela: 23x23; Velocidade na tela: 26x26 |
 | [!DNL HUMAN] (Anteriormente [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |

@@ -2,21 +2,17 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2:
-  - id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Nova interface do usuário) Gerencie e visualize dados de desempenho das métricas de conversão de um anunciante
+# (Nova interface do usuário) Gerenciar as métricas de conversão de um anunciante
 
 *recurso do Beta*
 
@@ -104,7 +100,7 @@ Não é possível excluir um nome para exibição existente.
 
       1. (Para ocultar métricas) Na mensagem de confirmação, clique em **[!UICONTROL Confirm]** para ocultar as métricas, incluindo a remoção delas de qualquer métrica derivada que contenha as métricas.
 
-## Gerenciar relatórios de dados de desempenho para conversões
+## Gerenciar visibilidade de conversão e relatórios de origem
 
 Você pode baixar as seguintes informações sobre suas conversões rastreadas: o nome da métrica sincronizada, o nome de exibição da métrica nas exibições e relatórios de gerenciamento de Pesquisa, Social e Commerce, se a métrica está visível nas exibições e relatórios de gerenciamento, a ID de conversão e a origem da métrica. Baixe os dados para um arquivo no formato da pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX).
 

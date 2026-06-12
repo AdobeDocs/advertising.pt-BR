@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 4687
+source-wordcount: 4731
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 9 de junho de 2026 | Integração com o Adobe Customer Journey Analytics | Anunciantes com o Customer Journey Analytics, mas não [!DNL Analytics for Advertising], podem trocar dados nativamente entre o Adobe Advertising e o Customer Journey Analytics usando o Adobe Experience Platform [!DNL Web SDK]. | Consulte &quot;[Visão geral da integração entre o Adobe Advertising e o Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | 28 de maio de 2026 | Nova interface | A maioria dos recursos agora está disponível na nova interface do usuário, incluindo relatórios agendados e feeds de planilha, bulksheets, contas de gerente de rede e o [!DNL Spend Planner] (anteriormente &quot;[!DNL Spend Recommendations]&quot;). | Consulte o capítulo &quot;[Como a interface do usuário está organizada](/help/search-social-commerce/getting-started/user-interface.md)&quot; e a seção &quot;Nova interface do usuário&quot;. |
 | 25 de fevereiro de 2026 | [!UICONTROL Reports] | O [!UICONTROL Google AI Max Search Term Combination Report] mostra o desempenho de combinações de anúncios e páginas de aterrissagem específicas que o [!DNL Google Ads AI Max] usa com base em pesquisas na rede de pesquisa. | Consulte &quot;[O [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md).&quot; |
 | | Nova interface do usuário > configurações de [!UICONTROL Portfolio] | Na guia [!UICONTROL Manage Constraints], a configuração &quot;[!UICONTROL Reserve a percentage of the spend target for each campaign]&quot; foi renomeada para &quot;[!UICONTROL Set Campaign Spend Allocation Limits]&quot; e agora está disponível para portfólios com todas as estratégias de gastos. Anteriormente, estava disponível somente para portfólios com estratégias de gastos diárias.<br><br>A configuração permite especificar proporções de gastos da campanha. Por exemplo, você pode alocar 25% a 40% do orçamento do portfólio para a Campanha A, um mínimo de 10% para a Campanha B e um máximo de 50% para a Campanha C. Os totais não podem exceder 100%. | Para obter mais informações sobre as configurações do portfólio, consulte o [!DNL Optimization Guide], que está disponível no Search, Social e Commerce. |

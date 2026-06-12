@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   Você precisará do suporte de seu analista da Web interno para configurar uma conexão com seu conjunto de dados e configurar os relatórios.
 
-* Tecnologias de gerenciamento e modelagem de dados da Adobe Experience Platform (incluindo [esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e [conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview)) e [tecnologias de coleta de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/home) (incluindo [sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview) e [tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home))
+* (Anunciantes sem [!DNL Analytics for Advertising]) Tecnologias de gerenciamento e modelagem de dados da Adobe Experience Platform (incluindo [esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e [conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview)) e [tecnologias de coleta de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/home) (incluindo [sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview) e [tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home))
 
   Essas tecnologias exigem o suporte do administrador do site da Experience Platform.
 

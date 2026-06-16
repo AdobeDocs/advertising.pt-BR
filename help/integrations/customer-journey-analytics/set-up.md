@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Esse procedimento inclui a criação de um schema. Como opção, você pode edit
 
    * Escolha a opção para **[!UICONTROL Create dataset from schema]** e selecione seu esquema.
 
-     Com base no seu conjunto de dados de evento, a Adobe Advertising cria dois conjuntos de dados adicionais: 1\) um *conjunto de dados de resumo* com os dados de resumo relacionados (como cliques e impressões) e 2\) um *conjunto de dados de pesquisa* (com metadados de dimensões/classificação, como o nome da campanha do Adobe Advertising). Os dados dos conjuntos de dados são preenchidos diariamente no Experience Platform.
+     Com base no seu conjunto de dados de evento, a Adobe Advertising cria dois conjuntos de dados adicionais: 1\) um *conjunto de dados de resumo* com os dados de resumo relacionados (como cliques agregados e impressões agregadas) e 2\) um *conjunto de dados de pesquisa* (com metadados de dimensões/classificação, como o nome da campanha do Adobe Advertising). Os dados dos conjuntos de dados são preenchidos diariamente no Experience Platform.
 
    >[!TIP]
    >

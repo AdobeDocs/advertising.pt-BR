@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 
 * (Anunciantes sem [!DNL Analytics for Advertising]) Collaboration com sua equipe de conta da Adobe, que concluirão várias tarefas durante a configuração.
 
+  Você pode conversar com a equipe do se quiser conceder à sua equipe de contas da Adobe acesso de administrador às suas contas do Adobe Experience Platform e da Adobe Customer Journey Analytics. O acesso não é necessário para concluir a integração, mas permite que sua equipe de conta da Adobe forneça o máximo de suporte para integrar a integração, concluir as validações da configuração e dos dados e treinar como usar as dimensões e métricas de relatórios do Adobe Advertising.
+
 >[!MORELIKETHIS]
 >
 >* [Visão geral](overview.md)
@@ -44,3 +46,4 @@ ht-degree: 0%
 >* [Configurar a coleta de dados, a transferência de dados e os relatórios](set-up.md)
 >* [Métricas e dimensões do Adobe Advertising no Customer Journey Analytics](advertising-data-in-cja.md)
 >* (Usuários do Adobe Analytics) [Coletar dados históricos para IDs AMO e IDs EF para uso no Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+>* [Solução de problemas](troubleshooting.md)

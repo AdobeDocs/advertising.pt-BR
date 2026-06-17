@@ -1,18 +1,18 @@
 ---
 user-guide-title: Integrações com o Adobe CX Enterprise
-user-guide-description: Saiba mais sobre as integrações do Advertising DSP e do Advertising Search com outros produtos e serviços da Adobe CX Enterprise (anteriormente Adobe Experience Cloud).
+user-guide-description: Saiba mais sobre as integrações do Advertising DSP e do Advertising Search com outros produtos e serviços do Adobe CX Enterprise (anteriormente Adobe Experience Cloud).
 breadcrumb-title: Integrações com o CX Enterprise
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 
-# Integrações do Adobe Advertising com o Adobe CX Enterprise {#integrations}
+# Integrações da Adobe Advertising com o Adobe CX Enterprise {#integrations}
 
 + [Novidades](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Adobe Advertising IDs usadas pelo Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Configurar a coleta de dados, a transferência de dados e os relatórios](/help/integrations/customer-journey-analytics/set-up.md)
    + [Métricas e dimensões do Adobe Advertising no Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Tutoriais em vídeo sobre integrações do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=pt-BR)
+   + [Solução de problemas](/help/integrations/customer-journey-analytics/troubleshooting.md)
++ [Tutoriais em vídeo sobre integrações do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

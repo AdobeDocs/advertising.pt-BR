@@ -2,7 +2,7 @@
 title: Sobre relatórios de assistência
 description: Saiba mais sobre relatórios que fornecem insights sobre caminhos de conversão.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -35,3 +35,4 @@ Os Relatórios de assistência fornecem insights sobre os caminhos de conversão
 >* [O [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Ajudar configurações do relatório](assist-report-settings.md)
 >* [Gerenciar relatórios agendados](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+

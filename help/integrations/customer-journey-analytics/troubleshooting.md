@@ -2,21 +2,13 @@
 title: Solução de problemas de dados do Adobe Advertising no Customer Journey Analytics
 description: Saiba como solucionar e resolver problemas de dados do Adobe Advertising no Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -39,7 +31,7 @@ Verifique o seguinte:
 
 * O Customer Journey Analytics Workspace está referenciando a visualização de dados correta.
 
-Se você verificar todas as configurações acima, mas ainda não visualizar os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
+Se você verificar todas as configurações acima, mas ainda não visualizar os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -47,8 +39,7 @@ Se você verificar todas as configurações acima, mas ainda não visualizar os 
 
 Verifique se o feed do Adobe Advertising para o Customer Journey Analytics está ativado para o Anunciante 2. Verifique com a equipe de conta da Adobe.
 
-Se o feed estiver habilitado para um anunciante, mas você ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
-.
+Se o feed estiver habilitado para um anunciante, mas você ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -56,7 +47,7 @@ Se o feed estiver habilitado para um anunciante, mas você ainda não vir os dad
 
 Verifique se o feed do Adobe Advertising para o Customer Journey Analytics está ativado para a conta de rede de anúncios específica. Verifique com a equipe de conta da Adobe.
 
-Se o feed estiver habilitado para uma conta, mas você ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta da rede de publicidade.
+Se o feed estiver habilitado para uma conta, mas você ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta da rede de publicidade.
 .
 
 +++
@@ -69,16 +60,16 @@ Verifique o seguinte:
 
 * Nenhum filtro ou segmento aplicado em [!DNL Workspace] e no relatório do Adobe Advertising está causando diferenças nos dados.
 
-Se tiver certeza de uma discrepância de dados, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta da rede de publicidade.
+Se tiver certeza de uma discrepância de dados, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta da rede de publicidade.
 . Inclua capturas de tela e planilhas para mostrar evidências da discrepância. Sua equipe de conta da Adobe pode corrigir retroativamente o feed de dados para resolver a discrepância, se necessário.
 
 +++
 
 ## Relatórios no nível do evento
 
-+++ Cenário: dados de conversão (como `Page Views`) não estão disponíveis para uma dimensão de relatório (como `Campaign`) no CJA Customer Journey Analytics Workspace.
++++ Os dados de conversão (como `Page Views`) não estão disponíveis para uma dimensão de relatório (como `Campaign`) no CJA Customer Journey Analytics Workspace.
 
-Verifique o seguinte, começando pelos itens com menos barreiras:
+Verifique o seguinte, começando pelos itens com menos barreiras à verificação:
 
 * As métricas de conversão aplicáveis são eventos da Web/online, que o Adobe Advertising pode atribuir às dimensões.
 
@@ -92,7 +83,7 @@ Verifique o seguinte, começando pelos itens com menos barreiras:
 
 * As configurações do Adobe Advertising são definidas corretamente na extensão WebSDK e publicadas.
 
-Se você verificar todas as configurações acima, mas ainda não visualizar os dados de conversão, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta de rede de publicidade.
+Se você verificar todas as configurações acima, mas ainda não visualizar os dados de conversão, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta de rede de publicidade.
 
 +++
 

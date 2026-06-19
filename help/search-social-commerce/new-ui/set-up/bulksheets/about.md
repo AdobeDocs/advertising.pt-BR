@@ -2,18 +2,13 @@
 title: (Nova interface) Sobre o gerenciamento de dados de campanha usando bulksheets
 description: Saiba mais sobre a funcionalidade de bulksheet disponível por rede de anúncios, o fluxo de trabalho de bulksheet e a manipulação de erros na nova interface do usuário do Search, Social e Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 0%
 
 ---
@@ -36,7 +31,7 @@ Todos os bulksheets, arquivos de erro de validação da página de aterrissagem 
 
   Você pode carregar dados do [!DNL Naver] para usar no Search, Social e Commerce, mas não pode publicá-los na rede de publicidade. Você também pode baixar os dados existentes (não sincronizados).
 
-* **Baixar somente dados:** contas [!DNL Pinterest], [!DNL Yahoo Native] e [!DNL Yahoo! Display Network]
+* **Baixar somente dados:** contas [!DNL Pinterest], [!DNL Yahoo DSP], [!DNL Yahoo Native]
 
   Você pode baixar os dados existentes (não sincronizados).
 

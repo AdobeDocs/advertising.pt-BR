@@ -4,16 +4,10 @@ description: Saiba mais sobre as colunas de dados disponíveis para relatórios 
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 3846
 ht-degree: 0%
@@ -101,7 +95,7 @@ ht-degree: 0%
 | [!UICONTROL Custom Bid Level] | (Campanhas do Google direcionadas somente à rede de exibição) Em que nível as ofertas são feitas: por <i>[!UICONTROL Ad Group]</i>, <i>[!UICONTROL Age]</i>, <i>[!UICONTROL Gender]</i>, <i>[!UICONTROL Interest and List]</i>, <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>, <i>[!UICONTROL Vertical]</i>, <i>[!UICONTROL None]</i> ou <i>[!UICONTROL Unknown]</i>. |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | O corpo do anúncio. Tipos criativos diferentes têm números diferentes de linhas de descrição obrigatórias e opcionais. Para ver as colunas [!UICONTROL Description3] e [!UICONTROL Description4] em [!DNL Microsoft Advertising] anúncios responsivos ou anúncios multimídia, inclua a coluna &quot;[!UICONTROL Descriptions]&quot; nas configurações do relatório. |
 | [!UICONTROL Descriptions] | ([!DNL Microsoft Advertising] anúncios responsivos e multimídia) Adiciona uma coluna para cada linha de descrição do anúncio (&quot;[!UICONTROL Description1]&quot; até &quot;[!UICONTROL Description4]&quot;). Ao incluir essa coluna, não é necessário incluir as outras [!UICONTROL Description] colunas. |
-| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising], [!DNL Yahoo! Display Network] e [!DNL Yahoo Native] campanhas) O tipo de dispositivo no qual os anúncios foram exibidos: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> ou <i>[!UICONTROL N/A]</i> (nenhum valor). As linhas de outras redes de anúncios têm valores N/D.<br><br>Em campanhas de pesquisa, se os modelos de rastreamento ou as URLs de destino das palavras-chave, anúncios e/ou extensões de anúncios incluírem parâmetros para rastrear dados por dispositivo (`&ev_dvc={device}&ev_dvm={devicemodel}`) no momento em que o anúncio foi clicado, os dados de conversão também serão incluídos na linha para cada tipo de dispositivo. Caso contrário, se os dados de conversão não puderem ser atribuídos a um tipo de dispositivo, eles serão agregados em uma linha separada com um valor &quot;[!UICONTROL Device]&quot; de [!UICONTROL N/A]. |
+| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising], [!DNL Yahoo DSP] e [!DNL Yahoo Native] campanhas) O tipo de dispositivo no qual os anúncios foram exibidos: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> ou <i>[!UICONTROL N/A]</i> (nenhum valor). As linhas de outras redes de anúncios têm valores N/D.<br><br>Em campanhas de pesquisa, se os modelos de rastreamento ou as URLs de destino das palavras-chave, anúncios e/ou extensões de anúncios incluírem parâmetros para rastrear dados por dispositivo (`&ev_dvc={device}&ev_dvm={devicemodel}`) no momento em que o anúncio foi clicado, os dados de conversão também serão incluídos na linha para cada tipo de dispositivo. Caso contrário, se os dados de conversão não puderem ser atribuídos a um tipo de dispositivo, eles serão agregados em uma linha separada com um valor &quot;[!UICONTROL Device]&quot; de [!UICONTROL N/A]. |
 | [!UICONTROL Display Path 1] | ([!DNL Google Ads] somente anúncios de texto estendido) O primeiro caminho de exibição após a URL base do anúncio. |
 | [!UICONTROL Display Path 2] | ([!DNL Google Ads] somente anúncios de texto estendido) O segundo caminho de exibição após a URL base do anúncio. |
 | [!UICONTROL Display Type] | Obsoleto |
@@ -113,7 +107,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Anunciantes com o serviço de rastreamento de conversão do Adobe Advertising e o método de rastreamento &quot;[!UICONTROL EF Redirect]&quot; com um token) O token para o clique ou a conversão.<ul><li>Para os anúncios de pesquisa [!DNL Google Ads], a EF ID é `{gclid}:G:s`, que inclui a Google Click ID (GCLID) e o tipo de rede (&quot;s&quot; para pesquisa).</li><li> Para os anúncios de pesquisa [!DNL Microsoft Advertising], a EF ID é `{msclkid}:G:s`, que inclui a Microsoft Click ID (MSCLKID) e o tipo de rede (&quot;s&quot; para pesquisa).</li><li>Para anúncios de pesquisa em outras redes de anúncios, a ID EF inclui a ID do surfer, o tempo de clique e o tipo de rede.</li><li>Para anúncios de exibição, a ID EF inclui a ID do surfer, o tempo de clique ou impressão e o tipo de rede.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; somente para uso de Pesquisa, Social e &amp; Commerce) Uma ID interna para localização geográfica, que é usada para normalizar dados. |
 | [!UICONTROL EF Portfolio Group ID] | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
-| [!UICONTROL EF Search Engine ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | O último dia reportado. |
 | [!UICONTROL Engagement Rate] | (Anúncios de vídeo) O número de envolvimentos dividido pelo número de vezes que seu anúncio foi exibido. |
 | [!UICONTROL Engagements] | (Anúncios de vídeo) O número de vezes que os usuários assistiram ao seu anúncio por pelo menos 10 segundos, ou ao anúncio completo se for menor que 10 segundos. |

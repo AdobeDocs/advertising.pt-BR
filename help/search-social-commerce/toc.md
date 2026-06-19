@@ -254,7 +254,7 @@ ht-degree: 2%
             + [Formatos de rastreamento de cliques para  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
             + [Formatos de rastreamento de cliques para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=pt-BR){target="_blank"}
       + [O parâmetro de rastreamento da ID do AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Rastreamento de conversão {#conversion-tracking}
       + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)

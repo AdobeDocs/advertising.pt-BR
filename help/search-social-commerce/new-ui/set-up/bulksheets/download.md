@@ -2,16 +2,11 @@
 title: (Nova interface do usuário) Baixar/criar um arquivo de bulksheet
 description: Saiba como criar arquivos de bulksheet baixando dados de conta para suas redes de anúncios na nova interface do Search, Social e Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +124,30 @@ Critérios para campanhas específicas, grupos de anúncios, anúncios/criaçõe
 
 ## Linhas de bulksheet por rede de anúncios {#bulksheet-rows-by-ad-network}
 
-| Linha de Bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | Notas |
+| Linha de Bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Notas |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | — |
 | [!UICONTROL Adgroup] | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | Sim | — |
-| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Sim | Sim | Sim | — | — | Sim | Sim | Sim | Sim | ([!DNL Google Ads]) Use para todos os tipos de anúncios, exceto anúncios de pesquisa responsivos, que estão disponíveis na linha [!UICONTROL Responsive Search Ad]. |
-| [!UICONTROL Responsive Search Ad] | — | Sim | Sim | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | Sim | Sim | Sim | Sim | Sim | — | Sim | Sim | Sim | Use somente para palavras-chave não negativas. Para ver palavras-chave negativas criadas no nível da campanha ou do grupo de anúncios, use a linha [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], quando disponível. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | Sim | — | — | — | — | — |
+| [!UICONTROL Creative] *ou* [!UICONTROL Creative (except RSA)] | Sim | Sim | Sim | Sim | — | — | Sim | Sim | Sim | ([!DNL Google Ads]) Use para todos os tipos de anúncios, exceto anúncios de pesquisa responsivos, que estão disponíveis na linha [!UICONTROL Responsive Search Ad]. |
+| [!UICONTROL Responsive Search Ad] | — | Sim | — | Sim | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | Sim | Sim | Sim | Sim | Sim | Sim | — | Sim | Sim | Use somente para palavras-chave não negativas. Para ver palavras-chave negativas criadas no nível da campanha ou do grupo de anúncios, use a linha [!UICONTROL Campaign Negative Keyword] ou [!UICONTROL Adgroup Negative Keyword], quando disponível. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | Sim | — | — | — | — |
 | [!UICONTROL Placement] | — | Sim | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | Sim | Sim | — | — | — | — | — | — | Use para direcionamentos de pesquisa dinâmica para um grupo de publicidade. |
-| [!UICONTROL Shopping Product Group] | — | Sim | Sim | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | Sim | Sim | — | — | — | — | Sim | — | — |
-| [!UICONTROL Campaign Negative Keyword] | Sim | Sim | Sim | — | — | — | Sim | Sim | — | Use somente para palavras-chave negativas criadas no nível da campanha ou do grupo de anúncios. Para ver palavras-chave não negativas, use a linha [!UICONTROL Keyword] quando disponível. |
-| [!UICONTROL Campaign Negative Website] | — | Sim | Sim | — | — | — | — | Sim | — | — |
+| [!UICONTROL Auto Target] | — | Sim | — | Sim | — | — | — | — | — | Use para direcionamentos de pesquisa dinâmica para um grupo de publicidade. |
+| [!UICONTROL Shopping Product Group] | — | Sim | — | Sim | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | Sim | — | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Campaign Negative Keyword] | Sim | Sim | Sim | Sim | — | — | — | Sim | — | Use somente para palavras-chave negativas criadas no nível da campanha ou do grupo de anúncios. Para ver palavras-chave não negativas, use a linha [!UICONTROL Keyword] quando disponível. |
+| [!UICONTROL Campaign Negative Website] | — | Sim | — | Sim | — | — | — | Sim | — | — |
 | [!UICONTROL Adgroup Site Link] | — | Sim | — | — | — | — | — | Sim | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | Sim | — |
-| [!UICONTROL Adgroup Negative Keyword] | Sim | Sim | Sim | — | — | — | Sim | Sim | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | Sim | Sim | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | Sim | Sim | Sim | — | — | — | Sim | Sim | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | Sim | — | — | — | — | Sim | — | — |
-| [!UICONTROL Campaign Device Target] | — | Sim | Sim | — | — | — | — | Sim | — | — |
-| [!UICONTROL Adgroup Device Target] | — | Sim | Sim | — | — | — | — | Sim | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | Sim | Sim | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | Sim | Sim | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | Sim | Sim | Sim | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | Sim | — | Sim | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | Sim | Sim | Sim | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Campaign Device Target] | — | Sim | — | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Adgroup Device Target] | — | Sim | — | Sim | — | — | — | Sim | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | Sim | — | Sim | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | Sim | — | Sim | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | Sim | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | Sim | — | — | — | — | — | — | — | — |
 
@@ -160,10 +155,10 @@ Para obter detalhes sobre as colunas obrigatórias e opcionais para cada rede de
 
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Baidu]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Google Ads]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Dados de bulksheet obrigatórios e opcionais para  [!DNL LY Ads]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Microsoft Advertising]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Naver]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Yahoo! Display Network]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Dados de bulksheet obrigatórios e opcionais para  [!DNL Yahoo! Japan Ads]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Dados de bulksheet obrigatórios e opcionais para  [!DNL Yandex]  contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

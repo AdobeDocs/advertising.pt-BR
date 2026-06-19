@@ -4,15 +4,12 @@ description: Saiba mais sobre contas de rede de anúncios em Pesquisa, Social e 
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: 429
 ht-degree: 0%
 
 ---
@@ -25,7 +22,7 @@ Search, Social e Commerce podem rastrear qualquer conta de um anunciante em rede
 
 ## Contas sincronizadas por meio de APIs
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (antigo [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes*
+*[!DNL Google Ads], [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (antigo [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] e contas [!DNL Baidu]* existentes
 
 O Search, Social e Commerce sincroniza (*sincronizações*) com contas de rede de anúncios com suporte, para que você possa acompanhar, relatar e visualizar o desempenho de seus anúncios. Para todas as redes de anúncios, exceto para [!DNL Yahoo! Display Network], você pode opcionalmente gerenciar as campanhas para sua conta em Search, Social, &amp; Commerce; [!DNL Yahoo! Display Network], as campanhas são somente leitura. Para todas as redes de anúncios, você pode permitir o recurso de otimização para ofertas, orçamentos de campanha e metas de estratégia de oferta de campanha para campanhas em contas gerenciadas, adicionando as campanhas aos portfólios.
 

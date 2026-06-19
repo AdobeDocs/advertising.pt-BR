@@ -4,20 +4,18 @@ description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos q
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # Gerenciar modelos de anúncio para feeds de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 Antes ou depois de fazer upload dos dados, é possível criar modelos de anúncio específicos do mecanismo de pesquisa por meio dos quais seus dados podem ser processados. Você pode criar modelos para anúncios de texto e anúncios de texto expandidos/estendidos, [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios de pesquisa responsivos e para [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios de compras.
 

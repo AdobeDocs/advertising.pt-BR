@@ -4,20 +4,18 @@ description: Saiba como criar e gerenciar campanhas de publicidade.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 745
+source-wordcount: 738
 ht-degree: 0%
 
 ---
 
 # Gerenciar campanhas
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
 
 Uma campanha é o componente principal de uma conta de rede de anúncios. Para a maioria dos tipos de campanha, ele consiste em um conjunto de grupos de anúncios ou conjuntos de anúncios. As configurações da campanha incluem parâmetros de orçamento da campanha, metas de anúncios e parâmetros de rastreamento opcionais para todos os anúncios na campanha. Os parâmetros de rastreamento no nível da campanha substituem os parâmetros no nível da conta, mas podem ser substituídos em um nível inferior.
 
@@ -36,9 +34,9 @@ Depois que você [tornar uma conta de rede de publicidade acessível](/help/sear
 
 1. Selecione a rede de publicidade, a conta e o tipo de campanha e clique em **[!UICONTROL Continue]**.
 
-   Para obter as descrições de cada tipo de campanha, consulte o [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anúncios do Japão](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) ou configurações de campanha [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+   Para obter as descrições de cada tipo de campanha, consulte as configurações de campanha do [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-1. Insira o [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anúncios do Japão](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) ou configurações de campanha [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Insira as configurações de campanha do [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Dependendo da rede de publicidade, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], ([!DNL Google Ads]) [!UICONTROL DSA Options] e ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Para definir configurações adicionais, quando disponíveis, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] ou [!UICONTROL Campaign Goals], clique em **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** ou **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
@@ -68,7 +66,7 @@ Você pode editar configurações para campanhas individuais. Você também pode
 
       * Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite o [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anúncios do Japão](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) ou configurações de campanha [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Edite as configurações de campanha do [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Para várias campanhas, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options] e [!UICONTROL URL Options], dependendo das redes de anúncios. Você pode editar apenas os campos comuns a todas as campanhas selecionadas e suas alterações serão aplicadas a todas as campanhas selecionadas. Para alguns campos alfanuméricos, você tem opções para alterar os valores existentes para um valor especificado, substituir uma string existente por uma string especificada, adicionar um prefixo especificado ao início de cada valor ou anexar um sufixo ao final de cada valor. Para alguns campos monetários, você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 
@@ -108,6 +106,6 @@ Também é possível excluir qualquer campanha de pesquisa ativa ou pausada. As 
 >
 >* [[!DNL Baidu] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Yandex] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

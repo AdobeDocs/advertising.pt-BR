@@ -4,20 +4,18 @@ description: Saiba mais sobre o gerenciamento avançado de campanhas, que permit
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # Sobre a automatização do gerenciamento de anúncios usando feeds de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 A visualização [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] para gerenciamento avançado de campanha permite que você crie e atualize automaticamente a estrutura da conta de rede de anúncios e forneça anúncios dinâmicos com base em dados sobre o inventário de seus produtos ou serviços. Você pode carregar novos arquivos com dados de produtos diariamente ou sempre que desejar, ou vincular diretamente a uma conta de [!DNL Google] ou [!DNL Microsoft] da central de comércio. Use o recurso para:
 
@@ -31,7 +29,7 @@ Para configurar seus anúncios, crie modelos de feed de estoque contendo variáv
 
 | Seção do modelo [!UICONTROL Ad Variation] | Modificadores no Search, Social e Commerce | Conteúdos do feed | Anúncios resultantes |
 |----|----|----|----|
-| Título: Compre uma lista avançada \{<i>Categoria do produto</i>\} &lt;<i>CheapList</i>>.<br><br>Descrição 1: enorme inventário de \{<i>Nome do produto</i>\}.<br><br>Descrição 2: Disponível em \{<i>Porcentagem de desconto</i>\}% de desconto. | Valores para o grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;para barato&quot;<br><br>&quot;com desconto&quot; | Categoria do produto,Nome do produto,Porcentagem de desconto<br>eletrônicos,iPods,10<br><br>vestuário,Camisas,15<br><br><b>Observação:</b> é possível separar valores com vírgulas ou guias. | <u>Compre eletrônicos sofisticados por um preço baixo.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre eletrônicos sofisticados com desconto.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre roupas de alta qualidade a preços acessíveis.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto.<br><br><u>Compre roupas sofisticadas com desconto.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto. |
+| Título: Compre produtos avançados \{<i>Categoria do produto</i>\} &lt;<i>CheapList</i>>.<br><br>Descrição 1: enorme inventário de \{<i>Nome do produto</i>\}.<br><br>Descrição 2: Disponível com desconto de \{<i>Porcentagem de desconto</i>\}%. | Valores para o grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;para barato&quot;<br><br>&quot;com desconto&quot; | Categoria do produto,Nome do produto,Porcentagem de desconto<br>eletrônicos,iPods,10<br><br>vestuário,Camisas,15<br><br><b>Observação:</b> é possível separar valores com vírgulas ou guias. | <u>Compre eletrônicos sofisticados por um preço baixo.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre eletrônicos sofisticados com desconto.</u><br>Enorme inventário de tablets. Disponível com desconto de 10%.<br><br><u>Compre roupas de alta qualidade a preços acessíveis.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto.<br><br><u>Compre roupas sofisticadas com desconto.</u><br>Enorme inventário de camisas. Disponível com 15% de desconto. |
 
 Depois de gerar os anúncios, você pode, opcionalmente, revisá-los e, em seguida, publicá-los na rede de anúncios.
 
@@ -40,7 +38,7 @@ Depois de gerar os anúncios, você pode, opcionalmente, revisá-los e, em segui
 
 ## Fluxo de trabalho para gerenciar dados da campanha usando feeds de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 Inicialmente, teste pelo menos um arquivo de feed ou conta e, em seguida, você pode automatizar totalmente o processo ou continuar a controlá-lo em cada etapa:
 

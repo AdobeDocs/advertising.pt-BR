@@ -4,18 +4,12 @@ description: Saiba como configurar e gerenciar detalhes de uma conta de rede de 
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -177,7 +171,7 @@ Para contas do [!DNL Microsoft Advertising], somente logons autorizados do [!DNL
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-habilitado e todas as outras redes, exceto [!DNL Meta] e [!DNL Yandex]) O token da conta para autorizar logons usando o [[!DNL OAuth] protocolo de autorização](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas as redes de anúncios, exceto [!DNL Naver]) A senha da conta. Para contas habilitadas com senha em [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] e [!DNL Yandex], este campo é obrigatório. Para contas habilitadas para [!DNL oAuth], este campo é opcional; use-o quando quiser criptografar e salvar a senha para que o gerente de conta possa atualizar os tokens conforme necessário.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas as redes de anúncios, exceto [!DNL Naver]) A senha da conta. Para contas habilitadas com senha em [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex], este campo é obrigatório. Para contas habilitadas para [!DNL oAuth], este campo é opcional; use-o quando quiser criptografar e salvar a senha para que o gerente de conta possa atualizar os tokens conforme necessário.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** (somente contas [!DNL Yandex]) A chave de acesso para a conta de desenvolvedor a ser usada.
 
@@ -201,13 +195,13 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 * *Habilitado:* o Search, Social e Commerce sincroniza dados de campanha com a conta (quando há suporte) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.
 * *Desabilitado:* Pesquisa, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as exibições e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está pausada. Posteriormente, você pode reativar a conta para retomar a atividade com ela.
 
-**Modelo de Rastreamento** - ([!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] contas apenas; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos de domínio fora da aterrissagem e parâmetros de rastreamento, e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**Modelo de Rastreamento** - ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising] contas apenas; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos de domínio fora da aterrissagem e parâmetros de rastreamento, e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
+   * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,7 +255,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

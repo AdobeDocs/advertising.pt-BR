@@ -2,9 +2,10 @@
 title: (Nova interface) Sincronizar manualmente os dados de rede do e do
 description: Saiba como acionar manualmente a sincronização da estrutura da campanha e das entidades da campanha para redes de anúncios compatíveis na nova interface do usuário.
 feature: Search Campaign Management
-source-git-commit: 5e384445a35f81275eefeac660b31c1acdc785f3
+exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] e apenas contas [!DNL Baidu] existentes*
+*[!DNL Google Ads], [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yandex] e somente contas [!DNL Baidu] existentes*
 
 A sincronização é o processo pelo qual a Pesquisa, o Social e a Commerce reúnem informações atualizadas para cada conta de rede de anúncios conectada de anunciante em [redes de anúncios compatíveis](/help/search-social-commerce/introduction/supported-inventory.md). Esses dados incluem a estrutura de campanha e as entidades de campanha do anunciante, incluindo a maioria dos atributos gerenciados ou relatados em Pesquisa, Social e Commerce. Ela não inclui dados de cliques, nem lances e modificadores de lances inseridos fora da Pesquisa, Social e Commerce, que são coletados separadamente.
 

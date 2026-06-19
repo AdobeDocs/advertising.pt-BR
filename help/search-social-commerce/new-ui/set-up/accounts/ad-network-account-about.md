@@ -2,9 +2,10 @@
 title: (Nova interface do usuário) Sobre contas de rede de anúncios
 description: Saiba mais sobre contas de rede de anúncios na nova interface do Search, Social e Commerce.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Search, Social e Commerce podem rastrear qualquer conta de um anunciante em rede
 
 ## Contas sincronizadas por meio de APIs
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (antigo [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (antigo [!DNL Bing Ads]), [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] e contas [!DNL Baidu]* existentes
 
 O Search, Social e Commerce sincroniza (*sincronizações*) com contas de rede de anúncios com suporte, para que você possa acompanhar, relatar e visualizar o desempenho de seus anúncios. Para todas as redes de anúncios, exceto para [!DNL Yahoo! Display Network], você pode opcionalmente gerenciar as campanhas para sua conta em Search, Social, &amp; Commerce; [!DNL Yahoo! Display Network], as campanhas são somente leitura. Para todas as redes de anúncios, você pode permitir o recurso de otimização para ofertas, orçamentos de campanha e metas de estratégia de oferta de campanha para campanhas em contas gerenciadas, adicionando as campanhas aos portfólios.
 

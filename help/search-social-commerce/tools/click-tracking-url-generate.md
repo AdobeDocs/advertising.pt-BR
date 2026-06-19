@@ -4,13 +4,11 @@ description: Saiba como gerar manualmente um URL de rastreamento de cliques do S
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
 TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +85,7 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
 Para contas com URLs de destino, insira os valores nos campos [!UICONTROL Base URL] apropriados.
 
-Para contas com URLs finais, insira o valor na tela no campo [!UICONTROL Tracking Template] apropriado. Você deve adicionar um parâmetro para a URL final após o parâmetro `&url=` (como `{lpurl}`). Para contas do [!DNL Yahoo! Japan Ads], use o parâmetro `{lpurl}`. Para obter uma lista de parâmetros [!DNL Google Ads] e [!DNL Microsoft Advertising] para indicar as URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (consulte os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] Disponíveis&quot;) e a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Para contas com URLs finais, insira o valor na tela no campo [!UICONTROL Tracking Template] apropriado. Você deve adicionar um parâmetro para a URL final após o parâmetro `&url=` (como `{lpurl}`). Para contas do [!DNL LY Ads], use o parâmetro `{lpurl}`. Para obter uma lista de parâmetros [!DNL Google Ads] e [!DNL Microsoft Advertising] para indicar as URLs finais em modelos de rastreamento, consulte a [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348) (consulte os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] Disponíveis&quot;) e a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

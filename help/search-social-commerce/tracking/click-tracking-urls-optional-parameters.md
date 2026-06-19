@@ -4,20 +4,18 @@ description: Saiba mais sobre os parâmetros opcionais de rastreamento de Pesqui
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: 1113
 ht-degree: 0%
 
 ---
 
 # Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques
 
-Somente contas *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan] e [!DNL Yandex]*
+Somente contas *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex]*
 
 Em vez de usar apenas os parâmetros de rastreamento padrão para um URL final ou URL de destino, você pode adicionar mais parâmetros para rastrear dados específicos de uma conta de rede de anúncios. Você pode adicionar qualquer combinação dos seguintes parâmetros nas configurações da conta ou nas configurações da campanha:
 
@@ -52,7 +50,7 @@ Todos os parâmetros a seguir devem ser especificados como um par de valores cha
 | <code>{custom_code}</code> | Para inserir dados da coluna &quot;Parâmetro de URL personalizado&quot; em um arquivo de bulksheet carregado no URL de rastreamento. {custom_code} pode ser usado somente no final do valor de um ou mais pares de chave-valor na URL de rastreamento. Exemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Observação:</b> para inserir o valor personalizado do arquivo de bulksheet na URL de rastreamento, carregue o arquivo de bulksheet usando a opção &quot;Gerar URLs de Rastreamento&quot;. Para obter mais informações sobre como usar arquivos de bulksheet, consulte &quot;[Sobre como gerenciar dados de campanha usando bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Para inserir o identificador exclusivo criado pelo Adobe Advertising. Adicionado automaticamente quando o método de rastreamento é &quot;EF Redirect&quot;. |
 | <code>{ef_userid}</code> | Para inserir a ID de usuário exclusiva que o Adobe Advertising atribui ao anunciante. |
-| <code>{ef_sid}</code> | Para inserir a ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| <code>{ef_sid}</code> | Para inserir a ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | <code>{ef_searchengine}</code> | Para inserir o nome da rede de publicidade. |
 | <code>{ef_campaign}</code> | Para inserir o nome da campanha. |
 | <code>{ef_campaignid}</code> | Para inserir a ID da campanha. <b>Observação:</b> a ID para uma nova campanha só será criada depois que a campanha for postada na rede de publicidade. Se a conta usar as opções &quot;[!UICONTROL EF Redirect]&quot; e &quot;AutoUpload&quot;, o Adobe Advertising inserirá automaticamente a ID da campanha nas URLs de destino relevantes ou nas URLs finais no dia seguinte. Se a conta não usar as opções &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Auto Upload]&quot; e você quiser inserir a ID da campanha nas URLs de destino relevantes ou URLs finais, será necessário criar a campanha; baixar um arquivo de bulksheet para a nova campanha, usando a opção para &quot;Gerar URLs de Rastreamento&quot;; e depois publicar o arquivo na rede de publicidade. |
@@ -67,13 +65,13 @@ Todos os parâmetros a seguir devem ser especificados como um par de valores cha
 
 Consulte [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
+## [!DNL LY Ads] parâmetros de rastreamento dinâmico
+
+Consulte [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
+
 ## [!DNL Microsoft Advertising] parâmetros de rastreamento dinâmico
 
 Consulte [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
-
-## Yahoo! Parâmetros de rastreamento dinâmico de anúncios do Japão
-
-Consulte [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] parâmetros de rastreamento dinâmico
 

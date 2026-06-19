@@ -1,6 +1,6 @@
 ---
-title: Formatos de rastreamento de cliques para  [!DNL Yahoo! Display Network]
-description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yahoo! Display Network] .
+title: Formatos de rastreamento de cliques para  [!DNL Yahoo DSP]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Yahoo DSP] .
 exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU
@@ -8,14 +8,14 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 90
+source-wordcount: 103
 ht-degree: 0%
 
 ---
 
-# Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yahoo! Display Network]
+# Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yahoo DSP]
 
 O formato de URL de destino básico a seguir se aplica a anúncios patrocinados:
 

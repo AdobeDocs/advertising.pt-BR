@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # Sobre anúncios
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
 
 Um anúncio pode ser exibido em um site de destino (para campanhas direcionadas por conteúdo ou posicionamento); quando um usuário pesquisa uma das palavras-chave no grupo de anúncios (para campanhas de pesquisa) ou conteúdo no seu site (anúncios de pesquisa dinâmicos em [!DNL Google Ads] campanhas somente pesquisa); ou quando um usuário realiza uma pesquisa relevante para um dos itens no seu feed de produtos [!DNL Google Merchant Center] ou [!DNL Microsoft Merchant Center] (anúncios de compras em [!DNL Google Ads] ou anúncios de produtos em [!DNL Microsoft Advertising] campanhas).
 

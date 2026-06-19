@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1249
 ht-degree: 0%
 
 ---
 
 # Gerenciar arquivos de feed de dados de inventário
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 Se você enviar seus próprios dados de feed, precisará carregar arquivos contendo os dados do produto para criar dinamicamente a estrutura da campanha, os anúncios e as palavras-chave, com base nos dados do produto. Em seguida, você pode associá-los a modelos de anúncios específicos da rede de anúncios e processar os dados por meio dos modelos, eventualmente postando os dados nas redes de anúncios relevantes. É possível associar vários modelos a um arquivo de feed, mas cada modelo pode ser associado a apenas um arquivo de feed.
 

@@ -3,9 +3,9 @@ title: (Nova interface do usuário) Gerenciar contas de rede de anúncios
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface para uma rede de anúncios sincronizada por meio da API da rede de anúncios.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -228,13 +228,13 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 >* Este campo não é atualizado pela configuração de rastreamento [!UICONTROL Auto Update].
 >* Os sufixos de URL finais nos níveis inferiores substituem o sufixo de nível de conta. Para facilitar a manutenção, use somente o sufixo no nível da conta, a menos que seja necessário um rastreamento diferente para componentes de conta individuais. Para configurar um sufixo no nível do grupo de anúncios ou inferior, use o editor da rede de anúncios.
 
-**URL de Acompanhamento de Conta**: ([!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] contas somente; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
+**URL de Acompanhamento de Conta**: ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising] contas somente; opcional) O modelo de rastreamento padrão para a conta, que especifica todos os redirecionamentos e parâmetros de rastreamento do domínio fora da aterrissagem e também incorpora a URL da página final/de aterrissagem em um parâmetro. Exemplo: `{lpurl}?source={network}&id=5` ou `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir um redirecionamento.
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
+   * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 

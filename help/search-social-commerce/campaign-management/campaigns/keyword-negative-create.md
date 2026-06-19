@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # Criar palavras-chave negativas
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] e contas [!DNL Baidu] existentes apenas*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e contas [!DNL Baidu] existentes apenas*
 
 Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa ou campanha direcionada à pesquisa ou exibição/rede nativa. Palavras-chave negativas não acionam anúncios.
 
@@ -43,7 +43,7 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 
    Separe vários valores com vírgulas ou insira-os em linhas separadas. Você pode inserir ou colar até 2.000 palavras-chave negativas em uma operação. Consulte também os seguintes requisitos e restrições:
 
-   * Tamanho máximo de caracteres: [!DNL Baidu]: 30 byte único ou 15 bytes duplos; [!DNL Microsoft Advertising]: 100 byte único ou 50 byte duplo; [!DNL Google Ads] e [!DNL Yahoo! Japan Ads]: 80 byte único ou 40 byte duplo.
+   * Tamanho máximo de caracteres: [!DNL Baidu]: 30 byte único ou 15 bytes duplos; [!DNL Microsoft Advertising]: 100 byte único ou 50 byte duplo; [!DNL Google Ads] e [!DNL LY Ads]: 80 byte único ou 40 byte duplo.
 
    * [!DNL Baidu] permite somente um tipo de correspondência por palavra-chave por grupo de publicidade. Por exemplo, o Grupo de Anúncios 1 não pode incluir `"keyword"` e `[keyword]`.
 

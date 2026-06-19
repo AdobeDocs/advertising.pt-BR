@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # Publicar dados de campanha gerados a partir de feeds para redes de anúncios
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 Você pode publicar dados de campanha gerados a partir de um feed à medida que propaga os dados por meio dos modelos associados ou como um processo separado. Depois que você postar os dados, todos os dados propagados existentes serão removidos das listas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads].
 
@@ -53,9 +53,9 @@ Para uma publicação bem-sucedida, todos os grupos de anúncios devem ser atrib
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* Cria um arquivo de bulksheet e o publica mais tarde. Especifique o seguinte:
 
-            * **[!UICONTROL Start Time]:** Uma data e hora futuras nas quais o arquivo de bulksheet deve ser postado na rede de anúncios. Por padrão, o arquivo é enviado às 00:00 (12:00) do dia seguinte. **Observação:** para arquivos grandes que exigem processamento mais longo, os dados postados não estão disponíveis imediatamente nas exibições de gerenciamento de campanhas ou no gerenciador de anúncios da rede.
+            * **[!UICONTROL Start Time]:** Uma data e hora futuras nas quais o arquivo de bulksheet deve ser postado na rede de anúncios. Por padrão, o arquivo é enviado às 00:00 (12:00) no dia seguinte. **Observação:** para arquivos grandes que exigem processamento mais longo, os dados postados não estão disponíveis imediatamente nas exibições de gerenciamento de campanhas ou no gerenciador de anúncios da rede.
 
-            * **[!UICONTROL End Time]:** Uma data e hora futuras em que os anúncios postados poderão ser pausados ou excluídos com base na [configuração de dados de feed](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Por padrão, a hora de término é às 00:00 (12:00), daqui a 30 dias. Selecione **[!UICONTROL None]** para manter os dados ativos indefinidamente (ou até que você propague novos dados para o modelo), ou especifique uma data e hora.
+            * **[!UICONTROL End Time]:** Uma data e hora futuras em que os anúncios postados poderão ser pausados ou excluídos com base na [configuração de dados de feed](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Por padrão, a hora final é 00:00 (12:00) 30 dias a partir de hoje. Selecione **[!UICONTROL None]** para manter os dados ativos indefinidamente (ou até que você propague novos dados para o modelo), ou especifique uma data e hora.
 
               Para especificar uma data, use o formato DD/MM/AAAA ou D/M/AAAA ou clique em ![Calendário](/help/search-social-commerce/assets/calendar.png "Calendário") para abrir o calendário e [selecionar uma data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para alterar uma hora, insira a hora no formato de 24 horas HH/MM ou H/M ou selecione uma hora (em intervalos de 30 minutos) na lista.
 

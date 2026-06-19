@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ em que:
 
    * `c?` ou `r` indica que a passagem do token está desabilitada.
 
-* `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
+* `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
 
 * `<tracking ID>` é uma variável de uma cadeia de caracteres de ID de rastreamento gerada pelo sistema que identifica uma palavra-chave, anúncio ou posicionamento exclusivo na conta. A string varia de acordo com a rede de anúncios.
 
@@ -45,8 +45,8 @@ Consulte as páginas separadas indicando os [[!DNL Baidu] formatos](formats-clic
 >
 >* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Baidu]](formats-click-tracking-baidu.md)
 >* [Formatos de rastreamento de cliques para [!DNL Google Ads]](formats-click-tracking-google.md)
+>* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreamento de cliques para [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)
 >* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Naver]](formats-click-tracking-naver.md)
->* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Yandex]](formats-click-tracking-yandex.md)

@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | O status do público. |
 | [!UICONTROL Average CPC] | O custo médio por clique. |
 | [!UICONTROL Average CPM] | O custo médio por mil (mil) impressões. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para campanhas de [!DNL Google Ads] e [!DNL Yahoo! Japan Ads], esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft Advertising], esses dados estarão disponíveis somente até 22 de janeiro de 2021. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para campanhas de [!DNL Google Ads] e [!DNL LY Ads], esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft Advertising], esses dados estarão disponíveis somente até 22 de janeiro de 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] relatórios) O tipo de correspondência associado à palavra-chave que foi licitada. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) O orçamento da campanha. |
 | [!UICONTROL Campaign Name] | A campanha. |
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | O URL final ou o URL de destino (incluindo quaisquer parâmetros de rastreamento) do anúncio. |
 | [!UICONTROL Creative Display URL] | O URL de exibição do anúncio, que é o que os usuários finais veem no anúncio. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] relatórios) O status do anúncio. |
-| [!UICONTROL Creative Name] | (Relatório de Transações; somente [!DNL Yahoo! Japan]) O nome da imagem do anúncio. |
+| [!UICONTROL Creative Name] | (Relatório de Transações; somente [!DNL LY Ads]) O nome da imagem do anúncio. |
 | [!UICONTROL Creative Title] | O título ou título do anúncio. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversões que resultam quando um usuário clica em e em um dispositivo e depois se converte em um dispositivo ou navegador diferente. As conversões entre dispositivos estão incluídas em Todas as conversões. |
 | [!UICONTROL CTR] | A taxa de cliques, que é o número de cliques dividido pelo número de impressões para os anúncios incluídos. |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | O CPM efetivo ou o custo médio pago por 1000 impressões durante um intervalo de datas especificado. Os valores de eCPM são calculados para campanhas do CPM ou CPC. |
 | [!UICONTROL EF Campaign ID] | A ID numérica que o Search, Social e Commerce atribui à campanha. |
 | [!UICONTROL EF Portfolio Group ID] | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
-| [!UICONTROL EF Search Engine ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | O último dia reportado. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] relatórios) O [nome para exibição da extensão](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] relatórios) A ID para o tipo de extensão de anúncio. |
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Lost To Rank Percent] | A porcentagem de tempo em que seus anúncios não foram exibidos devido a uma classificação de anúncio ruim. |
 | [!UICONTROL Impression Share Percent] | As impressões recebidas divididas pelo número estimado de impressões que você estava qualificado a receber. |
 | [!UICONTROL Impressions] | O número de impressões de anúncios durante o intervalo de datas especificado. |
-| [!UICONTROL Keyword] | A palavra-chave.<br><br><b>Observação:</b> se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa habilitadas para conteúdo, esta coluna incluirá os nomes de grupos de anúncios aplicáveis, como &quot;Seu Nome de Grupo de Anúncios&quot;. Para uma inserção direcionada ao site em uma campanha de pesquisa, essa coluna não tem um valor. |
+| [!UICONTROL Keyword] | Palavra-chave.<br><br><b>Observação:</b> se o relatório incluir dados de grupos de anúncios em campanhas de pesquisa habilitadas para conteúdo, essa coluna incluirá os nomes de grupos de anúncios aplicáveis, como &quot;(conteúdo do grupo de anúncios) Nome do Grupo de Anúncios.&quot; Para uma inserção direcionada ao site em uma campanha de pesquisa, essa coluna não tem um valor. |
 | [!UICONTROL Keyword ID] | A ID exclusiva que identifica uma palavra-chave existente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) A ID numérica que a rede de publicidade atribui à extensão de publicidade. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) O atributo de versão da extensão de anúncio. |
@@ -179,7 +179,7 @@ ht-degree: 0%
 | [!UICONTROL Search IS% Lost to Budget] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem estimada de impressões que seu anúncio não recebeu porque seu orçamento diário ou mensal era muito baixo. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)] | ([!DNL Microsoft Advertising] somente; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]; dados disponíveis somente até 11 de outubro de 2019) A porcentagem estimada de impressões que seu anúncio não recebeu devido à relevância insuficiente de palavras-chave. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Search IS% Lost to Page Relevance (Bing)] | ([!DNL Microsoft Advertising] somente; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]; dados disponíveis somente até 11 de outubro de 2019) A porcentagem estimada de impressões que seu anúncio não recebeu devido à relevância insuficiente da página. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
-| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem estimada de impressões na Rede de Pesquisa que seus anúncios não receberam devido a uma classificação de anúncios insuficiente. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;.<br><br><b>Observação:</b> os dados para campanhas [!DNL Microsoft Advertising] só estarão disponíveis até 11 de outubro de 2019. |
+| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem estimada de impressões na Rede de Pesquisa que seus anúncios não receberam devido a uma classificação de anúncios insuficiente. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;.<br><br><b>Observação:</b> Dados para [!DNL Microsoft Advertising] campanhas só estarão disponíveis até 11 de outubro de 2019. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de tempo em que seus anúncios não foram os primeiros anúncios acima dos resultados de pesquisa orgânica porque seu orçamento diário ou mensal era muito baixo. Para campanhas [!DNL Google Ads], porcentagens acima de 90% são indicadas como &quot;>90%&quot; ou &quot;0,9001&quot;. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de tempo em que seus anúncios não foram os primeiros anúncios acima dos resultados da pesquisa orgânica por causa de uma classificação de anúncios ruim. Para campanhas de [!DNL Google Ads], porcentagens acima de 90% são indicadas como &quot;`>90%`&quot; ou &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads] somente; [!UICONTROL Keyword Daily Impression Share Report]) A porcentagem de tempo em que seus anúncios não foram exibidos porque seu orçamento diário ou mensal era muito baixo. Essa métrica está disponível somente no nível da campanha. Porcentagens acima de 90% são indicadas como &quot;`>90%`&quot; ou &quot;`0.9001`&quot;. |

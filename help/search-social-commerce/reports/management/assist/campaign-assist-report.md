@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Padrão | As cinco primeiras campanhas no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante.<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Padrão | O número de campanhas no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante. |
 | [!UICONTROL First Campaign] | Padrão | A primeira campanha no caminho de conversão. |
-| [!UICONTROL Last Campaign] | Padrão | A última campanha que resultou em conversões (mesmo se a última palavra-chave estiver fora do tamanho de caminho especificado.)<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| [!UICONTROL Last Campaign] | Padrão | A última campanha que resultou em conversões (mesmo que a última palavra-chave esteja fora do tamanho de caminho especificado.)<br><br>Se você incluiu qualquer uma das opções de relatório para indicar a rede de publicidade, o nome da conta ou o tipo de evento após o nome da entidade, essas informações serão incluídas após o nome da campanha (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | Personalizado | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
 | \[Métricas de conversão específicas do anunciante\] | Personalizado | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
 | [!UICONTROL % of Total] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) O número de conversões de uma métrica de conversão especificada que resultou do padrão da campanha. |
@@ -53,7 +53,7 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última campanha) até uma conversão. |
 | [!UICONTROL EF Campaign ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à campanha. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
-| [!UICONTROL EF Search Engine ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL Portfolio ID] | Personalizado | A ID numérica do portfólio. |
 | [!UICONTROL User SE Account ID] | Personalizado | A ID numérica que o Search, Social e Commerce atribui à rede de publicidade. |
 

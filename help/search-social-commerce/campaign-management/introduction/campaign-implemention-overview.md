@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Esta página inclui informações sobre todos os tipos de conta, incluindo como 
 
       * (Google Ads, Microsoft Advertising, Yahoo! Contas do Yandex e de anúncios somente) Configure um [processo automatizado para criar anúncios dinâmicos e palavras-chave direcionados a cada item no inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) de acordo com um modelo de anúncio específico da rede de anúncios que você criar e o conteúdo dos arquivos de dados de inventário que você carregar para um local FTP.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Anúncios do Japão e contas do Yandex somente) Faça upload de [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contendo quantos dados você quiser para uma conta e, em seguida, poste-os para as redes de publicidade.
+      * (Somente para contas do Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising e Yandex) Carregue [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contendo o máximo de dados que você desejar para uma conta e, em seguida, poste-os nas redes de anúncios.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! contas do Japan Ads e do Yandex somente) Insira dados para componentes individuais diretamente na interface. Para a maioria dos tipos de campanha e anúncios, você pode criar dados no nível da campanha, no nível do grupo de anúncios e nos níveis de palavra-chave, posicionamento e anúncio individuais.
+      * (Somente para contas do Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising e Yandex) Insira dados para componentes individuais diretamente na interface. Para a maioria dos tipos de campanha e anúncios, você pode criar dados no nível da campanha, no nível do grupo de anúncios e nos níveis de palavra-chave, posicionamento e anúncio individuais.
 
       Alguns tipos de campanha e anúncios, no entanto, exigem workflows exclusivos. Consulte as instruções para configurar [[!DNL Microsoft Advertising] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] anúncios de pesquisa dinâmica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] campanhas de desempenho máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) e [[!DNL Google Ads] campanhas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 

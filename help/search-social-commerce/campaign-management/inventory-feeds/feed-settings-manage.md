@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # Definir configurações de dados de feed
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (somente ações de exclusão) e somente contas [!DNL Yandex]*
+*[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
 
 Você pode configurar como lidar com grupos de anúncios, palavras-chave e anúncios em arquivos de dados de feed, e como processar os dados em arquivos FTP especificamente, por meio das configurações de feed.
 
@@ -105,7 +105,7 @@ O nível de estoque para cada item de linha vem de uma coluna no arquivo de feed
 
 **[!UICONTROL Post to the SE]:** (Anunciantes carregando arquivos de dados via FTP ou uma conta do centro de comércio) Cria automaticamente arquivos de bulksheet nos formatos corretos para as redes de anúncios relevantes depois que novos dados são propagados pelos modelos aplicáveis. Essa opção também remove os dados das guias [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads], a menos que qualquer subcomponente tenha erros.
 
-Essa opção está desativada por padrão. Para ativar essa opção, marque a caixa de seleção e especifique se os arquivos de bulksheet devem ser publicados nas redes de anúncios:
+Essa opção está desabilitada por padrão. Para ativar essa opção, marque a caixa de seleção e especifique se os arquivos de bulksheet devem ser publicados nas redes de anúncios:
 
 * *[!UICONTROL Immediately]* (o padrão): Publica os arquivos de planilha em massa nas redes de anúncios relevantes depois que os dados são propagados pelos modelos. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias.
 

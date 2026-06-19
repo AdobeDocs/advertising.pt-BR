@@ -1,6 +1,6 @@
 ---
-title: Configurações de campanha de [!DNL Yahoo! Japan Ads]
-description: Referencie as configurações de  [!DNL Yahoo! Japan Ads] campanhas.
+title: Configurações de campanha de [!DNL LY Ads]
+description: Referencie as configurações de  [!DNL LY Ads] campanhas.
 exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk
@@ -10,14 +10,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 117
+source-wordcount: 116
 ht-degree: 0%
 
 ---
 
-# Configurações de campanha de [!DNL Yahoo! Japan Ads]
+# Configurações de campanha de [!DNL LY Ads]
 
 ## \[Tela de criação da campanha\]
 

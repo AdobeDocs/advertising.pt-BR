@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
    + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integração com o Adobe CX Enterprise {#integrations}
       + [Integração com as soluções e os serviços corporativos Adobe CX](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}
       + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
    + [Suporte para a privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
    + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/pt-br/docs/advertising/policies/ad-requirements-policy){target="_blank"}
@@ -248,10 +248,10 @@ ht-degree: 2%
             + [Sobre formatos de URL de rastreamento de cliques](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
             + [Formatos de rastreamento de cliques para  [!DNL Baidu]](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
             + [Formatos de rastreamento de cliques para  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [Formatos de rastreamento de cliques para  [!DNL LY Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formatos de rastreamento de cliques para  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
             + [Formatos de rastreamento de cliques para  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
             + [Formatos de rastreamento de cliques para  [!DNL Yahoo! Display Network]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [Formatos de rastreamento de cliques para  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formatos de rastreamento de cliques para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=pt-BR){target="_blank"}
@@ -299,16 +299,16 @@ ht-degree: 2%
             + Configurações do Campaign por rede de publicidade {#campaign-settings-by-network}
                + [Configurações de campanha de [!DNL Baidu]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
                + [Configurações de campanha de [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [Configurações de campanha de [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [Configurações de campanha de [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Configurações de campanha de [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
                + [Configurações de campanha de [!DNL Yandex]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + Grupos de anúncios {#ad-groups}
             + [Gerenciar grupos de anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + Configurações do grupo de anúncios por rede de anúncios {#ad-group-settings-by-network}
                + [Configurações do grupo de anúncios [!DNL Baidu]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
                + [Configurações do grupo de anúncios [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [Configurações do grupo de anúncios [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [Configurações do grupo de anúncios [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Configurações do grupo de anúncios [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
                + [Configurações do grupo de anúncios [!DNL Yandex]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Palavras-chave {#keywords}
             + [Sobre palavras-chave](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
@@ -318,8 +318,8 @@ ht-degree: 2%
             + Configurações de palavra-chave por rede de publicidade {#keyword-settings-by-network}
                + [Configurações de palavra-chave [!DNL Baidu]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-baidu.md)
                + [Configurações de palavra-chave [!DNL Google Ads]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-google.md)
+               + [Configurações de palavra-chave [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [Configurações de palavra-chave [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-microsoft.md)
-               + [Configurações de palavra-chave [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yahoo-japan.md)
                + [Configurações de palavra-chave [!DNL Yandex]](/help/search-social-commerce/campaign-management/campaigns/keyword-settings-yandex.md)
          + Anúncios {#ads}
             + [Sobre anúncios](/help/search-social-commerce/campaign-management/campaigns/ad-about.md)
@@ -385,10 +385,10 @@ ht-degree: 2%
             + [Operações que você pode executar em bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
             + [Dados de bulksheet necessários para  [!DNL Baidu] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
             + [Dados de bulksheet necessários para  [!DNL Google Ads] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Dados de bulksheet para  [!DNL LY Ads] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [Dados de bulksheet necessários para  [!DNL Microsoft Advertising] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [Dados de bulksheet necessários para  [!DNL Naver] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
             + [Dados de bulksheet para  [!DNL Yahoo! Display Network] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Dados de bulksheet para  [!DNL Yahoo! Japan] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [Dados de bulksheet necessários para  [!DNL Yandex] contas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatização de dados de campanha usando feeds de inventário {#inventory-feeds}
          + [Sobre a automatização do gerenciamento de anúncios usando feeds de inventário](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)

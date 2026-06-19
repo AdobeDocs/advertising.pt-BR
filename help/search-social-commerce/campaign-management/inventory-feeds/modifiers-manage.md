@@ -4,10 +4,8 @@ description: Saiba como configurar e gerenciar modificadores para seus modelos d
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kx5mrj2liqcxDBJG0zFS53urCLg6udHp7oaFSqwwIfA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
@@ -71,7 +69,7 @@ Cada grupo de modificadores pode incluir quantos modificadores desejar. Cada mod
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Yes]**.
 
-1. (Se necessário) [Remova referências ao modificador &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
+1. (Se necessário) [Remova referências ao modificador ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todos os modelos aplicáveis.
 
 >[!MORELIKETHIS]
 >

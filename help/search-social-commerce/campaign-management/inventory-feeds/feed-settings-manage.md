@@ -4,10 +4,8 @@ description: Saiba como definir as configurações que controlam como os dados d
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -109,7 +107,7 @@ Essa opção está desabilitada por padrão. Para ativar essa opção, marque a 
 
 * *[!UICONTROL Immediately]* (o padrão): Publica os arquivos de planilha em massa nas redes de anúncios relevantes depois que os dados são propagados pelos modelos. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; Não postará os arquivos de bulksheet nas redes de anúncios relevantes, mas os listará na exibição [!UICONTROL Bulksheets], a partir da qual você poderá postá-los mais tarde. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias. Quando o arquivo de bulksheet tem mais de 10 MB, mas tem menos de 2 GB, ele está no formato ZIP; não é necessário descompactar o arquivo para publicá-lo. &#x200B;** Dica:** se você ainda não validou suas páginas de aterrissagem, use esta opção para validá-las na exibição [!UICONTROL Bulksheets] antes de postar os dados na rede de publicidade.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Não postará os arquivos de bulksheet nas redes de anúncios relevantes, mas os listará na exibição [!UICONTROL Bulksheets], a partir da qual você poderá postá-los mais tarde. Os arquivos de bulksheet permanecem disponíveis no modo de exibição [!UICONTROL Bulksheets] por 30 dias. Quando o arquivo de bulksheet tem mais de 10 MB, mas tem menos de 2 GB, ele está no formato ZIP; não é necessário descompactar o arquivo para publicá-lo. **Dica:** se você ainda não validou suas páginas de aterrissagem, use esta opção para validá-las na exibição [!UICONTROL Bulksheets] antes de postar os dados na rede de publicidade.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Impede postar frases-chave com mais de um número especificado de palavras na rede de publicidade. Quando essa opção é selecionada, frases de palavras-chave com mais do que o número máximo de palavras são propagadas e listadas na guia [!UICONTROL Keywords], mas não são postadas quando você tenta postar os dados.
 

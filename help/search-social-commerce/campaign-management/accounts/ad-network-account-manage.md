@@ -4,15 +4,9 @@ description: Saiba como configurar e gerenciar detalhes de uma conta de rede de 
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
@@ -261,7 +255,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

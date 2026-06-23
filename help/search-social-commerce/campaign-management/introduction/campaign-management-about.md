@@ -4,16 +4,12 @@ description: Saiba mais sobre os recursos de gerenciamento de campanhas em Pesqu
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 822
 ht-degree: 0%
 
 ---
@@ -22,7 +18,7 @@ ht-degree: 0%
 
 O Search, Social, &amp; Commerce permite rastrear e/ou gerenciar suas campanhas de pesquisa, exibição/conteúdo, social, compras, público-alvo e desempenho máximo em um único local. Dependendo da rede de anúncios e do tipo de campanha, as funcionalidades disponíveis podem incluir a sincronização com suas redes de anúncios, criar e editar capacidades, rastreamento e atribuição de conversão, relatórios e otimização de orçamento e oferta. Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
-À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e dados de cliques de contas de rede de anúncios sincronizadas uma vez por dia (ou com mais frequência quando novas campanhas são detectadas) e sob demanda, conforme solicitado.
+À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e clica nos dados a cada hora das contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas, ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
 
 ## Configuração do acesso às suas contas de rede de anúncios
 
@@ -58,7 +54,7 @@ As visualizações de gerenciamento de campanhas permitem monitorar e gerenciar 
 
 * **[!UICONTROL Bulksheets]** — Use o modo de exibição [!UICONTROL Bulksheets] para criar [arquivos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contendo quantos dados você desejar para uma conta em uma [rede de anúncios com suporte](/help/search-social-commerce/introduction/supported-inventory.md) e, em seguida, publique-os na rede de anúncios.
 
-* **[!UICONTROL Audiences]** — [As [!UICONTROL Audiences] exibições](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) listam todos os seus públicos-alvo [!DNL Google Ads] e [!DNL Microsoft Advertising] gerados de vários tipos de listas de usuários. Você pode criar [!DNL Google Ads] públicos-alvo a partir dos seus públicos-alvo existentes da Adobe CX Enterprise e das suas listas de email de clientes. Você também pode visualizar e gerenciar destinos e exclusões de públicos-alvo para seus anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [As [!UICONTROL Audiences] exibições](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) listam todos os seus públicos-alvo [!DNL Google Ads] e [!DNL Microsoft Advertising] gerados de vários tipos de listas de usuários. Você pode criar [!DNL Google Ads] públicos-alvo de seus públicos-alvo existentes do Adobe CX Enterprise e de suas listas de email de clientes. Você também pode visualizar e gerenciar destinos e exclusões de públicos-alvo para seus anúncios [!DNL Google Ads] e [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** — Use esta exibição para criar e excluir [classificações de rótulo](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), o que pode ajudá-lo a agrupar seus rótulos em conjuntos significativos.
 

@@ -5,16 +5,12 @@ feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -24,6 +20,8 @@ ht-degree: 0%
 *recurso do Beta*
 
 A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanhas na exibição filtrada para a conta de anunciante selecionada. Você pode abrir uma lista de grupos de anúncios na campanha clicando no nome dela.
+
+À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e clica nos dados a cada hora das contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas, ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
 
 ## Ações disponíveis
 
@@ -37,7 +35,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanh
 
 * Exclua ou altere o status de uma campanha dentro da linha.
 
-* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Atribuir restrições a campanhas e cancelar atribuição de restrições a campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -45,7 +43,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanh
 
 >[!MORELIKETHIS]
 >
->* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gerenciar atribuições de restrição para campanhas](campaign-constraint-assignments-manage.md)
 >* [Gerenciar relatórios de exibição de dados da [!UICONTROL Campaigns] exibição](campaign-view-report.md)

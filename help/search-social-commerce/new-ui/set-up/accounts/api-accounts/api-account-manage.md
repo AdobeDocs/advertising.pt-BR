@@ -3,9 +3,9 @@ title: (Nova interface do usuário) Gerenciar contas de rede de anúncios
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface para uma rede de anúncios sincronizada por meio da API da rede de anúncios.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -250,9 +250,13 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 ## Guia [!UICONTROL Setup Analytics]
 
-**[!UICONTROL Adobe Analytics Report Suite]:** (Anunciantes com [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md); opcional) Um ou mais conjuntos de relatórios do Analytics para os quais Search, Social e Commerce enviam dados coletados da rede de publicidade, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
+Estas configurações estão disponíveis para anunciantes com uma [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md).
+
+**[!UICONTROL Adobe Analytics Report Suite]:** (opcional) um ou mais conjuntos de relatórios do Analytics para os quais Search, Social e Commerce enviam dados coletados da rede de publicidade, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
 
 Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; deve ser habilitada. Além disso, a conta [!DNL Analytics] do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
+
+**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] contas; opcional) Anexa o [parâmetro de rastreamento da AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) a todos os anúncios da campanha. O parâmetro permite que o Adobe Analytics associe conversões com campanhas do Meta Ads no conjunto de relatórios especificado, juntamente com as classificações de entidade e os dados de cliques.
 
 >[!MORELIKETHIS]
 >

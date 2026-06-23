@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: 655
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Um nome de grupo de anúncios exclusivo na campanha. O comprimento máximo é de 128 caracteres.
+**[!UICONTROL Ad Group Name]:** Um nome de grupo de anúncios que é exclusivo dentro da campanha. O comprimento máximo é de 128 caracteres.
 
 **[!UICONTROL Status]:** O status de exibição do grupo de anúncios: *Ativo* ou *Pausado*. O padrão para novos grupos de anúncios é *Ativo*.
 
@@ -73,7 +73,7 @@ Para [!DNL Microsoft Advertising] grupos de anúncios na rede de público-alvo, 
 
 * *[!UICONTROL Select From Below List]:* Destinos de gêneros selecionados. Selecione na lista de todos os gêneros disponíveis.
 
-O posicionamento do anúncio de TV conectada (CTV) depende da qualidade do vídeo e do valor da oferta. Consulte os [requisitos técnicos para anúncios de CTV](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
+O posicionamento do anúncio de TV conectada (CTV) depende da qualidade do vídeo e do valor da oferta. Consulte os [requisitos técnicos para anúncios de CTV](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#Requisitos técnicos).
 
 <!-- **[!UICONTROL Devices]:** -->
 

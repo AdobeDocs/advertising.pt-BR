@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 A exibição [!UICONTROL Manage] > [!UICONTROL Campaigns] lista todas as campanhas na exibição filtrada para a conta de anunciante selecionada. Você pode abrir uma lista de grupos de anúncios na campanha clicando no nome dela.
 
-À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e clica nos dados a cada hora das contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas, ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
+À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. Search, Social e Commerce também extrai dados de estrutura de campanha e dados de cliques diariamente ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
+
+O Search, Social e Commerce extrai dados de desempenho de hora em hora nas contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas.
 
 ## Ações disponíveis
 

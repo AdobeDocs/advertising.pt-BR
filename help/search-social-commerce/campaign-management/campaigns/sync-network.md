@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 A sincronização é o processo pelo qual a Pesquisa, o Social e a Commerce reúnem informações atualizadas para cada conta de rede de anúncios conectada de anunciante em [redes de anúncios compatíveis](/help/search-social-commerce/introduction/supported-inventory.md). Esses dados incluem a estrutura de campanha e as entidades de campanha do anunciante, incluindo a maioria dos atributos gerenciados ou relatados em Pesquisa, Social e Commerce. Ela não inclui dados de cliques, nem lances e modificadores de lances inseridos fora da Pesquisa, Social e Commerce, que são coletados separadamente.
 
-O Search, Social e Commerce sincroniza automaticamente (sincroniza) com suas contas de rede de anúncios uma vez por dia e também sempre que detecta uma nova campanha em uma de suas redes de anúncios. Além disso, envia imediatamente todas as alterações nos dados da campanha feitas no Search, Social e Commerce para a rede de anúncios.
+O Search, Social e Commerce sincroniza automaticamente (sincroniza) com suas contas de rede de anúncios diariamente e sempre que detecta uma nova campanha em uma de suas redes de anúncios. Além disso, envia imediatamente todas as alterações nos dados da campanha feitas no Search, Social e Commerce para a rede de anúncios.
 
 Você pode solicitar manualmente a sincronização de todas as campanhas ativas e pausadas em contas especificadas ou em campanhas ativas e pausadas específicas. Essa tarefa reúne entidades na rede de anúncios que são novas ou alteradas.
 

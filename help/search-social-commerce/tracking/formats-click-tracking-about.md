@@ -4,13 +4,11 @@ description: Saiba mais sobre os formatos de rastreamento de cliques para redes 
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 274
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ em que:
 
 * `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo DSP], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
 
-* `<tracking ID>` é uma variável de uma cadeia de caracteres de ID de rastreamento gerada pelo sistema que identifica uma palavra-chave, anúncio ou posicionamento exclusivo na conta. A string varia de acordo com a rede de anúncios.
+* `<tracking ID>` é uma variável de uma cadeia de caracteres de ID de rastreamento gerada pelo sistema que identifica uma palavra-chave, anúncio ou posicionamento que é exclusivo na conta. A string varia de acordo com a rede de anúncios.
 
 * `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados. Para contas com URLs de destino, esse valor é um URL. Para contas com modelos de rastreamento, esse valor é um parâmetro (como `{lpurl}`) que representa a URL final.
 

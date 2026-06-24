@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 698
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
       * Para selecionar URLs a serem removidos:
 
-         1. Marque a caixa de seleção ao lado de cada negociação a ser removida da lista.
+         1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
 
          1. Clique em **[!UICONTROL Remove from List]**.
 
@@ -147,7 +147,7 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
       * Para selecionar URLs a serem removidos:
 
-         1. Marque a caixa de seleção ao lado de cada negociação a ser removida da lista.
+         1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
 
          1. Clique em **[!UICONTROL Remove from List]**.
 

@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ A seguir estão possíveis problemas de dados e suas causas.
 
 Verifique o seguinte:
 
+* O Customer Journey Analytics Workspace está referenciando a visualização de dados correta.
+
 * O feed do Adobe Advertising para o Customer Journey Analytics está ativado. Verifique com a equipe de conta da Adobe.
 
 * Sua dimensão/classificação/conjunto de dados de pesquisa da Adobe Advertising e seu conjunto de dados de resumo estão incluídos na conexão com o Customer Journey Analytics.
 
 * Suas dimensões e métricas de resumo do Adobe Advertising estão incluídas na visualização de dados do Customer Journey Analytics.
-
-* O Customer Journey Analytics Workspace está referenciando a visualização de dados correta.
 
 Se você verificar todas as configurações acima, mas ainda não visualizar os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
 
@@ -45,9 +45,13 @@ Se você verificar todas as configurações acima, mas ainda não visualizar os 
 
 +++ Os dados de relatórios de resumo estão disponíveis no Customer Journey Analytics para o Anunciante 1, mas não para o Anunciante 2.
 
-Verifique se o feed do Adobe Advertising para o Customer Journey Analytics está ativado para o Anunciante 2. Verifique com a equipe de conta da Adobe.
+Verifique o seguinte:
 
-Se o feed estiver habilitado para um anunciante, mas você ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
+* O feed do Adobe Advertising para o Customer Journey Analytics é ativado para o Anunciante 2. Verifique com a equipe de conta da Adobe.
+
+* A configuração &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para seus três conjuntos de dados (dimensão/classificação/pesquisa, resumo e métricas de evento) nas métricas do Customer Journey Analytics.
+
+Se você verificar todas as condições acima, mas ainda não vir os dados de resumo, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
 
 +++
 
@@ -67,8 +71,11 @@ Verifique o seguinte:
 
 * Nenhum filtro ou segmento aplicado em [!DNL Workspace] e no relatório do Adobe Advertising está causando diferenças nos dados.
 
-Se tiver certeza de uma discrepância de dados, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta da rede de publicidade.
-. Inclua capturas de tela e planilhas para mostrar evidências da discrepância. Sua equipe de conta da Adobe pode corrigir retroativamente o feed de dados para resolver a discrepância, se necessário.
+* O [!UICONTROL Time Zone] da sua visualização de dados do Customer Journey Analytics corresponde ao [[!UICONTROL Default Timezone] da sua conta do Advertising DSP](help/dsp/admin/user-own-profile-edit.md).
+
+* A configuração &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para seus três conjuntos de dados (dimensão/classificação/pesquisa, resumo e métricas de evento) nas métricas do Customer Journey Analytics.
+
+Se tiver certeza de uma discrepância de dados, abra um tíquete de suporte para sua organização em [https://experienceleague.adobe.com/home?lang=pt-BR#support](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support). Inclua o [!UICONTROL Account ID] para a conta de rede de publicidade.. Inclua capturas de tela e planilhas para mostrar evidências da discrepância. Sua equipe de conta da Adobe pode corrigir retroativamente o feed de dados para resolver a discrepância, se necessário.
 
 +++
 
@@ -78,15 +85,15 @@ Se tiver certeza de uma discrepância de dados, abra um tíquete de suporte para
 
 Verifique o seguinte, começando pelos itens com menos barreiras à verificação:
 
-* As métricas de conversão aplicáveis são eventos da Web/online, que o Adobe Advertising pode atribuir às dimensões.
-
 * Você está usando a visualização de dados correta.
+
+* As métricas de conversão aplicáveis são eventos da Web/online, que o Adobe Advertising pode atribuir às dimensões.
 
 * O Adobe Advertising está rastreando click-throughs e viewthroughs no site aplicável. <!-- Link to validation instructions in the user guide -->
 
 * Na conexão Customer Journey Analytics do conjunto de dados de classificações, os valores das configurações [!DNL Key] e [!DNL Matching Key] estão corretos: [!DNL Key]: `Tracking Code` (_customername.adLens2.trackingCode), [!DNL Matching Key]: `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* O serviço [!DNL Adobe Advertising] é adicionado à sequência de dados do Adobe Experience Platform, o esquema mapeado para a sequência de dados é `XDM ExperienceEvent Schema` e o grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` é adicionado ao esquema.
+* O serviço [!DNL Adobe Advertising] é adicionado à sequência de dados do Adobe Experience Platform, o esquema mapeado para a sequência de dados é `XDM ExperienceEvent Schema` e o grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` é adicionado ao esquema `XDM ExperienceEvent`.
 
 * As configurações do Adobe Advertising são definidas corretamente na extensão WebSDK e publicadas.
 

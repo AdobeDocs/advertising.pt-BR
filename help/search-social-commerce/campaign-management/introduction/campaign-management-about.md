@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 O Search, Social, &amp; Commerce permite rastrear e/ou gerenciar suas campanhas de pesquisa, exibição/conteúdo, social, compras, público-alvo e desempenho máximo em um único local. Dependendo da rede de anúncios e do tipo de campanha, as funcionalidades disponíveis podem incluir a sincronização com suas redes de anúncios, criar e editar capacidades, rastreamento e atribuição de conversão, relatórios e otimização de orçamento e oferta. Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
-À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e clica nos dados a cada hora das contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas, ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
+À medida que você adiciona e edita dados de campanha nas [!UICONTROL Campaigns] exibições, o Search, Social e Commerce envia imediatamente as alterações de dados para a rede de publicidade. O Search, Social e Commerce também extrai dados de estrutura de campanha e clica nos dados diariamente de contas de rede de anúncios sincronizadas ou com mais frequência quando novas campanhas são detectadas. Para todas as redes de anúncios sincronizadas, você também pode sincronizar contas sob demanda, conforme necessário.
+
+O Search, Social e Commerce extrai dados de desempenho de hora em hora nas contas [!DNL Google Ads] e [!DNL Microsoft Advertising] sincronizadas e diariamente para outras contas de rede de anúncios sincronizadas.
 
 ## Configuração do acesso às suas contas de rede de anúncios
 

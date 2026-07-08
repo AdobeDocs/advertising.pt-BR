@@ -4,24 +4,22 @@ description: Saiba como criar e gerenciar campanhas de publicidade.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 753
 ht-degree: 0%
 
 ---
 
 # Gerenciar campanhas
 
-*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
-
 Uma campanha é o componente principal de uma conta de rede de anúncios. Para a maioria dos tipos de campanha, ele consiste em um conjunto de grupos de anúncios ou conjuntos de anúncios. As configurações da campanha incluem parâmetros de orçamento da campanha, metas de anúncios e parâmetros de rastreamento opcionais para todos os anúncios na campanha. Os parâmetros de rastreamento no nível da campanha substituem os parâmetros no nível da conta, mas podem ser substituídos em um nível inferior.
 
 Depois que você [tornar uma conta de rede de publicidade acessível](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e Search, Social e Commerce tiver sincronizado os dados da conta com a rede de publicidade, você poderá criar novas campanhas com [tipos de campanha compatíveis](/help/search-social-commerce/introduction/supported-inventory.md). Você também pode editar e alterar o status de campanhas.
+
+Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
 ## Criar uma campanha
 
@@ -68,7 +66,7 @@ Você pode editar configurações para campanhas individuais. Você também pode
 
       * Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite as configurações de campanha do [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Edite as configurações de campanha do [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Meta Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Para várias campanhas, as configurações podem ser agrupadas em [!UICONTROL Campaign Details], [!UICONTROL Budget Options] e [!UICONTROL URL Options], dependendo das redes de anúncios. Você pode editar apenas os campos comuns a todas as campanhas selecionadas e suas alterações serão aplicadas a todas as campanhas selecionadas. Para alguns campos alfanuméricos, você tem opções para alterar os valores existentes para um valor especificado, substituir uma string existente por uma string especificada, adicionar um prefixo especificado ao início de cada valor ou anexar um sufixo ao final de cada valor. Para alguns campos monetários, você tem opções para alterar os valores existentes para um valor especificado ou para aumentar ou diminuir o valor em uma porcentagem especificada ou valor monetário, com um limite.
 
@@ -109,5 +107,6 @@ Também é possível excluir qualquer campanha de pesquisa ativa ou pausada. As 
 >* [[!DNL Baidu] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[Meta Ads] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex] configurações da campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
+source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
 workflow-type: tm+mt
-source-wordcount: 2095
+source-wordcount: 2103
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Use a extensão Adobe Experience Platform Web SDK em Tags do Adobe para enviar o
 
          * Nas configurações do [!UICONTROL Datastreams], selecione a sequência de dados a ser usada para cada um dos ambientes da Web (produção, preparo, desenvolvimento).
 
-         * (Somente organizações com Adobe Advertising DSP) Nas [[!UICONTROL Adobe Advertising] configurações](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir o rastreamento de view-through e especifique os anunciantes para os quais habilitar o rastreamento de view-through. Opcionalmente, é possível coletar IDs de IDs universais adicionando a ID de parceiro ID5 da sua organização e/ou o caminho para o código JavaScript (ats.js) do [!DNL LiveRamp RampID] da sua organização.
+         * (Somente organizações com Adobe Advertising DSP) Nas [[!UICONTROL Adobe Advertising] configurações](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir o rastreamento de view-through e especifique os anunciantes para os quais habilitar o rastreamento de view-through. Você pode, opcionalmente, coletar IDs de IDs universais (traduzidas de suas [fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)) adicionando a ID de parceiro ID5 da sua organização e/ou o caminho para o código JavaScript (ats.js) do [!DNL LiveRamp] [!DNL LaunchPad] da sua organização para [!DNL RampIDs].
 
            Se seus anunciantes não estiverem listados, insira a ID de anunciante para cada anunciante. Se necessário, peça as IDs à sua equipe de conta da Adobe.
 

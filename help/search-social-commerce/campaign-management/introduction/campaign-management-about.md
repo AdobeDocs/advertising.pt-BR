@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ O Search, Social e Commerce extrai dados de desempenho de hora em hora nas conta
 
 Para acompanhar o desempenho dos anúncios na conta de rede de anúncios de um anunciante (e possivelmente fazer lances para os anúncios), a Equipe de Conta da Adobe [cria um registro de conta correspondente](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) no Search, Social e Commerce. O registro da conta inclui opções de rastreamento.
 
-Para contas sincronizadas por meio da API da rede de anúncios, o registro da conta também inclui as credenciais de acesso da conta. Quando a conta está ativada, os dados são obtidos do com a rede de publicidade. Em seguida, é possível visualizar os dados da conta existentes, bem como criar e editar a estrutura da campanha e os dados de anúncios.
+Para contas sincronizadas por meio da API da rede de anúncios, o registro da conta também inclui as credenciais de acesso da conta. Quando a conta está ativada, os dados são obtidos do com a rede de publicidade. Em seguida, é possível visualizar os dados da conta existentes e criar e editar a estrutura da campanha e os dados do anúncio.
 
 ## Rastreamento de cliques para vincular cliques a conversões
 
-Se você usa o serviço de rastreamento de conversão da Adobe Advertising, deve incluir o código de rastreamento de cliques Search, Social e Commerce no sufixo da página de aterrissagem, modelos de rastreamento e URLs finais/de destino para anúncios, palavras-chave e inserções, links para sites e listas de produtos. Para [redes de anúncios e tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md) cujas configurações de campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro, de modo que não seja necessário adicioná-lo manualmente. Caso contrário, você deve adicionar manualmente o código aos modelos de rastreamento ou URLs finais.
+Se você usa o serviço de rastreamento de conversão da Adobe Advertising, deve incluir o código de rastreamento de cliques Search, Social e Commerce no sufixo da página de aterrissagem, modelos de rastreamento e URLs finais/de destino para anúncios, palavras-chave e inserções, links para sites e listas de produtos. Para [redes de anúncios e tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md) cujas configurações de campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, o Search, Social e Commerce adiciona automaticamente seu próprio redirecionamento e código de rastreamento ao salvar o registro, de modo que não seja necessário adicioná-lo manualmente. Caso contrário, você deve adicionar manualmente o código aos modelos de rastreamento ou URLs finais, no Search, Social e Commerce ou no próprio editor da rede de anúncios.
 
 Para obter mais informações sobre rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 

@@ -3,7 +3,7 @@ role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia do Criative
-source-git-commit: f1f2c923d744697ad621986122d3d3a658430fc2
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 4%
@@ -18,14 +18,14 @@ ht-degree: 4%
    + [Sobre o Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
    + [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+   + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
    + [Sobre o Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-   + [Gerenciar modelos](/help/creative/creative-studio/creative-studio-manage-templates.md)
-   + [Gerenciar ativos](/help/creative/creative-studio/creative-studio-manage-assets.md)
    + [Gerenciar anúncios padrão](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
    + [Gerenciar criação dinâmica](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [Gerenciar modelos](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [Gerenciar ativos](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Bibliotecas do Creative {#creative-libraries}
    + [Sobre suas bibliotecas criativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md)
@@ -102,4 +102,4 @@ ht-degree: 4%
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 + [Obter ajuda](/help/creative/get-help.md)
-+ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target="_blank"}
++ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

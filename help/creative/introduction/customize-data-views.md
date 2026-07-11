@@ -4,13 +4,11 @@ description: Saiba como personalizar os dados em cada uma das exibições dispon
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
 TQID: https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +23,9 @@ ht-degree: 0%
 
 ## Exibir dados como cartões ou como tabelas
 
-Visualize os dados nas visualizações [!UICONTROL Creative Libraries] e [!UICONTROL Experiences] como cartões individuais ou como tabelas/listas. Por padrão, os dados são mostrados no modo de exibição de cartão. A exibição de cartão mostra uma miniatura de um criativo relevante.
+<!-- Different images in Creative Studio, although pretty close -->
+
+Exibir os dados nas visualizações [!UICONTROL Creative Studio], [!UICONTROL Creative Libraries] e [!UICONTROL Experiences] como cartões individuais ou como tabelas/listas. Por padrão, os dados são mostrados no modo de exibição de cartão. A exibição de cartão mostra uma miniatura de um criativo relevante.
 
 Ao alternar entre a exibição de cartão e a exibição de tabela, os filtros e as seleções são mantidos.
 

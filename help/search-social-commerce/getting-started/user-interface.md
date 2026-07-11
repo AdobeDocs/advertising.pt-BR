@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
    * **[!UICONTROL Extensions]** Abre exibições somente leitura de suas extensões de anúncios existentes. Para gerenciar suas extensões, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Shopping]** Sai do novo site e abre a exibição [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada.<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** Abre exibições somente leitura de seus grupos de produtos de compras existentes. Para gerenciar grupos de produtos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Product Groups] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenu **[!UICONTROL Set Up]**:
 
@@ -119,6 +119,8 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
    * **[!UICONTROL Import Campaigns]**: abre uma nova visualização, da qual você pode importar dados de campanha.
 
    * **[!UICONTROL Bulksheets]**: Abre uma nova visualização [!UICONTROL Bulksheets].
+
+   * **[!UICONTROL Products]** Abre exibições somente leitura de suas contas e produtos da central de comércio existentes. Para adicionar uma conta do centro de comércio, use a exibição herdada [!UICONTROL Campaigns] > [!UICONTROL Products]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 <!--
  What's happening to these?

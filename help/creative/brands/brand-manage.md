@@ -1,13 +1,10 @@
 ---
 title: Gerenciar perfis de marca no Advertising Creative
 description: Saiba como criar, editar, duplicar e excluir perfis de marca no Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +123,11 @@ Duplicar um perfil de marca cria um novo perfil com as mesmas configurações, q
 
 A página de detalhes da marca é organizada nas guias a seguir.
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 Exibe o nome da marca. Para adicionar uma descrição, clique em **[!UICONTROL When to use this brand]**, insira o texto da descrição e clique em **[!UICONTROL Save]**. A descrição é salva imediatamente e não requer o clique no botão **[!UICONTROL Save]** no nível da página.
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 (Opcional) Defina os padrões de voz e mensagens da marca. O agente de IA usa essas diretrizes ao gerar manchetes e cópias.
 
@@ -142,7 +139,7 @@ Exibe o nome da marca. Para adicionar uma descrição, clique em **[!UICONTROL W
 
 * **[!UICONTROL Editorial Restrictions]:** (Opcional) Gravando regras a serem evitadas. Exemplos: &quot;evite o jargão&quot;, &quot;não solicite preços&quot; ou &quot;nunca use nomes de concorrentes&quot;.
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 (Opcional) Defina padrões para imagens de plano de fundo e de produtos, organizados em até 10 categorias. O agente de IA usa essas diretrizes ao gerar prompts de imagem de fundo.
 
@@ -168,7 +165,7 @@ Para excluir uma categoria, clique em ![Excluir](/help/creative/assets/delete.pn
 
 * **[!UICONTROL Restrictions]:** (Opcional) O que evitar. Inclua até cinco itens. Exemplos: &quot;sem estética de stock-foto&quot; ou &quot;evitar fundos ocupados&quot;.
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 Defina <!-- Just one set of guidelines as of 7/9: channel-specific --> até 10 padrões de cópia. O agente de IA usa diretrizes de canal ao gerar variações de cópia.
 
@@ -186,7 +183,7 @@ Defina <!-- Just one set of guidelines as of 7/9: channel-specific --> até 10 p
 
 * **[!UICONTROL Examples]:** (Opcional) Exemplo de cópia de anúncio (título, subtítulo, corpo e CTA) que ilustra o estilo especificado <!-- Just one set of guidelines as of 7/9: channel's -->. Para ver exemplos da cópia de anúncio com base em suas diretrizes, clique em **[!UICONTROL Create example]**.
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 (Opcional) Os logotipos são usados em anúncios que incluem um elemento de logotipo e estão disponíveis para o agente de IA ao trocar versões de logotipo. Os tipos de imagem compatíveis são JPG, PNG e SVG, e cada arquivo pode ter até 5 MB. Cada marca pode incluir no máximo 10 logotipos.
 
@@ -212,7 +209,7 @@ Para fazer upload de um ou mais arquivos de logotipos da marca com a mesma categ
 
    * Para remover um logotipo das configurações da marca, clique em **[!UICONTROL ...]** > **[!UICONTROL Delete]**. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 (Opcional) Defina as paletas de cores da marca. O agente IA usa as cores especificadas ao gerar variações de anúncios baseadas em cores.
 

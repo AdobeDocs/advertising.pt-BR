@@ -1,13 +1,10 @@
 ---
 title: Gerenciar modelos de anúncios no Creative Studio
 description: Saiba como criar, importar, organizar e gerenciar modelos de anúncios na guia Modelos do Creative Studio no Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 2509
 ht-degree: 2%
@@ -27,13 +24,11 @@ A guia **[!UICONTROL Templates]** fornece ações rápidas para criar ou importa
 A guia também lista seus modelos de anúncios existentes na parte inferior da página <!-- Only in the Templates tab --> como [cartões individuais (o padrão) ou como tabelas/listas](/help/creative/introduction/customize-data-views.md). A lista de modelos de anúncios inclui guias para [!UICONTROL All], [!UICONTROL System Templates] (que são carregadas para sua conta pela equipe de conta da Adobe) e [!UICONTROL User Templates]. Por padrão, são exibidos modelos de anúncio para todos os anunciantes. Para exibir apenas os modelos de anúncios de um anunciante específico, selecione na lista de anunciantes na parte superior da página.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Ações disponíveis
@@ -516,3 +511,4 @@ Os rótulos ajudam a organizar e filtrar modelos de usuário. Não é possível 
 >* [Gerenciar ativos no Creative Studio](creative-studio-manage-assets.md)
 >* [Gerenciar anúncios padrão no Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gerenciar criações dinâmicas no Creative Studio](creative-studio-manage-dynamic-ads.md)
+

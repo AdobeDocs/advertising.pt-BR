@@ -1,15 +1,12 @@
 ---
 title: Gerenciar modelos de anúncios no Creative Studio
 description: Saiba como criar, importar, organizar e gerenciar modelos de anúncios na guia Modelos do Creative Studio no Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -247,7 +244,7 @@ O painel esquerdo contém uma coluna de ícones. Clique em um ícone para abrir 
 | Ícone | Descrição |
 | --- | --- |
 | **[!UICONTROL Search]** | Pesquise em todos os tipos de ativos na biblioteca. |
-| **[!UICONTROL Upload]** | Carregar imagens <!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> no editor para uso no modelo atual. Você pode carregar até 20 arquivos de cada vez. |
+| **[!UICONTROL Upload]** | Fazer upload de imagens ou arquivos de fontes no editor para uso no modelo atual. Você pode carregar até 20 arquivos de cada vez. |
 | **[!UICONTROL Templates]** | Procure modelos de anúncios na biblioteca do Creative Studio para usar como uma camada base ou elemento de referência. |
 | **[!UICONTROL My Assets]** | Navegue por todos os ativos carregados na guia Creative Studio Assets. |
 | **[!UICONTROL Images]** | Procure somente os ativos de imagem carregados na guia Creative Studio Assets. |

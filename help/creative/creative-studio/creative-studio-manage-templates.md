@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ A guia **[!UICONTROL Templates]** fornece ações rápidas para criar ou importa
 A guia também lista seus modelos de anúncios existentes na parte inferior da página <!-- Only in the Templates tab --> como [cartões individuais (o padrão) ou como tabelas/listas](/help/creative/introduction/customize-data-views.md). A lista de modelos de anúncios inclui guias para [!UICONTROL All], [!UICONTROL System Templates] (que são carregadas para sua conta pela equipe de conta da Adobe) e [!UICONTROL User Templates]. Por padrão, são exibidos modelos de anúncio para todos os anunciantes. Para exibir apenas os modelos de anúncios de um anunciante específico, selecione na lista de anunciantes na parte superior da página.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Ações disponíveis
@@ -249,7 +247,7 @@ O painel esquerdo contém uma coluna de ícones. Clique em um ícone para abrir 
 | Ícone | Descrição |
 | --- | --- |
 | **[!UICONTROL Search]** | Pesquise em todos os tipos de ativos na biblioteca. |
-| **[!UICONTROL Upload]** | Carregar imagens <!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> no editor para uso no modelo atual. Você pode carregar até 20 arquivos de cada vez. |
+| **[!UICONTROL Upload]** | Fazer upload de imagens ou arquivos de fontes no editor para uso no modelo atual. Você pode carregar até 20 arquivos de cada vez. |
 | **[!UICONTROL Templates]** | Procure modelos de anúncios na biblioteca do Creative Studio para usar como uma camada base ou elemento de referência. |
 | **[!UICONTROL My Assets]** | Navegue por todos os ativos carregados na guia Creative Studio Assets. |
 | **[!UICONTROL Images]** | Procure somente os ativos de imagem carregados na guia Creative Studio Assets. |
@@ -516,3 +514,4 @@ Os rótulos ajudam a organizar e filtrar modelos de usuário. Não é possível 
 >* [Gerenciar ativos no Creative Studio](creative-studio-manage-assets.md)
 >* [Gerenciar anúncios padrão no Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gerenciar criações dinâmicas no Creative Studio](creative-studio-manage-dynamic-ads.md)
+

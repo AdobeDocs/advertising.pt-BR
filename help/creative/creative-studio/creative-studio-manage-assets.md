@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ A guia **[!UICONTROL Assets]** lista seus ativos existentes em uma exibição de
 * [Excluir um ativo](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## Tipos de ativos compatíveis
+
+| Tipo | Formatos compatíveis | Tamanho máximo do arquivo |
+| --- | --- | --- |
+| Imagens | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
+| Vídeo | MP4, MOV, AVI, WebM | 512 MB |
+| Áudio | MP3, WAV, AAC, OGG | 50 MB |
+| Fontes | TTF, OTF, WOFF, WOFF2 | 5 MB |
 
 ## Fazer upload de ativos {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. Selecione um ou mais arquivos do computador ou da rede.
 
-   Os seguintes tipos de arquivos são compatíveis:
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | Tipo | Formatos compatíveis | Tamanho máximo do arquivo |
-   | --- | --- | --- |
-   | Imagens | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
-   | Vídeo | MP4, MOV, AVI, WebM | 512 MB |
-   | Áudio | MP3, WAV, AAC, OGG | 50 MB |
-
    Arquivos vazios e tipos de arquivos não compatíveis são rejeitados com uma notificação de erro.
 
    O nome do ativo é salvo como o nome do arquivo carregado sem sua extensão. Espaços e caracteres não ASCII no nome do arquivo são substituídos por sublinhados (por exemplo, carregar `My Logo.png` cria um ativo chamado `My_Logo`). É possível renomear o ativo depois.
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## Editar um nome de ativo {#asset-rename}
 

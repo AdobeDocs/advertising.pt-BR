@@ -5,16 +5,12 @@ feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 257
 ht-degree: 0%
 
 ---
@@ -41,15 +37,17 @@ O Search, Social e Commerce extrai dados de desempenho de hora em hora nas conta
 
 * Exclua ou altere o status de uma campanha dentro da linha.
 
-* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Atribuir campanhas a portfólios novos ou existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [cancelar atribuição de campanhas a portfólios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Atribuir restrições a campanhas e cancelar atribuição de restrições a campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+
+* [Atribuir classificações de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a campanhas
 
 * [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/pt-br/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Atribuir campanhas a um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Remover campanhas de um portfólio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gerenciar atribuições de restrição para campanhas](campaign-constraint-assignments-manage.md)
 >* [Gerenciar relatórios de exibição de dados da [!UICONTROL Campaigns] exibição](campaign-view-report.md)

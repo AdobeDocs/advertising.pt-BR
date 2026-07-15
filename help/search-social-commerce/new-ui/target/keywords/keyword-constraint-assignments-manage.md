@@ -1,21 +1,17 @@
 ---
-title: Gerenciar atribuições de restrição para grupos de anúncios
-description: Saiba como atribuir restrições a grupos de anúncios.
+title: Gerenciar atribuições de restrição para palavras-chave
+description: Saiba como atribuir restrições a palavras-chave.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
 source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# (Nova interface) Gerenciar atribuições de restrições para grupos de anúncios
+# (Nova interface de usuário) Gerenciar atribuições de restrição para palavras-chave
 
 *recurso do Beta*
 
@@ -25,11 +21,18 @@ As restrições são herdadas por entidades filhas, portanto, não é necessári
 
 Desfazer a atribuição de uma restrição remove a associação com os componentes da conta e todos os seus componentes filhos, e os dados do relatório para a restrição não estão mais disponíveis para esses componentes. Desatribuir uma restrição não exclui a restrição nem os próprios componentes da conta.
 
-## Atribuir uma restrição aos grupos de anúncios selecionados da nova exibição [!UICONTROL Ad Groups]
+>[!NOTE]
+>
+>* Posteriormente, se você editar uma palavra-chave ou a cópia de anúncio para um anúncio não mutável, criando assim uma nova palavra-chave ou anúncio, a restrição não será atribuída à nova entidade.
+>* As restrições ativas restringem os lances somente para unidades de lance atribuídas em portfólios de nível de palavra-chave herdada otimizados. Elas são ignoradas para unidades de oferta que estão em portfólios ativos, estão em portfólios híbridos ou não estão em portfólios.
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Atribuir uma restrição aos anúncios selecionados da nova exibição [!UICONTROL Keywords]
 
-1. Marque a caixa de seleção ao lado de cada grupo de publicidade ao qual você atribuirá uma única restrição.
+Você pode atribuir uma única restrição a uma ou mais campanhas.
+
+1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+
+1. Na guia **[!UICONTROL Keywords]**, marque a caixa de seleção ao lado de cada palavra-chave à qual você atribuirá uma única restrição.
 
 1. Na barra de ferramentas de ações em massa, clique em **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -57,11 +60,11 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Desatribuir restrições dos grupos de anúncios selecionados da nova visualização [!UICONTROL Ad Groups]
+## Desatribuir restrições de campanhas selecionadas da nova visualização [!UICONTROL Keywords]
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 
-1. Marque a caixa de seleção ao lado de cada grupo de publicidade do qual você cancelará a atribuição de restrições.
+1. Na guia **[!UICONTROL Keywords]**, marque a caixa de seleção ao lado de cada palavra-chave da qual você cancelará a atribuição de restrições.
 
 1. Na barra de ferramentas de ações em massa, clique em **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -87,5 +90,5 @@ Desfazer a atribuição de uma restrição remove a associação com os componen
 >
 >* [(Nova interface do usuário) Gerenciar restrições para unidades de oferta de pesquisa](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nova interface do usuário) Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Nova interface do usuário) Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(Nova interface do usuário) Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(Nova interface do usuário) Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

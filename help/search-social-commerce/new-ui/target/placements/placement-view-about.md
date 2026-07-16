@@ -4,9 +4,9 @@ description: Saiba o que você pode fazer na exibição [!UICONTROL Placements].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Placements] inclui duas guias:
 
 ## Ações disponíveis
 
-* [Atribuir restrições a disposições e cancelar atribuição de restrições a disposições](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+* [Atribuir restrições a disposições e cancelar atribuição de restrições a disposições](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+
+* [Atribuir classificações de rótulo](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a posicionamentos
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

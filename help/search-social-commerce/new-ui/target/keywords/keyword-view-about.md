@@ -4,9 +4,9 @@ description: Saiba o que você pode fazer na exibição [!UICONTROL Keywords].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Keywords] inclui duas guias:
 
 ## Ações disponíveis
 
-* [Atribuir restrições a palavras-chave e cancelar atribuição de restrições a palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+* [Atribuir restrições a palavras-chave e cancelar atribuição de restrições a palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+
+* [Atribuir classificações de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a palavras-chave
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)

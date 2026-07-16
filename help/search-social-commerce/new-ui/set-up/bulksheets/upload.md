@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +30,7 @@ Você pode carregar arquivos de bulksheet, arquivos de erro de validação de p�
 
 1. Clique em **[!UICONTROL Upload]**.
 
-Quando a tarefa for iniciada, o arquivo será listado no modo de exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), uma notificação por email é enviada com um link para o arquivo quando o trabalho é concluído. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Se a geração do arquivo falhar, um arquivo de erro será listado na exibição [!UICONTROL Bulksheets] e uma notificação será enviada por email com um link para o arquivo de erro.
+Quando a tarefa for iniciada, o arquivo será listado no modo de exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), uma notificação por email é enviada com um link para o arquivo quando o trabalho é concluído. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Se a geração do arquivo falhar, um arquivo de erro será listado na exibição [!UICONTROL Bulksheets] e uma notificação será enviada por email com um link para o arquivo de erro.
 
 >[!NOTE]
 >

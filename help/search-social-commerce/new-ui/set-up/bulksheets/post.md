@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ Os arquivos de bulksheet e de erro são excluídos automaticamente 30 dias após
 
    As mesmas configurações se aplicam a todos os arquivos publicados.
 
-Quando a tarefa for iniciada, o status e a data de postagem agendada para a linha serão atualizados no modo de exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), uma notificação por email com um link para o arquivo é enviada quando o arquivo é postado. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Se algum dos dados não puder ser postado, um arquivo de erro será listado no modo de exibição [!UICONTROL Bulksheets] e uma notificação será enviada por email com um link para o arquivo de erro.
+Quando a tarefa for iniciada, o status e a data de postagem agendada para a linha serão atualizados no modo de exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), uma notificação por email com um link para o arquivo é enviada quando o arquivo é postado. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Se algum dos dados não puder ser postado, um arquivo de erro será listado no modo de exibição [!UICONTROL Bulksheets] e uma notificação será enviada por email com um link para o arquivo de erro.
 
 >[!NOTE]
 >

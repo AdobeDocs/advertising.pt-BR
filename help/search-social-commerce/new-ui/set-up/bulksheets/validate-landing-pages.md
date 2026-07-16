@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ Posteriormente, você pode baixar o arquivo, corrigir os erros, fazer upload do 
 
    **[!UICONTROL Report redirects as errors]:** Quando uma página de aterrissagem é redirecionada para outra página (por exemplo, se a página de aterrissagem estiver ausente e o site exibir uma página substituta), a coluna [!UICONTROL EF Errors] no arquivo de erro da página de aterrissagem indica a URL para a qual a página de aterrissagem é redirecionada.
 
-Quando a tarefa for iniciada, uma nova linha será adicionada à exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), uma notificação por email com um link para o arquivo é enviada quando o arquivo é criado. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Você pode baixar o arquivo para editá-lo e depois fazer upload dele para publicação ou postar o arquivo como está.
+Quando a tarefa for iniciada, uma nova linha será adicionada à exibição [!UICONTROL Bulksheets]. Quando as notificações por email de bulksheets estão [habilitadas dentro de [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), uma notificação por email com um link para o arquivo é enviada quando o arquivo é criado. Dependendo da quantidade de dados compilados, a notificação por email pode levar vários minutos ou mais. Você pode baixar o arquivo para editá-lo e depois fazer upload dele para publicação ou postar o arquivo como está.
 
 >[!NOTE]
 >

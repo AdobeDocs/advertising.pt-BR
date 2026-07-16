@@ -7,9 +7,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1854
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Algumas contas podem gerenciar suas regras de valor de conversão:
 
 * Em contas para as quais as conversões são rastreadas no nível de conta individual ou de campanha, você pode [criar](#google-conversion-value-rule-create), [editar](#google-conversion-value-rule-edit) e [alterar o status](#google-conversion-value-rule-change-status) das suas regras no nível de conta e de campanha.
 
-  As contas podem ser vinculadas a [[!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/), mas elas não podem usar o rastreamento de conversões entre contas (para as quais as conversões são rastreadas em todas as contas na conta de gerente).
+  As contas podem ser vinculadas a [[!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md), mas elas não podem usar o rastreamento de conversões entre contas (para as quais as conversões são rastreadas em todas as contas na conta de gerente).
 
 * Em contas que usam o rastreamento de conversão entre contas, suas regras de nível de conta e de nível de campanha são herdadas da conta do gerente e são somente leitura.
 

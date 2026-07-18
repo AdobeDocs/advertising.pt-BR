@@ -2,7 +2,7 @@
 title: Gerenciar classificações de etiquetas
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 >
 >Suas palavras-chave e cópia de anúncio para algumas redes de anúncios e tipos de campanha são [não mutáveis](/help/search-social-commerce/campaign-management/faqs-campaigns.md), o que significa que editá-las excluirá a entidade existente e criará uma nova. Quando uma entidade existente é excluída dessa maneira, a classificação de etiqueta não é atribuída à nova entidade.
 
-1. [Baixe uma bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) que inclui as entidades às quais você deseja atribuir valores de classificação de etiquetas:
+1. [Baixe uma bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) que inclui as entidades às quais você deseja atribuir valores de classificação de etiquetas:
 
    * Na guia [!UICONTROL Rows and Columns], expanda a lista [!UICONTROL Campaign] no painel [!UICONTROL Bulksheet Columns].
 
@@ -127,7 +127,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
    Além de adicionar valores, também é possível excluir valores existentes, removendo-os das linhas relevantes. Para remover valores de uma entidade pai e de suas entidades filho, a) inclua somente a linha de entidade pai e remova o valor de classificação existente ou b) inclua a entidade pai e suas entidades filho e remova o valor de classificação existente de todas as linhas pai e filho.
 
-1. [Carregue o arquivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para criar as associações.<!-- Update once the new bulksheet UI is GA -->
+1. [Carregue o arquivo](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) para criar as associações.
 
 Os valores de etiqueta enviados estão visíveis nas visualizações de entidade relevantes.
 

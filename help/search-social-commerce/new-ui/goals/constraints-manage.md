@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ Além de abrir a [[!UICONTROL Constraints] visualização](#constraints-view), v
 
 * Todas as suas restrições são valores de etiquetas para uma única [classificação de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=pt-BR) chamada &quot;[!UICONTROL Constraints]&quot;.
 
-   * &quot;[!UICONTROL Constraints]&quot; está incluído na lista &quot;[!UICONTROL Classifications]&quot; nas configurações de exibição padrão e personalizada e nos relatórios agendados. Você pode adicionar a coluna sempre que quiser ver as restrições atribuídas às entidades relevantes.
+  * &quot;[!UICONTROL Constraints]&quot; está incluído na lista &quot;[!UICONTROL Classifications]&quot; nas configurações de exibição padrão e personalizada e nos relatórios agendados. Você pode adicionar a coluna sempre que quiser ver as restrições atribuídas às entidades relevantes.
 
-   * Quando você baixa uma bulksheet, &quot;[!UICONTROL Constraints]&quot; é listado na coluna &quot;[!UICONTROL Classifications]&quot; para as entidades aplicáveis na caixa de diálogo [!UICONTROL Download Bulksheet]. Ao incluir a coluna, o bulksheet baixado inclui todas as restrições atribuídas às entidades relevantes.
+  * Quando você baixa uma bulksheet, &quot;[!UICONTROL Constraints]&quot; é listado na coluna &quot;[!UICONTROL Classifications]&quot; para as entidades aplicáveis na caixa de diálogo [!UICONTROL Download Bulksheet]. Ao incluir a coluna, o bulksheet baixado inclui todas as restrições atribuídas às entidades relevantes.
 
   A classificação [!UICONTROL Constraints] não está incluída na exibição [!UICONTROL Label Classifications] — a exibição [!UICONTROL Constraints] é separada. A classificação [!UICONTROL Constraints] também não está incluída no limite de classificação de 30 rótulos.
 
@@ -134,7 +134,7 @@ Depois de criar uma restrição, você pode [atribuí-la](#constraint-assign) a 
 
 Você pode pausar qualquer restrição ativa para desativá-la. Você pode habilitá-lo mais tarde alterando o status de volta para *ativo*.
 
-Também é possível excluir uma restrição, o que remove todas as associações com componentes de conta e torna a restrição indisponível para uso futuro. Os dados de relatório para a restrição não estão mais disponíveis. **Observação:** para simplesmente desassociar uma restrição de um componente de conta, consulte &quot;[Cancelar atribuição de restrições de unidades de oferta de pesquisa](#constraints-unassign).&quot;
+Também é possível excluir uma restrição, o que remove todas as associações com componentes de conta e torna a restrição indisponível para uso futuro. Os dados de relatório para a restrição não estão mais disponíveis. **Observação:** para simplesmente desassociar uma restrição de um componente de conta, consulte &quot;[Remover restrições de unidades de oferta de pesquisa](#constraints-unassign).&quot;
 
 1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 

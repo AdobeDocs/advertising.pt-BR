@@ -4,7 +4,7 @@ description: Saiba como atribuir restrições a inserções.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Você pode atribuir uma única restrição a uma ou mais disposições.
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Desatribuir restrições de posicionamentos selecionados da nova visualização [!UICONTROL Placements]
+## Remover restrições dos posicionamentos selecionados da nova exibição [!UICONTROL Placements]
 
 1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Placements]**.
 

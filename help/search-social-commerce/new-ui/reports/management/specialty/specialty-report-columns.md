@@ -2,7 +2,7 @@
 title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] relatórios) A taxa de conversão como uma porcentagem. |
 | [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] e [!UICONTROL MSA Ad Extension] relatórios) O número total de conversões. Para o [!UICONTROL Google AI Max Search Term Combination Report], esse valor inclui ações de conversão que não estão incluídas na sua coluna principal de Conversões. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] relatórios) O número de conversões. |
-| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])O valor de todas as conversões. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões. |
 | [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) O valor de todas as conversões dividido pelo custo total das interações do anúncio (como cliques ou visualizações de vídeo). |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] relatórios) O custo por conversão. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] relatórios) A receita total dividida por gasto, expressa como uma porcentagem. |

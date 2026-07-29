@@ -2,9 +2,9 @@
 title: Sobre relatórios básicos e avançados
 description: Saiba mais sobre relatórios básicos e avançados personalizáveis.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Relatórios básicos mostram o custo real e os dados de cliques de portfólios (
 * [O [!UICONTROL Keyword Report]](keyword-report.md)
 
 * [O [!UICONTROL Product Group Report]](product-group-report.md)
+
+* [O [!UICONTROL Asset Report]](asset-report.md)
 
 ### Relatórios de classificação
 

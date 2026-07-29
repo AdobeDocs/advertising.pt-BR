@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: 283
 ht-degree: 0%
 
 ---
@@ -26,6 +26,9 @@ ht-degree: 0%
 # Pré-requisitos para integração do Adobe Advertising com o Customer Journey Analytics
 
 *Anunciantes com o Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
+
+
+* (Anunciantes com Customer Journey Analytics, mas não [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) Versão 2.36 ou superior.
 
 * Adobe Customer Journey Analytics com acesso a ferramentas de gerenciamento de dados
 

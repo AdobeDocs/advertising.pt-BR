@@ -3,9 +3,9 @@ title: (Nova interface do usuário) Gerenciar contas de rede de anúncios
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface para uma rede de anúncios sincronizada por meio da API da rede de anúncios.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 
 1. (Todas as redes de anúncios, exceto [!DNL Yandex]) Faça logon na rede de anúncios usando as credenciais do anunciante. Selecione a opção &quot;Rastreamento de conta para esta conta&quot;. Em seguida, no canto superior direito, clique em **[!UICONTROL Next]**.
 
-1. Especifique as [configurações da conta](#account-settings-api):
-
-   1. Na guia **[!UICONTROL Select Accounts]**, especifique as configurações gerais da conta. Para contas do [!DNL Yandex], especifique as credenciais da conta.
-
-   1. Clique na guia **[!UICONTROL Setup Tracking]** e insira as configurações de rastreamento.
-
-   1. (Anunciantes com uma [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md)) Clique na guia **[!UICONTROL Set up Adobe Analytics]** e selecione todos os conjuntos de relatórios [!DNL Analytics] para usar no rastreamento e na atividade de campanha de relatórios.
+1. Especifique as [configurações da conta](#account-settings-api) em cada guia disponível.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -68,15 +62,7 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 
    * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
 
-1. Edite as [configurações da conta](#account-settings-api):
-
-   1. (Opcional) Na guia **[!UICONTROL Account Details]**, edite os detalhes da conta.
-
-   1. (Opcional) Clique na guia **[!UICONTROL Setup Tracking]** e edite as configurações de rastreamento.
-
-   1. (Opcional; anunciantes com uma [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md)) Clique na guia **[!UICONTROL Set up Adobe Analytics]** e edite os conjuntos de relatórios [!DNL Analytics] para usar no rastreamento e na atividade de campanha de relatórios.
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. Edite as [configurações da conta](#account-settings-api) nas guias disponíveis.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -114,21 +100,21 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
    * (Da exibição [!UICONTROL Accounts]):
 
-      * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Activate]** na barra de ferramentas de ações em massa.
+     * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Activate]** na barra de ferramentas de ações em massa.
 
-      * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Pause]** na barra de ferramentas de ações em massa.
+     * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Pause]** na barra de ferramentas de ações em massa.
 
    * (Nas configurações da conta):
 
-      1. Selecione a conta de uma das seguintes maneiras:
+     1. Selecione a conta de uma das seguintes maneiras:
 
-         * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
+        * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
 
-         * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
+        * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
 
-      1. Na guia **[!UICONTROL Account Details]**, desative o **[!UICONTROL Account enabled]**.
+     1. Na guia **[!UICONTROL Account Details]**, desative o **[!UICONTROL Account enabled]**.
 
-      1. Clique em **[!UICONTROL Save]**.
+     1. Clique em **[!UICONTROL Save]**.
 
 ## Adicionar configurações de conta de rede {#account-settings-api}
 
@@ -232,9 +218,9 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
+  * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -248,11 +234,11 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 >* O modelo de rastreamento no nível mais granular substitui os valores em todos os níveis superiores. Por exemplo, se as configurações da conta e as configurações de palavra-chave incluírem um valor, o valor da palavra-chave será aplicado.
 >* Se você atualizar um modelo de rastreamento no nível de anúncio, link do site ou palavra-chave, os anúncios relevantes serão reenviados para revisão. É possível atualizar os modelos de rastreamento nos níveis de conta, campanha ou grupo de anúncios sem reenviar os anúncios para aprovação.
 
-## Guia [!UICONTROL Setup Analytics]
+## Guia [!UICONTROL Set up Adobe Analytics]
 
 Estas configurações estão disponíveis para anunciantes com uma [[!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md).
 
-**[!UICONTROL Adobe Analytics Report Suite]:** (opcional) um ou mais conjuntos de relatórios do Analytics para os quais Search, Social e Commerce enviam dados coletados da rede de publicidade, incluindo classificações de entidade e dados de cliques da conta. Esse recurso está disponível somente para redes de anúncios compatíveis.
+**[!UICONTROL Adobe Analytics Report Suite]:** (opcional) um ou mais conjuntos de relatórios do Analytics para os quais Search, Social e Commerce enviam dados coletados da rede de publicidade, incluindo classificações de entidade e dados de cliques da conta. Este recurso está disponível somente para redes de anúncios com suporte.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AMO do lado do servidor deve ser configurado para a conta ou (b) a configuração no nível do anunciante como &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; deve ser habilitada. Além disso, a conta [!DNL Analytics] do anunciante deve ser configurada para receber dados do Search, Social e Commerce. Para obter mais informações, entre em contato com a equipe de conta da Adobe.
 

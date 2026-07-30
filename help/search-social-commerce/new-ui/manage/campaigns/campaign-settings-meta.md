@@ -30,8 +30,6 @@ Você não pode criar campanhas de [!DNL Meta Ads] no Search, Social e Commerce.
 
 <!-- **[!UICONTROL End Date]:** -->
 
-{{$include /help/_includes/end-date.md}}
-
 **[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*.
 
 ## [!UICONTROL Campaign Tracking]
@@ -44,4 +42,4 @@ Você não pode criar campanhas de [!DNL Meta Ads] no Search, Social e Commerce.
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar campanhas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Gerenciar campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)

@@ -2,10 +2,14 @@
 title: Gerenciar anúncios
 description: Saiba como criar e gerenciar anúncios, incluindo os tipos de anúncios disponíveis.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
 workflow-type: tm+mt
 source-wordcount: 1733
@@ -121,7 +125,7 @@ No entanto, não está disponível para [!DNL Google Ads] anúncio de pesquisa d
 
 1. Clique em **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Anúncios de compras em campanhas com rastreamento de conversão do Adobe Advertising; opcional) Para rastrear cliques no anúncio, adicione manualmente um URL de rastreamento às configurações de conta, campanha ou grupo de produtos.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Anúncios de compras em campanhas com rastreamento de conversão do Adobe Advertising; opcional) Para rastrear cliques no anúncio, adicione manualmente um URL de rastreamento às configurações de conta, campanha ou grupo de produtos.
 
 ## Renomear um anúncio {#ad-rename}
 

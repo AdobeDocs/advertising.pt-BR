@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
+source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2396
 ht-degree: 2%
 
 ---
@@ -133,9 +133,17 @@ ht-degree: 2%
         + [Configurações do grupo de anúncios [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [Configurações do grupo de anúncios [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Anúncios {#ads}
-      + [Sobre a exibição [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-      + [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
-      + [Alterar o status de um anúncio](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
+      + [Gerenciar anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
+      + Configurações de publicidade por rede de publicidade {#ad-settings-by-network}
+        + [Configurações de anúncio de texto [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [Configurações de anúncios de pesquisa responsiva [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising] configurações de anúncios multimídia](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [Configurações de anúncio de produto de [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [[!DNL Microsoft Advertising] configurações de anúncios responsivos (público-alvo)](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [Configurações de anúncios de pesquisa responsiva [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [Configurações de anúncio de texto [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
   + Relatórios {#reports}
     + Relatórios agendados {#scheduled}
       + [Sobre relatórios agendados](/help/search-social-commerce/new-ui/reports/report-about.md)

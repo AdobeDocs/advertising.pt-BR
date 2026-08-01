@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -72,7 +72,7 @@ O Search, Social e Commerce extrai dados de desempenho de hora em hora nas conta
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") e altere as configurações da campanha.
+1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere as configurações da campanha.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -108,7 +108,7 @@ Você pode editar configurações para campanhas individuais. Você também pode
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") e altere as configurações da campanha.
+1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere as configurações da campanha.
 
 1. Clique em **[!UICONTROL Update]**.
 

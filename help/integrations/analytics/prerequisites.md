@@ -34,8 +34,8 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 ## Requisitos para relatórios de dados do Adobe Advertising em [!DNL Analytics]
 
 * Qualquer uma das seguintes opções:
-   * Adobe Experience Platform Web SDK: `alloy.js`
-   * Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
+  * Adobe Experience Platform Web SDK: `alloy.js`
+  * Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
 * Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
 * (Clientes do Advertising DSP) Um [trecho do Advertising DSP JavaScript](javascript.md) implantado em suas páginas da Web para rastrear visitas de view-through.

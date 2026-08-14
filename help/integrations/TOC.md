@@ -57,4 +57,4 @@ ht-degree: 1%
   + {hide-from-toc}[Solução de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
   + {hide-from-toc}[Solução de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
   + {hide-from-toc}[Solução de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
-+ [Tutoriais em vídeo sobre integrações do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Tutoriais em vídeo sobre integrações do Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=pt-BR)

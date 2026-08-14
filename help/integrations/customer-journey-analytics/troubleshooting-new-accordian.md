@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 21280b9826b60e69d9f4829062db1b140aba5c88
+source-git-commit: eeb21c1e06f6e10409a3afde9ea0743539a01a42
 workflow-type: tm+mt
-source-wordcount: 3204
+source-wordcount: 3209
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ A seguir estão possíveis problemas, suas possíveis causas e soluções.
 | Nenhuma chamada alloy() está visível na guia Rede do navegador | Consulte a seção &quot;[Problemas de instalação e instalação](#issues-installation-setup)&quot; > &quot;[A extensão WebSDK não inicializa](#websdk-extension-doesn't-initialize)&quot; |
 | Erro do console: liga não definida | Consulte &quot;[Problemas de instalação e configuração](#issues-installation-setup)&quot; > &quot;[A extensão WebSDK não inicializa](#websdk-extension-doesn't-initialize)&quot; |
 | Não há solicitações de interação ou coleta para edge.adobedc.net | Consulte &quot;[Problemas de instalação e configuração](#issues-installation-setup)&quot; > &quot;[A extensão WebSDK não inicializa](#websdk-extension-doesn't-initialize)&quot; |
-| As solicitações atingem a borda, mas retornam erros 400 ou 500 | Consulte a seção &quot;[Problemas de instalação e instalação](#issues-installation-setup)&quot; > &quot;[Sequência de dados não configurada ou configurada incorretamente](#datastream-not-configured-or-misconfigured)&quot; |
+| As solicitações chegam ao Experience Platform Edge Network, mas retornam erros 400 ou 500 | Consulte a seção &quot;[Problemas de instalação e instalação](#issues-installation-setup)&quot; > &quot;[Sequência de dados não configurada ou configurada incorretamente](#datastream-not-configured-or-misconfigured)&quot; |
 | Nenhum dado é exibido nos relatórios do Adobe Analytics ou Adobe Advertising | Consulte a seção &quot;[Problemas de instalação e instalação](#issues-installation-setup)&quot; > &quot;[Sequência de dados não configurada ou configurada incorretamente](#datastream-not-configured-or-misconfigured)&quot; |
 | Erro na resposta da rede: &quot;sequência de dados não encontrada&quot; | Consulte a seção &quot;[Problemas de instalação e instalação](#issues-installation-setup)&quot; > &quot;[Sequência de dados não configurada ou configurada incorretamente](#datastream-not-configured-or-misconfigured)&quot; |
 | Nenhuma conversão de view-through ou click-through é registrada para a página da Web | Consulte a seção &quot;[problemas de configuração de extensão do Advertising](#advertising-extension-setup-issues)&quot; |
@@ -93,7 +93,7 @@ Adicione `edge.adobedc.net` e `assets.adobedtm.com` à sua CSP `connect-src` e `
 
 #### Problemas:
 
-* As solicitações atingem a borda, mas retornam erros 400 ou 500
+* As solicitações chegam ao Experience Platform Edge Network, mas retornam erros 400 ou 500
 * Nenhum dado é exibido nos relatórios do Adobe Analytics ou do Adobe Advertising<!-- It's not useful to organize this info by cause, not symptom -->
 * Erro na resposta da rede: &quot;sequência de dados não encontrada&quot;
 
@@ -214,7 +214,7 @@ Antes de abrir um tíquete de suporte para problemas de configuração de extens
 
 +++ Cookies de terceiros estão bloqueados
 
-Migre para a coleção de dados CNAME primários configurando um domínio primário na configuração de borda da sequência de dados.
+Migre para a coleção de dados CNAME primários configurando um domínio primário na configuração do Edge Network da sequência de dados.
 
 +++
 
@@ -460,7 +460,7 @@ Answer
 
 ### Adobe Experience Platform Debugger
 
-Instale a extensão [!DNL Adobe Experience Platform Debugger] para [!DNL Chrome]. Ele fornece:
+Instalar a extensão [!DNL Adobe Experience Platform Debugger] para [!DNL Chrome] para:
 
 * Uma exibição em tempo real de todas as chamadas `alloy()` do SDK da Web
 * Validação do ambiente e da ID da sequência de dados
@@ -472,12 +472,12 @@ Verificações de chave no depurador:
 | Guia | O que verificar |
 | ----- | --- |
 | [!UICONTROL Summary] | Confirma que o SDK da Web foi detectado e mostra a versão instalada. |
-| [!UICONTROL Adobe Experience Platform WebSDK] | Mostra cada evento acionado, a carga XDM completa e a resposta da borda. |
+| [!UICONTROL Adobe Experience Platform WebSDK] | Mostra cada evento acionado, a carga XDM completa e a resposta do Edge Network. |
 | [!UICONTROL Adobe Advertising] | Confirma a captura da ID do AMO e a chamada de interação XDM com o tipo de evento `advertising.enrichment`. |
 
 ### Guia Rede do navegador
 
-Filtrar por `edge.adobedc.net` para inspecionar solicitações de borda bruta:
+Filtrar por `edge.adobedc.net` para inspecionar solicitações brutas de Edge Network:
 
 * URL de solicitação: `https://[org-id].data.adobedc.net/ee/v2/interact`
 * Método: `POST`
@@ -522,20 +522,20 @@ Verifique o seguinte antes de abrir um tíquete de suporte:
 * O componente [!UICONTROL Advertising] está habilitado na configuração da extensão WebSDK e uma ID de anunciante do DSP está configurada.
 * O esquema XDM inclui o grupo de campos [!UICONTROL Advertising].
 * A regra [!UICONTROL Send Event] inclui um mapa de identidade e é acionada no evento correto.
-* Nenhuma CSP ou configuração de privacidade do navegador está bloqueando solicitações de borda.
-* O Depurador [!DNL Adobe Experience Platform] confirma que os eventos estão atingindo a borda.
+* Nenhuma CSP ou configuração de privacidade do navegador está bloqueando solicitações do Edge Network.
+* O Depurador [!DNL Adobe Experience Platform] confirma que os eventos estão atingindo a Edge Network.
 * Nenhum erro do JavaScript no console do navegador está interrompendo a execução.
-* O grupo de campos **Extensão completa do Adobe Advertising Cloud ExperienceEvent** é adicionado ao esquema.
+* O grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` é adicionado ao esquema.
 * `_experience.adcloud.conversionDetails.trackingCode` está presente no esquema.
 * `_experience.adcloud.conversionDetails.trackingIdentity` está presente no esquema.
-* A URL da página de aterrissagem contém `s_kwcid` e `ef_id` no click-through.
+* A URL da página de aterrissagem contém os parâmetros `s_kwcid` e `ef_id` no click-through.
 * O Depurador [!DNL Adobe Experience Platform] confirma que `conversionDetails` está preenchido na carga de saída.
 
 ## Quando escalonar
 
 Entre em contato com a Equipe de conta da Adobe ou com a equipe de engenharia se:
 
-* As solicitações do Edge retornam erros persistentes de `500` após a validação da sequência de dados.
+* As solicitações do Edge Network retornam erros persistentes de `500` após a validação da sequência de dados.
 * [!UICONTROL Advertising] conversões são confirmadas no depurador, mas não aparecem nos relatórios após 24-48 horas.
 * Uma atualização de versão do WebSDK apresenta uma regressão que não estava presente na versão anterior. Inclua os números de versão específicos no tíquete de suporte.
 

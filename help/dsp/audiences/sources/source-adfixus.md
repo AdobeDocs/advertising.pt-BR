@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Você pode exibir a impressão, os cliques, a frequência e outras métricas par
       As configurações de origem incluirão uma chave de origem gerada automaticamente.
 
    1. Compartilhe a chave de origem com sua equipe do [!DNL AdFixus] para que eles possam transmitir os segmentos necessários para a DSP.
+
+      Eles podem continuar a usar a mesma chave fonte para todos os dados do [!DNL AdFixus] para compartilhar com a conta ou anunciante.
 
 1. Verifique na seção [!UICONTROL First Party Segments] da biblioteca de público-alvo (que está disponível ao criar ou editar um público a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está sendo preenchido. Compare o número de [!DNL AdFixus] IDs com o número de IDs de usuário em [!DNL AdFixus].
 

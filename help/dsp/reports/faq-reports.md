@@ -14,14 +14,26 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # Perguntas frequentes sobre relatórios personalizados
+
+## Relatórios de conversão
+
+### Qual a diferença entre o relatório [!UICONTROL Conversion] e o relatório [!UICONTROL DSP Self-Attributed Conversions]?
+
+Ambos os relatórios usam as mesmas dimensões, métricas e modelos de atribuição, incluindo detalhamentos de click-through e view-through.
+
+Na maioria dos relatórios, incluindo o relatório [!UICONTROL Conversion], uma conversão é creditada ao último clique antes da conversão. Quando um cliente vê um anúncio do DSP e depois clica em um anúncio de pesquisa antes da conversão, essa exposição do DSP geralmente não aparece nos números de conversão.
+
+No entanto, o relatório [!UICONTROL DSP Self-Attributed Conversions] conecta as conversões de volta às impressões do DSP e aos cliques que as precederam, para que você possa entender a contribuição mais ampla do DSP para a jornada. Pense nesse relatório como uma visão complementar da contribuição da DSP, não como uma correção para o relatório [!UICONTROL Conversion]. É mais útil para anunciantes que usam Advertising DSP e Advertising Search, Social e Commerce.
+
+Como os dois relatórios usam métodos diferentes para conectar conversões a anúncios, os totais de sua métrica não corresponderão. Isso é esperado, não uma discrepância.
 
 ## Relatórios do agregado
 

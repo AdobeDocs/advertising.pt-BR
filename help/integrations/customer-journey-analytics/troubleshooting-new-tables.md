@@ -3,10 +3,18 @@ title: Solução de problemas de dados do Adobe Advertising no Customer Journey 
 description: Saiba como solucionar e resolver problemas de dados do Adobe Advertising no Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: c3ffa88d5df4fa2ff7e52813503c10b67d7c6eb7
 workflow-type: tm+mt
 source-wordcount: 3290
@@ -47,7 +55,7 @@ A seguir estão possíveis problemas, suas possíveis causas e soluções.
 
 ## Problemas de instalação e configuração {#issues-installation-setup}
 
-### A extensão WebSDK não inicializa {#websdk-extension-doesn&#39;t-initialize}
+### A extensão WebSDK não inicializa #websdk-extension-doesn&#39;t-initialize
 
 #### Problemas:
 
@@ -130,7 +138,7 @@ Antes de abrir um tíquete de suporte para problemas de configuração de extens
 | Cookies de terceiros estão bloqueados | Migre para a coleção de dados CNAME primários configurando um domínio primário na configuração do Edge Network da sequência de dados. |
 | `idMigrationEnabled` está definido como `false` enquanto um cookie `s_ecid` herdado está presente | Defina `idMigrationEnabled: true` na configuração base do SDK da Web para migrar a ECID existente dos cookies `s_ecid` ou `AMCV_`. |
 
-### As regras ou os eventos não são acionados {#rules-or-events-don&#39;t-fire}
+### As regras ou os eventos não são acionados #rules-or-events-don&#39;t-fire
 
 #### Problemas:
 

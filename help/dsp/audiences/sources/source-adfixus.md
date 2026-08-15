@@ -2,20 +2,14 @@
 title: Importar segmentos próprios de  [!DNL AdFixus]
 description: Saiba como importar seus [!DNL AdFixus] segmentos primários que consistem em [!DNL AdFixus] IDs universais para o DSP.
 feature: DSP Audiences
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -48,6 +42,8 @@ Você pode exibir a impressão, os cliques, a frequência e outras métricas par
 
    1. Compartilhe a chave de origem com sua equipe do [!DNL AdFixus] para que eles possam transmitir os segmentos necessários para a DSP.
 
+      Eles podem continuar a usar a mesma chave fonte para todos os dados do [!DNL AdFixus] para compartilhar com a conta ou anunciante.
+
 1. Verifique na seção [!UICONTROL First Party Segments] da biblioteca de público-alvo (que está disponível ao criar ou editar um público a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está sendo preenchido. Compare o número de [!DNL AdFixus] IDs com o número de IDs de usuário em [!DNL AdFixus].
 
    Os segmentos estão disponíveis no DSP assim que são criados.
@@ -58,7 +54,7 @@ Os segmentos são atualizados e disponibilizados para direcionamento a cada trê
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

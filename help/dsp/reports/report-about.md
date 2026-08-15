@@ -4,22 +4,14 @@ description: Saiba mais sobre as opções para criar relatórios personalizados 
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +57,9 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
   * **[!UICONTROL Device]:** Use este modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 
-  * **[Conversões autoatribuídas do DSP]:** use este relatório para ver a contribuição da Advertising DSP para conversões, incluindo jornadas de clientes nas quais o DSP desempenhou uma função, mas posteriormente, como um clique de pesquisa do Adobe Advertising, recebeu crédito de último clique em outros relatórios.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este relatório para ver a contribuição da Advertising DSP para conversões, incluindo jornadas de clientes nas quais a DSP desempenhou uma função, mas teve um contato posterior, como um clique de pesquisa do Adobe Advertising, recebeu crédito de último clique em outros relatórios. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações.
 
-    O relatório padrão credita o último clique antes de uma conversão. Quando um cliente vê um anúncio do DSP e depois clica em um anúncio de pesquisa antes da conversão, essa exposição do DSP geralmente não aparece nos números de conversão. Esse relatório conecta as conversões de volta às impressões do DSP e aos cliques que as precederam, para que você possa ver a função do DSP, mesmo quando não foi o último contato. É mais útil para anunciantes que usam Advertising DSP e Advertising Search, Social e Commerce.
-
-    **Importante:** este relatório não altera os relatórios de atribuição do Adobe Analytics nem a metodologia de atribuição existente. Ela fornece uma visualização complementar específica do DSP da contribuição de conversão.
+    **Importante:** este relatório não altera a atribuição ou a metodologia de atribuição existente nos relatórios do Adobe Analytics. Ela fornece uma visualização complementar específica do DSP da contribuição de conversão.
 
   * **[!UICONTROL Frequency (by Impression)]:** Use este relatório para entender a distribuição de impressões mostradas para visualizadores únicos (por exemplo, quantos visualizadores únicos viram uma impressão, duas impressões, três impressões e assim por diante). Os dados estão disponíveis por disposição ou campanha.
 
@@ -88,9 +78,9 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
   * **[!UICONTROL Geo]**: use este modelo pré-preenchido para ver as métricas principais por dimensões geográficas.
 
-  * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+  * **[!UICONTROL Household Conversions]:** Use este relatório para ver conversões de view-through no nível doméstico com base no endereço IP, em vez de no nível do dispositivo/cookie. Use os insights para medir e otimizar o desempenho da campanha. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-  * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+  * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
   * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
@@ -158,7 +148,7 @@ Você pode criar novos relatórios personalizados, editar relatórios existentes
 >* [Criar um relatório personalizado](/help/dsp/reports/report-create.md)
 >* [Baixar um relatório personalizado](/help/dsp/reports/report-download.md)
 >* [Configurações de relatório personalizado](/help/dsp/reports/report-settings.md)
->* [Perguntas frequentes sobre relatórios domésticos](/help/dsp/reports/faq-reports.md)
+>* [Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)
 >* [Tipos de relatórios de desempenho em exibições de gerenciamento de campanhas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colunas de relatório disponíveis](/help/dsp/reports/report-columns.md)
 >* [Sobre destinos de relatórios](/help/dsp/reports/report-destinations/report-destination-about.md)

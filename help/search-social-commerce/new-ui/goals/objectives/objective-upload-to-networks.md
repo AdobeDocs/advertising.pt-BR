@@ -3,9 +3,9 @@ title: (Nova interface) Habilitar upload de objetivos em redes de anúncios
 description: Saiba como fazer upload de objetivos de portfólios híbridos para o Google Ads e o Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Anunciantes habilitados somente para otimização híbrida*
 
-Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para [!DNL Google Ads] e [!DNL Microsoft Advertising], para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha.
+Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para [!DNL Google Ads] e [!DNL Microsoft Advertising], para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha. Você pode optar por não enviar dados de valor de objetivo de um portfólio específico para redes de anúncios da guia [!UICONTROL Manage Objectives] nas configurações do portfólio.
 
 Habilitar essa opção aciona automaticamente um upload para objetivos em portfólios que contêm campanhas com estratégias de oferta inteligente. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada objetivo aplicável. A conversão representa todas as métricas de conversão ponderadas no objetivo no nível da ID de EF (clique na ID). Para [!DNL Google Ads] cliques, a ID EF é o [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] cliques, a ID EF é o [!DNL Microsoft Advertising] `msclkid`. Devido a essa ID de clique, os dados de conversão podem ser mapeados para a palavra-chave específica e para o tempo de clique.
 
@@ -32,7 +32,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 >[!IMPORTANT]
 >
->As conversões rastreadas por [!DNL Google Ads] e pela tag de rastreamento universal de eventos (UET) [!DNL Microsoft Advertising] não são recarregadas nas redes de anúncios. Se você incluí-los em um objetivo, é necessário adicioná-los às metas da campanha no editor da rede de publicidade.
+>As conversões rastreadas por [!DNL Google Ads] e a tag de rastreamento universal de eventos (UET) [!DNL Microsoft Advertising] não são recarregadas nas redes de anúncios. Se você incluí-los em um objetivo, é necessário adicioná-los às metas da campanha no editor da rede de publicidade.
 
 1. No menu principal, clique em **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**.
 
@@ -40,7 +40,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 1. Na caixa de diálogo [!UICONTROL Objective Upload Setup], defina o **[!UICONTROL Enable Objective Upload]** como **[!UICONTROL On]**.
 
-1. (Anunciantes com contas do [!DNL Google Ads] que fazem negócios no Espaço Econômico Europeu (EEE) ou Reino Unido (Reino Unido); opcional) Se você coletou o consentimento de usuários do EEE e Reino Unido para carregar seus dados para fins de publicidade, marque a caixa de seleção para confirmar que os consentimentos de usuários do EEE/Reino Unido foram coletados. Isso envia o status de consentimento como **[!UICONTROL GRANTED]** para [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se permanecer desmarcado, o status de consentimento será enviado como **[!UICONTROL UNSPECIFIED]**.
+1. (Anunciantes com contas do [!DNL Google Ads] que fazem negócios no Espaço Econômico Europeu (EEE) ou Reino Unido (Reino Unido); opcional) Se você coletou o consentimento de usuários do EEE e Reino Unido para carregar seus dados para fins de publicidade, marque a caixa de seleção. Isto envia o status de consentimento como **[!UICONTROL GRANTED]** para [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se você não marcar a caixa de seleção, o status do consentimento será enviado como **[!UICONTROL UNSPECIFIED]**.
 
 1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicione credenciais para sua conta de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) antes de salvar.
 
@@ -54,7 +54,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 ## Como o objetivo ponderado é calculado
 
-O objetivo ponderado passado para a rede de publicidade é a soma de todos os valores de métrica coletados, com exceção das conversões rastreadas por [!DNL Google Ads] ou pela tag de rastreamento universal de eventos (UET) [!DNL Microsoft Advertising]. O valor é calculado usando o método de atribuição configurado para a conta Search, Social e Commerce do anunciante.
+O objetivo ponderado passado para a rede de publicidade é a soma de todos os valores de métrica coletados, excluindo as conversões rastreadas por [!DNL Google Ads] ou pela tag de rastreamento universal de eventos (UET) [!DNL Microsoft Advertising]. O valor é calculado usando o método de atribuição configurado para a conta Search, Social e Commerce do anunciante.
 
 Por exemplo, digamos que a métrica de objetivo seja Adições ao carrinho com um peso de 25, e suas métricas de assistência incluem GL_Lead e Receita com pesos de 1 e Downloads com um peso de 0,5.
 
@@ -67,7 +67,7 @@ Suponha que uma palavra-chave tenha resultado nas seguintes ações para o portf
 * 50 Downloads
 * 5 GL_Lead
 
-GL_Lead não está incluído no cálculo/upload porque é uma métrica rastreada pelo Google Ads. Portanto, o valor objetivo ponderado é calculado como ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+GL_Lead não está incluído no cálculo/upload porque é uma métrica rastreada por [!DNL Google Ads]. Portanto, o valor objetivo ponderado é calculado como ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
 
 >[!TIP]
 >
@@ -79,9 +79,9 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 
 * ([!DNL Google Ads]) Verifique se as conversões devem ser carregadas no nível de conta ou de gerente. Caso seja necessário fazer upload deles no nível do gerente:
 
-   * Verifique se as credenciais da conta de gerente [!DNL Google Ads] foram fornecidas. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Verifique se as credenciais da conta de gerente [!DNL Google Ads] foram fornecidas. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
 
-   * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
+  * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
 
 * Verifique se a opção &quot;híbrida&quot; do portfólio está selecionada e se o objetivo tem receita válida.
 

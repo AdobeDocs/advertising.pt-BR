@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia do Criative
-source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 4%
   + [Sobre o Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
   + [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-  + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+  + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Sobre o Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-  + [Metadados C2PA em [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
+
   + [Gerenciar anúncios padrão](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [Gerenciar criação dinâmica](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [Gerenciar modelos](/help/creative/creative-studio/creative-studio-manage-templates.md)
@@ -103,4 +103,4 @@ ht-degree: 4%
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 + [Obter ajuda](/help/creative/get-help.md)
-+ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target="_blank"}
++ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

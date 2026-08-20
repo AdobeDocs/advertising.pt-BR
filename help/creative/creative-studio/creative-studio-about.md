@@ -7,7 +7,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 299275c1e8f37d75c46e825e584453bfe2cd4a95
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 811
 ht-degree: 0%
@@ -74,4 +74,3 @@ O [!UICONTROL Creative Studio] oferece suporte a dois modelos de conteúdo de an
 >* [Gerenciar modelos no Creative Studio](creative-studio-manage-templates.md)
 >* [Gerenciar ativos no Creative Studio](creative-studio-manage-assets.md)
 >* [Gerenciar perfis de marca no Advertising Creative](/help/creative/brands/brand-manage.md)
-

@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: ee8a01e002bda7042e2c04f362ea9ba0276bdc69
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -45,11 +45,11 @@ ht-degree: 0%
 
    * Para criar uma nova disposição:
 
-      1. Clique em **[!UICONTROL Create New Placement]**.
+     1. Clique em **[!UICONTROL Create New Placement]**.
 
-      1. Selecione o tipo de anúncio para o posicionamento e clique em **[!UICONTROL Build this placement]**.
+     1. Selecione o tipo de anúncio para o posicionamento e clique em **[!UICONTROL Build this placement]**.
 
-      1. Insira as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) e clique em **[!UICONTROL Create Placement]**.
+     1. Insira as [configurações de posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) e clique em **[!UICONTROL Create Placement]**.
 
    * Para anexar uma inserção existente na campanha:
 
@@ -57,13 +57,13 @@ ht-degree: 0%
      >
      >Cada posicionamento só pode estar em um pacote. Somente os posicionamentos que ainda não estão em um pacote são listados.
 
-      1. Clique em **[!UICONTROL Select a Placement].**
+     1. Clique em **[!UICONTROL Select a Placement].**
 
-      1. Ao lado do nome do posicionamento, clique em **[!UICONTROL Select].**
+     1. Ao lado do nome do posicionamento, clique em **[!UICONTROL Select].**
 
-      1. (Opcional) Para cada posicionamento adicional que deseja anexar, clique em **[!UICONTROL Attach Another Placement]** e repita as Etapas 1-2.
+     1. (Opcional) Para cada posicionamento adicional que deseja anexar, clique em **[!UICONTROL Attach Another Placement]** e repita as Etapas 1-2.
 
-      1. Clique em **[!UICONTROL I'm done for now]**.
+     1. Clique em **[!UICONTROL I'm done for now]**.
 
 >[!MORELIKETHIS]
 >

@@ -60,7 +60,7 @@ Para ver o histórico completo de ativos de uma imagem,
 
 ## Recursos adicionais
 
-* [Transparência do conteúdo de IA gerativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Transparência do conteúdo de IA gerativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe] diretrizes de usuário da IA gerativa](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 

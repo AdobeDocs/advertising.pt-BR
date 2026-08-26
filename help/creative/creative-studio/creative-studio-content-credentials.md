@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d335c890ccc3ff8b2d391881660a71d10fcba53a
+source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 432
 ht-degree: 2%
 
 ---
@@ -59,6 +59,8 @@ Para ver o histórico completo de ativos de uma imagem,
 ![Exemplo de metadados C2PA para uma imagem](/help/creative/assets/cs-content-credentials-example.png "Metadados C2PA para uma imagem")
 
 ## Recursos adicionais
+
+* [Transparência do conteúdo de IA gerativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe] diretrizes de usuário da IA gerativa](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +95,21 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
 
 ## Listar as campanhas no portfólio
 
+Os detalhes sobre cada campanha incluem a estratégia de oferta; o custo real e previsto, os cliques e o valor do objetivo; e a precisão do valor de custo, clique e objetivo.
+
 * Clique na guia **[!UICONTROL Campaigns]**.
 
 ## Listar os grupos de publicidade no portfólio
 
+Os detalhes sobre cada grupo de anúncios incluem o custo, cliques e valor do objetivo.
+
+* Para exibir todos os grupos de anúncios no portfólio, clique na guia **[!UICONTROL Ad Groups]**.
+
 * Para exibir todos os grupos de anúncios em uma campanha no portfólio, clique na guia **[!UICONTROL Campaigns]** e, em seguida, clique no nome da campanha.
 
 ## Listar as palavras-chave no portfólio
+
+Os detalhes de cada palavra-chave incluem a ID da unidade de oferta; o tipo de correspondência; o custo real e previsto, os cliques e o valor do objetivo; e a diferença entre o custo, o clique e o valor do objetivo.
 
 * Para exibir todas as palavras-chave do portfólio, clique na guia **[!UICONTROL Keywords]**.
 

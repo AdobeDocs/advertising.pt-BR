@@ -3,9 +3,9 @@ title: (Nova interface) Habilitar upload de objetivos em redes de anúncios
 description: Saiba como fazer upload de objetivos de portfólios híbridos para o Google Ads e o Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Anunciantes habilitados somente para otimização híbrida*
 
-Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para [!DNL Google Ads] e [!DNL Microsoft Advertising], para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha. Você pode optar por não enviar dados de valor de objetivo de um portfólio específico para redes de anúncios da guia [!UICONTROL Manage Objectives] nas configurações do portfólio.
+Search, Social e Commerce podem fazer upload dos objetivos dos portfólios de uma conta de anunciante para [!DNL Google Ads] e [!DNL Microsoft Advertising], para que você possa usá-los para otimização híbrida. Os objetivos carregados estão disponíveis como ações de conversão para metas de conversão personalizadas no nível da conta e da campanha.<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 Habilitar essa opção aciona automaticamente um upload para objetivos em portfólios que contêm campanhas com estratégias de oferta inteligente. O Search, Social e Commerce cria uma conversão na rede de anúncios para cada objetivo aplicável. A conversão representa todas as métricas de conversão ponderadas no objetivo no nível da ID de EF (clique na ID). Para [!DNL Google Ads] cliques, a ID EF é o [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] cliques, a ID EF é o [!DNL Microsoft Advertising] `msclkid`. Devido a essa ID de clique, os dados de conversão podem ser mapeados para a palavra-chave específica e para o tempo de clique.
 

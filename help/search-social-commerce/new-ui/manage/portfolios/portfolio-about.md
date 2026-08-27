@@ -14,9 +14,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -66,9 +66,10 @@ Um portfólio pode ter os seguintes status:
 
 A exibição [!UICONTROL Portfolios] lista todos os portfólios existentes na exibição filtrada, com dados de desempenho personalizáveis. Você pode [personalizar as colunas na exibição](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrar dados para incluir portfólios específicos [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou do [cabeçalho da coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado.
+Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado. Você também pode abrir detalhes do portfólio, incluindo desempenho e precisão do portfólio, bem como dados de desempenho para cada campanha, grupo de publicidade e palavra-chave no portfólio.
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+Você pode editar algumas configurações, incluindo o status do portfólio, diretamente na linha do portfólio.
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Ações disponíveis
 

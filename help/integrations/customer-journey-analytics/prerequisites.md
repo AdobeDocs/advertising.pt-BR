@@ -29,15 +29,15 @@ ht-degree: 0%
 
 * (Anunciantes com Customer Journey Analytics, mas não [!DNL Analytics for Advertising]):
 
-  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Versão 2.36 ou superior.
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) Versão 2.36 ou superior.
 
-  * [Marcas do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), incluindo a [[!DNL Web SDK] extensão](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) versão 2.37 ou superior.
+  * [Marcas do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home), incluindo a [[!DNL Web SDK] extensão](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) versão 2.37 ou superior.
 
 * Adobe Customer Journey Analytics com acesso a ferramentas de gerenciamento de dados
 
   Você precisará do suporte de seu analista da Web interno para configurar uma conexão com seu conjunto de dados e configurar os relatórios.
 
-* (Anunciantes sem [!DNL Analytics for Advertising]) Tecnologias de gerenciamento e modelagem de dados da Adobe Experience Platform (incluindo [esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologias de coleta de dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (incluindo [sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* (Anunciantes sem [!DNL Analytics for Advertising]) Tecnologias de gerenciamento e modelagem de dados da Adobe Experience Platform (incluindo [esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e [conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview)) e [tecnologias de coleta de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/home) (incluindo [sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview) e [tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home))
 
   Essas tecnologias exigem o suporte do administrador do site da Experience Platform.
 

@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Você pode ver quais conversões resultaram de um clique em uma extensão de an�
 
 +++
 
-+++A coluna &quot;[!UICONTROL Keyword]&quot; no meu relatório inclui um valor &quot;(adgroup content) &lt;*ad group name*>.&quot;
++++A coluna &quot;[!UICONTROL Keyword]&quot; no meu relatório inclui um valor &quot;(conteúdo adgroup) &lt;*nome do grupo de anúncios*>.&quot;
 Quando a linha inclui dados para campanhas de pesquisa habilitadas para conteúdo, campanhas de exibição ou campanhas sociais — que não incluem palavras-chave — a coluna [!UICONTROL Keyword] mostra o nome do grupo de anúncios aplicável.
 +++
 
@@ -133,12 +133,12 @@ Veja a seguir os motivos comuns para a falta de dados de cliques.
 
 | Causa | Detecção/análise | Resolução |
 |---|---|---|
-| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Entre em contato com a equipe de conta da Adobe.<br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe de conta da Adobe pode excluir as datas. |
+| O processo que recupera os dados de cliques da conta de anúncio falhou. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custo ou clique, mesmo que a conta publicitária tenha gasto dinheiro. | Contate a equipe de conta da Adobe.<br><br>Se os dados estiverem ausentes por mais de 24 horas, exclua essas datas das previsões de custo até que os dados sejam recuperados. A equipe de conta da Adobe pode excluir as datas. |
 | Um problema de faturamento entre o anunciante e a rede de anúncios impede que a conta de anúncios seja gasta. | Não há uma maneira sistemática de detectar esse problema, mas você pode notar que uma campanha não mostra informações de custos ou cliques. | Se você souber que uma conta publicitária não pôde gastar devido a um problema de faturamento, exclua essas datas das previsões de custo. A equipe de conta da Adobe pode excluir as datas. |
 
 +++
 
-+++Os dados de desempenho são diferentes dos dados no editor de rede de anúncios.
++++Os dados de desempenho são diferentes dos dados no editor da rede de anúncios.
 Quando a rede de anúncios envia atualizações para dados anteriores (geralmente porque atribuíram fraude de cliques a alguns cliques), o Search, Social e Commerce não atualiza os dados, a menos que haja mais de 5% de discrepância e a Equipe de conta da Adobe registre uma solicitação.
 
 Além disso, ao comparar dados de compartilhamento de impressão agregados em um intervalo de datas, os dados que os relatórios de Pesquisa, Social e Commerce podem ser diferentes dos dados que a rede de publicidade relata. Essa diferença se deve à maneira como os dados são relatados pela API da rede de anúncios, que a Search, o Social e o Commerce usam para obter dados. Por exemplo, para dados [!DNL Google Ads]:

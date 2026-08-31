@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Um bulksheet de portfólio é um arquivo que contém configurações de portfól
 * Uma planilha [!UICONTROL Instructions] somente leitura com informações sobre a edição dos campos.
 
 * Uma guia [!UICONTROL Portfolio Settings Edit], com uma linha por portfólio incluído. Opcionalmente, é possível editar os campos conforme necessário, salvar o arquivo localmente e, em seguida, [carregar o arquivo editado](#portfolio-bulksheet-upload) para Search, Social e Commerce. Os campos editáveis são realçados em cores.
+
+Esse recurso está disponível para portfólios com as seguintes estratégias de gastos: Diariamente, Semanalmente, Mensalmente e Dia da semana.
 
 ## Baixar um arquivo de bulksheet com configurações de portfólio
 
@@ -47,7 +49,7 @@ Um bulksheet de portfólio é um arquivo que contém configurações de portfól
 
 ## Fazer upload de um arquivo de bulksheet com configurações atualizadas do portfólio {#portfolio-bulksheet-upload}
 
-O arquivo deve estar no formato XLSX.
+O arquivo deve estar no formato XLSX, o tamanho do arquivo deve estar entre 1 KB e 1 MB e o comprimento máximo do nome do arquivo é de 100 caracteres.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em ![Operações em Massa](/help/search-social-commerce/assets/chevron-down.png "Operações em Massa") > **[!UICONTROL Import Portfolio Details]**.
 

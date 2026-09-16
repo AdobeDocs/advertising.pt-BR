@@ -61,7 +61,7 @@ A seguir estão possíveis problemas, suas possíveis causas e soluções.
 
 ## Problemas de instalação e configuração {#issues-installation-setup}
 
-### A extensão WebSDK não inicializa {#websdk-extension-doesn&#39;t-initialize}
+### A extensão WebSDK não inicializa #websdk-extension-doesn&#39;t-initialize
 
 #### Problemas:
 
@@ -118,7 +118,7 @@ A seguir estão possíveis problemas, suas possíveis causas e soluções.
 | O componente `Adobe Advertising` não está habilitado para a extensão [!UICONTROL WebSDK]. | O componente `Adobe Advertising` na extensão WebSDK está desabilitado por padrão e deve ser habilitado explicitamente antes que qualquer rastreamento de click-throughs ou view-throughs do Adobe Advertising seja funcional, independentemente de como o esquema ou as regras XDM são configurados.<ol><li>Em [!DNL Tags], abra as [opções de compilação da propriedade nas definições de configuração do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>Habilite o componente **Advertising** e salve as configurações.</li><li>Recrie a biblioteca e publique-a novamente.</li></ol> |
 | Somente as conversões click-through são registradas; as conversões view-through nunca são exibidas. | Esse é o comportamento padrão esperado. Quando o componente `Adobe Advertising` estiver habilitado, o rastreamento de click-through ficará ativo automaticamente usando os parâmetros de consulta de URL `s_kwcid` e `ef_id`. O rastreamento de view-through é desativado por padrão e requer configuração adicional — consulte a próxima linha. |
 | O rastreamento de view-through não está habilitado ou configurado. | <ol><li>Habilitar o serviço Adobe Advertising para a sequência de dados</li><ol><li>Vá para [!UICONTROL Data Collection] > [!UICONTROL Datastreams] no Adobe Experience Platform e abra a sequência de dados usada pela propriedade [!DNL Tags].</li><li>Selecione **Adicionar Serviço**, **Adobe Advertising** e **Adobe Experience Platform** e **Salvar**.</li></ol><li>Configurar anunciantes no Adobe Advertising DSP</li><ol><li>Em [!DNL Tags], vá para [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure].</li><li>Na seção [!UICONTROL Advertiser], selecione um anunciante na lista suspensa e ative-o. Para configurar vários anunciantes, selecione **Adicionar anunciante**.</li></ol><li>Verificar se os pixels de conversão de view-through estão sendo acionados</li><ol><li>Na Adobe Experience Platform Debugger, confirme se a chamada de interação inclui `stitchId` no campo `xdm.query`.</li><li>Na guia [!DNL Network] da ferramenta de inspeção de código do navegador, confirme se um evento do tipo `advertising.enrichment` foi acionado e inclui `stitchId` em `xdm.query`.</li></ol></ol> As conversões de view-through são acionadas somente a cada 30 minutos, independentemente do número de visitas. Se você não vir uma chamada interativa, limpe o cache do navegador e tente novamente. |
-| Nenhuma área de eventos de view-through disponível no Experience Platform depois que a chamada de view-through é acionada. | Confirme se um anunciante está configurado e habilitado na seção [[!UICONTROL Advertiser] da configuração da extensão WebSDK ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising). Se o anunciante foi inserido manualmente, selecione-o novamente na lista suspensa [!UICONTROL Advertiser]. Depois de configurar o anunciante, recrie e publique a biblioteca. |
+| Nenhuma área de eventos de view-through disponível no Experience Platform depois que a chamada de view-through é acionada. | Confirme se um anunciante está configurado e habilitado na seção [[!UICONTROL Advertiser] da configuração da extensão WebSDK &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising). Se o anunciante foi inserido manualmente, selecione-o novamente na lista suspensa [!UICONTROL Advertiser]. Depois de configurar o anunciante, recrie e publique a biblioteca. |
 
 Antes de abrir um tíquete de suporte para problemas de configuração de extensão do [!UICONTROL Advertising], verifique o seguinte:
 
@@ -143,7 +143,7 @@ Antes de abrir um tíquete de suporte para problemas de configuração de extens
 | Os cookies de terceiros estão bloqueados. | Migre para a coleção de dados CNAME próprios [configurando uma ID de cookie própria na configuração do Edge Network da sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure). |
 | `idMigrationEnabled` está definido como `false` enquanto um cookie `s_ecid` herdado está presente. | [Defina `idMigrationEnabled: true` na configuração base do SDK da Web](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) para migrar a ECID existente dos cookies `s_ecid` ou `AMCV_`. |
 
-### As regras ou os eventos não são acionados {#rules-or-events-don&#39;t-fire}
+### As regras ou os eventos não são acionados #rules-or-events-don&#39;t-fire
 
 #### Problemas:
 

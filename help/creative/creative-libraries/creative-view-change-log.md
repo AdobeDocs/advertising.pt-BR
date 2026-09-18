@@ -2,13 +2,12 @@
 title: Exibir o log de alterações de um criativo
 description: Saiba como visualizar detalhes sobre as alterações em um criativo durante um intervalo de tempo especificado, incluindo quem fez a alteração.
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Exibir o log de alterações de um criativo
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.

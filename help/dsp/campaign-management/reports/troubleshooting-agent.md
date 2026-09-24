@@ -1,6 +1,6 @@
 ---
-title: Diagnosticar problemas de desempenho e de entrega usando o [!UICONTROL Troubleshooting Agent] assistido por IA
-description: Saiba como usar o Agente de solução de problemas assistido por IA para diagnosticar problemas de gastos, ritmo e entrega de pacotes e posicionamentos do DSP.
+title: Solucionar problemas de desempenho e de delivery usando o assistente de IA
+description: Saiba como usar o agente de solução de problemas do assistente de IA para diagnosticar problemas de gastos, ritmo e entrega de pacotes e posicionamentos do DSP.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# Diagnosticar problemas de desempenho e de entrega usando o [!UICONTROL Troubleshooting Agent] assistido por IA
+# Solucionar problemas de desempenho e de delivery usando o assistente de IA do DSP
 
-O [!UICONTROL Troubleshooting Agent] assistido por IA identifica fatores que limitam o desempenho e fornece recomendações para resolver problemas. O [!UICONTROL Troubleshooting Agent] pode:
+O agente de solução de problemas do assistente de IA pode identificar fatores que limitam o desempenho e fornece recomendações para resolver problemas. O agente de solução de problemas pode:
 
 * Ajuda para diagnosticar problemas de desempenho e entrega de um pacote ou posicionamento ativo selecionado:
 

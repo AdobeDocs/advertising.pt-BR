@@ -3,13 +3,11 @@ title: (Nova interface do usuário) Gerenciar contas de rede de anúncios
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface para uma rede de anúncios sincronizada por meio da API da rede de anúncios.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2157'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Gerenciar contas de rede de anúncios por meio da conexão de API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -19,6 +17,8 @@ ht-degree: 0%
 <!-- Move out info about Naver into a separate page -->
 
 A seguir estão instruções para gerenciar contas de rede de anúncios que o Search, Social e Commerce sincroniza usando a API da rede de anúncios.
+
+<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -135,6 +135,8 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 >
 >Se você tiver uma integração Search, Social e Commerce-Adobe Analytics e alterar o nome da conta de pesquisa, peça à sua Equipe de conta da Adobe para atualizar o mapeamento.
 
+**[!UICONTROL Access Key]:** (somente contas [!DNL ChatGPT Ads]) A chave de acesso para a conta de desenvolvedor a ser usada.<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
+
 **[!DNL [Contas de Rede de Anúncios]]:** (Visível enquanto você está criando uma conta) A conta de rede de anúncios a ser sincronizada.
 
 **[Detalhes do Logon]:** (somente contas do Yandex) As credenciais de conta a serem usadas:
@@ -159,7 +161,7 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 
 **[!UICONTROL Currency]:** (Somente leitura) A abreviação da moeda usada na conta. Esse valor é preenchido automaticamente com a moeda configurada para a conta na rede de publicidade depois que você salva o registro.
 
-**[!UICONTROL Time Zone]:** O fuso horário do anunciante. Esse valor é preenchido automaticamente com o fuso horário configurado para a conta Search, Social, &amp; Commerce do anunciante depois de salvar o registro.
+**[!UICONTROL Time Zone]:** (Somente leitura) O fuso horário do anunciante. Esse valor é preenchido automaticamente com o fuso horário configurado para a conta Search, Social, &amp; Commerce do anunciante depois de salvar o registro.
 
 **[!UICONTROL Login]:** (Somente leitura) A conta de usuário usada para fazer logon na conta.
 
@@ -189,7 +191,7 @@ Para habilitar este recurso, ative **[Habilitar o rastreamento]**.
 >* Se você alternar de [!UICONTROL Standard] para [!UICONTROL Token], ou vice-versa, será necessário regenerar as URLs de rastreamento da conta.
 >* Você pode substituir a configuração no nível da conta no nível da campanha.
 
-**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
+**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
 
 Os URLs de rastreamento são atualizados diariamente apenas para entidades que estão fora de sincronia (ou seja, novas entidades que foram adicionadas e entidades existentes cujas propriedades foram alteradas). Portanto, se você alterar essa configuração de desativado para ativado para um anunciante/conta/campanha existente, os URLs de rastreamento não serão atualizados para entidades existentes que já estão em sincronia. Para adicionar rastreamento aos URLs de entidades existentes em sincronia, entre em contato com a equipe de conta da Adobe e solicite um processo de sincronização manual e único. O processo de upload automático lidará com alterações futuras.
 

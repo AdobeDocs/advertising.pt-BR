@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Criar uma inserção
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * Para criar um novo anúncio:
 
-         1. Clique em **[!UICONTROL Create a New Ad].**
+        1. Clique em **[!UICONTROL Create a New Ad].**
 
-         1. Especifique as configurações de anúncio para [anúncios de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anúncios de exibição](/help/dsp/campaign-management/ads/ad-settings-display.md), [anúncios móveis](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anúncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anúncios precedentes](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) ou [anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+        1. Especifique as configurações de anúncio para [anúncios de áudio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anúncios de exibição](/help/dsp/campaign-management/ads/ad-settings-display.md), [anúncios móveis](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anúncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anúncios precedentes](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) ou [anúncios de vídeo universais](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
         >Inserções de vídeo universais podem conter somente anúncios de vídeo universais.
 
-         1. Clique em **[!UICONTROL Save & Submit for Review]**.
+        1. Clique em **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Opcional) Para cada anúncio adicional que você deseja criar para o posicionamento, clique em **[!UICONTROL Attach Another Ad]** e repita as Etapas de 1 a 3.
+        1. (Opcional) Para cada anúncio adicional que você deseja criar para o posicionamento, clique em **[!UICONTROL Attach Another Ad]** e repita as Etapas de 1 a 3.
 
-         1. Se você não for anexar nenhum anúncio existente, clique em **[!UICONTROL I'm done for now]**.
+        1. Se você não for anexar nenhum anúncio existente, clique em **[!UICONTROL I'm done for now]**.
 
       * Para anexar anúncios existentes na campanha:
 
-         1. Clique em **[!UICONTROL Select an Ad]**.
+        1. Clique em **[!UICONTROL Select an Ad]**.
 
-         1. Siga um destes procedimentos:
+        1. Siga um destes procedimentos:
 
-            * Para adicionar um anúncio por vez:
+           * Para adicionar um anúncio por vez:
 
-               1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
+             1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select].**
 
-               1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach Another Ad]** e repita o processo.
+             1. (Opcional) Para cada anúncio adicional que você deseja anexar, clique em **[!UICONTROL Attach Another Ad]** e repita o processo.
 
-            * Para adicionar até 20 anúncios por vez:
+           * Para adicionar até 20 anúncios por vez:
 
-               1. Marque a caixa de seleção acima da lista de anúncios.
+             1. Marque a caixa de seleção acima da lista de anúncios.
 
-               1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
+             1. Marque a caixa de seleção ao lado de cada anúncio a ser adicionado.
 
-               1. Clique em **[!UICONTROL Attach]**.
+             1. Clique em **[!UICONTROL Attach]**.
 
-               1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select]**.
+             1. Ao lado do nome do anúncio, clique em **[!UICONTROL Select]**.
 
-         1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
+        1. (Opcional) Para substituir o período de veiculação padrão e a rotação de anúncios para anúncios específicos no posicionamento:
 
-            1. Clique em **[!UICONTROL Custom Schedule Ads]**.
+           1. Clique em **[!UICONTROL Custom Schedule Ads]**.
 
-            1. Siga um destes procedimentos:
+           1. Siga um destes procedimentos:
 
-               * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data de início e a data de término.
+              * Para adicionar um voo, clique em **[!UICONTROL Add Flight]** e especifique a data de início e a data de término.
 
-               * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
+              * Para adicionar um voo existente a um anúncio, clique em **[!UICONTROL +]** na linha de anúncio da coluna de voo.
 
-               * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
+              * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
 
-               * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
+              * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
 
-                 Os pesos totais devem ser iguais a 100.
+                Os pesos totais devem ser iguais a 100.
 
-            1. No canto superior direito, clique em **[!UICONTROL Continue]**.
+           1. No canto superior direito, clique em **[!UICONTROL Continue]**.
 
-            1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
+           1. Revise os detalhes do voo e clique em **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -160,5 +166,5 @@ ht-degree: 0%
 >* [Exibir o relatório de previsão de posicionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Solução de problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Motivos para problemas de desempenho](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Vídeo: como criar um posicionamento de exibição padrão](https://video.tv.adobe.com/v/345003?captions=por_br)

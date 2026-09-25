@@ -1,28 +1,36 @@
 ---
-title: Solução de problemas de desempenho
+title: Motivos para problemas de desempenho
 description: Consulte problemas comuns de desempenho e veja como solucioná-los.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 TQID: https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: DSP Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
+# Motivos para problemas de desempenho
 
-# Solução de problemas de desempenho
+<!-- Rename file and set up a redirect -->
+
+<!-- Reword/change path as needed:  See also "[Diagnose performance and delivery issues using the AI assistant](/help\dsp\campaign-management\reports\troubleshooting-agent.md)." -->
 
 | Problema | Causa possível | Ações a serem executadas |
 | --- | --- | --- |
@@ -34,10 +42,10 @@ ht-degree: 0%
 | | Não há usuários disponíveis. | Verifique se os públicos-alvo especificados incluem um número suficiente de usuários ativos. Caso contrário, expanda os públicos-alvo adicionando mais públicos-alvo. |
 | Baixo gasto com posicionamento | A seção [!UICONTROL Non Bids] do relatório de diagnóstico de posicionamento mostra possíveis motivos para o posicionamento não ter dado lance. | [Revise o relatório [!UICONTROL Non Bids]](/help/dsp/campaign-management/reports/placement-diagnostics.md) para entender por que o posicionamento não deu lance.  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |
 | | O posicionamento usa [filtros pré-oferta](/help/dsp/campaign-management/placements/placement-settings.md) que limitam a oferta. | Diminua os limites dos filtros de pré-oferta em 5% para avaliar o equilíbrio entre gasto e desempenho. <!-- wording? and are users just supposed to manually monitor whether it makes a difference? --><br><br>Lembre-se de que o uso de vários destinos de posicionamento, como filtros pré-oferta, geografia, inventário e públicos-alvo, pode limitar cumulativamente ofertas e gastos. |
-| | A colocação tem uma baixa taxa de vitória. | Aumente o [!UICONTROL Max Bid] para melhorar a taxa de vitória.<br><br><b>OBSERVAÇÃO:</b> os preços de estoque podem variar com base no direcionamento da disposição.<br><br>Uma taxa de ganhos de 10% é considerada íntegra. |
+| | A colocação tem uma baixa taxa de vitória. | Aumente o [!UICONTROL Max Bid] para melhorar a taxa de ganho.<br><br><b>OBSERVAÇÃO:</b> Os preços de estoque podem variar com base no direcionamento da colocação.<br><br>Uma taxa de ganho de 10% é considerada íntegra. |
 | | Um número baixo de estoque está disponível. | Direcione todas as origens de inventário ou adicionais, se possível.<br><br>Lembre-se de que o uso de vários destinos de posicionamento, como filtros pré-oferta, geografia, inventário e públicos-alvo, pode limitar cumulativamente ofertas e gastos. |
 | | Um número baixo de usuários está disponível. | Verifique se os públicos-alvo especificados incluem um número suficiente de usuários ativos. Caso contrário, expanda os públicos-alvo adicionando mais públicos-alvo.<br><br>Lembre-se de que o uso de vários destinos de posicionamento, como filtros pré-oferta, geografia, inventário e públicos-alvo, pode limitar cumulativamente ofertas e gastos. |
-| | O pacote inclui um grande número de disposições ativas. | Reduza o número de posicionamentos ativos no pacote ou aumente o orçamento geral do pacote.<br><br>Se o pacote tiver muitas disposições, mas não tiver orçamento suficiente, a DSP talvez não possa alocar orçamento suficiente para cada disposição. Cada posicionamento deve ter a oportunidade de gastar pelo menos 2 dólares por dia. Por exemplo, se o pacote tiver um orçamento de US$ 10 por dia, será melhor incluir cinco ou menos disposições. &#x200B; |
+| | O pacote inclui um grande número de disposições ativas. | Reduza o número de posicionamentos ativos no pacote ou aumente o orçamento geral do pacote.<br><br>Se o pacote tiver muitas disposições, mas não tiver orçamento suficiente, a DSP talvez não possa alocar orçamento suficiente para cada disposição. Cada posicionamento deve ter a oportunidade de gastar pelo menos 2 USD/dia. Por exemplo, se o pacote tiver um orçamento de 10 USD/dia, será melhor incluir cinco ou menos disposições. &#x200B; |
 
 {style="table-layout:auto"}
 

@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
 # Campo Parâmetros personalizados nas configurações de campanha do GGL e do MS, configurações de grupo de anúncios do MS e configurações de anúncios responsivos e multimídia do MS
 

@@ -1,13 +1,12 @@
 ---
 source-git-commit: 24aa1afe9611ca6ae46795c9bca2964e1d9c4f97
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
 # Campo Dispositivos nas configurações de campanhas e grupos de anúncios GL e MS
 
-**[!UICONTROL Devices]:** (Opcional; não disponível para [!DNL Google Ads] campanhas de desempenho máximo ou [!DNL Microsoft Advertising] vídeos ou anúncios de vídeo CTV) Configure ajustes de oferta para diferentes tipos de dispositivos, como porcentagens da oferta de nível de palavra-chave. Por exemplo, se a oferta no nível da palavra-chave for de 1 USD e o ajuste de oferta para smartphones for de 50%, a oferta do smartphone será de 1,50 USD. Por padrão, nenhum valor é inserido (ajuste de oferta=0), e todos os dispositivos são oferecidos no lance de nível de palavra-chave.
+**[!UICONTROL Devices]:** (Opcional; não disponível para [!DNL Google Ads] campanhas de desempenho máximo ou [!DNL Microsoft Advertising] vídeos ou anúncios de vídeo CTV) Configure ajustes de oferta para diferentes tipos de dispositivos, como porcentagens da oferta de nível de palavra-chave. Por exemplo, se a oferta no nível da palavra-chave for 1 USD e o ajuste de oferta para smartphones for 50%, a oferta do smartphone será de 1,50 USD. Por padrão, nenhum valor é inserido (ajuste de oferta=0), e todos os dispositivos são oferecidos no lance de nível de palavra-chave.
 
 Para [!DNL Google Ads], as porcentagens válidas podem incluir -100 para smartphones e tablets (para não licitar o tipo de dispositivo) e de -90 a 900 para todos os tipos de dispositivo.
 

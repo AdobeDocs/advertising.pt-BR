@@ -6,17 +6,18 @@ feature: Search Alerts
 TQID: https://experienceleague.adobe.com/6fPMkTJdD-TiBU45ja0E-z1XJO5Ve7-8zs4pCc7sbYQ
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 247087a18783a7f1c77088ffb2d1133ca9bb6e8d
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # Criar um modelo de alerta personalizado
 
 Você pode criar um modelo de alerta para portfólios, campanhas, grupos de anúncios, palavras-chave ou anúncios e acionar o alerta de acordo com uma programação regular. Novos modelos de alerta têm o status &quot;[!UICONTROL Active]&quot;.
@@ -29,7 +30,7 @@ Você pode criar um modelo de alerta para portfólios, campanhas, grupos de anú
 
 1. Na janela [!UICONTROL Create \[Entity\] Alert], especifique as [configurações de alerta](alert-template-settings.md) nas guias **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
 
-Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
+   Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
 
 1. Na guia [!UICONTROL Summary], clique em **[!UICONTROL Create]**.
 
@@ -41,17 +42,17 @@ Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quo
 
 1. Na exibição **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra a subexibição de gerenciamento de campanha para o tipo de entidade a ser avaliado ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
 
-Por exemplo, para criar um modelo de alerta em nível de palavra-chave, vá para [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e selecione [!UICONTROL Keywords].
+   Por exemplo, para criar um modelo de alerta em nível de palavra-chave, vá para [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e selecione [!UICONTROL Keywords].
 
 1. No lado direito da barra de ferramentas acima da tabela de dados, clique em ![Criar alerta](/help/search-social-commerce/assets/add-alert.png "Criar alerta").
 
->[!NOTE]
->
->Não é necessário selecionar linhas específicas.
+   >[!NOTE]
+   >
+   >Não é necessário selecionar linhas específicas.
 
 1. Na janela [!UICONTROL Create \[Entity type\] Alert], especifique as [configurações de alerta](alert-template-settings.md) nas guias **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
 
-Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
+   Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
 
 1. Na guia [!UICONTROL Summary], clique em **[!UICONTROL Create]**.
 

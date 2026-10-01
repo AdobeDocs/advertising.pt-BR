@@ -2,13 +2,11 @@
 title: Colunas de relatório para relatórios especiais
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios de especialidade.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # Colunas de relatório para relatórios especiais
 
 | Coluna | Descrição |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) O número de impressões que você recebeu para anúncios na rede de exibição/público-alvo dividido pelo número estimado de impressões que você estava qualificado a receber. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) A porcentagem estimada de impressões que seus anúncios na rede de exibição/público-alvo não receberam porque seu orçamento diário ou mensal era muito baixo. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] somente; [!UICONTROL Campaign Daily Impression Share Report]) A porcentagem estimada de impressões que seus anúncios na rede de exibição/público-alvo não foram exibidos devido a uma classificação de anúncios ruim. Porcentagens abaixo de 10% são indicadas como &quot;`<10%`&quot;, e porcentagens acima de 90% são indicadas como &quot;`>90%`&quot;. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination] relatórios) A ação de conversão que resultou em conversões. |
 | [!UICONTROL Conversion Rate] | O número de conversões dividido pelo número total de cliques. |
 | [!UICONTROL Conversion Type] | O tipo de conversão definido pelo usuário que foi rastreado no site do anunciante. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] e [!UICONTROL MSA Ad Extension] relatórios) O total de conversões do período especificado. Para o relatório [!UICONTROL MSA Ad Extension], este é o número de cliques que resultaram em uma venda ou outra medida de sucesso. Para o relatório [!UICONTROL Google AI Max Search Term Combination], esse é o número total de conversões das ações de conversão para as quais a opção &quot;Incluir em conversões&quot; está habilitada |

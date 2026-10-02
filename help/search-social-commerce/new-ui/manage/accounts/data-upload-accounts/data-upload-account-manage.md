@@ -3,13 +3,11 @@ title: Configurar contas de rede de publicidade para upload de dados
 description: Saiba como configurar e gerenciar detalhes de uma conta de rede de anúncios.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Gerenciar contas de rede de publicidade para uploads de dados
 
 <!-- Edit all, including title and metadata -->
@@ -23,6 +21,8 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 >Para obter instruções sobre como gerenciar detalhes de uma conta de rede de anúncios que o Search, Social e Commerce sincroniza usando a API da rede de anúncios, consulte &quot;[Gerenciar contas de rede de anúncios por meio da conexão de API](../api-accounts/api-account-manage.md)&quot;.
 
 ## Criar detalhes da conta {#create-account}
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Clique em **[!UICONTROL Create Account]**.
 
@@ -40,7 +40,7 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 
 ## Editar detalhes da conta {#edit-account}
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selecione a conta de uma das seguintes maneiras:
 
@@ -62,27 +62,27 @@ Para obter detalhes sobre a funcionalidade disponível para cada rede de anúnci
 
 ## Ativar ou desativar contas de rede de publicidade {#enable-disable-account}
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Siga um destes procedimentos:
 
    * (Da exibição [!UICONTROL Accounts]):
 
-      * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Activate]** na barra de ferramentas de ações em massa.
+     * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Activate]** na barra de ferramentas de ações em massa.
 
-      * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Pause]** na barra de ferramentas de ações em massa.
+     * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Pause]** na barra de ferramentas de ações em massa.
 
    * (Nas configurações da conta):
 
-      1. Selecione a conta de uma das seguintes maneiras:
+     1. Selecione a conta de uma das seguintes maneiras:
 
-         * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
+        * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
 
-         * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
+        * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
 
-      1. Na guia **[!UICONTROL Account Details]**, desative o **[!UICONTROL Account enabled]**.
+     1. Na guia **[!UICONTROL Account Details]**, desative o **[!UICONTROL Account enabled]**.
 
-      1. Clique em **[!UICONTROL Save]**.
+     1. Clique em **[!UICONTROL Save]**.
 
 ## Configurações da conta {#account-settings-upload}
 

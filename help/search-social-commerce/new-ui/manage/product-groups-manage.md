@@ -4,25 +4,27 @@ description: Saiba mais sobre como criar, editar e excluir grupos de produtos de
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # Gerenciar grupos de produtos de compras
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] campanhas de compras somente*
 
-Você pode criar e gerenciar grupos de produtos na exibição [!UICONTROL Product Groups] em [!UICONTROL Assets] > [!UICONTROL Shopping].
+Você pode criar e gerenciar grupos de produtos na exibição [!UICONTROL Manage] > [!UICONTROL Product Groups].
 
 Você pode exibir dados sobre grupos de produtos em [o [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md).
 
@@ -69,7 +71,7 @@ Consulte também a ajuda do [!DNL Google Ads] &quot;[Gerenciar uma campanha de c
 
 ## A visualização [!UICONTROL Product Groups]
 
-A exibição [!UICONTROL Product Groups] em [!UICONTROL Assets] > [!UICONTROL Shopping] lista todos os grupos de produtos na exibição filtrada para a conta de anunciante selecionada. Você também pode criar e gerenciar grupos de produtos.
+A exibição [!UICONTROL Manage] > [!UICONTROL Product Groups] lista todos os grupos de produtos na exibição filtrada para a conta de anunciante selecionada. Você também pode criar e gerenciar grupos de produtos.
 
 ### Ações disponíveis <!-- Go through all -->
 
@@ -103,7 +105,7 @@ Antes de criar grupos de produtos com atributos específicos, primeiro você dev
 >
 >Para criar muitos componentes da conta de uma só vez, use [bulksheets de campanha](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create Product Group]**.
 
@@ -125,7 +127,7 @@ Depois de criar pelo menos um grupo &quot;[!UICONTROL All Products]&quot; comple
 >
 >Você não pode criar um grupo de produtos filho para um grupo de produtos &quot;[!UICONTROL Everything Else]&quot;.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Opcional) Para exibir um grupo de produtos e seus nós filhos do grupo de produtos no Modo de exibição em árvore, mantenha o cursor sobre o nome do grupo de produtos, clique em **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -139,7 +141,7 @@ Depois de criar pelo menos um grupo &quot;[!UICONTROL All Products]&quot; comple
 
 É possível editar o modelo de oferta e rastreamento para nós de grupo de produtos de unidade (grupos de produtos sem nós de grupo de produtos filho) incluídos em um grupo de publicidade. Você não pode editar nenhuma informação para grupos de produtos de unidade excluídos ou para nós de subdivisão incluídos ou excluídos, que são grupos de produtos com nós de grupo de produtos secundários.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Opcional) Para exibir um grupo de produtos e seus nós filhos do grupo de produtos no Modo de exibição em árvore, mantenha o cursor sobre o nome do grupo de produtos, clique em **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -151,7 +153,7 @@ Depois de criar pelo menos um grupo &quot;[!UICONTROL All Products]&quot; comple
 
 ## Editar somente o [!UICONTROL Tracking Template] de um nó de grupo de produtos {#node-edit-tracking-template}
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Mantenha o cursor sobre o nome do grupo de produtos e clique em **[!UICONTROL ...]>[!UICONTROL Tree View]** para exibir o grupo de produtos e seus nós filhos do grupo de produtos no Modo de Exibição de Árvore.
 
@@ -161,7 +163,7 @@ Depois de criar pelo menos um grupo &quot;[!UICONTROL All Products]&quot; comple
 
 ## Editar somente o [!UICONTROL Max CPC] de um nó de grupo de produtos {#node-edit-maxcpc}
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Mantenha o cursor sobre o nome do grupo de produtos e clique em **[!UICONTROL ...]>[!UICONTROL Tree View]** para exibir o grupo de produtos e seus nós filhos do grupo de produtos no Modo de Exibição de Árvore.
 
@@ -173,7 +175,7 @@ Depois de criar pelo menos um grupo &quot;[!UICONTROL All Products]&quot; comple
 
 Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&quot; quando outros grupos de produtos existem no mesmo nível, usado para determinar quais produtos na conta da central de atendimento são incluídos nos anúncios de compras do grupo de anúncios. A exclusão de um grupo de produtos exclui todos os grupos de produtos secundários.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Mantenha o cursor sobre o nome do grupo de produtos e clique em **[!UICONTROL ...]>[!UICONTROL Tree View]** para exibir o grupo de produtos e seus nós filhos do grupo de produtos no Modo de Exibição de Árvore.
 
@@ -183,7 +185,7 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 
 ## Atribuir uma restrição aos grupos de produtos selecionados {#constraint-assign}
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Marque a caixa de seleção ao lado de cada grupo de produtos ao qual você atribuirá uma única restrição.
 
@@ -195,7 +197,7 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 
 ## Remover restrições dos grupos de produtos selecionados {#constraint-unassign}
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Marque a caixa de seleção ao lado de cada grupo de produtos do qual você cancelará a atribuição de restrições.
 
@@ -209,7 +211,7 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 >
 >Os valores de rótulo são herdados por entidades filhas, portanto, não insira valores para entidades filhas, a menos que deseje substituir os valores herdados.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Marque a caixa de seleção ao lado de cada grupo de produtos ao qual você atribuirá um valor de rótulo.
 
@@ -241,7 +243,7 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 
 Remover um valor de classificação remove a associação com o componente de conta e todos os seus componentes secundários. Os dados do relatório para o valor de classificação não estão mais disponíveis para esses componentes. A remoção de um valor de classificação não exclui o valor nem os componentes da conta.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Marque a caixa de seleção ao lado de cada grupo de produtos do qual você removerá um valor de rótulo.
 

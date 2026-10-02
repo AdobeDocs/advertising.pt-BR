@@ -1,15 +1,13 @@
 ---
-title: (Nova interface do usuário) Gerenciar  [!DNL Naver] contas somente para rastreamento
-description: Saiba como configurar e gerenciar detalhes da conta na nova interface do usuário para uma conta  [!DNL Naver] .
+title: (Nova interface do usuário) Gerenciar contas do [!DNL Naver] somente para rastreamento
+description: Saiba como configurar e gerenciar detalhes da conta na nova interface do usuário para uma conta [!DNL Naver].
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
-
+source-wordcount: '491'
+ht-degree: 1%
 ---
-
 # (Nova interface do usuário) Gerenciar contas do [!DNL Naver] somente para rastreamento
 
 *recurso do Beta*
@@ -26,7 +24,7 @@ Para habilitar o rastreamento de uma conta, você deve criar um registro de cont
 >
 >Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Clique em **[!UICONTROL Create Account]**.
 
@@ -48,7 +46,7 @@ Para alterar o nome da conta, o status da conta ou os conjuntos de relatórios [
 >
 >Para editar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selecione a conta de uma das seguintes maneiras:
 
@@ -73,7 +71,7 @@ Para alterar o nome da conta, o status da conta ou os conjuntos de relatórios [
 
 When you enable an ad network account, Search, Social, & Commerce synchronizes campaign data with the account (when supported) and pushes automated bids and/or campaign budgets for campaigns in portfolios. When you disable an ad network account, Search, Social, & Commerce stops all activity on the account. Data collected while the account was active is still stored, but the campaign management views and reports don't include data for the time period in which the account is disabled. You can later re-enable the account to resume activity with the account.
 
-1. In the main menu, click **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. In the main menu, click **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Do either of the following:
 
@@ -126,4 +124,4 @@ Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AM
 >[!MORELIKETHIS]
 >
 >* [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [Sobre contas de rede de anúncios](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [Sobre contas de rede de anúncios](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

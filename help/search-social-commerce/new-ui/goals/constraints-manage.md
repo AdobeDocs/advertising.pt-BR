@@ -4,15 +4,15 @@ description: Saiba mais sobre as restrições para restringir ofertas de unidade
 feature: Search Campaign Management, Search Optimization
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
+    internal-label: Portfolios
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
-source-wordcount: 2660
+source-wordcount: '2660'
 ht-degree: 0%
-
 ---
-
 # Gerenciar restrições para pesquisar unidades de oferta
 
 *Aplicável para unidades de oferta em campanhas CPC somente em portfólios de nível de palavra-chave herdados*
@@ -183,7 +183,7 @@ Cada entidade pode ter apenas uma restrição. É possível atribuir uma única 
 >[!NOTE]
 >
 >* Posteriormente, se você editar uma palavra-chave ou a cópia de um anúncio — criando assim uma nova palavra-chave ou anúncio — a restrição não será atribuída à nova entidade.
->* Veja as mesmas instruções no [[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] modo de exibição](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) ou [[!UICONTROL Placements] modo de exibição](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Veja as mesmas instruções no [[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] modo de exibição](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou [[!UICONTROL Placements] modo de exibição](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. No menu principal, abra a visualização de gerenciamento relevante.
 
@@ -204,7 +204,7 @@ Cada entidade pode ter apenas uma restrição. É possível atribuir uma única 
 >[!NOTE]
 >
 >* Para excluir uma restrição, tornando-a indisponível para uso futuro, consulte &quot;[Alterar o status das restrições](#constraint-change-status)&quot;.
->* Veja as mesmas instruções no [[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] modo de exibição](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) ou [[!UICONTROL Placements] modo de exibição](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Veja as mesmas instruções no [[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] modo de exibição](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) ou [[!UICONTROL Placements] modo de exibição](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. No menu principal, abra a visualização de gerenciamento relevante.
 
@@ -220,6 +220,6 @@ Cada entidade pode ter apenas uma restrição. É possível atribuir uma única 
 >
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [O [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

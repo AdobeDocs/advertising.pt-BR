@@ -2,13 +2,11 @@
 title: (Nova interface do usuário) Gerenciar credenciais para contas de gerente do Google Ads
 description: Saiba como configurar e gerenciar credenciais para contas de gerente do Google Ads na nova interface do usuário.
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Gerenciar credenciais para contas de gerente do [!DNL Google Ads]
 
 *recurso do Beta*

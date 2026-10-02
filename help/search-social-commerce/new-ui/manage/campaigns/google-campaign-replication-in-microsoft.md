@@ -2,13 +2,11 @@
 title: (Nova interface) Replicar campanhas do Google Ads no Microsoft Advertising
 description: Saiba como exportar suas campanhas sincronizadas em uma conta do Google Ads diretamente para uma conta sincronizada do Microsoft Advertising.
 feature: Search Campaign Management
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Replicar campanhas [!DNL Google Ads] em [!DNL Microsoft Advertising]
 
 *recurso do Beta*
@@ -37,9 +35,11 @@ Nem todas as informações da campanha são replicadas e talvez seja necessário
 
 Consulte [o que é importado de [!DNL Google Ads] campanhas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
-1. Clique em **[!UICONTROL Import Campaigns]**.
+1. Acima da lista de campanha, clique em **[!UICONTROL Import Campaigns]**.
+
+1. Clique em **[!UICONTROL + Import Campaigns]**.
 
 1. Especifique as [configurações de importação](#campaign-import-settings).
 
@@ -47,13 +47,15 @@ Consulte [o que é importado de [!DNL Google Ads] campanhas](https://help.ads.mi
 
 1. Revise suas seleções no resumo e clique em **[!UICONTROL Start Import]**.
 
-1. (Opcional) Adicione o rastreamento de Search, Social e Commerce às configurações de [conta](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de anúncios](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) ou [anúncio](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
+1. (Opcional) Adicione o rastreamento de Search, Social e Commerce às configurações de [conta](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md), [campanha](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de anúncios](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) ou [anúncio](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
 
 ## Editar configurações de programação para um trabalho de importação de campanha
 
 Consulte [o que é importado de [!DNL Google Ads] campanhas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Acima da lista de campanha, clique em **[!UICONTROL Import Campaigns]**.
 
 1. Na guia **[!UICONTROL List of Import Jobs]**, clique no nome do trabalho de importação e clique em **[!UICONTROL Edit]**.
 
@@ -65,13 +67,17 @@ Consulte [o que é importado de [!DNL Google Ads] campanhas](https://help.ads.mi
 
 Você pode listar todos os trabalhos de importação, incluindo a conta de origem [!DNL Google Ads], a conta de destino [!DNL Microsoft Advertising], o horário ou agendamento de importação e o usuário que criou o trabalho. Quando você executa um trabalho de importação várias vezes, incluindo durante importações programadas regularmente, cada ocorrência é listada como um trabalho separado.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Acima da lista de campanha, clique em **[!UICONTROL Import Campaigns]**.
 
    O modo de exibição abre a guia **[!UICONTROL List of Import Jobs]** por padrão.
 
 ## Executar um trabalho de importação de campanha
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Acima da lista de campanha, clique em **[!UICONTROL Import Campaigns]**.
 
 1. Na guia **[!UICONTROL List of Import Jobs]**, marque a caixa de seleção ao lado do trabalho de importação e clique em **[!UICONTROL Run Now]**.
 
@@ -79,7 +85,9 @@ Você pode listar todos os trabalhos de importação, incluindo a conta de orige
 
 Você pode listar todos os trabalhos de importação concluídos ou com falha, incluindo a hora de início, a conta de origem [!DNL Google Ads], a conta de destino [!DNL Microsoft Advertising], o usuário que criou o trabalho, o número de operações com êxito e com falha e quaisquer endereços de email que receberam notificações para cada trabalho. Você pode ver mais detalhes sobre as alterações na conta de destino [!DNL Microsoft Advertising] que ocorreram para cada trabalho, incluindo o número de itens adicionados, sincronizados, excluídos e que produziram erros para cada nível de entidade (como campanha ou palavra-chave) na conta.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Acima da lista de campanha, clique em **[!UICONTROL Import Campaigns]**.
 
 1. Clique na guia **[!UICONTROL Import Logs]**.
 
@@ -131,4 +139,4 @@ Você pode listar todos os trabalhos de importação concluídos ou com falha, i
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar contas de rede de publicidade](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [Gerenciar contas de rede de publicidade](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)

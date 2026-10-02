@@ -2,13 +2,11 @@
 title: Gerenciar classificações de etiquetas
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # Gerenciar classificações de etiquetas
 
 As classificações de etiquetas ajudam a agrupar os componentes da conta em conjuntos significativos. Por exemplo, você pode criar uma classificação de etiqueta principal chamada &quot;Geo&quot;, criar um valor de etiqueta diferente para cada região geográfica (como &quot;Reino Unido&quot; e &quot;Japão&quot;) dentro da classificação e, em seguida, atribuir os valores da etiqueta às suas [unidades de oferta](/help/search-social-commerce/glossary.md#a-b) ou campanhas principais. Em seguida, você pode incluir qualquer valor de rótulo como uma coluna separada em suas exibições e relatórios e criar uma tabela dinâmica de seus relatórios sobre diferentes grupos de classificação e valores.
@@ -49,7 +47,7 @@ A exibição [!UICONTROL Reports] > [!UICONTROL Labels Classifications] inclui s
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. Clique em **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Clique em **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Create Classification]**.
 
@@ -69,7 +67,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 >
 >Suas palavras-chave e cópia de anúncio para algumas redes de anúncios e tipos de campanha são [não mutáveis](/help/search-social-commerce/campaign-management/faqs-campaigns.md), o que significa que editá-las excluirá a entidade existente e criará uma nova. Quando uma entidade existente é excluída dessa maneira, a classificação de etiqueta não é atribuída à nova entidade.
 
-1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]**.
+1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]**.
 
 1. Marque a caixa de seleção ao lado de cada linha relevante.
 
@@ -155,7 +153,7 @@ Remover um valor de classificação remove a associação com o componente de co
 >
 >Para excluir um valor de uma classificação de etiqueta, consulte &quot;[Excluir valores de classificação de etiquetas](#classification-values-delete)&quot;.
 
-1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]**.
+1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]**.
 
 1. Marque a caixa de seleção ao lado de cada linha relevante.
 
@@ -177,7 +175,7 @@ A exclusão dos valores de classificação de etiqueta os torna indisponíveis p
 >
 >Para simplesmente desassociar um valor de classificação de um componente da conta, consulte &quot;[Remover valores de classificação de etiquetas dos componentes da conta](#classification-values-remove)&quot;.
 
-1. Clique em **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Clique em **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Clique na guia **[!UICONTROL Label Values]**.
 
@@ -201,7 +199,7 @@ Excluir uma classificação remove todas as associações entre seus valores sec
 >
 >Para simplesmente desassociar um valor de classificação de um componente da conta, consulte &quot;[Remover valores de classificação de etiquetas dos componentes da conta](#classification-values-remove)&quot;.
 
-1. Clique em **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Clique em **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. (Opcional) Filtre a lista para incluir classificações de rótulo específicas.
 

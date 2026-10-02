@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Uma campanha é o componente principal de uma conta de rede de anúncios. Para a maioria dos tipos de campanha, ele consiste em um conjunto de grupos de anúncios ou conjuntos de anúncios. As configurações da campanha incluem parâmetros de orçamento da campanha, metas de anúncios e parâmetros de rastreamento opcionais para todos os anúncios na campanha. Os parâmetros de rastreamento no nível da campanha substituem os parâmetros no nível da conta, mas podem ser substituídos em um nível inferior.
 
-Depois que você [tornar uma conta de rede de publicidade acessível por meio de uma conexão de API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) e o Search, Social e Commerce tiver sincronizado os dados da conta com a rede de publicidade, você poderá criar novas campanhas com [tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md). Você também pode editar e alterar o status de campanhas.
+Depois que você [tornar uma conta de rede de publicidade acessível por meio de uma conexão de API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) e o Search, Social e Commerce tiver sincronizado os dados da conta com a rede de publicidade, você poderá criar novas campanhas com [tipos de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md). Você também pode editar e alterar o status de campanhas.
 
 Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
@@ -424,8 +424,8 @@ Consulte também &quot;>* [(Interface herdada) Baixar dados de uma exibição de
 >
 >* [Gerenciar restrições para unidades de oferta de pesquisa](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gerenciar atribuições de restrição para grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [(Interface herdada) Baixar dados de uma exibição de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Interface herdada) Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] configurações da campanha](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)

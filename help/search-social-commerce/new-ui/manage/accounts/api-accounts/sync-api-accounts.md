@@ -3,13 +3,11 @@ title: (Nova interface) Sincronizar manualmente os dados de rede do e do
 description: Saiba como acionar manualmente a sincronização da estrutura da campanha e das entidades da campanha para redes de anúncios compatíveis na nova interface do usuário.
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Sincronizar manualmente os dados de rede do e do por meio da conexão da API
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
@@ -26,23 +24,30 @@ Para campanhas com a opção &quot;[!UICONTROL Auto Update]&quot;, a operação 
 
 >[!NOTE]
 >
->Sempre que você [criar um bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md), poderá, opcionalmente, sincronizar com a rede de anúncios antes da criação do bulksheet.
+>Sempre que você [criar um bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md), poderá, opcionalmente, sincronizar com a rede de anúncios antes da criação do bulksheet.
 
-## Sincronizar campanhas em uma conta de rede de anúncios
+## Sincronizar todas as campanhas em contas de rede de anúncios
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-1. Marque a caixa de seleção ao lado do nome da conta.
+1. Marque a caixa de seleção ao lado do nome de cada conta a ser sincronizada.
 
    <!-- As of 2/23, you can sync only one acct at a time:  Select the check box next to each account or campaign that you want to sync. You can sync up to 50 campaigns at a time. If you sync more than five accounts at a time, the job is broken into batches of up to five accounts each. -->
 
+1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Sync]**.
+
+O trabalho pode levar uma hora ou mais para ser concluído.
+
+## Sincronizar campanhas da exibição [!UICONTROL Campaigns].
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**.
+
+1. Marque a caixa de seleção ao lado do nome de cada campanha a ser sincronizada.
+
 1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**.
 
-   * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
-
-Você pode seguir o status do trabalho de sincronização na exibição [!UICONTROL Workspace]. O trabalho pode levar
-uma hora ou mais para aparecer.
+O trabalho pode levar uma hora ou mais para ser concluído.
 
 >[!MORELIKETHIS]
 >
->* [Baixar/Criar um arquivo de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Baixar/Criar um arquivo de bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)

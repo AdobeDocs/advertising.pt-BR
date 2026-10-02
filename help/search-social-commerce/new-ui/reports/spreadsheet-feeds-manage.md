@@ -2,13 +2,11 @@
 title: (Nova interface do usuário) Gerenciar feeds de relatório de planilha
 description: Saiba como criar, configurar, atualizar, visualizar e excluir feeds de relatório de planilha que fornecem dados diários de desempenho em uma planilha formatada personalizada.
 feature: Search Reports
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1498'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Gerenciar feeds de relatório de planilha
 
 *Somente para relatórios básicos e relatórios de precisão de modelo*
@@ -41,14 +39,14 @@ A exibição [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] lista todos 
 
 Para criar feeds de planilha, você deve primeiro criar modelos de planilha do [!DNL Microsoft Excel] especialmente formatados usando modelos de relatório comuns. Como opção, você pode personalizar a planilha [!DNL Excel] para incluir colunas e gráficos adicionais.
 
-1. Em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, gere o tipo de relatório desejado usando uma unidade [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; e com todos os outros parâmetros de dados desejados, salvando o relatório como modelo.
+1. Em **[!UICONTROL Reports]>[!UICONTROL Reports]**, gere o tipo de relatório desejado usando uma unidade [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; e com todos os outros parâmetros de dados desejados, salvando o relatório como modelo.
 
    >[!NOTE]
    >
    > * Você pode criar feeds de planilha para os relatórios [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] e [!UICONTROL Forecast Accuracy]. Se você usa o [!UICONTROL Ad Group Report], limite o número de grupos de anúncios incluídos para obter resultados mais rápidos.
    > * A unidade [!UICONTROL Date Range] definida no modelo não é usada. Você definirá as datas para as quais atualizará os dados ao configurar o feed de planilha posteriormente.
 
-1. Depois que o relatório for gerado, vá para **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]** e exporte uma versão TSV ou XLS da saída do relatório para um arquivo.
+1. Depois que o relatório for gerado, vá para **[!UICONTROL Reports]>[!UICONTROL Reports]** e exporte uma versão TSV ou XLS da saída do relatório para um arquivo.
 
 1. Em [!DNL Excel], crie um modelo personalizado para o relatório:
 
@@ -128,7 +126,7 @@ Para criar feeds de planilha, você deve primeiro criar modelos de planilha do [
    >
    > Se o modelo de relatório associado ao feed for excluído posteriormente, o feed também será excluído.
 
-   Os feeds de planilha são atualizados automaticamente às 08:00, todos os dias, no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
+   Os feeds de planilha são atualizados automaticamente às 08:00 cada dia no fuso horário do anunciante. Se o modelo de relatório incluir endereços para qualquer destinatário de email, esses endereços receberão notificações quando a planilha for atualizada.
 
 ## Configurações do feed de relatório de planilha {#spreadsheet-feed-settings}
 
@@ -140,7 +138,7 @@ Para criar feeds de planilha, você deve primeiro criar modelos de planilha do [
 | [!UICONTROL Back Fill From] | A data inicial para a qual os dados existentes na guia [!UICONTROL RAW] são atualizados, representada por um número de dias no passado. Insira um valor de até 90 dias; o padrão é sete (7) dias.<br><br>Por exemplo, se o valor for 7 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] que começam com 1º de março serão atualizados (até a data final especificada pelo parâmetro [!UICONTROL Back Fill Until]). As linhas de dados existentes para datas anteriores a 1º de março não são excluídas, mas não são atualizadas. |
 | [!UICONTROL Back Fill Until] | A data final para a qual os dados existentes na guia [!UICONTROL RAW] são atualizados, representada por um número de dias no passado. O valor padrão é um (1) dia.<br><br>Por exemplo, se esse valor for 1 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] serão atualizados até 6 de março (e começando com a data de início especificada pelo parâmetro [!UICONTROL Back Fill From]). Se esse valor for 1, o parâmetro [!UICONTROL Back Fill Until] for 7 e hoje for 7 de março, os dados existentes na guia [!UICONTROL RAW] serão atualizados de 1º de março a 6 de março. Em ambos os exemplos, as linhas de dados existentes para datas após 6 de março não são excluídas, mas não são atualizadas. |
 | [!UICONTROL Email Recipients] | Endereços de email nos quais enviar notificações sempre que o relatório for atualizado ou sempre que o relatório for executado quando o modelo incluir um agendamento. Por padrão, o endereço da conta de usuário é inserido. Para especificar vários endereços, separe-os com vírgulas, espaços ou novas linhas. |
-| [!UICONTROL Schedule Time] | A hora em que os feeds de planilha são atualizados: às 08:00 ou a qualquer hora entre 10:00 e 23:00 no fuso horário do anunciante. O padrão para novos feeds de planilha é 10:00.<br><br><b>Observação:</b> por motivos de desempenho, não é possível atualizar os feeds de planilha em 09:00, quando outros relatórios são gerados. |
+| [!UICONTROL Schedule Time] | A hora em que os feeds de planilha são atualizados: às 08:00 ou a qualquer hora entre 10:00 e 23:00 no fuso horário do anunciante. O padrão para novos feeds de planilha é 10h.<br><br><b>Observação:</b> por motivos de desempenho, não é possível atualizar feeds de planilha às 9h, quando outros relatórios forem gerados. |
 | [!UICONTROL Email Notification] | (Quando Destinatários de email são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>[!UICONTROL Attach feed]</i> — Para enviar uma cópia do relatório concluído no formato XLSX. Se o arquivo tiver mais de 10 MB, a notificação não incluirá um anexo.</li><li><i>[!UICONTROL Notification Only]</i> (o padrão) — Para enviar apenas uma notificação da conclusão ou falha do relatório, com um link para o relatório.</li></ul> |
 
 ## Exibir ou salvar um arquivo de feed de relatório de planilha {#spreadsheet-feed-view-or-save}
@@ -155,7 +153,7 @@ Você pode visualizar qualquer feed de planilha gerado ou salvá-lo em um arquiv
 
 >[!NOTE]
 >
->Os feeds de planilhas são atualizados automaticamente às 08:00, todos os dias, no fuso horário local.
+>Os feeds de planilha são atualizados automaticamente às 08:00, todos os dias no fuso horário local.
 
 1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 

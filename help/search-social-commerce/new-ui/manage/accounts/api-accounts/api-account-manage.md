@@ -3,7 +3,7 @@ title: (Nova interface do usuário) Gerenciar contas de rede de anúncios
 description: Saiba como configurar e gerenciar detalhes da conta na nova interface para uma rede de anúncios sincronizada por meio da API da rede de anúncios.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 >
 >Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Clique em **[!UICONTROL Create Account]**.
 
@@ -52,7 +52,7 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 >
 >Para editar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selecione a conta de uma das seguintes maneiras:
 
@@ -74,7 +74,7 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 1. (Se você estiver conectado a outra conta para a mesma rede de anúncios no mesmo aplicativo do navegador) Faça logout de qualquer conta diferente da do anunciante.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios. Quando você desativa uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Siga um destes procedimentos:
 
@@ -153,7 +153,7 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 
 >[!NOTE]
 >
->Contas de gerente de rede de publicidade não são suportadas aqui. Para identificar uma conta de gerente para [!DNL Microsoft Advertising], use o campo ID da Conta Principal ou Conta MCC, respectivamente. Para [configurar credenciais para uma [!DNL Google Ads] conta de gerente](/help/search-social-commerce/admin/manager-accounts.md), vá para [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Contas de gerente de rede de publicidade não são suportadas aqui. Para identificar uma conta de gerente para [!DNL Microsoft Advertising], use o campo ID da Conta Principal ou Conta MCC, respectivamente. Para [configurar credenciais para uma [!DNL Google Ads] conta de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), vá para [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (Somente leitura) A abreviação da moeda usada na conta. Esse valor é preenchido automaticamente com a moeda configurada para a conta na rede de publicidade depois que você salva o registro.
 

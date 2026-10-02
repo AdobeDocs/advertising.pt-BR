@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Remover dos componentes da conta os valores de classificação de etiquetas
 
 Remover um valor de classificação remove a associação com o componente de conta e todos os seus componentes secundários. Os dados do relatório para o valor de classificação não estão mais disponíveis para esses componentes. A remoção de um valor de classificação não exclui o valor nem os componentes da conta.
@@ -27,7 +27,7 @@ Remover um valor de classificação remove a associação com o componente de co
 
 É possível remover valores de classificação de qualquer componente de conta aplicável que esteja disponível na nova interface.
 
-1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]**.
+1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]**.
 
 1. Marque a caixa de seleção ao lado de cada linha relevante.
 
@@ -51,11 +51,11 @@ Remover um valor de classificação remove a associação com o componente de co
 
    * (Para remover valores de uma ou mais entidades) Faça o seguinte:
 
-      * Marque a caixa de seleção ao lado de cada linha.
+     * Marque a caixa de seleção ao lado de cada linha.
 
-        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+       Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Classification]**.
+     * Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Classification]**.
 
 1. Em [!UICONTROL Assignment Details], selecione **[!UICONTROL Remove]**.
 

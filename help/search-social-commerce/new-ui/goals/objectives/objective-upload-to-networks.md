@@ -3,13 +3,11 @@ title: (Nova interface) Habilitar upload de objetivos em redes de anúncios
 description: Saiba como fazer upload de objetivos de portfólios híbridos para o Google Ads e o Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # (Nova interface) Habilitar upload de objetivos em redes de anúncios
 
 *recurso do Beta*
@@ -42,7 +40,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 1. (Anunciantes com contas do [!DNL Google Ads] que fazem negócios no Espaço Econômico Europeu (EEE) ou Reino Unido (Reino Unido); opcional) Se você coletou o consentimento de usuários do EEE e Reino Unido para carregar seus dados para fins de publicidade, marque a caixa de seleção. Isto envia o status de consentimento como **[!UICONTROL GRANTED]** para [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se você não marcar a caixa de seleção, o status do consentimento será enviado como **[!UICONTROL UNSPECIFIED]**.
 
-1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicione credenciais para sua conta de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) antes de salvar.
+1. (Se suas conversões forem rastreadas no nível de uma conta de gerente) [Adicione credenciais para sua conta de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) antes de salvar.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -79,7 +77,7 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 
 * ([!DNL Google Ads]) Verifique se as conversões devem ser carregadas no nível de conta ou de gerente. Caso seja necessário fazer upload deles no nível do gerente:
 
-  * Verifique se as credenciais da conta de gerente [!DNL Google Ads] foram fornecidas. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Verifique se as credenciais da conta de gerente [!DNL Google Ads] foram fornecidas. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md).
 
   * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
 
@@ -89,7 +87,7 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 >
 >* [Sobre objetivos](objective-about.md)
 >* [Gerenciar as métricas de conversão de um anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [Gerenciar credenciais para [!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [Gerenciar credenciais para [!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

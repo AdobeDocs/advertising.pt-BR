@@ -4,20 +4,25 @@ description: Saiba mais sobre os relatórios de desempenho agendados, incluindo 
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Sobre relatórios agendados
 
 Os relatórios de desempenho agendados permitem rastrear e gerenciar o desempenho de portfólios, redes de anúncios e entidades de conta de rede de anúncios em um nível tão granular quanto você deseja. A maioria dos relatórios fornece visibilidade completa de como os anúncios em cada canal de marketing contribuem para a taxa de conversão geral.
@@ -28,7 +33,7 @@ Todos os relatórios concluídos estão disponíveis na seção [!UICONTROL Late
 
 ## Categorias de relatório disponíveis
 
-As seguintes categorias de relatório estão disponíveis na exibição [!UICONTROL Scheduled Reports]. Talvez você não tenha acesso a todos eles; os relatórios disponíveis e os dados gerados por eles são determinados pela sua função e como a conta do cliente é configurada.
+As seguintes categorias de relatório estão disponíveis na exibição [!UICONTROL Reports] > [!UICONTROL Reports]. Talvez você não tenha acesso a todos eles; os relatórios disponíveis e os dados gerados por eles são determinados pela sua função e como a conta do cliente é configurada.
 
 | Categoria do relatório | Descrição |
 | ----| ---- |
@@ -48,9 +53,9 @@ Programe relatórios personalizados para serem gerados automaticamente de uma ou
 
 * Continue atualizando seus modelos de planilha personalizados com dados de desempenho diário usando os [feeds de planilha](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## A visualização [!UICONTROL Scheduled Reports]
+## A visualização [!UICONTROL Reports]
 
-A exibição [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] permite criar e gerenciar relatórios, modelos e feeds de planilha. A visualização inclui duas guias:
+A exibição [!UICONTROL Reports] > [!UICONTROL Reports] permite criar e gerenciar relatórios, modelos e feeds de planilha. A visualização inclui duas guias:
 
 * A guia **[!UICONTROL Latest Reports]** lista todos os relatórios disponíveis que foram solicitados nos últimos sete dias, exceto aqueles que foram excluídos manualmente, com o relatório mais recente no topo por padrão. As informações mostradas para cada relatório incluem o agendamento pelo qual ele é executado (quando aplicável), as datas de início e término para as quais os dados foram ou serão gerados e o status do relatório (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* ou *[!UICONTROL Error]*).
 

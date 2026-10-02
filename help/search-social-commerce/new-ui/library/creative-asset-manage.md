@@ -1,28 +1,30 @@
 ---
 title: Exibir e criar ativos criativos
-description: Saiba como exibir e criar ativos de imagem, vídeo e texto reutilizáveis para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
+description: Saiba como visualizar e criar ativos de imagem, vídeo e texto reutilizáveis para suas bibliotecas de ativos no nível da conta do [!DNL Google Ads] e do [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # Exibir e criar ativos criativos
 
 *Somente para contas [!DNL Google Ads] e [!DNL Microsoft Advertising]*
 
-Em [!UICONTROL Assets] > [!UICONTROL Creatives], você pode exibir todos os ativos de imagem, vídeo e texto reutilizáveis (somente para [!DNL Google Ads]) nas bibliotecas de ativos no nível da conta do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A lista inclui ativos gerados por IA para [!DNL Google Ads] grupos de anúncios em campanhas habilitadas para [!DNL AI Max].
+Em [!UICONTROL Library] > [!UICONTROL Creatives], você pode exibir todos os ativos de imagem, vídeo e texto reutilizáveis (somente para [!DNL Google Ads]) nas bibliotecas de ativos no nível da conta do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A lista inclui ativos gerados por IA para [!DNL Google Ads] grupos de anúncios em campanhas habilitadas para [!DNL AI Max].
 
 Você pode criar manualmente novos ativos para uma conta de rede de publicidade e carregá-los na rede de publicidade. <!-- Verify if you can use the AI-generated ones -->Você pode usar qualquer um dos ativos carregados para suas campanhas de desempenho máximo.
 
@@ -30,7 +32,7 @@ Você também pode remover ativos de texto gerados por IA de seus grupos de anú
 
 ## Exibir seus ativos criativos
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. No menu principal, clique em **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Na barra de ferramentas, selecione a rede de publicidade e a conta.
 
@@ -42,7 +44,7 @@ Você também pode remover ativos de texto gerados por IA de seus grupos de anú
 
 ## Criar e carregar ativos
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. No menu principal, clique em **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Na barra de ferramentas, selecione a rede de publicidade e a conta.
 
@@ -90,7 +92,7 @@ Você também pode remover ativos de texto gerados por IA de seus grupos de anú
 
 Os ativos de texto removidos não serão enviados novamente, mas os dados de desempenho ainda estão disponíveis nos relatórios.
 
-1. No menu principal, clique em **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. No menu principal, clique em **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Na barra de ferramentas, selecione a rede de publicidade e a conta.
 

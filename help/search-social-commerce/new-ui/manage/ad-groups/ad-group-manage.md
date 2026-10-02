@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Um grupo de anúncios inclui um conjunto de anúncios e suas palavras-chave relacionadas. Um grupo de anúncios em uma campanha direcionada à rede de exibição também pode incluir disposições, que são locais na rede de exibição nos quais seus anúncios podem aparecer. As configurações dos grupos de anúncios, que se aplicam a todos os componentes do grupo de anúncios, variam de acordo com a rede de anúncios.
 
-Depois que você [tornar uma conta de rede de publicidade acessível por meio de uma conexão de API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) e o Search, Social e Commerce tiver sincronizado os dados da conta com a rede de publicidade, você poderá criar grupos de publicidade para um [tipo de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md). Você também pode editar e alterar o status de grupos de anúncios.
+Depois que você [tornar uma conta de rede de publicidade acessível por meio de uma conexão de API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) e o Search, Social e Commerce tiver sincronizado os dados da conta com a rede de publicidade, você poderá criar grupos de publicidade para um [tipo de campanha com suporte](/help/search-social-commerce/introduction/supported-inventory.md). Você também pode editar e alterar o status de grupos de anúncios.
 
 Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
@@ -321,8 +321,8 @@ Consulte também &quot;>* [(Interface herdada) Baixar dados de uma exibição de
 >
 >* [Gerenciar restrições para unidades de oferta de pesquisa](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gerenciar atribuições de restrição para campanhas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para palavras-chave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gerenciar atribuições de restrição para posicionamentos](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [(Interface herdada) Baixar dados de uma exibição de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Interface herdada) Excluir um relatório de dados de desempenho ou um arquivo de bulksheet do menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] configurações do grupo de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)

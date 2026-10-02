@@ -6,19 +6,21 @@ feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
 
 *[!DNL Google Ads]somente contas*
@@ -43,7 +45,7 @@ Para obter mais informações sobre [!DNL Google Ads] anúncios de pesquisa din�
 
 ## A visualização [!UICONTROL Auto Targets]
 
-A exibição [!UICONTROL Target] > [!UICONTROL Auto Targets] lista todos os destinos de pesquisa dinâmica na exibição filtrada para a conta de anunciante selecionada. Você também pode gerenciar seus destinos de pesquisa dinâmica.
+A exibição [!UICONTROL Targeting] > [!UICONTROL Auto Targets] lista todos os destinos de pesquisa dinâmica na exibição filtrada para a conta de anunciante selecionada. Você também pode gerenciar seus destinos de pesquisa dinâmica.
 
 ### Ações disponíveis
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## Atribuir uma restrição aos destinos de pesquisa dinâmica selecionados da nova exibição [!UICONTROL Auto Targets] {#constraint-assign}
 
-1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada destino de pesquisa dinâmica ao qual você atribuirá uma única restrição.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## Remover restrições dos destinos de pesquisa dinâmica selecionados da nova exibição [!UICONTROL Auto Targets] {#constraint-unassign}
 
-1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada destino de pesquisa dinâmica do qual você cancelará a atribuição de restrições.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >Os valores de rótulo são herdados por entidades filhas, portanto, não insira valores para entidades filhas, a menos que deseje substituir os valores herdados.
 
-1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada destino de pesquisa dinâmica ao qual você atribuirá um valor de rótulo.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 Remover um valor de classificação remove a associação com o componente de conta e todos os seus componentes secundários. Os dados do relatório para o valor de classificação não estão mais disponíveis para esses componentes. A remoção de um valor de classificação não exclui o valor nem os componentes da conta.
 
-1. No menu principal, clique em **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. No menu principal, clique em **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Marque a caixa de seleção ao lado de cada destino de pesquisa dinâmica do qual você removerá um valor de rótulo.
 
@@ -253,4 +255,4 @@ Remover um valor de classificação remove a associação com o componente de co
 >[!MORELIKETHIS]
 >
 >* [(Nova interface do usuário) Gerenciar restrições para unidades de oferta de pesquisa](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nova interface do usuário) Gerenciar classificações de rótulos](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(Nova interface do usuário) Gerenciar classificações de rótulos](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

@@ -3,13 +3,11 @@ title: (Nova interface do usuário) Sobre contas de rede de anúncios
 description: Saiba mais sobre contas de rede de anúncios na nova interface do Search, Social e Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Sobre contas de rede de anúncios
 
 Search, Social e Commerce podem rastrear qualquer conta de um anunciante em redes de anúncios compatíveis. Para habilitar o rastreamento de uma conta, você deve criar um registro de conta correspondente. Você deve configurar os detalhes de qualquer tipo de conta, seja Pesquisa, Social e Commerce sincronizados ou otimizados lances e orçamentos em seus anúncios.
@@ -42,8 +40,8 @@ Você não pode configurar novas contas do [!DNL Naver] no Search, Social e Comm
 
 >[!MORELIKETHIS]
 >
->* [Gerenciar contas de rede de publicidade por meio da conexão com a API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [Gerenciar contas de rede de publicidade para carregamentos de dados](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [Gerenciar [!DNL Naver] contas apenas para rastreamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [Gerenciar contas de rede de publicidade por meio da conexão com a API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [Gerenciar contas de rede de publicidade para carregamentos de dados](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [Gerenciar [!DNL Naver] contas apenas para rastreamento](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [Implementar [!DNL Naver] contas somente de rastreamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Gerenciar contas do centro de comércio](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

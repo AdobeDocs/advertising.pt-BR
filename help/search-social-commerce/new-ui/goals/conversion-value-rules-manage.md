@@ -1,19 +1,20 @@
 ---
 title: (Nova interface do usuário) Gerenciar [!DNL Google Ads] regras de valor de conversão
-description: Saiba como visualizar e gerenciar  [!DNL Google Ads] as regras de valor de conversão do Search, Social e Commerce.
+description: Saiba como visualizar e gerenciar as regras de valor de conversão do [!DNL Google Ads] no Search, Social e Commerce.
 feature: Conversions
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+    internal-label: Conversion value rules
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1856'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Gerenciar [!DNL Google Ads] regras de valor de conversão
 
 *recurso do Beta*
@@ -30,7 +31,7 @@ Algumas contas podem gerenciar suas regras de valor de conversão:
 
 * Em contas para as quais as conversões são rastreadas no nível de conta individual ou de campanha, você pode [criar](#google-conversion-value-rule-create), [editar](#google-conversion-value-rule-edit) e [alterar o status](#google-conversion-value-rule-change-status) das suas regras no nível de conta e de campanha.
 
-  As contas podem ser vinculadas a [[!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md), mas elas não podem usar o rastreamento de conversões entre contas (para as quais as conversões são rastreadas em todas as contas na conta de gerente).
+  As contas podem ser vinculadas a [[!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), mas elas não podem usar o rastreamento de conversões entre contas (para as quais as conversões são rastreadas em todas as contas na conta de gerente).
 
 * Em contas que usam o rastreamento de conversão entre contas, suas regras de nível de conta e de nível de campanha são herdadas da conta do gerente e são somente leitura.
 

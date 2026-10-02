@@ -1,25 +1,25 @@
 ---
 title: Replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising]
-description: Saiba como exportar suas campanhas sincronizadas em uma conta do  [!DNL Google Ads] diretamente para uma conta do  [!DNL Microsoft Advertising] sincronizada.
+description: Saiba como exportar suas campanhas sincronizadas em uma conta do [!DNL Google Ads] diretamente para uma conta do [!DNL Microsoft Advertising] sincronizada.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # Replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising]
 
 >[!NOTE]
 >
->As instruções para esta tarefa na nova interface do usuário estão disponíveis em &quot;(Nova interface do usuário) [Replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md).&quot;
+>As instruções para esta tarefa na nova interface do usuário estão disponíveis em &quot;(Nova interface do usuário) [Replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md).&quot;
 
 Você pode exportar suas campanhas sincronizadas em uma conta do [!DNL Google Ads] diretamente para uma conta do [!DNL Microsoft Advertising] sincronizada como campanhas CPC (eCPC) aprimoradas. Os lances e orçamentos de campanha existentes são dimensionados. O rastreamento existente de Pesquisa, Social e Commerce não é importado.
 
@@ -87,11 +87,11 @@ Você pode listar todos os trabalhos de importação, incluindo a conta de orige
 
 * Siga um destes procedimentos:
 
-   * No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+  * No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-     Por padrão, o modo de exibição é aberto na guia [!UICONTROL List of Import Jobs].
+    Por padrão, o modo de exibição é aberto na guia [!UICONTROL List of Import Jobs].
 
-   * Na guia [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log), clique na guia **[!UICONTROL List of Import Jobs]**.
+  * Na guia [[!UICONTROL Import Logs] ](#campaign-import-log), clique na guia **[!UICONTROL List of Import Jobs]**.
 
 ## Executar um trabalho de importação de campanha
 
@@ -131,15 +131,15 @@ A geração automática de credenciais [!DNL Microsoft Advertising] para importa
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* Para selecionar campanhas e grupos de anúncios específicos.
 
-   * Para expandir uma campanha em seus grupos de anúncios secundários, clique em **[!UICONTROL >]** depois do nome da campanha.
+  * Para expandir uma campanha em seus grupos de anúncios secundários, clique em **[!UICONTROL >]** depois do nome da campanha.
 
-   * Para selecionar uma campanha ou grupo de anúncios, selecione o item para que apareça uma marca de seleção.
+  * Para selecionar uma campanha ou grupo de anúncios, selecione o item para que apareça uma marca de seleção.
 
-   * Para remover uma campanha ou grupo de anúncios:
+  * Para remover uma campanha ou grupo de anúncios:
 
-      * Na coluna [!UICONTROL Campaigns] ou [!UICONTROL Adgroups], desmarque a campanha ou o grupo de anúncios para que a marca de seleção desapareça.
+    * Na coluna [!UICONTROL Campaigns] ou [!UICONTROL Adgroups], desmarque a campanha ou o grupo de anúncios para que a marca de seleção desapareça.
 
-      * Na coluna [!UICONTROL Selected], clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir").
+    * Na coluna [!UICONTROL Selected], clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir").
 
 ### [!UICONTROL Customize your import]
 

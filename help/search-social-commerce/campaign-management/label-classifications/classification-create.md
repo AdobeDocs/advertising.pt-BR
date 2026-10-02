@@ -6,22 +6,22 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # Criar uma classificação de etiqueta
 
 Cada anunciante pode ter até 30 classificações de etiquetas.
 
 ## (Nova interface de usuário) Criar uma classificação de etiqueta
 
-1. Clique em **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Clique em **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Create Classification]**.
 

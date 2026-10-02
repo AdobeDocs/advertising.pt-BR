@@ -2,13 +2,11 @@
 title: Gerenciar relatórios agendados
 description: Saiba como gerenciar relatórios agendados.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # Gerenciar relatórios agendados
 
 Os relatórios de desempenho permitem rastrear e gerenciar o desempenho de portfólios, redes de anúncios e entidades de conta de rede de anúncios em um nível tão granular quanto você desejar. A maioria dos relatórios fornece visibilidade completa de como os anúncios em cada canal de marketing contribuem para a taxa de conversão geral.
@@ -39,9 +37,9 @@ Programe relatórios personalizados para serem gerados automaticamente de uma ou
 
 * Continue atualizando seus modelos de planilha personalizados com dados de desempenho diário usando os [feeds de planilha](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## As [!UICONTROL Scheduled Reports] visualizações
+## As [!UICONTROL Reports] visualizações
 
-As exibições [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] permitem criar e gerenciar relatórios e modelos de relatório:
+As exibições [!UICONTROL Reports] > [!UICONTROL Reports] permitem criar e gerenciar relatórios e modelos de relatório:
 
 * A guia **[!UICONTROL Latest Reports]** lista todos os relatórios disponíveis para você<!-- Doesn't seem to be true: that were requested in the last seven days -->, exceto aqueles que foram excluídos manualmente, com o relatório mais recente no topo por padrão. As informações mostradas para cada relatório incluem o agendamento pelo qual ele é executado (quando aplicável), as datas de início e término para as quais os dados foram ou serão gerados, quem criou o relatório e o status do relatório (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* ou *[!UICONTROL Error]*).
 
@@ -59,14 +57,14 @@ As exibições [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] permitem cr
 | ---- | ---- |
 | Monitoramento de desempenho | <ul><li>[O [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[O [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[O [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[O [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[O [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[O [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Solução de problemas de desempenho e análise de tendências | <ul><li>[O [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[O [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[O [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[O [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[O [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) e [O [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Qualquer relatório básico que compara duas janelas de tempo usando o recurso &quot;[!UICONTROL Compare with]&quot;</li></ul> |
-| Identificação das oportunidades de crescimento dos negócios | <ul><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes com [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR)) Relatórios personalizados dentro do Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes com [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR)) Relatórios personalizados dentro do Adobe Analytics Analysis Workspace</li></ul> |
+| Identificação das oportunidades de crescimento dos negócios | <ul><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes com [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Relatórios personalizados dentro do Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Somente anunciantes com rastreamento de conversão do Adobe Advertising) [O [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes com [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Relatórios personalizados dentro do Adobe Analytics Analysis Workspace</li></ul> |
 
 ## Gerar relatórios
 
 ### Gerar um novo relatório
 
-1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Clique em **[!UICONTROL Create Report]**, clique na categoria de relatório no painel esquerdo e selecione o tipo de relatório.<!-- Add link to list of report categories and report types --> Clique em **[!UICONTROL Proceed]**.
 
@@ -90,13 +88,13 @@ As exibições [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] permitem cr
 
 1. Clique em **[!UICONTROL Create]**.
 
-Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] &#x200B;](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
+Se você não tiver especificado um agendamento de relatório, o relatório será executado imediatamente; caso contrário, será executado de acordo com o agendamento especificado. O nome do relatório foi adicionado ao modo de exibição [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se você tiver salvo o relatório como modelo, ele também será adicionado à exibição [[!UICONTROL Templates] ](/help/search-social-commerce/reports/report-about.md). Quando o relatório é concluído, o arquivo é disponibilizado para abrir ou salvar; os modelos são disponibilizados imediatamente.
 
 Se você tiver inserido endereços de email para notificação, cada destinatário receberá uma notificação quando o trabalho de relatório for concluído ou falhar, com base nas [configurações de notificação definidas pelo usuário](/help/search-social-commerce/notifications/notification-edit.md) para relatórios.
 
 ### Gerar um relatório a partir de um relatório existente
 
-1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
 
 1. Siga um destes procedimentos:
 
@@ -110,7 +108,7 @@ Se você tiver inserido endereços de email para notificação, cada destinatár
 
 ### Gerar um relatório a partir de um modelo existente
 
-1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Clique na guia **[!UICONTROL Templates]**.
 
@@ -136,45 +134,45 @@ Você pode visualizar um relatório no navegador da Web, abrir ou salvar os dado
 >
 >Os membros da Equipe de conta da Adobe e alguns usuários administradores podem exibir relatórios criados por anunciantes e usuários de agências.
 
-1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
 
 1. Siga um destes procedimentos:
 
    * (Para exibir um relatório no navegador da Web) Siga um destes procedimentos:
 
-      * Mantenha o cursor sobre a linha de modelo e clique em **...** > **[!UICONTROL Preview]**.
+     * Mantenha o cursor sobre a linha de modelo e clique em **...** > **[!UICONTROL Preview]**.
 
-      * Marque a caixa de seleção ao lado do modelo existente. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Preview]**.
+     * Marque a caixa de seleção ao lado do modelo existente. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Preview]**.
 
    * (Para abrir ou salvar os dados do relatório em um arquivo) Na coluna [!UICONTROL Export] ao lado do nome do relatório, clique no nome de um formato e, em seguida, abra ou salve o arquivo de acordo com o procedimento normal do navegador:
 
-      * **[!UICONTROL XLS]:** Para uma pasta de trabalho [!DNL Excel] com uma única planilha (formato XLSX). O relatório inclui uma planilha rotulada na parte superior com os parâmetros, com uma linha para cada componente relatado quando os dados do componente estiverem disponíveis. Linhas sem dados são omitidas.
+     * **[!UICONTROL XLS]:** Para uma pasta de trabalho [!DNL Excel] com uma única planilha (formato XLSX). O relatório inclui uma planilha rotulada na parte superior com os parâmetros, com uma linha para cada componente relatado quando os dados do componente estiverem disponíveis. Linhas sem dados são omitidas.
 
-        Os relatórios básicos incluem um total para cada coluna numérica.
+       Os relatórios básicos incluem um total para cada coluna numérica.
 
-      * **[!UICONTROL TSV]:** Para um arquivo TSV. O relatório inclui os parâmetros e uma linha para cada componente relatado.
+     * **[!UICONTROL TSV]:** Para um arquivo TSV. O relatório inclui os parâmetros e uma linha para cada componente relatado.
 
-      * **[!UICONTROL CSV]:** Para um arquivo CSV. O relatório inclui os parâmetros e uma linha para cada componente relatado.
+     * **[!UICONTROL CSV]:** Para um arquivo CSV. O relatório inclui os parâmetros e uma linha para cada componente relatado.
 
 ## Excluir relatórios
 
-1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
+1. No menu principal, clique em **[!UICONTROL Reports]>[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
 
 1. Siga um destes procedimentos:
 
    * (Para excluir um único relatório):
 
-      1. Mantenha o cursor sobre a linha do relatório e clique em **...** > **[!UICONTROL Run]**.
+     1. Mantenha o cursor sobre a linha do relatório e clique em **...** > **[!UICONTROL Run]**.
 
-      1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
 
    * (Para excluir um ou mais relatórios):
 
-      1. Marque a caixa de seleção ao lado de cada relatório que você deseja excluir.
+     1. Marque a caixa de seleção ao lado de cada relatório que você deseja excluir.
 
-      1. Na barra de ferramentas de ações em massa, clique em [Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") **[!UICONTROL Delete]**.
+     1. Na barra de ferramentas de ações em massa, clique em [Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") **[!UICONTROL Delete]**.
 
-      1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
 
 <!--
 

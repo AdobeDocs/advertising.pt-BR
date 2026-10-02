@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # Gerenciar contas de rede de publicidade
 
 Veja a seguir instruções para criar e editar detalhes de contas de rede de anúncios, atualizar o token [!DNL oAuth] para uma conta e desabilitar contas.
@@ -30,7 +34,7 @@ Veja a seguir instruções para criar e editar detalhes de contas de rede de an�
 
 Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
-Para obter instruções sobre como gerenciar contas de rede de anúncios na nova interface, consulte &quot;[(Nova interface) Gerenciar contas de rede de anúncios por meio da conexão de API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).&quot;
+Para obter instruções sobre como gerenciar contas de rede de anúncios na nova interface, consulte &quot;[(Nova interface) Gerenciar contas de rede de anúncios por meio da conexão de API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).&quot;
 
 ## Criar detalhes da conta de rede de publicidade {#create-account}
 
@@ -139,11 +143,11 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
    * (Para alterar o status de uma ou mais contas) Faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada conta.
+     1. Marque a caixa de seleção ao lado de cada conta.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas acima da tabela de dados, clique em ![Ícone Ativar](/help/search-social-commerce/assets/activate.png "Ícone Ativar") para habilitar a conta ou ![Ícone Desativar](/help/search-social-commerce/assets/disable.png "Ícone Desativar") para desabilitá-la.
+     1. Na barra de ferramentas acima da tabela de dados, clique em ![Ícone Ativar](/help/search-social-commerce/assets/activate.png "Ícone Ativar") para habilitar a conta ou ![Ícone Desativar](/help/search-social-commerce/assets/disable.png "Ícone Desativar") para desabilitá-la.
 
 ## Adicionar configurações de conta de rede {#account-settings}
 
@@ -205,9 +209,9 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
+  * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,7 +265,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 * **Formato S_kwcid:** (Contas [!DNL Google Ads] existentes para anunciantes com uma integração Adobe Advertising-Adobe Analytics e para as quais a ID do AMO (s_kwcid) ainda não foi migrada)
 
-Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
+Essa conta usa o formato herdado para o código de rastreamento da ID do AMO, o que permite que a Adobe Advertising compartilhe dados sobre a conta com a Adobe Analytics. O [formato mais recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) inclui parâmetros para a ID da campanha e a ID do grupo de anúncios, que são necessários para relatar com precisão os níveis da campanha e do grupo de anúncios para o desempenho máximo de [!DNL Google Ads] campanhas e rascunhos e campanhas de experimentos no Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

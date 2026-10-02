@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Atribuir valores de classificação aos componentes da conta das exibições de gerenciamento de campanha
 
 Você pode atribuir e remover valores de classificação para as seguintes entidades de pesquisa das exibições de gerenciamento de campanhas: campanha, grupo de anúncios, palavra-chave, anúncio, posicionamento, grupo de produtos no nível da unidade e público-alvo da pesquisa dinâmica. Se necessário, é possível criar classificações e valores de classificação durante o processo de atribuição. Cada classificação de etiqueta pode ter até 2000 valores.
@@ -31,7 +31,7 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
 É possível atribuir valores de classificação a qualquer componente de conta aplicável que esteja disponível na nova interface.
 
-1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Target]**.
+1. Abra a exibição de entidade no menu **[!UICONTROL Manage]** ou **[!UICONTROL Targeting]**.
 
 1. Marque a caixa de seleção ao lado de cada linha relevante.
 
@@ -69,11 +69,11 @@ Os valores de rótulo são herdados por entidades filhas, portanto, não insira 
 
    * (Para atribuir valores a uma ou mais entidades) Faça o seguinte:
 
-      * Marque a caixa de seleção ao lado de cada linha relevante.
+     * Marque a caixa de seleção ao lado de cada linha relevante.
 
-        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+       Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Classification]**.
+     * Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Classification]**.
 
 1. Em [!UICONTROL Assignment Details], execute um dos procedimentos a seguir:
 

@@ -127,7 +127,7 @@ No entanto, não está disponível para [!DNL Google Ads] anúncio de pesquisa d
 
 1. Clique em **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Anúncios de compras em campanhas com rastreamento de conversão do Adobe Advertising; opcional) Para rastrear cliques no anúncio, adicione manualmente um URL de rastreamento às configurações de conta, campanha ou grupo de produtos.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Anúncios de compras em campanhas com rastreamento de conversão do Adobe Advertising; opcional) Para rastrear cliques no anúncio, adicione manualmente um URL de rastreamento às configurações de conta, campanha ou grupo de produtos.
 
 ## Renomear um anúncio {#ad-rename}
 

@@ -3,25 +3,33 @@ title: Perguntas frequentes sobre o gerenciamento de campanhas
 description: Saiba mais sobre o gerenciamento de campanhas, incluindo o período de latência das alterações e o que acontece quando você faz alterações de orçamento durante uma veiculação.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-TQID: https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg
+TQID: 'https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 # Perguntas frequentes sobre o gerenciamento de campanhas
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
@@ -40,7 +48,7 @@ ht-degree: 0%
 
   A alocação de orçamento se baseia no desempenho de posicionamento, que é avaliado usando uma média de 14 dias. As alterações em um posicionamento resultam em alterações na alocação de orçamento somente quando causam alterações no desempenho durante a média de 14 dias.
 
-  Quando ocorrem alterações de desempenho, o DSP realoca o orçamento do pacote entre os posicionamentos adequadamente durante o próximo ciclo de otimização de orçamento, que ocorre por volta da meia-noite (00:00) no fuso horário da campanha.
+  Quando ocorrem alterações de desempenho, o DSP realoca o orçamento do pacote entre as disposições de acordo durante o próximo ciclo de otimização do orçamento, que ocorre por volta da meia-noite (00:00) no fuso horário da campanha.
 
 * Como o orçamento é realocado quando um posicionamento é removido de um pacote e adicionado a outro pacote?
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 * Como o ritmo do pacote muda no último dia de um voo?
 
-  No último dia de um voo, o dia é encurtado de 24 horas para 23 horas para que o orçamento do pacote não seja excedido. Além disso, a estratégia de preenchimento de ritmo do pacote muda automaticamente para &quot;[!UICONTROL Frontload]&quot;, mesmo que esteja definida como &quot;[!UICONTROL even]&quot;. Isso significa que 65% do orçamento diário deve ser entregue até às 11h00 EST.:30
+  No último dia de um voo, o dia é encurtado de 24 horas para 23 horas para que o orçamento do pacote não seja excedido. Além disso, a estratégia de preenchimento de ritmo do pacote muda automaticamente para &quot;[!UICONTROL Frontload]&quot;, mesmo que esteja definida como &quot;[!UICONTROL even]&quot;. Isso significa que 65% do orçamento diário deve ser entregue até às 11h30 EST.
 
 >[!MORELIKETHIS]
 >

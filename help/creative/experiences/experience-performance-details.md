@@ -3,20 +3,27 @@ title: Relatórios de desempenho de nível de experiência
 description: Saiba como visualizar relatórios de desempenho no nível da experiência.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
+TQID: 'https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # Relatórios de desempenho de nível de experiência
 
 Você pode ver dados detalhados do desempenho de qualquer experiência do.
@@ -27,39 +34,39 @@ A visualização Relatório inclui os seguintes dados:
 
 * Guia **Visão geral**: uma visão geral do desempenho em todas as métricas de conversão para toda a experiência<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->, incluindo:
 
-   * Seção **Desempenho Geral**:
+  * Seção **Desempenho Geral**:
 
-      * **Desempenho Geral**: o total de impressões; cliques; taxa de cliques (CTR); e conversões de view-through e conversões de click-through.
+    * **Desempenho Geral**: o total de impressões; cliques; taxa de cliques (CTR); e conversões de view-through e conversões de click-through.
 
-     <!--
+    <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
      -->
 
-      * **Taxa padrão**: (experiências somente com direcionamento de árvore decisória) o número de impressões resultantes de criações direcionadas, criações genéricas sem um destino ou direcionadas para &quot;Todos os outros&quot; e o criativo padrão da experiência.
+    * **Taxa padrão**: (experiências somente com direcionamento de árvore decisória) o número de impressões resultantes de criações direcionadas, criações genéricas sem um destino ou direcionadas para &quot;Todos os outros&quot; e o criativo padrão da experiência.
 
-     <!--
+    <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * Seção **Detalhamento do Desempenho**:
+  * Seção **Detalhamento do Desempenho**:
 
-      * **Desempenho regional:**: métricas individuais por localização geográfica.
+    * **Desempenho regional:**: métricas individuais por localização geográfica.
 
-     <!--
+    <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
      -->
 
-      * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das 10 principais criações atendidas com esse critério.
+    * **Desempenho do Dispositivo:** métricas individuais por tipo de dispositivo, sistema operacional e navegador. Opcionalmente, clique no valor de qualquer categoria de dispositivo para ver uma lista das 10 principais criações atendidas com esse critério.
 
-     <!--
+    <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
      -->
 
 * **Guia Desempenho do Creative***: uma visão geral de desempenho por criativo e pacote ou tag de anúncio, incluindo:
 
-   * Subguia **Criations**: o número total de impressões, cliques e CTR de cada criativo na experiência.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * Subguia **Criations**: o número total de impressões, cliques e CTR de cada criativo na experiência.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-   * **Pacotes/Marcas** subguia: o número total de impressões, cliques e CTR de pacotes individuais (experiências com direcionamento de árvore de decisão) ou marcas de anúncio (experiências sem direcionamento de árvore de decisão) na experiência.
+  * **Pacotes/Marcas** subguia: o número total de impressões, cliques e CTR de pacotes individuais (experiências com direcionamento de árvore de decisão) ou marcas de anúncio (experiências sem direcionamento de árvore de decisão) na experiência.
 
 ## Exibir relatórios de desempenho de uma experiência
 
@@ -79,9 +86,9 @@ A visualização Relatório inclui os seguintes dados:
 
    * (Opcional) Para alterar o intervalo de datas dos dados de desempenho, escolha uma opção no menu de datas:
 
-      * Para especificar um período predefinido, selecione o relatório: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* ou *[!UICONTROL Yesterday]*.
+     * Para especificar um período predefinido, selecione o relatório: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* ou *[!UICONTROL Yesterday]*.
 
-      * Para especificar um intervalo de datas personalizado, insira a data de início e a data de término ou clique em ![ícone de calendário](/help/search-social-commerce/assets/calendar.png) ao lado de um campo e selecione uma data.
+     * Para especificar um intervalo de datas personalizado, insira a data de início e a data de término ou clique em ![ícone de calendário](/help/search-social-commerce/assets/calendar.png) ao lado de um campo e selecione uma data.
 
    * (Opcional) Para alterar a regra usada para atribuir dados de conversão em uma série de eventos que levam a uma conversão, clique em ![Configurações](/help/creative/assets/settings.png) e altere a **[!UICONTROL Attribution Rule]**.
 
@@ -97,27 +104,27 @@ A visualização Relatório inclui os seguintes dados:
 
    * (Opcional) Na seção [!UICONTROL Regional Performance], siga um destes procedimentos:
 
-      * Clique em um nome de métrica (como [!UICONTROL Impressions]) para visualizar essa métrica.
+     * Clique em um nome de métrica (como [!UICONTROL Impressions]) para visualizar essa métrica.
 
-      * Selecione a região no menu [!UICONTROL Region].
+     * Selecione a região no menu [!UICONTROL Region].
 
-      * Mantenha o cursor sobre um país ou estado para ver os dados dessa região.
+     * Mantenha o cursor sobre um país ou estado para ver os dados dessa região.
 
    * (Opcional) Na seção [!UICONTROL Device Performance], siga um destes procedimentos:
 
-      * Mantenha o cursor sobre o valor de qualquer categoria de dispositivo para ver os dados desse critério.
+     * Mantenha o cursor sobre o valor de qualquer categoria de dispositivo para ver os dados desse critério.
 
-      * Clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN--> principais criações atendidas com esse critério.
+     * Clique no valor de qualquer categoria de dispositivo para ver uma lista das <!-- NN--> principais criações atendidas com esse critério.
 
 1. (Opcional) Para exibir dados por criativo e por pacote ou tag de anúncio, clique na guia **[!UICONTROL Creative Performance]**.
 
    * Na subguia [!UICONTROL Creatives], você pode executar um dos seguintes procedimentos:
 
-      * (Opcional) Para alternar entre a exibição de gráfico e a exibição de grade, clique em ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") e ![Grade](/help/creative/assets/table-view-button.png "Grade"), respectivamente.
+     * (Opcional) Para alternar entre a exibição de gráfico e a exibição de grade, clique em ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") e ![Grade](/help/creative/assets/table-view-button.png "Grade"), respectivamente.
 
-      * (Opcional) Na exibição de gráfico, mantenha o cursor sobre um ponto no gráfico para ver os dados desse ponto.
+     * (Opcional) Na exibição de gráfico, mantenha o cursor sobre um ponto no gráfico para ver os dados desse ponto.
 
-      * (Experiências somente com direcionamento de árvore de decisão; opcional) Para dividir o desempenho para cada direcionamento de anúncio aplicado, habilite **[!UICONTROL Split targeting]**.
+     * (Experiências somente com direcionamento de árvore de decisão; opcional) Para dividir o desempenho para cada direcionamento de anúncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
 1. Para exibir dados por conjunto (experiências com direcionamento de árvore decisória) ou tag de anúncio (experiências sem direcionamento de árvore decisória), clique na subguia **[!UICONTROL Bundles]**. Você pode executar qualquer um dos seguintes procedimentos:
 

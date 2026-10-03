@@ -1,31 +1,40 @@
 ---
-title: Usando a biblioteca  [!DNL Last Event Service] JavaScript com [!DNL Web SDK]
-description: Saiba mais sobre as etapas para alternar do uso da biblioteca  [!DNL Analytics] [!DNL visitorAPI] para a biblioteca  [!DNL Experience Platform] [!DNL Web SDK] na sua implementação do  [!DNL Analytics for Advertising] .
+title: Usando a biblioteca JavaScript [!DNL Last Event Service] com [!DNL Web SDK]
+description: Saiba mais sobre as etapas para alternar do uso da biblioteca [!DNL Analytics] [!DNL visitorAPI] para a biblioteca [!DNL Experience Platform] [!DNL Web SDK] para sua implementação do [!DNL Analytics for Advertising].
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
+TQID: 'https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # Usando a biblioteca JavaScript [!DNL Last Event Service] com o Adobe Experience Platform [!DNL Web SDK]
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
 
-Se sua organização usar a biblioteca herdada do Adobe Analytics `visitorAPI.js` para coleta de dados, você poderá, opcionalmente, mudar para a biblioteca do [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) (`alloy.js`), que permite a interação com os vários serviços da Adobe CX Enterprise por meio do [!DNL Edge Network].
+Se sua organização usar a biblioteca herdada do Adobe Analytics `visitorAPI.js` para coleta de dados, você poderá, opcionalmente, mudar para a biblioteca do [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) (`alloy.js`), que permite a interação com os vários serviços da Adobe CX Enterprise por meio do [!DNL Edge Network].
 
 A biblioteca JavaScript do [!DNL Analytics for Advertising] [!DNL Last Event Service], como está, registra eventos de view-through e click-through e os une às conversões associadas usando uma ID complementar (`SDID`). No entanto, a biblioteca [!DNL Web SDK] não fornece um [!DNL stitch ID]. Para usar o [!DNL Web SDK] para [!DNL Analytics for Advertising], você deve modificar 1) a tag [!DNL Last Event Service] que você usa em suas páginas da Web e 2) seus comandos [!DNL Web SDK] `sendEvent` adequadamente.
 

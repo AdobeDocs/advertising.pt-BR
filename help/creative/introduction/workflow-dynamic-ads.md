@@ -3,20 +3,26 @@ title: Fluxos de trabalho para anúncios dinâmicos
 description: Saiba mais sobre os fluxos de trabalho para gerenciar anúncios dinâmicos.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # Fluxos de trabalho para anúncios dinâmicos
 
 *Usuários com permissões para criar anúncios dinâmicos*
@@ -64,17 +70,17 @@ Você pode configurar anúncios dinâmicos de duas maneiras:
 
    * (Para anúncios dinâmicos do HTML5 e de vídeo) Crie catálogos dos elementos de anúncio:
 
-      1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem ou vídeo em cada linha. Colete separadamente os ativos de imagem e vídeo associados.
+     1. Crie um arquivo de feed no formato de planilha do Microsoft Excel (XLSX), com uma linha para cada variação de anúncio. Inclua um nome de imagem ou vídeo em cada linha. Colete separadamente os ativos de imagem e vídeo associados.
 
-      1. [Carregar o arquivo de feed e os ativos](/help/creative/feeds/asset-manage.md).
+     1. [Carregar o arquivo de feed e os ativos](/help/creative/feeds/asset-manage.md).
 
-      1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative. Opcionalmente, é possível baixar e preencher um template de feed universal com campos relevantes para qualquer tipo de campanha.
+     1. [Crie um modelo de feed](/help/creative/feeds/feed-template-manage.md) para mapear os campos no arquivo de feed (planilha) para campos no back-end do Advertising Creative. Opcionalmente, é possível baixar e preencher um template de feed universal com campos relevantes para qualquer tipo de campanha.
 
-      1. [Crie um catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) de um arquivo de feed especificado e um modelo de feed especificado e [processe o catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) para ver as variações de anúncios que podem ser criadas a partir dele.
+     1. [Crie um catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) de um arquivo de feed especificado e um modelo de feed especificado e [processe o catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) para ver as variações de anúncios que podem ser criadas a partir dele.
 
-         Você pode usar cada arquivo de feed somente para um catálogo.
+        Você pode usar cada arquivo de feed somente para um catálogo.
 
-         Você pode [acompanhar o status dos trabalhos de processamento de catálogo](/help/creative/feeds/job-status-track.md) na guia [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status].
+        Você pode [acompanhar o status dos trabalhos de processamento de catálogo](/help/creative/feeds/job-status-track.md) na guia [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status].
 
 1. [Criar criações dinâmicas](/help/creative/creative-libraries/creative-add-dynamic.md) para uma biblioteca criativa. Para anúncios dinâmicos do HTML5, use um modelo de anúncio especificado e catálogos especificados.
 

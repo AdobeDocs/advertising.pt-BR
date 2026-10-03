@@ -3,20 +3,26 @@ title: Adicionar um nó de direcionamento ao nível final em uma experiência
 description: Saiba como adicionar um nó de direcionamento ao nível de destino final de uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-TQID: https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s
+TQID: 'https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 824
+source-wordcount: '829'
 ht-degree: 0%
-
 ---
-
 # Adicionar um nó de direcionamento ao nível final em uma experiência
 
 *Experiências somente com direcionamento de árvore de decisão*
@@ -35,45 +41,45 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
    * Para públicos alvo, selecione **[!UICONTROL Audience]**, clique em **[!UICONTROL Click to Browse]** para abrir suas opções de [!UICONTROL Audience Targeting] e faça o seguinte:
 
-      * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+     * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-      * Para adicionar um segmento a um grupo de segmentos existente:
+     * Para adicionar um segmento a um grupo de segmentos existente:
 
-         1. Clique no grupo de segmentos no painel direito.
+       1. Clique no grupo de segmentos no painel direito.
 
-         1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+       1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
-            *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, compile esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, exclua esse público-alvo quando adicioná-lo a um posicionamento no seu DSP.
+          *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, compile esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, exclua esse público-alvo quando adicioná-lo a um posicionamento no seu DSP.
 
-         1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+       1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-            O grupo de segmentos é atualizado automaticamente com o novo segmento.
+          O grupo de segmentos é atualizado automaticamente com o novo segmento.
 
-      * Para adicionar um novo grupo de segmentos:
+     * Para adicionar um novo grupo de segmentos:
 
-         1. Clique em **[!UICONTROL + New Group]** no painel direito.
+       1. Clique em **[!UICONTROL + New Group]** no painel direito.
 
-         1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
+       1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
 
-         1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
+       1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
 
-         1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+       1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
-      1. Clique em **[!UICONTROL Create]**.
+     1. Clique em **[!UICONTROL Create]**.
 
-      1. Clique em **[!UICONTROL Apply]**.
+     1. Clique em **[!UICONTROL Apply]**.
 
    * Para destinos geográficos, selecione uma única categoria geográfica (como [!UICONTROL Geo: Country]) e faça o seguinte:
 
-      1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Geo Targeting], especifique um ou mais dos destinos geográficos e clique em **[!UICONTROL Save]**.
+     1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Geo Targeting], especifique um ou mais dos destinos geográficos e clique em **[!UICONTROL Save]**.
 
-         Os destinos de CEP têm opções de edição em massa. Para colar vários códigos postais, clique na guia **[!UICONTROL Paste postal codes]**, selecione o país, cole ou insira códigos postais separados por vírgulas ou em linhas separadas e clique em **[!UICONTROL Include All]**. Para remover um destino de código postal incluído, mantenha o cursor sobre o destino e clique em ![Remover](/help/creative/assets/delete.png "Remover") **[!UICONTROL Remove]**.
+        Os destinos de CEP têm opções de edição em massa. Para colar vários códigos postais, clique na guia **[!UICONTROL Paste postal codes]**, selecione o país, cole ou insira códigos postais separados por vírgulas ou em linhas separadas e clique em **[!UICONTROL Include All]**. Para remover um destino de código postal incluído, mantenha o cursor sobre o destino e clique em ![Remover](/help/creative/assets/delete.png "Remover") **[!UICONTROL Remove]**.
 
-      1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
+     1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados (uma instrução [!DNL Boolean] `AND`).
+        Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados (uma instrução [!DNL Boolean] `AND`).
 
-      1. Clique em **[!UICONTROL Apply]**.
+     1. Clique em **[!UICONTROL Apply]**.
 
    * Para um destino de passagem de dados, selecione **[!UICONTROL Data Pass]**, como opção, personalize a chave de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
 
@@ -85,13 +91,13 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
    * Para destinos de dispositivos, faça o seguinte:
 
-      1. Selecione uma única categoria de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** ou **[!UICONTROL Device: Browser]**) e selecione os destinos.
+     1. Selecione uma única categoria de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** ou **[!UICONTROL Device: Browser]**) e selecione os destinos.
 
-      1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
+     1. (Opcional) Para criar vários nós de destino quando vários destinos geográficos forem especificados, selecione **[!UICONTROL Split targets to create nodes]**.
 
-         Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados (uma instrução [!DNL Boolean] `AND`).
+        Esse recurso cria um nó de destino separado (com pacotes criativos separados) para cada destino geográfico especificado. Se você não dividir os destinos, o usuário deverá pertencer a todos os locais especificados (uma instrução [!DNL Boolean] `AND`).
 
-      1. Clique em **[!UICONTROL Apply]**.
+     1. Clique em **[!UICONTROL Apply]**.
 
 1. (Opcional) Especifique um nome de ramificação personalizado para uma ramificação definida pelo usuário.
 
@@ -109,17 +115,17 @@ Ao adicionar um nó de destino ao nível mais baixo da experiência, seja o nó 
 
    * (Opcional) Para salvar a experiência:
 
-      1. Clique em **[!UICONTROL Save]** e depois em **[!UICONTROL OK]**.
+     1. Clique em **[!UICONTROL Save]** e depois em **[!UICONTROL OK]**.
 
-      1. (Se cada nó no nível mais inferior não incluir pelo menos um criativo): Siga um destes procedimentos:
+     1. (Se cada nó no nível mais inferior não incluir pelo menos um criativo): Siga um destes procedimentos:
 
-         * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
+        * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
 
-           Não é possível criar uma tag de anúncio para uma experiência de rascunho.
+          Não é possível criar uma tag de anúncio para uma experiência de rascunho.
 
-         * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+        * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
 
-         * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+        * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

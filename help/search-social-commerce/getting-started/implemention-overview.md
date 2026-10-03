@@ -3,23 +3,30 @@ title: Visão geral da implementação do Search, Social e Commerce
 description: Saiba mais sobre o fluxo de trabalho geral para iniciar e manter um portfólio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Visão geral da implementação do Search, Social e Commerce
 
 [!DNL Adobe] ou uma de suas agências afiliadas trabalha com cada anunciante para iniciar seus portfólios de publicidade online e rastrear quaisquer campanhas de publicidade adicionais. Após o lançamento inicial, as tarefas contínuas adicionais garantem que as metas do anunciante continuem a ser atingidas.
@@ -106,16 +113,16 @@ Após a primeira inicialização, as seguintes tarefas contínuas serão necess�
 
 * Ajuste as várias estratégias e configurações que você usa para gerenciar o conjunto de portfólios, conforme necessário, com base no desempenho real e previsto do portfólio e nas oportunidades de crescimento:
 
-   * Ajuste orçamentos, objetivos e outras configurações do portfólio.
+  * Ajuste orçamentos, objetivos e outras configurações do portfólio.
 
-   * Ajuste as estruturas de conta/campanha para acomodar as alterações na estratégia de marketing.
+  * Ajuste as estruturas de conta/campanha para acomodar as alterações na estratégia de marketing.
 
-   * Adicionar/pausar/excluir componentes da campanha. Isso pode incluir a expansão de conjuntos de palavras-chave com base na análise de termos de pesquisa e testes de páginas de aterrissagem e cópia de anúncios.
+  * Adicionar/pausar/excluir componentes da campanha. Isso pode incluir a expansão de conjuntos de palavras-chave com base na análise de termos de pesquisa e testes de páginas de aterrissagem e cópia de anúncios.
 
-   * Atualizar estratégias de direcionamento geográfico e de site com base em relatórios de desempenho avançados.
+  * Atualizar estratégias de direcionamento geográfico e de site com base em relatórios de desempenho avançados.
 
-   * (Opcional) Adicione restrições de licitação a palavras-chave de pesquisa individuais ou a todas as palavras-chave em um grupo de publicidade, campanha ou portfólio.
+  * (Opcional) Adicione restrições de licitação a palavras-chave de pesquisa individuais ou a todas as palavras-chave em um grupo de publicidade, campanha ou portfólio.
 
-   * Adicione novos portfólios.
+  * Adicione novos portfólios.
 
 Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfólios&quot; > &quot;Monitoramento e Gerenciamento de Desempenho&quot;, que está disponível no menu [!UICONTROL Help] (![menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "menu Ajuda")) no canto superior direito de qualquer página em Pesquisa, Social e Commerce.

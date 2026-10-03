@@ -3,18 +3,24 @@ title: Gerenciar arquivos de ativos
 description: Saiba como fazer upload e gerenciar arquivos de ativos para um anunciante.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # Gerenciar arquivos de ativos
 
 * Os anúncios dinâmicos do HTML5 exigem um arquivo de feed no formato de planilha do Microsoft Excel (XLSX) e os ativos de imagem reais referenciados na planilha.
@@ -35,29 +41,29 @@ Tamanho máximo do arquivo: 2 GB
 
 * Anúncios dinâmicos do HTML5:
 
-   * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de imagem em cada linha usando o formato `images/image_name` (como `images/300x250_acme_logo.png`).
+  * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de imagem em cada linha usando o formato `images/image_name` (como `images/300x250_acme_logo.png`).
 
-     Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
+    Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
 
-   * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é 10 MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+  * Os ativos de imagem associados nos formatos GIF, JPEG, JPG ou PNG. O tamanho máximo do arquivo é 10 MB. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
   Você pode carregar um único arquivo XLSX, um único arquivo de imagem ou um único arquivo ZIP contendo qualquer combinação de XLSX e arquivos de imagem.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anúncios estáticos do HTML5:
 
-   * Um ativo de imagem por anúncio em formato GIF, JPG, JPEG ou PNG.
+  * Um ativo de imagem por anúncio em formato GIF, JPG, JPEG ou PNG.
 
-     Você pode carregar uma única imagem ou várias imagens em um arquivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    Você pode carregar uma única imagem ou várias imagens em um arquivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anúncios de vídeo dinâmicos:
 
-   * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de vídeo em cada linha usando o formato `videos/image_name` (como `videos/300x250_acme_logo.png`). O arquivo ZIP pode ter no máximo 512 MB com no máximo 500 linhas.
+  * Um arquivo de feed no formato CSV, TSV ou planilha do Microsoft Excel (XLSX), com uma linha de cabeçalho e uma linha de dados para cada variação de anúncio. Inclua um nome de vídeo em cada linha usando o formato `videos/image_name` (como `videos/300x250_acme_logo.png`). O arquivo ZIP pode ter no máximo 512 MB com no máximo 500 linhas.
 
-     Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
+    Os nomes de campo específicos do anunciante devem mapear para os [campos disponíveis para arquivos de feed de anúncios dinâmicos](/help/creative/appendix-available-feed-fields.md).
 
-     Para todas as contas com vídeos dinâmicos, a prática recomendada é [criar um catálogo](catalog-manage.md) usando o arquivo de ativo junto com uma cópia do [modelo de feed universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), no qual você mapeia cada campo do arquivo de ativo para um campo no back-end do Advertising Creative.
+    Para todas as contas com vídeos dinâmicos, a prática recomendada é [criar um catálogo](catalog-manage.md) usando o arquivo de ativo junto com uma cópia do [modelo de feed universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), no qual você mapeia cada campo do arquivo de ativo para um campo no back-end do Advertising Creative.
 
-   * Os ativos de vídeo associados em formato MP4, MOV ou WEBM. Os modelos de anúncios suportados incluem o cartão de início, o cartão de fim, a sobreposição superior, a sobreposição inferior ou em forma de L. A duração de cada vídeo deve ser de 1 a 90 segundos. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
+  * Os ativos de vídeo associados em formato MP4, MOV ou WEBM. Os modelos de anúncios suportados incluem o cartão de início, o cartão de fim, a sobreposição superior, a sobreposição inferior ou em forma de L. A duração de cada vídeo deve ser de 1 a 90 segundos. Consulte os [tamanhos de criação suportados](/help/creative/creative-libraries/creative-sizes.md).
 
   Você pode carregar um único arquivo XLSX, um único arquivo de imagem ou um único arquivo ZIP contendo qualquer combinação de arquivos XLSX e de vídeo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

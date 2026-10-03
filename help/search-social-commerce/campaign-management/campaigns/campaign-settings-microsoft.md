@@ -1,25 +1,32 @@
 ---
 title: Configurações de campanha de [!DNL Microsoft Advertising]
-description: Referencie as configurações de  [!DNL Microsoft Advertising] campanhas.
+description: Referencie as configurações de [!DNL Microsoft Advertising] campanhas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # Configurações de campanha de [!DNL Microsoft Advertising]
 
 ## \[Tela de criação da campanha\]
@@ -83,7 +90,7 @@ a campanha pode conter:
 
 * *[!UICONTROL Manual CPC]*: (Comprando campanhas para marcas; [!DNL Microsoft Store Ads] campanhas; descontinuado para outros tipos de campanha) Usa o modelo de custo por clique (CPC). Para alguns tipos de anúncios, você pode permitir que a rede de anúncios altere ofertas para a campanha:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (desabilitada por padrão): esta opção é igual ao uso da opção &quot;[!UICONTROL Enhanced CPC]&quot;.
+  * **[!UICONTROL Enable Enhanced CPC]** (desabilitada por padrão): esta opção é igual ao uso da opção &quot;[!UICONTROL Enhanced CPC]&quot;.
 
 * *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campanhas) usa o modelo de custo por aquisição (CPA).
 
@@ -224,21 +231,21 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para carregar imagens:
 
-   1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+  1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. Para cada imagem:
+  1. Para cada imagem:
 
-      1. Selecione a taxa de proporção.
+     1. Selecione a taxa de proporção.
 
-      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+     1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+     1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-         Um ativo é criado para cada taxa de proporção selecionada.
+        Um ativo é criado para cada taxa de proporção selecionada.
 
-      1. Clique em **[!UICONTROL Proceed]**.
+     1. Clique em **[!UICONTROL Proceed]**.
 
-   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+  1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
 
 * Para selecionar imagens de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
@@ -246,21 +253,21 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para carregar imagens:
 
-   1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+  1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. Para cada imagem:
+  1. Para cada imagem:
 
-      1. Selecione a taxa de proporção.
+     1. Selecione a taxa de proporção.
 
-      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+     1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+     1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-         Um ativo é criado para cada taxa de proporção selecionada.
+        Um ativo é criado para cada taxa de proporção selecionada.
 
-      1. Clique em **[!UICONTROL Proceed]**.
+     1. Clique em **[!UICONTROL Proceed]**.
 
-   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+  1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
 
 * Para selecionar imagens de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
@@ -268,9 +275,9 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
@@ -278,9 +285,9 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
@@ -288,9 +295,9 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 

@@ -3,22 +3,26 @@ title: Gerenciar sitelinks compartilhados
 description: Saiba como criar e gerenciar extensões compartilhadas do sitelink.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Gerenciar sitelinks compartilhados
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
@@ -81,9 +85,9 @@ Para obter políticas adicionais e motivos para a desaprovação do sitelink, co
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Texto extra que o mecanismo de pesquisa pode exibir sob o texto do link. Para incluir uma descrição, informe valores para ambos os campos de descrição. Cada campo de descrição pode incluir até 35 caracteres de byte único ou 17 caracteres de byte duplo.
 
-**[!UICONTROL Start Date]:** (Campanhas com sitelinks herdados existentes ou sem sitelinks; opcional) a primeira data em que o sitelink pode ser exibido com anúncios na campanha. O padrão para novos sitelinks é o dia atual. Para especificar uma data inicial futura, insira uma data no formato MM/DD/AAAA ou M/D/AAAA ou clique em   e selecione uma data.
+**[!UICONTROL Start Date]:** (Campanhas com sitelinks herdados existentes ou sem sitelinks; opcional) a primeira data em que o sitelink pode ser exibido com anúncios na campanha. O padrão para novos sitelinks é o dia atual. Para especificar uma data inicial futura, insira uma data no formato MM/DD/AAAA ou M/D/AAAA, ou clique em e selecione uma data.
 
-**[!UICONTROL End Date]:** (opcional) a última data em que o sitelink pode ser exibido com anúncios na campanha. Por padrão, o sitelink pode ser exibido indefinidamente. Para especificar uma data final, insira uma data no formato MM/DD/AAAA ou M/D/AAAA ou clique em   e selecione uma data.
+**[!UICONTROL End Date]:** (opcional) a última data em que o sitelink pode ser exibido com anúncios na campanha. Por padrão, o sitelink pode ser exibido indefinidamente. Para especificar uma data final, insira uma data no formato MM/DD/AAAA ou M/D/AAAA, ou clique em e selecione uma data.
 
 **[!UICONTROL Mobile Preference]:** (Opcional) Permite que a rede tente exibir a extensão de anúncio para usuários de dispositivos móveis em vez de usuários de desktop ou tablet. Por padrão, a opção não está ativada e a extensão de anúncio aparece em qualquer tipo de dispositivo.
 
@@ -107,7 +111,7 @@ Depois de salvar o registro, o URL base inclui todos os parâmetros de acréscim
 
 * Para o rastreamento de conversão do Adobe Advertising, que é aplicado quando as configurações da campanha incluem &quot;[!UICONTROL EF Redirect]&quot; e &quot;Carregamento automático&quot;, o Search, Social e Commerce prefixa automaticamente seu próprio código de rastreamento de cliques ao salvar o registro.
 
-* Para obter os parâmetros com suporte para incorporar a URL final, consulte a [!DNL Microsoft Advertising]documentação[[!DNL Microsoft Advertising]  (](https://help.ads.microsoft.com/#apex/3/en/56799) somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL Google Ads] Disponíveis&quot; na [!DNL ValueTrack]documentação[[!DNL Google Ads] .](https://support.google.com/google-ads/answer/6305348)
+* Para obter os parâmetros com suporte para incorporar a URL final, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; na seção sobre &quot;Parâmetros [!DNL ValueTrack] Disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).[!DNL Google Ads]
 
 * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 

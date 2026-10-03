@@ -3,25 +3,30 @@ title: Aplicar filtros de dados a partir de um menu de cabeçalho de coluna
 description: Saiba como filtrar os dados da página no menu de cabeçalho de coluna.
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM
+TQID: 'https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '225'
 ht-degree: 0%
-
 ---
-
 # Aplicar um filtro de dados a partir de um menu de cabeçalho de coluna
 
 <!-- The same in new UI and legacy CM views -->
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-É possível aplicar quantos filtros desejar a uma coluna, um de cada vez.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Para adicionar mais de um filtro por vez usando todas as métricas disponíveis, consulte &quot;[Aplicar filtros de dados na barra de ferramentas](column-filter-apply-from-toolbar.md).&quot;
+Você pode aplicar quantos filtros desejar a uma coluna, um de cada vez.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> Para adicionar mais de um filtro por vez usando todas as métricas disponíveis, consulte &quot;[Aplicar filtros de dados na barra de ferramentas](column-filter-apply-from-toolbar.md).&quot;
 
 1. No lado direito do cabeçalho da coluna, clique em ![Seta para baixo](/help/search-social-commerce/assets/arrow-down-dropdown.png "Seta para baixo") e clique em **[!UICONTROL Add Filter]**.
 

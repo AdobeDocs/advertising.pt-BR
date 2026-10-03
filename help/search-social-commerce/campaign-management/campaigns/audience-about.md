@@ -1,22 +1,25 @@
 ---
 title: Sobre públicos
-description: Saiba mais sobre as opções para rastrear, criar e gerenciar públicos-alvo de  [!DNL Google Ads]  e  [!DNL Microsoft Advertising] .
+description: Saiba mais sobre as opções para rastrear, criar e gerenciar públicos do [!DNL Google Ads] e do [!DNL Microsoft Advertising].
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+TQID: 'https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # Sobre o gerenciamento de [!DNL Google Ads] e [!DNL Microsoft Advertising] públicos-alvo em Pesquisa, Social e Commerce
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
@@ -27,9 +30,9 @@ Você também pode criar e gerenciar públicos-alvo usando segmentos ou listas d
 
 * **Segmentos de público-alvo da Adobe:** anunciantes com contas Adobe Audience Manager ou Adobe Analytics aceitas podem criar [!DNL Google Ads] públicos-alvo de correspondência do cliente a partir de seus [!DNL Adobe] segmentos:
 
-   * (Anunciantes com contas do [!DNL Analytics] que também não têm o Audience Manager) Você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de [!DNL Analytics] segmentos que são compartilhados com o Adobe CX Enterprise.
+  * (Anunciantes com contas do [!DNL Analytics] que também não têm o Audience Manager) Você pode criar [!DNL Google Ads] públicos-alvo de correspondência do cliente usando IDs de usuário de [!DNL Analytics] segmentos que são compartilhados com o Adobe CX Enterprise.
 
-   * (Anunciantes com contas do Audience Manager) Você pode criar públicos-alvo de correspondência do cliente do [!DNL Google Ads] usando IDs de usuário de segmentos do Audience Manager que têm Pesquisa, Social e Commerce como destino. Isso pode incluir segmentos do Adobe Analytics publicados na Adobe CX Enterprise e segmentos criados usando a Biblioteca de público-alvo da Adobe CX Enterprise.
+  * (Anunciantes com contas do Audience Manager) Você pode criar públicos-alvo de correspondência do cliente do [!DNL Google Ads] usando IDs de usuário de segmentos do Audience Manager que têm Pesquisa, Social e Commerce como destino. Isso pode incluir segmentos do Adobe Analytics publicados na Adobe CX Enterprise e segmentos criados usando a Biblioteca de público-alvo da Adobe CX Enterprise.
 
   Para criar públicos-alvo de correspondência do cliente, a conta [!DNL Google Ads] do anunciante deve ser [qualificada para correspondência personalizada](https://support.google.com/adspolicy/answer/6299717) e aceita a inclusão de [segmentos de ID de usuário](https://support.google.com/google-ads/answer/9199250). Além disso, a conta do anunciante em Search, Social e Commerce deve ser configurada para permitir a criação de públicos-alvo de correspondência do cliente.
 

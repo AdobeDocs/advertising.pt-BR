@@ -1,25 +1,32 @@
 ---
-title: Códigos de erro para  [!DNL FreeWheel] envios de anúncios
-description: Referencie os códigos de erro retornados para envio de anúncios a  [!DNL FreeWheel].
+title: Códigos de erro para [!DNL FreeWheel] envios de anúncios
+description: Referencie os códigos de erro retornados para envio de anúncios a [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # Códigos de erro para [!DNL FreeWheel] envios de anúncios
 
 As mensagens de erro para envio de anúncios com falha podem vir do Advertising DSP ou do [!DNL FreeWheel]. Localizar mensagens de erro na coluna [!UICONTROL API Response] na caixa de diálogo [[!UICONTROL FreeWheel Status]](freewheel-check-status.md).
@@ -45,8 +52,8 @@ As mensagens de erro para envio de anúncios com falha podem vir do Advertising 
 |--- |--- |--- |--- |
 | 401 | Não autorizado | Credenciais de acesso incorretas, ausentes ou inválidas. | Entre em contato com a equipe de conta da Adobe. |
 | 403 | Proibido | O servidor compreendeu a solicitação, mas se recusa a autorizá-la. | Entre em contato com a equipe de conta da Adobe. |
-| 404 | Não encontrado | O recurso solicitado não está disponível. Se a Creative ID não for encontrada na operação do PUT, um 404 será retornado. | Entre em contato com a equipe de conta da Adobe. |
-| 405 | Método não permitido | Foi feita uma solicitação de um recurso usando um método de solicitação não compatível com esse recurso (por exemplo, usar o GET em um método que requer que os dados sejam enviados por POST ou usar o PUT em um recurso somente leitura). | Entre em contato com a equipe de conta da Adobe. |
+| 404 | Não encontrado | O recurso solicitado não está disponível. Se a Creative ID não for encontrada na operação PUT, um 404 será retornado. | Entre em contato com a equipe de conta da Adobe. |
+| 405 | Método não permitido | Foi feita uma solicitação de um recurso usando um método de solicitação não compatível com esse recurso (por exemplo, usando GET em um método que requer que os dados sejam enviados por POST ou usando PUT em um recurso somente leitura). | Entre em contato com a equipe de conta da Adobe. |
 | 408 | Tempo limite da solicitação | Ocorreu um tempo limite durante o processamento desta solicitação. Os tempos limite geralmente são causados por solicitações simultâneas de acesso exclusivo a determinados recursos. | Reenvie a solicitação quando receber este status. Se o problema persistir, entre em contato com a equipe de conta da Adobe. |
 | 422 | Entidade Não Processável | Recurso inválido. Esse erro ocorre quando o corpo da solicitação é inválido ou o recurso criado/atualizado é inválido (por exemplo, se a ID do negócio não foi encontrada). Consulte [Erros 422 da API FreeWheel](#freewheel-422-errors) para obter mais informações. | Entre em contato com a equipe de conta da Adobe. |
 | 500 | Erro interno do servidor | Erro de sistema de API. | Entre em contato com a equipe de conta da Adobe. |

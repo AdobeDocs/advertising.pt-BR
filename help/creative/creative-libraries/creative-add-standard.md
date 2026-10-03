@@ -3,20 +3,26 @@ title: Adicionar criações padrão a uma biblioteca criativa
 description: Saiba como adicionar criações padrão (não dinâmicas) a uma biblioteca criativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+TQID: 'https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1069'
 ht-degree: 0%
-
 ---
-
 # Adicionar criações padrão a uma biblioteca criativa
 
 Adicione criações padrão às suas [bibliotecas de criação](creative-library-manage.md) para usar com [experiências de anúncio](/help/creative/experiences/experience-about.md) padrão.
@@ -137,29 +143,29 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Para ativos de imagem local ou HTML5, siga um destes procedimentos:
 
-      * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
+     * Arraste e solte arquivos no seu dispositivo ou rede na caixa.
 
-      * Clique em **[!UICONTROL Select a file]** para localizar arquivos no dispositivo ou na rede.
+     * Clique em **[!UICONTROL Select a file]** para localizar arquivos no dispositivo ou na rede.
 
    * Para imagens aprovadas em uma [biblioteca do Experience Manager conectada à sua conta do DSP](/help/creative/creative-libraries/aem-assets-configure.md), faça o seguinte:
 
-      1. Clique em **[!UICONTROL AEM Asset Library]**.
+     1. Clique em **[!UICONTROL AEM Asset Library]**.
 
-      1. (Se você ainda não estiver conectado à sua conta da Experience Manager) Faça logon na sua conta da Experience Manager.
+     1. (Se você ainda não estiver conectado à sua conta da Experience Manager) Faça logon na sua conta da Experience Manager.
 
-      1. Localize e selecione os arquivos nas visualizações [!UICONTROL Assets] ou [!UICONTROL Collections] e clique em **[!UICONTROL Select]** no canto superior direito.
+     1. Localize e selecione os arquivos nas visualizações [!UICONTROL Assets] ou [!UICONTROL Collections] e clique em **[!UICONTROL Select]** no canto superior direito.
 
-         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
    * Para obter experiências com o GenStudio, faça o seguinte:
 
-      1. Clique em **[!UICONTROL GenStudio Library]**.
+     1. Clique em **[!UICONTROL GenStudio Library]**.
 
-      1. (Se você ainda não estiver conectado à sua conta da GenStudio) Faça logon na sua conta da GenStudio.
+     1. (Se você ainda não estiver conectado à sua conta da GenStudio) Faça logon na sua conta da GenStudio.
 
-         Suas experiências de anúncio de exibição são exibidas por padrão. Opcionalmente, filtre suas experiências por campanha ou outros atributos, conforme necessário.
+        Suas experiências de anúncio de exibição são exibidas por padrão. Opcionalmente, filtre suas experiências por campanha ou outros atributos, conforme necessário.
 
-      1. Localize e selecione as experiências de anúncio de exibição e clique em **[!UICONTROL Select]** no canto superior direito.
+     1. Localize e selecione as experiências de anúncio de exibição e clique em **[!UICONTROL Select]** no canto superior direito.
 
      Cada variante criativa em uma experiência selecionada é importada como uma criação separada do HTML5.
 

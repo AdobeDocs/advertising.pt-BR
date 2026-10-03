@@ -3,18 +3,24 @@ title: Editar um criativo dinâmico em uma biblioteca criativa
 description: Saiba como editar um criativo dinâmico em uma biblioteca criativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # Editar um criativo dinâmico em uma biblioteca criativa
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * Alterar o conteúdo:
 
-      * (Exibir somente anúncios) Para editar o valor de uma célula na tabela, clique dentro da célula e edite o valor. Clique fora da célula ou pressione a tecla **[!DNL Enter]** para salvar suas alterações.
+     * (Exibir somente anúncios) Para editar o valor de uma célula na tabela, clique dentro da célula e edite o valor. Clique fora da célula ou pressione a tecla **[!DNL Enter]** para salvar suas alterações.
 
-      * Para marcar um único produto como o padrão<!--Explain what this means. -->, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+     * Para marcar um único produto como o padrão<!--Explain what this means. -->, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-      * (Quando o anúncio incluir mais de uma oferta) Para marcar vários produtos como padrão, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Set as Default]** na barra de ferramentas de ações em massa.
+     * (Quando o anúncio incluir mais de uma oferta) Para marcar vários produtos como padrão, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Set as Default]** na barra de ferramentas de ações em massa.
 
-      * Para excluir um produto do catálogo, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+     * Para excluir um produto do catálogo, mantenha o cursor sobre a linha e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
-      * (Quando o anúncio incluir mais de uma oferta) Para excluir vários produtos do catálogo, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Delete Row]** na barra de ferramentas de ações em massa.
+     * (Quando o anúncio incluir mais de uma oferta) Para excluir vários produtos do catálogo, selecione as linhas (até o número de ofertas) e clique em **[!UICONTROL Delete Row]** na barra de ferramentas de ações em massa.
 
 1. Salve os criativos:
 
    * Para salvar os anúncios e adicioná-los a um [pacote criativo](bundle-manage.md) na biblioteca:
 
-      1. Clique em **[!UICONTROL Save and Attach to Bundle]**.
+     1. Clique em **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Clique em **[!UICONTROL Save]** para salvar os anúncios.
+     1. Clique em **[!UICONTROL Save]** para salvar os anúncios.
 
-      1. Selecione os pacotes e clique em **[!UICONTROL Attach Creative to Bundles]**.
+     1. Selecione os pacotes e clique em **[!UICONTROL Attach Creative to Bundles]**.
 
    * Para salvar os anúncios e sair da configuração, clique em **[!UICONTROL Save]** e em **[!UICONTROL Save]** novamente.
 

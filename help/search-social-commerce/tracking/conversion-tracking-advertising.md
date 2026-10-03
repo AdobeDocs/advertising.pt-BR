@@ -3,20 +3,24 @@ title: Sobre as tags de rastreamento de conversão do Adobe Advertising
 description: Saiba mais sobre como usar as tags de rastreamento de conversão do Adobe Advertising.
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+TQID: 'https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Sobre as tags de rastreamento de conversão do Adobe Advertising
 
 O Adobe Advertising rastreia as conversões resultantes de cliques em anúncios usando as tags de rastreamento de conversão do Adobe Advertising inseridas nas páginas da Web que abrem quando ocorre um evento de conversão, como uma página de &quot;sucesso&quot;. As tags incluem informações incorporadas para enviar os dados da transação, juntamente com o cookie Adobe Advertising do usuário, a um servidor de rastreamento, do qual a transação é creditada ao clique ou impressão de anúncio apropriado (de acordo com as configurações de atribuição de conversão do anunciante).

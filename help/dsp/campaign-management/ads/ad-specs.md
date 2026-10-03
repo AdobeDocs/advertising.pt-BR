@@ -3,25 +3,31 @@ title: Especificações de publicidade
 description: Consulte as especificações gerais e específicas do editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # Especificações para os tipos de anúncios suportados
 
 ## Anúncios de vídeo (antes da exibição, CTV e vídeo universal)
@@ -76,11 +82,11 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
 * **NBCUniversal:**
 
-   * [Vídeo digital](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [Vídeo digital](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Pavão](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Pavão](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount:** Consulte as [especificações de anúncios](https://www.paramount.com/digital-ads) da Paramount.
 
@@ -129,35 +135,35 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 #### Requisitos adicionais do editor
 
 * **[!DNL iHeartRadio]**
-   * Duração: 5, 15, 30 ou 60 segundos
-   * Tipo de arquivo: MP3
-   * Tamanho máximo do arquivo: 320 kbps
-   * Volume: 44,1 kHz
+  * Duração: 5, 15, 30 ou 60 segundos
+  * Tipo de arquivo: MP3
+  * Tamanho máximo do arquivo: 320 kbps
+  * Volume: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Duração: 15 ou 30 segundos
-   * Tipo de arquivo: MP4 (no aplicativo), MP3 (desktop)
-   * Tamanho máximo do arquivo: 2,2 MB
+  * Duração: 15 ou 30 segundos
+  * Tipo de arquivo: MP4 (no aplicativo), MP3 (desktop)
+  * Tamanho máximo do arquivo: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Duração: 6, 15 ou 30 segundos
-   * Tipo de arquivo: MP3
-   * Tamanho máximo do arquivo: 5 MB
+  * Duração: 6, 15 ou 30 segundos
+  * Tipo de arquivo: MP3
+  * Tamanho máximo do arquivo: 5 MB
 
 * **[!DNL Spotify]**
-   * Duração: até 30 segundos
-   * Tipo de arquivo: OGG
-   * Tamanho máximo do arquivo: 500 MB
-   * Volume: RMS normalizado para -14; pico de dBFS normalizado para -0,2 dBFS
+  * Duração: até 30 segundos
+  * Tipo de arquivo: OGG
+  * Tamanho máximo do arquivo: 500 MB
+  * Volume: RMS normalizado para -14; pico de dBFS normalizado para -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Duração: 15, 30 ou 60 segundos
-   * Tipo de arquivo: MP3
+  * Duração: 15, 30 ou 60 segundos
+  * Tipo de arquivo: MP3
 
 * **[!DNL TuneIn]**
-   * Duração: 10, 15 ou 30 segundos
-   * Tipo de arquivo: MP3, OGG
-   * Volume: 44,1 kHz
+  * Duração: 10, 15 ou 30 segundos
+  * Tipo de arquivo: MP3, OGG
+  * Volume: 44,1 kHz
 
 ### Requisitos para anúncios de banner complementares (opcional)
 
@@ -166,29 +172,29 @@ Você pode usar folhas de marcas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 #### Requisitos adicionais do editor
 
 * **[!DNL iHeartRadio]:**
-   * Tipo de arquivo: JPEG, JPG, PNG, GIF, SWF, HTML
-   * Tamanho máximo do arquivo: 2,2 MB
-   * Dimensões: 300 x 250
+  * Tipo de arquivo: JPEG, JPG, PNG, GIF, SWF, HTML
+  * Tamanho máximo do arquivo: 2,2 MB
+  * Dimensões: 300 x 250
 
 * **[!DNL Pandora]:**
-   * Tipo de arquivo: JPEG, GIF
-   * Tamanho máximo do arquivo: Tamanho: 100 KB
-   * Dimensões: 300 x 250 (móvel ou desktop) ou 500 x 500 (desktop)
+  * Tipo de arquivo: JPEG, GIF
+  * Tamanho máximo do arquivo: Tamanho: 100 KB
+  * Dimensões: 300 x 250 (móvel ou desktop) ou 500 x 500 (desktop)
 
 * **[!DNL SoundCloud]:**
-   * Tipo de arquivo: Static JPG, PNG
-   * Tamanho máximo do arquivo: menos de 400 KB
-   * Dimensões: 1024 x 1024
+  * Tipo de arquivo: Static JPG, PNG
+  * Tamanho máximo do arquivo: menos de 400 KB
+  * Dimensões: 1024 x 1024
 
 * **[!DNL Spotify]:**
-   * Tipo de arquivo: Static JPG, PNG
-   * Tamanho máximo do arquivo: 200 KB
-   * Dimensões: 300 x 250
+  * Tipo de arquivo: Static JPG, PNG
+  * Tamanho máximo do arquivo: 200 KB
+  * Dimensões: 300 x 250
 
 * **[!DNL TuneIn]:**
-   * Tipo de arquivo: JPEG, JPG, PNG, GIF, HTML
-   * Tamanho máximo do arquivo: 2 MB
-   * Dimensões: 300 x 250
+  * Tipo de arquivo: JPEG, JPG, PNG, GIF, HTML
+  * Tamanho máximo do arquivo: 2 MB
+  * Dimensões: 300 x 250
 
 ## Anúncios de exibição nativos
 

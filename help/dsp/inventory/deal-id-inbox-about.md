@@ -1,25 +1,32 @@
 ---
 title: Sobre o [!UICONTROL Deal ID Inbox]
-description: Saiba mais sobre o recurso [!UICONTROL Deal ID Inbox], que permite que você aceite ofertas privadas que já negociou com editores no  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (anteriormente conhecido como [!DNL AdX]), and [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]).
+description: Saiba mais sobre o recurso [!UICONTROL Deal ID Inbox], que permite aceitar ofertas privadas que você já negociou com editores em [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-TQID: https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI
+TQID: 'https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # Sobre o [!UICONTROL Deal ID Inbox]
 
 O Advertising DSP [!UICONTROL Deal ID Inbox] permite configurar rapidamente as ofertas que o DSP importou de editores por meio das plataformas do lado da oferta (SSPs), de modo que não seja necessário configurar cada oferta manualmente. Você pode aceitar as ofertas de estoque privado garantidas e não garantidas que você já negociou com editores em [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conhecido como [!DNL AdX]) e [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]) do [!UICONTROL Deal ID Inbox].
@@ -40,7 +47,7 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-O DSP atualiza automaticamente todos os detalhes da negociação diariamente às 4:30 da manhã EST. Ele também atualiza todas as ofertas do [!DNL FreeWheel] e atualiza as ofertas existentes de [!DNL Google] a [!DNL Magnite DV+] por hora. Você também pode atualizar manualmente os detalhes do negócio para preencher novos negócios a qualquer momento.
+O DSP atualiza automaticamente todos os detalhes da negociação diariamente às 4h30 EST. Ele também atualiza todas as ofertas do [!DNL FreeWheel] e atualiza as ofertas existentes de [!DNL Google] a [!DNL Magnite DV+] por hora. Você também pode atualizar manualmente os detalhes do negócio para preencher novos negócios a qualquer momento.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 
@@ -70,9 +77,9 @@ Quando uma lista de negócios não inclui um ícone ![Aceitar](/help/dsp/assets/
 
 Você não pode aceitar os seguintes tipos de negócios:
 
-* [!DNL Google] ofertas que não estão em USD.
+* [!DNL Google] ofertas que não estão na USD.
 
-* [!DNL Magnite DV+] ofertas que não estão em USD
+* [!DNL Magnite DV+] ofertas que não estão na USD
 
 * [!DNL FreeWheel] ofertas que não estão na moeda da sua conta.
 

@@ -1,22 +1,26 @@
 ---
 title: Configurações de campanha de [!DNL Yandex]
-description: Referencie as configurações de  [!DNL Yandex] campanhas.
+description: Referencie as configurações de [!DNL Yandex] campanhas.
 exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5AvW-Q9TrsDZSfxVD7gp6C9BlDpTyvWVRkUqET-MAvc
+TQID: 'https://experienceleague.adobe.com/5AvW-Q9TrsDZSfxVD7gp6C9BlDpTyvWVRkUqET-MAvc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # Configurações de campanha de [!DNL Yandex]
 
 ## \[Tela de criação da campanha\]
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Budget Options]
 
-**[!UICONTROL Budget]:** O orçamento, que é a quantidade que você deseja gastar diariamente (em média) ou durante o tempo de vida da campanha, dependendo do tipo de orçamento da conta. O orçamento mínimo é py6 300, EUR 10, ou USD 10.
+**[!UICONTROL Budget]:** O orçamento, que é a quantidade que você deseja gastar diariamente (em média) ou durante o tempo de vida da campanha, dependendo do tipo de orçamento da conta. O orçamento mínimo é py6 300, EUR 10 ou USD 10.
 
 **Notas:**
 

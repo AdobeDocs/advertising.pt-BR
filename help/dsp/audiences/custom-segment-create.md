@@ -3,25 +3,31 @@ title: Criar e implementar um segmento personalizado
 description: Saiba como criar e implementar um segmento personalizado para rastrear usuários expostos a anúncios ou usuários que visitam suas páginas da Web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
+TQID: 'https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Criar e implementar um segmento personalizado
 
 Você pode coletar seus próprios dados de público-alvo primários criando e implementando um segmento personalizado do DSP. Você pode usar o segmento para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. Posteriormente, você pode redirecionar os usuários no segmento com anúncios adicionais ou impedir que eles recebam anúncios adicionais.
@@ -36,26 +42,26 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
 * Para a medição no Adobe Analytics, você deve:
 
-   1. Conclua todos os [pré-requisitos para implementação [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e verifique se a [ID do AMO e a EF ID](/help/integrations/analytics/ids.md) estão sendo populadas nas URLs de rastreamento.
+  1. Conclua todos os [pré-requisitos para implementação [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e verifique se a [ID do AMO e a EF ID](/help/integrations/analytics/ids.md) estão sendo populadas nas URLs de rastreamento.
 
-   1. Adicione o seguinte parâmetro às suas páginas da Web antes ou dentro do [código JavaScript necessário para o  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — em qualquer lugar antes da inicialização do último serviço de evento.
+  1. Adicione o seguinte parâmetro às suas páginas da Web antes ou dentro do [código JavaScript necessário para o  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — em qualquer lugar antes da inicialização do último serviço de evento.
 
-      `window.id5PartnerId=ID5_PartnerID;`
+     `window.id5PartnerId=ID5_PartnerID;`
 
-      Exemplo:
+     Exemplo:
 
-      ```
-      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
-      <script>
-        window.id5PartnerId=ID5_PartnerID;
-             if("undefined" != typeof AdCloudEvent)
-                 AdCloudEvent('IMS ORG Id','rsid');
-      </script>
-      ```
+     ```
+     <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+     <script>
+       window.id5PartnerId=ID5_PartnerID;
+            if("undefined" != typeof AdCloudEvent)
+                AdCloudEvent('IMS ORG Id','rsid');
+     </script>
+     ```
 
-      Consulte &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; para obter o formato completo da marca.
+     Consulte &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato das marcas de rastreamento de conversão do JavaScript versão 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; para obter o formato completo da marca.
 
-   1. Use qualquer ferramenta de depuração de navegador para verificar se cada chamada foi iniciada para o domínio `lasteventf-tm.everesttech.net` e contém o parâmetro `_les_id5` com uma ID5 criptografada como seu valor.
+  1. Use qualquer ferramenta de depuração de navegador para verificar se cada chamada foi iniciada para o domínio `lasteventf-tm.everesttech.net` e contém o parâmetro `_les_id5` com uma ID5 criptografada como seu valor.
 
 ## Criar e implementar um segmento personalizado
 
@@ -77,11 +83,11 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
       * [!UICONTROL Legacy]:
 
-         * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
+        * *[!UICONTROL Cookies]:* (o padrão) A marca de segmento rastreia cookies.
 
       * [!UICONTROL Universal IDs]:
 
-         * *[!UICONTROL ID5]:* A marca de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
+        * *[!UICONTROL ID5]:* A marca de segmento rastreia [!DNL ID5] IDs. Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
         **[!UICONTROL Terms of Service]:** Os termos do contrato de serviço para usar IDs universais. Você ou outro usuário na conta da DSP deve aceitar os termos uma vez antes de usar IDs universais para um novo tipo de ID. Para clientes com contratos de serviço gerenciado, a equipe de conta da Adobe obterá seu consentimento e aceitará os termos em nome da organização. Para ler os termos, clique em **>**. Para aceitar os termos, navegue até a parte inferior dos termos e clique em **[!UICONTROL Accept]**.
 
@@ -95,31 +101,31 @@ Você pode coletar seus próprios dados de público-alvo primários criando e im
 
       * Para rastrear visitantes móveis e da área de trabalho em uma página da Web:
 
-         1. Copie a marca de rastreamento de exibição de página, chamada &quot;[!UICONTROL Desktop or mobile websites]&quot;.
+        1. Copie a marca de rastreamento de exibição de página, chamada &quot;[!UICONTROL Desktop or mobile websites]&quot;.
 
-         1. (Marcas para segmentos que rastreiam [!DNL ID5] IDs) Na marca copiada, substitua `ID5_PARTNER_ID` pela ID de parceiro que [!DNL ID5] atribuiu à sua organização.
+        1. (Marcas para segmentos que rastreiam [!DNL ID5] IDs) Na marca copiada, substitua `ID5_PARTNER_ID` pela ID de parceiro que [!DNL ID5] atribuiu à sua organização.
 
-            Por exemplo, se a ID do parceiro ID5 for `abcde` e a tag de segmento gerada for
+           Por exemplo, se a ID do parceiro ID5 for `abcde` e a tag de segmento gerada for
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            em seguida, substitua `ID5_PARTNER_ID` por `abcde` na tag para obter o seguinte:
+           em seguida, substitua `ID5_PARTNER_ID` por `abcde` na tag para obter o seguinte:
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            Sua organização recebeu a ID de parceiro quando assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta da Adobe.
+           Sua organização recebeu a ID de parceiro quando assinou um contrato com [!DNL ID5]. Caso não saiba a ID do parceiro, entre em contato com a equipe de conta da Adobe.
 
-            Esta etapa não é necessária para que as marcas rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
+           Esta etapa não é necessária para que as marcas rastreiem [!DNL ID5] IDs para usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop.
 
-         1. Forneça a tag ao anunciante ou contato do site para implantação.
+        1. Forneça a tag ao anunciante ou contato do site para implantação.
 
-            O departamento de TI do anunciante ou outro grupo pode precisar agendar ou ser informado sobre a implantação da tag.
+           O departamento de TI do anunciante ou outro grupo pode precisar agendar ou ser informado sobre a implantação da tag.
 
       * Para rastrear usuários expostos a uma unidade de publicidade em dispositivos móveis ou desktop:
 
-         1. Copie a marca de rastreamento de impressão, chamada &quot;[!UICONTROL Desktop or mobile ads]&quot;.
+        1. Copie a marca de rastreamento de impressão, chamada &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Adicione a marca à guia [!UICONTROL Pixel] para cada anúncio relevante ou à seção [!UICONTROL Event Pixels] das configurações [[!UICONTROL Tracking] para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+        1. Adicione a marca à guia [!UICONTROL Pixel] para cada anúncio relevante ou à seção [!UICONTROL Event Pixels] das configurações [[!UICONTROL Tracking] para cada posicionamento relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Depois que uma tag de rastreamento é implementada, você pode usar o segmento nos destinos ou exclusões de público-alvo para qualquer posicionamento.
 

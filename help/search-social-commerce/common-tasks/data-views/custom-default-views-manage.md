@@ -3,20 +3,26 @@ title: Gerenciar exibições padrão e personalizadas
 description: Saiba como personalizar exibições padrão e personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+TQID: 'https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4453
+source-wordcount: '4470'
 ht-degree: 0%
-
 ---
-
 # Gerenciar exibições padrão e personalizadas
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
@@ -43,17 +49,17 @@ Na interface herdada, cada exibição está disponível como atalho na seção [
 
 * (Exibições personalizadas) No painel de navegação esquerdo:
 
-   1. No painel esquerdo, clique no menu **[!UICONTROL Custom Views]** para expandi-lo.
+  1. No painel esquerdo, clique no menu **[!UICONTROL Custom Views]** para expandi-lo.
 
-      As exibições são classificadas por entidade aplicável.
+     As exibições são classificadas por entidade aplicável.
 
-   1. Expanda os menus disponíveis.
+  1. Expanda os menus disponíveis.
 
-      &quot;[!UICONTROL Universal Views]&quot; inclui exibições personalizadas que podem ser usadas em todas as exibições de entidade. Todas as outras exibições personalizadas são agrupadas por tipo de entidade.
+     &quot;[!UICONTROL Universal Views]&quot; inclui exibições personalizadas que podem ser usadas em todas as exibições de entidade. Todas as outras exibições personalizadas são agrupadas por tipo de entidade.
 
-   1. Clique no nome da exibição.
+  1. Clique no nome da exibição.
 
-      Se a exibição for universal ou se aplicar à entidade atual, a tabela de dados será exibida novamente de acordo com a configuração de exibição. Se a exibição se aplicar a uma entidade diferente, os dados da entidade aplicável serão exibidos de acordo com a configuração de exibição.
+     Se a exibição for universal ou se aplicar à entidade atual, a tabela de dados será exibida novamente de acordo com a configuração de exibição. Se a exibição se aplicar a uma entidade diferente, os dados da entidade aplicável serão exibidos de acordo com a configuração de exibição.
 
 ## Criar um modo de exibição personalizado {#create-custom-view}
 
@@ -165,19 +171,19 @@ As configurações padrão do sistema variam de acordo com a exibição de geren
 
 * Na nova interface do usuário do:
 
-   1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+  1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
 
-   1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
+  1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
-   1. Mantenha o cursor sobre o nome da exibição e clique em ![Reverter](/help/search-social-commerce/assets/revert-new.png).
+  1. Mantenha o cursor sobre o nome da exibição e clique em ![Reverter](/help/search-social-commerce/assets/revert-new.png).
 
 * Nas visualizações herdadas do gerenciamento de campanhas:
 
-   1. No painel esquerdo, clique em ![Exibições personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Exibições personalizadas") para expandir o menu [!UICONTROL Custom Views].
+  1. No painel esquerdo, clique em ![Exibições personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Exibições personalizadas") para expandir o menu [!UICONTROL Custom Views].
 
-      As exibições são classificadas por entidade aplicável.
+     As exibições são classificadas por entidade aplicável.
 
-   1. Ao lado do nome do modo de exibição, clique em ![Restaurar para as configurações padrão](/help/search-social-commerce/assets/restore.png "Restaurar para as configurações padrão").
+  1. Ao lado do nome do modo de exibição, clique em ![Restaurar para as configurações padrão](/help/search-social-commerce/assets/restore.png "Restaurar para as configurações padrão").
 
 ## Excluir um modo de exibição personalizado
 
@@ -187,21 +193,21 @@ Se você excluir um modo de exibição personalizado aplicado à guia atual, a g
 
 * Na nova interface do usuário do:
 
-   1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+  1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
 
-   1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
+  1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
-   1. Mantenha o cursor sobre o nome da exibição e clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png).
+  1. Mantenha o cursor sobre o nome da exibição e clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png).
 
-   1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
+  1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
 * Nas visualizações herdadas do gerenciamento de campanhas:
 
-   1. No painel esquerdo, clique em ![Exibições personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Exibições personalizadas") para expandir o menu [!UICONTROL Custom Views].
+  1. No painel esquerdo, clique em ![Exibições personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Exibições personalizadas") para expandir o menu [!UICONTROL Custom Views].
 
-   1. Mantenha o cursor sobre o nome da exibição personalizada e clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir").
+  1. Mantenha o cursor sobre o nome da exibição personalizada e clique em ![Excluir](/help/search-social-commerce/assets/delete.png "Excluir").
 
-   1. Na mensagem de confirmação, clique em **[!UICONTROL Continue]**.
+  1. Na mensagem de confirmação, clique em **[!UICONTROL Continue]**.
 
 ## Configurações de exibição padrão e personalizada
 

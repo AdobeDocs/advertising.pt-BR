@@ -3,22 +3,26 @@ title: Configurações para planos de alcance de TV conectada
 description: Consulte descrições das configurações para planos de alcance de TV conectada.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-TQID: https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs
+TQID: 'https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Configurações para planos de alcance de TV conectada
 
 <!-- Move out of table for consistency at some point. -->
@@ -27,11 +31,11 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Name] | O nome para identificar seu plano. | Sim |
 | [!UICONTROL Advertiser] | O anunciante específico na conta para a qual o plano está sendo criado. | Sim |
-| [!UICONTROL Media Type] | O tipo de mídia a ser incluída no plano.<br><br>Atualmente, somente [!UICONTROL Connected TV] está disponível. | Sim |
+| [!UICONTROL Media Type] | O tipo de mídia a ser incluído no plano.<br><br>Atualmente, apenas [!UICONTROL Connected TV] está disponível. | Sim |
 | [!UICONTROL Date Range] | As datas inicial e final do plano.<br><br>A data de início não pode ser anterior à data atual. O intervalo de datas não pode ser superior a 90 dias. | Sim |
-| [!UICONTROL Goal Type] | O tipo de meta (como [!UICONTROL Budget]) a ser considerado para o plano.<br><br>Atualmente, somente [!UICONTROL Budget] está disponível. | Sim |
-| [!UICONTROL Goal Value] | O valor da meta para a previsão. Para obter resultados de previsão mais precisos, use um valor > US$ 5.000. | Sim |
-| [!UICONTROL Max Bid] | O valor máximo a ser pago por 1000 impressões. Se o tipo de mídia [!UICONTROL Connected TV] for selecionado, insira um valor de pelo menos US$ 10. | Sim |
+| [!UICONTROL Goal Type] | O tipo de meta (como [!UICONTROL Budget]) a ser considerado para o plano.<br><br>Atualmente, apenas [!UICONTROL Budget] está disponível. | Sim |
+| [!UICONTROL Goal Value] | O valor da meta para a previsão. Para obter resultados de previsão mais precisos, use um valor > 5000 USD. | Sim |
+| [!UICONTROL Max Bid] | O valor máximo a ser pago por 1000 impressões. Se o tipo de mídia [!UICONTROL Connected TV] for selecionado, insira um valor de pelo menos 10 USD. | Sim |
 | [!UICONTROL Frequency Cap] | O número de vezes que uma família única deve receber anúncios.<br><br>Ao implementar um plano e criar vários posicionamentos, aplique a configuração de limite de frequência no nível do pacote, não no nível do posicionamento, para garantir a entrega adequada. | Sim |
 | [!UICONTROL Geo-Targeting] | Locais a serem incluídos ou excluídos como destinos. As opções incluem:<ul><li>Países, cidades, estados: clique na guia **[!UICONTROL Country/State/City]**; selecione se a área é um *País*, *Estado* ou *Cidade*; como opção, expanda qualquer local para exibir seus subcomponentes e clique em **[!UICONTROL Include]** ou **[!UICONTROL Exclude]** ao lado do local.</li><li>Áreas de mercado designadas (DMAs) nos Estados Unidos: clique na guia **[!UICONTROL DMA]**; opcionalmente, expanda qualquer estado para exibir seus DMAs e clique em **[!UICONTROL Include]** ou **[!UICONTROL Exclude]** ao lado do local.</li><li>Códigos postais: Você pode:<ul><li>Clique na guia **[!UICONTROL Search postal code]**, selecione o país, digite o nome completo da cidade ou as letras contidas no nome da cidade e pressione a tecla **[Enter]**, clique no nome correto da cidade para exibir todos os códigos postais da cidade, clique no código postal correto e clique em **[!UICONTROL Include]** ou **[!UICONTROL Exclude]**.</li><li>Clique na guia **[!UICONTROL Paste postal code]**, selecione o país, insira ou cole valores separados por vírgula e clique em **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**.</li></ul></li></ul> | Sim |
 | [!UICONTROL Inventory Targeting] | Origens de inventário a serem incluídas ou excluídas como destinos. Selecione pelo menos um feed ou fonte. | Sim |

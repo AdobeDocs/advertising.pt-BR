@@ -3,29 +3,34 @@ title: Cerca de [!DNL On Demand] estoque premium
 description: Saiba mais sobre as negociações que a DSP pré-negociou com parceiros de editores premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Cerca de [!DNL On Demand] estoque premium
 
 *Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]; e revendedores*
 
-A galeria [!DNL On Demand] é uma ferramenta de descoberta de inventário premium para explorar negócios pré-negociados que a DSP preparou com parceiros de publicação premium. Ele permite acessar o estoque não garantido dos editores de nível superior na região sem a necessidade de 1:1 negociações ou contratos. Você pode solicitar ofertas individuais e assinar um editor para solicitar todas as ofertas do editor de uma só vez.
+A galeria [!DNL On Demand] é uma ferramenta de descoberta de inventário premium para explorar negócios pré-negociados que a DSP preparou com parceiros de publicação premium. Ele permite acessar o inventário não garantido dos editores de nível superior na região sem a necessidade de negociações ou contratos 1:1. Você pode solicitar ofertas individuais e assinar um editor para solicitar todas as ofertas do editor de uma só vez.
 
 O DSP premium marketplace permite:
 

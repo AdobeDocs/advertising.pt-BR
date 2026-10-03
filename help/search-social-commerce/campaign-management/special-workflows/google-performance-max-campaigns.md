@@ -1,27 +1,31 @@
 ---
-title: Implementar  [!DNL Google Ads] campanhas de desempenho máximo
-description: Saiba mais sobre o fluxo de trabalho para configurar  [!DNL Google Ads] campanhas de desempenho máximo.
+title: Implementar campanhas de desempenho máximo de [!DNL Google Ads]
+description: Saiba mais sobre o fluxo de trabalho para configurar campanhas de desempenho máximo do [!DNL Google Ads].
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
+TQID: 'https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 # Implementar campanhas de desempenho máximo de [!DNL Google Ads]
 
 Em [!DNL Google Ads] campanhas de desempenho máximo, você não configura grupos de anúncios, anúncios ou palavras-chave. Em vez disso, nas configurações da campanha, você especifica um ou mais grupos de ativos, que incluem títulos, descrições e imagens, logotipos e [!DNL YouTube videos] carregados. O [!DNL Google Ads] combina automaticamente os ativos para veicular anúncios com base no canal (como [!DNL YouTube], [!DNL Gmail] ou [!DNL Search]).
 
-Você pode visualizar suas campanhas de desempenho máximo existentes, com dados de desempenho em formato de tabela e gráfico de tendências, na visualização [!DNL Campaigns]. Os dados não estão disponíveis em níveis inferiores. Os dados de desempenho no nível de campanha também estão disponíveis nos relatórios e no Adobe Analytics (para anunciantes com uma [integração com o Analytics](/help/integrations/analytics/overview.md). Para exibir dados de desempenho para campanhas de desempenho máximo em [!DNL Analytics], a campanha deve usar o [código de rastreamento de ID do AMO atualizado](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items) (que rastreia a ID da campanha e a ID do grupo de anúncios).
+Você pode visualizar suas campanhas de desempenho máximo existentes, com dados de desempenho em formato de tabela e gráfico de tendências, na visualização [!DNL Campaigns]. Os dados não estão disponíveis em níveis inferiores. Os dados de desempenho no nível de campanha também estão disponíveis nos relatórios e no Adobe Analytics (para anunciantes com uma [integração com o Analytics](/help/integrations/analytics/overview.md). Para exibir dados de desempenho para campanhas de desempenho máximo em [!DNL Analytics], a campanha deve usar o [código de rastreamento de ID do AMO atualizado](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (que rastreia a ID da campanha e a ID do grupo de anúncios).
 
 >[!NOTE]
 >

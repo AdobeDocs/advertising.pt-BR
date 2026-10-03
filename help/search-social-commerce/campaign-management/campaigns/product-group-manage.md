@@ -3,18 +3,21 @@ title: Gerenciar grupos de produtos de compras
 description: Saiba como criar e gerenciar grupos de produtos de compras em campanhas de compras.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Gerenciar grupos de produtos de compras
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] campanhas de compras somente*
@@ -103,13 +106,13 @@ Você pode excluir qualquer grupo de produtos, exceto um grupo &quot;Tudo mais&q
 
    * Para excluir um ou mais grupos de produtos, faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada grupo de produtos que deseja excluir.
+     1. Marque a caixa de seleção ao lado de cada grupo de produtos que deseja excluir.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
+     1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
 
-      1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

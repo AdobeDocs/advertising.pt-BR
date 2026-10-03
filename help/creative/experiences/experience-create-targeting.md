@@ -3,22 +3,29 @@ title: Criar uma experiência com direcionamento de árvore de decisão
 description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '629'
 ht-degree: 0%
-
 ---
-
 # Criar uma experiência com direcionamento de árvore de decisão
 
 Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Cada experiência usa anúncios de uma única biblioteca criativa.
@@ -50,23 +57,23 @@ Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Ca
 
       * Metas:
 
-         * [Adicione um nó de destino ao nível final](experience-target-node-add-final.md).
+        * [Adicione um nó de destino ao nível final](experience-target-node-add-final.md).
 
-         * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
+        * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
 
-         * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
+        * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
 
-         * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
+        * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
 
       * Pacotes do Creative:
 
-         * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
+        * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
 
-           Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
+          Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
 
-         * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+        * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
 
-         * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
+        * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
 1. (Opcional) Alterne entre a árvore de decisão e as configurações gerais:
 
@@ -80,13 +87,13 @@ Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Ca
 
    * (Se cada nó no nível mais inferior não incluir pelo menos um pacote criativo), siga um destes procedimentos:
 
-      * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
+     * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
 
-        Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
+       Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
 
-      * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+     * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
 
-      * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+     * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
 
 Quando a experiência é em tempo real, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho de criação ou duração de vídeo aplicável. Em seguida, você pode [exportar uma marca de anúncio e implementá-la em uma DSP](/help/creative/experiences/experience-tag-export.md).
 

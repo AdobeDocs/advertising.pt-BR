@@ -4,13 +4,17 @@ description: Saiba como criar públicos-alvo reutilizáveis no Adobe Advertising
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # Criar um público-alvo reutilizável usando IA gerativa
 
 *recurso do Beta*
@@ -89,11 +93,11 @@ Você pode usar seus públicos-alvo como destinos ou exclusões para vários pos
 
 * Use uma linguagem clara e descritiva para descrever o público-alvo.
 
-   * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+  * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
 
-   * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
+  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
 
-   * O agente de público-alvo reconhece os sinônimos mais comuns.
+  * O agente de público-alvo reconhece os sinônimos mais comuns.
 
 * Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
 

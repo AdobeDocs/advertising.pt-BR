@@ -2,13 +2,19 @@
 title: Configurações do relatório de especialidades
 description: Saiba mais sobre as configurações obrigatórias e opcionais para relatórios especializados.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3141'
 ht-degree: 0%
-
 ---
-
 # Configurações do relatório de especialidades
 
 | Guia | Parâmetro | Descrição |
@@ -37,7 +43,7 @@ ht-degree: 0%
 |  | [!UICONTROL Conversion Attribution] | (Aplicável somente a campanhas de exibição; somente [!UICONTROL AdWords Shopping Performance Report]) Quais tipos de conversões relatar quando eventos anteriores ocorreram:<ul><li><i>[!UICONTROL Clicks]:</i> Para relatar somente conversões que resultaram de cliques. Cada nome de conversão é anexado com &quot;[!UICONTROL (CT)]&quot;.</li><li><i>[!UICONTROL View-throughs]:</i> Para relatar somente conversões que resultaram de view-throughs. Cada nome de conversão é anexado com &quot;[!UICONTROL (VT)]&quot;. Ao selecionar essa opção, você escolhe qual valor deve ser dado a cada conversão na configuração [!UICONTROL View-through valuation method]. Consulte a descrição a seguir.</li><li><i>[!UICONTROL Clicks + View-throughs]:</i> Para relatar todas as conversões. Por padrão, cada nome de conversão é anexado com &quot;[!UICONTROL (CT+VT)]&quot;. Este tipo de atribuição de conversão inclui duas opções adicionais: [!UICONTROL Discrete columns for click & view-through conversions] e [!UICONTROL View-through valuation method]; consulte as descrições a seguir.</li></ul> |
 |  | [!UICONTROL View-through valuation method] | (Relatórios com a configuração [!UICONTROL Conversion Attribution] somente &quot;[!UICONTROL View-throughs]&quot; ou &quot;[!UICONTROL Clicks + View-throughs]&quot;) Que valor deve ser dado a cada conversão resultante de um viewthrough:<ul><li><i>[!UICONTROL Raw]:</i> Para relatar conversões sem aplicar um peso.</li><li><i>[!UICONTROL Weighted]</i> (o padrão): para pesar cada conversão de acordo com o peso de viewthrough especificado para o anunciante.</li></ul> |
 |  | [!UICONTROL Discrete columns for click & view-through conversions] | (Relatórios com a configuração &quot;[!UICONTROL Conversion Attribution]&quot; somente &quot;[!UICONTROL Clicks + View-throughs]&quot;) Inclui três colunas separadas para cada tipo de conversão incluído: uma para cada 1) conversões click-through, anexadas com &quot;[!UICONTROL (CT)]&quot;, 2) conversões view-through, anexadas com &quot;[!UICONTROL (VT)]&quot;, 3) e todas as conversões, anexadas com &quot;[!UICONTROL (CT+VT)].&quot; Ao escolher essa opção, selecione qual das três colunas usar para filtragem e classificação na lista &quot;[!UICONTROL Filter & sort using]&quot;: <i>[!UICONTROL click]</i> (padrão), <i>[!UICONTROL view-through]</i> ou <i>[!UICONTROL click + view-through]</i>.<br><br><b>Observação:</b> As conversões de campanhas de pesquisa aparecem nas colunas para click-throughs, mas não na coluna para conversões de view-through. |
-| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editável somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada; caso contrário, definida como &quot;[!UICONTROL Now]&quot;) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando em 09:00 AM. |
+| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editável somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada; caso contrário, definida como &quot;[!UICONTROL Now]&quot;) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando às 09:00 AM. |
 |  | [!UICONTROL Email Recipients] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Usuários de Pesquisa, Social e Commerce registrados para os quais enviar notificações quando o relatório é concluído ou é cancelado devido a erros. Por padrão, o nome da sua conta de usuário é selecionado. Opcionalmente, adicione ou remova usuários com acesso aos dados do anunciante. Quando o relatório é agendado para execução repetida, uma notificação é enviada sempre que um relatório é concluído. |
 |  | [!UICONTROL Email Notification Format] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Quando [!UICONTROL Email Recipients] são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>[!UICONTROL Notification Only]</i> (padrão): enviar apenas uma notificação da conclusão ou falha do relatório, sem anexos. A notificação inclui links de download temporários para todos os formatos de relatório.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir uma cópia do relatório concluído no formato XLS se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato TSV, se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato CSV se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados. |
 

@@ -3,20 +3,24 @@ title: Requisitos do sistema
 description: Saiba mais sobre os requisitos de software e conta.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc
+TQID: 'https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # Requisitos do sistema
 
 Você precisa das seguintes informações de conta e software.
@@ -25,27 +29,27 @@ Você precisa das seguintes informações de conta e software.
 
 * (Nova interface de usuário) A versão mais recente menos um dos seguintes navegadores:
 
-   * Para obter a melhor experiência:
+  * Para obter a melhor experiência:
 
-      * [!DNL Google Chrome]
+    * [!DNL Google Chrome]
 
-      * [!DNL Microsoft Edge]
+    * [!DNL Microsoft Edge]
 
-   * [!DNL Apple Safari]
+  * [!DNL Apple Safari]
 
-   * [!DNL Mozilla Firefox]
+  * [!DNL Mozilla Firefox]
 
-   * [!DNL Opera]
+  * [!DNL Opera]
 
 * (Interface do usuário herdada) Qualquer um dos seguintes navegadores:
 
-   * [!DNL Apple Safari] (incluindo [!DNL Safari] para [!DNL iOS]) 10 ou superior
+  * [!DNL Apple Safari] (incluindo [!DNL Safari] para [!DNL iOS]) 10 ou superior
 
-   * [!DNL Google Chrome] 103 ou superior
+  * [!DNL Google Chrome] 103 ou superior
 
-   * [!DNL Microsoft Edge] 104 e superior
+  * [!DNL Microsoft Edge] 104 e superior
 
-   * [!DNL Mozilla Firefox] 102 ou superior; [!DNL Mozilla Firefox Extended Support Release] 91.11 e superior
+  * [!DNL Mozilla Firefox] 102 ou superior; [!DNL Mozilla Firefox Extended Support Release] 91.11 e superior
 
 * (Para exibir arquivos exportados no formato XLS) [!DNL Microsoft Excel] recomendado
 

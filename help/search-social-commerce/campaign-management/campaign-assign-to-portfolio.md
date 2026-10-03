@@ -3,20 +3,24 @@ title: Atribuir campanhas a um portfólio
 description: Saiba como incluir campanhas em portfólios para otimização.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+TQID: 'https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # Atribuir campanhas a um portfólio
 
 Atribuir uma campanha a um portfólio otimizado permite que o Search, Social e Commerce otimize ofertas, orçamentos de campanha e metas de estratégia de ofertas para palavras-chave e anúncios na campanha. Você pode atribuir campanhas a um portfólio na exibição [!UICONTROL Campaigns], ao criar o portfólio ou editando as configurações de um portfólio.
@@ -65,29 +69,29 @@ Nem todos os tipos de campanha e redes de anúncios estão qualificados para oti
 
    * (Para adicionar uma ou mais campanhas ao mesmo portfólio) Faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada campanha.
+     1. Marque a caixa de seleção ao lado de cada campanha.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-         >[!NOTE]
-         >
-         >Todas as campanhas em um portfólio devem usar a mesma moeda.
+        >[!NOTE]
+        >
+        >Todas as campanhas em um portfólio devem usar a mesma moeda.
 
-      1. Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+     1. Na barra de ferramentas acima da tabela de dados, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e em **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
 1. Selecione o portfólio:
 
    * Para navegar pelos grupos de portfólio:
 
-      1. Expanda um grupo de portfólios em seus portfólios filhos clicando no nome [!UICONTROL Portfolio Group].
+     1. Expanda um grupo de portfólios em seus portfólios filhos clicando no nome [!UICONTROL Portfolio Group].
 
-      1. Selecione o portfólio.
+     1. Selecione o portfólio.
 
    * Para pesquisar um portfólio:
 
-      1. Insira pelo menos três letras no campo de entrada.
+     1. Insira pelo menos três letras no campo de entrada.
 
-      1. Nos resultados da pesquisa, clique em **[!UICONTROL Select]** ao lado do nome do portfólio.
+     1. Nos resultados da pesquisa, clique em **[!UICONTROL Select]** ao lado do nome do portfólio.
 
 1. (Opcional) Clique em **[!UICONTROL Additional Details]** e, opcionalmente, insira um nome e uma descrição para o projeto.
 

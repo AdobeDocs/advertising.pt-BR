@@ -3,20 +3,24 @@ title: Exibir ou salvar um arquivo de feed de relatório de planilha
 description: Saiba como visualizar um feed de planilha e salvá-lo em um arquivo.
 exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/nVsdntMTCMlBGdluDnJnrqNquptqvZa1IfnK1haGWdg
+TQID: 'https://experienceleague.adobe.com/nVsdntMTCMlBGdluDnJnrqNquptqvZa1IfnK1haGWdg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 115
+source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 # Exibir ou salvar um arquivo de feed de relatório de planilha
 
 *Somente para relatórios básicos e relatórios de precisão de modelo*

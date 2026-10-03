@@ -3,18 +3,21 @@ title: Criar e editar dados da campanha em massa usando copiar e colar
 description: Saiba como gerenciar dados do Campaign em massa usando o recurso copiar e colar.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # Criar e editar dados da campanha em massa usando copiar e colar
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
@@ -47,9 +50,9 @@ Você pode usar esse recurso para editar objetos de campanha existentes (com cam
 
    * Os dados colados devem incluir uma linha de cabeçalho e os valores de objeto de campanha necessários. Consulte as colunas de bulksheet exigidas para o [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Rede de exibição](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). A ordem das colunas não importa.
 
-      * Para objetos existentes que você deseja editar, é necessário incluir todas as colunas de ID relevantes, nomes de entidade e o atributo a ser editado. Não edite a ID numérica do objeto.
+     * Para objetos existentes que você deseja editar, é necessário incluir todas as colunas de ID relevantes, nomes de entidade e o atributo a ser editado. Não edite a ID numérica do objeto.
 
-      * Para novos objetos de campanha, inclua todos os nomes e atributos de entidade relevantes, mas não inclua IDs de objeto (que são geradas automaticamente). Por exemplo, se você criar um novo anúncio, deixe o campo [!UICONTROL Ad ID] em branco. A rede de publicidade cria automaticamente uma ID quando você publica o objeto.
+     * Para novos objetos de campanha, inclua todos os nomes e atributos de entidade relevantes, mas não inclua IDs de objeto (que são geradas automaticamente). Por exemplo, se você criar um novo anúncio, deixe o campo [!UICONTROL Ad ID] em branco. A rede de publicidade cria automaticamente uma ID quando você publica o objeto.
 
    * O valor em qualquer coluna não obrigatória pode ser nulo (em branco), mas cada linha deve ter o mesmo número de valores separados por tabulação.
 

@@ -4,21 +4,30 @@ description: Saiba como executar ou executar novamente uma simulação personali
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+TQID: 'https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # Executar ou executar novamente uma simulação personalizada
 
 *recurso do Beta*
@@ -35,29 +44,29 @@ Você pode gerar uma simulação personalizada para um portfólio [otimizado ou 
 
 * Na exibição [!UICONTROL Simulations]:
 
-   1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+  1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Acima da tabela de dados, clique em **[!UICONTROL Run Simulation]**.
+  1. Acima da tabela de dados, clique em **[!UICONTROL Run Simulation]**.
 
-   1. Selecione o portfólio:
+  1. Selecione o portfólio:
 
-      1. Clique em **[!UICONTROL Select Portfolio]**.
+     1. Clique em **[!UICONTROL Select Portfolio]**.
 
-      1. Selecione o portfólio.
+     1. Selecione o portfólio.
 
-         Para pesquisar portfólios que incluem uma sequência de texto específica, comece inserindo a sequência de texto no campo de pesquisa. Os valores não diferenciam maiúsculas de minúsculas.
+        Para pesquisar portfólios que incluem uma sequência de texto específica, comece inserindo a sequência de texto no campo de pesquisa. Os valores não diferenciam maiúsculas de minúsculas.
 
-      1. Clique em **[!UICONTROL Proceed]**.
+     1. Clique em **[!UICONTROL Proceed]**.
 
 * Na exibição [!UICONTROL Portfolios]:
 
-   1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+  1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Siga um destes procedimentos:
+  1. Siga um destes procedimentos:
 
-      * Mantenha o cursor sobre a linha do portfólio. Ao lado do nome do portfólio, clique em **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+     * Mantenha o cursor sobre a linha do portfólio. Ao lado do nome do portfólio, clique em **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-      * Marque a caixa de seleção ao lado do portfólio. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Run Simulation]**.
+     * Marque a caixa de seleção ao lado do portfólio. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Run Simulation]**.
 
 1. Especifique as [configurações personalizadas da simulação](#custom-simulation-settings):
 

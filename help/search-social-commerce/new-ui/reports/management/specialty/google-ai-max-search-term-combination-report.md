@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: Saiba mais sobre o [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ O [!UICONTROL Google AI Max Search Term Combination Report] mostra como consulta
 
   Use esta planilha para analisar a intenção e o desempenho dos elementos de anúncio resultantes por consulta, de modo que você possa criar listas de palavras-chave negativas robustas.
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Planilha [!UICONTROL AI Max Search Term #1]: [!DNL Google Ads] dados de conversão rastreados por ação de conversão para cada termo de pesquisa e tipo de correspondência. Cada linha inclui a ação de conversão, o número de conversões e o valor de conversão, bem como quaisquer outras métricas de conversão [!DNL Google Ads] opcionais rastreadas especificadas nas configurações do relatório. Por padrão, os dados incluem uma linha para cada combinação de termo de pesquisa e ação de conversão no intervalo de dados especificado. As linhas estão na mesma ordem que as linhas da primeira planilha.
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Planilha [!UICONTROL AI Max Search Term #1]: [!DNL Google Ads] dados de conversão rastreados por ação de conversão para cada termo de pesquisa e tipo de correspondência. Cada linha inclui a ação de conversão, o número de conversões e o valor de conversão, bem como quaisquer outras métricas de conversão [!DNL Google Ads] opcionais rastreadas especificadas nas configurações do relatório. Por padrão, os dados incluem uma linha para cada combinação de termo de pesquisa e ação de conversão no intervalo de dados especificado. As linhas estão na mesma ordem que as linhas da primeira planilha.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

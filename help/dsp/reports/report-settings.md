@@ -3,25 +3,31 @@ title: Configurações do relatório personalizado
 description: Consulte descrições das Configurações personalizadas do relatório.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
+TQID: 'https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 0%
-
 ---
-
 # Configurações do relatório personalizado
 
 **[!UICONTROL Name]:** O nome do relatório. O comprimento máximo é de 180 caracteres.
@@ -56,21 +62,21 @@ Esta seção determina as datas em que o relatório é executado. Para configura
   >
   >Você também pode [executar um relatório personalizado a qualquer momento](report-run-now.md) na exibição [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Executa o relatório em uma data especificada para conclusão até 09:00 no fuso horário da conta.
+* *[!UICONTROL On]\&lt;Date\>:* Executa o relatório em uma data especificada para conclusão às 09:00 no fuso horário da conta.
 
 * *[!UICONTROL Recurring]:* Executa o relatório de acordo com um agendamento durante um período de tempo especificado.
 
-   * **\[Cronograma\]:** Com que frequência executar o relatório:
+  * **\[Cronograma\]:** Com que frequência executar o relatório:
 
-      * *Diariamente* para executar o relatório a cada N número de dias. Por exemplo, para executar o relatório a cada duas semanas (14 dias), selecione esta opção e digite **14**.
+    * *Diariamente* para executar o relatório a cada N número de dias. Por exemplo, para executar o relatório a cada duas semanas (14 dias), selecione esta opção e digite **14**.
 
-      * *Semanalmente* para executar o relatório em dias da semana especificados. Por exemplo, para executar o relatório toda segunda e sexta-feira, marque essa opção e marque as caixas de seleção ao lado de **segunda** e **sexta-feira**.
+    * *Semanalmente* para executar o relatório em dias da semana especificados. Por exemplo, para executar o relatório toda segunda e sexta-feira, marque essa opção e marque as caixas de seleção ao lado de **segunda** e **sexta-feira**.
 
-      * *Monthly* para executar o relatório em um dia numérico específico do mês, de 1 a 30. Por exemplo, para executar o relatório no primeiro dia de cada mês, selecione esta opção e digite **1**.
+    * *Monthly* para executar o relatório em um dia numérico específico do mês, de 1 a 30. Por exemplo, para executar o relatório no primeiro dia de cada mês, selecione esta opção e digite **1**.
 
-   * **De**: a primeira data em que o relatório pode ser executado. Dependendo do agendamento especificado, a primeira instância de relatório pode ocorrer após essa data.
+  * **De**: a primeira data em que o relatório pode ser executado. Dependendo do agendamento especificado, a primeira instância de relatório pode ocorrer após essa data.
 
-   * **Até**: a data de expiração do relatório, que pode ser de até quatro meses. Antes de um relatório expirar, todos os destinos de email especificados recebem um alerta por email sete dias e um dia antes da data de expiração. Para manter o relatório por mais tempo, altere esta data.
+  * **Até**: a data de expiração do relatório, que pode ser de até quatro meses. Antes de um relatório expirar, todos os destinos de email especificados recebem um alerta por email sete dias e um dia antes da data de expiração. Para manter o relatório por mais tempo, altere esta data.
 
 ## seção [!UICONTROL Apply Filters]
 
@@ -132,9 +138,9 @@ Consulte &quot;[Colunas do relatório disponíveis](report-columns.md)&quot; par
 
 * **\[Tipo de atribuição\]:** ([!UICONTROL Household Conversion] relatórios com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão:
 
-   * *[!UICONTROL Unique]:* (padrão) Conta o número de vezes que um valor de dimensão (como um dispositivo ou posicionamento) estava no caminho para conversão.
+  * *[!UICONTROL Unique]:* (padrão) Conta o número de vezes que um valor de dimensão (como um dispositivo ou posicionamento) estava no caminho para conversão.
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
+  * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Distribui o crédito de cada conversão com base na frequência de ocorrência do valor da dimensão (como um dispositivo ou posicionamento) no caminho para conversão. Por exemplo, se houvesse um total de 10 impressões antes da conversão, com 8 no CTV e 2 no Mobile, então 80% do crédito (0,8) é dado para telas de CTV e 0,2 para o Mobile.
 
 * **\[Tipo de Regra\]:** (Todos os relatórios [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] com [!UICONTROL Conversion Metrics] ou [!UICONTROL Custom Goals] colunas; anunciantes somente com rastreamento de conversão do Adobe Advertising) No relatório, como atribuir dados de conversão em uma série de eventos que levam a uma conversão. Você pode escolher mais de uma regra se quiser comparar diferenças entre as regras.
 
@@ -142,21 +148,21 @@ Consulte &quot;[Colunas do relatório disponíveis](report-columns.md)&quot; par
   >
   >Os caminhos de conversão incluem quaisquer impressões e cliques na impressão do anunciante ou nas janelas de retrospectiva de cliques, que estão configuradas em [!DNL Advertising Search, Social, & Commerce]. Os cliques recebem preferência por impressões durante a atribuição de conversão. Quaisquer cliques em um caminho de conversão receberão crédito total com base na regra de atribuição. As impressões recebem crédito somente quando nenhum clique é rastreado no caminho de conversão.
 
-   * *[!UICONTROL Last Event]:* Atributos convertem para o último clique ou impressão no caminho de conversão.
+  * *[!UICONTROL Last Event]:* Atributos convertem para o último clique ou impressão no caminho de conversão.
 
-   * *[!UICONTROL Weight Last More]:* Atribui conversões a todos os eventos no caminho de conversão, mas dá mais peso ao último evento e sucessivamente menos peso aos eventos anteriores.
+  * *[!UICONTROL Weight Last More]:* Atribui conversões a todos os eventos no caminho de conversão, mas dá mais peso ao último evento e sucessivamente menos peso aos eventos anteriores.
 
-   * *[!UICONTROL Even Distribution]:* Atributos convertem igualmente para cada evento no caminho de conversão.
+  * *[!UICONTROL Even Distribution]:* Atributos convertem igualmente para cada evento no caminho de conversão.
 
-   * *[!UICONTROL Weight First More]:* Atribui conversões a todos os eventos no caminho de conversão, mas concede mais peso ao primeiro evento e, sucessivamente, menos peso aos eventos a seguir.
+  * *[!UICONTROL Weight First More]:* Atribui conversões a todos os eventos no caminho de conversão, mas concede mais peso ao primeiro evento e, sucessivamente, menos peso aos eventos a seguir.
 
-   * *[!UICONTROL First Event]:* Conversões de atributos para o primeiro clique ou impressão no caminho de conversão.
+  * *[!UICONTROL First Event]:* Conversões de atributos para o primeiro clique ou impressão no caminho de conversão.
 
-   * *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas fornece mais peso ao primeiro e ao último eventos, com peso sucessivamente menor para os eventos no meio do caminho de conversão.
+  * *[!UICONTROL U-shaped]:* Atribui a conversão a todos os eventos no caminho de conversão, mas fornece mais peso ao primeiro e ao último eventos, com peso sucessivamente menor para os eventos no meio do caminho de conversão.
 
-   * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão do DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
+  * *[!UICONTROL Display Only]:* Conversões de atributos para o último clique ou impressão do DSP no caminho de conversão. Isso inclui vídeo e anúncios de TV conectados e exclui cliques em [!DNL Advertising Search, Social, & Commerce] anúncios.
 
-   * *[!UICONTROL Social Only]:* Obsoleto
+  * *[!UICONTROL Social Only]:* Obsoleto
 
 Consulte também &quot;[Como as regras de atribuição são calculadas para o Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
@@ -196,7 +202,7 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * *[!UICONTROL FTP]:* Para enviar o relatório concluído para um ou mais locais FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](Atualmente no Beta):* Para enviar o relatório concluído para um ou mais locais SSL FTP, que você deve selecionar no campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar endereços de email para os quais enviar relatórios concluídos ou notificações se o relatório for cancelado devido a erros.
 
@@ -208,13 +214,13 @@ Consulte também &quot;[Como as regras de atribuição são calculadas para o Ad
 
 * Para criar um novo destino:
 
-   1. Clique em **Adicionar novo destino**.
+  1. Clique em **Adicionar novo destino**.
 
-   1. Insira as [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md) e clique em **Salvar**.
+  1. Insira as [configurações de destino do relatório](/help/dsp/reports/report-destinations/report-destination-settings.md) e clique em **Salvar**.
 
-   1. De volta às configurações do relatório, clique em **Atualizar nomes de destino.**
+  1. De volta às configurações do relatório, clique em **Atualizar nomes de destino.**
 
-      O novo destino agora está disponível na lista de destinos existentes, e você pode adicioná-lo ao relatório.
+     O novo destino agora está disponível na lista de destinos existentes, e você pode adicioná-lo ao relatório.
 
 >[!MORELIKETHIS]
 >

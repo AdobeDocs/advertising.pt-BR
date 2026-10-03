@@ -3,18 +3,21 @@ title: Gerenciar modelos de anúncio para feeds de inventário
 description: Saiba mais sobre como gerenciar modelos de anúncios por meio dos quais os dados de inventário podem ser processados para gerenciar a estrutura da conta e fornecer anúncios dinâmicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # Gerenciar modelos de anúncio para feeds de inventário
 
 *[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
@@ -41,9 +44,9 @@ Crie modelos separados para texto e anúncios de texto expandidos/estendidos, an
 
    * Para clonar um template existente:
 
-      1. Marque a caixa de seleção ao lado do modelo que você deseja copiar.
+     1. Marque a caixa de seleção ao lado do modelo que você deseja copiar.
 
-      1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create/Clone]** e selecione a rede de anúncios aplicável.
+     1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Create/Clone]** e selecione a rede de anúncios aplicável.
 
    * (Para editar um modelo existente) Ao lado do nome do modelo, clique em ![Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Exibir/editar configurações").
 
@@ -76,43 +79,43 @@ Crie modelos separados para texto e anúncios de texto expandidos/estendidos, an
 
       * Para adicionar uma variação de anúncio, faça o seguinte:
 
-         1. Clique em **[!UICONTROL Add Ad Variation]** para criar um anúncio de texto, **[!UICONTROL Add ETA Variation]** para criar um anúncio de texto expandido/estendido ou **[!UICONTROL Add RSA Variation]** para criar um anúncio de texto responsivo.
+        1. Clique em **[!UICONTROL Add Ad Variation]** para criar um anúncio de texto, **[!UICONTROL Add ETA Variation]** para criar um anúncio de texto expandido/estendido ou **[!UICONTROL Add RSA Variation]** para criar um anúncio de texto responsivo.
 
-            Depois de especificar o tipo de anúncio, você pode criar somente esse tipo de anúncio com o modelo.
+           Depois de especificar o tipo de anúncio, você pode criar somente esse tipo de anúncio com o modelo.
 
-         1. Especifique as configurações do anúncio.
+        1. Especifique as configurações do anúncio.
 
-            Para anúncios de pesquisa responsivos, você pode incluir de 3 a 15 títulos e 2 a 4 descrições.
+           Para anúncios de pesquisa responsivos, você pode incluir de 3 a 15 títulos e 2 a 4 descrições.
 
-         1. (Opcional) Para preencher previamente todos os campos alternativos de cópia de anúncio com texto dos campos originais de cópia de anúncio, marque a caixa de seleção ao lado de **[!UICONTROL Prefill]**.
+        1. (Opcional) Para preencher previamente todos os campos alternativos de cópia de anúncio com texto dos campos originais de cópia de anúncio, marque a caixa de seleção ao lado de **[!UICONTROL Prefill]**.
 
-         1. (Opcional) Para adicionar outro conjunto de cópias de anúncio a um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo depois que quaisquer parâmetros dinâmicos forem substituídos por dados durante a propagação, clique em **[!UICONTROL Add Alternate]** e adicione os valores alternativos.
+        1. (Opcional) Para adicionar outro conjunto de cópias de anúncio a um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo depois que quaisquer parâmetros dinâmicos forem substituídos por dados durante a propagação, clique em **[!UICONTROL Add Alternate]** e adicione os valores alternativos.
 
-            >[!NOTE]
-            >
-            >* Se a opção [!UICONTROL Prefill] estiver selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
-            >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
-            >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
-            >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
+           >[!NOTE]
+           >
+           >* Se a opção [!UICONTROL Prefill] estiver selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
+           >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
+           >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
+           >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 
-         * Para editar uma variação de anúncio, faça o seguinte:
+        * Para editar uma variação de anúncio, faça o seguinte:
 
-            1. Edite as configurações do anúncio.
+          1. Edite as configurações do anúncio.
 
-               Para anúncios de pesquisa responsivos, você pode incluir de 3 a 15 títulos e 2 a 4 descrições.
+             Para anúncios de pesquisa responsivos, você pode incluir de 3 a 15 títulos e 2 a 4 descrições.
 
-            1. (Opcional) Para preencher previamente todos os campos alternativos de cópia de anúncio com texto dos campos originais de cópia de anúncio, marque a caixa de seleção ao lado de **[!UICONTROL Prefill]**.
+          1. (Opcional) Para preencher previamente todos os campos alternativos de cópia de anúncio com texto dos campos originais de cópia de anúncio, marque a caixa de seleção ao lado de **[!UICONTROL Prefill]**.
 
-            1. (Opcional) Para adicionar outro conjunto de cópias de anúncio a um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo depois que quaisquer parâmetros dinâmicos forem substituídos por dados durante a propagação, clique em **[!UICONTROL Add Alternate]** e adicione os valores alternativos.
+          1. (Opcional) Para adicionar outro conjunto de cópias de anúncio a um anúncio, que pode ser usado se qualquer uma das linhas do anúncio original exceder o comprimento máximo depois que quaisquer parâmetros dinâmicos forem substituídos por dados durante a propagação, clique em **[!UICONTROL Add Alternate]** e adicione os valores alternativos.
 
-               >[!NOTE]
-               >
-               >* Se a opção [!UICONTROL Prefill] estiver selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
-               >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
-               >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
-               >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
+             >[!NOTE]
+             >
+             >* Se a opção [!UICONTROL Prefill] estiver selecionada, os campos alternativos serão pré-preenchidos com os campos originais e você poderá editá-los conforme necessário.
+             >* Somente os campos de cópia de anúncio que excedem o comprimento máximo são substituídos pelo valor alternativo. Por exemplo, se apenas um título ou título original for muito longo, a variação de anúncio gerada usará o título ou título alternativo e as descrições originais. Portanto, certifique-se de que a cópia alternativa de anúncio faça sentido quando combinada com a cópia de anúncio original.
+             >* Se a cópia do anúncio original atender aos requisitos de comprimento do mecanismo de pesquisa, a cópia alternativa do anúncio será descartada.
+             >* É possível especificar até quatro alternativas para cada campo de texto publicitário.
 
-         * Para remover uma variação de anúncio, clique em **[!UICONTROL Remove ETA Variation]** (para anúncios de texto expandidos/estendidos) ou **[!UICONTROL Remove RSA Variation]** (para anúncios de pesquisa responsivos) ao lado da variação de anúncio, conforme aplicável.
+        * Para remover uma variação de anúncio, clique em **[!UICONTROL Remove ETA Variation]** (para anúncios de texto expandidos/estendidos) ou **[!UICONTROL Remove RSA Variation]** (para anúncios de pesquisa responsivos) ao lado da variação de anúncio, conforme aplicável.
 
    1. (Somente modelos de compras) Clique na guia **[!UICONTROL Product Groups]** e especifique as informações sobre os grupos de produtos que deseja direcionar.
 

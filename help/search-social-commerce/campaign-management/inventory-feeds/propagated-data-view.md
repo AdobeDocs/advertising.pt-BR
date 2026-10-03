@@ -3,18 +3,21 @@ title: Exibir dados gerados de feeds
 description: Saiba como visualizar dados gerados de feeds de dados de inventário.
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
+TQID: 'https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # Exibir dados gerados de feeds
 
 *[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
@@ -27,32 +30,32 @@ Ao propagar dados do feed sem publicá-los simultaneamente na rede de anúncios,
 
   As exibições de hierarquia de campanha mostram apenas os dados gerados a partir do arquivo de feed, não os componentes de conta existentes. Depois que os dados de um componente e todos os seus subcomponentes são publicados na rede de anúncios, ele não é mais listado na exibição da hierarquia da campanha.
 
-   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
+  1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que abrirá a guia [!UICONTROL Templates].
 
-   1. (Opcional) Para mostrar apenas componentes de campanha criados para um modelo específico:
+  1. (Opcional) Para mostrar apenas componentes de campanha criados para um modelo específico:
 
-      1. Clique no nome do template.
+     1. Clique no nome do template.
 
-      1. No menu [!UICONTROL Accounts], no painel de navegação esquerdo, expanda o nó de rede de publicidade e o nó de conta de rede de publicidade e marque a caixa de seleção ao lado do nome do modelo.
+     1. No menu [!UICONTROL Accounts], no painel de navegação esquerdo, expanda o nó de rede de publicidade e o nó de conta de rede de publicidade e marque a caixa de seleção ao lado do nome do modelo.
 
-   1. Clique na guia **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** ou **[!UICONTROL Ads]**, dependendo dos componentes que deseja exibir.
+  1. Clique na guia **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** ou **[!UICONTROL Ads]**, dependendo dos componentes que deseja exibir.
 
-      >[!NOTE]
-      >
-      >* A menos que você exiba dados para um modelo específico, as guias [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] listam todos os grupos de anúncios, palavras-chave e anúncios criados a partir de todos os modelos e arquivos de feed. Os grupos de produtos usados para [!DNL Google Ads] anúncios de compras estão listados na guia [!UICONTROL Keywords].
-      >* Para exibir apenas os subcomponentes de uma campanha específica, comece pela guia [!UICONTROL Campaigns]. Da mesma forma, para exibir somente os subcomponentes de um grupo de anúncios específico, comece pela exibição da guia [!UICONTROL Ad Groups].
+     >[!NOTE]
+     >
+     >* A menos que você exiba dados para um modelo específico, as guias [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] listam todos os grupos de anúncios, palavras-chave e anúncios criados a partir de todos os modelos e arquivos de feed. Os grupos de produtos usados para [!DNL Google Ads] anúncios de compras estão listados na guia [!UICONTROL Keywords].
+     >* Para exibir apenas os subcomponentes de uma campanha específica, comece pela guia [!UICONTROL Campaigns]. Da mesma forma, para exibir somente os subcomponentes de um grupo de anúncios específico, comece pela exibição da guia [!UICONTROL Ad Groups].
 
-   1. (Opcional) Para exibir mais informações, siga um destes procedimentos:
+  1. (Opcional) Para exibir mais informações, siga um destes procedimentos:
 
-      * Para exibir as configurações de qualquer campanha, grupo de publicidade, palavra-chave ou anúncio, clique em [Ícone Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Ícone Exibir/editar configurações") ao lado do nome.
+     * Para exibir as configurações de qualquer campanha, grupo de publicidade, palavra-chave ou anúncio, clique em [Ícone Exibir/editar configurações](/help/search-social-commerce/assets/settings.png "Ícone Exibir/editar configurações") ao lado do nome.
 
-      * Para exibir os subcomponentes de uma campanha ou grupo de anúncios, faça o seguinte:
+     * Para exibir os subcomponentes de uma campanha ou grupo de anúncios, faça o seguinte:
 
-         * Para listar todos os grupos de anúncios em uma campanha, clique no nome da campanha.
+       * Para listar todos os grupos de anúncios em uma campanha, clique no nome da campanha.
 
-         * Para listar todas as palavras-chave ou destinos de produtos em um grupo de anúncios, clique no nome do grupo de anúncios.
+       * Para listar todas as palavras-chave ou destinos de produtos em um grupo de anúncios, clique no nome do grupo de anúncios.
 
-         * Para listar todos os anúncios em um grupo de anúncios, clique no nome do grupo de anúncios e clique na guia [!UICONTROL Ads].
+       * Para listar todos os anúncios em um grupo de anúncios, clique no nome do grupo de anúncios e clique na guia [!UICONTROL Ads].
 
 >[!MORELIKETHIS]
 >

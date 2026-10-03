@@ -3,20 +3,24 @@ title: Sobre alertas personalizados
 description: Saiba mais sobre alertas personalizados, incluindo como criar modelos de alertas e quando os alertas são acionados.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U
+TQID: 'https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # Sobre alertas personalizados
 
 Você pode criar modelos de alerta para identificar quando qualquer portfólio, conta, campanha, grupo de anúncios, palavra-chave, anúncio ou grupo de produtos de compras atende a condições específicas, como uma métrica de desempenho, durante um período especificado e gerar um alerta. Os alertas estão disponíveis para um único anunciante. Os alertas incluem todas as colunas na visualização padrão relevante. Por exemplo, alertas no nível da campanha incluem todas as colunas na exibição padrão [!UICONTROL Campaigns].

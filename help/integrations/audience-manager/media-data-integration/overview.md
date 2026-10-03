@@ -3,28 +3,39 @@ title: Visão geral do envio de dados de exposição de mídia do DSP para o Ado
 description: Saiba como usar pixels de evento do Audience Manager para capturar dados em nível de impressão e de clique de campanhas do Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+TQID: 'https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 # Visão geral do envio de dados de exposição de mídia do DSP para o Adobe Audience Manager
 
 *Somente anunciantes com o Advertising DSP*
@@ -55,15 +66,15 @@ Os pixels do evento de impressão e clique do Audience Manager são baseados em 
 
 ### Pixels de rastreamento de impressão
 
-O Audience Manager rastreia dados de impressão de um anúncio quando você anexa um pixel de rastreamento de evento transparente de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é exibido a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR), que é um domínio herdado do Audience Manager e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados da Audience Manager.
+O Audience Manager rastreia dados de impressão de um anúncio quando você anexa um pixel de rastreamento de evento transparente de 1xl ao anúncio. O pixel do evento é carregado sempre que o anúncio é exibido a um usuário e carregado pelo navegador da Web. O pixel é carregado de um subdomínio específico do cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager e contém parâmetros como pares de valores chave. A chamada de evento coleta dados de impressão e conversão e os envia para os servidores de coleta de dados da Audience Manager.
 
 ### Rastreamento de cliques em pixels
 
-O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel do evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de cliques são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente do [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados da Audience Manager. O servidor então redireciona o usuário para a página inicial desejada. O URL contém parâmetros como pares de valor chave.
+O Audience Manager rastreia cliques de forma semelhante às impressões, exceto que não carrega o pixel do evento transparente sempre que o anúncio é veiculado. Em vez disso, os dados de cliques são rastreados no URL de click-through do anúncio. O anúncio aponta para um subdomínio específico do cliente do [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que é um domínio herdado do Audience Manager, para processamento pelos servidores de coleta de dados da Audience Manager. O servidor então redireciona o usuário para a página inicial desejada. O URL contém parâmetros como pares de valor chave.
 
 >[!NOTE]
 >
->Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR).
+>Se sua organização usar o rastreamento de [!DNL Analytics], talvez você não precise do rastreamento de cliques do Audience Manager. O Adobe Analytics captura sinais de cliques e pode enviá-los para o Audience Manager por meio do [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >

@@ -2,13 +2,17 @@
 title: (Nova interface do usuário) Exibir logs do histórico de alterações
 description: Saiba como visualizar alterações recentes na conta do anunciante.
 feature: Search Reports
-source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Exibir logs do histórico de alterações
 
 O relatório [!UICONTROL History Logs] inclui um log de alterações feitas na conta do anunciante nos últimos 31 dias. O relatório pode incluir alterações nos seguintes tipos de objetos: usuários (anunciantes), portfólios, campanhas, grupos de anúncios, anúncios, palavras-chave, inserções e públicos-alvo de produtos. Você pode classificar e filtrar os dados por qualquer coluna.

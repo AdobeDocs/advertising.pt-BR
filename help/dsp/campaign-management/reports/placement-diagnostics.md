@@ -3,22 +3,26 @@ title: Exibir o relatório de posicionamento [!UICONTROL Diagnostics]
 description: Saiba como diagnosticar problemas com a configuração e o ritmo da inserção.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Exibir o relatório de posicionamento [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ Relatórios de diagnóstico podem ajudar a diagnosticar problemas com a configur
 
    * Para exibir o log de alterações:
 
-      1. Clique em **[!UICONTROL Change Log]**.
+     1. Clique em **[!UICONTROL Change Log]**.
 
-      1. (Opcional) Filtre os resultados do relatório:
+     1. (Opcional) Filtre os resultados do relatório:
 
-         * No menu de data, altere o período padrão do relatório Últimos 14 Dias para outro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
+        * No menu de data, altere o período padrão do relatório Últimos 14 Dias para outro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* ou *[!UICONTROL Last 1 year]*).
 
-         * No menu esquerdo, filtre o relatório por um nome de usuário específico.
+        * No menu esquerdo, filtre o relatório por um nome de usuário específico.
 
-         * No menu direito, filtre o relatório por uma configuração de disposição específica.
+        * No menu direito, filtre o relatório por uma configuração de disposição específica.
 
    * Para exibir o status das aprovações de anúncios:
 
-      1. No canto superior direito, clique em **[!UICONTROL Ad Approvals]**.
+     1. No canto superior direito, clique em **[!UICONTROL Ad Approvals]**.
 
-      1. (Opcional) Para pausar ou ativar o anúncio, clique na opção de status (![Opção de status](/help/dsp/assets/status-switch.png)) na coluna Anúncio).
+     1. (Opcional) Para pausar ou ativar o anúncio, clique na opção de status (![Opção de status](/help/dsp/assets/status-switch.png)) na coluna Anúncio).
 
-      1. (Opcional) Para abrir as configurações de um anúncio, clique em **[!UICONTROL View Ad]** ao lado do anúncio.
+     1. (Opcional) Para abrir as configurações de um anúncio, clique em **[!UICONTROL View Ad]** ao lado do anúncio.
 
    * Para ver por que a DSP não ofereceu a inserção:
 
-      1. No canto superior direito, clique em **[!UICONTROL Non Bids]**.
+     1. No canto superior direito, clique em **[!UICONTROL Non Bids]**.
 
-      1. (Opcional) Para filtrar o posicionamento por um target de negociação privada específico, selecione a negociação. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. (Opcional) Para filtrar o posicionamento por um target de negociação privada específico, selecione a negociação. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. (Opcional) Para alterar o intervalo de datas, clique no campo de data e selecione uma data ou intervalo de datas diferente.
+     1. (Opcional) Para alterar o intervalo de datas, clique no campo de data e selecione uma data ou intervalo de datas diferente.
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

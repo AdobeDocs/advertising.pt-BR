@@ -1,24 +1,30 @@
 ---
 title: Configurações de campanha de [!DNL Google Ads]
-description: Referencie as configurações de  [!DNL Google Ads] campanhas.
+description: Referencie as configurações de [!DNL Google Ads] campanhas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # Configurações de campanha de [!DNL Google Ads]
 
 ## \[Tela de criação da campanha\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **Notas:**
 
-   * Somente as configurações necessárias estão disponíveis. Para configurações opcionais, faça logon no editor [!DNL Google Ads].
+  * Somente as configurações necessárias estão disponíveis. Para configurações opcionais, faça logon no editor [!DNL Google Ads].
 
-   * Os links para feeds de produto do [!DNL Google Merchant Center] não são suportados.
+  * Os links para feeds de produto do [!DNL Google Merchant Center] não são suportados.
 
-   * Não há suporte disponível para a listagem de grupos. Para gerenciar e exibir dados de grupos de listagem, faça logon no editor do [!DNL Google Ads].
+  * Não há suporte disponível para a listagem de grupos. Para gerenciar e exibir dados de grupos de listagem, faça logon no editor do [!DNL Google Ads].
 
-   * A otimização híbrida é compatível. As metas da estratégia de oferta e os orçamentos da campanha são definidos no nível da campanha.
+  * A otimização híbrida é compatível. As metas da estratégia de oferta e os orçamentos da campanha são definidos no nível da campanha.
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ Para campanhas de pesquisa, as seguintes configurações adicionais também são
 
 * *[!UICONTROL Manual CPC]* (o padrão): (Não disponível para campanhas de desempenho máximo) Usa o modelo de custo por clique (CPC). Opcionalmente, é possível permitir que a rede de publicidade altere os lances da campanha:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (desabilitado por padrão): é o mesmo que usar a opção &quot;[!UICONTROL Enhanced CPC]&quot;, que está obsoleta. O [!DNL Google Ads] começou a alterar automaticamente as [estratégias de oferta de CPC aprimoradas](https://support.google.com/google-ads/answer/2464964) existentes para CPC manual em 15 de março de 2025.
+  * **[!UICONTROL Enable Enhanced CPC]** (desabilitado por padrão): é o mesmo que usar a opção &quot;[!UICONTROL Enhanced CPC]&quot;, que está obsoleta. O [!DNL Google Ads] começou a alterar automaticamente as [estratégias de oferta de CPC aprimoradas](https://support.google.com/google-ads/answer/2464964) existentes para CPC manual em 15 de março de 2025.
 
 * *[!UICONTROL Maximize Clicks]:* (Campanhas de pesquisa, exibição e compras) A rede de publicidade — não as campanhas Search, Social e Commerce — otimiza ofertas para maximizar cliques. Opcionalmente, insira um **[!UICONTROL Max CPC]** (custo por clique) para garantir que a rede de publicidade não pague mais do que um valor específico para cada clique. **Cuidado:** quando você adiciona uma campanha com esta estratégia a um portfólio, as ofertas são orientadas pelo peso dos cliques, não pelo objetivo do portfólio.
 
@@ -162,19 +168,19 @@ os produtos da campanha são vendidos. Como os produtos são associados aos paí
 
 * Para selecionar ou excluir locais específicos:
 
-   * (Países, estados, regiões metropolitanas ou cidades) Clique em **[!UICONTROL Location Target]** (![Destino do local](/help/search-social-commerce/assets/location-target.png "Destino do local")) e localize os locais a serem incluídos e excluídos:
+  * (Países, estados, regiões metropolitanas ou cidades) Clique em **[!UICONTROL Location Target]** (![Destino do local](/help/search-social-commerce/assets/location-target.png "Destino do local")) e localize os locais a serem incluídos e excluídos:
 
-      * Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) seja exibida.
+    * Para incluir um local e seus locais secundários, clique no círculo adjacente uma vez para que uma marca de seleção azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) seja exibida.
 
-      * Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) seja exibida.
+    * Para excluir um local, clique no círculo adjacente duas vezes para que uma marca de seleção vermelha (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) seja exibida.
 
-      * Para expandir um local em seus subcomponentes (como estados, regiões metropolitanas ou cidades nos EUA), clique no nome do local.
+    * Para expandir um local em seus subcomponentes (como estados, regiões metropolitanas ou cidades nos EUA), clique no nome do local.
 
-      * Para pesquisar um local, insira ou cole pelo menos os três primeiros caracteres do local no campo de entrada. Nos resultados da pesquisa, clique em **[!UICONTROL Include]** ao lado de um local a ser incluído ou em **[!UICONTROL Exclude]** ao lado de um local a ser excluído.
+    * Para pesquisar um local, insira ou cole pelo menos os três primeiros caracteres do local no campo de entrada. Nos resultados da pesquisa, clique em **[!UICONTROL Include]** ao lado de um local a ser incluído ou em **[!UICONTROL Exclude]** ao lado de um local a ser excluído.
 
-   * (Locais próximos a um endereço; somente destinos incluídos) Clique em **[!UICONTROL Radius Target]** (![Destino do Raio](/help/search-social-commerce/assets/radius-target.png "Destino do Raio")) e em **[!UICONTROL Address]**. Digite o endereço e o raio em milhas ou quilômetros ao redor do endereço a ser direcionado e clique em **[!UICONTROL Add]**.
+  * (Locais próximos a um endereço; somente destinos incluídos) Clique em **[!UICONTROL Radius Target]** (![Destino do Raio](/help/search-social-commerce/assets/radius-target.png "Destino do Raio")) e em **[!UICONTROL Address]**. Digite o endereço e o raio em milhas ou quilômetros ao redor do endereço a ser direcionado e clique em **[!UICONTROL Add]**.
 
-   * (Locais próximos a coordenadas geográficas; somente destinos incluídos) Clique em **[!UICONTROL Radius Target]** (![Destino do raio](/help/search-social-commerce/assets/radius-target.png "Destino do raio")) e em **[!UICONTROL Coordinate]**. Insira a latitude, a longitude e o raio em milhas ou quilômetros ao redor do local de destino e clique em **[!UICONTROL Add]**.
+  * (Locais próximos a coordenadas geográficas; somente destinos incluídos) Clique em **[!UICONTROL Radius Target]** (![Destino do raio](/help/search-social-commerce/assets/radius-target.png "Destino do raio")) e em **[!UICONTROL Coordinate]**. Insira a latitude, a longitude e o raio em milhas ou quilômetros ao redor do local de destino e clique em **[!UICONTROL Add]**.
 
 * (Para adicionar um ajuste de oferta para um local de destino incluído) Informe um valor de ajuste de oferta:
 
@@ -186,9 +192,9 @@ os produtos da campanha são vendidos. Como os produtos são associados aos paí
 
 * O Search, Social e Commerce não fornece ajustes de oferta ajustados automaticamente para os seguintes destinos de localização devido a limitações nos dados que o [!DNL Google Ads] fornece para mapear locais de surfer para destinos de localização:
 
-   * Alvos de raio.
+  * Alvos de raio.
 
-   * Alguns locais abaixo do nível de estado/província/região/município/prefeitura para os quais [!DNL Google Ads] não envia um local principal na URL do surfista, incluindo aeroportos e distritos do Congresso dos EUA.
+  * Alguns locais abaixo do nível de estado/província/região/município/prefeitura para os quais [!DNL Google Ads] não envia um local principal na URL do surfista, incluindo aeroportos e distritos do Congresso dos EUA.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,21 +303,21 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 * Para carregar imagens:
 
-   1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+  1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. Para cada imagem:
+  1. Para cada imagem:
 
-      1. Selecione a taxa de proporção.
+     1. Selecione a taxa de proporção.
 
-      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+     1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+     1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-         Um ativo é criado para cada taxa de proporção selecionada.
+        Um ativo é criado para cada taxa de proporção selecionada.
 
-      1. Clique em **[!UICONTROL Proceed]**.
+     1. Clique em **[!UICONTROL Proceed]**.
 
-   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+  1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
 
 * Para selecionar imagens de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
@@ -319,21 +325,21 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 * Para carregar imagens:
 
-   1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+  1. Na guia [!UICONTROL Upload from Device], clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-   1. Para cada imagem:
+  1. Para cada imagem:
 
-      1. Selecione a taxa de proporção.
+     1. Selecione a taxa de proporção.
 
-      1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+     1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-      1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+     1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-         Um ativo é criado para cada taxa de proporção selecionada.
+        Um ativo é criado para cada taxa de proporção selecionada.
 
-      1. Clique em **[!UICONTROL Proceed]**.
+     1. Clique em **[!UICONTROL Proceed]**.
 
-   1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
+  1. Quando terminar de especificar imagens, clique em **[!UICONTROL Upload]**.
 
 * Para selecionar imagens de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione as imagens.
 
@@ -341,9 +347,9 @@ por país. Se você não selecionar nenhum, todos serão direcionados.
 
 * Para inserir URLs:
 
-   1. Na guia [!UICONTROL Enter Video Url], insira uma URL.
+  1. Na guia [!UICONTROL Enter Video Url], insira uma URL.
 
-   1. (Opcional) Para adicionar outra URL, clique em **[!UICONTROL + Add]** e insira a URL.
+  1. (Opcional) Para adicionar outra URL, clique em **[!UICONTROL + Add]** e insira a URL.
 
 * Para selecionar vídeos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os vídeos.
 
@@ -353,9 +359,9 @@ Você pode inserir texto ou selecionar ativos de [!UICONTROL Asset Library], mas
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
@@ -363,9 +369,9 @@ Você pode inserir texto ou selecionar ativos de [!UICONTROL Asset Library], mas
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 
@@ -373,9 +379,9 @@ Você pode inserir texto ou selecionar ativos de [!UICONTROL Asset Library], mas
 
 * Para inserir texto:
 
-   1. Na guia [!UICONTROL Enter Text], insira o texto.
+  1. Na guia [!UICONTROL Enter Text], insira o texto.
 
-   1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
+  1. (Opcional) Para adicionar outra cadeia de texto, clique em **[!UICONTROL + Add]** e insira a cadeia de caracteres.
 
 * Para selecionar ativos de [!UICONTROL Asset Library], clique em **[!UICONTROL Asset Library]** e selecione os ativos.
 

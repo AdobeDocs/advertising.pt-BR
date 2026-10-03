@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Shopping Performance Report].
 exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk
+TQID: 'https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Shopping Performance Report]
 
 *[!DNL Google Ads]somente contas*
@@ -28,7 +34,7 @@ Você pode exibir dados dos dois meses anteriores. Os dados anteriores a 21 de s
 >[!NOTE]
 >
 >* Se o produto incluir a coluna [!UICONTROL Product Category] e um produto aparecer em várias categorias, o produto aparecerá em várias linhas e a contagem de conversão será duplicada em cada uma das linhas aplicáveis. Como os totais de dados de conversão não são precisos, classifique os dados por categoria somente para obter uma compreensão geral de como as conversões estão em tendência por categoria.
->* Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23:00 em 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho em 23:00.
+>* Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) diariamente. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho às 23:00.
 
 ## Colunas padrão
 

@@ -3,28 +3,37 @@ title: Política de requisitos de anúncios do Adobe Advertising
 description: Consulte a política de requisitos para anúncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Política de requisitos de anúncios do Adobe Advertising
 
 *Última atualização da política: 17 de julho de 2024<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ Você deve garantir que seus Anúncios e o(s) site(s) para o(s) qual(is) um Anú
 
 * **Cigarro**. Anúncios não podem oferecer ou promover a venda ou o uso de produtos do cigarro ou parafernália, incluindo cigarros eletrônicos.
 
-* **Profanação e linguagem vulgar ou obscena.** Anúncios não podem conter linguagem vulgar, obscena ou de baixo calão. Anúncios também podem não incluir linguagem com a intenção de realizar o mesmo efeito, mas que obscurece a profanação.
+* **Profanação e linguagem vulgar ou obscena.** Os anúncios não podem conter palavras de baixo calão ou linguagem vulgar ou obscena. Anúncios também podem não incluir linguagem com a intenção de realizar o mesmo efeito, mas que obscurece a profanação.
 
 * **Anúncios odiosos**. A publicidade não pode promover ou relacionar-se com discurso de ódio ou intolerância religiosa e não pode depreciar um indivíduo ou grupo com base em sua raça ou origem étnica, religião, deficiência, condição médica ou genética, idade, nacionalidade ou origem nacional, status de veterano, status de refugiado, status de imigração, orientação sexual, gênero, identidade de gênero ou outra característica que esteja associada a discriminação sistêmica ou marginalização.
 
@@ -125,22 +134,22 @@ Os Serviços não podem ser usados para direcionar anúncios para usuários ou e
 
 
 
-   * Crenças ou afiliações religiosas ou similares
-   * Raça, cor ou origem étnica
-   * História sexual, interesses ou orientação
-   * Identificação transgênero
-   * Informação genética ou biométrica
-   * Status financeiro negativo (como pontuação de crédito) ou registro criminal, histórico ou condenações
-   * Registros médicos ou de saúde, incluindo registros de prescrição
-   * Relacionamentos ou status de relacionamento relacionados a dificuldades pessoais (como divórcio, luto)
-   * Abuso e trauma, incluindo status de vítima de crime, abuso ou evento traumático
-   * Pertencer a um grupo marginalizado ou vulnerável, nomeadamente com base na casta social, na imigração ou no estatuto de refugiado
+  * Crenças ou afiliações religiosas ou similares
+  * Raça, cor ou origem étnica
+  * História sexual, interesses ou orientação
+  * Identificação transgênero
+  * Informação genética ou biométrica
+  * Status financeiro negativo (como pontuação de crédito) ou registro criminal, histórico ou condenações
+  * Registros médicos ou de saúde, incluindo registros de prescrição
+  * Relacionamentos ou status de relacionamento relacionados a dificuldades pessoais (como divórcio, luto)
+  * Abuso e trauma, incluindo status de vítima de crime, abuso ou evento traumático
+  * Pertencer a um grupo marginalizado ou vulnerável, nomeadamente com base na casta social, na imigração ou no estatuto de refugiado
 
 * **União Europeia**. Além disso, na União Europeia, os anúncios não podem ser direcionados ou direcionados a um público-alvo com base nos seguintes fatores, sejam eles conhecidos ou inferidos sobre o usuário:
 
-   * Afiliação política
-   * Associação sindical
-   * Quaisquer outras categorias especiais de dados pessoais
+  * Afiliação política
+  * Associação sindical
+  * Quaisquer outras categorias especiais de dados pessoais
 
 * **Direcionamento Relacionado À Integridade**. Você não pode usar os Serviços para coletar dados sensíveis relacionados à saúde ou para deduzir sobre a saúde sensível dos usuários ou tratamentos médicos. Em particular, você não pode usar os Serviços para direcionar anúncios para qualquer um dos seguintes: qualquer forma de câncer, doenças relacionadas à saúde mental ou doenças sexualmente transmissíveis. A publicidade pode ser direcionada para condições de saúde não sensíveis, incluindo acne, alergias, odontologia, visão, azia, frio e gripe, seio, cefaleia, dor nas costas, primeiros socorros, dor de garganta, administração de açúcar no sangue, dieta e fitness, remoção de cabelo e vitaminas e suplementos.
 

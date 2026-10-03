@@ -3,18 +3,24 @@ title: Gerencie suas bibliotecas criativas
 description: Saiba como criar, renomear e excluir suas bibliotecas criativas.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # Gerencie suas bibliotecas criativas
 
 É possível criar várias bibliotecas criativas para cada anunciante. Posteriormente, você poderá preencher cada biblioteca com [criações padrão](creative-add-standard.md), [criações dinâmicas](creative-add-dynamic.md) e [pacotes criativos](bundle-manage.md).
@@ -65,9 +71,9 @@ Você pode excluir bibliotecas com criações e pacotes que não estão atribuí
 
    * Para excluir uma única biblioteca:
 
-      * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da biblioteca e em **[!UICONTROL Delete]**.
+     * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da biblioteca e em **[!UICONTROL Delete]**.
 
-      * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
+     * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
 
    * Para excluir uma ou mais bibliotecas, marque a caixa de seleção para cada biblioteca que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete]**.
 

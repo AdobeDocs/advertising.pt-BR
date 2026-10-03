@@ -3,20 +3,24 @@ title: Gerenciar arquivos de feed de dados de inventário
 description: Saiba como definir as configurações que controlam como os dados de feed são processados.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # Gerenciar arquivos de feed de dados de inventário
 
 *[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * Para obter um processo repetível com revisão ou edição manual limitada, configure arquivos de feed e seus dados de estrutura de conta da seguinte maneira:
 
-   * Inclua colunas e linhas que contenham dados suficientes para criar uma estrutura de conta ou mapear para a estrutura de conta existente. Idealmente, use uma estrutura de conta existente que esteja intimamente ligada à taxonomia do produto e para a qual os dados do feed sejam facilmente mapeados.
+  * Inclua colunas e linhas que contenham dados suficientes para criar uma estrutura de conta ou mapear para a estrutura de conta existente. Idealmente, use uma estrutura de conta existente que esteja intimamente ligada à taxonomia do produto e para a qual os dados do feed sejam facilmente mapeados.
 
-   * Inclua descrições curtas o suficiente para usar em uma cópia de anúncio.
+  * Inclua descrições curtas o suficiente para usar em uma cópia de anúncio.
 
-   * Use padrões de dados e convenções de nomenclatura consistentes em todas as linhas de produto.
+  * Use padrões de dados e convenções de nomenclatura consistentes em todas as linhas de produto.
 
-   * Remova todos os espaços anteriores e os espaços à direita.
+  * Remova todos os espaços anteriores e os espaços à direita.
 
-   * Remova todos os caracteres ilegíveis.
+  * Remova todos os caracteres ilegíveis.
 
 ## Exibir ou baixar um arquivo de feed
 

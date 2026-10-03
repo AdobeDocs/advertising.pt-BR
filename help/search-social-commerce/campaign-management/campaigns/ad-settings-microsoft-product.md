@@ -1,20 +1,23 @@
 ---
 title: Configurações de anúncio de produto de [!DNL Microsoft Advertising]
-description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios de produto.
+description: Referencie as configurações de [!DNL Microsoft Advertising] anúncios de produto.
 exl-id: 93601b75-1de8-4f97-8f5e-5ab442510827
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/nttz5RMclI5IsJ8UUkjXi8cpqVYXeY1OolvF7wSpePo
+TQID: 'https://experienceleague.adobe.com/nttz5RMclI5IsJ8UUkjXi8cpqVYXeY1OolvF7wSpePo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Configurações de anúncio de produto de [!DNL Microsoft Advertising]
 
 O corpo do anúncio é criado automaticamente a partir das informações do produto em [!DNL Microsoft Merchant Center], com base nos grupos de produtos direcionados para o grupo de anúncios. Opcionalmente, é possível criar linhas de promoção para incluir em anúncios de produtos em campanhas que usam a rede de compras.

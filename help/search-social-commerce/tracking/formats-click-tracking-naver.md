@@ -1,20 +1,23 @@
 ---
-title: Formatos de rastreamento de cliques para  [!DNL Naver]
-description: Saiba mais sobre os formatos de rastreamento de cliques para contas do  [!DNL Naver] .
+title: Formatos de rastreamento de cliques para [!DNL Naver]
+description: Saiba mais sobre os formatos de rastreamento de cliques para contas do [!DNL Naver].
 exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/c1zAy1aKgr4MRpyiitdmO4VxP7kfKfFWHzYk88lvX2w
+TQID: 'https://experienceleague.adobe.com/c1zAy1aKgr4MRpyiitdmO4VxP7kfKfFWHzYk88lvX2w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 90
+source-wordcount: '104'
 ht-degree: 0%
-
 ---
-
 # Formatos de rastreamento de cliques para anúncios patrocinados em [!DNL Naver]
 
 O formato de URL de destino básico a seguir se aplica a anúncios patrocinados:
@@ -31,9 +34,9 @@ Exemplo:
 >
 >* Esse formato indica que a transmissão de token está habilitada para a campanha (o padrão). Se a passagem do token estiver desabilitada, substitua `cq?` após `<advertiser_ID>` por `c?`.
 >
->* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
+* `<the landing page>` é uma variável que representa a URL do site para a qual os usuários finais são direcionados.
 
 >[!MORELIKETHIS]
 >
 >* [Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID AMO](https://experienceleague.adobe.com/pt-br/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formatos de ID AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

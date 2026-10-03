@@ -3,22 +3,26 @@ title: Editar agendamentos de anúncios para posicionamentos
 description: Saiba como alterar os agendamentos de anúncios para os anúncios anexados a inserções.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # Editar agendamentos de anúncios para posicionamentos
 
 ## Editar os agendamentos de anúncios para um ou mais posicionamentos
@@ -45,9 +49,9 @@ Você pode alterar as datas de veiculação programadas e a rotação de anúnci
 
    * **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): como girar os anúncios para um voo. Insira um valor:
 
-      * Para girar os anúncios de um voo uniformemente, digite `[!UICONTROL Even]`.
+     * Para girar os anúncios de um voo uniformemente, digite `[!UICONTROL Even]`.
 
-      * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem (como `40` para 40%). O peso total do voo deve ser igual a 100.
+     * Para girar os anúncios de um voo de forma desigual, insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem (como `40` para 40%). O peso total do voo deve ser igual a 100.
 
 1. Faça upload do modelo de programação de anúncios editado:
 
@@ -77,9 +81,9 @@ Você pode alterar as datas de veiculação programadas e a rotação de anúnci
 
    * Para remover um voo existente de um anúncio, clique em **[!UICONTROL x]** na linha de anúncio da coluna de voo.
 
-      * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
+     * (Quando vários anúncios tiverem o mesmo andamento) Para girar os anúncios de forma desigual, clique em **[!UICONTROL Even Rotation]** nas informações do andamento e insira o peso relativo pelo qual girar cada anúncio, como uma porcentagem.
 
-        Os pesos totais devem ser iguais a 100.
+       Os pesos totais devem ser iguais a 100.
 
 1. No canto superior direito, clique em **[!UICONTROL Continue]**.
 

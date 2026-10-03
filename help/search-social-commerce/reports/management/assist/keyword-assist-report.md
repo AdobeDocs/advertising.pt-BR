@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Assist Report].
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '784'
 ht-degree: 0%
-
 ---
-
 # O [!UICONTROL Keyword Assist Report]
 
 *Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão da Adobe Advertising, Adobe Analytics (com uma integração [!DNL Analytics]) ou fornecidos em feeds usando apenas um token (`ef_id`)*
@@ -40,14 +46,14 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 
 | Coluna | Padrão? | Descrição |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword] a [!UICONTROL 5th Keyword] | Padrão | Os cinco primeiros cliques de posicionamento ou palavra-chave de pesquisa paga no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante.<br><br><b>Observação:</b> se o relatório incluir disposições de campanhas de pesquisa habilitadas para conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupos de anúncios aplicáveis, como &quot;Seu Nome de Grupo de Anúncios&quot;. |
+| [!UICONTROL 1st Keyword] a [!UICONTROL 5th Keyword] | Padrão | As cinco primeiras palavras-chave de pesquisa paga ou cliques de posicionamento no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante.<br><br><b>Observação:</b> se o relatório incluir posicionamentos de campanhas de pesquisa habilitadas para conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupos de anúncios aplicáveis, como &quot;(conteúdo de grupo de anúncios) Seu Nome de Grupo de Anúncios&quot;. |
 | [!UICONTROL Path Size] | Padrão | O número de palavras-chave e/ou posicionamentos no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante. |
 | [!UICONTROL First Keyword] | Padrão | A primeira palavra-chave ou posicionamento no caminho de conversão. |
 | [!UICONTROL Last Keyword] | Padrão | A última palavra-chave ou posicionamento que resultou em conversões (mesmo se a última palavra-chave estiver fora do tamanho de caminho especificado). |
 | \[Métricas personalizadas (derivadas) específicas do anunciante\] | Personalizado | O valor de uma métrica personalizada que você criou, calculado a partir das métricas existentes. |
 | \[Métricas de conversão específicas do anunciante\] | Personalizado | O número de conversões de uma métrica de conversão ou métrica de envolvimento do site especificada. |
 | [!UICONTROL % of Total] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A porcentagem de suas conversões gerais em portfólios que foram atribuídas à palavra-chave e/ou ao padrão de posicionamento. |
-| [!UICONTROL 6th Keyword] a [!UICONTROL 10th Keyword] | Personalizado | A sexta a décima palavra-chave de pesquisa paga ou os cliques de posicionamento no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante.<br><br><b>Observação:</b> se o relatório incluir disposições de campanhas de pesquisa habilitadas para conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupos de anúncios aplicáveis, como &quot;Seu Nome de Grupo de Anúncios&quot;. |
+| [!UICONTROL 6th Keyword] a [!UICONTROL 10th Keyword] | Personalizado | A sexta a décima palavra-chave de pesquisa paga ou cliques de posicionamento no caminho de conversão que ocorreram na [janela de pesquisa de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de pesquisa de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante.<br><br><b>Observação:</b> se o relatório incluir posicionamentos de campanhas de pesquisa habilitadas para conteúdo (que não incluem palavras-chave), essas colunas mostrarão os nomes de grupos de anúncios aplicáveis, como &quot;(conteúdo de grupo de anúncios) O Nome do Grupo de Anúncios&quot;. |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório para cada métrica de conversão incluída) A latência média em dias desde o primeiro evento (na primeira palavra-chave ou disposição) até uma conversão. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[métrica de conversão\] | Automático | (Não disponível nas configurações do relatório, mas incluído automaticamente na saída do relatório) A latência média em dias desde o último evento (na última palavra-chave ou disposição) até uma conversão. |
 | [!UICONTROL Path Frequency] | Personalizado | O número de vezes que o caminho desta linha ocorreu antes da conversão. |

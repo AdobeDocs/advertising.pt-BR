@@ -1,27 +1,35 @@
 ---
-title: Anexar [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] marcas de anúncio
-description: Saiba por que e como adicionar  [!DNL Analytics for Advertising] macros às suas [!DNL Flashtalking] marcas de anúncio
+title: Acrescentar [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] marcas de anúncio
+description: Saiba por que e como adicionar macros do [!DNL Analytics for Advertising] às suas tags de anúncio do [!DNL Flashtalking]
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-TQID: https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y
+TQID: 'https://experienceleague.adobe.com/fgmEHPEGMS9vA6P3QDeZMT7MBBTRDtnQcz-qMbMDw3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # Acrescentar [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] marcas de anúncio
 
 *Anunciantes com apenas uma integração Adobe Advertising-Adobe Analytics*
@@ -58,9 +66,9 @@ Se for a primeira ou única sequência de consulta após a URL base, separe-a da
 
 Exemplos:
 
-`https://www.adobe.com/br/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/br/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Tags de anúncio de vídeo
 
@@ -74,9 +82,9 @@ Se for a primeira ou única sequência de consulta após a URL base, separe-a da
 
 Exemplos:
 
-`https://www.adobe.com/br/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/br/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

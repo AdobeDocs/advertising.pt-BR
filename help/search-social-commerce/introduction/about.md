@@ -3,26 +3,34 @@ title: Sobre o Adobe Advertising Search, Social e Commerce
 description: Saiba mais sobre Pesquisa, Social e Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+TQID: 'https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # Sobre o Adobe Advertising Search, Social e Commerce
 
 O [!DNL Adobe] é o líder de mercado e de tecnologia em soluções de experiência do cliente. O Adobe Advertising simplifica a entrega de campanhas de publicidade entre canais para o gerenciamento de campanhas de marca e desempenho em qualquer tela, em qualquer formato. O Adobe Advertising consiste em três subsoluções: Advertising Search, Social, &amp; Commerce para canais máximos de pesquisa, compras, social, rede de público-alvo e desempenho; Advertising DSP (Demand Side Platform) para canais de exibição; e Advertising Creative para criar experiências de usuário final para seus anúncios de exibição.
@@ -49,31 +57,31 @@ O Search, Social e Commerce oferece gerenciamento de campanha, otimização, ras
 
 * **Rastreamento de campanha**: configure o acesso a outras campanhas de publicidade para as quais você deseja rastrear e relatar apenas. Isso pode incluir o upload de dados e métricas da campanha.
 
-* **Reporting:** Monitor and analyze the performance of your portfolios and any other campaigns that you&#39;re tracking via performance data views and detailed, customizable reports. You can include conversion metrics from Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], and your other first-party enterprise feeds in data views and reports.
+* **Relatórios:** monitore e analise o desempenho dos seus portfólios e de quaisquer outras campanhas que você esteja rastreando através de visualizações de dados de desempenho e relatórios detalhados e personalizáveis. Você pode incluir métricas de conversão do Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] e seus outros feeds corporativos primários em visualizações de dados e relatórios.
 
-   * Configure the various performance data views for optimal visibility into the performance data that matters to you.
+  * Configure as várias visualizações de dados de desempenho para obter uma visibilidade ideal dos dados de desempenho que são importantes para você.
 
-   * Automate report production using report templates and spreadsheet feeds.
+  * Automatize a produção de relatórios usando modelos de relatório e feeds de planilha.
 
-   * For portfolios, prescriptive insights also provide visual, actionable data that you can use to improve performance.
+  * Para portfólios, os insights prescritivos também fornecem dados visuais e acionáveis que você pode usar para melhorar o desempenho.
 
-See &quot;[Supported Inventory](/help/search-social-commerce/introduction/supported-inventory.md)&quot; for more information about support for different ad networks and ad types.
+Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre suporte para diferentes redes de anúncios e tipos de anúncios.
 
 ## Integração com soluções e serviços da Adobe CX Enterprise
 
-Native integrations with Adobe Analytics and Adobe Audience Manager let you connect your data and audience segments for ad targeting, [!DNL Google Ads] audience creation, optimization, and reporting/analytics.
+As integrações nativas com o Adobe Analytics e o Adobe Audience Manager permitem conectar seus segmentos de dados e público-alvo para direcionamento de anúncios, criação de público-alvo do [!DNL Google Ads], otimização e relatórios/análises.
 
-For more information about integrations with these and other Adobe products, see &quot;[Integration with Adobe CX Enterprise solutions and services](/help/search-social-commerce/introduction/integrations.md).&quot;
+Para obter mais informações sobre integrações com esses e outros produtos da Adobe, consulte &quot;[Integração com soluções e serviços da Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md).&quot;
 
-## Conversion tracking
+## Rastreamento de conversão
 
-Adobe Advertising optionally provides a proprietary, pixel-based conversion tracking service to track online conversions for ads that link to your websites. When you use the pixel tracking service, Adobe Advertising tracks the clicks on your ads and the resulting transactions/conversions on your websites, precisely mapping each sequence of clicks and impressions to conversions. You can use the tracked conversions for bid and budget optimization.
+Como opção, a Adobe Advertising fornece um serviço de rastreamento de conversão proprietário baseado em pixel para rastrear conversões online de anúncios que vinculam aos seus sites. Quando você usa o serviço de rastreamento de pixels, o Adobe Advertising rastreia os cliques em seus anúncios e as transações/conversões resultantes em seus sites, mapeando com precisão cada sequência de cliques e impressões para conversões. Você pode usar as conversões rastreadas para otimização de oferta e orçamento.
 
-The service allows you to optimize to different data attribution rules for the events that lead to a conversion (such as attributing conversions to the last related event or weighting the last event more). It also provides access to advanced reports that can be used to improve conversion rates, visibility into click assists, and analysis of day-of-the-week and intraday trends.
+O serviço permite otimizar para diferentes regras de atribuição de dados para os eventos que levam a uma conversão (como atribuir conversões ao último evento relacionado ou pesar mais o último evento). Ele também fornece acesso a relatórios avançados que podem ser usados para melhorar as taxas de conversão, a visibilidade das assistências a cliques e a análise de tendências diárias e intradiárias.
 
-For more information about tracking, see the chapter on &quot;Tracking.&quot;
+Para obter mais informações sobre rastreamento, consulte o capítulo em &quot;Rastreamento&quot;.
 
 >[!MORELIKETHIS]
 >
->* [Supported inventory](supported-inventory.md)
+>* [Estoque com suporte](supported-inventory.md)
 >* [Integração com soluções e serviços da Adobe CX Enterprise](integrations.md)

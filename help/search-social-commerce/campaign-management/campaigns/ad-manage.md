@@ -3,20 +3,24 @@ title: Gerenciar anúncios
 description: Saiba como criar e gerenciar anúncios.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+TQID: 'https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 0%
-
 ---
-
 # Gerenciar anúncios
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
@@ -71,11 +75,11 @@ Você pode criar, editar e alterar o status de anúncios da exibição [!UICONTR
 
    * (Para editar as configurações de um ou mais anúncios) Faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada linha.
+     1. Marque a caixa de seleção ao lado de cada linha.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+     1. Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
 1. Edite o [[!DNL Baidu] anúncio de texto](ad-settings-baidu-text.md), [[!DNL Google Ads] anúncio somente chamada](ad-settings-google-call.md), [[!DNL Google Ads] anúncio de pesquisa dinâmica expandido](ad-settings-google-dsa.md) (agora chamado apenas de &quot;anúncio de pesquisa dinâmica&quot; no Google Ads), [[!DNL Google Ads] anúncio de pesquisa responsivo](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] anúncio de pesquisa dinâmica expandido](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] anúncio multimídia](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] anúncio de produto](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] anúncio (público-alvo) responsivo](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] anúncio de pesquisa responsivo](ad-settings-microsoft-rsa.md) ou [[!DNL Yandex] texto configurações de ad](ad-settings-yandex-text.md).
 

@@ -2,20 +2,25 @@
 title: Gerenciar as métricas de conversão de um anunciante
 description: Saiba como você pode usar as métricas de conversão que o Adobe Advertising rastreia para um anunciante.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Gerenciar as métricas de conversão de um anunciante
 
 *recurso do Beta*
@@ -96,13 +101,13 @@ Não é possível excluir um nome para exibição existente.
 
    * Para mostrar ou ocultar várias métricas, faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada métrica de conversão.
+     1. Marque a caixa de seleção ao lado de cada métrica de conversão.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas de ações em massa, clique em ![Visibilidade](/help/search-social-commerce/assets/visible.png "Visibilidade") para mostrar as métricas ou ![Visibilidade desativada](/help/search-social-commerce/assets/visibility-off.png "Visibilidade desativada") para ocultar as métricas.
+     1. Na barra de ferramentas de ações em massa, clique em ![Visibilidade](/help/search-social-commerce/assets/visible.png "Visibilidade") para mostrar as métricas ou ![Visibilidade desativada](/help/search-social-commerce/assets/visibility-off.png "Visibilidade desativada") para ocultar as métricas.
 
-      1. (Para ocultar métricas) Na mensagem de confirmação, clique em **[!UICONTROL Confirm]** para ocultar as métricas, incluindo a remoção delas de qualquer métrica derivada que contenha as métricas.
+     1. (Para ocultar métricas) Na mensagem de confirmação, clique em **[!UICONTROL Confirm]** para ocultar as métricas, incluindo a remoção delas de qualquer métrica derivada que contenha as métricas.
 
 ## Gerenciar visibilidade de conversão e relatórios de origem
 

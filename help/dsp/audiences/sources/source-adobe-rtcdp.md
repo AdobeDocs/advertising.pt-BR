@@ -1,30 +1,36 @@
 ---
-title: Usando a integração do DSP com o  [!DNL Adobe] [!DNL Real-time CDP]
-description: Saiba como habilitar o DSP para assimilar seus  [!DNL Adobe] [!DNL Real-time CDP] segmentos primários.
+title: Usando a integração do DSP com [!DNL Adobe] [!DNL Real-time CDP]
+description: Saiba como habilitar o DSP para assimilar seus segmentos primários do [!DNL Adobe] [!DNL Real-time CDP].
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-TQID: https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk
+TQID: 'https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 0%
-
 ---
-
 # Converter IDs de usuário de [!DNL Adobe Real-Time CDP] em IDs universais
 
-Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR), que faz parte da Adobe Experience Platform, para converter suas IDs de usuário (incluindo endereços de email com hash, cookies e IDs de anúncios móveis) em IDs universais para publicidade direcionada.
+Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), que faz parte da Adobe Experience Platform, para converter suas IDs de usuário (incluindo endereços de email com hash, cookies e IDs de anúncios móveis) em IDs universais para publicidade direcionada.
 
 1. (Para converter IDs de usuário em [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes com [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Configurar rastreamento para medição de [!DNL Analytics]:
 
@@ -42,11 +48,11 @@ Use a integração do DSP com [o [!DNL Adobe Real-Time CDP]](https://experiencel
 
    Os endereços de email devem ser transformados em hash usando o algoritmo SHA -256.
 
-   Para obter instruções sobre como ativar a conexão de destino do DSP, ativar públicos-alvo e validar a exportação de dados, consulte &quot;[conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR).&quot;
+   Para obter instruções sobre como ativar a conexão de destino do DSP, ativar públicos-alvo e validar a exportação de dados, consulte &quot;[conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
    >[!NOTE]
    >
-   >A conexão herdada, que inclui suporte somente para endereços de email com hash, agora é chamada de &quot;[Conexão herdada do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se você já usa a conexão herdada, não é necessário fazer alterações imediatamente. No entanto, a conexão herdada acabará sendo removida.
+   >A conexão herdada, que inclui suporte somente para endereços de email com hash, agora é chamada de &quot;[Conexão herdada do Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se você já usa a conexão herdada, não é necessário fazer alterações imediatamente. No entanto, a conexão herdada acabará sendo removida.
 
 1. Verifique na biblioteca de público-alvo (que está disponível quando você cria ou edita um público-alvo a partir de [!UICONTROL Audiences] > [!UICONTROL All Audiences] ou nas configurações de posicionamento) se o segmento está sendo preenchido e compare o número de IDs universais com o número de IDs de usuários originais.
 
@@ -64,7 +70,7 @@ Para solucionar problemas com o procedimento de conversão, entre em contato com
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

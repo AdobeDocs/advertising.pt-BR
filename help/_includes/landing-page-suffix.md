@@ -1,9 +1,8 @@
 ---
 source-git-commit: a1a8c1b563d419090ddbefacc55be869c1ee7bcf
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '170'
 ht-degree: 0%
-
 ---
 # Campo Sufixo da página inicial nas configurações da conta GL e MS, configurações de campanha e algumas configurações de anúncios
 

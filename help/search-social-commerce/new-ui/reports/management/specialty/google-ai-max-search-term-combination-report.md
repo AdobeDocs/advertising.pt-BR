@@ -25,7 +25,7 @@ O [!UICONTROL Google AI Max Search Term Combination Report] mostra como consulta
 
   Use esta planilha para analisar a intenção e o desempenho dos elementos de anúncio resultantes por consulta, de modo que você possa criar listas de palavras-chave negativas robustas.
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Planilha [!UICONTROL AI Max Search Term #1]: [!DNL Google Ads] dados de conversão rastreados por ação de conversão para cada termo de pesquisa e tipo de correspondência. Cada linha inclui a ação de conversão, o número de conversões e o valor de conversão, bem como quaisquer outras métricas de conversão [!DNL Google Ads] opcionais rastreadas especificadas nas configurações do relatório. Por padrão, os dados incluem uma linha para cada combinação de termo de pesquisa e ação de conversão no intervalo de dados especificado. As linhas estão na mesma ordem que as linhas da primeira planilha.
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Planilha [!UICONTROL AI Max Search Term #1]: [!DNL Google Ads] dados de conversão rastreados por ação de conversão para cada termo de pesquisa e tipo de correspondência. Cada linha inclui a ação de conversão, o número de conversões e o valor de conversão, bem como quaisquer outras métricas de conversão [!DNL Google Ads] opcionais rastreadas especificadas nas configurações do relatório. Por padrão, os dados incluem uma linha para cada combinação de termo de pesquisa e ação de conversão no intervalo de dados especificado. As linhas estão na mesma ordem que as linhas da primeira planilha.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

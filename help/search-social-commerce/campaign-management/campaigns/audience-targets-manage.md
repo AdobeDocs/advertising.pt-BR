@@ -1,20 +1,23 @@
 ---
 title: Gerenciar metas de público-alvo para campanhas e grupos de anúncios
-description: Saiba como configurar e gerenciar metas de público-alvo para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas e grupos de anúncios.
+description: Saiba como configurar e gerenciar públicos-alvo para suas campanhas e grupos de anúncios do [!DNL Google Ads] e do [!DNL Microsoft Advertising].
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Gerencie metas de público para suas campanhas e grupos de anúncios do [!DNL Google Ads] e do [!DNL Microsoft Advertising]
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] somente*
@@ -65,7 +68,7 @@ Você pode configurar direcionamentos de público-alvo, editar os modificadores 
 
    * *0%:* Para não ajustar ofertas para anúncios para este público-alvo.
 
-   * /[*Outros valores de -90% a 900%*/]: para aumentar ou diminuir a oferta de anúncios para este público-alvo. Por exemplo, se o lance no nível da palavra-chave for 1 USD e o ajuste de lance para uma meta de público-alvo específica for 50%, o lance para esse público-alvo aumentará para 1,50 USD.
+   * /[*Outros valores de -90% a 900%*/]: para aumentar ou diminuir a oferta de anúncios para este público-alvo. Por exemplo, se a oferta no nível da palavra-chave for 1 USD e o ajuste de oferta para uma meta de público-alvo específica for de 50%, a oferta para esse público-alvo aumentará para 1,50 USD.
 
 ## Editar o modificador de oferta para públicos alvo
 
@@ -83,27 +86,27 @@ Você pode alterar o modificador de oferta e o status das metas de público-alvo
 
    * Para editar um modificador de lance para um ou mais targets, faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada target a ser editado.
+     1. Marque a caixa de seleção ao lado de cada target a ser editado.
 
-         Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+     1. Na barra de ferramentas acima da tabela, clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-      1. Edite os campos **[!UICONTROL Bid Modifier]** e/ou **[!UICONTROL Status]**.
+     1. Edite os campos **[!UICONTROL Bid Modifier]** e/ou **[!UICONTROL Status]**.
 
-         Para o campo [!UICONTROL Bid Modifier], você tem opções para alterar valores existentes para um valor especificado ou para aumentar ou diminuir o valor por uma porcentagem especificada ou valor monetário, com um limite.
+        Para o campo [!UICONTROL Bid Modifier], você tem opções para alterar valores existentes para um valor especificado ou para aumentar ou diminuir o valor por uma porcentagem especificada ou valor monetário, com um limite.
 
-         Para um valor definido, o valor pode incluir:
+        Para um valor definido, o valor pode incluir:
 
-         * *0%:* Para não ajustar ofertas para anúncios para este público-alvo.
+        * *0%:* Para não ajustar ofertas para anúncios para este público-alvo.
 
-         * /[*Outros valores de -90% a 900%*/]: para aumentar ou diminuir a oferta de anúncios para este público-alvo. Por exemplo, se o lance no nível da palavra-chave for 1 USD e o ajuste de lance para uma meta de público-alvo específica for 50%, o lance para esse público-alvo aumentará para 1,50 USD.
+        * /[*Outros valores de -90% a 900%*/]: para aumentar ou diminuir a oferta de anúncios para este público-alvo. Por exemplo, se a oferta no nível da palavra-chave for 1 USD e o ajuste de oferta para uma meta de público-alvo específica for de 50%, a oferta para esse público-alvo aumentará para 1,50 USD.
 
-         Para vários alvos, as alterações são aplicadas a todos os alvos selecionados.
+        Para vários alvos, as alterações são aplicadas a todos os alvos selecionados.
 
-      1. (Opcional) Clique em **[!UICONTROL Additional Details]** e, opcionalmente, insira um nome e uma descrição para o projeto.
+     1. (Opcional) Clique em **[!UICONTROL Additional Details]** e, opcionalmente, insira um nome e uma descrição para o projeto.
 
-      1. Clique em **[!UICONTROL Post]**.
+     1. Clique em **[!UICONTROL Post]**.
 
 ## Alterar o status dos públicos-alvo
 

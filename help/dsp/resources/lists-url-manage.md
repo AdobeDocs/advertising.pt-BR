@@ -3,22 +3,26 @@ title: Gerenciar listas de URLs
 description: Saiba como criar e gerenciar listas de URLs para direcionamento de posicionamento.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
+TQID: 'https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 0%
-
 ---
-
 # Gerenciar listas de URLs
 
 Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcionamento de posicionamento. Direcione ou exclua listas de URLs específicas nas configurações de posicionamento.
@@ -45,63 +49,63 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
    * Para inserir ou colar manualmente os URLs a serem adicionados:
 
-      1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
+     1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
 
-      1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas.
+     1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas.
 
-         Todos os URLs inválidos são identificados. Somente URLs válidos são adicionados se você continuar.
+        Todos os URLs inválidos são identificados. Somente URLs válidos são adicionados se você continuar.
 
-      1. Clique em **[!UICONTROL Add to list]**.
+     1. Clique em **[!UICONTROL Add to list]**.
 
    * Para adicionar URLs de um arquivo:
 
-      1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
+     1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
 
-      1. Arraste e solte um arquivo CSV local que contenha os URLs, com cada URL em uma linha separada.
+     1. Arraste e solte um arquivo CSV local que contenha os URLs, com cada URL em uma linha separada.
 
-         O arquivo deve incluir apenas uma coluna de dados, sem uma linha de cabeçalho de coluna. Se você exportou uma lista existente e editou as linhas, remova a linha de cabeçalho e a segunda e terceira colunas antes de importar novamente o arquivo. As linhas com valores inválidos não serão adicionadas se você continuar.
+        O arquivo deve incluir apenas uma coluna de dados, sem uma linha de cabeçalho de coluna. Se você exportou uma lista existente e editou as linhas, remova a linha de cabeçalho e a segunda e terceira colunas antes de importar novamente o arquivo. As linhas com valores inválidos não serão adicionadas se você continuar.
 
-      1. Clique em **[!UICONTROL Add to list]**.
+     1. Clique em **[!UICONTROL Add to list]**.
 
-         Uma mensagem de notificação indica quando a tarefa é concluída. Atualize a página para ver a lista atualizada.
+        Uma mensagem de notificação indica quando a tarefa é concluída. Atualize a página para ver a lista atualizada.
 
-      1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
+     1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
 
-         1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
+        1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
 
-         1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
+        1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-            O arquivo é salvo na pasta Downloads do navegador.
+           O arquivo é salvo na pasta Downloads do navegador.
 
    * Para remover URLs específicos, siga um destes procedimentos:
 
-      * Para selecionar URLs a serem removidos:
+     * Para selecionar URLs a serem removidos:
 
-         1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
+       1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
 
-         1. Clique em **[!UICONTROL Remove from List]**.
+       1. Clique em **[!UICONTROL Remove from List]**.
 
-         1. Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
+       1. Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
 
-      * Para inserir ou colar URLs a serem removidos:
+     * Para inserir ou colar URLs a serem removidos:
 
-         1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+       1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-         1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
+       1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
 
-         1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas e estão incluídas na lista.
+       1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas e estão incluídas na lista.
 
-         1. Clique em **[!UICONTROL Remove from list]**.
+       1. Clique em **[!UICONTROL Remove from list]**.
 
    * Para remover todos os URLs:
 
-      1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Clique em **[!UICONTROL Remove All URLs]**.
+     1. Clique em **[!UICONTROL Remove All URLs]**.
 
-      1. Clique em **[!UICONTROL Remove]**.
+     1. Clique em **[!UICONTROL Remove]**.
 
 ## Editar uma lista de URLs
 
@@ -113,63 +117,63 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
    * Para inserir ou colar manualmente os URLs a serem adicionados:
 
-      1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
+     1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
 
-      1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas.
+     1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas.
 
-         Todos os URLs inválidos são identificados. Somente URLs válidos são adicionados se você continuar.
+        Todos os URLs inválidos são identificados. Somente URLs válidos são adicionados se você continuar.
 
-      1. Clique em **[!UICONTROL Add to list]**.
+     1. Clique em **[!UICONTROL Add to list]**.
 
    * Para adicionar URLs de um arquivo:
 
-      1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
+     1. Clique em **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
 
-      1. Arraste e solte um arquivo CSV local que contenha os URLs, com cada URL em uma linha separada.
+     1. Arraste e solte um arquivo CSV local que contenha os URLs, com cada URL em uma linha separada.
 
-         O arquivo deve incluir apenas uma coluna de dados, sem uma linha de cabeçalho de coluna. Se você exportou uma lista existente e editou as linhas, remova a linha de cabeçalho e a segunda e terceira colunas antes de importar novamente o arquivo. As linhas com valores inválidos não serão adicionadas se você continuar.
+        O arquivo deve incluir apenas uma coluna de dados, sem uma linha de cabeçalho de coluna. Se você exportou uma lista existente e editou as linhas, remova a linha de cabeçalho e a segunda e terceira colunas antes de importar novamente o arquivo. As linhas com valores inválidos não serão adicionadas se você continuar.
 
-      1. Clique em **[!UICONTROL Add to list]**.
+     1. Clique em **[!UICONTROL Add to list]**.
 
-         Uma mensagem de notificação indica quando a tarefa é concluída.
+        Uma mensagem de notificação indica quando a tarefa é concluída.
 
-      1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
+     1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
 
-         1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
+        1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
 
-         1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
+        1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
 
-            O arquivo é salvo na pasta Downloads do navegador.
+           O arquivo é salvo na pasta Downloads do navegador.
 
    * Para remover URLs específicos, siga um destes procedimentos:
 
-      * Para selecionar URLs a serem removidos:
+     * Para selecionar URLs a serem removidos:
 
-         1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
+       1. Marque a caixa de seleção ao lado de cada URL a ser removido da lista.
 
-         1. Clique em **[!UICONTROL Remove from List]**.
+       1. Clique em **[!UICONTROL Remove from List]**.
 
-         1. Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
+       1. Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
 
-      * Para inserir ou colar URLs a serem removidos:
+     * Para inserir ou colar URLs a serem removidos:
 
-         1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+       1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-         1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
+       1. Insira ou cole até 10.000 URLs, com cada URL em uma linha separada.
 
-         1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas e estão incluídas na lista.
+       1. Clique em **[!UICONTROL Validate]** para verificar se as URLs são válidas e estão incluídas na lista.
 
-         1. Clique em **[!UICONTROL Remove from list]**.
+       1. Clique em **[!UICONTROL Remove from list]**.
 
    * Para remover todos os URLs:
 
-      1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Clique em **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Clique em **[!UICONTROL Remove All URLs]**.
+     1. Clique em **[!UICONTROL Remove All URLs]**.
 
-      1. Clique em **[!UICONTROL Remove]**.
+     1. Clique em **[!UICONTROL Remove]**.
 
 ## Exportar uma lista de URLS
 

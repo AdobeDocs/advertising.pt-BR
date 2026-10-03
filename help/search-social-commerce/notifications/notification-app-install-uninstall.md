@@ -3,20 +3,24 @@ title: Instalar e desinstalar o aplicativo Web [!UICONTROL Notification Center]
 description: Saiba como instalar e desinstalar o aplicativo Web [!UICONTROL Notification Center].
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/a3oS8GVggOIOGoEIY37wTb1ZwwJRqW3S7wGSRLqbWoM
+TQID: 'https://experienceleague.adobe.com/a3oS8GVggOIOGoEIY37wTb1ZwwJRqW3S7wGSRLqbWoM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '301'
 ht-degree: 0%
-
 ---
-
 # Instalar e desinstalar o aplicativo Web [!UICONTROL Notification Center]
 
 *Recurso do Beta*
@@ -43,19 +47,19 @@ Você pode desabilitar ou desinstalar o aplicativo no gerenciador de aplicativos
 
 * A partir do Search, Social e Commerce:
 
-   1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+  1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-   1. Na parte inferior direita, clique em ![Instalar aplicativo Web da Central de Notificações](/help/search-social-commerce/assets/notifications-install-app.png "Instalar aplicativo Web da Central de Notificações").
+  1. Na parte inferior direita, clique em ![Instalar aplicativo Web da Central de Notificações](/help/search-social-commerce/assets/notifications-install-app.png "Instalar aplicativo Web da Central de Notificações").
 
-   1. Na mensagem de confirmação, clique em **[!UICONTROL Add]**.
+  1. Na mensagem de confirmação, clique em **[!UICONTROL Add]**.
 
-   1. Na mensagem do aplicativo [!UICONTROL Install Notification Center], clique em **[!UICONTROL Install]**.
+  1. Na mensagem do aplicativo [!UICONTROL Install Notification Center], clique em **[!UICONTROL Install]**.
 
 * No menu principal [!DNL Edge]:
 
-   1. Na barra de ferramentas do navegador, clique em **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+  1. Na barra de ferramentas do navegador, clique em **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
-   1. Na mensagem do aplicativo [!UICONTROL Install Notification Center], clique em **[!UICONTROL Install]**.
+  1. Na mensagem do aplicativo [!UICONTROL Install Notification Center], clique em **[!UICONTROL Install]**.
 
 ## Desinstalar o aplicativo Web [!UICONTROL Notification Center] para [!DNL Google Chrome]
 

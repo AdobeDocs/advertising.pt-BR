@@ -3,23 +3,34 @@ title: Configurações básicas e avançadas de relatório
 description: Saiba mais sobre as configurações obrigatórias e opcionais para relatórios básicos e avançados.
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8
+TQID: 'https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3822
+source-wordcount: '3838'
 ht-degree: 0%
-
 ---
-
 # Configurações básicas e avançadas de relatório
 
 | Guia | Parâmetro | Descrição |
@@ -51,7 +62,7 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | (Para todas as regras de atribuição, exceto [!UICONTROL Last Event] ou [!UICONTROL First Event]) Quando a conversão é precedida por cliques e impressões pagos, o atribui a porcentagem especificada de um valor de conversão às impressões que ocorreram na [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante. Por padrão, esse valor é 10%; você pode alterar o valor para qualquer número inteiro de 0 a 100. Esse valor é usado somente no relatório.<br><br>Quando uma conversão é precedida apenas por impressões, o [peso de viewthrough](/help/search-social-commerce/glossary.md#u-v) do anunciante, em vez do peso de substituição de impressão, é aplicado às impressões. |
 |  | [!UICONTROL Conversion Attribution] | (Aplicável somente a campanhas de exibição; todos os relatórios, exceto [!UICONTROL Keyword Report], [!UICONTROL Product Group Report] e [!UICONTROL Campaign Hourly Report]) Quais tipos de conversões devem ser relatadas quando eventos anteriores ocorreram:<ul><li><i>[!UICONTROL Clicks]:</i> Para relatar somente conversões que resultaram de cliques. Cada nome de conversão é anexado com &quot;[!UICONTROL (CT)]&quot;.</li><li><i>[!UICONTROL View-throughs Only]:</i> Para relatar somente conversões que resultaram de view-throughs. Cada nome de conversão é anexado com &quot;[!UICONTROL (VT)]&quot;. Ao selecionar essa opção, você escolhe qual valor deve ser atribuído a cada conversão. Na caixa Método de avaliação View-through, selecione uma opção:<ul><li><i>[!UICONTROL Raw]:</i> Para relatar conversões sem aplicar um peso.</li><li><i>[!UICONTROL Weighted]</i> (o padrão): para pesar cada conversão de acordo com o peso de viewthrough especificado para o anunciante.</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i> Para relatar todas as conversões. Por padrão, cada nome de conversão é anexado com &quot;[!UICONTROL (CT+VT)]&quot;. Esse tipo de atribuição de conversão inclui duas opções adicionais:<ul><li>[!UICONTROL Discrete columns for click & view-through conversions]: Inclui três colunas separadas para cada tipo de conversão incluído: uma para cada para 1) conversões click-through, anexadas com &quot;[!UICONTROL (CT)]&quot;, 2) conversões view-through, anexadas com &quot;[!UICONTROL (VT)]&quot;, 3) e todas as conversões, anexadas com &quot;[!UICONTROL (CT+VT)].&quot; Ao escolher essa opção, selecione qual das três colunas usar para filtragem e classificação na lista &quot;[!UICONTROL Filter & sort using]&quot;: <i>[!UICONTROL click]</i> (padrão), <i>[!UICONTROL view-through]</i> ou <i>[!UICONTROL click + view-through]</i>.<br><br><b>Observação:</b> As conversões de campanhas de pesquisa aparecem nas colunas para click-throughs, mas não na coluna para conversões de view-through.</li><li>[!UICONTROL View-through valuation method]: Que valor deve ser dado a cada conversão que resulta de um view-through:</li><ul><i>[!UICONTROL Weighted]</i> (o padrão): para pesar cada conversão de acordo com o peso de viewthrough especificado para o anunciante.</li><li><i>[!UICONTROL Raw]:</i> Para relatar conversões sem aplicar um peso.</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | Obsoleto |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponível somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando em 09:00 AM. |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponível somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando às 09:00 AM. |
 |  | [!UICONTROL Email Recipients] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Endereços de email de usuários registrados do Search, Social e Commerce para os quais enviar notificações quando o relatório for concluído ou for cancelado devido a erros. Por padrão, o endereço da conta de usuário é inserido. Para especificar vários endereços, separe-os com vírgulas, espaços ou novas linhas. Quando o relatório é agendado para execução repetida, uma notificação é enviada sempre que um relatório é concluído. |
 |  | [!UICONTROL Email Notification] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Quando [!UICONTROL Email Recipients] são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>[!UICONTROL Notification Only]</i> (padrão): enviar apenas uma notificação da conclusão ou falha do relatório, sem anexos. A notificação inclui links de download temporários para todos os formatos de relatório.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir uma cópia do relatório concluído no formato XLS se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato TSV, se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato CSV se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados. |
 

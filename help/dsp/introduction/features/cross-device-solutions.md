@@ -3,24 +3,30 @@ title: Soluções entre dispositivos
 description: Saiba mais sobre os recursos entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # Soluções entre dispositivos
 
 A integração do Advertising DSP com o [!DNL LiveRamp] permite estender o público-alvo para todos os dispositivos conhecidos de uma pessoa, não apenas para os dispositivos rastreados pela sua marca. A integração também fornece limite de frequência e medição de atribuição em todos os dispositivos.
@@ -103,9 +109,9 @@ Quando um gráfico de dispositivos é habilitado para medição de atribuição,
 
 * &lt;*Conversão*>[!UICONTROL (tp)]: inclui o total de conversões (total de pessoas), que inclui tanto conversões de mesmo dispositivo quanto conversões entre dispositivos (se aplicável). No relatório, &quot;[!UICONTROL (tp)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(tp)).
 
-* &lt;*Conversão*>[!UICONTROL (sd)]: (Opcional) Inclui somente conversões para as quais apenas um único dispositivo foi rastreado no caminho de conversão. No relatório, &quot;[!UICONTROL (sd)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(sd)).
+* &lt;*Conversion*>[!UICONTROL (sd)]: (opcional) inclui somente conversões para as quais apenas um único dispositivo foi rastreado no caminho de conversão. No relatório, &quot;[!UICONTROL (sd)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(sd)).
 
-* &lt;*Conversão*>[!UICONTROL (xd)]: (Opcional) Inclui somente conversões para as quais mais de um dispositivo foi rastreado no caminho de conversão. No relatório, &quot;[!UICONTROL (xd)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(xd)).
+* &lt;*Conversion*>[!UICONTROL (xd)]: (opcional) inclui somente conversões para as quais mais de um dispositivo foi rastreado no caminho de conversão. No relatório, &quot;[!UICONTROL (xd)]&quot; é anexado ao nome da métrica de conversão, ao tipo de regra e aos tipos de conversão no caminho de conversão (por exemplo, &quot;Respostas(le)(tl)(xd)).
 
 #### Como interpretar o relatório [!UICONTROL Conversion]
 

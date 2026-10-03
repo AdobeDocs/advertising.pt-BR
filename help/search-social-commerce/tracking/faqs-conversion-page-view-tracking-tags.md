@@ -3,21 +3,26 @@ title: Perguntas frequentes sobre a conversão do Adobe Advertising e as tags de
 description: Consulte uma comparação das tags de rastreamento de conversão e exibição de página do Adobe Advertising.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+TQID: 'https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # Perguntas frequentes sobre a conversão do Adobe Advertising e as tags de rastreamento de exibição de página
 
 O seguinte se aplica às tags de rastreamento de conversão do Adobe Advertising e às tags de rastreamento de exibição de página.

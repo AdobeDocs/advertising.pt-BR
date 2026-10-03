@@ -3,21 +3,26 @@ title: (Nova interface do usuário) Administração de usuários
 description: Saiba como gerenciar o acesso de usuários.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # (Nova interface de usuário) Administração de usuários para pesquisa, redes sociais e comércio
 
 Alguns usuários podem gerenciar o acesso à nova interface do Search, Social e Commerce usando a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), que é o local central para gerenciar todos os direitos e o gerenciamento de usuários da Adobe. Os usuários são categorizados como usuários finais ou administradores. Sua equipe de conta da Adobe vai notificá-lo se você for um administrador. Se você for um administrador, consulte as seguintes seções para identificar suas permissões e fluxos de trabalho para gerenciar usuários.
@@ -44,49 +49,49 @@ A nova interface de usuário do Search, Social &amp; Commerce tem os seguintes p
 
 * **[!UICONTROL Basic Optimization]:** Este perfil fornece a seguinte funcionalidade:
 
-   * [!UICONTROL Objectives]: Acesso total
+  * [!UICONTROL Objectives]: Acesso total
 
-   * [!UICONTROL Simulations]: Acesso total
+  * [!UICONTROL Simulations]: Acesso total
 
-   * [!UICONTROL Portfolio Groups]: Acesso total
+  * [!UICONTROL Portfolio Groups]: Acesso total
 
-   * [!UICONTROL Portfolios]: Criar/editar acesso às configurações do portfólio para [!UICONTROL Objectives], [!UICONTROL Campaigns] e Gastos [!UICONTROL Management]; acesso somente leitura às configurações restantes do portfólio.
+  * [!UICONTROL Portfolios]: Criar/editar acesso às configurações do portfólio para [!UICONTROL Objectives], [!UICONTROL Campaigns] e Gastos [!UICONTROL Management]; acesso somente leitura às configurações restantes do portfólio.
 
-   * [!UICONTROL Campaigns]: Acesso somente leitura às configurações da campanha (nenhum recurso criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
+  * [!UICONTROL Campaigns]: Acesso somente leitura às configurações da campanha (nenhum recurso criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
 
-   * [!UICONTROL Ad Groups]: Acesso somente leitura às configurações do grupo de anúncios (nenhum recurso para criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
+  * [!UICONTROL Ad Groups]: Acesso somente leitura às configurações do grupo de anúncios (nenhum recurso para criar, editar ou excluir está disponível); acesso total à restrição e atribuições do portfólio
 
   Esse nível de acesso é preferido para usuários que ainda estão aprendendo a usar o Search, Social e Commerce.
 
 * **[!UICONTROL Expert Optimization]:** Este perfil fornece a seguinte funcionalidade:
 
-   * [!UICONTROL Objectives]: Acesso total
+  * [!UICONTROL Objectives]: Acesso total
 
-   * [!UICONTROL Simulations]: Acesso total
+  * [!UICONTROL Simulations]: Acesso total
 
-   * [!UICONTROL Portfolio Groups]: Acesso total
+  * [!UICONTROL Portfolio Groups]: Acesso total
 
-   * [!UICONTROL Portfolios]: Acesso total
+  * [!UICONTROL Portfolios]: Acesso total
 
-   * [!UICONTROL Campaigns]: Acesso somente leitura à lista de campanhas (nenhum recurso de criação, edição ou exclusão de campanha está disponível); acesso total a atribuições de portfólio e restrições
+  * [!UICONTROL Campaigns]: Acesso somente leitura à lista de campanhas (nenhum recurso de criação, edição ou exclusão de campanha está disponível); acesso total a atribuições de portfólio e restrições
 
-   * [!UICONTROL Ad Groups]: Acesso somente leitura à lista de grupos de anúncios (nenhum recurso de criação, edição ou exclusão de campanha está disponível ainda); acesso total a atribuições de restrição e portfólio
+  * [!UICONTROL Ad Groups]: Acesso somente leitura à lista de grupos de anúncios (nenhum recurso de criação, edição ou exclusão de campanha está disponível ainda); acesso total a atribuições de restrição e portfólio
 
   Esse nível de acesso é recomendado para usuários especialistas de Search, Social e Commerce.
 
 * **[!UICONTROL Read-Only]:** Este perfil fornece a seguinte funcionalidade:
 
-   * [!UICONTROL Objectives]: Acesso somente leitura
+  * [!UICONTROL Objectives]: Acesso somente leitura
 
-   * [!UICONTROL Simulations]: Acesso somente leitura
+  * [!UICONTROL Simulations]: Acesso somente leitura
 
-   * [!UICONTROL Portfolio Groups]: Acesso somente leitura
+  * [!UICONTROL Portfolio Groups]: Acesso somente leitura
 
-   * [!UICONTROL Portfolios]: Acesso somente leitura
+  * [!UICONTROL Portfolios]: Acesso somente leitura
 
-   * [!UICONTROL Campaigns]: Acesso somente leitura
+  * [!UICONTROL Campaigns]: Acesso somente leitura
 
-   * [!UICONTROL Ad Groups]: Acesso somente leitura
+  * [!UICONTROL Ad Groups]: Acesso somente leitura
 
 * **[!UICONTROL Admin]:** Este perfil concede acesso total a todas as funcionalidades disponíveis e permite que os usuários criem novas instâncias do cliente (o mesmo que contas de anunciante herdadas, com uma ou mais instâncias por ID de organização). Não atribua esse direito a ninguém a menos que você tenha uma justificativa de negócios apropriada.
 
@@ -106,7 +111,7 @@ A nova interface de usuário do Search, Social &amp; Commerce tem os seguintes p
 
    1. Selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Selecione a organização CX Enterprise aplicável.
+   1. Selecione a organização da CX Enterprise aplicável.
 
       O Admin Console abre na guia [!UICONTROL Overview].
 

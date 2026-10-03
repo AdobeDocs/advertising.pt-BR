@@ -3,20 +3,24 @@ title: Acesso FTP a relatórios
 description: Saiba como receber relatórios em um local FTP somente leitura.
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+TQID: 'https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # Acesso FTP a relatórios
 
 Opcionalmente, é possível receber relatórios em um local FTP somente leitura, do qual você pode recuperar os arquivos para processos automatizados adicionais (por exemplo, para analisar os dados com outro programa). Todos os relatórios básicos, exceto o [!UICONTROL Search Engine Account Report], e todos os relatórios avançados podem ser entregues a um local FTP como arquivos TSV zipados (o padrão) ou arquivos CSV, com uma extensão de arquivo .ZIP. Todos os cabeçalhos de arquivo TSV ou CSV estão incluídos e não podem ser suprimidos.
@@ -43,11 +47,11 @@ Para gerar relatórios no diretório FTP designado, crie um [modelo de relatóri
 
    * (Opcional) Qualquer uma das três datas do sistema, usando a seguinte sintaxe que diferencia maiúsculas de minúsculas, incluindo colchetes:
 
-      * `[TODAY]` — Para incluir a data, hora e minuto em que o relatório foi executado. Como isso inclui a hora exata, o mesmo modelo pode ser executado várias vezes por dia sem substituir o relatório anterior.
+     * `[TODAY]` — Para incluir a data, hora e minuto em que o relatório foi executado. Como isso inclui a hora exata, o mesmo modelo pode ser executado várias vezes por dia sem substituir o relatório anterior.
 
-      * `[SDATE]` — Para incluir a data inicial do intervalo de datas do relatório.
+     * `[SDATE]` — Para incluir a data inicial do intervalo de datas do relatório.
 
-      * `[EDATE]` — Para incluir a data final do intervalo de datas do relatório.
+     * `[EDATE]` — Para incluir a data final do intervalo de datas do relatório.
 
    * (Opcional) `[CSV]` (em letras maiúsculas e entre parênteses) para criar arquivos no formato CSV em vez do formato TSV padrão.
 

@@ -3,22 +3,26 @@ title: Criar vários anúncios de terceiros
 description: Saiba como criar vários anúncios de terceiros de uma só vez.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-TQID: https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ
+TQID: 'https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # Criar vários anúncios de terceiros
 
 Você pode criar até 500 anúncios de terceiros de cada vez carregando tags que apontam para ativos criativos hospedados em servidores de anúncios de terceiros. É possível incluir pixels de rastreamento para os anúncios.<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
@@ -71,11 +75,11 @@ Você pode carregar as folhas de marcas [!DNL DoubleClick] e [!DNL Flashtalking]
 
    * (Se um anúncio for rejeitado; opcional) Para editar o registro do anúncio e reenviá-lo para análise:
 
-      1. Clique no nome do anúncio.
+     1. Clique no nome do anúncio.
 
-      1. Edite as configurações do anúncio.
+     1. Edite as configurações do anúncio.
 
-      1. Clique em **[!UICONTROL Save & submit for review]**.
+     1. Clique em **[!UICONTROL Save & submit for review]**.
 
 >[!NOTE]
 >

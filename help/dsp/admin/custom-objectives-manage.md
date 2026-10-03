@@ -3,13 +3,24 @@ title: Gerenciar objetivos personalizados
 description: Saiba como definir os eventos de sucesso que ajudam a atingir as metas de otimização em nível de pacote.
 role: User, Admin
 feature: DSP Optimization, DSP Packages
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 0%
-
 ---
-
 # Gerenciar objetivos personalizados
 
 *Disponível para contas do DSP vinculadas às contas do Search, Social e Commerce*
@@ -28,7 +39,7 @@ Todas as alterações nas opções de objetivo são rastreadas no nível do camp
 
 >[!PREREQUISITES]
 >
->Antes de criar objetivos, a conta do DSP deve ser vinculada a uma conta do Search, Social e Commerce com a mesma ID de organização da Adobe Experience Cloud, mesmo se você não for um cliente do Search, Social e Commerce. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a equipe de conta da Adobe.
+>Antes de criar objetivos, a conta do DSP deve estar vinculada a uma conta do Search, Social e Commerce com a mesma ID de organização da Adobe Experience Cloud, mesmo se você não for um cliente do Search, Social e Commerce. Se sua conta do DSP não estiver vinculada a uma conta do [!DNL Search, Social, & Commerce], entre em contato com a equipe de conta da Adobe.
 
 >[!NOTE]
 >

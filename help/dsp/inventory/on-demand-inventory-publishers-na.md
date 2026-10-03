@@ -1,24 +1,28 @@
 ---
 title: '[!DNL On Demand] editores de inventário premium na América do Norte'
-description: Consulte os  [!DNL On Demand] editores de inventário premium disponíveis na América do Norte.
+description: Consulte os [!DNL On Demand] editores de inventário premium disponíveis na América do Norte.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
-TQID: https://experienceleague.adobe.com/qmKaDBN2YyI8Teok0SIWPU0qNQOTlfr6FGfsAHQ2naE
+TQID: 'https://experienceleague.adobe.com/qmKaDBN2YyI8Teok0SIWPU0qNQOTlfr6FGfsAHQ2naE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 0%
-
+source-wordcount: '235'
+ht-degree: 8%
 ---
-
 # [!DNL On Demand] editores de inventário premium na América do Norte
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
@@ -77,110 +81,110 @@ ht-degree: 0%
 | [!DNL Wayfair] | Canadá |
 | [!DNL Xumo] | Canadá |
 | [!DNL Yahoo] | Canadá |
-| [!DNL A+E Networks] | U.S. |
-| [!DNL ABC] | U.S. |
-| [!DNL Accuweather] | U.S. |
-| [!DNL AMC] | U.S. |
-| [!DNL AT&T TV Now] | U.S. |
-| [!DNL BBC] | U.S. |
-| [!DNL Billboard] | U.S. |
-| [!DNL Bloomberg] | U.S. |
-| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | U.S. |
-| [!DNL Business Insider] | U.S. |
-| [!DNL Buzzfeed] | U.S. |
-| [!DNL CBS Interactive] | U.S. |
-| [!DNL CNN International] | U.S. |
-| [!DNL Comcast] | U.S. |
-| [!DNL Comedy Central] | U.S. |
-| [!DNL Complex Networks] | U.S. |
-| [!DNL Conde Nast] | U.S. |
-| [!DNL Crackle] | U.S. |
-| [!DNL Cumulus Media] | U.S. |
-| [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
-| [!DNL Discovery] | U.S. |
-| [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] (anteriormente [!DNL About.com]) | U.S. |
-| [!DNL EA] | U.S. |
-| [!DNL ebay] | U.S. |
-| [!DNL ESI Media] | U.S. |
-| [!DNL ESPN] | U.S. |
-| [!DNL ESPN Deportes] | U.S. |
-| [!DNL Evite] | U.S. |
-| [!DNL Expedia] | U.S. |
-| [!DNL Forbes] | U.S. |
-| [!DNL Fox] | U.S. |
-| [!DNL Fox Business] | U.S. |
-| [!DNL Fox Deportes] | U.S. |
-| [!DNL Fox Local TV Stations] | U.S. |
-| [!DNL Fox News] | U.S. |
-| [!DNL Fox Sports] | U.S. |
-| [!DNL Freeform] | U.S. |
-| [!DNL Fubo TV] | U.S. |
-| [!DNL Funimation] | U.S. |
-| [!DNL Fuse Media] | U.S. |
-| [!DNL FX] | U.S. |
-| [!DNL Gameloft] | U.S. |
-| [!DNL Gizmodo] | U.S. |
-| [!DNL Hallmark] | U.S. |
-| [!DNL Hearst] | U.S. |
-| [!DNL Hulu] | U.S. |
-| [!DNL iHeart] | U.S. |
-| [!DNL LA Times] | U.S. |
-| [!DNL Lifehacker] | U.S. |
-| [!DNL Meredith] | U.S. |
-| [!DNL MSN] | U.S. |
-| [!DNL National Geographic] | U.S. |
-| [!DNL NBCUniversal] | U.S. |
-| [!DNL New York Post] | U.S. |
-| [!DNL NFL] | U.S. |
-| [!DNL NHL] | U.S. |
-| [!DNL New York Times] | U.S. |
-| [!DNL OWN] | U.S. |
-| [!DNL Penske Media Corporation (PMC)] | U.S. |
-| [!DNL Philo] | U.S. |
-| [!DNL Pluto TV] | U.S. |
-| [!DNL Realtor] | U.S. |
-| [!DNL Redbox] | U.S. |
-| [!DNL Roku] | U.S. |
-| [!DNL Samsung TV Plus] | U.S. |
-| [!DNL Scripps Networks (Discovery)] | U.S. |
-| [!DNL Sinclair Broadcasting Group] | U.S. |
-| [!DNL Sling TV] | U.S. |
-| [!DNL Spotify] | U.S. |
-| [!DNL T Mobile] | U.S. |
-| [!DNL TargetSpot] | U.S. |
-| [!DNL The Business Journals] | U.S. |
-| [!DNL The CW] | U.S. |
-| [!DNL The Guardian] | U.S. |
-| [!DNL The Roku Channel] | U.S. |
-| [!DNL The Takeout] | U.S. |
-| [!DNL The Weather Channel] | U.S. |
-| [!DNL Time Inc] | U.S. |
-| [!DNL TripAdvisor] | U.S. |
-| [!DNL Tronc] | U.S. |
-| [!DNL Trusted Media Brands] | U.S. |
-| [!DNL tubi TV] | U.S. |
-| [!DNL Tunein] | U.S. |
-| [!DNL Turner] | U.S. |
-| [!DNL Twitch] | U.S. |
-| [!DNL U.S. News] | U.S. |
-| [!DNL Univision] | U.S. |
-| [!DNL USA Today] | U.S. |
-| [!DNL USA Today Sports] | U.S. |
-| [!DNL Verizon Media] | U.S. |
-| [!DNL Vevo] | U.S. |
-| [!DNL Viacom] | U.S. |
-| [!DNL Vice] | U.S. |
-| [!DNL VIZIO] | U.S. |
-| [!DNL Vox Media] | U.S. |
-| [!DNL Vudu] | U.S. |
-| [!DNL Wall Street Journal] | U.S. |
-| [!DNL Warner Brothers] | U.S. |
-| [!DNL Washington Post] | U.S. |
-| [!DNL Wayfair] | U.S. |
-| [!DNL WebMD] | U.S. |
-| [!DNL World Surf League] | U.S. |
-| [!DNL Yahoo] | U.S. |
+| [!DNL A+E Networks] | EUA |
+| [!DNL ABC] | EUA |
+| [!DNL Accuweather] | EUA |
+| [!DNL AMC] | EUA |
+| [!DNL AT&T TV Now] | EUA |
+| [!DNL BBC] | EUA |
+| [!DNL Billboard] | EUA |
+| [!DNL Bloomberg] | EUA |
+| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | EUA |
+| [!DNL Business Insider] | EUA |
+| [!DNL Buzzfeed] | EUA |
+| [!DNL CBS Interactive] | EUA |
+| [!DNL CNN International] | EUA |
+| [!DNL Comcast] | EUA |
+| [!DNL Comedy Central] | EUA |
+| [!DNL Complex Networks] | EUA |
+| [!DNL Conde Nast] | EUA |
+| [!DNL Crackle] | EUA |
+| [!DNL Cumulus Media] | EUA |
+| [!DNL DAZN] ([!DNL Perform Media]) | EUA |
+| [!DNL Discovery] | EUA |
+| [!DNL Disney Digital Network] | EUA |
+| [!DNL Dotdash] (anteriormente [!DNL About.com]) | EUA |
+| [!DNL EA] | EUA |
+| [!DNL ebay] | EUA |
+| [!DNL ESI Media] | EUA |
+| [!DNL ESPN] | EUA |
+| [!DNL ESPN Deportes] | EUA |
+| [!DNL Evite] | EUA |
+| [!DNL Expedia] | EUA |
+| [!DNL Forbes] | EUA |
+| [!DNL Fox] | EUA |
+| [!DNL Fox Business] | EUA |
+| [!DNL Fox Deportes] | EUA |
+| [!DNL Fox Local TV Stations] | EUA |
+| [!DNL Fox News] | EUA |
+| [!DNL Fox Sports] | EUA |
+| [!DNL Freeform] | EUA |
+| [!DNL Fubo TV] | EUA |
+| [!DNL Funimation] | EUA |
+| [!DNL Fuse Media] | EUA |
+| [!DNL FX] | EUA |
+| [!DNL Gameloft] | EUA |
+| [!DNL Gizmodo] | EUA |
+| [!DNL Hallmark] | EUA |
+| [!DNL Hearst] | EUA |
+| [!DNL Hulu] | EUA |
+| [!DNL iHeart] | EUA |
+| [!DNL LA Times] | EUA |
+| [!DNL Lifehacker] | EUA |
+| [!DNL Meredith] | EUA |
+| [!DNL MSN] | EUA |
+| [!DNL National Geographic] | EUA |
+| [!DNL NBCUniversal] | EUA |
+| [!DNL New York Post] | EUA |
+| [!DNL NFL] | EUA |
+| [!DNL NHL] | EUA |
+| [!DNL New York Times] | EUA |
+| [!DNL OWN] | EUA |
+| [!DNL Penske Media Corporation (PMC)] | EUA |
+| [!DNL Philo] | EUA |
+| [!DNL Pluto TV] | EUA |
+| [!DNL Realtor] | EUA |
+| [!DNL Redbox] | EUA |
+| [!DNL Roku] | EUA |
+| [!DNL Samsung TV Plus] | EUA |
+| [!DNL Scripps Networks (Discovery)] | EUA |
+| [!DNL Sinclair Broadcasting Group] | EUA |
+| [!DNL Sling TV] | EUA |
+| [!DNL Spotify] | EUA |
+| [!DNL T Mobile] | EUA |
+| [!DNL TargetSpot] | EUA |
+| [!DNL The Business Journals] | EUA |
+| [!DNL The CW] | EUA |
+| [!DNL The Guardian] | EUA |
+| [!DNL The Roku Channel] | EUA |
+| [!DNL The Takeout] | EUA |
+| [!DNL The Weather Channel] | EUA |
+| [!DNL Time Inc] | EUA |
+| [!DNL TripAdvisor] | EUA |
+| [!DNL Tronc] | EUA |
+| [!DNL Trusted Media Brands] | EUA |
+| [!DNL tubi TV] | EUA |
+| [!DNL Tunein] | EUA |
+| [!DNL Turner] | EUA |
+| [!DNL Twitch] | EUA |
+| [!DNL U.S. News] | EUA |
+| [!DNL Univision] | EUA |
+| [!DNL USA Today] | EUA |
+| [!DNL USA Today Sports] | EUA |
+| [!DNL Verizon Media] | EUA |
+| [!DNL Vevo] | EUA |
+| [!DNL Viacom] | EUA |
+| [!DNL Vice] | EUA |
+| [!DNL VIZIO] | EUA |
+| [!DNL Vox Media] | EUA |
+| [!DNL Vudu] | EUA |
+| [!DNL Wall Street Journal] | EUA |
+| [!DNL Warner Brothers] | EUA |
+| [!DNL Washington Post] | EUA |
+| [!DNL Wayfair] | EUA |
+| [!DNL WebMD] | EUA |
+| [!DNL World Surf League] | EUA |
+| [!DNL Yahoo] | EUA |
 
 {style="table-layout:auto"}
 

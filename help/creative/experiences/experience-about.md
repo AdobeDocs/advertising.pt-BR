@@ -3,25 +3,33 @@ title: Sobre experiências no Advertising Creative
 description: Saiba como configurar experiências de anúncio personalizadas e otimizar elementos de anúncio com base no desempenho.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # Sobre as experiências no Advertising Creative 2.0
 
 Cada experiência de anúncio pode incluir um tipo de anúncio (exibição padrão, vídeo padrão, exibição dinâmica ou vídeo dinâmico). O [!DNL Advertising Creative 2.0] fornece duas estruturas diferentes de experiência de anúncio para os anúncios em uma única biblioteca criativa.
@@ -32,15 +40,15 @@ Cada experiência de anúncio pode incluir um tipo de anúncio (exibição padr�
 
   As opções de direcionamento incluem:
 
-   * Segmentos de público-alvo da Adobe Audience Manager, Adobe Analytics e Advertising DSP; quaisquer outros segmentos primários importados para a conta; seus segmentos personalizados da Advertising DSP; segmentos de terceiros fornecidos pela Advertising DSP; e quaisquer públicos-alvo existentes da Advertising DSP incorporados na Biblioteca de público-alvo
+  * Segmentos de público-alvo da Adobe Audience Manager, Adobe Analytics e Advertising DSP; quaisquer outros segmentos primários importados para a conta; seus segmentos personalizados da Advertising DSP; segmentos de terceiros fornecidos pela Advertising DSP; e quaisquer públicos-alvo existentes da Advertising DSP incorporados na Biblioteca de público-alvo
 
-   * Localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e códigos postais
+  * Localizações geográficas específicas, incluindo países, estados, DMAs nos Estados Unidos, cidades e códigos postais
 
-   * Visualizadores para os quais pares de valor-chave específicos (destinos de transmissão de dados) são transmitidos pelo DSP, editor ou parceiro (como SKU=01234567890123 ou Carrinho=empty)
+  * Visualizadores para os quais pares de valor-chave específicos (destinos de transmissão de dados) são transmitidos pelo DSP, editor ou parceiro (como SKU=01234567890123 ou Carrinho=empty)
 
-   * [!DNL Creative] redirecionando pixels e valores de atributo especificados
+  * [!DNL Creative] redirecionando pixels e valores de atributo especificados
 
-   * Tipos de dispositivos, sistemas operacionais e navegadores específicos
+  * Tipos de dispositivos, sistemas operacionais e navegadores específicos
 
   Depois de criar uma ramificação de público-alvo na árvore decisória, é possível emparelhar o público-alvo com possíveis criativos atribuindo pacotes criativos à ramificação. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- later: and any flexible attributes --> para criações individuais em cada pacote.
 

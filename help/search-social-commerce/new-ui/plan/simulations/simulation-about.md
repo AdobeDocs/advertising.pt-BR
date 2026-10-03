@@ -4,22 +4,32 @@ description: Saiba mais sobre simulações de portfólio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-TQID: https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # Sobre simulações
 
 *recurso do Beta*
@@ -125,7 +135,7 @@ Monitore relatórios de simulação nas seguintes situações:
 
 * Antes de iniciar um portfólio para estimar o desempenho que você pode esperar com as configurações correspondentes; use pelo menos duas semanas de dados. Se os resultados da simulação indicarem um desempenho menor do que o esperado com base nos dados históricos das campanhas incluídas, investigue e resolva os problemas antes de iniciar o portfólio.
 
-* Após qualquer alteração importante em um portfólio, como adicionar uma campanha ou alterar o objetivo. Se você fizer alterações na data de início da modelagem do portfólio, no peso de uma métrica de conversão ou no valor de clique de um objetivo, aguarde até depois de 17:00 PST no dia seguinte para executar a simulação, quando modelos de custo e receita atualizados estiverem disponíveis.
+* Após qualquer alteração importante em um portfólio, como adicionar uma campanha ou alterar o objetivo. Se você fizer alterações na data de início da modelagem do portfólio, no peso de uma métrica de conversão ou no valor de clique de um objetivo, aguarde até depois das 17:00 PST do dia seguinte para executar a simulação, quando modelos de custo e receita atualizados estiverem disponíveis.
 
 * Periodicamente, para monitorar tendências de desempenho no nível da métrica de conversão.
 

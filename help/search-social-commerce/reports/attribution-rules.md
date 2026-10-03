@@ -3,24 +3,31 @@ title: Como as regras de atribuição são calculadas
 description: Saiba como o Adobe Advertising calcula cada tipo de regra de atribuição.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+TQID: 'https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2707
+source-wordcount: '2767'
 ht-degree: 0%
-
 ---
-
 # Como as regras de atribuição são calculadas para o Adobe Advertising
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
@@ -33,15 +40,15 @@ Você também pode selecionar uma regra de atribuição nos seguintes locais par
 
 * DSP
 
-   * Relatórios personalizados
+  * Relatórios personalizados
 
 * Pesquisa, Social e Commerce
 
-   * Relatórios
+  * Relatórios
 
-   * Exibições padrão e personalizadas
+  * Exibições padrão e personalizadas
 
-   * (Algumas funções de usuário) Simulações em nível de Portfolio.
+  * (Algumas funções de usuário) Simulações em nível de Portfolio.
 
 >[!NOTE]
 >
@@ -64,17 +71,17 @@ Quando a conversão é precedida apenas por impressões, a conversão é conside
 
 ### Exemplo com todos os cliques
 
-Caminho do evento: Click1, Click2, Click3, Conversão de US$ 120
+Caminho do evento: Clique1, Clique2, Clique3, Conversão de 120 USD
 
-A conversão é atribuída ao Click 3 na quantidade de US$ 120.
+A conversão é atribuída ao Clique 3 na quantidade de 120 USD.
 
 ### Exemplo com impressões e cliques
 
 **Observação:** as impressões são aplicáveis somente a partir de anúncios sociais e de exibição.
 
-Caminho do evento: Impression 1, Click 1, Impression 2, Conversion of 120 USD
+Caminho do evento: Impressão 1, Clique 1, Impressão 2, Conversão de 120 USD
 
-A conversão é atribuída ao Click 1 na quantidade de US$ 120.
+A conversão é atribuída ao Clique 1 na quantidade de 120 USD.
 
 ### Exemplo com todas as impressões
 
@@ -84,9 +91,9 @@ Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Conversão de 120 U
 
 A conversão é atribuída à Impressão 3. Como a conversão é um view-through, o método de avaliação view-through selecionado na seção &quot;Atribuição de conversão&quot; das configurações do relatório é aplicado:
 
-* Se o parâmetro de relatório especificar um peso de view-through ponderado, esse peso será aplicado à view-through. Por exemplo, se o peso de view-through do anunciante for 40%, então 120 USD x 40% = 48 USD, então 48 USD é atribuído à Impressão 3.
+* Se o parâmetro de relatório especificar um peso de view-through ponderado, esse peso será aplicado à view-through. Por exemplo, se o peso de view-through do anunciante for 40%, 120 USD x 40% = 48 USD, então, 48 USD será atribuído à Impressão 3.
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à view-through, e os 120 USD completos serão atribuídos à Impressão 3.
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à view-through, e a USD 120 completa será atribuída à Impressão 3.
 
 +++
 
@@ -106,17 +113,17 @@ Quando a conversão é precedida apenas por impressões, a conversão é conside
 
 ### Exemplo com todos os cliques
 
-Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de US$ 120
+Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de 120 USD
 
-A conversão é atribuída ao Click 1 na quantidade de US$ 120.
+A conversão é atribuída ao Clique 1 na quantidade de 120 USD.
 
 ### Exemplo com impressões e cliques
 
 **Observação:** as impressões são aplicáveis somente a partir de anúncios sociais e de exibição.
 
-Caminho do evento: Impression 1, Click 1, Impression 2, Conversion of 120 USD
+Caminho do evento: Impressão 1, Clique 1, Impressão 2, Conversão de 120 USD
 
-A conversão é atribuída ao Click 1 na quantidade de US$ 120.
+A conversão é atribuída ao Clique 1 na quantidade de 120 USD.
 
 ### Exemplo com todas as impressões
 
@@ -127,9 +134,9 @@ Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Conversão de 120 U
 A conversão é atribuída à Impressão 1. Como a conversão é um view-through, o método de avaliação view-through selecionado na Conversão &quot;(Exibir campanhas)
 A seção &quot;Atribuição&quot; das configurações do relatório é aplicada:
 
-* Se o parâmetro de relatório especificar um peso de view-through ponderado, esse peso será aplicado à view-through. Por exemplo, se o peso de view-through do anunciante for 40%, então 120 x 40% = 48 USD, então 48 USD são atribuídos à Impressão 1.
+* Se o parâmetro de relatório especificar um peso de view-through ponderado, esse peso será aplicado à view-through. Por exemplo, se o peso de view-through do anunciante for 40%, 120 x 40% = 48 USD, então, 48 USD será atribuído à Impressão 1.
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à view-through, e os 120 USD completos serão atribuídos à Impressão 1.
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à view-through, e a USD 120 completa será atribuída à Impressão 1.
 
 +++
 
@@ -137,7 +144,7 @@ A seção &quot;Atribuição&quot; das configurações do relatório é aplicada
 
 ## Peso Primeiro Evento Mais
 
-Atribui a conversão a todos os eventos da série que ocorreram na [janela de retrospectiva de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante, mas concede mais peso ao primeiro evento e, sucessivamente, menos peso aos eventos a seguir. Essa regra está disponível somente para eventos em dispositivos únicos.
+Atribui a conversão a todos os eventos da série que ocorreram na [janela de retrospectiva de cliques](/help/search-social-commerce/glossary.md#c-d) e na [janela de retrospectiva de impressão](/help/search-social-commerce/glossary.md#i-j) do anunciante, mas concede mais peso ao primeiro evento e, sucessivamente, menos peso aos eventos a seguir.Essa regra está disponível somente para eventos em dispositivos únicos.
 
 Quando a conversão é precedida apenas por impressões, a conversão é considerada uma *view-through*, que é ponderada de acordo com a [configuração de peso view-through](/help/search-social-commerce/glossary.md#uv) do anunciante ou — conforme especificado — de acordo com o método de avaliação view-through especificado nos parâmetros de relatório, exibição ou simulação personalizada.
 
@@ -155,7 +162,7 @@ Quando o caminho de conversão inclui cliques pagos e impressões, as impressõe
 
 ### Exemplo com todos os cliques
 
-Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de US$ 120
+Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de 120 USD
 
 Atribuição: Clique em 1 = 60 USD, Clique em 2 = 40 USD, Clique em 3 = 20 USD (total de 120 USD)
 
@@ -185,9 +192,9 @@ Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Conversão de 120 U
 
 Como a conversão é um view-through, o método de avaliação view-through — em vez do peso de substituição de impressão — é aplicado para determinar o valor de cada impressão:
 
-* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso de view-through for 40%, então, Impressão 1 = 24 USD, Impressão 2 = 16 USD, Impressão 3 = 8 USD (total de 48 USD)
+* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso de view-through for 40%, Impression 1 = 24 USD, Impression 2 = 16 USD, Impression 3 = 8 USD (48 USD total)
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à impressão, e o total de US$ 120 será dividido entre as três impressões: Impressão 1 = 60 US$, Impressão 2 = 40 US$, Impressão 3 = 20 US$ (total de 120 US$)
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à impressão, e o USD 120 completo será dividido entre as três impressões: Impression 1 = 60 USD, Impression 2 = 40 USD, Impression 3 = 20 USD (120 USD total)
 
 +++
 
@@ -249,9 +256,9 @@ Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Conversão de 120 U
 
 Como a conversão é um view-through, o método de avaliação view-through — em vez do peso de substituição de impressão — é aplicado para determinar o valor de cada impressão:
 
-* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso de view-through for 40%, então, Impressão 1 = 16 USD, Impressão 2 = 16 USD, Impressão 3 = 16 USD (total de 48 USD)
+* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso de view-through for 40%, Impression 1 = 16 USD, Impression 2 = 16 USD, Impression 3 = 16 USD (48 USD total)
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à impressão, e o total de US$ 120 será dividido entre as três impressões: Impressão 1 = US$ 40, Impressão 2 = US$ 40, Impressão 3 = US$ 40 (total de US$ 120)
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, nenhum peso de view-through será aplicado à impressão, e o USD 120 completo será dividido entre as três impressões: Impression 1 = 40 USD, Impression 2 = 40 USD, Impression 3 = 40 USD (120 USD total)
 
 +++
 
@@ -277,7 +284,7 @@ Quando o caminho de conversão inclui cliques pagos e impressões, as impressõe
 
 ### Exemplo com todos os cliques
 
-Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de US$ 120
+Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Conversão de 120 USD
 
 Atribuição: Clique em 3 = 60 USD, Clique em 2 = 40 USD, Clique em 1 = 20 USD (total de 120 USD)
 
@@ -303,13 +310,13 @@ Atribuição: Impressão 1 = 0 USD, Clique 1 = 40 USD, Impressão 2 = 0 USD, Cli
 
 **Observação:** as impressões são aplicáveis somente a partir de anúncios sociais e de exibição.
 
-Caminho do evento: Impressão 1, Impressão 2, Impressão 3,Conversão de 120 USD
+Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Conversão de 120 USD
 
 Como a conversão é um view-through, o método de avaliação view-through — em vez do peso de substituição de impressão — é aplicado para determinar o valor de cada impressão:
 
-* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso do view-through for 40%, multiplique cada valor em &quot;Exemplo com todos os cliques&quot; por 40%: Impressão 3 = 24 USD, Impressão 2 = 16 USD, Impressão 1 = 8 USD (total de 48 USD)
+* Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso de view-through for 40%, multiplique cada valor em &quot;Exemplo com todos os cliques&quot; por 40%: Impressão 3 = 24 USD, Impressão 2 = 16 USD, Impressão 1 = 8 USD (total de 48 USD)
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, os 120 USD completos serão divididos entre as impressões: Impressão 3 = 60 USD, Impressão 2 = 40 USD, Impressão 1 = 20 USD (total de 120 USD)
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, o USD 120 completo será dividido entre as impressões: Impressão 3 = 60 USD, Impressão 2 = 40 USD, Impressão 1 = 20 USD (total de 120 USD)
 
 +++
 
@@ -335,7 +342,7 @@ Quando o caminho de conversão inclui cliques pagos e impressões, as impressõe
 
 ### Exemplo com todos os cliques
 
-Caminho do evento: Clique 1, Clique 2, Clique 3, Clique 4, Conversão de 120 USD
+Caminho do evento: Clique em 1, Clique em 2, Clique em 3, Clique em 4, Conversão de 120 USD
 
 Atribuição: Clique em 1 = 36 USD, Clique em 2 = 24 USD, Clique em 3 = 24 USD, Clique em 4 = 36 USD (total de 120 USD)
 
@@ -361,13 +368,13 @@ Atribuição: Impressão 1 = 0 USD, Clique 1 = 60 USD, Impressão 2 = 0 USD, Cli
 
 **Observação:** somente impressões para anúncios de exibição são aplicáveis.
 
-Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Impressão 4, Conversão de US$ 120
+Caminho do evento: Impressão 1, Impressão 2, Impressão 3, Impressão 4, Conversão de 120 USD
 
 Como a conversão é um view-through, o método de avaliação view-through — em vez do peso de substituição de impressão — é aplicado para determinar o valor de cada impressão:
 
 * Se o parâmetro de relatório tiver especificado um peso de view-through ponderado, esse peso será aplicado aos valores de impressão. Por exemplo, se o peso do view-through for 40%, clique em 1 = 14,40 USD, clique em 2 = 9,60 USD, clique em 3 = 9,60 USD, clique em 4 = 14,40 USD (total de 48 USD)
 
-* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, os 120 USD completos serão divididos entre as impressões: Clique em 1 = 36 USD, Clique em 2 = 24 USD, Clique em 3 = 24 USD, Clique em 4 = 36 USD (total de 120 USD)
+* Se o parâmetro de relatório especificar o uso de valores brutos para view-throughs, o USD 120 completo será dividido entre as impressões: Clique em 1 = 36 USD, Clique em 2 = 24 USD, Clique em 3 = 24 USD, Clique em 4 = 36 USD (total de 120 USD)
 
 +++
 

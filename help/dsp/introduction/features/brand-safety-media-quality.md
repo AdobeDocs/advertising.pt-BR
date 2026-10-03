@@ -3,24 +3,30 @@ title: Segurança da marca e qualidade da mídia
 description: Saiba mais sobre os recursos de segurança da marca e qualidade da mídia.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+TQID: 'https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 # Segurança da marca e qualidade da mídia
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
@@ -63,19 +69,19 @@ O mapeamento de inventário é o processo detalhado de revisão e integração n
 
 * **Mapeamento:** Nossa equipe de inventário analisa cuidadosamente cada domínio, avaliando aspectos como:
 
-   * Segurança da marca
+  * Segurança da marca
 
-   * Verificação de tipo de anúncio
+  * Verificação de tipo de anúncio
 
-   * Conteúdo genérico, domínios duplicados e veiculação de anúncios falsos
+  * Conteúdo genérico, domínios duplicados e veiculação de anúncios falsos
 
 * **Classificação por níveis:** examinamos de forma holística a presença da marca no ecossistema geral para classificar o inventário em diferentes camadas. Você pode [direcionar seus posicionamentos](/help/dsp/campaign-management/placements/placement-settings.md) para esses níveis para o nível desejado de alcance:
 
-   * **[!UICONTROL T1]** — Nome da marca, sites reconhecidos internacionalmente
+  * **[!UICONTROL T1]** — Nome da marca, sites reconhecidos internacionalmente
 
-   * **[!UICONTROL T2]** — Sites com ótima aparência que estão atualizados, sem conteúdo gerado pelo usuário e geralmente sem reconhecimento global
+  * **[!UICONTROL T2]** — Sites com ótima aparência que estão atualizados, sem conteúdo gerado pelo usuário e geralmente sem reconhecimento global
 
-   * **[!UICONTROL T3]** — Conteúdo gerado pelo usuário e conteúdo de nicho
+  * **[!UICONTROL T3]** — Conteúdo gerado pelo usuário e conteúdo de nicho
 
 * **Categorização do site:** para garantir o fácil direcionamento e bloqueio de conteúdo, marcamos cada propriedade com uma categoria de site definida pela DSP com base no conteúdo da propriedade. Você pode [direcionar ou excluir essas categorias de site para cada posicionamento](/help/dsp/campaign-management/placements/placement-settings.md) com base nas metas de posicionamento.
 

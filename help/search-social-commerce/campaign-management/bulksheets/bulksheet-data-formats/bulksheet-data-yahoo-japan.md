@@ -1,22 +1,26 @@
 ---
-title: Dados de bulksheet para  [!DNL LY Ads] contas
-description: Referencie os campos de cabeçalho e de dados em bulksheets baixados para  [!DNL LY Ads] contas.
+title: Dados de bulksheet para contas do [!DNL LY Ads]
+description: Referencie os campos de cabeçalho e de dados em bulksheets baixados para contas do [!DNL LY Ads].
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # Apêndice - Dados de bulksheet para contas do [!DNL LY Ads]
 
 Você pode baixar dados de contas do [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan]) em massa, mas não pode carregar ou postar bulksheets na rede de publicidade.

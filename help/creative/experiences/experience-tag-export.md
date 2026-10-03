@@ -3,22 +3,29 @@ title: Exportar e implementar uma tag de experiência de anúncio para uma exper
 description: Saiba como exportar uma tag de experiência de anúncio e, opcionalmente, carregá-la em uma campanha do Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
+TQID: 'https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # Exportar e implementar uma tag de experiência de anúncio para uma experiência ao vivo
 
 Quando uma marca de anúncio para um tamanho criativo ou duração de vídeo específico estiver disponível para uma experiência [em tempo real](experience-about.md#experience-statuses), você poderá gerar e copiar a marca nos formatos JavaScript, iframe e vídeo para implementação no Advertising DSP ou em outros DSPs. As tags da DSP incluem todas as macros necessárias para o DSP.
@@ -86,15 +93,15 @@ Os anunciantes com o Advertising DSP podem, opcionalmente, fazer upload de tags 
 
    * Para o Advertising DSP:
 
-      1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL DSP link]** no menu esquerdo.
+     1. Clique em **[!UICONTROL Next]** no canto superior direito ou clique em **[!UICONTROL DSP link]** no menu esquerdo.
 
-      1. Selecione a campanha na qual deseja fazer upload da tag de publicidade.
+     1. Selecione a campanha na qual deseja fazer upload da tag de publicidade.
 
-      1. Clique em **[!UICONTROL Assign Tags]**.
+     1. Clique em **[!UICONTROL Assign Tags]**.
 
-         O DSP abre para a visualização [!UICONTROL Ads] da campanha selecionada.
+        O DSP abre para a visualização [!UICONTROL Ads] da campanha selecionada.
 
-      1. Na exibição [!UICONTROL Create ads], revise as marcas de anúncio, selecione cada marca para a qual deseja criar um anúncio e clique em **[!UICONTROL Create]**.
+     1. Na exibição [!UICONTROL Create ads], revise as marcas de anúncio, selecione cada marca para a qual deseja criar um anúncio e clique em **[!UICONTROL Create]**.
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 

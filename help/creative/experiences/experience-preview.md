@@ -3,21 +3,29 @@ title: Visualizar uma experiência
 description: Saiba como visualizar as criações em uma experiência de anúncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Visualizar uma experiência
 
 Você pode visualizar as criações com um tamanho de anúncio específico que os visualizadores do público-alvo verão para uma experiência, incluindo todos os hiperlinks. Para experiências com direcionamento de árvore de decisão, é possível visualizar um único criativo, os criativos de uma ramificação específica (tipo de destino) ou todos os criativos na experiência. Para experiências sem definição de metas da árvore de decisão, você pode visualizar um único criativo. <!-- verify -->
@@ -26,11 +34,11 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
 * Ao visualizar uma única criação e várias criações que se encaixam nos critérios, o criativo que você vê sempre que atualiza a visualização é baseado nas configurações de rotação do anúncio para a experiência:
 
-   * Para a rotação de anúncios algorítmicos, o criativo é selecionado com base na meta de otimização.
+  * Para a rotação de anúncios algorítmicos, o criativo é selecionado com base na meta de otimização.
 
-   * Para a rotação de anúncios programada, é exibida a primeira criação no agendamento. Você pode continuar atualizando a visualização para continuar pela sequência.
+  * Para a rotação de anúncios programada, é exibida a primeira criação no agendamento. Você pode continuar atualizando a visualização para continuar pela sequência.
 
-   * Para uma rotação de anúncios ponderada, o criativo é selecionado com base nos pesos especificados (como uma chance de 80% de a Creative A ser exibida e uma chance de 20% de a Creative B ser exibida) cada vez.
+  * Para uma rotação de anúncios ponderada, o criativo é selecionado com base nos pesos especificados (como uma chance de 80% de a Creative A ser exibida e uma chance de 20% de a Creative B ser exibida) cada vez.
 
 ## Pré-visualizar criações em uma experiência com direcionamento de árvore de decisão
 
@@ -48,24 +56,24 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
    * Para visualizar um único criativo:
 
-      1. Clique em **[!UICONTROL Creative]**.
+     1. Clique em **[!UICONTROL Creative]**.
 
-      1. Selecione o tamanho do anúncio.
+     1. Selecione o tamanho do anúncio.
 
-      1. Na seção [!UICONTROL Decision Tree Targeting], selecione o destino criativo.
+     1. Na seção [!UICONTROL Decision Tree Targeting], selecione o destino criativo.
 
    * Para visualizar as criações de uma ramificação específica:
 
-      1. Clique em **[!UICONTROL Particular branch]**.
+     1. Clique em **[!UICONTROL Particular branch]**.
 
-      1. Selecione o tamanho do anúncio.
+     1. Selecione o tamanho do anúncio.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. Selecione o público-alvo criativo.
+     1. Selecione o público-alvo criativo.
 
    * Para visualizar todas as criações na experiência, clique em **[!UICONTROL Entire Tree]**.
 

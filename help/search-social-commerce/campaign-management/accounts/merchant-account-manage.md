@@ -3,23 +3,26 @@ title: Gerenciar contas de comerciante
 description: Saiba como configurar e gerenciar detalhes de uma conta da central de comércio.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+TQID: 'https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 789
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # Gerenciar contas de comerciante
 
 *Somente funções de gerente de conta de agência, gerente de conta da Adobe e administrador de usuário*
 
-O Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias para qualquer uma das contas do Google Merchant Center ou do Microsoft Merchant Center de um anunciante. Além disso, o Search, Social e Commerce pode automatizar a criação de anúncios com base no conteúdo da conta de comerciante.Para trabalhar diretamente com os dados do produto no Search, Social e Commerce, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com o acesso *habilitado*.
+O Search, Social e Commerce pode baixar e exibir dados de produtos todos os dias para qualquer uma das contas do Google Merchant Center ou do Microsoft Merchant Center de um anunciante. Além disso, o Search, Social e Commerce pode automatizar a criação de anúncios com base no conteúdo da conta do comerciante.Para trabalhar diretamente com dados de produtos em Pesquisa, Social e Commerce, você deve criar um registro de conta correspondente contendo as credenciais de acesso da conta e com o acesso *habilitado*.
 
 >[!NOTE]
 >
@@ -67,7 +70,7 @@ Para exibir dados do produto e gerar modelos de rastreamento para uma conta de c
 
 1. Clique em **[!UICONTROL Save]**.
 
-   Os dados de atributo de todos os produtos na conta ficam disponíveis em Pesquisa, Social e Commerce após o próximo processo diário de sincronização (cerca de 06:00 no fuso horário local do usuário). Você pode usar os dados do produto para automatizar a criação de anúncios usando feeds de inventário.
+   Os dados de atributo de todos os produtos na conta do ficam disponíveis no Search, Social e Commerce após o próximo processo diário de sincronização (cerca de 06:00 no fuso horário local do usuário). Você pode usar os dados do produto para automatizar a criação de anúncios usando feeds de inventário.
 
 ## Editar detalhes da conta de comerciante {#edit-merchant-account}
 
@@ -89,7 +92,7 @@ Se as credenciais da conta forem alteradas ou se você quiser parar de recuperar
 
 >[!NOTE]
 >
->Search, Social e Commerce devem sincronizar os novos dados da conta com os da rede de estabelecimentos comerciais. Isso acontece automaticamente uma vez por dia, por volta de 06:00, no fuso horário local do usuário.
+>Search, Social e Commerce devem sincronizar os novos dados da conta com os da rede de estabelecimentos comerciais. Isso acontece automaticamente uma vez por dia, por volta das 06:00 no fuso horário local do usuário.
 
 ## Desabilitar acesso a uma conta de comerciante {#disable-merchant-account}
 

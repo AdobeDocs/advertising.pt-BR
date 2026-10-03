@@ -3,24 +3,30 @@ title: Integração com soluções e serviços da Adobe CX Enterprise
 description: Saiba mais sobre as integrações de Pesquisa, Social e Commerce com as soluções e os serviços da Adobe CX Enterprise.
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
+TQID: 'https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: '619'
 ht-degree: 0%
-
 ---
-
 # Integração com soluções e serviços da Adobe CX Enterprise
 
 O Advertising Search, Social e Commerce está integrado aos seguintes produtos do [!DNL Adobe].
@@ -35,17 +41,17 @@ O Advertising Search, Social e Commerce está integrado aos seguintes produtos d
 
 * Adobe Analytics — (recurso de Opt-in) Adobe Advertising e [!DNL Analytics] estão integrados das seguintes maneiras:
 
-   * O Adobe Advertising e o [!DNL Analytics] compartilham dados facilmente. O [!DNL Analytics] pode enviar dados de conversão e participação do site diariamente para o Search, Social e Commerce, em que os dados estão disponíveis para otimização de anúncios e relatórios. Além disso, o Adobe Advertising pode enviar dados de tráfego de anúncios — incluindo impressões, cliques e custos — de suas redes de anúncios diariamente para o [!DNL Analytics], em que os dados estão disponíveis em todas as ferramentas de relatório.
+  * O Adobe Advertising e o [!DNL Analytics] compartilham dados facilmente. O [!DNL Analytics] pode enviar dados de conversão e participação do site diariamente para o Search, Social e Commerce, em que os dados estão disponíveis para otimização de anúncios e relatórios. Além disso, o Adobe Advertising pode enviar dados de tráfego de anúncios — incluindo impressões, cliques e custos — de suas redes de anúncios diariamente para o [!DNL Analytics], em que os dados estão disponíveis em todas as ferramentas de relatório.
 
-     Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre o suporte de [!DNL Analytics] para cada rede de publicidade e tipo de publicidade. Consulte também &quot;[Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}&quot; para obter mais informações sobre a troca de dados.
+    Consulte &quot;[Inventário suportado](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obter mais informações sobre o suporte de [!DNL Analytics] para cada rede de publicidade e tipo de publicidade. Consulte também &quot;[Visão geral de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}&quot; para obter mais informações sobre a troca de dados.
 
-     Para trocar dados, o Adobe Advertising e o [!DNL Analytics] devem estar configurados inicialmente. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre a configuração inicial.
+    Para trocar dados, o Adobe Advertising e o [!DNL Analytics] devem estar configurados inicialmente. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre a configuração inicial.
 
-     >[!NOTE]
-     >
-     >Por padrão, as métricas [!DNL Analytics] não estão visíveis nas telas Search, Social e Commerce. Você deve [disponibilizar explicitamente as métricas em modos de exibição de gerenciamento de campanhas, portfólios e relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) depois que a equipe de implementação do [!DNL Adobe] configurar eventos padrão ou personalizados selecionados para serem transmitidos para o Adobe Advertising. Opcionalmente, é possível alterar os nomes de métrica exibidos (sem alterá-los em [!DNL Analytics]). Você pode tornar as métricas visíveis na interface e renomeá-las de [!UICONTROL Admin] > [!UICONTROL Conversions].
+    >[!NOTE]
+    >
+    >Por padrão, as métricas [!DNL Analytics] não estão visíveis nas telas Search, Social e Commerce. Você deve [disponibilizar explicitamente as métricas em modos de exibição de gerenciamento de campanhas, portfólios e relatórios](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) depois que a equipe de implementação do [!DNL Adobe] configurar eventos padrão ou personalizados selecionados para serem transmitidos para o Adobe Advertising. Opcionalmente, é possível alterar os nomes de métrica exibidos (sem alterá-los em [!DNL Analytics]). Você pode tornar as métricas visíveis na interface e renomeá-las de [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * Anunciantes com [!DNL Analytics], mas não com o Audience Manager, podem [criar [!DNL Google Ads] públicos-alvo de correspondência do cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) de [!DNL Analytics] segmentos que são compartilhados com o Adobe CX Enterprise. Para ser qualificado, um anunciante deve implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e implantar uma tag em seus sites. Você pode então usar os públicos em [!DNL Google Ads] campanhas como [alvos](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusões](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) de nível de campanha ou de grupo de anúncios.
+  * Anunciantes com [!DNL Analytics], mas não com o Audience Manager, podem [criar [!DNL Google Ads] públicos-alvo de correspondência do cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) de [!DNL Analytics] segmentos que são compartilhados com o Adobe CX Enterprise. Para ser qualificado, um anunciante deve implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e implantar uma tag em seus sites. Você pode então usar os públicos em [!DNL Google Ads] campanhas como [alvos](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusões](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) de nível de campanha ou de grupo de anúncios.
 
 * Segmentos do Adobe Audience Manager — (recurso de aceitação) Você pode [criar [!DNL Google Ads] públicos-alvo de correspondência do cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) de segmentos do Audience Manager que têm o Search, o Social e o Commerce como destino. Isso pode incluir [!DNL Analytics] segmentos publicados na Adobe CX Enterprise e segmentos criados usando a Biblioteca de público-alvo da Adobe CX Enterprise. Você pode então usar os públicos em [!DNL Google Ads] campanhas como [alvos](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) ou [exclusões](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) de nível de campanha ou de grupo de anúncios.
 

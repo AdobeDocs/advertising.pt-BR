@@ -3,20 +3,24 @@ title: Gerenciar anúncios
 description: Saiba mais sobre anúncios em Pesquisa, Social e Commerce, incluindo os tipos de anúncios disponíveis.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Sobre anúncios
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e contas [!DNL Baidu] existentes apenas*
@@ -31,9 +35,9 @@ Você pode criar e gerenciar os tipos de anúncios suportados para grupos de an�
 
 * Anúncios **de público-alvo** nativo entre dispositivos para campanhas [!DNL Microsoft Advertising] no [!DNL Microsoft Audience Network]. Você tem duas opções para anúncios de público-alvo, com base nas configurações da campanha:
 
-   * Se a campanha estiver vinculada a uma loja central de comerciantes, permita que a rede de publicidade gere automaticamente anúncios baseados em feed de anúncios para a campanha, usando as informações de produto da loja. Não é necessário criar anúncios baseados em feed para a campanha, mas você deve criar grupos de anúncios com direcionamento do usuário.
+  * Se a campanha estiver vinculada a uma loja central de comerciantes, permita que a rede de publicidade gere automaticamente anúncios baseados em feed de anúncios para a campanha, usando as informações de produto da loja. Não é necessário criar anúncios baseados em feed para a campanha, mas você deve criar grupos de anúncios com direcionamento do usuário.
 
-   * Se a campanha não estiver vinculada a uma conta do centro do comerciante, crie anúncios de público-alvo baseados em imagem usando o formato de anúncio responsivo, que inclui vários ativos de texto e imagem. A rede de anúncios reúne os anúncios usando as combinações mais eficazes de elementos de anúncios e os exibe em sites como [!DNL MSN], [!DNL Outlook.com] e [!DNL Microsoft Edge].
+  * Se a campanha não estiver vinculada a uma conta do centro do comerciante, crie anúncios de público-alvo baseados em imagem usando o formato de anúncio responsivo, que inclui vários ativos de texto e imagem. A rede de anúncios reúne os anúncios usando as combinações mais eficazes de elementos de anúncios e os exibe em sites como [!DNL MSN], [!DNL Outlook.com] e [!DNL Microsoft Edge].
 
 * **Anúncios somente de chamada** para [!DNL Google Ads] campanhas na rede de pesquisa. Anúncios somente para chamada são anúncios de texto que incluem um número de telefone. Você também pode usar um número de encaminhamento [!DNL Google Ads]-atribuído para relatórios de chamada avançados.
 

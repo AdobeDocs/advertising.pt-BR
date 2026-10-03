@@ -1,18 +1,21 @@
 ---
 title: Configurações de anúncios responsivos do [!DNL Microsoft Advertising]
-description: Referencie as configurações de  [!DNL Microsoft Advertising] anúncios responsivos.
+description: Referencie as configurações de [!DNL Microsoft Advertising] anúncios responsivos.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] configurações de anúncios responsivos (público-alvo)
 
 O formato de anúncio responsivo está disponível para anúncios de público-alvo com base em imagem, vídeo e TV conectada com base em vídeo no [!DNL Microsoft Audience Network]. A rede de publicidade monta dinamicamente anúncios responsivos usando as combinações mais eficazes de elementos de publicidade.

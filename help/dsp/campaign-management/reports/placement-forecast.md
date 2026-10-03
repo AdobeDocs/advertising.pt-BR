@@ -3,22 +3,26 @@ title: Exibir o relatório de previsão de posicionamento
 description: Consulte o número de impressões, gastos e lance máximo ideal previstos para uma estratégia de direcionamento específica para uma inserção.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Exibir o relatório de previsão de posicionamento
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ A previsão inclui as seguintes informações:
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** O custo estimado por mil impressões (eCPM) que as configurações de direcionamento podem esperar alcançar.
+  * **[!UICONTROL Estimated CPM]:** O custo estimado por mil impressões (eCPM) que as configurações de direcionamento podem esperar alcançar.
 
-   * **[!UICONTROL Budget]:** O orçamento estimado para as configurações de direcionamento.
+  * **[!UICONTROL Budget]:** O orçamento estimado para as configurações de direcionamento.
 
-   * **[!UICONTROL Impression]:** O número estimado de impressões para as configurações de direcionamento.
+  * **[!UICONTROL Impression]:** O número estimado de impressões para as configurações de direcionamento.
 
 * **[!UICONTROL Budget Yield Curve]:** O número estimado de impressões que o posicionamento pode gerar em diferentes níveis de orçamento se todas as outras configurações de direcionamento forem iguais.
 
@@ -66,13 +70,13 @@ A previsão inclui as seguintes informações:
 
 * Dados Históricos: A previsão de posicionamento estará disponível quando dados históricos suficientes estiverem disponíveis. Veja a seguir exemplos de quando dados históricos insuficientes podem estar disponíveis:
 
-   * A disposição é direcionada a uma nova região para a campanha.
+  * A disposição é direcionada a uma nova região para a campanha.
 
-   * O posicionamento é direcionado a uma nova oferta de inventário para a campanha.
+  * O posicionamento é direcionado a uma nova oferta de inventário para a campanha.
 
-   * O posicionamento usa um novo tipo de anúncio para a campanha.
+  * O posicionamento usa um novo tipo de anúncio para a campanha.
 
-     Uma inserção geralmente é uma coleção de vários modelos de anúncio, conforme definido pelas plataformas do lado da oferta. Portanto, mesmo que o posicionamento já exista há muito tempo, se o modelo de anúncio subjacente for novo, a ferramenta de previsão não poderá criar uma previsão.
+    Uma inserção geralmente é uma coleção de vários modelos de anúncio, conforme definido pelas plataformas do lado da oferta. Portanto, mesmo que o posicionamento já exista há muito tempo, se o modelo de anúncio subjacente for novo, a ferramenta de previsão não poderá criar uma previsão.
 
 ## Abrir o relatório de previsão de posicionamento
 

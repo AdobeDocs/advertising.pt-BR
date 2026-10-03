@@ -1,20 +1,23 @@
 ---
 title: Sobre [!DNL Google Ads] posicionamentos
-description: Saiba mais sobre as opções de posicionamentos licitáveis e negativos para  [!DNL Google Ads].
+description: Saiba mais sobre opções para posicionamentos licitáveis e negativos para [!DNL Google Ads].
 exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8
+TQID: 'https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # Sobre [!DNL Google Ads] posicionamentos
 
 *[!DNL Google Ads]somente contas*

@@ -3,20 +3,27 @@ title: Editar uma experiência com direcionamento de árvore de decisão
 description: Saiba como editar as configurações de uma experiência de anúncio direcionada usando uma árvore de decisão.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Editar uma experiência com direcionamento de árvore de decisão
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -41,11 +48,11 @@ ht-degree: 0%
 
    * ([Processando](experience-about.md#experience-statuses) experiências) Siga um destes procedimentos:
 
-      * Para descartar as alterações não postadas existentes na experiência online, clique em **[!UICONTROL Discard and start again]**.
+     * Para descartar as alterações não postadas existentes na experiência online, clique em **[!UICONTROL Discard and start again]**.
 
-      * Para manter as alterações não postadas existentes, clique em **[!UICONTROL Continue editing draft]**.
+     * Para manter as alterações não postadas existentes, clique em **[!UICONTROL Continue editing draft]**.
 
-      * Para editar os detalhes da experiência, clique em **[!UICONTROL Edit Experience Details]**.
+     * Para editar os detalhes da experiência, clique em **[!UICONTROL Edit Experience Details]**.
 
    * (Opcional) Altere as configurações de exibição da árvore de decisão.
 
@@ -57,25 +64,25 @@ ht-degree: 0%
 
    * (Opcional) Altere os públicos-alvo de publicidade e as criações correspondentes de qualquer uma das seguintes maneiras:
 
-      * Metas:
+     * Metas:
 
-        *[Adicione um nó de destino ao nível final](experience-target-node-add-final.md) em uma experiência.
+       *[Adicione um nó de destino ao nível final](experience-target-node-add-final.md) em uma experiência.
 
-         * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
+       * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
 
-         * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
+       * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
 
-         * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
+       * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
 
-      * Pacotes do Creative:
+     * Pacotes do Creative:
 
-         * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
+       * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
 
-           Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
+         Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
 
-         * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
+       * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
-         * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+       * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
 
 1. (Opcional) Edite as [configurações gerais de experiência](experience-settings-targeting.md).
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
    * (Se cada nó no nível mais inferior não incluir pelo menos um pacote criativo), siga um destes procedimentos:
 
-      * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
+     * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
 
-        Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
+       Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
 
-      * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+     * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
 
-      * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+     * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

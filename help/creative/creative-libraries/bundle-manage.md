@@ -3,20 +3,27 @@ title: Gerenciar pacotes criativos
 description: Saiba como gerenciar e usar grupos de criadores.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Gerenciar pacotes criativos
 
 <!--
@@ -75,9 +82,9 @@ Você pode anexar um criativo a vários pacotes.
 
    * Para duplicar um único pacote:
 
-      * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Duplicate]**.
+     * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Duplicate]**.
 
-      * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Duplicate]**.
+     * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Duplicate]**.
 
    * Para duplicar um ou mais pacotes, marque a caixa de seleção para cada pacote que deseja duplicar. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ Desanexar um criativo do pacote não exclui o criativo da guia Criativos na bibl
 
    * Para desanexar um único criativo:
 
-      * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Detach]**.
+     * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Detach]**.
 
-      * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Detach]**.
+     * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Detach]**.
 
    * Para desanexar uma ou mais criações, marque a caixa de seleção de cada criação que deseja desanexar. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Detach]**.
 
@@ -316,9 +323,9 @@ Você pode excluir pacotes que não estão atribuídos a uma experiência [live]
 
    * Para excluir um único pacote:
 
-      * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Delete]**.
+     * Na exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome do pacote e em **[!UICONTROL Delete]**.
 
-      * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
+     * Na exibição de tabela, mantenha o cursor sobre a linha e clique em **[!UICONTROL Delete]**.
 
    * Para excluir um ou mais pacotes, marque a caixa de seleção para cada pacote que deseja excluir. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Delete].**
 

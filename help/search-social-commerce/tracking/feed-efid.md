@@ -3,20 +3,24 @@ title: Rastreamento de conversão usando um feed de ID EF
 description: Saiba mais sobre como usar um feed de ID de EF para dados de rastreamento de conversão.
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+TQID: 'https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # Rastreamento de conversão usando um feed de ID EF
 
 Neste método, a Advertising Cloud coleta um valor `ef_id` sempre que um usuário clica e anúncio e chega à página de aterrissagem, e o anunciante armazena o valor `ef_id` com os dados de conversão e o envia em um feed de dados.

@@ -1,23 +1,28 @@
 ---
 title: Habilitar carregamento de objetivos para redes de anúncios
-description: Saiba como carregar objetivos para seus portfólios híbridos do  [!DNL Google Ads] and [!DNL Microsoft Advertising].
+description: Saiba como carregar objetivos para seus portfólios híbridos no [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Habilitar carregamento de objetivos para redes de anúncios
 
 *Anunciantes somente com contas [!DNL Google Ads] e [!DNL Microsoft Advertising]*
@@ -83,9 +88,9 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 
 * ([!DNL Google Ads]) Verifique se as conversões devem ser carregadas no nível de conta ou de gerente. Caso seja necessário fazer upload deles no nível do gerente:
 
-   * Verifique se as credenciais da conta de gerente [!DNL Google Ads] são fornecidas em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/admin/manager-accounts.md).
+  * Verifique se as credenciais da conta de gerente [!DNL Google Ads] são fornecidas em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessário, [adicione as credenciais para a conta de gerente](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
+  * Verifique se a conta da rede de publicidade já inclui o mesmo nome de métrica. Em caso afirmativo, renomeie a métrica para que a propriedade correta em nível de gerente possa ser criada.
 
 * Verifique se a opção &quot;híbrida&quot; do portfólio está selecionada e se o objetivo tem receita válida.
 

@@ -3,18 +3,21 @@ title: A tag de mapeamento de conversão do Adobe Advertising
 description: Saiba mais sobre a tag de mapeamento de conversão baseada em JavaScript para ITP 2.2, que permite que o Adobe Advertising rastreie um evento de conversão que ocorre em uma página que não é a página inicial.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # A tag de mapeamento de conversão do Adobe Advertising JavaScript
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
@@ -27,7 +30,7 @@ Para usar a tag de mapeamento de conversão:
 
 1. [Implante a marca de mapeamento de conversão](#deploy-conversion-mapping-tag).
 
-1. Se sua organização usa várias IDs de organização do Serviço de identidade da Adobe Experience Cloud (antes chamadas de IDs de organização IMS), [atualize suas tags de conversão](#update-conversion-tags) para incluir a ID de organização.
+1. Se sua organização usar várias IDs de organização do Serviço de Identidade da Adobe Experience Cloud (antes chamadas de IDs de organização IMS), [atualize suas tags de conversão](#update-conversion-tags) para incluir a ID da organização.
 
 1. [Validar a implantação da marca](#validate-conversion-mapping).
 
@@ -49,9 +52,9 @@ Para usar a tag de mapeamento de conversão:
 
   em que:
 
-   * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
+  * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
 
-   * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
+  * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
 * Se você estiver usando um sistema de gerenciamento de tags que não oferece suporte à adição da variável `imsorgid` à tag de script, use o seguinte código:
 
@@ -67,22 +70,22 @@ Para usar a tag de mapeamento de conversão:
 
   onde você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
-   * Se sua organização usar várias IDs de organização:
+  * Se sua organização usar várias IDs de organização:
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     em que:
+    em que:
 
-      * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
+    * você substitui o valor `{xxxxxx@AdobeOrg}` pela ID da organização para a qual as conversões da página são rastreadas. Use a mesma ID de organização para todas as páginas de conversão.
 
-      * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
+    * você substitui `{AMO User ID}` pela ID de usuário exclusiva da sua conta do Search, Social e Commerce.
 
 Se você não souber o valor da ID da organização ou da ID de usuário de Pesquisa, Social e Commerce, pergunte à equipe de conta da Adobe.
 

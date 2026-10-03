@@ -2,13 +2,19 @@
 title: '[!UICONTROL AdWords Conversion Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Conversion Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Conversion Report]
 
 *[!DNL Google Ads]contas com [!DNL Google Ads] somente otimização de conversão*
@@ -19,7 +25,7 @@ Você pode exibir dados dos dois meses anteriores.
 
 >[!NOTE]
 >
->Os dados deste relatório são extraídos para o dia anterior, às 23:00 (23:00) diariamente. Por exemplo, às 23:00 em 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho em 23:00.
+>Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) diariamente. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho às 23:00.
 
 ## Colunas padrão
 

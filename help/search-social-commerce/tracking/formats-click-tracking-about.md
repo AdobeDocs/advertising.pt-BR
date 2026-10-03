@@ -3,18 +3,21 @@ title: Sobre formatos de URL de rastreamento de cliques para o serviço de rastr
 description: Saiba mais sobre os formatos de rastreamento de cliques para redes de anúncios compatíveis.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # Sobre formatos de URL de rastreamento de cliques para o serviço de rastreamento de conversão da Adobe Advertising
 
 Os templates de rastreamento, sufixos de landing page (sufixos de URL final) e URLs de destino para contas de anúncio e campanhas que usam o serviço de rastreamento de conversão do Adobe Advertising têm o seguinte formato:
@@ -29,9 +32,9 @@ em que:
 
 * `<token passing parameter>` é uma variável para um dos seguintes:
 
-   * `cq?` ou `rq` indica que a transmissão de tokens está habilitada.
+  * `cq?` ou `rq` indica que a transmissão de tokens está habilitada.
 
-   * `c?` ou `r` indica que a passagem do token está desabilitada.
+  * `c?` ou `r` indica que a passagem do token está desabilitada.
 
 * `<ad network ID>` é uma variável da ID numérica da rede de publicidade especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo DSP], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), *105* para [!DNL Yahoo Native] (obsoleto) ou *106* para [!DNL Pinterest] (obsoleto).
 

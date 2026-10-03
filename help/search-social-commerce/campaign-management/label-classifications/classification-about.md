@@ -3,18 +3,21 @@ title: Sobre as classificações de rótulo
 description: Saiba mais sobre como usar as classificações de etiquetas para agrupar os componentes da conta.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
+TQID: 'https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '307'
 ht-degree: 0%
-
 ---
-
 # Sobre as classificações de rótulo
 
 As classificações de etiquetas ajudam a agrupar os componentes da conta em conjuntos significativos. Por exemplo, você pode criar uma classificação de etiqueta principal chamada &quot;Geo&quot;, criar um valor de etiqueta diferente para cada região geográfica (como &quot;Reino Unido&quot; e &quot;Japão&quot;) dentro da classificação e, em seguida, atribuir os valores da etiqueta às suas [unidades de oferta](/help/search-social-commerce/glossary.md#a-b) ou campanhas principais. Em seguida, você pode incluir qualquer valor de rótulo como uma coluna separada em suas exibições e relatórios e criar uma tabela dinâmica de seus relatórios sobre diferentes grupos de classificação e valores.

@@ -1,15 +1,24 @@
 ---
 title: Procure a documentação do produto usando o bate-papo assistido por IA
-description: Saiba como pesquisar no Adobe Advertising DSP e na  [!DNL Creative] documentação usando o bate-papo assistido por IA. Obtenha respostas com citações e sugestões de prompts de acompanhamento.
+description: Saiba como pesquisar no Adobe Advertising DSP e na documentação do [!DNL Creative] usando o bate-papo assistido por IA. Obtenha respostas com citações e sugestões de prompts de acompanhamento.
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # Procure a documentação do produto usando uma interface de bate-papo assistida por IA
 
 *Suporte somente para inglês*
@@ -72,13 +81,13 @@ Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por
 
 * Ao lado da lista [!UICONTROL Documentation Sources]:
 
-   * Para obter respostas úteis, clique em ![Aumentar](/help/dsp/assets/thumbs-up.png "Aumentar").
+  * Para obter respostas úteis, clique em ![Aumentar](/help/dsp/assets/thumbs-up.png "Aumentar").
 
-   * Para respostas inúteis, clique em ![Polegar para baixo](/help/dsp/assets/thumbs-down.png "Polegar para baixo").
+  * Para respostas inúteis, clique em ![Polegar para baixo](/help/dsp/assets/thumbs-down.png "Polegar para baixo").
 
 ## Noções básicas para escrever prompts {#writing-prompts}
 
-* **Seja claro e específico.** Use perguntas completas (&quot;Como eu me inscrevo no inventário sob demanda?&quot;), frases de tarefas (&quot;assinar o inventário sob demanda&quot;) ou frases de tópicos (&quot;Inventário sob demanda&quot;).
+* **Seja claro e específico.** Use perguntas completas (&quot;Como eu me inscrevo no inventário sob demanda?&quot;), frases de tarefas (&quot;Inscrever-se no inventário sob demanda&quot;) ou frases de tópicos (&quot;Inventário sob demanda&quot;).
 
 * **Corresponder termos da interface** quando possível para recursos do produto (como &quot;campanhas&quot; ou &quot;ofertas&quot;).
 

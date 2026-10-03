@@ -2,13 +2,19 @@
 title: Ajudar configurações do relatório
 description: Saiba mais sobre as configurações obrigatórias e opcionais para relatórios de assistência.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 0%
-
 ---
-
 # Ajudar configurações do relatório
 
 *Anunciantes com rastreamento de cliques em Search, Social e Commerce e com rastreamento de conversão da Adobe Advertising, Adobe Analytics (com uma integração [!DNL Analytics]) ou fornecidos em feeds usando apenas um token (`ef_id`)*
@@ -30,7 +36,7 @@ ht-degree: 0%
 |  | [!UICONTROL Indicate account name after entity name] | ([!UICONTROL Campaign Assist  Report] somente) Inclui o nome da conta da rede de publicidade entre parênteses após o nome da campanha. Exemplo: `<campaign name> [Google Adwords] [Account1]` |
 |  | [!UICONTROL Indicate event  type after entity name] | ([!UICONTROL Campaign Assist Report] somente) Inclui o tipo de evento entre parênteses após o nome da campanha. Exemplos: `<campaign name> [click]` ou `<campaign name> [Google Adwords] [Account1] [impression]` |
 | [!UICONTROL Filters] | [!UICONTROL Report Filters] | ([!UICONTROL Campaign Assist Report] somente) Retorna linhas somente quando o valor de uma métrica atende aos critérios especificados. A métrica não precisa ser incluída como uma coluna no relatório. A lista de métricas disponíveis varia de acordo com o tipo de relatório, mas pode incluir métricas derivadas personalizadas para o anunciante, as IDs e os nomes de propriedades para cada mecanismo de pesquisa e componente de portfólio (como [!UICONTROL Campaign ID] e [!UICONTROL Campaign Status]), métricas de conversão para o anunciante e métricas relacionadas a cliques das redes de anúncios. Os operadores disponíveis incluem <i>[!UICONTROL contains]</i>, <i>[!UICONTROL starts with]</i>, <i>[!UICONTROL equals]</i>, <i>[!UICONTROL is greater than]</i>, <i>[!UICONTROL is greater than or equal to]</i>, <i>[!UICONTROL is less than]</i>, <i>[!UICONTROL is less than or equal to]</i> ou <i>[!UICONTROL isn't equal to]</i>.<br><br>Para aplicar um ou mais filtros, faça o seguinte:<ul><li>Selecione uma métrica e um operador e insira o valor aplicável. Por exemplo, para retornar apenas palavras-chave com mais de 100 cliques, selecione [!UICONTROL Clicks], selecione [!UICONTROL >] e digite 100 no campo de entrada.</li><li>(Para aplicar filtros adicionais) Para cada filtro adicional, clique em **[!UICONTROL +Add Filter]**, selecione **[!UICONTROL AND]** ou **[!UICONTROL OR]**, selecione uma métrica e um operador e insira o valor aplicável.</li></ul> |
-| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editável somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada; caso contrário, definida como &quot;[!UICONTROL Now]&quot;) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando em 09:00 AM. |
+| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editável somente quando a opção &quot;[!UICONTROL Save as template]&quot; está selecionada; caso contrário, definida como &quot;[!UICONTROL Now]&quot;) Quando executar o relatório: <i>[!UICONTROL Now]</i> (para executar o relatório uma vez; o padrão), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Dia da Semana]</i> ou <i>[!UICONTROL Every Month] [Dia do Mês]</i>. Para todos os períodos, exceto <i>[!UICONTROL Now]</i>, selecione a hora no fuso horário do anunciante, começando às 09:00 AM. |
 |  | [!UICONTROL Email Recipients] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Usuários de Pesquisa, Social e Commerce registrados para os quais enviar notificações quando o relatório é concluído ou é cancelado devido a erros. Por padrão, o nome da sua conta de usuário é selecionado. Opcionalmente, adicione ou remova usuários com acesso aos dados do anunciante. Quando o relatório é agendado para execução repetida, uma notificação é enviada sempre que um relatório é concluído. |
 |  | [!UICONTROL Email Notification Format] | <b>Observação:</b> essa configuração é usada somente quando as notificações por email de [!UICONTROL Reports] estão [habilitadas em [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Quando [!UICONTROL Email Recipients] são especificados) O que incluir nas notificações por email para qualquer endereço especificado:<ul><li><i>[!UICONTROL Notification Only]</i> (padrão): enviar apenas uma notificação da conclusão ou falha do relatório, sem anexos. A notificação inclui links de download temporários para todos os formatos de relatório.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir uma cópia do relatório concluído no formato XLS se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato TSV, se o arquivo tiver menos de aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir uma cópia do relatório concluído no formato CSV se o arquivo tiver menos que aproximadamente 10 MB. Arquivos com mais de 1 MB são compactados. |
 

@@ -3,18 +3,23 @@ title: Gerar um URL de rastreamento de cliques
 description: Saiba como gerar manualmente um URL de rastreamento de cliques do Search, Social e Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
+TQID: 'https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 0%
-
 ---
-
 # Gerar um URL de rastreamento de cliques do Search, Social e Commerce usando a ferramenta URLs de rastreamento
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
@@ -39,47 +44,47 @@ Para obter informações sobre quando você deve gerar e implementar manualmente
 
       * Especifique um arquivo contendo as informações inserindo o caminho completo e o nome do arquivo ou clicando em **[!UICONTROL Browse]** para localizar o arquivo no dispositivo ou na rede. O arquivo deve ser um arquivo de texto delimitado por tabulação com um item por linha no seguinte formato:
 
-         * (Criações, Anúncios padrão) `**landing_page**`
+        * (Criações, Anúncios padrão) `**landing_page**`
 
-           onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+          onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-           Exemplo: http://www.example.com/travel.html
+          Exemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
+        * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-           onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+          onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-           Exemplo: `Careers <tab> ** <tab> http://www.example.com/careers.html`
+          Exemplo: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-           O arquivo pode incluir até 10.000 linhas.
+          O arquivo pode incluir até 10.000 linhas.
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produtos) `product name <tab> ** <tab> landing_page`
+        * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produtos) `product name <tab> ** <tab> landing_page`
 
-           onde `product name` é o nome do produto e `landing_page` é uma URL de página de aterrissagem ou URL de base válida.
+          onde `product name` é o nome do produto e `landing_page` é uma URL de página de aterrissagem ou URL de base válida.
 
-           Exemplo: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+          Exemplo: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-           O arquivo pode incluir até 10.000 linhas.
+          O arquivo pode incluir até 10.000 linhas.
 
       * No campo de entrada, insira um item por linha no seguinte formato:
 
-         * (Criações, Anúncios padrão) `landing_page`
+        * (Criações, Anúncios padrão) `landing_page`
 
-           onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+          onde `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-           Exemplo: http://www.example.com/travel.html
+          Exemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
+        * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
 
-           onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
+          onde `sitelink` é o nome do sitelink e `landing_page` é um URL de página de aterrissagem ou URL de base válido.
 
-           Exemplo: `Careers**http://www.example.com/careers.html`
+          Exemplo: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produtos) `product name**landing_page`
+        * ([!DNL Google Merchant Center] grupos de produtos e [!DNL Microsoft Advertising] anúncios de produtos) `product name**landing_page`
 
-           onde `product name` é o nome do produto e `landing_page` é uma URL de página de aterrissagem ou URL de base válida.
+          onde `product name` é o nome do produto e `landing_page` é uma URL de página de aterrissagem ou URL de base válida.
 
-           Exemplo: Acme PR208**http://www.example.com/travel.html
+          Exemplo: Acme PR208**http://www.example.com/travel.html
 
    1. Clique em **[!UICONTROL Generate Tracking URLs]**.
 

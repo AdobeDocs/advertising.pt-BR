@@ -3,18 +3,21 @@ title: Parâmetros de rastreamento opcionais para URLs de rastreamento de clique
 description: Saiba mais sobre os parâmetros opcionais de rastreamento de Pesquisa, Social e Commerce e adicione parâmetros de rastreamento específicos à rede que você pode adicionar aos URLs de rastreamento de cliques.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques
 
 Somente contas *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex]*
@@ -25,11 +28,11 @@ Em vez de usar apenas os parâmetros de rastreamento padrão para um URL final o
 
 * Você pode anexar parâmetros específicos da rede de Adobe Advertising e anúncios nos URLs base da conta/campanha para rastrear mais dados:
 
-   * Os parâmetros do Adobe Advertising são semiestáticos. O Adobe Advertising insere um valor de dados ao fazer upload do URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` à URL base, o Adobe Advertising substitui `{ef_campaign}` pelo nome real da campanha (como &quot;Campanha de volta à escola&quot;) quando carrega a URL.
+  * Os parâmetros do Adobe Advertising são semiestáticos. O Adobe Advertising insere um valor de dados ao fazer upload do URL base para a rede de publicidade. Por exemplo, quando você anexa `campaign={ef_campaign}` à URL base, o Adobe Advertising substitui `{ef_campaign}` pelo nome real da campanha (como &quot;Campanha de volta à escola&quot;) quando carrega a URL.
 
-     **Observação:** depois que os valores são inseridos, eles permanecem estáticos. Se você mover uma palavra-chave ou anúncio para um grupo de anúncios diferente, ou mover o grupo de anúncios para uma campanha diferente, o parâmetro {ef_adgroup} ou {ef_campaign} não será atualizado automaticamente, portanto, você deve gerar manualmente uma nova URL de destino ou URL de base (final).
+    **Observação:** depois que os valores são inseridos, eles permanecem estáticos. Se você mover uma palavra-chave ou anúncio para um grupo de anúncios diferente, ou mover o grupo de anúncios para uma campanha diferente, o parâmetro {ef_adgroup} ou {ef_campaign} não será atualizado automaticamente, portanto, você deve gerar manualmente uma nova URL de destino ou URL de base (final).
 
-   * Parâmetros específicos da rede de publicidade são dinâmicos, e o mecanismo de pesquisa insere um valor de dados quando o usuário clica em uma publicidade. Por exemplo, quando você anexa `{param1}` ao URL base, a rede de publicidade substitui pelo valor real de {param1} quando um usuário final clica no anúncio.
+  * Parâmetros específicos da rede de publicidade são dinâmicos, e o mecanismo de pesquisa insere um valor de dados quando o usuário clica em uma publicidade. Por exemplo, quando você anexa `{param1}` ao URL base, a rede de publicidade substitui pelo valor real de {param1} quando um usuário final clica no anúncio.
 
 >[!NOTE]
 >

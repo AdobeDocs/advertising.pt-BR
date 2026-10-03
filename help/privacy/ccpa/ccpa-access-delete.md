@@ -4,24 +4,33 @@ description: Saiba mais sobre os tipos de solicitação de dados compatíveis, a
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-TQID: https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A
+TQID: 'https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: '1111'
 ht-degree: 0%
-
 ---
-
 # Suporte do Adobe Advertising para a California Consumer Privacy Act: suporte ao acesso e exclusão de dados do consumidor
 
 *Para [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; e Adobe Advertising DCO*
@@ -95,19 +104,19 @@ Todas as etapas são necessárias para receber suporte do Adobe Advertising. Par
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*sua ID da organização da CX Enterprise*>
+* `"value":` &lt;*ID da organização da CX Enterprise*>
 
 &quot;users&quot;:
 
-* `"key":` &lt;*geralmente o nome do cliente*>
+* `"key":` &lt;*normalmente é o nome do cliente*>
 
 * `"action":` `**access**` ou `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (que indica o [[!DNL AdCloud] espaço de cookies](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix))
+  * `"namespace": **411**` (que indica o [[!DNL AdCloud] espaço de cookies](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix))
 
-   * `"value":` &lt;*o valor real da ID do cookie do cliente, conforme recuperado de`AdobePrivacy.js`*>
+  * `"value":` &lt;*o valor real da ID do cookie do cliente foi recuperado de`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (que é o [[!DNL Adobe] produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix) que se aplica à solicitação)
 

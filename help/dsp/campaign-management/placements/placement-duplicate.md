@@ -3,22 +3,26 @@ title: Posicionamentos duplicados
 description: Saiba como duplicar um ou mais posicionamentos.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Posicionamentos duplicados
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ Consulte &quot;[O que não está duplicado](#placement-not-duplicated)&quot; par
 
    * Para duplicar vários posicionamentos:
 
-      1. Marque a caixa de seleção ao lado de cada posicionamento a ser duplicado.
+     1. Marque a caixa de seleção ao lado de cada posicionamento a ser duplicado.
 
-      1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Duplicate]**.
+     1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Duplicate]**.
 
 1. Especifique as novas configurações de posicionamento:
 
@@ -74,10 +78,10 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 * (Se você não anexar anúncios) Peso e agendamento personalizados de anúncios
 * Posicionamentos padrão para ofertas programáticas garantidas (PG) e posicionamentos para [!UICONTROL Simple Ad Serving] ofertas
 * (Se você copiar disposições para uma campanha diferente):
-   * Destinos geográficos
-   * Pixels de evento
-   * Anúncios
-   * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability] (que substituem os segmentos no nível do anunciante)
+  * Destinos geográficos
+  * Pixels de evento
+  * Anúncios
+  * Segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability] (que substituem os segmentos no nível do anunciante)
 
 ## Práticas recomendadas para configurar as novas disposições
 
@@ -90,19 +94,19 @@ Todas as configurações das disposições originais são duplicadas, exceto:
 
 * Considere o seguinte e edite as novas disposições conforme necessário:
 
-   * A conta tem financiamento suficiente para acomodar os novos orçamentos de posicionamento?
+  * A conta tem financiamento suficiente para acomodar os novos orçamentos de posicionamento?
 
-   * Os novos posicionamentos precisam de orçamentos diferentes dos posicionamentos anteriores? Os orçamentos mínimos são necessários?
+  * Os novos posicionamentos precisam de orçamentos diferentes dos posicionamentos anteriores? Os orçamentos mínimos são necessários?
 
-   * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
+  * Faça upload de criações, incluindo qualquer ponderação e agendamento de anúncio personalizado necessário, e anexe-as aos posicionamentos.
 
-   * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
+  * Anexe pixels do evento, conforme necessário, aos posicionamentos e anúncios.
 
-   * Inclua destinos geográficos e segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability], conforme necessário, nos posicionamentos.
+  * Inclua destinos geográficos e segmentos no nível de posicionamento [!DNL DoubleVerify Authentic Brand Suitability], conforme necessário, nos posicionamentos.
 
-   * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
+  * Para ofertas programáticas garantidas, use novas IDs de negócios e crie inserções padrão.
 
-   * Crie novos posicionamentos para [!UICONTROL Simple Ad Serving] ofertas, conforme necessário.
+  * Crie novos posicionamentos para [!UICONTROL Simple Ad Serving] ofertas, conforme necessário.
 
 >[!MORELIKETHIS]
 >

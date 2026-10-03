@@ -3,21 +3,26 @@ title: Sobre notificações
 description: Saiba mais sobre notificações, incluindo os diferentes tipos e categorias.
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns
+TQID: 'https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # Sobre notificações
 
 *Recurso do Beta*
@@ -52,25 +57,25 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: Notificações de que uma [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluída ou falhou.
+  * **[!UICONTROL Bulksheets]**: Notificações de que uma [operação de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) foi concluída ou falhou.
 
-   * **[!UICONTROL Manager Account Missing]**: as notificações de que Search, Social e Commerce não têm as credenciais de uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessárias para a configuração correta de funções críticas.
+  * **[!UICONTROL Manager Account Missing]**: as notificações de que Search, Social e Commerce não têm as credenciais de uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md), que são necessárias para a configuração correta de funções críticas.
 
-   * **[!UICONTROL UI Actions]**: Notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [trabalhos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), trabalhos de edição em massa na tabela de dados ou usando a barra de ferramentas, trabalhos de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) para qualquer entidade, atribuir uma campanha a um portfólio e atribuir ou desatribuir uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+  * **[!UICONTROL UI Actions]**: Notificações de que seus trabalhos executados em segundo plano foram concluídos ou falharam. Os tipos de trabalho incluem [trabalhos de bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), trabalhos de edição em massa na tabela de dados ou usando a barra de ferramentas, trabalhos de atribuição de entidade ou outras ações na interface do usuário (como sincronizar com redes de anúncios, colar linhas ou renomear entidades). As atribuições de entidade incluem atribuir ou desatribuir um [valor de classificação de etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) para qualquer entidade, atribuir uma campanha a um portfólio e atribuir ou desatribuir uma restrição a um portfólio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: usado para um beta fechado
+    * **[!UICONTROL Direct File Upload]**: usado para um beta fechado
 
-      * **[!UICONTROL File Upload to Cloud Storage]**: usado para um beta fechado
+    * **[!UICONTROL File Upload to Cloud Storage]**: usado para um beta fechado
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: as notificações de que a Pesquisa, o Social e a Commerce não conseguiram acessar uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
+    * **[!UICONTROL Account Auth Error]**: as notificações de que a Pesquisa, o Social e a Commerce não conseguiram acessar uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
 
-      * **[!UICONTROL Account Missing]**: as credenciais de uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) estão ausentes nas notificações de que Search, Social e Commerce.
+    * **[!UICONTROL Account Missing]**: as credenciais de uma [conta de rede de anúncios](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) estão ausentes nas notificações de que Search, Social e Commerce.
 
-      * **[!UICONTROL Manager Account Auth Error]**: Notificações de que a Pesquisa, o Social e o Commerce não puderam ser sincronizados com uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
+    * **[!UICONTROL Manager Account Auth Error]**: Notificações de que a Pesquisa, o Social e o Commerce não puderam ser sincronizados com uma [conta de gerente de rede de publicidade](/help/search-social-commerce/admin/manager-accounts.md) devido a credenciais inválidas ou um token de autorização inválido ou expirado.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -82,13 +87,13 @@ Você pode exibir suas notificações, marcá-las como lidas ou não lidas e exc
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: Notificações de que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
+  * **[!UICONTROL Advertising Insights]**: Notificações de que [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Custom Alerts]**: Notificações de que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionadas para um modelo de alerta.
+  * **[!UICONTROL Custom Alerts]**: Notificações de que [instâncias de alerta](/help/search-social-commerce/alerts/alert-about.md) foram acionadas para um modelo de alerta.
 
-   * **[!UICONTROL Reports]**: Notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
+  * **[!UICONTROL Reports]**: Notificações de que um [relatório personalizado ou agendado](/help/search-social-commerce/reports/report-about.md) foi concluído ou falhou.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
+  * **[!UICONTROL Spreadsheet Feeds]**: Notificações de que um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) foi concluído ou falhou.
 
 <!--
 * [!UICONTROL Optimization]

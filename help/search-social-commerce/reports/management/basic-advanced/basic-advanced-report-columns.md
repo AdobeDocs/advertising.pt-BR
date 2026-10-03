@@ -3,23 +3,34 @@ title: Colunas de relatório para relatórios básicos e avançados
 description: Saiba mais sobre as colunas de dados disponíveis para relatórios básicos e avançados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+TQID: 'https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3847
+source-wordcount: '3878'
 ht-degree: 0%
-
 ---
-
 # Colunas de relatório para relatórios básicos e avançados
 
 | Coluna | Descrição |
@@ -94,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Titles] | (Somente para anúncios de pesquisa multimídia e responsivos) Adiciona uma coluna para cada título curto do anúncio (&quot;[!UICONTROL Creative Title]&quot; até &quot;[!UICONTROL Creative Title15]&quot;). Ao incluir essa coluna, você não precisa incluir as outras colunas [!UICONTROL Creative Title], mas editar a seção [!UICONTROL Order Results/Limit Rows By] para classificar por [!UICONTROL Creative Titles] em vez de [!UICONTROL Creative Title]. |
 | [!UICONTROL Creative Type] | O formato do anúncio. Estes são valores possíveis: <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Demand Gen Carousel Ad]</i> (anúncios do carrossel de várias imagens), <i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>, <i>[!UICONTROL Demand Gen Product Ad]</i> e <i>[!UICONTROL Demand Gen Video Ad]</i>, <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> ou <i>[!UICONTROL Text Ad]</i>. |
 | [!UICONTROL CTR] | A taxa de cliques, que é o número de cliques dividido pelo número de impressões para os anúncios incluídos. |
-| [!UICONTROL Currency] | O tipo de moeda aplicável (como &quot;USD&quot; ou &quot;GBP&quot;).<br><br><b>Observação:</b> se o relatório incluir dados de contas com moedas diferentes, quaisquer valores monetários &quot;[!UICONTROL Total]&quot; serão simplesmente a soma de todos os números na coluna, independentemente da moeda. |
+| [!UICONTROL Currency] | O tipo de moeda aplicável (como &quot;USD&quot; ou &quot;GBP&quot;).<br><br><b>Observação:</b> se o relatório incluir dados de contas com moedas diferentes, quaisquer &quot;[!UICONTROL Total]&quot; valores monetários serão simplesmente a soma de todos os números na coluna, independentemente da moeda. |
 | [!UICONTROL Current Bid] | O lance atual do público alvo. |
 | [!UICONTROL Current First Page Bid] | (Somente campanhas do [!DNL Google Ads]) A oferta de custo por clique (CPC) estimada atualmente necessária para que o anúncio seja colocado na primeira página dos resultados da pesquisa quando uma consulta de pesquisa [!DNL Google] corresponder à palavra-chave.<br><br>Para uma única combinação de palavra-chave e tipo de correspondência, esse valor é a primeira oferta de página atualmente necessária para essa combinação. Quando a mesma combinação de palavra-chave e tipo de correspondência é usada em várias campanhas, esse valor é o lance mínimo da primeira página atualmente necessário entre todas as instâncias. |
 | [!UICONTROL Current Quality Score] | ([!DNL Google Ads] e [!DNL Microsoft Advertising] campanhas somente) A pontuação de qualidade atual para a palavra-chave ou unidade de oferta, conforme designado pela rede de publicidade. Ele varia de 1 (baixo) a 10 (perfeito). Para uma única combinação de palavra-chave e tipo de correspondência, esse valor é a pontuação atual para essa combinação. Quando a mesma combinação de palavra-chave e tipo de correspondência é usada em várias campanhas, esse valor é a pontuação máxima atual entre todas as instâncias.<br><br>As redes de anúncios usam a pontuação de qualidade para determinar preços de compra e posição de anúncio. Ele é calculado de acordo com muitos fatores, incluindo a relevância da palavra-chave para seu anúncio associado e para a consulta de pesquisa do usuário e a qualidade da página inicial. Para palavras-chave em [!DNL Google Ads], a taxa de cliques da palavra-chave também é considerada, e para palavras-chave em [!DNL Microsoft Advertising], a experiência do usuário fornecida pela página de aterrissagem também é considerada. |
@@ -172,7 +183,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | O status do grupo de produtos. |
 | [!UICONTROL Product Groupings] | O grupo de produtos principal. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] anúncios de listagem de produtos) A ID de produto do produto mostrada com o anúncio.<br><br><b>Observação:</b> A ID é capturada somente quando a listagem de produtos inclui o parâmetro de rastreamento `ev_plx=<GMC product ID>`, que deve ser adicionado em [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) A receita para a métrica de conversão (como 1 para um registro ou 12 para um pedido de US$ 12). Se várias unidades de lance tiverem a mesma ID de transação, a receita da ID de rastreamento será dividida de acordo com o número de cliques na data de clique especificada (quando os dados de clique estiverem disponíveis). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) A receita para a métrica de conversão (como 1 para um registro ou 12 para um pedido de 12 USD). Se várias unidades de lance tiverem a mesma ID de transação, a receita da ID de rastreamento será dividida de acordo com o número de cliques na data de clique especificada (quando os dados de clique estiverem disponíveis). |
 | [!UICONTROL Reach] | ([!DNL Meta] campanhas somente) O número de pessoas que viram seus anúncios pelo menos uma vez. Observação: as desduplicatas de [!DNL Meta] atingem os perfis de usuário diariamente, portanto, os números relatados por [!DNL Meta] e por Pesquisa, Social e Commerce podem ser diferentes. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Uma região ou estado dos EUA/Canadá para o qual as impressões ou os cliques se originaram. É determinado pelo endereço IP do usuário. |
 | [!UICONTROL SE Creative ID] | A ID do anúncio atribuída pela rede. |

@@ -3,26 +3,33 @@ title: Configurações da campanha
 description: Consulte descrições das configurações de campanha disponíveis.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # Configurações da campanha
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]:** (Campanhas somente com gerenciamento de margem) Como calcular taxas de agência, que são a parte do orçamento bruto da campanha retida e não incluída no gasto líquido:
 
-   * *[!UICONTROL Margin % of Total Budget]:* (padrão) Taxas de computação como uma porcentagem do gasto bruto. Especifique o [!UICONTROL Agency Fee Type] (fixo ou composto) e o [!UICONTROL Margin %] ou [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Margin % of Total Budget]:* (padrão) Taxas de computação como uma porcentagem do gasto bruto. Especifique o [!UICONTROL Agency Fee Type] (fixo ou composto) e o [!UICONTROL Margin %] ou [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calcule as taxas como uma porcentagem especificada do custo de mídia, dados e outros custos e/ou [!DNL Adobe] taxas técnicas. Especifique o [!UICONTROL Markup %] e selecione os componentes nos quais aplicar a marcação.
+  * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calcule as taxas como uma porcentagem especificada do custo de mídia, dados e outros custos e/ou [!DNL Adobe] taxas técnicas. Especifique o [!UICONTROL Markup %] e selecione os componentes nos quais aplicar a marcação.
 
 * **[!UICONTROL Agency Fee Type]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget]) O tipo de taxa da agência.
 
-   * *[!UICONTROL Fixed]:* (padrão) permite que a DSP retenha uma porcentagem fixa do gasto bruto como taxas de agência. Especifique o [!UICONTROL Margin %].
+  * *[!UICONTROL Fixed]:* (padrão) permite que a DSP retenha uma porcentagem fixa do gasto bruto como taxas de agência. Especifique o [!UICONTROL Margin %].
 
-   * *[!UICONTROL Composite]:* permite que a DSP retenha uma porcentagem do gasto bruto para contabilizar taxas de agência e taxas de tecnologia [!DNL Adobe]. Especifique o [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Composite]:* permite que a DSP retenha uma porcentagem do gasto bruto para contabilizar taxas de agência e taxas de tecnologia [!DNL Adobe]. Especifique o [!UICONTROL Composite Margin %].
 
 * **[!UICONTROL Margin %]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget] com margens fixas) A porcentagem do gasto bruto a ser retida como taxas de agência. Quaisquer alterações no valor da margem são aplicadas apenas aos gastos brutos futuros e não aos gastos brutos históricos da campanha. O valor [!UICONTROL Estimated Tax Withholding] é excluído do gasto bruto antes da aplicação da margem. Veja os exemplos a seguir, que presumem que a campanha não gasta menos ou em excesso.
 
-   * Exemplo 1: suponha que o [!UICONTROL Gross Budget] seja `100 USD` e o [!UICONTROL Margin %] seja `5%` durante todo o voo. No final do voo da campanha, as taxas de agência são computadas como `5 USD` (que é `5% of 100 USD`), e o gasto líquido é `95 USD` (que é `campaign budget [100 USD] - agency fees [5 USD]`).
+  * Exemplo 1: suponha que o [!UICONTROL Gross Budget] seja `100 USD` e o [!UICONTROL Margin %] seja `5%` durante todo o voo. No final do voo da campanha, as taxas de agência são computadas como `5 USD` (que é `5% of 100 USD`), e o gasto líquido é `95 USD` (que é `campaign budget [100 USD] - agency fees [5 USD]`).
 
-   * Exemplo 2 com alterações na margem: para a mesma campanha, suponha que [!UICONTROL Margin %] foi alterado de `5%` para `10%` quando o gasto bruto foi `40 USD`. Para o período antes da alteração, as taxas de agência são computadas como `2 USD` (que é `5% of 40 USD`); para o período após a alteração, as taxas de agência são computadas como `6 USD` (que é `10% of 60 USD`). O total de taxas de agência é calculado como `8 USD` (que é `2 USD + 6 USD`), e o gasto líquido é `92 USD` (que é `campaign budget [100 USD] - total agency fees [8 USD]`).
+  * Exemplo 2 com alterações na margem: para a mesma campanha, suponha que [!UICONTROL Margin %] foi alterado de `5%` para `10%` quando o gasto bruto foi `40 USD`. Para o período antes da alteração, as taxas de agência são computadas como `2 USD` (que é `5% of 40 USD`); para o período após a alteração, as taxas de agência são computadas como `6 USD` (que é `10% of 60 USD`). O total de taxas de agência é calculado como `8 USD` (que é `2 USD + 6 USD`), e o gasto líquido é `92 USD` (que é `campaign budget [100 USD] - total agency fees [8 USD]`).
 
-   * Exemplo 3 com retenção de imposto: suponha que o [!UICONTROL Gross Budget] seja `100 USD`, o [!UICONTROL Estimated Tax Withholding] no final do voo da campanha seja `10 USD` e o [!UICONTROL Margin %] seja `5%` durante todo o voo. No final do voo da campanha, as taxas de agência são computadas como `4.5 USD` (que é `5% of (campaign budget [100 USD] - tax withholding [USD 10])`), e o gasto líquido é `85.5 USD` (que é `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
+  * Exemplo 3 com retenção de imposto: suponha que o [!UICONTROL Gross Budget] seja `100 USD`, o [!UICONTROL Estimated Tax Withholding] no final do voo da campanha seja `10 USD` e o [!UICONTROL Margin %] seja `5%` durante todo o voo. No final do voo da campanha, as taxas de agência são computadas como `4.5 USD` (que é `5% of (campaign budget [100 USD] - tax withholding [USD 10])`), e o gasto líquido é `85.5 USD` (que é `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
 
 * **[!UICONTROL Composite Margin %]:** (Campanhas que usam [!UICONTROL Margin % of Total Budget] com margens compostas) A porcentagem do gasto bruto que deve ser retida como [!DNL Adobe] de taxas técnicas e de agência combinadas. As taxas de agência são calculadas subtraindo-se as taxas técnicas da Adobe do valor da margem composta. Quaisquer alterações no valor da margem composta são aplicadas somente aos gastos brutos futuros e não aos gastos brutos históricos da campanha. O valor [!UICONTROL Estimated Tax Withholding] é excluído do gasto bruto antes da aplicação da margem composta.
 
@@ -145,7 +152,7 @@ Para estimar impostos a reter:
 
 #### Verificação de público
 
-**[!UICONTROL Comscore Campaign Ratings]:** (Opcional) Habilita a medição e o relatório [!DNL Comscore] validados por [!DNL Campaign Ratings] da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
+**[!UICONTROL Comscore Campaign Ratings]:** (Opcional) Habilita a medição e o relatório [!DNL Campaign Ratings] validados por [!DNL Comscore] da verificação de público-alvo, usando as configurações especificadas. Taxas adicionais são aplicadas.
 
 * **[!UICONTROL Target Gender]:** Sexo a ser direcionado: *[!UICONTROL Both]* (padrão), *[!UICONTROL Male]* ou *[!UICONTROL Female]*
 

@@ -1,20 +1,23 @@
 ---
 title: Exibir e criar ativos de publicidade de seu [!UICONTROL Asset Library]
-description: Saiba como exibir e criar ativos de imagem, vídeo e texto reutilizáveis para suas [!DNL Google Ads] e [!DNL Microsoft Advertising] bibliotecas de ativos no nível da conta.
+description: Saiba como visualizar e criar ativos de imagem, vídeo e texto reutilizáveis para suas bibliotecas de ativos no nível da conta do [!DNL Google Ads] e do [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Exibir e criar ativos de publicidade de seu [!UICONTROL Asset Library]
 
 *Somente para contas [!DNL Google Ads] e [!DNL Microsoft Advertising]*
@@ -39,23 +42,23 @@ Você pode usar qualquer um dos ativos das campanhas de desempenho máximo.
 
       * Para ativos de imagem:
 
-         1. Clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
+        1. Clique em **[!UICONTROL +]** e selecione imagens do seu dispositivo ou rede.
 
-            Cada imagem pode ter no máximo 10 MB. É possível carregar até 200 MB de imagens por vez.
+           Cada imagem pode ter no máximo 10 MB. É possível carregar até 200 MB de imagens por vez.
 
-         1. Para cada imagem:
+        1. Para cada imagem:
 
-            1. Clique em ![Cortar](/help/search-social-commerce/assets/crop.png "Cortar").
+           1. Clique em ![Cortar](/help/search-social-commerce/assets/crop.png "Cortar").
 
-            1. Selecione a taxa de proporção.
+           1. Selecione a taxa de proporção.
 
-            1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
+           1. Arraste e posicione a caixa de corte conforme necessário para selecionar a parte visível da imagem e redimensione a parte visível da imagem conforme necessário, quando possível.
 
-            1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
+           1. (Opcional) Selecione proporções adicionais e, opcionalmente, reposicione e redimensione a imagem conforme necessário para cada proporção selecionada.
 
-               Um ativo é criado para cada taxa de proporção selecionada.
+              Um ativo é criado para cada taxa de proporção selecionada.
 
-            1. Clique em **[!UICONTROL Proceed]**.
+           1. Clique em **[!UICONTROL Proceed]**.
 
       * Para ativos de vídeo, insira a URL para um vídeo do [!DNL YouTube] que tenha pelo menos 10 segundos de duração. Para adicionar outro ativo de vídeo, clique em **+ Adicionar** e insira outra URL.
 

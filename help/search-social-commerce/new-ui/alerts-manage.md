@@ -2,13 +2,17 @@
 title: (Nova interface) Gerenciar alertas personalizados
 description: Saiba como criar, configurar, pausar, ativar, excluir, exibir e exportar alertas e modelos de alerta personalizados.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (Nova interface) Gerenciar alertas personalizados
 
 Crie modelos de alerta para identificar quando qualquer portfólio, campanha ou grupo de anúncios atende a condições específicas, como uma métrica de desempenho, durante um período especificado e gerar um alerta. Os alertas estão disponíveis para um único anunciante. Os alertas incluem todas as colunas na visualização padrão relevante. Por exemplo, alertas no nível da campanha incluem todas as colunas na exibição padrão [!UICONTROL Campaigns].

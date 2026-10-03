@@ -3,26 +3,37 @@ title: Configurar a coleta de dados, a transferência de dados e os relatórios
 description: Saiba como configurar a coleta de dados, a transferência de dados e os relatórios.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
+TQID: 'https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2103
+source-wordcount: '2103'
 ht-degree: 1%
-
 ---
-
 # Configurar a coleta de dados, a transferência de dados e os relatórios
 
 *Anunciantes com o Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
@@ -107,29 +118,29 @@ Use a extensão Adobe Experience Platform Web SDK em Tags do Adobe para enviar o
 
    * Criar uma [compilação personalizada do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
 
-      * Na seção [!UICONTROL Custom build components], habilite o componente **Advertising**.
+     * Na seção [!UICONTROL Custom build components], habilite o componente **Advertising**.
 
-        Este componente inclui todo o código JavaScript necessário para o Adobe Advertising na tag e é necessário para clientes do Advertising DSP e do Advertising Search, Social e Commerce. O componente também adiciona uma configuração &quot;Advertising&quot; nas regras de tag (que são opcionais) para definir como os dados de publicidade são usados para medição de atribuição.
+       Este componente inclui todo o código JavaScript necessário para o Adobe Advertising na tag e é necessário para clientes do Advertising DSP e do Advertising Search, Social e Commerce. O componente também adiciona uma configuração &quot;Advertising&quot; nas regras de tag (que são opcionais) para definir como os dados de publicidade são usados para medição de atribuição.
 
-        Opcionalmente, é possível ativar componentes adicionais, conforme necessário.
+       Opcionalmente, é possível ativar componentes adicionais, conforme necessário.
 
-      * Na seção [!UICONTROL SDK Instances]:
+     * Na seção [!UICONTROL SDK Instances]:
 
-         * Nas configurações do [!UICONTROL Datastreams], selecione a sequência de dados a ser usada para cada um dos ambientes da Web (produção, preparo, desenvolvimento).
+       * Nas configurações do [!UICONTROL Datastreams], selecione a sequência de dados a ser usada para cada um dos ambientes da Web (produção, preparo, desenvolvimento).
 
-         * (Somente organizações com Adobe Advertising DSP) Nas [[!UICONTROL Adobe Advertising] configurações](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir o rastreamento de view-through e especifique os anunciantes para os quais habilitar o rastreamento de view-through. Você pode, opcionalmente, coletar IDs de IDs universais (traduzidas de suas [fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)) adicionando a ID de parceiro ID5 da sua organização e/ou o caminho para o código JavaScript (ats.js) do [!DNL LiveRamp] [!DNL LaunchPad] da sua organização para [!DNL RampIDs].
+       * (Somente organizações com Adobe Advertising DSP) Nas [[!UICONTROL Adobe Advertising] configurações](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir o rastreamento de view-through e especifique os anunciantes para os quais habilitar o rastreamento de view-through. Você pode, opcionalmente, coletar IDs de IDs universais (traduzidas de suas [fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)) adicionando a ID de parceiro ID5 da sua organização e/ou o caminho para o código JavaScript (ats.js) do [!DNL LiveRamp] [!DNL LaunchPad] da sua organização para [!DNL RampIDs].
 
-           Se seus anunciantes não estiverem listados, insira a ID de anunciante para cada anunciante. Se necessário, peça as IDs à sua equipe de conta da Adobe.
+         Se seus anunciantes não estiverem listados, insira a ID de anunciante para cada anunciante. Se necessário, peça as IDs à sua equipe de conta da Adobe.
 
-           Se você inserir IDs incorretas, sua equipe de conta da Adobe será notificada.
+         Se você inserir IDs incorretas, sua equipe de conta da Adobe será notificada.
 
-           Exemplo de um caminho do JavaScript [!DNL RampID]: `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+         Exemplo de um caminho do JavaScript [!DNL RampID]: `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
-         * Salve a criação.
+       * Salve a criação.
 
    * (Opcional) [Crie regras](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/rules) conforme necessário para determinar quando o Web SDK deve enviar dados para a Edge Network.
 
-      * Para ações `[sendEvent](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`, use a configuração [[!UICONTROL Advertising]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising) para definir como os dados de publicidade são usados para medição de atribuição. Essa configuração é útil quando a regra inclui uma sequência de várias ações e está disponível somente quando você seleciona o componente &quot;[!UICONTROL Advertising]&quot; para o componente de compilação personalizado.
+     * Para ações `[sendEvent](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`, use a configuração [[!UICONTROL Advertising]](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising) para definir como os dados de publicidade são usados para medição de atribuição. Essa configuração é útil quando a regra inclui uma sequência de várias ações e está disponível somente quando você seleciona o componente &quot;[!UICONTROL Advertising]&quot; para o componente de compilação personalizado.
 
    * Crie [elementos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/data-elements) conforme necessário para mapear variáveis no seu site para a estrutura do esquema XDM criado anteriormente.
 
@@ -173,33 +184,33 @@ Opcionalmente, também é possível editar uma conexão existente com as mesmas 
 
    * Defina as configurações do conjunto de dados:
 
-      * Para as configurações de [!UICONTROL Event Dataset]:
+     * Para as configurações de [!UICONTROL Event Dataset]:
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]:** Se quiser usar um conjunto de dados e um esquema para a Customer Journey Analytics e a Adobe Real-Time CDP, habilite essa configuração e defina a identidade primária no grupo de campos `IdentityMap`. `Required Field` também é suportado.
+       * **[!UICONTROL Use primary identity namespace]:** Se quiser usar um conjunto de dados e um esquema para a Customer Journey Analytics e a Adobe Real-Time CDP, habilite essa configuração e defina a identidade primária no grupo de campos `IdentityMap`. `Required Field` também é suportado.
 
-         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
+       * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         * **[!UICONTROL Import all new data]:** Habilitar a configuração
+       * **[!UICONTROL Import all new data]:** Habilitar a configuração
 
-      * Para as configurações de Classificação ([!UICONTROL Lookup Dataset]), mapeie o conjunto de dados de dimensões para o conjunto de dados de eventos:
+     * Para as configurações de Classificação ([!UICONTROL Lookup Dataset]), mapeie o conjunto de dados de dimensões para o conjunto de dados de eventos:
 
-         * **[!UICONTROL Key]** (o campo a ser usado como a chave para o conjunto de dados de dimensões): `Tracking Code` (que é o mesmo que o campo `trackingCode` no esquema).
+       * **[!UICONTROL Key]** (o campo a ser usado como a chave para o conjunto de dados de dimensões): `Tracking Code` (que é o mesmo que o campo `trackingCode` no esquema).
 
-         * **[!UICONTROL Matching key]** (o campo a ser usado como a chave correspondente para o conjunto de dados de eventos): `Tracking Code (Event datasets)`.
+       * **[!UICONTROL Matching key]** (o campo a ser usado como a chave correspondente para o conjunto de dados de eventos): `Tracking Code (Event datasets)`.
 
-         * **[!UICONTROL Import all new data]:** Habilitar a configuração
+       * **[!UICONTROL Import all new data]:** Habilitar a configuração
 
-         * **[!UICONTROL Backfill all existing data]:** Habilitar a configuração
+       * **[!UICONTROL Backfill all existing data]:** Habilitar a configuração
 
-      * Para as configurações de [!UICONTROL Metrics Dataset]:
+     * Para as configurações de [!UICONTROL Metrics Dataset]:
 
-         * **[!UICONTROL Person ID]:** `Identity Map`
+       * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Timestamp]:** Confirmar o valor
+       * **[!UICONTROL Timestamp]:** Confirmar o valor
 
-         * **[!UICONTROL Import all new data]:** Habilitar a configuração
+       * **[!UICONTROL Import all new data]:** Habilitar a configuração
 
 2. Em três horas, verifique se os dados estão disponíveis no Customer Journey Analytics.
 
@@ -219,11 +230,11 @@ No Customer Journey Analytics, crie uma ou mais visualizações de dados para de
 
    * Na guia [!UICONTROL Components]:
 
-      * Adicione seu conjunto de dados de pesquisa (com dimensões/dados de classificação), conjunto de dados de evento (com seus dados no nível do evento) e conjunto de dados de resumo (com suas outras métricas, como cliques).
+     * Adicione seu conjunto de dados de pesquisa (com dimensões/dados de classificação), conjunto de dados de evento (com seus dados no nível do evento) e conjunto de dados de resumo (com suas outras métricas, como cliques).
 
-      * Escolha métricas do conjunto de dados do evento e do conjunto de dados de pesquisa para incluir na visualização de dados.
+     * Escolha métricas do conjunto de dados do evento e do conjunto de dados de pesquisa para incluir na visualização de dados.
 
-      * Procure por &quot;[!UICONTROL Tracking Code]&quot; (que faz parte do conjunto de dados de evento com caminho de esquema `_experience.adcloud.conversionDetails.trackingCode`). Defina **[!UICONTROL Persistence]** como *[!UICONTROL Most Recent]*.
+     * Procure por &quot;[!UICONTROL Tracking Code]&quot; (que faz parte do conjunto de dados de evento com caminho de esquema `_experience.adcloud.conversionDetails.trackingCode`). Defina **[!UICONTROL Persistence]** como *[!UICONTROL Most Recent]*.
 
 <!--
 
@@ -286,7 +297,8 @@ Você pode classificar métricas de resumo e dados de evento usando a mesma dime
 
 >[!TIP]
 >
->Os eventos de resumo normalmente adicionam uma pequena quantidade de dados extras aos relatórios, como alguns eventos extras, uma sessão extra por dia ou uma pessoa extra por relatório. Essas adições são insignificantes em comparação aos eventos padrão da Web. No entanto, você pode filtrar esses dados adicionais do evento de resumo excluindo dados para a ID de pessoa fictícia `00000000-0000-0000-0000-000000000000`.Exemplo de exclusão de dados usando uma ID de pessoa&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "Exemplo de exclusão de dados usando uma ID de pessoa")
+>Os eventos de resumo normalmente adicionam uma pequena quantidade de dados extras aos relatórios, como alguns eventos extras, uma sessão extra por dia ou uma pessoa extra por relatório. Essas adições são insignificantes em comparação aos eventos padrão da Web. No entanto, você pode filtrar esses dados adicionais do evento de resumo excluindo dados para a ID de pessoa fictícia `00000000-0000-0000-0000-000000000000`.
+>![Exemplo de exclusão de dados usando uma ID de pessoa](/help/integrations/assets/cja-report-with-person-id.png "Exemplo de exclusão de dados usando uma ID de pessoa")
 
 ![Como seus conjuntos de dados podem aparecer no Customer Journey Analytics](/help/integrations/assets/cja-report-example.png "Como seus conjuntos de dados podem aparecer no Customer Journey Analytics")
 

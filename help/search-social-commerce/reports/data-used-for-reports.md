@@ -3,20 +3,24 @@ title: Os dados usados para os relatórios
 description: Saiba mais sobre os diferentes tipos de dados disponíveis em visualizações de dados e relatórios personalizados.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 0%
-
+source-wordcount: '639'
+ht-degree: 6%
 ---
-
 # Os dados usados para os relatórios
 
 O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de cliques e conversão. Você pode ver dados básicos de desempenho para os vários componentes de um portfólio ou conta publicitária das visualizações [!UICONTROL Portfolios] e [!UICONTROL Campaigns], bem como gerar vários relatórios básicos e avançados.
@@ -27,17 +31,17 @@ A maioria dos relatórios pode ser personalizada para exibir apenas as informaç
 
 * **Métricas de desempenho padrão:**
 
-   * **[!UICONTROL Impressions]:** O número total de vezes que o anúncio foi colocado.
+  * **[!UICONTROL Impressions]:** O número total de vezes que o anúncio foi colocado.
 
-   * **[!UICONTROL Clicks]:** O número total de vezes que um link foi clicado no anúncio.
+  * **[!UICONTROL Clicks]:** O número total de vezes que um link foi clicado no anúncio.
 
-   * **[!UICONTROL Cost]:** O custo total do anúncio. O custo da publicidade paga por clique (PPC) é sempre o número de cliques multiplicado pelo custo por clique.
+  * **[!UICONTROL Cost]:** O custo total do anúncio. O custo da publicidade paga por clique (PPC) é sempre o número de cliques multiplicado pelo custo por clique.
 
-   * **[!UICONTROL Cost per Click]:** O custo médio de um clique para um anúncio, que é o custo do anúncio dividido pelo número total de cliques no anúncio. Por exemplo, se você gastar US$ 100 para criar uma impressão de anúncio e o anúncio gerar 10 cliques, o custo por clique será de US$ 100/10=10 por clique.
+  * **[!UICONTROL Cost per Click]:** O custo médio de um clique para um anúncio, que é o custo do anúncio dividido pelo número total de cliques no anúncio. Por exemplo, se você gastar 100 USD para obter uma impressão de anúncio e o anúncio gerar 10 cliques, o custo por clique será 100 USD/10=10 USD por clique.
 
-   * **[!UICONTROL Average Position]:** (quando aplicável) a posição média de um anúncio que foi colocado, ponderada pelo número de impressões.
+  * **[!UICONTROL Average Position]:** (quando aplicável) a posição média de um anúncio que foi colocado, ponderada pelo número de impressões.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados de anunciantes somente com o serviço de rastreamento de conversão da Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
+  * **[!UICONTROL Estimated Clicks]:** (Incluído nos relatórios avançados de anunciantes somente com o serviço de rastreamento de conversão da Adobe Advertising) O número total de cliques estimados para uma cidade ou nome de domínio de um site de referência. Isso pode incluir dados para redes de anúncios para as quais um anunciante não tenha uma conta publicitária.
 
 * **Métricas de conversão:** o número total de conversões de cada métrica de conversão do anunciante ou dados de transação rastreados em direção a uma métrica de conversão. Isso pode incluir métricas de conversão e envolvimento do site, mas não métricas calculadas e métricas calculadas avançadas, que são sincronizadas do Adobe Analytics.
 
@@ -53,8 +57,8 @@ Dependendo da regra de atribuição especificada para o relatório, os dados par
 
 | Grupo de relatório | Relatório | Datas para as quais os dados estão disponíveis |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir de 15 de maio de 2021.<br><br><b>Exceção:</b> os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
-| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores.<br><br><b>Exceção:</b> os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir de 15 de maio de 2021.<br><br><b>Exceção:</b> Os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
+| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores.<br><br><b>Exceção:</b> Os dados de métricas de destaque estão disponíveis a partir de 8 de setembro de 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Os 45 dias anteriores. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Os dois (2) meses anteriores mais o mês atual. |
 | [!UICONTROL Assist Reports] | Todos | Os 18 meses anteriores. |

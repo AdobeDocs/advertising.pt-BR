@@ -6,19 +6,23 @@ exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: '1082'
 ht-degree: 0%
-
 ---
-
 # (Nova interface de usuário) Administração de usuários para pesquisa, redes sociais e comércio
 
 Alguns usuários podem gerenciar o acesso à nova interface do Search, Social e Commerce usando a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), que é o local central para gerenciar todos os direitos e o gerenciamento de usuários da Adobe. Os usuários são categorizados como usuários finais ou administradores. Sua equipe de conta da Adobe o notifica se você é um administrador. Se você for um administrador, consulte as seguintes seções para identificar suas permissões e fluxos de trabalho para gerenciar usuários.
@@ -149,7 +153,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Selecione a organização CX Enterprise aplicável.
+   1. Selecione a organização da CX Enterprise aplicável.
 
       O Admin Console abre na guia [!UICONTROL Overview].
 

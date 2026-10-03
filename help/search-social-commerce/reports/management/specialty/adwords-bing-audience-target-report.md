@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords and Bing Audience Target Report].
 exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/Q3ZAzWkY0nW6ZTpRMzWORvfSV5KJfEB8mcn74bOuxTA
+TQID: 'https://experienceleague.adobe.com/Q3ZAzWkY0nW6ZTpRMzWORvfSV5KJfEB8mcn74bOuxTA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] contas apenas*
@@ -28,7 +34,7 @@ O [!UICONTROL AdWords and Bing Audience Target Report] inclui dados de custo, cl
 >[!NOTE]
 >
 >* O [!DNL Google Ads] não fornece os meios de rastrear dados de receita para públicos dentro do mercado.
->* Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23:00 em 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho em 23:00.
+>* Os dados deste relatório são extraídos para o dia anterior às 23:00 (23:00) diariamente. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá os dados até 17 de junho às 23:00.
 
 ## Colunas padrão
 

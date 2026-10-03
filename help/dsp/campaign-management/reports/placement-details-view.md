@@ -3,25 +3,31 @@ title: Exibir os detalhes de sites, anúncios, frequência e estoque de uma disp
 description: Saiba como visualizar os sites direcionados, anúncios, frequência e dados de inventário para um posicionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # Exibir os detalhes de sites, anúncios, frequência e estoque de uma disposição
 
 Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONTROL Inspector])](placement-details-view.md), que lista todos os sites, anúncios e ofertas direcionados em um posicionamento. Também inclui dados de frequência para o posicionamento. Opcionalmente, é possível exportar os dados de qualquer guia.
@@ -39,10 +45,10 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
   A guia [!UICONTROL Ads] inclui recursos de pesquisa e filtragem, as mesmas opções de exibição de coluna padrão e personalizada que estão disponíveis na página principal e botões de ação rápida em cada linha, como [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** Dados para cada nível de frequência de anúncio para o posicionamento, incluindo:
-   * o nível de frequência do anúncio (como &quot;1&quot; para todas as instâncias em que os usuários viram um anúncio uma vez)
-   * o número exclusivo estimado de dispositivos/navegadores ou pessoas (dependendo do [!UICONTROL Cross Device Level] especificado para a campanha) que receberam impressões no nível de frequência especificado
-   * o número estimado de impressões no nível de frequência especificado
-   * a frequência média estimada para o nível de frequência especificado. Esse valor é igual a (Impressões estimadas)/(Únicos estimados).
+  * o nível de frequência do anúncio (como &quot;1&quot; para todas as instâncias em que os usuários viram um anúncio uma vez)
+  * o número exclusivo estimado de dispositivos/navegadores ou pessoas (dependendo do [!UICONTROL Cross Device Level] especificado para a campanha) que receberam impressões no nível de frequência especificado
+  * o número estimado de impressões no nível de frequência especificado
+  * a frequência média estimada para o nível de frequência especificado. Esse valor é igual a (Impressões estimadas)/(Únicos estimados).
 
 * **[!UICONTROL Inventory]:** Informações sobre todas as ofertas direcionadas pelo posicionamento.
 
@@ -54,21 +60,21 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 
    * Exibir todos os posicionamentos na campanha pai:
 
-      1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+     1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-      1. Clique no nome da campanha.
+     1. Clique no nome da campanha.
 
-      1. Clique na guia **[!UICONTROL Placements]**.
+     1. Clique na guia **[!UICONTROL Placements]**.
 
    * Exibir todos os posicionamentos no pacote pai:
 
-      1. No menu principal, clique em **[!UICONTROL Campaigns]**.
+     1. No menu principal, clique em **[!UICONTROL Campaigns]**.
 
-      1. Clique no nome da campanha.
+     1. Clique no nome da campanha.
 
-      1. Clique na guia **[!UICONTROL Packages]**.
+     1. Clique na guia **[!UICONTROL Packages]**.
 
-      1. Clique no nome do pacote pai.
+     1. Clique no nome do pacote pai.
 
 1. Mantenha o cursor sobre a linha de posicionamento, clique em **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
@@ -92,7 +98,7 @@ Para cada posicionamento, você pode [abrir uma (exibição de detalhes [!UICONT
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | O editor não começou a enviar solicitações de oferta. | Entre em contato com o editor para ativar o negócio. |
 | | O negócio foi configurado incorretamente, por exemplo, inserindo uma ID de negócio externa incorreta. | Confirme os detalhes da negociação e edite-a. |
-| [!UICONTROL Auctions but no Bids] | O direcionamento de posicionamento não corresponde às solicitações de oferta recebidas para a oferta. <br><br> Por exemplo, um posicionamento pode estar direcionando uma região que não é qualificada para a oferta. | Edite os destinos de posicionamento conforme necessário para evitar incompatibilidades de direcionamento. |
+| [!UICONTROL Auctions but no Bids] | O direcionamento de posicionamento não corresponde às solicitações de oferta recebidas para a oferta. <br><br> Por exemplo, uma inserção pode ter como alvo uma região geográfica que não é elegível para o negócio. | Edite os destinos de posicionamento conforme necessário para evitar incompatibilidades de direcionamento. |
 | | O posicionamento não tem um anúncio ativo com o tipo de mídia necessário para o negócio. | Crie e anexe um anúncio com o tipo de mídia correto ao posicionamento. |
 | | O posicionamento não tem orçamento adequado. | Aumentar o orçamento de posicionamento para permitir lances em solicitações recebidas. |
 | | As datas de voo de posicionamento não se sobrepõem às datas de entrega de impressão da negociação. | Edite as datas de voo da disposição conforme necessário. |

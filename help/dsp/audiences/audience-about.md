@@ -3,49 +3,60 @@ title: Sobre o gerenciamento de público-alvo no Advertising DSP
 description: Saiba mais sobre os recursos de gerenciamento de público-alvo.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Sobre o gerenciamento de público-alvo no Advertising DSP
 
 No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de público-alvo, que podem ser usados como alvos para seus posicionamentos:
 
 * Colete seus próprios dados de público-alvo primários criando e implementando segmentos do DSP. Posteriormente, você pode redirecionar os usuários no segmento com anúncios ou impedir que eles recebam anúncios. Você pode criar os seguintes tipos de segmentos:
 
-   * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. A tag de rastreamento pode rastrear usuários baseados em cookies ou usuários associados a IDs universais de ID5.
+  * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para rastrear a) usuários expostos a anúncios de dispositivos móveis e de desktop e b) usuários que visitam páginas da Web específicas. A tag de rastreamento pode rastrear usuários baseados em cookies ou usuários associados a IDs universais de ID5.
 
-   * [Segmentos de não participação na venda da CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear as IDs de usuários a partir de solicitações de não participação na venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA). Você pode recuperar relatórios mensais das IDs de usuário de solicitações de recusa de venda.
+  * [Segmentos de não participação na venda da CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear as IDs de usuários a partir de solicitações de não participação na venda do consumidor em seu site, de acordo com a California Consumer Privacy Act (CCPA). Você pode recuperar relatórios mensais das IDs de usuário de solicitações de recusa de venda.
 
-     Para obter mais informações sobre o suporte da Adobe Advertising para solicitações de cancelamento de venda do CCPA, consulte [Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+    Para obter mais informações sobre o suporte da Adobe Advertising para solicitações de cancelamento de venda do CCPA, consulte [Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte ao cancelamento de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * [Obter e usar IDs universais para direcionamento sem cookies](/help/dsp/audiences/universal-ids.md):
 
-   * Envie manualmente os segmentos autenticados do [!DNL LiveRamp] [!DNL RampID] diretamente para a DSP.
+  * Envie manualmente os segmentos autenticados do [!DNL LiveRamp] [!DNL RampID] diretamente para a DSP.
 
-   * Permitir que o DSP importe segmentos primários da sua plataforma de dados do cliente e traduza-os para tipos de ID universal compatíveis.
+  * Permitir que o DSP importe segmentos primários da sua plataforma de dados do cliente e traduza-os para tipos de ID universal compatíveis.
 
-   * Importar segmentos [!DNL AdFixus] primários que contêm [!DNL AdFixus] IDs universais (somente Austrália). Em seguida, você pode direcionar posicionamentos para [!DNL AdFixus] IDs, adicionar esses segmentos a [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md) e usar os relatórios descritos em &quot;[Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).&quot;
+  * Importar segmentos [!DNL AdFixus] primários que contêm [!DNL AdFixus] IDs universais (somente Austrália). Em seguida, você pode direcionar posicionamentos para [!DNL AdFixus] IDs, adicionar esses segmentos a [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md) e usar os relatórios descritos em &quot;[Importar segmentos primários de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).&quot;
 
-   * Inclua segmentos de terceiros que contenham IDs universais em seus destinos de posicionamento sem etapas extras.
+  * Inclua segmentos de terceiros que contenham IDs universais em seus destinos de posicionamento sem etapas extras.
 
 * Crie uma biblioteca de público-alvo de [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md). Os públicos-alvo salvos são compostos por qualquer segmento de público-alvo disponível e qualquer outro público-alvo salvo. Todas as alterações feitas em um público-alvo salvo são automaticamente aplicadas a todos os posicionamentos que direcionam ou excluem o público-alvo e a todos os outros públicos que incluem o público-alvo salvo.
 
@@ -79,11 +90,11 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
 * Todos os segmentos de público-alvo criados pelo usuário que foram criados no DSP:
 
-   * Segmentos personalizados para usuários que visitaram páginas da Web específicas e usuários expostos a impressões de anúncios específicos.
+  * Segmentos personalizados para usuários que visitaram páginas da Web específicas e usuários expostos a impressões de anúncios específicos.
 
-     Nenhuma taxa é incorrida para impressões entregues a IDs universais.
+    Nenhuma taxa é incorrida para impressões entregues a IDs universais.
 
-   * Segmentos de público-alvo de não participação na venda do CCPA para usuários que enviaram solicitações de não participação na venda em seu site, de acordo com a California Consumer Privacy Act (CCPA).
+  * Segmentos de público-alvo de não participação na venda do CCPA para usuários que enviaram solicitações de não participação na venda em seu site, de acordo com a California Consumer Privacy Act (CCPA).
 
 * Todos os segmentos de dados primários importados, incluindo segmentos que foram traduzidos em IDs universais e segmentos que contêm [!DNL AdFixus] IDs universais importadas.
 
@@ -97,11 +108,11 @@ Você pode direcionar seus posicionamentos para todos os tipos de público a seg
 
   Os segmentos de terceiros incorrem em taxas adicionais, que são indicadas ao lado de cada nome de segmento.
 
-* (Anunciantes com Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics que usam somente as tags de conversão do Adobe Advertising JavaScript) Todos os seus segmentos de público-alvo primários, secundários ou de terceiros disponíveis criados em [!DNL Real-Time CDP], criados no Audience Manager ou publicados no Adobe CX Enterprise a partir do Audience Manager ou [!DNL Analytics].
+* (Anunciantes com Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager ou Adobe Analytics que usam somente as tags de conversão do Adobe Advertising JavaScript) Todos os seus segmentos de público-alvo primários, secundários ou de terceiros disponíveis criados em [!DNL Real-Time CDP], criados no Audience Manager ou publicados no Adobe CX Enterprise a partir da Audience Manager ou [!DNL Analytics].
 
   Os preços para o uso dos segmentos são pré-negociados e não estão visíveis no DSP.
 
-  Segmentos do [!DNL Analytics] ficam disponíveis cerca de uma hora depois de você criá-los ou publicá-los como públicos do CX Enterprise. Segmentos provenientes diretamente da Audience Manager ou do [!DNL Real-Time CDP] estão disponíveis em 24 horas após serem compartilhados.
+  Segmentos do [!DNL Analytics] estão disponíveis cerca de uma hora depois de você criá-los ou publicá-los como públicos do CX Enterprise. Segmentos provenientes diretamente da Audience Manager ou do [!DNL Real-Time CDP] estão disponíveis em 24 horas após serem compartilhados.
 
   >[!NOTE]
   >

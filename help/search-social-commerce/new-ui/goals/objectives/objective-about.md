@@ -4,24 +4,31 @@ description: Saiba mais sobre os objetivos para atingir suas metas comerciais.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (Nova interface do usuário) Sobre objetivos
 
 <!-- no subfeature tag for objectives -->
@@ -64,11 +71,11 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads] conversões &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
+  * [[!DNL Google Ads] conversões &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
 
-   * (Anunciantes com [[!DNL Google Analytics] integrações](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Exibições de página, Sessões, Taxa de rejeição (calculada como rejeições/sessões) e Duração da sessão.
+  * (Anunciantes com [[!DNL Google Analytics] integrações](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Exibições de página, Sessões, Taxa de rejeição (calculada como rejeições/sessões) e Duração da sessão.
 
-     Em Pesquisa, Social e Commerce, essas métricas são automaticamente fatoradas nos algoritmos de lances do portfólio.
+    Em Pesquisa, Social e Commerce, essas métricas são automaticamente fatoradas nos algoritmos de lances do portfólio.
 
 ## Opção para fazer upload de objetivos para as redes de publicidade
 

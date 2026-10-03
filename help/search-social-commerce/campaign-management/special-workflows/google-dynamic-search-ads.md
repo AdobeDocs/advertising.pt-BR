@@ -1,20 +1,23 @@
 ---
-title: Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica
-description: Saiba mais sobre o fluxo de trabalho para configurar [!DNL Google Ads] anúncios de pesquisa dinâmicos.
+title: Implementar anúncios de pesquisa dinâmica do [!DNL Google Ads]
+description: Saiba mais sobre o fluxo de trabalho para configurar anúncios de pesquisa dinâmica do [!DNL Google Ads].
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Implementar anúncios de pesquisa dinâmica do [!DNL Google Ads]
 
 *[!DNL Google Ads]campanhas somente de pesquisa com nível criativo ou nível de palavra-chave e nível criativo somente*
@@ -62,7 +65,7 @@ Você pode configurar anúncios de pesquisa dinâmica individualmente ou usando 
 1. [Crie cada anúncio de pesquisa dinâmica](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) dentro do grupo de publicidade.
 
    [!DNL Google Ads] gera dinamicamente o título, a URL de exibição e a URL da página de aterrissagem para cada anúncio. Opcionalmente, é possível adicionar redirecionamentos e rastreamento ao modelo de rastreamento de nível de anúncio, que substitui os modelos de rastreamento em níveis superiores.
-Se você quiser substituir qualquer rastreamento de Adobe Analytics em níveis superiores com rastreamento no nível do anúncio, adicione-o aqui. Consulte as etapas 1e e 2c.
+   Se você quiser substituir qualquer rastreamento de Adobe Analytics em níveis superiores com rastreamento no nível do anúncio, adicione-o aqui. Consulte as etapas 1e e 2c.
 
 1. (Obrigatório quando você não inclui o domínio raiz e o idioma do domínio na seção Opções de DSA das configurações da campanha; opcional; caso contrário) Criar [destinos de pesquisa dinâmica](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) para o grupo de anúncios. Opcionalmente, você pode sobrepor o lance de nível de grupo de anúncios com lances de nível de destino.
 

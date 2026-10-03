@@ -3,22 +3,29 @@ title: Personalizar a otimização criativa e o agendamento de uma experiência
 description: Saiba como configurar a otimização e o agendamento de anúncios para experiências direcionadas.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-TQID: https://experienceleague.adobe.com/gDBTQn7F0ZNeiEylTDA9HNgDockR6FHE3MSvr0bJaDM
+TQID: 'https://experienceleague.adobe.com/gDBTQn7F0ZNeiEylTDA9HNgDockR6FHE3MSvr0bJaDM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1190
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # Personalize a otimização criativa e o agendamento de uma experiência com direcionamento de árvore de decisão
 
 *Nós do Target somente com criações existentes*
@@ -51,17 +58,17 @@ Quando o agendamento criativo está desativado, as configurações de otimizaç�
 
    * *[!UICONTROL Algorithmic]:* mostra as variantes de anúncios mais eficazes com mais frequência, com base em uma meta especificada.
 
-      * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+     * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
    * *[!UICONTROL Sequencing]:* Mostra os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer uma das variantes de anúncios no Pacote 1 para três (3) impressões, em seguida, exibir qualquer variante de anúncios no Pacote 2 para uma (1) impressão, em seguida, exibir qualquer uma das variantes de anúncios no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as variantes de anúncios no Pacote 3 sejam exibidas, você pode continuar a exibir as variantes de anúncios no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
 
-      1. Arraste e solte os pacotes atribuídos na ordem desejada.
+     1. Arraste e solte os pacotes atribuídos na ordem desejada.
 
      Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
 
-      1. Insira o número de impressões para cada sequência.
+     1. Insira o número de impressões para cada sequência.
 
-      1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+     1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -95,17 +102,17 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
 
       * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
-         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+        * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]*, (experiências de anúncio de vídeo padrão) *[!UICONTROL Completion Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
       * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada (com o Pacote 1 entregue primeiro, Pacote 2 entregue segundo e assim por diante), com um número total especificado de impressões em cada sequência de pacote. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. Você pode configurar o pacote final na sequência para a\) ser exibido indefinidamente (o padrão) ou b\) voltar para o primeiro pacote. Por exemplo, você pode exibir qualquer criação no Pacote 1 para três (3) impressões e, em seguida, exibir qualquer criação no Pacote 2 para uma (1) impressão e, em seguida, exibir qualquer uma das criações no Pacote 3 para duas (2) impressões e, em seguida, iniciar o loop novamente. Como alternativa, uma vez que as criações no Pacote 3 sejam exibidas, você pode continuar a exibir as criações no Pacote 3 indefinidamente, em vez de criar um loop. Ao habilitar o sequenciamento:
 
-         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+        1. Arraste e solte os pacotes atribuídos na ordem desejada.
 
-            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+           Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
 
-         1. Insira o número de impressões para cada sequência.
+        1. Insira o número de impressões para cada sequência.
 
-         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+        1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Para cada agendamento adicional:
 
@@ -121,17 +128,17 @@ Ao usar o agendamento, você deve agendar pacotes pela duração da experiência
 
       * *[!UICONTROL Algorithmic]:* Gira as criações em cada pacote de forma algorítmica, de acordo com uma meta de otimização especificada.
 
-         * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+        * Para o **[!UICONTROL Optimization Goal]**, selecione *[!UICONTROL Click Through Rate]* ou *[!UICONTROL Custom Objective]*.  Se você selecionar *[!UICONTROL Custom Objective]*, selecione uma [meta personalizada do Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
       * *[!UICONTROL Sequencing]:* Gira os pacotes criativos associados em uma ordem especificada, com um número total especificado de impressões em cada sequência de pacote. Ao habilitar o sequenciamento:
 
-         1. Arraste e solte os pacotes atribuídos na ordem desejada.
+        1. Arraste e solte os pacotes atribuídos na ordem desejada.
 
-            Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
+           Por padrão, os pacotes atribuídos são sequenciados na ordem em que foram adicionados à experiência.
 
-         1. Insira o número de impressões para cada sequência.
+        1. Insira o número de impressões para cada sequência.
 
-         1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
+        1. Para a última sequência, altere para a\) exibir o pacote final na sequência indefinidamente (*[!UICONTROL Infinite]* (o padrão) ou b\) voltar para o primeiro pacote após o pacote final ser exibido (*[!UICONTROL Keep in Loop]*).
 
 1. Clique em **[!UICONTROL Save]**.
 

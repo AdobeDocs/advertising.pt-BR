@@ -3,22 +3,26 @@ title: Solicitar novamente [!DNL On Demand] ofertas de estoque premium
 description: Saiba como solicitar novamente [!DNL On Demand] ofertas que foram negadas anteriormente.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-TQID: https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU
+TQID: 'https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # Solicitar novamente [!DNL On Demand] ofertas de estoque premium
 
 *Não disponível para usuários com os tipos de conta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; anunciantes com a categoria [!UICONTROL Other]; e revendedores*
@@ -55,9 +59,9 @@ Assim que uma negociação for [aprovada](/help/dsp/inventory/on-demand-inventor
 
    * Na exibição [!UICONTROL Subscription]:
 
-      1. Mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL See Deals]**.
+     1. Mantenha o cursor sobre o logotipo do editor e clique em **[!UICONTROL See Deals]**.
 
-      1. Clique em **[!UICONTROL Rerequest]** na coluna [!UICONTROL Action] da linha relevante.
+     1. Clique em **[!UICONTROL Rerequest]** na coluna [!UICONTROL Action] da linha relevante.
 
 >[!MORELIKETHIS]
 >

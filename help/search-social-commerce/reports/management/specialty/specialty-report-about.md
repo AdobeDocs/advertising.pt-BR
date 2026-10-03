@@ -3,27 +3,33 @@ title: Sobre relatórios de especialidade
 description: Saiba mais sobre relatórios de especialidade.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '143'
 ht-degree: 0%
-
 ---
-
 # Sobre relatórios de especialidade
 
 A maioria dos relatórios de especialidade consiste apenas em dados coletados pelas redes de anúncios. Os [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] e [!UICONTROL Campaign Impression Share Report], entretanto, podem incluir dados de receita coletados por [!DNL Adobe]. Os relatórios de especialidades estão disponíveis para todos os usuários.
 
 >[!NOTE]
 >
->Para a maioria dos relatórios de especialidade, os dados são extraídos para o dia anterior às 23:00 (23:00) todos os dias. Por exemplo, às 23:00 em 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá dados até 17 de junho em 23:00. Esta sincronização de dados se aplica a todos os relatórios especializados do [!DNL Google Ads] e ao [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
+>Para a maioria dos relatórios de especialidade, os dados são obtidos para o dia anterior às 23:00 (23:00) diariamente. Por exemplo, às 23h de 18 de junho, ele extrai dados para 17 de junho. Se você executar o relatório em 19 de junho às 09:00 — antes que os dados de 18 de junho sejam extraídos — o relatório incluirá dados até 17 de junho às 23:00. Esta sincronização de dados se aplica a todos os relatórios especializados do [!DNL Google Ads] e ao [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de relatórios de especialidades
 

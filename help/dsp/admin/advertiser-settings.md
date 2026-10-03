@@ -2,13 +2,19 @@
 title: Configurações da conta do anunciante
 description: Consulte descrições das configurações disponíveis do anunciante.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # Configurações da conta do anunciante
 
 *Não disponível para usuários somente leitura*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Os anunciantes com produtos Adobe CX Enterprise adicionais podem compartilhar dados entre alguns produtos usando o identificador exclusivo da organização para o CX Enterprise. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
+Os anunciantes com produtos adicionais da Adobe CX Enterprise podem compartilhar dados entre alguns produtos usando a ID exclusiva da organização para o CX Enterprise. Você pode configurar integrações específicas de produtos na seção [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos CX Enterprise adicionais que são licenciados por meio de uma conta da CX Enterprise com vários anunciantes; opcional) a ID de organização da CX Enterprise do anunciante.
+**[!UICONTROL Account IMS org and ID]:** (anunciantes com produtos CX Enterprise adicionais que são licenciados por meio de uma conta da CX Enterprise com vários anunciantes; opcional) a ID da organização da CX Enterprise do anunciante.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos CX Enterprise adicionais; opcional) a ID de organização da CX Enterprise do anunciante.
+**[!UICONTROL Advertiser IMS org and ID]:** (anunciantes com licenças diretas para produtos adicionais da CX Enterprise; opcional) a ID da organização da CX Enterprise do anunciante.
 
 ### [!UICONTROL Integrations]
 
-(Opcional) Produtos CX Enterprise adicionais vinculados à conta da DSP. Os produtos devem ser associados à mesma CX Enterprise ID fornecida na seção [!UICONTROL Adobe IMS IDs].
+(Opcional) Produtos adicionais da CX Enterprise vinculados à conta da DSP. Os produtos devem ser associados à mesma ID de organização da CX Enterprise fornecida na seção [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes com [!DNL Advertising Search, Social, & Commerce] ou que usam pixels de conversão de Adobe Advertising) Uma conta [!DNL Search, Social, & Commerce] com a qual a DSP troca dados de atribuição.
 

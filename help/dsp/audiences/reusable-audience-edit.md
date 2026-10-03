@@ -3,22 +3,26 @@ title: Editar um público-alvo reutilizável
 description: Saiba como editar um público-alvo reutilizável.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-TQID: https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4
+TQID: 'https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Editar um público-alvo reutilizável
 
 Ao editar um público que é usado em qualquer posicionamento ou outro público reutilizável, as alterações são aplicadas imediatamente a esses posicionamentos e públicos.<!-- verify -->
@@ -41,43 +45,43 @@ Ao editar um público que é usado em qualquer posicionamento ou outro público 
 
    * (Opcional) Para editar manualmente a lógica do segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
 
-      * Para adicionar um segmento a um grupo de segmentos existente:
+     * Para adicionar um segmento a um grupo de segmentos existente:
 
-      1. Clique no grupo de segmentos no painel direito.
+     1. Clique no grupo de segmentos no painel direito.
 
-      1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+     1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
-         *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em um posicionamento, selecione esse público-alvo no menu Públicos-alvo excluídos.
+        *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em um posicionamento, selecione esse público-alvo no menu Públicos-alvo excluídos.
 
-      1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+     1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-         O grupo de segmentos é atualizado automaticamente com o novo segmento.
+        O grupo de segmentos é atualizado automaticamente com o novo segmento.
 
    * Para adicionar um novo grupo de segmentos:
 
-      1. Clique em **[!UICONTROL + New Group]** no painel direito.
+     1. Clique em **[!UICONTROL + New Group]** no painel direito.
 
-      1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
+     1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
 
-      1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
+     1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
 
-      1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+     1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
    * Para usar a lógica de segmento de um público-alvo existente:
 
-      1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
+     1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
+        * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
 
-      1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
+     1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
+        >[!NOTE]
+        >
+        >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
 
 1. Clique em **[!UICONTROL Save]**.
 

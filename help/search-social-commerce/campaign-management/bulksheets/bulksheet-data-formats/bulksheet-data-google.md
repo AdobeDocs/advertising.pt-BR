@@ -1,23 +1,28 @@
 ---
-title: Dados de bulksheet necessários para  [!DNL Google Ads] contas
-description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do  [!DNL Google Ads] .
+title: Dados de bulksheet necessários para contas do [!DNL Google Ads]
+description: Referencie os campos de cabeçalho e de dados necessários em bulksheets para contas do [!DNL Google Ads].
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # Apêndice - Dados de bulksheet necessários para contas do [!DNL Google Ads]
 
 Para criar e atualizar dados de campanha do [!DNL Google Ads] em massa, você pode usar os arquivos de bulksheet do Search, Social e Commerce formatados especificamente para contas do [!DNL Google Ads]. Você pode a) [gerar arquivos de planilha em massa para contas existentes](../bulksheet-download.md) no formato de arquivo necessário ou b) criá-los manualmente (consulte &quot;[Formatos de Arquivo de Planilha em Massa com Suporte](bulksheet-file-formats.md)&quot; para obter informações gerais sobre os formatos de arquivo com suporte).
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | (Quando você inclui um Local) O [tipo de local](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | Um tipo de dispositivo para o qual são feitos ajustes de oferta no nível da campanha ou do grupo de anúncios: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> ou <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>(Quando você inclui um destino [!UICONTROL Location], [!UICONTROL Device] ou [!UICONTROL RLSA]) Se ajusta lances para anúncios em um local específico, em um tipo de dispositivo específico ou com um destino de público específico:</p><ul><li><p>Para usar o lance de nível de palavra-chave (0% de diferença), digite 0. Para novos targets, você também pode deixar em branco.</p></li><li><p>Para usar um lance diferente para essa meta, informe a porcentagem pela qual aumentar ou diminuir lances.</p></li><ul><li><p>Para destinos de localização e RLSA, as porcentagens válidas incluem de -90 a 900.</p></li><li><p>Para ajustes de oferta de dispositivos, as porcentagens válidas incluem:</p></li><ul><li><p>(Campanhas)-100 (para não oferecer anúncios no tipo de dispositivo) ou de -90 a 900.</p></li><li><p>(Grupos de anúncios) -100 para smartphones e tablets (para não licitar o tipo de dispositivo) e de -90 a 900 para todos os tipos de dispositivo.</p></li></ul></ul><li><p>(Campanhas e grupos de anúncios existentes) Para usar o ajuste de oferta existente, deixe em branco.</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | (Incluído nos bulksheets gerados para fins de informação) O ajuste de oferta somente leitura que a Adobe recomenda para o target de localização no nível da campanha ou uma RLSA. É calculado somente quando a campanha está em um portfólio com um objetivo que usa métricas de conversão ponderadas (não o objetivo [!UICONTROL Maximize Clicks]) e a campanha contém pelo menos dois destinos de localização ou RLSAs com pelo menos cinco cliques ou US$ 5 em custo nos últimos 90 dias.</p><p>Se quiser editar manualmente um destino de local ou RLSA para usar o valor recomendado, aguarde pelo menos duas semanas depois de criar o destino de local ou RLSA para permitir coleta de dados suficiente e não altere o valor mais de uma vez por semana. |
+| [!UICONTROL Adobe Rec Bid Adjustment] | (Incluído nos bulksheets gerados para fins de informação) O ajuste de oferta somente leitura que a Adobe recomenda para o target de localização no nível da campanha ou uma RLSA. É calculado somente quando a campanha está em um portfólio com um objetivo que usa métricas de conversão ponderadas (não o objetivo [!UICONTROL Maximize Clicks]) e a campanha contém pelo menos dois destinos de localização ou RLSAs com pelo menos cinco cliques ou 5 USD em custo nos últimos 90 dias.</p><p>Se quiser editar manualmente um destino de local ou RLSA para usar o valor recomendado, aguarde pelo menos duas semanas depois de criar o destino de local ou RLSA para permitir coleta de dados suficiente e não altere o valor mais de uma vez por semana. |
 | [!UICONTROL Device Targets] | <p>(Somente tipos de campanha herdados) Os dispositivos nos quais o anúncio pode ser exibido: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> ou <i>[!UICONTROL Tablets]</i>. Para novas campanhas, o padrão é <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (Somente tipos de campanha herdados; aplicável quando os Destinos do Dispositivo incluem &quot;Smartphones&quot; ou &quot;Tablets&quot;) Os sistemas operacionais nos quais o anúncio pode ser exibido: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> ou <i>[!UICONTROL Palm]</i>. Para novas campanhas, o padrão é <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(Somente tipos de campanha herdados; aplicável quando [!UICONTROL Device Targets] inclui &quot;[!UICONTROL All]&quot; ou &quot;[!UICONTROL Smartphones]&quot;) Operadoras de celular às quais os smartphones podem ser conectados: <i>[!UICONTROL All]</i>, ou uma ou mais operadoras indicadas pelo &lt;c<i>código da operadora</i>>,&lt;<i>código do país</i>> (como T-Mobile,US) usando a lista de <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">operadoras disponíveis e códigos para [!DNL Google Ads]</a>. Separe várias operadoras com ponto e vírgula (como T-Mobile, EUA;T-Mobile, GB). Para novas campanhas, o padrão é <i>[!UICONTROL All]</i>.</p> |

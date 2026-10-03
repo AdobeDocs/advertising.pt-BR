@@ -1,22 +1,26 @@
 ---
-title: Criar um público-alvo de correspondência do cliente  [!DNL Google Ads]  a partir de uma lista de email do Adobe Campaign
-description: Saiba como criar um público-alvo de correspondência do cliente  [!DNL Google Ads]  de uma lista de email existente do Adobe Campaign.
+title: Criar um público-alvo de correspondência do cliente [!DNL Google Ads] a partir de uma lista de email do Adobe Campaign
+description: Saiba como criar um público-alvo de correspondência do cliente [!DNL Google Ads] a partir de uma lista de email existente do Adobe Campaign.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Criar um público-alvo de correspondência do cliente [!DNL Google Ads] a partir de uma lista de email do Adobe Campaign
 
 *[!DNL Google Ads]contas qualificadas somente para correspondência de cliente*
@@ -99,11 +103,11 @@ Para fazer isso, você precisa acessar sua instância [!DNL Campaign] e um arqui
 
          * (Opcional) Na guia **[!UICONTROL Schedule]**, especifique um agendamento diferente para a transferência de arquivos.
 
-           Por padrão, o fluxo de trabalho é executado às 00:00 (meia-noite), o que garante que todos os registros sejam processados. Para minimizar a latência, agende o fluxo de trabalho para execução até 18:00.
+           Por padrão, o workflow é executado às 00:00 (meia-noite), o que garante que todos os registros sejam processados. Para minimizar a latência, agende o workflow para ser executado até as 18:00.
 
          * Clique em **[!UICONTROL Ok]**.
 
-Search, Social, &amp; Commerce verifica o diretório a cada 30 minutos (às NN:30 e NN:59 no fuso horário do anunciante) e move quaisquer arquivos que encontrar para outro local, em seguida, cria automaticamente um público-alvo a partir dos dados e o envia para o Google às 22:00 (22:00). A Pesquisa, o Social e o Commerce continuam a verificar atualizações (adições e subtrações) para a lista de email a cada 30 minutos e atualizam o público-alvo em [!DNL Google Ads] adequadamente em 22:00 diariamente.
+Search, Social, &amp; Commerce verifica o diretório a cada 30 minutos (às NN:30 e NN:59 no fuso horário do anunciante) e move todos os arquivos encontrados para outro local, em seguida, cria automaticamente um público-alvo dos dados e o envia para o Google às 22:00 (22:00). O Search, Social e Commerce continua a verificar atualizações (adições e subtrações) na lista de email a cada 30 minutos e atualiza o público-alvo no [!DNL Google Ads] de acordo às 22h diariamente.
 
 >[!NOTE]
 >

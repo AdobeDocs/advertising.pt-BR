@@ -3,22 +3,26 @@ title: Criar um público-alvo reutilizável
 description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos. Opcionalmente, use um agente de público-alvo assistido por IA descrevendo seu público-alvo em prompts em linguagem natural; o agente sugere segmentos de terceiros e cria expressões de público-alvo para usar como alvos ou exclusões.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # Criar um público-alvo reutilizável
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ ht-degree: 0%
 
    * Para criar manualmente a lógica do segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
 
-      * (Opcional) Procure um nome, uma descrição ou um caminho de segmento.
+     * (Opcional) Procure um nome, uma descrição ou um caminho de segmento.
 
-        Os resultados da pesquisa incluem segmentos com base nos termos exatos que você usa. Quando você insere vários termos, todos os termos devem ser encontrados para um segmento.
+       Os resultados da pesquisa incluem segmentos com base nos termos exatos que você usa. Quando você insere vários termos, todos os termos devem ser encontrados para um segmento.
 
-      * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+     * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-      * Para adicionar um segmento a um grupo de segmentos existente:
+     * Para adicionar um segmento a um grupo de segmentos existente:
 
-         1. Clique no grupo de segmentos no painel direito.
+       1. Clique no grupo de segmentos no painel direito.
 
-         1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+       1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
-            *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em um posicionamento, selecione esse público-alvo no menu Públicos-alvo excluídos.
+          *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, crie esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, em um posicionamento, selecione esse público-alvo no menu Públicos-alvo excluídos.
 
-         1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+       1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-            O grupo de segmentos é atualizado automaticamente com o novo segmento.
+          O grupo de segmentos é atualizado automaticamente com o novo segmento.
 
-      * Para adicionar um novo grupo de segmentos:
+     * Para adicionar um novo grupo de segmentos:
 
-         1. Clique em **[!UICONTROL + New Group]** no painel direito.
+       1. Clique em **[!UICONTROL + New Group]** no painel direito.
 
-            1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
+          1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
 
-            1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
+          1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
 
-            1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+          1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
 
    * Para usar a lógica de segmento de um público-alvo existente:
 
-      1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
+     1. Copie a lógica do segmento do público-alvo existente de qualquer uma das seguintes maneiras:
 
-         * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Na exibição Todos os Públicos-alvo, mantenha o cursor sobre a linha de público-alvo e clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nas configurações para o público existente, na parte superior do painel lógico do segmento, clique em **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
+        * Em um editor de texto, crie manualmente a lógica do segmento usando IDs de segmento alfanuméricos e [sintaxe booleana](audience-segment-logic-syntax.md), e copie-a para a área de transferência.
 
-      1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
+     1. Clique em **[!UICONTROL paste in an audience rule to begin building]**, cole a lógica de segmento existente no campo de entrada e clique em **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
+        >[!NOTE]
+        >
+        >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -161,11 +165,11 @@ ht-degree: 0%
 
 * Use uma linguagem clara e descritiva para descrever o público-alvo.
 
-   * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+  * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
 
-   * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
+  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
 
-   * O agente de público-alvo reconhece os sinônimos mais comuns.
+  * O agente de público-alvo reconhece os sinônimos mais comuns.
 
 * Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
 

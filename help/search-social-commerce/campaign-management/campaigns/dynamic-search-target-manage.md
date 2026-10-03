@@ -3,20 +3,24 @@ title: Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
 description: Saiba como criar e gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # Gerenciar [!DNL Google Ads] destinos de pesquisa dinâmica
 
 *[!DNL Google Ads]somente contas*
@@ -93,13 +97,13 @@ Também é possível excluir qualquer destino dinâmico.
 
    * Para excluir um ou mais destinos dinâmicos, faça o seguinte:
 
-      1. Marque a caixa de seleção ao lado de cada destino dinâmico que você deseja excluir.
+     1. Marque a caixa de seleção ao lado de cada destino dinâmico que você deseja excluir.
 
      Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
+     1. Na barra de ferramentas, clique em ![Mais](/help/search-social-commerce/assets/more.png "Mais") e selecione **[!UICONTROL Delete]**.
 
-      1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Delete]**.
 
 ## [!DNL Google Ads] configurações de destino de pesquisa dinâmica {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ Também é possível excluir qualquer destino dinâmico.
 
 * *\[Destinos específicos\]:* Segmenta até três critérios para as páginas indexadas. Ao selecionar essa opção, você deve especificar os critérios especificando categorias de informações e valores específicos para os quais os anúncios devem ser direcionados (por exemplo, &quot;URL contém shoes.example.com&quot;). Para especificar mais de um critério, clique em **[!UICONTROL + And]**. Os critérios de direcionamento incluem:
 
-   * *[!UICONTROL Category]:* Para mostrar anúncios de páginas indexadas com uma categoria de conteúdo [!DNL Google Ads] específica.
+  * *[!UICONTROL Category]:* Para mostrar anúncios de páginas indexadas com uma categoria de conteúdo [!DNL Google Ads] específica.
 
-   * *[!UICONTROL URL]:* Para mostrar anúncios de páginas indexadas com uma URL específica, em que o valor pode ser incluído em qualquer lugar da URL.
+  * *[!UICONTROL URL]:* Para mostrar anúncios de páginas indexadas com uma URL específica, em que o valor pode ser incluído em qualquer lugar da URL.
 
-   * *[!UICONTROL Page Title]:* Para mostrar anúncios de páginas indexadas com texto específico no título da página.
+  * *[!UICONTROL Page Title]:* Para mostrar anúncios de páginas indexadas com texto específico no título da página.
 
-   * *[!UICONTROL Page Content]:* Para mostrar anúncios de páginas indexadas com conteúdo específico.
+  * *[!UICONTROL Page Content]:* Para mostrar anúncios de páginas indexadas com conteúdo específico.
 
 **Status:** O status das configurações de destino:
 

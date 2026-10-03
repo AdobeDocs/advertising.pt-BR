@@ -3,27 +3,31 @@ title: Gerenciar multiplicadores de oferta para inserções
 description: Saiba como criar e editar multiplicadores de oferta para seus alvos de posicionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # Gerenciar multiplicadores de oferta para inserções
 
 Você pode criar e gerenciar multiplicadores de oferta, pelos quais uma oferta calculada de forma algorítmica é multiplicada para aumentar ou diminuir a oferta, para seus destinos de posicionamento existentes de [tipos de destino qualificados](#bid-multiplier-by-target). Você pode editar manualmente os valores do multiplicador de oferta para uma disposição ou fazer upload de uma planilha com valores para uma ou mais disposições.
 
-Por padrão, o multiplicador de oferta para uma meta é 1,00, o que significa que a oferta não é ajustada para essa meta. Os valores podem variar de 0,10 a 10,00. Por exemplo, um multiplicador de oferta de 0,5 diminui uma oferta de US$ 6 para US$ 3 (0,5 x 6). Quando um leilão é qualificado para vários modificadores de lances, todos os multiplicadores de lances aplicáveis são multiplicados. Por exemplo, se a Califórnia tiver um multiplicador de oferta de 2 e São Francisco tiver um multiplicador de oferta de 3, o multiplicador de oferta final para os anúncios executados em São Francisco será 6.
+Por padrão, o multiplicador de oferta para uma meta é 1,00, o que significa que a oferta não é ajustada para essa meta. Os valores podem variar de 0,10 a 10,00. Por exemplo, um multiplicador de oferta de 0,5 diminui uma oferta USD 6 para USD 3 (0,5 x 6). Quando um leilão é qualificado para vários modificadores de lances, todos os multiplicadores de lances aplicáveis são multiplicados. Por exemplo, se a Califórnia tiver um multiplicador de oferta de 2 e São Francisco tiver um multiplicador de oferta de 3, o multiplicador de oferta final para os anúncios executados em São Francisco será 6.
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ Você pode editar valores manualmente ou fazer upload de uma planilha para uma �
 
    * Para fazer upload de um arquivo CSV com valores de multiplicador de oferta para substituir todos os valores existentes:
 
-      1. Clique em **[!UICONTROL CSV File Edit]** no canto superior direito.
+     1. Clique em **[!UICONTROL CSV File Edit]** no canto superior direito.
 
-      1. a) clique em **[!UICONTROL Download Template]** e edite o arquivo ou b) edite um modelo baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
+     1. a) clique em **[!UICONTROL Download Template]** e edite o arquivo ou b) edite um modelo baixado anteriormente. Salve o arquivo editado em seu dispositivo ou rede.
 
-         As planilhas baixadas incluem uma planilha para cada tipo de destino (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores &lt; 1.0 ou > 1.0 são incluídos.
+        As planilhas baixadas incluem uma planilha para cada tipo de destino (como País, Origens e Categoria do Site). Somente multiplicadores de oferta existentes com valores &lt; 1.0 ou > 1.0 são incluídos.
 
-         * Para adicionar um multiplicador de lance para um target existente, informe o target usando a mesma sintaxe visível na interface do usuário e o valor do multiplicador de lance correspondente.
+        * Para adicionar um multiplicador de lance para um target existente, informe o target usando a mesma sintaxe visível na interface do usuário e o valor do multiplicador de lance correspondente.
 
-         * Para remover um modificador de oferta, defina o valor do multiplicador de oferta como 1,0 ou exclua todas as informações da linha.
+        * Para remover um modificador de oferta, defina o valor do multiplicador de oferta como 1,0 ou exclua todas as informações da linha.
 
-         ![Exemplo de linha em um arquivo de planilha do multiplicador de oferta](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemplo de linha em um arquivo de planilha do multiplicador de oferta")
+        ![Exemplo de linha em um arquivo de planilha do multiplicador de oferta](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exemplo de linha em um arquivo de planilha do multiplicador de oferta")
 
-      1. Clique em **[!UICONTROL Next]** para mover para a seção [!UICONTROL Upload File] e a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
+     1. Clique em **[!UICONTROL Next]** para mover para a seção [!UICONTROL Upload File] e a) arraste e solte o arquivo editado na caixa ou b) clique dentro da caixa para selecionar o arquivo do seu dispositivo ou rede.
 
-      1. Verifique os dados carregados na seção [!UICONTROL Review & Submit] e clique em **[!UICONTROL Save]**.
+     1. Verifique os dados carregados na seção [!UICONTROL Review & Submit] e clique em **[!UICONTROL Save]**.
 
 ## Fazer upload de multiplicadores de oferta para uma ou mais inserções
 
@@ -130,7 +134,7 @@ Você pode configurar modificadores de lances somente para alvos incluídos, nã
 | Sites | Sites/Aplicativos | 100 |
 | Público-alvo | Segmentos | 500 |
 | Público-alvo | Temas | 100 |
-| Segurança da marca | Ads.txt | N/D |
+| Segurança da marca | Anúncios.txt | N/D |
 
 >[!MORELIKETHIS]
 >

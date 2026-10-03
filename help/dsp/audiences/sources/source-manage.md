@@ -3,24 +3,29 @@ title: Gerenciar fontes de público-alvo para ativar públicos-alvo da ID univer
 description: Saiba como criar e gerenciar uma fonte para importar públicos da plataforma de dados do cliente e convertê-los em segmentos que contêm IDs universais.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+TQID: 'https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # Gerenciar fontes de público-alvo para ativar públicos-alvo da ID universal
 
 Crie uma fonte no DSP para cada público-alvo primário na plataforma de dados do cliente que você deseja importar ou converter em segmentos que contêm tipos de ID universal especificados. Você pode importar os segmentos para a conta da DSP de sua organização ou para uma conta de anunciante. Ao converter públicos em IDs universais, são aplicadas taxas com base nos tipos de ID universal selecionados. Depois de criar uma origem, etapas adicionais são necessárias para transmitir os públicos-alvo de origem de cada plataforma de dados do cliente. Consulte a nota no final do procedimento para criar uma origem.
@@ -118,7 +123,7 @@ Você pode exibir detalhes sobre alterações em um registro de origem de públi
 
 **[!UICONTROL Advertiser]:** (somente visibilidade no nível do anunciante) O anunciante para o qual os segmentos estão disponíveis. Selecione um na lista de anunciantes com acesso à conta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID de organização corporativa do Adobe CX para a conta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] fontes somente) A ID da organização da Adobe CX Enterprise para a conta [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** (Disponível para todas as plataformas de dados de clientes com suporte, exceto para [!DNL AdFixus]) Os tipos de ID para os quais você converterá suas informações de identificação pessoal (PII). Se você selecionar vários tipos, o segmento gerado será preenchido com valores para cada tipo de ID selecionado (como [!DNL RampID] e [!DNL Unified ID2.0] para cada endereço de email). Os encargos de dados são aplicados de acordo.
 

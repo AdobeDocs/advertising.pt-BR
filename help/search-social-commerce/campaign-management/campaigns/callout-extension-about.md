@@ -1,20 +1,23 @@
 ---
 title: Sobre [!DNL Google Ads] extensões de chamada
-description: Saiba mais sobre  [!DNL Google Ads] extensões de chamada em Pesquisa, Social e Commerce.
+description: Saiba mais sobre as extensões de chamada do [!DNL Google Ads] em Pesquisa, Social e Commerce.
 exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8
+TQID: 'https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # Sobre [!DNL Google Ads] extensões de chamada
 
 *[!DNL Google Ads]somente contas*

@@ -3,30 +3,43 @@ title: Práticas recomendadas para configurar campanhas de desempenho
 description: Conheça as práticas recomendadas para configurar suas campanhas focadas no desempenho, que incluem disposições otimizadas para o CPA mais baixo ou o ROAS mais alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # Práticas recomendadas para configurar campanhas de desempenho
 
 O DSP pode otimizar suas campanhas focadas em desempenho. Consulte as seguintes práticas recomendadas para campanhas de desempenho:
@@ -55,10 +68,10 @@ Os pacotes superiores do funnel incluem disposições com direcionamento muito a
 
 * Encontre novos públicos-alvo que provavelmente serão convertidos usando as seguintes táticas:
 
-   * Modelagem semelhante de uma plataforma de gerenciamento de dados (DMP), como o Adobe Audience Manager.
-   * Direcionamento comportamental usando dados de terceiros.
-   * Direcionamento contextual.
-   * Direcionamento de site/categoria.
+  * Modelagem semelhante de uma plataforma de gerenciamento de dados (DMP), como o Adobe Audience Manager.
+  * Direcionamento comportamental usando dados de terceiros.
+  * Direcionamento contextual.
+  * Direcionamento de site/categoria.
 
 * Usar o direcionamento de execução da rede (RON): é importante incluir um fluxo de posicionamento da rede sem direcionamento de público-alvo e com direcionamento amplo de inventário. Isso permite que o algoritmo habilitado para [!DNL Adobe AI] encontre usuários valiosos que podem ter cookies mais recentes que ainda não foram categorizados em um público-alvo.
 
@@ -93,8 +106,8 @@ Além disso, use as configurações a seguir.
 * **Metas de Otimização:** Use uma das duas metas de otimização de desempenho, *[!UICONTROL Highest Return on Ad Spend]* ou *[!UICONTROL Lowest Cost per Acquisition]*, dependendo da meta do pacote. Essas metas otimizam automaticamente o pacote em direção aos posicionamentos de ROAS mais alto ou CPA mais baixo, respectivamente.
 
 * **Metas personalizadas:**
-   * Se um novo pacote tiver o mesmo objetivo de um pacote existente, você poderá, opcionalmente, vincular o pacote existente para que o algoritmo possa usar os dados existentes de aprendizado de máquina.
-   * Insira o [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS] apropriado.
+  * Se um novo pacote tiver o mesmo objetivo de um pacote existente, você poderá, opcionalmente, vincular o pacote existente para que o algoritmo possa usar os dados existentes de aprendizado de máquina.
+  * Insira o [!UICONTROL Target CPA] ou [!UICONTROL Target ROAS] apropriado.
 
 * **Ritmo de veiculação e Ritmo Intradiário:** Para ambos os tipos de ritmo, selecione *[!UICONTROL Even]* para maximizar suas metas de desempenho, acompanhando uniformemente ao longo de cada dia e durante todo o voo.
 
@@ -115,14 +128,14 @@ A seguir estão as configurações de posicionamento recomendadas para campanhas
 Você deve configurar a otimização de CPA ou ROAS no nível do pacote (consulte Etapa 3 - Criar pacotes), mas pode adicionar outras configurações no nível de posicionamento.
 
 * **Lance Máximo:**
-   * Para inserções de prospecção, use um lance máximo baixo (US$ 5).
-   * Para inserções de redirecionamento, use um lance máximo alto (US$ 12).
+  * Para inserções de prospecção, use um lance máximo baixo (US$ 5).
+  * Para inserções de redirecionamento, use um lance máximo alto (US$ 12).
 
 * **Filtros de pré-oferta:** minimize ou evite definir filtros de pré-oferta agressivos, que impeçam o posicionamento de atingir a escala. As práticas recomendadas incluem o seguinte:
 
-   * Use um (1) filtro de pré-oferta por disposição. A utilização de vários filtros pré-oferta exige que ambos sejam atendidos, o que reduz a escala.
+  * Use um (1) filtro de pré-oferta por disposição. A utilização de vários filtros pré-oferta exige que ambos sejam atendidos, o que reduz a escala.
 
-   * Considere definir filtros de pré-oferta menos rigorosos nos casos em que o direcionamento adicional (como público-alvo, geografia e direcionamento de site) é aplicado.
+  * Considere definir filtros de pré-oferta menos rigorosos nos casos em que o direcionamento adicional (como público-alvo, geografia e direcionamento de site) é aplicado.
 
 Consulte descrições de quando usar cada filtro pré-oferta em [Filtros pré-oferta de nível de posicionamento e como usá-los](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
@@ -140,10 +153,10 @@ Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventár
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * Para inserções de prospecção, agrupe categorias de público-alvo semelhantes e tamanhos de público-alvo semelhantes em uma única inserção. Em seguida, com base no desempenho, execute um dos procedimentos a seguir:
-      * Remova públicos com baixo desempenho dos posicionamentos existentes.
-      * Mova públicos-alvo de alto desempenho para um local separado para controlar melhor os orçamentos.
-   * Para inserções de redirecionamento, você deve incluir um segmento de público-alvo por inserção para controlar ofertas e orçamento com facilidade.
+  * Para inserções de prospecção, agrupe categorias de público-alvo semelhantes e tamanhos de público-alvo semelhantes em uma única inserção. Em seguida, com base no desempenho, execute um dos procedimentos a seguir:
+    * Remova públicos com baixo desempenho dos posicionamentos existentes.
+    * Mova públicos-alvo de alto desempenho para um local separado para controlar melhor os orçamentos.
+  * Para inserções de redirecionamento, você deve incluir um segmento de público-alvo por inserção para controlar ofertas e orçamento com facilidade.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ Para maximizar a escala, use o [!UICONTROL Public] (Open Exchange) e o inventár
 > Você pode evitar públicos-alvo sobrepostos criando públicos-alvo em camadas para suprimir os níveis mais altos e inclusivos dos posicionamentos, conforme necessário.
 
 * **[!UICONTROL Frequency Capping]:**
-   * Para inserções de prospecção, use limites de frequência apertados (uma impressão por dia).
-   * Para inserções de redirecionamento, defina a limitação de inserção primária para 6-10 impressões por dia e a limitação secundária para uma impressão por hora.
+  * Para inserções de prospecção, use limites de frequência apertados (uma impressão por dia).
+  * Para inserções de redirecionamento, defina a limitação de inserção primária para 6-10 impressões por dia e a limitação secundária para uma impressão por hora.
 
 * **[!UICONTROL Device Targeting]**:
-   * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
-   * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Contate a equipe de conta da Adobe para obter mais detalhes sobre o suporte do [!DNL Adobe] para o [!DNL Safari ITP].
-   * Se você direcionar o tráfego de web para dispositivos móveis, desabilite todos os navegadores móveis, exceto [!UICONTROL Chrome] e [!UICONTROL Edge].
+  * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
+  * Não direcionar [!UICONTROL Firefox] e [!UICONTROL Safari] devido a limitações de direcionamento e medição. Contate a equipe de conta da Adobe para obter mais detalhes sobre o suporte do [!DNL Adobe] para o [!DNL Safari ITP].
+  * Se você direcionar o tráfego de web para dispositivos móveis, desabilite todos os navegadores móveis, exceto [!UICONTROL Chrome] e [!UICONTROL Edge].
 
 ### Segurança da marca e qualidade da mídia
 

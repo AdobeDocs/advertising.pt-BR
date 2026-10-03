@@ -3,22 +3,28 @@ title: Sobre o rastreamento para o Search, Social e Commerce
 description: Saiba mais sobre as opções de rastreamento para Search, Social e Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Sobre o rastreamento para o Search, Social e Commerce
 
 Para acompanhar o desempenho de seus anúncios, Search, Social e Commerce precisa de dados de impressão, clique, custo e conversão (transação) para seus anúncios. O Search, Social e Commerce usa esses dados para criar os modelos de previsão de dados necessários para otimizar seus portfólios de anúncios.

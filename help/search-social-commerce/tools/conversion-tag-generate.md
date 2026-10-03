@@ -3,13 +3,19 @@ title: Gerar e implementar uma tag de rastreamento de conversão do Adobe Advert
 description: Saiba como criar uma tag de conversão do Adobe Advertising para rastrear seus eventos de conversão.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
-
 ---
-
 # Gerar e implementar uma tag de rastreamento de conversão do Adobe Advertising
 
 *Somente anunciantes com rastreamento de conversão do Adobe Advertising*
@@ -128,7 +134,7 @@ Consulte &quot;[Perguntas frequentes sobre a conversão do Adobe Advertising e a
 
 ## Implementar tags de rastreamento de conversão usando tags do Adobe Experience Platform e a extensão do Adobe Advertising
 
-Você pode configurar o rastreamento de conversão para o Search, Social e Commerce usando tags na Adobe Experience Platform. As tags estão disponíveis para clientes corporativos do Adobe CX como um recurso incluso de valor agregado.
+Você pode configurar o rastreamento de conversão para o Search, Social e Commerce usando tags na Adobe Experience Platform. As tags estão disponíveis para clientes do Adobe CX Enterprise como um recurso incluso de valor agregado.
 
 As seguintes tarefas são necessárias para configurar tags de rastreamento de conversão para o Search, Social e Commerce na interface do usuário da Experience Platform ou na interface da Coleção de dados da Experience Platform. Para obter informações completas e instruções para configurar tags, consulte o Guia de Tags da Experience Platform, começando com &quot;[Visão geral das tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home)&quot; e &quot;[Guia de início rápido](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/get-started/quick-start).&quot;
 

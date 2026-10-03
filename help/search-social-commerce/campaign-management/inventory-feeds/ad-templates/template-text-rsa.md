@@ -3,21 +3,26 @@ title: Anúncio de texto e configurações responsivas de modelo de anúncio de 
 description: Consulte as configurações de anúncio de texto e modelos de anúncio de pesquisa responsivos para feeds de inventário.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # Anúncio de texto e configurações responsivas de modelo de anúncio de pesquisa para feeds de inventário
 
 *[!DNL Google Ads], [!DNL LY Ads] (somente excluir ações), [!DNL Microsoft Advertising] e [!DNL Yandex] contas apenas*
@@ -77,11 +82,11 @@ Quando nenhuma correspondência é encontrada, todos os dados da campanha são i
 
 * Para incorporar o URL final:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799/2) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] somente) Use o parâmetro `!{unescapedurl}` para indicar a URL da página de aterrissagem.
+  * ([!DNL LY Ads] somente) Use o parâmetro `!{unescapedurl}` para indicar a URL da página de aterrissagem.
 
-   * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
+  * Opcionalmente, é possível incluir parâmetros de URL e quaisquer parâmetros personalizados definidos para a campanha, separados por &quot;E&quot; comercial (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * Para redirecionamentos e rastreamento de terceiros, insira um valor.
 
@@ -179,17 +184,17 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
 * Para modelos [!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising]:
 
-   * Para parâmetros dinâmicos: Correspondência Ampla = `[keyword]`, Modificador de Correspondência Ampla para o primeiro termo na coluna [!UICONTROL Keyword] (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`, Correspondência de Frase = `"[keyword]"`, Correspondência Exata = `[[keyword]]`
+  * Para parâmetros dinâmicos: Correspondência Ampla = `[keyword]`, Modificador de Correspondência Ampla para o primeiro termo na coluna [!UICONTROL Keyword] (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`, Correspondência de Frase = `"[keyword]"`, Correspondência Exata = `[[keyword]]`
 
-   * Para palavras-chave estáticas: Correspondência Ampla = `keyword`, Modificador de Correspondência Ampla = `+keyword` ou Correspondência de Frases = `"keyword"`
+  * Para palavras-chave estáticas: Correspondência Ampla = `keyword`, Modificador de Correspondência Ampla = `+keyword` ou Correspondência de Frases = `"keyword"`
 
-     Não é possível inserir palavras-chave estáticas com correspondência exata e sintaxe de correspondência padrão aqui porque elas estão entre colchetes (`[]`), como são os parâmetros dinâmicos.
+    Não é possível inserir palavras-chave estáticas com correspondência exata e sintaxe de correspondência padrão aqui porque elas estão entre colchetes (`[]`), como são os parâmetros dinâmicos.
 
 * Para [!DNL Yandex] modelos:
 
-   * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
+  * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
 
-   * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) específica de [!DNL Yandex] para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
+  * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) específica de [!DNL Yandex] para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ Se você usar um feed [!DNL Google Merchant Center] e incluir este valor na colu
 
 * Para indicar o URL da landing page:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e [!DNL Microsoft Advertising] somente) Para obter uma lista de parâmetros para indicar URLs finais em modelos de rastreamento, consulte a [[!DNL Microsoft Advertising] documentação](https://help.ads.microsoft.com/#apex/3/en/56799) ([!DNL Microsoft Advertising] somente) ou os parâmetros &quot;Somente modelo de rastreamento&quot; ([!DNL Google Ads] somente) na seção sobre &quot;Parâmetros [!DNL ValueTrack] disponíveis&quot; na [[!DNL Google Ads] documentação](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
+  * ([!DNL LY Ads] somente) Use o parâmetro `!{lpurl}` para indicar a URL da página de aterrissagem.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] modelos\]:** ([!DNL Google Ads] modelos somente) A coluna no arquivo especificado que representa a variável [!DNL Google Ads] `{param1}` ou `{param2}`, que você pode incluir no ad copy ou exibir URL para qualquer anúncio criado a partir do modelo. Para inserir o parâmetro dinâmico, clique em no campo de entrada e, em seguida, em um nome de coluna na lista de colunas. O nome da coluna é substituído pelos dados reais quando o arquivo de feed é propagado pelo modelo.
 
@@ -237,19 +242,19 @@ Os campos de dados no arquivo de feed podem ter no máximo 25 caracteres e podem
 
 * (Quando você não usa o parâmetro &quot;[!UICONTROL Apply to Existing Keywords: Min]&quot;):
 
-   * O valor pode ser precedido ou anexado com um símbolo ou código de moeda. Por exemplo, £2.000,00 e 2000GBP são válidos.
+  * O valor pode ser precedido ou anexado com um símbolo ou código de moeda. Por exemplo, £2.000,00 e 2000GBP são válidos.
 
-   * O valor pode incluir vírgula (,) ou ponto (.) como separador, com ponto opcional (.) ou vírgula (,) para valores fracionais. Por exemplo, 1.000,00 e 2.000,10 são válidos.
+  * O valor pode incluir vírgula (,) ou ponto (.) como separador, com ponto opcional (.) ou vírgula (,) para valores fracionais. Por exemplo, 1.000,00 e 2.000,10 são válidos.
 
-   * O valor pode ser prefixado ou anexado com um sinal de porcentagem (%), sinal de adição (+) ou sinal de subtração (-). Por exemplo, 20%, 208+ e -42,32 são válidos.
+  * O valor pode ser prefixado ou anexado com um sinal de porcentagem (%), sinal de adição (+) ou sinal de subtração (-). Por exemplo, 20%, 208+ e -42,32 são válidos.
 
-   * Dois números podem ser incorporados com uma barra. Por exemplo, 4/1 e 0.95/0.45 são válidos.
+  * Dois números podem ser incorporados com uma barra. Por exemplo, 4/1 e 0.95/0.45 são válidos.
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] modelos\]:** ([!DNL Microsoft Advertising] modelos somente) A cadeia de caracteres a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a cadeia de caracteres de substituição dinâmica `{Param2}`. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
 **[!UICONTROL Param 3]:** (somente modelos [!DNL Microsoft Advertising]) A cadeia de caracteres a ser usada como valor de substituição em um anúncio se o título, texto, URL de exibição ou URL final contiver a cadeia de caracteres de substituição dinâmica `{Param3}`. O comprimento máximo é de 70 caracteres, mas esteja ciente do comprimento máximo dos elementos de anúncio em que você o usa (por exemplo, um título de anúncio pode incluir até 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** O lance inicial para cada palavra-chave com o tipo de correspondência ou tipo de anúncio especificado.
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ Para redirecionamentos e rastreamento de terceiros, insira um valor. Para indica
 
    * Para cada classificação e valor de rótulo a ser atribuído ao componente, faça o seguinte:
 
-      1. Clique em **[!UICONTROL Add Label Classification]**.
+     1. Clique em **[!UICONTROL Add Label Classification]**.
 
-      1. Selecione a classificação de etiqueta existente e, em seguida, selecione um valor existente ou insira um novo valor.
+     1. Selecione a classificação de etiqueta existente e, em seguida, selecione um valor existente ou insira um novo valor.
 
-         O comprimento máximo para cada valor é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
+        O comprimento máximo para cada valor é de 100 caracteres e pode incluir caracteres ASCII e não ASCII.
 
-         Para inserir um nome de coluna como um parâmetro dinâmico para um valor de classificação de rótulo, clique no campo de entrada (o segundo campo) e, em seguida, clique em um nome de coluna na lista de colunas.
+        Para inserir um nome de coluna como um parâmetro dinâmico para um valor de classificação de rótulo, clique no campo de entrada (o segundo campo) e, em seguida, clique em um nome de coluna na lista de colunas.
 
-         É possível incluir apenas um valor por classificação por componente de campanha. Por exemplo, uma campanha pode ter Color=Red, mas não Color=Red e Color=Blue.
+        É possível incluir apenas um valor por classificação por componente de campanha. Por exemplo, uma campanha pode ter Color=Red, mas não Color=Red e Color=Blue.
 
-         * Para alterar um valor de classificação de etiqueta existente, selecione ou insira um novo valor.
+        * Para alterar um valor de classificação de etiqueta existente, selecione ou insira um novo valor.
 
-         * Para remover um valor de classificação de etiqueta existente, clique em **[!UICONTROL X]** ao lado do valor.
+        * Para remover um valor de classificação de etiqueta existente, clique em **[!UICONTROL X]** ao lado do valor.
 
 ## [!UICONTROL Feed Filters]
 

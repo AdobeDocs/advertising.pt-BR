@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1721'
 ht-degree: 0%
 ---
 # Gerenciar grupos de anúncios
@@ -65,7 +65,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Ad Groups] lista todos os grupos 
 
 1. Clique em **[!UICONTROL Create Ad Group]**.
 
-1. Especifique as configurações dos grupos de anúncios do [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
+1. Especifique as configurações dos grupos de anúncios do [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
@@ -101,7 +101,7 @@ Renomeie rapidamente um grupo de anúncios sem abrir as configurações completa
 
    * Marque a caixa de seleção ao lado do grupo de anúncios. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Edit]**.
 
-1. Edite as configurações do grupo de anúncios do [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
+1. Edite as configurações dos grupos de anúncios do [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) ou [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
@@ -115,7 +115,9 @@ Altere rapidamente o status de um grupo de publicidade sem abrir as configuraç�
 
 Você pode pausar qualquer grupo de anúncios ativo em uma rede de anúncios compatível para desativar a licitação. Posteriormente, é possível retomar o lance alterando o status para ativo.
 
-Você também pode excluir qualquer grupo de anúncios ativo ou pausado. Os grupos de anúncios excluídos são excluídos da rede de anúncios. Elas ainda estarão visíveis ao serem incluídas no filtro de dados, mas não poderão ser alteradas.
+Você pode pausar qualquer grupo de anúncios ativo em uma rede de anúncios compatível para desativar a licitação. Posteriormente, é possível retomar o lance alterando o status para ativo.
+
+Você também pode excluir (chamado de &quot;arquivamento&quot; em [!DNL ChatGPT Ads Manager]) qualquer grupo de anúncios ativo ou pausado. Os grupos de anúncios excluídos ou arquivados são excluídos ou arquivados da rede de anúncios. Elas ainda estarão visíveis ao serem incluídas no filtro de dados, mas não poderão ser alteradas.
 
 ### Ativar ou pausar um grupo de anúncios
 
@@ -129,7 +131,7 @@ Você também pode excluir qualquer grupo de anúncios ativo ou pausado. Os grup
 
    * Para pausar um grupo de anúncios ativo, selecione **[!UICONTROL Paused]**.
 
-### Excluir um grupo de publicidade
+### Excluir ou arquivar um grupo de anúncios
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 
@@ -140,6 +142,8 @@ Você também pode excluir qualquer grupo de anúncios ativo ou pausado. Os grup
    * Mantenha o cursor sobre a linha do grupo de anúncios e clique em ![Editar](/help/search-social-commerce/assets/edit.png "Editar") ao lado da coluna [!UICONTROL Status]. Selecione **[!UICONTROL Deleted]**.
 
 ## Gerenciar atribuições de restrição de lance para grupos de anúncios {#ad-group-constraints}
+
+*Não disponível para[!DNL ChatGPT Ads]*
 
 Cada entidade pode ter apenas uma restrição. As restrições são herdadas por entidades filhas, portanto, não é necessário atribuir restrições a entidades filhas, a menos que você deseje substituir os valores herdados.
 

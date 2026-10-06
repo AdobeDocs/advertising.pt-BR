@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 >
 >Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Clique em **[!UICONTROL Create Account]**.
 
@@ -53,7 +53,7 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 >
 >Para editar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selecione a conta de uma das seguintes maneiras:
 
@@ -77,7 +77,7 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 1. (Se você estiver conectado a outra conta para a mesma rede de anúncios no mesmo aplicativo do navegador) Faça logout de qualquer conta diferente da do anunciante.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios. Quando você desativa uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
 
-1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Siga um destes procedimentos:
 
@@ -184,7 +184,7 @@ Para habilitar este recurso, ative **[Habilitar o rastreamento]**.
 >* Se você alternar de [!UICONTROL Standard] para [!UICONTROL Token], ou vice-versa, será necessário regenerar as URLs de rastreamento da conta.
 >* Você pode substituir a configuração no nível da conta no nível da campanha.
 
-**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
+**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
 
 Os URLs de rastreamento são atualizados diariamente apenas para entidades que estão fora de sincronia (ou seja, novas entidades que foram adicionadas e entidades existentes cujas propriedades foram alteradas). Portanto, se você alterar essa configuração de desativado para ativado para um anunciante/conta/campanha existente, os URLs de rastreamento não serão atualizados para entidades existentes que já estão em sincronia. Para adicionar rastreamento aos URLs de entidades existentes em sincronia, entre em contato com a equipe de conta da Adobe e solicite um processo de sincronização manual e único. O processo de upload automático lidará com alterações futuras.
 

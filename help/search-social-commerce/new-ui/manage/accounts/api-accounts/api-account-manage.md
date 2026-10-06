@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Gerenciar contas de rede de anúncios por meio da conexão de API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*recurso do Beta*
-
-<!-- Move out info about Naver into a separate page -->
-
 A seguir estão instruções para gerenciar contas de rede de anúncios que o Search, Social e Commerce sincroniza usando a API da rede de anúncios.
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 >
 >Para criar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Clique em **[!UICONTROL Create Account]**.
 
 1. Clique no nome da rede de publicidade e clique em **[!UICONTROL Next]**.
 
-1. (Todas as redes de anúncios, exceto [!DNL Yandex]) Faça logon na rede de anúncios usando as credenciais do anunciante. Selecione a opção &quot;Rastreamento de conta para esta conta&quot;. Em seguida, no canto superior direito, clique em **[!UICONTROL Next]**.
+1. (Todas as redes de anúncios, exceto [!DNL ChatGPT Ads] e [!DNL Yandex]) Faça logon na rede de anúncios usando as credenciais do anunciante. Selecione a opção &quot;Rastreamento de conta para esta conta&quot;. Em seguida, no canto superior direito, clique em **[!UICONTROL Next]**.
 
 1. Especifique as [configurações da conta](#account-settings-api) em cada guia disponível.
 
@@ -58,7 +53,7 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 >
 >Para editar uma conta real na rede de publicidade, vá para o site da rede de publicidade.
 
-1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Selecione a conta de uma das seguintes maneiras:
 
@@ -76,11 +71,13 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 
 ## Autenticar novamente uma conta de rede de publicidade {#reauthenticate}
 
+*Não aplicável a [!DNL ChatGPT Ads] contas*
+
 Para atualizar a conexão de rede de publicidade ou as permissões de atualização da conta, autentique novamente a conta.
 
 1. (Se você estiver conectado a outra conta para a mesma rede de anúncios no mesmo aplicativo do navegador) Faça logout de qualquer conta diferente da do anunciante.
 
-1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 Quando você habilita uma conta de rede de publicidade, o Search, Social e Commerce sincroniza dados de campanha com a conta (quando suportado) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios. Quando você desativa uma conta de rede de publicidade, o Search, Social e Commerce interrompe todas as atividades na conta. Os dados coletados enquanto a conta estava ativa ainda são armazenados, mas as visualizações e os relatórios do gerenciamento de campanhas não incluem dados para o período em que a conta está desativada. Posteriormente, é possível reativar a conta para retomar a atividade com ela.
 
-1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. No menu principal, clique em **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Siga um destes procedimentos:
 
@@ -141,7 +138,7 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 
 **[!DNL [Contas de Rede de Anúncios]]:** (Visível enquanto você está criando uma conta) A conta de rede de anúncios a ser sincronizada.
 
-**[Detalhes do Logon]:** (somente contas do Yandex) As credenciais de conta a serem usadas:
+**[Detalhes de Logon]:** (somente contas [!DNL Yandex]) As credenciais de conta a serem usadas:
 
 * **[!UICONTROL Login]:** O nome ou ID de logon para habilitar o acesso à API para a conta.
 
@@ -154,12 +151,6 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 * **[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] contas com a configuração Conta Compartilhada somente desabilitada; opcional) A ID numérica da campanha usada para pagar todas as campanhas de publicidade na conta.
 
 * **[!UICONTROL Finance Token]:** ([!DNL Yandex] contas com a configuração Conta Compartilhada somente desabilitada; opcional) O token de desenvolvedor a ser usado para chamadas de API relacionadas a finanças, como para realocar dinheiro da carteira entre as campanhas do anunciante, conforme necessário para otimização de portfólio.
-
-**[!UICONTROL Network Account ID]:** (Todas as redes de anúncios, exceto [!DNL Yandex] A ID de conta atribuída pela rede de anúncios.
-
->[!NOTE]
->
->Contas de gerente de rede de publicidade não são suportadas aqui. Para identificar uma conta de gerente para [!DNL Microsoft Advertising], use o campo ID da Conta Principal ou Conta MCC, respectivamente. Para [configurar credenciais para uma [!DNL Google Ads] conta de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), vá para [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (Somente leitura) A abreviação da moeda usada na conta. Esse valor é preenchido automaticamente com a moeda configurada para a conta na rede de publicidade depois que você salva o registro.
 
@@ -251,5 +242,5 @@ Para que os dados apareçam nos conjuntos de relatórios, (a) o recurso de ID AM
 >[!MORELIKETHIS]
 >
 >* [Sobre contas de rede de anúncios](../ad-network-account-about.md)
->* [Gerenciar contas do centro de comércio](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [Gerenciar contas do centro de comércio](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [Atualize o código de rastreamento s_kwcid de uma  [!DNL Google Ads] conta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)

@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 
 * Qualquer uma das seguintes opções:
   * Adobe Experience Platform Web SDK: `alloy.js`
-  * Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.0 ou superior
+  * Serviço de ID de visitante da Adobe: `visitorAPI.js` versão 2.0 ou superior
 * Qualquer versão do Adobe Analytics (incluindo [!DNL Prime], [!DNL Premium] ou [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versão 2.1 ou superior
 * (Clientes do Advertising DSP) Um [trecho do Advertising DSP JavaScript](javascript.md) implantado em suas páginas da Web para rastrear visitas de view-through.
@@ -59,7 +59,7 @@ Analise as informações a seguir antes de integrar o Adobe Advertising ao Adobe
 
 ## Requisitos para compartilhar segmentos do Analytics com a Adobe Advertising
 
-* Serviço de identidade da Experience Cloud: `visitorAPI.js` versão 2.1 ou superior
+* Serviço de ID de visitante da Adobe: `visitorAPI.js` versão 2.1 ou superior
 * Adobe Analytics: `appMeasurement.js` versão 1.8 ou superior
 
 ## Requisitos para relatórios de dados do [!DNL Analytics] no Adobe Advertising

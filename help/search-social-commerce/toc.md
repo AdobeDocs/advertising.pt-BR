@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
+source-git-commit: 2a6c0d3ffbd4edbca74a45c98826d3265df099f5
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # Advertising Search, Social &amp; Commerce {#search-social-commerce}
@@ -104,6 +104,7 @@ ht-degree: 2%
       + [Replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + Configurações do Campaign por rede de publicidade {#campaign-settings-by-network}
         + [Configurações de campanha de [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [Configurações de campanha de [!DNL ChatGPT Ads]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
         + [Configurações de campanha de [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
         + [Configurações de campanha de [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [Configurações de campanha de [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
@@ -112,6 +113,7 @@ ht-degree: 2%
       + [Gerenciar grupos de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + Configurações do grupo de anúncios por rede de anúncios {#ad-group-settings-by-network}
         + [Configurações do grupo de anúncios [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [Configurações do grupo de anúncios [!DNL ChatGPT Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
         + [Configurações do grupo de anúncios [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
         + [Configurações do grupo de anúncios [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [Configurações do grupo de anúncios [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
@@ -120,6 +122,7 @@ ht-degree: 2%
       + [Gerenciar anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + Configurações de publicidade por rede de publicidade {#ad-settings-by-network}
         + [Configurações de anúncio de texto [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL ChatGPT Ads] configurações do anúncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [Configurações de anúncios de pesquisa responsiva [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

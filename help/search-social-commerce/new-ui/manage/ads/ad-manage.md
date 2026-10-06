@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # Gerenciar anúncios
@@ -66,6 +66,8 @@ Você pode criar e gerenciar os tipos de anúncios suportados para grupos de an�
   >[!NOTE]
   >
   >No momento, não é possível criar ou editar anúncios somente para chamada. Você pode visualizar, alterar o status ou excluir um anúncio somente chamada existente.
+
+* **Anúncios de conversa** para um grupo de publicidade em uma campanha [!DNL ChatGPT Ads]. Anúncios de conversação são exibidos ao lado de conversões de bate-papo de IA.
 
 * **Anúncios de pesquisa dinâmica expandidos** (agora chamados apenas de &quot;anúncios de pesquisa dinâmica&quot; nas redes de publicidade) para [!DNL Google Ads] e [!DNL Microsoft Advertising] grupos de anúncios de pesquisa dinâmica em campanhas de pesquisa. Os anúncios de pesquisa dinâmicos usam o conteúdo de seu site, em vez de palavras-chave, para decidir quando mostrar seus anúncios. A rede de publicidade gera dinamicamente o título, escolhe o URL da página de aterrissagem e o URL de exibição e gera automaticamente o URL final.
 
@@ -117,7 +119,7 @@ No entanto, não está disponível para [!DNL Google Ads] anúncio de pesquisa d
 
    Para obter mais informações sobre os tipos de anúncios disponíveis, consulte &quot;[Tipos de anúncios disponíveis](#ad-types).&quot;
 
-1. Especifique as configurações restantes para um [anúncio de texto do Baidu](ad-settings-baidu-text.md), [anúncio de pesquisa dinâmica expandido do Google Ads](ad-settings-google-dsa.md) (chamado apenas de &quot;anúncio de pesquisa dinâmica&quot; no Google Ads), [anúncio de pesquisa responsivo do Google Ads](ad-settings-google-rsa.md), [anúncio de pesquisa dinâmica expandido do Microsoft Advertising](ad-settings-microsoft-dsa.md), [anúncio multimídia do Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anúncio de produto do Microsoft Advertising](ad-settings-microsoft-product.md), [anúncio responsivo (público-alvo) do Microsoft](ad-settings-microsoft-responsive.md), [anúncio de pesquisa responsivo do Advertising](ad-settings-microsoft-rsa.md) ou Configurações de [anúncio de texto Yandex](ad-settings-yandex-text.md).
+1. Especifique as configurações restantes para um [anúncio de texto do Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] anúncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [anúncio de pesquisa dinâmica expandido do Google Ads](ad-settings-google-dsa.md) (chamado apenas de &quot;anúncio de pesquisa dinâmica&quot; no Google Ads), [anúncio de pesquisa responsivo do Google Ads](ad-settings-google-rsa.md), [anúncio de pesquisa dinâmica expandido do Microsoft Advertising](ad-settings-microsoft-dsa.md), [anúncio multimídia do Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anúncio de produto do Microsoft Advertising](ad-settings-microsoft-product.md), [anúncio responsivo do Microsoft (público-alvo)](ad-settings-microsoft-responsive.md), [responsivo do Advertising Microsoft configurações de anúncio](ad-settings-microsoft-rsa.md) ou [anúncio de texto Yandex](ad-settings-yandex-text.md).
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ Renomeie rapidamente um anúncio sem abrir as configurações completas do anún
 
 1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Edit]**.
 
-1. Edite as configurações restantes para um [anúncio de texto do Baidu](ad-settings-baidu-text.md), [anúncio de pesquisa dinâmica expandido do Google Ads](ad-settings-google-dsa.md) (agora chamado apenas de &quot;anúncio de pesquisa dinâmica&quot; no Google Ads), [anúncio de pesquisa responsivo do Google Ads](ad-settings-google-rsa.md), [anúncio de pesquisa dinâmica expandido do Microsoft Advertising](ad-settings-microsoft-dsa.md), [anúncio multimídia do Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anúncio de produto do Microsoft Advertising](ad-settings-microsoft-product.md), [anúncio responsivo (público-alvo) do Microsoft](ad-settings-microsoft-responsive.md), [anúncio de pesquisa responsivo do Advertising](ad-settings-microsoft-rsa.md) ou Configurações de [anúncio de texto Yandex](ad-settings-yandex-text.md).
+1. Edite as configurações restantes para um [anúncio de texto do Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] anúncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [anúncio de pesquisa dinâmica expandido do Google Ads](ad-settings-google-dsa.md) (agora chamado apenas de &quot;anúncio de pesquisa dinâmica&quot; no Google Ads), [anúncio de pesquisa responsivo do Google Ads](ad-settings-google-rsa.md), [anúncio de pesquisa dinâmica expandido do Microsoft Advertising](ad-settings-microsoft-dsa.md), [anúncio multimídia do Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anúncio de produto do Microsoft](ad-settings-microsoft-product.md), [anúncio responsivo do Advertising (público-alvo)](ad-settings-microsoft-responsive.md), [responsivo do Microsoft pesquisar configurações de anúncio](ad-settings-microsoft-rsa.md) ou [anúncio de texto Yandex](ad-settings-yandex-text.md).
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
@@ -171,7 +173,7 @@ Altere rapidamente o status de um anúncio sem abrir as configurações completa
 
 Você pode pausar qualquer anúncio ativo em uma rede de anúncios compatível para desativar a licitação. Posteriormente, é possível retomar o lance alterando o status para ativo.
 
-Você também pode excluir qualquer anúncio ativo ou pausado. Os anúncios excluídos são excluídos da rede de publicidade. Elas ainda estarão visíveis ao serem incluídas no filtro de dados, mas não poderão ser alteradas.
+Você também pode excluir (chamado de &quot;arquivamento&quot; em [!DNL ChatGPT Ads Manager]) qualquer anúncio ativo ou pausado. Os anúncios excluídos ou arquivados são excluídos ou arquivados da rede de anúncios. Elas ainda estarão visíveis ao serem incluídas no filtro de dados, mas não poderão ser alteradas.
 
 ### Ativar ou pausar um anúncio
 
@@ -185,7 +187,7 @@ Você também pode excluir qualquer anúncio ativo ou pausado. Os anúncios excl
 
    * Para pausar um anúncio ativo, clique em **[!UICONTROL Pause]**.
 
-### Excluir um anúncio
+### Excluir ou arquivar um anúncio
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 

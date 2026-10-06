@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2a6c0d3ffbd4edbca74a45c98826d3265df099f5
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2404'
 ht-degree: 2%
 ---
 # Advertising Search, Social &amp; Commerce {#search-social-commerce}
@@ -122,7 +122,7 @@ ht-degree: 2%
       + [Gerenciar anúncios](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + Configurações de publicidade por rede de publicidade {#ad-settings-by-network}
         + [Configurações de anúncio de texto [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
-        + [[!DNL ChatGPT Ads] configurações do anúncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
+        + [Configurações de anúncio de cartão de chat do [!DNL ChatGPT Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [Configurações de anúncios de pesquisa responsiva [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising] configurações expandidas de anúncios de pesquisa dinâmica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

@@ -33,7 +33,7 @@ O Search, Social e Commerce está fazendo a transição para o Adobe Identity Ma
 
 Suas credenciais atuais de Pesquisa, Social e Commerce permanecerão ativas por um curto período para que você possa se preparar para a alteração.
 
-Para obter mais informações sobre a interface do CX Enterprise, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).&quot;
+Para obter mais informações sobre a interface do CX Enterprise, incluindo o gerenciamento do seu perfil de usuário, consulte &quot;[Interface e administração do CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Fazer logon na página herdada de logon do Search, Social e Commerce
 
@@ -51,7 +51,7 @@ Essa opção está disponível por um curto período para que você possa se pre
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    A nova interface do usuário é aberta por padrão.
 
@@ -65,7 +65,7 @@ Essa opção está disponível por um curto período para que você possa se pre
 
 1. Insira sua ID do [!DNL Adobe] e clique em **[!UICONTROL Continue]**.
 
-1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se solicitado, selecione **[!UICONTROL Personal Account]&quot; ou **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Na seção [!UICONTROL Quick Access] da home page, clique em **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

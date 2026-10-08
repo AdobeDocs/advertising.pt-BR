@@ -110,7 +110,7 @@ Os ativos de texto removidos não serão enviados novamente, mas os dados de des
 
 1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Remove]**.
 
-1. &#x200B;<!-- VERIFY -->Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
+1. <!-- VERIFY -->Na mensagem de confirmação, clique em **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >

@@ -194,7 +194,7 @@ Para inserir um nome de coluna ou grupo de modificadores como um parâmetro din�
 
   * Para parâmetros dinâmicos: insira o nome da coluna, como `[keyword]`. Para indicar o tipo de correspondência, use a [[!DNL Yandex] sintaxe específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Observação:** para termos de correspondência ampla, use a seguinte sintaxe: Modificador de Correspondência Ampla para o primeiro termo na coluna Palavra-chave (como +sapatos de camurça azuis) = `+[keyword]`, Modificador de Correspondência Ampla para cada termo na coluna Palavra-chave (como +blue +suede +shoes) = `+[keyword]+`
 
-  * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe [&#128279;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) específica de [!DNL Yandex] para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
+  * Para palavras-chave estáticas: somente as palavras-chave de pesquisa são suportadas. Use a sintaxe ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) específica de [[!DNL Yandex] para a palavra-chave. Não há suporte para colchetes (`[]`) para indicar a ordem das palavras.
 
 >[!NOTE]
 >

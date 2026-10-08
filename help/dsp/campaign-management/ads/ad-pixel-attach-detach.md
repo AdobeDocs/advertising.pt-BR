@@ -32,7 +32,7 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 ## Anexar pixels de rastreamento de terceiros a anúncios em um posicionamento {#attach-pixels-ads}
 
-1. [Abra a exibição ](#ad-tools-open) de [!UICONTROL Ad Tools].
+1. [Abra a exibição &#x200B;](#ad-tools-open) de [!UICONTROL Ad Tools].
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 
@@ -74,7 +74,7 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 ## Desanexar pixels de rastreamento de terceiros de anúncios em um posicionamento {#detach-pixels-ads}
 
-1. [Abra a exibição ](#ad-tools-open) de [!UICONTROL Ad Tools].
+1. [Abra a exibição &#x200B;](#ad-tools-open) de [!UICONTROL Ad Tools].
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 
@@ -98,7 +98,7 @@ Você pode anexar e desanexar pixels de rastreamento de terceiros dos anúncios.
 
 ## Exibir pixels anexados a anúncios {#view-pixels-ads}
 
-1. [Abra a exibição ](#ad-tools-open) de [!UICONTROL Ad Tools].
+1. [Abra a exibição &#x200B;](#ad-tools-open) de [!UICONTROL Ad Tools].
 
    A guia **[!UICONTROL Attach Pixels]** é aberta.
 

@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # Duplicar criações
 
 Duplique criações para adicionar novas criações com as mesmas configurações à mesma biblioteca. Posteriormente, é possível renomear os novos elementos de criação e editar as configurações de criação, conforme necessário.
 
+Os novos criadores são nomeados como `<original name> (copy) # 1` (ou o próximo número na sequência). Por exemplo, se você fizer duas duplicatas de &quot;Imagem de teste&quot;, elas serão nomeadas como &quot;Imagem de teste (cópia) nº 1&quot; e &quot;Imagem de teste (cópia) nº 2&quot;.
+
 >[!NOTE]
 >
 >Quando você duplica um criativo dinâmico, o duplicado é adicionado ao mesmo catálogo do criativo original.
 
+## Da nova interface
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Siga um destes procedimentos:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Na guia **[!UICONTROL Creatives]**, selecione as criações:
+
+   * Para duplicar um único criativo, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Duplicate]**.
+
+   * Para duplicar uma ou mais criações, marque a caixa de seleção para cada criativo que deseja duplicar. Na barra de ferramentas de ações em massa, clique em ![Duplicar](/help/creative/assets/duplicate.png "Duplicar") (**[!UICONTROL Duplicate]**).
+
+     Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
+
+## Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 
@@ -46,8 +70,6 @@ Duplique criações para adicionar novas criações com as mesmas configuraçõe
    * Para duplicar uma ou mais criações, marque a caixa de seleção para cada criativo que deseja duplicar. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Duplicate]**.
 
      Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
-
-   Os novos criadores são nomeados como `<original name> (copy) # 1` (ou o próximo número na sequência). Por exemplo, se você fizer duas duplicatas de &quot;Imagem de teste&quot;, elas serão nomeadas como &quot;Imagem de teste (cópia) nº 1&quot; e &quot;Imagem de teste (cópia) nº 2&quot;.
 
 <!--
  Add to TOC later when this feature is available to users:

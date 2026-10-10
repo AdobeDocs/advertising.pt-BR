@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
 1. (Opcional) Para copiar uma URL de demonstração da experiência para compartilhar com outras pessoas sem login no [!DNL Creative]:
 
-   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar").
+   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share-legacy.png "Compartilhar").
 
    1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 
@@ -120,7 +120,7 @@ Você pode visualizar as criações com um tamanho de anúncio específico que o
 
 1. (Opcional) Para copiar uma URL de demonstração da experiência para compartilhar com outras pessoas sem login no [!DNL Creative]:
 
-   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar").
+   1. No canto superior direito da visualização, clique em ![Compartilhar](/help/creative/assets/share-legacy.png "Compartilhar").
 
    1. Na caixa de diálogo [!UICONTROL Share Demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
 

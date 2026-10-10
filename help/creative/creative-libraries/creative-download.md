@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # Baixar criações
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 Baixe todos os elementos de criação selecionados em um arquivo no formato ZIP de acordo com o procedimento normal do navegador.
 
+## Da nova interface
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Siga um destes procedimentos:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Na guia **[!UICONTROL Creatives]**, selecione as criações:
+
+   * Para baixar um criativo único, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Download]**.
+
+   * Para baixar um ou mais anúncios, marque a caixa de seleção de cada criativo que deseja baixar. Na barra de ferramentas de ações em massa, clique em ![Baixar](/help/creative/assets/download.png "Baixar") (**[!UICONTROL Download]**).
+
+     Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
+
+## Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 

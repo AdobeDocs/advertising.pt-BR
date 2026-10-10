@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # Editar criações padrão em uma biblioteca criativa
 
-É possível editar algumas configurações para cada tipo de criação padrão. Você pode editar várias criações do mesmo tipo criativo (HTML5 simples com apenas uma página de aterrissagem, HTML5 estático com várias páginas de aterrissagem, HTML5 flexível, imagem ou terceiros) somente.
+É possível editar algumas configurações para cada tipo de criação padrão.
 
 Para criações flexíveis de HTML5 e HTML5 estáticas, você pode fazer upload de um novo arquivo de modelo com um layout diferente, mas o mesmo conjunto de nomes de atributo. Para criações simples do HTML5, você pode editar quaisquer atributos ou adicionar imagens fazendo upload de um novo modelo com os novos atributos ou imagens. Em todos os casos, o modelo deve ser um arquivo local em formato ZIP com no máximo 2 MB.
 
 Ao editar um criativo que está incluído em um pacote, as alterações são aplicadas automaticamente em todas as experiências que incluem o pacote, exceto que qualquer página de aterrissagem personalizada e URLs de rastreamento especificados no nível da experiência permanecem aplicáveis ao pacote anexado a essa experiência.
 
+## Da nova interface
+
+É possível editar um único criativo.
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra a biblioteca de uma das seguintes maneiras:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL ...]**, ao lado do nome criativo, e em **[!UICONTROL Edit]**.
+
+1. Edite as [configurações de criação da imagem](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), as [configurações de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), as [configurações flexíveis de criação do HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) ou as [configurações de criação de terceiros](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party).
+
+1. Clique em **[!UICONTROL Update Creative]**.
+
+## Da interface herdada
+
+Você pode editar várias criações do mesmo tipo criativo (HTML5 simples com apenas uma página de aterrissagem, HTML5 estático com várias páginas de aterrissagem, HTML5 flexível, imagem ou terceiros) somente.
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 

@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '423'
 ht-degree: 0%
 ---
 # Gerencie suas bibliotecas criativas
 
 É possível criar várias bibliotecas criativas para cada anunciante. Posteriormente, você poderá preencher cada biblioteca com [criações padrão](creative-add-standard.md), [criações dinâmicas](creative-add-dynamic.md) e [pacotes criativos](bundle-manage.md).
 
-## Criar uma biblioteca criativa
+## Alternar entre a nova interface e a interface herdada {#library-switch-ui}
+
+* Na parte superior direita, clique em **[!UICONTROL Switch to classic UI]** ou **[!UICONTROL Switch to new UI]**.
+
+## Criar uma biblioteca criativa {#library-create}
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -35,9 +39,27 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Create]**.
 
-## Editar o nome de uma biblioteca criativa
+## Renomear uma biblioteca criativa {#library-rename}
+
+### Da nova interface
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Rename]**.
+
+1. Edite o **[!UICONTROL Library Name]**.
+
+   O [!UICONTROL Library Name] deve ser exclusivo.
+
+1. Clique em **[!UICONTROL Save]**.
+
+### Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -53,17 +75,51 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Edit]**.
 
-## Abrir uma biblioteca criativa
+## Abrir uma biblioteca criativa {#library-open}
+
+### Da nova interface
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Siga um destes procedimentos:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+### Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 
-## Excluir bibliotecas criativas
+## Excluir bibliotecas criativas {#library-delete}
 
 Você pode excluir bibliotecas com criações e pacotes que não estão atribuídos a uma experiência [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Para uma experiência direcionada ao vivo, [remova todos os elementos de criação ou pacotes da árvore de decisão](/help/creative/experiences/experience-target-node-delete.md) para a experiência antes de continuar.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
+### Da nova interface
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Selecione as bibliotecas a serem excluídas:
+
+   * Para excluir uma única biblioteca, clique em **[!UICONTROL ...]** ao lado do nome da biblioteca e em **[!UICONTROL Delete]**.
+
+   * Para excluir uma ou mais bibliotecas, marque a caixa de seleção para cada biblioteca que deseja excluir. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/creative/assets/delete.png "Excluir") (**[!UICONTROL Delete]**).
+
+     Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
+
+1. Na mensagem de confirmação, clique em **[!UICONTROL Delete].**
+
+### Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 

@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # Pré-visualizar um criativo
 
 Você pode visualizar um criativo como os visualizadores o verão, incluindo hiperlinks.
 
+## Da nova interface
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra a biblioteca de uma das seguintes maneiras:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL ...]**, ao lado do nome criativo, e em **[!UICONTROL Preview]**.
+
+   Para criações do HTML5 e do HTML5 flexível, você pode se mover entre as guias Camadas, Detalhes e Atributos para obter mais detalhes.
+
+1. (Opcional) Para abrir a landing page do criativo, clique no criativo.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Opcional; quando disponível) Para baixar o criativo, clique em ![Baixar](/help/creative/assets/download.png "Baixar").
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+1. (Opcional; quando disponível) Para compartilhar uma URL de demonstração para que outras pessoas sem login no [!DNL Creative] possam visualizar as criações:
+
+   1. Clique em ![Compartilhar](/help/creative/assets/share.png "Compartilhar") no canto superior direito da visualização.
+
+   1. Na caixa de diálogo [!UICONTROL Share demo URL], clique em **[!UICONTROL Copy]** para copiar a URL para a área de transferência e compartilhá-la com outra pessoa.
+
+## Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 

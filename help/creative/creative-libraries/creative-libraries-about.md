@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # Sobre suas bibliotecas criativas
@@ -155,63 +155,55 @@ Quando estiver no modo de cartão, você pode rolar pelas imagens em uma bibliot
 
 #### Ações disponíveis
 
-* [Criar uma nova biblioteca](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [Criar uma nova biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * Para cada biblioteca criativa:
 
-  * [Editar um nome de biblioteca](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Renomear uma biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [Abrir uma biblioteca para exibir os elementos de criação e os pacotes atribuídos à biblioteca](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Abrir uma biblioteca para exibir os elementos de criação e os pacotes atribuídos à biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [Excluir bibliotecas](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Excluir bibliotecas](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
-### As [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] visualizações
+### A visualização [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
-#### [!UICONTROL Standard Ads]
+A exibição [!UICONTROL Creatives] mostra:
 
-A guia [!UICONTROL Standard Ads] mostra todas as criações padrão que você criou. Os dados de cada criativo incluem o tamanho do criativo, o tipo de criativo e a data de criação. O modo de tabela também inclui colunas para o idioma padrão e a landing page padrão.
+* Todas as criações padrão que você criou.
 
-##### Ações disponíveis
+  Os dados de cada criativo padrão incluem o tamanho do criativo, o tipo de criativo e a data de criação. O modo de tabela também inclui colunas para o idioma padrão e a landing page padrão.
 
-* [Adicionar criações padrão a uma biblioteca](creative-add-standard.md)
+* Todas as criações dinâmicas que foram criadas dinamicamente para seus catálogos criativos, exceto qualquer criação dinâmica que você [excluiu manualmente](creative-delete.md). Se você [duplicou manualmente](creative-duplicate.md) quaisquer criações dinâmicas<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, a lista de criações para esse catálogo também incluirá as criações duplicadas.
 
-* [Editar um criativo padrão](creative-edit-standard.md)
+  Os dados de cada criativo dinâmico incluem o tipo criativo, o tamanho criativo, o número de catálogos aos quais o criativo pertence e a data de criação. O modo de tabela também inclui colunas para o modelo de anúncio pelo qual a criação foi gerada e a contagem da oferta.
 
-* [Pré-visualização de um criativo padrão](creative-preview.md)
+  >[!NOTE]
+  >
+  >Cada vez que um catálogo é processado, os dados são atualizados para os elementos de criação dinâmicos existentes para esse catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>Na interface herdada, [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] é organizado em guias separadas de [!UICONTROL Standard Ads] e [!UICONTROL Dynamic Ads].
+
+#### Ações disponíveis
+
+* Adicionar [criações padrão](creative-add-standard.md) e [criações dinâmicas](creative-add-dynamic.md) a uma biblioteca
+
+* Edite um [criativo padrão](creative-edit-standard.md) e um [criativo dinâmico](creative-edit-dynamic.md)
+
+* Visualize um [criativo padrão](creative-preview.md) e [criativos dinâmicos](creative-preview.md)
 
 * [Adicionar criações padrão a conjuntos de exibições padrão e remover criações padrão de um conjunto de exibições padrão](creative-attach-detach-bundles.md)
 
 * [Adicionar criações de vídeo a pacotes de vídeo padrão e remover criações de vídeo de um pacote de vídeo padrão](creative-attach-detach-bundles.md)
 
-* [Duplicar criações padrão](creative-duplicate.md)
+* [Adicionar criações dinâmicas a conjuntos de exibição dinâmicos e remover criações dinâmicas de um conjunto de exibição dinâmico](creative-attach-detach-bundles.md)
+
+* Duplicar [criações padrão](creative-duplicate.md) e [criações dinâmicas](creative-duplicate.md)
 
 * [Baixar criações padrão](creative-download.md)
 
-* [Excluir criações padrão](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-A guia [!UICONTROL Dynamic Ads] mostra todas as criações dinâmicas que foram criadas dinamicamente para seus catálogos criativos, exceto todas as criações dinâmicas que você [excluiu manualmente](creative-delete.md) da guia [!UICONTROL Dynamic Ads]. Se você [duplicou manualmente](creative-duplicate.md) quaisquer criações dinâmicas<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, a lista de criações para esse catálogo também incluirá as criações duplicadas.
-
-Os dados de cada criativo incluem o tipo criativo, o tamanho criativo, o número de catálogos aos quais o criativo pertence e a data de criação. O modo de tabela também inclui colunas para o modelo de anúncio pelo qual a criação foi gerada e a contagem da oferta.
-
->[!NOTE]
->
->Cada vez que um catálogo é processado, os dados são atualizados para os elementos de criação dinâmicos existentes para esse catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### Ações disponíveis
-
-* [Adicionar criações dinâmicas a uma biblioteca](creative-add-dynamic.md)
-
-* [Editar um criativo dinâmico](creative-edit-dynamic.md)
-
-* [Visualizar criações dinâmicas](creative-preview.md)
-
-* [Adicionar criações dinâmicas a conjuntos de exibição dinâmicos e remover criações dinâmicas de um conjunto de exibição dinâmico](creative-attach-detach-bundles.md)
-
-* [Duplicar criações dinâmicas](creative-duplicate.md)
-
-* [Excluir criações dinâmicas](creative-delete.md)
+* Excluir [criações padrão](creative-delete.md) e [criações dinâmicas](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ A exibição [!UICONTROL Bundles] mostra todos os seus contêineres de pacote pa
 
 * Listar e visualizar as criações em um pacote
 
-* Editar um nome de pacote
+* Renomear um pacote
 
 * Adicionar criações de exibição padrão a conjuntos de exibição padrão e remover criações de exibição padrão de um conjunto de exibição padrão
 

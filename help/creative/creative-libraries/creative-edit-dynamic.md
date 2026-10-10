@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # Editar um criativo dinâmico em uma biblioteca criativa
 
+## Da nova interface
+
+1. Abra as configurações de criação:
+
+   * De uma biblioteca criativa:
+
+     1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Abra a biblioteca de uma das seguintes maneiras:
+
+        * Clique no nome da biblioteca.
+
+        * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+     1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL ...]**, ao lado do nome criativo, e em **[!UICONTROL Edit]**.
+
+   * De [!UICONTROL Creative Studio]:
+
+     1. No menu principal, clique em **[!UICONTROL Creative]>[!UICONTROL Creative Studio]**.
+
+     1. Na guia **[!UICONTROL Creatives]**, mantenha o cursor sobre o cartão criativo e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+
+        Um editor de tela cheia é aberto com uma pré-visualização de anúncio à esquerda e um painel de configurações à direita.
+
+1. Edite as configurações criativas usando as guias **[!UICONTROL Details]** e **[!UICONTROL Attribute Mapping]**:
+
+   Guia **[!UICONTROL Details]**:
+
+   * **[!UICONTROL Advertiser]**, **[!UICONTROL Ad Library]** e **[!UICONTROL Ad template]** são somente leitura.
+   * **[!UICONTROL Dynamic creative name]:** O nome para exibição do criativo.
+   * **[!UICONTROL Number of cards]:** O número de ofertas de catálogo incluídas em cada combinação de anúncios (1-50).
+   * (Opcional) Em **[!UICONTROL Catalogs]**, atualize a seleção do catálogo:
+     * Use **[!UICONTROL Catalog template]** para filtrar os catálogos disponíveis. Para baixar opcionalmente o arquivo de modelo, clique em **[!UICONTROL Download feed template]**.
+     * Pesquise e selecione catálogos da lista ou carregue um novo arquivo de catálogo arrastando-o para a área de carregamento ou clicando em **[!UICONTROL Browse Files]** (formatos compatíveis: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; máximo de 25 MB; um arquivo por vez). Os catálogos carregados estão rotulados como **(carregados)** na lista de chips.
+
+     Todos os catálogos devem pertencer à mesma família de modelo de catálogo.
+
+   Guia **[!UICONTROL Attribute Mapping]**:
+
+   * Em **[!UICONTROL Targeting]**, selecione pelo menos uma fonte de dados: **[!UICONTROL Profile data]**, **[!UICONTROL Geographic data]**, **[!UICONTROL Data pass]** ou **[!UICONTROL Audience Segment]**.
+   * Em **[!UICONTROL Attribute Mapping]**, atualize o mapeamento de cada nome de camada de modelo para o rótulo de coluna de catálogo correspondente.
+
+1. Clique em **[!UICONTROL Update Creative]**.
+
+## Da interface herdada
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 

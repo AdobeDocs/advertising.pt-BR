@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # Excluir elementos de criação de uma biblioteca criativa
@@ -37,7 +37,31 @@ ht-degree: 0%
 >
 >Se você excluir uma criação dinâmica e gerar novos anúncios para o catálogo usando os mesmos dados usados para criar a criação original, a criação será adicionada de volta ao catálogo.
 
+## Da nova interface
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Siga um destes procedimentos:
+
+   * Clique no nome da biblioteca.
+
+   * Ao lado do nome da biblioteca, clique em **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Na guia **[!UICONTROL Creatives]**, selecione as criações a serem excluídas:
+
+   * Para excluir um único criativo, clique em **[!UICONTROL ...]** ao lado do nome criativo e, em seguida, clique em **[!UICONTROL Delete]**.
+
+   * Para excluir uma ou mais criações, marque a caixa de seleção de cada criação que deseja excluir. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/creative/assets/delete.png "Excluir") (**[!UICONTROL Delete]**).
+
+     Para selecionar todas as linhas, marque a caixa de seleção global no canto superior esquerdo.
+
+1. Na mensagem de confirmação, clique em **[!UICONTROL Delete].**
+
+## Da interface herdada
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Clique em **[!UICONTROL Switch to classic UI]**.
 
 1. Clique no nome da biblioteca.
 

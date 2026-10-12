@@ -1,30 +1,38 @@
 ---
 title: Configure testes A/B para anúncios do Adobe Advertising Search, Social e Commerce no Adobe Target
-description: Saiba como configurar um teste A/B no [!DNL Target] para seus [!DNL Google Ads] e [!DNL Microsoft Advertising] anúncios em Search, Social e Commerce.
+description: Saiba como configurar um teste A/B no [!DNL Target] para seus anúncios do [!DNL Google Ads] e do [!DNL Microsoft Advertising] no Search, Social e Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+TQID: 'https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Personalization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '961'
 ht-degree: 0%
-
 ---
-
 # Configurar testes A/B no Adobe Target para anúncios do Advertising Search, Social e Commerce
 
 *Somente anunciantes com Advertising Search, Social e Commerce*
@@ -56,56 +64,56 @@ Consulte as seções a seguir para obter os pré-requisitos, instruções para c
 
 * [[!DNL Analytics] para [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR) integração
 
-## Step 1: Create an A/B test activity in [!DNL Target] for Search, Social, &amp; Commerce
+## Etapa 1: criar uma atividade de teste A/B no [!DNL Target] para Search, Social e Commerce
 
-The following instructions highlight information pertaining to the Search, Social, &amp; Commerce use case.
+As instruções a seguir destacam informações relacionadas ao caso de uso de Pesquisa, Social e Commerce.
 
-1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=pt-BR).
+1. [Entrar no Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=pt-BR).
 
-1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR):
+1. [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR):
 
-   1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
+   1. No campo **[!UICONTROL Enter Activity URL]**, insira a URL da página de aterrissagem do teste.
 
-   1. In the **[!UICONTROL Goal]** field, enter the success metric for the test.
+   1. No campo **[!UICONTROL Goal]**, insira a métrica de sucesso do teste.
 
       >[!NOTE]
       >
-      >Make sure that [!DNL Analytics] is enabled as a data source within [!DNL Target], and that the correct report suite is selected.
+      >Verifique se [!DNL Analytics] está habilitado como fonte de dados em [!DNL Target] e se o conjunto de relatórios correto está selecionado.
 
-   1. Set the **[!UICONTROL Priority]** to `High` or `999` to prevent conflicts when users in the test segment receive an incorrect on-site experience.
+   1. Defina o **[!UICONTROL Priority]** como `High` ou `999` para evitar conflitos quando os usuários no segmento de teste receberem uma experiência no site incorreta.
 
 
-   1. Within **[!UICONTROL Reporting Settings]**, select the **[!UICONTROL Company Name]** and **[!UICONTROL Report Suite]** connected to your Search, Social, &amp; Commerce account.
+   1. Em **[!UICONTROL Reporting Settings]**, selecione o **[!UICONTROL Company Name]** e **[!UICONTROL Report Suite]** conectados à sua conta do Search, Social e Commerce.
 
-      For additional reporting tips, see &quot;[Reporting best practices and troubleshooting](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=pt-BR).&quot;
+      Para obter dicas adicionais sobre relatórios, consulte &quot;[Práticas recomendadas e solução de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=pt-BR) para relatórios.&quot;
 
-   1. In the **[!UICONTROL Date Range]** field, enter the appropriate start and end dates for the test.
+   1. No campo **[!UICONTROL Date Range]**, insira as datas de início e término apropriadas para o teste.
 
-   1. Select **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. In the **[!UICONTROL Value]** field, enter the [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], or [!UICONTROL Network Ad ID] for the relevant ad network entity in Search, Social, &amp; Commerce. This allows you to use the [!DNL Target] query string parameters for click-through audiences for the entity.
+   1. Selecione **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. No campo **[!UICONTROL Value]**, digite o [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID] ou [!UICONTROL Network Ad ID] para a entidade de rede de anúncios relevante em Pesquisa, Social e Commerce. Isso permite usar os parâmetros da cadeia de caracteres de consulta [!DNL Target] para públicos-alvo de click-through para a entidade.
 
-      You can find the ID by [adding the relevant ID column to the entity view](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+      Você pode encontrar a ID [adicionando a coluna de ID relevante à exibição de entidade](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-      ![[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] column in the [!UICONTROL Accounts] view")
+      ![[!UICONTROL Network Account ID] coluna na [!UICONTROL Accounts] exibição](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] coluna na [!UICONTROL Accounts] exibição")
 
-      Work with your Adobe Account Team if you need assistance.
+      Entre em contato com a equipe de conta da Adobe se precisar de assistência.
 
-   1. For the **[!UICONTROL Traffic Allocation Method]**, select **[!UICONTROL Manual (Default)]** and split the audience 50/50.
+   1. Para o **[!UICONTROL Traffic Allocation Method]**, selecione **[!UICONTROL Manual (Default)]** e divida o público em 50/50.
 
-   1. Save the activity.
+   1. Salve a atividade.
 
-1. Use [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR) to make design changes to the A/B test landing page template.
+1. Use o [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR) para fazer alterações de design no modelo de página de aterrissagem de teste A/B.
 
-   * Experience A: Don&#39;t edit because it&#39;s the default/control landing page experience without personalization.
+   * Experiência A: não edite porque é a experiência padrão/de controle da página de aterrissagem sem personalização.
 
-   * Experience B: Use the [!DNL Target] user interface to customize the landing page template based on the assets included in the test (such as headlines, copy, button placement, and creatives).
+   * Experiência B: use a interface do usuário [!DNL Target] para personalizar o modelo de página de aterrissagem com base nos ativos incluídos no teste (como títulos, cópia, posicionamento de botões e criação).
 
    >[!NOTE]
    >
-   >For example creative test use cases, contact your Adobe Account Team.
+   >Por exemplo, casos de uso de teste criativo, entre em contato com a equipe de conta da Adobe.
 
-## Step 2: Set up your [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
+## Etapa 2: configurar o Analysis Workspace do [!DNL Analytics for Target] no [!DNL Analytics]
 
-[!DNL Analytics for Target] (A4T) is a cross-solution integration that lets advertisers create [!DNL Target] activities based on [!DNL Analytics] conversion metrics and audience segments and then measure the results using [!DNL Analytics] as the reporting source. Todos os relatórios e segmentações para essa atividade são baseados na coleção de dados do [!DNL Analytics].
+O [!DNL Analytics for Target] (A4T) é uma integração entre soluções que permite aos anunciantes criar atividades do [!DNL Target] com base em [!DNL Analytics] métricas de conversão e segmentos de público-alvo e, em seguida, medir os resultados usando o [!DNL Analytics] como fonte de relatórios. Todos os relatórios e segmentações para essa atividade são baseados na coleção de dados do [!DNL Analytics].
 
 Para obter mais informações sobre [!DNL Analytics for Target], incluindo um link para instruções de implementação, consulte &quot;[Adobe Analytics como origem de relatório do Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR)&quot;.
 
@@ -149,10 +157,10 @@ No Analysis Workspace, se você notar que os dados de atividade e experiências 
 
 ## Leitura adicional
 
-* [Integrate Target with Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=pt-BR) - Explains how to set up [!DNL Target] reporting in Analysis Workspace.
-* [A/B Test Overview](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=pt-BR) - Describes A/B test activities, which you can use with Search, Social, &amp; Commerce ads.
-* [Overview of [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduces [!DNL Analytics for Advertising], which allows you to track click-through and view-through site interactions in your Analytics instances.
+* [Integrar o Target ao Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=pt-BR) - Explica como configurar relatórios do [!DNL Target] no Analysis Workspace.
+* [Visão geral do teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=pt-BR) - Descreve as atividades do teste A/B, que você pode usar com os anúncios de Pesquisa, Social e Commerce.
+* [Visão geral de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Apresenta o [!DNL Analytics for Advertising], que permite rastrear interações de site click-through e view-through nas instâncias do Analytics.
 
 >[!MORELIKETHIS]
 >
->* [Configure A/B tests in Adobe Target for Advertising DSP ads](ab-tests-dsp.md)
+>* [Configurar testes A/B no Adobe Target para anúncios do Advertising DSP](ab-tests-dsp.md)

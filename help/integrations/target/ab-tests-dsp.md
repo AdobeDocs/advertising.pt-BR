@@ -1,36 +1,45 @@
 ---
-title: Configure A/B tests for Adobe Advertising DSP ads in Adobe Target
-description: Learn how to set up an A/B test in [!DNL Target] for your DSP ads.
+title: Configurar testes A/B para anúncios do Adobe Advertising DSP no Adobe Target
+description: Saiba como configurar um teste A/B no [!DNL Target] para seus anúncios do DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-TQID: https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs
+TQID: 'https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Personalization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 1645
+source-wordcount: '1646'
 ht-degree: 0%
-
 ---
+# Configurar testes A/B no Adobe Target para anúncios do Advertising DSP
 
-# Configure A/B tests in Adobe Target for Advertising DSP ads
+*Somente anunciantes com o Advertising DSP*
 
-*Advertisers with Advertising DSP only*
-
-Adobe Advertising and Adobe Target make it even easier for marketers to deliver a personalized and connected experience across paid media and on-site messaging. By sharing signals between the products, you can:
+O Adobe Advertising e o Adobe Target tornam ainda mais fácil para os profissionais de marketing fornecer uma experiência personalizada e conectada em mídia paga e mensagens no site. Ao compartilhar sinais entre os produtos, você pode:
 
 * Diminuir as taxas de fallthrough do site, vinculando a exposição de anúncios dos clientes das campanhas do DSP às suas experiências no site.
 

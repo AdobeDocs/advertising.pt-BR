@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # Sobre insights
@@ -129,6 +129,56 @@ Os insights incluem:
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** O número de oportunidades qualificadas para as quais o posicionamento enviou uma oferta. Uma queda acentuada nesta fase pode indicar restrições de orçamento ou ritmo que limitam o volume de ofertas.
 
   * **[!UICONTROL Impression Wins]:** O número de oportunidades para as quais o posicionamento ganhou uma impressão. Se os ganhos forem muito inferiores aos lances, o preço de compra poderá estar abaixo da taxa de mercado prevalecente para o inventário de destino.
+
+### Guia [!UICONTROL Delivery Composition]
+
+*Disponível para anunciantes com [!DNL Analytics for Advertising] somente*
+
+A guia [!UICONTROL Delivery Composition] informa como o modelo de usuário do DSP faz lances com base na probabilidade de conversão dos usuários.  Os insights usam seus dados de conversor orgânico do Adobe Analytics correspondentes aos usuários na sequência de oferta programática (a população de usuários observada em oportunidades de publicidade programática).  Use esses insights para revisar uma disposição que está sendo entregue.
+
+Por padrão, os dados são exibidos para um anunciante específico e uma disposição específica. O intervalo de datas do relatório, a última data em que os dados foram atualizados e a próxima data em que o relatório será atualizado são incluídos. Opcionalmente, é possível configurar filtros para mostrar dados de um anunciante diferente ou selecionar um posicionamento diferente.
+
+Os insights incluem:
+
+* **[!UICONTROL Placement Summary]:** (Posicionamentos em pacotes) Indica o pacote associado e a meta do pacote.
+
+* **[!UICONTROL Propensity Breakdown]:** Separa os usuários com correspondência de conversor em camadas [!UICONTROL High Propensity], [!UICONTROL Medium Propensity] e [!UICONTROL Low Propensity] com base na probabilidade prevista de conversão. Para cada grupo, os dados incluem [!UICONTROL Avg Bid], [!UICONTROL Conversion Rate], [!UICONTROL Share of Conversions] e [!UICONTROL Conversion Rate Lift] (o índice de conversão do grupo relativo à linha de base de referência). Os dados indicam como o modelo oferece mais para os usuários que ele prevê que são mais prováveis de conversão.  **Observação:** os dados são baseados no desempenho observado, não na prova de que o modelo causou um ganho incremental nas conversões.
+
+* **[!UICONTROL Bid Multiplier Graph]:** Indica o multiplicador de oferta para cada um dos 20 compartimentos de público-alvo, dimensionando os gastos na proporção da probabilidade prevista de conversão de um usuário. O bucket 20 contém os usuários de maior propensão e recebe o multiplicador mais alto. Alto, Medium e Baixo são agrupamentos simplificados desses buckets, não porcentagens fixas de público-alvo.
+
+  Quando o multiplicador é 1.0x, nenhum ajuste é feito na oferta subjacente. Os multiplicadores acima de 1.0x resultam em um lance mais alto e os multiplicadores abaixo de 1.0x resultam em um lance mais baixo.
+
+### Guia [!UICONTROL Organic Seed Profile]
+
+*Disponível para anunciantes com [!DNL Analytics for Advertising] somente*
+
+A guia [!UICONTROL Organic Seed Profile] usa a inteligência de público-alvo para mostrar os interesses, horários, locais e dispositivos associados aos conversores. Os insights usam seus dados de conversor orgânico do Adobe Analytics correspondentes aos usuários no fluxo de oferta programática. Como esses insights usam dados de conversor existentes em vez do delivery de campanha, eles podem oferecer suporte ao planejamento antes que o DSP gaste, quando dados de seed adequados estão disponíveis. Use esses insights para planejar o lançamento de um pacote ou posicionamento ou para informar sua próxima campanha.
+
+Por padrão, os dados são exibidos para um anunciante específico e um pacote ou posicionamento específico. O intervalo de datas do relatório, a última data em que os dados foram atualizados e a próxima data em que o relatório será atualizado são incluídos. Opcionalmente, é possível configurar filtros para mostrar dados de um anunciante diferente ou selecionar um pacote ou posicionamento diferente.
+
+Os insights incluem:
+
+* **[!UICONTROL Affinity Insights]:** mostra os interesses e características comportamentais derivados do consumo de mídia dos conversores, classificados por seu aumento da taxa de conversão em relação à população geral. **Observação:** características descrevem o comportamento de consumo de mídia, não atributos demográficos verificados. Como os usuários podem ter várias características, todas as porcentagens de características podem não totalizar 100%.
+
+* **[!UICONTROL Temporal Insights]:** Mostra a atividade do conversor agregada por *Dia da Semana* ou *Hora do Dia* para que você possa identificar quando o público-alvo deste anunciante é mais ativo.
+
+* **[!UICONTROL Geographic Insights]:** Mostra a atividade do conversor agregada por *País* ou *Região*, ponderada pelo aumento da taxa de conversão em relação à população geral.  **Observação:** considere apenas locais relevantes para sua empresa e campanha.
+
+* **[!UICONTROL Device Insights]:** Mostra a atividade do conversor agregada por combinação de tipo de dispositivo, ponderada pelo aumento da taxa de conversão em relação à população geral. **Observação:** interprete os padrões do dispositivo no contexto da campanha. Por exemplo, campanhas com e sem CTV podem ter diferentes padrões de dispositivos.
+
+Cada insight [!UICONTROL Organic Seed Profile] inclui as seguintes colunas:
+
+**[!UICONTROL Bid-stream Users]:** Usuários no fluxo de oferta que pertencem ao grupo.
+
+**[!UICONTROL Converters]:** Conversores que pertencem ao grupo.
+
+**[!UICONTROL Precision]:** A porcentagem de usuários no grupo que converteram. **Observação:** taxas pequenas diferentes de zero podem ser arredondadas para 0,0% com a precisão exibida. Um valor de 0 não significa necessariamente que não houve conversores; verifique a contagem de [!UICONTROL Converters].
+
+**[!UICONTROL Recall]:** A porcentagem de todos os conversores que pertencem ao grupo. **Observação:** um grupo pode ter um aumento de conversão alto, mas conta apenas para uma pequena parte de seus conversores.
+
+**[!UICONTROL Bid-stream %]:** A porcentagem de usuários de fluxo de oferta que pertencem ao grupo.
+
+**[!UICONTROL Conv. Rate Lift]:** A taxa de conversão do grupo relativa à linha de base de referência. 1,00x significa a mesma taxa da linha de base; 1,50x significa 50% mais alto; 0,50x significa 50% mais baixo. **Observação:** o aumento não é uma garantia de desempenho futuro.
 
 ## Exibir insights de desempenho
 

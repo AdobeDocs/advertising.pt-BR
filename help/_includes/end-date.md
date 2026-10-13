@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
-
 ---
 # Campo Data final em algumas configurações de campanha e configurações de grupo de anúncios MS
 

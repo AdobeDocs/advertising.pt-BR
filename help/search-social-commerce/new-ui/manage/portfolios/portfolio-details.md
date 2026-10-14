@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # (Nova interface de usuário) Exibir detalhes de desempenho do portfólio
@@ -38,7 +38,7 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
 
 * Dados de precisão do modelo para portfólios ativos, que mostra quanto os modelos se desviaram das previsões. O relatório mostra a precisão geral diária ou contínua dos custos por sete dias, a precisão de cliques e a precisão do valor do objetivo.
 
-  Você pode exibir dados por data de clique (o padrão) ou por data de transação.   Você também pode exibir os dados como um gráfico de tendências (o padrão) ou como uma tabela.
+  Você pode exibir dados por data de clique (o padrão) ou por data de transação. Você também pode exibir os dados como um gráfico de tendências (o padrão) ou como uma tabela.
 
 * A meta de gastos em relação ao gasto real para portfólios ativos. Opcionalmente, também é possível incluir os orçamentos totais da campanha para o portfólio.
 
@@ -48,11 +48,23 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
 
   Opcionalmente, é possível abrir as configurações do portfólio para editá-las.
 
+* Listas das campanhas, grupos de anúncios e palavras-chave no portfólio. Para palavras-chave individuais, você pode exibir detalhes da unidade de lance, incluindo previsões, informações históricas e informações hierárquicas.
+
+  A exibição [!UICONTROL Bid Unit Details] inclui as seguintes previsões, informações históricas e hierárquicas para a unidade de oferta selecionada:
+
+  * Guia [!UICONTROL Forecast]: os cliques, custo, custo por clique, posição e receita projetados no momento para a unidade de oferta a preços de oferta diferentes. Os dados são exibidos para todos os dispositivos e para cada tipo de dispositivo ([!UICONTROL Mobile], [!UICONTROL Computer] e [!UICONTROL Tablet]).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **Observação:** não há dados de previsão disponíveis para um tipo de dispositivo quando não há dados específicos do dispositivo suficientes disponíveis para criar modelos e definir ajustes para esse tipo de dispositivo. **Observação:** para ver a precisão de custo ou a precisão de receita para cada unidade de oferta em um portfólio que recebeu um clique durante um intervalo de datas específico, consulte os detalhes de precisão de custo ou de precisão de receita do portfólio, respectivamente.
+
+  * Guia [!UICONTROL History]: todos os lances nos últimos 36 dias, incluindo os seguintes dados para cada um dos lances: a data e a hora, as impressões, os cliques, o custo total, o CPC médio, a posição média e a receita ponderada mostrada pela data do clique. Os dados são exibidos para todos os dispositivos e para cada tipo de dispositivo (celular, computador e tablet).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * Guia [!UICONTROL Detail]: o tipo de correspondência (quando aplicável) e o grupo de publicidade principal, a campanha, a conta de rede de publicidade e o portfólio ao qual a unidade de oferta pertence.
+
 ## Abrir detalhes de desempenho de um portfólio
 
 1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Clique no nome do portfólio.
+1. Mantenha o cursor sobre o nome do portfólio e clique em  (/help/search-social-commerce/assets/portfolio-overview.png &quot;Visão geral do Portfolio).
 
 1. (Opcional) No menu **[!UICONTROL Data Aggregation]**, altere a unidade de tempo dos dados incluídos em cada linha: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* ou *[!UICONTROL Monthly].*
 
@@ -114,13 +126,17 @@ Os detalhes sobre cada grupo de anúncios incluem o custo, cliques e valor do ob
 
 * Para exibir todos os grupos de anúncios em uma campanha no portfólio, clique na guia **[!UICONTROL Campaigns]** e, em seguida, clique no nome da campanha.
 
-## Listar as palavras-chave no portfólio
+## Listar e exibir detalhes sobre palavras-chave no portfólio
 
-Os detalhes de cada palavra-chave incluem a ID da unidade de oferta; o tipo de correspondência; o custo real e previsto, os cliques e o valor do objetivo; e a diferença entre o custo, o clique e o valor do objetivo.
+Os detalhes de cada palavra-chave incluem a ID da unidade de oferta; o tipo de correspondência; o custo real e previsto, os cliques e o valor do objetivo; e a diferença entre o custo, o clique e o valor do objetivo. Você pode exibir detalhes da unidade de oferta sobre uma palavra-chave individual.
 
-* Para exibir todas as palavras-chave do portfólio, clique na guia **[!UICONTROL Keywords]**.
+1. Liste as palavras-chave:
 
-* Para exibir todas as palavras-chave em um grupo de anúncios dentro do portfólio, clique na guia **[!UICONTROL Ad Groups]** e, em seguida, clique no nome do grupo de anúncios.
+   * Para exibir todas as palavras-chave do portfólio, clique na guia **[!UICONTROL Keywords]**.
+
+   * Para exibir todas as palavras-chave em um grupo de anúncios dentro do portfólio, clique na guia **[!UICONTROL Ad Groups]** e, em seguida, clique no nome do grupo de anúncios.
+
+1. (Opcional) Para exibir detalhes sobre uma unidade de oferta específica, clique no valor na coluna **[!UICONTROL Bid Unit ID]**. Clique em qualquer guia no [!UICONTROL Bid Unit Details] para obter mais informações.
 
 ## Exibir e editar as configurações do portfólio
 

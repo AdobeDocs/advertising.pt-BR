@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Sobre objetivos
@@ -74,7 +74,7 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-  * [[!DNL Google Ads] conversões &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
+  * [[!DNL Google Ads] conversões ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
 
   * (Anunciantes com [[!DNL Google Analytics] integrações](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Exibições de página, Sessões, Taxa de rejeição (calculada como rejeições/sessões) e Duração da sessão.
 
@@ -82,7 +82,21 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 ## Opção para fazer upload de objetivos para as redes de publicidade
 
-É possível [carregar os objetivos dos portfólios da conta [!DNL Google Ads] e/ou [!DNL Microsoft Advertising] como conversões](/help/search-social-commerce/tools/objective-upload-to-networks.md), opcionalmente, para usá-los na otimização de nível de campanha ou grupo de anúncios. Quando você habilita a opção, o Search, Social e Commerce transmite os dados de receita ponderada no nível de EF ID (clique em ID) para a rede de publicidade diariamente. Ele omite qualquer métrica de anúncios rastreada pela rede.
+É possível [carregar os objetivos dos portfólios da conta [!DNL Google Ads] e/ou [!DNL Microsoft Advertising] como conversões](objective-upload-to-networks.md), opcionalmente, para usá-los na otimização de nível de campanha ou grupo de anúncios. Quando você habilita a opção, o Search, Social e Commerce transmite os dados de receita ponderada no nível de EF ID (clique em ID) para a rede de publicidade diariamente. Ele omite qualquer métrica de anúncios rastreada pela rede.
+
+## Ações disponíveis
+
+* [Criar um objetivo](objective-create.md)
+
+* [Editar um objetivo](objective-edit.md)
+
+* [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
+
+* [Exportar uma configuração de objetivo para uma planilha  [!DNL Microsoft Excel] ](objective-export.md)
+
+* [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)
+
+* [Excluir um objetivo](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 >* [Excluir um objetivo](objective-delete.md)
 >* [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
 >* [Configurações de objetivo](objective-settings.md)
+>* [Exportar uma configuração de objetivo](objective-export.md)
 >* [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)

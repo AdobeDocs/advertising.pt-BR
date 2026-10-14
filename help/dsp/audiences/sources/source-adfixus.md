@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Use a integração do Advertising DSP com o [!DNL AdFixus] para importar suas ID
 
 Depois de importar os segmentos do [!DNL AdFixus] para o DSP, você pode direcionar posicionamentos para [!DNL AdFixus] IDs e para segmentos primários específicos do [!DNL AdFixus]. Você também pode adicionar [!DNL AdFixus] segmentos a públicos-alvo reutilizáveis. Os detalhes de qualquer segmento incluem a contagem de [!DNL AdFixus] IDs aplicáveis.
 
-Você pode exibir a impressão, os cliques, a frequência e outras métricas para usuários com [!DNL AdFixus] IDs em relatórios personalizados. Os anunciantes com [!DNL Analytics for Advertising] também podem exibir dados de view-through para [!DNL AdFixus] IDs da Adobe Analytics, bem como dados do Adobe Analytics no DSP.
+Você pode exibir a impressão, os cliques, a frequência e outras métricas para usuários com [!DNL AdFixus] IDs em relatórios personalizados. Os anunciantes com [!DNL Analytics for Advertising] também podem ver dados de view-through para [!DNL AdFixus] IDs da Adobe Analytics, bem como dados do Adobe Analytics no DSP.
 
 1. Use o [!DNL AdFixus] para converter os dados primários de sua organização em segmentos com [!DNL AdFixus] IDs.
 
@@ -66,7 +66,7 @@ Os segmentos são atualizados e disponibilizados para direcionamento a cada trê
 >
 >* [Sobre fontes de público-alvo primárias](/help/dsp/audiences/sources/source-about.md)
 >* [Gerenciar fontes de público-alvo para ativar públicos-alvo de ID universal](source-manage.md)
->* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=pt-BR)
->* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR) do Adobe Experience Platform
+>* [conexão com o Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Visão geral do catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html) do Adobe Experience Platform
 >* [Suporte para ativação de IDs universais](/help/dsp/audiences/universal-ids.md)
 >* [Sobre o gerenciamento de público-alvo](/help/dsp/audiences/audience-about.md)

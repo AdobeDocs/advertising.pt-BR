@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 ---
 # (Nova interface de usuário) Criar um objetivo
@@ -62,4 +62,5 @@ Objetivos com o prefixo &quot;`ADSP_`&quot; (não diferencia maiúsculas de min�
 >* [Editar um objetivo](objective-edit.md)
 >* [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
 >* [Configurações de objetivo](objective-settings.md)
+>* [Exportar uma configuração de objetivo](objective-export.md)
 >* [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)

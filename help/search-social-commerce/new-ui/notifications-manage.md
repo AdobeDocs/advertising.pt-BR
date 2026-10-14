@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Gerenciar notificações
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Ações disponíveis
 
 * [Exibir suas notificações](#notification-view)
 
 * [Editar suas configurações de notificação](#notification-edit)
 
-* [Marcar uma notificação como lida ou não lida](#notification-mark-read-unread)
+* [Marcar notificações como lidas ou não lidas](#notification-mark-read-unread)
 
 * [Excluir uma notificação](#notification-delete)
 
@@ -136,7 +135,7 @@ In Campaign Management:
 
 ## Exibir suas notificações {#notification-view}
 
-Quando você é [inscrito nas notificações](#notification-edit) sobre erros de autenticação de conta, alertas personalizados disparados e [!UICONTROL Advertising Insights] gerados, é possível exibir suas notificações no painel [!UICONTROL Notifications] ou [!UICONTROL Notification Center].
+Quando você é [inscrito nas notificações](#notification-edit) sobre erros de autenticação de conta, alertas personalizados acionados e [!UICONTROL Advertising Insights] gerados, é possível exibir suas notificações no painel [!UICONTROL Notifications] ou [!UICONTROL Notification Center].
 
 ### Exibir notificações no painel [!UICONTROL Notifications]
 
@@ -208,7 +207,7 @@ Opcionalmente, você pode assinar ou cancelar a assinatura de notificações da 
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Marcar uma notificação como lida ou não lida {#notification-mark-read-unread}
+## Marcar notificações como lidas ou não lidas {#notification-mark-read-unread}
 
 Marcar uma notificação como *lida* ou *não lida* altera o número de notificações não lidas indicadas no link [!UICONTROL Notifications] na parte superior de cada página (como o ícone ![Notificações com contador de notificações não lidas](/help/search-social-commerce/assets/notifications-unread.png "Ícone Notificações com contador de notificações não lidas")).
 
@@ -218,7 +217,11 @@ As notificações marcadas como *lido* estão em um texto de cor mais clara, mas
 
 1. [Abra o painel Notificações ou a Central de Notificações](#notification-view).
 
-1. Mantenha o cursor sobre o nome do alerta e clique em ![Marcar como Lido ou Não Lido](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como Lido ou Não Lido").
+1. Siga um destes procedimentos:
+
+   * Para uma única notificação, mantenha o cursor sobre o nome do alerta e clique em ![Marcar como Lido ou Não Lido](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como Lido ou Não Lido").
+
+   * Para marcar todas as notificações como lidas, clique em **[!UICONTROL Mark all as read]**.
 
 ## Excluir uma notificação {#notification-delete}
 

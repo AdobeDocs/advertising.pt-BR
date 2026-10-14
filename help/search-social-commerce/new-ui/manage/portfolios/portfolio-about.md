@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # (Nova interface) Sobre portfólios
@@ -77,7 +77,7 @@ A exibição [!UICONTROL Portfolios] lista todos os portfólios existentes na ex
 
 Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado. Você também pode abrir detalhes do portfólio, incluindo desempenho e precisão do portfólio, bem como dados de desempenho para cada campanha, grupo de publicidade e palavra-chave no portfólio.
 
-Você pode editar algumas configurações, incluindo o status do portfólio, diretamente na linha do portfólio.
+Você pode editar algumas configurações, incluindo o status do portfólio, diretamente na linha do portfólio. Quando um portfólio ou suas campanhas associadas e entidades de campanha filho forem configuradas com qualquer restrição que afete os gastos (incluindo rede, orçamento da campanha, destino, limites CPC ou restrições de unidade de oferta), clique em [!UICONTROL Yes] na coluna [!UICONTROL Constraints] para ver uma lista de todas as restrições, incluindo o nível e o tipo da restrição.
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Ações disponíveis

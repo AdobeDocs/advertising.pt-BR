@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->*Excluir um arquivo de bulksheet o remove da lista [!UICONTROL Downloads] e também da exibição [!UICONTROL Bulksheets].
->* Consulte também a ajuda para baixar dados na nova interface de usuário do &quot;[[!UICONTROL Portfolios] modo de exibição](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot; e &quot;[[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).&quot;
+>* Excluir um arquivo de bulksheet o remove da lista [!UICONTROL Downloads] e também da exibição [!UICONTROL Bulksheets].
+>* Consulte também a ajuda para baixar dados na nova interface de usuário do &quot;[[!UICONTROL Portfolios] modo de exibição](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] modo de exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot; e &quot;[[!UICONTROL Ad Groups] modo de exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).&quot;
 
 1. No menu principal, clique em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e abra qualquer modo de exibição de entidade.
 
@@ -39,5 +39,5 @@ ht-degree: 0%
 >
 >* [(Interface herdada) Baixar dados de uma exibição de gerenciamento de campanha](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Nova interface do usuário) Gerenciar relatórios de exibição de dados da [!UICONTROL Portfolios] exibição](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Nova interface do usuário) Gerenciar relatórios de exibição de dados da [!UICONTROL Campaigns] exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nova interface do usuário) Gerenciar relatórios de exibição de dados da [!UICONTROL Campaigns] exibição](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(Nova interface do usuário) Gerenciar relatórios de exibição de dados da [!UICONTROL Ad Groups] exibição](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

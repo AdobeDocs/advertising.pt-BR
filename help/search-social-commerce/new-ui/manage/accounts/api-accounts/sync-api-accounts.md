@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Para campanhas com a opção &quot;[!UICONTROL Auto Update]&quot;, a operação 
 
 O trabalho pode levar uma hora ou mais para ser concluído.
 
-## Sincronizar campanhas da exibição [!UICONTROL Campaigns].
+## Sincronizar campanhas da exibição [!UICONTROL Campaigns]
 
 1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**.
 

@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # Gerenciar campanhas
@@ -47,17 +47,19 @@ O Search, Social e Commerce extrai dados de desempenho de hora em hora nas conta
 
 * [Editar configurações da campanha](#campaign-edit)
 
-* [Alterar o status ou excluir uma campanha dentro da linha](#campaign-status)
+* [Alterar o status de uma campanha na linha](#campaign-status)
 
 * [Atribuir campanhas a um portfólio e remover campanhas de um portfólio](#campaign-portfolio)
-
-* [Exibir um gráfico de desempenho na exibição [!UICONTROL Campaigns]](#campaign-performance-graph)
 
 * [Atribuir restrições de lance a campanhas e cancelar a atribuição de restrições a campanhas](#campaign-constraints)
 
 * [Atribuir restrições do target às campanhas e cancelar a atribuição de restrições do target às campanhas](#campaign-target-constraints)
 
 * [Atribuir classificações de rótulo a campanhas e remover classificações de rótulo de campanhas](#campaign-classifications)
+
+* [Exibir um gráfico de desempenho na exibição [!UICONTROL Campaigns]](#campaign-performance-graph)
+
+* [Exibir o histórico do orçamento da campanha](#campaign-budget-history)
 
 * [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Campaigns]](#campaign-reports)
 
@@ -377,6 +379,14 @@ Abra e configure um gráfico de desempenho com até três métricas totalizadas 
 ### Ocultar um gráfico de desempenho visível
 
 * Acima da tabela de dados, clique em ![Gráficos](/help/search-social-commerce/assets/charts.png "Gráficos").
+
+## Exibir o histórico do orçamento da campanha {#campaign-budget-history}
+
+O histórico de orçamento lista cada alteração no orçamento da campanha, incluindo a origem da alteração.
+
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Mantenha o cursor sobre o nome da campanha e clique em **[!UICONTROL ...]>[!UICONTROL Budget Change History]**.
 
 ## Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Campaigns] {#campaign-reports}
 

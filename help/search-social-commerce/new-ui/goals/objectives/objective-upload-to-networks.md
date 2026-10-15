@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # (Nova interface) Habilitar upload de objetivos em redes de anúncios
@@ -42,7 +42,7 @@ Os carregamentos para [!DNL Google Ads] e [!DNL Microsoft Advertising] ocorrem a
 
 1. No menu principal, clique em **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**.
 
-1. Na barra de ferramentas, clique em **[!UICONTROL Upload Objective]**.
+1. Na barra de ferramentas, clique em **[!UICONTROL Objective Upload]**.
 
 1. Na caixa de diálogo [!UICONTROL Objective Upload Setup], defina o **[!UICONTROL Enable Objective Upload]** como **[!UICONTROL On]**.
 
@@ -94,6 +94,7 @@ Se o objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acc
 >[!MORELIKETHIS]
 >
 >* [Sobre objetivos](objective-about.md)
+>* [Exportar uma configuração de objetivo](objective-export.md)
 >* [Gerenciar as métricas de conversão de um anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Gerenciar credenciais para [!DNL Google Ads] contas de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 

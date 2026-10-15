@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Excluir um objetivo
@@ -34,7 +34,11 @@ Você pode excluir um objetivo que não está atribuído a um portfólio.
 
 1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Marque a caixa de seleção ao lado do objetivo. Na barra de ferramentas acima da tabela de dados, clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") **[!UICONTROL Delete]**.
+1. Siga um destes procedimentos:
+
+   * Para um único objetivo, mantenha o cursor sobre o nome do objetivo e clique em **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+   * Para um ou mais objetivos, marque a caixa de seleção ao lado de cada objetivo a ser excluído. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") **[!UICONTROL Delete]**.
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
 
@@ -45,3 +49,4 @@ Você pode excluir um objetivo que não está atribuído a um portfólio.
 >* [Editar um objetivo](objective-edit.md)
 >* [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
 >* [Configurações de objetivo](objective-settings.md)
+>* [Exportar uma configuração de objetivo](objective-export.md)

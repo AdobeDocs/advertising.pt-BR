@@ -4,20 +4,19 @@ description: Saiba como criar, editar, duplicar, baixar e excluir anúncios de e
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1182'
 ht-degree: 0%
-
 ---
-
 # Gerenciar anúncios padrão em [!UICONTROL Creative Studio]
-
-*recurso do Beta*
 
 A guia **[!UICONTROL Creatives]** em [!UICONTROL Creative Studio] é sua biblioteca de anúncios de exibição padrão gerados de modelos. Aqui é possível criar anúncios usando o [!UICONTROL Ad Variations Generator], editar anúncios salvos, gerar novas variações de um anúncio existente, exibir o log de alterações, duplicar, baixar e excluir.
 

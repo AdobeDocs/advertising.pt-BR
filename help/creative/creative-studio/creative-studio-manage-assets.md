@@ -3,20 +3,19 @@ title: Gerenciar ativos no Creative Studio
 description: Saiba como fazer upload, navegar e gerenciar ativos na guia Creative Studio Assets no Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # Gerenciar ativos no [!UICONTROL Creative Studio]
-
-*recurso do Beta*
 
 Faça upload de ativos de imagens, vídeo, áudio e fontes para fazer referência nos modelos de anúncios e anexe às mensagens de bate-papo do agente de IA durante as sessões de geração de anúncios.
 

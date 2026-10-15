@@ -3,20 +3,19 @@ title: Gerenciar modelos de anúncios no Creative Studio
 description: Saiba como criar, importar, organizar e gerenciar modelos de anúncios na guia Modelos do Creative Studio no Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # Gerenciar modelos de anúncios em [!UICONTROL Creative Studio]
-
-*recurso do Beta*
 
 Crie, importe e gerencie modelos de exibição e anúncio de vídeo para uso em sessões de geração de anúncios.
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 Criação:
 
-* [Importar modelos de anúncios do HTML5](#templates-import)
-
 * [Criar um modelo de anúncio manualmente](#template-create)
+
+* [Importar modelos de anúncios do HTML5](#templates-import)
 
 Ações em seus modelos existentes:
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## Criar um modelo de anúncio manualmente {#template-create}
+
+Crie um modelo de exibição ou vídeo em branco usando o editor de modelo.
+
+1. No menu principal, clique em **[!UICONTROL Creative Studio].**
+
+1. Clique na guia **[!UICONTROL Templates]**.
+
+1. Na caixa **[!UICONTROL Create New Ad Template]**, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
+
+1. (Exibir anúncios) Selecione o tamanho do modelo de anúncio e clique em **[!UICONTROL Continue]**.
+
+1. Defina as configurações do modelo usando os [controles no editor de modelo](#template-controls).
+
+1. (Opcional) Para baixar uma cópia do modelo conforme definido, clique em **[!UICONTROL ...]** > **[!UICONTROL Download]**.
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+1. Salve o template:
+
+   1. Siga um destes procedimentos:
+
+      * Clique em **[!UICONTROL Save]**.
+
+      * Para salvar o modelo como rascunho, clique em **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
+
+   1. Insira o **[!UICONTROL Template name]**, selecione o **[!UICONTROL Advertiser]**, opcionalmente selecione marcas existentes ou adicione novas marcas ao modelo e clique em **[!UICONTROL Save]**.
+
 ## Importar modelos de anúncios do HTML5 {#templates-import}
 
 Faça upload de um ou mais modelos HTML5 pré-criados que são empacotados como arquivos ZIP. Os modelos são validados na importação; a importação falha se o HTML exceder 200.000 caracteres, o CSS exceder 60.000 caracteres, o modelo contiver mais de 5.000 elementos DOM ou o modelo incluir tags de script não compatíveis.
@@ -128,34 +155,6 @@ Faça upload de um ou mais modelos HTML5 pré-criados que são empacotados como 
 >[!NOTE]
 >
 >Se a importação falhar, simplifique o modelo ou entre em contato com a equipe de conta da Adobe.
-
-## Criar um modelo de anúncio manualmente {#template-create}
-
-Crie um modelo de exibição ou vídeo em branco usando o editor de modelo.
-
-1. No menu principal, clique em **[!UICONTROL Creative Studio].**
-
-1. Clique na guia **[!UICONTROL Templates]**.
-
-1. Na caixa **[!UICONTROL Create New Ad Template]**, clique em **[!UICONTROL Create]** e selecione **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]**.
-
-1. (Exibir anúncios) Selecione o tamanho do modelo de anúncio e clique em **[!UICONTROL Continue]**.
-
-1. Defina as configurações do modelo usando os [controles no editor de modelo](#template-controls).
-
-1. (Opcional) Para baixar uma cópia do modelo conforme definido, clique em **[!UICONTROL ...]** > **[!UICONTROL Download]**.
-
-   O arquivo é baixado de acordo com o procedimento normal do navegador.
-
-1. Salve o template:
-
-   1. Siga um destes procedimentos:
-
-      * Clique em **[!UICONTROL Save]**.
-
-      * Para salvar o modelo como rascunho, clique em **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
-
-   1. Insira o **[!UICONTROL Template name]**, selecione o **[!UICONTROL Advertiser]**, opcionalmente selecione marcas existentes ou adicione novas marcas ao modelo e clique em **[!UICONTROL Save]**.
 
 ## Editar um modelo de anúncio {#template-edit}
 

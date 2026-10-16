@@ -3,20 +3,19 @@ title: Gerenciar criações dinâmicas no Creative Studio
 description: Saiba como criar, editar, duplicar e excluir criações dinâmicas orientadas por catálogo no Adobe Advertising Creative Studio.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # Gerenciar criações dinâmicas em [!UICONTROL Creative Studio]
-
-*recurso do Beta*
 
 A guia **[!UICONTROL Creatives]** no [!UICONTROL Creative Studio] lista suas criações dinâmicas por biblioteca. Aqui, você pode criar novas criações dinâmicas orientadas por catálogo, editar os detalhes e o mapeamento de atributos de criações existentes, exibir logs de alteração, criações duplicadas e excluir criações.
 
@@ -96,26 +95,26 @@ Mapeie cada campo de catálogo para o elemento correspondente no modelo. Por exe
 
       * Para editar uma combinação de anúncios:
 
-         1. Mantenha o cursor sobre a linha de catálogo e clique em **[!UICONTROL Edit]**.
+        1. Mantenha o cursor sobre a linha de catálogo e clique em **[!UICONTROL Edit]**.
 
-         1. Na caixa de diálogo **[!UICONTROL Edit Row]**, atualize os valores do campo.
+        1. Na caixa de diálogo **[!UICONTROL Edit Row]**, atualize os valores do campo.
 
-         1. Clique em **[!UICONTROL Save]**.
+        1. Clique em **[!UICONTROL Save]**.
 
         A tela é atualizada para refletir os valores atualizados.
 
       * Use o painel de chat do **[!UICONTROL AI Assistant]** para analisar e filtrar combinações de catálogo. Digite sua solicitação no campo **[!UICONTROL Ask anything]** ou clique em um dos prompts sugeridos:
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         O agente de IA pode:
 
-         * Filtre a tela para mostrar anúncios que correspondam a um segmento de público-alvo, uma região geográfica, um idioma, uma categoria ou outro campo de catálogo específico.
-         * Verifique problemas de qualidade, como saturação de limite de caracteres, estouro ou sangramento de conteúdo, links de imagem quebrados e visibilidade do aviso.
-         * Compare as combinações de anúncios para a análise do teste A/B.
-         * Organize anúncios em grupos para análise lado a lado.
+        * Filtre a tela para mostrar anúncios que correspondam a um segmento de público-alvo, uma região geográfica, um idioma, uma categoria ou outro campo de catálogo específico.
+        * Verifique problemas de qualidade, como saturação de limite de caracteres, estouro ou sangramento de conteúdo, links de imagem quebrados e visibilidade do aviso.
+        * Compare as combinações de anúncios para a análise do teste A/B.
+        * Organize anúncios em grupos para análise lado a lado.
 
         O agente de IA não pode modificar o conteúdo de origem em catálogo. Para alterar o conteúdo do anúncio, atualize o catálogo de origem.
 
@@ -139,8 +138,8 @@ Mapeie cada campo de catálogo para o elemento correspondente no modelo. Por exe
    * **[!UICONTROL Dynamic creative name]:** O nome para exibição do criativo.
    * **[!UICONTROL Number of cards]:** O número de ofertas de catálogo incluídas em cada combinação de anúncios (1-50).
    * (Opcional) Em **[!UICONTROL Catalogs]**, atualize a seleção do catálogo:
-      * Use **[!UICONTROL Catalog template]** para filtrar os catálogos disponíveis. Para baixar opcionalmente o arquivo de modelo, clique em **[!UICONTROL Download feed template]**.
-      * Pesquise e selecione catálogos da lista ou carregue um novo arquivo de catálogo arrastando-o para a área de carregamento ou clicando em **[!UICONTROL Browse Files]** (formatos compatíveis: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; máximo de 25 MB; um arquivo por vez). Os catálogos carregados estão rotulados como **(carregados)** na lista de chips.
+     * Use **[!UICONTROL Catalog template]** para filtrar os catálogos disponíveis. Para baixar opcionalmente o arquivo de modelo, clique em **[!UICONTROL Download feed template]**.
+     * Pesquise e selecione catálogos da lista ou carregue um novo arquivo de catálogo arrastando-o para a área de carregamento ou clicando em **[!UICONTROL Browse Files]** (formatos compatíveis: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; máximo de 25 MB; um arquivo por vez). Os catálogos carregados estão rotulados como **(carregados)** na lista de chips.
 
      Todos os catálogos devem pertencer à mesma família de modelo de catálogo.
 

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b495d4e7b4309f8933d29489d77896645bebc538
+source-git-commit: 8a8985dd3088be745752489b2101bd80000d4a00
 workflow-type: tm+mt
-source-wordcount: '7809'
+source-wordcount: '7840'
 ht-degree: 0%
 ---
 # Novidades do DSP
@@ -50,6 +50,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 15 de outubro de 2026 | [!DNL Creative] | (Recurso do Beta) Agora você pode gerar o uso da IA no [!UICONTROL Creative Studio] para converter uma imagem de anúncio de exibição estática existente em um modelo de anúncio de exibição editável. | Consulte &quot;[Gerenciar modelos de anúncios em [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}.&quot; |
 | 8 de outubro | [!UICONTROL Insights] | (Somente anunciantes com [!DNL Analytics for Advertising]) Dois novos insights baseados na inteligência de público-alvo de seus dados de conversão do Adobe Analytics estão disponíveis:<ul><li>[!UICONTROL Delivery Composition] informa como o modelo de usuário do DSP oferece ofertas entre usuários com diferentes probabilidades de conversão. Use esta insight para revisar uma disposição que está sendo entregue.</li><li>[!UICONTROL Organic Seed Profile] mostra os interesses, horários, locais e dispositivos associados aos seus conversores. Use essa insight para planejar o lançamento de um pacote ou posicionamento ou para informar sua próxima campanha.</li></ul> | Consulte &quot;[Sobre insights](/help/dsp/campaign-management/insights/insights-about.md)&quot;. |
 | 14 de agosto de 2026 | [!UICONTROL Reports] | O novo relatório [!UICONTROL DSP Self-Attributed Conversions] mostra a contribuição do Advertising DSP para conversões, incluindo jornadas de clientes nas quais o DSP desempenhou uma função, mas teve um toque posterior, como um clique de pesquisa do Adobe Advertising, e recebeu crédito de último clique em outros relatórios. É mais útil para anunciantes que usam Advertising DSP e Advertising Search, Social e Commerce. | Consulte &quot;[Sobre relatórios personalizados](/help/dsp/reports/report-about.md)&quot; e &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md).&quot; |
 | 1 de julho de 2026 | [!DNL Creative] | Os seguintes recursos beta estão disponíveis no Advertising Creative:<ul><li>O **[!UICONTROL Creative Studio]** usa IA gerativa para ajudar a criar, redimensionar e refinar anúncios de exibição em vários formatos em uma única sessão. Use uma interface de bate-papo em linguagem natural para gerar e modificar conteúdo de anúncios — nenhum trabalho de design manual é necessário para campos de conteúdo.</li><li>Crie e gerencie **[!UICONTROL brand profiles]** que reflitam a identidade visual e de mensagens da sua marca, incluindo o seu logotipo, a paleta de cores, as diretrizes de voz, os padrões de imagem e as diretrizes de cópia específicas do canal. Ao criar anúncios no [!UICONTROL Creative Studio], o agente de IA usa informações do perfil da marca para aterrar a geração de conteúdo na sua marca específica.</li></ul> | Consulte &quot;[Sobre o Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot; e &quot;[Gerenciar perfis de marca](/help/creative/brands/brand-manage.md)&quot;.&quot; |

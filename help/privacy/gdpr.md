@@ -45,7 +45,7 @@ A Adobe CX Enterprise atua como um processador de dados para todos os dados pess
 
 Este documento descreve como o [!DNL Advertising Search, Social, & Commerce], o Advertising Creative, o Advertising DSP (Demand Side Platform) e o [!DNL Advertising DCO] oferecem suporte aos direitos de acesso e exclusão de dados do GDPR de seus titulares de dados usando a API do Adobe Experience Platform Privacy Service e a interface do usuário do Privacy Service.
 
-Para obter mais informações sobre o que o GDPR significa para sua empresa, consulte [GDPR e sua empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Para obter mais informações sobre o que o GDPR significa para sua empresa, consulte [GDPR e sua empresa](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
 
 ## Tipos de solicitação de dados compatíveis com o Adobe Advertising
 
@@ -71,7 +71,7 @@ Para fazer solicitações de acesso e exclusão de dados do Adobe Advertising, v
 
    >[!NOTE]
    >
-   >A exclusão de dados pessoais é diferente da opção de não participação, que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um titular de dados solicita a exclusão de dados pessoais de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], a biblioteca também envia uma solicitação à Adobe Advertising para recusar a exclusão do titular de dados do direcionamento de segmento. Para anunciantes com [!DNL Search, Social, & Commerce], recomendamos que você forneça aos titulares de dados um link para [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), que explica como recusar o direcionamento de segmentos de público-alvo.
+   >A exclusão de dados pessoais é diferente da opção de não participação, que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um titular de dados solicita a exclusão de dados pessoais de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], a biblioteca também envia uma solicitação à Adobe Advertising para recusar a exclusão do titular de dados do direcionamento de segmento. Para anunciantes com [!DNL Search, Social, & Commerce], recomendamos que você forneça aos titulares de dados um link para [https://www.adobe.com/br/privacy/opt-out.html](https://www.adobe.com/br/privacy/opt-out.html), que explica como recusar o direcionamento de segmentos de público-alvo.
 
 1. Identifique a ID da organização da CX Enterprise e verifique se ela está vinculada às suas contas da Adobe Advertising.
 

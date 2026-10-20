@@ -38,7 +38,7 @@ Se os URLs da página de aterrissagem de seus anúncios ou palavras-chave ainda 
 
 ## Pré-requisito 1: Implementar um token de Pesquisa, Social e Commerce (parâmetro de sequência de consulta &quot;ef_id&quot;) nos URLs da página inicial para todas as contas de publicidade aplicáveis
 
-Em cada clique de pesquisa paga para as campanhas relevantes, um `ef_id` exclusivo deve ser gerado e anexado à URL da página de aterrissagem como uma sequência de consulta, como `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, em que `&ef_id=abcde:123456789:s` é o símbolo de acréscimo, a chave `ef_id` e o valor `ef_id`. Para incluir uma ef_id, as contas e campanhas relevantes da rede de publicidade devem ter [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
+Em cada clique de pesquisa paga para as campanhas relevantes, um `ef_id` exclusivo deve ser gerado e anexado à URL da página de aterrissagem como uma sequência de consulta, como `https://www.adobe.com/br?someParam=123&ef_id=abcde:123456789:s`, em que `&ef_id=abcde:123456789:s` é o símbolo de acréscimo, a chave `ef_id` e o valor `ef_id`. Para incluir uma ef_id, as contas e campanhas relevantes da rede de publicidade devem ter [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
 
 Para contas e campanhas existentes, a ef_id provavelmente já está implementada.
 
@@ -62,7 +62,7 @@ Repita as seguintes tarefas para cada combinação de conta e propriedade do [!D
    >
    >O ef_id deve estar somente nos URLs da página inicial.
 
-   Por exemplo, se a URL da página de aterrissagem for `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, o valor da dimensão ef_id em [!DNL Google Analytics] será `abcde:123456789:s`.
+   Por exemplo, se a URL da página de aterrissagem for `https://www.adobe.com/br?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, o valor da dimensão ef_id em [!DNL Google Analytics] será `abcde:123456789:s`.
 
    >[!NOTE]
    >

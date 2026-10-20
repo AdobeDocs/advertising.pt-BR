@@ -49,7 +49,7 @@ Este documento descreve como o [!DNL Advertising Search, Social, & Commerce], o 
 
 Para obter informações sobre como a Advertising DSP oferece suporte ao direito do consumidor de recusar a venda de informações pessoais, consulte [Suporte da Adobe Advertising para a California Consumer Privacy Act: suporte à recusa de venda do consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-Para obter mais informações sobre os serviços de privacidade da Adobe para CCPA, consulte o [Centro de Privacidade da Adobe](https://www.adobe.com/privacy/ccpa.html).
+Para obter mais informações sobre os serviços de privacidade da Adobe para CCPA, consulte o [Centro de Privacidade da Adobe](https://www.adobe.com/br/privacy/ccpa.html).
 
 ## Tipos de solicitação de dados compatíveis com o Adobe Advertising
 
@@ -75,7 +75,7 @@ Para fazer solicitações de acesso e exclusão de informações pessoais do con
 
    >[!NOTE]
    >
-   >A exclusão de dados pessoais é diferente da recusa, o que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um consumidor solicita a exclusão de dados pessoais de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], a biblioteca também envia uma solicitação à Adobe Advertising para que o cliente não seja direcionado a segmentos. Para anunciantes com o [!DNL Search, Social, & Commerce], recomendamos que você forneça aos seus clientes um link para [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), que explica como recusar o direcionamento de segmentos de público-alvo.
+   >A exclusão de dados pessoais é diferente da recusa, o que interrompe o direcionamento de um usuário final com segmentos de público-alvo. No entanto, quando um consumidor solicita a exclusão de dados pessoais de [!DNL Creative], [!DNL DSP] ou [!DNL DCO], a biblioteca também envia uma solicitação à Adobe Advertising para que o cliente não seja direcionado a segmentos. Para anunciantes com o [!DNL Search, Social, & Commerce], recomendamos que você forneça aos seus clientes um link para [https://www.adobe.com/br/privacy/opt-out.html#customeruse](https://www.adobe.com/br/privacy/opt-out.html#customeruse), que explica como recusar o direcionamento de segmentos de público-alvo.
 
 1. Identifique a ID da organização da CX Enterprise e verifique se ela está vinculada às suas contas da Adobe Advertising.
 

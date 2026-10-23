@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '94'
 ht-degree: 0%
-
 ---
 # Campo de Prioridade de Campanha nas configurações de campanha de compras do GL e do MS na grade e em modelos ACM
 

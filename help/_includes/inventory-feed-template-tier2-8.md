@@ -1,9 +1,8 @@
 ---
 source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 0%
-
 ---
 # Camada 2 - Campos de camada 8 em modelos de anúncios de compras
 

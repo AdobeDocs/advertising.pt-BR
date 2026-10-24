@@ -1,9 +1,8 @@
 ---
 source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 0%
-
 ---
 # Modelo de anúncio de texto - Configurações de palavras-chave negativas no nível da campanha
 
@@ -17,9 +16,9 @@ Para cada cadeia de caracteres, clique em **[!UICONTROL Add (Up to 3)]** e insir
 
 * **[!UICONTROL Apply these negatives]:** Qualquer palavra-chave negativa estática em nível de campanha a ser adicionada para campanhas cujo nome inclua a cadeia de caracteres especificada. Para especificar várias palavras-chave ou vários tipos de correspondência para a mesma palavra-chave, insira-os em linhas separadas. Use a sintaxe a seguir, sem um sinal de menos:
 
-   * Correspondência ampla negativa: `keyword` (sem suporte de [!DNL Microsoft Advertising])
-   * Correspondência de frase negativa: `"keyword"`
-   * Correspondência exata negativa: `[keyword]`
+  * Correspondência ampla negativa: `keyword` (sem suporte de [!DNL Microsoft Advertising])
+  * Correspondência de frase negativa: `"keyword"`
+  * Correspondência exata negativa: `[keyword]`
 
 A sintaxe usual para os tipos de frase e correspondência exata é usada no bulksheet gerado ao propagar dados de feed por meio do modelo. **Observação:** você não pode ver as palavras-chave negativas na guia [!UICONTROL Keywords] ou na exibição [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 

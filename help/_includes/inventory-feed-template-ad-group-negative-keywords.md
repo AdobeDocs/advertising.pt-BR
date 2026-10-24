@@ -1,9 +1,8 @@
 ---
 source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '150'
 ht-degree: 0%
-
 ---
 # Modelo de anúncio de texto - Configurações de palavras-chave negativas no nível do grupo de anúncios
 

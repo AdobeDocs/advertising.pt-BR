@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Recursos assistidos por IA no Adobe Advertising DSP
 
 O DSP fornece agentes assistidos por IA que usam prompts de idioma natural para ajudá-lo com várias tarefas:
 
-* [Pesquise conteúdo conceitual e de instruções](/help/dsp/agent-chat.md) no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md) usando uma interface de chat assistida por IA.
+* [Pesquisar conteúdo conceitual e de instruções](/help/dsp/agent-chat.md)
 
-* [Use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md), que você pode usar como destinos ou exclusões para seus posicionamentos.
+* Assistente de IA unificada:
+
+  * [Crie relatórios para suas campanhas, componentes da campanha, experiências do Advertising Creative, anunciantes e destinos de anúncios](/help/dsp/ai-assistant/insights-agent.md).
+
+  * [Solucione problemas de desempenho e entrega para seus pacotes e posicionamentos](/help/dsp/ai-assistant/troubleshooting-agent.md).
+
+  * [Procure a documentação do produto](/help/dsp/ai-assistant/documentation-search.md) no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md).
+
+* [Use o agente de público-alvo assistido por IA em [!UICONTROL Audiences] > [!UICONTROL All Audiences] para gerar novos públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md), que você pode usar como destinos ou exclusões para seus posicionamentos.

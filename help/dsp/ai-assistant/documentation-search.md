@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Pesquisar a documentação do produto usando o Assistente de IA
 
 *Suporte somente para inglês*
 
-Use o Assistente de IA para o DSP para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md) usando uma interface de chat. As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/pt-br/docs/advertising).
+Use o Assistente de IA para o DSP para pesquisar conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e (anunciantes com o Advertising Creative) no [Guia do Advertising Creative](/help/creative/home.md) usando uma interface de chat. As respostas são baseadas apenas no que está documentado para esses produtos no [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
-As respostas incluem citações, bem como consultas adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações.
+Você pode fazer perguntas sobre gerenciamento de campanha, otimização, gerenciamento de público-alvo, ofertas, relatórios e outros recursos do produto. As respostas incluem citações, bem como consultas adicionais e perguntas de acompanhamento para ajudar você a refinar sua consulta e encontrar mais informações.
 
 ![Exemplo de consulta e resposta](/help/dsp/assets/agent-chat-response.png "Exemplo de consulta e resposta")
 
@@ -34,8 +34,6 @@ As respostas incluem citações, bem como consultas adicionais e perguntas de ac
 >As respostas geradas por IA podem ser imprecisas ou enganosas. Sempre verifique as respostas e origens antes de usá-las para decisões que afetam o custo ou o esforço.
 
 ## Exemplo de consultas
-
-Você pode fazer perguntas sobre gerenciamento de campanha, otimização, gerenciamento de público-alvo, ofertas, relatórios e outros recursos do produto. Veja a seguir alguns exemplos:
 
 * Como anexar um anúncio a uma disposição?
 

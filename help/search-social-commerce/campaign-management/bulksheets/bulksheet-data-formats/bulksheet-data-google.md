@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # Apêndice - Dados de bulksheet necessários para contas do [!DNL Google Ads]
@@ -44,20 +44,6 @@ Para os campos de dados relevantes para entidades de conta, consulte &quot;[Camp
 >* Para campos que não são especificados abaixo, o valor padrão para a rede de publicidade é usado.
 >* Para obter uma lista de linhas de bulksheet disponíveis na caixa de diálogo [!UICONTROL Download Bulksheet], consulte &quot;[Linhas de bulksheet por rede de anúncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | Campo | Descrição |
 | ---- | ---- |
 | [!UICONTROL Platform] | (Incluído nos bulksheets gerados para fins de informação) A plataforma de anúncios. Obrigatório, a menos que cada linha inclua um &quot;[!UICONTROL AMO ID]&quot; para a entidade. |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | (Campanhas que direcionam apenas a rede de exibição) Como licitar: por <i>[!UICONTROL Ad Group]</i> (padrão), <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i> (site) ou <i>[!UICONTROL None]</i> (para redefinir o valor existente). Outras dimensões (<i>Idade</i>, <i>Gênero</i>, <i>Interesse e Lista</i>, <i>Tópico</i> e <i>Vertical</i>) estão disponíveis na interface [!DNL Google Ads]. Se você tiver usado a interface [!DNL Google Ads] para configurar ofertas por outra dimensão, esse valor será exibido, mas você não poderá selecionar ou inserir essas dimensões aqui.</p><p><b>Nota:</b></p><ul><li><p>Ao fazer uma oferta por palavra-chave, crie modelos de rastreamento no nível da palavra-chave. Da mesma forma, ao fazer uma oferta por posicionamento, crie modelos de rastreamento no nível de posicionamento. Para todas as outras dimensões, crie modelos de rastreamento no nível do anúncio.</p></li><li><p>Quando você faz uma oferta por uma dimensão não compatível (Idade, Gênero, Interesse e Lista ou Tópico), o Search, Social e Commerce não otimiza ofertas para a dimensão e todas as atribuições são aplicadas ao grupo de publicidade.</p></li><li><p>Anúncios na rede de pesquisa sempre usam ofertas de palavra-chave.</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>(Somente campanhas de compras) A prioridade com a qual a campanha é usada quando várias campanhas anunciam o mesmo produto: <i>[!UICONTROL Low]</i> (o padrão para novas campanhas), <i>[!UICONTROL Medium]</i> ou <i>[!UICONTROL High]</i>.</p><p>Quando o mesmo produto é incluído em mais de uma campanha, a rede de publicidade usa a prioridade de campanha primeiro para determinar qual campanha (e ofertas associadas) está qualificada para o leilão de anúncios. Quando todas as campanhas têm a mesma prioridade, a campanha com a maior oferta é qualificada. |
 | [!UICONTROL Has EU Political Ads] | (Aplicável a campanhas direcionadas a públicos na União Europeia (UE)) Se a campanha contém ou não anúncios políticos de acordo com os requisitos para anúncios veiculados na União Europeia nos termos do Regulamento UE 2024/90: <i>[!UICONTROL Yes]</i> ou <i>[!UICONTROL No]</i>. |
+| [!UICONTROL AI Max Enabled] | Se o recurso [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) está habilitado para a campanha: *[!UICONTROL true]*, *[!UICONTROL false]* ou é nulo. |
+| [!UICONTROL AI Max Asset Automation] | Se a configuração de &quot;Automação de Texto&quot; para campanhas habilitadas para [!UICONTROL AI Max] está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* ou é nula. |
 | [!UICONTROL Merchant ID] | (Campanhas de compras e campanhas de público vinculadas somente a um feed de comerciante) A ID do cliente da conta do comerciante cujos produtos são usados para a campanha. |
 | [!UICONTROL Sales Country] | (Somente campanhas de compras; somente leitura para campanhas existentes) O país no qual os produtos da campanha são vendidos. Como os produtos são associados aos países de destino, essa configuração determina quais produtos são anunciados na campanha. |
 | [!UICONTROL Product Scope Filter] | (Campanhas usando apenas a rede de compras [!DNL Google Ads]) Os produtos em sua conta [!DNL Google Merchant Center] para os quais anúncios de compras podem ser criados para a campanha. É possível inserir até sete dimensões de produto e combinações de atributo nas quais filtrar seus produtos, usando o formato dimension=attribute. Separe vários filtros com um delimitador &quot;>&quot;. Para obter uma lista de dimensões de produto disponíveis, consulte &quot;[Filtros de produto da campanha de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;.</p><p>Exemplo: &quot;CategoriaL1=animais>>CategoriaL2=suprimentos para animais de estimação>>Marca=Suprimentos para animais de estimação da Acme&quot;</p><p>Para excluir os valores existentes, use o valor <code>[excluir]</code> (incluindo os colchetes).</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(Somente tipos de campanha herdados; aplicável quando [!UICONTROL Device Targets] inclui &quot;[!UICONTROL All]&quot; ou &quot;[!UICONTROL Smartphones]&quot;) Operadoras de celular às quais os smartphones podem ser conectados: <i>[!UICONTROL All]</i>, ou uma ou mais operadoras indicadas pelo &lt;c<i>código da operadora</i>>,&lt;<i>código do país</i>> (como T-Mobile,US) usando a lista de <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">operadoras disponíveis e códigos para [!DNL Google Ads]</a>. Separe várias operadoras com ponto e vírgula (como T-Mobile, EUA;T-Mobile, GB). Para novas campanhas, o padrão é <i>[!UICONTROL All]</i>.</p> |
 | [!UICONTROL Ad Group Name] | <p>O nome exclusivo que identifica um grupo de anúncios. O comprimento máximo é de 255 caracteres; caracteres em branco à direita não são salvos (por exemplo, &quot;Grupo de anúncios 1 &quot; é salvo como &quot;Grupo de anúncios 1&quot;). Este campo não se aplica a sitelinks no nível da campanha ou destinos de dispositivo no nível da campanha.</p> |
 | [!UICONTROL Ad Group Type] | <p>O tipo de grupo de anúncios: <i>[!UICONTROL Demand Gen]</i> (somente para campanhas de geração de demanda), <i>[!UICONTROL Display]</i> (para campanhas de exibição), <i>[!UICONTROL Search Dynamic]</i> (para anúncios de pesquisa dinâmicos expandidos), <i>[!UICONTROL Search Standard]</i> (para anúncios de pesquisa), <i>[!UICONTROL Shopping Product]</i> (para anúncios de produtos de compras), <i>[!UICONTROL Shopping Showcase]</i> (criação e edição sem suporte) ou <i>[!UICONTROL Unknown]</i>.</p> |
+| [!UICONTROL AI Max Search Term Matching] | Se a configuração &quot;[!UICONTROL AI Max Search Term Matching]&quot; para grupos de anúncios em campanhas habilitadas para [!UICONTROL AI Max] está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* ou nula. |
 | [!UICONTROL Max CPC] | <p>(Somente campanhas CPC) O custo máximo por clique (CPC), que é a quantidade mais alta a ser paga por um clique de anúncio na rede de anúncios, com ou sem símbolos monetários e pontuação. Você pode definir valores para grupos de anúncios e palavras-chave, grupos de produtos e alvos de pesquisa dinâmica. O padrão para uma nova palavra-chave é herdada do nível do grupo de anúncios. Para grupos de produtos, é possível definir valores para a camada mais baixa do grupo de produtos; o padrão para uma nova camada é herdado da camada principal.</p><p>Para grupos de produtos existentes e alvos de pesquisa dinâmica em portfólios otimizados, as atualizações são eficazes por apenas um dia e são substituídas durante o próximo ciclo de otimização.</p> |
 | [!UICONTROL Max Content CPC] | <p>(Somente campanhas CPC) O custo máximo de conteúdo por clique (CPC), que é a quantidade mais alta a ser paga por um clique de anúncio em um site da rede de exibição, com ou sem símbolos e pontuação monetários. Você pode definir e editar valores no nível do grupo de anúncios em campanhas que não são direcionadas para posicionamento.</p> |
 | [!UICONTROL Audience Target Method] | <p>(Campanhas somente na rede de pesquisa e campanhas [!DNL Gmail] existentes somente leitura na rede de exibição) Se:</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>: para mostrar anúncios somente a usuários associados a públicos-alvo que também atendam a quaisquer outros alvos para o grupo de anúncios.</p></li><li><p><i>[!UICONTROL Bid Only]</i>: para mostrar anúncios até mesmo para pessoas que não estão associadas a públicos-alvo de direcionamento, desde que atendam a outros alvos de nível de grupo de anúncios.</p><p>No entanto, você pode aumentar as chances de os anúncios serem exibidos para públicos-alvo específicos, definindo ofertas mais altas para esses públicos-alvo.</p></li></ul> |
 | [!UICONTROL Keyword] | A sequência de palavras-chave. O comprimento máximo é de 80 caracteres e não pode exceder 10 palavras, e pode incluir apenas letras, dígitos e os seguintes caracteres especiais: espaço `# $ & _ - " [ ] ' + . / :`</p><p><b>Nota:</b></p><ul><li><p>Para excluir uma palavra-chave no nível do grupo de anúncios ou da campanha, defina o [!UICONTROL Match Type] como <i>[!UICONTROL Negative]</i>. Se a linha incluir o nome do grupo de anúncios, a palavra-chave será excluída do grupo de anúncios. Se a linha não incluir o nome do grupo de anúncios, a palavra-chave será excluída para toda a campanha.</p></li><li><p>Alterar uma palavra-chave [!DNL Google Ads] ou um tipo de correspondência exclui a palavra-chave existente e cria uma nova.</p></li></ul> |
 | [!UICONTROL Placement] | (Campanhas que usam somente a correspondência de conteúdo) Um posicionamento na rede de exibição na qual seus anúncios podem ser exibidos. Especifique uma das seguintes opções:</p><ul><li><p>Site da Web: insira um URL válido. Pode ser um domínio de nível superior, subdomínio de primeiro nível ou domínio com um único nome de diretório. O URL não pode incluir um ponto de interrogação (?). Exemplos:<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>Uma posição de anúncio em uma página específica: Use o formato `<URL> >> <location,sublocation>` (como `finance.google.com >> Company pages,Top right`).</p></li><li><p>Uma categoria de tópico: Use a sintaxe `<category::<category> > <subcategory>` e assim por diante (como `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>Observação:</b> para excluir um posicionamento no nível do grupo de anúncios ou da campanha, defina [!UICONTROL Match Type] como <i>[!UICONTROL Negative]</i>. Se a linha incluir o nome do grupo de anúncios, o posicionamento será excluído para o grupo de anúncios. Se a linha não incluir o nome do grupo de anúncios, o posicionamento será excluído para toda a campanha.</p> |
 | [!UICONTROL Auto Target Expression] | <p>(Obrigatório quando a configuração da campanha para &quot;[!UICONTROL Use my website contents to target my ads]&quot; não está habilitada; opcional caso contrário) Alvos de pesquisa dinâmica para o grupo de anúncios.</p><p>Para todos os destinos, use um asterisco (*).</p><p>Para direcionar até três critérios de pesquisa dinâmica, use o formato `<category>=<target>`, onde `<category>` pode incluir qualquer uma das categorias abaixo. Unir vários destinos para uma categoria individual com &quot;\[espaço em branco\] e \[espaço em branco\]&quot; e unir várias categorias com &quot;[espaço em branco] e [espaço em branco]&quot;.</p><ul><li><p><i>[!UICONTROL Category]</i>: para mostrar anúncios de pesquisa dinâmica expandidos para páginas indexadas com uma categoria de conteúdo [!DNL Google Ads] específica.</p></li><li><p><i>[!UICONTROL URL]</i>: Para mostrar anúncios de pesquisa dinâmica expandidos para páginas indexadas com uma URL específica, onde o valor pode ser incluído em qualquer lugar dentro da URL.</p></li><li><p><i>[!UICONTROL Page Title]</i>: para mostrar anúncios de pesquisa dinâmica expandidos para páginas indexadas com texto específico no título da página.</p></li><li><p><i>[!UICONTROL Page Content]</i>: para mostrar anúncios de pesquisa dinâmica expandidos para páginas indexadas com conteúdo específico.</p></li></ul><p>Exemplo: url=shoes.example.com e page title=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | URLs a serem excluídos como páginas iniciais geradas pela expansão final do URL para a campanha. Opcionalmente, é possível adicionar inclusões de URL (não exclusões) no nível do grupo de anúncios. Exemplo: &quot;A URL contém `https://www.example.com`.&quot; |
+| [!UICONTROL Ad Group Included URL] | URLs a serem incluídos como páginas iniciais geradas a partir da expansão final do URL para o grupo de publicidade.  Exemplo: &quot;A URL contém `https://www.example.com`.&quot; |
+| [!UICONTROL Campaign Brand List] | Listas de marcas da conta à qual as consultas relacionadas à marca podem corresponder ou devem ser excluídas da campanha. Use o campo [!UICONTROL Campaign Brand List Type] para especificar o comportamento. |
+| [!UICONTROL Campaign Brand List ID] | A ID das listas de marcas incluídas ou excluídas no nível da campanha. |
+| [!UICONTROL Campaign Brand List Type] | Se as listas de marcas especificadas para a conta para a qual as consultas relacionadas à marca podem corresponder ou devem ser excluídas das consultas relacionadas à marca: *inclusão* ou *exclusão*. |
+| [!UICONTROL Ad Group Brand List] | Marcas da conta às quais as consultas relacionadas à marca podem corresponder no grupo de anúncios. |
+| [!UICONTROL Ad Group Brand List ID] | A ID para as listas de marcas incluídas no nível do grupo de anúncios. |
 | [!UICONTROL Parent Product Groupings] | A hierarquia de qualquer grupo de produtos pai.<br><br>Exemplo: `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>O grupo de produtos (como &quot;brand=acme&quot; ou &quot;All Products&quot;).</p><p><b>Nota:</b></p><ul><li><p>Quando um grupo de produtos especificado não existe na hierarquia [!UICONTROL Parent Product Groupings], o Search, Social e Commerce cria todas as partes da hierarquia necessárias.</p></li><li><p>O Search, Social e Commerce cria automaticamente um grupo &quot;[!UICONTROL All Products]&quot; ao criar um grupo de anúncios em uma campanha de compras [!DNL Google Ads] com uma oferta padrão definida para a oferta padrão do grupo de anúncios. O Search, Social e Commerce cria automaticamente um grupo &quot;[!UICONTROL Everything Else]&quot; com a oferta padrão do grupo de anúncios em cada nível da hierarquia do grupo de produtos. Você ainda pode criar explicitamente esses grupos padrão e excluí-los ou alterar seus lances.</p></li><li><p>Cada grupo de publicidade pode incluir até oito camadas de grupos de produtos, incluindo &quot;[!UICONTROL All Products]&quot; e sete outras camadas.</p></li></ul> |
 | [!UICONTROL Partition Type] | O tipo de partição do grupo de produtos: <i>subdivisão</i> (quando tem grupos de produtos filho) ou <i>unidade</i> (quando não tem grupos de produtos filho). |
@@ -99,7 +95,7 @@ Add in when released:
 | [!UICONTROL First Page Bid] | (Incluído em bulksheets gerados para fins de informação) A oferta necessária para colocar um anúncio na primeira página dos resultados da pesquisa. Este valor não é postado na rede de publicidade. |
 | [!UICONTROL Quality Score] | (Incluída em bulksheets gerados para fins de informação) A pontuação de qualidade atual que o mecanismo de pesquisa atribuiu à palavra-chave. Este valor não é publicado na rede de publicidade.) |
 | [!UICONTROL Creative Preferred Devices] | (Anúncios de texto, anúncios de pesquisa dinâmicos expandidos e sitelinks aprimorados; opcional) Os tipos de dispositivo nos quais você prefere exibir o anúncio: <i>[!UICONTROL All]</i> (padrão) ou <i>[!UICONTROL Mobile]</i>. Quando <i>[!UICONTROL Mobile]</i> é especificado, a rede tenta exibir o anúncio para usuários de dispositivos móveis em vez de usuários de desktop ou tablet. Caso contrário, a rede exibirá o anúncio em qualquer tipo de dispositivo.</p><p><b>Nota:</b></p><ul><li><p>Somente usuários administradores e [!DNL Adobe] gerentes de conta podem editar esta configuração.</p></li><li><p>A rede não garante que exibirá o anúncio no tipo de dispositivo preferido.</p></li><li><p>Os novos sitelinks aprimorados podem ser criados apenas em campanhas com sitelinks aprimorados existentes ou sem sitelinks.</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (Somente anúncios de texto expandidos e anúncios de pesquisa responsivos) Os títulos de um anúncio, cada um separado por uma barra vertical (&vert;). O comprimento máximo para cada campo de título de anúncio é de 30 caracteres ou 15 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] e [!UICONTROL Ad Title 3] são obrigatórios, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor <code>[excluir]</code> (incluindo os colchetes).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando o seguinte formato: <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, como <code>{CUSTOMIZER.Discount:10%}</code></p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que [!DNL Google Ads] descontinuou em junho de 2022. |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (Somente anúncios de texto expandidos e anúncios de pesquisa responsivos) Os títulos de um anúncio, cada um separado por uma barra vertical (&amp;vert;). O comprimento máximo para cada campo de título de anúncio é de 30 caracteres ou 15 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] e [!UICONTROL Ad Title 3] são obrigatórios, e todos os outros campos de título de anúncio são opcionais. Para excluir o valor existente de um campo não obrigatório, use o valor <code>[excluir]</code> (incluindo os colchetes).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando o seguinte formato: <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, como <code>{CUSTOMIZER.Discount:10%}</code></p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que [!DNL Google Ads] descontinuou em junho de 2022. |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>(Somente anúncios de pesquisa responsivos; opcional) Uma posição na qual fixar o título do anúncio correspondente: `[null]` (sem valor, o que torna o título do anúncio qualificado para todas as posições), <i>1</i>, <i>2</i> ou <i>3</i>. Por exemplo, se [!UICONTROL Ad Title Position] tiver um valor de 1, o Título do anúncio aparecerá somente na Posição 1. Por padrão, todos os títulos de anúncios são nulos (sem valores).</p><p>Para excluir o valor existente, use o valor <code>[excluir]</code> (incluindo os colchetes).</p><p><b>Observação:</b> você pode fixar vários títulos de anúncios na mesma posição. A rede de anúncios usa um dos títulos de anúncios fixados na posição. Os títulos fixados na posição 3 podem não ser mostrados com o anúncio.</p> |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(Anúncios de pesquisa dinâmicos expandidos, anúncios de texto expandidos e anúncios de pesquisa responsivos apenas) O corpo de um anúncio. O comprimento máximo para cada campo de descrição é de 90 caracteres ou 45 caracteres de byte duplo, incluindo qualquer texto dinâmico (como os valores de palavras-chave e personalizadores de anúncios).</p><p>Para anúncios de pesquisa responsivos, insira um personalizador de anúncios usando o seguinte formato: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, como `{CUSTOMIZER.Discount:10%}`</p><p>Para anúncios de pesquisa dinâmica expandidos, use somente [!UICONTROL Description Line 1] e [!UICONTROL Description Line 2]. <b>Observação:</b> para este tipo de anúncio, a alteração da cópia do anúncio exclui o anúncio existente e cria um novo.</p><p>Não é possível criar ou editar, mas você pode excluir anúncios de texto expandidos, que [!DNL Google Ads] descontinuou em junho de 2022.</p><p>Para anúncios de pesquisa responsivos, [!UICONTROL Description Line 1] e [!UICONTROL Description Line 2] são obrigatórios, e [!UICONTROL Description Line 3] e [!UICONTROL Description Line 4] são opcionais. Para excluir o valor existente, use o valor <code>[excluir]</code> (incluindo os colchetes).</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | (Somente anúncios de pesquisa responsivos; opcional) Uma posição na qual fixar a descrição correspondente: `[null]` (nenhum valor, o que torna a descrição qualificada para todas as posições), <i>1</i>, <i>2</i> ou <i>3</i>. Por exemplo, se [!UICONTROL Description 1 Position] tiver um valor de 1, então [!UICONTROL Description 1] aparecerá somente na Posição 1. Por padrão, nenhuma descrição é fixada a uma posição.</p><p>Para excluir o valor existente, use o valor `[delete]` (incluindo os colchetes).</p><p><b>Observação:</b> você pode fixar várias descrições na mesma posição. A rede de anúncios usa uma das descrições fixadas na posição. As descrições fixadas na posição 2 podem não ser mostradas com o anúncio. |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | O status de exibição do grupo de produtos: <i>[!UICONTROL Active]</i> <span>ou</span> <i>[!UICONTROL Deleted]</i> (somente grupos de produtos existentes). O padrão para novos grupos de produtos é <i>[!UICONTROL Active]</i>. Para excluir um grupo de produtos ativo, insira o valor <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Sitelink Status] | O status de exibição do sitelink: <i>Ativo ou Excluído</i> (somente sitelinks existentes). O padrão para novos sitelinks é <i>[!UICONTROL Active]</i>. Para excluir um sitelink ativo, insira o valor <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Location Status] | O status do destino do local: <i>[!UICONTROL Active]</i> ou <i>[!UICONTROL Deleted]</i> (somente locais existentes). O padrão para novos locais é [!UICONTROL Active]. Para excluir um local ativo, insira o valor <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Campaign Excluded URL Status] | O status das URLs excluídas da campanha: *Ativas* ou `null`. |
+| [!UICONTROL Ad Group Included URL Status] | O status das URLs incluídas para a campanha: *Ativas* ou `null`. |
+| [!UICONTROL Campaign Brand List Status] | O status das listas de marcas incluídas ou excluídas da campanha: *Ativas* ou `null`. |
+| [!UICONTROL Ad Group Brand List Status] | O status das listas de marcas incluídas para o grupo de anúncios: *Ativo* ou `null`. |
 | [!UICONTROL RLSA Target Status] | O status do destino ou exclusão RLSA no nível da campanha ou do grupo de anúncios: <i>[!UICONTROL Active]</i> ou [!UICONTROL Deleted]</i> (somente destinos existentes). O padrão para novos destinos ou exclusões é <i>[!UICONTROL Active]</i>. Para excluir um destino ou exclusão ativa, insira o valor <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Device Target Status] | <p>O status do destino do dispositivo no nível da campanha ou do grupo de anúncios: <i>[!UICONTROL Active]</i> ou <i>[!UICONTROL Deleted]</i>. Para novas campanhas e grupos de anúncios, o padrão é <i>[!UICONTROL Active]</i>.</p> |
 | \[Classificação de rótulo específica do anunciante\] | (Nomeado para uma classificação de rótulo específica do anunciante, como &quot;Cor&quot; para uma classificação de rótulo chamada Cor) Um valor para a classificação especificada associada à entidade. Você pode incluir apenas um valor por classificação por entidade (como &quot;vermelho&quot; para a classificação de rótulo &quot;Cor&quot; para a Campanha A). O comprimento máximo é de 100 caracteres e o valor pode incluir caracteres ASCII e não ASCII.<br><br>As classificações de rótulo e seus valores de rótulo são aplicados a todos os componentes filhos; novos componentes adicionados posteriormente são associados automaticamente ao rótulo. As classificações de etiquetas para grupos de produtos são aplicadas ao nível de unidade (mais granular).<br><br>Nem o nome de classificação nem o valor de classificação fazem distinção entre maiúsculas e minúsculas. |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | A ID exclusiva que identifica um sitelink existente. Em arquivos CSV e TSV, ele deve ser precedido por aspas simples (&#39;).[^1] Necessário somente ao alterar ou excluir o sitelink, a menos que a linha inclua a) colunas de propriedade suficientes para identificar o sitelink ou b) um &quot;[!UICONTROL AMO ID]&quot;.&quot; No entanto, se você não incluir [!UICONTROL Sitelink ID] nem [!UICONTROL AMO ID] e as colunas de propriedade corresponderem a vários sitelinks, o status de apenas um dos sitelinks será alterado.</p><p><b>Observação:</b> se você editar as colunas de propriedade do sitelink, exceto o Status de um sitelink existente, e não incluir o [!UICONTROL Sitelink ID] nem o [!UICONTROL AMO ID], um novo sitelink será criado e o sitelink existente não será alterado. |
 | [!UICONTROL RLSA Target ID] | A ID exclusiva que identifica um destino ou exclusão de RLSA em nível de campanha ou grupo de anúncios existente. Em arquivos CSV e TSV, ele deve ser precedido por aspas simples (&#39;).[^1] Necessário somente ao alterar ou excluir o destino ou exclusão, a menos que a linha inclua um &quot;[!UICONTROL AMO ID]&quot; para o destino. |
 | [!UICONTROL Device Target ID] | <p>A ID exclusiva que identifica um direcionamento ou exclusão de dispositivo existente no nível da campanha ou do grupo de anúncios. Em arquivos CSV e TSV, ele deve ser precedido por aspas simples (&#39;).[^1] Necessário somente ao alterar ou excluir o destino, a menos que a linha inclua um &quot;[!UICONTROL AMO ID]&quot; para o destino.</p> |
+| [!UICONTROL Campaign Excluded URL ID] | A ID da expressão de URL excluída da campanha. |
+| [!UICONTROL Ad Group Included URL ID] | A ID da expressão de URL incluída para o grupo de publicidade. |
+| [!UICONTROL Campaign Brand Criterion ID] | A ID dos critérios da lista de marcas da campanha. |
+| [!UICONTROL Ad Group Brand Criterion ID] | A ID dos critérios da lista de marcas do grupo de publicidade. |
 | [!UICONTROL AMO ID] | (Em bulksheets gerados) Um identificador exclusivo gerado pela Adobe para uma entidade sincronizada. Para anúncios de pesquisa responsivos, a ID do AMO é necessária para editar ou excluir anúncios, a menos que você inclua a ID do anúncio. Para editar dados para todos os outros tipos de entidade com uma ID AMO, a ID AMO é necessária para editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>O Search, Social e Commerce usa o valor para determinar a identidade correta a ser editada, mas não publica a ID na rede de publicidade. |
 | [!UICONTROL EF Error Message] | (Incluído nos bulksheets gerados para fins informativos) Espaço reservado para exibir mensagens de erro da rede de publicidade relacionadas aos dados na linha; as mensagens de erro estão incluídas nos arquivos [!UICONTROL EF Errors]. Este valor não é postado na rede de publicidade. |
 | [!UICONTROL SE Error Message] | (Incluído nos bulksheets gerados para fins informativos) Espaço reservado para exibir mensagens de erro da rede de publicidade relacionadas aos dados na linha; as mensagens de erro estão incluídas nos arquivos [!UICONTROL SE Errors]. Este valor não é postado na rede de publicidade. |
@@ -172,24 +176,34 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | [!UICONTROL Acct Name] | Obrigatório, a menos que cada linha inclua um &quot;[!UICONTROL AMO ID]&quot; para a entidade. |
 | [!UICONTROL Campaign Name] | Obrigatório |
 | [!UICONTROL Campaign Budget] | Obrigatório para criar uma campanha. |
+| [!UICONTROL Campaign Status] | Necessário apenas para excluir uma campanha. |
 | [!UICONTROL Delivery Method] | Obrigatório para criar uma campanha. |
-| [!UICONTROL Channel Type] | Obrigatório para criar uma campanha. |
+| [!UICONTROL Device Targets] | Opcional |
+| [!UICONTROL Device OS Targets (Google Adwords)] | Opcional |
+| [!UICONTROL Languages] | Opcional |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | Opcional |
 | [!UICONTROL Networks] | Obrigatório para criar uma campanha. |
-| [!UICONTROL DSA Domain Name] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
-| [!UICONTROL DSA Domain Language] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
+| [!UICONTROL Tracking Template] | Opcional |
+| [!UICONTROL Channel Type] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Campaign Priority] | Obrigatório para criar uma campanha de compras. |
 | [!UICONTROL Has EU Political Ads] | Obrigatório para criar uma campanha. |
 | [!UICONTROL Merchant ID] | Obrigatório para criar uma campanha de compras. |
 | [!UICONTROL Sales Country] | Obrigatório para criar uma campanha de compras. |
-| [!UICONTROL Product Scope Filter] | (Campanhas de compras) Opcional |
-| [!UICONTROL Languages] | Opcional |
-| [!UICONTROL Device Targets] | Opcional |
-| [!UICONTROL Device Targets (Google Adwords)] | Opcional |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | Opcional |
 | [!UICONTROL Audience Target Method] | n/d |
+| [!UICONTROL Product Scope Filter] | (Campanhas de compras) Opcional |
+| [!UICONTROL DSA Domain Name] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
+| [!UICONTROL DSA Domain Language] | Obrigatório para criar uma campanha com anúncios de pesquisa dinâmica na rede de pesquisa. |
 | [!UICONTROL Landing Page Suffix] | Opcional |
-| [!UICONTROL Tracking Template] | Opcional |
-| [!UICONTROL Campaign Status] | Necessário apenas para excluir uma campanha. |
+| [!UICONTROL AI Max Enabled] | Opcional |
+| [!UICONTROL AI Max Asset Automation] | Opcional |
+| [!UICONTROL Campaign Brand Criterion ID] | Opcional |
+| [!UICONTROL Campaign Brand List] | Opcional |
+| [!UICONTROL Campaign Brand List ID] | Opcional |
+| [!UICONTROL Campaign Brand List Status] | Opcional |
+| [!UICONTROL Campaign Brand List Type] | Opcional |
+| [!UICONTROL Included URL] | Opcional |
+| [!UICONTROL Included URL ID] | Opcional |
+| [!UICONTROL Included URL Status] | Opcional |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Constraints] | Opcional |
 | [!UICONTROL Campaign ID] | Obrigatório somente quando você altera o nome da campanha, a menos que a linha inclua um &quot;[!UICONTROL AMO ID]&quot; para a campanha. |
@@ -203,15 +217,23 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obrigatório, a menos que cada linha inclua um &quot;[!UICONTROL AMO ID]&quot; para a entidade. |
 | [!UICONTROL Campaign Name] | Obrigatório |
-| [!UICONTROL Networks] | n/d |
-| [!UICONTROL GDN Custom Bid Level] | Opcional |
 | [!UICONTROL Ad Group Name] | Obrigatório |
 | [!UICONTROL Ad Group Type] | Obrigatório para criar um grupo de anúncios. |
+| [!UICONTROL GDN Custom Bid Level] | Opcional |
+| [!UICONTROL Networks] | n/d |
+| [!UICONTROL Ad Group Status] | Obrigatório apenas para excluir um grupo de anúncios. |
 | [!UICONTROL Max CPC] | Opcional |
 | [!UICONTROL Max Content CPC] | Opcional |
-| [!UICONTROL Audience Target Method] | Obrigatório |
 | [!UICONTROL Tracking Template] | Opcional |
-| [!UICONTROL Ad Group Status] | Obrigatório apenas para excluir um grupo de anúncios. |
+| [!UICONTROL Audience Target Method] | Obrigatório |
+| [!UICONTROL AI Max Search Term Matching] | Opcional |
+| [!UICONTROL Ad Group Brand Criterion ID] | Opcional |
+| [!UICONTROL Ad Group Brand List] | Opcional |
+| [!UICONTROL Ad Group Brand List ID] | Opcional |
+| [!UICONTROL Ad Group Brand List Status] | Opcional |
+| [!UICONTROL Ad Group Included URL] | Opcional |
+| [!UICONTROL Ad Group Included URL ID] | Opcional |
+| [!UICONTROL Ad Group Included URL Status] | Opcional |
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Constraints] | Opcional |
 | [!UICONTROL Ad Group ID] | Obrigatório somente quando você altera o nome do grupo de anúncios, a menos que a linha inclua um &quot;[!UICONTROL AMO ID]&quot; para o grupo de anúncios. |
@@ -268,7 +290,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 
 ### Anúncio de pesquisa dinâmica expandido
 
-Este tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; em [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=pt-BR)&quot;.
+Este tipo de anúncio agora é chamado de &quot;anúncio de pesquisa dinâmica&quot; em [!DNL Google Ads]. Para obter mais informações sobre como criar anúncios de pesquisa dinâmica, consulte &quot;[Implementar [!DNL Google Ads] anúncios de pesquisa dinâmica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 
@@ -293,7 +315,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 
 ### Lista de produtos/campos de anúncios de compras
 
-Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=pt-BR)&quot;.
+Para obter mais informações sobre como criar anúncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campanhas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;.
 
 Para este tipo de anúncio, use a linha &quot;[!UICONTROL Creative (except RSA)]&quot; na caixa de diálogo [!UICONTROL Download Bulksheet].
 
@@ -374,7 +396,7 @@ Para obter uma descrição de cada campo de dados, consulte &quot;[Todos os camp
 | \[Classificação de rótulo específica do anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Obrigatório apenas quando você altera o status do anúncio, a menos que a linha inclua a&rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
+| [!UICONTROL Ad ID] | Obrigatório apenas quando você altera o status do anúncio, a menos que a linha inclua a&amp;rpar; colunas de propriedade de anúncio suficientes para identificar o anúncio ou b&amp;rpar; e &quot;[!UICONTROL AMO ID].&quot; No entanto, se você não incluir [!UICONTROL Ad ID] nem [!UICONTROL AMO ID] e as colunas de propriedade de anúncio corresponderem a vários anúncios, o status de apenas um dos anúncios será alterado. |
 | [!UICONTROL AMO ID] | É necessário editar ou excluir os dados, a menos que você inclua a ID da entidade e a ID da entidade pai.<br><br>O Search, Social e Commerce usa o valor para determinar a identidade correta a ser editada, mas não publica a ID na rede de publicidade. |
 
 ### Campos de destino da pesquisa dinâmica (direcionamento automático)

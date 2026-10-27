@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
+source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Se a campanha usar uma estratégia de oferta de Oferta Inteligente (como [!UICON
 
 >[!NOTE]
 >
->* Quando a configuração [!UICONTROL Final URL expansion] no nível da campanha está *habilitada*, o [!DNL Google Ads] usa as URLS especificadas e as URLs adicionais selecionadas pela Google como páginas de aterrissagem dinâmicas para o grupo de anúncios.
+>* Quando a configuração [!UICONTROL Final URL expansion] no nível da campanha está *habilitada*, o [!DNL Google Ads] usa as URLs especificadas e as URLs adicionais selecionadas pela Google como páginas de aterrissagem dinâmicas para o grupo de publicidade.
 >* Quando a configuração [!UICONTROL Final URL expansion] no nível da campanha está *desabilitada*, [!DNL Google Ads] usa somente as URLs especificadas como páginas de aterrissagem dinâmicas para o grupo de publicidade.
 >* (Anúncios de pesquisa responsivos com ativos fixados) Quando essa configuração especifica inclusões de URL, o [!DNL Google Ads] não usa ativos fixados quando a URL final é roteada para uma página de aterrissagem na qual a cópia fixada não corresponde à intenção do usuário. Para sempre usar ativos fixados, não especifique inclusões de URL e desabilite a configuração [!UICONTROL Final URL expansion] no nível da campanha.
 

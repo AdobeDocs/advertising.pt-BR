@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6f8a328e104d2d1acdbb7411dda8a3d0a3463903
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 0%
 ---
 # Motivos para problemas de desempenho
 
 <!-- Rename file and set up a redirect -->
 
-<!-- Reword/change path as needed:  See also "[Diagnose performance and delivery issues using the AI assistant](/help\dsp\campaign-management\reports\troubleshooting-agent.md)." -->
+Consulte também &quot;[Solucionar problemas de desempenho e de entrega usando o assistente de IA](/help/dsp/ai-assistant/troubleshooting-agent.md).&quot;
 
 | Problema | Causa possível | Ações a serem executadas |
 | --- | --- | --- |

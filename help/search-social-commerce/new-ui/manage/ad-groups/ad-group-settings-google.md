@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # Configurações do grupo de anúncios [!DNL Google Ads]
@@ -109,7 +109,7 @@ Se a campanha usar uma estratégia de oferta de Oferta Inteligente (como [!UICON
 >* Quando a configuração [!UICONTROL Final URL expansion] no nível da campanha está *desabilitada*, [!DNL Google Ads] usa somente as URLs especificadas como páginas de aterrissagem dinâmicas para o grupo de publicidade.
 >* (Anúncios de pesquisa responsivos com ativos fixados) Quando essa configuração especifica inclusões de URL, o [!DNL Google Ads] não usa ativos fixados quando a URL final é roteada para uma página de aterrissagem na qual a cópia fixada não corresponde à intenção do usuário. Para sempre usar ativos fixados, não especifique inclusões de URL e desabilite a configuração [!UICONTROL Final URL expansion] no nível da campanha.
 
-**[!UICONTROL Brand inclusions]:** (Campanhas para as quais [!DNL AI Max] está habilitado) Marcas da conta às quais as consultas relacionadas à marca podem corresponder. Marque a caixa de seleção ao lado de cada lista de marcas a ser incluída. Essa configuração substitui a configuração no nível da campanha.
+**[!UICONTROL Brand inclusions]:** (Campanhas para as quais o [!DNL AI Max] está habilitado) Listas de marcas que incluem marcas para as quais as consultas relacionadas à marca podem corresponder. Na lista de todas as listas de marcas configuradas para a conta no editor [!DNL Google Ads], marque a caixa de seleção ao lado de cada lista de marcas a ser incluída. Essa configuração substitui a configuração no nível da campanha.
 
 ## Guia [!UICONTROL URL Options]
 

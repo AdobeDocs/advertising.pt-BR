@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # Criar um público-alvo reutilizável
@@ -35,7 +35,9 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 >
 >(Anunciantes para os quais o DSP converte IDs de email com hash em segmentos LiveRamp RampID) Os segmentos primários RampID que não são anexados a uma inserção ativa, programada ou pausada são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
-## Criar um público-alvo reutilizável usando IA gerativa com o Assistente de IA
+## Gerar um público-alvo reutilizável usando IA gerativa
+
+### Criar um público-alvo reutilizável usando o Assistente de IA
 
 *recurso do Beta*
 
@@ -69,7 +71,7 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 
            1. (Opcional) Edite o texto de acordo com suas necessidades.
 
-      Consulte &quot;[Noções básicas sobre como escrever prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
+      Consulte &quot;[Escrever prompts e responder ao agente de público-alvo](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
    1. Para enviar o prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
@@ -103,7 +105,7 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
    >
    >Para editar o público mais tarde, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Criar um público-alvo reutilizável usando IA gerativa da exibição [!UICONTROL Audiences] > [!UICONTROL All audiences]
+### Criar um público-alvo reutilizável usando o agente de público-alvo da exibição [!UICONTROL Audiences] > [!UICONTROL All audiences]
 
 *recurso do Beta*
 
@@ -133,7 +135,7 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 
    1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
-      Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
+      Para obter mais informações, consulte &quot;[Escrever prompts e responder ao agente de público-alvo](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
 
       Quando aplicável, o agente sugere filtros de segmento adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
 
@@ -152,6 +154,128 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
    >[!NOTE]
    >
    >Para editar o público mais tarde, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Práticas recomendadas para criar um resumo de público-alvo {#audience-brief-best-practices}
+
+Um resumo de público-alvo é um writeup estratégico que define o público-alvo de uma campanha. Um resumo bem elaborado ajuda o agente de público-alvo da DSP a identificar os segmentos mais relevantes para montar seu público-alvo direcionável.
+
+#### Componentes de um resumo de público-alvo eficiente
+
+Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
+
+<!--
+ What about these:
+
+* Device specifications
+* Presence in audiences from specific third-party data providers
+* Presence of a universal ID
+* Target cost per thousand (CPM) impressions or a total target cost
+
+-->
+
+* **Demografia**
+
+  Inclui atributos como faixa etária, identidade de gênero, estado civil, composição do agregado familiar (dimensão da família, presença de filhos, agregados familiares de várias gerações).
+
+* **Indicadores Socioeconômicos**
+
+  Estabelece capacidade financeira por meio de faixas de renda familiar (HHI), nível de educação, cargos/cargos, status de emprego e status de propriedade da casa.
+
+* **Parâmetros Geográficos**
+
+  Define o escopo de localização incluindo país/países, região (EMEA, APAC, NA), densidade populacional (urbana/suburbana/rural).
+
+* **Interesses e afinidades**
+
+  Identifica paixões e preferências como hobbies (esportes, artes, atividades ao ar livre), padrões de consumo de mídia, afinidades de marca e atividades de estilo de vida (viagens, restaurantes, entretenimento).
+
+* **Psicografia**
+
+  Captura a mentalidade e os valores, incluindo aspirações (busca de status, autoaprimoramento), valores principais (sustentabilidade, inovação, tradição), traços de personalidade (assumidores de riscos, primeiros adeptos) e motivações de compra.
+
+* **Sinais comportamentais**
+
+  Ações observáveis, incluindo comportamento de compra (frequência de compras, preferências de canal, fidelidade à marca), comportamento online (visitas a sites, engajamento de conteúdo, atividade de redes sociais) e comportamento offline (visitas a lojas, presença em eventos, associações).
+
+* **Intenção no Mercado**
+
+  Identifica a prontidão da compra por meio de categorias de produto/serviço sendo pesquisadas, cronograma de compra (imediato, curto prazo, longo prazo) e eventos de vida relevantes que acionam decisões de compra.
+
+* **Estágio da vida**
+
+  Compreensão da fase atual incluindo estágio de carreira (estudante, nível de entrada, meio de carreira, executivo, aposentado), estágio de família (recém-casados, novos pais, ninhos vazios) e transições de vida principal.
+
+#### Exemplo de um resumo de público bem estruturado para uma campanha de prospecção
+
+Este é um exemplo de um forte resumo de público-alvo de uma campanha para impulsionar a conscientização e a avaliação de um serviço de assinatura premium do kit de refeição:
+
+`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
+
+### Escrever prompts e responder ao agente de público-alvo {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Diretrizes para escrever prompts de público-alvo
+
+* Use uma linguagem clara e descritiva para descrever o público-alvo.
+
+  * Você pode inserir frases completas ou uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+
+  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
+
+  * O agente de público-alvo reconhece os sinônimos mais comuns.
+
+* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Fornecer mais detalhes aumenta a probabilidade de obter resultados que atendam às suas necessidades.
+
+* Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
+
+* Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
+
+* Saiba mais sobre o prompt por meio da experimentação.
+
+  Se o prompt não estiver limpo, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
+
+  O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
+
+Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limitações do prompt
+
+* Referências a públicos existentes.
+
+* Texto em idiomas além do inglês.
+
+#### Como responder ao agente de público-alvo
+
+Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
+
+##### Confirmar se deseja continuar
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra similar
+
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
+
+##### Escolha entre as opções sugeridas
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
+
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
 ## Criar manualmente um público-alvo reutilizável
 
@@ -226,128 +350,6 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
         >Se o público-alvo já incluir qualquer lógica de segmento, colar em uma nova lógica de segmento substituirá a lógica existente.
 
 1. Clique em **[!UICONTROL Create]**.
-
-### Noções básicas para escrever prompts {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Diretrizes para escrever prompts de público-alvo
-
-* Use uma linguagem clara e descritiva para descrever o público-alvo.
-
-  * Você pode inserir frases completas ou uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
-
-  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
-
-  * O agente de público-alvo reconhece os sinônimos mais comuns.
-
-* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Fornecer mais detalhes aumenta a probabilidade de obter resultados que atendam às suas necessidades.
-
-* Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
-
-* Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
-
-* Saiba mais sobre o prompt por meio da experimentação.
-
-  Se o prompt não estiver limpo, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
-
-  O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
-
-Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### O que você não pode incluir em um prompt?
-
-* Referências a expressões de público-alvo existentes.
-
-* Texto em idiomas além do inglês.
-
-#### Exemplos de respostas do agente de público-alvo e como responder
-
-Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
-
-#### Agente de público-alvo fazendo uma pergunta
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra similar
-
-Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
-
-##### Agente de público-alvo solicitando que você escolha entre várias opções
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
-
-Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
-
-### Práticas recomendadas para criar um resumo de público-alvo {#audience-brief-best-practices}
-
-Um resumo de público-alvo é um writeup estratégico que define o público-alvo de uma campanha. Um resumo bem elaborado ajuda o agente de público-alvo da DSP a identificar os segmentos mais relevantes para montar seu público-alvo direcionável.
-
-#### Componentes essenciais de um resumo de público-alvo eficiente
-
-Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a seguir no seu resumo. Seja específico quanto aos atributos que deseja excluir.
-
-<!--
- What about these:
-
-* Device specifications
-* Presence in audiences from specific third-party data providers
-* Presence of a universal ID
-* Target cost per thousand (CPM) impressions or a total target cost
-
--->
-
-* **Demografia**
-
-  Inclui atributos como faixa etária, identidade de gênero, estado civil, composição do agregado familiar (dimensão da família, presença de filhos, agregados familiares de várias gerações).
-
-* **Indicadores Socioeconômicos**
-
-  Estabelece capacidade financeira por meio de faixas de renda familiar (HHI), nível de educação, cargos/cargos, status de emprego e status de propriedade da casa.
-
-* **Parâmetros Geográficos**
-
-  Define o escopo de localização incluindo país/países, região (EMEA, APAC, NA), densidade populacional (urbana/suburbana/rural).
-
-* **Interesses e afinidades**
-
-  Identifica paixões e preferências como hobbies (esportes, artes, atividades ao ar livre), padrões de consumo de mídia, afinidades de marca e atividades de estilo de vida (viagens, restaurantes, entretenimento).
-
-* **Psicografia**
-
-  Captura a mentalidade e os valores, incluindo aspirações (busca de status, autoaprimoramento), valores principais (sustentabilidade, inovação, tradição), traços de personalidade (assumidores de riscos, primeiros adeptos) e motivações de compra.
-
-* **Sinais comportamentais**
-
-  Ações observáveis, incluindo comportamento de compra (frequência de compras, preferências de canal, fidelidade à marca), comportamento online (visitas a sites, engajamento de conteúdo, atividade de redes sociais) e comportamento offline (visitas a lojas, presença em eventos, associações).
-
-* **Intenção no Mercado**
-
-  Identifica a prontidão da compra por meio de categorias de produto/serviço sendo pesquisadas, cronograma de compra (imediato, curto prazo, longo prazo) e eventos de vida relevantes que acionam decisões de compra.
-
-* **Estágio da vida**
-
-  Compreensão da fase atual incluindo estágio de carreira (estudante, nível de entrada, meio de carreira, executivo, aposentado), estágio de família (recém-casados, novos pais, ninhos vazios) e transições de vida principal.
-
-#### Exemplo de um resumo de público bem estruturado para uma campanha de prospecção
-
-Este é um exemplo de um forte resumo de público-alvo de uma campanha para impulsionar a conscientização e a avaliação de um serviço de assinatura premium do kit de refeição:
-
-`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >

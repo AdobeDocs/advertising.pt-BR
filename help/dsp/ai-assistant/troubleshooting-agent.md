@@ -15,24 +15,25 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# Solucionar problemas de desempenho e de entrega usando o assistente de IA
+# Solucionar problemas de desempenho e delivery usando o Assistente de IA
+
 
 *recurso do Beta*
 
-O agente de solução de problemas do Assistente de IA pode identificar fatores que limitam o desempenho de pacotes e posicionamentos em tempo real e fornece recomendações para resolver problemas. O agente de solução de problemas pode ajudar a diagnosticar os seguintes tipos de problemas de desempenho e de delivery:
+O agente de solução de problemas do Assistente de IA identifica fatores que limitam o desempenho de pacotes e posicionamentos ativos e fornece instruções passo a passo e recomendações com base em dados históricos para resolver problemas. O agente de solução de problemas pode ajudar a diagnosticar os seguintes tipos de problemas de desempenho e de delivery:
 
 * (Somente disposições) Problemas de gastos, incluindo gasto excessivo, subutilização e falha de gasto. O agente avalia fatores relacionados de ritmo, lance, direcionamento e limite de orçamento como parte do diagnóstico.
 
-* (Somente pacotes) Problemas de desempenho, incluindo um CPA crescente ou um ROAS decrescente. O agente não diagnostica métricas de envolvimento como CTR, CPC, cliques ou impressões.
+* (Somente pacotes) Problemas de desempenho, incluindo aumento do CPA ou queda do ROAS. O agente não diagnostica métricas de envolvimento como CTR, CPC, cliques ou impressões.
 
 Cada conversa abrange um único diagnóstico para um único pacote ou posicionamento. Depois que o agente fornecer um resultado, inicie uma nova conversa para perguntar sobre um problema diferente ou sobre um pacote ou posicionamento diferente.
 
-O agente não pode alterar configurações nem criar ou editar campanhas ou componentes de campanha. Ele também não pode diagnosticar problemas de um pacote ou posicionamento pausado, concluído, arquivado ou programado.
+O agente não pode alterar configurações, criar ou editar campanhas ou componentes de campanha, nem diagnosticar problemas de um pacote ou posicionamento pausado, concluído, arquivado ou agendado.
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por
 >
 >Para perguntar sobre um problema diferente ou sobre um pacote ou posicionamento diferente, [inicie uma nova conversa](#conversation-new).
 
-## Enviar uma consulta da exibição [!UICONTROL Placements] ou [!UICONTROL Placements]
+## Enviar uma consulta da exibição [!UICONTROL Packages] ou [!UICONTROL Placements]
 
 Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por vez. Aguarde uma resposta antes de enviar outra.
 
@@ -130,7 +131,7 @@ Você pode fazer várias perguntas em uma mensagem, mas somente uma mensagem por
 
 ## Iniciar uma nova conversa {#conversation-new}
 
-Cada conversa, ou thread de consulta, é salva separadamente para que você possa distinguir suas conversas anteriores.
+Cada conversa (ou thread de consulta) é salva separadamente para que você possa distinguir suas conversas anteriores.
 
 1. Na parte superior da [caixa de chat](#ai-assistant-open), clique em ![Iniciar uma nova conversa](/help/dsp/assets/new-selection.png "Iniciar uma nova conversa").
 

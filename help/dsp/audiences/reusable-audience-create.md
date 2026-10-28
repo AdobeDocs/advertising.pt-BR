@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # Criar um público-alvo reutilizável
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-É possível salvar e gerenciar públicos-alvo reutilizáveis, que são grupos de segmentos de público-alvo (incluindo segmentos primários e de terceiros disponíveis para você) e até mesmo outros públicos-alvo salvos. Você pode usar os públicos-alvo como destinos ou exclusões para vários posicionamentos.
+É possível salvar e gerenciar públicos reutilizáveis, que são grupos de segmentos de público-alvo que podem ser usados como destinos ou exclusões para vários posicionamentos. Os públicos-alvo reutilizáveis podem incluir segmentos primários e de terceiros disponíveis para você e até mesmo outros públicos-alvo salvos.
 
 Crie públicos usando o agente de público-alvo assistido por IA no [Assistente de IA](/help/dsp/ai-assistant/ai-assistant-about.md) unificado ou na exibição [!UICONTROL Audiences] > [!UICONTROL All Audiences], ou crie públicos manualmente.
 

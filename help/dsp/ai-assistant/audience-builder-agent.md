@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # Gerar públicos reutilizáveis usando o Assistente de IA
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *Suporte somente para inglês*
 
-Use o agente construtor de públicos do Assistente de IA para gerar públicos-alvo reutilizáveis, que são grupos de segmentos de público-alvo (incluindo segmentos primários e de terceiros disponíveis para você) e até mesmo outros públicos-alvo salvos. Posteriormente, você pode usar os públicos-alvo como destinos ou exclusões para vários posicionamentos.
+Use o agente de construtor de públicos do Assistente de IA para gerar [públicos-alvo reutilizáveis](/help/dsp/audiences/audience-about.md). Os públicos-alvo reutilizáveis podem incluir segmentos primários e de terceiros disponíveis para você e até mesmo outros públicos-alvo salvos.
 
 >[!IMPORTANT]
 >

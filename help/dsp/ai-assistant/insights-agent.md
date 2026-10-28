@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
-# Criar relatórios usando o assistente de IA
+# Criar relatórios usando o Assistente de IA
 
 *recurso do Beta*
+
+*Suporte somente para inglês*
 
 Use o agente de insights do Assistente de IA para obter métricas e relatórios completos para suas campanhas, componentes de campanha, experiências do Advertising Creative, anunciantes e públicos-alvo de anúncios, sem criar um relatório manualmente. Faça perguntas simples sobre uma métrica específica, como gasto ou CPA de uma campanha, ou peça um relatório mais complexo para uma dimensão específica (como uma única campanha ou público-alvo) ou entre dimensões (para detalhamentos de cada campanha e anunciante). Você pode baixar os resultados como um arquivo CSV.
 

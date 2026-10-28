@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # Sobre o assistente de IA no Advertising DSP
@@ -36,6 +36,7 @@ Os seguintes fluxos de trabalho podem ajudar você a realizar seu trabalho com m
 
 | Recurso | Descrição | Respostas |
 | --- | --- | --- |
+| [Agente do Audience Builder](/help/dsp/ai-assistant/audience-builder-agent.md) | (Recurso do Beta) Gere públicos-alvo reutilizáveis, que são grupos de segmentos de público-alvo (incluindo segmentos primários e de terceiros disponíveis para você) e até mesmo outros públicos-alvo salvos. Posteriormente, você pode usar os públicos-alvo como destinos ou exclusões para vários posicionamentos. | As respostas incluem primeiro uma definição de público-alvo e, em seguida, os segmentos de público-alvo resultantes, que podem ser salvos como um público-alvo. |
 | [Solução de problemas](troubleshooting-agent.md) | (Recurso do Beta) Diagnosticar problemas de desempenho e entrega de pacotes e posicionamentos ativos. | A resposta inclui fatores que limitam o desempenho e fornece instruções passo a passo e recomendações para resolver os problemas. |
 | [Insights](insights-agent.md) | (Recurso do Beta) Obtenha métricas de campanha e relatórios completos sem criar um relatório manualmente. Você pode baixar os resultados como um arquivo CSV. | As primeiras linhas do relatório são exibidas com links para visualizar o relatório completo e baixar o relatório como um arquivo de [!DNL Microsoft Excel] valores separados por vírgula (.csv). |
 | [Pesquisa na documentação do produto](documentation-search.md) | Pesquise conteúdo conceitual e de instruções no [Guia do Advertising DSP](/help/dsp/home.md) e, para anunciantes com o Advertising Creative, no [Guia do Advertising Creative](/help/creative/home.md). | A resposta inclui citações embutidas e uma lista [!UICONTROL Documentation Sources] expansível na parte inferior. Clique em qualquer citação ou listagem de origem para abrir a página relevante.<br><br>A resposta também pode incluir perguntas de acompanhamento e sugestões para ajudá-lo a refinar sua consulta e encontrar mais informações. |

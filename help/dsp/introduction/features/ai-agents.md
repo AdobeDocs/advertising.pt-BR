@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # Recursos assistidos por IA no Adobe Advertising DSP
@@ -29,6 +29,8 @@ O DSP fornece agentes assistidos por IA que usam prompts de idioma natural para 
 * [Pesquisar conteúdo conceitual e de instruções](/help/dsp/agent-chat.md)
 
 * Assistente de IA unificada:
+
+  * [Gerar públicos reutilizáveis](/help/dsp/ai-assistant/audience-builder-agent.md).
 
   * [Crie relatórios para suas campanhas, componentes da campanha, experiências do Advertising Creative, anunciantes e destinos de anúncios](/help/dsp/ai-assistant/insights-agent.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Criar um público-alvo reutilizável
-description: Saiba como criar públicos-alvo reutilizáveis que consistem em segmentos de público-alvo e outros públicos-alvo salvos. Opcionalmente, use um agente de público-alvo assistido por IA descrevendo seu público-alvo em prompts em linguagem natural; o agente sugere segmentos de terceiros e cria expressões de público-alvo para usar como alvos ou exclusões.
+description: Saiba como criar públicos-alvo reutilizáveis para usar como destinos de posicionamento ou exclusões. Crie públicos-alvo reutilizáveis no Adobe Advertising DSP manualmente ou com IA gerativa no Assistente de IA ou na visualização Todos os públicos-alvo.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # Criar um público-alvo reutilizável
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-É possível salvar e gerenciar públicos reutilizáveis, que são grupos de segmentos de público-alvo e até mesmo outros públicos salvos, que você pode usar como destinos ou exclusões para vários posicionamentos. Crie públicos-alvo manualmente ou use o agente de público-alvo assistido por IA para gerar novos públicos-alvo reutilizáveis usando todos os segmentos primários e de terceiros disponíveis para você, de acordo com seus requisitos declarados.
+É possível salvar e gerenciar públicos-alvo reutilizáveis, que são grupos de segmentos de público-alvo (incluindo segmentos primários e de terceiros disponíveis para você) e até mesmo outros públicos-alvo salvos. Você pode usar os públicos-alvo como destinos ou exclusões para vários posicionamentos.
+
+Crie públicos usando o agente de público-alvo assistido por IA no [Assistente de IA](/help/dsp/ai-assistant/ai-assistant-about.md) unificado ou na exibição [!UICONTROL Audiences] > [!UICONTROL All Audiences], ou crie públicos manualmente.
 
 >[!NOTE]
 >
 >(Anunciantes para os quais o DSP converte IDs de email com hash em segmentos LiveRamp RampID) Os segmentos primários RampID que não são anexados a uma inserção ativa, programada ou pausada são pausados. O segmento é descrito na lista de segmentos como &quot;Pausado automaticamente&quot;.
 
-## Criar manualmente um público-alvo reutilizável
+## Criar um público-alvo reutilizável usando IA gerativa com o Assistente de IA
+
+*recurso do Beta*
+
+*Suporte somente para inglês*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de salvar o público-alvo e usá-lo para suas inserções.
+
+1. Abrir o assistente de IA:
+
+   * No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**. Acima da tabela de dados, clique em **[!UICONTROL Create]>[!UICONTROL Create with AI]**.
+
+   * Na parte superior direita de qualquer página, clique em ![Chat de agente](/help/dsp/assets/agent-chat.png "Chat de agente").
+
+1. Defina o público:
+
+   1. Crie um prompt inicial para definir seu público de uma das seguintes maneiras:
+
+      * Insira seu próprio resumo do público-alvo ou algumas das características de público-alvo que deseja incluir e excluir.
+
+      * Para ver exemplos de resumos de público-alvo e, opcionalmente, copiar um para usar:
+
+        1. Clique em **[!UICONTROL Build]** para expandir a seção.
+
+        1. (Opcional) Para copiar o texto de um exemplo de resumo de público-alvo na caixa de prompt:
+
+           1. Clique no exemplo.
+
+           1. (Opcional) Edite o texto de acordo com suas necessidades.
+
+      Consulte &quot;[Noções básicas sobre como escrever prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
+
+   1. Para enviar o prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
+
+      Você pode fazer várias perguntas em um prompt, mas somente um prompt por vez. Aguarde uma resposta antes de enviar outro prompt.
+
+      Um painel é aberto na lateral, com a definição de público-alvo na guia [!UICONTROL Step 1: Audience Definition]. A definição inclui todos os filtros de público-alvo definidos, critérios de otimização e qualquer um dos segmentos primários a serem excluídos.
+
+      Quando aplicável, o Assistente de IA sugere filtros de público-alvo adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
+
+   1. (Opcional) Para excluir qualquer um dos segmentos primários, solicite ao Assistente de IA que faça isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar") na seção **[!UICONTROL First-party segments to exclude]**, selecione os segmentos que deseja excluir para o público-alvo e clique em **[!UICONTROL Apply]**.
+
+   1. (Opcional) Envie prompts adicionais, conforme necessário, para descrever as características de público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
+
+1. Quando a definição de público-alvo atender aos seus critérios, especifique os segmentos a serem incluídos:
+
+   1. Solicite ao Assistente de IA que procure por segmentos correspondentes. Você pode dizer &quot;ok&quot;, &quot;ir&quot;, &quot;continuar&quot;, &quot;pesquisar&quot; ou qualquer termo ou frase relevante.
+
+      A guia [!UICONTROL Step 2: Audience Segments] mostra o nome do público-alvo proposto, o tamanho e a distribuição do público-alvo, a expressão de público booleana e uma lista dos segmentos de público-alvo incluídos agrupados por característica.
+
+   1. (Opcional) Na seção [!UICONTROL Audience segments] na parte inferior, siga um destes procedimentos:
+
+      * Para expandir cada grupo de segmentos de público, clique em **[!UICONTROL >]** ao lado da contagem.
+
+      * Para copiar as IDs de segmentos de público-alvo incluídos para a área de transferência, clique em **[!UICONTROL Copy rule]**.
+
+      * Para remover segmentos do público-alvo, peça ao Assistente de IA para fazer isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar"), desmarque os segmentos que deseja remover do público-alvo e clique em **[!UICONTROL Apply]**.
+
+1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Save Audience]** para criar o público-alvo especificado.
+
+   >[!NOTE]
+   >
+   >Para editar o público mais tarde, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Criar um público-alvo reutilizável usando IA gerativa da exibição [!UICONTROL Audiences] > [!UICONTROL All audiences]
+
+*recurso do Beta*
+
+*Suporte somente para inglês*
+
+>[!NOTE]
+>
+>Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de salvar o público-alvo e usá-lo para suas inserções.
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
+
+1. Nas configurações de [!UICONTROL New Audience]:
+
+   1. Digite um **[!UICONTROL Audience Name]** exclusivo.
+
+   1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
+
+      Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para a mesma conta [!DNL Analytics], o segmento não será visualizado nesse público para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
+
+   1. Clique em **[!UICONTROL Save]**.
+
+1. Crie o público-alvo:
+
+   1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
+
+      Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
+
+      Quando aplicável, o agente sugere filtros de segmento adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
+
+      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo booleana com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo. Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
+
+   1. Quando o agente de público-alvo apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
+
+      Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Para ver detalhes sobre os segmentos individuais sugeridos para uma característica, expanda a característica.
+
+   1. (Se necessário) Especifique critérios adicionais. Quando o agente de público-alvo apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
+
+      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Para ver detalhes sobre os segmentos individuais sugeridos para uma característica, expanda qualquer característica.
+
+1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
+
+   >[!NOTE]
+   >
+   >Para editar o público mais tarde, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Criar manualmente um público-alvo reutilizável
+
+1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+
+1. Acima da tabela de dados, clique em **[!UICONTROL Create]>[!UICONTROL Create manually]**.
 
 1. Nas configurações de [!UICONTROL New Audience]:
 
@@ -59,7 +179,7 @@ ht-degree: 0%
    >
    >À medida que você cria o público-alvo, os [dados detalhados sobre o tamanho do público-alvo](audience-about.md) são atualizados no painel direito
 
-   * Para criar manualmente a lógica do segmento, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
+   * Para criar a lógica de segmento manualmente, usando segmentos disponíveis nas guias [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), faça o seguinte.
 
      * (Opcional) Procure um nome, uma descrição ou um caminho de segmento.
 
@@ -107,71 +227,21 @@ ht-degree: 0%
 
 1. Clique em **[!UICONTROL Create]**.
 
-## Criar um público-alvo reutilizável usando IA gerativa
-
-*recurso do Beta*
-
-*Suporte somente para inglês*
-
->[!NOTE]
->
->Esse recurso está no modo beta e está sujeito a alterações. Verifique se a expressão de público-alvo gerada representa o público-alvo que você deseja antes de criar o público-alvo e usá-lo para suas inserções.
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. No menu principal, clique em **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
-
-1. Acima da tabela de dados, clique em **[!UICONTROL Create]**.
-
-1. Nas configurações de [!UICONTROL New Audience]:
-
-   1. Digite um **[!UICONTROL Audience Name]** exclusivo.
-
-   1. (Opcional) Desmarque a opção para **[!UICONTROL Share with all advertisers in my account]**.
-
-      Quando você compartilha um público-alvo, o público-alvo se torna disponível como um alvo ou exclusão para todos os anunciantes na conta. No entanto, os segmentos individuais no público-alvo estão disponíveis somente para usuários aos quais os segmentos são compartilhados. Por exemplo, se você compartilhar um público contendo segmentos do Adobe Analytics com um anunciante que não está mapeado para a mesma conta [!DNL Analytics], o segmento não será visualizado nesse público para esse anunciante. Somente os segmentos disponíveis para esse anunciante são visualizados no público-alvo.
-
-   1. Clique em **[!UICONTROL Save]**.
-
-1. Crie o público-alvo:
-
-   1. Insira um ou mais prompts para descrever as características do público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
-
-      Para obter mais informações, consulte &quot;[Escrevendo prompts](#writing-prompts)&quot; e &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices).&quot;
-
-      Quando aplicável, o agente sugere filtros de segmento adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
-
-      À medida que o agente de público-alvo encontra segmentos relevantes, ele cria uma expressão de público-alvo booleana com base em seus critérios. Ela também solicita sua aprovação antes de procurar segmentos correspondentes para montar o público-alvo. Como opção, você pode ignorar a solicitação e continuar especificando critérios de público adicionais.
-
-   1. Quando o agente de público-alvo apresentar uma expressão de público-alvo que descreva adequadamente seu público-alvo, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
-
-      Você pode digitar &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Expanda qualquer característica para ver detalhes sobre os segmentos individuais sugeridos para aquela característica.
-
-   1. (Se necessário) Especifique critérios adicionais. Quando o agente de público-alvo apresentar uma expressão de público-alvo que atenda a todos os seus critérios, peça ao agente de público-alvo para continuar com a montagem do público-alvo.
-
-      Para reunir o público, digite &quot;continuar&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sim&quot; ou outra palavra semelhante. O agente lista todos os segmentos sugeridos para cada característica (como &quot;Pais&quot;). Expanda qualquer característica para ver detalhes sobre os segmentos individuais sugeridos para aquela característica.
-
-1. Quando estiver satisfeito com o público-alvo montado, clique em **[!UICONTROL Create]** para criar o público-alvo especificado.
-
-   >[!NOTE]
-   >
-   >Não é possível editar o público-alvo posteriormente usando o agente de público-alvo. Em vez disso, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
-
 ### Noções básicas para escrever prompts {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### O que um prompt deve incluir?
+#### Diretrizes para escrever prompts de público-alvo
 
 * Use uma linguagem clara e descritiva para descrever o público-alvo.
 
-  * Você pode inserir frases completas ou apenas uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+  * Você pode inserir frases completas ou uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
 
   * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
 
   * O agente de público-alvo reconhece os sinônimos mais comuns.
 
-* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Quanto mais detalhes você fornecer, maior a chance de obter os resultados que atendam às suas necessidades.
+* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Fornecer mais detalhes aumenta a probabilidade de obter resultados que atendam às suas necessidades.
 
 * Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
 
@@ -179,7 +249,7 @@ ht-degree: 0%
 
 * Saiba mais sobre o prompt por meio da experimentação.
 
-  Se o prompt não estiver claro, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
+  Se o prompt não estiver limpo, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
 
   O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
 
@@ -208,7 +278,7 @@ Quando o agente de público-alvo precisar de uma resposta sua, você poderá res
 
 `If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra semelhante
+Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra similar
 
 Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
@@ -243,7 +313,7 @@ Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a s
 
 * **Demografia**
 
-  Inclui atributos como faixa etária, gênero, estado civil, composição da família (tamanho da família, presença de filhos, famílias de várias gerações).
+  Inclui atributos como faixa etária, identidade de gênero, estado civil, composição do agregado familiar (dimensão da família, presença de filhos, agregados familiares de várias gerações).
 
 * **Indicadores Socioeconômicos**
 

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # Criar um público-alvo reutilizável
@@ -42,6 +42,8 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 *recurso do Beta*
 
 *Suporte somente para inglês*
+
+Forneça ao Assistente de IA um resumo do público-alvo ou descreva as características do público-alvo que você deseja incluir ou excluir em prompts em linguagem natural. Na definição do público-alvo, você pode refinar os critérios de otimização, os tipos de ID a serem incluídos e os segmentos primários a serem excluídos. Depois que o Assistente de IA monta uma lista dos segmentos de público-alvo correspondentes, você pode refinar a lista de segmentos antes de salvar o público-alvo.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 
       Você pode fazer várias perguntas em um prompt, mas somente um prompt por vez. Aguarde uma resposta antes de enviar outro prompt.
 
-      Um painel é aberto na lateral, com a definição de público-alvo na guia [!UICONTROL Step 1: Audience Definition]. A definição inclui todos os filtros de público-alvo definidos, critérios de otimização e qualquer um dos segmentos primários a serem excluídos.
+      Um painel é aberto na lateral, com a definição de público-alvo na guia [!UICONTROL Step 1: Audience Definition]. A definição inclui todos os filtros de público-alvo definidos, critérios de otimização (incluindo tipos de ID de dispositivo e tipos de ID universal a serem incluídos) e qualquer um dos segmentos primários a serem excluídos. Se você não especificou limitações, os segmentos são baseados na otimização para o maior volume, incluindo todos os tipos de ID de dispositivo e IDs universais e incluindo todos os públicos-alvo primários.
 
       Quando aplicável, o Assistente de IA sugere filtros de público-alvo adicionais para ajudar você a criar um resumo de público-alvo mais eficiente. Você pode aceitar ou rejeitar as sugestões.
 
-   1. (Opcional) Para excluir qualquer um dos segmentos primários, solicite ao Assistente de IA que faça isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar") na seção **[!UICONTROL First-party segments to exclude]**, selecione os segmentos que deseja excluir para o público-alvo e clique em **[!UICONTROL Apply]**.
+   1. (Opcional) Refine a definição de público-alvo:
 
-   1. (Opcional) Envie prompts adicionais, conforme necessário, para descrever as características de público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
+      * Para alterar os critérios de otimização entre *[!UICONTROL Highest volume]* e *[!UICONTROL Lowest cost]*, peça ao Assistente de IA para fazer isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar") ao lado de **[!UICONTROL Criteria]**, selecione o critério e clique em **[!UICONTROL Apply]**.
+
+      * Para alterar a inclusão de todos os tipos de ID (incluindo todos os tipos de ID de tipo de dispositivo e IDs universais) e apenas tipos de ID específicos, solicite que o Assistente de IA faça isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar") ao lado de **[!UICONTROL ID type]**, selecione os tipos de ID a serem incluídos e clique em **[!UICONTROL Apply]**.
+
+      * Para excluir qualquer um dos segmentos primários, peça ao Assistente de IA para fazer isso ou clique em ![Editar](/help/dsp/assets/edit-ai.png "Editar") na seção **[!UICONTROL First-party segments to exclude]**, selecione os segmentos que deseja excluir para o público e clique em **[!UICONTROL Apply]**.
+
+      * Envie prompts adicionais, conforme necessário, para descrever as características de público-alvo que você deseja incluir e excluir. Para enviar cada prompt, clique em ![Enviar prompt](/help/dsp/assets/submit-prompt.png "Enviar prompt").
 
 1. Quando a definição de público-alvo atender aos seus critérios, especifique os segmentos a serem incluídos:
 
@@ -110,6 +118,8 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
 *recurso do Beta*
 
 *Suporte somente para inglês*
+
+Forneça ao agente de público-alvo um resumo do público-alvo ou prompts em linguagem natural descrevendo as características do público-alvo que você deseja incluir e excluir.
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ Crie públicos usando o agente de público-alvo assistido por IA no [Assistente 
    >[!NOTE]
    >
    >Para editar o público mais tarde, [edite a expressão de público-alvo manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Escrever prompts e responder ao agente de público-alvo {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Diretrizes para escrever prompts de público-alvo
+
+* Use uma linguagem clara e descritiva para descrever o público-alvo.
+
+  * Você pode inserir frases completas ou uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
+
+  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
+
+  * O agente de público-alvo reconhece os sinônimos mais comuns.
+
+* Ser específico:
+
+  * Forneça detalhes sobre todas as características de público-alvo que deseja incluir e qualquer característica que deseje excluir especificamente. Fornecer mais detalhes aumenta a probabilidade de obter resultados que atendam às suas necessidades.
+
+  * Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
+
+  Você sempre tem a chance de editar os filtros de público-alvo, os critérios de otimização, os segmentos primários a serem excluídos e a lista final de segmentos antes de salvar o público-alvo. Provar todos os detalhes para começar reduz o processo.
+
+* Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
+
+* O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público clicando no botão [!UICONTROL Save Audience] ou [!UICONTROL Create], que estão fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
+
+Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limitações do prompt
+
+* Referências a públicos existentes.
+
+* Texto em idiomas além do inglês.
+
+#### Como responder ao agente de público-alvo
+
+Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
+
+##### Confirmar se deseja continuar
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra similar
+
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
+
+##### Escolha entre as opções sugeridas
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
+
+Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
 ### Práticas recomendadas para criar um resumo de público-alvo {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ Inclua quantos tipos de atributos de público-alvo forem possíveis da lista a s
 Este é um exemplo de um forte resumo de público-alvo de uma campanha para impulsionar a conscientização e a avaliação de um serviço de assinatura premium do kit de refeição:
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### Escrever prompts e responder ao agente de público-alvo {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Diretrizes para escrever prompts de público-alvo
-
-* Use uma linguagem clara e descritiva para descrever o público-alvo.
-
-  * Você pode inserir frases completas ou uma sequência de características. A pontuação não é necessária, exceto quando necessária para maior clareza.
-
-  * Em geral, os prompts não diferenciam maiúsculas de minúsculas.
-
-  * O agente de público-alvo reconhece os sinônimos mais comuns.
-
-* Seja específico e forneça detalhes sobre todas as características de público-alvo que deseja incluir e sobre quaisquer características que deseje excluir especificamente. Fornecer mais detalhes aumenta a probabilidade de obter resultados que atendam às suas necessidades.
-
-* Identifique locais, tipos de dispositivos e provedores de dados que serão incluídos ou excluídos.
-
-* Forneça iterativamente detalhes para refinar seus critérios e a expressão de público gerada antes de salvar o público.
-
-* Saiba mais sobre o prompt por meio da experimentação.
-
-  Se o prompt não estiver limpo, o agente de público-alvo solicitará outro prompt para que você possa tentar novamente.
-
-  O agente de público-alvo não salvará automaticamente uma expressão de público-alvo gerada como um público-alvo. Você só pode salvar um público-alvo clicando no botão [!UICONTROL Create], que está fora da área de prompt, para que você possa desfazer as alterações que não deseja manter.
-
-Consulte &quot;[Práticas recomendadas para criar um resumo de público-alvo](#audience-brief-best-practices)&quot; para saber mais sobre como otimizar os prompts para públicos-alvo.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### Limitações do prompt
-
-* Referências a públicos existentes.
-
-* Texto em idiomas além do inglês.
-
-#### Como responder ao agente de público-alvo
-
-Quando o agente de público-alvo precisar de uma resposta sua, você poderá responder usando palavras-chave na solicitação ou usando sinônimos comuns.
-
-##### Confirmar se deseja continuar
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Suas respostas afirmativas: &quot;prosseguir&quot;, &quot;ok&quot;, &quot;sim&quot;, ou outra palavra similar
-
-Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
-
-##### Escolha entre as opções sugeridas
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Sua resposta: `1`, `proceed`, `2`, `maximum reach` e assim por diante.
-
-Você também pode ignorar a solicitação e continuar a especificar critérios adicionais de público-alvo.
 
 ## Criar manualmente um público-alvo reutilizável
 

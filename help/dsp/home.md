@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 4b3b47621930d9f560e9967285d7400ef305e017
 workflow-type: tm+mt
-source-wordcount: '7979'
+source-wordcount: '8099'
 ht-degree: 0%
 ---
 # Novidades do DSP
@@ -50,6 +50,7 @@ Os seguintes recursos são novos ou foram alterados recentemente.
 
 | Data | Recurso | Descrição | Para obter mais informações |
 | ---- | ------- | ----------- | -------------------- |
+| 29 de outubro de 2026 | [!DNL ChatGPT Ads] | Por meio da integração do Adobe DSP com o [!DNL OpenAI Ads], agora você pode executar [!DNL ChatGPT Ads] anúncios de cartões de chat, que aparecem dentro de [!DNL ChatGPT] conversas. Para esse recurso, a DSP cria uma conta de anúncio e compra mídia em nome de sua organização. Use este recurso para testar a mídia de IA sem estabelecer uma relação direta com [!DNL ChatGPT Ads], o que pode exigir compromissos de gastos mínimos. <br><br> Como as campanhas [!DNL ChatGPT Ads] são estruturadas de forma diferente das campanhas do DSP, você as gerenciará e exibirá os dados de desempenho a partir de uma opção separada no menu principal: [!DNL Conversational Ads]. Os dados de desempenho nos níveis de campanha, grupo de anúncios e anúncio incluem [!UICONTROL Impressions], [!UICONTROL Clicks], [!UICONTROL Spend], [!UICONTROL CTR], [!UICONTROL Avg CPC] e [!UICONTROL Avg CPM].<br><br> Para usar o recurso, entre em contato com a equipe de conta da Adobe para iniciar o processo de integração. | Para obter mais informações, incluindo qualificação, consulte a documentação para gerenciar [[!DNL ChatGPT Ads] contas](/help/dsp/campaign-management/conversational-ads/account-manage.md) e [campanhas, grupos de anúncios e anúncios](/help/dsp/campaign-management/conversational-ads/campaign-manage.md) correspondentes. |
 | 28 de outubro de 2026 | [!DNL AI Assistant] no DSP, Reutilizável [!UICONTROL Audiences] | Agora você pode usar o [!DNL AI Assistant] para gerar públicos-alvo reutilizáveis de todos os segmentos primários e de terceiros que estão disponíveis para você. O agente de público-alvo também ainda está disponível em [!UICONTROL Audiences] > [!UICONTROL All Audiences], e você também pode criar públicos-alvo manualmente. | Consulte &quot;[Sobre o Assistente de IA no Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md),&quot; &quot;[Gerar públicos-alvo reutilizáveis usando o Assistente de IA](/help/dsp/ai-assistant/audience-builder-agent.md),&quot; e &quot;[Criar um público-alvo reutilizável](/help/dsp/audiences/reusable-audience-create.md).&quot; |
 | 26 de outubro de 2026 | [!DNL AI Assistant] no DSP | Use o Assistente de IA no DSP para executar um dos seguintes procedimentos:<ul><li>(Recurso do Beta) Obtenha métricas de campanha e relatórios completos sem criar um relatório manualmente</li>(Recurso do Beta) Diagnosticar problemas de desempenho e entrega de pacotes e posicionamentos ativos<li><li>Pesquise na documentação do produto instruções sobre como usar o DSP e o [!UICONTROL Creative]. Isso já estava disponível.</li></ul> | Consulte &quot;[Sobre o Assistente de IA no Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)&quot; e instruções para [criar relatórios](/help/dsp/ai-assistant/insights-agent.md) e [solucionar problemas de desempenho e entrega](/help/dsp/ai-assistant/troubleshooting-agent.md) usando o Assistente de IA. |
 | 15 de outubro de 2026 | [!DNL Creative] | (Recurso do Beta) Agora você pode gerar o uso da IA no [!UICONTROL Creative Studio] para converter uma imagem de anúncio de exibição estática existente em um modelo de anúncio de exibição editável. | Consulte &quot;[Gerenciar modelos de anúncios em [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}.&quot; |

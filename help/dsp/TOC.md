@@ -4,9 +4,9 @@ user-guide-title: Manual da Advertising DSP
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para gerenciar, otimizar e relatar suas estratégias de anúncio de exibição usando a Advertising DSP.
 breadcrumb-title: Manual de DSP
 index: true
-source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -109,6 +109,9 @@ ht-degree: 3%
   + [Atalhos de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
   + [Perguntas frequentes sobre o gerenciamento de campanhas](/help/dsp/campaign-management/faq-campaign-management.md)
   + [Perguntas frequentes sobre vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
++ Anúncios de conversa (Beta) {#conversational-ads}
+  + [Gerenciar  [!DNL ChatGPT] contas de anúncios conversacionais](/help/dsp/campaign-management/conversational-ads/account-manage.md)
+  + [Gerenciar [!DNL ChatGPT] campanhas de anúncios conversacionais, grupos de anúncios e anúncios](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + Otimização {#optimization}
   + [Como o Advertising DSP otimiza suas campanhas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [Metas de otimização e como usá-las](/help/dsp/optimization/optimization-goals.md)

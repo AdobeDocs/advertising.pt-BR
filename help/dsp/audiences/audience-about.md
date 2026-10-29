@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # Sobre o gerenciamento de público-alvo no Advertising DSP
@@ -58,7 +58,7 @@ No DSP, você pode criar e gerenciar segmentos de público-alvo e conjuntos de p
 
   * Inclua segmentos de terceiros que contenham IDs universais em seus destinos de posicionamento sem etapas extras.
 
-* Crie uma biblioteca de público-alvo de [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md). Os públicos-alvo salvos são compostos por qualquer segmento de público-alvo disponível e qualquer outro público-alvo salvo. Todas as alterações feitas em um público-alvo salvo são automaticamente aplicadas a todos os posicionamentos que direcionam ou excluem o público-alvo e a todos os outros públicos que incluem o público-alvo salvo.
+* Crie uma biblioteca de público-alvo de [públicos-alvo reutilizáveis](/help/dsp/audiences/reusable-audience-create.md), usando um fluxo de trabalho assistido por IA ou manualmente. Os públicos-alvo salvos são compostos por qualquer segmento de público-alvo disponível e qualquer outro público-alvo salvo. Todas as alterações feitas em um público-alvo salvo são automaticamente aplicadas a todos os posicionamentos que direcionam ou excluem o público-alvo e a todos os outros públicos que incluem o público-alvo salvo.
 
   Públicos-alvo salvos permitem que os planejadores de mídia agrupem públicos-alvo conforme necessário, incluindo e excluindo vários segmentos que utilizam lógica booleana complexa. O tamanho (direcionável) de cada segmento individual e o tamanho geral do público-alvo ativo são indicados à medida que você cria um público-alvo. Os executores de campanha podem simplesmente selecionar um ou mais públicos-alvo salvos como alvos de posicionamento, em vez de configurar manualmente os alvos de público-alvo para cada posicionamento.
 

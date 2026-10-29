@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Solucionar problemas de desempenho e delivery usando o Assistente de IA
 
-
 *recurso do Beta*
+
+*Suporte somente para inglês*
 
 O agente de solução de problemas do Assistente de IA identifica fatores que limitam o desempenho de pacotes e posicionamentos ativos e fornece instruções passo a passo e recomendações com base em dados históricos para resolver problemas. O agente de solução de problemas pode ajudar a diagnosticar os seguintes tipos de problemas de desempenho e de delivery:
 

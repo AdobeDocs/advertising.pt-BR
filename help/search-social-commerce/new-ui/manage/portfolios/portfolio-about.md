@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # (Nova interface) Sobre portfólios
@@ -75,12 +75,7 @@ Um portfólio pode ter os seguintes status:
 
 A exibição [!UICONTROL Portfolios] lista todos os portfólios existentes na exibição filtrada, com dados de desempenho personalizáveis. Você pode [personalizar as colunas na exibição](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrar dados para incluir portfólios específicos [da barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) ou do [cabeçalho da coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Acima da tabela de dados, é possível abrir um gráfico de desempenho com até três métricas totalizadas em todos os portfólios na exibição para o intervalo de datas especificado. Você também pode abrir detalhes do portfólio, incluindo desempenho e precisão do portfólio, bem como dados de desempenho para cada campanha, grupo de publicidade e palavra-chave no portfólio.
-
-Você pode editar algumas configurações, incluindo o status do portfólio, diretamente na linha do portfólio. Quando um portfólio ou suas campanhas associadas e entidades de campanha filho forem configuradas com qualquer restrição que afete os gastos (incluindo rede, orçamento da campanha, destino, limites CPC ou restrições de unidade de oferta), clique em [!UICONTROL Yes] na coluna [!UICONTROL Constraints] para ver uma lista de todas as restrições, incluindo o nível e o tipo da restrição.
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### Ações disponíveis
+### Ações disponíveis {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ Você pode editar algumas configurações, incluindo o status do portfólio, dir
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [Criar um portfólio](portfolio-create.md)
 
 * [Duplicação de um portfólio](portfolio-duplicate.md)
 
-* [Editar configurações do portfólio](portfolio-edit.md)
+* Editar configurações:
 
-* [Editar configurações de portfólio em massa usando arquivos de bulksheet](portfolio-bulksheets.md)
+  * [Renomear um portfólio](portfolio-rename.md)
+
+  * [Editar as configurações completas do portfólio](portfolio-edit.md)
+
+  * Edite algumas configurações, incluindo o status do portfólio, diretamente na linha do portfólio.
+
+  * [Editar configurações de portfólio em massa usando arquivos de bulksheet](portfolio-bulksheets.md)
+
+* Faça drill-down nas redes de anúncios, contas, campanhas, grupos de anúncios e anúncios incluídos no portfólio e, opcionalmente, faça drill-down nas palavras-chave de uma campanha incluída. Para começar, clique no nome do portfólio. As informações são listadas pela primeira vez pela rede de anúncios na exibição [!UICONTROL Networks] filtrada. Clique em uma rede de publicidade para ver as contas incluídas na exibição [!UICONTROL Accounts] filtrada, clique em uma conta para ver as campanhas na exibição [!UICONTROL Campaigns] filtrada e assim por diante.
+
+  Para abrir uma lista de palavras-chave na exibição [!UICONTROL Keywords] da exibição [!UICONTROL Campaigns] filtrada, clique no valor na coluna [!UICONTROL Keywords].
+
+* Abra uma lista de todas as restrições do portfólio, incluindo o nível e o tipo de restrição. Para exibir a lista de restrições, clique em [!UICONTROL Yes] na coluna [!UICONTROL Constraints]. Essa opção está disponível quando um portfólio ou suas campanhas associadas e entidades de campanha secundárias são configuradas com qualquer restrição que afete os gastos (incluindo rede, orçamento da campanha, target, limites de CPC ou restrições de unidade de oferta).
 
 * [Exibir um gráfico de desempenho em todos os portfólios na exibição](portfolio-view-performance-graph.md)
 
 * [Exibir detalhes de desempenho do portfólio](portfolio-details.md)
 
-* [Baixar dados no modo de exibição [!UICONTROL Portfolios]](portfolio-view-report.md)
+* [Exibir o histórico de alterações de um portfólio](portfolio-view-change-history.md)
+
+* [Baixar dados na exibição [!UICONTROL Portfolios]](portfolio-view-report.md)
+
+* [Adicionar um portfólio a um grupo de portfólio e gerenciar grupos de portfólio](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >

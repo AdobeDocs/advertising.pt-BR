@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # Gerenciar palavras-chave
@@ -81,7 +81,7 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Keywords] inclui duas guias para 
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere as configurações de entidade e/ou palavra-chave.
+1. Revise as configurações. Para alterar qualquer configuração, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** na seção aplicável e altere as configurações.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -105,7 +105,7 @@ Alterar o texto da palavra-chave ou o tipo de correspondência pode excluir a pa
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere as configurações de palavra-chave.
+1. Revise as configurações. Para alterar qualquer configuração, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** na seção aplicável e altere as configurações.
 
 1. Clique em **[!UICONTROL Update]**.
 
@@ -147,7 +147,7 @@ Você pode criar palavras-chave negativas para um grupo de anúncios de pesquisa
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere a entidade e/ou as palavras-chave negativas.
+1. Revise as configurações. Para alterar qualquer configuração, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** na seção aplicável e altere as configurações.
 
 1. Clique em **[!UICONTROL Create]**.
 

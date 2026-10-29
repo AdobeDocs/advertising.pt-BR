@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # Gerenciar disposições
@@ -86,7 +86,7 @@ A exibição da página requer a permissão [!UICONTROL View Placements]. Criar 
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere a entidade e/ou as configurações de posicionamento.
+1. Revise as configurações. Para alterar qualquer configuração, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** na seção aplicável e altere as configurações.
 
 1. Clique em **[!UICONTROL Create]**.
 
@@ -114,7 +114,7 @@ Você pode criar posicionamentos negativos para uma campanha ou grupo de anúnci
 
 1. Clique em **[!UICONTROL Review and Save]**.
 
-1. Se necessário, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** e altere a entidade e/ou as URLs negativas do site.
+1. Revise as configurações. Para alterar qualquer configuração, clique em ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** na seção aplicável e altere as configurações.
 
 1. Clique em **[!UICONTROL Create]**.
 

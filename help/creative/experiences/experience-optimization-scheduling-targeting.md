@@ -44,7 +44,7 @@ Você pode definir essas configurações diretamente na tela do editor orientado
 
 * **[!UICONTROL Algorithmic]:** mostra as variantes de anúncios mais eficazes com mais frequência, com base em uma meta de otimização especificada, como a taxa de cliques ou uma meta personalizada de Advertising DSP.
 
-* **[!UICONTROL Sequence](editor orientado por IA) ou [!UICONTROL Sequencing] (editor manual):** Mostra os pacotes criativos associados em uma ordem especificada, com um número especificado de impressões para cada pacote na sequência. Por padrão, os pacotes são sequenciados na ordem em que foram adicionados à experiência. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. O pacote final pode servir indefinidamente (o padrão) ou a sequência pode retornar ao primeiro pacote.
+* **[!UICONTROL Sequence] (editor orientado por IA) ou [!UICONTROL Sequencing] (editor manual):** Mostra os pacotes criativos associados em uma ordem especificada, com um número especificado de impressões para cada pacote na sequência. Por padrão, os pacotes são sequenciados na ordem em que foram adicionados à experiência. Os tamanhos dos anúncios exibidos são determinados pelo inventário disponível. O pacote final pode servir indefinidamente (o padrão) ou a sequência pode retornar ao primeiro pacote.
 
   Por exemplo, uma sequência pode servir variantes de anúncio do Pacote 1 para três impressões, Pacote 2 para uma impressão e Pacote 3 para duas impressões e, em seguida, repetir. Sem looping, o Pacote 3 continua a servir indefinidamente.
 

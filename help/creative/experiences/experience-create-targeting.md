@@ -1,6 +1,6 @@
 ---
 title: Criar uma experiência com direcionamento de árvore de decisão
-description: Saiba como criar uma experiência de anúncio direcionada usando uma árvore de decisão.
+description: Saiba como criar uma experiência de anúncio direcionada usando o editor de árvore decisória manual ou orientado por IA.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
 TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
@@ -21,79 +21,97 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '715'
 ht-degree: 0%
 ---
 # Criar uma experiência com direcionamento de árvore de decisão
 
 Crie uma experiência de anúncio direcionada usando uma árvore de decisão. Cada experiência usa anúncios de uma única biblioteca criativa.
 
+O editor orientado por IA (Beta) é aberto por padrão. Você pode configurar a árvore por meio do agente de IA ou editar a tela diretamente. Você também pode alternar para o editor manual existente.
+
 >[!NOTE]
 >
 >* Depois de criar uma experiência direcionada, você não pode alterá-la para uma experiência não direcionada, que usa um fluxo de trabalho diferente.
 >* Certifique-se de que suas experiências de anúncio incluam direcionamento compatível com as campanhas em que você o implementará. O comportamento hierárquico do direcionamento pode variar de acordo com a DSP. Ao fazer upload de uma tag de experiência de anúncio para o Advertising DSP e anexá-la a uma disposição, o direcionamento no nível do anúncio é aplicado sobre o direcionamento no nível do posicionamento (e não em vez dele). Por exemplo, se uma disposição for direcionada a usuários na Austrália e um anúncio for direcionado a usuários no Japão, o anúncio será direcionado à ramificação &quot;Todos os outros&quot;.
 
+## Criar a experiência
+
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
 1. Clique em **[!UICONTROL Create New Experience]**.
 
-1. Insira as [configurações gerais de experiência](experience-settings-targeting.md).
+1. Insira as [configurações gerais de experiência](experience-settings-targeting.md), com **[!UICONTROL Targeting]** habilitado.
 
 1. Clique em **[!UICONTROL Create]**.
 
-1. Na árvore decisória, faça o seguinte:
+   O editor de árvore decisória orientado por IA é aberto para a nova experiência.
 
-   1. (Opcional) Altere as configurações de exibição da árvore de decisão.
+1. Configure a árvore usando um dos procedimentos a seguir.
 
-      Suas configurações são salvas até que você faça logoff.
+## Configure a árvore usando o editor orientado por IA (Beta) {#ai-editor}
 
-      * Aumente ou diminua o zoom movendo o controle deslizante.
+1. Na conversa, descreva a estrutura de direcionamento desejada, incluindo os critérios para cada ramificação e como lidar com visualizadores que não correspondem a um destino especificado.
 
-      * Alternar entre a exibição de uma lista vertical e uma lista horizontal clicando em ![Exibir como Árvore Vertical](/help/creative/assets/tree-vertical.png "Exibir como Árvore Vertical") ou ![Exibir como árvore horizontal](/help/creative/assets/tree-horizontal.png "Exibir como árvore horizontal"), respectivamente.
+1. Revise a árvore na tela. Para solicitar alterações, descreva-as na conversa. Aguarde o assistente concluir o processamento antes de interagir com a tela.
 
-   1. (Opcional) Defina as metas de publicidade e os elementos de criação correspondentes de qualquer uma das seguintes maneiras:
+1. (Opcional) Refine a árvore diretamente na tela de desenho:
 
-      * Metas:
+   * [Adicionar um destino de nível final](experience-target-node-add-final.md#ai-editor), [inserir um nível de destino](experience-target-node-add-inner.md#ai-editor) ou [adicionar um destino irmão](experience-target-node-add-sibling.md#ai-editor).
 
-        * [Adicione um nó de destino ao nível final](experience-target-node-add-final.md).
+   * [Copiar nós e criações filho](experience-target-node-copy.md#ai-editor) ou [excluir um nó](experience-target-node-delete.md#ai-editor).
 
-        * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
+1. [Atribua pacotes criativos aos nós finais](experience-assign-creative-bundles.md#ai-editor) e, opcionalmente, [personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) e as [URLs de rastreamento](experience-tracking-urls-targeting.md#ai-editor).
 
-        * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
+   Para publicar a experiência, você deve atribuir pacotes a cada nó final ou usar as criações padrão da experiência. Você pode atribuir padrões a nós não atribuídos ao salvar.
 
-        * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
+1. (Opcional) Edite as configurações gerais de experiência:
 
-      * Pacotes do Creative:
+   1. Para salvar as alterações na árvore que deseja manter, clique em **[!UICONTROL Save]**.
 
-        * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
+   1. Clique em **[!UICONTROL Experience Form]** e em **[!UICONTROL Yes]** para descartar as alterações de árvore não salvas e abrir o formulário.
 
-          Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
+   1. Edite as [configurações gerais de experiência](experience-settings-targeting.md) e clique em **[!UICONTROL Save]**.
 
-        * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+      O editor orientado por IA é aberto.
 
-        * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
+1. [Salve a experiência](#save).
 
-1. (Opcional) Alterne entre a árvore de decisão e as configurações gerais:
+## Configurar a árvore usando o editor manual {#manual-editor}
 
-   * Para abrir as configurações gerais na árvore decisória, clique em **[!UICONTROL Experience Form]** no canto superior direito.
+1. No editor orientado por IA, clique em **[!UICONTROL Manual Decision Tree]** e em **[!UICONTROL Yes]** para sair do editor orientado por IA.
 
-   * Para abrir a árvore decisória nas configurações gerais, clique em **[!UICONTROL Decision Tree]** no canto superior direito.
+   Salve todas as alterações do editor de IA que você deseja manter antes de alternar. A confirmação do switch descarta as alterações de árvore não salvas.
 
-1. Clique em **[!UICONTROL Save]** e faça o seguinte.
+1. (Opcional) Altere as configurações de exibição:
 
-   * (Se cada nó no nível mais inferior incluir pelo menos um pacote criativo) Clique em **[!UICONTROL OK]**.
+   * Aumente ou diminua o zoom movendo o controle deslizante.
 
-   * (Se cada nó no nível mais inferior não incluir pelo menos um pacote criativo), siga um destes procedimentos:
+   * Alternar entre as exibições vertical e horizontal clicando em ![Exibir como Árvore Vertical](/help/creative/assets/tree-vertical.png "Exibir como Árvore Vertical") ou ![Exibir como árvore horizontal](/help/creative/assets/tree-horizontal.png "Exibir como árvore horizontal").
 
-     * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
+   Suas configurações de exibição são salvas até que você faça logoff.
 
-       Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
+1. Configure os públicos-alvo de anúncios e as criações correspondentes:
 
-     * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+   * [Adicionar um destino de nível final](experience-target-node-add-final.md#manual-editor), [inserir um destino entre nós](experience-target-node-add-inner.md#manual-editor) ou [adicionar um destino irmão](experience-target-node-add-sibling.md#manual-editor).
 
-     * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+   * [Copiar nós e criações filho](experience-target-node-copy.md#manual-editor) ou [excluir um nó](experience-target-node-delete.md#manual-editor).
+
+   * [Atribuir pacotes criativos](experience-assign-creative-bundles.md#manual-editor) e, opcionalmente, [personalizar a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) e [rastrear URLs](experience-tracking-urls-targeting.md#manual-editor).
+
+1. (Opcional) Para editar as configurações gerais de experiência, clique em **[!UICONTROL Experience Form]** e edite as [configurações gerais de experiência](experience-settings-targeting.md).
+
+1. [Salve a experiência](#save).
+
+## Salve a experiência {#save}
+
+As etapas a seguir se aplicam a ambos os editores.
+
+{{$include /help/_includes/experience-save.md}}
+
+## Tags de anúncio e transcodificação de vídeo para experiências salvas
 
 Quando a experiência é em tempo real, o [!DNL Creative] cria automaticamente uma tag de anúncio para cada tamanho de criação ou duração de vídeo aplicável. Em seguida, você pode [exportar uma marca de anúncio e implementá-la em uma DSP](/help/creative/experiences/experience-tag-export.md).
 

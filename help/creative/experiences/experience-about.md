@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # Sobre as experiências no Advertising Creative 2.0
@@ -51,6 +51,8 @@ Cada experiência de anúncio pode incluir um tipo de anúncio (exibição padr�
   * Tipos de dispositivos, sistemas operacionais e navegadores específicos
 
   Depois de criar uma ramificação de público-alvo na árvore decisória, é possível emparelhar o público-alvo com possíveis criativos atribuindo pacotes criativos à ramificação. Para cada experiência, você pode personalizar a otimização e o agendamento para os pacotes criativos e alterar as páginas de aterrissagem padrão e as URLs de rastreamento <!-- later: and any flexible attributes --> para criações individuais em cada pacote.
+
+  O editor padrão de árvore decisória orientada por IA (Beta) permite descrever a árvore ou as alterações desejadas para o agente de IA, revisar o resultado e editar a tela interativa diretamente. Você também pode usar o editor manual existente. Ambos os editores configuram o mesmo tipo de experiência direcionada. Consulte [O layout da árvore de decisão](experience-decision-tree.md) e [Editar uma experiência com o direcionamento da árvore de decisão](experience-edit-targeting.md).
 
 * **Experiências sem direcionamento de árvore de decisão:** [!DNL Creative] otimiza os elementos de anúncio para a experiência de anúncio sem restringir o público. Para cada experiência, você especifica datas de início e término e algumas configurações padrão, mas grande parte do fluxo de trabalho não está diretamente na experiência. Em vez de adicionar criações diretamente à experiência, use o [!UICONTROL Tag Manager] para criar uma tag de anúncio para cada tamanho de anúncio da experiência e, em seguida, adicionar criações a ela, configurar a otimização criativa e o agendamento e personalizar as páginas de aterrissagem e URLs de rastreamento<!-- later: and any flexible attributes -->.
 

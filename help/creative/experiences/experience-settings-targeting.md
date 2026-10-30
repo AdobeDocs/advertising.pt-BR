@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # Configurações de experiência de anúncio direcionado
+
+Essas configurações gerais são compartilhadas pelo editor de árvore de decisão orientado por IA (Beta) e pelo editor manual.
+
+Para uma experiência existente, clique em **[!UICONTROL Experience Form]** na árvore decisória. Salve as alterações na árvore que deseja manter primeiro. Deixar o editor orientado por IA requer confirmação e descarta alterações de árvore não salvas. Consulte [Alternar editores ou editar as configurações de experiência](experience-edit-targeting.md#switch-editors).
 
 ## seção [!UICONTROL Experience basics]
 

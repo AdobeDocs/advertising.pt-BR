@@ -1,6 +1,6 @@
 ---
 title: Editar uma experiência com direcionamento de árvore de decisão
-description: Saiba como editar as configurações de uma experiência de anúncio direcionada usando uma árvore de decisão.
+description: Saiba como editar uma experiência de anúncio direcionada usando o editor de árvore decisória manual ou orientado por IA.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
 TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
@@ -19,12 +19,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '655'
 ht-degree: 0%
 ---
 # Editar uma experiência com direcionamento de árvore de decisão
+
+O editor orientado por IA (Beta) é aberto por padrão para experiências com direcionamento. Você pode trabalhar com o agente de IA, editar a tela diretamente ou abrir o editor manual existente.
+
+## Abrir a experiência {#experience-open}
 
 1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -32,73 +36,93 @@ ht-degree: 0%
 
 1. Siga um destes procedimentos:
 
-   * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Edit]**.
+   * Para abrir o editor orientado por IA:
 
-   * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Edit]**.
+     * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Edit]**.
 
-   A árvore de decisão é aberta por padrão.
+     * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Edit]**.
 
-1. (Opcional) Alterne entre a árvore de decisão e as configurações gerais conforme necessário:
+   * Para abrir o editor manual:
 
-   * Para abrir as configurações gerais na árvore decisória, clique em **[!UICONTROL Experience Form]** no canto superior direito.
+     * No modo de exibição de cartão, clique em **[!UICONTROL ...]** ao lado do nome da experiência e, em seguida, clique em **[!UICONTROL Create Decision Tree Manually (Legacy)]**.
 
-   * Para abrir a árvore decisória nas configurações gerais, clique em **[!UICONTROL Decision Tree]** no canto superior direito.
+     * Na exibição de tabela, mantenha o cursor sobre a linha, clique em **[!UICONTROL More]** e em **[!UICONTROL Create Decision Tree Manually (Legacy)]**.
 
-1. (Opcional) Para editar a árvore decisória, siga um destes procedimentos:
+     * No editor orientado por IA,
 
-   * ([Processando](experience-about.md#experience-statuses) experiências) Siga um destes procedimentos:
+## Editar usando o editor orientado por IA (Beta) {#ai-editor}
 
-     * Para descartar as alterações não postadas existentes na experiência online, clique em **[!UICONTROL Discard and start again]**.
+1. [Abrir a experiência](#experience-open).
 
-     * Para manter as alterações não postadas existentes, clique em **[!UICONTROL Continue editing draft]**.
+1. Descreva as alterações de direcionamento que você deseja na conversa. Identifique a ramificação afetada por seus destinos ou, quando mostrado na tela, pela ID do nó.
 
-     * Para editar os detalhes da experiência, clique em **[!UICONTROL Edit Experience Details]**.
+1. Revise a árvore atualizada e descreva outras alterações. Aguarde o assistente concluir o processamento antes de interagir com a tela.
 
-   * (Opcional) Altere as configurações de exibição da árvore de decisão.
+1. (Opcional) Faça alterações diretamente na tela:
 
-     Suas configurações são salvas até que você faça logoff.
+   * [Adicionar um destino de nível final](experience-target-node-add-final.md#ai-editor), [inserir um nível de destino](experience-target-node-add-inner.md#ai-editor) ou [adicionar um destino irmão](experience-target-node-add-sibling.md#ai-editor).
 
-   * Aumente ou diminua o zoom movendo o controle deslizante.
+   * Edite os critérios de um destino clicando em **[!UICONTROL ...]** > **[!UICONTROL Edit]** ao lado do destino, alterando os valores e clicando em **[!UICONTROL Edit Node]**.
 
-   * Alternar entre a exibição de uma lista vertical e uma lista horizontal clicando em ![Exibir como Árvore Vertical](/help/creative/assets/tree-vertical.png "Exibir como Árvore Vertical") ou ![Exibir como árvore horizontal](/help/creative/assets/tree-horizontal.png "Exibir como árvore horizontal"), respectivamente.
+   * [Copiar nós e criações filho](experience-target-node-copy.md#ai-editor) ou [excluir um nó](experience-target-node-delete.md#ai-editor).
 
-   * (Opcional) Altere os públicos-alvo de publicidade e as criações correspondentes de qualquer uma das seguintes maneiras:
+   * [Atribuir ou cancelar atribuição de pacotes criativos](experience-assign-creative-bundles.md#ai-editor).
 
-     * Metas:
+   * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) ou [as URLs de rastreamento](experience-tracking-urls-targeting.md#ai-editor).
 
-       *[Adicione um nó de destino ao nível final](experience-target-node-add-final.md) em uma experiência.
+1. [Salve a experiência](#save).
 
-       * [Insira um nó de destino entre os nós](experience-target-node-add-inner.md).
+## Editar usando o editor manual {#manual-editor}
 
-       * [Adicionar um nó de destino irmão entre nós](experience-target-node-add-sibling.md).
+1. [Abrir a experiência](#experience-open).
 
-       * [Copiar nós filhos e criações para outro nó no mesmo nível](experience-target-node-copy.md).
+1. (Experiências com status `[processing](experience-about.md#experience-statuses)`) Se for solicitado sobre um rascunho existente, não publicado, execute um dos procedimentos a seguir:
 
-     * Pacotes do Creative:
+   * Clique em **[!UICONTROL Continue editing draft]** para revisar e continuar editando o rascunho.
 
-       * [Atribuir e cancelar atribuição de criações a um nó final](experience-assign-creative-bundles.md).
+   * Clique em **[!UICONTROL Discard and start again]** para descartar o rascunho e começar a partir da versão ao vivo.
 
-         Se não atribuir pelo menos um pacote a cada nó final, você poderá optar por usar os criativos padrão para cada nó não atribuído ao salvar a experiência. Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
+   * Clique em **[!UICONTROL Cancel this edit]** para interromper a edição.
 
-       * [Personalize as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
+1. (Opcional) Ajuste o controle deslizante de zoom ou clique em ![Exibir como Árvore Vertical](/help/creative/assets/tree-vertical.png "Exibir como Árvore Vertical") ou ![Exibir como árvore horizontal](/help/creative/assets/tree-horizontal.png "Exibir como árvore horizontal") para alterar a orientação.
 
-       * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) para os pacotes atribuídos.
+   Suas configurações de exibição são salvas até que você faça logoff.
 
-1. (Opcional) Edite as [configurações gerais de experiência](experience-settings-targeting.md).
+1. Altere os targets e os elementos criativos conforme necessário:
 
-1. Clique em **[!UICONTROL Save]** e faça o seguinte.
+   * [Adicionar um destino de nível final](experience-target-node-add-final.md#manual-editor), [inserir um destino entre nós](experience-target-node-add-inner.md#manual-editor) ou [adicionar um destino irmão](experience-target-node-add-sibling.md#manual-editor).
 
-   * (Se cada nó no nível mais inferior incluir pelo menos um pacote criativo) Clique em **[!UICONTROL OK]**.
+   * [Copiar nós e criações filho](experience-target-node-copy.md#manual-editor) ou [excluir um nó](experience-target-node-delete.md#manual-editor).
 
-   * (Se cada nó no nível mais inferior não incluir pelo menos um pacote criativo), siga um destes procedimentos:
+   * [Atribuir ou cancelar atribuição de pacotes criativos](experience-assign-creative-bundles.md#manual-editor).
 
-     * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
+   * [Personalize a otimização criativa e o agendamento](experience-optimization-scheduling-targeting.md) ou [as URLs de rastreamento](experience-tracking-urls-targeting.md#manual-editor).
 
-       Você não pode criar uma marca de anúncio para uma experiência de [rascunho](experience-about.md#experience-statuses).
+1. [Salve a experiência](#save).
 
-     * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+## Alternar editores ou editar as configurações de experiência {#switch-editors}
 
-     * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+>[!IMPORTANT]
+>
+>Antes de sair do editor orientado por IA, salve as alterações na árvore que deseja manter. Alternar para o editor manual ou o formulário de experiência não transfere as alterações não salvas.
+
+* **Editor orientado por IA para o editor manual:** Clique em **[!UICONTROL Manual Decision Tree]**. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Yes]** para descartar as alterações não salvas e abrir o editor manual, ou em **[!UICONTROL No]** para permanecer.
+
+* **Editor orientado por IA para configurações gerais:** Clique em **[!UICONTROL Experience Form]** e em **[!UICONTROL Yes]** para descartar as alterações de árvore não salvas e abrir o formulário. Edite as [configurações gerais de experiência](experience-settings-targeting.md) e clique em **[!UICONTROL Save]**.
+
+* **Editor manual para configurações gerais:** salve as alterações na árvore que deseja manter e clique em **[!UICONTROL Experience Form]**. Edite as [configurações gerais de experiência](experience-settings-targeting.md) e clique em **[!UICONTROL Save]**.
+
+* **Configurações gerais para o editor orientado por IA:** Clique em **[!UICONTROL Decision Tree]**. Salvar alterações nas configurações gerais de uma experiência direcionada também abre o editor orientado por IA.
+
+* **Editor manual para o editor orientado por IA:** Salve as alterações na árvore, retorne à exibição [!UICONTROL Experiences] e selecione **[!UICONTROL Edit]** para a experiência.
+
+Para sair do editor orientado por IA sem abrir outro editor, clique em **[!UICONTROL Cancel]**. Clique em **[!UICONTROL Yes]** para descartar as alterações de árvore não salvas ou em **[!UICONTROL No]** para continuar editando.
+
+## Salve a experiência {#save}
+
+As etapas a seguir se aplicam a ambos os editores.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

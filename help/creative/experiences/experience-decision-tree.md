@@ -1,6 +1,6 @@
 ---
 title: O layout da árvore de decisão
-description: Saiba mais sobre o layout da árvore de decisão para obter experiências com direcionamento.
+description: Saiba mais sobre os editores de árvore de decisão manuais e orientados por IA para obter experiências com direcionamento.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # O layout da árvore de decisão para [!DNL Creative] experiências
 
 Ao habilitar a opção &quot;[!UICONTROL Targeting]&quot; para uma experiência, você configura a experiência usando uma árvore de decisão.
 
-Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot;. Você pode adicionar um ou mais nós de destino e, em seguida, atribuir pacotes criativos aos nós finais em cada ramificação da árvore de decisão. Por padrão, a árvore de decisão é exibida verticalmente, mas você pode, opcionalmente, visualizá-la horizontalmente.
+Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot;. Você pode adicionar um ou mais nós de destino e, em seguida, atribuir pacotes criativos aos nós finais em cada ramificação da árvore de decisão.
+
+## Editor orientado por IA (Beta) {#ai-editor}
+
+O editor orientado por IA é aberto por padrão ao criar ou editar uma experiência com direcionamento. Ele combina uma conversa com o agente de IA e uma tela interativa de árvore de decisão.
+
+* Descreva a estrutura de direcionamento ou as alterações desejadas na conversa e revise a árvore resultante antes de salvar.
+
+* Edite a tela diretamente para adicionar níveis de destino e nós, atribuir pacotes e configurar URLs de otimização criativa e rastreamento. Você não precisa alternar para o editor manual para usar esses controles.
+
+* Visualize o nome da experiência, o status e o anunciante no cabeçalho e use IDs de nó, quando disponíveis, para identificar nós de destino ao descrever alterações.
+
+* Use **[!UICONTROL Zoom in]**, **[!UICONTROL Zoom out]** e **[!UICONTROL Change orientation]** para ajustar a exibição. **[!UICONTROL Reset tree]** limpa a árvore após a confirmação; não apenas redefine o zoom.
+
+Enquanto o assistente está processando uma alteração, a tela e seu botão **[!UICONTROL Save]** são temporariamente desabilitados. Aguarde a conclusão do processamento antes de fazer outra alteração na tela.
+
+## Editor manual {#manual-editor}
+
+Para abrir o editor manual existente no editor orientado por IA, clique em **[!UICONTROL Manual Decision Tree]**. Você também pode selecionar **[!UICONTROL Create Decision Tree Manually (Legacy)]** nas ações da experiência na visualização [!UICONTROL Experiences]. Consulte [Alternar editores ou editar as configurações de experiência](experience-edit-targeting.md#switch-editors).
+
+No editor manual, a árvore é exibida verticalmente por padrão. É possível alterar para uma exibição horizontal e ajustar o zoom com um controle deslizante. Suas configurações de exibição são salvas até que você faça logoff.
+
+Os exemplos a seguir mostram o editor manual:
 
 ![Exemplo de uma árvore de decisão vertical sem destinos](/help/creative/assets/experience-decision-tree-no-targets.png "Exemplo de uma árvore de decisão vertical sem destinos")
 
 ![Exemplo de uma árvore de decisão horizontal sem destinos](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "Exemplo de uma árvore de decisão horizontal sem destinos")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>Salve as alterações que deseja manter antes de sair do editor orientado por IA. Clicar em **[!UICONTROL Manual Decision Tree]**, **[!UICONTROL Experience Form]** ou **[!UICONTROL Cancel]** abre uma caixa de diálogo de confirmação. Clicar em **[!UICONTROL Yes]** descarta as alterações de árvore não salvas; clicar em **[!UICONTROL No]** mantém você no editor.
 
 ## Termos
 
@@ -54,6 +72,8 @@ Inicialmente, cada árvore decisória começa com o nível raiz, &quot;Tudo&quot
 Cada árvore decisória pode ter até cinco níveis de metas. Os targets de nível de experiência são aplicados em conjunto com as opções de direcionamento do DSP; o comportamento hierárquico do direcionamento pode variar de acordo com o DSP. Certifique-se de que suas experiências de anúncio incluam direcionamento compatível com as campanhas em que você o implementará.
 
 Cada nível de destino pode incluir várias ramificações, cada uma com um ou mais nós com o mesmo tipo de destino (segmento de público-alvo, tipo de localização geográfica, valores para chaves de transmissão de dados especificadas, atributos para um pixel de redirecionamento especificado ou categoria de dispositivo). Você pode atribuir pacotes criativos em cada tamanho de anúncio para o qual especificou uma criação de imagem ou vídeo padrão para os nós de destino de nível mais baixo.
+
+<!-- Add a screen shot of the AI editor -->O exemplo a seguir mostra destinos no editor manual:
 
 ![Exemplo de uma árvore de decisão com destinos](/help/creative/assets/experience-decision-tree.png "Exemplo de uma árvore de decisão com destinos")
 

@@ -19,38 +19,72 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # Personalizar os URLs de rastreamento para criações em uma experiência com direcionamento de árvore de decisão
 
 *Nós do Target somente com criações existentes*
 
-Para experiências com direcionamento de árvore de decisão, é possível criar até cinco URLs de rastreamento de impressão personalizados, cinco URLs de rastreamento de cliques personalizados e um URL de página de aterrissagem personalizado para cada criativo individual usado para a experiência. Você pode personalizar os URLs de rastreamento na árvore de decisão.
+Para experiências com direcionamento de árvore de decisão, é possível criar até cinco URLs de rastreamento de impressão personalizados e cinco URLs de rastreamento de cliques personalizados para cada criativo individual usado para a experiência. Quando a substituição da página de aterrissagem está disponível, você também pode especificar um URL de página de aterrissagem personalizado. Você pode personalizar os URLs de rastreamento em qualquer editor de árvore de decisão.
 
 As URLs personalizadas são usadas apenas para anúncios criados a partir da experiência e não são salvas nas configurações básicas de criação no [!UICONTROL Creative Libraries].
 
-1. Mantenha o cursor sobre a folha/pasta do pacote criativo abaixo do nó de destino e clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+A substituição da página de aterrissagem está disponível para experiências padrão e para nós que usam criações padrão. Para pacotes dinâmicos atribuídos, as páginas de aterrissagem são determinadas pelo feed e a guia da página de aterrissagem não é exibida.
 
-   As guias [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] listam os nomes de todos os criadores nos tamanhos aplicáveis nos conjuntos atribuídos. Os tamanhos dos criativos padrão da experiência determinam os tamanhos disponíveis.<!-- There's no distinct "Creative Sizes" setting. -->
+## Uso do editor orientado por IA (Beta) {#ai-editor}
 
-1. Nas guias **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** e **[!UICONTROL Landing URLs]**, faça o seguinte para cada criativo, conforme necessário:
+Enquanto você está [criando](experience-create-targeting.md#ai-editor) ou [editando](experience-edit-targeting.md#ai-editor) a experiência, use os controles da tela:
 
-   1. Expanda a linha para o criativo.
+1. No nó folha criativa abaixo do nó de destino, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   1. Siga um destes procedimentos:
+1. Selecione a guia **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** ou (quando disponível) **[!UICONTROL Landing URL]**.
 
-      * Para adicionar ou editar um URL personalizado, insira o URL no campo de entrada.
+   As criações são agrupadas por pacote. Os tamanhos criativos padrão da experiência determinam os tamanhos criativos disponíveis.
 
-      * Para adicionar outra URL personalizada, clique em **[!UICONTROL +]** e insira a URL no campo de entrada.
+1. Expanda o criativo que deseja editar e siga um destes procedimentos:
 
-      * Para remover uma URL personalizada, mantenha o cursor sobre a linha criativa e clique em ![Excluir](/help/creative/assets/delete.png "Excluir").
+   * Para adicionar ou editar um URL personalizado, insira o URL no campo de entrada.
 
-      É possível incluir até cinco URLs de rastreamento de impressão personalizados, cinco URLs de rastreamento de cliques personalizados e um URL de página de aterrissagem personalizado.
+   * Para adicionar outra URL de rastreamento personalizada, clique em **[!UICONTROL Add URL]** e insira a URL no campo de entrada.
 
-1. Clique em **[!UICONTROL Save]**.
+   * Para remover uma URL personalizada, clique em **[!UICONTROL Delete URL]**.
+
+   Clique fora de um campo editado e corrija quaisquer erros de validação antes de salvar.
+
+1. Clique em **[!UICONTROL Save]** na caixa de diálogo para atualizar a árvore de trabalho.
+
+1. [Salve a experiência](#save) do cabeçalho da árvore.
+
+## Usar o editor manual {#manual-editor}
+
+[Abra o editor manual](experience-edit-targeting.md#experience-open) antes de seguir essas etapas.
+
+1. No nó folha criativa abaixo do nó de destino, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+
+1. Selecione a guia **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** ou (quando disponível) **[!UICONTROL Landing URLs]**.
+
+   As guias listam as criações nos pacotes atribuídos. Os tamanhos de criação padrão da experiência determinam os tamanhos de criação disponíveis.<!-- There's no distinct "Creative Sizes" setting. -->
+
+1. Expanda o criativo que deseja editar e siga um destes procedimentos:
+
+   * Para adicionar ou editar um URL personalizado, insira o URL no campo de entrada.
+
+   * Para adicionar outra URL de rastreamento personalizada, clique em **[!UICONTROL +]** e insira a URL no campo de entrada.
+
+   * Para remover uma URL personalizada, mantenha o cursor sobre a linha criativa e clique em ![Excluir](/help/creative/assets/delete.png "Excluir").
+
+1. Clique em **[!UICONTROL Save]** na caixa de diálogo para atualizar a árvore de trabalho.
+
+1. [Salve a experiência](#save) do cabeçalho da árvore.
+
+## Salve a experiência {#save}
+
+As etapas a seguir se aplicam a ambos os editores. Salvar a caixa de diálogo URL de rastreamento sozinho não salva ou publica a experiência.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

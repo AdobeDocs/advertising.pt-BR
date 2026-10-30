@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Atribuir e cancelar atribuição de pacotes criativos a um nó final em uma experiência
@@ -36,7 +36,31 @@ Para experiências de anúncio padrão, é possível atribuir somente pacotes cr
 >
 >Se você não atribuir pelo menos um pacote criativo a cada nó final, poderá optar por usar os criativos padrão para cada nó não atribuído ao [salvar a experiência](experience-create-targeting.md). Para publicar uma experiência, você deve atribuir pacotes ou usar as criações padrão para cada nó final.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso do editor orientado por IA (Beta) {#ai-editor}
+
+Enquanto você está [criando](experience-create-targeting.md#ai-editor) ou [editando](experience-edit-targeting.md#ai-editor) a experiência, use os controles da tela:
+
+1. Siga um destes procedimentos:
+
+   * Para um nó final sem pacotes, clique em **[!UICONTROL Assign Bundles]**.
+
+   * Para um nó com pacotes existentes, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** em seu nó de folha criativa.
+
+1. Na guia **[!UICONTROL Assign Bundles]**, marque a caixa de seleção ao lado de cada pacote a ser atribuído e desmarque a caixa de seleção ao lado de cada pacote a ser desatribuído.
+
+   Somente pacotes do tipo relevante para a experiência (padrão ou dinâmica) são listados.
+
+1. (Opcional) Abra a guia **[!UICONTROL Creative optimisation]** para [personalizar rotação e agendamento](experience-optimization-scheduling-targeting.md).
+
+1. Clique em **[!UICONTROL Save]** na caixa de diálogo para atualizar a árvore de trabalho.
+
+1. (Opcional) [Personalizar as URLs de rastreamento](experience-tracking-urls-targeting.md#ai-editor).
+
+1. [Salve a experiência](#save) do cabeçalho da árvore para manter suas alterações.
+
+## Usar o editor manual {#manual-editor}
+
+[Abra o editor manual](experience-edit-targeting.md#experience-open) antes de seguir essas etapas.
 
 1. Siga um destes procedimentos:
 
@@ -54,12 +78,9 @@ Para experiências de anúncio padrão, é possível atribuir somente pacotes cr
 
 1. (Opcional) [Personalizar as URLs de rastreamento para criações nos pacotes atribuídos](experience-tracking-urls-targeting.md).
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Salve a experiência {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+As etapas a seguir se aplicam a ambos os editores. Salvar a caixa de diálogo do pacote sozinho não salva ou publica a experiência.
 
 {{$include /help/_includes/experience-save.md}}
 

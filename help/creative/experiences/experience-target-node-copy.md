@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # Copiar nós filhos para outro nó de destino no mesmo nível
@@ -29,22 +29,37 @@ Você pode copiar todos os nós filhos de um nó de destino pai (incluindo todos
 
 Esse recurso não afeta o destino especificado para o nó principal, afeta apenas os nós secundários.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso do editor orientado por IA (Beta) {#ai-editor}
+
+Enquanto você está [criando](experience-create-targeting.md#ai-editor) ou [editando](experience-edit-targeting.md#ai-editor) a experiência, use os controles da tela:
+
+1. No nó pai cujos filhos você deseja copiar, clique em **[!UICONTROL ...]** > **[!UICONTROL Copy Children]**.
+
+1. No nó de destino no mesmo nível, clique em **[!UICONTROL ...]** e escolha uma das seguintes opções:
+
+   * Para adicionar os destinos filho copiados e criações sem remover os filhos existentes, clique em **[!UICONTROL Add]**.
+
+   * Para substituir os destinos e criações filho existentes pelos filhos copiados, clique em **[!UICONTROL Replace]**.
+
+   Uma ação é desativada quando a estrutura de árvore não oferece suporte a ela. Revise qualquer aviso antes de continuar.
+
+1. Revise a ramificação de destino e [salve a experiência](#save).
+
+## Usar o editor manual {#manual-editor}
+
+[Abra o editor manual](experience-edit-targeting.md#experience-open) antes de seguir essas etapas.
 
 1. Clique no nó pai cujos filhos você deseja copiar, clique em ![Adicionar](/help/creative/assets/add.png "Adicionar") e selecione a\) **[!UICONTROL Copy Children ctrl+c]** ou b\) digite **[!UICONTROL Ctrl+C]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-C]** ([!DNL Apple Macintosh]) no teclado.
 
 1. Siga um destes procedimentos:
 
-   * Para substituir todos os nós filhos e criações de um nó, clique no nó no qual você deseja colar as informações copiadas, clique em **...** e, em seguida, selecione a\) **[!UICONTROL Replace ctrl+shift+v]** ou b\) digite **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) no teclado.
+   * Para substituir todos os nós filhos e criações de um nó, clique no nó no qual você deseja colar as informações copiadas, clique em **[!UICONTROL ...]** e, em seguida, selecione a\) **[!UICONTROL Replace ctrl+shift+v]** ou b\) digite **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) no teclado.
 
-   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **...** e a\) selecione **[!UICONTROL Add ctrl+v]** **&#x200B; ou b\) digite &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) ou &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
+   * (Nós com vários destinos filho, nenhum nó &quot;All&quot; e nenhuma criação apenas) Para adicionar todos os nós filhos e criações a um nó, sem excluir os existentes, clique no nó no qual deseja colar as informações copiadas, clique em **[!UICONTROL ...]** e selecione a\) **[!UICONTROL Add ctrl+v]** ou b\) digite **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) ou **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) no teclado.
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Salve a experiência {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+As etapas a seguir se aplicam a ambos os editores.
 
 {{$include /help/_includes/experience-save.md}}
 

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # Sobre o Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ O [!DNL Creative] está diretamente integrado aos seguintes produtos do [!DNL Ad
 
 ## Experiências baseadas em regras e não direcionadas
 
-* **Experiências direcionadas e baseadas em regras:** Crie histórias usando um modelo de árvore decisória baseado em regras — desdobrando uma cadeia coreografada de anúncios que são personalizados em tempo real com base no que você sabe sobre o seu público-alvo. Por exemplo, as histórias podem mudar com base no comportamento do cliente, geografia, demografia, redirecionamento, posição na jornada do cliente e muito mais.
+* **Experiências direcionadas e baseadas em regras:** Crie histórias usando um modelo de árvore decisória baseado em regras — desdobrando uma cadeia coreografada de anúncios que são personalizados em tempo real com base no que você sabe sobre o seu público-alvo. Por exemplo, as histórias podem mudar com base no comportamento do cliente, geografia, demografia, redirecionamento, posição na jornada do cliente e muito mais. Crie e edite a árvore de decisão usando o [editor orientado por IA (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor), com assistência de conversação e controles de tela diretos, ou use o editor manual.
 
 * **Experiências não direcionadas:** agende e otimize os elementos de anúncio sem restringir o público.
 

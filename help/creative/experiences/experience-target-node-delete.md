@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # Excluir um nó de destino ou nó folha criativo em uma experiência
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 Você pode excluir um nó de destino, incluindo todos os destinos secundários e os pacotes criativos atribuídos a eles. Também é possível excluir um nó de folha criativo.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso do editor orientado por IA (Beta) {#ai-editor}
+
+Enquanto você está [criando](experience-create-targeting.md#ai-editor) ou [editando](experience-edit-targeting.md#ai-editor) a experiência, use os controles da tela:
+
+1. Verifique o nó e seus destinos secundários e criações antes de excluí-lo.
+
+1. Mantenha o cursor sobre o nó de destino ou nó folha de criação e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+   O nó é removido da árvore de trabalho sem uma confirmação **[!UICONTROL Delete Node]** separada.
+
+1. Revise as ramificações restantes e [salve a experiência](#save).
+
+## Usar o editor manual {#manual-editor}
+
+[Abra o editor manual](experience-edit-targeting.md#experience-open) antes de seguir essas etapas.
 
 1. Mantenha o cursor sobre o nó de destino ou nó folha de criação e clique em **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Na mensagem de confirmação, clique em **[!UICONTROL Delete Node]**.
 
-1. (Opcional) Para salvar a experiência:
+## Salve a experiência {#save}
 
-   1. Clique em **[!UICONTROL Save]** e depois em **[!UICONTROL OK]**.
+As etapas a seguir se aplicam a ambos os editores.
 
-   1. (Se cada nó no nível mais inferior não incluir pelo menos um criativo): Siga um destes procedimentos:
-
-      * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
-
-        Não é possível criar uma tag de anúncio para uma experiência de rascunho.
-
-      * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
-
-      * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

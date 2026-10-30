@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 # Adicionar um nó de direcionamento entre nós em uma experiência
@@ -35,7 +35,41 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 >
 >Para adicionar um nó de destino ao nível inferior de uma árvore de decisão, consulte &quot;[Adicionar um nó de destino ao nível final em uma experiência](experience-target-node-add-final.md).&quot;
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso do editor orientado por IA (Beta) {#ai-editor}
+
+Enquanto você [cria](experience-create-targeting.md#ai-editor) ou [edita](experience-edit-targeting.md#ai-editor) a experiência, poderá solicitar que o agente de IA insira um nível de destino. Identifique onde inseri-lo e quais ramificações e criações existentes devem ser mantidas e revise o resultado. Para inserir o nível diretamente na tela:
+
+1. No limite onde você deseja inserir o nível, clique em **[!UICONTROL Add targeting level]**.
+
+   Na exibição horizontal, esse controle é um ícone com o mesmo rótulo.
+
+1. Em **[!UICONTROL New targeting level]**, selecione a categoria de destino e clique em **[!UICONTROL Add targeting level]**.
+
+   * Para públicos-alvo, selecione **[!UICONTROL Audience]**.
+
+   * Para destinos geográficos, selecione uma única categoria geográfica (como **[!UICONTROL Geo: Country]**).
+
+   * Para destinos de transmissão de dados, selecione **[!UICONTROL Data Pass]**.
+
+   * Para redirecionar destinos de pixels, selecione **[!UICONTROL RT Pixel]**.
+
+   * Para destinos de dispositivo, selecione uma única categoria de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** ou **[!UICONTROL Device: Browser]**).
+
+   Inserir um nível não solicita valores de destino. O novo nível usa inicialmente &quot;Todos&quot; e retém os públicos-alvo e criativos secundários existentes.
+
+1. (Opcional) Para definir um destino específico no novo nível, [adicione um nó de destino irmão](experience-target-node-add-sibling.md#ai-editor). Caso contrário, mantenha o novo nó &quot;All&quot; sem adicionar targets específicos.
+
+1. (Opcional) Para renomear um nó de destino definido pelo usuário, clique em **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, insira o **[!UICONTROL Node Name]** e clique em **[!UICONTROL Save]**.
+
+   Não é possível renomear um nó &quot;Todos&quot; ou &quot;Todos os outros&quot;.
+
+1. Revise as ramificações retidas e [atribua pacotes criativos](experience-assign-creative-bundles.md#ai-editor) a qualquer nó final novo.
+
+1. [Salve a experiência](#save).
+
+## Usar o editor manual {#manual-editor}
+
+[Abra o editor manual](experience-edit-targeting.md#experience-open) antes de seguir essas etapas.
 
 1. No nó em que você deseja inserir o destino, clique em ![Adicionar](/help/creative/assets/add.png "Adicionar") e selecione **[!UICONTROL Insert New Target]**.
 
@@ -47,43 +81,49 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
         * Para públicos-alvo, selecione **[!UICONTROL Audience]**.
 
-        * Para destinos geográficos, selecione uma única categoria geográfica (como [!UICONTROL Geo: Country]).
+        * Para destinos geográficos, selecione uma única categoria geográfica (como **[!UICONTROL Geo: Country]**).
 
         * Para destinos de transmissão de dados, selecione **[!UICONTROL Data Pass]**.
 
-        * Para destinos de pixel de redirecionamento, selecione **[!UICONTROL RT Pixel].
+        * Para redirecionar destinos de pixels, selecione **[!UICONTROL RT Pixel]**.
 
         * Para destinos de dispositivo, selecione uma única categoria de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** ou **[!UICONTROL Device: Browser]**).
 
    * Se os nós irmãos já existirem, faça o seguinte:
 
-     * Para públicos-alvo, faça o seguinte:
+     * Para públicos-alvo:
 
-       1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de [!UICONTROL Audience Targeting] e faça o seguinte:
+       1. Clique em **[!UICONTROL Click to Browse]** para abrir as opções de **[!UICONTROL Audience Targeting]**.
+
+       1. Configure os segmentos e grupos de público-alvo:
 
           * Para adicionar o primeiro segmento, localize o segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
 
-          * Para adicionar um segmento a um grupo de segmentos existente:
+          * Para adicionar segmentos a um grupo de segmentos existente:
 
             1. Clique no grupo de segmentos no painel direito.
 
-            1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+            1. (Opcional) Altere a lógica do grupo para **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, conforme necessário.
 
-               *[!UICONTROL Exclude All]* não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, compile esse público-alvo como *[!UICONTROL Include Any]* e, em seguida, exclua esse público-alvo quando adicioná-lo a um posicionamento no seu DSP.
+               **[!UICONTROL Include Any]** corresponde usuários em pelo menos um segmento selecionado; **[!UICONTROL Include All]** requer associação em todos os segmentos selecionados.
 
-            1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento.
+               **[!UICONTROL Exclude All]** não está disponível para o primeiro grupo de segmentos. Para um público-alvo que inclua apenas exclusões, compile o público-alvo usando o **[!UICONTROL Include Any]** e, em seguida, exclua esse público-alvo quando adicioná-lo a um posicionamento no DSP.
 
-               O grupo de segmentos é atualizado automaticamente com o novo segmento.
+            1. Localize o novo segmento no painel esquerdo e marque a caixa de seleção ao lado do nome do segmento. Repita o procedimento para cada segmento adicional.
+
+               O grupo de segmentos é atualizado automaticamente com os novos segmentos.
 
           * Para adicionar um novo grupo de segmentos:
 
             1. Clique em **[!UICONTROL + New Group]** no painel direito.
 
-            1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para *[!UICONTROL And]* ou *[!UICONTROL Or]*, conforme necessário.
+            1. (Opcional) Altere a lógica entre o grupo anterior e o novo grupo para **[!UICONTROL And]** ou **[!UICONTROL Or]**, conforme necessário.
+
+               **[!UICONTROL And]** exige que os usuários atendam às condições de ambos os grupos; **[!UICONTROL Or]** exige que eles atendam às condições de pelo menos um grupo.
 
             1. Localize os segmentos para o novo grupo no painel esquerdo e marque as caixas de seleção ao lado dos nomes dos segmentos.
 
-            1. (Opcional) Altere a lógica do grupo para *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* ou *[!UICONTROL Exclude All]*, conforme necessário.
+            1. (Opcional) Altere a lógica do grupo para **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** ou **[!UICONTROL Exclude All]**, conforme necessário.
 
        1. Clique em **[!UICONTROL Create]**.
 
@@ -103,11 +143,11 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
      * Para um destino de passagem de dados, como opção, personalize a chave de passagem de dados, insira um único valor de passagem de dados e clique em **[!UICONTROL Apply]**.
 
-       Um valor padrão para a chave no par chave-valor já está definido no campo **[!UICONTROL Data Pass]** na seção [!UICONTROL Advanced] das [configurações de experiência](experience-settings-targeting.md). Opcionalmente, é possível personalizar a chave.
+       A chave de passagem de dados padrão está configurada no campo **[!UICONTROL Data Pass]**, na seção **[!UICONTROL Advanced]** das [configurações gerais de experiência](experience-settings-targeting.md). Personalize a chave do target, se necessário.
 
      * Para um destino de pixel de redirecionamento, selecione um único pixel de redirecionamento a ser usado e os valores de qualquer atributo de pixel necessário para mostrar as criações e clique em **[!UICONTROL Apply]**.
 
-       Os atributos do pixel de redirecionamento estão configurados nas [configurações do pixel de redirecionamento](/help/creative/pixels/retargeting-pixel-manage.md).
+       Os atributos disponíveis estão configurados nas [configurações de pixel de redirecionamento](/help/creative/pixels/retargeting-pixel-manage.md).
 
      * Para destinos de dispositivos, faça o seguinte:
 
@@ -131,25 +171,15 @@ Para definir um destino específico, adicione outro nó de destino irmão no mes
 
    1. Insira o **[!UICONTROL Node Name]** e clique em **[!UICONTROL Save]**.
 
-1. Siga um destes procedimentos:
+1. (Opcional) [Atribuir pacotes criativos](experience-assign-creative-bundles.md#manual-editor) ao novo nó de destino e ao nó &quot;Todo Resto&quot;.
 
-   * (Opcional) [Atribuir criativos](experience-assign-creative-bundles.md) ao novo nó de destino e ao nó &quot;Todo Resto&quot;.
+1. (Opcional) [Adicione um nó de destino irmão](experience-target-node-add-sibling.md#manual-editor) do tipo de destino especificado.
 
-   * (Opcional) [Adicione um nó de destino irmão](experience-target-node-add-sibling.md) do tipo de destino especificado.
+## Salve a experiência {#save}
 
-   * (Opcional) Para salvar a experiência:
+As etapas a seguir se aplicam a ambos os editores.
 
-     1. Clique em **[!UICONTROL Save]** e depois em **[!UICONTROL OK]**.
-
-     1. (Se cada nó no nível mais inferior não incluir pelo menos um criativo): Siga um destes procedimentos:
-
-        * Para salvar a experiência sem todos os pacotes criativos necessários, clique em **[!UICONTROL Save as Draft]**.
-
-          Não é possível criar uma tag de anúncio para uma experiência de rascunho.
-
-        * Para atribuir o criativo padrão a cada destino que ainda não recebeu um pacote criativo, clique em **[!UICONTROL Assign Default Creatives]**. Depois de revisar a árvore atualizada com os criativos padrão atribuídos, clique em **[!UICONTROL Save]** e **[!UICONTROL OK]**.
-
-        * Para continuar editando a árvore decisória, clique em **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

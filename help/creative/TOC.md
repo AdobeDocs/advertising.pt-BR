@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia do Criative
-source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '440'
 ht-degree: 4%
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 4%
   + [Sobre o Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [Personalizar suas visualizações de dados](/help/creative/introduction/customize-data-views.md)
   + [Fluxos de trabalho para anúncios dinâmicos](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
-  + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+  + [Suporte para a privacidade do consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Políticas e diretrizes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Sobre o Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
   + [Metadados C2PA em [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -34,6 +34,7 @@ ht-degree: 4%
     + Criativos padrão {#standard-creatives}
       + [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
       + [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [Gerar variações de criações flexíveis do HTML5](/help/creative/creative-libraries/creative-generate-variations.md)
       + [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
       + [Especificação criativa do HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
     + Criações dinâmicas {#dynamic-creatives}
@@ -101,4 +102,4 @@ ht-degree: 4%
 + [Redirecionamento de pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponíveis para rastrear URLs](/help/creative/creative-macros.md)
 + [Obter ajuda](/help/creative/get-help.md)
-+ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR){target="_blank"}
++ [Notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

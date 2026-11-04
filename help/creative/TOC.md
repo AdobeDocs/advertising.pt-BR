@@ -3,13 +3,11 @@ role: User
 user-guide-title: Guia do Advertising Creative
 user-guide-description: Saiba mais sobre as principais funcionalidades, tarefas, configurações e outros recursos necessários para usar o Advertising Creative.
 breadcrumb-title: Guia do Criative
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 
 # Guia do Advertising Creative 2.0 {#creative}
 
@@ -36,11 +34,12 @@ ht-degree: 4%
     + Criativos padrão {#standard-creatives}
       + [Adicionar criações padrão a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-standard.md)
       + [Editar criações padrão](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [Gerar variações de criações flexíveis do HTML5](/help/creative/creative-libraries/creative-generate-variations.md)
       + [Configurações de criação padrão](/help/creative/creative-libraries/creative-settings-standard.md)
       + [Especificação criativa do HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
     + Criações dinâmicas {#dynamic-creatives}
       + [Adicionar criações dinâmicas a uma biblioteca criativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [Editar criações dinâmicas](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [Editar e verificar a qualidade de criações dinâmicas](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [Configurações de criação dinâmicas](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [Pré-visualizar um criativo](/help/creative/creative-libraries/creative-preview.md)
     + [Anexar criações a pacotes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

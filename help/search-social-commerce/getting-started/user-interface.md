@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1396'
 ht-degree: 0%
 ---
 # Como a interface do usuário é organizada
@@ -87,35 +87,33 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
   * **[!UICONTROL Bulksheets]**: Abre uma nova visualização [!UICONTROL Bulksheets].
 
-  * **[!UICONTROL Label Classification]** Abre uma nova visualização [!UICONTROL Label Classifications]. É possível gerenciar classificações e atribuir/cancelar atribuição de valores de classificação a qualquer componente de conta aplicável que esteja disponível na nova interface do usuário.
+  * **[!UICONTROL Label Classification]** Abre uma nova exibição para gerenciar classificações e atribuir/cancelar atribuição de valores de classificação a quaisquer componentes de conta aplicáveis que estejam disponíveis na nova interface do usuário.
 
-  * **[!UICONTROL Manager Accounts]**: Abre uma nova exibição de suas contas de gerente existentes e de suas redes de anúncios. Para gerenciar suas contas de gerente, use a visualização [!UICONTROL Admin] > [!UICONTROL Manager Accounts] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Manager Accounts]**: abre um novo modo de exibição para listar e gerenciar contas de gerente em suas redes de anúncios.
 
 * Submenu **[!UICONTROL Goals]**:
 
-  * **[!UICONTROL Objectives]** Abre uma nova exibição [!UICONTROL Objectives], na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos.
+  * **[!UICONTROL Objectives]** Abre uma nova exibição, na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos.
 
   * **[!UICONTROL Conversions]** Abre um novo modo de exibição, no qual você pode exibir as métricas de conversão de um anunciante e personalizar as métricas disponíveis para modos de exibição de gerenciamento e relatórios.
 
-  * **[!UICONTROL Conversion Value Rules]** Abre uma nova exibição para exibir e gerenciar regras de valor de conversão no nível da campanha e da conta para contas do [!DNL Google Ads].
+  * **[!UICONTROL Conversion Value Rules]** Abre uma nova exibição para listar e gerenciar regras de valor de conversão no nível da campanha e da conta para contas do [!DNL Google Ads].
 
-  * **[!UICONTROL Constraints]** Abre uma exibição somente leitura de suas restrições existentes. Para gerenciar suas restrições, use a visualização [!UICONTROL Optimization] > [!UICONTROL Constraints] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Constraints]** Abre uma nova exibição para listar e gerenciar restrições de licitação.
 
 * Submenu **[!UICONTROL Targeting]**:
 
   * **[!UICONTROL Audiences]**: abre um novo modo de exibição que mostra todos os públicos existentes para o anunciante, todos os públicos-alvo e todas as exclusões de público. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-  * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição, que mostra todos os destinos automáticos existentes para o anunciante. Para gerenciar seus destinos automáticos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição para listar e gerenciar destinos automáticos para o anunciante.
 
-  * **[!UICONTROL Placements]** Abre uma nova visualização [!UICONTROL Placements], que mostra posicionamentos existentes e posicionamentos negativos para o anunciante. Você pode gerenciar atribuições de restrição para disposições selecionadas.
-
-    Para criar, editar e excluir disposições e disposições negativas, use as [!UICONTROL Campaigns] > [!UICONTROL Campaigns] exibições herdadas. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Placements]** Abre um novo modo de exibição para listar e gerenciar seus posicionamentos e posicionamentos negativos para o anunciante.
 
 * Submenu **[!UICONTROL Library]**:
 
-  * **[!UICONTROL Assets]** Abre uma nova exibição, que lista seus ativos criativos existentes. Você pode visualizar cada criativo. Para gerenciar sua biblioteca de ativos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Asset Library] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Assets]** Abre uma nova exibição para listar e gerenciar seus ativos criativos.
 
-  * **[!UICONTROL Extensions]** Abre exibições somente leitura de suas extensões de anúncios existentes. Para gerenciar suas extensões, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Extensions]** Abre um novo modo de exibição com guias para listar e gerenciar suas extensões de chamada, extensões do sitelink e associações entre suas extensões de anúncio e entidades de conta.
 
   * **[!UICONTROL Products]** Abre exibições somente leitura de suas contas e produtos da central de comércio existentes. Para adicionar uma conta do centro de comércio, use a exibição herdada [!UICONTROL Campaigns] > [!UICONTROL Products]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 

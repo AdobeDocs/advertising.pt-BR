@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 0c824f0b29ca5134c83a8d8d7107bd223fc3428f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 ---
 # Sobre a nova interface do usuário
 
-Agora é possível gerenciar seus objetivos, simulações e portfólios, além de executar a maioria das outras tarefas principais na nova interface do usuário (IU). A nova interface do usuário do Search, Social e Commerce é executada em uma nova URL no domínio `https://experience.adobe.com`.
+Agora é possível executar a maioria das tarefas na nova interface do usuário (UI). A nova interface do usuário do Search, Social e Commerce é executada em uma nova URL no domínio `https://experience.adobe.com`.
 
-Com o tempo, os recursos restantes serão adicionados à nova interface. Enquanto isso, você pode abrir a maioria dos recursos na interface herdada no menu principal da nova interface. Você também pode alternar facilmente entre a nova interface e a interface herdada.
+Com o tempo, os últimos recursos restantes serão adicionados à nova interface do usuário. Enquanto isso, você pode abrir recursos na interface herdada do menu principal na nova interface do usuário do. Você também pode alternar facilmente entre a nova interface e a interface herdada.
 
 Para obter mais informações sobre como a nova interface está organizada, consulte &quot;[Como a interface do usuário está organizada](/help/search-social-commerce/getting-started/user-interface.md)&quot;.
 

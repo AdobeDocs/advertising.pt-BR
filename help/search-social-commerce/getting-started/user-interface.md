@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # Como a interface do usuário é organizada
@@ -103,9 +103,9 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
 * Submenu **[!UICONTROL Targeting]**:
 
-  * **[!UICONTROL Audiences]**: abre um novo modo de exibição que mostra todos os públicos existentes para o anunciante, todos os públicos-alvo e todas as exclusões de público. Para gerenciar os públicos-alvo, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Audiences] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Audiences]**: abre um novo modo de exibição para gerenciar públicos-alvo do anunciante, todos os públicos-alvo e todas as exclusões de público.
 
-  * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição para listar e gerenciar destinos automáticos para o anunciante.
+  * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição, que mostra todos os destinos automáticos existentes para o anunciante. Para gerenciar seus destinos automáticos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
   * **[!UICONTROL Placements]** Abre um novo modo de exibição para listar e gerenciar seus posicionamentos e posicionamentos negativos para o anunciante.
 

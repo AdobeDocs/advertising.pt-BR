@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Para obter informações sobre disponibilidade, consulte a ajuda do Microsoft Ad
 **[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft Advertising] públicos-alvo a serem usados como sinais de público-alvo para a campanha. Os modelos de aprendizado de máquina do [!DNL Microsoft Advertising] usam os públicos-alvo para encontrar navegadores da web semelhantes ao público-alvo, e também podem mostrar anúncios para públicos-alvo que não são especificados como sinais para ajudá-lo a atingir suas metas de desempenho. Escolha os públicos-alvo com maior probabilidade de conversão.
 
 >[!NOTE]
->Os sinais de público são diferentes dos [alvos de público-alvo de nível de grupo de anúncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Os sinais de público são diferentes dos [alvos de público-alvo de nível de grupo de anúncios](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

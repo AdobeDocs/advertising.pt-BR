@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # Gerenciar modelos de anúncio para feeds de inventário
@@ -26,7 +26,7 @@ Antes ou depois de fazer upload dos dados, é possível criar modelos de anúnci
 
 Você pode associar cada modelo a um arquivo de feed, conta [!DNL Google Merchant Center] ou conta [!DNL Microsoft Merchant Center] e pode associar vários modelos ao mesmo arquivo ou conta de feed. Um modelo de anúncio pode incluir variáveis, que são substituídas por colunas de dados reais de um arquivo carregado ou de uma conta. Na maioria dos casos, as variáveis também podem incluir [um grupo de modificadores](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) que você configurou em Pesquisa, Social e Commerce para criar vários anúncios, palavras-chave, campanhas ou grupos de anúncios para cada linha aplicável no arquivo de dados. As opções de modelo permitem criar uma nova estrutura de conta (campanhas, grupos de anúncios, palavras-chave) para os anúncios ou mapear os anúncios para a estrutura de conta existente.
 
-Além de criar novos modelos do zero, você pode criar novos modelos clonando os existentes e editar os existentes.
+Além de criar modelos com novas configurações, você pode, opcionalmente, criar novos modelos clonando os existentes e editar os existentes.
 
 Depois de criar um modelo e associá-lo a um arquivo de feed de dados ou a uma conta do centro de negócios, você pode propagar os dados no arquivo por meio do modelo para criar dados da campanha e a estrutura da conta, criando opcionalmente um arquivo de bulksheet para revisão ou para publicação imediata na rede de anúncios.
 
@@ -40,7 +40,7 @@ Crie modelos separados para texto e anúncios de texto expandidos/estendidos, an
 
 1. Siga um destes procedimentos:
 
-   * Para criar um modelo do zero, clique em **[!UICONTROL Create/Clone]** na barra de ferramentas acima da tabela de dados e selecione a rede de anúncios aplicável.
+   * Para criar um modelo com novas configurações, clique em **[!UICONTROL Create/Clone]** na barra de ferramentas acima da tabela de dados e selecione a rede de anúncios aplicável.
 
    * Para clonar um template existente:
 

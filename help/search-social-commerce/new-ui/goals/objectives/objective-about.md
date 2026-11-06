@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '556'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Sobre objetivos
@@ -74,7 +74,7 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-  * [[!DNL Google Ads] conversões &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
+  * [[!DNL Google Ads] conversões ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
 
   * (Anunciantes com [[!DNL Google Analytics] integrações](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Exibições de página, Sessões, Taxa de rejeição (calculada como rejeições/sessões) e Duração da sessão.
 
@@ -86,13 +86,13 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 ## Ações disponíveis
 
-* [Criar um objetivo](objective-create.md)
+* [Criar um objetivo](objective-create.md) ou [duplicar um objetivo existente](objective-create.md#objective-duplicate)
 
 * [Editar um objetivo](objective-edit.md)
 
 * [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
 
-* [Exportar uma configuração de objetivo para uma planilha  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
+* [Exportar uma configuração de objetivo para uma planilha  [!DNL Microsoft Excel] ](objective-export.md)
 
 * [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)
 

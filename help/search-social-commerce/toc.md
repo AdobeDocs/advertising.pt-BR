@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
       + [Renomear um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [Alterar o status de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Configurações do Portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [Executar uma simulação personalizada a partir da exibição [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [Executar e baixar simulações da exibição [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [Exibir um gráfico de desempenho na exibição [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [Exibir detalhes de desempenho do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [Exibir o histórico de alterações de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)

@@ -1,6 +1,6 @@
 ---
 title: Baixar simulações
-description: Saiba como baixar simulações em um arquivo de planilha.
+description: Saiba como baixar simulações como arquivos de planilha individuais ou combinados.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '242'
 ht-degree: 0%
 ---
 # Baixar simulações
@@ -40,20 +40,31 @@ ht-degree: 0%
 
 *recurso do Beta*
 
-É possível baixar os dados de várias simulações de uma vez em um arquivo no formato ZIP. O arquivo inclui uma pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX) para cada simulação selecionada.
+É possível baixar até 10 simulações semanais ou personalizadas de cada vez no modo de exibição [!UICONTROL Simulations]. Uma única simulação foi baixada como uma pasta de trabalho [!DNL Microsoft Excel] (arquivo XLSX). Para várias simulações, é possível baixar uma pasta de trabalho combinada ou um arquivo ZIP contendo uma pasta de trabalho separada para cada simulação.
+
+O download de simulações requer acesso à exibição [!UICONTROL Simulations] com a permissão [!UICONTROL View Simulation].
 
 >[!NOTE]
 >
 >* Você também pode [exibir os resultados da simulação na tela](simulation-view.md).
 >* Você pode [personalizar a [!UICONTROL Simulations] visualização](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) para incluir colunas para muitas métricas adicionais e a maioria das configurações de simulação. Consulte a seção &quot;Ações disponíveis&quot; em &quot;[Sobre simulações](simulation-about.md#simulations-actions)&quot; para obter mais informações sobre as colunas que você pode incluir.
+>* Você também pode [baixar simulações semanais para até 100 portfólios a partir da [!UICONTROL Portfolios] visualização](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations).
 
 1. No menu principal, clique em **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-1. Marque as caixas de seleção ao lado das simulações que deseja baixar.
+1. Marque as caixas de seleção ao lado de até 10 simulações que você deseja baixar.
 
-1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") **[!UICONTROL Simulation Report]**.
+   Selecione somente simulações com status [!UICONTROL Successful]. Se alguma simulação selecionada tiver status de [!UICONTROL Failed], [!UICONTROL Queued] ou [!UICONTROL In Progress], nenhum download será iniciado. Limpe essas seleções antes de baixar.
 
-   O arquivo é baixado de acordo com o procedimento normal do navegador. Descompacte o arquivo ZIP para exibir as simulações.
+1. Na barra de ferramentas acima da tabela de dados, clique em **[!UICONTROL Download Simulation]**.
+
+1. (Quando várias simulações forem selecionadas) Selecione uma opção de download:
+
+   * **[!UICONTROL Download as Single File]**: Baixe uma pasta de trabalho contendo todas as simulações selecionadas.
+
+   * **[!UICONTROL Download as Multiple Files]**: baixe um arquivo ZIP contendo uma pasta de trabalho separada para cada simulação selecionada.
+
+O arquivo é baixado de acordo com o procedimento normal do navegador. Se você baixar um arquivo ZIP, descompacte-o para exibir as pastas de trabalho.
 
 >[!MORELIKETHIS]
 >

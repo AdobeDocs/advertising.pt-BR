@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # Criar um modelo de relatório
 
-É possível salvar vários modelos de relatório para qualquer tipo de relatório de desempenho. É possível criar um modelo do zero ou baseá-lo em um modelo existente. É possível manter até 100 modelos por vez.
+É possível salvar vários modelos de relatório para qualquer tipo de relatório de desempenho. Você pode criar um modelo com novas configurações ou baseá-lo em um modelo existente. É possível manter até 100 modelos por vez.
 
-* Para criar um modelo do zero, siga um destes procedimentos:
+* Para criar um modelo com novas configurações, siga um destes procedimentos:
 
   * Na guia [!UICONTROL Reports], crie um relatório, marcando a caixa de seleção ao lado de **[!UICONTROL Save as template]**, que está ao lado do nome do relatório.
 

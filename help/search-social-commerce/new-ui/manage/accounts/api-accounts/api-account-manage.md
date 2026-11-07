@@ -9,19 +9,64 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b568da9300e9adb8d189811c3c8b52516dfcef6f
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '3141'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Gerenciar contas de rede de anúncios por meio da conexão de API
 
-<!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-A seguir estão instruções para gerenciar contas de rede de anúncios que o Search, Social e Commerce sincroniza usando a API da rede de anúncios.
+Estas instruções explicam como gerenciar contas de rede de anúncios que o Search, Social e Commerce sincroniza por meio da API, incluindo autenticação, atualização de conexão e verificações de status.
 
-<!-- Move out info about Naver into a separate page -->
+Para criar, editar ou reautenticar contas, é necessário ter permissão para editar contas.
 
 Para obter detalhes sobre a funcionalidade disponível para cada rede de anúncios, consulte &quot;[Inventário Suportado](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
+## Sobre a exibição [!UICONTROL Accounts] {#account-view-about}
+
+A exibição [!UICONTROL Manage] > [!UICONTROL Accounts] lista todas as contas de rede de anúncios na exibição filtrada para a conta de anunciante selecionada. Clique em um nome de conta para abrir a exibição [!UICONTROL Campaigns] filtrada para essa conta.
+
+### Status de autenticação e acesso da conta {#authentication-status}
+
+Os detalhes de autenticação e acesso variam de acordo com a rede de publicidade e as informações disponíveis para a conta. Uma conta habilitada ou autenticada com êxito ainda pode ter permissões ausentes.
+
+As colunas a seguir mostram o status da conta, a autenticação e os detalhes de acesso:
+
+* **[!UICONTROL Status]:** O status operacional da conta, que é separado de sua autenticação e permissões. Uma conta habilitada pode sincronizar dados com a rede de anúncios e usar recursos de gerenciamento e otimização de conta compatíveis. Uma conta desativada interrompe a atividade no Search, Social e Commerce. A exibição do status da conta usa um indicador verde para **[!UICONTROL Enabled]**, um indicador vermelho para **[!UICONTROL Disabled]** e um indicador âmbar para **[!UICONTROL Pending]**. Você pode [habilitar ou desabilitar contas](#enable-disable-account) da exibição ou das configurações da conta.
+
+* **[!UICONTROL Authenticated]:** Se a conta está autenticada:
+
+  * **[!UICONTROL Yes]:** A conta está autenticada.
+
+  * **[!UICONTROL No]:** A conta não está autenticada. Quando um erro de autenticação estiver disponível, mantenha o cursor sobre o ícone de aviso vermelho para exibir o erro.
+
+  * **[!UICONTROL Not Applicable]:** A autenticação não se aplica porque você carrega dados para a conta em vez de se conectar por meio de uma API.
+
+  * **[!UICONTROL Expiring in N days]**, **[!UICONTROL Expiring today]** ou **[!UICONTROL Expired]:** Um aviso de expiração de token substitui **[!UICONTROL Yes]** quando as informações de expiração estão disponíveis e o token expira em 14 dias ou menos ou já expirou. Clique no ícone de aviso para exibir os detalhes de acesso da conta e [autenticar novamente](#reauthenticate).
+
+* **[!UICONTROL Manager Account for Cross-Account Conversions]:** (somente contas [!DNL Google Ads]) A identificação da conta de gerente associada usada para carregamentos de conversão entre contas. Quando um erro está disponível para a conta do gerente, um ícone de aviso é exibido ao lado da ID. Para visualizar o erro, mantenha o cursor sobre o ícone. As credenciais da conta de gerente são separadas das credenciais da conta da rede de publicidade. Para adicionar ou atualizar credenciais de conta de gerente, use **[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**. Consulte &quot;[Gerenciar contas de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)&quot;.
+
+* **[!UICONTROL Access Level]:** O nível de acesso da conta reportada, como **[!UICONTROL Full]**, **[!UICONTROL Limited]**, **[!UICONTROL None]** ou **[!UICONTROL Not Applicable]** quando não há um valor de nível de acesso disponível.
+
+  Quando as permissões estiverem ausentes, clique no ícone de aviso para exibir os detalhes de acesso da conta. A seção **[!UICONTROL Access]** lista permissões como **[!UICONTROL Granted]** ou **[!UICONTROL Missing]**. Quando os detalhes do impacto estiverem disponíveis, a seção **[!UICONTROL Not working]** listará a funcionalidade afetada. Para [autenticar novamente](#reauthenticate) e atualizar permissões, clique em **[!UICONTROL Update Access]**.
+
+### Ações disponíveis
+
+As ações disponíveis dependem das suas permissões e do tipo de conta.
+
+* [Criar detalhes da conta de rede de publicidade](#create-account)
+
+* [Editar detalhes da conta de rede de publicidade](#edit-account)
+
+* [Autenticar novamente uma conta de rede de publicidade](#reauthenticate)
+
+* [Ativar ou desativar contas de rede de publicidade](#enable-disable-account)
+
+* [Sincronizar dados da conta com a rede de publicidade](sync-api-accounts.md)
+
+* [Exibir um gráfico de desempenho na exibição [!UICONTROL Accounts]](#account-performance-graph)
+
+* [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Accounts]](#account-reports)
 
 ## Criar detalhes da conta de rede de publicidade {#create-account}
 
@@ -35,11 +80,17 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 
 1. Clique em **[!UICONTROL Create Account]**.
 
-1. Clique no nome da rede de publicidade e clique em **[!UICONTROL Next]**.
+1. Clique no nome da rede de publicidade para abrir a configuração da conta.
 
-1. (Todas as redes de anúncios, exceto [!DNL ChatGPT Ads] e [!DNL Yandex]) Faça logon na rede de anúncios usando as credenciais do anunciante. Selecione a opção &quot;Rastreamento de conta para esta conta&quot;. Em seguida, no canto superior direito, clique em **[!UICONTROL Next]**.
+1. (Todas as redes de anúncios, exceto [!DNL ChatGPT Ads] e [!DNL Yandex]) Na guia **[!UICONTROL Authenticate]**, conclua o logon na janela pop-up usando as credenciais do anunciante e conceda acesso à conta solicitada.
 
-1. Especifique as [configurações da conta](#account-settings-api) em cada guia disponível.
+   A tela de instalação é atualizada automaticamente e exibe **[!UICONTROL Authentication Successful]** quando a autenticação é bem-sucedida. Se precisar reabrir a janela de logon, clique em **[!UICONTROL Open login again]**. Se o navegador bloquear a janela, edite as configurações do navegador para permitir pop-ups para o site.
+
+   Para [!DNL Meta Ads], um aviso identifica as permissões ausentes e seu impacto. Autenticação bem-sucedida não significa necessariamente que todas as permissões solicitadas foram concedidas.
+
+   Clique em **[!UICONTROL Next]** para continuar.
+
+1. Especifique as [configurações da conta](#account-settings-api) em cada guia disponível. Para contas autenticadas em um pop-up, selecione a conta a ser sincronizada de **[!UICONTROL Linked Ad Accounts]** na guia **[!UICONTROL Select Accounts]**.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -47,7 +98,7 @@ Para habilitar a sincronização de uma conta, você deve criar um registro de c
 
 ## Editar detalhes da conta de rede de publicidade {#edit-account}
 
-Para autenticar novamente as configurações da conta para atualizar a conexão ou as permissões de atualização, habilite ou desabilite a atividade em uma conta, altere os parâmetros de rastreamento padrão em uma conta ou altere os conjuntos de relatórios [!DNL Analytics] a serem usados para rastreamento e relatórios, e edite os detalhes da conta.
+Para habilitar ou desabilitar a atividade em uma conta, alterar os parâmetros de rastreamento padrão em uma conta ou alterar os conjuntos de relatórios [!DNL Analytics] a serem usados para rastreamento e relatórios, edite os detalhes da conta. Para atualizar a conexão ou as permissões de atualização, você pode [autenticar novamente a conta](#reauthenticate) nas configurações da conta ou no modo de exibição [!UICONTROL Accounts].
 
 >[!NOTE]
 >
@@ -71,7 +122,7 @@ Para autenticar novamente as configurações da conta para atualizar a conexão 
 
 ## Autenticar novamente uma conta de rede de publicidade {#reauthenticate}
 
-*Não aplicável a [!DNL ChatGPT Ads] contas*
+*Para contas que usam autenticação pop-up; não aplicável a [!DNL ChatGPT Ads] ou [!DNL Yandex] contas*
 
 Para atualizar a conexão de rede de publicidade ou as permissões de atualização da conta, autentique novamente a conta.
 
@@ -79,17 +130,21 @@ Para atualizar a conexão de rede de publicidade ou as permissões de atualizaç
 
 1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-<!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
+1. Abra a autenticação de uma das seguintes maneiras:
 
-1. Selecione a conta de uma das seguintes maneiras:
+   * (Quando o valor **[!UICONTROL Authenticated]** da conta for **[!UICONTROL No]**) Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Re authenticate]**, quando disponível.
 
-   * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
+   * (Quando um aviso de expiração de token for exibido) Clique no ícone de aviso na coluna **[!UICONTROL Authenticated]** e clique em **[!UICONTROL Reauthenticate]**.
 
-   * Mantenha o cursor sobre o nome da conta, clique em **...** e em **[!UICONTROL Edit]**.
+   * (Quando as permissões estiverem ausentes) Clique no ícone de aviso na coluna **[!UICONTROL Access Level]** e clique em **[!UICONTROL Update Access]**.
 
-1. Na guia **[!UICONTROL Account Details]**, clique em **[!UICONTROL Re authenticate]** e faça logon na rede de publicidade usando as credenciais do anunciante.
+   * (Nas configurações da conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa, ou mantenha o cursor sobre o nome da conta, clique em **...** e clique em **[!UICONTROL Edit]**. Na guia **[!UICONTROL Account Details]**, em **[!UICONTROL Account Authentication]**, clique em **[!UICONTROL Re authenticate]**.
 
-1. Clique em **[!UICONTROL Save]**.
+1. Conclua o logon na janela pop-up usando as credenciais do anunciante e conceda acesso à conta solicitada.
+
+   O novo token de acesso é salvo automaticamente quando a reautenticação é bem-sucedida. Se você também alterar outras configurações da conta, clique em **[!UICONTROL Save]** para salvar essas alterações.
+
+   Para [!DNL Meta Ads], uma mensagem de informação identifica todas as permissões que ainda estão ausentes após a reautenticação bem-sucedida. Para identificar a funcionalidade afetada, reveja os [detalhes de acesso](#authentication-status).
 
 ## Ativar ou desativar contas de rede de publicidade {#enable-disable-account}
 
@@ -101,9 +156,9 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
    * (Da exibição [!UICONTROL Accounts]):
 
-     * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Activate]** na barra de ferramentas de ações em massa.
+     * (Para habilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Enable]** na barra de ferramentas de ações em massa.
 
-     * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Pause]** na barra de ferramentas de ações em massa.
+     * (Para desabilitar a conta) Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Disable]** na barra de ferramentas de ações em massa.
 
    * (Nas configurações da conta):
 
@@ -113,20 +168,83 @@ Quando você habilita uma conta de rede de publicidade, o Search, Social e Comme
 
         * Marque a caixa de seleção ao lado do nome da conta e clique em **[!UICONTROL Edit]** na barra de ferramentas de ações em massa.
 
-     1. Na guia **[!UICONTROL Account Details]**, desative o **[!UICONTROL Account enabled]**.
+     1. Na guia **[!UICONTROL Account Details]**, ative **[!UICONTROL Account Enabled]** para habilitar a conta, ou desative-a para desabilitá-la.
 
      1. Clique em **[!UICONTROL Save]**.
+
+## Exibir um gráfico de desempenho na exibição [!UICONTROL Accounts] {#account-performance-graph}
+
+Abra e configure um gráfico de desempenho com até três métricas totalizadas em contas na exibição filtrada para o intervalo de datas e a moeda especificados.
+
+### Exibir um gráfico de desempenho
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Especifique o intervalo de datas e aplique filtros para as contas cujo desempenho deseja exibir.
+
+1. Acima da tabela de dados, clique em ![Gráficos](/help/search-social-commerce/assets/charts.png "Gráficos").
+
+1. (Opcional) Use **[!UICONTROL Currency]** e **[!UICONTROL Metrics]** para especificar a moeda e até três métricas a serem incluídas no gráfico.
+
+### Ocultar um gráfico de desempenho visível
+
+* Acima da tabela de dados, clique em ![Gráficos](/help/search-social-commerce/assets/charts.png "Gráficos").
+
+## Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Accounts] {#account-reports}
+
+Gere um relatório que inclua as linhas de dados de uma ou mais contas na exibição [!UICONTROL Accounts] e baixe o relatório como um arquivo de planilha do Microsoft Excel (formato XLSX). O relatório inclui as colunas visíveis na exibição para o intervalo de datas especificado.
+
+É possível excluir relatórios concluídos e relatórios que não foram gerados.
+
+### Gerar um relatório com as linhas de dados filtradas
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Especifique o intervalo de datas e aplique filtros para os dados que deseja baixar.
+
+1. Especifique as contas cujos dados você deseja baixar:
+
+   * Para baixar dados de contas específicas, marque as caixas de seleção ao lado das contas.
+
+   * Para baixar dados de todas as contas na exibição filtrada, deixe todas as caixas de seleção desmarcadas.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+
+1. Na caixa de diálogo [!UICONTROL Grid Reports], mantenha o **[!UICONTROL Report Name]** padrão ou insira outro nome e clique em **[!UICONTROL Generate]**.
+
+   O relatório é adicionado à lista **[!UICONTROL Recently Generated]**.
+
+1. (Opcional) Para baixar o arquivo após sua conclusão, clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") ao lado do nome do arquivo.
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+### Baixar um relatório concluído
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+
+1. Na lista **[!UICONTROL Recently Generated]** da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Baixar](/help/search-social-commerce/assets/download.png "Baixar") ao lado do nome do arquivo.
+
+   O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+### Excluir um relatório
+
+1. No menu principal, clique em **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Baixar Relatório](/help/search-social-commerce/assets/download.png "Baixar Relatório") **[!UICONTROL Reports]**.
+
+1. Na lista **[!UICONTROL Recently Generated]** da caixa de diálogo [!UICONTROL Grid Reports], clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir") ao lado do nome de um relatório concluído ou de um relatório que não foi gerado.
+
+1. Confirme a exclusão.
 
 ## Adicionar configurações de conta de rede {#account-settings-api}
 
 As configurações da conta variam de acordo com a rede de anúncios. Talvez você não veja todas as configurações abaixo.
 
-<!--
- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+### Guia [!UICONTROL Authenticate]
 
-### Authenticate tab
-
--->
+(Visível enquanto você cria uma conta que usa autenticação pop-up) Conecte-se à rede de anúncios usando as credenciais do anunciante. A guia exibe o status da conexão e inclui **[!UICONTROL Open login again]** para reabrir o pop-up de logon.
 
 ### Guia [!UICONTROL Select Accounts]/[!UICONTROL Account Details]
 
@@ -136,7 +254,7 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 >
 >Se você tiver uma integração Search, Social e Commerce-Adobe Analytics e alterar o nome da conta de pesquisa, peça à sua Equipe de conta da Adobe para atualizar o mapeamento.
 
-**[!DNL [Contas de Rede de Anúncios]]:** (Visível enquanto você está criando uma conta) A conta de rede de anúncios a ser sincronizada.
+**[!UICONTROL Linked Ad Accounts]:** (Visível enquanto você cria uma conta que usa autenticação pop-up) A conta da rede de anúncios a ser sincronizada. Escolha entre as contas publicitárias vinculadas ao logon na rede.
 
 **[Detalhes de Logon]:** (somente contas [!DNL Yandex]) As credenciais de conta a serem usadas:
 
@@ -150,7 +268,7 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 
 * **[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] contas com a configuração Conta Compartilhada somente desabilitada; opcional) A ID numérica da campanha usada para pagar todas as campanhas de publicidade na conta.
 
-* **[!UICONTROL Finance Token]:** ([!DNL Yandex] contas com a configuração Conta Compartilhada somente desabilitada; opcional) O token de desenvolvedor a ser usado para chamadas de API relacionadas a finanças, como para realocar dinheiro da carteira entre as campanhas do anunciante, conforme necessário para otimização de portfólio.
+* **[!UICONTROL Finance Token]:** ([!DNL Yandex] contas com a configuração Conta Compartilhada somente desabilitada; opcional) O token de desenvolvedor para chamadas de API relacionadas a finanças, como realocação de dinheiro entre campanhas de anunciante para otimização de portfólio.
 
 **[!UICONTROL Currency]:** (Somente leitura) A abreviação da moeda usada na conta. Esse valor é preenchido automaticamente com a moeda configurada para a conta na rede de publicidade depois que você salva o registro.
 
@@ -160,11 +278,13 @@ As configurações da conta variam de acordo com a rede de anúncios. Talvez voc
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** O Search, Social e Commerce sincroniza dados de campanha com a conta (quando há suporte) e envia ofertas automatizadas e/ou orçamentos de campanha para campanhas em portfólios.
 
+**[!UICONTROL Account Authentication]> [!UICONTROL Re authenticate]:** (Visível enquanto você está editando uma conta que usa autenticação pop-up) Atualiza a conexão ou atualiza as permissões da conta. O novo token de acesso é salvo automaticamente quando a reautenticação é bem-sucedida.
+
 ## Guia [!UICONTROL Setup Tracking]
 
 <!-- This should be the name of the whole left side of options -- they're all enabled/disabled depending on whether you enable our tracking -->
 
-**[!UICONTROL Search, Social, & Commerce Tracking]:** Se o rastreamento deve ser habilitado ou não, use o serviço de rastreamento de conversão do Adobe Advertising. Esse método gera IDs exclusivas de rastreamento de cliques e redireciona os usuários para o servidor do Adobe Advertising para fins de rastreamento antes de enviá-los para a página inicial do cliente. Esse método tem opções de rastreamento padrão que você pode personalizar opcionalmente e também pode especificar parâmetros para anexar a cada URL.
+**[!UICONTROL Search, Social, & Commerce Tracking]:** Habilita ou não o rastreamento usando o serviço de rastreamento de conversão do Adobe Advertising. Esse método gera IDs exclusivas de rastreamento de cliques e redireciona os usuários para o servidor do Adobe Advertising para fins de rastreamento antes de enviá-los para a página inicial do cliente. Esse método tem opções de rastreamento padrão que você pode personalizar opcionalmente e também pode especificar parâmetros para anexar a cada URL.
 
 Para habilitar este recurso, ative **[Habilitar o rastreamento]**.
 
@@ -186,11 +306,11 @@ Para habilitar este recurso, ative **[Habilitar o rastreamento]**.
 
 **[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
 
-Os URLs de rastreamento são atualizados diariamente apenas para entidades que estão fora de sincronia (ou seja, novas entidades que foram adicionadas e entidades existentes cujas propriedades foram alteradas). Portanto, se você alterar essa configuração de desativado para ativado para um anunciante/conta/campanha existente, os URLs de rastreamento não serão atualizados para entidades existentes que já estão em sincronia. Para adicionar rastreamento aos URLs de entidades existentes em sincronia, entre em contato com a equipe de conta da Adobe e solicite um processo de sincronização manual e único. O processo de upload automático lidará com alterações futuras.
+Os URLs de rastreamento são atualizados diariamente apenas para entidades que estão fora de sincronia (ou seja, novas entidades que foram adicionadas e entidades existentes cujas propriedades foram alteradas). Portanto, se você alterar essa configuração de desativado para ativado para um anunciante/conta/campanha existente, os URLs de rastreamento não serão atualizados para entidades existentes que já estão em sincronia. Para adicionar rastreamento aos URLs de entidades existentes em sincronia, entre em contato com a equipe de conta da Adobe e solicite um processo de sincronização manual e único. O processo de upload automático lida com alterações futuras.
 
 **[!UICONTROL URL Encoding]:** (Quando o rastreamento Search, Social, &amp; Commerce está habilitado; contas somente com URLs de destino) Codifica a URL base dentro da barra de endereços do navegador do usuário final (como `%3D` em vez de `=`):
 
-**[!UICONTROL Tracking Level]:** (Quando o rastreamento de Pesquisa, Social e &amp; Commerce está habilitado; disponível nos níveis de conta e campanha; não aplicável a redes de anúncios habilitadas para rastreamento paralelo) O nível no qual os cliques e as receitas devem ser rastreados adicionando um redirecionamento (quando relevante) e anexando parâmetros às URLs relevantes:
+**[!UICONTROL Tracking Level]:** (Quando o rastreamento Search, Social, &amp; Commerce está habilitado; disponível nos níveis de conta e campanha; não aplicável a redes de anúncios habilitadas para rastreamento paralelo) O nível no qual rastrear cliques e receita adicionando um redirecionamento e anexando parâmetros às URLs relevantes:
 
 * *[!UICONTROL Keyword]:* Para rastrear dados somente no nível da palavra-chave. Não disponível para [!DNL Yandex].
 
@@ -225,7 +345,7 @@ As contas que usam o rastreamento de cliques do Adobe Advertising devem incluir 
 
 >[!NOTE]
 >
->* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta da Adobe deverá trabalhar com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
+>* Para [!DNL Google Ads], evite usar macros, que não são substituídas por cliques de fontes que habilitam o rastreamento paralelo. Se o anunciante precisar usar macros, a Equipe de conta da Adobe trabalhará com o Suporte ao cliente ou a equipe de implementação para adicioná-las.
 >* O modelo de rastreamento no nível mais granular substitui os valores em todos os níveis superiores. Por exemplo, se as configurações da conta e as configurações de palavra-chave incluírem um valor, o valor da palavra-chave será aplicado.
 >* Se você atualizar um modelo de rastreamento no nível de anúncio, link do site ou palavra-chave, os anúncios relevantes serão reenviados para revisão. É possível atualizar os modelos de rastreamento nos níveis de conta, campanha ou grupo de anúncios sem reenviar os anúncios para aprovação.
 

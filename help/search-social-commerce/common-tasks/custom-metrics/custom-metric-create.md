@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Criar uma métrica personalizada
 
 ## (Nova interface do usuário) Criar uma métrica personalizada a partir de uma exibição de gerenciamento
 
-*Disponível nas visualizações [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
+*Disponível na maioria das exibições de entidade no menu [!UICONTROL Manage],<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] e [!UICONTROL Constraints], e [!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. Acima da tabela de dados, siga um destes procedimentos:
 

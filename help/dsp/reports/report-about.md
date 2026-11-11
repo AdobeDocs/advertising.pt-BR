@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # Sobre relatórios personalizados
@@ -120,11 +120,10 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
     Os dados são exibidos para cada comprimento de caminho de até 10; os dados para comprimentos de caminho superiores a 10 são agrupados.
 
-  * **[!UICONTROL Segment]:** Use este modelo pré-preenchido para ver as métricas principais por segmento.
+  * **[!UICONTROL Segment]:** Use este modelo pré-preenchido para avaliar o desempenho por segmento de público-alvo direcionado. O relatório inclui o nome, a descrição e a chave do segmento, além do nome do provedor do segmento. É possível incluir métricas de conversão e dados de meta personalizados, mas não frequência ou métricas de nível doméstico.
 
     >[!NOTE]
-    >
-    >* Este relatório tem como objetivo mostrar o desempenho de diferentes segmentos direcionados. Ele usa dados de associação de segmento. Quando uma impressão é transmitida a uma pessoa ou dispositivo pertencente a dois ou mais segmentos direcionados, este relatório inclui uma linha para cada segmento. Por esse motivo, os totais neste relatório podem não corresponder à entrega real.
+    >* Uma impressão que corresponde a vários segmentos é atribuída a todos os segmentos correspondentes, com uma linha para cada segmento. Da mesma forma, todas as métricas padrão de gasto e desempenho para a impressão são atribuídas a todos os segmentos correspondentes. Por esse motivo, as métricas para as linhas de segmento combinadas podem somar mais do que os totais da campanha.
     >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis a partir de 1 de junho de 2018.
 
   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.

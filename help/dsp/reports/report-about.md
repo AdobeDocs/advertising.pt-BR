@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1745'
 ht-degree: 0%
 ---
 # Sobre relatórios personalizados
 
-Relatórios personalizados permitem personalizar o conteúdo e a entrega dos dados de relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou geografia) e as métricas mais importantes para você. Você pode:
+Relatórios personalizados permitem personalizar os dados do relatório usando as dimensões da campanha (como anunciante, posicionamento, sites ou geografia) e as métricas mais importantes para você. Você pode:
 
-* Configure completamente relatórios de desempenho de campanha em nível detalhado.
+* Configure relatórios de desempenho da campanha detalhadamente.
 
 * Escolha entre modelos de relatório pré-configurados e, como opção, personalize-os ainda mais.
 
@@ -59,13 +59,13 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
   * **[!UICONTROL All-in Cost]**: (anunciantes somente com o Advertising Creative e o Advertising DSP) Use este relatório para ver quanto o Advertising DSP gastou foi atribuído à veiculação de anúncios do Adobe Creative. Você pode exibir dados criativos, de atributos, de público-alvo e outros dados nos níveis de campanha, pacote, posicionamento e anúncio.
 
-  * **[!UICONTROL Billing]:** use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia por campanha. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+  * **[!UICONTROL Billing]:** use este relatório para entender as principais métricas de cobrança, como as métricas de gastos para cobrança de mídia, por campanha. Você pode visualizar os detalhes por data e pelos atributos de cada pacote, voo, posicionamento, segmento, feed ou dispositivo incluído. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
     >[!NOTE]
     >
-    >Este relatório inclui dados sobre o segmento de faturamento. Se um usuário ou dispositivo receber uma impressão que pertença a vários segmentos, somente um segmento faturável será creditado com a impressão.
+    >Este relatório é baseado nos segmentos aos quais as impressões são atribuídas. Quando um usuário ou dispositivo recebe uma impressão que pertence a vários segmentos, somente um segmento é creditado com a impressão, e o gasto soma o total real (faturado).
 
-  * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os sinais de conteúdo são transmitidos pelos editores durante a transmissão de ofertas e estão sujeitos à disponibilidade.
+  * **[!UICONTROL Content]:** use este relatório para entender a entrega de impressões e outras métricas por dimensões de conteúdo especificadas (como gênero, qualidade de produção e classificação de conteúdo), de modo que você possa otimizar o direcionamento e garantir a segurança da marca. Além das dimensões de conteúdo, o relatório inclui a maioria das dimensões, métricas e filtros padrão. Os dados por dimensão de conteúdo estão disponíveis para [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Os editores transmitem sinais de conteúdo durante o fluxo de lances, sujeito à disponibilidade.
 
   * **[!UICONTROL Conversion]:** Use este relatório para entender o desempenho de suas campanhas com base em métricas de conversão capturadas com o rastreamento de conversão do Adobe Advertising. Este relatório inclui atribuição multitoque.
 
@@ -73,7 +73,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
   * **[!UICONTROL Device]:** Use este modelo pré-preenchido para ver as métricas principais por dimensões relacionadas ao dispositivo.
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este relatório para ver a contribuição da Advertising DSP para conversões, incluindo jornadas de clientes nas quais a DSP desempenhou uma função, mas teve um contato posterior, como um clique de pesquisa do Adobe Advertising, recebeu crédito de último clique em outros relatórios. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este relatório para ver a contribuição da Advertising DSP para conversões, incluindo jornadas de clientes nas quais a DSP desempenhou uma função, mas um contato posterior (como um clique de pesquisa do Adobe Advertising) recebeu crédito de último clique em outros relatórios. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações.
 
     **Importante:** este relatório não altera a atribuição ou a metodologia de atribuição existente nos relatórios do Adobe Analytics. Ela fornece uma visualização complementar específica do DSP da contribuição de conversão.
 
@@ -85,7 +85,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
     >* A frequência é estimada com base em uma amostra de dados.
     >* Para alguns inventários, os editores não transmitem um identificador de dispositivo, o que impede o rastreamento de frequência. Este relatório inclui somente impressões para as quais um identificador de dispositivo estava disponível.
 
-  * **[!UICONTROL Frequency (by App/Site)]:** Use este relatório para entender quantos usuários únicos seus anúncios atingiram por aplicativo ou por site. Você também pode ver quantos usuários únicos seus anúncios atingiram por meio de apenas um aplicativo ou site específico (&quot;usuários únicos distintos&quot;).
+  * **[!UICONTROL Frequency (by App/Site)]:** Use este relatório para entender o alcance dos seus anúncios por aplicativo ou site. Você também pode ver quantos usuários únicos seus anúncios atingiram por meio de apenas um aplicativo ou site específico (&quot;usuários únicos distintos&quot;).
 
     >[!NOTE]
     >
@@ -98,7 +98,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
 
   * **[!UICONTROL Household Reach & Frequency]:** use este relatório para ver as impressões, o alcance e a frequência de uma única dimensão em formatos de anúncio em um nível doméstico com base no endereço IP, em vez de em um nível de dispositivo/cookie. Use os insights para otimizar sua combinação de mídia, melhorar o desempenho e identificar oportunidades para alcance incremental. Consulte &quot;[Perguntas frequentes sobre relatórios personalizados](/help/dsp/reports/faq-reports.md)&quot; para obter mais informações. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
-  * **[!UICONTROL Margin]:** Use este relatório para ver as métricas principais, como margem, lucro e outras métricas de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
+  * **[!UICONTROL Margin]:** Use este relatório para ver a margem, o lucro e outras métricas principais de gastos por campanha ou posicionamento. Os dados não estão disponíveis para posicionamentos que direcionam IDs universais.
 
   * **[!UICONTROL Path to Conversion]:** use este relatório para identificar como otimizar orçamentos e personalizar anúncios com base em sequências de interação de anúncios de melhor desempenho. O relatório mostra a sequência de pontos de interação na mesma família que resultam em cada uma das métricas de conversão selecionadas no intervalo de dados especificado. O relatório usa um período de lookback especificado entre a primeira interação e uma conversão e pode incluir uma dimensão:
 
@@ -123,7 +123,7 @@ Você pode gerar relatórios uma vez ou agendá-los diariamente, semanalmente ou
   * **[!UICONTROL Segment]:** Use este modelo pré-preenchido para avaliar o desempenho por segmento de público-alvo direcionado. O relatório inclui o nome, a descrição e a chave do segmento, além do nome do provedor do segmento. É possível incluir métricas de conversão e dados de meta personalizados, mas não frequência ou métricas de nível doméstico.
 
     >[!NOTE]
-    >* Uma impressão que corresponde a vários segmentos é atribuída a todos os segmentos correspondentes, com uma linha para cada segmento. Da mesma forma, todas as métricas padrão de gasto e desempenho para a impressão são atribuídas a todos os segmentos correspondentes. Por esse motivo, as métricas para as linhas de segmento combinadas podem somar mais do que os totais da campanha.
+    >* Se uma impressão corresponder a vários segmentos, a impressão e todas as suas métricas padrão de gasto e desempenho serão atribuídas a cada segmento correspondente. As métricas para as linhas de segmento combinadas podem ser maiores que os totais da campanha.
     >* Métricas de conversão e dados de meta personalizados para segmentos estão disponíveis após 2 de agosto de 2019. Todos os outros dados para segmentos estarão disponíveis a partir de 1 de junho de 2018.
 
   * **[!UICONTROL Site]:** Por padrão, inclui métricas padrão, gasto líquido total de mídia e gasto líquido faturável total por site.
@@ -152,7 +152,7 @@ Você pode criar novos relatórios personalizados, editar relatórios existentes
 
 * **[!UICONTROL Ready to download]:** (Somente relatórios recorrentes) Uma ou mais instâncias do relatório estão disponíveis para download e mais instâncias de relatório estão agendadas.
 
-* **[!UICONTROL Failed]:** Falha no trabalho de relatório. Para ver por que as instâncias de relatório individuais falharam em um cabo de relatório, clique em ![seta para baixo](/help/dsp/assets/chevron-down.png "seta para baixo") ao lado de [!UICONTROL Download]. Os trabalhos de relatório com falha são indicados com um ícone de erro (![indicador de erro](/help/dsp/assets/indicator-critical.png "indicador de erro")). Mantenha o cursor sobre o ícone de erro para obter uma descrição do erro.
+* **[!UICONTROL Failed]:** Falha no trabalho de relatório. Para ver por que as instâncias de relatório individuais falharam em uma linha de relatório, clique em ![seta para baixo](/help/dsp/assets/chevron-down.png "seta para baixo") ao lado de [!UICONTROL Download]. Os trabalhos de relatório com falha são indicados com um ícone de erro (![indicador de erro](/help/dsp/assets/indicator-critical.png "indicador de erro")). Mantenha o cursor sobre o ícone de erro para obter uma descrição do erro.
 
 * **[!UICONTROL Completed]:** Para relatórios não recorrentes, o relatório foi concluído. Para relatórios recorrentes, todas as instâncias de relatório são concluídas. É possível baixar todos os relatórios concluídos nos últimos quatro meses.
 

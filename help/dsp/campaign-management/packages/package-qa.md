@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '721'
 ht-degree: 0%
 ---
 # Revisar e editar configurações de pacote usando bulksheets
@@ -61,7 +61,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * Na mensagem de notificação, clique em **[!UICONTROL Download].**
 
-   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+   * À direita da barra de menu superior, clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
      O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -87,7 +87,7 @@ Ao baixar configurações para pacotes específicos, o arquivo de bulksheet incl
 
    * Na mensagem de notificação, clique em **[!UICONTROL Download].**
 
-   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+   * À direita da barra de menu superior, clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
      O arquivo é salvo na pasta Downloads do navegador. Consulte &quot;[Colunas de posicionamento em bulksheets baixados/carregados](#qa-sheet-columns)&quot; para obter uma lista das colunas incluídas.
 
@@ -115,7 +115,7 @@ Você pode fazer upload das configurações dos pacotes, incluindo os posicionam
 
    1. Clique em **[!UICONTROL Upload]**.
 
-1. (Opcional) Para verificar se as atualizações foram processadas, clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
+1. (Opcional) Para verificar se as atualizações foram processadas, clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**) à direita da barra de menu superior.
 
 Quando qualquer atualização de configuração falhar, você pode baixar um arquivo de erro de bulksheet com codificação de cores para mostrar quais configurações (linhas) foram salvas e quais falharam, com um motivo para cada falha. Você pode então resolver os problemas no mesmo arquivo e carregá-lo novamente para processar as informações corrigidas.
 

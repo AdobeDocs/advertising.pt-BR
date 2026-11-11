@@ -1,6 +1,6 @@
 ---
 title: (Nova interface de usuário) Exibir detalhes de desempenho do portfólio
-description: Saiba como visualizar detalhes do desempenho do portfólio, incluindo métricas reais e previstas no nível de portfólio e para cada campanha atribuída.
+description: Saiba como visualizar o desempenho do portfólio, os detalhes da unidade de oferta de palavra-chave, as previsões e o histórico de ofertas, além de exportar o histórico de unidades de oferta no Adobe Advertising Search, Social e Commerce.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # (Nova interface de usuário) Exibir detalhes de desempenho do portfólio
@@ -58,7 +58,7 @@ A exibição detalhada do portfólio inclui as seguintes informações sobre um 
 
   * Guia [!UICONTROL History]: todos os lances nos últimos 36 dias, incluindo os seguintes dados para cada um dos lances: a data e a hora, as impressões, os cliques, o custo total, o CPC médio, a posição média e a receita ponderada mostrada pela data do clique. Os dados são exibidos para todos os dispositivos e para cada tipo de dispositivo (celular, computador e tablet).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * Guia [!UICONTROL Detail]: o tipo de correspondência (quando aplicável) e o grupo de publicidade principal, a campanha, a conta de rede de publicidade e o portfólio ao qual a unidade de oferta pertence.
+  * Guia [!UICONTROL Details]: a palavra-chave, o tipo de correspondência (quando aplicável) e o grupo de publicidade principal, a campanha, a conta de rede de publicidade e o portfólio ao qual a unidade de oferta pertence.
 
 ## Abrir detalhes de desempenho de um portfólio
 
@@ -126,7 +126,7 @@ Os detalhes sobre cada grupo de anúncios incluem o custo, cliques e valor do ob
 
 * Para exibir todos os grupos de anúncios em uma campanha no portfólio, clique na guia **[!UICONTROL Campaigns]** e, em seguida, clique no nome da campanha.
 
-## Listar e exibir detalhes sobre palavras-chave no portfólio
+## Listar e exibir detalhes sobre palavras-chave no portfólio {#bid-unit-details}
 
 Os detalhes de cada palavra-chave incluem a ID da unidade de oferta; o tipo de correspondência; o custo real e previsto, os cliques e o valor do objetivo; e a diferença entre o custo, o clique e o valor do objetivo. Você pode exibir detalhes da unidade de oferta sobre uma palavra-chave individual.
 
@@ -137,6 +137,20 @@ Os detalhes de cada palavra-chave incluem a ID da unidade de oferta; o tipo de c
    * Para exibir todas as palavras-chave em um grupo de anúncios dentro do portfólio, clique na guia **[!UICONTROL Ad Groups]** e, em seguida, clique no nome do grupo de anúncios.
 
 1. (Opcional) Para exibir detalhes sobre uma unidade de oferta específica, clique no valor na coluna **[!UICONTROL Bid Unit ID]**. Clique em qualquer guia no [!UICONTROL Bid Unit Details] para obter mais informações.
+
+### Exibir e baixar o histórico de uma unidade de oferta individual {#bid-unit-history}
+
+1. [Abra os detalhes da unidade de oferta](#bid-unit-details).
+
+1. Clique na guia **[!UICONTROL History]**.
+
+1. (Opcional) No menu de dispositivos acima da tabela, selecione um tipo de dispositivo cujo histórico deseja exibir. Por padrão, os dados de todos os dispositivos são exibidos.
+
+1. (Opcional) Quando os dados do histórico estiverem disponíveis, clique em **[!UICONTROL Export as csv]** para baixar o histórico exibido.
+
+O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+Para exibir o histórico de lances de todo o portfólio e alterar seu intervalo de datas, consulte &quot;[Exibir o histórico de alterações de lances de um portfólio](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;.
 
 ## Exibir e editar as configurações do portfólio
 

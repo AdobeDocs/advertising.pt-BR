@@ -1,6 +1,6 @@
 ---
 title: Gerenciar palavras-chave
-description: Saiba como criar e gerenciar palavras-chave licitáveis e negativas e atribuir restrições a palavras-chave.
+description: Saiba como gerenciar palavras-chave licitáveis e negativas, atribuir restrições e visualizar e baixar o histórico da unidade de oferta de palavra-chave no Adobe Advertising Search, Social e Commerce.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Gerenciar palavras-chave
@@ -53,11 +53,31 @@ A exibição [!UICONTROL Manage] > [!UICONTROL Keywords] inclui duas guias para 
 
 * [Alterar o status ou excluir palavras-chave e palavras-chave negativas](#keyword-status)
 
+* [Exibir e baixar o histórico da unidade de oferta](#bid-unit-history)
+
 * [Copiar todos os dados nas linhas selecionadas para a área de transferência](#copy-to-clipboard)
 
 * [Atribuir restrições a palavras-chave e cancelar atribuição de restrições a palavras-chave](#keyword-constraints)
 
 * [Atribuir classificações de etiquetas](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) a palavras-chave
+
+## Exibir e baixar o histórico da unidade de oferta {#bid-unit-history}
+
+Quando a coluna [!UICONTROL Bid Unit ID] estiver disponível na tabela de dados de palavra-chave, você poderá abrir o histórico da unidade de oferta diretamente da ID.
+
+1. No menu principal, clique em **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. Na guia **[!UICONTROL Keywords]**, clique no valor na coluna **[!UICONTROL Bid Unit ID]** para a palavra-chave.
+
+1. Na caixa de diálogo [!UICONTROL Bid Unit Details], clique na guia **[!UICONTROL History]**.
+
+1. (Opcional) No menu de dispositivos acima da tabela, selecione um tipo de dispositivo cujo histórico deseja exibir. Por padrão, os dados de todos os dispositivos são exibidos.
+
+1. (Opcional) Quando os dados do histórico estiverem disponíveis, clique em **[!UICONTROL Export as csv]** para baixar o histórico exibido.
+
+O arquivo é baixado de acordo com o procedimento normal do navegador.
+
+Você também pode abrir os [detalhes da unidade de oferta nos detalhes de desempenho de um portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). Para obter informações sobre as outras guias na caixa de diálogo, consulte &quot;[Exibir detalhes de desempenho do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)&quot;.
 
 ## Criar palavras-chave {#keyword-create}
 

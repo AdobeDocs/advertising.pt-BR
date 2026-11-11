@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # Revisar e editar detalhes do anúncio usando bulksheets
@@ -56,7 +56,7 @@ Uma mensagem de notificação indica quando o arquivo está disponível para dow
 
    * Na mensagem de notificação, clique em **[!UICONTROL Download].**
 
-   * À direita da barra de menu superior, clique em ![Trabalhos](/help/dsp/assets/downloads.png). Clique em **[!UICONTROL Download]** ao lado do trabalho.
+   * À direita da barra de menu superior, clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**). Clique em **[!UICONTROL Download]** ao lado do trabalho.
 
      O arquivo é salvo na pasta Downloads do navegador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

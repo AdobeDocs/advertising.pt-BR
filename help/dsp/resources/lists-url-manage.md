@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # Gerenciar listas de URLs
@@ -73,7 +73,7 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
      1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
 
-        1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
+        1. Clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**) à direita da barra de menu superior.
 
         1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
 
@@ -141,7 +141,7 @@ Você pode criar e gerenciar listas de URLs de sites e aplicativos para direcion
 
      1. Para ver o status da tarefa, incluindo o número de URLs adicionados e o número de valores com falha:
 
-        1. Clique em ![Trabalhos](/help/dsp/assets/downloads.png) à direita da barra de menu superior.
+        1. Clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**) à direita da barra de menu superior.
 
         1. (Se alguma linha não tiver sido adicionada) Para baixar um arquivo de erro com os valores de falha, clique em **[!UICONTROL Download]** ao lado do trabalho.
 

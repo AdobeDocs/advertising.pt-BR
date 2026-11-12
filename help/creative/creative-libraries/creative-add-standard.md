@@ -308,7 +308,7 @@ O [!DNL Creative] oferece suporte a marcas de anúncio para criações de exibi�
 
    * Linhas com status **[!UICONTROL Error]** não podem ser selecionadas ou importadas. Você pode importar as linhas válidas ou clicar em **[!UICONTROL Cancel]**, corrigir a planilha de origem e carregá-la novamente. Corrija nomes, dimensões ou tags ausentes e remova tags de vídeo ou caracteres sinalizados como não compatíveis.
 
-1. Clique em **[!UICONTROL Importar <N> criativas ]**, onde `<N>` é o número de criativas selecionadas. Para um único criativo, clique em **[!UICONTROL Import 1 creative]**.
+1. Clique em **[!UICONTROL Importar <N> criativas &#x200B;]**, onde `<N>` é o número de criativas selecionadas. Para um único criativo, clique em **[!UICONTROL Import 1 creative]**.
 
    A caixa de diálogo é fechada e uma notificação confirma que a importação foi iniciada. Os componentes de criação são exibidos na biblioteca após a conclusão do processamento.
 

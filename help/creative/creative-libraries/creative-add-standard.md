@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # Adicionar criações padrão a uma biblioteca criativa
@@ -241,15 +241,32 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Clique em **[!UICONTROL Create]**.
 
-## Adicionar um criativo de terceiros a uma biblioteca criativa {#creative-add-third-party}
+## Adicionar criações de terceiros a uma biblioteca criativa {#creative-add-third-party}
 
-O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para criações hospedadas na maioria dos servidores de anúncios de terceiros.
+O [!DNL Creative] oferece suporte a marcas de anúncio para criações de exibição hospedadas em servidores de anúncios de terceiros. Na nova interface do usuário, você pode importar um ou mais elementos de criação de uma planilha de tráfico. A interface herdada permite inserir uma tag para um único criativo.
 
 ### Da nova interface
 
-1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+#### Preparar sua planilha de tráfico {#third-party-sheet-requirements}
 
-1. (Opcional) [Personalize a exibição](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+* Use um arquivo Excel (`.xlsx` ou `.xls`), CSV ou TSV de até 10 MB, com até 500 criações.
+
+* Para arquivos do Excel, coloque os elementos de criação na primeira planilha. Somente a primeira planilha é importada. Arquivos protegidos por senha não são suportados.
+
+* Use uma exportação de [!DNL Flashtalking] ou [!DNL Google Campaign Manager 360] ou prepare uma planilha genérica. A planilha deve corresponder ao layout do servidor de publicidade selecionado durante o upload.
+
+* Inclua um nome criativo, tamanho e tag de anúncio para cada criativo. Os nomes podem conter até 255 caracteres. Especifique dimensões em uma única coluna de tamanho (como `300x250`) ou em colunas separadas de largura e altura em exportações de fornecedor. Use [tamanhos de criação compatíveis](creative-sizes.md).
+
+* Para uma planilha genérica, use os cabeçalhos de coluna `Creative Name`, `Size` e `Ad Tag`. Você pode baixar um modelo CSV na caixa de diálogo de upload. Substitua a linha de exemplo por seus próprios dados criativos.
+
+>[!IMPORTANT]
+>
+>* O upload em massa é compatível apenas com tags de exibição. As tags Video e VAST não são compatíveis.
+>* O upload em massa armazena tags de anúncios conforme fornecido; ele não insere macros de rastreamento nem reescreve URLs de rastreamento durante a importação. Inclua qualquer [macro de rastreamento](/help/creative/creative-macros.md) necessária em suas marcas antes de carregar a planilha.
+
+#### Fazer upload e revisar os elementos de criação {#third-party-bulk-upload}
+
+1. No menu principal, clique em **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. Abra a biblioteca de uma das seguintes maneiras:
 
@@ -259,11 +276,43 @@ O [!DNL Creative] oferece suporte às marcas de rastreamento da JavaScript para 
 
 1. Na guia **[!UICONTROL Creatives]**, clique em **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
 
-1. Especifique a marca JavaScript e outras configurações para o criativo nas [configurações de criativo de terceiros](#creative-settings-third-party).
+   A caixa de diálogo **[!UICONTROL Bulk upload third-party tags]** é aberta.
 
-   Você pode copiar e colar qualquer uma das [macros disponíveis](/help/creative/creative-macros.md) na tag do JavaScript.
+1. Selecione o **[!UICONTROL Ad server]** que corresponde à sua planilha:
 
-1. Clique em **[!UICONTROL Create]**.
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   Você deve selecionar um servidor de publicidade antes de carregar um arquivo. O servidor de anúncios selecionado se aplica a todos os anúncios criativos na planilha; não é detectado a partir de tags individuais.
+
+1. (Opcional) Para preparar uma planilha genérica, clique em **[!UICONTROL Download CSV template]**, substitua os dados de exemplo pelas suas criações e salve o arquivo.
+
+1. Especifique a planilha de uma das seguintes maneiras:
+
+   * Arraste e solte o arquivo na caixa de upload.
+
+   * Clique em **[!UICONTROL select a file]** para localizar o arquivo no dispositivo ou na rede.
+
+   A planilha é carregada e analisada. Se o layout não corresponder ao servidor de anúncios selecionado, corrija a planilha ou selecione o servidor de anúncios correspondente e faça upload do arquivo novamente.
+
+1. Em **[!UICONTROL Review third-party creatives]**, revise o **[!UICONTROL Creative name]**, **[!UICONTROL Size]**, **[!UICONTROL Type]**, **[!UICONTROL Language]** e **[!UICONTROL Status]** para cada linha.
+
+   * Se a planilha incluir vários formatos de tag, selecione a guia referente à coluna de tag que deseja importar. O formato selecionado se aplica a todas as linhas, e as linhas sem tag nessa coluna não são exibidas. Alterar guias redefine a seleção para todas as linhas importáveis para esse formato.
+
+   * Todas as linhas importáveis são selecionadas por padrão. Desmarque a caixa de seleção ao lado de qualquer criativo que não deseja importar.
+
+   * (Opcional) Altere o **[!UICONTROL Language]** para criações individuais. O padrão é inglês.
+
+   * Linhas com status **[!UICONTROL Error]** não podem ser selecionadas ou importadas. Você pode importar as linhas válidas ou clicar em **[!UICONTROL Cancel]**, corrigir a planilha de origem e carregá-la novamente. Corrija nomes, dimensões ou tags ausentes e remova tags de vídeo ou caracteres sinalizados como não compatíveis.
+
+1. Clique em **[!UICONTROL Importar <N> criativas ]**, onde `<N>` é o número de criativas selecionadas. Para um único criativo, clique em **[!UICONTROL Import 1 creative]**.
+
+   A caixa de diálogo é fechada e uma notificação confirma que a importação foi iniciada. Os componentes de criação são exibidos na biblioteca após a conclusão do processamento.
+
+Para acompanhar a importação, clique em ![Gerenciador de Trabalhos](/help/creative/assets/job-manager.png "Gerenciador de Trabalhos") (**[!UICONTROL Job Manager]**) à direita da barra de menu superior. Se alguma linha falhar durante o processamento, clique em **[!UICONTROL Download failed rows]** para o trabalho de importação, corrija a planilha baixada e carregue-a novamente.
 
 ### Da interface herdada
 

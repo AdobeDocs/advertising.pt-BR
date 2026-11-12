@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # Sobre suas bibliotecas criativas
@@ -73,7 +73,7 @@ Os anúncios de exibição padrão incluem:
 
 ##### Criação do HTML5
 
-* **Experiências do GenStudio:** você pode importar todas as variantes de anúncios de uma [experiência de anúncio de exibição](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) no [GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/home) como criações individuais do HTML5. Links externos são convertidos em referências locais. O conteúdo do HTML pode ser de até 20 MB e imagens individuais de até 50 MB.
+* **Experiências do GenStudio:** você pode importar todas as variantes de anúncios de uma [experiência de anúncio de exibição](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) no [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) como criações individuais do HTML5. Links externos são convertidos em referências locais. O conteúdo do HTML pode ser de até 20 MB e imagens individuais de até 50 MB.
 
   Depois de importar uma experiência do GenStudio, você pode editar os metadados (nome, idioma, tags) do criativo importado, mas não do conteúdo criativo. Se você editar a experiência do GenStudio no GenStudio, reimporte a experiência no [!DNL Creative] para usar a versão mais recente.
 
@@ -91,7 +91,7 @@ Cada experiência de anúncio de exibição padrão requer uma criação de imag
 
 #### Criação de terceiros
 
-Insira tags de rastreamento do JavaScript para criadores hospedados em servidores de publicidade de terceiros. O script varia de acordo com o servidor de publicidade; veja a seguir um exemplo:
+[Adicione criações de exibição de terceiros](creative-add-standard.md#creative-add-third-party) hospedadas em servidores de anúncios externos carregando uma planilha de tráfico na nova interface ou inserindo uma marca JavaScript na interface herdada. O upload em massa aceita arquivos Excel, CSV e TSV. O script varia de acordo com o servidor de publicidade; veja a seguir um exemplo:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -101,7 +101,7 @@ Insira tags de rastreamento do JavaScript para criadores hospedados em servidore
 
 Você pode fazer upload de criações de vídeo primárias para a Web, dispositivos móveis ou TV conectada do seu dispositivo ou rede. Cada experiência de anúncio de vídeo exige um criativo de vídeo padrão para cada duração de criação atribuída à experiência. O DSP transcodifica automaticamente todas as criações de vídeo como tags VAST 2.0 para que você possa visualizá-las. No [!UICONTROL Tag Manager], você pode [aplicar transcodificação específica do DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualquer marca de experiência de vídeo e anúncios.
 
-Consulte os seguintes requisitos de criação de vídeo. **Observação:** para carregar experiências com vídeo para a Advertising DSP, consulte também os [Requisitos para Assets com Vídeo de Alta Definição](https://experienceleague.adobe.com/pt-br/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) da DSP, que podem ser mais limitados.
+Consulte os seguintes requisitos de criação de vídeo. **Observação:** para carregar experiências com vídeo para a Advertising DSP, consulte também os [Requisitos para Assets com Vídeo de Alta Definição](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) da DSP, que podem ser mais limitados.
 
 **Tipo de Arquivo:** .mov, .mp4, .webm
 

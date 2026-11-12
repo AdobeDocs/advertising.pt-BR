@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # Cerca de [!UICONTROL Creative Studio] em [!DNL Advertising Creative]
@@ -31,21 +31,31 @@ O [!UICONTROL Creative Studio] é um ambiente assistido por IA, no qual você po
 
 ## Principais recursos
 
-* **Geração de conteúdo de IA:** use o **[!UICONTROL Ad Variations Generator]** para gerar conceitos e variações de anúncios por meio de uma interface de chat em linguagem natural. O assistente de IA pode gerar títulos, subtítulos, CTAs, cópia do corpo e variações de imagem de fundo e criar novos modelos de tamanho na mesma sessão. Até 10 conceitos podem estar ativos por sessão.
+* **Criar e gerenciar modelos de anúncios:**
 
-* **Suporte para exibição e anúncio de vídeo:** crie e gerencie modelos de anúncio de exibição e modelos de anúncio de vídeo. Ao criar um modelo, escolha **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]** para corresponder ao formato da campanha.
+  * **Gerar a partir de texto usando IA:** [Gerar modelos de anúncio de exibição a partir de um prompt de texto](creative-studio-manage-templates.md#template-generate-from-text), incluindo, opcionalmente, um perfil de marca e uma imagem. Revise vários resultados e abra um modelo no editor para personalizar e salvar uma nova cópia.
 
-* **Carregamento de modelo do HTML5:** importe modelos de anúncios do HTML5 existentes carregando-os como arquivos ZIP. A caixa de diálogo **[!UICONTROL Import Templates]** permite atribuir um anunciante e um nome de modelo antes da importação.
+  * **Gerar a partir de uma imagem usando IA:** [Converter uma imagem de anúncio de exibição estática existente em um modelo editável](creative-studio-manage-templates.md#template-generate-from-image). Selecione um anúncio de imagem de uma Biblioteca da Creative, revise o modelo gerado e solicite alterações usando a linguagem natural. Abra o editor de modelo para fazer alterações manuais e salvar o modelo.
 
-* **Suporte a vários tamanhos:** redimensiona anúncios para dimensões padrão IAB em uma única etapa. A IA ajusta automaticamente a inserção de conteúdo e o dimensionamento para cada formato, e os controles da tela (aumentar/diminuir o zoom, ajustar à tela, repetir animações) ajudam a revisar cada tamanho.
+  * **Criar modelos de exibição e de anúncio de vídeo:** Crie e gerencie modelos de anúncio de exibição e de anúncio de vídeo. Ao criar um modelo, escolha **[!UICONTROL Display Ad Template]** ou **[!UICONTROL Video Ad Template]** para corresponder ao formato da campanha.
 
-* **Saídas alinhadas à marca**: Quando seu [perfil de marca](/help/creative/brands/brand-manage.md) é aplicado, a IA usa os logotipos, as paletas de cores, as diretrizes de voz, os padrões de imagem e as diretrizes de canal da sua marca para manter o conteúdo gerado na marca.
+  * **Importar modelos do HTML5:** importe modelos de anúncios existentes do HTML5 carregando-os como arquivos ZIP. A caixa de diálogo **[!UICONTROL Import Templates]** permite atribuir um anunciante e um nome de modelo antes da importação.
 
-* **Acesso à biblioteca de ativos:** anexe imagens e outros ativos diretamente às mensagens de chat da IA selecionando na biblioteca de ativos, mantendo o contexto visual disponível durante a geração de conteúdo.
+  * **Organizar modelos:** marque modelos como favoritos, aplique rótulos e filtre por status, formato ou origem para manter sua biblioteca de modelos organizada.
 
-* **Integração de feed:** para campanhas de anúncios dinâmicos, conecte um catálogo de produtos ou conteúdo para gerar anúncios em escala e, em seguida, use o agente de IA para filtrar, visualizar e verificar a qualidade de combinações de anúncios gerados pelo catálogo.
+* **Criar anúncios:**
 
-* **Organização do modelo:** marque modelos como favoritos, aplique rótulos e filtre por status, formato ou origem para manter sua biblioteca de modelos organizada.
+  * **Gerar conteúdo de anúncio padrão usando IA:** Use o **[!UICONTROL Ad Variations Generator]** para gerar variações e conceitos de anúncio por meio de uma interface de chat em linguagem natural. O assistente de IA pode gerar títulos, subtítulos, CTAs, cópia do corpo e variações de imagem de fundo e criar novos modelos de tamanho na mesma sessão. Até 10 conceitos podem estar ativos por sessão.
+
+  * **Crie criações dinâmicas usando feeds:** Para campanhas de anúncios dinâmicos, conecte um catálogo de produtos ou de conteúdo para gerar anúncios em escala e, em seguida, use o agente de IA para filtrar, visualizar e verificar a qualidade de combinações de anúncios gerados pelo catálogo.
+
+* **Personalizar conteúdo e formatos de anúncio:**
+
+  * **Aplicar diretrizes de marca:** Quando seu [perfil de marca](/help/creative/brands/brand-manage.md) é aplicado, a IA usa os logotipos, as paletas de cores, as diretrizes de voz, os padrões de imagem e as diretrizes de canal da sua marca para manter o conteúdo gerado na marca.
+
+  * **Anexar ativos da biblioteca:** anexe imagens e outros ativos diretamente às mensagens de chat da IA selecionando na biblioteca de ativos, mantendo o contexto visual disponível durante a geração de conteúdo.
+
+  * **Redimensionar anúncios:** redimensiona anúncios para dimensões padrão IAB em uma única etapa. A IA ajusta automaticamente a inserção de conteúdo e o dimensionamento para cada formato, e os controles da tela (aumentar/diminuir o zoom, ajustar à tela, repetir animações) ajudam a revisar cada tamanho.
 
 ## Fluxos de trabalho de criação de anúncios
 
@@ -55,6 +65,8 @@ O [!UICONTROL Creative Studio] é um ambiente assistido por IA, no qual você po
 | --- | --- |
 | [Gerar anúncios padrão a partir de um modelo](creative-studio-manage-standard-ads.md) | Selecione um modelo de exibição ou vídeo e use o [!UICONTROL Ad Variations Generator] para criar variações de conteúdo geradas por IA. Melhor quando um modelo já existe e você deseja a geração de conteúdo assistido por IA. |
 | [Gerenciar criações dinâmicas](creative-studio-manage-dynamic-ads.md) | Conecte um catálogo de produtos ou de conteúdo a um modelo, mapeie os campos do catálogo para os elementos do modelo e use o agente de IA para pré-visualizar e controlar a qualidade de todas as combinações de anúncios geradas. Melhor para campanhas orientadas por catálogo em larga escala. |
+| [Gerar um modelo a partir de texto](creative-studio-manage-templates.md#template-generate-from-text) | Descreva um modelo de anúncio de exibição, selecione opcionalmente um perfil de marca e uma imagem e escolha entre os resultados gerados por IA. Melhor quando você deseja um novo modelo sem um design de anúncio existente. |
+| [Gerar um modelo a partir de uma imagem](creative-studio-manage-templates.md#template-generate-from-image) | (Recurso do Beta) Converta uma imagem de anúncio de exibição estática existente de uma Biblioteca da Creative em um modelo editável, solicite alterações usando a linguagem natural e edite e salve o modelo. Recomendado quando você deseja usar um anúncio de imagem existente como o design inicial. |
 | Criar um novo modelo | Comece com uma tela em branco para criar um modelo de exibição ou vídeo. Melhor quando nenhum modelo existente atende às suas necessidades. |
 | Fazer upload de modelos HTML5 | Importe um ou mais modelos de anúncios do HTML5 empacotados como arquivos ZIP. Melhor quando você tem criações do HTML5 prontas para produção compiladas fora do [!DNL Advertising Creative]. |
 

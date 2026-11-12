@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # Gerenciar modelos de anúncios em [!UICONTROL Creative Studio]
@@ -39,7 +39,9 @@ Probably not necessary:
 
 Criação:
 
-* [Gerar um modelo de anúncio usando IA](#template-generate)
+* [Gerar um modelo de anúncio a partir de um prompt de texto usando IA](#template-generate-from-text)
+
+* [Gerar um modelo de anúncio a partir de uma imagem usando IA](#template-generate-from-image)
 
 * [Criar um modelo de anúncio manualmente](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## Gerar um modelo de anúncio usando IA {#template-generate}
 
-*recurso do Beta*
+Use a IA no [!UICONTROL Creative Studio] para gerar um modelo de anúncio de exibição editável de um prompt de texto ou de uma imagem de anúncio de exibição estática existente.
 
-Use a IA em [!UICONTROL Creative Studio] para converter uma imagem de anúncio de exibição estática existente em um modelo de anúncio de exibição editável. Um assistente de três etapas ajuda a gerar e revisar o modelo, solicitar alterações usando a linguagem natural e abrir o editor de modelo para fazer alterações manuais e salvar o modelo.
+### Gerar um modelo de anúncio a partir de um prompt de texto {#template-generate-from-text}
 
-### Pré-requisitos
+Descreva o modelo que deseja criar, selecione opcionalmente um perfil de marca e uma imagem e revise vários modelos gerados. Você não precisa de um anúncio de imagem existente.
 
-Você precisa de um anúncio de imagem estática em uma Biblioteca da Creative. Esse fluxo de trabalho seleciona anúncios das bibliotecas; ele não carrega uma nova imagem diretamente na caixa de diálogo de geração.
+1. No menu principal, clique em **[!UICONTROL Creative Studio]**.
 
-<!--
+1. Clique na guia **[!UICONTROL Templates]**.
 
-Publish this when prompt-based generation becomes available:
+1. (Opcional) Selecione um anunciante da lista de anunciante na parte superior da página para exibir os perfis de marca desse anunciante.
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. Na caixa **[!UICONTROL Use AI to Generate a New Display Ad Template]**, clique em **[!UICONTROL Generate]**.
 
--->
+1. Na caixa de diálogo **[!UICONTROL Generate New Ad Template]**, clique na guia **[!UICONTROL Generate from Prompt]**, se ela ainda não estiver selecionada.
 
-### Etapa 1: Gerar e revisar o modelo
+1. Selecione o **[!UICONTROL Template size]**.
+
+   O padrão é 300x250 pixels. Você não pode alterar o tamanho após o início da geração na sessão atual.
+
+1. (Opcional) Selecione um perfil de marca na lista **[!UICONTROL Brand]** para fornecer o contexto de marca para geração.
+
+1. (Opcional) Para incluir uma imagem no modelo gerado:
+
+   1. Clique em **[!UICONTROL Add image]**.
+
+   1. Na exibição **[!UICONTROL Select from Asset Library]**, selecione uma imagem existente ou clique em **[!UICONTROL Browse files]** para carregá-la.
+
+      Os formatos de upload compatíveis são PNG, JPEG, GIF e TIFF. Você pode anexar uma imagem por vez.
+
+   1. Clique em **[!UICONTROL Add to chat]**.
+
+1. No campo **[!UICONTROL Generation prompt]**, descreva o modelo que deseja criar. Inclua detalhes como layout, título, call to action e estilo visual.
+
+   Por exemplo, digite `Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`.
+
+1. Clique em **[!UICONTROL Generate]** e aguarde as visualizações do modelo.
+
+   Cada solicitação gera até quatro modelos. Revise o texto, as imagens e o layout antes de escolher um modelo.
+
+1. (Opcional) Para ver mais opções, clique em **[!UICONTROL Generate more results]**. Você também pode revisar o prompt e clicar em **[!UICONTROL Generate]**.
+
+   Os resultados são acumulados na caixa de diálogo, até 20 modelos gerados por sessão.
+
+1. Mantenha o cursor sobre o modelo que deseja usar e clique em **[!UICONTROL Open in Editor]**.
+
+   O editor de modelo de exibição é aberto em uma nova guia do navegador, deixando os resultados gerados disponíveis na guia original.
+
+1. Revise os elementos gerados e faça as alterações restantes usando os [controles do editor de modelo](#template-controls).
+
+1. Clique em **[!UICONTROL Save]**.
+
+1. Na caixa de diálogo **[!UICONTROL Save As New Template]**, insira o **[!UICONTROL Template name]**, selecione o **[!UICONTROL Advertiser]**, opcionalmente adicione tags, e clique em **[!UICONTROL Save]**.
+
+   O modelo é salvo como uma nova cópia, e a guia do editor retorna ao modo de exibição **[!UICONTROL Templates]**. Você pode usar o modelo salvo para [gerar variações de anúncios](#ad-variations-generate).
+
+>[!NOTE]
+>
+> Depois que a geração começa, não é possível alternar entre a geração de texto e de imagem na mesma caixa de diálogo. Para começar de novo com um tamanho ou método de geração diferente, clique em **[!UICONTROL Cancel]** e abra novamente a caixa de diálogo. Salve primeiro os modelos que deseja manter no editor.
+
+### Gerar um modelo de anúncio a partir de uma imagem {#template-generate-from-image}
+
+Converta uma imagem de anúncio de exibição estática existente em um modelo de anúncio de exibição editável, solicite alterações usando a linguagem natural e abra o editor de modelo para fazer alterações manuais e salvar o modelo.
+
+#### Pré-requisitos
+
+Este recurso requer um anúncio de imagem estática em uma Biblioteca da Creative. Esse fluxo de trabalho seleciona anúncios das bibliotecas; ele não carrega uma nova imagem diretamente na caixa de diálogo de geração.
+
+#### Etapa 1: Gerar e revisar o modelo
 
 1. No menu principal, clique em **[!UICONTROL Creative Studio]**.
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. Na caixa **[!UICONTROL Use AI to Generate a New Display Ad Template]**, clique em **[!UICONTROL Generate]**.
 
-1. Na caixa de diálogo **[!UICONTROL Generate New Ad Template]**, selecione **[!UICONTROL Generate from Existing Standard Ad Image]** se ainda não estiver selecionado.
+1. Na caixa de diálogo **[!UICONTROL Generate New Ad Template]**, clique na guia **[!UICONTROL Generate from Existing Standard Ad Image]**.
 
 1. Selecione a biblioteca que contém o anúncio de imagem na lista **[!UICONTROL Ad Library]**.
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    A geração começa automaticamente, usando a largura e a altura do anúncio selecionado.
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [Revise e refine o modelo gerado](#template-review).
 
-### Etapa 2: revisar e refinar o modelo {#template-review}
+#### Etapa 2: revisar e refinar o modelo {#template-review}
 
 1. Aguarde a conclusão da geração e revise a visualização do modelo e o painel **[!UICONTROL Layers]**, quando disponíveis.
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    O modelo gerado é aberto no editor de modelo de exibição.
 
-### Etapa 3: editar e salvar o modelo {#template-save}
+#### Etapa 3: editar e salvar o modelo {#template-save}
 
 >[!TIP]
 >
@@ -206,16 +232,11 @@ Você pode usar o modelo para [gerar variações de anúncios](#ad-variations-ge
 
 | Problema | O que fazer |
 | --- | --- |
+| A geração baseada em texto falha ou a solicitação é recusada | Revise a mensagem exibida, revise o prompt conforme necessário e clique em **[!UICONTROL Generate]** para tentar novamente. |
+| A sessão atingiu 20 modelos gerados | Salve os modelos que deseja manter no editor, clique em **[!UICONTROL Cancel]** e abra novamente a caixa de diálogo de geração para iniciar uma nova sessão. |
+| O editor não abre a partir de um resultado gerado por texto | Permita pop-ups para o site e clique novamente em **[!UICONTROL Open in Editor]**. |
 | Nenhuma biblioteca ou anúncio de imagem é listado ao gerar de uma imagem | Verifique o anunciante selecionado e **[!UICONTROL Ad Library]**. Se a biblioteca não tiver imagens de anúncio padrão, selecione outra biblioteca contendo um anúncio de imagem estática existente. |
 | A geração baseada em imagem falha ou a imagem não pode ser convertida | Revise a mensagem exibida, clique em **[!UICONTROL Back to library]**, selecione uma imagem e tente novamente. |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## Criar um modelo de anúncio manualmente {#template-create}
 

@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # Configurações de posicionamento
@@ -101,7 +101,7 @@ As datas do pacote (quando aplicável) ou da campanha são preenchidas automatic
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: a DSP oferece pelo menos o preço fixo/mínimo para as ofertas privadas direcionadas e [!DNL On-Demand] ofertas, mesmo que a oferta calculada de forma algorítmica seja menor. Isso pode afetar o desempenho.
 
-**[!UICONTROL Placement Pre-bid Filters]:** Até cinco limites de KPI (como uma métrica de visibilidade mínima ou taxa de click-through) que devem ser atingidos para que a oferta ocorra. Você pode usar filtros de pré-oferta como táticas de otimização, mas entende que cada regra pode limitar as oportunidades nas quais esse posicionamento pode fazer ofertas. Para adicionar ou editar filtros:
+**[!UICONTROL Placement Pre-bid Filters]:** Até cinco limites de KPI (como uma métrica de visibilidade mínima ou taxa de click-through) que devem ser atingidos para que a oferta ocorra. Você pode usar filtros de pré-oferta como táticas de otimização, mas entende que cada regra limita as oportunidades nas quais esse posicionamento pode fazer ofertas. Para adicionar ou editar filtros:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Siga um destes procedimentos:
@@ -155,7 +155,7 @@ Consulte as descrições de cada filtro de pré-oferta em &quot;[Filtros de pré
   >
   >Essa opção pode afetar negativamente o desempenho. Use-a somente quando estiver priorizando totalmente o delivery e o gasto em relação à otimização de desempenho.
 
-**[!UICONTROL Placement Pre-bid Filters]:** (Opcional) Até cinco filtros que devem ser atendidos para que a oferta ocorra. Você pode usar filtros de pré-oferta como táticas de otimização, mas lembre-se de que cada regra pode limitar as oportunidades nas quais esse posicionamento pode licitar. Para adicionar ou editar filtros:
+**[!UICONTROL Placement Pre-bid Filters]:** (Opcional) Até cinco filtros que devem ser atendidos para que a oferta ocorra. Você pode usar filtros de pré-oferta como táticas de otimização, mas lembre-se de que cada regra limita as oportunidades nas quais esse posicionamento pode licitar. Para adicionar ou editar filtros:
 
 1. Clique em ![Editar](/help/dsp/assets/edit.png).
 1. Siga um destes procedimentos:
@@ -208,7 +208,7 @@ Para especificar locais:
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]:** Faz inventário das fontes a serem incluídas ou excluídas como destinos. Para a maioria dos tipos de posicionamento, todos os tipos de inventário e todas as origens para cada tipo são incluídos por padrão. Para [!DNL Roku] posicionamentos, você deve especificar o tipo de inventário e as fontes. Você pode escolher entre os seguintes tipos de inventário:
+**[!UICONTROL Inventory Sources]:** Faz inventário das fontes a serem incluídas ou excluídas como destinos. Para a maioria dos tipos de posicionamento, o DSP inclui todos os tipos de inventário e todas as origens para cada tipo, por padrão. Para [!DNL Roku] posicionamentos, você deve especificar o tipo de inventário e as fontes. Você pode escolher entre os seguintes tipos de inventário:
 
 * [!UICONTROL Public]: (Todos os tipos de posicionamento exceto Roku) Todos os inventários de intercâmbio aberto aos quais a DSP tem acesso. Você pode incluir e excluir inventário público.
 
@@ -247,15 +247,49 @@ Para especificar o direcionamento de inventário:
 >
 >Se você se inscreveu no inventário [!UICONTROL On Demand], mas não pode localizar os editores ou ofertas para o público-alvo, verifique o status das ofertas. Para obter mais informações sobre status, consulte [Sobre [!DNL On Demand] inventário premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Video targeting]:** Estoque de destino (mas não excluído) por atributos de inventário. Ao direcionar vários valores para o mesmo atributo de vídeo, qualquer um dos atributos selecionados pode ser direcionado (por exemplo, \[Tamanho do player = grande OU Tamanho do player = HD\]). Quando você direciona a vários atributos, cada um dos atributos especificados deve estar presente (por exemplo, \[Duração = 30-60 min] E \[Tamanho do player = grande OU Tamanho do player = HD\]).
+**[!UICONTROL Video targeting]:** Direcionar (mas não excluir) inventário por atributos de vídeo. Quando você direciona vários valores para o mesmo atributo de vídeo, o inventário pode corresponder a qualquer valor selecionado (por exemplo, um tamanho de player de [!UICONTROL Large] ou [!UICONTROL HD]). Quando você direciona a vários atributos, o inventário deve corresponder a cada atributo especificado (por exemplo, inventário não ignorável com um tamanho de player de [!UICONTROL Large] ou [!UICONTROL HD]).
 
-* **[!UICONTROL Player size]:** Direcionar (mas não excluir) inventário por tamanho de player. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os tamanhos são direcionados. Para restringir os destinos, selecione tamanhos de destino específicos e/ou *Desconhecido*.
+* **[!UICONTROL Player size]:** Direcionar (mas não excluir) o inventário pela largura do player fornecida na solicitação de oferta. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os tamanhos são direcionados. Para restringir os destinos, selecione tamanhos de destino específicos e/ou [!UICONTROL Unknown].
 
-* **[!UICONTROL Playback mode]:** Inventário de destino (mas não excluído) de acordo com como a reprodução é iniciada. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os modos são direcionados. Para restringir os destinos, selecione modos de destino específicos e/ou *Desconhecido*.
+  * **[!UICONTROL Small]:** 1-299 pixels de largura.
+  * **[!UICONTROL Large]:** 300-719 pixels de largura.
+  * **[!UICONTROL HD]:** 720-10000 pixels de largura.
+  * **[!UICONTROL Unknown]:** A largura do player está ausente ou não é um valor positivo.
 
-* **[!UICONTROL Skippability]:** Direcione (mas não exclua) o inventário de acordo com se ele pode ou não ser ignorado. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as opções são direcionadas. Para restringir os destinos, selecione destinos específicos e/ou *Desconhecido*.
+* **[!UICONTROL Playback mode]:** Inventário de destino (mas não excluído) de acordo com como a reprodução é iniciada ou continuada. A configuração se aplica a disposições de antes da exibição, disposições de antes da exibição padrão para dispositivos móveis e disposições de vídeo universais para ambientes de desktop e móveis. Por padrão, todos os modos são direcionados. Para restringir os destinos, selecione modos de destino específicos e/ou [!UICONTROL Unknown].
 
-**[!UICONTROL Position targeting]:** Estoque de destino (mas não excluído) por posição de anúncio. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as posições são direcionadas. Para restringir os destinos, selecione posições de destino específicas e/ou *Desconhecido*.
+  Os modos suportados incluem reprodução automática com som ativado ou desativado por padrão, reprodução iniciada por um clique ou mouse, reprodução iniciada quando o reprodutor entra na exibição com som ativado ou desativado por padrão e reprodução contínua. Se uma solicitação de oferta incluir vários métodos de reprodução, o DSP usará o primeiro método listado.
+
+* **[!UICONTROL Skippability]:** Direcione (mas não exclua) o inventário de acordo com se ele pode ou não ser ignorado. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as opções são direcionadas. Para restringir os destinos, selecione inventário que pode ou não ser ignorado e/ou [!UICONTROL Unknown]. A DSP classifica a capacidade de ignorar como [!UICONTROL Unknown] quando a solicitação de oferta não fornece um valor de capacidade de ignorar válido.
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+**[!UICONTROL Position targeting]:** Direcionar (mas não excluir) inventário por atributos de posição de anúncio de vídeo. A configuração se aplica a todas as disposições de VAST/VPAID, incluindo pré-rolagem, pré-rolagem padrão móvel, TV conectada e disposições de vídeo universal. Por padrão, todas as posições são direcionadas. Para restringir os destinos, selecione posições específicas em **[!UICONTROL Video Ad Position]**.
+
+O DSP usa sinais de posicionamento de vídeo OpenRTB 2.6 fornecidos por plataformas do lado da fonte (SSPs), incluindo [!DNL Magnite], para classificar posições de anúncios. As opções disponíveis dependem do tipo de posicionamento.
+
+| Posição do anúncio | Descrição |
+| --- | --- |
+| Antes da exibição, durante e após a exibição | Anúncios antes, durante ou depois do conteúdo de vídeo solicitado pelo visualizador. No OpenRTB 2.6, o inventário de fluxo requer som no início do player ou uma indicação explícita de que o visualizador pretende assistir ao vídeo. |
+| [!UICONTROL Accompanying Content] | Anúncios em um reprodutor de vídeo que acompanham texto ou outro conteúdo. O reprodutor inicia a reprodução quando entra na exibição e pode ficar fixo ou flutuante à medida que o visualizador rola a tela. |
+| [!UICONTROL Interstitial] | Anúncios de vídeo sem conteúdo de vídeo de acompanhamento que ocupam a maior parte da exibição e não podem ser deslocados para fora da exibição durante a reprodução. |
+| [!UICONTROL No Content/Standalone] | Anúncios de vídeo sem transmissão de conteúdo de vídeo, como anúncios em feeds ou players fixos ou flutuantes. |
+| [!UICONTROL Pause] | Anúncios exibidos enquanto o visualizador pausa a transmissão de conteúdo de vídeo. |
+| [!UICONTROL Screensaver] | Anúncios exibidos quando um sistema operacional ou aplicativo inicia uma proteção de tela. |
+| [!UICONTROL Overlay] | Anúncios exibidos sobre conteúdo de vídeo fora de um ad break tradicional. |
+| [!UICONTROL Squeezeback] | Anúncios exibidos com conteúdo de vídeo redimensionado para liberar espaço para o anúncio, em vez de coberto por ele. |
+| [!UICONTROL In-scene] | Anúncios integrados na própria cena do vídeo, em vez de serem exibidos em um ad break separado ou sobre o conteúdo. |
+| [!UICONTROL Unknown] | Inventário para o qual o DSP não pode determinar uma posição de anúncio de vídeo com suporte dos sinais fornecidos. |
+
+Quando você seleciona várias posições, o inventário pode corresponder a qualquer posição selecionada. A seleção de posições específicas pode reduzir o inventário elegível. Inclua **[!UICONTROL Unknown]** se você também quiser direcionar o inventário cuja posição a DSP não pode determinar. Para evitar restringir o inventário por posição de anúncio, deixe a configuração como padrão.
+
+O DSP determina o antes da exibição, o meio da exibição e o pós-implantação do fluxo a partir do sinal de atraso de início fornecido com a solicitação de oferta. Se esse sinal estiver ausente ou for inválido, a DSP classificará a posição do fluxo como **[!UICONTROL Unknown]**.
+
+Quando uma posição OpenRTB 2.6 válida é fornecida, a DSP a usa em detrimento da posição OpenRTB 2.5 herdada. Se a posição do OpenRTB 2.6 estiver ausente ou for inválida, a DSP ainda poderá reconhecer o inventário de instâncias herdadas quando um sinal de atraso de início válido for fornecido. Outras posições herdadas são classificadas como **[!UICONTROL Unknown]** em vez de serem traduzidas para as novas categorias.
+
+>[!NOTE]
+>
+>As categorias de posição do OpenRTB 2.6 não são uma substituição individual para as categorias herdadas. Por exemplo, o inventário descrito anteriormente como fluxo agora pode ser classificado como conteúdo de acompanhamento. Revise suas metas de posição com sua equipe de conta da Adobe se o inventário qualificado for alterado à medida que os SSPs adotarem os sinais mais recentes.
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 

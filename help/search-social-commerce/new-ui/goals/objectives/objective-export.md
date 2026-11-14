@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Exportar configurações de objetivos
@@ -34,9 +34,17 @@ Quando você exporta vários objetivos, a exportação consiste em um arquivo ZI
 
 1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Marque a caixa de seleção ao lado de cada objetivo a ser exportado.
+1. Siga um destes procedimentos:
 
-1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Export Objectives]**.
+   * Para exportar um único objetivo:
+
+     1. Mantenha o cursor sobre a linha do objetivo e clique em **[!UICONTROL ...]>[!UICONTROL Export Objective]**.
+
+   * Para exportar um ou mais objetivos:
+
+     1. Marque a caixa de seleção ao lado de cada objetivo que você deseja exportar.
+
+     1. Na barra de ferramentas de ações em massa, clique em **[!UICONTROL Export Objectives]**.
 
 >[!MORELIKETHIS]
 >

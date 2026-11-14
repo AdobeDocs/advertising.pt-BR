@@ -1,6 +1,6 @@
 ---
 title: (Nova interface) Alterar o status de um portfólio
-description: Saiba como alterar o status de um portfólio ou excluir um portfólio inativo sem abrir as configurações do portfólio.
+description: Saiba como alterar o status de um portfólio ou excluir um ou mais portfólios inativos sem abrir as configurações do portfólio.
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # (Nova interface) Alterar o status de um portfólio
 
 *recurso do Beta*
 
-Você pode alterar rapidamente o [status do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) sem abrir as configurações completas do portfólio.
+Você pode alterar rapidamente o [status do portfólio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status) sem abrir as configurações completas do portfólio.
 
 Para interromper a coleta de dados de custo/clique/impressão e dados de receita para as campanhas relevantes, exclua o portfólio. A exclusão de um portfólio o torna indisponível no Search, Social e Commerce.
 
@@ -40,9 +40,15 @@ Todas as alterações no status do portfólio são registradas no histórico de 
 
    * Para ativar um portfólio inativo ou otimizado, selecione **[!UICONTROL Active]**.
 
-   * Para desativar um portfólio ativo, selecione **[!UICONTROL Inactive]**.
+   * Para desativar um portfólio ativo ou otimizado, selecione **[!UICONTROL Inactive]**.
 
-   * Para otimizar (iniciar) um portfólio ativo, selecione **[!UICONTROL Optimized]**.
+   * Para otimizar (iniciar) um portfólio ativo:
+
+     1. Selecione **[!UICONTROL Optimized]**.
+
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Update]**.
+
+     1. Se mensagens de confirmação adicionais forem exibidas, siga os prompts para aplicar a alteração.
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ Todas as alterações no status do portfólio são registradas no histórico de 
      >* Quando a Search, Social e Commerce começar a otimizar um portfólio, permita que ele gerencie todo o orçamento de campanha futura e (quando aplicável) as alterações de oferta (quando aplicável). Search, Social e Commerce substituirão todas as alterações feitas na rede de anúncios.
      >* Você pode definir lances manuais temporariamente para qualquer campanha CPC otimizada no portfólio, criando e publicando bulksheets de campanha. Quaisquer alterações de lance resultantes dos dados publicados são aplicáveis por um dia. Depois disso, o Search, Social e Commerce retoma a definição de ofertas de acordo com sua própria estratégia de otimização.
 
-## Excluir um portfólio inativo da exibição [!UICONTROL Portfolios]
+## Exclua um ou mais portfólios inativos da exibição [!UICONTROL Portfolios]
 
 Você pode excluir apenas portfólios inativos. Se o portfólio estiver otimizado ou ativo, altere primeiro seu status para inativo antes de ter a opção de excluí-lo.
 
@@ -61,11 +67,19 @@ Você pode excluir apenas portfólios inativos. Se o portfólio estiver otimizad
 
 1. Siga um destes procedimentos:
 
-   * Mantenha o cursor sobre a linha do portfólio e clique em **[!UICONTROL ...]>[!UICONTROL Delete]**.
+   * Para excluir um único portfólio inativo:
 
-   * Marque a caixa de seleção ao lado do portfólio. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir").
+     1. Mantenha o cursor sobre a linha do portfólio e clique em **[!UICONTROL ...]>[!UICONTROL Delete]**.
 
-1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
+
+   * Para excluir um ou mais portfólios inativos:
+
+     1. Marque a caixa de seleção ao lado de cada portfólio inativo que você deseja excluir.
+
+     1. Na barra de ferramentas de ações em massa, clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png "Excluir").
+
+     1. Na mensagem de confirmação, clique em **[!UICONTROL Confirm]**.
 
 >[!MORELIKETHIS]
 >

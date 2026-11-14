@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # Criar uma métrica personalizada
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. Especifique as [configurações de métrica personalizada](custom-metric-settings.md).
 
 1. Clique em **[!UICONTROL Create]**.
+
+## (Nova interface do usuário) Criar uma métrica personalizada a partir das configurações do relatório ou do modelo de relatório {#create-from-report-settings}
+
+1. Nas configurações do relatório ou do modelo de relatório, vá para a etapa **[!UICONTROL Columns]**.
+
+1. Na seção **[!UICONTROL Custom Metrics]**, especifique as configurações de métrica:
+
+   * **[!UICONTROL Custom Metric Name]:** Insira um nome para a métrica.
+
+   * **[!UICONTROL Format]:** Selecione **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** ou **[!UICONTROL Percentage]**.
+
+   * **[Campo de entrada da fórmula]:** crie a fórmula selecionando métricas de **[!UICONTROL Insert Metric]** e clicando nos botões do operador (`+`, `-`, `*`, `/`, `(` e `)`). Também é possível inserir a fórmula manualmente. Coloque o cursor onde deseja inserir cada métrica ou operador.
+
+1. Clique em **[!UICONTROL Add Metric]**.
+
+   Depois que a métrica é criada com sucesso, a lista de colunas disponíveis é filtrada pelo nome da métrica. A criação da métrica não a inclui automaticamente no relatório.
+
+1. Para incluir a métrica no relatório, selecione-a na lista de colunas disponíveis e clique em ![Seta para a direita](/help/search-social-commerce/assets/arrow-right-customize.png "Seta para a direita") para movê-la para a lista de colunas selecionadas.
 
 ## (Interface herdada) Criar uma métrica personalizada de uma exibição de gerenciamento de campanha
 

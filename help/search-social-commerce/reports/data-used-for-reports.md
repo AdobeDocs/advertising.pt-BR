@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '618'
 ht-degree: 6%
 ---
 # Os dados usados para os relatórios
@@ -57,20 +57,20 @@ Dependendo da regra de atribuição especificada para o relatório, os dados par
 
 | Grupo de relatório | Relatório | Datas para as quais os dados estão disponíveis |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir de 15 de maio de 2021.<br><br><b>Exceção:</b> Os dados de métricas de destaque estarão disponíveis a partir de 8 de setembro de 2022. |
-| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores.<br><br><b>Exceção:</b> Os dados de métricas de destaque estão disponíveis a partir de 8 de setembro de 2022. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | Os 36 meses anteriores. |
+| | Todos os outros [!UICONTROL Basic Reports] | Os 36 meses anteriores. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Os 45 dias anteriores. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Os dois (2) meses anteriores mais o mês atual. |
 | [!UICONTROL Assist Reports] | Todos | Os 18 meses anteriores. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | No ano anterior. |
-| | [!UICONTROL Google Asset Group Performance Report] | Sem limitações |
+| | [!UICONTROL Google Asset Group Performance Report] | Os 36 meses anteriores. |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | Os últimos 180 dias. |
-| | [!UICONTROL RSA Assets Report] | A partir de 10 de agosto de 2022. |
+| | [!UICONTROL RSA Assets Report] | Os 36 meses anteriores. |
 | | Todos os outros [!UICONTROL Specialty Reports] | Os dois (2) meses anteriores. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | Os 18 meses anteriores. |
 | [!UICONTROL Change History Report] | — | Os 31 dias anteriores. |
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios](report-about.md)
->* [Tarefas de configuração iniciais para relatórios](initial-setup.md)
+>* [Sobre relatórios](/help/search-social-commerce/reports/report-about.md)
+>* [Tarefas de configuração iniciais para relatórios](/help/search-social-commerce/reports/initial-setup.md)

@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtrar dados por intervalo de datas
@@ -77,9 +77,9 @@ Para interromper a comparação de períodos, abra o controle de intervalo de da
 
 1. Selecione **[!UICONTROL As percentage]** ou **[!UICONTROL As variance]**.
 
-   A seleção se aplica a todas as métricas de comparação na grade, não apenas à coluna selecionada. O controle de intervalo de datas é sincronizado com a seleção e o formato é compartilhado nas páginas aplicáveis do anunciante atual, incluindo exibições com intervalos de datas salvos.
+   A seleção se aplica a todas as métricas de comparação na tabela de dados, não apenas à coluna selecionada. O controle de intervalo de datas é sincronizado com a seleção e o formato é compartilhado nas páginas aplicáveis do anunciante atual, incluindo exibições com intervalos de datas salvos.
 
-   Uma mensagem de confirmação é exibida depois que a grade é atualizada com sucesso. Se a grade não puder ser atualizada com o formato selecionado, uma mensagem de erro será exibida; tente selecionar o formato novamente.
+   Uma mensagem de confirmação é exibida depois que a tabela de dados é atualizada com sucesso. Se a tabela de dados não puder ser atualizada com o formato selecionado, uma mensagem de erro será exibida; tente selecionar o formato novamente.
 
 As opções de classificação e filtragem permanecem disponíveis nos menus de coluna, quando compatíveis.
 

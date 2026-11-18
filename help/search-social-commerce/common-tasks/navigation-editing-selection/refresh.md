@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # Atualizar dados nas exibições de gerenciamento
 
-* (Nova interface de usuário) Na barra de ferramentas acima da tabela de dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh-new.png).
+* (Nova interface) Nas exibições de gerenciamento aplicáveis, clique no controle ![Atualizar](/help/search-social-commerce/assets/refresh-new.png "Atualizar") ao lado do título da página.
 
 * (Interface herdada) Na parte inferior da tabela de dados, clique em ![Atualizar](/help/search-social-commerce/assets/refresh.png).

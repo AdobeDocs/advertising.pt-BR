@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # Como a interface do usuário é organizada
@@ -40,6 +40,10 @@ O [perfil de produto](/help/search-social-commerce/new-ui/user-administration.md
 A nova interface de usuário do apresenta um novo menu principal à esquerda, que organiza as tarefas por estágio de trabalho.
 
 ### Opções do menu principal
+
+* (Quando aplicável) Uma lista selecionável de anunciantes que você está gerenciando, acima do campo de pesquisa no painel de navegação esquerdo expandido.
+
+* Um campo de pesquisa para opções do menu principal.
 
 * Submenu **[!UICONTROL Dashboard]**:
 
@@ -131,6 +135,12 @@ Recolha o menu principal quando quiser mais espaço para exibir dados.
 
 * Acima do menu principal à esquerda, clique em ![Recolher/expandir](/help/search-social-commerce/assets/collapse-expand.png "Recolher/expandir").
 
+### Exibir dados de outro anunciante
+
+* Expanda o painel de navegação esquerdo se ele estiver recolhido. Acima do campo de pesquisa, abra a lista de anunciante e selecione o anunciante.
+
+  Para obter detalhes e restrições, consulte &quot;[Exibir dados de outro anunciante](/help/search-social-commerce/common-tasks/change-advertiser.md)&quot;.
+
 ### Procurar opções do menu principal
 
 Use o campo de pesquisa acima do menu principal para procurar opções de menu específicas, como &quot;Portfólios&quot; ou &quot;Relatórios&quot;.
@@ -153,9 +163,7 @@ Use o campo de pesquisa acima do menu principal para procurar opções de menu e
 
 **Observação:** algumas telas têm opções adicionais.
 
-* (Quando aplicável) Uma lista selecionável de anunciantes que você está gerenciando.
-
-* O intervalo de datas configurável para a exibição atual
+* O intervalo de datas configurável para a exibição atual. Quando a comparação de datas é suportada, o controle de intervalo de datas também permite que você compare dois períodos e escolha se deseja mostrar a alteração como uma porcentagem ou uma variação numérica. Consulte &quot;[Filtrar dados por intervalo de datas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)&quot;.
 
 * ![Alternar para a interface antiga](/help/search-social-commerce/assets/switch-to-old-ui.png "Alternar para a interface antiga") Abre a interface herdada em uma nova guia ou janela.
 

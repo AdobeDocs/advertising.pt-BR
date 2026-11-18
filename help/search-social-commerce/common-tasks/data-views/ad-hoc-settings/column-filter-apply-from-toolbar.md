@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '499'
 ht-degree: 0%
 ---
 # Aplicar filtros de dados na barra de ferramentas
@@ -28,7 +28,7 @@ Você pode aplicar quantos filtros quiser a uma exibição.<!-- True only for en
 
 ## (Nova interface) Aplicar filtros de dados na barra de ferramentas nas exibições de gerenciamento
 
-1. Na barra de ferramentas, clique em ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro").
+1. Na barra de ferramentas, clique no controle somente ícone ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro") antes da pesquisa em grade.
 
 1. Nas configurações de filtro, execute um dos procedimentos a seguir:
 

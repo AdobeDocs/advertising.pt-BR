@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Exibir dados de outro anunciante
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## (Nova interface do usuário) Exibir dados para outro anunciante
 
-* Na barra de ferramentas acima da tabela de dados, selecione o anunciante.
+1. Se o painel de navegação esquerdo estiver recolhido, clique em ![Recolher/expandir](/help/search-social-commerce/assets/collapse-expand.png "Recolher/expandir") para expandi-lo.
 
-  ![Seletor do anunciante na barra de ferramentas](/help/search-social-commerce/assets/advertiser-selector.png "Seletor do anunciante na barra de ferramentas")
+1. Acima do campo de pesquisa no painel de navegação esquerdo, abra a lista de anunciantes e selecione o anunciante.
+
+   Você pode pesquisar a lista para localizar um anunciante. A lista mostra o anunciante selecionado no momento.
+
+   ![Seletor do anunciante acima do menu principal](/help/search-social-commerce/assets/advertiser-selector.png "Seletor do anunciante acima do menu principal")
+
+>[!NOTE]
+>
+>A alternância do anunciante é desativada em algumas exibições de detalhes, incluindo detalhes do portfólio e detalhes da simulação. Retorne à exibição de lista correspondente para selecionar outro anunciante.
 
 ## (Interface herdada) Exibir dados para outro anunciante
 

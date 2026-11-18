@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4608'
 ht-degree: 0%
 ---
 # Gerenciar exibições padrão e personalizadas
@@ -38,6 +38,8 @@ Na interface herdada, cada exibição está disponível como atalho na seção [
 ### (Nova interface de usuário) Aplicar uma exibição padrão ou personalizada a uma exibição de gerenciamento
 
 1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+
+   Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
 
 1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
@@ -75,6 +77,8 @@ Os modos de exibição personalizados são específicos para um único modo de e
 
 1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
 
+   Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
+
 1. Clique em **[!UICONTROL Create View]**.
 
 1. Especifique as [configurações de exibição personalizadas](#view-settings-new-ui).
@@ -108,6 +112,8 @@ As exibições personalizadas se aplicam somente às exibições de gerenciament
 *Disponível nas visualizações [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
 
 1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+
+   Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
 
 1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
@@ -151,6 +157,8 @@ As exibições personalizadas se aplicam somente às exibições de gerenciament
 
 1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
 
+   Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
+
 1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
 1. Mantenha o cursor sobre o nome da exibição e clique em ![Clone](/help/search-social-commerce/assets/clone-new.png).
@@ -172,6 +180,8 @@ As configurações padrão do sistema variam de acordo com a exibição de geren
 * Na nova interface do usuário do:
 
   1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
+
+     Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
 
   1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
@@ -195,6 +205,8 @@ Se você excluir um modo de exibição personalizado aplicado à guia atual, a g
 
   1. Acima da tabela de dados, clique no nome da exibição aplicada no momento (![Exibição](/help/search-social-commerce/assets/view.png "Exibição")).
 
+     Se a barra de ferramentas for muito estreita para mostrar o nome da exibição, clique em **[!UICONTROL Actions]** e abra a lista de exibições da entidade atual.
+
   1. Conforme necessário, clique em qualquer uma das guias ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) para localizar o modo de exibição.
 
   1. Mantenha o cursor sobre o nome da exibição e clique em ![Excluir](/help/search-social-commerce/assets/delete-new.png).
@@ -215,6 +227,8 @@ Se você excluir um modo de exibição personalizado aplicado à guia atual, a g
 
 ### (Nova interface do usuário) Configurações de exibição padrão e personalizada {#view-settings-new-ui}
 
+Quando você altera o formato de comparação de um menu de coluna de comparação, o formato selecionado é compartilhado em todas as páginas aplicáveis do anunciante atual, incluindo exibições com intervalos de datas salvos. Consulte &quot;[Alterar o formato de comparação de um menu de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#change-the-comparison-format-from-a-column-menu).&quot;
+
 | **Guia** | **Campo** | **Descrição** |
 | --- | --- | --- |
 | [Acima de todas as guias] | Nome | Um nome exclusivo para a exibição. Não é possível editar o nome de uma exibição padrão.<p><b>Dica:</b> use um nome que ajude a identificar a guia e as informações às quais ela se aplica (como &quot;Campanhas Pausadas&quot; ou &quot;Os 50 Anúncios Principais&quot;). |
@@ -224,8 +238,8 @@ Se você excluir um modo de exibição personalizado aplicado à guia atual, a g
 |   | Ordem de classificação | Classificar os dados na ordem **Crescente** ou **Decrescente**. |
 | Filtros | [Definições de filtro] | (Opcional) Filtros a serem aplicados aos dados. A aplicação de filtros retorna linhas somente quando o valor de uma coluna atende aos critérios especificados.<p>Para cada filtro a ser aplicado:<ol><li>No menu [!UICONTROL Add Filter], selecione um nome de coluna. A lista inclui todas as colunas disponíveis e é classificada pelo tipo de coluna, com as colunas de propriedade primeiro.</li><li>Definir o filtro na coluna</li></ol>(Filtros com campos de entrada) Selecione um operador no segundo menu e insira o valor aplicável. Os valores não diferenciam maiúsculas de minúsculas.<p>Por exemplo, se você selecionou a coluna &quot;Cliques&quot; e deseja retornar apenas linhas com mais de 100 cliques, selecione _\>_ e digite `100` no campo de entrada.<p>Dependendo do tipo de dados, os operadores disponíveis podem incluir <i>maior que</i>, <i>menor que</i>, <i>igual</i>, <i>contém</i>, <i>não contém</i>, <i>começa com</i>, <i>termina com</i>,<i>nenhum valor</i> ou <i>tem valor</i> <i>antes</i>, <i>depois</i> ou <i>nenhuma data</i>.<p>(Filtros sem campos de entrada) Clique na ![seta para baixo](/help/search-social-commerce/assets/arrow-down-expand.png) ao lado do menu Selecionar itens da lista e marque as caixas de seleção ao lado de cada valor a ser incluído.<p><b>Notas:</b><ul><li>É possível aplicar, mas não salvar, alterações em filtros nas configurações de exibição padrão.</li><li>Você também pode [alterar temporariamente os filtros aplicáveis](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) no modo de exibição.</li></ul> |
 | Configurações adicionais | Intervalo de datas | (Quando &quot;Incluir intervalo de datas&quot; estiver selecionado)<p>O intervalo de datas para o qual gerar dados. Escolha uma opção:<ul><li><i>[Intervalo predefinido]</i>: uma lista de incrementos de tempo comuns, variando de <i>Hoje</i> a <i>Últimos 180 Dias</i>. Escolha um na lista; o padrão é <i>Ontem</i>. Observação: <i>Último Mês</i>, <i>Últimos 3 Meses</i> e <i>Últimos 6 Meses</i> mostram dados dos meses de calendário anteriores.</li><li><i>Intervalo de datas personalizado:</i> especifique a data inicial e a data final. Insira as datas no formato DD/MM/AAAA ou D/M/AAAA, ou clique no ![ícone do calendário](/help/search-social-commerce/assets/calendar.png) ao lado de um campo e selecione uma data.</li></ul> |
-|   | Comparação | Compara os dados do intervalo de datas especificado com os dados do segundo intervalo de datas. Ao selecionar essa opção, especifique o segundo intervalo de datas. Duas colunas adicionais são adicionadas para cada coluna de dados regular. Por exemplo, em vez de incluir apenas uma coluna para &quot;Impressões&quot;, o relatório inclui colunas para &quot;Intervalo de impressões 1&quot;, &quot;Intervalo de impressões 2&quot; e &quot;Diferença de impressões&quot;.<p><b>Notas:</b><ul><li>A coluna de diferença não é mostrada para métricas derivadas.</li><li>Relatórios que comparam intervalos de datas grandes podem levar mais tempo para serem gerados.</li></ul> |
-|   | Formato de comparação | (Quando [!UICONTROL Comparison] está habilitado) Como expressar a diferença entre os dados nos dois intervalos de datas selecionados na coluna &quot;[_Diferença do campo de dados_]&quot;. Escolha uma opção:<ul><li><i>Variação</i> (padrão): mostra a diferença como um valor numérico.</li><li><i>% de Alteração</i>: mostra a diferença como uma porcentagem.</li></ul> |
+|   | [!UICONTROL Comparison] | Compara os dados do intervalo de datas especificado com os dados do segundo intervalo de datas. Ao selecionar essa opção, especifique o período de comparação. Na tabela de dados, cada métrica comparável é agrupada em duas colunas de período e uma coluna [!UICONTROL Change]. Os campos que não são comparáveis permanecem como colunas únicas. Os rótulos de período e marcadores de cor identificam os intervalos de datas correspondentes. Relatórios que comparam intervalos de datas grandes podem levar mais tempo para serem gerados. |
+|   | [!UICONTROL Comparison Format] | (Quando [!UICONTROL Comparison] está habilitado) Como expressar a diferença entre os dois pontos na coluna [!UICONTROL Change]. Escolha [!UICONTROL As variance] (o padrão) para mostrar uma diferença numérica ou [!UICONTROL As percentage] para mostrar uma diferença percentual. |
 |   | Regra de atribuição | (Somente anunciantes com o serviço de rastreamento de conversão baseado em pixels da Adobe Advertising) Na guia, saiba como atribuir dados de conversão — possivelmente em vários canais de anúncio e portfólios — em uma série de eventos que levam a uma conversão. Por padrão, a regra especificada nas configurações de atribuição de conversão no nível do anunciante é selecionada.<ul><li> <i>Primeiro evento</i>: atribui a conversão ao primeiro clique pago da série na janela de retrospectiva de cliques do anunciante ou, se nenhum clique pago ocorrer, à última impressão na janela de retrospectiva de impressão do anunciante.</li><li><i>Peso do Primeiro Evento Mais</i>: atribui a conversão a todos os eventos da série que ocorreram na janela de retrospectiva de cliques e na janela de retrospectiva de impressão do anunciante, mas fornece o maior peso para o primeiro evento e, sucessivamente, menos peso para os eventos a seguir. Quando a conversão é precedida por cliques pagos e impressões, o peso de substituição de impressão especificado é aplicado ainda mais às impressões. Quando a conversão é precedida apenas por impressões, as impressões são ponderadas de acordo com o peso de viewthrough do anunciante em vez do peso de substituição de impressão.</li><li><i>Distribuição par</i>: atribui a conversão igualmente a cada evento na série que ocorreu na janela de retrospectiva de cliques e na janela de retrospectiva de impressão do anunciante. Quando a conversão é precedida por cliques pagos e impressões, o peso de substituição de impressão especificado é aplicado ainda mais às impressões. Quando a conversão é precedida apenas por impressões, as impressões são ponderadas de acordo com o peso de viewthrough do anunciante em vez do peso de substituição de impressão.</li><li><i>Peso do Último Evento Mais</i>: atribui a conversão a todos os eventos na série que ocorreram na janela de retrospectiva de clique e na janela de retrospectiva de impressão do anunciante, mas fornece o maior peso para o último evento e, sucessivamente, menos peso para os eventos anteriores. Quando a conversão é precedida por cliques pagos e impressões, o peso de substituição de impressão especificado é aplicado ainda mais às impressões. Quando a conversão é precedida apenas por impressões, as impressões são ponderadas de acordo com o peso de viewthrough do anunciante em vez do peso de substituição de impressão.</li><li><i>Último evento</i> (padrão): atribui a conversão ao último clique pago da série na janela de retrospectiva de cliques do anunciante ou, se nenhum clique pago ocorreu, à última impressão na janela de retrospectiva de impressão do anunciante.</li><li><i>Em forma de U</i>: atribui a conversão a todos os eventos na série que ocorreram na janela de retrospectiva de cliques e na janela de retrospectiva de impressão do anunciante, mas fornece mais peso para o primeiro evento e os últimos eventos, com peso sucessivamente menor para os eventos no meio do caminho de conversão. Quando a conversão é precedida por cliques pagos e impressões, o peso de substituição de impressão especificado é aplicado ainda mais às impressões. Quando a conversão é precedida apenas por impressões, as impressões são ponderadas de acordo com o peso de viewthrough do anunciante em vez do peso de substituição de impressão.</li></ul><p><b>Notas:</b><ul><li>Todas as regras de atribuição além de Último evento estão disponíveis apenas para anunciantes com rastreamento de cliques do Adobe Advertising e com rastreamento de conversão do Adobe Advertising ou do Adobe Analytics (com uma integração do Analytics).</li><li>As regras de atribuição se aplicam aos cliques nos anúncios pagos em qualquer canal. Elas não se aplicam a impressões para anúncios de pesquisa paga, que não podem ser rastreados no nível do evento.</li><li>Ao relatar dados de conversão usando qualquer regra de atribuição, exceto uma das regras de &quot;Último evento&quot;, os eventos que antecedem a conversão podem ocorrer em vários portfólios. Quando isso ocorre, a exibição inclui dados para a conversão somente quando os anúncios ou palavras-chave nesses portfólios são incluídos na exibição.</li><li>Para exibições padrão, recomendamos que você mantenha a regra de atribuição padrão, que é usada para calcular o [valor do objetivo](/help/search-social-commerce/glossary.md#o-p) (anteriormente chamado de &quot;receita ponderada&quot;) para cada unidade de oferta durante a otimização da oferta.</li></ul> |
 |   | Conversões Baseadas Em | Como relatar dados de conversão:<ul><li><i>Data de clique</i>: para ver as transações que resultaram de um clique que ocorreu durante o período de tempo especificado. Quando um portfólio tem atraso significativo entre cliques e transações, essa opção é útil para calcular a receita histórica por clique do portfólio, que indica os comportamentos de receita a serem esperados ao longo do tempo.</li><li><i>Data da transação</i> (padrão): para ver as transações cuja data de transação ocorreu durante o período especificado. Isso indica quanta receita foi ganha dentro do período especificado.</li></ul> |
 

@@ -18,14 +18,72 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtrar dados por intervalo de datas
 
-<!-- The same in new UI and legacy CM views -->
+Use o filtro de intervalo de datas para especificar o período no qual mostrar dados de desempenho. Nas exibições que suportam comparação de datas, você também pode comparar o desempenho de dois períodos.
+
+## (Nova interface do usuário) Alterar o intervalo de datas {#date-filter-new-ui}
+
+1. No cabeçalho da página, clique no controle de intervalo de datas com o ícone de calendário.
+
+1. Especifique o intervalo de datas:
+
+   * Para usar um intervalo predefinido, selecione uma opção no menu acima do primeiro calendário, como **[!UICONTROL Yesterday]** ou **[!UICONTROL Last 7 Days]**.
+
+   * Para usar um intervalo personalizado, selecione **[!UICONTROL Custom Date Range]** e selecione as datas de início e término no calendário. Use as setas do calendário para navegar entre meses.
+
+1. Clique em **[!UICONTROL Apply]**.
+
+## (Nova interface do usuário) Comparar dados de dois períodos {#compare-periods-new-ui}
+
+*Exibições que oferecem suporte somente à comparação de datas*
+
+1. No cabeçalho da página, clique no controle de intervalo de datas com o ícone de calendário.
+
+1. Ligue o **[!UICONTROL Compare Periods]**.
+
+   Dois painéis de calendário são mostrados lado a lado. O primeiro período tem um marcador azul-petróleo e o período de comparação tem um marcador roxo.
+
+1. No primeiro painel, especifique o intervalo de datas:
+
+   * Para usar um intervalo predefinido, selecione uma opção no menu acima do primeiro calendário, como **[!UICONTROL Yesterday]** ou **[!UICONTROL Last 7 Days]**.
+
+   * Para usar um intervalo personalizado, selecione **[!UICONTROL Custom Date Range]** e selecione as datas de início e término no calendário. Use as setas do calendário para navegar entre meses.
+
+1. No segundo painel, selecione uma predefinição de comparação ou clique em uma data de início no calendário.
+
+   O período de comparação tem o mesmo número de dias que o primeiro período. Revise os intervalos de datas completos acima de ambos os calendários.
+
+1. Em **[!UICONTROL Comparison Format]**, selecione como exibir a diferença:
+
+   * **[!UICONTROL As percentage]:** Mostrar a diferença como uma porcentagem.
+
+   * **[!UICONTROL As variance]:** Mostrar a diferença como um valor numérico.
+
+1. Clique em **[!UICONTROL Apply]**.
+
+   O controle de intervalo de datas mostra intervalos de datas completos com seus rótulos de período e marcadores de cor. Cada métrica comparável é agrupada em duas colunas de período e uma coluna **[!UICONTROL Change]**. Os campos que não são comparáveis permanecem como colunas únicas. Os marcadores de período nos cabeçalhos da coluna identificam os intervalos de datas correspondentes.
+
+Para interromper a comparação de períodos, abra o controle de intervalo de datas, desative o **[!UICONTROL Compare Periods]** e clique em **[!UICONTROL Apply]**. Desativar a comparação limpa os filtros com base nos dados de comparação.
+
+### Alterar o formato de comparação de um menu de colunas
+
+1. Com a comparação de datas habilitada, abra o menu de cabeçalho de coluna para uma coluna **[!UICONTROL Change]** ou uma coluna de período para uma métrica comparável.
+
+1. Selecione **[!UICONTROL As percentage]** ou **[!UICONTROL As variance]**.
+
+   A seleção se aplica a todas as métricas de comparação na tabela de dados, não apenas à coluna selecionada. O controle de intervalo de datas é sincronizado com a seleção e o formato é compartilhado nas páginas aplicáveis do anunciante atual, incluindo exibições com intervalos de datas salvos.
+
+   Uma mensagem de confirmação é exibida depois que a tabela de dados é atualizada com sucesso. Se a tabela de dados não puder ser atualizada com o formato selecionado, uma mensagem de erro será exibida; tente selecionar o formato novamente.
+
+As opções de classificação e filtragem permanecem disponíveis nos menus de coluna, quando compatíveis.
+
+## (Interface herdada) Configurações de intervalo de datas
 
 O mesmo filtro de intervalo de datas global é aplicado à maioria das visualizações de dados, em todos os anunciantes, exceto para exibições padrão e personalizadas para as quais você salvou intervalos de datas específicos. O intervalo de datas padrão do sistema para exibições de gerenciamento de campanha é &quot;Ontem&quot;.
 
@@ -39,7 +97,7 @@ Quando você salva um intervalo de datas específico para uma exibição padrão
 >* Para exibir dados anteriores, vá para a [[!UICONTROL Reports] exibição](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) e execute um relatório básico.
 >* Você também pode salvar um intervalo de datas para uma [exibição padrão ou personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-## Alterar o filtro de data global nas visualizações de campanha
+## (Interface herdada) Alterar o filtro de data global nas visualizações de campanha
 
 1. Acima de qualquer tabela de dados em Pesquisar \> Campanhas \> Campanhas, clique no intervalo de datas atual.
 

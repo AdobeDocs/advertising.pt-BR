@@ -9,12 +9,30 @@ product_v2:
 feature_v2:
   - id: bcc57258-3285-5d02-a731-d86f57a58c47
     internal-label: Search Common Tasks
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '210'
 ht-degree: 0%
 ---
 # Especificar uma data usando o calendário
+
+## (Nova interface do usuário) Selecione um intervalo de datas
+
+1. No canto superior direito da tabela de dados, clique no controle de intervalo de datas com o ícone de calendário.
+
+1. No menu **[!UICONTROL Period]**, especifique o intervalo de datas:
+
+   * Para usar um intervalo predefinido, selecione uma opção no menu acima do primeiro calendário, como **[!UICONTROL Yesterday]** ou **[!UICONTROL Last 7 Days]**.
+
+   * Para usar um intervalo personalizado, selecione **[!UICONTROL Custom Date Range]** e selecione as datas de início e término no calendário. Use as setas do calendário para navegar entre meses.
+
+1. Clique em **[!UICONTROL Apply]**.
+
+Para comparar dados de dois períodos, consulte &quot;[Filtrar dados por intervalo de datas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)&quot;.
+
+## Selecionar uma data individual
+
+Use o procedimento a seguir para campos de calendário de data individual, incluindo aqueles na interface do usuário herdada.
 
 1. Clique no ![Botão Calendário](/help/search-social-commerce/assets/calendar-date-range.png "Botão Calendário") para abrir o calendário.
 

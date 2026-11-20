@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3919'
 ht-degree: 0%
 ---
 # Colunas de relatório para relatórios básicos e avançados
@@ -59,6 +59,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | As dimensões do anúncio. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anúncios de pesquisa responsivos) A eficácia do anúncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> ou <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising] campanhas) O ajuste de oferta móvel de nível de grupo de anúncios atual, que determina como as ofertas são ajustadas quando o anúncio é exibido em um dispositivo móvel. |
+| [!UICONTROL Adobe Tech Fees] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] e [!UICONTROL Ad Variation Report]; somente [!DNL ChatGPT Ads]) As taxas de tecnologia de [!DNL Adobe] para gastos com mídia, calculadas usando as taxas de taxa aplicáveis. |
 | [!UICONTROL AI Max Bundling Required] | (Campanhas que se destinam somente à rede de pesquisa; campanhas com o recurso Máximo de IA habilitado; somente leitura) Se o agrupamento é necessário: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* ou nulo. |
 | [!UICONTROL AI Max Enabled] | Se o recurso [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) está habilitado: *[!UICONTROL true]*, *[!UICONTROL false]* ou é nulo. |
 | [!UICONTROL AI Max Search Term Matching] | (Campanhas que direcionam a rede de pesquisa e para as quais o [recurso Máximo de IA](https://support.google.com/google-ads/answer/15910366) e o recurso de correspondência de termos de pesquisa no nível da campanha estão habilitados; somente leitura) Se a correspondência de termos de pesquisa no nível do grupo de anúncios está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* ou nula. |
@@ -67,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Avg Position] | A posição média dos anúncios durante o intervalo de datas especificado.<br><br>Para campanhas de [!DNL Google Ads] e [!DNL LY Ads], esses dados estarão disponíveis somente até setembro de 2019. Para [!DNL Microsoft Advertising], esses dados estarão disponíveis somente até 22 de janeiro de 2021. |
 | [!UICONTROL Base URL] | O URL base da palavra-chave, incluindo quaisquer parâmetros de acréscimo configurados para a campanha ou conta. Ela não inclui nenhum código de rastreamento e redirecionamento de Pesquisa, Social e Commerce. |
 | [!UICONTROL Bid Strategy] | (A maioria das redes de anúncios) Para campanhas ou componentes de campanha, esta é a estratégia de oferta da campanha. Para contas de rede de anúncios vinculadas a uma conta de gerente, essa é a estratégia de oferta entre contas. Os valores disponíveis variam de acordo com a rede de anúncios. |
+| [!UICONTROL Billable Spend] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] e [!UICONTROL Ad Variation Report]; somente [!DNL ChatGPT Ads]) O custo de mídia mais [!DNL Adobe] taxas de tecnologia, excluindo impostos. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] anúncios responsivos) O nome comercial. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] anúncios responsivos e multimídia) A call to action incluída no anúncio. |
 | [!UICONTROL Campaign] | A campanha. |
@@ -131,6 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; somente campanhas de pesquisa e exibição) O número estimado de cliques para a combinação grupo de anúncios/campanha/portfólio. Esse valor pode ser diferente do valor fornecido pelas redes de anúncios. |
 | [!UICONTROL Estimated Cost] | O custo total estimado dos anúncios associados que o Search, Social e Commerce rastreou. Esse valor pode ser diferente do valor fornecido pelas redes de anúncios. |
 | [!UICONTROL Estimated Impressions] | (Exibir campanhas somente) O número estimado de impressões de anúncios que o Search, Social e Commerce rastreou. Este valor pode ser diferente do valor da coluna [!UICONTROL Impressions] (quando disponível), que mostra o valor fornecido pelas redes de anúncios. |
+| [!UICONTROL Estimated Tax] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] e [!UICONTROL Ad Variation Report]; somente [!DNL ChatGPT Ads]) Os impostos estimados sobre gastos com mídia e [!DNL Adobe] taxas de tecnologia, calculados usando as alíquotas de imposto aplicáveis. |
 | [!UICONTROL Exclude (yes/no)] | Se a oferta é excluída (<i>[!UICONTROL Yes]</i>) ou se a oferta é permitida (<i>[!UICONTROL No]</i>) para anúncios de produtos correspondentes. |
 | [!UICONTROL First Page CPC] | (Somente campanhas do Google) O custo por clique (CPC) para anúncios que aparecem na primeira página dos resultados da pesquisa durante o intervalo de datas especificado. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campanhas somente) O número médio de vezes que alguém viu seu anúncio. |

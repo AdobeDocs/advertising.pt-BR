@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # Bloquear e desbloquear uma configuração de coluna nas exibições de campanha
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Bloquear uma coluna &quot;bloqueia&quot; essa coluna e todas as outras colunas à esquerda dela em um painel estático e todas as colunas à direita em outro painel por meio do qual você pode rolar horizontalmente.
+Bloquear uma coluna &quot;bloqueia&quot; essa coluna e todas as outras colunas à esquerda dela em um painel estático e todas as colunas à direita em outro painel por meio do qual você pode rolar horizontalmente. Na nova interface do usuário, é possível redimensionar colunas bloqueadas elegíveis arrastando o limite entre os cabeçalhos de coluna sem desbloqueá-las primeiro.
 
 Um bloqueio funciona somente até que você se afaste da exibição de entidade. Não é possível salvá-lo na exibição padrão ou personalizada.
 

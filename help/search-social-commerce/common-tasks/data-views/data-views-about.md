@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Sobre a personalização de dados em visualizações de gerenciamento de campanha
@@ -44,7 +44,6 @@ Na maioria das visualizações de dados do Campaign, é possível personalizar o
 
 * Controla se deve exibir 25 linhas, 50 linhas, 100 linhas, (somente interface do usuário herdada) 200 linhas ou (somente interface do usuário herdada) [!UICONTROL Continuous Scroll] na parte inferior de qualquer página.
 
-
 ## (Nova interface do usuário) Controles de tabela de dados {#data-table-tools-new-ui}
 
 Use a barra de ferramentas acima da tabela de dados para gerenciar os dados e alterar sua exibição. As ferramentas disponíveis dependem da visualização e de suas permissões.
@@ -64,3 +63,15 @@ Quando disponível, você pode:
 * Mostrar ou ocultar gráficos usando **[!UICONTROL Charts]** na barra de ferramentas ou no menu **[!UICONTROL Actions]**.
 
   O botão da barra de ferramentas é selecionado quando os gráficos são exibidos. Em [!UICONTROL Actions], uma opção indica se os gráficos são mostrados. Clique no controle novamente para ocultar os gráficos.
+
+## (Nova interface de usuário) Larguras de coluna e valores de tabela {#column-widths-values-new-ui}
+
+Nas tabelas de dados da campanha:
+
+* Redimensionar uma coluna arrastando o limite entre os cabeçalhos da coluna. Você também pode redimensionar [colunas bloqueadas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md) qualificadas sem desbloqueá-las primeiro. As larguras mínimas ajudam a manter os valores legíveis. Algumas colunas de ícone e ação têm larguras fixas e não podem ser redimensionadas.
+
+* Mantenha o cursor sobre um nome de entidade truncado para ver o nome completo.
+
+* Para abrir os detalhes de uma entidade cujo nome é um link, pressione **Tab** até que o nome seja realçado e pressione **Enter**.
+
+* Um traço (-) indica um valor ausente, NULO ou não aplicável. Os valores zero e false permanecem visíveis.

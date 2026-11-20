@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
+source-git-commit: 6aa2e40903fd8652c0ac744e3cd4f68c5e74fd48
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '296'
 ht-degree: 0%
 ---
 # Configurações de campanha de [!DNL ChatGPT Ads]
@@ -39,7 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** O status de exibição da campanha: *Ativa* ou *Pausada*. O padrão para novas campanhas de publicidade é *Ativo*.
 
-**[!UICONTROL Objective]:** O objetivo da campanha: *Alcance* ou *Cliques*.
+**[!UICONTROL Objective]:** O objetivo da campanha: *[!UICONTROL Reach]*, *[!UICONTROL Clicks]* ou *[!UICONTROL Conversions]*. O objetivo determina as [opções de lances de grupo de anúncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md) disponíveis: a licitação CPC de destino é compatível com cliques e a licitação CPA de destino é compatível com conversões. O CPC de destino e a oferta de CPA de destino não estão disponíveis para campanhas de alcance.
+
+**[!UICONTROL Billing event]:** (Novas campanhas com o objetivo [!UICONTROL Conversions]) Se você é cobrado com base em cliques ou impressões. O padrão é cliques. O objetivo determina para que a campanha é otimizada; o evento de faturamento determina como você é cobrado. Você não pode alterar o evento de faturamento depois de salvar a campanha.
 
 **[!UICONTROL Location Targets]:** Localizações geográficas de usuários com suporte para incluir como destinos. Por padrão, todos os locais compatíveis são direcionados. É possível restringir os destinos para incluir (mas não excluir) usuários em qualquer combinação de locais.
 

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '214'
 ht-degree: 0%
 ---
 # Aplicar um filtro de dados a partir de um menu de cabeçalho de coluna
@@ -47,4 +47,4 @@ Você pode aplicar quantos filtros desejar a uma coluna, um de cada vez.<!-- Tru
 >
 >* [Aplicar filtros de dados na barra de ferramentas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [Editar filtros de coluna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [Remover um filtro de coluna]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [Remover um filtro de coluna](column-filter-remove.md)

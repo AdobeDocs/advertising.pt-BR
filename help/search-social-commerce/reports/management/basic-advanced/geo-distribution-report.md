@@ -1,25 +1,12 @@
 ---
 title: '[!UICONTROL Geo Distribution Report]'
 description: Saiba mais sobre o [!UICONTROL Geo Distribution Report].
-exl-id: f9c08b81-1ebb-43bf-b1f3-1b373bde9d3e
 feature: Search Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/UxPiz7CHb8Y2z-EUk1xzKV7zOOKiL82hCUUFMLcaqiM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Geo Distribution Report]
 
 O [!UICONTROL Geo Distribution Report] inclui o número estimado de cliques pagos [^1] por região geográfica, que é determinada a partir do endereço IP do usuário de pesquisa, para campanhas em portfólios especificados (quando aplicável) ou contas de anúncios. Opcionalmente, é possível incluir métricas de conversão. Por padrão, os dados incluem o número estimado de cliques para cada combinação de grupo de anúncios/campanha/portfólio para cada região que gerou cliques, e as linhas estão em ordem decrescente por cliques estimados.
@@ -55,5 +42,5 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios básicos e avançados](basic-advanced-report-about.md)
->* [Gerar um relatório básico ou avançado](basic-advanced-report-generate.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configurações básicas e avançadas de relatório](basic-advanced-report-settings.md)

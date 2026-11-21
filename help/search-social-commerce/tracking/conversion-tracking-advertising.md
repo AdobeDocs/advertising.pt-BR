@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 O Adobe Advertising rastreia as conversões resultantes de cliques em anúncios usando as tags de rastreamento de conversão do Adobe Advertising inseridas nas páginas da Web que abrem quando ocorre um evento de conversão, como uma página de &quot;sucesso&quot;. As tags incluem informações incorporadas para enviar os dados da transação, juntamente com o cookie Adobe Advertising do usuário, a um servidor de rastreamento, do qual a transação é creditada ao clique ou impressão de anúncio apropriado (de acordo com as configurações de atribuição de conversão do anunciante).
 
-Você pode [gerar tags de rastreamento de conversão](/help/search-social-commerce/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch).
+Você pode [gerar tags de rastreamento de conversão](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md) no Search, Social e Commerce ou usar tags na Adobe Experience Platform (anteriormente conhecida como Adobe Experience Platform Launch).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ O pixel de rastreamento de conversão permite que o Adobe Advertising faça o se
 >[!MORELIKETHIS]
 >
 >* [Opções de rastreamento de conversão](conversion-tracking-about.md)
->* [Gerar e implementar uma marca de conversão do Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Gerar e implementar uma marca de conversão do Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Formato das marcas de rastreamento de conversão do JavaScript versão 3](format-conversion-tag-jsv3.md)
 >* [Formato das marcas de rastreamento de conversão do JavaScript versão 2](format-conversion-tag-jsv2.md)
 >* [Formato das marcas de rastreamento de conversão de imagem](format-conversion-tag-image.md)

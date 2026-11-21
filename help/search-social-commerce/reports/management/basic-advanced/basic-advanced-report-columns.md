@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | Se a oferta é excluída (<i>[!UICONTROL Yes]</i>) ou se a oferta é permitida (<i>[!UICONTROL No]</i>) para anúncios de produtos correspondentes. |
 | [!UICONTROL First Page CPC] | (Somente campanhas do Google) O custo por clique (CPC) para anúncios que aparecem na primeira página dos resultados da pesquisa durante o intervalo de datas especificado. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campanhas somente) O número médio de vezes que alguém viu seu anúncio. |
-| `GGL*`, `GGL_CT*` e `GGL_XD_CT*` [[!DNL Google Ads] conversões rastreadas] | ([!DNL Google Ads] campanhas nas redes de pesquisa e compras) [!DNL Google Ads] conversões rastreadas, com até três métricas separadas para cada conversão:<ul><li>`GGL*` — (Ao rastrear) O valor de conversão da palavra-chave, começando com o prefixo &quot;GGL&quot; (como Compra GGL).</li><li>`GGL_CT*` — O número (contagem) de conversões, começando com o prefixo &quot;GGL_CT&quot; (como GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Quando disponível para o tipo de conversão, ao rastreá-las) O número (contagem) de conversões entre dispositivos, conforme medido por [!DNL Google Ads] começando com o prefixo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).</li></ul><br>Cada conversão é registrada por unidade de oferta e data de clique; não está disponível no nível do evento. Para obter mais informações sobre [!DNL Google Ads] conversões rastreadas, consulte &quot;[[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*` e `GGL_XD_CT*` [[!DNL Google Ads] conversões rastreadas] | ([!DNL Google Ads] campanhas nas redes de pesquisa e compras) [!DNL Google Ads] conversões rastreadas, com até três métricas separadas para cada conversão:<ul><li>`GGL*` — (Ao rastrear) O valor de conversão da palavra-chave, começando com o prefixo &quot;GGL&quot; (como Compra GGL).</li><li>`GGL_CT*` — O número (contagem) de conversões, começando com o prefixo &quot;GGL_CT&quot; (como GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Quando disponível para o tipo de conversão, ao rastreá-las) O número (contagem) de conversões entre dispositivos, conforme medido por [!DNL Google Ads] começando com o prefixo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).</li></ul><br>Cada conversão é registrada por unidade de oferta e data de clique; não está disponível no nível do evento. Para obter mais informações sobre [!DNL Google Ads] conversões rastreadas, consulte &quot;[[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/tracking/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | (Somente [!DNL Google Ads]) A porcentagem de suas impressões de anúncio mostradas como o primeiro anúncio acima dos resultados da pesquisa orgânica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] somente) A porcentagem de suas impressões de anúncio mostradas acima dos resultados da pesquisa orgânica. |
 | [!UICONTROL Impressions] | O número de impressões de anúncios durante o intervalo de datas especificado. |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios básicos e avançados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [Gerar um relatório básico ou avançado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Gerar um relatório básico ou avançado](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [Configurações básicas e avançadas de relatório](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

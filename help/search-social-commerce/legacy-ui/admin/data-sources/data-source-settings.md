@@ -1,0 +1,55 @@
+---
+title: Configurações da fonte de dados [!DNL Google Analytics]
+description: Referencie as configurações necessárias para [!DNL Google Analytics] fontes de dados.
+role: User, Admin
+exl-id: 78422c2c-ed58-410e-8996-882759ed5556
+feature: Search Data Sources
+TQID: 'https://experienceleague.adobe.com/EvCJTrEFxRU87kUlKCZ-rN3jtNVjSkVGmrHCNsPMElw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 0%
+---
+# Configurações da fonte de dados [!DNL Google Analytics]
+
+| Seção | Parâmetro | Descrição |
+| ---- | ---- | ---- |
+| [!UICONTROL Connect to Google Analytics] | [!UICONTROL Google Analytics Account ID] | A ID da conta [!DNL Google Analytics] da qual os dados são extraídos. Todo o uso da API para extrair dados é cobrado na conta especificada. A conta deve conceder permissões de &quot;Ler e analisar&quot; ao endereço de email especificado.<br><br>Para encontrar sua ID, faça logon no [!DNL Google Analytics]. Na parte superior esquerda, clique em **[!DNL All accounts]** para abrir uma lista de suas contas. A ID de cada conta está abaixo do nome da conta. |
+| | [!UICONTROL Google Analytics Login] | Especifique o endereço de logon/email que será usado para acessar os dados desta fonte de dados. O logon deve ser registrado em uma conta [!DNL Google] e ter permissões de &quot;Leitura e análise&quot; para a conta [!DNL Google Analytics]. Consulte as [instruções para atribuir permissões de usuário em [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).<br><br><b>Observação:</b> se você alterar a senha desta conta de logon, todas as conexões abertas com a conta serão fechadas. Para retomar a sincronização de dados, retorne a esta página e [autentique novamente](data-source-reauthenticate.md). |
+| [!UICONTROL Account Details] | [!UICONTROL Google Analytics Account Name] | (Somente leitura; somente contas conectadas) O nome da conta. |
+| | [!UICONTROL Google Analytics Property] | A propriedade (site, aplicativo móvel ou dispositivo) da qual coletar dados para a conta [!DNL Google Analytics].<br><br> Para integrar métricas a várias propriedades, configure uma fonte de dados separada para cada propriedade. |
+| | [!UICONTROL Google Analytics View] | A exibição que contém o conjunto de dados que você deseja acessar. Se a propriedade tiver várias exibições, considere obter a exibição não filtrada no nível mais alto, que contém todos os dados.<br><br>Para integrar métricas para vários modos de exibição para a mesma propriedade, configure uma fonte de dados separada para cada modo de exibição. Certifique-se de que as exibições não incluam dados sobrepostos. |
+| | [!UICONTROL Google Analytics Dimension] | A dimensão personalizada [!DNL Google Analytics] que é preenchida com o valor do parâmetro de sequência de consulta &quot;ef_id&quot; do Adobe Advertising. Se você não vir a dimensão correta listada, entre em contato com a equipe de implementação [!DNL Google Analytics].<br><br>O &quot;ef_id&quot; é usado como a chave primária para transmitir dados de [!DNL Google Analytics] para o Adobe Advertising. |
+| [!UICONTROL Import Metrics] | [!UICONTROL Available Metrics] | Todas as métricas disponíveis para a propriedade e o modo de exibição [!DNL Google Analytics] especificados que não são importados para a fonte de dados, organizadas por categoria. A lista inclui o nome amigável importado e o nome do back-end (começando com &quot;ga&quot;). para cada métrica. O botão [!UICONTROL Refresh] atualiza a lista com qualquer nova métrica em [!DNL Google Analytics].<br><br>Para importar uma métrica disponível, arraste-a para a seção [!UICONTROL Selected Metrics].<br><br>Consulte &quot;[Disponível [!DNL Google Analytics] Métricas na Advertising Cloud](data-source-ga-metrics.md)&quot;. |
+| | Métricas selecionadas | Todas as métricas da propriedade e exibição [!DNL Google Analytics] especificadas que são importadas para a fonte de dados, além do status de validação de cada métrica. A lista inclui o nome amigável e o nome de back-end importados (começando com &quot;`ga.`&quot;) para cada métrica. Cada fonte de dados pode incluir quatro métricas de tráfego padrão que não podem ser removidas ([!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces] e [!UICONTROL Session Duration]) e até 16 métricas válidas adicionais ou métricas sem dados. É possível editar a lista de métricas a qualquer momento.<br><br>Para importar uma métrica, selecione-a no painel [!UICONTROL Available Metrics] e arraste-a para cá.<br><br><b>Atenção:</b> O [!DNL Google Analytics] permite até 10 métricas em um único feed de dados. Cada uma de suas fontes de dados em Pesquisa, Social e Commerce pode incluir até dois feeds com um total de 20 métricas, mas o uso de um segundo feed dobra suas chamadas de API para [!DNL Google Analytics]. Se você tiver muitas métricas, selecione somente as métricas que deseja usar nos objetivos de otimização. Você pode exibir suas cotas para este projeto em [the [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Veja mais sobre [cotas e limites de chamada para solicitações de API para [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).<br><br><b>Notas:</b><br><ul><li>O nome amigável é importado como o nome de exibição para uma métrica na exibição [!UICONTROL Admin] > [!UICONTROL Transactions Properties] e é anexado com &quot;<code>_ga:&lt;metric_tag configurada no campo Marca de Métrica></code>&quot; (como &quot;Pageviews_ga:UK&quot;). Como opção, você pode editar o nome de exibição de suas metas personalizadas e métricas personalizadas, mas os nomes de exibição de todas as métricas comuns são substituídos todos os dias pelos nomes amigáveis em [!DNL Google Analytics], anexados com as tags especificadas.</li><li>Exibições de página, sessões, taxa de rejeição (calculada como rejeições/sessões) e duração da sessão são automaticamente fatorados nos algoritmos de lance do portfólio. É possível adicionar manualmente qualquer outra métrica a um objetivo do portfólio.</li><li>Quando você remove uma métrica da fonte de dados, o Adobe Advertising mantém os dados do histórico de acordo com a [política de retenção de dados](/help/search-social-commerce/legacy-ui/reports/data-used-for-reports.md) normal.</li></ul> |
+| Tag de métrica | Tag de métrica | Uma marca a ser acrescentada a cada métrica [!DNL Google Analytics] selecionada no Adobe Advertising, precedida por &quot;<code>_ga:</code>&quot; (como &quot;Pageviews_ga:&lt;metric_tag>&quot;). A tag pode ter de 2 a 5 caracteres alfanuméricos e deve ser exclusiva do anunciante.<br><br>Esta marca ajuda a identificar a fonte de dados de cada métrica. Essa marca é especialmente importante quando você configura várias fontes de dados porque cada fonte de dados inclui alguns dos mesmos nomes de métricas (incluindo [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces] e [!UICONTROL Session Duration] e possivelmente outras métricas). Anexar tags de métricas diferentes evita nomes de métricas duplicados.<br><br>Por exemplo, se você configurar integrações separadas para sua propriedade do Reino Unido e sua propriedade JP, poderá usar &quot;Reino Unido&quot; e &quot;JP&quot; como tags de métrica. As métricas [!UICONTROL Pageviews] para as duas propriedades aparecem adequadamente no Adobe Advertising como &quot;Pageviews_ga:UK&quot; e &quot;Pageviews_ga:JP&quot;. |
+
+>[!MORELIKETHIS]
+>
+>* [Sobre a sincronização [!DNL Google Analytics] de métricas de conversão](data-source-about.md)
+>* [Pré-requisitos para configurar uma [!DNL Google Analytics] fonte de dados](data-source-prerequisites.md)
+>* [Configurar uma  [!DNL Google Analytics] exibição como fonte de dados](data-source-configure.md)
+>* [Editar uma [!DNL Google Analytics] fonte de dados](data-source-edit.md)
+>* [Pausar sincronização de uma fonte de dados](data-source-pause.md)
+>* [Reautenticar uma [!DNL Google Analytics] fonte de dados](data-source-reauthenticate.md)
+>* [Apêndice - Disponível [!DNL Google Analytics] métricas](data-source-ga-metrics.md)

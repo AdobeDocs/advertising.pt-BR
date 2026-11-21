@@ -1,0 +1,41 @@
+---
+title: Gerar um relatório a partir de um relatório existente
+description: Saiba como criar um relatório usando um relatório gerado anteriormente.
+exl-id: f094c767-629a-4e3c-91f6-12761927fe89
+feature: Search Reports
+TQID: 'https://experienceleague.adobe.com/yg8YEBPrmnzrX5PAdbaUOiKpTar0pUvaEhzmWSU4jzA'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
+---
+# Gerar um relatório a partir de um relatório existente
+
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, que abrirá a guia **[!UICONTROL Latest Reports]**.
+
+1. Clique no botão ![Criar Semelhante](/help/search-social-commerce/assets/create-similar.png "Criar Semelhante") ao lado do relatório existente.
+
+1. Edite as configurações do relatório, se necessário.
+
+1. Clique em **[!UICONTROL Create]**.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre relatórios](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [Gerar um relatório a partir de um modelo](/help/search-social-commerce/legacy-ui/reports/management/report-generate-from-template.md)
+>* [Configurações básicas e avançadas de relatório](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [Configurações do relatório de precisão do modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Configurações do relatório de especialidades](/help/search-social-commerce/legacy-ui/reports/management/specialty/specialty-report-settings.md)
+>* [Excluir relatórios](/help/search-social-commerce/legacy-ui/reports/management/report-delete.md)

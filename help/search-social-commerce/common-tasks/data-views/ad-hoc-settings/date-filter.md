@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Quando você salva um intervalo de datas específico para uma exibição padrão
 >[!NOTE]
 >
 >* Você pode exibir dados dos 13 meses anteriores, mas qualquer exibição personalizada existente pode incluir dados apenas dos 180 dias anteriores.
->* Para exibir dados anteriores, vá para a [[!UICONTROL Reports] exibição](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) e execute um relatório básico.
+>* Para exibir dados anteriores, vá para a [[!UICONTROL Reports] exibição](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md) e execute um relatório básico.
 >* Você também pode salvar um intervalo de datas para uma [exibição padrão ou personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## (Interface herdada) Alterar o filtro de data global nas visualizações de campanha

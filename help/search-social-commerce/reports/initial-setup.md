@@ -1,31 +1,28 @@
 ---
-title: As tarefas de configuração iniciais para relatórios
+title: (Nova interface) As tarefas de configuração iniciais para relatórios
 description: Saiba como disponibilizar métricas em relatórios e como automatizar relatórios.
-exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '352'
 ht-degree: 0%
 ---
-# As tarefas de configuração iniciais para relatórios
+# (Nova interface) As tarefas de configuração iniciais para relatórios
 
 Os novos usuários devem executar as seguintes tarefas de configuração inicial:
 
-* Disponibilize as métricas de conversão que o Adobe Advertising está rastreando para um anunciante [para relatórios e outras exibições](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) e, opcionalmente, [renomeie qualquer uma das métricas de conversão]&#x200B;(/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md que são exibidas nos títulos das colunas para facilitar a leitura.
+* Disponibilize as métricas de conversão que o Adobe Advertising está rastreando para um anunciante para relatórios e outras exibições e, opcionalmente, renomeie qualquer uma das métricas de conversão exibidas nos cabeçalhos da coluna para facilitar a leitura. Consulte &quot;[Gerenciar as métricas de conversão de um anunciante](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md).&quot;
 
   As propriedades de transações não estão disponíveis para relatórios, a menos que você as disponibilize especificamente.
 
@@ -33,11 +30,11 @@ Os novos usuários devem executar as seguintes tarefas de configuração inicial
 
 * (Opcional) Automatizar a geração de relatórios:
 
-  * Se você quiser gerar dados de relatório regularmente para um incremento de tempo específico, como [!UICONTROL Campaign Report] para a semana passada ou os últimos 30 dias, poderá configurar [modelos de relatório](/help/search-social-commerce/reports/automation/templates/template-about.md) e agendá-los para serem executados diariamente ou em um dia específico da semana ou do mês. Cada vez que o relatório é agendado para execução, um novo relatório é gerado. Você tem a opção de notificar os endereços de email de usuários específicos do Search, Social e Commerce quando o relatório é concluído, com base nas [configurações de notificação definidas no [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+  * Se você quiser gerar dados de relatório regularmente para um incremento de tempo específico, como [!UICONTROL Campaign Report] para a semana passada ou os últimos 30 dias, poderá configurar [modelos de relatório](report-templates-manage.md) e agendá-los para serem executados diariamente ou em um dia específico da semana ou do mês. Cada vez que o relatório é agendado para execução, um novo relatório é gerado. Você tem a opção de notificar os endereços de email de usuários específicos do Search, Social e Commerce quando o relatório é concluído, com base nas [configurações de notificação definidas em [!UICONTROL Notification Center]][Manage custom alerts]&#x200B;(/help/search-social-commerce/common-tasks/notifications-manage.md).
 
-  * Se você deseja exibir dados atualizados do relatório diário em uma planilha formatada personalizada, com ou sem tabelas dinâmicas e quaisquer colunas adicionais que você precise para realizar outros cálculos, poderá configurar um [feed de planilha](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) diário. Os feeds de planilha são atualizados diariamente com os dados de desempenho mais recentes e continuam a reter os dados das datas anteriores. Para configurar os feeds de planilha, você deve primeiro criar um modelo de planilha personalizado em [!DNL Microsoft Excel]. Você tem a opção de notificar os endereços de email de usuários específicos do Search, Social e Commerce quando um arquivo de feed estiver disponível, com base nas [configurações de notificação definidas no [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+  * Se você deseja exibir dados atualizados do relatório diário em uma planilha formatada personalizada, com ou sem tabelas dinâmicas e quaisquer colunas adicionais que você precise para realizar outros cálculos, poderá configurar um [feed de planilha](/help/search-social-commerce/legacy-ui/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) diário. Os feeds de planilha são atualizados diariamente com os dados de desempenho mais recentes e continuam a reter os dados das datas anteriores. Para configurar os feeds de planilha, você deve primeiro criar um modelo de planilha personalizado em [!DNL Microsoft Excel]. Você tem a opção de notificar os endereços de email de usuários específicos do Search, Social e Commerce quando um arquivo de feed estiver disponível, com base nas [configurações de notificação definidas no [!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md).
 
-  * Se quiser receber relatórios básicos e avançados em um local FTP, configure o [acesso FTP aos relatórios básicos e avançados](/help/search-social-commerce/reports/automation/ftp-reports.md) solicitando uma conta FTP e configurando modelos de relatório com uma convenção de nomenclatura específica.
+  * Se quiser receber relatórios básicos e avançados em um local FTP, configure o [acesso FTP aos relatórios básicos e avançados](/help/search-social-commerce/reports/ftp-reports.md) solicitando uma conta FTP e configurando modelos de relatório com uma convenção de nomenclatura específica.
 
 >[!MORELIKETHIS]
 >

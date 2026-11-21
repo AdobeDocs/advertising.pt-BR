@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: Saiba mais sobre o [!UICONTROL Label Classification Report].
-exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 ---
 # [!UICONTROL Label Classification Report]
@@ -35,7 +25,7 @@ Você pode exibir dados dos últimos 36 meses.
 >
 >* Relatórios por classificações de rótulo no nível de anúncio não estão disponíveis para [!DNL Microsoft Advertising] campanhas de anúncio de pesquisa dinâmica (DSA).
 >* Mais de uma classificação de etiqueta pode ser aplicada à mesma entidade, portanto, o total de cada métrica pode ser maior que o total real da entidade. Por exemplo, digamos que a palavra-chave &quot;sapatos de camurça&quot; tenha dois valores de etiqueta, &quot;camurça&quot; e &quot;calçado&quot;, e a palavra-chave recebeu 100 cliques. A coluna Clicks mostraria &quot;100&quot; para cada um desses valores de rótulo, portanto, o total para ambas as linhas seria &quot;200&quot;.
->* Quaisquer alterações feitas em classificações de rótulo e nos valores de rótulo filho de uma entidade serão visíveis em cerca de uma hora.
+* Quaisquer alterações feitas em classificações de rótulo e nos valores de rótulo filho de uma entidade serão visíveis em cerca de uma hora.
 
 ## Colunas padrão
 
@@ -56,5 +46,5 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios básicos e avançados](basic-advanced-report-about.md)
->* [Gerar um relatório básico ou avançado](basic-advanced-report-generate.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configurações básicas e avançadas de relatório](basic-advanced-report-settings.md)

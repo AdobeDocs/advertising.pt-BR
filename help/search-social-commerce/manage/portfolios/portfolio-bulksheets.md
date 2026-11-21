@@ -1,0 +1,108 @@
+---
+title: Editar configurações de portfólio em massa usando arquivos de bulksheet
+description: Saiba como editar as configurações de vários portfólios usando um arquivo de bulksheet.
+feature: Search Portfolios, Search Optimization
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+TQID: 'https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 0%
+---
+# Editar configurações de portfólio em massa usando arquivos de bulksheet
+
+*recurso do Beta*
+
+Um bulksheet de portfólio é um arquivo que contém configurações de portfólio em um formato específico e pode ser usado para revisar e modificar rapidamente as configurações. Você pode gerar (baixar) bulksheets com configurações para um ou mais portfólios. O arquivo foi baixado como uma pasta de trabalho [!DNL Excel] com duas planilhas (formato XLSX). A pasta de trabalho inclui:
+
+* Uma planilha [!UICONTROL Instructions] somente leitura com informações sobre a edição dos campos.
+
+* Uma guia [!UICONTROL Portfolio Settings Edit], com uma linha por portfólio incluído. Opcionalmente, é possível editar os campos conforme necessário, salvar o arquivo localmente e, em seguida, [carregar o arquivo editado](#portfolio-bulksheet-upload) para Search, Social e Commerce. Os campos editáveis são realçados em cores.
+
+Esse recurso está disponível para portfólios com as seguintes estratégias de gastos: Diariamente, Semanalmente, Mensalmente e Dia da semana.
+
+## Baixar um arquivo de bulksheet com configurações de portfólio
+
+1. (Opcional) Marque a caixa de seleção ao lado de cada portfólio a ser incluído na planilha em massa.
+
+   Se você não selecionar portfólios específicos, será possível baixar as configurações de todos os portfólios.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em:
+
+   * (Para todos os portfólios) ![Operações em massa](/help/search-social-commerce/assets/chevron-down.png "Operações em massa") > **[!UICONTROL Export All Portfolios]**.
+
+   * (Para portfólios selecionados) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
+
+1. Insira o nome do arquivo de bulksheet a ser criado e clique em **[!UICONTROL Export Now]**.
+
+   O arquivo é salvo na pasta de downloads padrão do navegador.
+
+## Fazer upload de um arquivo de bulksheet com configurações atualizadas do portfólio {#portfolio-bulksheet-upload}
+
+O arquivo deve estar no formato XLSX, o tamanho do arquivo deve estar entre 1 KB e 1 MB e o comprimento máximo do nome do arquivo é de 100 caracteres.
+
+1. Na barra de ferramentas acima da tabela de dados, clique em ![Operações em Massa](/help/search-social-commerce/assets/chevron-down.png "Operações em Massa") > **[!UICONTROL Import Portfolio Details]**.
+
+1. No diálogo [!UICONTROL Import Portfolio Details File]:
+
+   1. Arraste e solte um arquivo na caixa ou clique em **[!UICONTROL Browse File]** para selecionar um arquivo do seu dispositivo ou rede.
+
+   1. Clique em **[!UICONTROL Import]**.
+
+Você pode verificar o status do carregamento usando o botão [!UICONTROL Global Sync Status] (![Status de Sincronização Global](/help/search-social-commerce/assets/global-sync-status.png "Status de Sincronização Global")) ao lado do seletor de intervalo de datas. Se qualquer uma das alterações não tiver sido bem-sucedida, você poderá baixar um arquivo de erro mostrando o que falhou.
+
+As notificações também são adicionadas à Central de Notificações, e você pode abrir o painel Notificações no ícone ![Notificações](/help/search-social-commerce/assets/notifications-new.png "Notificações") ao lado do botão [!UICONTROL Global Sync Status] (![Status da sincronização global](/help/search-social-commerce/assets/global-sync-status.png "Status da sincronização global")).
+
+## Requisitos em matéria de dados para os ficheiros de bulksheet carregados
+
+Todos os arquivos de bulksheet devem incluir a coluna [!UICONTROL Portfolio ID], e cada linha de dados deve incluir um valor para que [!UICONTROL Portfolio ID] seja acionável. Para obter mais informações sobre os requisitos de dados, consulte a guia [!UICONTROL Instructions] no arquivo de bulksheet baixado.
+
+Para obter explicações sobre as colunas de configuração do portfólio na guia [!UICONTROL Portfolio Settings Edit], consulte o Guia de Otimização, que está disponível no Search, Social e Commerce.
+
+<!--
+## Data fields on the [!UICONTROL Portfolio Settings Edit] tab
+
+| Field | Required to import data? | Description |
+| ----- | ------------------------ | ----------- |
+| Portfolio ID |  |  |
+| Portfolio Name |  |  |
+| Status |  |  |
+| Spend Strategy |  |  |
+| Target |  |  |
+| Hybrid |  |  |
+| Auto adjust campaign budgets |  |  |
+| Spend Multiple |  |  |
+| Minimum Campaign Budget |  |  |
+| Objective |  |  |
+| Cost Half-Life |  |  |
+| Revenue Half-Life |  |  |
+| Min. Target CPA |  |  |
+| Max. Target CPA |  |  |
+| Min. Target ROAS |  |  |
+| Max. Target ROAS |  |  |
+| Enable Intraday for Smart Portfolios |  |  |
+| Upload Excluded |  |  |
+
+-->
+
+>[!MORELIKETHIS]
+>
+>* [(Nova interface do usuário) Editar um portfólio](portfolio-edit.md)
+>* [Criar um portfólio](portfolio-create.md)
+>* [(Nova Interface do Usuário) Sobre portfólios](portfolio-about.md)

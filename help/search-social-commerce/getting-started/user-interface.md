@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Cada página inclui o menu principal e outros menus baseados em tarefas e informações.
 
-O [perfil de produto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina as opções disponíveis, incluindo a funcionalidade disponível em cada exibição.
+O [perfil de produto](/help/search-social-commerce/user-administration.md#default-product-profiles) determina as opções disponíveis, incluindo a funcionalidade disponível em cada exibição.
 
 ## O menu principal
 
@@ -83,7 +83,7 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
 * Submenu **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Sai do novo site e abre a visualização [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] herdada.
 

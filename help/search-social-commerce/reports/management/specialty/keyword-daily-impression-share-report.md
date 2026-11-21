@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: Saiba mais sobre o [!UICONTROL Keyword Daily Impression Share Report].
-exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/KS0R-I1Dr92T0AwQcWianuX7EtGQY65vIGinY3Lbm-k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '137'
 ht-degree: 0%
 ---
 # [!UICONTROL Keyword Daily Impression Share Report]
@@ -62,5 +54,5 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios especializados](specialty-report-about.md)
->* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)

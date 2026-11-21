@@ -1,0 +1,72 @@
+---
+title: '[!UICONTROL Forecast Accuracy Report]'
+description: Saiba mais sobre o Relatório de Precisão da Previsão, incluindo as colunas de dados.
+exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
+feature: Search Reports, Search Model Accuracy Reports
+TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
+---
+# O [!UICONTROL Forecast Accuracy Report]
+
+O relatório mostra a precisão dos modelos de custo e receita por dia para portfólios especificados. Por padrão, inclui a receita, o custo e os cliques diários previstos e reais — e a precisão das previsões — para cada portfólio. Inclui dados de campanhas que estão mapeadas para os portfólios no momento.
+
+Você pode exibir dados dos 18 meses anteriores.
+
+>[!NOTE]
+>
+>* Este relatório fornece os mesmos dados que o [!UICONTROL Model Accuracy Report] no nível de portfólio, exceto que você pode executá-lo em vários portfólios e alterar a regra de atribuição. Você também pode executar e agendar o relatório usando parâmetros personalizados e pode usá-lo para criar feeds de planilha.
+>
+>* A prática recomendada é exibir a [!UICONTROL Forecast Accuracy Report] pelo menos nos últimos sete dias porque, independentemente da estratégia de gastos do portfólio, a maioria dos portfólios vê uma tendência inerente de dia da semana. A capacidade de otimização leva essa tendência em consideração e aloca os gastos de acordo.
+>
+>* Para previsões de custos, um desvio de 10% nos últimos sete dias é considerado aceitável, portanto, o gasto real que está entre 90% e 110% do gasto previsto está correto. Para previsões de receita, um desvio de 15% nos últimos sete dias é considerado aceitável, portanto, a receita real que está entre 85% e 115% do gasto previsto está boa. Previsões com desvios maiores devem ser investigadas.
+>
+>* Quando palavras-chave no portfólio são associadas a restrições de mudança de oferta, o portfólio gasta mais ou menos pelo valor total causado pela mudança de oferta. Como resultado, as colunas de custo previstas se desviam do gasto pretendido pelo aumento ou diminuição do gasto.
+
+## Colunas disponíveis
+
+A seguir estão as colunas que estão disponíveis para cada relatório. As colunas padrão são incluídas automaticamente por padrão. Você pode adicionar as colunas personalizadas disponíveis na seção [!UICONTROL Columns] das configurações do relatório.
+
+| Coluna | Padrão? | Descrição |
+|----|----|----|
+| [!UICONTROL Portfolio] | Padrão | O portfólio. |
+| [!UICONTROL Day of Week] | Padrão | O dia da semana relatado: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> ou <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Start Date] | Padrão | O primeiro dia reportado. |
+| [!UICONTROL End Date] | Padrão | O último dia reportado. |
+| [!UICONTROL Predicted Revenue] | Padrão | A receita prevista do portfólio. |
+| [!UICONTROL Revenue] | Padrão | A receita real do portfólio. |
+| [!UICONTROL Revenue Accuracy] | Padrão | A precisão da previsão de receita, expressa como uma porcentagem. |
+| [!UICONTROL Predicted Cost] | Padrão | O custo previsto do portfólio. |
+| [!UICONTROL Cost] | Padrão | O custo real do portfólio. |
+| [!UICONTROL Cost Accuracy] | Padrão | A precisão da previsão de custos, expressa como uma porcentagem. |
+| [!UICONTROL Predicted Clicks] | Padrão | O número de cliques previstos para o portfólio. |
+| [!UICONTROL Clicks] | Padrão | O número real de cliques do portfólio. |
+| [!UICONTROL Click Accuracy] | Padrão | A precisão da previsão de cliques, expressa como uma porcentagem. |
+| [!UICONTROL EF Portfolio Group ID] | Padrão | A ID numérica do grupo de portfólios ao qual o portfólio pertence. |
+| [!UICONTROL Portfolio Group Name] | Padrão | O nome do grupo de portfólio ao qual o portfólio pertence. |
+| [!UICONTROL Portfolio ID] | Padrão | A ID numérica do portfólio. |
+
+>[!MORELIKETHIS]
+>
+>* [Sobre relatórios de precisão de modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [O [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Gerar um relatório de precisão de modelo](model-accuracy-report-generate.md)
+>* [Configurações do relatório de precisão do modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)

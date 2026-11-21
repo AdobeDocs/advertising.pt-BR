@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -96,7 +96,7 @@ A visualização Relatório inclui os seguintes dados:
 
    * (Opcional) Para alterar as conversões relatadas, clique em ![Configurações](/help/creative/assets/settings.png) e selecione os nomes das conversões no menu **[!UICONTROL Conversions]**. Atualmente, a única métrica disponível é &quot;Selecionar tudo&quot; para incluir todas as métricas de conversão.
 
-     As colunas de conversão disponíveis incluem as conversões disponíveis no Advertising Search, Social e Commerce, independentemente de você ser ou não cliente do Search, Social e Commerce. A lista pode incluir métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics quando o anunciante tiver [uma [!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md). [!DNL Analytics] métricas calculadas e métricas calculadas avançadas não estão disponíveis. Para obter mais informações sobre como incluir conversões coletadas em relatórios, consulte o tópico do Guia de Pesquisa, Social e Commerce &quot;[Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot;
+     As colunas de conversão disponíveis incluem as conversões disponíveis no Advertising Search, Social e Commerce, independentemente de você ser ou não cliente do Search, Social e Commerce. A lista pode incluir métricas de conversão e envolvimento do site sincronizadas do Adobe Analytics quando o anunciante tiver [uma [!DNL Adobe Analytics for Advertising] integração](/help/integrations/analytics/overview.md). [!DNL Analytics] métricas calculadas e métricas calculadas avançadas não estão disponíveis. Para obter mais informações sobre como incluir conversões coletadas em relatórios, consulte o tópico do Guia de Pesquisa, Social e Commerce &quot;[Sobre o gerenciamento das métricas de conversão de um anunciante](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md).&quot;
 
 1. (Na guia [!UICONTROL Overview]):
 

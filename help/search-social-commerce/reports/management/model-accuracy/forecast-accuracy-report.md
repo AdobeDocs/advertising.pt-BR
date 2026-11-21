@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Saiba mais sobre o Relatório de Precisão da Previsão, incluindo as colunas de dados.
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # O [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ Você pode exibir dados dos 18 meses anteriores.
 >
 >* Para previsões de custos, um desvio de 10% nos últimos sete dias é considerado aceitável, portanto, o gasto real que está entre 90% e 110% do gasto previsto está correto. Para previsões de receita, um desvio de 15% nos últimos sete dias é considerado aceitável, portanto, a receita real que está entre 85% e 115% do gasto previsto está boa. Previsões com desvios maiores devem ser investigadas.
 >
->* Quando palavras-chave no portfólio são associadas a restrições de mudança de oferta, o portfólio gasta mais ou menos pelo valor total causado pela mudança de oferta. Como resultado, as colunas de custo previstas se desviam do gasto pretendido pelo aumento ou diminuição do gasto.
+>* Quando palavras-chave no portfólio são associadas a [restrições de deslocamento de oferta](/help/search-social-commerce/goals/constraints-manage.md), o portfólio gasta mais ou menos pelo valor total causado pelo deslocamento de oferta. Como resultado, as colunas de custo previstas se desviam do gasto pretendido pelo aumento ou diminuição do gasto.
 
 ## Colunas disponíveis
 
@@ -66,7 +56,7 @@ A seguir estão as colunas que estão disponíveis para cada relatório. As colu
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios de precisão de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Sobre relatórios de precisão de modelo](model-accuracy-report-about.md)
 >* [O [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Gerar um relatório de precisão de modelo](model-accuracy-report-generate.md)
->* [Configurações do relatório de precisão do modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Configurações do relatório de precisão do modelo](model-accuracy-report-settings.md)

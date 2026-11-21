@@ -2,8 +2,6 @@
 title: O [!UICONTROL MSA Network Impression Share Report]
 description: Saiba mais sobre o [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
-exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-TQID: 'https://experienceleague.adobe.com/eJ7bmM92y9h-vkhBd5hBcIkGU0ic4HIxg2MVIN7K-1M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 ---
 # O [!UICONTROL MSA Network Impression Share Report]
@@ -66,6 +58,6 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios especializados](specialty-report-about.md)
->* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)
 >* [Colunas de relatório para relatórios especializados](specialty-report-columns.md)

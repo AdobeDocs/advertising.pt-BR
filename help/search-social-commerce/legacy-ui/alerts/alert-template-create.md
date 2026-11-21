@@ -1,0 +1,71 @@
+---
+title: Criar um modelo de alerta personalizado
+description: Saiba como criar um modelo para gerar alertas personalizados.
+exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/6fPMkTJdD-TiBU45ja0E-z1XJO5Ve7-8zs4pCc7sbYQ'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
+---
+# Criar um modelo de alerta personalizado
+
+Você pode criar um modelo de alerta para portfólios, campanhas, grupos de anúncios, palavras-chave ou anúncios e acionar o alerta de acordo com uma programação regular. Novos modelos de alerta têm o status &quot;[!UICONTROL Active]&quot;.
+
+## Criar um modelo de alerta a partir da exibição [!UICONTROL Alert Templates]
+
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
+
+1. Na barra de ferramentas, clique em ![Criar](/help/search-social-commerce/assets/add.png "Criar") e selecione o tipo de entidade a ser avaliado ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] ou [!UICONTROL Product Group]).
+
+1. Na janela [!UICONTROL Create \[Entity\] Alert], especifique as [configurações de alerta](alert-template-settings.md) nas guias **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
+
+   Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
+
+1. Na guia [!UICONTROL Summary], clique em **[!UICONTROL Create]**.
+
+## Criar um modelo de alerta a partir de uma visualização de gerenciamento de campanha
+
+>[!NOTE]
+>
+>Essa opção não está disponível para modelos de alerta no nível do portfólio.
+
+1. Na exibição **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra a subexibição de gerenciamento de campanha para o tipo de entidade a ser avaliado ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] ou [!UICONTROL Product Groups]).
+
+   Por exemplo, para criar um modelo de alerta em nível de palavra-chave, vá para [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e selecione [!UICONTROL Keywords].
+
+1. No lado direito da barra de ferramentas acima da tabela de dados, clique em ![Criar alerta](/help/search-social-commerce/assets/add-alert.png "Criar alerta").
+
+   >[!NOTE]
+   >
+   >Não é necessário selecionar linhas específicas.
+
+1. Na janela [!UICONTROL Create \[Entity type\] Alert], especifique as [configurações de alerta](alert-template-settings.md) nas guias **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
+
+   Você pode se mover entre guias clicando no nome da guia (como &quot;Filtros&quot;) ou clicando em **[!UICONTROL Next]** no canto inferior direito.
+
+1. Na guia [!UICONTROL Summary], clique em **[!UICONTROL Create]**.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre alertas personalizados](alert-about.md)
+>* [Editar um modelo de alerta personalizado](alert-template-edit.md)
+>* [Pausar um modelo de alerta personalizado](alert-template-pause.md)
+>* [Ativar um modelo de alerta personalizado](alert-template-activate.md)
+>* [Excluir um modelo de alerta personalizado](alert-template-delete.md)
+>* [Configurações personalizadas do modelo de alerta](alert-template-settings.md)
+>* [Exibir alertas personalizados](alert-view.md)
+>* [Exportar dados para alertas personalizados](alert-export-data.md)

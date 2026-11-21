@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 O Search, Social e Commerce inclui um conjunto abrangente de relatórios de desempenho com base em dados de cliques e conversão. Você pode ver dados básicos de desempenho para os vários componentes de um portfólio ou conta publicitária das visualizações [!UICONTROL Portfolios] e [!UICONTROL Campaigns], bem como gerar vários relatórios básicos e avançados.
 
-Os anunciantes que usam o serviço de rastreamento de conversão da Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice geral de conversão e a distribuição de conversões para uma única [métrica de conversão](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe de conta da Adobe tem acesso a todos os relatórios.
+Os anunciantes que usam o serviço de rastreamento de conversão da Adobe Advertising também podem identificar o número de cliques para uma localização geográfica ou nome de domínio de um site de referência, como os anúncios em cada canal e os vários eventos que levam a uma conversão contribuem para o índice geral de conversão e a distribuição de conversões para uma única [métrica de conversão](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Os relatórios disponíveis variam de acordo com o tipo de conta do usuário. A equipe de conta da Adobe tem acesso a todos os relatórios.
 
 A maioria dos relatórios pode ser personalizada para exibir apenas as informações que você deseja ver. As seguintes métricas padrão estão disponíveis na maioria dos relatórios e são calculadas no nível do anúncio:
 
@@ -52,7 +52,7 @@ A maioria dos relatórios pode ser personalizada para exibir apenas as informaç
 
 * **Métricas de conversão:** o número total de conversões de cada métrica de conversão do anunciante ou dados de transação rastreados em direção a uma métrica de conversão. Isso pode incluir métricas de conversão e envolvimento do site, mas não métricas calculadas e métricas calculadas avançadas, que são sincronizadas do Adobe Analytics.
 
-  Isso também pode incluir [[!DNL Google Ads] conversões rastreadas](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics] conversões rastreadas](/help/search-social-commerce/admin/data-sources/data-source-about.md) que são sincronizadas para a conta do anunciante.
+  Isso também pode incluir [[!DNL Google Ads] conversões rastreadas](/help/search-social-commerce/tracking/google-conversion-data.md) e [[!DNL Google Analytics] conversões rastreadas](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md) que são sincronizadas para a conta do anunciante.
 
 * **Métricas personalizadas:** suas próprias métricas, que você obtém criando fórmulas com base em métricas existentes (como o custo por pedido).
 
@@ -79,5 +79,5 @@ Dependendo da regra de atribuição especificada para o relatório, os dados par
 
 >[!MORELIKETHIS]
 >
->* [Sobre relatórios](/help/search-social-commerce/reports/report-about.md)
->* [Tarefas de configuração iniciais para relatórios](/help/search-social-commerce/reports/initial-setup.md)
+>* [Sobre relatórios](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [Tarefas de configuração iniciais para relatórios](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

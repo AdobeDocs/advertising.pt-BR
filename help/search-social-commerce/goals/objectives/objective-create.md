@@ -1,0 +1,93 @@
+---
+title: (Nova interface de usuário) Criar um objetivo
+description: Saiba como criar um objetivo ou duplicar um objetivo existente.
+feature: Search Objectives, Search Optimization
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+autotag-review: '2026-04-13T23:57:03.010Z'
+TQID: 'https://experienceleague.adobe.com/z6aWMsPgU5YScIkdoKILRbZhOo2PTvJBIXxcyOXybgw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 0%
+---
+# (Nova interface de usuário) Criar um objetivo
+
+<!-- Needs V2 subfeature tags for Search Objectives, Search Optimization. Right now, using cross-product topics for optimization, which I'm not sure is enough. -->
+
+*recurso do Beta*
+
+>[!NOTE]
+>
+>Você pode associar um objetivo a um portfólio ao [criar o portfólio](/help/search-social-commerce/manage/portfolios/portfolio-create.md) ou ao [modificar as configurações do portfólio](/help/search-social-commerce/manage/portfolios/portfolio-edit.md) posteriormente. Você pode usar o mesmo objetivo para vários portfólios.
+
+## Criar um objetivo
+
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+
+1. Na parte superior direita, clique em **[!UICONTROL Create Objective]** ou ![Adicionar](/help/search-social-commerce/assets/add-new.png "Adicionar").
+
+   O botão exibido depende da largura do navegador.
+
+1. Insira as configurações do objetivo.
+
+Para obter instruções, consulte a ajuda na interface do usuário ou no Guia de otimização, que está disponível no Search, Social e Commerce.
+
+1. Na parte inferior das configurações, clique em **[!UICONTROL Save]**.
+
+Objetivos com o prefixo &quot;`ADSP_`&quot; (não diferencia maiúsculas de minúsculas) para uso com pacotes Advertising DSP estão disponíveis como metas personalizadas no DSP dentro de dois dias.
+
+## Duplicar um objetivo {#objective-duplicate}
+
+Duplique um objetivo para criar um novo objetivo com as mesmas configurações. Opcionalmente, é possível alterar o nome padrão do novo objetivo e editar as configurações do objetivo conforme necessário. O objetivo original não é alterado.
+
+Duplicar um objetivo requer a permissão [!UICONTROL Edit Objectives]. O objetivo [!UICONTROL Maximize Clicks] padrão não pode ser duplicado.
+
+1. No menu principal, clique em **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+
+1. Siga um destes procedimentos:
+
+   * Mantenha o cursor sobre a linha do objetivo e clique em **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Marque a caixa de seleção ao lado do objetivo. Na barra de ferramentas de ações em massa, clique em ![Duplicar](/help/search-social-commerce/assets/duplicate.png "Duplicar") **[!UICONTROL Duplicate]**.
+
+     [!UICONTROL Duplicate] não está disponível quando vários objetivos são selecionados.
+
+1. Edite as configurações do objetivo.
+
+   Por padrão, o novo nome do objetivo é `<original objective name>_Copy`, como &quot;Revenue_Copy&quot;. Se o nome original já terminar em `_Copy`, o novo nome incluirá um contador, como &quot;Revenue_Copy(1)&quot;. Se o nome sugerido já existir, insira um **[!UICONTROL Name]** exclusivo.
+
+   Para obter instruções, consulte a ajuda na interface do usuário ou no Guia de otimização, que está disponível no Search, Social e Commerce.
+
+1. Clique em **[!UICONTROL Save]**.
+
+   Se uma caixa de diálogo de aviso for exibida, revise o aviso e clique em **[!UICONTROL Save]** para continuar.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre objetivos](objective-about.md)
+>* [Editar um objetivo](objective-edit.md)
+>* [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
+>* [Configurações de objetivo](objective-settings.md)
+>* [Exportar uma configuração de objetivo](objective-export.md)
+>* [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)

@@ -1,0 +1,47 @@
+---
+title: Pausar um modelo de alerta personalizado
+description: Saiba como pausar um modelo de alerta ativo.
+exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/KeCTZl9wyvTVo8f-QMACUQ0UAZDmadi5bdc8ZhDAIF4'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
+---
+# Pausar um modelo de alerta personalizado
+
+Você pode pausar modelos de alertas ativos.
+
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que será aberto na exibição [!UICONTROL Alert Templates].
+
+1. Siga um destes procedimentos:
+
+   * (Para pausar um único modelo) Na linha de modelo, clique dentro da coluna [!UICONTROL Status] e selecione *[!UICONTROL Paused]*.
+
+   * (Para pausar um ou mais modelos) Marque a caixa de seleção ao lado de cada modelo de alerta que você deseja pausar. Na barra de ferramentas, clique em ![Pausar](/help/search-social-commerce/assets/pause.png "Pausar"). Na caixa de diálogo, clique em **[!UICONTROL Pause]**.
+
+     Para obter dicas sobre como selecionar várias linhas, consulte &quot;[Selecionar várias linhas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre alertas personalizados](alert-about.md)
+>* [Criar um modelo de alerta personalizado](alert-template-create.md)
+>* [Editar um modelo de alerta personalizado](alert-template-edit.md)
+>* [Ativar um modelo de alerta personalizado](alert-template-activate.md)
+>* [Excluir um modelo de alerta personalizado](alert-template-delete.md)
+>* [Configurações personalizadas do modelo de alerta](alert-template-settings.md)
+>* [Exibir alertas personalizados](alert-view.md)
+>* [Exportar dados para alertas personalizados](alert-export-data.md)

@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Saiba mais sobre o [!UICONTROL AdWords Shopping Performance Report].
-exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '273'
 ht-degree: 0%
 ---
 # [!UICONTROL AdWords Shopping Performance Report]
@@ -59,5 +51,5 @@ Para obter descrições de todas as colunas padrão e personalizadas, consulte &
 >[!MORELIKETHIS]
 >
 >* [Sobre relatórios especializados](specialty-report-about.md)
->* [Gerar um relatório de especialidade](specialty-report-generate.md)
+>* [Gerenciar relatórios agendados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configurações do relatório de especialidades](specialty-report-settings.md)

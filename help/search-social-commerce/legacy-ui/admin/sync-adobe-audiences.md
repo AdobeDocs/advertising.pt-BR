@@ -1,0 +1,56 @@
+---
+title: Sincronizar [!DNL Adobe] públicos-alvo
+description: Saiba como sincronizar metadados, dados de hierarquia e dados de público-alvo exclusivos para seus públicos-alvo do [!DNL Adobe].
+exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
+feature: Search Admin
+TQID: 'https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 0%
+---
+# Sincronizar [!DNL Adobe] públicos-alvo
+
+Somente *[!DNL Direct Access]gerentes e administradores de clientes*
+
+*Somente anunciantes com uma integração Adobe Advertising-Adobe Audience Manager ou Adobe Advertising-Adobe Analytics*
+
+Você pode permitir que o Search, Social e Commerce obtenha metadados, dados de hierarquia e dados exclusivos de público-alvo para todos os públicos-alvo [!DNL Adobe] de um anunciante ou agência nas visualizações [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Essas informações incluem dados para:
+
+* Segmentos do Adobe Audience Manager
+
+* Segmentos do Adobe Analytics publicados no Adobe CX Enterprise
+
+* Segmentos criados usando o Adobe CX Enterprise [!DNL Audience Library]
+
+Para ser elegível, o anunciante ou a agência devem implementar o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e fornecer sua ID da organização (anteriormente chamada de [!DNL IMS Org ID]).
+
+A sincronização inicial leva cerca de 24 horas. Depois disso, os dados são sincronizados em tempo real, com um atraso de um a dois segundos.
+
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+
+1. Insira o identificador exclusivo da organização para a conta da Adobe CX Enterprise do anunciante e clique em **[!UICONTROL Submit]**.
+
+   Se você não souber a ID da organização do anunciante, procure-a no campo **[!UICONTROL IMS Org ID]** nas configurações do anunciante em [!UICONTROL Admin] > [!UICONTROL Manage Client].
+
+>[!MORELIKETHIS]
+>
+>* [Sobre públicos-alvo](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/audience-about.md)
+>* [Integração com soluções e serviços da Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)

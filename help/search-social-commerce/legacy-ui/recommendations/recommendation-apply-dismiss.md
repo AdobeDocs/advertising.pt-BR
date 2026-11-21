@@ -1,0 +1,60 @@
+---
+title: Aplicar ou ignorar uma recomendação do editor
+description: Saiba como exibir, aplicar ou ignorar uma recomendação do editor.
+exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
+feature: Search Recommendations
+TQID: 'https://experienceleague.adobe.com/2g788jomfgn7tLHsuRlOO5MRwWfI-hZLCIVsTyJ11vU'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
+---
+# Aplicar ou ignorar uma recomendação do editor
+
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] contas*
+
+Exibir as ações recomendadas e uma explicação de por que as ações seriam benéficas para uma recomendação do editor. Você pode aplicar a recomendação quando ela estiver alinhada às suas metas de negócios e ignorar uma recomendação quando não estiver alinhada.
+
+>[!NOTE]
+>
+>Embora as recomendações ajudem a melhorar o desempenho da campanha, algumas podem não se alinhar às suas metas mais amplas. Como resultado, é melhor consultar a equipe de conta da Adobe antes de implementar qualquer recomendação.
+
+1. No menu principal, clique em **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+
+1. No canto superior direito, selecione a rede de anúncios e a conta.
+
+   Para contas do [!DNL Microsoft Advertising], os [!UICONTROL Recommendations] da conta são listados por padrão.
+
+1. (Opcional) Filtre as recomendações por categoria e tipo.
+
+1. Na coluna [!UICONTROL Actions] da linha de recomendação ou insight, clique em **[!UICONTROL View]**.
+
+1. (Recomendações com recomendações secundárias) Clique em **[!UICONTROL View]** ao lado da recomendação secundária.
+
+1. (Opcional) Siga um destes procedimentos:
+
+   * Para aplicar uma recomendação, clique em **[!UICONTROL Apply]**.
+
+     A aplicação de uma recomendação pode levar de milissegundos a alguns segundos, dependendo do tamanho da recomendação.
+
+   * Para ignorar uma recomendação, clique em **[!UICONTROL Dismiss]**.
+
+>[!MORELIKETHIS]
+>
+>* [Sobre o suporte a recomendações e insights do editor](recommendation-support.md)
+>* [Exibir as recomendações do editor e os insights de desempenho](recommendation-view.md)
+>* [Exibir o log de recomendações do editor para uma conta](recommendation-view-log.md)
+>* [Práticas recomendadas para usar as recomendações do editor com portfólios](recommendation-best-practices.md)
+

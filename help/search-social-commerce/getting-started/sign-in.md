@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -79,5 +79,5 @@ A nova interface do usuário é aberta por padrão.
 >
 >* [Alternar entre as interfaces de usuário nova e herdada](ui-switch.md)
 >* [Sair](sign-out.md)
->* [Alterar sua senha](/help/search-social-commerce/tools/password-change.md)
+>* [Alterar sua senha](/help/search-social-commerce/legacy-ui/tools/password-change.md)
 >* [Como a interface do usuário está organizada](user-interface.md)

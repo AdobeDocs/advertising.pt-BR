@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '886'
 ht-degree: 0%
 ---
 # Visão geral da implementação do Search, Social e Commerce
@@ -53,25 +53,27 @@ Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Com
 
    1. (Se necessário) Crie contas de usuário para o anunciante exibir e gerenciar seus dados de campanha e gerar relatórios.
 
-   Para obter detalhes sobre como configurar contas, consulte o capítulo de ajuda em &quot;Administrador&quot;.
+   Trabalhe com o administrador para configurar o acesso usando o Adobe Admin Console e os perfis de produto apropriados. Consulte &quot;[Administração de usuários para Pesquisa, Social e Commerce](/help/search-social-commerce/user-administration.md).&quot;
 
 1. Sincronize com ou crie campanhas para cada uma das contas da rede de anúncios:
 
-   * Sincronize com a conta a) criando um registro de conta correspondente no Search, Social e Commerce que contenha as credenciais de acesso à conta e as opções de rastreamento, e b) definindo o status da conta como ativado.
+   * Para contas conectadas à API, [crie os detalhes da conta](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#create-account) em [!UICONTROL Manage] > [!UICONTROL Accounts], conclua a autenticação específica da rede, configure as opções de rastreamento e habilite a conta.
+
+   * Para contas sem suporte à API, siga o fluxo de trabalho [carregamento de dados](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md) ou [conta somente de rastreamento](/help/search-social-commerce/manage/accounts/template-account-manage.md), conforme aplicável. Essas contas não são sincronizadas com a rede de anúncios ou com a otimização do portfólio de suporte.
 
    * Se as contas ainda não tiverem dados de campanha, adicione campanhas, grupos de anúncios, palavras-chave, anúncios e posicionamentos no Search, Social e Commerce ou na rede de anúncios.
 
-     Para obter detalhes sobre como configurar campanhas de pesquisa, consulte o capítulo de ajuda em &quot;Gerenciamento de campanha&quot;.
+     Para obter a lista de verificação de configuração detalhada, consulte &quot;[Configurar contas e campanhas de rede de publicidade](campaign-implementation-overview.md)&quot;. Para os tipos de campanha com suporte, use [!UICONTROL Manage] > [!UICONTROL Campaigns] para [criar e gerenciar campanhas](/help/search-social-commerce/manage/campaigns/campaign-manage.md).
 
 1. Configure o rastreamento de todos os anúncios para os quais você deseja que o Adobe Advertising rastreie conversões:
 
-   1. (Se necessário) Configure o rastreamento de cliques para anúncios e, opcionalmente, para palavras-chave, [!DNL Google Ads] inserções e [!DNL Google Ads] extensões, gerando e carregando URLs de rastreamento de cliques.
+   1. (Se necessário) [Configure o rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para anúncios e, opcionalmente, para palavras-chave, [!DNL Google Ads] inserções e [!DNL Google Ads] extensões, gerando e carregando URLs de rastreamento de cliques.
 
       As URLs de rastreamento de cliques para anunciantes com o serviço de rastreamento de conversão baseado em pixel da Adobe Advertising incluem um redirecionamento para os servidores [!DNL Adobe].
 
-   1. Configurar o rastreamento de conversão. Dependendo da implementação, pode envolver a adição de tags de rastreamento de conversão às páginas da Web apropriadas e/ou a configuração de uma queda diária de feed para os dados de conversão coletados usando seu próprio método.
+   1. [Configurar o controle de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md). Dependendo da implementação, pode envolver a adição de tags de rastreamento de conversão às páginas da Web apropriadas e/ou a configuração de uma queda diária de feed para os dados de conversão coletados usando seu próprio método. Você pode [gerar tags de rastreamento de conversão do Adobe Advertising](/help/search-social-commerce/goals/conversions/conversion-tag-generate.md) de [!UICONTROL Goals] > [!UICONTROL Conversions].
 
-      Para obter detalhes sobre como configurar o rastreamento, consulte o capítulo de ajuda em &quot;Rastreamento&quot;.
+      Para obter mais informações, consulte &quot;[Sobre rastreamento para Pesquisa, Social e Commerce](/help/search-social-commerce/tracking/tracking-about.md)&quot;.
 
 1. Configurar integrações com produtos adicionais:
 
@@ -81,27 +83,29 @@ Este é o fluxo de trabalho geral para implementar e usar o Search, Social e Com
 
    1. (Anunciantes com [!DNL Google Analytics]) Sincronizam métricas de conversão para uma conta, propriedade e combinação de exibição [!DNL Google Analytics] para otimização e relatórios.
 
-      Consulte o subcapítulo de ajuda &quot;Administrador&quot; > &quot;[Configurando Fontes de Dados](/help/search-social-commerce/admin/data-sources/data-source-about.md)&quot;.
+      Essa configuração usa a interface do usuário herdada. Consulte &quot;[Sobre sincronização [!DNL Google Analytics] métricas de conversão](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)&quot; e, quando necessário, [alternar para a interface herdada](ui-switch.md).
 
-1. Configurar e iniciar portfólios:
+1. (Opcional) Configure e inicie portfólios:
 
-   1. Configure portfólios configurados para atender aos seus objetivos e metas de negócios, com as campanhas apropriadas. A equipe de implementação reúne e valida os dados de cliques e receita por pelo menos 14 dias e valida as configurações do portfólio.
+   1. Em [!UICONTROL Goals] > [!UICONTROL Conversions], [revise as métricas de conversão e torne visíveis as métricas necessárias](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available). Em [!UICONTROL Goals] > [!UICONTROL Objectives], [crie ou selecione um objetivo](/help/search-social-commerce/goals/objectives/objective-about.md) para otimização.
+
+   1. Em [!UICONTROL Manage] > [!UICONTROL Portfolios], [crie portfólios](/help/search-social-commerce/manage/portfolios/portfolio-create.md) configurados para atingir seu objetivo e suas metas comerciais, com as [campanhas qualificadas](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio) apropriadas. [Ative os portfólios](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md) para coletar e modelar dados. A equipe de implementação reúne e valida os dados de cliques e receita por pelo menos 14 dias e valida as configurações do portfólio.
 
       >[!NOTE]
       >
       >Search, Social e Commerce ainda rastreia e relata dados de campanhas que não são atribuídas a portfólios, mas não fornece otimização para eles.
 
-   1. Depois que dados suficientes estiverem disponíveis para criar uma linha de base, a equipe do poderá iniciar o portfólio, permitindo que o Search, o Social e o Commerce otimizem ofertas e/ou orçamentos para o portfólio, com base no tipo de otimização.
+   1. Depois que dados suficientes estiverem disponíveis para criar uma linha de base, a equipe poderá [alterar o status do portfólio para otimizado](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md), permitindo que o Search, Social e Commerce otimize ofertas, orçamentos e/ou metas de estratégia de oferta para o portfólio, com base no tipo de portfólio e nas estratégias de oferta de campanha.
 
-   Para obter detalhes sobre como configurar e iniciar portfólios, consulte a ajuda da &quot;Otimização&quot;, disponível no menu [!UICONTROL Help] (![menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "menu Ajuda")), no canto superior direito de qualquer página, em Search, Social e Commerce.
+   Consulte &quot;[Sobre portfólios](/help/search-social-commerce/manage/portfolios/portfolio-about.md)&quot; para obter suporte à otimização e status do portfólio.
 
 1. Monitore o desempenho de seus portfólios:
 
-   1. Gere insights de publicidade, que são dados visuais e acionáveis sobre seus portfólios otimizados e ativos.
+   1. Use [!UICONTROL Dashboard] > [!UICONTROL Overview] para [analisar tendências do portfólio](/help/search-social-commerce/dashboard/dashboard-overview.md) e [exibir detalhes de desempenho do portfólio](/help/search-social-commerce/manage/portfolios/portfolio-details.md) para investigar os resultados e a precisão do modelo.
 
-   1. Configurar e possivelmente automatizar relatórios personalizados para monitoramento de desempenho.
+   1. [Configurar alertas personalizados](/help/search-social-commerce/common-tasks/alerts-manage.md) e [gerar relatórios personalizados](/help/search-social-commerce/reports/management/report-manage.md) para monitoramento de desempenho. Quando necessário, automatize os relatórios usando os [modelos de relatório](/help/search-social-commerce/reports/report-templates-manage.md) e os [feeds de planilha](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md).
 
-   Para obter detalhes sobre como executar insights de publicidade e configurar relatórios, consulte o capítulo de ajuda em &quot;Insights e relatórios&quot;.
+   Para obter mais informações, consulte &quot;[Monitorar o desempenho da campanha e do portfólio](/help/search-social-commerce/manage/manage-about.md#monitor-performance)&quot;.
 
 1. (Opcional) Configure suas [visualizações de dados de desempenho](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) para mostrar os dados que você deseja ver.
 
@@ -125,4 +129,4 @@ Após a primeira inicialização, as seguintes tarefas contínuas serão necess�
 
   * Adicione novos portfólios.
 
-Para obter instruções sobre como monitorar portfólios e ajustar as estratégias de portfólio, consulte o subcapítulo de ajuda &quot;Otimização&quot; > &quot;Gerenciamento de Portfólios&quot; > &quot;Monitoramento e Gerenciamento de Desempenho&quot;, que está disponível no menu [!UICONTROL Help] (![menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "menu Ajuda")) no canto superior direito de qualquer página em Pesquisa, Social e Commerce.
+Para obter instruções sobre como monitorar campanhas e portfólios e ajustar suas configurações, consulte &quot;[Sobre o gerenciamento de campanhas e portfólios](/help/search-social-commerce/manage/manage-about.md)&quot; e &quot;[Editar detalhes do portfólio](/help/search-social-commerce/manage/portfolios/portfolio-edit.md).&quot;

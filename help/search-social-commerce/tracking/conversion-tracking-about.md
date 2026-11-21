@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social e Commerce podem usar dados de conversão que são rastreados das
 
 * **Conversões de Adobe Analytics:** o anunciante usa o rastreamento de Adobe Analytics para todas as conversões. Essa opção requer uma integração Adobe Advertising-Adobe Analytics. Consulte &quot;[rastreamento de conversão do Adobe Analytics](conversion-tracking-analytics.md)&quot; para obter mais informações.
 
-* **[!DNL Google Analytics]conversões:** O anunciante usa a marca [!DNL Google Analytics] para rastrear todas as conversões. Consulte &quot;[[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot; para obter mais informações sobre as conversões sincronizadas automaticamente.
+* **[!DNL Google Analytics]conversões:** O anunciante usa a marca [!DNL Google Analytics] para rastrear todas as conversões. Consulte &quot;[[!DNL Google Ads] dados de conversão em Pesquisa, Social e Commerce](google-conversion-data.md)&quot; para obter mais informações sobre as conversões sincronizadas automaticamente.
 
 * **Conversões rastreadas pelo anunciante:** (somente clientes Search, Social e Commerce) O anunciante fornece ao Search, Social e Commerce um arquivo de feed com qualquer combinação de dados de conversão online e offline. Consulte &quot;[Rastreamento de conversão usando um feed de ID EF](feed-efid.md)&quot; e &quot;[Rastreamento de conversão usando um feed de ID de transação](feed-transaction-id.md).&quot;
 

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Todos os parâmetros a seguir devem ser especificados como um par de valores cha
 
 | Parâmetro | Descrição |
 | ---- | ---- |
-| <code>{custom_code}</code> | Para inserir dados da coluna &quot;Parâmetro de URL personalizado&quot; em um arquivo de bulksheet carregado no URL de rastreamento. {custom_code} pode ser usado somente no final do valor de um ou mais pares de chave-valor na URL de rastreamento. Exemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Observação:</b> para inserir o valor personalizado do arquivo de bulksheet na URL de rastreamento, carregue o arquivo de bulksheet usando a opção &quot;Gerar URLs de Rastreamento&quot;. Para obter mais informações sobre como usar arquivos de bulksheet, consulte &quot;[Sobre como gerenciar dados de campanha usando bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
+| <code>{custom_code}</code> | Para inserir dados da coluna &quot;Parâmetro de URL personalizado&quot; em um arquivo de bulksheet carregado no URL de rastreamento. {custom_code} pode ser usado somente no final do valor de um ou mais pares de chave-valor na URL de rastreamento. Exemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Observação:</b> para inserir o valor personalizado do arquivo de bulksheet na URL de rastreamento, carregue o arquivo de bulksheet usando a opção &quot;Gerar URLs de Rastreamento&quot;. Para obter mais informações sobre como usar arquivos de bulksheet, consulte &quot;[Sobre como gerenciar dados de campanha usando bulksheets](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Para inserir o identificador exclusivo criado pelo Adobe Advertising. Adicionado automaticamente quando o método de rastreamento é &quot;EF Redirect&quot;. |
 | <code>{ef_userid}</code> | Para inserir a ID de usuário exclusiva que o Adobe Advertising atribui ao anunciante. |
 | <code>{ef_sid}</code> | Para inserir a ID numérica que o Search, Social e Commerce atribui à rede de publicidade: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (antigo [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) ou <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |

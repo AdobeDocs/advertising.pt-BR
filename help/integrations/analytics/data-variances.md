@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ Se a relação [!UICONTROL EF ID Instances] para cliques estiver abaixo de 85%, 
 
 * O rastreamento de cliques da conta ou de qualquer subnível está ausente, ou você tem um rastreamento de cliques duplicado (por exemplo, nos níveis da conta e da campanha)?
 
-  Em Pesquisar, Social e Commerce, [baixe um bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) para a conta verificar as URLs de rastreamento.
+  Em Pesquisar, Social e Commerce, [baixe um bulksheet](/help/search-social-commerce/set-up/bulksheets/download.md) para a conta verificar as URLs de rastreamento.
 
   Além disso, em [!DNL Analytics], você pode ver se a ID do AMO e EF IF são anexados consistentemente usando uma métrica calculada de &quot;[!DNL AMO ID] a [!DNL EF ID]&quot;, que é calculada da seguinte maneira:
 

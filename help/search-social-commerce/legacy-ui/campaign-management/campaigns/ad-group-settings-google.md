@@ -1,0 +1,106 @@
+---
+title: Configurações do grupo de anúncios [!DNL Google Ads]
+description: Referencie as configurações para [!DNL Google Ads] grupos de anúncios.
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
+---
+# Configurações do grupo de anúncios [!DNL Google Ads]
+
+## [!UICONTROL Adgroup Details]
+
+**[!UICONTROL Ad Group Name]:** Um nome de grupo de anúncios que é exclusivo dentro da campanha. O tamanho máximo é de 255 caracteres de byte duplo.
+
+**[!UICONTROL Status]:** O status de exibição do grupo de anúncios: *Ativo* ou *Pausado*. O padrão para novos grupos de anúncios é *Ativo*.
+
+**[!UICONTROL Ad Group Type]:** (Somente campanhas de anúncios de pesquisa dinâmica expandidas) O tipo de grupo de anúncios:
+
+* *[!UICONTROL Search Standard]* (o padrão): Para anúncios padrão.
+
+* *[!UICONTROL Search Dynamic]:* Para anúncios de pesquisa dinâmica.
+
+**[!UICONTROL Ad Rotation Mode]:** Com que frequência o [!DNL Google Ads] fornece seus anúncios ativos em relação uns aos outros no grupo de publicidade:
+
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] favorece anúncios que espera ter um desempenho melhor do que outros anúncios no grupo de anúncios. Esses anúncios entram no leilão com mais frequência e, com o tempo, um único anúncio é favorecido. Isso pode ser inconsistente com seus objetivos de negócios e otimização.
+
+* *[!UICONTROL Rotate forever]:* cada um dos seus anúncios entra no leilão de anúncios um número mais uniforme de vezes, o que permite que o Search, o Social e o Commerce pontuem seus anúncios não apenas na taxa de cliques, mas também em conversões.
+
+* *[!UICONTROL Use campaign setting]*(o padrão para novos grupos de anúncios): usa a configuração existente de rotação de anúncios no nível da campanha. **Observação:** a configuração de nível de campanha não está visível no Search, Social e Commerce.
+
+Se a campanha usar uma estratégia de oferta de Oferta Inteligente (como [!UICONTROL Target CPA], [!UICONTROL Target ROAS], então [!DNL Google Ads] definirá automaticamente a opção para &quot;[!UICONTROL Optimize].&quot;
+
+**[!UICONTROL Custom Bid Level]:** (Campanhas que direcionam apenas a rede de exibição) Como licitar: por *[!UICONTROL Ad Group]* (padrão), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Interesses e Remarketing em Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (site), *[!UICONTROL Unknown]* ou *[!UICONTROL Vertical]*.
+
+>[!NOTE]
+>
+>* Ao fazer uma oferta por palavra-chave, crie modelos de rastreamento no nível da palavra-chave. Da mesma forma, ao fazer uma oferta por posicionamento, crie modelos de rastreamento no nível de posicionamento. Para todas as outras dimensões, crie modelos de rastreamento no nível do anúncio.
+>* Quando você faz lances por Idade, Gênero, Interesse e Lista ou Vertical para campanhas em portfólios, o recurso de otimização não otimiza lances para a dimensão. Além disso, todas as atribuições são aplicadas ao grupo de anúncios.
+>* Anúncios na rede de pesquisa sempre usam ofertas de palavra-chave.
+
+**[!UICONTROL AI Max Search Term Matching]:** (Campanhas que direcionam a rede de pesquisa e para as quais o [recurso Máximo de IA](https://support.google.com/google-ads/answer/15910366) e o recurso de correspondência de termos de pesquisa no nível da campanha estão habilitados; somente leitura) Se a correspondência de termos de pesquisa no nível do grupo de anúncios está habilitada: *[!UICONTROL Disabled]* ou *[!UICONTROL Enabled]*.
+
+## [!UICONTROL Budget Options]
+
+<!-- **[!UICONTROL Bid]:** -->
+
+{{$include /help/_includes/bid-ad-group.md}}
+
+**[!UICONTROL Target CPA]:** (Campanhas com [!UICONTROL Target CPA] lance; opcional) o custo alvo por aquisição (CPA) para o grupo de anúncios. Esse valor substitui o target no nível da campanha.
+
+**[!UICONTROL Target ROAS]:** (Campanhas com [!UICONTROL Target ROAS] lance; opcional) o ROAS (retorno sobre o investimento) desejado para o grupo de publicidade, como uma porcentagem. Esse valor substitui o target no nível da campanha.
+
+## [!UICONTROL Ad Group Targeting]
+
+**[!UICONTROL Audience Target Method]:** (Campanhas somente na rede de pesquisa e campanhas [!DNL Gmail] existentes somente leitura na rede de exibição) Se:
+
+* *[!UICONTROL Target and Bid]:* Para mostrar anúncios somente para usuários associados a públicos-alvo que também atendam a quaisquer outros alvos para o grupo de anúncios.
+
+* *[!UICONTROL Bid Only]:* Para mostrar anúncios até mesmo para pessoas que não estão associadas a públicos-alvo de direcionamento, desde que atendam a outros alvos de nível de grupo de anúncios. Você pode aumentar as chances de os anúncios serem exibidos para públicos-alvo específicos, no entanto, definindo lances mais altos para esses públicos-alvo.
+
+<!-- **[!UICONTROL Devices]:** -->
+
+{{$include /help/_includes/devices.md}}
+
+## [!UICONTROL URL Options]
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-google.md}}
+
+## [!UICONTROL Negative Keywords]
+
+<!-- **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword.md}}
+
+<!-- Note for **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword-note-google.md}}
+
+## [!UICONTROL Negative Websites]
+
+<!-- **[!UICONTROL Negative Websites]:** -->
+
+{{$include /help/_includes/negative-websites-google.md}}
+
+>[!MORELIKETHIS]
+>
+>* [Gerenciar grupos de anúncios](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/ad-group-manage.md)

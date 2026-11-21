@@ -1,0 +1,56 @@
+---
+title: Dados de bulksheet para contas do [!DNL Yahoo DSP]
+description: Referencie os campos de cabeçalho e de dados em bulksheets baixados para contas do [!DNL Yahoo DSP].
+exl-id: 8d938009-6edc-4420-8863-21ed241616f8
+feature: Search Bulksheets
+TQID: 'https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 0%
+---
+# Apêndice - Dados de bulksheet para contas do [!DNL Yahoo DSP]
+
+<!-- 
+[Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
+-->
+
+Você pode baixar dados de contas do [!DNL Yahoo DSP] (anteriormente [!DNL Yahoo! Display Network]) em massa, mas não pode carregar ou postar bulksheets na rede de publicidade.
+
+## Campos de dados disponíveis
+
+| Campo | Campaign | Grupo de publicidade | Anúncio | Descrição |
+|----|----|----|----|----|
+| [!UICONTROL Platform] | n/d | n/d | n/d | (Incluído nos bulksheets gerados para fins de informação) A plataforma de anúncios. |
+| [!UICONTROL Acct  Name] | Se incluído | Se incluído | Se incluído | O nome exclusivo que identifica uma conta de rede de anúncios. |
+| [!UICONTROL Campaign Name] | Se incluído | Se incluído | Se incluído | O nome exclusivo que identifica uma campanha para uma conta. |
+| [!UICONTROL Ad Group Name] | n/d | Se incluído | Se incluído | O nome exclusivo que identifica um grupo de anúncios. |
+| [!UICONTROL Ad Name] | n/d | n/d | Se incluído | O nome exclusivo que identifica o anúncio em um grupo de anúncios. O comprimento máximo é de 50 caracteres. |
+| [!UICONTROL Ad Title] | n/d | n/d | Se incluído | O título de um anúncio. |
+| [!UICONTROL Description Line 1] | n/d | n/d | Se incluído | A primeira linha do corpo de um anúncio. |
+| [!UICONTROL Description Line 2] | n/d | n/d | Se incluído | A segunda linha do corpo de um anúncio. |
+| [!UICONTROL Base URL/Final URL] | n/d | n/d | Se incluído | O URL da página de aterrissagem para o qual os usuários finais são levados quando clicam em seu anúncio, incluindo quaisquer parâmetros de acréscimo configurados para a campanha ou conta. URLs base/final no nível de palavra-chave substituem URLs no nível de anúncio e superior. |
+| [!UICONTROL Destination URL] | n/d | n/d | n/d | (Incluído em bulksheets gerados para fins de informação; não publicado na rede de publicidade) Para contas com URLs de destino, esse valor é o URL que vincula um anúncio a um URL/página inicial base no site do anunciante (às vezes, por meio de outro site que rastreia o clique e redireciona o usuário para a página inicial). Inclui quaisquer parâmetros de acréscimo configurados para a campanha ou conta do Search, Social e Commerce. Se você gerou URLs de rastreamento, esse valor se baseia nos parâmetros de rastreamento nas configurações da conta e nas configurações da campanha. Se você anexou parâmetros específicos de rede de anúncios, eles podem ser substituídos pelos parâmetros equivalentes para Pesquisa, Social e Commerce. |
+| \[Classificação de rótulo específica do anunciante\] | Se incluído | Se incluído | Se incluído | (Nomeado para uma classificação de rótulo específica do anunciante, como &quot;Cor&quot; para uma classificação de rótulo chamada Cor) Um valor para a classificação especificada associada à entidade. |
+| [!UICONTROL Constraints] | Se incluído | Se incluído | n/d | Uma restrição atribuída à entidade. |
+| [!UICONTROL Campaign Status] | Se incluído | n/d | n/d | O status de exibição da campanha: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Group Status] | n/d | Se incluído | n/d | O status de exibição do grupo de anúncios: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Keyword Status] | n/d | n/d | Se incluído | O status de exibição da palavra-chave: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> ou <i>[!UICONTROL Deleted]</i> (somente palavras-chave existentes). |
+| [!UICONTROL Campaign ID] | Se incluído | Se incluído | Se incluído | A ID exclusiva que identifica uma campanha existente. |
+| [!UICONTROL Ad Group ID] | n/d | Se incluído | Se incluído | O identificador exclusivo que identifica um grupo de anúncios existente. |
+| [!UICONTROL Keyword ID] | n/d | n/d | Se incluído | A ID exclusiva que identifica uma palavra-chave existente. |
+| [!UICONTROL AMO ID] | n/d | n/d | n/d | (Em bulksheets gerados) Um identificador exclusivo gerado pela Adobe para uma entidade sincronizada. |
+| [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluído nos bulksheets gerados para fins informativos) Espaço reservado para exibir mensagens de erro do Search, Social e &amp; Commerce relacionadas aos dados na linha; as mensagens de erro estão incluídas nos arquivos [!UICONTROL EF Errors]. |
+
+>[!MORELIKETHIS]
+>
+>* [Baixar/Criar um arquivo de bulksheet](/help/search-social-commerce/set-up/bulksheets/download.md)

@@ -27,10 +27,10 @@ ht-degree: 2%
   + [Estoque suportado](/help/search-social-commerce/introduction/supported-inventory.md)
   + Integração com o Adobe CX Enterprise {#integrations}
     + [Integração com soluções e serviços da Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-    + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-  + [Suporte para a privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-  + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR){target="_blank"}
+    + [Integração com o Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=pt-BR){target="_blank"}
+  + [Suporte para a privacidade do consumidor (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=pt-BR){target="_blank"}
+  + [Políticas e diretrizes (link)](https://experienceleague.adobe.com/pt-br/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Introdução {#getting-started}
   + [Visão geral da implementação](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Configurar campanhas e contas de rede de publicidade](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
@@ -290,7 +290,7 @@ ht-degree: 2%
         + [Formatos de rastreamento de cliques para  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formatos de rastreamento de cliques para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Parâmetros de rastreamento opcionais para URLs de rastreamento de cliques](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+    + [Cookies do Adobe Advertising (link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=pt-BR){target="_blank"}
     + [O parâmetro de rastreamento da ID do AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Rastreamento de conversão {#conversion-tracking}
     + [Opções de rastreamento de conversão](/help/search-social-commerce/tracking/conversion-tracking-about.md)

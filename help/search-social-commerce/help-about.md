@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Sobre este guia
@@ -35,20 +35,23 @@ As informações sobre grupos específicos de tarefas e outras informações est
 
 * &quot;Introdução&quot; explica as principais tarefas envolvidas em uma implementação de anunciante, desde a configuração do lançamento inicial até a execução de tarefas de gerenciamento contínuas; e como a interface do usuário é organizada.
 
-* &quot;Tarefas comuns&quot; explica como configurar as várias visualizações de dados de desempenho com base nas suas necessidades e preferências de informações, como gerenciar métricas personalizadas, como gerenciar classificações de rótulos e restrições de lances e como executar outras tarefas comuns.
+* &quot;Tarefas comuns&quot; explica como configurar as várias visualizações de dados de desempenho com base nas suas necessidades e preferências de informações, como gerenciar métricas personalizadas, como gerenciar alertas e notificações e como executar outras tarefas comuns.
 
-* &quot;Nova interface&quot; explica as tarefas que você pode executar na nova interface do usuário: como gerenciar objetivos, executar simulações, gerenciar portfólios, atribuir e remover campanhas de portfólios e atribuir ou remover restrições a campanhas e grupos de anúncios. Consulte &quot;Nota&quot; abaixo.
+* Os capítulos a seguir explicam a funcionalidade das opções do menu principal na nova interface do usuário: &quot;[!UICONTROL Dashboard],&quot; &quot;[!UICONTROL Manage],&quot; &quot;[!UICONTROL Reports],&quot; [!UICONTROL Plan],&quot; &quot;[!UICONTROL Setup],&quot; &quot;[!UICONTROL Goals],&quot; &quot;[!UICONTROL Targeting],&quot; e &quot;[!UICONTROL Library].&quot;
+
+  Para obter detalhes sobre cada capítulo, consulte &quot;[Como a interface do usuário está organizada](/help/search-social-commerce/getting-started/user-interface.md)&quot;.
 
 * &quot;Rastreamento&quot; explica como configurar o rastreamento de cliques e conversões para seus anúncios e palavras-chave.
 
-* &quot;Gerenciamento de campanhas&quot; explica como configurar e gerenciar componentes do Campaign para suas contas de rede de anúncios.
+* &quot;Interface do usuário herdada&quot; explica as tarefas que você pode executar na [interface do usuário herdada](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* &quot;Insights e relatórios&quot; explica como gerar insights de publicidade, gerar relatórios detalhados e automatizar a produção de relatórios, criar e monitorar alertas, exibir um log de alterações feitas na conta do anunciante e exibir e aplicar recomendações geradas pela rede de anúncios para suas contas.
-
-* &quot;Ferramentas&quot; explica como alterar sua senha, usar ferramentas para gerar marcas de rastreamento de cliques e de conversão, carregar suas métricas de conversão para o [!DNL Google Ads] e seus objetivos de portfólio nas redes de anúncios para otimização híbrida, carregar métricas para campanhas de rastreamento e replicar suas campanhas do [!DNL Google Ads] em suas contas do [!DNL Microsoft Advertising].
-
-* &quot;Administração&quot; explica como gerenciar dados do anunciante, incluindo as métricas de conversão coletadas e as datas a serem excluídas das previsões de portfólio; sincronizar as métricas de conversão de uma conta do [!DNL Google Analytics]; definir várias configurações no nível do anunciante; e (algumas funções) administrar contas de usuário, agência e anunciante.
+  A maioria dessas tarefas também está disponível na nova interface do usuário.
 
 >[!NOTE]
 >
 >A ajuda adicional sobre otimização, incluindo o uso de portfólios para licitação na interface do usuário herdada, está disponível no menu [!UICONTROL Help] (![Menu Ajuda](/help/search-social-commerce/assets/help-main-menu.png "Menu Ajuda")), no canto superior direito de qualquer página, em Pesquisa, Social e Commerce.
+
+>[!MORELIKETHIS]
+>
+>* [Como a interface do usuário está organizada](/help/search-social-commerce/getting-started/user-interface.md)
+>* [Alternar entre as interfaces de usuário nova e herdada](/help/search-social-commerce/getting-started/ui-switch.md)

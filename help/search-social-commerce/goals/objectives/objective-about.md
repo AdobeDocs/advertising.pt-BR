@@ -73,7 +73,7 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-  * [[!DNL Google Ads] conversões ](/help/search-social-commerce/tracking/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
+  * [[!DNL Google Ads] conversões &#x200B;](/help/search-social-commerce/tracking/google-conversion-data.md) rastreadas de contas [!DNL Google Ads] sincronizadas.
 
   * (Anunciantes com [[!DNL Google Analytics] integrações](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)) Exibições de página, Sessões, Taxa de rejeição (calculada como rejeições/sessões) e Duração da sessão.
 
@@ -91,7 +91,7 @@ Você pode incluir qualquer um dos seguintes itens em seus objetivos:
 
 * [Aplicar recomendações de peso a um objetivo](objective-apply-weight-recommendations.md)
 
-* [Exportar uma configuração de objetivo para uma planilha  [!DNL Microsoft Excel] ](objective-export.md)
+* [Exportar uma configuração de objetivo para uma planilha  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
 
 * [Baixar dados de desempenho para objetivos](objective-download-performance-data.md)
 

@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -179,11 +179,11 @@ Use o campo de pesquisa acima do menu principal para procurar opções de menu e
 
 A parte superior de cada página inclui o menu principal e outros menus baseados em tarefas e informações.
 
-## O menu principal
+### O menu principal
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — Para gerenciar suas contas de rede de anúncios no Search, Social e Commerce, incluindo contas para as quais o Search, Social e Commerce está rastreando, mas não está oferecendo.
 
-## [!UICONTROL Search] menus
+### [!UICONTROL Search] menus
 
 A opção [!UICONTROL Search] inclui os submenus a seguir. Sua função determina as opções disponíveis:
 
@@ -199,7 +199,7 @@ A opção [!UICONTROL Search] inclui os submenus a seguir. Sua função determin
 
 * **[!UICONTROL Admin]** — O menu [!UICONTROL Admin] inclui opções para alterar os nomes para exibição das métricas de conversão de um anunciante em tabelas de dados e relatórios, definir as configurações para sincronização com uma conta do Adobe Audience Manager e sincronizar métricas de conversão para uma conta, propriedade e combinação de exibição específica do [!DNL Google Analytics]. Dependendo da sua função, ela pode permitir gerenciar contas de anunciante, contas de agência, funções de usuário e contas de usuário.
 
-## Outros menus à direita, baseados em tarefas e informações
+### Outros menus à direita, baseados em tarefas e informações
 
 * (Quando aplicável) Uma lista selecionável de anunciantes que você está gerenciando.
 

@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Gerenciar contas de rede de anúncios por meio da conexão de API
@@ -67,6 +67,22 @@ As ações disponíveis dependem das suas permissões e do tipo de conta.
 * [Exibir um gráfico de desempenho na exibição [!UICONTROL Accounts]](#account-performance-graph)
 
 * [Gerenciar relatórios de visualização de dados da visualização [!UICONTROL Accounts]](#account-reports)
+
+## [!DNL Meta Ads] notificações de extensão e expiração de token {#meta-token-expiration}
+
+Para contas do [!DNL Meta Ads], o Search, Social e Commerce tenta automaticamente estender o token de autenticação 14 dias antes de sua expiração. Se a extensão for bem-sucedida, nenhum alerta será enviado e nenhuma ação do usuário será necessária.
+
+Se a extensão falhar, o modo de exibição [!UICONTROL Accounts] exibirá um aviso de expiração de token e [!UICONTROL Notification Center] enviará notificações por email a todos os usuários com acesso à conta em 7, 5, 2 e 1 dias antes da expiração.
+
+Cada email inclui:
+
+* O nome da conta e o número de dias até o token expirar.
+
+* O nome e endereço de email do usuário autenticado, para que os destinatários saibam quem precisa agir.
+
+* Um link direto para [autenticar novamente a conta](#reauthenticate).
+
+* A funcionalidade que deixará de funcionar se o token expirar.
 
 ## Criar detalhes da conta de rede de publicidade {#create-account}
 
@@ -304,7 +320,7 @@ Para habilitar este recurso, ative **[Habilitar o rastreamento]**.
 >* Se você alternar de [!UICONTROL Standard] para [!UICONTROL Token], ou vice-versa, será necessário regenerar as URLs de rastreamento da conta.
 >* Você pode substituir a configuração no nível da conta no nível da campanha.
 
-**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=pt-BR) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
+**[!UICONTROL Auto Update]:** (Quando o rastreamento de Pesquisa, Social e Commerce está habilitado) Padroniza as URLs de rastreamento para compatibilidade entre navegadores e servidores. O Search, Social e Commerce faz o upload do seguinte automaticamente para a rede de publicidade durante a próxima sincronização: (a) Parâmetros de rastreamento de Search, Social e Commerce para modelos de rastreamento e os mesmos parâmetros anexados aos URLs finais ou (b) novos URLs de destino incorporados ao código de rastreamento do Search, Social e Commerce. Para anunciantes com uma [integração Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) e uma configuração de ID AMO do lado do servidor (s_kwcid), o carregamento também inclui [parâmetros de ID do AMO](/help/integrations/analytics/ids.md#amo-id) para suas contas do [!DNL Google Ads] e do [!DNL Microsoft Advertising]. A configuração padrão no nível da conta é herdada das configurações de rastreamento do anunciante. Você pode substituir a configuração no nível da conta no nível da campanha.
 
 Os URLs de rastreamento são atualizados diariamente apenas para entidades que estão fora de sincronia (ou seja, novas entidades que foram adicionadas e entidades existentes cujas propriedades foram alteradas). Portanto, se você alterar essa configuração de desativado para ativado para um anunciante/conta/campanha existente, os URLs de rastreamento não serão atualizados para entidades existentes que já estão em sincronia. Para adicionar rastreamento aos URLs de entidades existentes em sincronia, entre em contato com a equipe de conta da Adobe e solicite um processo de sincronização manual e único. O processo de upload automático lida com alterações futuras.
 

@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1760'
 ht-degree: 0%
 ---
 # (Nova interface do usuário) Gerenciar notificações
@@ -32,6 +32,10 @@ Você pode definir suas configurações de notificação para assinar ou cancela
   Quando você ativa as notificações por push, elas são exibidas de acordo com as convenções de notificação do navegador.
 
 Você pode exibir suas notificações, marcá-las como lidas ou não lidas e excluir notificações.
+
+>[!NOTE]
+>
+>As notificações por email também são enviadas quando o token de autenticação de uma conta do [!DNL Meta Ads] está se aproximando da expiração e a extensão automática de token falha. Essas notificações não usam as configurações de notificação descritas abaixo. Para obter detalhes, consulte &quot;[extensão de token do Meta e notificações de expiração](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#meta-token-expiration)&quot;.
 
 ## Tipos de notificação
 

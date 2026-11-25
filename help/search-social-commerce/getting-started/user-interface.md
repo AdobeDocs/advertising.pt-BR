@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # Como a interface do usuário é organizada
@@ -47,77 +47,77 @@ A nova interface de usuário do apresenta um novo menu principal à esquerda, qu
 
 * Submenu **[!UICONTROL Dashboard]**:
 
-  * **[!UICONTROL Overview]** Abre uma visualização [!UICONTROL Dashboard] configurável com visualizações de desempenho para todos os seus portfólios.
+  * **[!UICONTROL Overview]** Visualize o desempenho de todos os seus portfólios, grupos de portfólios ou objetivos de otimização.
 
-  * **[!UICONTROL Recommendations]**: Abre uma exibição somente leitura das recomendações do editor de [!DNL Google Ads] e [!DNL Microsoft Advertising] e dos insights do editor de [!DNL Microsoft Advertising.] Para exibir e responder às suas recomendações e insights, use a exibição herdada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Recommendations]**: Liste as recomendações do editor de [!DNL Google Ads] e [!DNL Microsoft Advertising] e os insights do editor de [!DNL Microsoft Advertising.]. Como opção, você pode aplicar as recomendações.
 
 * Submenu **[!UICONTROL Manage]**:
 
-  * **[!UICONTROL Portfolios]:** Abre uma nova exibição [!UICONTROL Portfolios] que lista todos os portfólios do anunciante. É possível gerenciar os portfólios nessa visualização. É possível abrir uma lista de restrições atribuídas e exibir detalhes de desempenho e composição de qualquer portfólio.
+  * **[!UICONTROL Portfolios]:** Lista e gerencia todos os portfólios do anunciante. É possível abrir uma lista de restrições atribuídas e exibir detalhes de desempenho e composição de qualquer portfólio.
 
     As configurações do portfólio incluem guias para atribuir o objetivo e as campanhas, gerenciar gastos, gerenciar restrições e controlar a otimização. Somente usuários com o perfil de &quot;otimização de especialista&quot; ou superior podem editar as configurações na guia [!UICONTROL Control Optimization].
 
-  * **[!UICONTROL Accounts]**: Abre uma nova visualização [!UICONTROL Accounts]. Você pode gerenciar contas de rede de publicidade sincronizadas por meio de uma conexão de API ou configuradas por meio de upload de dados. Você também pode gerenciar contas existentes do [!UICONTROL Naver].
+  * **[!UICONTROL Networks]**: (Somente leitura) Visualize o custo, os cliques, o custo por clique (CPC), as impressões e o valor objetivo para cada combinação de rede de anúncios e moeda que é sincronizada por meio de uma conexão de API ou configurada por meio de carregamento de dados.
 
-  * **[!UICONTROL Campaigns]:** Abre uma nova visualização [!UICONTROL Campaigns], que mostra todas as campanhas para o anunciante. Você pode gerenciar campanhas, atribuir campanhas a portfólios e gerenciar atribuições de restrições para campanhas selecionadas. Você também pode baixar um relatório do conteúdo da tabela de dados. Além disso, você pode replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising], <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+  * **[!UICONTROL Accounts]**: liste e gerencie contas de rede de anúncios que são sincronizadas por meio de uma conexão de API ou configuradas por meio de carregamento de dados. Você também pode gerenciar contas existentes do [!UICONTROL Naver].
 
-  * **[!UICONTROL Ad Groups]:** Abre uma nova exibição [!UICONTROL Ad Groups], que mostra todos os grupos de anúncios do anunciante. Você pode gerenciar grupos de anúncios e atribuições de restrições para grupos de anúncios selecionados. Você também pode baixar um relatório do conteúdo da tabela de dados.
+  * **[!UICONTROL Campaigns]:** Lista e gerencia todas as campanhas para o anunciante. Você pode atribuir campanhas a portfólios e gerenciar atribuições de rótulos e restrições para campanhas selecionadas. Além disso, você pode replicar [!DNL Google Ads] campanhas em [!DNL Microsoft Advertising].
 
-  * **[!UICONTROL Ads]** Abre uma nova visualização [!UICONTROL Ads], que mostra todos os anúncios para o anunciante. É possível gerenciar anúncios e atribuições de restrições para anúncios selecionados.
+  * **[!UICONTROL Ad Groups]:** Lista e gerencia todos os grupos de anúncios do anunciante. Você pode gerenciar atribuições de etiquetas e restrições para grupos de anúncios selecionados.
 
-  * **[!UICONTROL Keywords]** Abre uma nova visualização [!UICONTROL Keywords], que mostra palavras-chave existentes e palavras-chave negativas para o anunciante. Você pode gerenciar atribuições de restrição para palavras-chave selecionadas.
+  * **[!UICONTROL Ads]** Liste e gerencie todos os anúncios do anunciante. É possível gerenciar atribuições de etiquetas e restrições para anúncios selecionados.
 
-    Para criar, editar e excluir palavras-chave e palavras-chave negativas, use as visualizações [!UICONTROL Campaigns] > [!UICONTROL Campaigns] herdadas. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Keywords]** Liste e gerencie palavras-chave existentes e negativas para o anunciante. Você pode gerenciar atribuições de rótulo e restrição para palavras-chave selecionadas.
 
-  * **[!UICONTROL Product Groups]** Abre uma nova exibição [!UICONTROL Keywords], que mostra seus grupos de produtos de compras existentes. Você pode gerenciar grupos de produtos, incluindo atribuições de restrições e rótulos.
+  * **[!UICONTROL Product Groups]** Liste e gerencie seus grupos de produtos de compras existentes. Você pode gerenciar atribuições de etiquetas e restrições para grupos de produtos selecionados.
 
 * Submenu **[!UICONTROL Reports]**:
 
-  * **[!UICONTROL Insights]**: Sai do novo site e abre a visualização [!UICONTROL Insights & Reports] > [!UICONTROL Insights] herdada.
+  * **[!UICONTROL Insights]**: Gerar dados visuais e acionáveis para ajudá-lo a avaliar o desempenho do portfólio, identificar problemas de otimização e comparar dados de conversão.
 
-  * **[!UICONTROL Reports]**: abre uma nova visualização [!UICONTROL Reports], que permite gerar e gerenciar relatórios agendados.
+  * **[!UICONTROL Reports]**: Gerar e gerenciar relatórios e modelos de relatório personalizados.
 
-  * **[!UICONTROL Spreadsheet Feeds]**: Abre uma nova visualização [!UICONTROL Spreadsheets Feeds], a partir da qual você pode configurar feeds de relatório para serem atualizados diariamente.
+  * **[!UICONTROL Spreadsheet Feeds]**: Exibir e configurar feeds de relatório para serem atualizados diariamente.
 
-  * **[!UICONTROL History Logs]**: Abre uma nova visualização [!UICONTROL History Logs] com detalhes sobre alterações recentes na conta do anunciante.
+  * **[!UICONTROL History Logs]**: exibir alterações recentes na conta do anunciante.
 
 * Submenu **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** Abre uma nova [[!UICONTROL Simulations] visualização](/help/search-social-commerce/plan/simulations/simulation-about.md), da qual você pode ver todas as suas simulações personalizadas criadas pelo usuário e simulações semanais geradas automaticamente; gerar novas simulações personalizadas; e executar novamente simulações existentes. O botão [!UICONTROL Spend Planner] abre a ferramenta [!UICONTROL Spend Recommendation] herdada em [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** Liste todas as simulações personalizadas criadas pelo usuário e as simulações semanais geradas automaticamente, gere novas simulações personalizadas e execute novamente as simulações existentes.
 
-  * **[!UICONTROL Spend Planner]** Sai do novo site e abre a visualização [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] herdada.
+  * **[!UICONTROL Spend Planner]** Gere e aplique recomendações de orçamento de portfólio para uma distribuição de gastos ideal entre seus portfólios.
 
 * Submenu **[!UICONTROL Set Up]**:
 
-  * **[!UICONTROL Bulksheets]**: Abre uma nova visualização [!UICONTROL Bulksheets].
+  * **[!UICONTROL Bulksheets]**: baixe e carregue arquivos de bulksheet contendo dados de campanha para suas redes de anúncios.
 
-  * **[!UICONTROL Label Classification]** Abre uma nova exibição para gerenciar classificações e atribuir/cancelar atribuição de valores de classificação a quaisquer componentes de conta aplicáveis que estejam disponíveis na nova interface do usuário.
+  * **[!UICONTROL Label Classification]** Liste e gerencie classificações, incluindo atribuição/desatribuição de valores de classificação a campanhas e componentes da campanha.
 
-  * **[!UICONTROL Manager Accounts]**: abre um novo modo de exibição para listar e gerenciar contas de gerente em suas redes de anúncios.
+  * **[!UICONTROL Manager Accounts]**: liste e gerencie contas de gerente em suas redes de anúncios.
 
 * Submenu **[!UICONTROL Goals]**:
 
-  * **[!UICONTROL Objectives]** Abre uma nova exibição, na qual você pode exibir todos os seus objetivos existentes e criar, editar e excluir objetivos.
+  * **[!UICONTROL Objectives]** Liste e gerencie os objetivos de otimização.
 
-  * **[!UICONTROL Conversions]** Abre um novo modo de exibição, no qual você pode exibir as métricas de conversão de um anunciante e personalizar as métricas disponíveis para modos de exibição de gerenciamento e relatórios.
+  * **[!UICONTROL Conversions]** Liste as métricas de conversão rastreadas do anunciante e personalize as métricas disponíveis para exibições de gerenciamento e relatórios.
 
-  * **[!UICONTROL Conversion Value Rules]** Abre uma nova exibição para listar e gerenciar regras de valor de conversão no nível da campanha e da conta para contas do [!DNL Google Ads].
+  * **[!UICONTROL Conversion Value Rules]** Liste e gerencie regras de valor de conversão no nível da campanha e da conta para contas do [!DNL Google Ads].
 
-  * **[!UICONTROL Constraints]** Abre uma nova exibição para listar e gerenciar restrições de licitação.
+  * **[!UICONTROL Constraints]** Lista e gerencia restrições de licitação.
 
 * Submenu **[!UICONTROL Targeting]**:
 
-  * **[!UICONTROL Audiences]**: abre um novo modo de exibição para gerenciar públicos-alvo do anunciante, todos os públicos-alvo e todas as exclusões de público.
+  * **[!UICONTROL Audiences]**: liste e gerencie públicos, públicos-alvo e exclusões de público.
 
-  * **[!UICONTROL Auto Targets]** Abre um novo modo de exibição, que mostra todos os destinos automáticos existentes para o anunciante. Para gerenciar seus destinos automáticos, use a visualização [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] herdada. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Liste e gerencie destinos automáticos. Você pode gerenciar atribuições de rótulo e restrição para alvos automáticos selecionados.
 
-  * **[!UICONTROL Placements]** Abre um novo modo de exibição para listar e gerenciar seus posicionamentos e posicionamentos negativos para o anunciante.
+  * **[!UICONTROL Placements]** Liste e gerencie seus posicionamentos e posicionamentos negativos. É possível gerenciar atribuições de rótulo e restrição para disposições selecionadas.
 
 * Submenu **[!UICONTROL Library]**:
 
-  * **[!UICONTROL Assets]** Abre uma nova exibição para listar e gerenciar seus ativos criativos.
+  * **[!UICONTROL Assets]** Liste e gerencie seus ativos criativos.
 
-  * **[!UICONTROL Extensions]** Abre um novo modo de exibição com guias para listar e gerenciar suas extensões de chamada, extensões do sitelink e associações entre suas extensões de anúncio e entidades de conta.
+  * **[!UICONTROL Extensions]** Liste e gerencie suas extensões de chamada, extensões de sitelink e associações entre suas extensões de anúncios e entidades de conta.
 
   * **[!UICONTROL Products]** Abre exibições somente leitura de suas contas e produtos da central de comércio existentes. Para adicionar uma conta do centro de comércio, use a exibição herdada [!UICONTROL Campaigns] > [!UICONTROL Products]. Retorne à interface herdada clicando no botão [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
